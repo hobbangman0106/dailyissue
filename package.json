@@ -1,0 +1,13 @@
+{
+  "name": "daily-issue-aggregator",
+  "version": "1.0.0",
+  "description": "Hourly updated community best post aggregator",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IssueLink Pro | 커뮤니티 베스트 모아보기</title>
+    <meta name="description" content="주요 커뮤니티의 실시간 베스트 글을 광고 없이 한눈에 확인하세요.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="main-header">
+            <div class="header-content">
+                <div class="logo">
+                    <i data-lucide="calendar" class="logo-icon"></i>
+                    <span>Daily <span>Issue</span></span>
+                </div>
+                <div class="header-meta">
+                    <span id="update-timer" class="update-timer">
+                        <i data-lucide="refresh-cw" class="spin-icon" id="sync-icon"></i>
+                        <span id="last-update-text">갱신 중...</span>
+                    </span>
+                </div>
+            </div>
+            
+            <!-- Community Tabs -->
+            <nav class="community-tabs" id="community-tabs">
+                <button class="tab-btn active" data-community="all">전체</button>
+                <button class="tab-btn" data-community="FM Korea">펨코</button>
+                <button class="tab-btn" data-community="Ruliweb">루리웹</button>
+                <button class="tab-btn" data-community="Theqoo">더쿠</button>
+                <button class="tab-btn" data-community="Bobae Dream">보배</button>
+                <button class="tab-btn" data-community="Clien">클리앙</button>
+                <button class="tab-btn" data-community="Ppomppu">뽐뿌</button>
+                <button class="tab-btn" data-community="DC Inside">디시</button>
+                <button class="tab-btn" data-community="MLB Park">엠팍</button>
+                <button class="tab-btn" data-community="Instiz">인티</button>
+                <button class="tab-btn" data-community="Inven">인벤</button>
+                <button class="tab-btn" data-community="HumorUniv">웃대</button>
+                <button class="tab-btn" data-community="TodayHumor">오유</button>
+                <button class="tab-btn" data-community="Wygosu">와고</button>
+                <button class="tab-btn" data-community="82Cook">82쿡</button>
+                <button class="tab-btn" data-community="Etoland">이토</button>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content-area">
+            <div class="search-bar">
+                <i data-lucide="search"></i>
+                <input type="text" id="post-search" placeholder="제목이나 커뮤니티 검색...">
+            </div>
+
+            <div id="posts-list" class="posts-list">
+                <!-- Posts will be injected here -->
+                <div class="loading-shimmer">
+                    <div class="shimmer-item"></div>
+                    <div class="shimmer-item"></div>
+                    <div class="shimmer-item"></div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer / Mobile Nav -->
+        <footer class="main-footer">
+            <p>&copy; 2026 IssueLink Pro. Ad-free Community Aggregator.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
