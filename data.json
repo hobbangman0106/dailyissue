@@ -1,64 +1,541 @@
 {
-  "lastUpdated": "2026-05-15T20:45:00+09:00",
-  "FM Korea": [
-    {"Title": "3년 전에 은폐된 예비군 사망 사건", "Link": "https://www.fmkorea.com/9828247185", "Comments": "342", "Votes": "1520", "Time": "1시간 전"},
-    {"Title": "연예계 최고의 미스테리.jpg", "Link": "https://www.fmkorea.com/9827587814", "Comments": "156", "Votes": "890", "Time": "2시간 전"},
-    {"Title": "페이커) (카리나?) 잡았죠? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ", "Link": "https://www.fmkorea.com/9828434973", "Comments": "567", "Votes": "2100", "Time": "30분 전"},
-    {"Title": "오늘자.. 코스피 요약..jpg", "Link": "https://www.fmkorea.com/9829545419", "Comments": "89", "Votes": "120", "Time": "5분 전"}
-  ],
-  "Ruliweb": [
-    {"Title": "한국인은 20억 무슬림을 존중하지 않는다는 여자", "Link": "https://bbs.ruliweb.com/best/board/300143/read/66085521", "Views": "45200", "Comments": "234", "Time": "20:15"},
-    {"Title": "자영업하려고 5년차 경찰공무원 때려친 유튜버", "Link": "https://bbs.ruliweb.com/best/board/300143/read/66084478", "Views": "31200", "Comments": "145", "Time": "19:30"},
-    {"Title": "딸한테 바보 소리 듣기 업적을 달성했다", "Link": "https://bbs.ruliweb.com/best/board/300143/read/66084001", "Views": "12000", "Comments": "56", "Time": "18:45"}
-  ],
+  "lastUpdated": "2026-05-16T07:32:31.365Z",
+  "Ruliweb": [],
   "Theqoo": [
-    {"Title": "“쓰레기 줍기는 아동학대”라며 학교 고소...", "Link": "https://theqoo.net/hot/3231456789", "Views": "15600", "Comments": "432", "Time": "20:05"},
-    {"Title": "뉴진스 카피 관련 민희진 인터뷰 내용", "Link": "https://theqoo.net/hot/3231467890", "Views": "89000", "Comments": "1200", "Time": "19:20"},
-    {"Title": "깻잎논쟁에 이은 우산 논쟁", "Link": "https://theqoo.net/hot/3231489012", "Views": "23000", "Comments": "567", "Time": "18:10"}
+    {
+      "Title": "89",
+      "Link": "https://theqoo.net/hot/4205112409#4205112409_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "16:14"
+    },
+    {
+      "Title": "208",
+      "Link": "https://theqoo.net/hot/4205106377#4205106377_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "16:08"
+    },
+    {
+      "Title": "93",
+      "Link": "https://theqoo.net/hot/4205104036#4205104036_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "16:06"
+    },
+    {
+      "Title": "214",
+      "Link": "https://theqoo.net/hot/4205060426#4205060426_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "15:23"
+    },
+    {
+      "Title": "357",
+      "Link": "https://theqoo.net/hot/4205057621#4205057621_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "15:20"
+    },
+    {
+      "Title": "452",
+      "Link": "https://theqoo.net/hot/4205053477#4205053477_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "15:16"
+    },
+    {
+      "Title": "275",
+      "Link": "https://theqoo.net/hot/4205032882#4205032882_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "14:57"
+    },
+    {
+      "Title": "344",
+      "Link": "https://theqoo.net/hot/4205010079#4205010079_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "14:34"
+    },
+    {
+      "Title": "512",
+      "Link": "https://theqoo.net/hot/4204988353#4204988353_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "14:11"
+    },
+    {
+      "Title": "334",
+      "Link": "https://theqoo.net/hot/4204987111#4204987111_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "14:09"
+    },
+    {
+      "Title": "437",
+      "Link": "https://theqoo.net/hot/4204975015#4204975015_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "13:55"
+    },
+    {
+      "Title": "443",
+      "Link": "https://theqoo.net/hot/4204969247#4204969247_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "13:48"
+    },
+    {
+      "Title": "448",
+      "Link": "https://theqoo.net/hot/4204884166#4204884166_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "12:16"
+    },
+    {
+      "Title": "541",
+      "Link": "https://theqoo.net/hot/4204872082#4204872082_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "12:04"
+    },
+    {
+      "Title": "349",
+      "Link": "https://theqoo.net/hot/4204864255#4204864255_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "11:55"
+    },
+    {
+      "Title": "673",
+      "Link": "https://theqoo.net/hot/4204859873#4204859873_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "11:50"
+    },
+    {
+      "Title": "616",
+      "Link": "https://theqoo.net/hot/4204848990#4204848990_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "11:37"
+    },
+    {
+      "Title": "306",
+      "Link": "https://theqoo.net/hot/4204843385#4204843385_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "11:30"
+    },
+    {
+      "Title": "367",
+      "Link": "https://theqoo.net/hot/4204828018#4204828018_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "11:12"
+    },
+    {
+      "Title": "670",
+      "Link": "https://theqoo.net/hot/4204823820#4204823820_comment",
+      "Comments": "0",
+      "Views": "",
+      "Time": "11:07"
+    }
   ],
-  "Bobae Dream": [
-    {"Title": "오늘 대구 찾은 이재명 대통령", "Link": "https://www.bobaedream.co.kr/view?code=best&No=712345", "Comments": "890", "Votes": "2300", "Time": "1시간 전"},
-    {"Title": "군포의 영웅", "Link": "https://www.bobaedream.co.kr/view?code=best&No=712346", "Comments": "120", "Votes": "450", "Time": "2시간 전"},
-    {"Title": "남편 몰래 상가 계약한 아내 대참사", "Link": "https://www.bobaedream.co.kr/view?code=best&No=712348", "Comments": "340", "Votes": "1100", "Time": "3시간 전"}
-  ],
+  "Bobae Dream": [],
   "Clien": [
-    {"Title": "LCK DNS는 정말 못하는군요.", "Link": "https://www.clien.net/service/board/park/18745612", "Comments": "56", "Time": "20:40"},
-    {"Title": "UAE, 호르무즈 우회 송유관 조속 신설…", "Link": "https://www.clien.net/service/board/park/18745613", "Comments": "23", "Time": "20:30"}
+    {
+      "Title": "쿠팡 스포츠패스로 NBA를 시청하고있는데..",
+      "Link": "https://www.clien.net/service/board/park/19191815?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 16:31:38"
+    },
+    {
+      "Title": "페이커 요번 광고 보셨나요",
+      "Link": "https://www.clien.net/service/board/park/19191814?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 16:26:49"
+    },
+    {
+      "Title": "AI가 벤처캐피탈의 60%를 싹쓸이",
+      "Link": "https://www.clien.net/service/board/park/19191813?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 16:25:57"
+    },
+    {
+      "Title": "한국 eSim의 쓴 맛을 봤네요",
+      "Link": "https://www.clien.net/service/board/park/19191811?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 16:22:52"
+    },
+    {
+      "Title": "대한민국 축구대표팀 월드컵 최종 명단",
+      "Link": "https://www.clien.net/service/board/park/19191810?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 16:21:31"
+    },
+    {
+      "Title": "테슬라 배터리양산 근황",
+      "Link": "https://www.clien.net/service/board/park/19191809?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 16:18:28"
+    },
+    {
+      "Title": "김용남 후보 개소식.. 와..",
+      "Link": "https://www.clien.net/service/board/park/19191808?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 16:17:27"
+    },
+    {
+      "Title": "오세훈이 만든 광화문 받들어 총 조형물 시공업체의 정체는 통일교?",
+      "Link": "https://www.clien.net/service/board/park/19191807?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 16:11:59"
+    },
+    {
+      "Title": "15금] 이젠 클리앙에선 후방글은 없는거죠",
+      "Link": "https://www.clien.net/service/board/park/19191805?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 16:06:55"
+    },
+    {
+      "Title": "새 그랜저 외양이 한결 개선된 듯 하네요",
+      "Link": "https://www.clien.net/service/board/park/19191804?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:59:11"
+    },
+    {
+      "Title": "저가 주택 시장이 심상치 않네요...",
+      "Link": "https://www.clien.net/service/board/park/19191803?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:53:28"
+    },
+    {
+      "Title": "주식이야기! ㅡ 키움증권 가입해서 삼성전자1개 받았습니다!",
+      "Link": "https://www.clien.net/service/board/park/19191801?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:49:12"
+    },
+    {
+      "Title": "[속보] 삼성전자 노조 '…노사 미팅 예정'",
+      "Link": "https://www.clien.net/service/board/park/19191800?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:48:06"
+    },
+    {
+      "Title": "조국 저는 이렇게 이해했습니다",
+      "Link": "https://www.clien.net/service/board/park/19191799?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:47:52"
+    },
+    {
+      "Title": "방금 고유가 지원금 대상 제외라고 알림 왔는데 아쉽네요.",
+      "Link": "https://www.clien.net/service/board/park/19191797?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:39:15"
+    },
+    {
+      "Title": "펌] '이진숙 등 2인 방통위 의결 적법'…행정법원, 종전 판결 뒤집어",
+      "Link": "https://www.clien.net/service/board/park/19191796?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:38:15"
+    },
+    {
+      "Title": "삼전 약속 어긴게 이번 파업의 원인은 아니지 않아요?",
+      "Link": "https://www.clien.net/service/board/park/19191795?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:37:33"
+    },
+    {
+      "Title": "[CNN] 몰디브 다이빙 참사. 희생자 전원 제노아대학교 교수들.",
+      "Link": "https://www.clien.net/service/board/park/19191793?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:33:38"
+    },
+    {
+      "Title": "김용남은 김재연과 단일화할 예정으로 보이네요",
+      "Link": "https://www.clien.net/service/board/park/19191791?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:31:13"
+    },
+    {
+      "Title": "근데 제가 삼전 노조원이면 솔직히 파업할꺼 같아요",
+      "Link": "https://www.clien.net/service/board/park/19191789?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:24:25"
+    },
+    {
+      "Title": "중도확장은 허구에요. 뉴이재명은 없습니다.",
+      "Link": "https://www.clien.net/service/board/park/19191788?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:21:11"
+    },
+    {
+      "Title": "[단독] 삼성전자 노사 “월요일에 교섭 재개”... 사측은 노조 요청따라 교섭위원 교체",
+      "Link": "https://www.clien.net/service/board/park/19191786?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:09:17"
+    },
+    {
+      "Title": "펌) 장애인이 출입 거부를 당하면 안내견은..",
+      "Link": "https://www.clien.net/service/board/park/19191784?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:06:15"
+    },
+    {
+      "Title": "삼전 이인용 전 사장 부부 밥먹네요 ㅎㅎ",
+      "Link": "https://www.clien.net/service/board/park/19191782?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:05:16"
+    },
+    {
+      "Title": "평택을.. 유리한고지를 내줘버렸네요",
+      "Link": "https://www.clien.net/service/board/park/19191781?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:04:53"
+    },
+    {
+      "Title": "삼성전자 파업과 하이닉스의 뿌리인 현대전자",
+      "Link": "https://www.clien.net/service/board/park/19191779?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 15:02:35"
+    },
+    {
+      "Title": "평택을. 조국의 후원회장 문성근. 그리고 노회찬.",
+      "Link": "https://www.clien.net/service/board/park/19191775?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 14:57:15"
+    },
+    {
+      "Title": "[속보] 노동장관, 삼성전자 경영진 면담…'대화 적극 나서달라'",
+      "Link": "https://www.clien.net/service/board/park/19191774?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 14:53:36"
+    },
+    {
+      "Title": "국힘, 인구 51만 시흥시장 무공천... '경기도 포기당'?",
+      "Link": "https://www.clien.net/service/board/park/19191773?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 14:52:42"
+    },
+    {
+      "Title": "[CNN] 미국 라울 카스트로 기소 대배심 추진. 쿠바에 마두로 시그널주나.",
+      "Link": "https://www.clien.net/service/board/park/19191770?od=T31&po=0&category=0&groupCd=",
+      "Comments": "0",
+      "Time": "2026-05-16 14:34:52"
+    }
   ],
-  "Ppomppu": [
-    {"Title": "[알리] 꽁돈대첩 역대급 할인", "Link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=123456", "Comments": "156", "Time": "20:10"},
-    {"Title": "코스피 8000선 돌파 기념...", "Link": "https://www.ppomppu.co.kr/zboard/view.php?id=freeboard&no=8765432", "Comments": "234", "Time": "19:50"}
-  ],
-  "MLB Park": [
-    {"Title": "오늘자 코스피 8000 돌파 ㄷㄷ", "Link": "https://mlbpark.donga.com/mp/b.php?b=bullpen&id=20260515001", "Views": "12000", "Time": "20:00"},
-    {"Title": "삼성전자 파업 선언...", "Link": "https://mlbpark.donga.com/mp/b.php?b=bullpen&id=20260515002", "Views": "8900", "Time": "19:30"}
-  ],
-  "Instiz": [
-    {"Title": "카리나 잡은 페이커 ㅋㅋㅋㅋ", "Link": "https://www.instiz.net/pt/7564321", "Comments": "89", "Time": "20:15"},
-    {"Title": "방시혁 민희진 카톡 공개...", "Link": "https://www.instiz.net/pt/7564322", "Comments": "342", "Time": "19:40"}
-  ],
-  "Etoland": [
-    {"Title": "신입사원이 첫 월급 탔다고 한턱 쏘네요", "Link": "https://www.etoland.co.kr/bbs/board.php?bo_table=etohot&wr_id=123456", "Comments": "12", "Time": "20:25"},
-    {"Title": "탈덕수용소 잡은 변호사가 직접 밝힌 신상 알아낸 방법", "Link": "https://www.etoland.co.kr/bbs/board.php?bo_table=etohot&wr_id=123457", "Comments": "89", "Time": "19:50"}
-  ],
-  "TodayHumor": [
-    {"Title": "모기향 한통 다 쓴 아들", "Link": "http://www.todayhumor.co.kr/board/view.php?table=bestofbest&no=482889", "Comments": "45", "Time": "20:00"},
-    {"Title": "MBC PD, 새로 찍은 작품에 소송 네 건 걸렸다고 고백", "Link": "http://www.todayhumor.co.kr/board/view.php?table=bestofbest&no=482888", "Comments": "12", "Time": "19:30"}
-  ],
-  "DC Inside": [
-    {"Title": "오늘자 실베 레전드 ㅋㅋㅋㅋ", "Link": "https://gall.dcinside.com/board/view/?id=dcbest&no=123456", "Comments": "567", "Time": "20:45"},
-    {"Title": "주식 갤러리 근황...", "Link": "https://gall.dcinside.com/board/view/?id=stock&no=876543", "Comments": "234", "Time": "20:20"}
-  ],
-  "Inven": [
-    {"Title": "롤 인벤 화제의 글", "Link": "https://www.inven.co.kr/board/lol/2046/123456", "Comments": "45", "Time": "20:10"}
-  ],
-  "HumorUniv": [
-    {"Title": "웃대 념글 ㅋㅋㅋㅋ", "Link": "http://web.humoruniv.com/board/number/read.html?table=pds&number=123456", "Comments": "89", "Time": "19:55"}
-  ],
-  "Wygosu": [
-    {"Title": "와고 실시간 베스트", "Link": "https://www.ygosu.com/board/real_article/123456", "Comments": "23", "Time": "20:05"}
-  ],
-  "82Cook": [
-    {"Title": "82쿡 오늘의 베스트", "Link": "https://www.82cook.com/entiz/read.php?table=best&no=123456", "Comments": "12", "Time": "19:45"}
+  "Reddit": [
+    {
+      "Title": "Welcome to r/korea!",
+      "Link": "https://www.reddit.com/r/korea/comments/1jsaetu/welcome_to_rkorea/",
+      "Comments": "0",
+      "Votes": "38",
+      "Time": "2025-04-05"
+    },
+    {
+      "Title": "Krafton doubles employee births with parental leave and 100m-won bonus in Korea",
+      "Link": "https://www.reddit.com/r/korea/comments/1te9435/krafton_doubles_employee_births_with_parental/",
+      "Comments": "16",
+      "Votes": "189",
+      "Time": "2026-05-15"
+    },
+    {
+      "Title": "Chinese hacker suspect extradited to South Korea over $32m theft targeting BTS’ Jungkook and others",
+      "Link": "https://www.reddit.com/r/korea/comments/1tefl0l/chinese_hacker_suspect_extradited_to_south_korea/",
+      "Comments": "2",
+      "Votes": "47",
+      "Time": "2026-05-16"
+    },
+    {
+      "Title": "Japan’s Self-Critical Left vs Korea’s Patriotic Left",
+      "Link": "https://www.reddit.com/r/korea/comments/1te9ptw/japans_selfcritical_left_vs_koreas_patriotic_left/",
+      "Comments": "39",
+      "Votes": "60",
+      "Time": "2026-05-15"
+    },
+    {
+      "Title": "How common were physical fights between Korean teens in the 80s?",
+      "Link": "https://www.reddit.com/r/korea/comments/1tedo1w/how_common_were_physical_fights_between_korean/",
+      "Comments": "17",
+      "Votes": "30",
+      "Time": "2026-05-16"
+    },
+    {
+      "Title": "Viral Bread Taxi turns Daejeon into Korea's bakery pilgrimage capital",
+      "Link": "https://www.reddit.com/r/korea/comments/1tefck9/viral_bread_taxi_turns_daejeon_into_koreas_bakery/",
+      "Comments": "0",
+      "Votes": "19",
+      "Time": "2026-05-16"
+    },
+    {
+      "Title": "Creator behind spicy Buldak ramyeon promoted to chairman of Samyang Foods",
+      "Link": "https://www.reddit.com/r/korea/comments/1tdq7kl/creator_behind_spicy_buldak_ramyeon_promoted_to/",
+      "Comments": "17",
+      "Votes": "288",
+      "Time": "2026-05-15"
+    },
+    {
+      "Title": "Korea’s Robotis debuts integrated humanoid to challenge China’s lead",
+      "Link": "https://www.reddit.com/r/korea/comments/1teajvf/koreas_robotis_debuts_integrated_humanoid_to/",
+      "Comments": "9",
+      "Votes": "19",
+      "Time": "2026-05-15"
+    },
+    {
+      "Title": "[MORNING CALM TALES] Adventures on Seoul Metro's Green Line",
+      "Link": "https://www.reddit.com/r/korea/comments/1tekzlh/morning_calm_tales_adventures_on_seoul_metros/",
+      "Comments": "0",
+      "Votes": "2",
+      "Time": "2026-05-16"
+    },
+    {
+      "Title": "Train ride to Busan 🚆",
+      "Link": "https://www.reddit.com/r/korea/comments/1tdjl2t/train_ride_to_busan/",
+      "Comments": "16",
+      "Votes": "84",
+      "Time": "2026-05-15"
+    },
+    {
+      "Title": "Native Teachers' Union Seminar in Daejeon",
+      "Link": "https://www.reddit.com/r/korea/comments/1tdnnw9/native_teachers_union_seminar_in_daejeon/",
+      "Comments": "1",
+      "Votes": "27",
+      "Time": "2026-05-15"
+    },
+    {
+      "Title": "Drink spiking + theft @ B1 club in Seoul",
+      "Link": "https://www.reddit.com/r/korea/comments/1te0wgb/drink_spiking_theft_b1_club_in_seoul/",
+      "Comments": "33",
+      "Votes": "4",
+      "Time": "2026-05-15"
+    },
+    {
+      "Title": "Seoul Bus Stops",
+      "Link": "https://www.reddit.com/r/korea/comments/1tcl4dl/seoul_bus_stops/",
+      "Comments": "73",
+      "Votes": "1937",
+      "Time": "2026-05-14"
+    },
+    {
+      "Title": "KOSPI retreats from near 8,000-mark on foreign sell-off - The Korea Times",
+      "Link": "https://www.reddit.com/r/korea/comments/1tdh8t4/kospi_retreats_from_near_8000mark_on_foreign/",
+      "Comments": "1",
+      "Votes": "26",
+      "Time": "2026-05-15"
+    },
+    {
+      "Title": "Myth that gyopos are likely to say 선전 over 광고",
+      "Link": "https://www.reddit.com/r/korea/comments/1te3x3q/myth_that_gyopos_are_likely_to_say_선전_over_광고/",
+      "Comments": "37",
+      "Votes": "0",
+      "Time": "2026-05-15"
+    },
+    {
+      "Title": "\"Sentence Too Light\"… 'Jeong-in Case' Stepfather Released After 5-Year Serving... Netizens Outraged",
+      "Link": "https://www.reddit.com/r/korea/comments/1tcyo0f/sentence_too_light_jeongin_case_stepfather/",
+      "Comments": "46",
+      "Votes": "155",
+      "Time": "2026-05-14"
+    },
+    {
+      "Title": "Emergency arbitration unavoidable if Samsung strike occurs: Industry minister",
+      "Link": "https://www.reddit.com/r/korea/comments/1td86zx/emergency_arbitration_unavoidable_if_samsung/",
+      "Comments": "7",
+      "Votes": "26",
+      "Time": "2026-05-14"
+    },
+    {
+      "Title": "Gwangju killer sexually assaulted and tried to kill foreign woman the day before murdering high schooler",
+      "Link": "https://www.reddit.com/r/korea/comments/1tcobue/gwangju_killer_sexually_assaulted_and_tried_to/",
+      "Comments": "21",
+      "Votes": "256",
+      "Time": "2026-05-14"
+    },
+    {
+      "Title": "‘The people will prevail’: 1980 report by US rights group details massacre in Gwangju",
+      "Link": "https://www.reddit.com/r/korea/comments/1tcwouv/the_people_will_prevail_1980_report_by_us_rights/",
+      "Comments": "1",
+      "Votes": "56",
+      "Time": "2026-05-14"
+    },
+    {
+      "Title": "2 Chinese nationals sentenced to prison for filming Korean, U.S. air bases",
+      "Link": "https://www.reddit.com/r/korea/comments/1tcrejd/2_chinese_nationals_sentenced_to_prison_for/",
+      "Comments": "5",
+      "Votes": "124",
+      "Time": "2026-05-14"
+    },
+    {
+      "Title": "Fighting Methods of Koreans During the Japanese Colonial Period?",
+      "Link": "https://www.reddit.com/r/korea/comments/1td1pcg/fighting_methods_of_koreans_during_the_japanese/",
+      "Comments": "6",
+      "Votes": "27",
+      "Time": "2026-05-14"
+    },
+    {
+      "Title": "Korea's Q1 Fiscal Deficit Hits 6-Year Low, Fueling Debate Over Surplus Tax Revenue",
+      "Link": "https://www.reddit.com/r/korea/comments/1td6t9x/koreas_q1_fiscal_deficit_hits_6year_low_fueling/",
+      "Comments": "1",
+      "Votes": "15",
+      "Time": "2026-05-14"
+    },
+    {
+      "Title": "[Poll] 53.3% of Koreans want ruling liberal bloc to win on June 3",
+      "Link": "https://www.reddit.com/r/korea/comments/1tcwoh3/poll_533_of_koreans_want_ruling_liberal_bloc_to/",
+      "Comments": "9",
+      "Votes": "39",
+      "Time": "2026-05-14"
+    },
+    {
+      "Title": "Madonna, BTS, and Shakira for World Cup Final Halftime Performance",
+      "Link": "https://www.reddit.com/r/korea/comments/1tco1k0/madonna_bts_and_shakira_for_world_cup_final/",
+      "Comments": "5",
+      "Votes": "38",
+      "Time": "2026-05-14"
+    },
+    {
+      "Title": "Recent U.S. and China diplomacy with Korea made me rethink Korea’s regional role",
+      "Link": "https://www.reddit.com/r/korea/comments/1tcimk7/recent_us_and_china_diplomacy_with_korea_made_me/",
+      "Comments": "32",
+      "Votes": "53",
+      "Time": "2026-05-14"
+    },
+    {
+      "Title": "Samsung and SK Hynix Still Look Like Bargains Compared to Tech Peers",
+      "Link": "https://www.reddit.com/r/korea/comments/1tc9gxc/samsung_and_sk_hynix_still_look_like_bargains/",
+      "Comments": "34",
+      "Votes": "106",
+      "Time": "2026-05-13"
+    },
+    {
+      "Title": "South Korea's stock market capitalization stands at $4.59 trillion",
+      "Link": "https://www.reddit.com/r/korea/comments/1tc9nwg/south_koreas_stock_market_capitalization_stands/",
+      "Comments": "9",
+      "Votes": "37",
+      "Time": "2026-05-13"
+    },
+    {
+      "Title": "Korea builds fast. Europe builds deep. Korean 3-star general argues neither is enough alone.",
+      "Link": "https://www.reddit.com/r/korea/comments/1tcaheb/korea_builds_fast_europe_builds_deep_korean_3star/",
+      "Comments": "7",
+      "Votes": "27",
+      "Time": "2026-05-13"
+    },
+    {
+      "Title": "Same-sex couple files human rights petition after public institution denies marriage leave",
+      "Link": "https://www.reddit.com/r/korea/comments/1tbmyqs/samesex_couple_files_human_rights_petition_after/",
+      "Comments": "12",
+      "Votes": "366",
+      "Time": "2026-05-13"
+    },
+    {
+      "Title": "Investigators raid Unification Church sites over leader's alleged embezzlement",
+      "Link": "https://www.reddit.com/r/korea/comments/1tbuq2e/investigators_raid_unification_church_sites_over/",
+      "Comments": "2",
+      "Votes": "59",
+      "Time": "2026-05-13"
+    }
   ]
 }
