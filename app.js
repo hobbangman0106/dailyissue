@@ -61,6 +61,33 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function parseTime(timeStr) {
+        if (!timeStr) return 0;
+        const now = new Date();
+        
+        if (timeStr.includes('분 전')) {
+            const mins = parseInt(timeStr.replace(/[^0-9]/g, '')) || 0;
+            return now.getTime() - mins * 60000;
+        }
+        if (timeStr.includes('시간 전')) {
+            const hours = parseInt(timeStr.replace(/[^0-9]/g, '')) || 0;
+            return now.getTime() - hours * 3600000;
+        }
+        if (/^\d{1,2}:\d{2}/.test(timeStr)) {
+            const parts = timeStr.match(/(\d{1,2}):(\d{2})/);
+            if (parts) {
+                const date = new Date();
+                date.setHours(parseInt(parts[1]), parseInt(parts[2]), 0, 0);
+                if (date > now) date.setDate(date.getDate() - 1);
+                return date.getTime();
+            }
+        }
+        const d = new Date(timeStr.replace(/\./g, '-').replace(/\//g, '-'));
+        if (!isNaN(d.getTime())) return d.getTime();
+        
+        return 0;
+    }
+
     function processData(data) {
         allPosts = [];
         Object.keys(data).forEach(key => {
@@ -72,6 +99,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 allPosts = [...allPosts, ...communityPosts];
             }
         });
+
+        // 시간순 정렬 (최신순)
+        allPosts.sort((a, b) => parseTime(b.Time) - parseTime(a.Time));
 
         // Set last updated time
         if (data.lastUpdated) {
