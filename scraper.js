@@ -1,6 +1,6 @@
 /**
- * IssueLink Pro Scraper (Enhanced Version)
- * Scrapes 15+ Korean communities.
+ * Dailyissue Scraper (Enhanced Version)
+ * Scrapes 15+ Korean communities + Reddit.
  * Requirements: npm install axios cheerio
  */
 
@@ -19,7 +19,7 @@ const CONFIG = {
             const titleEl = $el.find('.title a');
             return {
                 Title: titleEl.text().replace(/\[\d+\]$/, '').trim(),
-                Link: 'https://www.fmkorea.com' + titleEl.attr('href'),
+                Link: titleEl.attr('href'),
                 Comments: $el.find('.replyNum').text().replace(/\[|\]/g, '') || '0',
                 Votes: $el.find('.vst').text().trim(),
                 Time: $el.find('.regdate').text().trim()
@@ -47,7 +47,7 @@ const CONFIG = {
             const titleEl = $el.find('.title a').last();
             return {
                 Title: titleEl.text().trim(),
-                Link: 'https://theqoo.net' + titleEl.attr('href'),
+                Link: titleEl.attr('href'),
                 Comments: $el.find('.reply').text().trim() || '0',
                 Views: $el.find('.views').text().trim(),
                 Time: $el.find('.time').text().trim()
@@ -61,7 +61,7 @@ const CONFIG = {
             const titleEl = $el.find('.pl14 a');
             return {
                 Title: titleEl.text().trim(),
-                Link: 'https://www.bobaedream.co.kr' + titleEl.attr('href'),
+                Link: titleEl.attr('href'),
                 Comments: $el.find('.comment').text().trim() || '0',
                 Votes: $el.find('.recomm').text().trim(),
                 Time: $el.find('.date').text().trim()
@@ -75,13 +75,26 @@ const CONFIG = {
             const titleEl = $el.find('.list_subject span').first();
             return {
                 Title: titleEl.text().trim(),
-                Link: 'https://www.clien.net' + $el.find('.list_subject').attr('href'),
+                Link: $el.find('.list_subject').attr('href'),
                 Comments: $el.find('.r_count').text().trim() || '0',
                 Time: $el.find('.timestamp').text().trim()
             };
         }
+    },
+    'Reddit': {
+        url: 'https://www.reddit.com/r/korea/hot.json',
+        isJson: true,
+        parseJson: (data) => {
+            return data.data.children.map(child => ({
+                Title: child.data.title,
+                Link: 'https://www.reddit.com' + child.data.permalink,
+                Comments: String(child.data.num_comments),
+                Votes: String(child.data.score),
+                Time: new Date(child.data.created_utc * 1000).toISOString().split('T')[0]
+            }));
+        }
     }
-    // ... Additional configurations can be added similarly for DC, MLB Park, etc.
+    // ... Additional configurations can be added similarly
 };
 
 async function scrape() {
@@ -91,13 +104,26 @@ async function scrape() {
     for (const [name, cfg] of Object.entries(CONFIG)) {
         try {
             console.log(`Scraping ${name}...`);
-            const { data } = await axios.get(cfg.url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+            const { data } = await axios.get(cfg.url, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' } });
+            
+            if (cfg.isJson) {
+                results[name] = cfg.parseJson(data).slice(0, 30);
+                continue;
+            }
+
             const $ = cheerio.load(data);
             const posts = [];
             $(cfg.selector).each((i, el) => {
-                if (i < 15) {
+                if (posts.length < 30) {
                     const post = cfg.parse($(el), $);
-                    if (post.Title) posts.push(post);
+                    if (post && post.Title) {
+                        if (post.Link && !post.Link.startsWith('http')) {
+                            try {
+                                post.Link = new URL(post.Link, cfg.url).href;
+                            } catch(e) {}
+                        }
+                        posts.push(post);
+                    }
                 }
             });
             results[name] = posts;

@@ -1,12 +1,12 @@
 :root {
-    --bg-color: #0d1117;
-    --card-bg: #161b22;
-    --card-hover: #21262d;
-    --accent-color: #58a6ff;
-    --text-primary: #c9d1d9;
-    --text-secondary: #8b949e;
-    --header-bg: rgba(13, 17, 23, 0.95);
-    --border-color: #30363d;
+    --bg-color: #f6f8fa;
+    --card-bg: #ffffff;
+    --card-hover: #f3f4f6;
+    --accent-color: #0969da;
+    --text-primary: #1f2328;
+    --text-secondary: #656d76;
+    --header-bg: rgba(255, 255, 255, 0.95);
+    --border-color: #d0d7de;
     --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -53,7 +53,7 @@ body {
     gap: 6px;
     font-size: 1.25rem;
     font-weight: 700;
-    color: #fff;
+    color: var(--text-primary);
 }
 
 .logo-icon {
@@ -85,7 +85,7 @@ body {
     padding: 6px 14px;
     border-radius: 16px;
     border: 1px solid var(--border-color);
-    background: transparent;
+    background: var(--card-bg);
     color: var(--text-secondary);
     font-size: 0.85rem;
     white-space: nowrap;
@@ -95,7 +95,7 @@ body {
 
 .tab-btn.active {
     background: var(--accent-color);
-    color: #0d1117;
+    color: #ffffff;
     border-color: var(--accent-color);
     font-weight: 600;
 }
@@ -121,9 +121,13 @@ body {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    color: #fff;
+    color: var(--text-primary);
     font-size: 0.9rem;
     outline: none;
+}
+
+.search-bar input::placeholder {
+    color: var(--text-secondary);
 }
 
 /* Compact Post Cards */
@@ -138,18 +142,20 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 10px 14px; /* Reduced padding (approx half size) */
+    padding: 10px 14px;
     background: var(--card-bg);
     border-radius: 8px;
     border: 1px solid var(--border-color);
     text-decoration: none;
     color: inherit;
     transition: var(--transition);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 
 .post-card:hover {
     background: var(--card-hover);
-    border-color: var(--text-secondary);
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
 .post-left-meta {
@@ -187,8 +193,8 @@ body {
 
 .post-title {
     font-size: 0.95rem;
-    font-weight: 500;
-    color: #f0f6fc;
+    font-weight: 600;
+    color: var(--text-primary);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -196,7 +202,7 @@ body {
 }
 
 .comment-count {
-    color: #f85149;
+    color: #cf222e;
     font-size: 0.8rem;
     font-weight: 600;
 }
@@ -232,7 +238,7 @@ body {
 
 .post-time {
     color: var(--text-secondary);
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 /* Mobile */
@@ -240,4 +246,11 @@ body {
     .post-left-meta { min-width: 60px; gap: 4px; }
     .post-title { font-size: 0.9rem; }
     .post-card { padding: 8px 10px; }
+}
+
+.main-footer {
+    text-align: center;
+    padding: 20px 0 40px;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
 }
