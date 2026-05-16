@@ -14,6 +14,7 @@ const DATA_FILE = path.join(__dirname, 'data.json');
 const CONFIG = {
     'FM Korea': {
         url: 'https://www.fmkorea.com/best',
+        domain: 'fmkorea.com',
         selector: '.bd_lst.li_ca tr:not(.notice)',
         parse: ($el, $) => {
             const titleEl = $el.find('.title a');
@@ -28,6 +29,7 @@ const CONFIG = {
     },
     'Ruliweb': {
         url: 'https://bbs.ruliweb.com/best/humor/now',
+        domain: 'ruliweb.com',
         selector: '.item.group',
         parse: ($el, $) => {
             const titleEl = $el.find('.subject a');
@@ -42,6 +44,7 @@ const CONFIG = {
     },
     'Theqoo': {
         url: 'https://theqoo.net/hot',
+        domain: 'theqoo.net',
         selector: 'tbody tr:not(.notice)',
         parse: ($el, $) => {
             const titleEl = $el.find('.title a').last();
@@ -56,6 +59,7 @@ const CONFIG = {
     },
     'Bobae Dream': {
         url: 'https://www.bobaedream.co.kr/list?code=best',
+        domain: 'bobaedream.co.kr',
         selector: '.tr_list',
         parse: ($el, $) => {
             const titleEl = $el.find('.pl14 a');
@@ -70,6 +74,7 @@ const CONFIG = {
     },
     'Clien': {
         url: 'https://www.clien.net/service/board/park?sk=title&sv=%EB%B2%A0%EC%8A%A4%ED%8A%B8',
+        domain: 'clien.net',
         selector: '.list_item',
         parse: ($el, $) => {
             const titleEl = $el.find('.list_subject span').first();
@@ -83,6 +88,7 @@ const CONFIG = {
     },
     'Reddit': {
         url: 'https://www.reddit.com/r/korea/hot.json?limit=30',
+        domain: 'reddit.com',
         isJson: true,
         parseJson: (data) => {
             return data.data.children.map(child => ({
@@ -94,7 +100,6 @@ const CONFIG = {
             }));
         }
     }
-    // ... Additional configurations can be added similarly
 };
 
 async function scrape() {
@@ -120,6 +125,14 @@ async function scrape() {
                         if (post.Link && !post.Link.startsWith('http')) {
                             try {
                                 post.Link = new URL(post.Link, cfg.url).href;
+                            } catch(e) {}
+                        }
+                        // 사용자가 지정한 도메인으로 강제 변경
+                        if (cfg.domain && post.Link) {
+                            try {
+                                const url = new URL(post.Link);
+                                url.hostname = cfg.domain;
+                                post.Link = url.href;
                             } catch(e) {}
                         }
                         posts.push(post);
