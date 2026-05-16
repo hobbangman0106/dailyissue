@@ -1,9 +1,3 @@
-/**
- * Dailyissue Scraper (Enhanced Version)
- * Scrapes 15+ Korean communities + Reddit.
- * Requirements: npm install axios cheerio
- */
-
 const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
@@ -86,6 +80,45 @@ const CONFIG = {
             };
         }
     },
+    'DC Inside': {
+        url: 'https://www.dcinside.com/',
+        domain: 'dcinside.com',
+        selector: '.box_best .list_best li', // 임시 선택자
+        parse: ($el, $) => {
+            const titleEl = $el.find('a');
+            return {
+                Title: titleEl.text().trim(),
+                Link: titleEl.attr('href'),
+                Time: new Date().toISOString().split('T')[0] // 시간 정보가 없을 경우 오늘 날짜
+            };
+        }
+    },
+    'Inven': {
+        url: 'https://www.inven.co.kr/webzine/news/',
+        domain: 'inven.co.kr',
+        selector: '.newsList .item', // 임시 선택자
+        parse: ($el, $) => {
+            const titleEl = $el.find('.title a');
+            return {
+                Title: titleEl.text().trim(),
+                Link: titleEl.attr('href'),
+                Time: $el.find('.date').text().trim()
+            };
+        }
+    },
+    'Instiz': {
+        url: 'https://www.instiz.net/',
+        domain: 'instiz.net',
+        selector: '.list_item', // 임시 선택자
+        parse: ($el, $) => {
+            const titleEl = $el.find('.title a');
+            return {
+                Title: titleEl.text().trim(),
+                Link: titleEl.attr('href'),
+                Time: $el.find('.date').text().trim()
+            };
+        }
+    },
     'Reddit': {
         url: 'https://www.reddit.com/r/korea/hot.json?limit=30',
         domain: 'reddit.com',
@@ -109,7 +142,7 @@ async function scrape() {
     for (const [name, cfg] of Object.entries(CONFIG)) {
         try {
             console.log(`Scraping ${name}...`);
-            const { data } = await axios.get(cfg.url, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' } });
+            const { data } = await axios.get(cfg.url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
             
             if (cfg.isJson) {
                 results[name] = cfg.parseJson(data).slice(0, 30);
@@ -127,7 +160,6 @@ async function scrape() {
                                 post.Link = new URL(post.Link, cfg.url).href;
                             } catch(e) {}
                         }
-                        // 사용자가 지정한 도메인으로 강제 변경
                         if (cfg.domain && post.Link) {
                             try {
                                 const url = new URL(post.Link);
