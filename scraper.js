@@ -82,7 +82,7 @@ const CONFIG = {
         }
     },
     'Reddit': {
-        url: 'https://www.reddit.com/r/korea/hot.json',
+        url: 'https://www.reddit.com/r/korea/hot.json?limit=30',
         isJson: true,
         parseJson: (data) => {
             return data.data.children.map(child => ({
