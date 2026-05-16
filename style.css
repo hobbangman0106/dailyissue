@@ -69,6 +69,15 @@ body {
 .update-timer {
     font-size: 0.75rem;
     color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.update-timer:hover {
+    color: var(--accent-color);
 }
 
 .community-tabs {

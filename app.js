@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('post-search');
     const lastUpdateText = document.getElementById('last-update-text');
     const syncIcon = document.getElementById('sync-icon');
+    const updateTimer = document.getElementById('update-timer');
 
     // Initialize Lucide icons
     lucide.createIcons();
@@ -157,4 +158,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initial Fetch
     fetchData();
+
+    // Manual Refresh
+    if (updateTimer) {
+        updateTimer.addEventListener('click', fetchData);
+    }
+
+    // Auto Refresh every 1 hour (3600000 ms)
+    setInterval(fetchData, 3600000);
 });
