@@ -8,7 +8,8 @@ const FALLBACK_DATA = {
     "DC Inside": [{"Title": "오늘자 실베 레전드 ㅋㅋㅋㅋ", "Link": "https://gall.dcinside.com/board/view/?id=dcbest&no=123456", "Comments": "567", "Time": "20:45"}],
     "Clien": [{"Title": "LCK DNS는 정말 못하는군요.", "Link": "https://www.clien.net/service/board/park/18745612", "Comments": "56", "Time": "20:40"}],
     "Ppomppu": [{"Title": "[알리] 꽁돈대첩 역대급 할인", "Link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=123456", "Comments": "156", "Time": "20:10"}],
-    "MLB Park": [{"Title": "오늘자 코스피 8000 돌파 ㄷㄷ", "Link": "https://mlbpark.donga.com/mp/b.php?b=bullpen&id=20260515001", "Views": "12000", "Time": "20:00"}]
+    "MLB Park": [{"Title": "오늘자 코스피 8000 돌파 ㄷㄷ", "Link": "https://mlbpark.donga.com/mp/b.php?b=bullpen&id=20260515001", "Views": "12000", "Time": "20:00"}],
+    "HumorUniv": [{"Title": "아 진짜 좋은소식있음", "Link": "http://humoruniv.com/board/humor/read.html?table=pds&st=day&pg=0&number=1411274", "Comments": "103", "Views": "54222", "Votes": "1660", "Time": "12시간 전"},{"Title": "당연하지 게임 첫판부터 지게 만드는 법", "Link": "http://humoruniv.com/board/humor/read.html?table=pds&st=day&pg=0&number=1411265", "Comments": "39", "Views": "46573", "Votes": "804", "Time": "15시간 전"}]
 };
 
 const COMMUNITY_COLORS = {
