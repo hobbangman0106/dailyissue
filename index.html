@@ -30,25 +30,39 @@
                 </div>
             </div>
             
-            <!-- Community Tabs -->
+            <!-- Category Tabs -->
+            <nav class="category-tabs" id="category-tabs">
+                <button class="category-btn active" data-category="community">커뮤니티</button>
+                <button class="category-btn" data-category="news">뉴스 기사</button>
+            </nav>
+            
+            <!-- Site Tabs -->
             <nav class="community-tabs" id="community-tabs">
-                <button class="tab-btn active" data-community="all">전체</button>
-                <button class="tab-btn" data-community="FM Korea">펨코</button>
-                <button class="tab-btn" data-community="Ruliweb">루리웹</button>
-                <button class="tab-btn" data-community="Theqoo">더쿠</button>
-                <button class="tab-btn" data-community="Bobae Dream">보배</button>
-                <button class="tab-btn" data-community="Clien">클리앙</button>
-                <button class="tab-btn" data-community="Ppomppu">뽐뿌</button>
-                <button class="tab-btn" data-community="DC Inside">디시</button>
-                <button class="tab-btn" data-community="MLB Park">엠팍</button>
-                <button class="tab-btn" data-community="Instiz">인티</button>
-                <button class="tab-btn" data-community="Inven">인벤</button>
-                <button class="tab-btn" data-community="HumorUniv">웃대</button>
-                <button class="tab-btn" data-community="TodayHumor">오유</button>
-                <button class="tab-btn" data-community="Wygosu">와고</button>
-                <button class="tab-btn" data-community="82Cook">82쿡</button>
-                <button class="tab-btn" data-community="Etoland">이토</button>
-                <button class="tab-btn" data-community="Reddit">레딧</button>
+                <!-- Community Sites -->
+                <button class="tab-btn active" data-community="all" data-parent="community">전체</button>
+                <button class="tab-btn" data-community="FM Korea" data-parent="community">펨코</button>
+                <button class="tab-btn" data-community="Ruliweb" data-parent="community">루리웹</button>
+                <button class="tab-btn" data-community="Theqoo" data-parent="community">더쿠</button>
+                <button class="tab-btn" data-community="Bobae Dream" data-parent="community">보배</button>
+                <button class="tab-btn" data-community="Clien" data-parent="community">클리앙</button>
+                <button class="tab-btn" data-community="Ppomppu" data-parent="community">뽐뿌</button>
+                <button class="tab-btn" data-community="DC Inside" data-parent="community">디시</button>
+                <button class="tab-btn" data-community="MLB Park" data-parent="community">엠팍</button>
+                <button class="tab-btn" data-community="Instiz" data-parent="community">인티</button>
+                <button class="tab-btn" data-community="Inven" data-parent="community">인벤</button>
+                <button class="tab-btn" data-community="HumorUniv" data-parent="community">웃대</button>
+                <button class="tab-btn" data-community="TodayHumor" data-parent="community">오유</button>
+                <button class="tab-btn" data-community="Wygosu" data-parent="community">와고</button>
+                <button class="tab-btn" data-community="82Cook" data-parent="community">82쿡</button>
+                <button class="tab-btn" data-community="Etoland" data-parent="community">이토</button>
+                <button class="tab-btn" data-community="Reddit" data-parent="community">레딧</button>
+                
+                <!-- News Sites -->
+                <button class="tab-btn" data-community="all-news" data-parent="news" style="display:none;">전체 뉴스</button>
+                <button class="tab-btn" data-community="Naver News" data-parent="news" style="display:none;">네이버</button>
+                <button class="tab-btn" data-community="Daum News" data-parent="news" style="display:none;">다음</button>
+                <button class="tab-btn" data-community="Nate News" data-parent="news" style="display:none;">네이트</button>
+                <button class="tab-btn" data-community="Yahoo US" data-parent="news" style="display:none;">야후 US</button>
             </nav>
         </header>
 
@@ -79,7 +93,8 @@
                     <div class="community-grid-container">
                         <div class="grid-header">
                             <div class="grid-tabs">
-                                <span class="grid-tab-item active">전체 커뮤니티</span>
+                                <span class="grid-tab-item active" data-grid-category="news" style="cursor:pointer; padding:8px 12px; margin-right:8px;">뉴스</span>
+                                <span class="grid-tab-item" data-grid-category="community" style="cursor:pointer; padding:8px 12px;">커뮤니티</span>
                             </div>
                             <div class="grid-meta-info">
                                 <i data-lucide="info" style="width:12px;height:12px;"></i>
@@ -154,6 +169,7 @@
         </footer>
     </div>
 
+    <script src="data.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

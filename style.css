@@ -80,6 +80,41 @@ body {
     color: var(--accent-color);
 }
 
+.category-tabs {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 12px;
+}
+
+.category-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    padding: 0 4px 8px 4px;
+    cursor: pointer;
+    position: relative;
+    transition: var(--transition);
+}
+
+.category-btn.active {
+    color: var(--text-primary);
+}
+
+.category-btn.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--text-primary);
+    border-radius: 2px;
+}
+
 .community-tabs {
     display: flex;
     gap: 8px;
@@ -270,7 +305,7 @@ body {
         display: none !important; /* Hide mobile search on desktop */
     }
     
-    .community-tabs {
+    .community-tabs, .category-tabs {
         display: none !important; /* Hide mobile tabs on desktop (use the Naver-style grid instead!) */
     }
     

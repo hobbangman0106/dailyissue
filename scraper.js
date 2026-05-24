@@ -6,6 +6,7 @@ const iconv = require('iconv-lite');
 const https = require('https');
 
 const DATA_FILE = path.join(__dirname, 'data.json');
+const JS_DATA_FILE = path.join(__dirname, 'data.js');
 
 // 프리미엄 브라우저 User-Agent 정의
 const PC_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
@@ -394,6 +395,80 @@ const CONFIG = {
                 Time: new Date(child.data.created_utc * 1000).toISOString().split('T')[0]
             }));
         }
+    },
+    'Naver News': {
+        url: 'https://news.naver.com/main/ranking/popularDay.naver',
+        domain: 'naver.com',
+        encoding: 'euc-kr',
+        limit: 100,
+        selector: '.rankingnews_list a.list_title',
+        parse: ($el, $) => {
+            const title = $el.text().trim();
+            if (!title) return null;
+            return {
+                Title: title,
+                Link: $el.attr('href'),
+                Comments: '0',
+                Views: '0',
+                Time: $el.parent().next('.list_time').text().trim() || ''
+            };
+        }
+    },
+    'Daum News': {
+        url: 'https://news.daum.net/',
+        domain: 'daum.net',
+        limit: 100,
+        selector: '.item_newsheadline2, .item_newsbasic, .item_newscolumn',
+        parse: ($el, $) => {
+            const title = $el.find('.tit_txt').text().trim() || $el.text().trim();
+            if (!title) return null;
+            return {
+                Title: title,
+                Link: $el.attr('href'),
+                Comments: '0',
+                Views: '0',
+                Time: $el.find('.info_txt').text().replace(/\s+/g, ' ').trim() || ''
+            };
+        }
+    },
+    'Nate News': {
+        url: 'https://news.nate.com/rank/interest?sc=all&p=day',
+        domain: 'nate.com',
+        encoding: 'euc-kr',
+        limit: 100,
+        selector: '.mduSubjectList a, .postSubjectList a',
+        parse: ($el, $) => {
+            const title = $el.find('.tit').text().trim() || $el.text().trim();
+            if (!title) return null;
+            let link = $el.attr('href') || '';
+            if (link.startsWith('//')) link = 'https:' + link;
+            return {
+                Title: title,
+                Link: link,
+                Comments: '0',
+                Views: '0',
+                Time: ''
+            };
+        }
+    },
+    'Yahoo US': {
+        url: 'https://news.yahoo.com/rss/',
+        domain: 'yahoo.com',
+        isXml: true,
+        limit: 100,
+        parseXml: ($, limit) => {
+            const posts = [];
+            $('item').slice(0, limit).each((i, el) => {
+                posts.push({
+                    Title: $(el).find('title').text() || '',
+                    Link: $(el).find('link').text() || '',
+                    Comments: '0',
+                    Views: '0',
+                    Time: $(el).find('pubDate').text() || ''
+                });
+            });
+            return posts;
+        }
     }
 };
 
@@ -415,6 +490,20 @@ async function scrape() {
                     } 
                 });
                 results[name] = cfg.parseJson(response.data).slice(0, targetLimit);
+                console.log(`  Scraped ${results[name].length} posts from ${name}`);
+                continue;
+            }
+
+            // 1.5. XML (RSS) 처리
+            if (cfg.isXml) {
+                const response = await axios.get(cfg.url, { 
+                    headers: { 
+                        'User-Agent': PC_UA,
+                        'Accept': 'application/xml, text/xml'
+                    } 
+                });
+                const $xml = cheerio.load(response.data, { xmlMode: true });
+                results[name] = cfg.parseXml($xml, targetLimit);
                 console.log(`  Scraped ${results[name].length} posts from ${name}`);
                 continue;
             }
@@ -500,6 +589,7 @@ async function scrape() {
     }
 
     fs.writeFileSync(DATA_FILE, JSON.stringify(results, null, 2));
+    fs.writeFileSync(JS_DATA_FILE, 'window.LOCAL_DATA = ' + JSON.stringify(results, null, 2) + ';');
     console.log('Update Complete.');
 }
 

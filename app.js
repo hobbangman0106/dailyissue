@@ -272,6 +272,22 @@ const FALLBACK_DATA = {
         {"Title": "[Economy] Hyundai Motor Group breaks sales records in American market", "Link": "https://www.reddit.com/r/korea/comments/1d34579/hyundai_motor_group_breaks_sales_records_in_american_market/", "Comments": "130", "Votes": "870", "Time": "2026-05-24"},
         {"Title": "[Culture] Traditional Hanok village stay: expectations vs reality", "Link": "https://www.reddit.com/r/korea/comments/1d34580/traditional_hanok_village_stay_expectations_vs_reality/", "Comments": "92", "Votes": "430", "Time": "2026-05-24"},
         {"Title": "[Design] DDP Dongdaemun Design Plaza hosts new lighting festival", "Link": "https://www.reddit.com/r/korea/comments/1d34581/ddp_dongdaemun_design_plaza_hosts_new_lighting_festival/", "Comments": "27", "Votes": "120", "Time": "2026-05-24"}
+    ],
+    "Naver News": [
+        {"Title": "한국은행, 기준금리 0.25%p 인하 전격 결정", "Link": "https://news.naver.com/", "Views": "54200", "Comments": "1230", "Time": "1시간 전"},
+        {"Title": "삼성전자, 6세대 HBM 양산 본격화 선언", "Link": "https://news.naver.com/", "Views": "42100", "Comments": "850", "Time": "2시간 전"}
+    ],
+    "Daum News": [
+        {"Title": "카카오모빌리티, 자율주행 택시 시범 서비스 확대", "Link": "https://news.daum.net/", "Views": "38000", "Comments": "540", "Time": "1시간 전"},
+        {"Title": "여의도 불꽃축제, 100만 인파 운집 예상", "Link": "https://news.daum.net/", "Views": "29000", "Comments": "420", "Time": "2시간 전"}
+    ],
+    "Nate News": [
+        {"Title": "손흥민, 토트넘 재계약 협상 돌입 현지 보도", "Link": "https://news.nate.com/", "Views": "45000", "Comments": "670", "Time": "3시간 전"},
+        {"Title": "환절기 독감 주의보... 예방접종 서둘러야", "Link": "https://news.nate.com/", "Views": "12000", "Comments": "110", "Time": "4시간 전"}
+    ],
+    "Yahoo US": [
+        {"Title": "Federal Reserve signals potential rate cuts later this year", "Link": "https://news.yahoo.com/", "Views": "85000", "Comments": "2300", "Time": "1 hr ago"},
+        {"Title": "Tech stocks rally as AI sector continues to surge", "Link": "https://news.yahoo.com/", "Views": "62000", "Comments": "1540", "Time": "2 hrs ago"}
     ]
 };
 
@@ -290,7 +306,11 @@ const COMMUNITY_COLORS = {
     "TodayHumor": "#546e7a",
     "Wygosu": "#424242",
     "82Cook": "#2e7d32",
-    "Etoland": "#4caf50"
+    "Etoland": "#4caf50",
+    "Naver News": "#03c75a",
+    "Daum News": "#fee500",
+    "Nate News": "#f04452",
+    "Yahoo US": "#410093"
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -301,6 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const postsList = document.getElementById('posts-list');
     const tabBtns = document.querySelectorAll('.tab-btn');
+    const categoryBtns = document.querySelectorAll('.category-btn');
     const searchInput = document.getElementById('post-search');
     const lastUpdateText = document.getElementById('last-update-text');
     const syncIcon = document.getElementById('sync-icon');
@@ -313,6 +334,11 @@ document.addEventListener('DOMContentLoaded', () => {
     async function fetchData() {
         syncIcon.classList.add('spin-icon');
         try {
+            if (window.LOCAL_DATA) {
+                processData(window.LOCAL_DATA);
+                syncIcon.classList.remove('spin-icon');
+                return;
+            }
             const response = await fetch('data.json');
             if (!response.ok) throw new Error('CORS or Network Error');
             const data = await response.json();
@@ -395,7 +421,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Render Posts
     function renderPosts() {
         let filtered = allPosts;
-        if (currentCommunity !== 'all') {
+        const newsSites = ['Naver News', 'Daum News', 'Nate News', 'Yahoo US'];
+
+        if (currentCommunity === 'all') {
+            filtered = filtered.filter(post => !newsSites.includes(post.Community));
+        } else if (currentCommunity === 'all-news') {
+            filtered = filtered.filter(post => newsSites.includes(post.Community));
+        } else {
             filtered = filtered.filter(post => post.Community === currentCommunity);
         }
 
@@ -471,6 +503,40 @@ document.addEventListener('DOMContentLoaded', () => {
         lucide.createIcons();
     }
 
+    // Category Event Listeners
+    if (categoryBtns) {
+        categoryBtns.forEach(cBtn => {
+            cBtn.addEventListener('click', () => {
+                categoryBtns.forEach(b => b.classList.remove('active'));
+                cBtn.classList.add('active');
+                
+                const selectedCategory = cBtn.dataset.category;
+                
+                // Show/hide corresponding site tabs
+                let firstVisibleTab = null;
+                tabBtns.forEach(tBtn => {
+                    if (tBtn.dataset.parent === selectedCategory || (selectedCategory === 'community' && tBtn.dataset.community === 'all') || (selectedCategory === 'news' && tBtn.dataset.community === 'all-news')) {
+                        tBtn.style.display = 'inline-block';
+                        if (!firstVisibleTab && tBtn.dataset.community !== 'all' && tBtn.dataset.community !== 'all-news') {
+                            firstVisibleTab = tBtn;
+                        }
+                    } else {
+                        tBtn.style.display = 'none';
+                    }
+                });
+                
+                // Auto-click the appropriate tab
+                if (selectedCategory === 'community') {
+                    const allBtn = Array.from(tabBtns).find(b => b.dataset.community === 'all');
+                    if (allBtn) allBtn.click();
+                } else if (selectedCategory === 'news') {
+                    const allNewsBtn = Array.from(tabBtns).find(b => b.dataset.community === 'all-news');
+                    if (allNewsBtn) allNewsBtn.click();
+                }
+            });
+        });
+    }
+
     // Tab Event Listeners
     tabBtns.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -520,15 +586,45 @@ document.addEventListener('DOMContentLoaded', () => {
         "Wygosu": "와고",
         "82Cook": "82쿡",
         "Etoland": "이토",
-        "Reddit": "레딧"
+        "Reddit": "레딧",
+        "Naver News": "네이버",
+        "Daum News": "다음",
+        "Nate News": "네이트",
+        "Yahoo US": "야후 US"
     };
+
+    let currentGridCategory = 'news';
+    const gridTabItems = document.querySelectorAll('.grid-tab-item');
+    if (gridTabItems) {
+        gridTabItems.forEach(item => {
+            item.addEventListener('click', () => {
+                gridTabItems.forEach(t => t.classList.remove('active'));
+                item.classList.add('active');
+                currentGridCategory = item.dataset.gridCategory;
+                
+                const targetCategoryBtn = Array.from(categoryBtns).find(b => 
+                    b.dataset.category === currentGridCategory
+                );
+                if (targetCategoryBtn) targetCategoryBtn.click();
+
+                renderCommunityGrid();
+            });
+        });
+    }
 
     function renderCommunityGrid() {
         const gridEl = document.getElementById('community-grid');
         if (!gridEl) return;
 
         let gridHtml = '';
-        Object.keys(COMMUNITY_NAMES_MAP).forEach(key => {
+        const newsSites = ['Naver News', 'Daum News', 'Nate News', 'Yahoo US'];
+
+        let keysToRender = Object.keys(COMMUNITY_NAMES_MAP).filter(key => {
+            const isNews = newsSites.includes(key);
+            return currentGridCategory === 'news' ? isNews : !isNews;
+        });
+
+        keysToRender.forEach(key => {
             const shortName = COMMUNITY_NAMES_MAP[key];
             const color = COMMUNITY_COLORS[key] || 'var(--accent-color)';
             const initial = key.substring(0, 2);
@@ -541,17 +637,26 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
         });
 
-        // Add 2 mock slots for a clean 6x3 Naver-like Newsstand grid (total 18 slots)
-        gridHtml += `
-            <div class="grid-cell" style="cursor: default; background: #fafafa;">
-                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">Dailyissue</span>
-                <span style="font-size: 0.65rem; color: #a1a1a1;">공식 서비스</span>
-            </div>
-            <div class="grid-cell" style="cursor: default; background: #fafafa;">
-                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">광고 제로</span>
-                <span style="font-size: 0.65rem; color: #a1a1a1;">실시간 갱신</span>
-            </div>
-        `;
+        if (currentGridCategory === 'news') {
+            const emptySlots = Math.max(0, 6 - keysToRender.length);
+            for(let i=0; i<emptySlots; i++) {
+                gridHtml += `
+                    <div class="grid-cell" style="cursor: default; background: #fafafa;"></div>
+                `;
+            }
+        } else {
+            // Community has 16, add 2 mock slots for 18 (6x3)
+            gridHtml += `
+                <div class="grid-cell" style="cursor: default; background: #fafafa;">
+                    <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">Dailyissue</span>
+                    <span style="font-size: 0.65rem; color: #a1a1a1;">공식 서비스</span>
+                </div>
+                <div class="grid-cell" style="cursor: default; background: #fafafa;">
+                    <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">광고 제로</span>
+                    <span style="font-size: 0.65rem; color: #a1a1a1;">실시간 갱신</span>
+                </div>
+            `;
+        }
 
         gridEl.innerHTML = gridHtml;
 
@@ -562,6 +667,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 cells.forEach(c => c.classList.remove('active'));
                 
+                const targetCategoryBtn = Array.from(categoryBtns).find(b => 
+                    b.dataset.category === currentGridCategory
+                );
+                if (targetCategoryBtn) targetCategoryBtn.click();
+
                 const targetTab = Array.from(tabBtns).find(btn => btn.dataset.community === targetCommunity);
                 if (targetTab) {
                     targetTab.click();
@@ -635,7 +745,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Initialize portal elements
-    renderCommunityGrid();
+    const initialGridTab = Array.from(document.querySelectorAll('.grid-tab-item')).find(t => t.dataset.gridCategory === 'news');
+    if (initialGridTab) initialGridTab.click();
+    else renderCommunityGrid();
+
+    const initialCategoryBtn = Array.from(categoryBtns).find(b => b.dataset.category === 'news');
+    if (initialCategoryBtn) initialCategoryBtn.click();
+
     updateClock();
     setInterval(updateClock, 1000);
 
