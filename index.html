@@ -54,18 +54,101 @@
 
         <!-- Main Content -->
         <main class="content-area">
-            <div class="search-bar">
-                <i data-lucide="search"></i>
-                <input type="text" id="post-search" placeholder="제목이나 커뮤니티 검색...">
+            <!-- Google Search Container (Desktop Only) -->
+            <div class="portal-search-container">
+                <div class="google-logo-wrapper">
+                    <span class="g-blue">G</span>
+                    <span class="g-red">o</span>
+                    <span class="g-yellow">o</span>
+                    <span class="g-blue">g</span>
+                    <span class="g-green">l</span>
+                    <span class="g-red">e</span>
+                </div>
+                <div class="portal-search-box">
+                    <i data-lucide="search"></i>
+                    <input type="text" id="portal-search-input" placeholder="Google 검색 또는 실시간 베스트 검색...">
+                    <div class="search-mode-toggle">
+                        <span class="toggle-option active" id="search-mode-local">베스트</span>
+                        <span class="toggle-option" id="search-mode-google">Google</span>
+                    </div>
+                    <button class="portal-search-btn" id="portal-search-submit">검색</button>
+                </div>
             </div>
 
-            <div id="posts-list" class="posts-list">
-                <!-- Posts will be injected here -->
-                <div class="loading-shimmer">
-                    <div class="shimmer-item"></div>
-                    <div class="shimmer-item"></div>
-                    <div class="shimmer-item"></div>
+            <!-- Portal Columns Wrapper -->
+            <div class="portal-wrapper">
+                <!-- Left Column -->
+                <div class="portal-left">
+                    <!-- Naver style Community Grid (Desktop Only) -->
+                    <div class="community-grid-container">
+                        <div class="grid-header">
+                            <div class="grid-tabs">
+                                <span class="grid-tab-item active">전체 커뮤니티</span>
+                            </div>
+                            <div class="grid-meta-info">
+                                <i data-lucide="info" style="width:12px;height:12px;"></i>
+                                <span>아이콘 클릭 시 실시간 필터링 적용</span>
+                            </div>
+                        </div>
+                        <div class="community-grid" id="community-grid">
+                            <!-- Injected dynamically by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Mobile search bar -->
+                    <div class="search-bar">
+                        <i data-lucide="search"></i>
+                        <input type="text" id="post-search" placeholder="제목이나 커뮤니티 검색...">
+                    </div>
+
+                    <!-- Posts list -->
+                    <div id="posts-list" class="posts-list">
+                        <!-- Posts will be injected here -->
+                        <div class="loading-shimmer">
+                            <div class="shimmer-item"></div>
+                            <div class="shimmer-item"></div>
+                            <div class="shimmer-item"></div>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Right Column (Desktop Only Sidebar) -->
+                <aside class="portal-sidebar">
+                    <!-- Mock Login Box -->
+                    <div class="login-card">
+                        <p class="login-message">
+                            <strong>Daily<span>issue</span></strong>를 더 쉽고 편리하게 이용하세요. 광고 없는 실시간 베스트 모아보기 서비스입니다.
+                        </p>
+                        <a href="#" class="portal-login-btn" onclick="alert('모의 로그인 기능입니다. 실제 로그인이 필요 없는 서비스입니다!'); return false;">
+                            <i data-lucide="user"></i>
+                            <span>Dailyissue 로그인</span>
+                        </a>
+                        <div class="login-links">
+                            <a href="#" onclick="alert('모의 링크입니다.'); return false;">아이디 찾기</a>
+                            <span>|</span>
+                            <a href="#" onclick="alert('모의 링크입니다.'); return false;">비밀번호 찾기</a>
+                            <span>|</span>
+                            <a href="#" onclick="alert('회원가입은 준비 중입니다.'); return false;">회원가입</a>
+                        </div>
+                    </div>
+
+                    <!-- Stats & Time Box -->
+                    <div class="info-card">
+                        <div class="info-card-header">
+                            <span>실시간 브리핑</span>
+                            <span style="color:var(--accent-color); font-weight:700;">LIVE</span>
+                        </div>
+                        <div class="portal-clock" id="portal-clock">00:00:00</div>
+                        <div class="portal-stats-row">
+                            <span>실시간 수집 커뮤니티</span>
+                            <span id="stats-active-communities">12개</span>
+                        </div>
+                        <div class="portal-stats-row">
+                            <span>오늘의 총 베스트 글</span>
+                            <span id="stats-total-posts">0개</span>
+                        </div>
+                    </div>
+                </aside>
             </div>
         </main>
 

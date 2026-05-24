@@ -92,6 +92,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function processData(data) {
         allPosts = [];
+        let activeCount = 0;
+        
         Object.keys(data).forEach(key => {
             if (key !== 'lastUpdated') {
                 const communityPosts = data[key].map(post => ({
@@ -99,6 +101,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     Community: key
                 }));
                 allPosts = [...allPosts, ...communityPosts];
+                
+                if (Array.isArray(data[key]) && data[key].length > 0) {
+                    activeCount++;
+                }
             }
         });
 
@@ -110,6 +116,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const date = new Date(data.lastUpdated);
             lastUpdateText.textContent = `${date.getHours()}시 ${date.getMinutes()}분 갱신됨`;
         }
+
+        // Update portal stats
+        const activeCommunitiesEl = document.getElementById('stats-active-communities');
+        const totalPostsEl = document.getElementById('stats-total-posts');
+        if (activeCommunitiesEl) activeCommunitiesEl.textContent = `${activeCount}개`;
+        if (totalPostsEl) totalPostsEl.textContent = `${allPosts.length}개`;
 
         renderPosts();
     }
@@ -175,6 +187,17 @@ document.addEventListener('DOMContentLoaded', () => {
             tabBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             currentCommunity = btn.dataset.community;
+            
+            // Update grid cell active class in portal view
+            const cells = document.querySelectorAll('.grid-cell[data-community]');
+            cells.forEach(c => {
+                if (c.dataset.community === currentCommunity) {
+                    c.classList.add('active');
+                } else {
+                    c.classList.remove('active');
+                }
+            });
+            
             renderPosts();
             
             // Scroll tab into view if needed
@@ -187,6 +210,140 @@ document.addEventListener('DOMContentLoaded', () => {
         searchQuery = e.target.value;
         renderPosts();
     });
+
+    // Portal Layout Integrations
+    const COMMUNITY_NAMES_MAP = {
+        "FM Korea": "펨코",
+        "Ruliweb": "루리웹",
+        "Theqoo": "더쿠",
+        "Bobae Dream": "보배",
+        "Clien": "클리앙",
+        "Ppomppu": "뽐뿌",
+        "DC Inside": "디시",
+        "MLB Park": "엠팍",
+        "Instiz": "인티",
+        "Inven": "인벤",
+        "HumorUniv": "웃대",
+        "TodayHumor": "오유",
+        "Wygosu": "와고",
+        "82Cook": "82쿡",
+        "Etoland": "이토",
+        "Reddit": "레딧"
+    };
+
+    function renderCommunityGrid() {
+        const gridEl = document.getElementById('community-grid');
+        if (!gridEl) return;
+
+        let gridHtml = '';
+        Object.keys(COMMUNITY_NAMES_MAP).forEach(key => {
+            const shortName = COMMUNITY_NAMES_MAP[key];
+            const color = COMMUNITY_COLORS[key] || 'var(--accent-color)';
+            const initial = key.substring(0, 2);
+            
+            gridHtml += `
+                <div class="grid-cell" data-community="${key}" id="grid-cell-${key.replace(/\s+/g, '')}">
+                    <span class="grid-brand-icon" style="background: ${color};">${initial}</span>
+                    <span class="grid-brand-name">${shortName}</span>
+                </div>
+            `;
+        });
+
+        // Add 2 mock slots for a clean 6x3 Naver-like Newsstand grid (total 18 slots)
+        gridHtml += `
+            <div class="grid-cell" style="cursor: default; background: #fafafa;">
+                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">Dailyissue</span>
+                <span style="font-size: 0.65rem; color: #a1a1a1;">공식 서비스</span>
+            </div>
+            <div class="grid-cell" style="cursor: default; background: #fafafa;">
+                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">광고 제로</span>
+                <span style="font-size: 0.65rem; color: #a1a1a1;">실시간 갱신</span>
+            </div>
+        `;
+
+        gridEl.innerHTML = gridHtml;
+
+        const cells = gridEl.querySelectorAll('.grid-cell[data-community]');
+        cells.forEach(cell => {
+            cell.addEventListener('click', () => {
+                const targetCommunity = cell.dataset.community;
+                
+                cells.forEach(c => c.classList.remove('active'));
+                
+                const targetTab = Array.from(tabBtns).find(btn => btn.dataset.community === targetCommunity);
+                if (targetTab) {
+                    targetTab.click();
+                    cell.classList.add('active');
+                }
+            });
+        });
+    }
+
+    // Portal Google Search Logic
+    let searchMode = 'local';
+    const toggleLocal = document.getElementById('search-mode-local');
+    const toggleGoogle = document.getElementById('search-mode-google');
+    const portalSearchInput = document.getElementById('portal-search-input');
+    const portalSearchSubmit = document.getElementById('portal-search-submit');
+
+    if (toggleLocal && toggleGoogle && portalSearchInput) {
+        toggleLocal.addEventListener('click', () => {
+            searchMode = 'local';
+            toggleLocal.classList.add('active');
+            toggleGoogle.classList.remove('active');
+            portalSearchInput.placeholder = 'Google 검색 또는 실시간 베스트 검색...';
+        });
+
+        toggleGoogle.addEventListener('click', () => {
+            searchMode = 'google';
+            toggleGoogle.classList.add('active');
+            toggleLocal.classList.remove('active');
+            portalSearchInput.placeholder = 'Google 검색...';
+        });
+
+        function performPortalSearch() {
+            const query = portalSearchInput.value.trim();
+            if (!query) return;
+            if (searchMode === 'google') {
+                window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
+            } else {
+                searchQuery = query;
+                if (searchInput) searchInput.value = query;
+                renderPosts();
+            }
+        }
+
+        portalSearchSubmit.addEventListener('click', performPortalSearch);
+        portalSearchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                performPortalSearch();
+            }
+        });
+
+        portalSearchInput.addEventListener('input', (e) => {
+            if (searchMode === 'local') {
+                searchQuery = e.target.value;
+                if (searchInput) searchInput.value = e.target.value;
+                renderPosts();
+            }
+        });
+    }
+
+    // Sidebar clock updater
+    function updateClock() {
+        const clockEl = document.getElementById('portal-clock');
+        if (!clockEl) return;
+        const now = new Date();
+        const hrs = String(now.getHours()).padStart(2, '0');
+        const mins = String(now.getMinutes()).padStart(2, '0');
+        const secs = String(now.getSeconds()).padStart(2, '0');
+        clockEl.textContent = `${hrs}:${mins}:${secs}`;
+    }
+
+    // Initialize portal elements
+    renderCommunityGrid();
+    updateClock();
+    setInterval(updateClock, 1000);
 
     // Initial Fetch
     fetchData();
