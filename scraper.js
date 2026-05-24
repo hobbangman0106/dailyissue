@@ -153,6 +153,22 @@ const CONFIG = {
                 Time: `${$el.find('.li_date .w_date').text().trim()} ${$el.find('.li_date .w_time').text().trim()}`.trim()
             };
         }
+    },
+    'TodayHumor': {
+        url: 'http://www.todayhumor.co.kr/board/list.php?table=bestofbest',
+        domain: 'todayhumor.co.kr',
+        selector: 'tr.view',
+        parse: ($el, $) => {
+            const titleEl = $el.find('td.subject a');
+            return {
+                Title: titleEl.text().trim(),
+                Link: titleEl.attr('href'),
+                Comments: $el.find('.list_memo_count_span').text().replace(/\[|\]/g, '').trim() || '0',
+                Views: $el.find('td.hits').text().trim(),
+                Votes: $el.find('td.oknok').text().trim(),
+                Time: $el.find('td.date').text().trim()
+            };
+        }
     }
 };
 
