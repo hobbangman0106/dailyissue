@@ -23,17 +23,28 @@ const CONFIG = {
         }
     },
     'Ruliweb': {
-        url: 'https://bbs.ruliweb.com/best/humor/now',
+        url: 'https://bbs.ruliweb.com/best',
+        urlTemplate: (page) => `https://bbs.ruliweb.com/best?page=${page}`,
         domain: 'ruliweb.com',
-        selector: '.item.group',
+        pagesCount: 4,
+        limit: 100,
+        selector: 'tr.table_body',
         parse: ($el, $) => {
-            const titleEl = $el.find('.subject a');
+            const titleEl = $el.find('.subject strong.text_over');
+            const linkEl = $el.find('.subject a.subject_link');
+            const commentsEl = $el.find('.num_reply');
+            
+            const rawTitle = titleEl.text().trim() || $el.find('.subject a').text().trim();
+            const title = rawTitle.replace(/\s+/g, ' ').replace(/\s*\(\d+\)$/, '').trim();
+            const link = linkEl.attr('href') || $el.find('.subject a').attr('href');
+            
             return {
-                Title: titleEl.text().trim(),
-                Link: titleEl.attr('href'),
-                Comments: $el.find('.reply_count').text().trim() || '0',
-                Views: $el.find('.hit').text().trim(),
-                Time: $el.find('.time').text().trim()
+                Title: title,
+                Link: link,
+                Comments: commentsEl.text().replace(/[\(\)\s]/g, '').trim() || '0',
+                Views: $el.find('td.hit').text().trim(),
+                Votes: $el.find('td.recomd').text().trim(),
+                Time: $el.find('td.time').text().trim()
             };
         }
     },
@@ -180,49 +191,61 @@ async function scrape() {
         try {
             console.log(`Scraping ${name}...`);
             
-            let data;
-            if (cfg.encoding === 'euc-kr') {
-                const response = await axios.get(cfg.url, { 
-                    responseType: 'arraybuffer',
-                    headers: { 
-                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' 
-                    } 
-                });
-                data = iconv.decode(Buffer.from(response.data), 'euc-kr');
-            } else {
-                const response = await axios.get(cfg.url, { 
-                    headers: { 'User-Agent': 'Mozilla/5.0' } 
-                });
-                data = response.data;
-            }
-            
             if (cfg.isJson) {
-                results[name] = cfg.parseJson(data).slice(0, 30);
+                const response = await axios.get(cfg.url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+                results[name] = cfg.parseJson(response.data).slice(0, cfg.limit || 30);
                 continue;
             }
 
-            const $ = cheerio.load(data);
             const posts = [];
-            $(cfg.selector).each((i, el) => {
-                if (posts.length < 30) {
-                    const post = cfg.parse($(el), $);
-                    if (post && post.Title) {
-                        if (post.Link && !post.Link.startsWith('http')) {
-                            try {
-                                post.Link = new URL(post.Link, cfg.url).href;
-                            } catch(e) {}
-                        }
-                        if (cfg.domain && post.Link) {
-                            try {
-                                const url = new URL(post.Link);
-                                url.hostname = cfg.domain;
-                                post.Link = url.href;
-                            } catch(e) {}
-                        }
-                        posts.push(post);
-                    }
+            const pagesCount = cfg.pagesCount || 1;
+            const targetLimit = cfg.limit || 30;
+
+            for (let page = 1; page <= pagesCount; page++) {
+                if (posts.length >= targetLimit) break;
+
+                const pageUrl = cfg.urlTemplate ? cfg.urlTemplate(page) : cfg.url;
+                let htmlData;
+                
+                if (cfg.encoding === 'euc-kr') {
+                    const response = await axios.get(pageUrl, { 
+                        responseType: 'arraybuffer',
+                        headers: { 
+                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' 
+                        } 
+                    });
+                    htmlData = iconv.decode(Buffer.from(response.data), 'euc-kr');
+                } else {
+                    const response = await axios.get(pageUrl, { 
+                        headers: { 
+                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' 
+                        } 
+                    });
+                    htmlData = response.data;
                 }
-            });
+
+                const $ = cheerio.load(htmlData);
+                $(cfg.selector).each((i, el) => {
+                    if (posts.length < targetLimit) {
+                        const post = cfg.parse($(el), $);
+                        if (post && post.Title) {
+                            if (post.Link && !post.Link.startsWith('http')) {
+                                try {
+                                    post.Link = new URL(post.Link, pageUrl).href;
+                                } catch(e) {}
+                            }
+                            if (cfg.domain && post.Link) {
+                                try {
+                                    const url = new URL(post.Link);
+                                    url.hostname = cfg.domain;
+                                    post.Link = url.href;
+                                } catch(e) {}
+                            }
+                            posts.push(post);
+                        }
+                    }
+                });
+            }
             results[name] = posts;
         } catch (error) {
             console.error(`Failed to scrape ${name}:`, error.message);
