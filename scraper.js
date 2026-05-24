@@ -2,6 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
+const iconv = require('iconv-lite');
 
 const DATA_FILE = path.join(__dirname, 'data.json');
 
@@ -41,7 +42,7 @@ const CONFIG = {
         domain: 'theqoo.net',
         selector: 'tbody tr:not(.notice)',
         parse: ($el, $) => {
-            const titleEl = $el.find('.title a').last();
+            const titleEl = $el.find('.title a').first(); // first()로 변경하여 제목 링크 추출 시도
             return {
                 Title: titleEl.text().trim(),
                 Link: titleEl.attr('href'),
@@ -132,6 +133,26 @@ const CONFIG = {
                 Time: new Date(child.data.created_utc * 1000).toISOString().split('T')[0]
             }));
         }
+    },
+    'HumorUniv': {
+        url: 'http://web.humoruniv.com/board/humor/list.html?table=pds&st=day',
+        domain: 'humoruniv.com',
+        encoding: 'euc-kr',
+        selector: 'tr[id^="li_chk_pds-"]',
+        parse: ($el, $) => {
+            const titleEl = $el.find('.li_sbj a span[id^="title_chk_pds-"]');
+            const linkEl = $el.find('.li_sbj a');
+            const commentsEl = $el.find('.list_comment_num');
+            
+            return {
+                Title: titleEl.text().trim(),
+                Link: linkEl.attr('href'),
+                Comments: commentsEl.text().replace(/\[|\]/g, '').trim() || '0',
+                Views: $el.find('td.li_und').eq(0).text().replace(/,/g, '').trim(),
+                Votes: $el.find('td.li_und').eq(1).text().trim(),
+                Time: `${$el.find('.li_date .w_date').text().trim()} ${$el.find('.li_date .w_time').text().trim()}`.trim()
+            };
+        }
     }
 };
 
@@ -142,7 +163,22 @@ async function scrape() {
     for (const [name, cfg] of Object.entries(CONFIG)) {
         try {
             console.log(`Scraping ${name}...`);
-            const { data } = await axios.get(cfg.url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+            
+            let data;
+            if (cfg.encoding === 'euc-kr') {
+                const response = await axios.get(cfg.url, { 
+                    responseType: 'arraybuffer',
+                    headers: { 
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' 
+                    } 
+                });
+                data = iconv.decode(Buffer.from(response.data), 'euc-kr');
+            } else {
+                const response = await axios.get(cfg.url, { 
+                    headers: { 'User-Agent': 'Mozilla/5.0' } 
+                });
+                data = response.data;
+            }
             
             if (cfg.isJson) {
                 results[name] = cfg.parseJson(data).slice(0, 30);
