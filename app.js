@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let allPosts = [];
     let currentCommunity = 'all';
     let searchQuery = '';
+    let visibleCount = 10;
 
     const postsList = document.getElementById('posts-list');
     const tabBtns = document.querySelectorAll('.tab-btn');
@@ -56,8 +57,11 @@ document.addEventListener('DOMContentLoaded', () => {
             processData(data);
         } catch (error) {
             console.warn('Using fallback data due to local file restrictions (CORS).');
-            processData(FALLBACK_DATA);
-            // If fallback data is missing some communities the user added, we should at least show something.
+            const localFallback = {
+                ...FALLBACK_DATA,
+                lastUpdated: new Date().toISOString()
+            };
+            processData(localFallback);
         } finally {
             syncIcon.classList.remove('spin-icon');
         }
@@ -152,7 +156,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        postsList.innerHTML = filtered.map((post, index) => {
+        // Apply slice pagination for "더보기" (Show More)
+        const displayed = filtered.slice(0, visibleCount);
+
+        let postsHtml = displayed.map((post, index) => {
             const color = COMMUNITY_COLORS[post.Community] || 'var(--accent-color)';
             return `
                 <a href="${post.Link}" target="_blank" class="post-card">
@@ -178,6 +185,27 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
         }).join('');
 
+        // Append Show More button if there are more posts to display
+        if (filtered.length > visibleCount) {
+            postsHtml += `
+                <button id="show-more-btn" class="show-more-btn">
+                    <span>더 보기</span>
+                    <i data-lucide="chevron-down"></i>
+                </button>
+            `;
+        }
+
+        postsList.innerHTML = postsHtml;
+
+        // Bind click event to Show More button
+        const showMoreBtn = document.getElementById('show-more-btn');
+        if (showMoreBtn) {
+            showMoreBtn.addEventListener('click', () => {
+                visibleCount += 10;
+                renderPosts();
+            });
+        }
+
         lucide.createIcons();
     }
 
@@ -187,6 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tabBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             currentCommunity = btn.dataset.community;
+            visibleCount = 10; // Reset pagination!
             
             // Update grid cell active class in portal view
             const cells = document.querySelectorAll('.grid-cell[data-community]');
@@ -208,6 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Search Event Listener
     searchInput.addEventListener('input', (e) => {
         searchQuery = e.target.value;
+        visibleCount = 10; // Reset pagination!
         renderPosts();
     });
 
@@ -308,6 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
             } else {
                 searchQuery = query;
+                visibleCount = 10; // Reset pagination!
                 if (searchInput) searchInput.value = query;
                 renderPosts();
             }
@@ -323,6 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
         portalSearchInput.addEventListener('input', (e) => {
             if (searchMode === 'local') {
                 searchQuery = e.target.value;
+                visibleCount = 10; // Reset pagination!
                 if (searchInput) searchInput.value = e.target.value;
                 renderPosts();
             }

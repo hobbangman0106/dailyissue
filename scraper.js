@@ -121,7 +121,7 @@ const CONFIG = {
         }
     },
     'Reddit': {
-        url: 'https://www.reddit.com/r/korea/hot.json?limit=10',
+        url: 'https://www.reddit.com/r/korea/hot.json?limit=30',
         domain: 'reddit.com',
         isJson: true,
         parseJson: (data) => {
@@ -197,14 +197,14 @@ async function scrape() {
             }
             
             if (cfg.isJson) {
-                results[name] = cfg.parseJson(data).slice(0, 10);
+                results[name] = cfg.parseJson(data).slice(0, 30);
                 continue;
             }
 
             const $ = cheerio.load(data);
             const posts = [];
             $(cfg.selector).each((i, el) => {
-                if (posts.length < 10) {
+                if (posts.length < 30) {
                     const post = cfg.parse($(el), $);
                     if (post && post.Title) {
                         if (post.Link && !post.Link.startsWith('http')) {

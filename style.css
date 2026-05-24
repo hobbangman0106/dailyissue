@@ -309,26 +309,27 @@ body {
         width: 100%;
     }
     
-    .google-logo-wrapper {
-        font-family: 'Inter', sans-serif;
-        font-size: 3.2rem;
-        font-weight: 700;
-        letter-spacing: -2px;
-        margin-bottom: 16px;
-        user-select: none;
+    .portal-logo-wrapper {
         display: flex;
-        gap: 2px;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        user-select: none;
+        color: var(--text-primary);
     }
     
-    .google-logo-wrapper span {
-        display: inline-block;
+    .portal-logo-icon {
+        color: var(--accent-color);
+        width: 44px;
+        height: 44px;
     }
     
-    /* Google Brand Colors */
-    .google-logo-wrapper .g-blue { color: #4285F4; }
-    .google-logo-wrapper .g-red { color: #EA4335; }
-    .google-logo-wrapper .g-yellow { color: #FBBC05; }
-    .google-logo-wrapper .g-green { color: #34A853; }
+    .portal-logo-wrapper span span {
+        color: var(--accent-color);
+    }
     
     .portal-search-box {
         display: flex;
@@ -611,6 +612,41 @@ body {
         font-weight: 700;
         color: var(--text-primary);
     }
+}
+
+/* Show More Button (더보기) */
+.show-more-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    max-width: 200px;
+    margin: 16px auto;
+    padding: 10px 20px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    outline: none;
+}
+
+.show-more-btn:hover {
+    background: var(--card-hover);
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+}
+
+.show-more-btn i {
+    width: 16px;
+    height: 16px;
+    transition: var(--transition);
 }
 
 .main-footer {
