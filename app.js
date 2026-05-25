@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
         randomizedCommunities[j] = temp;
     }
 
-    // Rearrange top community tab buttons in DOM to match the randomized order
+    // Rearrange top community tab buttons in DOM to match the randomized order and implement folding
     const communityTabsNav = document.getElementById('community-tabs');
     if (communityTabsNav) {
         const allBtn = communityTabsNav.querySelector('.tab-btn[data-community="all"]');
@@ -364,6 +364,59 @@ document.addEventListener('DOMContentLoaded', () => {
             if (btn && refNode) {
                 refNode.after(btn);
                 refNode = btn;
+            }
+        });
+
+        // Add the "더보기" (More) button at the very end
+        const moreBtn = document.createElement('button');
+        moreBtn.className = 'tab-btn more-btn';
+        moreBtn.id = 'tabs-more-btn';
+        moreBtn.innerHTML = `더보기 <i data-lucide="chevron-down" style="width:12px; height:12px; display:inline-block; vertical-align:middle; margin-left:2px;"></i>`;
+        
+        moreBtn.style.backgroundColor = '#4a5568'; // Slate grey for distinct high-contrast look
+        moreBtn.style.color = '#ffffff';
+        moreBtn.style.borderColor = '#4a5568';
+        moreBtn.style.opacity = '1';
+        moreBtn.style.fontWeight = 'bold';
+        
+        communityTabsNav.appendChild(moreBtn);
+
+        const allSiteBtns = Array.from(communityTabsNav.querySelectorAll('.tab-btn:not(#tabs-more-btn):not([data-community="all"])'));
+        
+        function collapseTabs() {
+            allSiteBtns.forEach((btn, idx) => {
+                // If it is the currently active tab, keep it visible!
+                if (btn.classList.contains('active')) {
+                    btn.style.display = 'inline-block';
+                } else if (idx >= 8) { // Only show first 8 community buttons (plus "all" makes 9)
+                    btn.style.display = 'none';
+                } else {
+                    btn.style.display = 'inline-block';
+                }
+            });
+            moreBtn.innerHTML = `더보기 <i data-lucide="chevron-down" style="width:12px; height:12px; display:inline-block; vertical-align:middle; margin-left:2px;"></i>`;
+            lucide.createIcons();
+        }
+
+        function expandTabs() {
+            allSiteBtns.forEach(btn => {
+                btn.style.display = 'inline-block';
+            });
+            moreBtn.innerHTML = `접기 <i data-lucide="chevron-up" style="width:12px; height:12px; display:inline-block; vertical-align:middle; margin-left:2px;"></i>`;
+            lucide.createIcons();
+        }
+
+        let isExpanded = false;
+        collapseTabs(); // Start collapsed
+
+        moreBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (isExpanded) {
+                collapseTabs();
+                isExpanded = false;
+            } else {
+                expandTabs();
+                isExpanded = true;
             }
         });
     }
@@ -498,11 +551,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // 시간순 정렬 (최신순)
         allPosts.sort((a, b) => parseTime(b.Time) - parseTime(a.Time));
 
-        // Set last updated time
-        if (data.lastUpdated) {
-            const date = new Date(data.lastUpdated);
-            lastUpdateText.textContent = `${date.getHours()}시 ${date.getMinutes()}분 갱신됨`;
-        }
+
 
         // Update portal stats
         const activeCommunitiesEl = document.getElementById('stats-active-communities');

@@ -420,6 +420,12 @@ body {
         font-size: 0.75rem;
         border-radius: 50px !important; /* Full capsule shape */
     }
+    
+    .more-btn {
+        display: inline-flex !important;
+        align-items: center;
+        gap: 2px;
+    }
 }
 
 /* Desktop Portal Layout */
