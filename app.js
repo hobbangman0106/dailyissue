@@ -431,7 +431,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabBtns = document.querySelectorAll('.tab-btn:not(#tabs-more-btn)');
     const categoryBtns = document.querySelectorAll('.category-btn');
     const searchInput = document.getElementById('post-search');
-    const lastUpdateText = document.getElementById('last-update-text');
 
     // Apply community brand colors to mobile site tab buttons dynamically
     tabBtns.forEach(btn => {
@@ -463,11 +462,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fetch Data
     async function fetchData() {
-        syncIcon.classList.add('spin-icon');
+        if (syncIcon) syncIcon.classList.add('spin-icon');
         try {
             if (window.LOCAL_DATA) {
                 processData(window.LOCAL_DATA);
-                syncIcon.classList.remove('spin-icon');
+                if (syncIcon) syncIcon.classList.remove('spin-icon');
                 return;
             }
             const response = await fetch('data.json');
@@ -482,7 +481,7 @@ document.addEventListener('DOMContentLoaded', () => {
             };
             processData(localFallback);
         } finally {
-            syncIcon.classList.remove('spin-icon');
+            if (syncIcon) syncIcon.classList.remove('spin-icon');
         }
     }
 
@@ -901,16 +900,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Sidebar clock updater
-    function updateClock() {
-        const clockEl = document.getElementById('portal-clock');
-        if (!clockEl) return;
-        const now = new Date();
-        const hrs = String(now.getHours()).padStart(2, '0');
-        const mins = String(now.getMinutes()).padStart(2, '0');
-        const secs = String(now.getSeconds()).padStart(2, '0');
-        clockEl.textContent = `${hrs}:${mins}:${secs}`;
-    }
+
 
     // Initialize portal elements
     // Initialize portal elements
@@ -918,8 +908,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    updateClock();
-    setInterval(updateClock, 1000);
+
 
     // Initial Fetch
     fetchData();
