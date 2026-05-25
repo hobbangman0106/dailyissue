@@ -844,7 +844,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <span style="font-size: 0.65rem; color: #a1a1a1;">공식 서비스</span>
             </div>
             <div class="grid-cell" style="cursor: default; background: #fafafa;">
-                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">광고 제로</span>
+                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">스마트 피드</span>
                 <span style="font-size: 0.65rem; color: #a1a1a1;">실시간 갱신</span>
             </div>
             <div class="grid-cell" style="cursor: default; background: #fafafa;">
