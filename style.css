@@ -430,6 +430,10 @@ body {
 
 /* Desktop Portal Layout */
 @media (min-width: 768px) {
+    .main-header {
+        display: none !important; /* Hide header completely on desktop for a cleaner look */
+    }
+
     .app-container {
         max-width: 1080px; /* Expand max-width slightly on desktop for portal layout */
     }
