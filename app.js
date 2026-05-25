@@ -337,10 +337,42 @@ const COMMUNITY_NAMES_MAP = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    // List of active unified community and news names
+    const baseCommunities = [
+        "DC Inside", "Ruliweb", "Theqoo", "Bobae Dream", 
+        "Clien", "Ppomppu", "MLB Park", "Instiz", "Inven", 
+        "HumorUniv", "TodayHumor", "Wygosu", "82Cook", "Etoland", "Reddit",
+        "Naver News", "Daum News", "Nate News", "Yahoo US"
+    ];
+
+    // Shuffle baseCommunities once per visit
+    const randomizedCommunities = [...baseCommunities];
+    for (let i = randomizedCommunities.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const temp = randomizedCommunities[i];
+        randomizedCommunities[i] = randomizedCommunities[j];
+        randomizedCommunities[j] = temp;
+    }
+
+    // Rearrange top community tab buttons in DOM to match the randomized order
+    const communityTabsNav = document.getElementById('community-tabs');
+    if (communityTabsNav) {
+        const allBtn = communityTabsNav.querySelector('.tab-btn[data-community="all"]');
+        let refNode = allBtn;
+        randomizedCommunities.forEach(comm => {
+            const btn = communityTabsNav.querySelector(`.tab-btn[data-community="${comm}"]`);
+            if (btn && refNode) {
+                refNode.after(btn);
+                refNode = btn;
+            }
+        });
+    }
+
     let allPosts = [];
     let currentCommunity = 'all';
     let searchQuery = '';
     let visibleCount = 10;
+    let currentViewMode = 'dashboard';
 
     const postsList = document.getElementById('posts-list');
     const tabBtns = document.querySelectorAll('.tab-btn');
@@ -461,13 +493,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // Render Posts
     function renderPosts() {
         let filtered = allPosts;
-        const newsSites = ['Naver News', 'Daum News', 'Nate News', 'Yahoo US'];
 
-        if (currentCommunity === 'all') {
-            filtered = filtered.filter(post => !newsSites.includes(post.Community));
-        } else if (currentCommunity === 'all-news') {
-            filtered = filtered.filter(post => newsSites.includes(post.Community));
-        } else {
+        // Determine if we are on a merged view ("전체")
+        const isMergedView = currentCommunity === 'all';
+
+        // 1. Show or hide the view mode switcher based on whether it is a merged view
+        const vmContainer = document.getElementById('view-mode-container');
+        if (vmContainer) {
+            if (isMergedView) {
+                vmContainer.style.display = 'flex';
+                // Update title text
+                const titleText = document.getElementById('view-mode-title-text');
+                if (titleText) {
+                    titleText.textContent = '통합 모아보기';
+                }
+            } else {
+                vmContainer.style.display = 'none';
+            }
+        }
+
+        // 2. Filter posts
+        if (currentCommunity !== 'all') {
             filtered = filtered.filter(post => post.Community === currentCommunity);
         }
 
@@ -490,6 +536,95 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        // 3. Render Dashboard Grid View or Standard Timeline View
+        if (isMergedView && currentViewMode === 'dashboard') {
+            // Group filtered posts by their community
+            const postsByCommunity = {};
+            filtered.forEach(post => {
+                if (!postsByCommunity[post.Community]) {
+                    postsByCommunity[post.Community] = [];
+                }
+                postsByCommunity[post.Community].push(post);
+            });
+
+            // We want to render a grid of cards
+            let cardsHtml = '';
+            
+            // Define order of communities to display
+            let communityOrder = [];
+            if (currentCommunity === 'all') {
+                communityOrder = randomizedCommunities;
+            } else {
+                communityOrder = ["Naver News", "Daum News", "Nate News", "Yahoo US"];
+            }
+
+            cardsHtml += `<div class="dashboard-grid">`;
+
+            communityOrder.forEach(comm => {
+                const commPosts = postsByCommunity[comm] || [];
+                if (commPosts.length === 0) return; // Skip if no posts scraped
+
+                const color = COMMUNITY_COLORS[comm] || 'var(--accent-color)';
+                
+                // Show top 5 posts inside this card
+                const topPosts = commPosts.slice(0, 5);
+
+                cardsHtml += `
+                    <div class="dashboard-card">
+                        <div class="dashboard-card-header" style="background: ${color};" data-comm-click="${comm}">
+                            <div class="dashboard-card-title">
+                                <span>${comm}</span>
+                            </div>
+                            <div class="dashboard-card-more">
+                                <span>더보기</span>
+                                <i data-lucide="chevron-right"></i>
+                            </div>
+                        </div>
+                        <div class="dashboard-card-body">
+                `;
+
+                topPosts.forEach((post, idx) => {
+                    cardsHtml += `
+                        <a href="${post.Link}" target="_blank" class="dashboard-row">
+                            <span class="dashboard-row-rank" style="color: ${color};">${idx + 1}</span>
+                            <span class="dashboard-row-main">
+                                ${post.Title}
+                                ${post.Comments && post.Comments !== '0' ? `<span class="dashboard-row-comments">[${post.Comments}]</span>` : ''}
+                            </span>
+                            <span class="dashboard-row-meta">${post.Time || ''}</span>
+                        </a>
+                    `;
+                });
+
+                cardsHtml += `
+                        </div>
+                    </div>
+                `;
+            });
+
+            cardsHtml += `</div>`;
+
+            postsList.innerHTML = cardsHtml;
+
+            // Bind click handlers to dashboard card headers so they act as portal links!
+            const headers = postsList.querySelectorAll('.dashboard-card-header');
+            headers.forEach(header => {
+                header.addEventListener('click', () => {
+                    const targetComm = header.getAttribute('data-comm-click');
+                    
+                    // Click on the corresponding tab button to switch to that site
+                    const tabBtn = Array.from(tabBtns).find(b => b.dataset.community === targetComm);
+                    if (tabBtn) {
+                        tabBtn.click();
+                    }
+                });
+            });
+
+            lucide.createIcons();
+            return;
+        }
+
+        // Otherwise: Standard Timeline View
         // Apply slice pagination for "더보기" (Show More)
         const displayed = filtered.slice(0, visibleCount);
 
@@ -544,39 +679,7 @@ document.addEventListener('DOMContentLoaded', () => {
         lucide.createIcons();
     }
 
-    // Category Event Listeners
-    if (categoryBtns) {
-        categoryBtns.forEach(cBtn => {
-            cBtn.addEventListener('click', () => {
-                categoryBtns.forEach(b => b.classList.remove('active'));
-                cBtn.classList.add('active');
-                
-                const selectedCategory = cBtn.dataset.category;
-                
-                // Show/hide corresponding site tabs
-                let firstVisibleTab = null;
-                tabBtns.forEach(tBtn => {
-                    if (tBtn.dataset.parent === selectedCategory || (selectedCategory === 'community' && tBtn.dataset.community === 'all') || (selectedCategory === 'news' && tBtn.dataset.community === 'all-news')) {
-                        tBtn.style.display = 'inline-block';
-                        if (!firstVisibleTab && tBtn.dataset.community !== 'all' && tBtn.dataset.community !== 'all-news') {
-                            firstVisibleTab = tBtn;
-                        }
-                    } else {
-                        tBtn.style.display = 'none';
-                    }
-                });
-                
-                // Auto-click the appropriate tab
-                if (selectedCategory === 'community') {
-                    const allBtn = Array.from(tabBtns).find(b => b.dataset.community === 'all');
-                    if (allBtn) allBtn.click();
-                } else if (selectedCategory === 'news') {
-                    const allNewsBtn = Array.from(tabBtns).find(b => b.dataset.community === 'all-news');
-                    if (allNewsBtn) allNewsBtn.click();
-                }
-            });
-        });
-    }
+
 
     // Tab Event Listeners
     tabBtns.forEach(btn => {
@@ -610,6 +713,26 @@ document.addEventListener('DOMContentLoaded', () => {
         renderPosts();
     });
 
+    // View Mode Switcher Event Listeners
+    const btnTimeline = document.getElementById('view-mode-timeline');
+    const btnDashboard = document.getElementById('view-mode-dashboard');
+    
+    if (btnTimeline && btnDashboard) {
+        btnTimeline.addEventListener('click', () => {
+            btnTimeline.classList.add('active');
+            btnDashboard.classList.remove('active');
+            currentViewMode = 'timeline';
+            renderPosts();
+        });
+        
+        btnDashboard.addEventListener('click', () => {
+            btnDashboard.classList.add('active');
+            btnTimeline.classList.remove('active');
+            currentViewMode = 'dashboard';
+            renderPosts();
+        });
+    }
+
     // Portal Layout Integrations
     let currentGridCategory = 'news';
     const gridTabItems = document.querySelectorAll('.grid-tab-item');
@@ -637,10 +760,12 @@ document.addEventListener('DOMContentLoaded', () => {
         let gridHtml = '';
         const newsSites = ['Naver News', 'Daum News', 'Nate News', 'Yahoo US'];
 
-        let keysToRender = Object.keys(COMMUNITY_NAMES_MAP).filter(key => {
-            const isNews = newsSites.includes(key);
-            return currentGridCategory === 'news' ? isNews : !isNews;
-        });
+        let keysToRender = [];
+        if (currentGridCategory === 'news') {
+            keysToRender = ["Naver News", "Daum News", "Nate News", "Yahoo US"];
+        } else {
+            keysToRender = randomizedCommunities;
+        }
 
         keysToRender.forEach(key => {
             const shortName = COMMUNITY_NAMES_MAP[key];
@@ -700,53 +825,22 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Portal Google Search Logic
-    let searchMode = 'local';
-    const toggleLocal = document.getElementById('search-mode-local');
-    const toggleGoogle = document.getElementById('search-mode-google');
     const portalSearchInput = document.getElementById('portal-search-input');
     const portalSearchSubmit = document.getElementById('portal-search-submit');
 
-    if (toggleLocal && toggleGoogle && portalSearchInput) {
-        toggleLocal.addEventListener('click', () => {
-            searchMode = 'local';
-            toggleLocal.classList.add('active');
-            toggleGoogle.classList.remove('active');
-            portalSearchInput.placeholder = 'Google 검색 또는 실시간 베스트 검색...';
-        });
-
-        toggleGoogle.addEventListener('click', () => {
-            searchMode = 'google';
-            toggleGoogle.classList.add('active');
-            toggleLocal.classList.remove('active');
-            portalSearchInput.placeholder = 'Google 검색...';
-        });
-
+    if (portalSearchInput) {
         function performPortalSearch() {
             const query = portalSearchInput.value.trim();
             if (!query) return;
-            if (searchMode === 'google') {
-                window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
-            } else {
-                searchQuery = query;
-                visibleCount = 10; // Reset pagination!
-                if (searchInput) searchInput.value = query;
-                renderPosts();
-            }
+            window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
         }
 
-        portalSearchSubmit.addEventListener('click', performPortalSearch);
+        if (portalSearchSubmit) {
+            portalSearchSubmit.addEventListener('click', performPortalSearch);
+        }
         portalSearchInput.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') {
                 performPortalSearch();
-            }
-        });
-
-        portalSearchInput.addEventListener('input', (e) => {
-            if (searchMode === 'local') {
-                searchQuery = e.target.value;
-                visibleCount = 10; // Reset pagination!
-                if (searchInput) searchInput.value = e.target.value;
-                renderPosts();
             }
         });
     }
@@ -767,8 +861,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (initialGridTab) initialGridTab.click();
     else renderCommunityGrid();
 
-    const initialCategoryBtn = Array.from(categoryBtns).find(b => b.dataset.category === 'news');
-    if (initialCategoryBtn) initialCategoryBtn.click();
+
 
     updateClock();
     setInterval(updateClock, 1000);
@@ -781,6 +874,6 @@ document.addEventListener('DOMContentLoaded', () => {
         updateTimer.addEventListener('click', fetchData);
     }
 
-    // Auto Refresh every 1 hour (3600000 ms)
-    setInterval(fetchData, 3600000);
+    // Auto Refresh every 10 minutes (600000 ms)
+    setInterval(fetchData, 600000);
 });

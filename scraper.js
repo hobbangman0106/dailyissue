@@ -26,31 +26,6 @@ const DEFAULT_HEADERS = {
 };
 
 const CONFIG = {
-    'FM Korea': {
-        url: 'https://www.fmkorea.com/best',
-        urlTemplate: (page) => `https://www.fmkorea.com/best?page=${page}`,
-        domain: 'fmkorea.com',
-        pagesCount: 5,
-        limit: 100,
-        headers: {
-            'User-Agent': MOBILE_UA,
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language': 'ko-KR,ko;q=0.9',
-            'Referer': 'https://www.fmkorea.com/',
-            'Accept-Encoding': 'gzip, deflate, br'
-        },
-        selector: '.bd_lst.li_ca tr:not(.notice)',
-        parse: ($el, $) => {
-            const titleEl = $el.find('.title a');
-            return {
-                Title: titleEl.text().replace(/\[\d+\]$/, '').trim(),
-                Link: titleEl.attr('href'),
-                Comments: $el.find('.replyNum').text().replace(/\[|\]/g, '') || '0',
-                Votes: $el.find('.vst').text().trim() || '0',
-                Time: $el.find('.regdate').text().trim() || ''
-            };
-        }
-    },
     'Ruliweb': {
         url: 'https://bbs.ruliweb.com/best',
         urlTemplate: (page) => `https://bbs.ruliweb.com/best?page=${page}`,
@@ -319,8 +294,8 @@ const CONFIG = {
         }
     },
     '82Cook': {
-        url: 'https://www.82cook.com/list.php?table=26',
-        urlTemplate: (page) => `https://www.82cook.com/list.php?table=26&page=${page}`,
+        url: 'https://www.82cook.com/entiz/enti.php?bn=15',
+        urlTemplate: (page) => `https://www.82cook.com/entiz/enti.php?bn=15&page=${page}`,
         domain: '82cook.com',
         pagesCount: 4,
         limit: 100,
@@ -331,7 +306,7 @@ const CONFIG = {
             'Referer': 'https://www.82cook.com/',
             'Connection': 'keep-alive'
         },
-        selector: 'tr',
+        selector: 'tr:not(.noticeList)',
         parse: ($el, $) => {
             const titleEl = $el.find('td.title a').first();
             if (titleEl.length === 0) return null;
@@ -339,9 +314,9 @@ const CONFIG = {
             return {
                 Title: title,
                 Link: titleEl.attr('href'),
-                Comments: $el.find('td.title .comment').text().replace(/[\[\]]/g, '').trim() || '0',
-                Views: $el.find('td.hit').text().trim() || '0',
-                Time: $el.find('td.date').text().trim() || ''
+                Comments: $el.find('td.title em').text().trim() || '0',
+                Views: $el.find('td.numbers').last().text().trim() || '0',
+                Time: $el.find('td.regdate').attr('title') || $el.find('td.regdate').text().trim() || ''
             };
         }
     },
@@ -512,19 +487,6 @@ async function scrape() {
             let cookies = '';
             const activeHeaders = cfg.headers || DEFAULT_HEADERS;
 
-            if (name === 'FM Korea') {
-                try {
-                    // 동일 세션 유지를 위해 메인 페이지 접속
-                    const mainRes = await axios.get('https://www.fmkorea.com/', { 
-                        headers: activeHeaders,
-                        timeout: 5000 
-                    });
-                    const setCookies = mainRes.headers['set-cookie'] || [];
-                    cookies = setCookies.map(c => c.split(';')[0]).join('; ');
-                } catch (e) {
-                    console.log(`  [FM Korea Cookies Info] ${e.message}`);
-                }
-            }
 
             const posts = [];
             const pagesCount = cfg.pagesCount || 1;
