@@ -444,6 +444,63 @@ const CONFIG = {
             });
             return posts;
         }
+    },
+    'Naver Blog': {
+        url: 'https://rss.blog.naver.com/naver_diary',
+        domain: 'blog.naver.com',
+        isXml: true,
+        limit: 100,
+        parseXml: ($, limit) => {
+            const posts = [];
+            $('item').slice(0, limit).each((i, el) => {
+                posts.push({
+                    Title: $(el).find('title').text() || '',
+                    Link: $(el).find('link').text() || '',
+                    Comments: '0',
+                    Views: '0',
+                    Time: $(el).find('pubDate').text() || ''
+                });
+            });
+            return posts;
+        }
+    },
+    'Google Blog': {
+        url: 'https://blog.google/rss/',
+        domain: 'blog.google',
+        isXml: true,
+        limit: 100,
+        parseXml: ($, limit) => {
+            const posts = [];
+            $('item').slice(0, limit).each((i, el) => {
+                posts.push({
+                    Title: $(el).find('title').text() || '',
+                    Link: $(el).find('link').text() || '',
+                    Comments: '0',
+                    Views: '0',
+                    Time: $(el).find('pubDate').text() || ''
+                });
+            });
+            return posts;
+        }
+    },
+    'Tistory': {
+        url: 'https://notice.tistory.com/rss',
+        domain: 'notice.tistory.com',
+        isXml: true,
+        limit: 100,
+        parseXml: ($, limit) => {
+            const posts = [];
+            $('item').slice(0, limit).each((i, el) => {
+                posts.push({
+                    Title: $(el).find('title').text() || '',
+                    Link: $(el).find('link').text() || '',
+                    Comments: '0',
+                    Views: '0',
+                    Time: $(el).find('pubDate').text() || ''
+                });
+            });
+            return posts;
+        }
     }
 };
 

@@ -288,6 +288,19 @@ const FALLBACK_DATA = {
     "Yahoo US": [
         {"Title": "Federal Reserve signals potential rate cuts later this year", "Link": "https://news.yahoo.com/", "Views": "85000", "Comments": "2300", "Time": "1 hr ago"},
         {"Title": "Tech stocks rally as AI sector continues to surge", "Link": "https://news.yahoo.com/", "Views": "62000", "Comments": "1540", "Time": "2 hrs ago"}
+    ],
+    "Naver Blog": [
+        {"Title": "오늘부터 1일! 100일 위젯 미션 도전합니다", "Link": "https://blog.naver.com/", "Views": "2050", "Comments": "45", "Time": "1시간 전"},
+        {"Title": "주간 일기 챌린지 - 벌써 5월 마지막 주라니요", "Link": "https://blog.naver.com/", "Views": "1500", "Comments": "32", "Time": "2시간 전"},
+        {"Title": "내돈내산 명동 한우 맛집 솔직 후기 대방출", "Link": "https://blog.naver.com/", "Views": "4200", "Comments": "18", "Time": "3시간 전"}
+    ],
+    "Google Blog": [
+        {"Title": "Blogger updates: Custom themes and templates guide", "Link": "https://buzz.blogger.com/", "Views": "890", "Comments": "12", "Time": "2시간 전"},
+        {"Title": "Top 10 travel hacks for digital nomads in 2026", "Link": "https://buzz.blogger.com/", "Views": "1200", "Comments": "25", "Time": "4시간 전"}
+    ],
+    "Tistory": [
+        {"Title": "초보 개발자를 위한 Git 핵심 명령어 요약 정리집", "Link": "https://www.tistory.com/", "Views": "6800", "Comments": "89", "Time": "1시간 전"},
+        {"Title": "제주도 서귀포 감성 숙소 베스트 3 추천", "Link": "https://www.tistory.com/", "Views": "3400", "Comments": "15", "Time": "2시간 전"}
     ]
 };
 
@@ -310,7 +323,10 @@ const COMMUNITY_COLORS = {
     "Naver News": "#03c75a",
     "Daum News": "#fee500",
     "Nate News": "#f04452",
-    "Yahoo US": "#410093"
+    "Yahoo US": "#410093",
+    "Naver Blog": "#03c75a",
+    "Google Blog": "#ff5722",
+    "Tistory": "#fc4c02"
 };
 
 const COMMUNITY_NAMES_MAP = {
@@ -333,7 +349,10 @@ const COMMUNITY_NAMES_MAP = {
     "Naver News": "네이버",
     "Daum News": "다음",
     "Nate News": "네이트",
-    "Yahoo US": "야후"
+    "Yahoo US": "야후",
+    "Naver Blog": "N블로그",
+    "Google Blog": "G블로그",
+    "Tistory": "티스토리"
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -342,7 +361,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "DC Inside", "Ruliweb", "Theqoo", "Bobae Dream", 
         "Clien", "Ppomppu", "MLB Park", "Instiz", "Inven", 
         "HumorUniv", "TodayHumor", "Wygosu", "82Cook", "Etoland", "Reddit",
-        "Naver News", "Daum News", "Nate News", "Yahoo US"
+        "Naver News", "Daum News", "Nate News", "Yahoo US",
+        "Naver Blog", "Google Blog", "Tistory"
     ];
 
     // Shuffle baseCommunities once per visit
@@ -837,7 +857,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
         });
 
-        // Render 5 elegant mock slots to complete 24 slots (6x4 grid)
+        // Render 2 elegant mock slots to complete 24 slots (6x4 grid)
         gridHtml += `
             <div class="grid-cell" style="cursor: default; background: #fafafa;">
                 <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">Dailyissue</span>
@@ -846,18 +866,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="grid-cell" style="cursor: default; background: #fafafa;">
                 <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">스마트 피드</span>
                 <span style="font-size: 0.65rem; color: #a1a1a1;">실시간 갱신</span>
-            </div>
-            <div class="grid-cell" style="cursor: default; background: #fafafa;">
-                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">클린 뷰어</span>
-                <span style="font-size: 0.65rem; color: #a1a1a1;">편리한 탐색</span>
-            </div>
-            <div class="grid-cell" style="cursor: default; background: #fafafa;">
-                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">초밀착 뷰</span>
-                <span style="font-size: 0.65rem; color: #a1a1a1;">모바일 최적화</span>
-            </div>
-            <div class="grid-cell" style="cursor: default; background: #fafafa;">
-                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">나만의 피드</span>
-                <span style="font-size: 0.65rem; color: #a1a1a1;">즐겨찾기 완료</span>
             </div>
         `;
 
