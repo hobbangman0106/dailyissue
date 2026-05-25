@@ -733,39 +733,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Portal Layout Integrations
-    let currentGridCategory = 'news';
-    const gridTabItems = document.querySelectorAll('.grid-tab-item');
-    if (gridTabItems) {
-        gridTabItems.forEach(item => {
-            item.addEventListener('click', () => {
-                gridTabItems.forEach(t => t.classList.remove('active'));
-                item.classList.add('active');
-                currentGridCategory = item.dataset.gridCategory;
-                
-                const targetCategoryBtn = Array.from(categoryBtns).find(b => 
-                    b.dataset.category === currentGridCategory
-                );
-                if (targetCategoryBtn) targetCategoryBtn.click();
 
-                renderCommunityGrid();
-            });
-        });
-    }
 
     function renderCommunityGrid() {
         const gridEl = document.getElementById('community-grid');
         if (!gridEl) return;
 
         let gridHtml = '';
-        const newsSites = ['Naver News', 'Daum News', 'Nate News', 'Yahoo US'];
 
-        let keysToRender = [];
-        if (currentGridCategory === 'news') {
-            keysToRender = ["Naver News", "Daum News", "Nate News", "Yahoo US"];
-        } else {
-            keysToRender = randomizedCommunities;
-        }
+        // Render all 19 communities and news sites together
+        const keysToRender = randomizedCommunities;
 
         keysToRender.forEach(key => {
             const shortName = COMMUNITY_NAMES_MAP[key];
@@ -780,26 +757,29 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
         });
 
-        if (currentGridCategory === 'news') {
-            const emptySlots = Math.max(0, 6 - keysToRender.length);
-            for(let i=0; i<emptySlots; i++) {
-                gridHtml += `
-                    <div class="grid-cell" style="cursor: default; background: #fafafa;"></div>
-                `;
-            }
-        } else {
-            // Community has 16, add 2 mock slots for 18 (6x3)
-            gridHtml += `
-                <div class="grid-cell" style="cursor: default; background: #fafafa;">
-                    <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">Dailyissue</span>
-                    <span style="font-size: 0.65rem; color: #a1a1a1;">공식 서비스</span>
-                </div>
-                <div class="grid-cell" style="cursor: default; background: #fafafa;">
-                    <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">광고 제로</span>
-                    <span style="font-size: 0.65rem; color: #a1a1a1;">실시간 갱신</span>
-                </div>
-            `;
-        }
+        // Render 5 elegant mock slots to complete 24 slots (6x4 grid)
+        gridHtml += `
+            <div class="grid-cell" style="cursor: default; background: #fafafa;">
+                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">Dailyissue</span>
+                <span style="font-size: 0.65rem; color: #a1a1a1;">공식 서비스</span>
+            </div>
+            <div class="grid-cell" style="cursor: default; background: #fafafa;">
+                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">광고 제로</span>
+                <span style="font-size: 0.65rem; color: #a1a1a1;">실시간 갱신</span>
+            </div>
+            <div class="grid-cell" style="cursor: default; background: #fafafa;">
+                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">클린 뷰어</span>
+                <span style="font-size: 0.65rem; color: #a1a1a1;">편리한 탐색</span>
+            </div>
+            <div class="grid-cell" style="cursor: default; background: #fafafa;">
+                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">초밀착 뷰</span>
+                <span style="font-size: 0.65rem; color: #a1a1a1;">모바일 최적화</span>
+            </div>
+            <div class="grid-cell" style="cursor: default; background: #fafafa;">
+                <span class="grid-brand-name" style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">나만의 피드</span>
+                <span style="font-size: 0.65rem; color: #a1a1a1;">즐겨찾기 완료</span>
+            </div>
+        `;
 
         gridEl.innerHTML = gridHtml;
 
@@ -809,11 +789,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 const targetCommunity = cell.dataset.community;
                 
                 cells.forEach(c => c.classList.remove('active'));
-                
-                const targetCategoryBtn = Array.from(categoryBtns).find(b => 
-                    b.dataset.category === currentGridCategory
-                );
-                if (targetCategoryBtn) targetCategoryBtn.click();
 
                 const targetTab = Array.from(tabBtns).find(btn => btn.dataset.community === targetCommunity);
                 if (targetTab) {
@@ -857,9 +832,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Initialize portal elements
-    const initialGridTab = Array.from(document.querySelectorAll('.grid-tab-item')).find(t => t.dataset.gridCategory === 'news');
-    if (initialGridTab) initialGridTab.click();
-    else renderCommunityGrid();
+    // Initialize portal elements
+    renderCommunityGrid();
 
 
 
