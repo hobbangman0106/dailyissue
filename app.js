@@ -428,7 +428,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentViewMode = 'dashboard';
 
     const postsList = document.getElementById('posts-list');
-    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabBtns = document.querySelectorAll('.tab-btn:not(#tabs-more-btn)');
     const categoryBtns = document.querySelectorAll('.category-btn');
     const searchInput = document.getElementById('post-search');
     const lastUpdateText = document.getElementById('last-update-text');
