@@ -359,14 +359,28 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!timeStr) return 0;
         const now = new Date();
         
-        if (timeStr.includes('분 전')) {
-            const mins = parseInt(timeStr.replace(/[^0-9]/g, '')) || 0;
+        // 1. "분 전", "분전", "mins ago", "min ago" 처리
+        const minMatch = timeStr.match(/(\d+)\s*(?:분|min)/);
+        if (minMatch) {
+            const mins = parseInt(minMatch[1]) || 0;
             return now.getTime() - mins * 60000;
         }
-        if (timeStr.includes('시간 전')) {
-            const hours = parseInt(timeStr.replace(/[^0-9]/g, '')) || 0;
+        
+        // 2. "시간 전", "시간전", "hrs ago", "hr ago" 처리
+        const hourMatch = timeStr.match(/(\d+)\s*(?:시간|hr)/);
+        if (hourMatch) {
+            const hours = parseInt(hourMatch[1]) || 0;
             return now.getTime() - hours * 3600000;
         }
+
+        // 3. "일 전", "일전", "days ago", "day ago" 처리
+        const dayMatch = timeStr.match(/(\d+)\s*(?:일|day)/);
+        if (dayMatch) {
+            const days = parseInt(dayMatch[1]) || 0;
+            return now.getTime() - days * 86400000;
+        }
+        
+        // 4. "12:34" 형식 (오늘 또는 어제 시간)
         if (/^\d{1,2}:\d{2}/.test(timeStr)) {
             const parts = timeStr.match(/(\d{1,2}):(\d{2})/);
             if (parts) {
@@ -376,11 +390,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 return date.getTime();
             }
         }
+        
+        // 5. 일반 날짜 형식 처리 (예: "2026-05-25", "2026.05.25")
         const d = new Date(timeStr.replace(/\./g, '-').replace(/\//g, '-'));
         if (!isNaN(d.getTime())) return d.getTime();
         
         return 0;
     }
+
 
     function processData(data) {
         allPosts = [];

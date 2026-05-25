@@ -410,7 +410,7 @@ const CONFIG = {
                 Link: $el.attr('href'),
                 Comments: '0',
                 Views: '0',
-                Time: $el.parent().next('.list_time').text().trim() || ''
+                Time: $el.next('.list_time').text().trim() || $el.siblings('.list_time').text().trim() || ''
             };
         }
     },
@@ -447,7 +447,7 @@ const CONFIG = {
                 Link: link,
                 Comments: '0',
                 Views: '0',
-                Time: ''
+                Time: $el.next('.medium').find('em').text().trim() || $el.siblings('.medium').find('em').text().trim() || ''
             };
         }
     },
