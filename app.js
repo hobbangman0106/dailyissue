@@ -313,6 +313,29 @@ const COMMUNITY_COLORS = {
     "Yahoo US": "#410093"
 };
 
+const COMMUNITY_NAMES_MAP = {
+    "FM Korea": "펨코",
+    "Ruliweb": "루리",
+    "Theqoo": "더쿠",
+    "Bobae Dream": "보배",
+    "Clien": "클량",
+    "Ppomppu": "뽐뿌",
+    "DC Inside": "디시",
+    "MLB Park": "엠팍",
+    "Instiz": "인티",
+    "Inven": "인벤",
+    "HumorUniv": "웃대",
+    "TodayHumor": "오유",
+    "Wygosu": "와고",
+    "82Cook": "82쿡",
+    "Etoland": "이토",
+    "Reddit": "레딧",
+    "Naver News": "네이버",
+    "Daum News": "다음",
+    "Nate News": "네이트",
+    "Yahoo US": "야후"
+};
+
 document.addEventListener('DOMContentLoaded', () => {
     let allPosts = [];
     let currentCommunity = 'all';
@@ -472,22 +495,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let postsHtml = displayed.map((post, index) => {
             const color = COMMUNITY_COLORS[post.Community] || 'var(--accent-color)';
+            const shortName = COMMUNITY_NAMES_MAP[post.Community] || post.Community.substring(0, 2);
             return `
                 <a href="${post.Link}" target="_blank" class="post-card">
-                    <div class="post-left-meta">
-                        <span class="community-tag" style="background: ${color};">${post.Community.substring(0,2)}</span>
+                    <div class="post-left-meta" style="background: ${color};">
                         <div class="post-rank">${index + 1}</div>
+                        <span class="community-tag">${shortName}</span>
                     </div>
                     <div class="post-main">
                         <div class="post-title">
                             ${post.Title}
-                            <span class="comment-count">${post.Comments ? `[${post.Comments}]` : ''}</span>
+                            <span class="comment-count">${post.Comments && post.Comments !== '0' ? `[${post.Comments}]` : ''}</span>
                         </div>
                         <div class="post-bottom">
                             <span class="community-name" style="color: ${color}">${post.Community}</span>
                             <div class="post-stats">
-                                ${post.Views ? `<span class="stat-item"><i data-lucide="eye"></i>${post.Views}</span>` : ''}
-                                ${post.Votes ? `<span class="stat-item"><i data-lucide="thumbs-up"></i>${post.Votes}</span>` : ''}
+                                ${post.Views && post.Views !== '0' ? `<span class="stat-item"><i data-lucide="eye"></i>${post.Views}</span>` : ''}
+                                ${post.Votes && post.Votes !== '0' ? `<span class="stat-item"><i data-lucide="thumbs-up"></i>${post.Votes}</span>` : ''}
                                 <span class="post-time">${post.Time || ''}</span>
                             </div>
                         </div>
@@ -587,29 +611,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Portal Layout Integrations
-    const COMMUNITY_NAMES_MAP = {
-        "FM Korea": "펨코",
-        "Ruliweb": "루리웹",
-        "Theqoo": "더쿠",
-        "Bobae Dream": "보배",
-        "Clien": "클리앙",
-        "Ppomppu": "뽐뿌",
-        "DC Inside": "디시",
-        "MLB Park": "엠팍",
-        "Instiz": "인티",
-        "Inven": "인벤",
-        "HumorUniv": "웃대",
-        "TodayHumor": "오유",
-        "Wygosu": "와고",
-        "82Cook": "82쿡",
-        "Etoland": "이토",
-        "Reddit": "레딧",
-        "Naver News": "네이버",
-        "Daum News": "다음",
-        "Nate News": "네이트",
-        "Yahoo US": "야후 US"
-    };
-
     let currentGridCategory = 'news';
     const gridTabItems = document.querySelectorAll('.grid-tab-item');
     if (gridTabItems) {
