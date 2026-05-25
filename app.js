@@ -379,6 +379,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoryBtns = document.querySelectorAll('.category-btn');
     const searchInput = document.getElementById('post-search');
     const lastUpdateText = document.getElementById('last-update-text');
+
+    // Apply community brand colors to mobile site tab buttons dynamically
+    tabBtns.forEach(btn => {
+        const comm = btn.dataset.community;
+        let color = '#2b7de9'; // default blue
+        if (comm === 'all') {
+            color = '#38b2ac'; // beautiful teal for "전체"
+        } else {
+            color = COMMUNITY_COLORS[comm] || '#2b7de9';
+        }
+        
+        btn.style.backgroundColor = color;
+        btn.style.color = '#ffffff';
+        btn.style.borderColor = color;
+        
+        if (btn.classList.contains('active')) {
+            btn.style.opacity = '1';
+            btn.style.transform = 'scale(1.03)';
+            btn.style.boxShadow = '0 2px 6px rgba(0,0,0,0.15)';
+        } else {
+            btn.style.opacity = '0.55'; // dimmed for inactive
+        }
+    });
     const syncIcon = document.getElementById('sync-icon');
     const updateTimer = document.getElementById('update-timer');
 
@@ -684,8 +707,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // Tab Event Listeners
     tabBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            tabBtns.forEach(b => b.classList.remove('active'));
+            tabBtns.forEach(b => {
+                b.classList.remove('active');
+                b.style.opacity = '0.55';
+                b.style.transform = 'none';
+                b.style.boxShadow = 'none';
+            });
             btn.classList.add('active');
+            btn.style.opacity = '1';
+            btn.style.transform = 'scale(1.03)';
+            btn.style.boxShadow = '0 2px 6px rgba(0,0,0,0.15)';
+            
             currentCommunity = btn.dataset.community;
             visibleCount = 10; // Reset pagination!
             

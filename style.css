@@ -407,6 +407,19 @@ body {
     .portal-search-container { display: none !important; }
     .community-grid-container { display: none !important; }
     .portal-sidebar { display: none !important; }
+    
+    /* Mobile-specific wrapped site tabs */
+    .community-tabs {
+        flex-wrap: wrap;
+        gap: 6px;
+        padding-bottom: 8px;
+    }
+    
+    .tab-btn {
+        padding: 5px 12px;
+        font-size: 0.75rem;
+        border-radius: 50px !important; /* Full capsule shape */
+    }
 }
 
 /* Desktop Portal Layout */
