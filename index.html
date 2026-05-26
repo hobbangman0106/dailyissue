@@ -90,19 +90,21 @@
 
                     <!-- Mobile search bar -->
                     <div class="search-bar">
-                        <i data-lucide="search"></i>
                         <input type="text" id="post-search" placeholder="Google 검색...">
+                        <button id="mobile-search-btn" class="search-icon-btn" aria-label="Search">
+                            <i data-lucide="search"></i>
+                        </button>
                     </div>
 
                     <!-- View Mode Switcher -->
                     <div class="view-mode-container" id="view-mode-container" style="display: none;">
                         <div class="view-mode-title" id="view-mode-title-text">모아보기 피드</div>
                         <div class="view-mode-switch">
-                            <button class="view-mode-btn" id="view-mode-timeline" title="시간순 타임라인">
+                            <button class="view-mode-btn active" id="view-mode-timeline" title="시간순 타임라인">
                                 <i data-lucide="list"></i>
                                 <span>타임라인</span>
                             </button>
-                            <button class="view-mode-btn active" id="view-mode-dashboard" title="사이트별 모아보기">
+                            <button class="view-mode-btn" id="view-mode-dashboard" title="사이트별 모아보기">
                                 <i data-lucide="layout-grid"></i>
                                 <span>모아보기</span>
                             </button>

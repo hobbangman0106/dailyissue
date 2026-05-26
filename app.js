@@ -445,7 +445,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentCommunity = 'all';
     let searchQuery = '';
     let visibleCount = 10;
-    let currentViewMode = 'dashboard';
+    let currentViewMode = 'timeline';
 
     const postsList = document.getElementById('posts-list');
     const tabBtns = document.querySelectorAll('.tab-btn:not(#tabs-more-btn)');
@@ -807,15 +807,24 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Search Event Listener (Mobile Google Search)
+    const mobileSearchBtn = document.getElementById('mobile-search-btn');
+    function performMobileSearch() {
+        const query = searchInput.value.trim();
+        if (query) {
+            window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
+        }
+    }
+    
     if (searchInput) {
         searchInput.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') {
-                const query = e.target.value.trim();
-                if (query) {
-                    window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
-                }
+                performMobileSearch();
             }
         });
+    }
+    
+    if (mobileSearchBtn) {
+        mobileSearchBtn.addEventListener('click', performMobileSearch);
     }
 
     // View Mode Switcher Event Listeners

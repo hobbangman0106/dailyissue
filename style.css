@@ -170,21 +170,14 @@ body {
 /* Search */
 .search-bar {
     position: relative;
+    display: flex;
+    align-items: center;
     margin: 16px 0;
-}
-
-.search-bar i {
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--text-secondary);
-    width: 16px;
 }
 
 .search-bar input {
     width: 100%;
-    padding: 10px 12px 10px 38px;
+    padding: 10px 40px 10px 16px;
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 8px;
@@ -195,6 +188,24 @@ body {
 
 .search-bar input::placeholder {
     color: var(--text-secondary);
+}
+
+.search-icon-btn {
+    position: absolute;
+    right: 8px;
+    background: none;
+    border: none;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.search-icon-btn svg {
+    width: 18px;
+    height: 18px;
 }
 
 /* Compact Post Cards */
@@ -674,6 +685,27 @@ body {
         font-weight: 600;
         color: var(--text-primary);
         user-select: none;
+    }
+    
+    .grid-toggle-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        padding: 12px;
+        background: var(--card-bg);
+        border-top: 1px solid var(--border-color);
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--text-secondary);
+        cursor: pointer;
+        transition: var(--transition);
+        user-select: none;
+    }
+    
+    .grid-toggle-btn:hover {
+        background: var(--card-hover);
+        color: var(--text-primary);
     }
     
     /* Login Box */
