@@ -553,7 +553,12 @@ async function scrape() {
 
                 const pageUrl = cfg.urlTemplate ? cfg.urlTemplate(page) : cfg.url;
                 let htmlData;
-                
+                // Add cache buster to prevent CDN from serving stale pages to bot IPs
+                let finalUrl = pageUrl;
+                if (!cfg.isXml && !cfg.isJson) {
+                    finalUrl += (finalUrl.includes('?') ? '&' : '?') + '_cb=' + Date.now();
+                }
+
                 const requestConfig = {
                     headers: {
                         ...activeHeaders,
@@ -565,10 +570,10 @@ async function scrape() {
 
                 if (cfg.encoding === 'euc-kr') {
                     requestConfig.responseType = 'arraybuffer';
-                    const response = await axios.get(pageUrl, requestConfig);
+                    const response = await axios.get(finalUrl, requestConfig);
                     htmlData = iconv.decode(Buffer.from(response.data), 'euc-kr');
                 } else {
-                    const response = await axios.get(pageUrl, requestConfig);
+                    const response = await axios.get(finalUrl, requestConfig);
                     htmlData = response.data;
                 }
 
