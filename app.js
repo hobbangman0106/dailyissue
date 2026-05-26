@@ -484,22 +484,22 @@ document.addEventListener('DOMContentLoaded', () => {
     async function fetchData() {
         if (syncIcon) syncIcon.classList.add('spin-icon');
         try {
-            if (window.LOCAL_DATA) {
-                processData(window.LOCAL_DATA);
-                if (syncIcon) syncIcon.classList.remove('spin-icon');
-                return;
-            }
-            const response = await fetch('data.json');
+            // Append timestamp to prevent caching so we get fresh data every 10 mins
+            const response = await fetch('data.json?t=' + new Date().getTime());
             if (!response.ok) throw new Error('CORS or Network Error');
             const data = await response.json();
             processData(data);
         } catch (error) {
-            console.warn('Using fallback data due to local file restrictions (CORS).');
-            const localFallback = {
-                ...FALLBACK_DATA,
-                lastUpdated: new Date().toISOString()
-            };
-            processData(localFallback);
+            console.warn('Fetch failed, using local data fallback.');
+            if (window.LOCAL_DATA) {
+                processData(window.LOCAL_DATA);
+            } else {
+                const localFallback = {
+                    ...FALLBACK_DATA,
+                    lastUpdated: new Date().toISOString()
+                };
+                processData(localFallback);
+            }
         } finally {
             if (syncIcon) syncIcon.classList.remove('spin-icon');
         }
@@ -806,12 +806,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Search Event Listener
-    searchInput.addEventListener('input', (e) => {
-        searchQuery = e.target.value;
-        visibleCount = 10; // Reset pagination!
-        renderPosts();
-    });
+    // Search Event Listener (Mobile Google Search)
+    if (searchInput) {
+        searchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                const query = e.target.value.trim();
+                if (query) {
+                    window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
+                }
+            }
+        });
+    }
 
     // View Mode Switcher Event Listeners
     const btnTimeline = document.getElementById('view-mode-timeline');
@@ -871,6 +876,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
         gridEl.innerHTML = gridHtml;
 
+        const allCells = Array.from(gridEl.querySelectorAll('.grid-cell'));
+        let gridExpanded = false;
+
+        function updateGridDisplay() {
+            allCells.forEach((cell, idx) => {
+                if (!gridExpanded && idx >= 12) {
+                    cell.style.display = 'none';
+                } else {
+                    cell.style.display = 'flex'; // cell uses flex layout
+                }
+            });
+        }
+        updateGridDisplay();
+
+        const container = document.querySelector('.community-grid-container');
+        let toggleBtn = document.getElementById('grid-toggle-btn');
+        if (!toggleBtn && container) {
+            toggleBtn = document.createElement('div');
+            toggleBtn.id = 'grid-toggle-btn';
+            toggleBtn.className = 'grid-toggle-btn';
+            toggleBtn.innerHTML = '더보기 <i data-lucide="chevron-down"></i>';
+            container.appendChild(toggleBtn);
+
+            toggleBtn.addEventListener('click', () => {
+                gridExpanded = !gridExpanded;
+                updateGridDisplay();
+                toggleBtn.innerHTML = gridExpanded ? 
+                    '접기 <i data-lucide="chevron-up"></i>' : 
+                    '더보기 <i data-lucide="chevron-down"></i>';
+                lucide.createIcons();
+            });
+            lucide.createIcons();
+        }
+
         const cells = gridEl.querySelectorAll('.grid-cell[data-community]');
         cells.forEach(cell => {
             cell.addEventListener('click', () => {
@@ -926,6 +965,5 @@ document.addEventListener('DOMContentLoaded', () => {
         updateTimer.addEventListener('click', fetchData);
     }
 
-    // Auto Refresh every 10 minutes (600000 ms)
-    setInterval(fetchData, 600000);
+    // Auto Refresh every 10 minutes (600000 ms) - Removed per user request
 });
