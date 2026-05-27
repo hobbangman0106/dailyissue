@@ -442,6 +442,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     let allPosts = [];
+    let mixedPosts = [];
     let currentCommunity = 'all';
     let searchQuery = '';
     let visibleCount = 10;
@@ -549,6 +550,59 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
+    function groupAndShufflePosts(posts) {
+        const now = Date.now();
+        const blockLimits = [
+            2 * 3600000,  // 0 - 2 hours
+            6 * 3600000,  // 2 - 6 hours
+            12 * 3600000, // 6 - 12 hours
+            24 * 3600000, // 12 - 24 hours
+            Infinity      // 24+ hours
+        ];
+        
+        const blocks = Array.from({ length: blockLimits.length }, () => []);
+        
+        posts.forEach(post => {
+            const timeMs = parseTime(post.Time);
+            if (timeMs === 0) {
+                blocks[blocks.length - 1].push(post);
+                return;
+            }
+            
+            const ageMs = now - timeMs;
+            let placed = false;
+            for (let i = 0; i < blockLimits.length; i++) {
+                if (ageMs <= blockLimits[i]) {
+                    blocks[i].push(post);
+                    placed = true;
+                    break;
+                }
+            }
+            if (!placed) {
+                blocks[blocks.length - 1].push(post);
+            }
+        });
+        
+        // Fisher-Yates Shuffle helper
+        function shuffle(array) {
+            const arr = [...array];
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                const temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+            return arr;
+        }
+        
+        let mixed = [];
+        blocks.forEach(block => {
+            mixed = mixed.concat(shuffle(block));
+        });
+        
+        return mixed;
+    }
+
     function processData(data) {
         allPosts = [];
         let activeCount = 0;
@@ -570,7 +624,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // 시간순 정렬 (최신순)
         allPosts.sort((a, b) => parseTime(b.Time) - parseTime(a.Time));
 
-
+        // 2안: 시간대 그룹별 무작위 셔플링 피드 생성
+        mixedPosts = groupAndShufflePosts(allPosts);
 
         // Update portal stats
         const activeCommunitiesEl = document.getElementById('stats-active-communities');
@@ -583,10 +638,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Render Posts
     function renderPosts() {
-        let filtered = allPosts;
-
         // Determine if we are on a merged view ("전체")
         const isMergedView = currentCommunity === 'all';
+
+        // 2안: 전체 뷰이면서 검색어가 없을 때는 시간대별 셔플 처리된 mixedPosts 사용, 그 외에는 정렬된 allPosts 사용
+        let filtered = (isMergedView && !searchQuery) ? mixedPosts : allPosts;
 
         // 1. Show or hide the view mode switcher based on whether it is a merged view
         const vmContainer = document.getElementById('view-mode-container');
