@@ -360,6 +360,10 @@ const CONFIG = {
         domain: 'reddit.com',
         isJson: true,
         limit: 100,
+        headers: {
+            'User-Agent': 'DailyIssueApp/1.0.0 (by /u/DailyIssueWeb)',
+            'Accept': 'application/json'
+        },
         parseJson: (data) => {
             if (!data || !data.data || !data.data.children) return [];
             return data.data.children.map(child => ({
@@ -516,7 +520,7 @@ async function scrape() {
             // 1. Reddit JSON 처리
             if (cfg.isJson) {
                 const response = await axios.get(cfg.url, { 
-                    headers: { 
+                    headers: cfg.headers || { 
                         'User-Agent': PC_UA,
                         'Accept': 'application/json'
                     } 
