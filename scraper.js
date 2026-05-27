@@ -450,7 +450,7 @@ const CONFIG = {
         }
     },
     'Naver Blog': {
-        url: 'https://rss.blog.naver.com/trues7',
+        url: 'https://rss.blog.naver.com/inb4032.xml', // 유명 일상/여행 블로그
         domain: 'blog.naver.com',
         isXml: true,
         limit: 100,
@@ -469,7 +469,7 @@ const CONFIG = {
         }
     },
     'Google Blog': {
-        url: 'https://goddaehee.tistory.com/rss',
+        url: 'https://rss.blog.naver.com/designpress2016.xml', // 디자인/문화 관련 인기 블로그 (구글 블로그 대용)
         domain: 'tistory.com',
         isXml: true,
         limit: 100,
@@ -488,7 +488,7 @@ const CONFIG = {
         }
     },
     'Tistory': {
-        url: 'https://ryunan9903.tistory.com/rss',
+        url: 'https://macguyver.tistory.com/rss', // 유명 제품 리뷰/일상 티스토리
         domain: 'tistory.com',
         isXml: true,
         limit: 100,
