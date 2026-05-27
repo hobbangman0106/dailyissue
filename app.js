@@ -748,9 +748,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 `;
 
-                // 매 2개의 박스(카드)마다 쿠팡 광고 배너 삽입 (데스크탑은 4개당 하나, 모바일은 2개당 하나)
+                // 매 2개의 박스(카드)마다 쿠팡 광고 배너 삽입 (데스크탑은 6개당 하나, 모바일은 2개당 하나)
                 if ((index + 1) % 2 === 0) {
-                    const isMobileOnly = (index + 1) % 4 !== 0;
+                    const isMobileOnly = (index + 1) % 6 !== 0;
                     const adClass = isMobileOnly ? "ad-card mobile-only-ad" : "ad-card";
 
                     cardsHtml += `
@@ -817,7 +817,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if ((index + 1) % 10 === 0) {
                 postHtml += `
                     <div class="ad-card">
-                        <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=680&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics style="max-width: 680px;"></iframe>
+                        <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=100%25&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics style="border-radius: 8px;"></iframe>
                     </div>
                 `;
             }
