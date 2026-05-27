@@ -731,8 +731,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 `;
 
-                // 매 2개의 박스(카드)마다 쿠팡 광고 배너 삽입 (데스크탑은 6개당 하나, 모바일은 2개당 하나)
-                if ((index + 1) % 2 === 0) {
+                // 매 3개의 박스(카드)마다 쿠팡 광고 배너 삽입 (데스크탑은 6개당 하나, 모바일은 3개당 하나)
+                if ((index + 1) % 3 === 0) {
                     const isMobileOnly = (index + 1) % 6 !== 0;
                     const adClass = isMobileOnly ? "ad-card mobile-only-ad" : "ad-card";
 
