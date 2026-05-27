@@ -797,7 +797,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </a>
             `;
 
-            if ((index + 1) % 10 === 0) {
+            if ((index + 1) % 20 === 0) {
                 postHtml += `
                     <div class="ad-card">
                         <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=100%25&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics style="border-radius: 8px;"></iframe>
