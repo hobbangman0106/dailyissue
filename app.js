@@ -707,7 +707,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             cardsHtml += `<div class="dashboard-grid">`;
 
-            communityOrder.forEach(comm => {
+            communityOrder.forEach((comm, index) => {
                 const commPosts = postsByCommunity[comm] || [];
                 if (commPosts.length === 0) return; // Skip if no posts scraped
 
@@ -748,20 +748,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 `;
 
-                // 데스크탑 전용 광고 (1번째 카드 이후)
-                if (index === 0) {
+                // 매 2개의 박스(카드)마다 쿠팡 광고 배너 삽입 (데스크탑/모바일 공통 적용)
+                if ((index + 1) % 2 === 0) {
                     cardsHtml += `
-                        <div class="ad-card desktop-only-ad" style="margin: 0; height: 100%;">
-                            <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=680&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics style="max-width: 680px;"></iframe>
-                        </div>
-                    `;
-                }
-
-                // 모바일 전용 광고 (2번째 카드 이후)
-                if (index === 1) {
-                    cardsHtml += `
-                        <div class="ad-card mobile-only-ad" style="margin: 0; grid-column: 1 / -1;">
-                            <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=680&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics style="max-width: 680px;"></iframe>
+                        <div class="ad-card" style="margin: 0; grid-column: 1 / -1; display: flex; justify-content: center; width: 100%; border-radius: 8px; overflow: hidden; background: transparent; border: none; padding: 0; box-shadow: none;">
+                            <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=680&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics style="max-width: 680px; border-radius: 8px;"></iframe>
                         </div>
                     `;
                 }
