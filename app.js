@@ -804,7 +804,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if ((index + 1) % 10 === 0) {
                 postHtml += `
-                    <div class="coupang-ad-banner" style="margin: 15px 0; display: flex; justify-content: center; width: 100%; overflow: hidden; border-radius: 8px;">
+                    <div class="ad-card">
                         <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=680&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics style="max-width: 680px;"></iframe>
                     </div>
                 `;

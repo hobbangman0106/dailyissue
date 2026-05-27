@@ -236,6 +236,19 @@ body {
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
+.ad-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: var(--card-bg);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    margin: 8px 0;
+}
+
+
 .post-left-meta {
     display: flex;
     flex-direction: column;
@@ -352,6 +365,16 @@ body {
         box-shadow: none;
         background: var(--card-hover);
     }
+    
+    .ad-card {
+        border: none;
+        border-bottom: 1px solid #f0f3f6;
+        border-radius: 0;
+        padding: 8px 0;
+        box-shadow: none;
+        margin: 0;
+    }
+
     
     .post-left-meta {
         min-width: 38px;
