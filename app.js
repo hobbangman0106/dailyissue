@@ -778,7 +778,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let postsHtml = displayed.map((post, index) => {
             const color = COMMUNITY_COLORS[post.Community] || 'var(--accent-color)';
             const shortName = COMMUNITY_NAMES_MAP[post.Community] || post.Community.substring(0, 2);
-            return `
+            
+            let postHtml = `
                 <a href="${post.Link}" target="_blank" class="post-card">
                     <div class="post-left-meta" style="background: ${color};">
                         <div class="post-rank">${index + 1}</div>
@@ -800,6 +801,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </a>
             `;
+
+            if ((index + 1) % 10 === 0) {
+                postHtml += `
+                    <div class="coupang-ad-banner" style="margin: 15px 0; display: flex; justify-content: center; width: 100%; overflow: hidden; border-radius: 8px;">
+                        <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=680&height=140&tsource=" width="680" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
+                    </div>
+                `;
+            }
+
+            return postHtml;
         }).join('');
 
         // Append Show More button if there are more posts to display
