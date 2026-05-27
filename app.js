@@ -754,7 +754,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const adClass = isMobileOnly ? "ad-card mobile-only-ad" : "ad-card";
 
                     cardsHtml += `
-                        <div class="${adClass}" style="margin: 0; grid-column: 1 / -1; display: flex; justify-content: center; width: 100%; border-radius: 8px; overflow: hidden; background: transparent; border: none; padding: 0; box-shadow: none;">
+                        <div class="${adClass}" style="margin: 0; grid-column: 1 / -1; justify-content: center; width: 100%; border-radius: 8px; overflow: hidden; background: transparent; border: none; padding: 0; box-shadow: none;">
                             <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=100%25&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics style="border-radius: 8px;"></iframe>
                         </div>
                     `;
