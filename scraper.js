@@ -446,7 +446,7 @@ const CONFIG = {
         }
     },
     'Naver Blog': {
-        url: 'https://rss.blog.naver.com/naver_diary',
+        url: 'https://rss.blog.naver.com/trues7',
         domain: 'blog.naver.com',
         isXml: true,
         limit: 100,
@@ -465,8 +465,8 @@ const CONFIG = {
         }
     },
     'Google Blog': {
-        url: 'https://blog.google/rss/',
-        domain: 'blog.google',
+        url: 'https://goddaehee.tistory.com/rss',
+        domain: 'tistory.com',
         isXml: true,
         limit: 100,
         parseXml: ($, limit) => {
@@ -484,8 +484,8 @@ const CONFIG = {
         }
     },
     'Tistory': {
-        url: 'https://notice.tistory.com/rss',
-        domain: 'notice.tistory.com',
+        url: 'https://ryunan9903.tistory.com/rss',
+        domain: 'tistory.com',
         isXml: true,
         limit: 100,
         parseXml: ($, limit) => {
