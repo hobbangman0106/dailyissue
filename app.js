@@ -550,55 +550,38 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    function groupAndShufflePosts(posts) {
-        const now = Date.now();
-        const blockLimits = [
-            2 * 3600000,  // 0 - 2 hours
-            6 * 3600000,  // 2 - 6 hours
-            12 * 3600000, // 6 - 12 hours
-            24 * 3600000, // 12 - 24 hours
-            Infinity      // 24+ hours
-        ];
-        
-        const blocks = Array.from({ length: blockLimits.length }, () => []);
-        
+    function interleavePosts(posts) {
+        // Group posts by community
+        const byComm = {};
         posts.forEach(post => {
-            const timeMs = parseTime(post.Time);
-            if (timeMs === 0) {
-                blocks[blocks.length - 1].push(post);
-                return;
-            }
-            
-            const ageMs = now - timeMs;
-            let placed = false;
-            for (let i = 0; i < blockLimits.length; i++) {
-                if (ageMs <= blockLimits[i]) {
-                    blocks[i].push(post);
-                    placed = true;
-                    break;
-                }
-            }
-            if (!placed) {
-                blocks[blocks.length - 1].push(post);
-            }
+            if (!byComm[post.Community]) byComm[post.Community] = [];
+            byComm[post.Community].push(post);
         });
-        
-        // Fisher-Yates Shuffle helper
-        function shuffle(array) {
-            const arr = [...array];
-            for (let i = arr.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                const temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-            }
-            return arr;
-        }
         
         let mixed = [];
-        blocks.forEach(block => {
-            mixed = mixed.concat(shuffle(block));
-        });
+        let hasMore = true;
+        let index = 0;
+        
+        // 커뮤니티 순서를 무작위로 섞음 (특정 커뮤니티가 항상 먼저 나오는 것 방지)
+        const comms = Object.keys(byComm);
+        for (let i = comms.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const temp = comms[i];
+            comms[i] = comms[j];
+            comms[j] = temp;
+        }
+        
+        // 라운드 로빈 방식으로 각 커뮤니티에서 하나씩 번갈아가며 가져옴
+        while (hasMore) {
+            hasMore = false;
+            comms.forEach(comm => {
+                if (byComm[comm].length > index) {
+                    mixed.push(byComm[comm][index]);
+                    hasMore = true;
+                }
+            });
+            index++;
+        }
         
         return mixed;
     }
@@ -624,8 +607,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // 시간순 정렬 (최신순)
         allPosts.sort((a, b) => parseTime(b.Time) - parseTime(a.Time));
 
-        // 2안: 시간대 그룹별 무작위 셔플링 피드 생성
-        mixedPosts = groupAndShufflePosts(allPosts);
+        // 2안: 여러 커뮤니티가 고르게 나오도록 라운드 로빈 방식으로 섞기
+        mixedPosts = interleavePosts(allPosts);
 
         // Update portal stats
         const activeCommunitiesEl = document.getElementById('stats-active-communities');
