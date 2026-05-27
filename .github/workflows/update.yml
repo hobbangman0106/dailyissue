@@ -1,8 +1,10 @@
-name: Hourly Community Update
+name: Scheduled Community Update
 
 on:
   schedule:
-    - cron: '0 * * * *' # Every hour
+    - cron: '30 19 * * *' # 4:30 AM KST (19:30 UTC)
+    - cron: '0 2 * * *'   # 11:00 AM KST (02:00 UTC)
+    - cron: '30 8 * * *'  # 5:30 PM KST (08:30 UTC)
   workflow_dispatch: # Allow manual run
 
 jobs:
@@ -21,6 +23,13 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
+
+      - name: Random Delay
+        if: github.event_name == 'schedule'
+        run: |
+          DELAY=$((RANDOM % 1800))
+          echo "Delaying execution by $DELAY seconds (approx. $((DELAY / 60)) minutes)..."
+          sleep $DELAY
 
       - name: Run Scraper
         run: npm run scrape
