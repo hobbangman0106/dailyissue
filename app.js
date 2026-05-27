@@ -747,6 +747,24 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                 `;
+
+                // 데스크탑 전용 광고 (1번째 카드 이후)
+                if (index === 0) {
+                    cardsHtml += `
+                        <div class="ad-card desktop-only-ad" style="margin: 0; height: 100%;">
+                            <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=680&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics style="max-width: 680px;"></iframe>
+                        </div>
+                    `;
+                }
+
+                // 모바일 전용 광고 (2번째 카드 이후)
+                if (index === 1) {
+                    cardsHtml += `
+                        <div class="ad-card mobile-only-ad" style="margin: 0; grid-column: 1 / -1;">
+                            <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=680&height=140&tsource=" width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics style="max-width: 680px;"></iframe>
+                        </div>
+                    `;
+                }
             });
 
             cardsHtml += `</div>`;
