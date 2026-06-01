@@ -627,18 +627,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // 2안: 전체 뷰이면서 검색어가 없을 때는 시간대별 셔플 처리된 mixedPosts 사용, 그 외에는 정렬된 allPosts 사용
         let filtered = (isMergedView && !searchQuery) ? mixedPosts : allPosts;
 
-        // 1. Show or hide the view mode switcher based on whether it is a merged view
+        // 1. Show the view mode switcher always
         const vmContainer = document.getElementById('view-mode-container');
         if (vmContainer) {
-            if (isMergedView) {
-                vmContainer.style.display = 'flex';
-                // Update title text
-                const titleText = document.getElementById('view-mode-title-text');
-                if (titleText) {
-                    titleText.textContent = '통합 모아보기';
-                }
-            } else {
-                vmContainer.style.display = 'none';
+            vmContainer.style.display = 'flex';
+            // Update title text
+            const titleText = document.getElementById('view-mode-title-text');
+            if (titleText) {
+                titleText.textContent = isMergedView ? '통합 모아보기' : currentCommunity;
             }
         }
 
@@ -893,11 +889,33 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnTimeline = document.getElementById('view-mode-timeline');
     const btnDashboard = document.getElementById('view-mode-dashboard');
     
+    function resetToAllCommunity() {
+        if (currentCommunity !== 'all') {
+            currentCommunity = 'all';
+            visibleCount = 10;
+            // Reset sidebar buttons active state
+            document.querySelectorAll('.sidebar-btn').forEach(b => {
+                b.classList.remove('active');
+                b.style.background = 'transparent';
+                b.style.boxShadow = 'none';
+                b.style.transform = 'scale(1)';
+            });
+            const allBtn = document.querySelector('.sidebar-btn[data-community="all"]');
+            if (allBtn) {
+                allBtn.classList.add('active');
+                allBtn.style.background = 'var(--primary-color)';
+                allBtn.style.transform = 'scale(1.03)';
+                allBtn.style.boxShadow = '0 2px 6px rgba(0,0,0,0.15)';
+            }
+        }
+    }
+
     if (btnTimeline && btnDashboard) {
         btnTimeline.addEventListener('click', () => {
             btnTimeline.classList.add('active');
             btnDashboard.classList.remove('active');
             currentViewMode = 'timeline';
+            resetToAllCommunity();
             renderPosts();
         });
         
@@ -905,6 +923,7 @@ document.addEventListener('DOMContentLoaded', () => {
             btnDashboard.classList.add('active');
             btnTimeline.classList.remove('active');
             currentViewMode = 'dashboard';
+            resetToAllCommunity();
             renderPosts();
         });
     }
