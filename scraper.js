@@ -361,7 +361,7 @@ const CONFIG = {
         }
     },
     'Reddit': {
-        url: 'https://www.reddit.com/r/korea/hot.rss',
+        url: 'https://www.reddit.com/r/popular/hot.rss',
         domain: 'reddit.com',
         isXml: true,
         limit: 100,
