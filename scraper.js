@@ -281,6 +281,11 @@ const CONFIG = {
         parse: ($el, $) => {
             const titleEl = $el.find('a[href*="/real_article/"]').first();
             if (titleEl.length === 0) return null;
+            
+            // 공지사항 등 상단 고정 게시물 필터링 (번호 열에 숫자가 없는 경우 스킵)
+            const numText = $el.find('td').eq(0).text().trim();
+            if (!numText.match(/\d+/)) return null;
+
             let title = titleEl.text().trim();
             title = title.replace(/\s+/g, ' ').replace(/\s*\(\d+\)$/, '').trim();
             return {
@@ -356,23 +361,22 @@ const CONFIG = {
         }
     },
     'Reddit': {
-        url: 'https://www.reddit.com/r/korea/hot.json?limit=100',
+        url: 'https://www.reddit.com/r/korea/hot.rss',
         domain: 'reddit.com',
-        isJson: true,
+        isXml: true,
         limit: 100,
-        headers: {
-            'User-Agent': 'DailyIssueApp/1.0.0 (by /u/DailyIssueWeb)',
-            'Accept': 'application/json'
-        },
-        parseJson: (data) => {
-            if (!data || !data.data || !data.data.children) return [];
-            return data.data.children.map(child => ({
-                Title: child.data.title,
-                Link: 'https://www.reddit.com' + child.data.permalink,
-                Comments: String(child.data.num_comments || 0),
-                Votes: String(child.data.score || 0),
-                Time: new Date(child.data.created_utc * 1000).toISOString().split('T')[0]
-            }));
+        parseXml: ($, limit) => {
+            const posts = [];
+            $('entry').slice(0, limit).each((i, el) => {
+                posts.push({
+                    Title: $(el).find('title').text() || '',
+                    Link: $(el).find('link').attr('href') || '',
+                    Comments: '0',
+                    Views: '0',
+                    Time: $(el).find('updated').text() || ''
+                });
+            });
+            return posts;
         }
     },
     'Naver News': {
