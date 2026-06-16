@@ -804,25 +804,34 @@ document.addEventListener('DOMContentLoaded', () => {
             return postHtml;
         }).join('');
 
-        // Append Show More button if there are more posts to display
-        if (filtered.length > visibleCount) {
+        // Append scroll sentinel if there are more posts to display and under 300 limit
+        if (filtered.length > visibleCount && visibleCount < 300) {
             postsHtml += `
-                <button id="show-more-btn" class="show-more-btn">
-                    <span>더 보기</span>
-                    <i data-lucide="chevron-down"></i>
-                </button>
+                <div id="scroll-sentinel" style="text-align:center; padding:30px; color:var(--text-secondary);">
+                    <i data-lucide="loader-2" class="spin-icon"></i>
+                </div>
             `;
         }
 
         postsList.innerHTML = postsHtml;
 
-        // Bind click event to Show More button
-        const showMoreBtn = document.getElementById('show-more-btn');
-        if (showMoreBtn) {
-            showMoreBtn.addEventListener('click', () => {
-                visibleCount += 10;
-                renderPosts();
-            });
+        // Bind intersection observer to sentinel for infinite scrolling
+        const sentinel = document.getElementById('scroll-sentinel');
+        if (window.scrollObserver) {
+            window.scrollObserver.disconnect();
+        }
+        
+        window.scrollObserver = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) {
+                if (visibleCount < 300) {
+                    visibleCount += 10;
+                    renderPosts();
+                }
+            }
+        }, { rootMargin: '100px' });
+
+        if (sentinel) {
+            window.scrollObserver.observe(sentinel);
         }
 
         lucide.createIcons();
