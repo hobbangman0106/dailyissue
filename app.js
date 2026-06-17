@@ -865,16 +865,17 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="community-tag">${shortName}</span>
                     </div>
                     <div class="post-main">
-                        <div class="post-title">
-                            ${post.Title}
-                            <span class="comment-count">${post.Comments && post.Comments !== '0' ? `[${post.Comments}]` : ''}</span>
+                        <div class="post-title-line">
+                            <div class="post-title">${post.Title}</div>
+                            ${post.Comments && post.Comments !== '0' ? `<span class="comment-count">[${post.Comments}]</span>` : ''}
                         </div>
-                        <div class="post-bottom">
-                            <span class="community-name" style="color: ${color}">${post.Community}</span>
-                            <div class="post-stats">
-                                ${post.Views && post.Views !== '0' ? `<span class="stat-item"><i data-lucide="eye"></i>${post.Views}</span>` : ''}
-                                ${post.Votes && post.Votes !== '0' ? `<span class="stat-item"><i data-lucide="thumbs-up"></i>${post.Votes}</span>` : ''}
-                                <span class="post-time">${post.Time || ''}</span>
+                        <div class="post-meta-line">
+                            <div class="post-meta-left">
+                                ${post.Time || '방금 전'}
+                            </div>
+                            <div class="post-meta-right">
+                                ${post.Views && post.Views !== '0' ? `<span class="stat-item">${post.Views}</span>` : ''}
+                                ${post.Votes && post.Votes !== '0' ? `<span class="stat-item stat-red"><i data-lucide="arrow-up-right-square"></i>${post.Votes}</span>` : ''}
                             </div>
                         </div>
                     </div>
