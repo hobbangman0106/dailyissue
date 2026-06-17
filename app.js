@@ -656,13 +656,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const container = document.getElementById('news-ticker');
         if (!container || !newsList || newsList.length === 0) return;
 
+        // Shuffle news list to mix categories
+        for (let i = newsList.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [newsList[i], newsList[j]] = [newsList[j], newsList[i]];
+        }
+
         const html = newsList.map((news) => `
             <a href="${news.Link}" target="_blank" class="news-ticker-item">
-                [경제] ${news.Title}
+                ${news.Title.replace('[경제] [경제]', '[경제]')} 
             </a>
         `).join('<span style="margin: 0 15px; color: var(--border-color);">|</span>');
 
-        container.innerHTML = `<div class="marquee-content">${html}</div>`;
+        // Append the exact same HTML twice for a seamless infinite marquee loop
+        container.innerHTML = `<div class="marquee-content">${html}<span style="margin: 0 15px; color: var(--border-color);">|</span>${html}</div>`;
     }
 
     function renderPosts() {

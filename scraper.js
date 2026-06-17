@@ -514,43 +514,73 @@ const CONFIG = {
 
 async function scrapeStocksAndNews() {
     try {
-        const stocks = { kr: {}, us: {} };
+        const stocks = {};
         const axiosConfig = { responseType: 'arraybuffer' };
         
-        // KR Stocks
         let r = await axios.get('https://finance.naver.com/sise/', axiosConfig);
         let $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
-        stocks.kr.KOSPI = { point: $('#KOSPI_now').text(), change: $('#KOSPI_change').text().trim().replace(/\s+/g, ' ') };
-        stocks.kr.KOSDAQ = { point: $('#KOSDAQ_now').text(), change: $('#KOSDAQ_change').text().trim().replace(/\s+/g, ' ') };
-        stocks.kr.KPI200 = { point: $('#KPI200_now').text(), change: $('#KPI200_change').text().trim().replace(/\s+/g, ' ') };
+        stocks['KOSPI'] = { point: $('#KOSPI_now').text(), change: $('#KOSPI_change').text().trim().replace(/\s+/g, ' ') };
+        stocks['KOSDAQ'] = { point: $('#KOSDAQ_now').text(), change: $('#KOSDAQ_change').text().trim().replace(/\s+/g, ' ') };
 
-        // US Stocks
-        r = await axios.get('https://finance.naver.com/world/sise.naver?symbol=DJI@DJI', axiosConfig);
+        r = await axios.get('https://finance.naver.com/marketindex/', axiosConfig);
         $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
-        stocks.us.DOW = { point: $('.no_today').text().trim().replace(/\s+/g, ' '), change: $('.no_exday').text().trim().replace(/\s+/g, ' ').replace('전일대비 ', '') };
-
-        r = await axios.get('https://finance.naver.com/world/sise.naver?symbol=NAS@IXIC', axiosConfig);
-        $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
-        stocks.us.NASDAQ = { point: $('.no_today').text().trim().replace(/\s+/g, ' '), change: $('.no_exday').text().trim().replace(/\s+/g, ' ').replace('전일대비 ', '') };
-
-        r = await axios.get('https://finance.naver.com/world/sise.naver?symbol=SPI@SPX', axiosConfig);
-        $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
-        stocks.us.SP500 = { point: $('.no_today').text().trim().replace(/\s+/g, ' '), change: $('.no_exday').text().trim().replace(/\s+/g, ' ').replace('전일대비 ', '') };
-
-        // Economic News
-        const news = [];
-        r = await axios.get('https://finance.naver.com/news/mainnews.naver', axiosConfig);
-        $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
-        $('.newsList li dl dd.articleSubject a').slice(0, 10).each((i, el) => {
-            news.push({
-                Title: $(el).text().trim(),
-                Link: 'https://finance.naver.com' + $(el).attr('href')
-            });
+        
+        let usdVal = '', usdChange = '';
+        let oilVal = '', oilChange = '';
+        let goldVal = '', goldChange = '';
+        
+        $('.data_lst li a.head').each((i, el) => {
+            const cls = $(el).attr('class');
+            if (cls === 'head usd') {
+                usdVal = $(el).find('.value').text();
+                usdChange = $(el).find('.change').text() + " " + $(el).find('.blind').text();
+            } else if (cls.includes('wti')) {
+                oilVal = $(el).find('.value').text();
+                oilChange = $(el).find('.change').text() + " " + $(el).find('.blind').text();
+            } else if (cls.includes('gold_inter')) {
+                goldVal = $(el).find('.value').text();
+                goldChange = $(el).find('.change').text() + " " + $(el).find('.blind').text();
+            }
         });
+        
+        stocks['환율'] = { point: usdVal, change: usdChange };
+        stocks['유가'] = { point: oilVal, change: oilChange };
+        stocks['금'] = { point: goldVal, change: goldChange };
+
+        try {
+            const coinRes = await axios.get('https://api.upbit.com/v1/ticker?markets=KRW-BTC');
+            const btc = coinRes.data[0];
+            const btcPrice = btc.trade_price.toLocaleString();
+            const btcChangeRate = (btc.signed_change_rate * 100).toFixed(2);
+            const btcChangeStr = `${btc.change === 'RISE' ? '+' : ''}${btcChangeRate}% ${btc.change === 'RISE' ? '상승' : (btc.change === 'FALL' ? '하락' : '보합')}`;
+            stocks['코인(BTC)'] = { point: btcPrice, change: btcChangeStr };
+        } catch(e) {
+            stocks['코인(BTC)'] = { point: '-', change: '-' };
+        }
+
+        // Google News RSS Categories
+        const news = [];
+        const fetchGoogle = async (topic, label) => {
+            try {
+                const res = await axios.get(`https://news.google.com/rss/headlines/section/topic/${topic}?hl=ko&gl=KR&ceid=KR:ko`);
+                const $xml = cheerio.load(res.data, { xmlMode: true });
+                $xml('item').slice(0, 10).each((i, el) => {
+                    news.push({
+                        Title: `[${label}] ` + $xml(el).find('title').text(),
+                        Link: $xml(el).find('link').text()
+                    });
+                });
+            } catch(e) { console.error('Google News Error', topic, e.message); }
+        };
+        await fetchGoogle('BUSINESS', '경제');
+        await fetchGoogle('POLITICS', '정치');
+        await fetchGoogle('NATION', '사회');
+        await fetchGoogle('WORLD', '세계');
+        await fetchGoogle('TECHNOLOGY', 'IT/과학');
 
         return { Stocks: stocks, EconomyNews: news };
     } catch (e) {
-        console.error('Failed to scrape stocks/news:', e.message);
+        console.error('Error fetching stocks and news', e);
         return { Stocks: null, EconomyNews: [] };
     }
 }
