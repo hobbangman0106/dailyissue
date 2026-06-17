@@ -635,6 +635,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!data) return;
             const isUp = data.change.includes('+') || data.change.includes('상승');
             const isDown = data.change.includes('-') || data.change.includes('하락');
+            data.change = data.change.replace(/[가-힣]/g, '').trim();
             const colorClass = isUp ? 'stock-up' : (isDown ? 'stock-down' : '');
             
             html += `
