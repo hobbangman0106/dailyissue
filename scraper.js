@@ -532,7 +532,7 @@ const CONFIG = {
 };
 
 async function scrape() {
-    let results = [];
+    let results = {};
     for (const [name, cfg] of Object.entries(CONFIG)) {
         try {
             console.log(`Scraping ${name}...`);
