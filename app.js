@@ -858,29 +858,26 @@ document.addEventListener('DOMContentLoaded', () => {
             const color = COMMUNITY_COLORS[post.Community] || 'var(--accent-color)';
             const shortName = COMMUNITY_NAMES_MAP[post.Community] || post.Community.substring(0, 2);
             
+            
+            let metaHtml = '<div class="post-meta">';
+            if (post.Views && post.Views !== '0') metaHtml += `<span class="stat-item"><i data-lucide="eye"></i>${post.Views}</span>`;
+            if (post.Votes && post.Votes !== '0') metaHtml += `<span class="stat-item"><i data-lucide="thumbs-up"></i>${post.Votes}</span>`;
+            if (post.Time) metaHtml += `<span class="post-time">${post.Time}</span>`;
+            metaHtml += '</div>';
+
             let postHtml = `
-                <a href="${post.Link}" target="_blank" class="post-card">
-                    <div class="post-left-meta" style="background: ${color};">
-                        <div class="post-rank">${index + 1}</div>
-                        <span class="community-tag">${shortName}</span>
+                <a href="${post.Link}" target="_blank" class="post-item">
+                    <div class="community-logo-block" style="background: ${color};">
+                        <div class="rank-num">${index + 1}</div>
+                        <div class="comm-name">${shortName}</div>
                     </div>
-                    <div class="post-main">
-                        <div class="post-title-line">
-                            <div class="post-title">${post.Title}</div>
-                            ${post.Comments && post.Comments !== '0' ? `<span class="comment-count">[${post.Comments}]</span>` : ''}
-                        </div>
-                        <div class="post-meta-line">
-                            <div class="post-meta-left">
-                                ${post.Time || '방금 전'}
-                            </div>
-                            <div class="post-meta-right">
-                                ${post.Views && post.Views !== '0' ? `<span class="stat-item">${post.Views}</span>` : ''}
-                                ${post.Votes && post.Votes !== '0' ? `<span class="stat-item stat-red"><i data-lucide="arrow-up-right-square"></i>${post.Votes}</span>` : ''}
-                            </div>
-                        </div>
+                    <div class="post-content">
+                        <div class="post-title">${post.Title} ${post.Comments && post.Comments !== '0' ? `<span class="comment-count">[${post.Comments}]</span>` : ''}</div>
+                        ${metaHtml}
                     </div>
                 </a>
             `;
+
 
             if ((index + 1) % 20 === 0) {
                 postHtml += `
