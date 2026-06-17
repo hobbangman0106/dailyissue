@@ -617,7 +617,18 @@ document.addEventListener('DOMContentLoaded', () => {
         if (totalPostsEl) totalPostsEl.textContent = `${allPosts.length}개`;
 
         
-        if (data.EconomyNews) renderNews(data.EconomyNews);
+        
+        let newsList = [];
+        const newsKeys = ['Naver News', 'Daum News', 'Nate News', 'Yahoo US'];
+        newsKeys.forEach(key => {
+            if (data[key] && Array.isArray(data[key])) {
+                newsList = newsList.concat(data[key]);
+            }
+        });
+        if (newsList.length > 0) {
+            renderNews(newsList);
+        }
+
 
         renderPosts();
     }
