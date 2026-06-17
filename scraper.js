@@ -473,180 +473,88 @@ const CONFIG = {
         }
     },
     'Google Blog': {
-        url: 'https://rss.blog.naver.com/designpress2016.xml', // 디자인/문화 관련 인기 블로그 (구글 블로그 대용)
-        domain: 'tistory.com',
+        url: 'https://korea.googleblog.com/feeds/posts/default?alt=rss', // 구글 코리아 공식 블로그
+        domain: 'blogspot.com',
         isXml: true,
-        limit: 100,
+        limit: 20,
         parseXml: ($, limit) => {
             const posts = [];
-            $('item').slice(0, limit).each((i, el) => {
+            // Atom 피드 처리 (entry)
+            let items = $('entry');
+            if (items.length === 0) items = $('item'); // RSS 대비
+            
+            items.slice(0, limit).each((i, el) => {
+                let link = $(el).find('link[rel="alternate"]').attr('href') || $(el).find('link').text() || '';
                 posts.push({
                     Title: $(el).find('title').text() || '',
-                    Link: $(el).find('link').text() || '',
+                    Link: link,
                     Comments: '0',
                     Views: '0',
-                    Time: $(el).find('pubDate').text() || ''
+                    Time: $(el).find('published').text() || $(el).find('pubDate').text() || ''
                 });
             });
             return posts;
         }
     },
     'Tistory': {
-        url: 'https://macguyver.tistory.com/rss', // 유명 제품 리뷰/일상 티스토리
+        url: 'https://www.tistory.com/m',
         domain: 'tistory.com',
-        isXml: true,
-        limit: 100,
-        parseXml: ($, limit) => {
-            const posts = [];
-            $('item').slice(0, limit).each((i, el) => {
-                posts.push({
-                    Title: $(el).find('title').text() || '',
-                    Link: $(el).find('link').text() || '',
-                    Comments: '0',
+        selector: '.list_tistory li a',
+        limit: 20,
+        headers: { 'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1' },
+        parse: (el, $) => {
+            let title = el.find('.txt_tit, .title, .tit, strong').first().text().trim();
+            if (!title) {
+                // Remove likes and comments text from generic text
+                let rawText = el.text().trim();
+                title = rawText.replace(/좋아요\d+.*전$/, '').trim();
+            }
+            let link = el.attr('href');
+            if (link && !link.startsWith('http')) link = 'https://www.tistory.com' + link;
+            
+            let likes = el.find('.num_like').text().trim() || '0';
+            let comments = el.find('.num_comment').text().trim() || '0';
+            let time = el.find('.txt_date, .time').text().trim() || '';
+
+            if (title && title.length > 3 && !title.includes('TISTORY')) {
+                return {
+                    Title: title,
+                    Link: link,
+                    Comments: comments !== '0' ? comments : '0',
                     Views: '0',
-                    Time: $(el).find('pubDate').text() || ''
-                });
-            });
-            return posts;
+                    Votes: likes !== '0' ? likes : '0',
+                    Time: time
+                };
+            }
+            return null;
         }
     }
 };
 
-async function scrapeStocksAndNews() {
-    try {
-        const stocks = {};
-        const axiosConfig = { responseType: 'arraybuffer' };
-        
-        let r = await axios.get('https://finance.naver.com/sise/', axiosConfig);
-        let $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
-        stocks['KOSPI'] = { point: $('#KOSPI_now').text(), change: $('#KOSPI_change').text().trim().replace(/\s+/g, ' ') };
-        stocks['KOSDAQ'] = { point: $('#KOSDAQ_now').text(), change: $('#KOSDAQ_change').text().trim().replace(/\s+/g, ' ') };
-
-        r = await axios.get('https://finance.naver.com/marketindex/', axiosConfig);
-        $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
-        
-        let usdVal = '', usdChange = '';
-        let oilVal = '', oilChange = '';
-        let goldVal = '', goldChange = '';
-        
-        $('.data_lst li a.head').each((i, el) => {
-            const cls = $(el).attr('class');
-            if (cls === 'head usd') {
-                usdVal = $(el).find('.value').text();
-                usdChange = $(el).find('.change').text() + " " + $(el).find('.blind').text();
-            } else if (cls.includes('wti')) {
-                oilVal = $(el).find('.value').text();
-                oilChange = $(el).find('.change').text() + " " + $(el).find('.blind').text();
-            } else if (cls.includes('gold_inter')) {
-                goldVal = $(el).find('.value').text();
-                goldChange = $(el).find('.change').text() + " " + $(el).find('.blind').text();
-            }
-        });
-        
-        stocks['환율'] = { point: usdVal, change: usdChange };
-        stocks['유가'] = { point: oilVal, change: oilChange };
-        stocks['금'] = { point: goldVal, change: goldChange };
-
-        try {
-            const coinRes = await axios.get('https://api.upbit.com/v1/ticker?markets=KRW-BTC');
-            const btc = coinRes.data[0];
-            const btcPrice = btc.trade_price.toLocaleString();
-            const btcChangeRate = (btc.signed_change_rate * 100).toFixed(2);
-            const btcChangeStr = `${btc.change === 'RISE' ? '+' : ''}${btcChangeRate}% ${btc.change === 'RISE' ? '상승' : (btc.change === 'FALL' ? '하락' : '보합')}`;
-            stocks['코인(BTC)'] = { point: btcPrice, change: btcChangeStr };
-        } catch(e) {
-            stocks['코인(BTC)'] = { point: '-', change: '-' };
-        }
-
-        // Google News RSS Categories
-        const news = [];
-        const fetchGoogle = async (topic, label) => {
-            try {
-                const res = await axios.get(`https://news.google.com/rss/headlines/section/topic/${topic}?hl=ko&gl=KR&ceid=KR:ko`);
-                const $xml = cheerio.load(res.data, { xmlMode: true });
-                $xml('item').slice(0, 10).each((i, el) => {
-                    news.push({
-                        Title: `[${label}] ` + $xml(el).find('title').text(),
-                        Link: $xml(el).find('link').text()
-                    });
-                });
-            } catch(e) { console.error('Google News Error', topic, e.message); }
-        };
-        await fetchGoogle('BUSINESS', '경제');
-        await fetchGoogle('POLITICS', '정치');
-        await fetchGoogle('NATION', '사회');
-        await fetchGoogle('WORLD', '세계');
-        await fetchGoogle('TECHNOLOGY', 'IT/과학');
-
-        return { Stocks: stocks, EconomyNews: news };
-    } catch (e) {
-        console.error('Error fetching stocks and news', e);
-        return { Stocks: null, EconomyNews: [] };
-    }
-}
-
 async function scrape() {
-    console.log('Scraping started...');
-    const results = { lastUpdated: new Date().toISOString() };
-    const extraData = await scrapeStocksAndNews();
-    if (extraData.Stocks) results['Stocks'] = extraData.Stocks;
-    if (extraData.EconomyNews.length > 0) results['EconomyNews'] = extraData.EconomyNews;
-
+    let results = [];
     for (const [name, cfg] of Object.entries(CONFIG)) {
         try {
             console.log(`Scraping ${name}...`);
             const targetLimit = cfg.limit || 100;
-            
-            // 1. Reddit JSON 처리
-            if (cfg.isJson) {
-                const response = await axios.get(cfg.url, { 
-                    headers: cfg.headers || { 
-                        'User-Agent': PC_UA,
-                        'Accept': 'application/json'
-                    } 
-                });
-                results[name] = cfg.parseJson(response.data).slice(0, targetLimit);
-                console.log(`  Scraped ${results[name].length} posts from ${name}`);
-                continue;
-            }
+            let posts = [];
 
-            // 1.5. XML (RSS) 처리
             if (cfg.isXml) {
-                const response = await axios.get(cfg.url, { 
-                    headers: { 
-                        'User-Agent': PC_UA,
-                        'Accept': 'application/xml, text/xml'
-                    } 
-                });
-                const $xml = cheerio.load(response.data, { xmlMode: true });
-                results[name] = cfg.parseXml($xml, targetLimit);
-                console.log(`  Scraped ${results[name].length} posts from ${name}`);
-                continue;
-            }
-
-            // 2. 일반 HTML 수집 처리
-            let cookies = '';
-            const activeHeaders = cfg.headers || DEFAULT_HEADERS;
-
-
-            const posts = [];
-            const pagesCount = cfg.pagesCount || 1;
-
-            for (let page = 1; page <= pagesCount; page++) {
-                if (posts.length >= targetLimit) break;
-
-                const pageUrl = cfg.urlTemplate ? cfg.urlTemplate(page) : cfg.url;
-                let htmlData;
-                // Add cache buster to prevent CDN from serving stale pages to bot IPs
-                let finalUrl = pageUrl;
-                if (!cfg.isXml && !cfg.isJson) {
-                    finalUrl += (finalUrl.includes('?') ? '&' : '?') + '_cb=' + Date.now();
-                }
-
                 const requestConfig = {
-                    headers: {
-                        ...activeHeaders,
-                        'Cookie': cookies
+                    headers: cfg.headers || {},
+                    httpsAgent: httpsAgent,
+                    timeout: 8000
+                };
+                const response = await axios.get(cfg.url, requestConfig);
+                const $ = cheerio.load(response.data, { xmlMode: true });
+                posts = cfg.parseXml($, targetLimit);
+            } else {
+                let pageUrl = cfg.url;
+                let htmlData = '';
+                let finalUrl = pageUrl;
+                let requestConfig = {
+                    headers: cfg.headers || {
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
                     },
                     httpsAgent: httpsAgent, // rejectUnauthorized 설정
                     timeout: 8000

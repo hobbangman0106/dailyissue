@@ -1293,7 +1293,7 @@ body {
 .post-item {
     display: flex !important;
     flex-direction: row !important;
-    padding: 6px 12px !important;
+    padding: 6px 6px !important;
     border-bottom: 1px solid var(--border-color) !important;
     background: var(--bg-surface) !important;
     text-decoration: none !important;
@@ -1311,7 +1311,7 @@ body {
     justify-content: center !important;
     color: white !important;
     flex-shrink: 0 !important;
-    margin-right: 14px !important;
+    margin-right: 8px !important;
     padding: 0 !important;
 }
 
