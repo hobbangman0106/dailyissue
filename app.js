@@ -616,7 +616,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (activeCommunitiesEl) activeCommunitiesEl.textContent = `${activeCount}개`;
         if (totalPostsEl) totalPostsEl.textContent = `${allPosts.length}개`;
 
-        if (data.Stocks) renderStocks(data.Stocks);
+        
         if (data.EconomyNews) renderNews(data.EconomyNews);
 
         renderPosts();
