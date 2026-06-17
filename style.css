@@ -292,7 +292,7 @@ body {
 }
 
 .post-rank {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     font-weight: 800;
     color: #ffffff;
     line-height: 1.1;
@@ -1086,8 +1086,11 @@ body {
 }
 
 .stock-ticker {
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 15px;
     font-weight: 600;
+    width: 100%;
 }
 
 .stock-item {
@@ -1104,12 +1107,12 @@ body {
 }
 
 .stock-point {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     color: var(--text-primary);
 }
 
 .stock-change {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     margin-top: 2px;
 }
 

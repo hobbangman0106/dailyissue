@@ -626,16 +626,12 @@ document.addEventListener('DOMContentLoaded', () => {
     
     function renderStocks(stocks) {
         const container = document.getElementById('stock-ticker');
-        if (!container) return;
-        const hour = new Date().getHours();
-        const isKr = hour < 18;
-        const target = isKr ? stocks.kr : stocks.us;
-        
-        if (!target) return;
+        if (!container || !stocks) return;
 
-        let html = '<div class="stock-ticker" style="display:flex;">';
-        Object.keys(target).forEach(name => {
-            const data = target[name];
+        let html = '<div class="stock-ticker">';
+        const keys = ['KOSPI', 'KOSDAQ', '환율', '유가', '금', '코인(BTC)'];
+        keys.forEach(name => {
+            const data = stocks[name];
             if (!data) return;
             const isUp = data.change.includes('+') || data.change.includes('상승');
             const isDown = data.change.includes('-') || data.change.includes('하락');
@@ -676,7 +672,7 @@ document.addEventListener('DOMContentLoaded', () => {
             newsIndex = (newsIndex + 1) % newsList.length;
             const next = document.getElementById(`news-item-${newsIndex}`);
             if (next) next.classList.add('active');
-        }, 5000);
+        }, 10000);
     }
 
     function renderPosts() {
