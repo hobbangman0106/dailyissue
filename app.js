@@ -666,9 +666,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
         container.innerHTML = newsList.map((news, i) => `
             <a href="${news.Link}" target="_blank" class="news-ticker-item ${i === 0 ? 'active' : ''}" id="news-item-${i}">
-                ${news.Title.replace('[경제] [경제]', '[경제]')}
+                <div class="news-text-scroller" id="news-scroller-${i}">${news.Title.replace('[경제] [경제]', '[경제]')}</div>
             </a>
         `).join('');
+
+        const triggerScroll = (index) => {
+            const scroller = document.getElementById(`news-scroller-${index}`);
+            if (scroller) {
+                scroller.style.transition = 'none';
+                scroller.style.transform = 'translateX(0)';
+                
+                setTimeout(() => {
+                    const parentWidth = scroller.parentElement.clientWidth;
+                    const overflow = scroller.scrollWidth - parentWidth;
+                    if (overflow > 0) {
+                        const duration = overflow * 25; // 25ms per pixel
+                        scroller.style.transition = `transform ${duration}ms linear`;
+                        scroller.style.transform = `translateX(-${overflow}px)`;
+                    }
+                }, 1500); // Wait 1.5s after flip-up before scrolling
+            }
+        };
+
+        // Trigger scroll for the initial item
+        setTimeout(() => triggerScroll(0), 100);
 
         if (newsInterval) clearInterval(newsInterval);
         newsInterval = setInterval(() => {
@@ -680,7 +701,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             newsIndex = (newsIndex + 1) % newsList.length;
             const next = document.getElementById(`news-item-${newsIndex}`);
-            if (next) next.classList.add('active');
+            if (next) {
+                next.classList.add('active');
+                triggerScroll(newsIndex);
+            }
         }, 10000);
     }
 
