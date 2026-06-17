@@ -1079,7 +1079,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 12px 20px;
+    padding: 6px 10px;
     background: var(--bg-surface);
     border-bottom: 1px solid var(--border-color);
     width: 100%;

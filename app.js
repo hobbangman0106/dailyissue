@@ -629,7 +629,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!container || !stocks) return;
 
         let html = '<div class="stock-ticker">';
-        const keys = ['KOSPI', 'KOSDAQ', '환율', '유가', '금', '코인(BTC)'];
+        const keys = ['KOSPI', 'KOSDAQ', '환율', '유가'];
         keys.forEach(name => {
             const data = stocks[name];
             if (!data) return;
@@ -641,8 +641,10 @@ document.addEventListener('DOMContentLoaded', () => {
             html += `
                 <div class="stock-item">
                     <span class="stock-name">${name}</span>
-                    <span class="stock-point ${colorClass}">${data.point}</span>
-                    <span class="stock-change ${colorClass}">${data.change}</span>
+                    <div class="stock-values">
+                        <span class="stock-point ${colorClass}">${data.point}</span>
+                        <span class="stock-change ${colorClass}">${data.change}</span>
+                    </div>
                 </div>
             `;
         });
