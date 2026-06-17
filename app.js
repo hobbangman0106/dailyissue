@@ -652,30 +652,17 @@ document.addEventListener('DOMContentLoaded', () => {
         container.innerHTML = html;
     }
 
-    let newsIndex = 0;
-    let newsInterval = null;
     function renderNews(newsList) {
         const container = document.getElementById('news-ticker');
         if (!container || !newsList || newsList.length === 0) return;
 
-        container.innerHTML = newsList.map((news, i) => `
-            <a href="${news.Link}" target="_blank" class="news-ticker-item ${i === 0 ? 'active' : ''}" id="news-item-${i}">
+        const html = newsList.map((news) => `
+            <a href="${news.Link}" target="_blank" class="news-ticker-item">
                 [경제] ${news.Title}
             </a>
-        `).join('');
+        `).join('<span style="margin: 0 15px; color: var(--border-color);">|</span>');
 
-        if (newsInterval) clearInterval(newsInterval);
-        newsInterval = setInterval(() => {
-            const prev = document.getElementById(`news-item-${newsIndex}`);
-            if (prev) {
-                prev.classList.remove('active');
-                prev.classList.add('exit');
-                setTimeout(() => prev.classList.remove('exit'), 500);
-            }
-            newsIndex = (newsIndex + 1) % newsList.length;
-            const next = document.getElementById(`news-item-${newsIndex}`);
-            if (next) next.classList.add('active');
-        }, 10000);
+        container.innerHTML = `<div class="marquee-content">${html}</div>`;
     }
 
     function renderPosts() {

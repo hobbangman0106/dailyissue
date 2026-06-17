@@ -42,7 +42,8 @@ body {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15px;
     align-items: center;
     padding-bottom: 8px;
 }
@@ -647,7 +648,8 @@ body {
     
     .grid-header {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+    gap: 15px;
         align-items: center;
         padding: 12px 16px;
         background: #f8fafc;
@@ -830,7 +832,8 @@ body {
         border-bottom: 1px solid var(--bg-color);
         padding-bottom: 8px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+    gap: 15px;
         align-items: center;
     }
     
@@ -850,7 +853,8 @@ body {
     
     .portal-stats-row {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+    gap: 15px;
         font-size: 0.85rem;
         color: var(--text-secondary);
     }
@@ -906,7 +910,8 @@ body {
 /* View Mode Switcher */
 .view-mode-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15px;
     align-items: center;
     margin: 12px 0 10px 0;
     padding: 0 4px;
@@ -984,7 +989,8 @@ body {
 
 .dashboard-card-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15px;
     align-items: center;
     padding: 10px 14px;
     color: #ffffff;
