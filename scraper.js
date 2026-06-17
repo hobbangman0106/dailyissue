@@ -512,9 +512,55 @@ const CONFIG = {
     }
 };
 
+async function scrapeStocksAndNews() {
+    try {
+        const stocks = { kr: {}, us: {} };
+        const axiosConfig = { responseType: 'arraybuffer' };
+        
+        // KR Stocks
+        let r = await axios.get('https://finance.naver.com/sise/', axiosConfig);
+        let $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
+        stocks.kr.KOSPI = { point: $('#KOSPI_now').text(), change: $('#KOSPI_change').text().trim().replace(/\s+/g, ' ') };
+        stocks.kr.KOSDAQ = { point: $('#KOSDAQ_now').text(), change: $('#KOSDAQ_change').text().trim().replace(/\s+/g, ' ') };
+        stocks.kr.KPI200 = { point: $('#KPI200_now').text(), change: $('#KPI200_change').text().trim().replace(/\s+/g, ' ') };
+
+        // US Stocks
+        r = await axios.get('https://finance.naver.com/world/sise.naver?symbol=DJI@DJI', axiosConfig);
+        $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
+        stocks.us.DOW = { point: $('.no_today').text().trim().replace(/\s+/g, ' '), change: $('.no_exday').text().trim().replace(/\s+/g, ' ').replace('전일대비 ', '') };
+
+        r = await axios.get('https://finance.naver.com/world/sise.naver?symbol=NAS@IXIC', axiosConfig);
+        $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
+        stocks.us.NASDAQ = { point: $('.no_today').text().trim().replace(/\s+/g, ' '), change: $('.no_exday').text().trim().replace(/\s+/g, ' ').replace('전일대비 ', '') };
+
+        r = await axios.get('https://finance.naver.com/world/sise.naver?symbol=SPI@SPX', axiosConfig);
+        $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
+        stocks.us.SP500 = { point: $('.no_today').text().trim().replace(/\s+/g, ' '), change: $('.no_exday').text().trim().replace(/\s+/g, ' ').replace('전일대비 ', '') };
+
+        // Economic News
+        const news = [];
+        r = await axios.get('https://finance.naver.com/news/mainnews.naver', axiosConfig);
+        $ = cheerio.load(iconv.decode(r.data, 'euc-kr'));
+        $('.newsList li dl dd.articleSubject a').slice(0, 10).each((i, el) => {
+            news.push({
+                Title: $(el).text().trim(),
+                Link: 'https://finance.naver.com' + $(el).attr('href')
+            });
+        });
+
+        return { Stocks: stocks, EconomyNews: news };
+    } catch (e) {
+        console.error('Failed to scrape stocks/news:', e.message);
+        return { Stocks: null, EconomyNews: [] };
+    }
+}
+
 async function scrape() {
     console.log('Scraping started...');
     const results = { lastUpdated: new Date().toISOString() };
+    const extraData = await scrapeStocksAndNews();
+    if (extraData.Stocks) results['Stocks'] = extraData.Stocks;
+    if (extraData.EconomyNews.length > 0) results['EconomyNews'] = extraData.EconomyNews;
 
     for (const [name, cfg] of Object.entries(CONFIG)) {
         try {

@@ -591,7 +591,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let activeCount = 0;
         
         Object.keys(data).forEach(key => {
-            if (key !== 'lastUpdated') {
+            if (key !== 'lastUpdated' && key !== 'Stocks' && key !== 'EconomyNews') {
                 const communityPosts = data[key].map(post => ({
                     ...post,
                     Community: key
@@ -616,10 +616,69 @@ document.addEventListener('DOMContentLoaded', () => {
         if (activeCommunitiesEl) activeCommunitiesEl.textContent = `${activeCount}개`;
         if (totalPostsEl) totalPostsEl.textContent = `${allPosts.length}개`;
 
+        if (data.Stocks) renderStocks(data.Stocks);
+        if (data.EconomyNews) renderNews(data.EconomyNews);
+
         renderPosts();
     }
 
     // Render Posts
+    
+    function renderStocks(stocks) {
+        const container = document.getElementById('stock-ticker');
+        if (!container) return;
+        const hour = new Date().getHours();
+        const isKr = hour < 18;
+        const target = isKr ? stocks.kr : stocks.us;
+        
+        if (!target) return;
+
+        let html = '<div class="stock-ticker" style="display:flex;">';
+        Object.keys(target).forEach(name => {
+            const data = target[name];
+            if (!data) return;
+            const isUp = data.change.includes('+') || data.change.includes('상승');
+            const isDown = data.change.includes('-') || data.change.includes('하락');
+            const colorClass = isUp ? 'stock-up' : (isDown ? 'stock-down' : '');
+            
+            html += `
+                <div class="stock-item">
+                    <span class="stock-name">${name}</span>
+                    <span class="stock-point ${colorClass}">${data.point}</span>
+                    <span class="stock-change ${colorClass}">${data.change}</span>
+                </div>
+            `;
+        });
+        html += '</div>';
+        container.innerHTML = html;
+    }
+
+    let newsIndex = 0;
+    let newsInterval = null;
+    function renderNews(newsList) {
+        const container = document.getElementById('news-ticker');
+        if (!container || !newsList || newsList.length === 0) return;
+
+        container.innerHTML = newsList.map((news, i) => `
+            <a href="${news.Link}" target="_blank" class="news-ticker-item ${i === 0 ? 'active' : ''}" id="news-item-${i}">
+                [경제] ${news.Title}
+            </a>
+        `).join('');
+
+        if (newsInterval) clearInterval(newsInterval);
+        newsInterval = setInterval(() => {
+            const prev = document.getElementById(`news-item-${newsIndex}`);
+            if (prev) {
+                prev.classList.remove('active');
+                prev.classList.add('exit');
+                setTimeout(() => prev.classList.remove('exit'), 500);
+            }
+            newsIndex = (newsIndex + 1) % newsList.length;
+            const next = document.getElementById(`news-item-${newsIndex}`);
+            if (next) next.classList.add('active');
+        }, 5000);
+    }
+
     function renderPosts() {
         // Determine if we are on a merged view ("전체")
         const isMergedView = currentCommunity === 'all';
