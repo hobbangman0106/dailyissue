@@ -25,90 +25,77 @@ body {
     padding: 0;
 }
 
-/* Glassmorphism Header */
-.glass-header {
+/* Glassmorphism Header & Navigation */
+.app-header {
     position: sticky;
     top: 0;
-    z-index: 1000;
-    background: var(--header-bg);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border-color);
-    padding: 20px 0;
-}
-
-.header-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 15px 0 10px;
 }
 
 .logo {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #111;
+    letter-spacing: -0.5px;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 8px;
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: var(--text-primary);
-    letter-spacing: -0.8px;
-    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
-.logo-icon {
-    width: 24px;
-    height: 24px;
+.logo i {
     stroke-width: 2.5px;
+    width: 22px;
+    height: 22px;
 }
 
-/* Category Tabs (Text Menu) */
 .category-tabs {
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin: 20px auto 0 auto;
-    justify-content: center;
-    max-width: 800px;
-    padding: 0 20px;
-    scrollbar-width: none; /* Firefox */
+    justify-content: flex-start;
+    gap: 8px;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 20px 5px 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
+
 .category-tabs::-webkit-scrollbar {
     display: none; /* Safari and Chrome */
 }
 
 .tab-btn {
-    border: none;
     background: transparent;
-    color: var(--text-secondary);
+    border: none;
+    padding: 8px 18px;
+    font-size: 0.95rem;
     font-weight: 600;
-    font-size: 1.05rem;
+    color: #777;
+    border-radius: 20px;
     cursor: pointer;
-    transition: var(--transition);
-    padding: 0 0 8px 0;
-    position: relative;
+    white-space: nowrap;
+    transition: all 0.2s ease;
     letter-spacing: -0.3px;
 }
 
-.tab-btn::after {
-    content: '';
-    position: absolute;
-    bottom: -16px;
-    left: 0;
-    width: 0%;
-    height: 2px;
-    background-color: var(--text-primary);
-    transition: width 0.3s ease;
-}
-
 .tab-btn:hover {
-    color: var(--text-primary);
+    color: #111;
+    background: rgba(0, 0, 0, 0.04);
 }
 
 .tab-btn.active {
-    color: var(--text-primary);
-}
-
-.tab-btn.active::after {
-    width: 100%;
+    background: #111;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Posts List (Editorial Style) */
@@ -173,9 +160,17 @@ body {
     font-weight: 700;
     color: var(--text-primary);
     line-height: 1.4;
-    transition: color 0.2s ease;
+    transition: color 0.2s ease, opacity 0.2s ease;
     letter-spacing: -0.5px;
     word-break: keep-all;
+}
+
+/* Visited Post Styling */
+.visited-post .item-title {
+    color: #a0a0a0; /* Gray out title */
+}
+.visited-post .item-meta {
+    opacity: 0.6; /* Dim badges */
 }
 
 /* Animations */

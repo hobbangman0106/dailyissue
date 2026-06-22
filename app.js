@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활', '문화', '정치', '연예', '스포츠'];
+    const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활/문화', '정치', '의학/건강', '연예', '스포츠'];
     let currentCategory = '전체';
     let data = window.LOCAL_DATA || {};
 
@@ -45,23 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderPosts() {
         if (!postsList) return;
         
-        let displayPosts = [];
-        
-        if (currentCategory === '전체') {
-            for (const cat of CATEGORIES) {
-                if (cat !== '전체' && data[cat]) {
-                    const mappedPosts = data[cat].map(p => ({...p, Category: cat}));
-                    displayPosts = displayPosts.concat(mappedPosts);
-                }
-            }
-            // Shuffle
-            for (let i = displayPosts.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [displayPosts[i], displayPosts[j]] = [displayPosts[j], displayPosts[i]];
-            }
-        } else {
-            displayPosts = data[currentCategory] ? data[currentCategory].map(p => ({...p, Category: currentCategory})) : [];
-        }
+        let displayPosts = data[currentCategory] || [];
 
         if (displayPosts.length === 0) {
             postsList.innerHTML = '<div class="empty-state">해당 카테고리에 뉴스가 없습니다.</div>';
@@ -76,11 +60,14 @@ document.addEventListener('DOMContentLoaded', () => {
             "default": "#5c7cfa"
         };
         
+        const visitedLinks = JSON.parse(localStorage.getItem('visited_news') || '[]');
+
         let html = '';
-        displayPosts.forEach(post => {
+        displayPosts.forEach((post, index) => {
             const portalColor = COMMUNITY_COLORS[post.Portal] || COMMUNITY_COLORS['default'];
+            const isVisited = visitedLinks.includes(post.Link) ? 'visited-post' : '';
             html += `
-                <a href="${post.Link}" target="_blank" class="post-list-item">
+                <a href="${post.Link}" class="post-list-item ${isVisited}" onclick="markAsVisited(this, '${post.Link}')">
                     <div class="item-meta">
                         <span class="item-badge" style="background-color: ${portalColor};">${post.Portal}</span>
                         <span class="cat-badge">${post.Category}</span>
@@ -88,6 +75,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h3 class="item-title">${post.Title}</h3>
                 </a>
             `;
+
+            // Insert Ad every 20 posts
+            if ((index + 1) % 20 === 0) {
+                html += `
+                <div class="post-list-item ad-container" style="display: flex; justify-content: center; padding: 20px 0;">
+                    <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&mainItem=&image=ko" width="680" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
+                </div>
+                `;
+            }
         });
         
         postsList.innerHTML = html;
@@ -98,6 +94,17 @@ document.addEventListener('DOMContentLoaded', () => {
             item.classList.add('fade-in-up');
         });
     }
+
+    // Global function to mark post as visited
+    window.markAsVisited = function(element, link) {
+        element.classList.add('visited-post');
+        let visitedLinks = JSON.parse(localStorage.getItem('visited_news') || '[]');
+        if (!visitedLinks.includes(link)) {
+            visitedLinks.push(link);
+            if (visitedLinks.length > 500) visitedLinks.shift(); // Keep only last 500
+            localStorage.setItem('visited_news', JSON.stringify(visitedLinks));
+        }
+    };
 
     fetchData();
 });
