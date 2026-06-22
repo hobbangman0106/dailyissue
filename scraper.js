@@ -11,7 +11,7 @@ const PC_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 // New categories
-const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활/문화', '정치', '연예', '스포츠', '의학/건강'];
+const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '건강/의학', '생활/문화', '정치', '연예', '기타'];
 
 const TASKS = [
     // --- 정치 ---
@@ -38,26 +38,26 @@ const TASKS = [
     { cat: 'IT/과학', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
     { cat: 'IT/과학', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/tech', isXml: true },
 
+    // --- 건강/의학 ---
+    { cat: '건강/의학', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '건강/의학', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/health', isXml: true },
+
     // --- 생활/문화 (통합) ---
     { cat: '생활/문화', portal: '네이버', url: 'https://news.naver.com/section/103' }, // Naver Life/Culture
     { cat: '생활/문화', portal: '네이버', url: 'https://news.naver.com/section/102' }, // Naver Society
     { cat: '생활/문화', portal: '다음', url: 'https://news.daum.net/society' }, // Daum Society
     { cat: '생활/문화', portal: '다음', url: 'https://news.daum.net/culture' }, // Daum Culture
-    
-    // --- 의학/건강 (신설) ---
-    { cat: '의학/건강', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
-    { cat: '의학/건강', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/health', isXml: true },
 
     // --- 연예 ---
     { cat: '연예', portal: '다음', url: 'https://entertain.daum.net/' },
     { cat: '연예', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
     { cat: '연예', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/entertainment', isXml: true },
 
-    // --- 스포츠 ---
-    { cat: '스포츠', portal: '네이버', url: 'https://sports.news.naver.com/index.nhn' },
-    { cat: '스포츠', portal: '다음', url: 'https://sports.daum.net/' },
-    { cat: '스포츠', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/SPORTS?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
-    { cat: '스포츠', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/sports', isXml: true }
+    // --- 기타 (유머, 시사 상식, 칼럼 등) ---
+    { cat: '기타', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%9C%A0%EB%A8%B8&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '기타', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%8B%9C%EC%82%AC%EC%83%81%EC%8B%9D&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '기타', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%B9%BC%EB%9F%BC&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '기타', portal: '다음', url: 'https://news.daum.net/editorial' }
 ];
 
 function parseNaver($, url) {

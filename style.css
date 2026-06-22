@@ -11,6 +11,11 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif;
     background-color: var(--bg-color);
@@ -58,14 +63,12 @@ body {
 
 .category-tabs {
     display: flex;
-    justify-content: flex-start;
-    gap: 8px;
-    max-width: 680px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 8px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 0 20px 5px 20px;
-    overflow-x: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+    padding: 0 20px 10px 20px;
 }
 
 .category-tabs::-webkit-scrollbar {
@@ -200,15 +203,15 @@ body {
         justify-content: flex-start;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
-        gap: 15px;
+        gap: 6px;
         padding: 0 15px 5px 15px;
-        margin-top: 15px;
+        margin-top: 5px;
     }
 
     .tab-btn {
-        font-size: 0.95rem;
-        white-space: nowrap; /* Prevent text wrapping */
-        padding-bottom: 6px;
+        font-size: 0.9rem;
+        white-space: nowrap;
+        padding: 6px 14px;
     }
 
     /* Compact List Items for Mobile (10-15 per screen) */
