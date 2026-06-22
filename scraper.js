@@ -11,7 +11,7 @@ const PC_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 // New categories
-const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '건강/의학', '생활/문화', '정치', '연예', '기타'];
+const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '건강/의학', '생활/문화', '정치', '연예', '스포츠', '기타'];
 
 const TASKS = [
     // --- 정치 ---
@@ -52,6 +52,11 @@ const TASKS = [
     { cat: '연예', portal: '다음', url: 'https://entertain.daum.net/' },
     { cat: '연예', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
     { cat: '연예', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/entertainment', isXml: true },
+
+    // --- 스포츠 ---
+    { cat: '스포츠', portal: '다음', url: 'https://sports.daum.net/' },
+    { cat: '스포츠', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/SPORTS?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '스포츠', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/sports', isXml: true },
 
     // --- 기타 (유머, 시사 상식, 칼럼 등) ---
     { cat: '기타', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%9C%A0%EB%A8%B8&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
