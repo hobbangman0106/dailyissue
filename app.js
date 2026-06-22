@@ -1,37 +1,31 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['전체', '정치', '경제', '사회', '과학', '예술', '세계'];
+    const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활', '문화', '정치', '연예', '스포츠'];
     let currentCategory = '전체';
     let data = window.LOCAL_DATA || {};
 
-    // Build Tabs
-    const portalLeft = document.querySelector('.portal-left');
     const postsList = document.getElementById('posts-list');
+    const tabsNav = document.getElementById('category-tabs');
     
-    // Create tab navigation
-    let tabsNav = document.createElement('nav');
-    tabsNav.className = 'category-tabs';
-    tabsNav.id = 'category-tabs';
-    
-    let tabsHtml = '';
-    CATEGORIES.forEach(cat => {
-        tabsHtml += `<button class="tab-btn ${cat === '전체' ? 'active' : ''}" data-category="${cat}">${cat}</button>`;
-    });
-    tabsNav.innerHTML = tabsHtml;
-    
-    portalLeft.insertBefore(tabsNav, postsList);
-
-    // Tab Event Listeners
-    const tabBtns = tabsNav.querySelectorAll('.tab-btn');
-    tabBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            tabBtns.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            currentCategory = btn.dataset.category;
-            renderPosts();
+    // Build Tabs
+    if (tabsNav) {
+        let tabsHtml = '';
+        CATEGORIES.forEach(cat => {
+            tabsHtml += `<button class="tab-btn ${cat === '전체' ? 'active' : ''}" data-category="${cat}">${cat}</button>`;
         });
-    });
+        tabsNav.innerHTML = tabsHtml;
+
+        const tabBtns = tabsNav.querySelectorAll('.tab-btn');
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tabBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentCategory = btn.dataset.category;
+                renderPosts();
+            });
+        });
+    }
 
     async function fetchData() {
         try {
@@ -45,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (e) {
             console.error('Fetch failed, using local data', e);
         }
-        renderNewsTicker();
         renderPosts();
     }
 
@@ -57,7 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentCategory === '전체') {
             for (const cat of CATEGORIES) {
                 if (cat !== '전체' && data[cat]) {
-                    displayPosts = displayPosts.concat(data[cat]);
+                    const mappedPosts = data[cat].map(p => ({...p, Category: cat}));
+                    displayPosts = displayPosts.concat(mappedPosts);
                 }
             }
             // Shuffle
@@ -66,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 [displayPosts[i], displayPosts[j]] = [displayPosts[j], displayPosts[i]];
             }
         } else {
-            displayPosts = data[currentCategory] || [];
+            displayPosts = data[currentCategory] ? data[currentCategory].map(p => ({...p, Category: currentCategory})) : [];
         }
 
         if (displayPosts.length === 0) {
@@ -74,94 +68,35 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        const COMMUNITY_COLORS = {
+            "네이버": "#03c75a",
+            "다음": "#ffcc00",
+            "Google News": "#ea4335",
+            "Yahoo US": "#410093",
+            "default": "#5c7cfa"
+        };
+        
         let html = '';
         displayPosts.forEach(post => {
+            const portalColor = COMMUNITY_COLORS[post.Portal] || COMMUNITY_COLORS['default'];
             html += `
-                <a href="${post.Link}" target="_blank" class="post-item led-style">
-                    <div class="post-source led-source">[${post.Portal}]</div>
-                    <div class="post-title led-text">${post.Title}</div>
+                <a href="${post.Link}" target="_blank" class="post-list-item">
+                    <div class="item-meta">
+                        <span class="item-badge" style="background-color: ${portalColor};">${post.Portal}</span>
+                        <span class="cat-badge">${post.Category}</span>
+                    </div>
+                    <h3 class="item-title">${post.Title}</h3>
                 </a>
             `;
         });
         
         postsList.innerHTML = html;
-    }
-
-    let newsIndex = 0;
-    let newsInterval = null;
-    
-    function renderNewsTicker() {
-        const container = document.getElementById('news-ticker');
-        if (!container) return;
-        
-        let allNews = [];
-        CATEGORIES.forEach(cat => {
-            if (cat !== '전체' && data[cat]) {
-                allNews = allNews.concat(data[cat]);
-            }
+        // Fade in animation for items
+        const items = postsList.querySelectorAll('.post-list-item');
+        items.forEach((item, i) => {
+            item.style.animationDelay = `${i * 0.03}s`;
+            item.classList.add('fade-in-up');
         });
-        
-        if (allNews.length === 0) {
-            container.innerHTML = '<div class="news-ticker-item active"><div class="news-text-scroller led-text">뉴스를 불러오는 중입니다...</div></div>';
-            return;
-        }
-        
-        // Shuffle
-        for (let i = allNews.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [allNews[i], allNews[j]] = [allNews[j], allNews[i]];
-        }
-
-        container.innerHTML = allNews.map((news, i) => `
-            <a href="${news.Link}" target="_blank" class="news-ticker-item ${i === 0 ? 'active' : ''}" id="news-item-${i}">
-                <div class="news-text-scroller led-text" id="news-scroller-${i}">[${news.Portal}] ${news.Title}</div>
-            </a>
-        `).join('');
-
-        const items = container.querySelectorAll('.news-ticker-item');
-        
-        if (newsInterval) clearInterval(newsInterval);
-        
-        const triggerScroll = (index) => {
-            const item = items[index];
-            if (!item) return;
-            const scroller = item.querySelector('.news-text-scroller');
-            if (!scroller) return;
-            
-            scroller.style.transform = 'translateX(0)';
-            scroller.style.transition = 'none';
-            
-            setTimeout(() => {
-                const containerWidth = container.offsetWidth;
-                const textWidth = scroller.scrollWidth;
-                
-                if (textWidth > containerWidth - 40) {
-                    const scrollDistance = textWidth - containerWidth + 60;
-                    const duration = Math.max(scrollDistance * 20, 3000);
-                    scroller.style.transition = \`transform \${duration}ms linear\`;
-                    scroller.style.transform = \`translateX(-\${scrollDistance}px)\`;
-                }
-            }, 1000);
-        };
-        
-        triggerScroll(0);
-
-        newsInterval = setInterval(() => {
-            const currentItem = items[newsIndex];
-            const nextIndex = (newsIndex + 1) % items.length;
-            const nextItem = items[nextIndex];
-            
-            if (currentItem) {
-                currentItem.classList.remove('active');
-                currentItem.classList.add('exit');
-            }
-            if (nextItem) {
-                nextItem.classList.remove('exit');
-                nextItem.classList.add('active');
-                triggerScroll(nextIndex);
-            }
-            newsIndex = nextIndex;
-        }, 6000);
     }
 
     fetchData();

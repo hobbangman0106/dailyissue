@@ -11,51 +11,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
-    <link rel="stylesheet" href="style.css?v=1.1.30">
+    <link rel="stylesheet" href="style.css?v=3.0.4">
 </head>
 <body>
     <div class="app-container">
         <!-- Header -->
-        <header class="main-header">
+        <header class="main-header glass-header">
             <div class="header-content">
                 <div class="logo">
-                    <i data-lucide="calendar" class="logo-icon"></i>
-                    <span>Daily<span>issue</span></span>
+                    <i data-lucide="compass" class="logo-icon"></i>
+                    <span>News<span>Hub</span></span>
                 </div>
-
             </div>
-            
-
-            
-            <!-- Economic News Ticker -->
-            <div class="ticker-board news-ticker" id="news-ticker">
+            <!-- Category Tabs -->
+            <nav class="category-tabs" id="category-tabs">
                 <!-- Injected via JS -->
-            </div>
+            </nav>
         </header>
 
         <!-- Main Content -->
-        <main class="content-area">
-            <!-- Portal Columns Wrapper -->
-            <div class="portal-wrapper">
-                <!-- Left Column -->
-                <div class="portal-left">
-
-
-
-
-
-                    <!-- Posts list -->
-                    <div id="posts-list" class="posts-list">
-                        <!-- Posts will be injected here -->
-                        <div class="loading-shimmer">
-                            <div class="shimmer-item"></div>
-                            <div class="shimmer-item"></div>
-                            <div class="shimmer-item"></div>
-                        </div>
+        <main class="main-content">
+            <div class="content-area">
+                <!-- Posts Grid -->
+                <div id="posts-list" class="posts-list-container">
+                    <!-- Posts will be injected here -->
+                    <div class="loading-shimmer">
+                        <div class="shimmer-item"></div>
+                        <div class="shimmer-item"></div>
+                        <div class="shimmer-item"></div>
                     </div>
                 </div>
-
-
             </div>
         </main>
 
@@ -65,7 +50,7 @@
         </footer>
     </div>
 
-    <script src="data.js?v=1.1.30"></script>
-    <script src="app.js?v=1.1.30"></script>
+    <script src="data.js?v=3.0.4"></script>
+    <script src="app.js?v=3.0.4"></script>
 </body>
 </html>
