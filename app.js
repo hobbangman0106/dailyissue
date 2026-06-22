@@ -2,9 +2,21 @@ document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
     const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '건강/의학', '생활/문화', '정치', '연예', '기타'];
-    console.log("=== App v4.0.1 Loaded ===");
+    console.log("=== App v4.0.3 Loaded ===");
     console.log("Categories defined:", CATEGORIES);
+
+    // Detect back_forward navigation to restore state
+    const navigationEntries = window.performance && window.performance.getEntriesByType("navigation");
+    const isBackNavigation = navigationEntries && navigationEntries[0] && navigationEntries[0].type === "back_forward";
+
     let currentCategory = '전체';
+    if (isBackNavigation) {
+        currentCategory = sessionStorage.getItem('prev_category') || '전체';
+    } else {
+        // Clear old sessions on fresh entry
+        sessionStorage.removeItem('prev_scroll_y');
+        sessionStorage.removeItem('prev_category');
+    }
     let data = window.LOCAL_DATA || {};
 
     const postsList = document.getElementById('posts-list');
@@ -14,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (tabsNav) {
         let tabsHtml = '';
         CATEGORIES.forEach(cat => {
-            tabsHtml += `<button class="tab-btn ${cat === '전체' ? 'active' : ''}" data-category="${cat}">${cat}</button>`;
+            tabsHtml += `<button class="tab-btn ${cat === currentCategory ? 'active' : ''}" data-category="${cat}">${cat}</button>`;
         });
         tabsNav.innerHTML = tabsHtml;
 
@@ -98,11 +110,29 @@ document.addEventListener('DOMContentLoaded', () => {
             item.style.animationDelay = `${i * 0.03}s`;
             item.classList.add('fade-in-up');
         });
+
+        // Restore scroll position if back navigation and data exists
+        const savedScrollY = sessionStorage.getItem('prev_scroll_y');
+        if (savedScrollY !== null) {
+            // Wait for DOM layout and animations to settle
+            setTimeout(() => {
+                window.scrollTo({
+                    top: parseInt(savedScrollY, 10),
+                    behavior: 'instant'
+                });
+                sessionStorage.removeItem('prev_scroll_y');
+            }, 80);
+        }
     }
 
     // Global function to mark post as visited
     window.markAsVisited = function(element, link) {
         element.classList.add('visited-post');
+        
+        // Save scroll position and active category state
+        sessionStorage.setItem('prev_scroll_y', window.scrollY);
+        sessionStorage.setItem('prev_category', currentCategory);
+
         let visitedLinks = JSON.parse(localStorage.getItem('visited_news') || '[]');
         if (!visitedLinks.includes(link)) {
             visitedLinks.push(link);

@@ -12,7 +12,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 html, body {
-    overflow-x: hidden;
+    overflow-x: clip;
     width: 100%;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 /* Glassmorphism Header & Navigation */
-.app-header {
+.main-header {
     position: sticky;
     top: 0;
     z-index: 100;
