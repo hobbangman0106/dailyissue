@@ -113,6 +113,26 @@ function parseGoogleXml($, limit, portalName) {
     return posts;
 }
 
+// Seed-based random generator (LCG)
+function seededRandom(seed) {
+    const x = Math.sin(seed) * 10000;
+    return x - Math.floor(x);
+}
+
+// Seed-based shuffle function
+function seededShuffle(array, seed) {
+    let m = array.length, t, i;
+    let s = seed;
+    while (m) {
+        const r = seededRandom(s++);
+        i = Math.floor(r * m--);
+        t = array[m];
+        array[m] = array[i];
+        array[i] = t;
+    }
+    return array;
+}
+
 async function scrape() {
     let results = {};
     CATEGORIES.forEach(c => results[c] = []);
@@ -156,26 +176,25 @@ async function scrape() {
         }
     }
 
+    const now = new Date();
+    // Deterministic 1-hour seed (e.g., 2026062219)
+    const timeSeed = now.getFullYear() * 1000000 + (now.getMonth() + 1) * 10000 + now.getDate() * 100 + now.getHours();
+
     for (const cat of CATEGORIES) {
         if(cat === '전체') continue;
         
         // Add Category tag to each post
         results[cat] = results[cat].map(p => ({ ...p, Category: cat }));
 
-        for (let i = results[cat].length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [results[cat][i], results[cat][j]] = [results[cat][j], results[cat][i]];
-        }
+        // Shuffle with time seed
+        seededShuffle(results[cat], timeSeed);
 
         // Aggregate into '전체'
         results['전체'] = results['전체'].concat(results[cat]);
     }
 
-    // Shuffle '전체'
-    for (let i = results['전체'].length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [results['전체'][i], results['전체'][j]] = [results['전체'][j], results['전체'][i]];
-    }
+    // Shuffle '전체' using the same hour-based seed
+    seededShuffle(results['전체'], timeSeed);
 
     fs.writeFileSync(DATA_FILE, JSON.stringify(results, null, 2));
     fs.writeFileSync(JS_DATA_FILE, 'window.LOCAL_DATA = ' + JSON.stringify(results, null, 2) + ';');
