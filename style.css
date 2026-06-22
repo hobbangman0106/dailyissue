@@ -69,6 +69,10 @@ body {
     justify-content: center;
     max-width: 800px;
     padding: 0 20px;
+    scrollbar-width: none; /* Firefox */
+}
+.category-tabs::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
 }
 
 .tab-btn {
@@ -183,6 +187,59 @@ body {
 .fade-in-up {
     animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     opacity: 0;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+    .glass-header {
+        padding: 10px 0 0 0; /* Less padding on mobile */
+    }
+    
+    .logo {
+        font-size: 1.4rem;
+    }
+
+    /* Horizontal scroll for categories */
+    .category-tabs {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        gap: 15px;
+        padding: 0 15px 5px 15px;
+        margin-top: 15px;
+    }
+
+    .tab-btn {
+        font-size: 0.95rem;
+        white-space: nowrap; /* Prevent text wrapping */
+        padding-bottom: 6px;
+    }
+
+    /* Compact List Items for Mobile (10-15 per screen) */
+    .content-area {
+        padding: 15px 15px 40px 15px;
+    }
+
+    .post-list-item {
+        padding: 12px 0; /* Drastically reduce padding */
+    }
+
+    .item-meta {
+        margin-bottom: 4px; /* Reduce gap between meta and title */
+        gap: 6px;
+    }
+
+    .item-badge, .cat-badge {
+        font-size: 0.6rem; /* Smaller badges */
+        padding: 1px 5px;
+    }
+
+    .item-title {
+        font-size: 0.95rem; /* Smaller font to fit more */
+        line-height: 1.35;
+        letter-spacing: -0.3px;
+    }
 }
 
 /* Footer */
