@@ -36,6 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 tabBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 currentCategory = btn.dataset.category;
+                
+                // Reset scroll position to top on category shift
+                window.scrollTo({ top: 0, behavior: 'instant' });
+                
                 renderPosts();
             });
         });
