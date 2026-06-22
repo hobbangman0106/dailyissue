@@ -80,9 +80,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Insert Ad every 20 posts
             if ((index + 1) % 20 === 0) {
+                const screenWidth = window.innerWidth;
+                // Subtract padding of the container (16px * 2) and limit maximum width to 680px
+                const adWidth = screenWidth < 768 ? Math.min(screenWidth - 32, 680) : 680;
                 html += `
-                <div class="post-list-item ad-container" style="display: flex; justify-content: center; padding: 20px 0;">
-                    <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&mainItem=&image=ko" width="680" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
+                <div class="post-list-item ad-container" style="display: flex; justify-content: center; padding: 20px 0; overflow: hidden; width: 100%;">
+                    <iframe src="https://ads-partners.coupang.com/widgets.html?id=992250&template=carousel&trackingCode=AF5661883&subId=&width=${adWidth}&height=140" width="${adWidth}" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics style="max-width: 100%; border: none;"></iframe>
                 </div>
                 `;
             }
