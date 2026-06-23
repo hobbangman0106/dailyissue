@@ -2,9 +2,7 @@ name: Scheduled Community Update
 
 on:
   schedule:
-    - cron: '30 19 * * *' # 4:30 AM KST (19:30 UTC)
-    - cron: '0 2 * * *'   # 11:00 AM KST (02:00 UTC)
-    - cron: '30 8 * * *'  # 5:30 PM KST (08:30 UTC)
+    - cron: '0 */3 * * *' # Every 3 hours (UTC) / 09:00, 12:00, 15:00, ... KST (UTC+9)
   workflow_dispatch: # Allow manual run
 
 jobs:
