@@ -190,9 +190,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 const dirClass = getDirectionClass(item.direction);
                 const dirIcon = getDirectionIcon(item.direction);
                 const percentStr = item.percent ? ` <span class="db-percent ${dirClass}">${item.percent}</span>` : '';
+                const nameHtml = item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" class="db-link" onclick="event.stopPropagation();">${item.name} <i class="db-link-icon" data-lucide="external-link"></i></a>` : item.name;
+                const trAttrs = item.link ? ` class="db-row-clickable" onclick="window.open('${item.link}', '_blank', 'noopener,noreferrer')"` : '';
                 html += `
-                    <tr>
-                        <td class="db-name">${item.name}</td>
+                    <tr${trAttrs}>
+                        <td class="db-name">${nameHtml}</td>
                         <td class="db-value" style="text-align: right;">${item.value}</td>
                         <td class="db-change ${dirClass}" style="text-align: right;">
                             ${dirIcon} ${item.change}${percentStr}

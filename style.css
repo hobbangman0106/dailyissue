@@ -78,15 +78,15 @@ body {
 .tab-btn {
     background: transparent;
     border: none;
-    padding: 8px 18px;
-    font-size: 0.95rem;
+    padding: 8px 11px;
+    font-size: 0.9rem;
     font-weight: 600;
     color: #777;
     border-radius: 20px;
     cursor: pointer;
     white-space: nowrap;
     transition: all 0.2s ease;
-    letter-spacing: -0.3px;
+    letter-spacing: -0.4px;
 }
 
 .tab-btn:hover {
@@ -342,8 +342,41 @@ body {
 
 .db-name {
     font-weight: 600;
-    color: var(--text-primary);
     letter-spacing: -0.2px;
+}
+
+.db-row-clickable {
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.db-row-clickable:hover {
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
+.db-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: var(--transition);
+}
+
+.db-link:hover {
+    color: var(--text-hover);
+}
+
+.db-link-icon {
+    width: 11px;
+    height: 11px;
+    opacity: 0.45;
+    stroke-width: 2.5px;
+    transition: var(--transition);
+}
+
+.db-link:hover .db-link-icon {
+    opacity: 0.8;
 }
 
 .db-value {

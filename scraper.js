@@ -256,7 +256,9 @@ async function scrapeMarketIndicators() {
                 if (numQuot.hasClass('up')) direction = 'up';
                 else if (numQuot.hasClass('dn')) direction = 'down';
                 
-                data.stockIndices.push({ name: h4Text, value, change, percent, direction });
+                const linkRaw = sibling.attr('href') || '';
+                const link = linkRaw ? 'https://finance.naver.com' + linkRaw : '';
+                data.stockIndices.push({ name: h4Text, value, change, percent, direction, link });
             }
         });
 
@@ -266,6 +268,8 @@ async function scrapeMarketIndicators() {
             if (text.includes('해외 증시')) {
                 const table = $(el).nextAll('table.tbl_home').first();
                 table.find('tbody tr').each((j, row) => {
+                    const linkRaw = $(row).find('th a').attr('href') || '';
+                    const link = linkRaw ? 'https://finance.naver.com' + linkRaw : '';
                     const nameRaw = $(row).find('th a').text().trim();
                     const name = nameRaw.replace(/\(\d{2}\.\d{2}\)/g, '').trim();
                     const value = $(row).find('td').eq(0).text().trim();
@@ -281,7 +285,7 @@ async function scrapeMarketIndicators() {
                         change = changeText.replace('하락', '').trim();
                     }
                     
-                    data.stockIndices.push({ name, value, change, percent: '', direction });
+                    data.stockIndices.push({ name, value, change, percent: '', direction, link });
                 });
             }
         });
@@ -323,7 +327,10 @@ async function scrapeMarketIndicators() {
                     direction = 'down';
                 }
                 
-                list.push({ name, value, change, direction });
+                const linkRaw = $(el).find('a').first().attr('href') || '';
+                const link = linkRaw ? 'https://finance.naver.com' + linkRaw : '';
+                
+                list.push({ name, value, change, direction, link });
             });
             return list;
         };
@@ -346,10 +353,13 @@ async function scrapeMarketIndicators() {
                 if (tds.eq(1).hasClass('up')) direction = 'up';
                 else if (tds.eq(1).hasClass('down')) direction = 'down';
 
+                const linkRaw = th.find('a').attr('href') || $(el).find('a').first().attr('href') || '';
+                const link = linkRaw ? 'https://finance.naver.com' + linkRaw : '';
+
                 if (name.includes('달러 인덱스')) {
-                    exchangeRates.push({ name: '달러인덱스', value, change, direction });
+                    exchangeRates.push({ name: '달러인덱스', value, change, direction, link });
                 } else {
-                    data.interestRates.push({ name, value, change, direction });
+                    data.interestRates.push({ name, value, change, direction, link });
                 }
             }
         });
@@ -398,11 +408,13 @@ async function scrapeMarketIndicators() {
             const formattedPrice = price.toFixed(item.category === 'interest' ? 3 : 4);
             const formattedChange = `${Math.abs(change).toFixed(item.category === 'interest' ? 3 : 4)} (${direction === 'up' ? '+' : '-'}${Math.abs(percent).toFixed(2)}%)`;
 
+            const yahooLinkSymbol = item.symbol === '%5ETNX' ? '^TNX' : item.symbol;
             const parsedItem = {
                 name: item.name,
                 value: formattedPrice,
                 change: formattedChange,
-                direction
+                direction,
+                link: `https://finance.yahoo.com/quote/${yahooLinkSymbol}`
             };
 
             if (item.category === 'interest') {
@@ -441,7 +453,8 @@ async function scrapeMarketIndicators() {
                 name,
                 value: formattedPrice,
                 change: formattedChange,
-                direction
+                direction,
+                link: `https://upbit.com/exchange?code=CRIX.UPBIT.${item.market}`
             });
         });
     } catch (e) {
