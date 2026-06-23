@@ -240,6 +240,185 @@ body {
     }
 }
 
+/* Market Dashboard Styles */
+.db-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.db-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+}
+
+.db-header h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    letter-spacing: -0.5px;
+}
+
+.db-timestamp {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.db-timestamp i, .clock-icon {
+    width: 14px;
+    height: 14px;
+    stroke-width: 2.5px;
+}
+
+.db-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.db-card:nth-child(5) {
+    grid-column: span 2;
+}
+
+.db-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+    transition: var(--transition);
+}
+
+.db-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    border-color: var(--border-hover);
+}
+
+.db-card-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 14px;
+    border-left: 3.5px solid #111;
+    padding-left: 8px;
+    line-height: 1.2;
+}
+
+.db-card-content {
+    overflow-x: auto;
+}
+
+.db-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.db-table th, .db-table td {
+    padding: 10px 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.db-table th {
+    font-weight: 700;
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.db-table tr:last-child td {
+    border-bottom: none;
+}
+
+.db-name {
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: -0.2px;
+}
+
+.db-value {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+}
+
+.db-change {
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.db-percent {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.db-icon {
+    font-size: 0.65rem;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+/* Value colors */
+.val-up {
+    color: #e63946 !important; /* Premium Red */
+}
+
+.val-down {
+    color: #115dcd !important; /* Premium Blue */
+}
+
+.val-stable {
+    color: var(--text-secondary) !important;
+}
+
+/* Mobile responsive for dashboard */
+@media (max-width: 768px) {
+    .db-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding-bottom: 10px;
+        margin-bottom: 16px;
+    }
+    
+    .db-header h2 {
+        font-size: 1.25rem;
+    }
+    
+    .db-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .db-card:nth-child(5) {
+        grid-column: span 1;
+    }
+    
+    .db-card {
+        padding: 16px;
+    }
+    
+    .db-table {
+        font-size: 0.85rem;
+    }
+    
+    .db-table th, .db-table td {
+        padding: 8px 4px;
+    }
+}
+
 /* Footer */
 .main-footer {
     text-align: center;

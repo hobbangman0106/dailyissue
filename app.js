@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '건강/의학', '생활/문화', '정치', '연예', '스포츠', '기타'];
-    console.log("=== App v4.0.3 Loaded ===");
+    const CATEGORIES = ['전체', '시장지표', '경제', '세계', 'IT/과학', '건강/의학', '생활/문화', '정치', '연예', '스포츠', '기타'];
+    console.log("=== App v4.0.8 Loaded ===");
     console.log("Categories defined:", CATEGORIES);
 
     // Detect back_forward navigation to restore state
@@ -62,6 +62,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderPosts() {
         if (!postsList) return;
+        
+        if (currentCategory === '시장지표') {
+            renderDashboard();
+            return;
+        }
         
         let displayPosts = data[currentCategory] || [];
 
@@ -144,6 +149,88 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('visited_news', JSON.stringify(visitedLinks));
         }
     };
+
+    function renderDashboard() {
+        if (!postsList) return;
+        const dbData = data['시장지표'];
+        if (!dbData || dbData.type !== 'dashboard') {
+            postsList.innerHTML = '<div class="empty-state">시장 지표 데이터를 불러오는 중입니다...</div>';
+            return;
+        }
+
+        const getDirectionIcon = (dir) => {
+            if (dir === 'up') return '<span class="db-icon up">▲</span>';
+            if (dir === 'down') return '<span class="db-icon down">▼</span>';
+            return '<span class="db-icon stable">-</span>';
+        };
+
+        const getDirectionClass = (dir) => {
+            if (dir === 'up') return 'val-up';
+            if (dir === 'down') return 'val-down';
+            return 'val-stable';
+        };
+
+        const buildSectionHtml = (title, items) => {
+            let html = `
+            <div class="db-card">
+                <h3 class="db-card-title">${title}</h3>
+                <div class="db-card-content">
+                    <table class="db-table">
+                        <thead>
+                            <tr>
+                                <th>지표명</th>
+                                <th style="text-align: right;">현재가</th>
+                                <th style="text-align: right;">전일대비</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+
+            items.forEach(item => {
+                const dirClass = getDirectionClass(item.direction);
+                const dirIcon = getDirectionIcon(item.direction);
+                const percentStr = item.percent ? ` <span class="db-percent ${dirClass}">${item.percent}</span>` : '';
+                html += `
+                    <tr>
+                        <td class="db-name">${item.name}</td>
+                        <td class="db-value" style="text-align: right;">${item.value}</td>
+                        <td class="db-change ${dirClass}" style="text-align: right;">
+                            ${dirIcon} ${item.change}${percentStr}
+                        </td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            `;
+            return html;
+        };
+
+        let html = `
+        <div class="db-container fade-in-up">
+            <div class="db-header">
+                <h2>실시간 주요 시장 지표</h2>
+                <span class="db-timestamp"><i class="clock-icon" data-lucide="clock"></i> 최근 업데이트: ${dbData.updatedAt || '최근'}</span>
+            </div>
+            <div class="db-grid">
+                ${buildSectionHtml('주요 증시 지수', dbData.stockIndices || [])}
+                ${buildSectionHtml('환율 정보', dbData.exchangeRates || [])}
+                ${buildSectionHtml('에너지 및 원자재', dbData.commodities || [])}
+                ${buildSectionHtml('시장 금리', dbData.interestRates || [])}
+                ${buildSectionHtml('가상자산', dbData.cryptocurrencies || [])}
+            </div>
+        </div>
+        `;
+
+        postsList.innerHTML = html;
+        if (window.lucide) {
+            window.lucide.createIcons();
+        }
+    }
 
     fetchData();
 });
