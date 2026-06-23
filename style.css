@@ -343,6 +343,7 @@ body {
 .db-name {
     font-weight: 600;
     letter-spacing: -0.2px;
+    white-space: nowrap;
 }
 
 .db-row-clickable {
@@ -383,6 +384,7 @@ body {
     font-weight: 700;
     color: var(--text-primary);
     font-family: 'Inter', sans-serif;
+    white-space: nowrap;
 }
 
 .db-change {

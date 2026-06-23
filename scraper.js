@@ -446,8 +446,8 @@ async function scrapeMarketIndicators() {
             else if (changeRate < 0) direction = 'down';
 
             const sign = direction === 'up' ? '+' : '-';
-            const formattedPrice = price.toLocaleString() + ' 원';
-            const formattedChange = `${Math.abs(changePrice).toLocaleString()} (${sign}${Math.abs(changeRate).toFixed(2)}%)`;
+            const formattedPrice = Math.round(price / 1000).toLocaleString() + ' 천원';
+            const formattedChange = `${Math.round(Math.abs(changePrice) / 1000).toLocaleString()} (${sign}${Math.abs(changeRate).toFixed(2)}%)`;
 
             data.cryptocurrencies.push({
                 name,
