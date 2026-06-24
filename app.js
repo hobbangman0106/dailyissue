@@ -1,22 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['전체', '시장지표', '경제', '세계', 'IT/과학', '건강/의학', '생활/문화', '정치', '연예', '스포츠', '기타'];
+    const CATEGORIES = ['시장지표', '전체', '경제', '세계', 'IT/과학', '건강/의학', '생활/문화', '정치', '연예', '스포츠', '기타'];
     console.log("=== App v4.0.8 Loaded ===");
     console.log("Categories defined:", CATEGORIES);
 
-    // Detect back_forward navigation to restore state
-    const navigationEntries = window.performance && window.performance.getEntriesByType("navigation");
-    const isBackNavigation = navigationEntries && navigationEntries[0] && navigationEntries[0].type === "back_forward";
-
-    let currentCategory = '전체';
-    if (isBackNavigation) {
-        currentCategory = sessionStorage.getItem('prev_category') || '전체';
-    } else {
-        // Clear old sessions on fresh entry
-        sessionStorage.removeItem('prev_scroll_y');
-        sessionStorage.removeItem('prev_category');
-    }
+    // Persistent category state across refreshes and back navigation
+    let currentCategory = sessionStorage.getItem('active_category') || '시장지표';
     let data = window.LOCAL_DATA || {};
 
     const postsList = document.getElementById('posts-list');
@@ -36,6 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 tabBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 currentCategory = btn.dataset.category;
+                
+                // Save to sessionStorage to persist across page refreshes
+                sessionStorage.setItem('active_category', currentCategory);
                 
                 // Reset scroll position to top on category shift
                 window.scrollTo({ top: 0, behavior: 'instant' });
