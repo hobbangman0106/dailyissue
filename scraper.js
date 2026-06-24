@@ -246,6 +246,15 @@ async function scrapeBlogs() {
             });
             const $ = cheerio.load(response.data, { xmlMode: true });
             
+            // Extract and clean blog title
+            let channelTitle = $('channel > title').first().text() || $('title').first().text() || blog.name;
+            channelTitle = channelTitle.replace(/<!\[CDATA\[(.*?)\]\]>/g, '$1').trim();
+            const cleanBlogTitle = channelTitle
+                .replace(/님의\s*블로그\s*(:\s*네이버\s*블로그)?$/i, '')
+                .replace(/의\s*블로그\s*(:\s*네이버\s*블로그)?$/i, '')
+                .replace(/:\s*네이버\s*블로그$/i, '')
+                .trim();
+
             let count = 0;
             $('item').each((i, el) => {
                 if (count >= blog.limit) return;
@@ -261,12 +270,12 @@ async function scrapeBlogs() {
                         Title: title,
                         Link: link,
                         Portal: '네이버 블로그',
-                        Author: blog.name
+                        Author: cleanBlogTitle
                     });
                     count++;
                 }
             });
-            console.log(`    Successfully fetched ${count} posts from ${blog.name}`);
+            console.log(`    Successfully fetched ${count} posts from ${cleanBlogTitle} (${blog.name})`);
         } catch (e) {
             console.error(`    Failed to scrape blog ${blog.name}:`, e.message);
         }
