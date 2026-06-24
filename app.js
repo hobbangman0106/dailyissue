@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['시장지표', '전체', '경제', '세계', 'IT/과학', '건강/의학', '생활/문화', '정치', '연예', '스포츠', '기타'];
-    console.log("=== App v4.0.8 Loaded ===");
+    const CATEGORIES = ['시장지표', '전체', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '기타'];
+    console.log("=== App v4.1.0 Loaded ===");
     console.log("Categories defined:", CATEGORIES);
 
     // Persistent category state across refreshes and back navigation
@@ -73,6 +73,14 @@ document.addEventListener('DOMContentLoaded', () => {
             "다음": "#ffcc00",
             "Google News": "#ea4335",
             "Yahoo US": "#410093",
+            "디시인사이드": "#29487d",
+            "에펨코리아": "#1f65bb",
+            "더쿠": "#e91e63",
+            "루리웹": "#1a70e6",
+            "클리앙": "#2d5e88",
+            "뽐뿌": "#ff6600",
+            "보배드림": "#002f6c",
+            "인벤": "#61a733",
             "default": "#5c7cfa"
         };
         
@@ -172,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <thead>
                             <tr>
                                 <th>지표명</th>
-                                <th style="text-align: right;">현재가</th>
+                                <th style="text-align: right;">금일종가</th>
                                 <th style="text-align: right;">전일대비</th>
                             </tr>
                         </thead>

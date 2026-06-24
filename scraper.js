@@ -12,7 +12,7 @@ const PC_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 // New categories
-const CATEGORIES = ['전체', '시장지표', '경제', '세계', 'IT/과학', '건강/의학', '생활/문화', '정치', '연예', '스포츠', '기타'];
+const CATEGORIES = ['전체', '시장지표', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '기타'];
 
 const TASKS = [
     // --- 정치 ---
@@ -39,15 +39,13 @@ const TASKS = [
     { cat: 'IT/과학', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
     { cat: 'IT/과학', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/tech', isXml: true },
 
-    // --- 건강/의학 ---
-    { cat: '건강/의학', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
-    { cat: '건강/의학', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/health', isXml: true },
-
-    // --- 생활/문화 (통합) ---
-    { cat: '생활/문화', portal: '네이버', url: 'https://news.naver.com/section/103' }, // Naver Life/Culture
-    { cat: '생활/문화', portal: '네이버', url: 'https://news.naver.com/section/102' }, // Naver Society
-    { cat: '생활/문화', portal: '다음', url: 'https://news.daum.net/society' }, // Daum Society
-    { cat: '생활/문화', portal: '다음', url: 'https://news.daum.net/culture' }, // Daum Culture
+    // --- 생활/건강 (통합) ---
+    { cat: '생활/건강', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '생활/건강', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/health', isXml: true },
+    { cat: '생활/건강', portal: '네이버', url: 'https://news.naver.com/section/103' }, // Naver Life/Culture
+    { cat: '생활/건강', portal: '네이버', url: 'https://news.naver.com/section/102' }, // Naver Society
+    { cat: '생활/건강', portal: '다음', url: 'https://news.daum.net/society' }, // Daum Society
+    { cat: '생활/건강', portal: '다음', url: 'https://news.daum.net/culture' }, // Daum Culture
 
     // --- 연예 ---
     { cat: '연예', portal: '다음', url: 'https://entertain.daum.net/' },
@@ -182,6 +180,15 @@ async function scrape() {
         }
     }
 
+    // Scrape communities for '기타' category
+    try {
+        const communityPosts = await scrapeCommunities();
+        results['기타'] = results['기타'].concat(communityPosts);
+        console.log(`Added ${communityPosts.length} community posts to '기타' category.`);
+    } catch (e) {
+        console.error('Failed to scrape communities:', e.message);
+    }
+
     const now = new Date();
     // Deterministic 1-hour seed (e.g., 2026062219)
     const timeSeed = now.getFullYear() * 1000000 + (now.getMonth() + 1) * 10000 + now.getDate() * 100 + now.getHours();
@@ -237,278 +244,689 @@ async function scrapeMarketIndicators() {
         cryptocurrencies: []
     };
 
-    const now = new Date();
+    // Calculate KST time and dates
+    const dateInfo = getKstDateInfo();
     const zeroPad = (num) => String(num).padStart(2, '0');
-    data.updatedAt = `${now.getFullYear()}.${zeroPad(now.getMonth() + 1)}.${zeroPad(now.getDate())} ${zeroPad(now.getHours())}:${zeroPad(now.getMinutes())}`;
+    data.updatedAt = `${dateInfo.todayKstStr} ${zeroPad(dateInfo.kstHour)}:${zeroPad(dateInfo.kstMinute)}`;
 
-    // 1. Fetch Domestic Interest Rates from Naver (CD, Call, 국고채 3년, 회사채 3년, COFIX)
-    // Since these only change once a day, we keep Naver scraping but wrap it in a strict try-catch.
-    // If it fails (IP block, structural change), we immediately recover from previous data.
-    try {
-        const response = await axios.get('https://finance.naver.com/marketindex/', {
-            responseType: 'arraybuffer',
-            headers: { 'User-Agent': PC_UA },
-            httpsAgent,
-            timeout: 8000
-        });
-        const html = iconv.decode(response.data, 'EUC-KR');
-        const $ = cheerio.load(html);
+    // Helper: Extract a cached symbol from previous data
+    function getCachedSymbol(name, category) {
+        if (previousData && previousData['시장지표']) {
+            let list = [];
+            if (category === 'stock') list = previousData['시장지표'].stockIndices || [];
+            else if (category === 'exchange') list = previousData['시장지표'].exchangeRates || [];
+            else if (category === 'commodity') list = previousData['시장지표'].commodities || [];
+            else if (category === 'interest') list = previousData['시장지표'].interestRates || [];
+            else if (category === 'crypto') list = previousData['시장지표'].cryptocurrencies || [];
 
-        $('table.tbl_exchange.market tr').each((i, el) => {
-            if (i === 0 || i === 7) return; // skip headers
-            const tds = $(el).find('td');
-            const th = $(el).find('th');
-            if (th.length && tds.length) {
-                const name = th.text().trim();
-                const value = tds.eq(0).text().trim();
-                const change = tds.eq(1).text().trim();
-                
-                let direction = 'stable';
-                if (tds.eq(1).hasClass('up')) direction = 'up';
-                else if (tds.eq(1).hasClass('down')) direction = 'down';
-
-                const linkRaw = th.find('a').attr('href') || $(el).find('a').first().attr('href') || '';
-                const link = linkRaw ? 'https://finance.naver.com' + linkRaw : '';
-
-                // We exclude Dollar Index here because we will fetch it fresh from Yahoo
-                if (!name.includes('달러 인덱스')) {
-                    data.interestRates.push({ name, value, change, direction, link });
-                }
+            const match = list.find(x => x.name === name);
+            if (match) {
+                return {
+                    name: match.name,
+                    value: match.value,
+                    change: match.change,
+                    percent: match.percent,
+                    direction: match.direction,
+                    link: match.link,
+                    date: match.date
+                };
             }
-        });
+        }
+        return null;
+    }
+
+    // Helper: Fetch domestic index with Naver-to-Yahoo fallback
+    async function fetchDomesticIndex(name, symbol, cachedSymbol, dateInfo) {
+        const targetDate = getTargetDateForSymbol(name, dateInfo);
+
+        if (cachedSymbol && cachedSymbol.date === targetDate) {
+            console.log(`  [Cache] ${name} is already up-to-date for ${targetDate}.`);
+            return cachedSymbol;
+        }
+
+        console.log(`  [Fetch] Updating ${name} for target date ${targetDate}...`);
+
+        // 1. Try Naver Finance (Primary)
+        try {
+            console.log(`    Trying Naver Finance for ${name}...`);
+            const response = await axios.get('https://finance.naver.com/', {
+                responseType: 'arraybuffer',
+                headers: { 'User-Agent': PC_UA },
+                httpsAgent,
+                timeout: 8000
+            });
+            const html = iconv.decode(response.data, 'EUC-KR');
+            const $ = cheerio.load(html);
+
+            let foundData = null;
+            $('h4').each((i, el) => {
+                const h4Text = $(el).find('span.blind').text().trim() || $(el).text().trim();
+                if (h4Text === name) {
+                    const sibling = $(el).nextAll('a').first();
+                    const numQuot = sibling.find('.num_quot');
+                    const value = numQuot.find('.num').text().trim();
+                    const change = numQuot.find('.num2').text().trim();
+                    const percent = numQuot.find('.num3').text().trim();
+                    
+                    let direction = 'stable';
+                    if (numQuot.hasClass('up')) direction = 'up';
+                    else if (numQuot.hasClass('dn')) direction = 'down';
+                    
+                    const linkRaw = sibling.attr('href') || '';
+                    const link = linkRaw ? 'https://finance.naver.com' + linkRaw : '';
+                    
+                    if (value && change) {
+                        foundData = {
+                            name,
+                            value,
+                            change,
+                            percent,
+                            direction,
+                            link,
+                            date: targetDate
+                        };
+                    }
+                }
+            });
+
+            if (foundData) {
+                console.log(`    Successfully fetched ${name} from Naver Finance: ${foundData.value}`);
+                return foundData;
+            }
+        } catch (err) {
+            console.warn(`    Naver Finance failed for ${name}: ${err.message}`);
+        }
+
+        // 2. Try Yahoo Finance Fallback (Secondary)
+        try {
+            console.log(`    Trying Yahoo Finance fallback for ${name} (${symbol})...`);
+            const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=2d`;
+            const response = await axios.get(url, { headers: { 'User-Agent': PC_UA }, timeout: 8000 });
+            const meta = response.data.chart.result[0].meta;
+            const price = meta.regularMarketPrice;
+            const prevClose = meta.chartPreviousClose;
+            const change = price - prevClose;
+            const percent = (change / prevClose) * 100;
+            let direction = 'stable';
+            if (change > 0) direction = 'up'; else if (change < 0) direction = 'down';
+            
+            const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
+            const formattedValue = price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const formattedChange = Math.abs(change).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const formattedPercent = `${sign}${Math.abs(percent).toFixed(2)}%`;
+
+            const foundData = {
+                name,
+                value: formattedValue,
+                change: formattedChange,
+                percent: formattedPercent,
+                direction,
+                link: `https://finance.yahoo.com/quote/${symbol}`,
+                date: targetDate
+            };
+            console.log(`    Successfully fetched ${name} from Yahoo Finance fallback: ${foundData.value}`);
+            return foundData;
+        } catch (err) {
+            console.error(`    Yahoo Finance fallback failed for ${name}: ${err.message}`);
+        }
+
+        // 3. Try Cache Fallback (Tertiary)
+        if (cachedSymbol) {
+            console.warn(`    Both Naver and Yahoo failed for ${name}. Using cache: ${cachedSymbol.value}`);
+            return cachedSymbol;
+        }
+
+        // 4. Fallback default
+        return {
+            name,
+            value: '-',
+            change: '-',
+            percent: '',
+            direction: 'stable',
+            link: `https://finance.yahoo.com/quote/${symbol}`,
+            date: dateInfo.yesterdayKstStr
+        };
+    }
+
+    // 1. Fetch Domestic Stock Indices (KOSPI, KOSDAQ, KOSPI200) with fallback
+    const domesticIndices = [
+        { name: '코스피', symbol: '^KS11' },
+        { name: '코스닥', symbol: '^KQ11' },
+        { name: '코스피200', symbol: '^KS200' }
+    ];
+
+    for (const idx of domesticIndices) {
+        const cached = getCachedSymbol(idx.name, 'stock');
+        const res = await fetchDomesticIndex(idx.name, idx.symbol, cached, dateInfo);
+        data.stockIndices.push(res);
+    }
+
+    // 2. Fetch Domestic Interest Rates
+    try {
+        const targetDate = getTargetDateForSymbol('CD금리', dateInfo);
+        const needsRateUpdate = shouldUpdateSymbol('CD금리', dateInfo, getCachedSymbol('CD금리', 'interest'));
+        
+        if (!needsRateUpdate && previousData && previousData['시장지표'] && previousData['시장지표'].interestRates) {
+            console.log('  [Cache] Domestic interest rates are already up-to-date.');
+            previousData['시장지표'].interestRates.forEach(rate => {
+                if (rate.name !== '미국 국채 10년') {
+                    data.interestRates.push(rate);
+                }
+            });
+        } else {
+            console.log('  [Fetch] Fetching domestic interest rates from Naver...');
+            const response = await axios.get('https://finance.naver.com/marketindex/', {
+                responseType: 'arraybuffer',
+                headers: { 'User-Agent': PC_UA },
+                httpsAgent,
+                timeout: 8000
+            });
+            const html = iconv.decode(response.data, 'EUC-KR');
+            const $ = cheerio.load(html);
+
+            $('table.tbl_exchange.market tr').each((i, el) => {
+                if (i === 0 || i === 7) return;
+                const tds = $(el).find('td');
+                const th = $(el).find('th');
+                if (th.length && tds.length) {
+                    const name = th.text().trim();
+                    const value = tds.eq(0).text().trim();
+                    const change = tds.eq(1).text().trim();
+                    
+                    let direction = 'stable';
+                    if (tds.eq(1).hasClass('up')) direction = 'up';
+                    else if (tds.eq(1).hasClass('down')) direction = 'down';
+
+                    const linkRaw = th.find('a').attr('href') || $(el).find('a').first().attr('href') || '';
+                    const link = linkRaw ? 'https://finance.naver.com' + linkRaw : '';
+
+                    if (!name.includes('달러 인덱스')) {
+                        data.interestRates.push({ name, value, change, direction, link, date: targetDate });
+                    }
+                }
+            });
+        }
     } catch (e) {
         console.error('Failed to scrape domestic interest rates from Naver, using cache fallback:', e.message);
         if (previousData && previousData['시장지표'] && previousData['시장지표'].interestRates) {
-            // Copy cached domestic interest rates (filter out US 10-Year Treasury since we get it fresh from Yahoo)
-            data.interestRates = previousData['시장지표'].interestRates.filter(item => item.name !== '미국 국채 10년');
+            previousData['시장지표'].interestRates.forEach(rate => {
+                if (rate.name !== '미국 국채 10년') {
+                    data.interestRates.push(rate);
+                }
+            });
         }
     }
 
-    // 2. Fetch Yahoo Finance symbols in parallel (complies with crawling policy, fast and clean JSON)
+    // 3. Fetch Yahoo Finance symbols
     const yahooJobs = [
-        // --- Stock Indices ---
-        { name: '코스피', symbol: '^KS11', category: 'stock', formatter: indexFormatter },
-        { name: '코스닥', symbol: '^KQ11', category: 'stock', formatter: indexFormatter },
-        { name: '코스피200', symbol: '^KS200', category: 'stock', formatter: indexFormatter },
         { name: '다우산업', symbol: '^DJI', category: 'stock', formatter: indexFormatter },
         { name: '나스닥', symbol: '^IXIC', category: 'stock', formatter: indexFormatter },
         { name: 'S&P 500', symbol: '^GSPC', category: 'stock', formatter: indexFormatter },
         { name: '니케이225', symbol: '^N225', category: 'stock', formatter: indexFormatter },
         { name: '상해종합', symbol: '000001.SS', category: 'stock', formatter: indexFormatter },
         { name: '홍콩H', symbol: '^HSCE', category: 'stock', formatter: indexFormatter },
-
-        // --- Exchange Rates ---
         { name: '미국 USD', symbol: 'USDKRW=X', category: 'exchange', formatter: rateFormatter },
         { name: '일본 JPY(100엔)', symbol: 'JPYKRW=X', category: 'exchange', formatter: jpyRateFormatter },
         { name: '유럽 EUR', symbol: 'EURKRW=X', category: 'exchange', formatter: rateFormatter },
         { name: '중국 CNY', symbol: 'CNYKRW=X', category: 'exchange', formatter: rateFormatter },
         { name: '달러인덱스', symbol: 'DX-Y.NYB', category: 'exchange', formatter: dxyFormatter, linkSymbol: 'DX-Y.NYB' },
-
-        // --- Commodities ---
         { name: 'WTI 원유', symbol: 'CL=F', category: 'commodity', formatter: commFormatter },
         { name: '국제 금', symbol: 'GC=F', category: 'commodity', formatter: commFormatter },
         { name: '구리 (LME)', symbol: 'HG=F', category: 'commodity', formatter: copperFormatter },
         { name: '천연가스', symbol: 'NG=F', category: 'commodity', formatter: copperFormatter },
-
-        // --- Interest Rates ---
         { name: '미국 국채 10년', symbol: '%5ETNX', category: 'interest', formatter: bondFormatter, linkSymbol: '^TNX' }
     ];
 
-    // Helper formatting functions
     function indexFormatter(price, change, percent, direction) {
         const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
-        return {
-            value: price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
-            change: Math.abs(change).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
-            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
-        };
+        return { value: price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }), change: Math.abs(change).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }), percent: `${sign}${Math.abs(percent).toFixed(2)}%` };
     }
-
     function rateFormatter(price, change, percent, direction) {
         const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
-        return {
-            value: price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
-            change: Math.abs(change).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
-            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
-        };
+        return { value: price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }), change: Math.abs(change).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }), percent: `${sign}${Math.abs(percent).toFixed(2)}%` };
     }
-
     function jpyRateFormatter(price, change, percent, direction) {
         const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
-        return {
-            value: (price * 100).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
-            change: Math.abs(change * 100).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
-            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
-        };
+        return { value: (price * 100).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }), change: Math.abs(change * 100).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }), percent: `${sign}${Math.abs(percent).toFixed(2)}%` };
     }
-
     function dxyFormatter(price, change, percent, direction) {
         const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
-        return {
-            value: price.toFixed(3),
-            change: Math.abs(change).toFixed(3),
-            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
-        };
+        return { value: price.toFixed(3), change: Math.abs(change).toFixed(3), percent: `${sign}${Math.abs(percent).toFixed(2)}%` };
     }
-
     function commFormatter(price, change, percent, direction) {
         const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
-        return {
-            value: price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
-            change: Math.abs(change).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
-            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
-        };
+        return { value: price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }), change: Math.abs(change).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }), percent: `${sign}${Math.abs(percent).toFixed(2)}%` };
     }
-
-    // Note: copper/natgas are standard decimals
     function copperFormatter(price, change, percent, direction) {
         const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
-        return {
-            value: price.toFixed(4),
-            change: Math.abs(change).toFixed(4),
-            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
-        };
+        return { value: price.toFixed(4), change: Math.abs(change).toFixed(4), percent: `${sign}${Math.abs(percent).toFixed(2)}%` };
     }
-
     function bondFormatter(price, change, percent, direction) {
         const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
-        return {
-            value: price.toFixed(3),
-            change: Math.abs(change).toFixed(3),
-            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
-        };
+        return { value: price.toFixed(3), change: Math.abs(change).toFixed(3), percent: `${sign}${Math.abs(percent).toFixed(2)}%` };
     }
 
-    // Map categories to target arrays in data object
-    const targetMap = {
-        stock: data.stockIndices,
-        exchange: data.exchangeRates,
-        commodity: data.commodities,
-        interest: data.interestRates
-    };
+    const targetMap = { stock: data.stockIndices, exchange: data.exchangeRates, commodity: data.commodities, interest: data.interestRates };
 
-    // Execute Yahoo fetches in parallel using Promise.allSettled
     const yahooResults = await Promise.allSettled(
         yahooJobs.map(async (job) => {
+            const cached = getCachedSymbol(job.name, job.category);
+            const targetDate = getTargetDateForSymbol(job.name, dateInfo);
+            
+            const needUpdate = shouldUpdateSymbol(job.name, dateInfo, cached);
+            if (!needUpdate) {
+                console.log(`  [Cache] ${job.name} is already up-to-date for ${targetDate}.`);
+                return { ...cached, category: job.category };
+            }
+
+            console.log(`  [Fetch] Updating ${job.name} for target date ${targetDate}...`);
             try {
                 const url = `https://query1.finance.yahoo.com/v8/finance/chart/${job.symbol}?interval=1d&range=2d`;
-                const response = await axios.get(url, {
-                    headers: { 'User-Agent': PC_UA },
-                    timeout: 6000
-                });
-                
+                const response = await axios.get(url, { headers: { 'User-Agent': PC_UA }, timeout: 8000 });
                 const meta = response.data.chart.result[0].meta;
                 const price = meta.regularMarketPrice;
                 const prevClose = meta.chartPreviousClose;
                 const change = price - prevClose;
                 const percent = (change / prevClose) * 100;
-                
                 let direction = 'stable';
-                if (change > 0) direction = 'up';
-                else if (change < 0) direction = 'down';
-
+                if (change > 0) direction = 'up'; else if (change < 0) direction = 'down';
                 const formatted = job.formatter(price, change, percent, direction);
-                const quoteSymbol = job.linkSymbol || job.symbol;
-
-                return {
-                    name: job.name,
-                    value: formatted.value,
-                    change: formatted.change,
-                    percent: formatted.percent,
-                    direction,
-                    link: `https://finance.yahoo.com/quote/${quoteSymbol}`,
-                    category: job.category
-                };
+                return { name: job.name, value: formatted.value, change: formatted.change, percent: formatted.percent, direction, link: `https://finance.yahoo.com/quote/${job.linkSymbol || job.symbol}`, date: targetDate, category: job.category };
             } catch (e) {
                 console.error(`Failed to fetch Yahoo symbol ${job.name} (${job.symbol}):`, e.message);
-                
-                // Fallback to previous data cache if available
-                if (previousData && previousData['시장지표']) {
-                    const allPrev = [
-                        ...(previousData['시장지표'].stockIndices || []),
-                        ...(previousData['시장지표'].exchangeRates || []),
-                        ...(previousData['시장지표'].commodities || []),
-                        ...(previousData['시장지표'].interestRates || [])
-                    ];
-                    const match = allPrev.find(x => x.name === job.name);
-                    if (match) {
-                        return { ...match, category: job.category };
-                    }
-                }
-                
-                return {
-                    name: job.name,
-                    value: '-',
-                    change: '-',
-                    percent: '',
-                    direction: 'stable',
-                    link: `https://finance.yahoo.com/quote/${job.linkSymbol || job.symbol}`,
-                    category: job.category
-                };
+                if (cached) return { ...cached, category: job.category };
+                return { name: job.name, value: '-', change: '-', percent: '', direction: 'stable', link: `https://finance.yahoo.com/quote/${job.linkSymbol || job.symbol}`, date: dateInfo.yesterdayKstStr, category: job.category };
             }
         })
     );
 
-    // Populate data with Yahoo results
     yahooResults.forEach((res) => {
         if (res.status === 'fulfilled') {
             const item = res.value;
             const targetArray = targetMap[item.category];
             if (targetArray) {
-                // Delete category field from final object to keep it clean
                 const cleanedItem = {
                     name: item.name,
                     value: item.value,
                     change: item.change,
                     percent: item.percent,
                     direction: item.direction,
-                    link: item.link
+                    link: item.link,
+                    date: item.date
                 };
                 targetArray.push(cleanedItem);
             }
         }
     });
 
-    // 3. Fetch Upbit Crypto (비트코인, 이더리움)
-    try {
-        const url = 'https://api.upbit.com/v1/ticker?markets=KRW-BTC,KRW-ETH';
-        const response = await axios.get(url, {
-            headers: { 'User-Agent': PC_UA },
-            timeout: 5000
-        });
+    // 4. Fetch Upbit Crypto (비트코인, 이더리움)
+    const cryptoSymbols = ['비트코인', '이더리움'];
+    
+    for (const name of cryptoSymbols) {
+        const cached = getCachedSymbol(name, 'crypto');
+        const targetDate = getTargetDateForSymbol(name, dateInfo);
+        
+        const needCryptoUpdate = shouldUpdateSymbol(name, dateInfo, cached);
+        if (!needCryptoUpdate) {
+            console.log(`  [Cache] ${name} is already up-to-date for ${targetDate}.`);
+            data.cryptocurrencies.push(cached);
+        } else {
+            console.log(`  [Fetch] Updating ${name} for target date ${targetDate}...`);
+            try {
+                const marketCode = name === '비트코인' ? 'KRW-BTC' : 'KRW-ETH';
+                const url = `https://api.upbit.com/v1/ticker?markets=${marketCode}`;
+                const response = await axios.get(url, {
+                    headers: { 'User-Agent': PC_UA },
+                    timeout: 8000
+                });
 
-        response.data.forEach(item => {
-            const name = item.market === 'KRW-BTC' ? '비트코인' : '이더리움';
-            const price = item.trade_price;
-            const changePrice = item.signed_change_price;
-            const changeRate = item.signed_change_rate * 100;
-            
-            let direction = 'stable';
-            if (changeRate > 0) direction = 'up';
-            else if (changeRate < 0) direction = 'down';
+                const item = response.data[0];
+                const price = item.trade_price;
+                const changePrice = item.signed_change_price;
+                const changeRate = item.signed_change_rate * 100;
+                
+                let direction = 'stable';
+                if (changeRate > 0) direction = 'up';
+                else if (changeRate < 0) direction = 'down';
 
-            const sign = direction === 'up' ? '+' : '-';
-            const formattedPrice = Math.round(price / 1000).toLocaleString() + ' 천원';
-            const formattedChange = Math.round(Math.abs(changePrice) / 1000).toLocaleString();
-            const formattedPercent = `${sign}${Math.abs(changeRate).toFixed(2)}%`;
+                const sign = direction === 'up' ? '+' : '-';
+                const formattedPrice = Math.round(price / 1000).toLocaleString() + ' 천원';
+                const formattedChange = Math.round(Math.abs(changePrice) / 1000).toLocaleString();
+                const formattedPercent = `${sign}${Math.abs(changeRate).toFixed(2)}%`;
 
-            data.cryptocurrencies.push({
-                name,
-                value: formattedPrice,
-                change: formattedChange,
-                percent: formattedPercent,
-                direction,
-                link: `https://upbit.com/exchange?code=CRIX.UPBIT.${item.market}`
-            });
-        });
-    } catch (e) {
-        console.error('Failed to fetch Upbit Crypto, using cache fallback:', e.message);
-        if (previousData && previousData['시장지표'] && previousData['시장지표'].cryptocurrencies) {
-            data.cryptocurrencies = previousData['시장지표'].cryptocurrencies;
+                data.cryptocurrencies.push({
+                    name,
+                    value: formattedPrice,
+                    change: formattedChange,
+                    percent: formattedPercent,
+                    direction,
+                    link: `https://upbit.com/exchange?code=CRIX.UPBIT.${marketCode}`,
+                    date: targetDate
+                });
+                console.log(`    Successfully fetched ${name} from Upbit: ${formattedPrice}`);
+            } catch (e) {
+                console.error(`Failed to fetch Upbit Crypto ${name}, using cache fallback:`, e.message);
+                if (cached) {
+                    data.cryptocurrencies.push(cached);
+                } else {
+                    data.cryptocurrencies.push({
+                        name,
+                        value: '-',
+                        change: '-',
+                        percent: '',
+                        direction: 'stable',
+                        link: `https://upbit.com/exchange?code=CRIX.UPBIT.${name === '비트코인' ? 'KRW-BTC' : 'KRW-ETH'}`,
+                        date: dateInfo.yesterdayKstStr
+                    });
+                }
+            }
         }
     }
 
     return data;
+}
+
+// ==========================================
+// Helper functions for date & closing time
+// ==========================================
+function getKstDateInfo() {
+    const now = new Date();
+    const kstOffset = 9 * 60 * 60 * 1000;
+    const kstTime = new Date(now.getTime() + kstOffset);
+    
+    const yyyy = kstTime.getUTCFullYear();
+    const mm = String(kstTime.getUTCMonth() + 1).padStart(2, '0');
+    const dd = String(kstTime.getUTCDate()).padStart(2, '0');
+    const todayKstStr = `${yyyy}.${mm}.${dd}`;
+    const kstHour = kstTime.getUTCHours();
+    const kstMinute = kstTime.getUTCMinutes();
+
+    const yesterdayTime = new Date(kstTime.getTime() - (24 * 60 * 60 * 1000));
+    const y_yyyy = yesterdayTime.getUTCFullYear();
+    const y_mm = String(yesterdayTime.getUTCMonth() + 1).padStart(2, '0');
+    const y_dd = String(yesterdayTime.getUTCDate()).padStart(2, '0');
+    const yesterdayKstStr = `${y_yyyy}.${y_mm}.${y_dd}`;
+
+    return { todayKstStr, yesterdayKstStr, kstHour, kstMinute };
+}
+
+function getTargetDateForSymbol(name, dateInfo) {
+    const { todayKstStr, yesterdayKstStr, kstHour } = dateInfo;
+    let closeHour = 16;
+    if (['코스피', '코스닥', '코스피200', '니케이225'].includes(name)) {
+        closeHour = 16;
+    } else if (['상해종합', '홍콩H'].includes(name)) {
+        closeHour = 17;
+    } else if (['다우산업', '나스닥', 'S&P 500', '미국 국채 10년'].includes(name)) {
+        closeHour = 6;
+    } else if (['미국 USD', '일본 JPY(100엔)', '유럽 EUR', '중국 CNY', '달러인덱스', 'WTI 원유', '국제 금', '구리 (LME)', '천연가스'].includes(name)) {
+        closeHour = 7;
+    } else if (['비트코인', '이더리움'].includes(name)) {
+        closeHour = 9;
+    }
+
+    return kstHour < closeHour ? yesterdayKstStr : todayKstStr;
+}
+
+function shouldUpdateSymbol(name, dateInfo, cachedSymbol) {
+    if (!cachedSymbol || !cachedSymbol.date) return true;
+    const targetDate = getTargetDateForSymbol(name, dateInfo);
+    return cachedSymbol.date !== targetDate;
+}
+
+// ==========================================
+// Community Scraper for '기타' Category
+// ==========================================
+const COMMUNITY_CONFIGS = [
+    {
+        name: '디시인사이드',
+        url: 'https://gall.dcinside.com/board/lists/?id=dcbest',
+        headers: {
+            'User-Agent': PC_UA,
+            'Referer': 'https://gall.dcinside.com/'
+        },
+        selector: '.gall_list tbody tr.ub-content, .gall_list tbody tr.us-post',
+        parse: ($el, $) => {
+            const titleEl = $el.find('.gall_tit a').first();
+            let title = titleEl.text().trim();
+            let link = titleEl.attr('href');
+            if (!title || !link || link.startsWith('javascript')) return null;
+            
+            if (link.startsWith('/')) {
+                link = 'https://gall.dcinside.com' + link;
+            }
+
+            return {
+                Title: title.replace(/\s+/g, ' ').trim(),
+                Link: link,
+                Portal: '디시인사이드'
+            };
+        }
+    },
+    {
+        name: '에펨코리아',
+        url: 'https://www.fmkorea.com/best',
+        headers: {
+            'User-Agent': PC_UA,
+            'Referer': 'https://www.fmkorea.com/'
+        },
+        selector: '.bd_lst.li_ca tr:not(.notice)',
+        parse: ($el, $) => {
+            const titleEl = $el.find('.title a').first();
+            let title = titleEl.text().trim();
+            let link = titleEl.attr('href');
+            if (!title || !link) return null;
+            
+            title = title.replace(/\s+/g, ' ').replace(/\[\d+\]$/, '').trim();
+            if (link.startsWith('/')) {
+                link = 'https://www.fmkorea.com' + link;
+            }
+
+            return {
+                Title: title,
+                Link: link,
+                Portal: '에펨코리아'
+            };
+        }
+    },
+    {
+        name: '더쿠',
+        url: 'https://theqoo.net/hot',
+        headers: {
+            'User-Agent': PC_UA,
+            'Referer': 'https://theqoo.net/'
+        },
+        selector: 'tbody tr:not(.notice)',
+        parse: ($el, $) => {
+            const titleEl = $el.find('.title a').first();
+            let title = titleEl.text().trim();
+            let link = titleEl.attr('href');
+            if (!title || !link) return null;
+            
+            title = title.replace(/\s+/g, ' ').replace(/\s*\[\d+\]$/, '').trim();
+            if (link.startsWith('/')) {
+                link = 'https://theqoo.net' + link;
+            }
+
+            return {
+                Title: title,
+                Link: link,
+                Portal: '더쿠'
+            };
+        }
+    },
+    {
+        name: '루리웹',
+        url: 'https://bbs.ruliweb.com/best',
+        headers: {
+            'User-Agent': PC_UA,
+            'Referer': 'https://bbs.ruliweb.com/'
+        },
+        selector: 'tr.table_body',
+        parse: ($el, $) => {
+            const titleEl = $el.find('.subject strong.text_over').first();
+            const linkEl = $el.find('.subject a.subject_link').first();
+            let title = titleEl.text().trim() || $el.find('.subject a').text().trim();
+            let link = linkEl.attr('href') || $el.find('.subject a').attr('href');
+            if (!title || !link) return null;
+
+            title = title.replace(/\s+/g, ' ').replace(/\s*\(\d+\)$/, '').trim();
+            if (link.startsWith('/')) {
+                link = 'https://bbs.ruliweb.com' + link;
+            }
+
+            return {
+                Title: title,
+                Link: link,
+                Portal: '루리웹'
+            };
+        }
+    },
+    {
+        name: '클리앙',
+        url: 'https://www.clien.net/service/board/park',
+        headers: {
+            'User-Agent': PC_UA,
+            'Referer': 'https://www.clien.net/'
+        },
+        selector: '.list_item',
+        parse: ($el, $) => {
+            const titleEl = $el.find('.list_subject span').first();
+            let title = titleEl.text().trim();
+            let link = $el.find('.list_subject').attr('href');
+            if (!title || !link) return null;
+
+            if (link.startsWith('/')) {
+                link = 'https://www.clien.net' + link;
+            }
+
+            return {
+                Title: title,
+                Link: link,
+                Portal: '클리앙'
+            };
+        }
+    },
+    {
+        name: '뽐뿌',
+        url: 'https://www.ppomppu.co.kr/hot.php',
+        headers: {
+            'User-Agent': PC_UA,
+            'Referer': 'https://www.ppomppu.co.kr/'
+        },
+        encoding: 'euc-kr',
+        selector: 'tr',
+        parse: ($el, $) => {
+            const titleEl = $el.find('a[href*="view.php"]').filter((i, aEl) => $(aEl).text().trim().length > 3).first();
+            let title = titleEl.text().trim();
+            let link = titleEl.attr('href');
+            if (!title || !link) return null;
+
+            title = title.replace(/\s+/g, ' ').replace(/\s*\(\d+\)$/, '').trim();
+            if (link.startsWith('/')) {
+                link = 'https://www.ppomppu.co.kr' + link;
+            }
+
+            return {
+                Title: title,
+                Link: link,
+                Portal: '뽐뿌'
+            };
+        }
+    },
+    {
+        name: '보배드림',
+        url: 'https://www.bobaedream.co.kr/list?code=best',
+        headers: {
+            'User-Agent': PC_UA,
+            'Referer': 'https://www.bobaedream.co.kr/'
+        },
+        selector: 'tr',
+        parse: ($el, $) => {
+            const titleEl = $el.find('a[href*="No="]').first();
+            let title = titleEl.text().trim();
+            let link = titleEl.attr('href');
+            if (!title || !link) return null;
+
+            if (link.startsWith('/')) {
+                link = 'https://www.bobaedream.co.kr' + link;
+            }
+
+            return {
+                Title: title,
+                Link: link,
+                Portal: '보배드림'
+            };
+        }
+    },
+    {
+        name: '인벤',
+        url: 'https://www.inven.co.kr/board/inven/2097?my=chuchu',
+        headers: {
+            'User-Agent': PC_UA,
+            'Referer': 'https://www.inven.co.kr/'
+        },
+        selector: 'tr',
+        parse: ($el, $) => {
+            const titleEl = $el.find('a[href*="/board/webzine/2097/"]').first();
+            let title = titleEl.text().trim();
+            let link = titleEl.attr('href');
+            if (!title || !link) return null;
+
+            title = title.replace(/\s+/g, ' ').replace(/^\[.*?\]/, '').trim();
+            if (link.startsWith('/')) {
+                link = 'https://www.inven.co.kr' + link;
+            }
+
+            return {
+                Title: title,
+                Link: link,
+                Portal: '인벤'
+            };
+        }
+    }
+];
+
+async function scrapeCommunities() {
+    console.log('Scraping Communities for 기타 Category...');
+    const posts = [];
+
+    for (const config of COMMUNITY_CONFIGS) {
+        try {
+            console.log(`  Scraping ${config.name}...`);
+            let html = '';
+            
+            const requestConfig = {
+                headers: config.headers,
+                httpsAgent,
+                timeout: 8000
+            };
+
+            if (config.encoding === 'euc-kr') {
+                requestConfig.responseType = 'arraybuffer';
+                const response = await axios.get(config.url, requestConfig);
+                html = iconv.decode(Buffer.from(response.data), 'euc-kr');
+            } else {
+                const response = await axios.get(config.url, requestConfig);
+                html = response.data;
+            }
+
+            const $ = cheerio.load(html);
+            let count = 0;
+            $(config.selector).each((i, el) => {
+                const post = config.parse($(el), $);
+                if (post && post.Title && post.Link) {
+                    posts.push(post);
+                    count++;
+                }
+            });
+            console.log(`    Scraped ${count} posts from ${config.name}.`);
+        } catch (err) {
+            console.error(`  Failed to scrape community ${config.name}: ${err.message}`);
+        }
+    }
+
+    return posts;
 }
 
 scrape();
