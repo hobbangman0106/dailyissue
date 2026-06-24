@@ -84,11 +84,13 @@ document.addEventListener('DOMContentLoaded', () => {
         displayPosts.forEach((post, index) => {
             const portalColor = COMMUNITY_COLORS[post.Portal] || COMMUNITY_COLORS['default'];
             const isVisited = visitedLinks.includes(post.Link) ? 'visited-post' : '';
+            const portalText = post.Portal;
+            const categoryText = (post.Portal === '네이버 블로그' && post.Author) ? post.Author : post.Category;
             html += `
                 <a href="${post.Link}" class="post-list-item ${isVisited}" onclick="markAsVisited(this, '${post.Link}')">
                     <div class="item-meta">
-                        <span class="item-badge" style="background-color: ${portalColor};">${post.Portal}</span>
-                        <span class="cat-badge">${post.Category}</span>
+                        <span class="item-badge" style="background-color: ${portalColor};">${portalText}</span>
+                        <span class="cat-badge">${categoryText}</span>
                     </div>
                     <h3 class="item-title">${post.Title}</h3>
                 </a>

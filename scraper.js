@@ -195,6 +195,15 @@ async function scrape() {
     // Deterministic 1-hour seed (e.g., 2026062219)
     const timeSeed = now.getFullYear() * 1000000 + (now.getMonth() + 1) * 10000 + now.getDate() * 100 + now.getHours();
 
+    // Scrape blogs BEFORE the category mapping and overall merging loop
+    try {
+        console.log('Scraping Blogs...');
+        results['블로그'] = await scrapeBlogs();
+    } catch (e) {
+        console.error('Failed to scrape blogs:', e.message);
+        results['블로그'] = [];
+    }
+
     for (const cat of CATEGORIES) {
         if(cat === '전체') continue;
         
@@ -210,15 +219,6 @@ async function scrape() {
 
     // Shuffle '전체' using the same hour-based seed
     seededShuffle(results['전체'], timeSeed);
-
-    // Scrape blogs
-    try {
-        console.log('Scraping Blogs...');
-        results['블로그'] = await scrapeBlogs();
-    } catch (e) {
-        console.error('Failed to scrape blogs:', e.message);
-        results['블로그'] = [];
-    }
 
     // Scrape market indicators dashboard
     try {
@@ -260,7 +260,8 @@ async function scrapeBlogs() {
                     posts.push({
                         Title: title,
                         Link: link,
-                        Portal: '네이버 블로그'
+                        Portal: '네이버 블로그',
+                        Author: blog.name
                     });
                     count++;
                 }
