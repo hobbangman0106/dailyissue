@@ -217,6 +217,16 @@ async function scrape() {
 }
 
 async function scrapeMarketIndicators() {
+    // 0. Load previous data cache as fallback
+    let previousData = null;
+    try {
+        if (fs.existsSync(DATA_FILE)) {
+            previousData = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+        }
+    } catch (e) {
+        console.error('Failed to load previous data cache:', e.message);
+    }
+
     const data = {
         type: 'dashboard',
         updatedAt: '',
@@ -231,69 +241,9 @@ async function scrapeMarketIndicators() {
     const zeroPad = (num) => String(num).padStart(2, '0');
     data.updatedAt = `${now.getFullYear()}.${zeroPad(now.getMonth() + 1)}.${zeroPad(now.getDate())} ${zeroPad(now.getHours())}:${zeroPad(now.getMinutes())}`;
 
-    // 1. Fetch Naver Finance Home (KOSPI, KOSDAQ, Global Indices)
-    try {
-        const response = await axios.get('https://finance.naver.com/', {
-            responseType: 'arraybuffer',
-            headers: { 'User-Agent': PC_UA },
-            httpsAgent,
-            timeout: 8000
-        });
-        const html = iconv.decode(response.data, 'EUC-KR');
-        const $ = cheerio.load(html);
-
-        // Domestic Indices
-        $('h4').each((i, el) => {
-            const h4Text = $(el).find('span.blind').text().trim() || $(el).text().trim();
-            if (h4Text === '코스피' || h4Text === '코스닥' || h4Text === '코스피200') {
-                const sibling = $(el).nextAll('a').first();
-                const numQuot = sibling.find('.num_quot');
-                const value = numQuot.find('.num').text().trim();
-                const change = numQuot.find('.num2').text().trim();
-                const percent = numQuot.find('.num3').text().trim();
-                
-                let direction = 'stable';
-                if (numQuot.hasClass('up')) direction = 'up';
-                else if (numQuot.hasClass('dn')) direction = 'down';
-                
-                const linkRaw = sibling.attr('href') || '';
-                const link = linkRaw ? 'https://finance.naver.com' + linkRaw : '';
-                data.stockIndices.push({ name: h4Text, value, change, percent, direction, link });
-            }
-        });
-
-        // Global Indices
-        $('h3').each((i, el) => {
-            const text = $(el).text().trim();
-            if (text.includes('해외 증시')) {
-                const table = $(el).nextAll('table.tbl_home').first();
-                table.find('tbody tr').each((j, row) => {
-                    const linkRaw = $(row).find('th a').attr('href') || '';
-                    const link = linkRaw ? 'https://finance.naver.com' + linkRaw : '';
-                    const nameRaw = $(row).find('th a').text().trim();
-                    const name = nameRaw.replace(/\(\d{2}\.\d{2}\)/g, '').trim();
-                    const value = $(row).find('td').eq(0).text().trim();
-                    const changeText = $(row).find('td').eq(1).text().replace(/\s+/g, ' ').trim();
-                    
-                    let direction = 'stable';
-                    let change = changeText;
-                    if ($(row).hasClass('up')) {
-                        direction = 'up';
-                        change = changeText.replace('상승', '').trim();
-                    } else if ($(row).hasClass('down')) {
-                        direction = 'down';
-                        change = changeText.replace('하락', '').trim();
-                    }
-                    
-                    data.stockIndices.push({ name, value, change, percent: '', direction, link });
-                });
-            }
-        });
-    } catch (e) {
-        console.error('Failed to scrape stock indices:', e.message);
-    }
-
-    // 2. Fetch Naver Market Index (Exchange, WTI/Gold, Domestic Interest)
+    // 1. Fetch Domestic Interest Rates from Naver (CD, Call, 국고채 3년, 회사채 3년, COFIX)
+    // Since these only change once a day, we keep Naver scraping but wrap it in a strict try-catch.
+    // If it fails (IP block, structural change), we immediately recover from previous data.
     try {
         const response = await axios.get('https://finance.naver.com/marketindex/', {
             responseType: 'arraybuffer',
@@ -304,42 +254,6 @@ async function scrapeMarketIndicators() {
         const html = iconv.decode(response.data, 'EUC-KR');
         const $ = cheerio.load(html);
 
-        const parseList = (selector) => {
-            const list = [];
-            $(selector).find('li').each((i, el) => {
-                const titClone = $(el).find('.tit').clone();
-                titClone.find('.blind').remove();
-                
-                let name = titClone.text().replace(/\s+/g, ' ').trim();
-                if (!name) {
-                    name = $(el).find('a.head').attr('title') || $(el).find('.blind').first().text().trim();
-                }
-                name = name.replace(/(상승|하락)+$/g, '').trim();
-
-                const value = $(el).find('.value').text().trim();
-                const change = $(el).find('.change').text().trim();
-                
-                let direction = 'stable';
-                const headClass = $(el).find('a.head').attr('class') || '';
-                if ($(el).find('.blind').text().includes('상승') || headClass.includes('_up') || $(el).html().includes('up') || $(el).find('.ico_up').length > 0) {
-                    direction = 'up';
-                } else if ($(el).find('.blind').text().includes('하락') || headClass.includes('_down') || $(el).html().includes('down') || $(el).find('.ico_down').length > 0) {
-                    direction = 'down';
-                }
-                
-                const linkRaw = $(el).find('a').first().attr('href') || '';
-                const link = linkRaw ? 'https://finance.naver.com' + linkRaw : '';
-                
-                list.push({ name, value, change, direction, link });
-            });
-            return list;
-        };
-
-        const exchangeRates = parseList('#exchangeList');
-        const worldExchangeRates = parseList('#worldExchangeList');
-        const oilGoldRates = parseList('#oilGoldList');
-
-        // Add Dollar Index to exchangeRates if found
         $('table.tbl_exchange.market tr').each((i, el) => {
             if (i === 0 || i === 7) return; // skip headers
             const tds = $(el).find('td');
@@ -356,78 +270,206 @@ async function scrapeMarketIndicators() {
                 const linkRaw = th.find('a').attr('href') || $(el).find('a').first().attr('href') || '';
                 const link = linkRaw ? 'https://finance.naver.com' + linkRaw : '';
 
-                if (name.includes('달러 인덱스')) {
-                    exchangeRates.push({ name: '달러인덱스', value, change, direction, link });
-                } else {
+                // We exclude Dollar Index here because we will fetch it fresh from Yahoo
+                if (!name.includes('달러 인덱스')) {
                     data.interestRates.push({ name, value, change, direction, link });
                 }
             }
         });
-
-        const combinedExchange = exchangeRates.concat(worldExchangeRates);
-        const uniqueExchange = [];
-        const exchangeNames = new Set();
-        for (const item of combinedExchange) {
-            if (!exchangeNames.has(item.name)) {
-                exchangeNames.add(item.name);
-                uniqueExchange.push(item);
-            }
-        }
-        data.exchangeRates = uniqueExchange;
-        data.commodities = oilGoldRates;
-
     } catch (e) {
-        console.error('Failed to scrape marketindex:', e.message);
+        console.error('Failed to scrape domestic interest rates from Naver, using cache fallback:', e.message);
+        if (previousData && previousData['시장지표'] && previousData['시장지표'].interestRates) {
+            // Copy cached domestic interest rates (filter out US 10-Year Treasury since we get it fresh from Yahoo)
+            data.interestRates = previousData['시장지표'].interestRates.filter(item => item.name !== '미국 국채 10년');
+        }
     }
 
-    // 3. Fetch Yahoo Finance (US 10-Year Treasury Yield, Copper, Natural Gas)
-    const yahooSymbols = [
-        { name: '미국 국채 10년', symbol: '%5ETNX', category: 'interest' },
-        { name: '구리 (LME)', symbol: 'HG=F', category: 'commodity' },
-        { name: '천연가스', symbol: 'NG=F', category: 'commodity' }
+    // 2. Fetch Yahoo Finance symbols in parallel (complies with crawling policy, fast and clean JSON)
+    const yahooJobs = [
+        // --- Stock Indices ---
+        { name: '코스피', symbol: '^KS11', category: 'stock', formatter: indexFormatter },
+        { name: '코스닥', symbol: '^KQ11', category: 'stock', formatter: indexFormatter },
+        { name: '코스피200', symbol: '^KS200', category: 'stock', formatter: indexFormatter },
+        { name: '다우산업', symbol: '^DJI', category: 'stock', formatter: indexFormatter },
+        { name: '나스닥', symbol: '^IXIC', category: 'stock', formatter: indexFormatter },
+        { name: 'S&P 500', symbol: '^GSPC', category: 'stock', formatter: indexFormatter },
+        { name: '니케이225', symbol: '^N225', category: 'stock', formatter: indexFormatter },
+        { name: '상해종합', symbol: '000001.SS', category: 'stock', formatter: indexFormatter },
+        { name: '홍콩H', symbol: '^HSCE', category: 'stock', formatter: indexFormatter },
+
+        // --- Exchange Rates ---
+        { name: '미국 USD', symbol: 'USDKRW=X', category: 'exchange', formatter: rateFormatter },
+        { name: '일본 JPY(100엔)', symbol: 'JPYKRW=X', category: 'exchange', formatter: jpyRateFormatter },
+        { name: '유럽 EUR', symbol: 'EURKRW=X', category: 'exchange', formatter: rateFormatter },
+        { name: '중국 CNY', symbol: 'CNYKRW=X', category: 'exchange', formatter: rateFormatter },
+        { name: '달러인덱스', symbol: 'DX-Y.NYB', category: 'exchange', formatter: dxyFormatter, linkSymbol: 'DX-Y.NYB' },
+
+        // --- Commodities ---
+        { name: 'WTI 원유', symbol: 'CL=F', category: 'commodity', formatter: commFormatter },
+        { name: '국제 금', symbol: 'GC=F', category: 'commodity', formatter: commFormatter },
+        { name: '구리 (LME)', symbol: 'HG=F', category: 'commodity', formatter: copperFormatter },
+        { name: '천연가스', symbol: 'NG=F', category: 'commodity', formatter: copperFormatter },
+
+        // --- Interest Rates ---
+        { name: '미국 국채 10년', symbol: '%5ETNX', category: 'interest', formatter: bondFormatter, linkSymbol: '^TNX' }
     ];
 
-    for (const item of yahooSymbols) {
-        try {
-            const url = `https://query1.finance.yahoo.com/v8/finance/chart/${item.symbol}?interval=1d&range=2d`;
-            const response = await axios.get(url, {
-                headers: { 'User-Agent': PC_UA },
-                timeout: 5000
-            });
-            
-            const meta = response.data.chart.result[0].meta;
-            const price = meta.regularMarketPrice;
-            const prevClose = meta.chartPreviousClose;
-            const change = price - prevClose;
-            const percent = (change / prevClose) * 100;
-            
-            let direction = 'stable';
-            if (change > 0) direction = 'up';
-            else if (change < 0) direction = 'down';
-
-            const formattedPrice = price.toFixed(item.category === 'interest' ? 3 : 4);
-            const formattedChange = `${Math.abs(change).toFixed(item.category === 'interest' ? 3 : 4)} (${direction === 'up' ? '+' : '-'}${Math.abs(percent).toFixed(2)}%)`;
-
-            const yahooLinkSymbol = item.symbol === '%5ETNX' ? '^TNX' : item.symbol;
-            const parsedItem = {
-                name: item.name,
-                value: formattedPrice,
-                change: formattedChange,
-                direction,
-                link: `https://finance.yahoo.com/quote/${yahooLinkSymbol}`
-            };
-
-            if (item.category === 'interest') {
-                data.interestRates.push(parsedItem);
-            } else {
-                data.commodities.push(parsedItem);
-            }
-        } catch (e) {
-            console.error(`Failed to fetch Yahoo Symbol ${item.name}:`, e.message);
-        }
+    // Helper formatting functions
+    function indexFormatter(price, change, percent, direction) {
+        const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
+        return {
+            value: price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+            change: Math.abs(change).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
+        };
     }
 
-    // 4. Fetch Upbit Crypto (비트코인, 이더리움)
+    function rateFormatter(price, change, percent, direction) {
+        const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
+        return {
+            value: price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+            change: Math.abs(change).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
+        };
+    }
+
+    function jpyRateFormatter(price, change, percent, direction) {
+        const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
+        return {
+            value: (price * 100).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+            change: Math.abs(change * 100).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
+        };
+    }
+
+    function dxyFormatter(price, change, percent, direction) {
+        const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
+        return {
+            value: price.toFixed(3),
+            change: Math.abs(change).toFixed(3),
+            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
+        };
+    }
+
+    function commFormatter(price, change, percent, direction) {
+        const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
+        return {
+            value: price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+            change: Math.abs(change).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
+        };
+    }
+
+    // Note: copper/natgas are standard decimals
+    function copperFormatter(price, change, percent, direction) {
+        const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
+        return {
+            value: price.toFixed(4),
+            change: Math.abs(change).toFixed(4),
+            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
+        };
+    }
+
+    function bondFormatter(price, change, percent, direction) {
+        const sign = direction === 'up' ? '+' : (direction === 'down' ? '-' : '');
+        return {
+            value: price.toFixed(3),
+            change: Math.abs(change).toFixed(3),
+            percent: `${sign}${Math.abs(percent).toFixed(2)}%`
+        };
+    }
+
+    // Map categories to target arrays in data object
+    const targetMap = {
+        stock: data.stockIndices,
+        exchange: data.exchangeRates,
+        commodity: data.commodities,
+        interest: data.interestRates
+    };
+
+    // Execute Yahoo fetches in parallel using Promise.allSettled
+    const yahooResults = await Promise.allSettled(
+        yahooJobs.map(async (job) => {
+            try {
+                const url = `https://query1.finance.yahoo.com/v8/finance/chart/${job.symbol}?interval=1d&range=2d`;
+                const response = await axios.get(url, {
+                    headers: { 'User-Agent': PC_UA },
+                    timeout: 6000
+                });
+                
+                const meta = response.data.chart.result[0].meta;
+                const price = meta.regularMarketPrice;
+                const prevClose = meta.chartPreviousClose;
+                const change = price - prevClose;
+                const percent = (change / prevClose) * 100;
+                
+                let direction = 'stable';
+                if (change > 0) direction = 'up';
+                else if (change < 0) direction = 'down';
+
+                const formatted = job.formatter(price, change, percent, direction);
+                const quoteSymbol = job.linkSymbol || job.symbol;
+
+                return {
+                    name: job.name,
+                    value: formatted.value,
+                    change: formatted.change,
+                    percent: formatted.percent,
+                    direction,
+                    link: `https://finance.yahoo.com/quote/${quoteSymbol}`,
+                    category: job.category
+                };
+            } catch (e) {
+                console.error(`Failed to fetch Yahoo symbol ${job.name} (${job.symbol}):`, e.message);
+                
+                // Fallback to previous data cache if available
+                if (previousData && previousData['시장지표']) {
+                    const allPrev = [
+                        ...(previousData['시장지표'].stockIndices || []),
+                        ...(previousData['시장지표'].exchangeRates || []),
+                        ...(previousData['시장지표'].commodities || []),
+                        ...(previousData['시장지표'].interestRates || [])
+                    ];
+                    const match = allPrev.find(x => x.name === job.name);
+                    if (match) {
+                        return { ...match, category: job.category };
+                    }
+                }
+                
+                return {
+                    name: job.name,
+                    value: '-',
+                    change: '-',
+                    percent: '',
+                    direction: 'stable',
+                    link: `https://finance.yahoo.com/quote/${job.linkSymbol || job.symbol}`,
+                    category: job.category
+                };
+            }
+        })
+    );
+
+    // Populate data with Yahoo results
+    yahooResults.forEach((res) => {
+        if (res.status === 'fulfilled') {
+            const item = res.value;
+            const targetArray = targetMap[item.category];
+            if (targetArray) {
+                // Delete category field from final object to keep it clean
+                const cleanedItem = {
+                    name: item.name,
+                    value: item.value,
+                    change: item.change,
+                    percent: item.percent,
+                    direction: item.direction,
+                    link: item.link
+                };
+                targetArray.push(cleanedItem);
+            }
+        }
+    });
+
+    // 3. Fetch Upbit Crypto (비트코인, 이더리움)
     try {
         const url = 'https://api.upbit.com/v1/ticker?markets=KRW-BTC,KRW-ETH';
         const response = await axios.get(url, {
@@ -447,18 +489,23 @@ async function scrapeMarketIndicators() {
 
             const sign = direction === 'up' ? '+' : '-';
             const formattedPrice = Math.round(price / 1000).toLocaleString() + ' 천원';
-            const formattedChange = `${Math.round(Math.abs(changePrice) / 1000).toLocaleString()} (${sign}${Math.abs(changeRate).toFixed(2)}%)`;
+            const formattedChange = Math.round(Math.abs(changePrice) / 1000).toLocaleString();
+            const formattedPercent = `${sign}${Math.abs(changeRate).toFixed(2)}%`;
 
             data.cryptocurrencies.push({
                 name,
                 value: formattedPrice,
                 change: formattedChange,
+                percent: formattedPercent,
                 direction,
                 link: `https://upbit.com/exchange?code=CRIX.UPBIT.${item.market}`
             });
         });
     } catch (e) {
-        console.error('Failed to fetch Upbit Crypto:', e.message);
+        console.error('Failed to fetch Upbit Crypto, using cache fallback:', e.message);
+        if (previousData && previousData['시장지표'] && previousData['시장지표'].cryptocurrencies) {
+            data.cryptocurrencies = previousData['시장지표'].cryptocurrencies;
+        }
     }
 
     return data;
