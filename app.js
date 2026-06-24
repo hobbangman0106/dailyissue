@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['시장지표', '전체', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '기타'];
+    const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '기타'];
     console.log("=== App v4.1.0 Loaded ===");
     console.log("Categories defined:", CATEGORIES);
 
     // Persistent category state across refreshes and back navigation
-    let currentCategory = sessionStorage.getItem('active_category') || '시장지표';
+    let currentCategory = sessionStorage.getItem('active_category') || '전체';
     let data = window.LOCAL_DATA || {};
 
     const postsList = document.getElementById('posts-list');
@@ -56,15 +56,17 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderPosts() {
         if (!postsList) return;
         
-        if (currentCategory === '시장지표') {
-            renderDashboard();
-            return;
+        let html = '';
+        
+        // Prepend market indicators if in the '경제' category
+        if (currentCategory === '경제') {
+            html += getDashboardHtml();
         }
         
         let displayPosts = data[currentCategory] || [];
 
         if (displayPosts.length === 0) {
-            postsList.innerHTML = '<div class="empty-state">해당 카테고리에 뉴스가 없습니다.</div>';
+            postsList.innerHTML = html + '<div class="empty-state">해당 카테고리에 뉴스가 없습니다.</div>';
             return;
         }
 
@@ -73,20 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "다음": "#ffcc00",
             "Google News": "#ea4335",
             "Yahoo US": "#410093",
-            "디시인사이드": "#29487d",
-            "에펨코리아": "#1f65bb",
-            "더쿠": "#e91e63",
-            "루리웹": "#1a70e6",
-            "클리앙": "#2d5e88",
-            "뽐뿌": "#ff6600",
-            "보배드림": "#002f6c",
-            "인벤": "#61a733",
             "default": "#5c7cfa"
         };
         
         const visitedLinks = JSON.parse(localStorage.getItem('visited_news') || '[]');
 
-        let html = '';
         displayPosts.forEach((post, index) => {
             const portalColor = COMMUNITY_COLORS[post.Portal] || COMMUNITY_COLORS['default'];
             const isVisited = visitedLinks.includes(post.Link) ? 'visited-post' : '';
@@ -103,7 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // Insert Ad every 20 posts
             if ((index + 1) % 20 === 0) {
                 const screenWidth = window.innerWidth;
-                // Subtract padding of the container (16px * 2) and limit maximum width to 680px
                 const adWidth = screenWidth < 768 ? Math.min(screenWidth - 32, 680) : 680;
                 html += `
                 <div class="post-list-item ad-container" style="display: flex; justify-content: center; padding: 20px 0; overflow: hidden; width: 100%;">
@@ -114,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         
         postsList.innerHTML = html;
+        
         // Fade in animation for items
         const items = postsList.querySelectorAll('.post-list-item');
         items.forEach((item, i) => {
@@ -121,10 +114,14 @@ document.addEventListener('DOMContentLoaded', () => {
             item.classList.add('fade-in-up');
         });
 
+        // Initialize Lucide icons if present in the dashboard
+        if (window.lucide) {
+            window.lucide.createIcons();
+        }
+
         // Restore scroll position if back navigation and data exists
         const savedScrollY = sessionStorage.getItem('prev_scroll_y');
         if (savedScrollY !== null) {
-            // Wait for DOM layout and animations to settle
             setTimeout(() => {
                 window.scrollTo({
                     top: parseInt(savedScrollY, 10),
@@ -151,12 +148,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    function renderDashboard() {
-        if (!postsList) return;
+    function getDashboardHtml() {
         const dbData = data['시장지표'];
         if (!dbData || dbData.type !== 'dashboard') {
-            postsList.innerHTML = '<div class="empty-state">시장 지표 데이터를 불러오는 중입니다...</div>';
-            return;
+            return '<div class="empty-state">시장 지표 데이터를 불러오는 중입니다...</div>';
         }
 
         const getDirectionIcon = (dir) => {
@@ -213,8 +208,8 @@ document.addEventListener('DOMContentLoaded', () => {
             return html;
         };
 
-        let html = `
-        <div class="db-container fade-in-up">
+        return `
+        <div class="db-container fade-in-up" style="margin-bottom: 32px;">
             <div class="db-header">
                 <h2>실시간 주요 시장 지표</h2>
                 <span class="db-timestamp"><i class="clock-icon" data-lucide="clock"></i> 최근 업데이트: ${dbData.updatedAt || '최근'}</span>
@@ -228,11 +223,6 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         `;
-
-        postsList.innerHTML = html;
-        if (window.lucide) {
-            window.lucide.createIcons();
-        }
     }
 
     fetchData();
