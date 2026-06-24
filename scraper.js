@@ -15,7 +15,14 @@ const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '블로그', '기타'];
 
 const BLOGS = [
-    { name: 'silercan', url: 'https://rss.blog.naver.com/silercan.xml', limit: 3 }
+    { name: 'silercan', url: 'https://rss.blog.naver.com/silercan.xml', limit: 3 },
+    { name: 'binehase', url: 'https://rss.blog.naver.com/binehase.xml', limit: 3 },
+    { name: 'rgbsky', url: 'https://rss.blog.naver.com/rgbsky.xml', limit: 3 },
+    { name: 'mymykoo', url: 'https://rss.blog.naver.com/mymykoo.xml', limit: 3 },
+    { name: 'dssr1115', url: 'https://rss.blog.naver.com/dssr1115.xml', limit: 3 },
+    { name: 'robbiedhu', url: 'https://rss.blog.naver.com/robbiedhu.xml', limit: 3 },
+    { name: 'calista21', url: 'https://rss.blog.naver.com/calista21.xml', limit: 3 },
+    { name: 'kuy1738', url: 'https://rss.blog.naver.com/kuy1738.xml', limit: 3 }
 ];
 
 const TASKS = [
