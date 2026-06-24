@@ -12,7 +12,11 @@ const PC_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 // New categories
-const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '기타'];
+const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '블로그', '기타'];
+
+const BLOGS = [
+    { name: 'silercan', url: 'https://rss.blog.naver.com/silercan.xml', limit: 3 }
+];
 
 const TASKS = [
     // --- 정치 ---
@@ -200,6 +204,15 @@ async function scrape() {
     // Shuffle '전체' using the same hour-based seed
     seededShuffle(results['전체'], timeSeed);
 
+    // Scrape blogs
+    try {
+        console.log('Scraping Blogs...');
+        results['블로그'] = await scrapeBlogs();
+    } catch (e) {
+        console.error('Failed to scrape blogs:', e.message);
+        results['블로그'] = [];
+    }
+
     // Scrape market indicators dashboard
     try {
         console.log('Scraping Market Indicators...');
@@ -212,6 +225,45 @@ async function scrape() {
     fs.writeFileSync(DATA_FILE, JSON.stringify(results, null, 2));
     fs.writeFileSync(JS_DATA_FILE, 'window.LOCAL_DATA = ' + JSON.stringify(results, null, 2) + ';');
     console.log('Update Complete.');
+}
+
+async function scrapeBlogs() {
+    const posts = [];
+    for (const blog of BLOGS) {
+        try {
+            console.log(`  Scraping Blog: ${blog.name}...`);
+            const response = await axios.get(blog.url, {
+                headers: { 'User-Agent': PC_UA },
+                httpsAgent,
+                timeout: 8000
+            });
+            const $ = cheerio.load(response.data, { xmlMode: true });
+            
+            let count = 0;
+            $('item').each((i, el) => {
+                if (count >= blog.limit) return;
+                
+                let title = $(el).find('title').text() || '';
+                title = title.replace(/<!\[CDATA\[(.*?)\]\]>/g, '$1').trim();
+                
+                let link = $(el).find('link').text() || '';
+                link = link.replace(/<!\[CDATA\[(.*?)\]\]>/g, '$1').trim();
+                
+                if (title && link) {
+                    posts.push({
+                        Title: title,
+                        Link: link,
+                        Portal: '네이버 블로그'
+                    });
+                    count++;
+                }
+            });
+            console.log(`    Successfully fetched ${count} posts from ${blog.name}`);
+        } catch (e) {
+            console.error(`    Failed to scrape blog ${blog.name}:`, e.message);
+        }
+    }
+    return posts;
 }
 
 async function scrapeMarketIndicators() {

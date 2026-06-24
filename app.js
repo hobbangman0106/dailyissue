@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '기타'];
+    const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '블로그', '기타'];
     console.log("=== App v4.1.0 Loaded ===");
     console.log("Categories defined:", CATEGORIES);
 
@@ -72,6 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const COMMUNITY_COLORS = {
             "네이버": "#03c75a",
+            "네이버 블로그": "#03c75a",
             "다음": "#ffcc00",
             "Google News": "#ea4335",
             "Yahoo US": "#410093",
