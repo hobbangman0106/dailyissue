@@ -1,10 +1,8 @@
 name: Scheduled Community Update
-
 on:
   schedule:
-    - cron: '0 */3 * * *' # Every 3 hours (UTC) / 09:00, 12:00, 15:00, ... KST (UTC+9)
+    - cron: '0 * * * *' # Every hour (UTC)
   workflow_dispatch: # Allow manual run
-
 jobs:
   update-data:
     runs-on: ubuntu-latest
@@ -13,25 +11,20 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-
       - name: Install Dependencies
         run: npm install
-
       - name: Random Delay
         if: github.event_name == 'schedule'
         run: |
-          DELAY=$((RANDOM % 1800))
+          DELAY=$((RANDOM % 300))
           echo "Delaying execution by $DELAY seconds (approx. $((DELAY / 60)) minutes)..."
           sleep $DELAY
-
       - name: Run Scraper
         run: npm run scrape
-
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
