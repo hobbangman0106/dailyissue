@@ -12,29 +12,34 @@ const PC_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 // New categories
-const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '기타'];
+const CATEGORIES = ['전체', '경제', '재테크', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '기타'];
 
 const TASKS = [
     // --- 정치 ---
-    { cat: '정치', portal: '네이버', url: 'https://news.naver.com/section/100' },
+    { cat: '정치', portal: '네이버', url: 'https://news.naver.com/main/ranking/popularDay.naver?rankingType=age&subType=100' },
     { cat: '정치', portal: '다음', url: 'https://news.daum.net/politics' },
     { cat: '정치', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/POLITICS?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
 
-    // --- 경제 (금융, 증권, 부동산, 코인, 금 포함) ---
-    { cat: '경제', portal: '네이버', url: 'https://news.naver.com/section/101' },
-    { cat: '경제', portal: '다음', url: 'https://news.daum.net/economic' },
-    { cat: '경제', portal: '다음', url: 'https://realestate.daum.net/news' }, // Daum Real estate
+    // --- 경제 (거시 경제, 일반 비즈니스 등) ---
+    { cat: '경제', portal: '네이버', url: 'https://news.naver.com/main/ranking/popularDay.naver?rankingType=age&subType=101' },
+    { cat: '경제', portal: '다음', url: 'https://news.daum.net/economy' },
     { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
-    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8+OR+%EA%B0%80%EC%83%81%ED%99%94%ED%8F%90+OR+%EB%B6%80%EB%8F%99%EC%82%B0+OR+%EC%A6%9D%EA%B6%8C+OR+%EA%B8%88%EA%B0%92&hl=ko&gl=KR&ceid=KR:ko', isXml: true }, // Search for Bitcoin, Crypto, Real estate, Stocks, Gold
+
+    // --- 재테크 (부동산, 주식, 채권, 선물, 환율, 펀드, 절세 등) ---
+    { cat: '재테크', portal: '네이버', url: 'https://finance.naver.com/news/news_list.naver?mode=RANK' },
+    { cat: '재테크', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EB%B6%80%EB%8F%99%EC%82%B0+OR+%EC%95%84%ED%8C%8C%ED%8A%B8+OR+%EC%A3%BC%ED%83%9D&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '재테크', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%A3%BC%EC%8B%9D+OR+%EC%A6%9D%EA%B6%8C+OR+%EC%B1%84%EA%B6%8C+OR+%ED%8E%80%EB%93%9C+OR+%EC%84%A0%EB%AC%BC%EA%B1%B0%EB%9E%98&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '재테크', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%ED%99%98%EC%9C%A8+OR+%EC%A0%88%EC%84%B8+OR+%EC%84%B8%EA%B8%88+OR+%EC%98%88%EC%A0%81%EA%B8%88+OR+%EA%B8%88%EB%A6%AC&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '재테크', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EA%B8%88%EA%B0%92+OR+%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8+OR+%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
 
     // --- 세계 ---
-    { cat: '세계', portal: '네이버', url: 'https://news.naver.com/section/104' },
+    { cat: '세계', portal: '네이버', url: 'https://news.naver.com/main/ranking/popularDay.naver?rankingType=age&subType=104' },
     { cat: '세계', portal: '다음', url: 'https://news.daum.net/foreign' },
     { cat: '세계', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/WORLD?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
     { cat: '세계', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/world', isXml: true },
 
     // --- IT/과학 ---
-    { cat: 'IT/과학', portal: '네이버', url: 'https://news.naver.com/section/105' },
+    { cat: 'IT/과학', portal: '네이버', url: 'https://news.naver.com/main/ranking/popularDay.naver?rankingType=age&subType=105' },
     { cat: 'IT/과학', portal: '다음', url: 'https://news.daum.net/digital' },
     { cat: 'IT/과학', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
     { cat: 'IT/과학', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/tech', isXml: true },
@@ -42,10 +47,10 @@ const TASKS = [
     // --- 생활/건강 (통합) ---
     { cat: '생활/건강', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
     { cat: '생활/건강', portal: 'Yahoo US', url: 'https://news.yahoo.com/rss/health', isXml: true },
-    { cat: '생활/건강', portal: '네이버', url: 'https://news.naver.com/section/103' }, // Naver Life/Culture
-    { cat: '생활/건강', portal: '네이버', url: 'https://news.naver.com/section/102' }, // Naver Society
-    { cat: '생활/건강', portal: '다음', url: 'https://news.daum.net/society' }, // Daum Society
-    { cat: '생활/건강', portal: '다음', url: 'https://news.daum.net/culture' }, // Daum Culture
+    { cat: '생활/건강', portal: '네이버', url: 'https://news.naver.com/main/ranking/popularDay.naver?rankingType=age&subType=103' }, // 생활/문화 랭킹
+    { cat: '생활/건강', portal: '네이버', url: 'https://news.naver.com/main/ranking/popularDay.naver?rankingType=age&subType=102' }, // 사회 랭킹
+    { cat: '생활/건강', portal: '다음', url: 'https://news.daum.net/society' }, // 사회 랭킹
+    { cat: '생활/건강', portal: '다음', url: 'https://news.daum.net/culture' }, // 문화/생활 랭킹
 
     // --- 연예 ---
     { cat: '연예', portal: '다음', url: 'https://entertain.daum.net/' },
@@ -66,6 +71,19 @@ const TASKS = [
 
 function parseNaver($, url) {
     const posts = [];
+    if (url.includes('finance.naver.com')) {
+        $('a[href*="news_read.naver"]').each((i, el) => {
+            if (posts.length >= 40) return;
+            const title = $(el).attr('title') || $(el).text().trim();
+            const href = $(el).attr('href');
+            if (title && title.length > 5 && href) {
+                if (!posts.find(p => p.Title === title)) {
+                    posts.push({ Title: title, Link: href, Portal: '네이버' });
+                }
+            }
+        });
+        return posts;
+    }
     if (url.includes('sports')) {
         $('.today_item .title, .text_area .title, a').each((i, el) => {
             const text = $(el).text().trim();
@@ -73,6 +91,19 @@ function parseNaver($, url) {
             if (href && (href.includes('/news/read') || href.includes('news/read'))) {
                 if (text && text.length > 5 && posts.length < 40) {
                     posts.push({ Title: text, Link: href, Portal: '네이버' });
+                }
+            }
+        });
+        return posts;
+    }
+    if (url.includes('ranking')) {
+        $('.rankingnews_list li a, .rankingnews_list a, a.ranking_title').each((i, el) => {
+            if (posts.length >= 40) return;
+            const title = $(el).attr('title') || $(el).text().trim();
+            const href = $(el).attr('href');
+            if (title && title.length > 5 && href) {
+                if (!posts.find(p => p.Title === title)) {
+                    posts.push({ Title: title, Link: href, Portal: '네이버' });
                 }
             }
         });
@@ -87,19 +118,14 @@ function parseNaver($, url) {
 
 function parseDaum($, url) {
     const posts = [];
-    $('a').each((i, el) => {
-        let text = $(el).find('.tit_txt, .tit_g, .tit_thumb, .tit_main, strong').first().text().trim();
-        if (!text) {
-            // Fallback to text if no inner title elements exist, but remove child paragraph/span texts if possible
-            const clone = $(el).clone();
-            clone.find('p, span, .desc_txt, .info_txt').remove();
-            text = clone.text().replace(/\s+/g, ' ').trim();
-        }
-        
+    $('.tit_g a, strong.tit_g a, .link_txt, .list_trendranking a, a').each((i, el) => {
+        if (posts.length >= 40) return;
+        const title = $(el).text().trim();
         const href = $(el).attr('href');
-        if (text && text.length > 5 && href && href.includes('/v/')) {
-            if (posts.length >= 40) return;
-            posts.push({ Title: text, Link: href, Portal: '다음' });
+        if (title && title.length > 5 && href && href.includes('/v/')) {
+            if (!posts.find(p => p.Title === title)) {
+                posts.push({ Title: title, Link: href, Portal: '다음' });
+            }
         }
     });
     return posts;
@@ -156,8 +182,18 @@ async function scrape() {
                     httpsAgent,
                     timeout: 8000
                 };
+                if (task.portal === '네이버') {
+                    requestConfig.responseType = 'arraybuffer';
+                }
                 const response = await axios.get(task.url, requestConfig);
-                const htmlData = response.data;
+                
+                let htmlData;
+                if (task.portal === '네이버') {
+                    htmlData = iconv.decode(response.data, 'EUC-KR');
+                } else {
+                    htmlData = response.data;
+                }
+                
                 const $ = cheerio.load(htmlData);
                 
                 if (task.portal === '네이버') posts = parseNaver($, task.url);
