@@ -127,13 +127,44 @@ function parseNaver($, url) {
 
 function parseDaum($, url) {
     const posts = [];
-    $('.tit_g a, strong.tit_g a, .link_txt, .list_trendranking a, a').each((i, el) => {
+    $('a').each((i, el) => {
         if (posts.length >= 40) return;
-        const title = $(el).text().trim();
         const href = $(el).attr('href');
-        if (title && title.length > 5 && href && href.includes('/v/')) {
-            if (!posts.find(p => p.Title === title)) {
-                posts.push({ Title: title, Link: href, Portal: '다음' });
+        if (href && href.includes('/v/')) {
+            let title = '';
+            
+            // 1. If it has a data-title attribute, decode it (prevents body leaking)
+            const dataTitle = $(el).attr('data-title');
+            if (dataTitle) {
+                try {
+                    title = decodeURIComponent(dataTitle).trim();
+                } catch (e) {
+                    title = '';
+                }
+            }
+            
+            // 2. If no data-title, look for specific title child elements
+            if (!title) {
+                const titTxt = $(el).find('.tit_txt, .tit_g, .link_txt, strong').first();
+                if (titTxt.length > 0) {
+                    title = titTxt.text().trim();
+                }
+            }
+            
+            // 3. Fallback: if still no title and it's a simple link, use its own text but only if it's not wrapping description
+            if (!title) {
+                if ($(el).find('.desc_txt, .info_txt, .txt_g, .desc_g').length === 0) {
+                    title = $(el).text().trim();
+                }
+            }
+            
+            // Clean title from extra whitespaces/newlines
+            title = title.replace(/\s+/g, ' ').trim();
+
+            if (title && title.length > 5) {
+                if (!posts.find(p => p.Title === title)) {
+                    posts.push({ Title: title, Link: href, Portal: '다음' });
+                }
             }
         }
     });
