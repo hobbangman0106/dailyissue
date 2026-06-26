@@ -12,7 +12,7 @@ const PC_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 // New categories
-const CATEGORIES = ['전체', '경제', '재테크', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '기타'];
+const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '기타'];
 
 const TASKS = [
     // --- 정치 ---
@@ -20,17 +20,15 @@ const TASKS = [
     { cat: '정치', portal: '다음', url: 'https://news.daum.net/politics' },
     { cat: '정치', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/POLITICS?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
 
-    // --- 경제 (거시 경제, 일반 비즈니스 등) ---
+    // --- 경제 (거시 경제, 금융, 재테크, 부동산, 주식 등 통합) ---
     { cat: '경제', portal: '네이버', url: 'https://news.naver.com/main/ranking/popularDay.naver?rankingType=age&subType=101' },
     { cat: '경제', portal: '다음', url: 'https://news.daum.net/economy' },
     { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko', isXml: true },
-
-    // --- 재테크 (부동산, 주식, 채권, 선물, 환율, 펀드, 절세 등) ---
-    { cat: '재테크', portal: '네이버', url: 'https://finance.naver.com/news/news_list.naver?mode=RANK' },
-    { cat: '재테크', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EB%B6%80%EB%8F%99%EC%82%B0+OR+%EC%95%84%ED%8C%8C%ED%8A%B8+OR+%EC%A3%BC%ED%83%9D&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
-    { cat: '재테크', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%A3%BC%EC%8B%9D+OR+%EC%A6%9D%EA%B6%8C+OR+%EC%B1%84%EA%B6%8C+OR+%ED%8E%80%EB%93%9C+OR+%EC%84%A0%EB%AC%BC%EA%B1%B0%EB%9E%98&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
-    { cat: '재테크', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%ED%99%98%EC%9C%A8+OR+%EC%A0%88%EC%84%B8+OR+%EC%84%B8%EA%B8%88+OR+%EC%98%88%EC%A0%81%EA%B8%88+OR+%EA%B8%88%EB%A6%AC&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
-    { cat: '재테크', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EA%B8%88%EA%B0%92+OR+%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8+OR+%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '경제', portal: '네이버', url: 'https://finance.naver.com/news/news_list.naver?mode=RANK' },
+    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EB%B6%80%EB%8F%99%EC%82%B0+OR+%EC%95%84%ED%8C%8C%ED%8A%B8+OR+%EC%A3%BC%ED%83%9D&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%A3%BC%EC%8B%9D+OR+%EC%A6%9D%EA%B6%8C+OR+%EC%B1%84%EA%B6%8C+OR+%ED%8E%80%EB%93%9C+OR+%EC%84%A0%EB%AC%BC%EA%B1%B0%EB%9E%98&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%ED%99%98%EC%9C%A8+OR+%EC%A0%88%EC%84%B8+OR+%EC%84%B8%EA%B8%88+OR+%EC%98%88%EC%A0%81%EA%B8%88+OR+%EA%B8%88%EB%A6%AC&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
+    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EA%B8%88%EA%B0%92+OR+%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8+OR+%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0&hl=ko&gl=KR&ceid=KR:ko', isXml: true },
 
     // --- 세계 ---
     { cat: '세계', portal: '네이버', url: 'https://news.naver.com/main/ranking/popularDay.naver?rankingType=age&subType=104' },
