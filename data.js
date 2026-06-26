@@ -1,188 +1,62 @@
 window.LOCAL_DATA = {
   "전체": [
     {
-      "Title": "鄭 \"보완수사권 폐지에 속도전\"…金측 \"할 일 안하고 정부탓\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161166",
+      "Title": "\"정부 보완수사권 폐지 방침은 김민석 총리 도장 깨기 사건...정청래 겨냥 당내 강경파 표심 갈라치기\"[박영환의 시사1번지]",
+      "Link": "https://n.news.naver.com/mnews/article/660/0000111992",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "‘아기 울음’ 커진 광주·전남…출생아 수 회복 ‘기대감’",
-      "Link": "https://v.daum.net/v/20260624195214609",
-      "Portal": "다음",
-      "Category": "생활/건강"
+      "Title": "The U.S. cricket team just advanced to the Super 8. How an unlikely lineup of 9-to-5ers is making history",
+      "Link": "https://www.yahoo.com/news/the-us-cricket-team-just-advanced-to-the-super-8-how-an-unlikely-lineup-of-9-to-5ers-is-making-history-011404225.html",
+      "Portal": "Yahoo US",
+      "Category": "스포츠"
     },
     {
-      "Title": "‘법무부 패싱’ 김민석 · ‘7월중 폐지’ 정청래… 당권전쟁 제물된 보완수사권",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800612",
+      "Title": "\"일자리 뺏기고 콩나물 장사\"…中 숏폼 시장 흔드는 AI 열풍 \"사이버 대학살\"",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005782025",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "'2배' 레버리지 ETF 삼전·하닉뿐 … 금융당국이 '반도체 쏠림' 자초했다 - 뉴데일리",
+      "Link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KUXhXeXVSNkhBelJqcEY0UW4wWWJQU3J0ZGxXaGQ0N1FrODl6MTN1aFlGd1N3VlBKX05JZ1hRekVKOTZwdTc4SHh0cG5FcEFUZ2h0WXF3R1RNLVhrU0V3eDFDYWJDYlZ4UGRQcWtyeHBWdWFYVllaaGI1a9IBgAFBVV95cUxOMlh4R2E3UE13dERkempTdnFVdUxlLXcyVzJtbVM0NnVQQjNNUjVXV2lXcVc1Z2phYlp0MkNFUnp5dUl2aDA1VlpoN05OemFqYXItazJVSkNKNlJNZ1otMUZBOV9ZRXJUMS1mMlA1RklacFpiQ1lfb1ZSaURORXZRQw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "확 바뀌는 ML 에이스 판도? 2026시즌 지배하는 ‘25세 이하 신인급’ 투수들",
+      "Link": "https://v.daum.net/v/20260626060032509",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "[포착]“가짜 아닌데요?”… 로봇 손 잡고, 위성값 묻는 이 대통령",
+      "Link": "https://n.news.naver.com/mnews/article/005/0001857375",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "[현장+] 군입대도 이적도 다 함께…'오픈 더 도어'로 온앤오프 3막 시작",
-      "Link": "https://v.daum.net/v/20260626111632234",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "엔플라잉 이승협 '짙은 잘생김'[엑's HD포토]",
-      "Link": "https://v.daum.net/v/20260626130325557",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "K-미디어아트 저력…우주+림희영·이정우, '아르스 일렉트로니카' 수상",
-      "Link": "https://v.daum.net/v/20260626130503648",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "앙리의 일침 \"한국의 심장 손흥민을 벤치에 앉힌다는건…\" - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Pd0lET2xHd2FuOHdlZzN6bEJHQjB1UXhLZnY5eFRsWnBHbmlURWtjMXVTT21TcXlwa2Fodnl1cWlreExDMEV3TmZsUUlpbjNnaDlLRTB1UE1Hd9IBVEFVX3lxTE85SFJBYW5sWXRhT1NKd25lZnRvZVliM2l4RzlLTGRpT2tNQzF1UUQxeEdZRWhkc2NidGoxMF9GRTJ1ek5xbVlIYjVLUHBtbmhnSDI0Yw?oc=5",
-      "Portal": "Google News",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "\"'오스만 철도 부활' 튀르키예 막으려…이스라엘, 물밑 외교전\"",
-      "Link": "https://v.daum.net/v/20260625220103114",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"파격 드레스보다 놀란 건\" 데뷔 20년 만에 첫 백상 거머쥔 그녀",
-      "Link": "https://v.daum.net/v/UgRvTpV7Nu",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "홍명보 “선수들에게 말했다, 탓할 거리 없으면 나를 탓하라고”",
-      "Link": "https://v.daum.net/v/20260626112746825",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "혈액 DNA·RNA 함께 보니...알츠하이머병 환자 구분 향상 - 병원신문",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wVTBnTXNlUGRkY3BDNUc5TlRWa2lFQlBQMmtJbTBpZFpXLTl1R3NNMTJNbTBIRm80dnRFTDlFUmpTOWxOdTg5UnJiLWRaajE5NFdmYnFUOURycUVxVFNjT2diQzh5QkhlNVE?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "Who will control Africa’s AI infrastructure, and at what cost?",
-      "Link": "https://finance.yahoo.com/technology/ai/articles/control-africa-ai-infrastructure-cost-005333899.html",
-      "Portal": "Yahoo US",
-      "Category": "세계"
-    },
-    {
-      "Title": "호주와 파라과이 0-0…한국, 조 3위 중 6위로 추락",
-      "Link": "https://v.daum.net/v/20260626130145424",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "경남TP 3D프린팅 기술세미나…제조기업 기술역량 제고",
-      "Link": "https://v.daum.net/v/20260626131017839",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "제2형 당뇨병 위험이 높은 혈액형 - Laodong.vn",
-      "Link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd1pvWmE4Z3BzWHg0NXgycWY5OGFCMkgzZFdRZmRBcFhZX1l3QUZ1Zk9WN2JfRzBCSmpNQ3VlR3RrYmIyUTh6MkthNFZ4aHJLdjl2Sm83LWozWjc5OUtEa2k3SlN3djBncEVvZVl1dUZuVTFSOG1aV3dXNG1IYUVLMzVremN4ZHpjeVJzT1k1bHBXZw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "韓위성 15기 태우고…누리호 5호 9월 쏜다",
-      "Link": "https://v.daum.net/v/20260626040217528",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[현장르포] “어두운 골목, 우리가 직접 살핀다”… 경찰·시민 함께 뛰는 ‘순찰 러닝’",
-      "Link": "https://v.daum.net/v/20260626130833782",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "How COVID changed America, in 12 charts",
-      "Link": "https://www.yahoo.com/news/how-covid-changed-america-in-12-charts-163056855.html",
-      "Portal": "Yahoo US",
-      "Category": "연예"
-    },
-    {
-      "Title": "‘성폭력 불송치’ 20살 사망…시민 8200명, 기소 촉구 연명서 전달한다",
-      "Link": "https://v.daum.net/v/20260625201203499",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "비트코인 6만 달러 아래로…20개월 만에 최저 - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4WldJaFpMQWJWeVMwbmVwMG9xX3FqRk82LWF1UGNXVW90UVREY09WN1lTdW1ZeXotQmJNMkdSQmpSRFFUaXVTVzFoTVdsSTRHMUpmNjNaenhsX3JDZnpQS9IBYEFVX3lxTFA4WldJaFpMQWJWeVMwbmVwMG9xX3FqRk82LWF1UGNXVW90UVREY09WN1lTdW1ZeXotQmJNMkdSQmpSRFFUaXVTVzFoTVdsSTRHMUpmNjNaenhsX3JDZnpQSw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "F조 3위 스웨덴에도 밀린 홍명보호…32강 경쟁 5위 - KBS 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhbVJUc0tEVGRzWExLdk0zQzB2Sl9GQ2ZCUnROV3hlbnVBQWRjYnVzZ2hsSGlyOUlTM01DdFBMNERvN0VTZGxMcTgzX25mRFR2UDZ0TGJ4bWpBQjg?oc=5",
-      "Portal": "Google News",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "코스피 8% 급락…사이드카·서킷브레이커 잇달아 발동",
-      "Link": "https://n.news.naver.com/mnews/article/374/0000518448",
+      "Title": "女소방관 '갑질 사망'에…소방청, 조직문화 전반 점검",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162201",
       "Portal": "네이버",
-      "Category": "경제"
+      "Category": "생활/건강"
     },
     {
-      "Title": "선관위, 싹 뜯어 고친다… 위원 선임방식 바꾸고 감사원 감사도 의무화",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800621",
+      "Title": "서산 농장 탈출한 늑대개 11마리, 열흘만에 모두 돌아와",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729746",
       "Portal": "네이버",
-      "Category": "정치"
+      "Category": "생활/건강"
     },
     {
-      "Title": "Hulk Hogan's roles as movie star, media crusader and MAGA hypeman had a major impact outside of the ring",
-      "Link": "https://www.yahoo.com/entertainment/celebrity/article/hulk-hogans-roles-as-movie-star-media-crusader-and-maga-hypeman-had-a-major-impact-outside-of-the-ring-184345886.html",
-      "Portal": "Yahoo US",
-      "Category": "연예"
-    },
-    {
-      "Title": "이란 혁명수비대 \"호르무즈 지정 항로 벗어나면 대응\"",
-      "Link": "https://n.news.naver.com/mnews/article/422/0000878426",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "(방종현 시민기자의 유머 산책) 그늘집이 있는 농장 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yQ2s3V3Qyd3NMODhyZS0tR3BrRjZFU05wX1VLM1BNV0kteXpWSG1BeUlHSjd4MWhvSkxGQWxDSUpUbHhhUkFwLXdjQ2EzNHM?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[사설] 韓축구 참사…불통행정·부실인사·무능리더십이 조직의 敵",
-      "Link": "https://v.daum.net/v/20260626111256019",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "비트코인, 9000만원선도 흔들... 가격 급락에 스트래티지 자금조달 시험대 - 한양경제",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Ca2FDUlBjdjRZTWJGVlJUSm5lWi13YVU1YTVUOGhUUm9DMy1FdjQxeVRmTEFySmVzRnVCY0ZBejNMOWhhdnBLTDJwRF9Yc0J3MVM2SWtxeTJBbFNJWkREMlg2UXNaYnFVZmh4RGVxZXQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[단독] 제일 바쁜 점심에 먹통 된 ‘토스 포스’… 전국 식당 전쟁통",
-      "Link": "https://n.news.naver.com/mnews/article/005/0001857344",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "美 세컨드 레이디, ‘8달러’ 산모용 드레스 영수증 인증… NYT에 유쾌한 한 방 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ09ucHphdlI1M0xJZk4xMXFSZlNBQmJfdW04cjJVTmZSWkhoSUl0R1I1X1hpcC1fUHIyTEd1MXpqeVJSeloxTXBoTEpmZ1JRajZaZTNicFhjcmRFcEh3Qk5Hek5NdnotMjd6UE40V05Hdm9VZTlmOVZoUXZlOGY0R0drLVU?oc=5",
+      "Title": "베네수엘라 지진 사망자 최소 235명...\"실종자 수만 4만여 명\" - 한국일보",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOM0xEd2RhOVl4SjZlcVdzVS03cVJWY2FMejZUb1ZkMzhOMmpCVzFZSjlvdXpXLUxUUlNFLXhjcFNRMlFwNHVsQTZOWXBYbG5UdXQxV1FyWURmS3Q2ZFNhbm1JcldGS1JSTGl0ZjZR0gFzQVVfeXFMUDBHUjNhRWYxenljNFRIeEVRaUNiWE9fYUI5blFYdW9jWFZjeWpPa1ZGeTRkT096MXBOeUVmR29EUEhHMWVjV0lydXdnNnpta1NOUFZlUU9mTU1FQXNpeG1XeTI0YVFNbmlNR25maGxSWEx4VQ?oc=5",
       "Portal": "Google News",
       "Category": "세계"
     },
     {
-      "Title": "PBS 폐지 안착 속도…출연연 인건비 전액 지원·신규수탁 제한 - 전자신문",
-      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9KYlpEQjZoVV9fdkt2UE1ZUkVxOTc0Q2YyakpQbjJQcjNnMU1xVG1rVmtHZEsxMlNRWmFzeWxvRkYxREdSckdDWVRVc3V0dw?oc=5",
+      "Title": "동탄 집값 누적상승률 전국 1위···서울 전세 상승률도 13년만에 최대 상승폭 - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PT3Bxa0RCeDk0UmVQMUdBNGFyTUpqdUdTNHAyYUlvVXdZOWt6ZFE5V3RleE14UE9lbkhpTFdzVTdTOFdzZHVNdW1HUk5UUk4weGFZcVZYckVqZ9IBX0FVX3lxTFBaZ0UtMFBnbVptWVdxbEpFbU5qX3c4Znc1VWpNV2l5a2ZsaFdyR082VjdVajduUVRtcXpYeE9PU3lQVHk4VFFMT0lGaTRZamdMM2M5S0RFQVBxN1VGZURF?oc=5",
       "Portal": "Google News",
       "Category": "경제"
     },
@@ -193,1418 +67,68 @@ window.LOCAL_DATA = {
       "Category": "기타"
     },
     {
-      "Title": "민주당 “헌법 개정해 선관위 해체”…국힘 “시선 돌리려는 시도”",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533398",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "After Shohei Ohtani and Jontay Porter, can sports and legal gambling coexist?",
-      "Link": "https://www.yahoo.com/news/after-shohei-ohtani-and-jontay-porter-can-sports-and-legal-gambling-coexist-165422946.html",
-      "Portal": "Yahoo US",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "'불법촬영 혐의' 30대, 압수수색 중 자택서 추락사",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938738",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"홍명보 나가라\" 외침에→안정환, '굳은 표정' 포착…\"이거 라이브 맞죠?\" 현장 분위기 급랭 ('티키타카쇼')",
-      "Link": "https://v.daum.net/v/20260626100717760",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "내년 최저임금 본격 줄다리기 시작‥\"16% 인상\" vs \"동결\"서 출발 - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BbUdlV3ZjQjBITFBsRjNqdWtYZFgtZmNibVg0VkRsS0dhZldPLVRiRVRLM3BsRllETzdRNFFyWGJ4T1lhc2FDZFIxSDRPY2pPMkJySlJ6cVJwN0I3bHQ5bndEdHBSeDVyTEFhdzRuUHhzT3l3aEpj0gF3QVVfeXFMUHhPM21PUTIzaWtscFBndndITGpHM0x0blJISzNYR05SeXctbk0yNC1VR1k1a2I1cTU5VG1uQkFIakc1Yk1uWFNiYWxRaHBibVZSZm0tTmdWU0NrNzItLXA5bkZNRzRQUU85UXBwSmxpaWF2TzIzU00?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "“꾸준히 먹으면 콜레스테롤 수치 감소” 영양사 추천 음식 4가지 - 헬스조선",
-      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EaDlfQlNsY0xSN1NKNWN2VUhPUmFnYUhYLUQyMFBuWVFfcm95ZFJ6bFhZX3hzZVQ1LWRPSDFMdkxMQ2ZCeV9HQ2RvWW56SFhaZkFHdlBrVGxHd3VYYVN4dFFXMEhPbHVNSFF6VlVOT0phY1A3bl9COFZqR0lkTWc?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "정부, 보완수사권 완전 폐지...검찰 일부 \"선고 결과 책임 누가 지느냐\" 우려",
-      "Link": "https://n.news.naver.com/mnews/article/057/0001955527",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "오픈AI, ‘1조달러 고집’에 IPO 연기하나…스페이스X 부진에 멈칫",
-      "Link": "https://n.news.naver.com/mnews/article/011/0004635281",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "LS 명노현 \"'기회의 땅' 美에서 글로벌 전력 패권 잡을 것\"",
-      "Link": "https://n.news.naver.com/mnews/article/014/0005540109",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "도 행정부지사 김영수·경제부지사 신원철 내정 - 강원도민일보",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WSHhTQUdtcTRVdjhsWDZJaEpCc3cxNEJLLUt2LURXbTBFbGo3eFZoZjBhVk9LRmptaUJZYWpMblVoaWlXVVNOU21DWXVWZk5zdTI3Y3pseE0zRjRYMzhDQWpRV2FjSzg?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "호서대 윤명식 교수 연구팀, 강북삼성병원·유머스트알엔디와 '진통제 성분 활용' 자궁경부암 나노 주사제 개발 - 뉴스파고",
-      "Link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9ZYmdCTkhsTnlHZDVEODRCNm45Vk5FRnZBRHM5dU1CM3Zsa3UzUkhaazFabVdIaVB4VkplYVllaG5aR1c0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "이란, 호르무즈 통행 유료화 추진…연 60조원 수입 기대 - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1maTRXQVpFWC03X2E4c01nZ0NqOUgwYzBWN3FsV2xTNU53WnQxWDFaWk5rbFFnb09wM2l3dkk2SG5qR1RaTG1SQXA0N0hld3JydS1TNkQ1VXd6UdIBVEFVX3lxTE9NZDYyZ3MwOEtXelhRelAxa2Nka3hvU2w4bk9HcXgwcnRGekhtbWZxN3hPblVLT0pCNHhjbmhtcS1ibEpLWHRlRDlkQzZZdWRtOXNTQg?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "끝나지 않는 외국인 리밸런싱…주가 급등의 역설에 갇힌 원화",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533182",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "긴 밤을 지나도, 우리는 다시 빛을 만날 수 있다 루리 작가의 《긴긴밤》을 읽고",
-      "Link": "https://v.daum.net/v/20260626114536591",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "李지지율 51% ‘역대 최저’… 한달만에 13%P 빠져",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800625",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "‘1세대 인플루언서’ 이주희 아브컬렉션 대표 별세…추모 물결 이어져 - 아시아투데이",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LNVFPQkpHOGZPOGtsZ3FCcEV6bzl6WnByOFNLb0FoaTNKQVRSb0RpVXlOSC1JTE1ySTFDUktDWFR0U0lqWWxva2daeW9QWE56UjFBQ2RaNE5nTllNX0s1eUlQaXVKRFNKS2dZak1n?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "\"왜 바다에 버리나\"…ISS 철거 계획에 비판 목소리 - 지디넷코리아",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BVWgwd1NVZEdBcFFIb2M3eFYtWV91aTY2dlE2ZjJVNHBrOTZCRGVJWWpMdFpJRjF2X0tZVXFYUzJWYVBrRWF3SHZkNVJpRHVZYzVBSWh3?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "송호성 \"유럽·韓 전기차, 美 하이브리드…맞춤형 전략으로 점유율↑\"",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025507",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "육·해·공 모두 반대하는 사관학교 통합, 백지화해야[사설]",
-      "Link": "https://v.daum.net/v/20260626114032451",
+      "Title": "삼전닉스-애플 엇갈린 주가… 'AI 거품' 잠재운 마이크론 실적의 함의 [IT+]",
+      "Link": "https://v.daum.net/v/20260626172044124",
       "Portal": "다음",
       "Category": "기타"
     },
     {
-      "Title": "신개념 호떡 전문 카페 해피유머리스트, 신메뉴 5종 론칭… K푸드 진출 정조준 - 뉴스와이어",
-      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vNGFXQTJYTDRiODVlOWZEZHNlWjdOdGNXTWVoeWtxNVhrSnJDY3MwUUxEYzZ3VjJVX0lDbGNfWnhSVElvbU81bHF4bjc2Q2kzeUxEN09iazRJbS1aLVU4?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
+      "Title": "국힘, ‘삼전닉스 호남 투자설’ 총공세…“정치가 기업 팔 비틀어”",
+      "Link": "https://v.daum.net/v/20260626173240488",
+      "Portal": "다음",
+      "Category": "경제"
     },
     {
-      "Title": "믿었던 경우의 수가 무너졌다 '87%→69%'...다른 국가에 운명 맡긴 홍명보호 하루 만에 폭풍 추락",
-      "Link": "https://v.daum.net/v/20260626114000420",
+      "Title": "‘1호 평화특구’ 7개 시군 경합 - 강원도민일보",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DczF6VUY4NzNyYjh3VUx2RzlGUExLRTFaeFlhU1pYTTY0WENCcG15R0ppSk9kVlR3cVdNWTRFblhjRjZ3SzRINFE3QVBiVjRBSEZoYUdBQUwyR1JvcDVFRWRWNUwwUkk?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "탈락 '경합→유력' 접근 홍명보호, 확실→확정 향하나 '도와줘요! 스페인-이집트-우즈벡'",
+      "Link": "https://v.daum.net/v/20260626150200714",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "투란도트 '네순 도르마'처럼…\"동트기 전까지는 아무도 날 몰랐죠\"",
-      "Link": "https://v.daum.net/v/20260625171807886",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "아프간 철수 ‘마지막 미군’이었던 미 육군 대장도 ‘충성도’ 탓에 해임 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMnFyZ2pwcjhzbWtlNDNOdnlfOWxwLTZ2QjhaVVNLMk85MVB3ZnI4VS1ZR012N0RXOXhkOUFmaG8zeVBIVkk3S1IzMEM0WjZzcnBoejM2WUJYTGdvTjJ3Q250SGxMMzQzR2pPUllIQWdVdGV5RG84aWxZeXFLeDdOLXNacGJCNWRoUDQtNFY1Y0h2S0dpRlplZmlGWXdMZw?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "HBM 제패한 한미반도체, AI 패키징 시장도 공략",
-      "Link": "https://n.news.naver.com/mnews/article/011/0004635290",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "[칼럼] 납세자보호, 디지털이 먼저일 수는 있어도 디지털만으로는 안 된다 - 세정일보",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DLW1vNkw2NUx2T3NCR08xMDNqVXJiUTNiaTdTcVRHUndiLUIxOXdvcm9fZGdDTW84UE9heVdmM2FONG9Xa3RjMzN6WDRhRHBlckZtamZzaVNnMlEwVFNDdTRJME8tdTEtTFdaRQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "전 美차관보 \"한국 내 핵무장론, 핵잠 협상 복잡하게 만든다\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161241",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "KAIST, 8개국 학생 창업가 연결한 플랫폼 첫선…中 '패스트스웜' 1위",
-      "Link": "https://v.daum.net/v/20260626130117411",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[김병철 칼럼] 시장 하은호는 떠나고, 군포시민 하은호는 남는다 - 뉴스타운",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LNU84bTFnbVhkeHpFck5yYWowTjJpZ1RreUFsbjE4aXlWTHVwZzhGWUZxdWhPQk9QajFKRjV3R00tVi1yZlJXdDhMbUJVQUUzamdjWDBhTFlIdWlOalViRlVybGtSYVZ2MkZDam9B?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "마이크론 '어닝 서프라이즈'…'풍향계'가 측정한 메모리 사이클",
-      "Link": "https://n.news.naver.com/mnews/article/374/0000518416",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "[손혜진의 아름다운 우리 가락] 전통공연, 어디서 볼까?",
-      "Link": "https://v.daum.net/v/20260626115701955",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "한국생산성본부, 충청권 중기 AI 전환 지원… 기업당 최대 783만원",
-      "Link": "https://v.daum.net/v/20260626130345566",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "軍, 장거리 자폭무인기 전력화…드론사→국방드론본부 개편(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161164",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "울산 공사 현장 토사 붕괴…작업자 1명 숨져",
-      "Link": "https://n.news.naver.com/mnews/article/005/0001857345",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "삼성SDS, 현금 성과급 폐지·100% 주식 지급 추진",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016160715",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "전화로만 됐던 휴대폰 해지, 상담원 채팅으로도 가능해진다",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938767",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "3경기 연속 홈런, 노시환의 시즌 13호",
-      "Link": "https://www.daum.net/video/v/etpb47bgfkqdfsgt",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "재판부 기피신청에 멈췄던 尹 내란 항소심, 한 달만에 재개",
-      "Link": "https://v.daum.net/v/20260625200017232",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "[르포]\"싸게 살 수 있으려나\"…'내 집 마련' 꿈 몰린 경매장",
-      "Link": "https://v.daum.net/v/20260626110542584",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "IMO, 호르무즈 화물선 피격에 \"선박 대피 중단…안전보장 재점검\"",
-      "Link": "https://v.daum.net/v/20260626083905765",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "이 대통령, 박찬대 당선인에 “연평부대 장병 뱃삯 무려 11만원, 해결해달라” - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qX2xEWXlVZEFkUnRBX2xpOFFRWmdJWW1nU1N5Uk4xQksxTWN0bnV1dktkcmF2b2dRXzJKYkJKVHlMYXNQMFV6VGpXaW5BOFNEWjVuU3hZTDhCZ9IBX0FVX3lxTE85REJvX3pUbjUtRkxOMWZzRG1keDd0N0FOQkp3cGVXclVhR2dWcTVUaldHS1BQYzQyRzhrUmgtMElwd1EzMXlkZ0FLUVdPX0Q3OTB5QUd3aEM4ZXpRRFVz?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "[인터뷰] Z세대 히로인의 탄생 - 크레이그 길레스피 감독, 배우 밀리 올콕 - 씨네21",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51M2E0amVLVXFpZXAtWF9SNUFxemdMRHFNNlBNME85dUxVaFl0czA3VVczcHdiRG1ZeHRPRnNCeTZiSWduWkFTMEpmWUhXU2VNeDlEcWhB?oc=5",
+      "Title": "티파니, ♥변요한과 결혼하더니 더 예뻐졌네…“사랑 세포 덕분” (전참시) - 스포츠동아",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01MHEwbUlKRm1mVFc3eEtuMkhad0tFckVpTFM2WmdPSGhDdngwbjg3ckE5cGZrM2RPN0RHQTVVQ2ZQSmVCSkdxYTFySnlPaDhqQ1RkUWtaM2loM0lrZ0QxbUtrUVpIeDlrQUJPV2pR?oc=5",
       "Portal": "Google News",
       "Category": "연예"
     },
     {
-      "Title": "어제 또 2안타, 10G 타율이 무려 .528..이 남자 주목[비더레전드 오늘의 Pick]",
-      "Link": "https://v.daum.net/v/WURwwYpXbN",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "“AI 도입 비용부터 낮춘다”…KT, AX 체험·현장 검증으로 B2B 공략",
-      "Link": "https://n.news.naver.com/mnews/article/009/0005698494",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "張 \"지도부 흔들기는 해당 행위\"…친한계 징계도 시사(종합)",
-      "Link": "https://v.daum.net/v/20260626122614716",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "‘히잡 대신 드레스 입고 노래한 죄’…여성 가수에 태형 74대 선고한 이란 [플랫]",
-      "Link": "https://v.daum.net/v/20260626113230044",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"망하기 전에 살린다\" 日, 채권자 75%면 기업 채무 탕감",
-      "Link": "https://v.daum.net/v/20260626101001876",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "베네수엘라 강진 큰 피해 이유는 '더블릿'…\"美·日 같은날 강진, 연관성 없다\"",
-      "Link": "https://n.news.naver.com/mnews/article/584/0000038237",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[단독] SK텔레콤도 美 ‘AI 컴퍼니’에 4억8000만달러 출자… SK그룹 반도체·전력·데이터센터 투자 허브로 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQN19IZ0Y0RUFTZURINUJ4cmZsbEdFWVBWb0J4cDZ6ajJRX3pwVlBzVlhZM2dlcURPM0xyaGZONDJQSGttOFdVc0NERVVWamc3QWFMWkl0bFFidkgxUUg4aWJCclNVNUlHTjBwdm91a2Q4V0hfVDRqYjBfVTlCa19scXBB0gGWAUFVX3lxTFBVQ2pVZ0h6R3BjaXJfSjl6SjNmN2loSnlsQ2xUTkVpQ1RUZ1huZ3YydnY5dVAtV09MOVVrbldjUXRGZ0ZVbEhzN0h2dkM5Q3ZHaUJNSUg1ZlZqSElWT2VyVjdIOEFoYTJHUDg1Z2VzTkkxM2plekdscG5HYkp6cEN5SDVEQUQ2My1GSjlrZVpDay02eVBGUQ?oc=5",
+      "Title": "소프트뱅크, AI 인프라 비용 우려에 12%대 급락 - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtQm1SVzVySHE2Z3AwNmt3eUZhTkt2bENJamFOSHRrb2FkSUpGVG15aHJWdkxTaTdrUWoyV1dlb2pxOHNqbzFvVkxBdUhkOHZXdjM2MGtGV21ldGlSYXhQZkExVDVxUVFzYmJtVlNCVkg?oc=5",
       "Portal": "Google News",
       "Category": "경제"
     },
     {
-      "Title": "靑 “檢 탄압 받은 李, 개혁의지 분명…리스크 없는 방식 찾는 중\"",
-      "Link": "https://v.daum.net/v/20260115113925106",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "북한은 왜 스테이블코인을 총애하나… FBI가 추적한 ‘심현섭’의 정체 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbEpjS0FJN2tYQWJ6Z1hCLXRkV1ltWnFwOF9VOUVWN0N2ZG9ENEZFWF9CZzB0ZVU4RThxTXpPRzNOYzFsRVdqeGktUG5SNV91cm1NWW5YQXJQSzVWdWI1NzBSMzhMZ09YcUxNY3Vsc2tHOENCRWF3UDR6WnhNZ2dTYi1CZGZIVnlwNHVFTDFB?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[칼럼] 사람이 관리하는 공장에서, AI가 운영하는 공장으로... - FA저널",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pNFhnbW85Wlc3aXRja2p2V0ZuczZVd0xyeG05MkdETnVaaTdtcnRLRTBreC1BSkhSajFlRWVqdloycmQyTTktR0M4RTlsakU5U1REVF9YS3dDSVFFamlGUDBEbF81TlR6LWpJ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "美 5월 소비 물가 4.1% 상승... 1분기 GDP 2.1% 증가로 상향 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcXhrRmhEbmZ5cXdmTlB3dG1HeHZGRlpuVDVGWDYzT1c1Zm4wUHBpbXQzOXdFYjRnMFdRMkI1TkJENUJaRUdocEl5ZG9VOWhaR2g3MHNJV2N3dEFXNmNTbGFqMG9TYW9JWGE1T2U0Tk5qWFd6aFh2UjFmNVhxLXlIRHZrdjdmM1FWZVNr?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[커버스토리] '녹지율→체류율' 대구 도심 공원의 과제",
-      "Link": "https://v.daum.net/v/20260626121239390",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[전문의 칼럼]청소년 자살 조기 대응 해답은 전문가의 학교 현장 방문 - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyTzNQbUdPUlJ5bzZ0bFhWSHV6Ul9CMGJxVldVQ1JJQ0E1Tm9pemdCSVEySzAxaktLTHhfS3VUSDdVa3dkRVJfTFpPZW1OY2w4MmxJaFhQYmRPYXE2WXRfSjdNVWdvMERvZHpRbTJsUdIBZkFVX3lxTE1hWnYtVTBEd2ZRUEdhTnQ0anI0S0hyY2xJSER2b213bExvVXhtMm4zYXVSZFpFMlhSdklldWtGWDJ0Sk52MmoxOXhKT1c3bXZiU25USHVWc21nZnQtdFNtRFJtV2tjQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "혜리·지수·정호연, 스파 즐기며 욕조에 옹기종기…\"완벽했던 첫 여행\" [★해시태그] - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yTGRyZXBGdkw3cElqTjM1QXRPeUxXMHBobGh5UlJlSVhfdFdCOW05TDRnYXZZaDBkWURwbjJ4bFBsdmtySS04c2lZbmtkWDA?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "자고 일어나면 오르더니…'112만→80만원대' 금값 뚝, 매수 기회? - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VaTEwemZETzFYaXpNRGNiaWs1SnlqNEpzdEtlOHFVbGdhOGttUl9xSTM1cnU5Y2lRQTRETFVfYUZaRlA1cjJ3Zm8yeC1JbUFYR1Fv?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "창원 진해구, 여름철 집중호우·폭염 대비 안전망 강화",
-      "Link": "https://v.daum.net/v/20260625202500756",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "HMM, 글로벌 ESG 평가서 3년 연속 상위 1% 기록",
-      "Link": "https://n.news.naver.com/mnews/article/119/0003105024",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "검찰, '14년 해외 도피' 126억원대 조세포탈범 구속기소",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030227",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"반도체 꺾이면 같이 망한다..韓, 상당히 위험한 경제구조\"",
-      "Link": "https://v.daum.net/v/20260626114512587",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "중동戰서 빛본 저가드론 2만대 확보… 내년부터 전방접경지 대응체계 구축",
-      "Link": "https://v.daum.net/v/20260626120632289",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "[사설] 지방투자 3대 메가 프로젝트, 균형성장·일자리 효과 주목",
-      "Link": "https://v.daum.net/v/20260626111406080",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"손흥민을 빼?\" 신문선도 극대노[한판승부]",
-      "Link": "https://www.daum.net/video/v/jmk57mx0cmwvgd19",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "클라우드 토큰 비용 폭발…인텔, PII 탐지 정확도 99% ‘슈퍼클로’ 베타 부상",
-      "Link": "https://n.news.naver.com/mnews/article/138/0002232209",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "중국 AI의 거센 추격…'6분의 1 가격'으로 美 선두권 위협",
-      "Link": "https://v.daum.net/v/20260626114219519",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "상상력·유머로 현대미술과 접선하는 ‘조선의 팝아트’ [문소영 논설위원이 간다] - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5IVUpHNlhYSVJTSGQ0LUVyTlQ4cUs5OU9wdXhqSG4tMEhMM0Z1bGVpUHZJUFpNYzR4Y013ZTdGVnZTRVYtaUZ0WmlYYy10c0llUVBYbzdR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "‘왕도 세금 냅니다’…英 찰스 3세, 즉위 후 612억원 납부 내역 첫 공개",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800585",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "요금은 묶이고 원가는 뛰고…한전·가스공사 '이중 부담'",
-      "Link": "https://v.daum.net/v/20260626113230046",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "[단독] 골드만삭스 \"한국, 2035년까지 세계 휴머노이드 로봇 생산량 30% 지원\" - 더구루",
-      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lbEpzcmFXMXZwWElxaVplZnVkWDBuc2pzQzYwRGZNNThVc3E0dDE0bVZTUDVEQnY4Y01ZeHlHak96V2R3Zmpydm1MOGRla194M3lPVkRsdXFMeWdzN2c?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "영남·충청·전북 반발 ‘광주 반도체’ 국민 납득이 관건[사설]",
-      "Link": "https://v.daum.net/v/20260626114433564",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "송혜교, UAA와 전속계약 종료…14년 만에 결별 - 맥스무비",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZSXZyU1VRMHZobHRVS2l4bHRHU25IclRuXzRUeHJteDFubDRGVEw4Q2hxZExJNm83ZUhOWkNUOERkemNfemNMNHlYaUF0U0laUWMyOGlrMWlUYkJZeDQ3V0o0Z1RwUHptVlRR?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "\"엔딩 보고 다들 울었다\" 아직도 회자되는 그 뮤지컬 영화",
-      "Link": "https://v.daum.net/v/ZeUUnmWI97",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "비트코인 6만달러선 붕괴…한때 21개월來 최저 - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10c1N6NzJwbTlrczR6cW1HRWx0bkhod0dON240aGpnaXFwWlVQVlNGNTBNM0pOSkJMTjBlaHBDRHN3Q3FsSkRxZ2RINkl3c0xfZkF6VnBmcXg4UlN1ZlZrMUJ3X2VfbTVRV0hGZjhvZ0E?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "삼성전자, 4000억 상당 온누리상품권 푼다",
-      "Link": "https://v.daum.net/v/20260626124405056",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 03월 셋째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXZXN4WFVEZG9WNzZWOFhQcDZtWDRQN0wyVFZtSDNUQkUwcWc0bk4zMEVFZ29xSUFtS3BQYmY3alpoYTl6eFpnY0I5OUlJR1VGSU5aMzc3TXV3RjlGa2Z1N1U1OWVxOW1WMURBUTBR0gFyQVVfeXFMTnpYa1ROZGxkYV9OWlI4UTlETTlFUmZRX0hCZkpxMi0zOHpqSmw5emR0b3EtQUk5d2JxOFdMTjFPVjdQUEVVa1VsV1dnN1ZXTmd4R3hoeWhUWHMxZTNKNENuRmFDUWRnYy1hblBMdnBzMGR3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "우리나라 맞아? 170년 간 점점 커진, 도심 속 거대한 공간",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520615",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "외상 중심 CBTp, 정신증·PTSD 동반 환자서 효과·안전성 입증 - 메디칼업저버",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1WFdrTGpiWnRVZHRHWnhPcGlyTHkyQTJ5ellIVDRDYml6bzNLZWJBN1ExdERoNHI3THJZc1ZMVUhJOV80dnlFWEozQkttRjNleVdJTXVGRHFwbWlrMHZZVDhORXJCSlRrNXNv?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“볼록 나온 남성 뱃살, ‘이 상태’면 정말 심각”… 의사가 경고한 위험한 배 특징은?",
-      "Link": "https://n.news.naver.com/mnews/article/296/0000101942",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"99만원 맥북이 119만원 됐다\" 현실이 된 칩플레이션…애플·MS 등 줄인상 예고",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781909",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "김 총리 \"보완수사권 폐지, 정부 기본입장으로 최종 정리\" - JTBC NEWS",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QV3dVYmJPTmRBZXlJejUwNkROX05aX2pJeXlUSjY0WS1rYlpOallsM2YwZ2NGSkNqOUw3N2RBbXRSemFkOEkwMm5PZlZVOHpDbHBlZA?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "\"손예진·이민정·오윤아·엄지원·이정현\" 연예계 최고 여배우 모임의 정체",
-      "Link": "https://v.daum.net/v/WMzVEy3GzO",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "IPO 앞둔 오픈AI, 재무 상태 폭로 문서 나와…\"완전 난장판\" - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lRk5Wdk4xSzlQTDRCRThhTjBmRWxwcWI3RHNhRHlTNnJwVnI5azRaVWNRTGQtLTg4WkdVMTYzTVNmZzZzdENOSWdhMDZlbXlYZUlLbWttSXN0dkJ3aXhuYlFIdjh1QTdEVk8tWUtSUUbSAXRBVV95cUxPZnB6MUlxYWEzYS1jQXlkdGRlZkxULW9NM2FWeHQ1cEZuTWxpcE1sUDRjSDJ2YUZ1RXd0bTItRjZtOW5hNEZ5X0xkSm1IY2ZTQUpkZHlFZElQQXlhRUhlcmFxX04yN09IQWl3ZEU0OTJ4UU9BVw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "4월 29일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDbGxhWFlEVXFYM1F5cHlRRXh3OUhHZ3UyMWx5MlRYTDFnQnM0UW1xelZVS2JXak9zT3p5S0s4M3JzQTY0RHBUT3RnRGJDUVl5QnAtMjVIaTNwWGR3a01XOXpR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "“추대냐 경선이냐”…충주상공회의소 23대 회장 선출 ‘촉각’",
-      "Link": "https://v.daum.net/v/20260626125834321",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"오픈AI, IPO 내년으로 미루나…1조 달러 몸값 위해 속도조절\"",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030190",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "[사설] K-농업, 물 들어올 때 노 저으려면",
-      "Link": "https://v.daum.net/v/20260626050204935",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "MBC 에브리원이 6·25를 기억하는 법",
-      "Link": "https://v.daum.net/v/20260625180807738",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘데이터 기반 RWA’ 사업 확장 토스, 포세이돈과 손잡은 이유는",
-      "Link": "https://v.daum.net/v/20260626130119414",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "부산모빌리티쇼 언론 공개…\"27일 오전 10시 공식 개막\"",
-      "Link": "https://v.daum.net/v/20260626130806765",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "노년의 유머, 인생의 진정한 비밀번호 - 브런치",
-      "Link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9wcHRxRTBCNGc5cS1nOTI1YUJtX1VaUVpUdW9FQTZ2ZzFYT0hDV0xXLVZjQkMxcjRaU19RYV9Gejd3LTdrVC1uWXpjVGI?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "2년 비밀연애 들통나자 부인 대신❤️초고속 결혼 발표해 세간을 놀라게 한 45세 톱여배우",
-      "Link": "https://v.daum.net/v/PEocoOGhy0",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "[시니어그룹] 원작보다 더 흥미로운 동화 속 인물들의 숨겨진 진실",
-      "Link": "https://v.daum.net/v/20260626112313625",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘故김수미 며느리’ 서효림, 김치 사업 이어가나…“잘 해낼게요”",
-      "Link": "https://v.daum.net/v/20260626105617129",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "비트코인 6만 달러 겨우 회복, 기관 이탈에 반등 동력 실종 - jabon.co.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE43ZG1PeFdLT1lxUFJBVFNXRWdLYXVjLWpNd1hOeFNTazItWjUwVDF1Y3Z6cG55Z1dPM3VzcVpicXVVWXlVMGQtME5jd3J5WXR1RDNSR2gycW8xMUIzMXZWWXdIdEVnYUU?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "'뭘 해도 도움 안되는 얄미운 일본' 한국 32강 확률 더 떨어졌다..일본, 스웨덴과 1-1 무승부...32강 브라질과 격돌",
-      "Link": "https://v.daum.net/v/20260626095852261",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "[현장에서] 반도체 초호황, 부동산 발열을 잡아라 - KB Think",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnMkNHUXRabDFUYmVua2haNTNWNEZuLU1tYl8wXzVReXlTSktNNG05WTd5MEJHQXFPTU5aQjdCT2xHSmk0dmFyN1RJTFBRc0lMblpxd0lVOG9SVjJ1Y0FBN2V4Yi1IUFg1QW83eExlajZ0UQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "AI 호황 올라탄 日 키옥시아, 하이닉스처럼 미 ADR 추진",
-      "Link": "https://n.news.naver.com/mnews/article/023/0003984249",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[전문가 칼럼] 성공하는 사람들의 뇌는 뭐가 다를까? - 조세금융신문",
-      "Link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UQjhQRDRoLUFDSFRHNDJiNGtXX19fMUd4OEJ1UmNzYXJXTm14QlpKYmw1ZExxbm9pcGZ4QzJIZml3dmhrQkR2aEJpbG9QRHBUYTZiVXhqX29YaGVTbUN4bndDdw?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "“언어 빼고 다 통해” 미 의회 빵 터뜨린 찰스 3세 유머 - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0walRtWkM3X040X1lnYXQ4NTREMklKdnREVDhwNDRzUDhvdjdYQWFYb2xWemdqZG40eG9Tc2d3YVk0djB3STZObXZoX09aczFuUzEyQ2tB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "소화제 자주 먹으면 살 찐다? 우리가 몰랐던 ‘소화제의 진실’ 3가지",
-      "Link": "https://n.news.naver.com/mnews/article/346/0000111934",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "한성숙 청문회 이틀 차…“히딩크 감독 돼달라” “부동산 실수 반복” - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1lMHgwa0MzajdWR2VwOF9CWUFfM3BQeFMyN3QzendheTMxYzV6NkxScll4SGh3T1JvcEZuOFl4OTZCYnhSY29zdDU4VnY1UEk?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "美 대법원, 트럼프 이민 단속에 힘 실어…35만명 추방 위기",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781650",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "원산갈마지구 찾은 김정은, 최악 낙후 北 철도역 현대화 지시 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbUpHU1cyeTM1VFgxa01lcVJiMjFUZm1YMEswZ0oya25vNVRXQWxmNHlVNmhHdml3NDJ0Z0VRVGpwOXVwS3Ezd1NNT2ZoSFZtMU12cVBhcDdsNTVYdVYySkhMYkl2bF9nT0UtckNzeFBHdkFGQWJQLWxVUHNRbno5eGdoZnYyOUM3eHc?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "크레오에스지, 메르스 백신 캐나다 특허 취득 - 아시아경제",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1T1BDTi1XZXVDcTRxNTV2RWdCNzlHYlJNVHdIWE5wYXozaUJOWDBmLVNhQTJxcUlpeFBhUldqZkNtekNxQmpMeEFFOF9VZjhpZjMtVnVveDlUV3FEbkFuRw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "李대통령, 이재용 만나 ‘반도체 지방투자’ 논의",
-      "Link": "https://n.news.naver.com/mnews/article/022/0004138299",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "기획예산처, 올해 첫 도입 '통합재정사업 성과평가제도' 개선",
-      "Link": "https://n.news.naver.com/mnews/article/079/0004162112",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "'53세 백발' 배용준·'48세 새치수염' 소지섭..'중후미' 생긴 아버지들 [★FOCUS]",
-      "Link": "https://v.daum.net/v/20260626065318442",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "[시사원정대 맛보기] 캐릭터 디자이너의 하루는? - kids.donga.com",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JQkF5SlVDVU53VHNFSUM1cGFXWUFpZklWakg3TFNSMVZpdnYwMWVabW10VWN1R1V1M0c1aEJlMlFWXzFXazJLTVJIMmplWHhMbFdLanVmMjJxTW82WE0wd0NYRUcwZ2lJ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[위클리 브리핑] 서울국제도서전이 던진 질문, 독서교육은 어디로 가고 있나",
-      "Link": "https://v.daum.net/v/20260626112726815",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "당신이 배달 음식 유혹에 무너지는 과학적 이유…\"뇌를 해킹당했다\" - 와이드경제",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05RzNxYjFqLXlfS3FaclZsVWRBeDFURUFTRGF5UkplMk1ROW1hblQ4WXJkVGRGQThXVnpNUGYwX0JiakE2MjVzdjZnV3FjS3RfT0MyUnd2Rnh4a2RBVGVzOGxCbmhvazFqUWhEZQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "중년기 이후 젊은 뇌를 원한다면?… 40대부터 운동하라 - 미주한국일보",
-      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81cUJiYzZCZnI1c3NXZktzNnN5NjdTTGNnV1prbGRhdVAyeC1Cd1llRzh5M1lYN3JHbmNNVlNmX21FLUpXNUtTa0VTanB0WVAzS01BeUhZVVJMU0ZxVmQ0?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "성공회, 경계 위의 교회 - 에큐메니안",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yTDF2bFM5VnV3R3ctenU2NEItaFM2QzktWDZkSlROaUJVNklleEc0ajRTM3R0QXNPcjdZUzVxUTFhcmc2U3ZoSEZCQnRHTUxhTnpmSUVtMEljQUUtVWxMRVNsOVFCMUJ0a2lB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "펀딩 목표 8400% 달성…'심슨 덕후' 가슴 뛰게 할 대백과사전 나왔다 - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3dHVFSUdJckxBdWtyQW1UQTZIZU41QTdDZ2NjdVRhWm96UjR0NTNfYTVCWjBXUlAybFB5aXNUNWdQbU1qREVyOEVnS1VNcWJ6dDU4?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "France, Italy seek coalition to support Lebanon after UN mission ends",
-      "Link": "https://www.yahoo.com/news/world/articles/france-italy-seek-coalition-support-002738404.html",
-      "Portal": "Yahoo US",
-      "Category": "세계"
-    },
-    {
-      "Title": "정점식 \"보완수사권 폐지? 법사위 野몫 돼야…趙의장, 거수기 안돼\"",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781769",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "“서울대 父 닮았네”…‘100억 건물주’ 양세형, 한국사 1급 91점으로 합격 - sportsseoul.com",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tUVdidkZhcFJLdERXcWhKTmhsTTRqSVFEYzRtU1lHQVpMbWVlXzFRWjQ2azBUVmtZLVMtaFdjdlRMZTB2a1BZcHB6T1lGejFKVVVaRkc1VTc?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "서울선관위 간부, 올림픽공원 왔다 경찰 만류로 돌아가‥\"안전 우려\"",
-      "Link": "https://n.news.naver.com/mnews/article/214/0001507980",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "인천 한전 시설물 공사현장 토사 붕괴...작업자 숨져",
-      "Link": "https://n.news.naver.com/mnews/article/052/0002371330",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "IPO 앞둔 오픈AI, 재무 상태 폭로 문서 나와…\"완전 난장판\" - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lRk5Wdk4xSzlQTDRCRThhTjBmRWxwcWI3RHNhRHlTNnJwVnI5azRaVWNRTGQtLTg4WkdVMTYzTVNmZzZzdENOSWdhMDZlbXlYZUlLbWttSXN0dkJ3aXhuYlFIdjh1QTdEVk8tWUtSUUbSAXRBVV95cUxPZnB6MUlxYWEzYS1jQXlkdGRlZkxULW9NM2FWeHQ1cEZuTWxpcE1sUDRjSDJ2YUZ1RXd0bTItRjZtOW5hNEZ5X0xkSm1IY2ZTQUpkZHlFZElQQXlhRUhlcmFxX04yN09IQWl3ZEU0OTJ4UU9BVw?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"애플도 올렸다\"...메모리 대란에 게임 콘솔, 노트북 등 IT기기 줄인상",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781772",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "자고 일어나면 오르더니...'112만→80만원대' 금값 뚝, 매수 기회? - 머니투데이 - 머니투데이",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBbWh5d2E3dkRia1lHeDlTS2k2VFRaSEtZdHo4LWVpOUVrRGFLZmNFcXpDZmxZc3ROTUtIX3lVS1Q2U0MtVGdCV0Q1Y2NlSjZVaXI2ZXhSM0l2Rk51RUtxaHVqeVJQSXdVdm1F0gFwQVVfeXFMTWpxTVBETVg5eGdVMU9GdWh5MHUxZDVhamZ2eXN5WHdpYTdmVEhqSWxPYm1zWDlpMlhaVmtYbEZScUg5ZDNiaXdueE5rT2RGYjZXRy04dFJDQUY3WkpLX0c2ZkdSQjAzUXpFeG0wTmQ0Rg?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "앤스로픽 “알리바바, 클로드 베끼려 허위 계정 2만5000개 동원”",
-      "Link": "https://n.news.naver.com/mnews/article/023/0003984257",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "임직원 10명 중 1명 해킹 메일에 당했다",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016160790",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "사퇴론에 칼뺀 張 “징계나설 것” … 국힘 ‘사생결단’내전 예고",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800624",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "남산에서 결혼하면 연출비까지… 서울시, 최대 300만원 지원",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781732",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "골칫거리였던 여름 무, 남편도 극찬한 밥도둑으로",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520602",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[학부모 칼럼] 우리 아이들은 특수교육을 받는다 - 울산저널i",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTJqdWRXM2QwR1ZlNk5yMklYMFlNVmt1WDBfNXNWX0I4Wmt5ZUZxb2RkX3RGNlFZdHB5VWtTMzJQRjJsQ0ZUS2ZfeHFxTjZmNTY1SzBiWFVsTWlEN09qUXh1MndKRmpaOWU2MGRBXzF5bU0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "이란 \"동결자산으로 美농산물 안 산다\"…미국 주장 반박",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030133",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "아이비, 뮤지컬 '시카고' 주역으로 브로드웨이 진출한다",
-      "Link": "https://v.daum.net/v/20260626124511078",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "中관영지 \"미·영·프·독, 대만 독립 지원 어림 없다\" 경고",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025470",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "젊은 세대, ‘생물학적 노화’ 더 빨라…조기 암 원인? [노화설계] - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rMVJhNmZ6N05oVnNiTkpQQTktbUYwOXloa3VRQ1FmLUVPc0JvMVJfRXlpYnZKeFJLTU1XTFU1NWEwYnlFSE1KeHN1QllldzFYNFRyWDlaT2hpMzA4T3pFbU1kcTBDVmlOM19kV0xkRdIBZkFVX3lxTE1aZzNfeC02b3E5bjZsM1Aya2dlSGxGOUFHTmVGSWxaTjRlaWpZVzd1M1FUeVZlNHpKcF9mUncxRTVPTlV6TGg0WWNzcEhYQ0NVOC16NTQyTDN5V08tSW9wZzRJM0Uzdw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[이다혜 칼럼] 진정성과 유머의 포옹? 좋음. 좋음. | 예스24 - 채널예스",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rTGJfRVR0SkM0VEp5ZE5VdXJHZ2dzczZkbDI3U3NIc1pveDFYeGk2WDhMRE5GQ09lS1Nla1p5d0ppaHlnX21hZVNvYm41QW90OTRPRA?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "어제 반등은 데드 캣 바운스?…비트코인 한때 5만8천달러선까지 하락 - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54V2N5MWI4R0lUVUtYVTBhTE9ZWHE4NXVrODdwbEF2MVowNzFKanJaV043TlUyTW8xT1JMaVFEOUxTV0I2RjRHak1ETGM2cFEyaE5FaFpTNnk2djYxX2ZqTEoxc1lKNDlxMlJGT1dBQms?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[경제인칼럼] 1kWh의 가치 - 대전일보",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zNzFFNVVhRjVZMDhNWnlHTEd3VllGc3l4d2o1T0xnOFFPMWZwVlNienViWW5ETlFfaXRyb3cwcUJrZ0pxc1ViT0FvRXFkQVpmV3JsaVlIaGh2dUh5SXNXSVNrVVNOR2JZcHBhdzg4NNIBc0FVX3lxTE1BcTZZNVAxV2JlakswZk4xMTF4YmZZaXNVWklIcmc4bXh5UFBpTG53ZVh0bmdjOUFzUzRLOElHU3hXeFcyd2x6dlhjUmxmQVFrUDg0NHRBUmhwdTZLRDZ3X294NXN1UlpZZ3dmTjdsb05CQ2c?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "“감기 없는 세상 만들겠다”…실리콘밸리의 대담한 도전 - MIT 테크놀로지 리뷰",
-      "Link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNaWRtdm1lUEhGbzdXWHpHQ3lHdVFBU1ZMVk83Vjg2YlM1eThGQ2tNWXBCN3RvWEQwYmFlZjRUQlkwNDJfSEMzWlFkSmpOZUZCR0pjMFR4Njc0LTJkM2FHN3lhcWZFc3BiTWI2ODB0LWt0UVRFNlR5MC1hSzQ2NXc2N3FWX3V6TzZfLUdneDdWMUxjdWQ2M0VCNHRTWW9XMG5ZY2dYTlNULVNpN005bkNoNlUydk5nQk9rRC0tT2VhU0ZVakltQnh3TjZtLWU1em5VUEhodlJxTkpTT1dEcVNxQ2w4eUNXN1lnUW9nT2gxcmptZ3Y3UzZraWNYMWdKd0swMzdmVkd5anZ4OTF0ZEUyNmF1NXduQWVacEtvTHNHY1NOVk9aMkJ4blZaNWpMWE1GUHNJOFpNRUhYaWwwM0pxLS1R?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "'달러화 예금' 늘며 외화예금 두 달째 증가",
-      "Link": "https://v.daum.net/v/20260626130148429",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 02월 둘째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FaUNOMVJhVTg0d2xFYVBpWmswUlppbEcydFAxdEtab2JJMHlMR1dkWW9UcXhyZTQ5Y2JwZUNpZzRCNllYRWxRX05Mc2hiRU0weE1ESFVWWFJBd215el94dzFVOW5YQ3YtTG1CMV9R0gFyQVVfeXFMUHNfQVhHUEVMaV8wUHNwWnZEYXhtWW1pQnNVd3prOUhFMWNkVFNFakxMMVJHZWV6SWpQYXRQdXBoSzFiSE96ZExuaHJiZnNOclhFLVFDNHBDc1A1THRwRzZIT0tOSU5FTDdXSWlLVUM5d0JB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "손예진♥현빈 가족여행 목격담 나왔다 \"아들 AI처럼 예뻐, 엄마 쏙 빼닮았다\" - sportschosun.com",
-      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQkxDSDBiekt5NVhSaHQ4T0JBTnMtZXNaYWN5LVJlSTA4RGlVWkRPVXdsRlEyeHpPZEpfclRMaWRBR2thY0FVZjVVNUJ2VThDS2NDRkpWVnlNeUgtQ2JxUkRXblMycXlRZVpzQ3RjZ0F5NHJva1dKZ1hsaVBoUEk5NVdjQ0c?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "아산시 출생아 3년 연속 증가…인구 50만 자족도시 기반 다진다",
-      "Link": "https://v.daum.net/v/20260625104300461",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"우와~ 로봇이 인생샷 찰칵\" \"K팝 댄스 대박\"...韓 휴머노이드에 '환호' - 머니투데이 - 머니투데이",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWTVVqcVM0cG5rY1lJQThYck1yMGVnc19TZDd6ZHpPbFJmWF9uVFRlX1BGa0hxazdUaS1Ja2QyWUxzOVNtZkVKc003T3BqSG1jdTU4RWd2LVNKc09URjlmLTVUZi1HbWd1blBZONIBckFVX3lxTE52R1lmZzVsU1ZHeHd6TWpsSk11MnRBaEJPSmZoNGJEWnVhX05WWUxGc1A1QWVVVHZ4QTZERnhYcEtlRl90RXN4OG1JbmNYa3FGOWZ3Q0JqQ2hMWVFoRm9LQUFfMFhmdVpHRnY4Z0xDdUhSQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "NH투자증권, 일본주식 1주 거래 도입…홍콩은 업계 첫 시장가 주문 지원 - 브릿지경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iMHhuZkhwY2htX2NaOXBQam13c21LM0ozVDJhZGhUQmJrZmhMWWw5NTNWTlBNSmpPMEw5Y1U2dFpxLU84LWRNbFVxem41MU1PeTVsaEpnczhZUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "30주년 부천국제판타스틱영화제, 예산 늘었는데 새 콘텐츠는 없어",
-      "Link": "https://v.daum.net/v/20260626071634910",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[AI는 지금] 11조 실탄 쥔 中 딥시크, 조직 2배로 키운다",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428173",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "김민형, SBS 퇴사→호반그룹 2세와 결혼…현충원 봉사활동",
-      "Link": "https://v.daum.net/v/20260626114118482",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "코스피 8% 넘게 폭락…올해 5번째 서킷브레이커 발동",
-      "Link": "https://n.news.naver.com/mnews/article/366/0001174635",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "“오은영 박사님 감사합니다”…‘금쪽같은 내 새끼’ 결국 종영, 스튜디오 눈물바다 - sportsseoul.com",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1mQ1A4Zks2REF3aUhpanZzZ0hXbHFGbUxDY1BOM01MREptekY3UmxUTy1sYUNRQ2JuSVBrdEg3QnFkR3BQWWlSLTJ4NHBTSXBkY1NnSW5ma1Y?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "김민재, 교체 불만 논란에 \"수비 간격 아쉬움 표현한 것\" 해명 - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80aVVaRDZ3aDl4V3dUMXAwOUphTjNEOTR1azFrWnJNV3E4WXVzYUdSLWM4OU1sZHZfR1paM01YUjZnSGk1bnJPX2NBX3NzNHpaMmd1VDNxLW9kMEVBdUV6S2wtWlczaE9pOGItWVB6amRKeUVrWkHSAXZBVV95cUxOOTd0NHgwcGxXNjBpalFRWGtuVUZvbWpwQmo3WnZERzNhcEVsT2J2Wk0yT0liQ29LYUlueV9DQTA4ZUhaRzg3Ml90LU44NVpfN0RqYTJEaHVvWU5YNF9wek1ZOUswSDNlRzB5MDVIcm1tYVdwUzNn?oc=5",
-      "Portal": "Google News",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "IMF·세계은행, 강진 덮친 베네수엘라 긴급 지원",
-      "Link": "https://n.news.naver.com/mnews/article/014/0005539916",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "[머니쇼츠-영상] 비트코인 폭락에 전체적 하락 형세 - mstoday.co.kr",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15MVd6bG9hX0RldUhkdmNuR1NXNmhWTkUzVS1FcnJKNDdrTDJHUGYycGRpV25OWDAwbGhvcXhLcXRLcmZ3THFoQ3dQOFZyTl9TYWgzSHFiQmFld2toMWJaX3ZjYUxnbEhoaDhUbQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"염증 유발 적은 식단, 치매 고위험 고령자 발병 위험 낮춰\" - 세무사신문",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tcmRkNXFHQXN1cFVrZFA2TmNRVXpQTTExX0Jzek1ZbFQ4X2UxWnpIRHh1TWhxUmhzUExKYU9NaEhqOXZZNmpNNmxqYmstUnB1ZTE5MTdhMkxLSmo0eFZmQ1NZVUtGdEdtQVRZQw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "심청이 서천꽃밭에 피다…제주 창작국악극 ‘심청, 花’",
-      "Link": "https://v.daum.net/v/20260626104225517",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[뉴스 플러스+] “90년 광산 노하우 소실 위기…기술·인적 자원 보존해야”",
-      "Link": "https://v.daum.net/v/20260626000837522",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"결코 예전과 같지않아\" 이란, 연 62조원 '호르무즈 서비스료' 추진",
-      "Link": "https://n.news.naver.com/mnews/article/008/0005377617",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "재테크 열풍 속 베트스셀러에 ‘부동산·주식·달러’ 책 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QSVdDX1d3Z3dhcEx4VnlzeUlWZ01Pb0Q5VkxWc2VHZFVYQWwyaWFTSERtR3hzWm1KMnFhVFFydjJJa21jbTV2ZXQySExFNm1jS0dES251V3Y5d9IBX0FVX3lxTE9vUkNMallPaGNucUMtcHpRdFJueFBwc1pEWDZhdlpnemJRVVdYY0lTcEhSa1FUTzFqTkJpdjU5RVBTczNDOG1GMGVBUDluZUJNVlZISS1WSm1oSHlVcUZF?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "최태원·노소영 '세기의 재산분할' 다음 달 24일 판가름‥SK 주식은? - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLYkw5MWs2eEZPcWkwanNjbXhoMHliLTZrLVg2UUVjN28zRHlsdHhPMUQ0RnluZmpjc1g3ZlJXSlVRTkhQeGhWbkxxOW1RMTdXbmZsQ054N2tpRmRLelpiNVNtcGpOektlMnpQX3lLX05QZThXRTFN0gF3QVVfeXFMUHMyOWJoUFpWa0g5LXo1cHh3ZngzVGFnczR3NHY1akRRS3M1bncxUTg2Uzk1VENqNUgtZENUbDVkZTNWUkExRjRMOS1hSi15emVEQVBER01ZX1NQMVZhQi1Bd2xWdWR6S0NyR2tnenZKdGxRSm5tZFk?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "트럼프 행정부, 안보 우려로 \"GPT-5.6 순차적 출시\" 압박 - AI타임스",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iTWE4WjQ0Rm9FMXhnNklpUE9yc0lRQnQ3RHN3blYtR1lkUmRCRi1rbGQxYVhZWHljVWNPeU5kakVsUzJvdndhWGRiZGs3X2FEZXVvR2FuUnZyXzcxWUttcGhOc1F3OUQ2X2c?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "“청약가점 낮아도 기회 있다는데”… 추첨제 물량 대거 포함 신규 물량 보니",
-      "Link": "https://n.news.naver.com/mnews/article/009/0005699185",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "면대약국 운영 적발…배우자 귀금속·명품가방까지 압류",
-      "Link": "https://v.daum.net/v/20260626122138619",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "하토야마 전 日총리 “한국이 핵잠 가지면 일본도 핵잠 가지려고 할 것”",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800619",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2025년 12월 셋째주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNaExZSlpWdXgwR3dTMjh4ck4wQ0d6T1BWbmsyT0tmU0ppRnVmbExpMTNJRXFid29PMVBuMzI3WDlzTzVidVNBOWpOSDFFMGgzSFF2RGhyeWxVLXJmMUtSMFlOUXl3MnlfN25TcFJB0gFyQVVfeXFMTTFxaHZ6NUlXTVktaXUwZ2pOWlRqY1N1a0xHeFdXNWlFcGlWeURsdE85UUNjdkpDcm1lQUYtXzFRUGJjaEV4MnFNNHkzZjRjTjRETHJfMmV1eHlXQU1hYjB0M3JicV9vR29HUDZaMHM3Slln?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "베네수엘라 강진 사망자 최소 235명…부상자 4300명 [TF사진관]",
-      "Link": "https://v.daum.net/v/20260626124652096",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "[뉴스나우] 김건희 '매관매직' 1심 선고...청탁 대가성 밝혀낼까?",
-      "Link": "https://v.daum.net/v/20260626131015833",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "구윤철 “오늘 석유최고가격 인하…전기·가스요금 동결”",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656135",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "뮤지컬 8월 개막…린아·이지혜·이지수 등 캐스팅 - 더뮤지컬",
-      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80bmQtQXFpUC1ESm5KelRlQ1B3b0VPTU9SZXl1VGZVSlBMSzlmd09QRDZBTDdHWHZGNy1yM25saGlxeFp2SllvUnhZSm5yWGdyRHZfdkswMEZEazhUTWhR?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "엔플라잉 이승협 / 카시오(CASIO) 포토행사",
-      "Link": "https://www.daum.net/video/v/arsd8hyytsxs2fv7",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "4년째 활동 중단..'두문불출' 수애, 깜짝 근황 [스타이슈] - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JRGgzcEdfejBidi1SVS1RTGZHMjYwek5VNDVfejVlZjFJQThBRHRjcWFfWjFiM3F2U2E2MzhaYTY3R2d3MnJpaXNyeDYwSUE?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "대한민국예술원 신입회원에 이승우·배창호 등 7명 선출",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800570",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "참교육‘ 속 최고의 빌런으로 꼽힌 우진 엄마, 어떤",
-      "Link": "https://www.daum.net/video/v/1nc8ytf0jb7fx15w",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "제주에 모인 차기 UN총장 후보들 \"신뢰 회복·제도개혁 필요\"",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781597",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "임직원 10명 중 4명 해킹메일 열었다…12.7%는 악성코드 감염",
-      "Link": "https://v.daum.net/v/20260626130803762",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "英찰스 \"동맹가치 지켜야\"…유머 속 내내 '긴장감' - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZQW5yUUpIaWtsRXJjUzBhQlFsRy1Nd3FlcW5sdmRNSjd3SlhnYjQyWEloeU5UMTBUU3hacno0R2pSTUhYNHFxeW5nbTNQTVdpekNYbUY5RkdiUm_SAWBBVV95cUxNdjFQUTVnZVlia2syVVpYTlhRREQ4WjJYTWhfNEMwZnFZbDF0M1BVbHhKRjZ4cmFiM2o3RGhTWmRMWGt1V1VqWmR4ekRLZFJMM2h1cW1WUE83Y2E2aHB4STI?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "호르무즈서 화물선 피격‥이란 \"지정구역 벗어나면 안전보장 못해\" - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZakl4eGtqd196VjVBZmZwZFpMTDRPVHpYTVNBVmNtbGkwSFBVbjZoYnVSeEZ5cTJGV19ySXhDcC1yZGNKZGZQb2RaZS1qMDNrV29uZXpOUXc3UjN0OUx1WnFRaU9CTGdSaEFJX3JTUXJtaVAt0gF0QVVfeXFMTzI2MFF2c1NzMThzTWJhc2ttV3NFMzIxYmZiNVlFZmZUNXpzM3lINWZpODVVOXlOTnctSGUtYTlJRXNsb1JCbEZ4Ni1FbndtNVZObHlIQ1ZJV3RscWROdExEZk9hZmsweGlfc0dQZlpOeUJKLWY?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "日 반출됐다 돌아온 분청사기·부산 범어사 불화, 보물 됐다",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016160711",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"보안에 휴머노이드 로봇 적용\" 아이엘, 에스텍시스템과 맞손",
-      "Link": "https://v.daum.net/v/20260626130231503",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[단독]“이제 검색을 대화로”… 네이버 ‘AI탭’ 오늘 정식 출시 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUDljUnFBVDJVTzh5NHdvYl9sdm53ZW5EenBDX1Yzb0JIVGF0WHBzaEdoX1J0OWJlM1BkbGxMTHkybzZHY0xJdUFlOS1kbVdhS2NoN0k4emJYOTVHWEZNRGQyVWZGOXByRVZkbWZDUDZtRlhjY0I4bkVNV2RpUHk2OVlqRQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "“이것저것 사고 파는 AI, 허당이네”…단순 ‘장기투자자’ 보다 수익률 낮아",
-      "Link": "https://n.news.naver.com/mnews/article/009/0005699132",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "BYD 또 '갓성비' 승부수…3700만원대 'PHEV' 한국 상륙",
-      "Link": "https://n.news.naver.com/mnews/article/648/0000048376",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "폐암 환자 10명 중 8명 근감소증…약 써도 암 두 배 빨리 악화",
-      "Link": "https://n.news.naver.com/mnews/article/296/0000101940",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "CZ \"양자컴퓨터 시대엔 사토시 비트코인 동결 검토해야\" - 블록미디어",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2TFM5Q3Z1aXNhQ2JsRXNVTzNqUi13UHdheWdXTjBWSVhlUktRd21qSVMteTdwX0JZNHR5anV2UWdlSk5hbDdsNkFvSHZiZnc1WmE5eVlaN0U?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[사설] 농특세 세수 급증, 활용방안 논의에 주목한다",
-      "Link": "https://v.daum.net/v/20260626050151902",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "김민석 “정부, 보완수사권 폐지로 정리” - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GTGJKeW5xUUpYRE5lQ2pJQ1JqT2V3ZXk1cDBJZkNkakpJWnFjMFVEbmU2NEJlZTN3dVZsS01fNk5WMUtIbkczY0FGUXVEby1OeWZqTVpMZGMyQdIBX0FVX3lxTE9XQlJfdXpXMGJaWERCQlRzSm1mWDhVdE9wOG5xRWFyWWJMR0g3VGdtV0tRMGpDV3JjWGtjai1wU01OSUNxZmxDRk0wN1BmUWhJQ0FZUDhjbWZSSlNCbXFJ?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "[사설] 근거 없는 ‘마약 좀비’, 마약 불안만 키웠다",
-      "Link": "https://v.daum.net/v/20260626030510377",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "“국민 1인당 매달 62만 원”…반도체 초과세수 국부펀드 조성 주장",
-      "Link": "https://v.daum.net/v/20260626110431553",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"그냥 여행 가도 14만원\"…7월부터 5배 오르는 日 비자 수수료에 中 '발끈' - 아시아경제",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KOUtnLWw5bzl2NGh3WDNPSlNEMUEtZDROYVg2UVRrNlFCQVlYN0lSRmFlRXA1ZENwMjdDMkZ5aGNNckZfbW5pX3J0TTF2b1Byc1pfaGIwRTJzZVZYOU9hLQ?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "[뉴스in뉴스] 마이크론 ‘깜짝 실적’…슈퍼사이클 언제까지?",
-      "Link": "https://n.news.naver.com/mnews/article/056/0012206802",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "“축구 안 본 게 우리 수명 몇 년은 늘렸을 것”…총리 청문회장서 ‘폭소’",
-      "Link": "https://n.news.naver.com/mnews/article/020/0003729685",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "[독자권익위원 칼럼] 포털에 종속된 기형적인 뉴스 소비와 편집권 침해 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vTC00S00yRy1aZWlGUEF6SzI5OEdGYXNlQjA3U3BfZl9OWFJJMXIyV1ZoanN6MjZac1FUTmc0ZlhCSkpNZmk1aHUxVC1xdVE?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "AI에게 날마다 속마음 털어놓는 당신, 별일 없겠죠? 신간 <우리는 왜…>",
-      "Link": "https://v.daum.net/v/20260626094428579",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "간헐적 단식 vs 칼로리 제한, 감량 효과 비슷.... 과식 충동 억제 효과는? - 하이닥",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55T1hKR2pZM2JEbXVLUUlaLXhJNThMUmZUcHhMYVhkOFptRjgweDVMekVvSFpYSzhVZUNCalp5OEJfamhZYWNSYlBfc1hiTUh2VWx0bG1JSlJKLUFXdzQ4ZnFTaGJMd3dZQXc?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "김무열♥윤승아, '참교육' 글로벌 1위에 끌어안고 오열…\"처음으로 울어\"('유퀴즈')",
-      "Link": "https://v.daum.net/v/20260626123831940",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "China is taking aim at American movies over Trump's tariffs. Here's why that poses a big risk to Hollywood.",
-      "Link": "https://www.yahoo.com/news/china-is-taking-aim-at-american-movies-over-trumps-tariffs-heres-why-that-poses-a-big-risk-to-hollywood-194753887.html",
+      "Title": "How COVID changed America, in 12 charts",
+      "Link": "https://www.yahoo.com/news/how-covid-changed-america-in-12-charts-163056855.html",
       "Portal": "Yahoo US",
       "Category": "연예"
     },
     {
-      "Title": "[朝鮮칼럼] 정청래 ‘폴더 인사’, 민주당·이재명 정치의 민낯 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS0swTWNqNVNWaURhcXRpdEdfTzNncURyRWRmOXBndldoMXB0X1pDMUxXT1dwSDBDbHVUdHh3YTFPNWM3Vk1RLUdUZW1rQzlNSXhuWFlneUhGWXpUc2l6NzJHdVRJbWR1a1cwazh1Sk9kTlhGVnd6bVdQcTRIWXpUS3N5azh5aE8xaFRJ?oc=5",
+      "Title": "'배그' 세계대회 'PNC 인 서울' 개최…28일까지 16개팀 격돌",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009025493",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[VIEWfinder] 결핍을 감추기 위한 허기진 유머, 연극 ‘플리백’ - 문화저널21",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIQ0JSODJ5MVZkcEJGRkJ5a3BHdUVLTTczY2tVRGw2bDVEVGNRNm1qX0pOcFF4VlhiRzVTa1I3ZEI5UkY4b3I5VmI5NjZIYVVkU2ZoWjhFR09DY0E5WDhqNlZiQU16Vmc?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "'178만원→95만원' 반토막됐는데…외국인은 1800억 쓸어 담은 종목은 - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ETnJ4b1lBSVZ6VXlyM1pNS245TzJvNWdnWWt4WU5tdFRyS0pDYW1zVS0tWmx0emNBRk5hRkhVUGpEdWlsWHBBQ1pZbWRRUzBLdFVz?oc=5",
+      "Title": "한국부동산원, 정비사업 조합운영 컨설팅 추진 - 한국주택경제신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYdy0wSHA5VFZCeHBKNldmamZsNjNIWnhYYXJTa2d0NTZHR1Z6ZFdEeXMtNnFfYl90RFJJQTd6RG1tMk9qQW5qRHAzR0pNWUlvcnRIRDQycjllN2xVXzFGWVFzcEc4QVdO?oc=5",
       "Portal": "Google News",
       "Category": "경제"
     },
     {
-      "Title": "[사설] 경기도 위원회, 예산 절감과 통폐합 동시에 가야",
-      "Link": "https://v.daum.net/v/20260626030405371",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "‘이혼숙려캠프’ 큰아들 부부 갈등 - bntnews.co.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zZEhaWTFSNVNSTHVaZTZXWk1sUUZZQVJuSG9fcER4R0dvQzZ0UHZCLXl3aUQxWF9ENjJScDVSQjNacXlZY0lyYktNbUpkQkp0MDAweVpwaFlhZ25tRDdjeGI5UU4?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "韓 32강 확률 폭락! '믿었던 독일·일본에 발등 찍혔다'… 홍명보호, 남은 경우의 수는?",
-      "Link": "https://v.daum.net/v/20260626102004407",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "한성숙 \"저가 매각 특혜 주장은 과해\"…가족 얘기하다 '울컥'도",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161259",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "엘이디온 “광변환 소재 기술로 백색 LED에 근적외선까지 구현” [농업이 IT(잇)다]",
-      "Link": "https://v.daum.net/v/20260626112703788",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"서점도 복사집도 학생이 없다\"…종이 사라진 캠퍼스",
-      "Link": "https://v.daum.net/v/20260626114146487",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"하루 심정지 25건, 응급실 마비\"…'40도 폭염' 파리, 음주 금지령",
-      "Link": "https://v.daum.net/v/20260626110547591",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "[단독]美 “韓, 반도체-핵심광물 등 공급망 안정화의 핵심 파트너” - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tbkhEYkE5Sy1PM1BUMU5LRm8yNlFqaVpYS09yeVVPeElaNl8yLW1BWkd6aS0zajFZQzdyYk1qZWEwYk9TQWhWVTZvZmI5Z3BaNC1WbktCalhNRDZuUnk0R1N3WjF2bUFxNFotVDF1T09ZSVHSAWZBVV95cUxNZzB3SUZBMzdWR3UtaHo1bHp2Sy1hMURkN0l0TDh2ZTZZZzBmbFlfTkd3cHlhOUdNLTVreUozQU5la3FZYkJUZUtmaEdRZC1VZmVsbDVSdmxKLWR0Q2NtVGFQeFNET1E?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "2월 4일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yTzVJSTVLMW5hSzZLXzV6QnIzM1hCZnRuQ2tURk9DcUsxWUczQTR0TGpfaFcwaWFuUlNKZk83dFFzZ21TdU1DblJRbE4zX3ZSMmh2NkhUanhUaU5fcy1IbzlR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "이란 전쟁에 '美 무기고 텅 비었다'…中 견제 흔들",
-      "Link": "https://v.daum.net/v/20260626110431554",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 02월 셋째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hQUpjcXlWSDNEWDVBdWNhSTRheDBlU3p4SmpJU2VFaGRhQnZSeC1SNGMzREQ0NU9CdEd6eWViVmVYNWlxbkRnd1RFNWRYSk5mZ2JWMTQ4TVk4elVGeUlUU05UMC1BS0poOFRDU0Vn0gFyQVVfeXFMT2gwSkltVkNlTXFHLXJyTU1uVF9IWTZUbF8ydnBlVEQwcGFOX29IU0p4MHhNdUdVYjA5alFNV2JLU3RVbzBHaE9CZXRjS3l4Z3BWTFNibENUdEE2eS1GYmxtUWhBWTdyYmFJSERSTGtyOERB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[팀 알퍼의 런던 Eye] [37] 영국식 유머의 비밀 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYU5VNW9GQjVkbXphZWZaRWU5NG45QmxsMVRxd2w1MFJ4T0QtZ2kxbjFneER3Y2pHVVYzLVdPcERLb0VESXBTS3ZMYUZkdGkyNXFOcWg5SEhlaUJCc3oweERLV0VGN3pDR2piMVZsSDJtZFNlcWw4ODNoenpPVVBoY3R3TmVXYVRzRHVPUkVybzY?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "AI가 메모리 빨아들이자 맥북도 올랐다…가전·PC업계 원가 압박",
-      "Link": "https://n.news.naver.com/mnews/article/119/0003105109",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "의료AI, 개인정보 유출 또다른 '사각지대'…희귀질환·소수집단 더 위험",
-      "Link": "https://n.news.naver.com/mnews/article/584/0000038234",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "'47세' 수애, 이렇게 안 늙을 수 있나…4년 공백 무색한 비주얼",
-      "Link": "https://v.daum.net/v/20260626094431583",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "가수 싸이, 이수지 이을 ‘2026 흠뻑쇼’ 게스트 누구?…“2026 OOO ft. OOO” - TopStarNews",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kYnRnQloyZHA1a3hJMVRCX3c0V0NMeF9OZDY3R0F0NHo4NmRmMG81d0pXU18wZlc3UDRfNzVVbmZiWElNN1lDU2dMNVQ2ZC1BWGlrWlltNFFiajRKQllGRTlqU1J0WDdCMTBEWDN0OEFOQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "“태평양은 군사 훈련 중”…림팩·밸리언트 실드·레질런트 드래곤",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030202",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "여성은 84세 되어서야 은퇴하는 ‘가사노동’ 남성은 44세에 끝난다 [플랫]",
-      "Link": "https://v.daum.net/v/20260625110933915",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"정형화할 수 없는 미학\"…아트로 세계관 확장 나선 마뗑킴[르포]",
-      "Link": "https://v.daum.net/v/20260626063204151",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "“금리 앞에선 금도 못버텨”…4천달러 붕괴하며 3년 강세장 마감 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92Ym5BeDRWUWRvNXNKOHBmRkF4eVhmYk15UnNmYzZIcXVzd0toM29rcmRjdjQ4cFFXWGp4UjMtTEEwYUw5cXFjbnBBMmdaTlI1V2c?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "김용범 “‘메가프로젝트 국민보고회’서 나오는 숫자들 매우 낯설 것”",
-      "Link": "https://n.news.naver.com/mnews/article/022/0004138404",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "\"철수했다\" vs \"아니다\"…레바논 철군 두고 엇갈린 美·이스라엘",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315085",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "NYT \"中 AI 모델, 앤트로픽·오픈AI 턱밑까지 추격\"",
-      "Link": "https://n.news.naver.com/mnews/article/374/0000518429",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "이중지진에 최소 235명 사망… “튀르키예·아이티 지진과 유사”",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800610",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 01월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MRkkwQV84bnB1QW14akZpUzhtbUhFdzdDMlM4UzQxMFJZNnRPdTloa2RqcFkza3ZUVGtmY24xZzZteTlONU5BMWg2ZTZTVUttZHQ4c1lSZkMwQWZNc05hYTdCbERaLXMwaEUtcm1n0gFyQVVfeXFMTlM0NUIwV3EzanphRWJuLTBvTk1NdlBGM0xpS1E2bEttS2ZaZXI0bTFBUHUtUzdaTVNhQUNkMUFfWFMzUGRBRTB5R1JmdjJfMVRZU2ZNclJQbE5MRGxEaUdlNFFaQjNZYmlmYjBDMnF0ZnJn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"탈모 원인 상관없이 모발 성장 돕는 'cADPR', 다음 단계는 FDA 승인\" [탈모 전문가 100인 인터뷰]",
-      "Link": "https://n.news.naver.com/mnews/article/014/0005540064",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "범여권 일부 의원, '檢보완수사권 폐지' 형소법 개정안 발의",
-      "Link": "https://v.daum.net/v/20260626121404431",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "張 \"지도부 흔들기는 해당 행위\"…친한계 징계도 시사(종합)",
-      "Link": "https://v.daum.net/v/20260626122614716",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "“빨리빨리 먹어!”…한국 직장인 점심문화, ‘비만’ 부추긴다 | - HeraldK.com",
-      "Link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxObjNvUWtZeXE0clFOSF9oTDk0SjJjcEZHR2p6Skk5YUlGWUttbl9ZNUtNTG1NeEJJSno3Ymg0OV9HeUplNTFaRml0bFlsa0ZzSERYdGZzZmJ6cWNET1JrNHJGSVprS3lpTTJDbjdzQk96Qms4cmtyaE9JckVyanBxeG5pa2pDWEwtUGExeHAxYTZmMGJ3ekRTS3g4NGd0U1dmUWFOXzZ3SEhrMlZuZzBtVTJTbXktLTUtR3NHRWRxOGcxOTZKN2RmQWpObXRqZXAycjNTc2pYTnZ3a1RLd3g4c0lPNy1CUEtVekR0Y3NqTjFvb0QzV0NyNlhGdkNyMk5kMHA5Ujh3OHNPbXBHRmt0U1lsb0pYbmVDREl3VHFmV0lWZzRnOXdsQmdkQ3lIbEhKWHIxbF96M1VwZjJKTkI2dk05NjFmaVlj?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "인구 14억명인데… 중국이 사람도, 조명도 안 쓰는 ‘다크 팩토리’ 돌리는 이유 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLOGZvSWxNaHBJRzFhbk9ZODNCdHdMN1BwdjlnMDEtNUItWnJ1U2c5QmNxMkhoNW9kZ0NVZkxhUGpnVi1velYwZ0prS1dWTWl6UDBUVFpUNzVhejVkemFQY0cyTHpYM1lkZVVOSzQ4SFJ2aWFuc09zNw?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "심부전 위험과 관련된 것으로 의심되는 건강 기능 식품 - Laodong.vn",
-      "Link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN2RIUE4yeXlfeE5zc0xiUXhMeU10N0hLbWw1UlA4b1FsdjJRNVAxVXhwWGRJQkthNGd2OWtJb1hleVY3dWs5QXRuYlI5WGM2N2ZOeGpRS0tkMk1fWEpoMGc2RHQ4a1UtRjNMRUVwWXlJS1pETHotQndoa0FzZi14eUxRX1ExbDBhV0dBYVZ2NkFMaXM5THhqQ2tMaGE5UHBITWxfWlFUWHM?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "민아, 결혼 후 행복한 근황…민소매 입고 청량 미모",
-      "Link": "https://v.daum.net/v/20260626113652259",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "SK그룹 미국 AI 공략 가속…하이닉스·스퀘어·SKT 삼각축 부상",
-      "Link": "https://n.news.naver.com/mnews/article/119/0003105058",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "장애와 유머: 차별적 재현에 대한 비판적 고찰 (4) - 브런치",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pc1Q5cmoxWFF4TUppVUhLaHVPRmdlTmFwTE5YMUZiTE13YVE5c0FKeHhIN2VUV3hFbWVUY0F4d3E4cDVDMXFPV29YcTJ4d1ZlbUE?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"어떻게 팀을 이따위로...감독도, 대한축구협회도 싹 다 바꿔야\"",
-      "Link": "https://v.daum.net/v/20260626122751743",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "한국 월드컵 32강 전선 ‘비상’···에콰도르, 독일 2-1 꺾고 32강 확정 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fUWlqTGROemExX2laOEJaNXJsTGNycWdKSXU5OTR0Rk9TbnZ5SkIzb0p1TkJaNnZ5b1VfbGx0b1l5MlhBUlJJVWNkUG9ZU3ZMaU56QXQtQktmQdIBX0FVX3lxTE9oejZwdFlNOC1wQ3gxbXBadjktcm96R0hEeTBRMjVCMFBCUXI5R0k0aU1Nb2ZXWkM3cjlaWXFaNjFWUElFeVZMeEpSRzZtb2RUZ1hPMG5mbmdqZVZrbjdV?oc=5",
-      "Portal": "Google News",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "태극과 사괘가 '스며들었다'.. 농구 대표팀, 신규 유니폼 공개",
-      "Link": "https://v.daum.net/v/20260626093944374",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "디즈니 \"정부가 압박\" vs FCC \"ABC가 허위 광고\"",
-      "Link": "https://v.daum.net/v/20260626130904795",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "소수당·무소속 뭉쳤다…전주·완주 의회 교섭단체 첫 출범(종합)",
-      "Link": "https://v.daum.net/v/20260626121658507",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "임기 시작하자마자 韓 대통령 백악관 초청… 위기에도 유머 로널드 레이건 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZmwtTVRmZjVDRldaOTRyVGkwNlN4UGlaYUU3UGdFdmJTNzVTb1NmV0QyeUl4SGplNzFLcjdvV0d0djlYS0pTbW1fVkRhRUJ6SU96ZTdRNzYydDlVYlNNcEgzTUx2UU1jYTQ0MUstaXZGMVBXZ1EzR1VSNmhrUTIwdUdVb0x3SEc4MlJrSnRIdlZwZUM5?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "하나증권, SK하이닉스 목표주가 275만원→360만원 상향 - 매일경제 마켓",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Cbzk1Nklucy1VODJSOExqeWFVRUxlMU9xN1o3Snh5UGZmZXlGekpJbm5YWkJENnNZTXBRc0ZUSzJfQmxLMm1oYmRUd3hTZGdEeXc?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "정해인, 달달함 한도초과 [사진]",
-      "Link": "https://v.daum.net/v/20260626130253528",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "IBM, 세계 최초 1나노 이하 칩 기술 공개 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOThHaDVqOXVoX3V4cHJSR3hDWHdfY3hHVEFwNFdaZjAzWDItd1FzSWdjanNjQ1h4a1lfcmFoYWpjOTU2LVJET2pjOFVORjVBSW5mQXJJR1JDVTRXdVgyWVlLajlzNEZXMVlFWUF4MEN1ajdqMENfMEFZM01jUEJlZkZLMA?oc=5",
+      "Title": "美, 中 연계된 커넥티드카 판매 금지… 폴스타 4 만드는 르노 부산공장 ‘날벼락’ - Chosunbiz",
+      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DVTJybE9BRDdQYWtGd01RQWVydUt3bkIwc1RQYlIzXy1kVzdhTUFyd0Z0UUMwZVlPOTVpQ2JxU09kQlczQy1TUHFGc1JuVU5vbWZLN3VJZEZoT0lhVG0wSlFrUVRFQjV1OFViYXViTVh4eWxMdUVudVhtZXNaVWs?oc=5",
       "Portal": "Google News",
       "Category": "IT/과학"
     },
@@ -1615,538 +139,58 @@ window.LOCAL_DATA = {
       "Category": "생활/건강"
     },
     {
-      "Title": "한성숙 청문회 이틀 차…“히딩크 감독 돼달라” “부동산 실수 반복”",
-      "Link": "https://n.news.naver.com/mnews/article/056/0012206784",
+      "Title": "맘다니 공약 현실화? 뉴욕 임대료委, 임대료 동결 승인",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315778",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "김종대 “종전, 마음 급한 트럼프는 된다 우기고 이란은 부인하는 중” [김은지의 뉴스IN] - 시사IN",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RbWQ4d0k1ckVJenh1clZPQUp1V1BURThXdmc2M2tvelY2b1NEMGl2bVJJSGN5dXNiMnJlZjVVMWF6X0pXcGNnMWZza2FnaVlEVXJScWFhbGQzMjNCd0JrbkhqQk1aU09iMVE?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "“30배 웃돈 주고도 못 구하더니 이젠 헐값”…중고시장에 쏟아진 ‘라부부’",
+      "Link": "https://n.news.naver.com/mnews/article/011/0004635379",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "고양시 ‘자율주행버스’ 타보니… 사람보다 교통법규 잘 지키네",
+      "Link": "https://v.daum.net/v/20260626144729247",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"운동할 시간 없을 땐 5분이면 충분\"…의사들의 심장 관리법 - 조세일보",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01SXQzTzR6NUlXT05TSE1SVlNza3A2Y0tOMzBObkNPbWprdFp3WVNUYXh1YUM4T3pHS3laR2syZ3dsTmF0RV9yd285MWNtcEl3T2x3d3BfQzJLaXlfcllkVmNDSzhkOUpicFBmSEt5UXY2U05V?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "정청래 '꼼수' 발언에 내부 갈등…장동혁, 징계 카드 압박",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878848",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "셀트리온, 바이오USA서 글로벌 파트너링 '역대 최대' AI·ADC 신약 경쟁력 부각",
-      "Link": "https://n.news.naver.com/mnews/article/014/0005540049",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "6월 17일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3RXo0ck9YNTFKOVF4THdwR3JqeTVaZXRMZDNhLWY1YnBkUVRUQnFkMklWMktCSk5mODFBZDZXeGNIMklCZXE5RTRaWHU1QnZScjFKYUgxR2hMcWRoRXVhMTNR?oc=5",
+      "Title": "카드로 보는 시사상식 [2026년 06월 둘째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzcFNIRUJ4VE9qSHBxOGFNVktIZ0s2WW9DVHhjendUTC1DdTRoc01nbFZXaUwzTjdocFNUY3VLdXBFaDVUR1ZaWVRrUFNZRzJfN0RmM2hzTXA1VjdqTGsyYWREQV9UajBfQ3pYUkFB0gFyQVVfeXFMUEU2YzlIdGI5TFZydnBjNnE1Q3lTREdTdE0weXR0bm53b1NITTBaR2dVZWpycjVhMElRRjVTMjRhOWxDMFNLZHRoak42OUVhTDFWQW1SeV9XU0lPT2NTTl9GSUhPOHFNdHR1RURZR1l3cEZR?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "“스타벅스 마케팅 참패, 역사 교육만으로 안 끝나”",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315561",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "'4연승' KIA 파죽지세, 사령탑이 칭찬한 '5명'... 그리고 \"수도권 원정 9연전 마지막 시리즈 두산과 경기도 잘 준비하겠다\"",
-      "Link": "https://v.daum.net/v/20260626013319124",
+      "Title": "‘보완수사권 폐지’ 與 신경전 비화…野 ‘당권 경쟁 이용’ 비판",
+      "Link": "https://v.daum.net/v/20260626172101134",
       "Portal": "다음",
-      "Category": "스포츠"
+      "Category": "정치"
     },
     {
-      "Title": "건물·도로 흔적만 … “살려달라” 들려도 속수무책",
-      "Link": "https://v.daum.net/v/20260626115635941",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "부동산원·대구시, 조합운영 컨설팅 시범운영…사업 초기 지원 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nSUpWaGRqLUpNLTBsX1liTTd1RlZxdURQUkVHdThNYjFhaVowdlVZNnhkeDBheXVVTzYyQXktNnZBenF1UkZLYTNGX1ZEY1E?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "애플, 메모리 대란에 가격 올리고 칩 로드맵도 수정(종합) - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42Nzh3Y3NZc3BVWHhTeFR5YUFENlNQNHFaLS1pRmc3YWFFX2ZUSUZyWTFpOU5ZcF9WQms5RkpJRUV2cERZbTBLd0k1VXYyUThfS3VWSXBoQmhBdm_SAWBBVV95cUxNaV9VUzN3RmxXVHZrYkFoOUZRV3BCLVVVTXhHQ0E2TDd0dzRQYThGeU92bzktUmx0aHBtTzBDblItWUFHQ0Uyb0dMcVBNUmx3b2YyY09ocjExRWFzdVhhUmU?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "쿠팡 6246억 과징금 공방…'조회'와 '유출' 기준 법정서 가린다",
-      "Link": "https://v.daum.net/v/20260626112656777",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "서울 광화문 일민미술관서 흉기피습…용의자 추적 중",
-      "Link": "https://n.news.naver.com/mnews/article/422/0000878760",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "러브 머신 등 [이 책]",
-      "Link": "https://v.daum.net/v/20260626093142951",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "부동산원, 초기 재건축·재개발 조합 맞춤형 컨설팅 나선다 - 더팩트",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ybmFSeENhQnAySHdDNFJqQ0JrZXZoai0zX3BBbGh4eFFNNk93a0djZ0g1c0hEakFuNnZCemcxazhSS0VTVGNqN1hsYkxQUEtURndvR2pPOEdTQdIBVEFVX3lxTE5WendNbGpaQTVYYmFhUEVoNU5WQXhCOFAzeXFJMFlQaS1wYXczVXJFNzNRdVFkaEZZNVpfT1J5cWx6RlFGRXNXa3dhby00bnNMNC02Sw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "‘안하무인 막내딸’은 잊어…이주명, ‘신입사원 강회장’ 속 당돌한 비타민 [SS스타]",
-      "Link": "https://v.daum.net/v/20260626060237707",
-      "Portal": "다음",
+      "Title": "China is taking aim at American movies over Trump's tariffs. Here's why that poses a big risk to Hollywood.",
+      "Link": "https://www.yahoo.com/news/china-is-taking-aim-at-american-movies-over-trumps-tariffs-heres-why-that-poses-a-big-risk-to-hollywood-194753887.html",
+      "Portal": "Yahoo US",
       "Category": "연예"
-    },
-    {
-      "Title": "[ASCO싱가포르] 전 세계 덮친 '젋은 암'…원인 규명·대응 전략 모색 - 약사공론",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xRVNmdy10a3BSOFdha2xlRllacmFTWFpMY0RnVS16NV91VjJRTXJFQUpFdzdTcXlNcWdKT00waGlPTllqd05QMDNkZUJFb3QzZmhnZ0o3cVRRUHdCUGFWM0hxMF9vSnozMkJFQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[현장] AI 시대의 러다이트는 누구인가?",
-      "Link": "https://v.daum.net/v/20260626091304043",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"얼굴 보고 대화한 적도 없다\"…日 총리에 불만 폭주한 까닭 [도쿄나우] - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzRE8yZUpDY052ZGRPdE55MWhQS1FCenRBV1d5VEtuSWFOOWlhU1gzY0tYc0M1TWtNay1WWVF2RGZQQzRlX25ycklkRmN0YThDa2ptM0tMc3Jjd9IBVEFVX3lxTE1oeHAyQ1RTQnR4UHZmRjV2cy0td0pjQjhKdU0wTXQwQmNxZ1hCU3hHcFB6RGIyc2wtcEhuTUNPM3dxQlVEM0EzWjQ2THdIRHVQZW9RcA?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "[속보] 코스피, 급락에 서킷브레이커 발동…‘삼전닉스’ 9%이상 폭락",
-      "Link": "https://n.news.naver.com/mnews/article/029/0003033847",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "국민성장펀드, 리가켐바이오·LIG D&A에 1조원 투자 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZGxRbHQxcmNLdzhHVzlqU2xCX19ucmhOdDBGNXg3c242U2FENDNNOERKcGtkRVdDM1Z3bHBldmVWczdoSVhVdzdyaWRmOFlaRkpQYlduMGkzek9KZFN4VHJEbGQ0QzdvWWhhZXNIR0lBa3lxUEpYR21aWWQxTGJQYtIBlAFBVV95cUxPMVJ4WXllTDY1akl6czBRdlF3R01MZDkxVVBZc1pESEd2U2VaZzd6dklJdkdESkhHQ3U5V3pIRzI0U3VWQlJyOTR0T3VyaHllbTA0Y3YzZnpHc1BQVEt6WEQwVjVXZnlQUDZWN1FGX0xsMEJWeXBnSklUeGU0al82T1dFX2FNaExvdlNsSmNqamNjOFpK?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피 8%대 급락에 또 서킷브레이커…올해 다섯번째",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428176",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "BMW, 미래 전동화 비전 제시…\"iX3 사전예약 4500대 돌파\"['26 부산모터쇼]",
-      "Link": "https://n.news.naver.com/mnews/article/629/0000510820",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "피지컬AI 주도주 현대차·기아…연금계좌서 집중 투자하는 방법은?",
-      "Link": "https://v.daum.net/v/20260626060216630",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"뉴럴링크, 그 너머로\"… ‘뇌신호로 로봇 움직이고, 사람처럼 감각도 느끼고’",
-      "Link": "https://n.news.naver.com/mnews/article/029/0003033634",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "내란 특검, 尹 항소심서도 사형 요청… 尹 측 “메시지성 계엄” 주장",
-      "Link": "https://v.daum.net/v/20260625175016130",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "식케이, 10세 연하 日 댄서 우와와 파리 데이트 포착",
-      "Link": "https://v.daum.net/v/20260626124406057",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "출소 5개월 만에 들려온 비보…故 김성민, 10년 지나도 잊히지 않는 그날의 충격 - sportschosun.com",
-      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU0RxTHVTQUVpTHAxckNaZGZsdjk1RTlrVUwzMlhiWFRSdGV1NXNmbWhTamcwbTBJLUV1YkNNaFFYdGVXVnZkWlFDMWwwcFJlVWVKRHJHRWl5VEhDdGFDRVN5a1hjSjJjWkhqM3UyMkdDN3piTWdhekdrTXRfekFRM2J0MDA?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "문이 점점 좁아지고 있다… 에콰도르·스웨덴 32강 확정",
-      "Link": "https://v.daum.net/v/20260626113635254",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "\"20배 이상 폭등한다, 지금 절대 팔지마\"…월가 큰손이 내놓은 비트코인 파격 전망 - 아시아경제",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeWc1MXVCa0ZkRk9HYzQxemdwQ3RLQWJqQ1hUMU9UV2hPR2Rzek1laFNqeXRzaHdBSW1jVnpESEZESE1BSldBTlNOOVF2UnVPZFZwQ1dPdmdOeGFwck9jUA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"사망자 10만 명에 달할 수도\"…'100년만' 최악 지진 베네수엘라[이런일이]",
-      "Link": "https://n.news.naver.com/mnews/article/079/0004162107",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"AI 범죄에 체계적 대응\"⋯범부처 협의체 공식 출범",
-      "Link": "https://v.daum.net/v/20260626130542671",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 06월 넷째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95QWlVNVJRU3IwbXJyX2IzS0ZDZDM0QkNaeXpjV3BHSkFIekp6cWExd3lzWFZINXRUYzBrUk9aR1VMRDQ3ZzN2T0xnZzRmTHRNTnBoWDFZaUJTWVN6cElVVlFqVVM2SWRmUzdiNjFn0gFyQVVfeXFMTWxrZi02dVloRnJvY1FqakxnNlI5UUFSVVY2THNwYlQycDhtdWV6V2VlR2t6b09LUnNsVXFFeXAzOTVxZnlMZkZ0bTEydjUtd3NYSTFnTHAwVVVVdVIxMm5id1ZZT1FUM0hyZDR2UHNmUjhB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "코스피 덮친 '검은 화요일' 재현 공포…매도 사이드카·CB 잇단 발동(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025513",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "[단독]'사채지옥' 갇힌 20대 여성…3년간 1.5억 뜯기고 성착취 영상까지 - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01Um9Kak1zTkl5dExKS05WUUZwX0NnbF9ibFhzbzNVeGhaWm1oNzVsWGhlZlZtdkp1T2tlYng2ZmJuNWFVNEpZa2l5bHMzRGNVU2NR?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "[이기호의 유머란 무엇인가] 한국이 발명한 ‘부장님 유머’… 웃다가 왜 짠해졌나 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBmZG5xdkw0QlpmTE9LUWhva2lOM1QyX1Bmam9VUWE5eTI4bUJKcXRyelpmamUyb2tXVjgxYVN2dnIxX3J0UGc?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "삶에게 웃으며 말 거는 법 - 독서노트 - 브런치",
-      "Link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPd1oydGdORk05YjhLUnhHbkRKNGl4dEh3eUVoeDdydUx1RGZ6YmY3UWNtQWc4RlpQV2ljNjJDOTVFWE91Q0ZtcnVIZUYtMVRjQ1hCSTViMGl5Yl8tOWp4bkF0OA?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "“앤트로픽 버렸다” 미국 개발자들이 중국 AI로 갈아타는 이유[딥다이브] - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PWU1iV2FfclVfdUZydmFwSFBuaVpNSi1lOUlCMC1LTmJCczB0ZGFhcldkUUdubG9QaXZVZnBPWVBSaldua2JuNTFFamVtcVE0QXp3c280bjV2OHdScUV0MjRUV01peWJMSnFNR0hqRjJvSEVOWmfSAWZBVV95cUxPNnRaeHBWOFhRVGEtYUZJdExXclA1UUJZTjVMQml0T1Z6RE1EWjJGR0t2OFNzVWVzelpwa0R0bVRZcWk1XzBsWDlxei1keU9saE81emlkc1ZUQUZPQzFnZWh1Z0dzcEE?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "美대사관, 대통령경호처 초청 리셉션…경주 APEC 경호협력에 감사 뜻",
-      "Link": "https://v.daum.net/v/20260115122603837",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "“육·해·공군 사관학교 왜 통합?” 생도 질문에 안규백 장관 대답은? [런치정치]",
-      "Link": "https://n.news.naver.com/mnews/article/449/0000350657",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "\"감사원, 결론 정해놓고 의견 강요\"...심사위원들의 '반전 증언'",
-      "Link": "https://v.daum.net/v/20260626105800199",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "현대차 무뇨스 “가격보다 경험”…아반떼로 ‘평생 고객’ 만든다",
-      "Link": "https://n.news.naver.com/mnews/article/029/0003033848",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "캐나다 | 코스트 콘돔 불량 \"아이도 반품되나요\" 유머 화제 - 밴쿠버 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9zbzlaVmRjTVpjdzFIT1Z2U1Vpb0xncnotZXB1T1pOTzhBVE50dDdPVF8zZmgtYzZHTWgxNjNHel9QT2pGVVpjdHpCVWlZS2NjdGc5MjBYZmE3TXZtS2xRM2w1VV9GUEVVSVI3bGhGMUhGQnNlaTVr?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "6월 3일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uc1VTZTV5alNjRTFUa0tVeWZSbUhWcENQdWxuVElEdGduWmU1YU90LTN6SXc1V1FJdzZObWlYZFhwME1wRTJ0TEtESXhoakFjTW9uczBlNUgwWHRTRmdlMGx3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "감사원, 금융당국 감사 착수…\"레버리지 ETF 투자자 보호\" - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fNkI5cHVIczV1NGFOSWFPT0Vrd3FsMWJKT0lRNlNPZldEd0R3YmI1aGZUWDBJQXZlVzA0TEdXSWRHdVB5dHBqX1NXNmZ5OUFHeV9iVkx0d19nd9IBVEFVX3lxTE41ZzJqR3NSR0NZMlIwNFhyenpIZlhxSUxvcjJlbXg1dXJiZGQ2VGVyX2lHZ0Y1M3lGQjlSYy04eG5xbmVLSWp4TVdJYlQ0RFJCZzJ4Sg?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "삼성전자·하이닉스도 기대, 2분기 영업이익 150조 전망 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRZldGWnpfcHBqVzdLSGVYanJRUnFMMGlPLUdLOW45Y0R0dDZUZzdnblo2RVloNVFlZFV6UzVXel9CZzc1Wmx3dm91N0t5dUE?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "윤이나, '메이저' KPMG 여자 PGA 챔피언십 첫날 9언더파 '맹타'",
-      "Link": "https://v.daum.net/v/20260626093051901",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "보은군, 민선 9기 비전·6대 군정 방침 확정",
-      "Link": "https://v.daum.net/v/20260626131101854",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "'반지의 제왕' 노리나…애플, 포기했던 '아이링' 개발설 재점화",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428140",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"李 공소 취소 위한 과정, 모두 '거짓말' 됐다\" [진중권의 시선]",
-      "Link": "https://n.news.naver.com/mnews/article/586/0000132423",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "[날씨체크] 주말 동안 낮 기온 30도 웃돌며 더워요···강한 자외선 유의",
-      "Link": "https://n.news.naver.com/mnews/article/657/0000052782",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "구윤철 \"7차 석유최고가격 인하할 것‥민생물가 안정에 1조 원 투입\" - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBETFNPb2RnLW5nS3lITUNtRTJjTi1XRVRnVHNjOGJxQWVBb19XNkM4YVJmSHRMWWtPdWQwQ3dCeG1PZVpvVnByZU9ueE5jYlphQS1IZmJpNTNRLU1fS2ZIamVJRWZiVDBsMGhrbWl6MXNhUjJZ0gF0QVVfeXFMTmxDekh0cXg2R21EX2xpSi1HVUNmUmFlMlBxWXc1UDdubWVPYUtYeDFPVmtBQ2ppbDhITTZ6QVJxVVh2Wk01Ujk4QlN0LVBHSTlnckJvSnlYc0F6ZUotOEU3MWFoUGhyVl9YREFIZGxlN0xDUE4?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "BYD, 5개월 만에 작년 판매량 넘어섰다…수입차 4위 '안착'",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315531",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "사우디·대만 \"독점 수입권 달라\"…러브콜 쏟아진 K바이오",
-      "Link": "https://n.news.naver.com/mnews/article/015/0005303156",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[벤치마킹하자GO③] “독일에서 홍천 검색?” 외국인까지 불러오는 스포츠외교마케팅",
-      "Link": "https://v.daum.net/v/20260626120902327",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "CIA 대신 군대가 직접?…美·이란, 군 직통 채널 구축",
-      "Link": "https://n.news.naver.com/mnews/article/079/0004162089",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "“36년만에 대기업, 이순신 정신 덕분에 가능” 윤동한 한국콜마 회장, 충무공 책 출간",
-      "Link": "https://v.daum.net/v/20260626114502574",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 03월 마지막 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04ckZyTFFWS0dGRExudTAwYWQ5UngtLXBtUEU4OXhDRFJUUW82bnFVREVpSnpfQVMwRnd4SlhZQUVfRVR0T2doWkJlTkIxeXJiVVNNdjlYTzNxX2JlYUdlOW1wRm82MW9zLU11aE9B0gFyQVVfeXFMUF9rMU5Bcy1nNkdPOHctdk5OcVNjOGZWSkN5c2V0OFEwX2ZJaEVFVm01WXRPbFVhOHRBXzJoTG5ucXV4a1NBMXlabEF6SV80SVI4T2FpZnloWlBmZk12aHhka2FhaDRTM0VnR0Rvb3N5WFFR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[뉴스12 날씨] 맑고 한낮 다시 더워져…동쪽 소나기",
-      "Link": "https://n.news.naver.com/mnews/article/056/0012206801",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“스위프트, 내달 3일 뉴욕 닉스 홈구장서 결혼” - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12ZnJkRUk5NWZkN0lLelRSSjVEdmdTVGxrZGRXLUp3N3VfMDhoMWNodDBWdmtJWW50QTVZMkZmWVI0SF93S2N3MmxadnZtaEpyelVyNjJwVnlwRldsVDN2cWlfVkNUdWFBYlJHbDRfS2NQcm1n0gFmQVVfeXFMTXMyYkxBcm1ybG0wVUJ1dTNJSzBiRmVvUk9tUlZXS2VxUnhpMlFjWWhjNWtnNk1tWTM1aGpaRkc2UDlfYV80MFB1NlFxNTdtVjFjUG5zeUNjUEhDNkp1VG5Ha0xYbmF3?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "'더블 태풍' 북상…일본 열도 폭우 우려, 도쿄 교통차질 가능성 - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12WDdZMEI3N0dKamZlLTlhVnRUSEVoaUlIRjM2V24zV2ZiZHJ5NWxPa1l2OUljSVZra3BHSndwVk5sNllHa0x3X2tRU0d1ajlsZGRtYl82Y0NwUdIBVEFVX3lxTFB6Vm9jZDFpV29BTUJRZlRfcUdCVXM5WUUyRTlDU0RBQ2JuSmhRdXNhR3RZVE1kcE94bzRFQXRJN052akdkdnVzWWJtQi1sTHdZS2xJZw?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "‘지각 장마’보다 먼저 찾아오는 곰팡이, 지금 해야 하는 것은?",
-      "Link": "https://n.news.naver.com/mnews/article/032/0003454538",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "40억 아파트 1주택자, 종부세 부담 확 늘린다 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zdDQ2X01EUEVFeTFkcjJXRENxSkthVjZuUXh3LVltSXo4SkNSZ0QtdHplUExkYlp0Q3lWWHJGRlp4dkZRUFBMaGxNMW83Z1k?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "“11호 종투사 먼저 따낸다”…우리투자증권, 교보증권 앞질렀다 - 디지털데일리",
-      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80M0Y4empBdWJRbkhTNURaSWJNTHNrdUFRREJFRG5YTHNvUWJJTkZSem1NRjBZTFhFMnBvSjlqTnJ0SjBha2pMZGo2clg1Q3dyNFpkakYyYnRVTncyalhLV2MtOE8?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "신지 \"이지혜가 광고한 속옷 주문…알고 보니 AI\" - 뉴시스",
-      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BV1BuLUtCOFJlSXlFV3FsQ2J1dUt4aHRvLVVRSk5SV1VYUS1MNE42T1lwTndVVEdtM1pYNTRnTjZXZzhOS0hRNTFyLWU5ZGlZQm92dWk4M1dxUmlwRGxVSERMWFDSAXhBVV95cUxOUVpGWGZsQnI5UmNXbjZmeEdPWkZfM0ZCQUM3dGRRcERzVTdNSUMxTEstTGFVeTFkTXhpUEJneF82MFNXcm52YkM5RE1WVi0xb3NlcV9QRWVqRG1XS3hiYTBRYU0wSXVOazRkTWwydmxTOE9mWFp4U3I?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "중앙·JTBC 구성원들 \"오너 한 명의 무능이 만든 고용 불안 책임져야\"",
-      "Link": "https://v.daum.net/v/20260626080140722",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘할라페뇨’ 웨이퍼 든 올트먼…오픈AI, AI 반도체 독립 선언 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOFJ6MUZnRUxnUTkyajliYnh0T0NvRy04MGQtRUZlOEc2M2RiWXliR2NfTElWSTBrUjRNbU1GcnIzeTdmZkdCcWIyMGdhREdnNnAxN1RaVktXVTJ0TUZzQ05zbGdSbDFLQk9GS1VMaXV1VTBIWlFZR0wxVC0wYnhRdFhIRQ?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "트와이스 나연 '하트도 남다른 아이돌력'[엑's HD포토]",
-      "Link": "https://v.daum.net/v/20260626130323556",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "[AI기상캐스터] 서쪽 중심 낮 더위, 서울29도...오후 한때 동쪽 소나기",
-      "Link": "https://v.daum.net/v/20260626131002823",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "GS그룹, 강원·충청에 '기가와트급' AI 데이터센터 짓는다 - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40R0oxb2RwYm9tQ2dwZHJJWXVxR1VOMmpmODVWNld0V094Ml9oemFTYlhrTU5zNDQwcmM1cnoxNjlxY0hKcGRYakVzYVdLY2dRTjdTX0hBYVhwQdIBVEFVX3lxTE8xQnVaN0U0anRsbUljYUhSVy1DNnBNS3BOR01IUzU3NzFIM0hnNlpFTHdCNXpJMTVHMDBjM0NDZEdzZVJ3QXoycFJPbnVJZGdYblRDeA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "中, 대만 동부해역 관공선 활동 비판에  \"해양권익 수호조치\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016159973",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "호세 무뇨스 현대차 사장 \"中 저가 공세, 고객 경험으로 대응\"",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315527",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "검사가 서면으로 구형…대법 \"방어권 침해 없으면 위법 아냐\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161175",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "하나은행, KISA와 ‘맞손’…금융권 최초 실시간 스미싱 탐지 서비스 가동",
-      "Link": "https://v.daum.net/v/20260626130230499",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "송혜교, 마지막 인사…\"소중한 추억 간직하겠다\"",
-      "Link": "https://v.daum.net/v/20260626115658949",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"썰렁하다 비웃지마!\" 아재 개그, 뇌를 깨운다고?…스트레스 낮추고 뇌 건강에 좋다! - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41LVVyNlA0Rkh0eTd4WE1sMkxZV3lQVUktb2t2d0RHZlBvU01vUGFXS0owVF91TFVVVjFJTjN5TmRQWERCS2xQaHRpTUtnWm1PV2VF?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "다올증권, 하나투어 목표가↓…\"전쟁으로 업황 악화\" - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lQzdlb3A2MTZUazRZRnIyQ0xXU2M1bE53VXhsR19UWkxZLXBjWThSV2pBTTJVWElCTHhkcG45NkRSdU1qaFk5SU1HVU54X2ZFc29kcmdGSmNVSzFDUk96ZdIBYEFVX3lxTE5lQzdlb3A2MTZUazRZRnIyQ0xXU2M1bE53VXhsR19UWkxZLXBjWThSV2pBTTJVWElCTHhkcG45NkRSdU1qaFk5SU1HVU54X2ZFc29kcmdGSmNVSzFDUk96ZQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "이스라엘-레바논 5차 협상 하루 연장…\"26일 오전 재개\"",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025502",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "에펠탑 조기폐장하고 학교 문 닫아…6월인데 40도까지 치솟은 유럽, 무슨 일? - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xY0RROWh3QXBLenZJS3VrQlZVUC01TGVTN3RXdUhXVXJySEhtaS1HMWN3VVlWanlxQXdPNzZyR2pOSWluV0dBbEJqTW9sSXJBN1E?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "'불법 촬영 혐의' 30대 男, 경찰 압수수색 도중 자택서 추락해 사망",
-      "Link": "https://n.news.naver.com/mnews/article/031/0001037856",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "韓엄마·흑인 아빠·백인 아내… 내 유머 비결은 ‘가족’ - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRFJ2aEYwcDNReWFRUnJpbExBUmd4QTRXaTR0SktlR2xpQVU0Ry14NmhsOXJkMTJLMU5ENHhKRGZQNU1vaWZ6Z2VvNnRVbXhXMGNreFV3THViNXNvbl96ek9GM0E3MTNwcm9EWnlOc1RibXZJdHd5UjlKcEVIeWk5di1FenVCS3puclhPaG4yWk1rYWJCYUxQNDd3WlhOUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "풍경화 이전의 공성훈…설치·개념미술 조명한 5주기 기념전",
-      "Link": "https://v.daum.net/v/20260626091709223",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "마라톤의 도시3-베를린 - 세종의소리",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsUDA2MHl3V1U4Z3NlUjFkVWczYUZseXpmNnhDNVVOTXBsN3RlVHJNdko4WEY3SUpodUJGRVpEaTgtMl8yNW1pTEV2RjRnSk9DWjhYQ3k0TTEwaURORmFoWS1ValJWME0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "“일본 여행 잡아놨는데 어떡해”…태풍 2개 동시 북상에 열도 ‘초비상’",
-      "Link": "https://v.daum.net/v/20260626105631134",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "[빵 굽는 타자기]거절이 아픈건 네 문제가 아니라 뇌문제야",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781879",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "한성숙 청문회 부동산 공방…\"미용실 원장에 헐값매매\"·\"억측\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161264",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "경기지사인수위, 장애인 콜택시 운전원 2배 증원 제안",
-      "Link": "https://n.news.naver.com/mnews/article/052/0002371298",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "박민우 \"2027년 자율주행 계획대로\"…플레오스 전 차종 적용",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025473",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "대화보며 연애상담까지하는 ‘카카오 AI’",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002662049",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "원빈 근황 공개됐다 \"머리 기르며 차기작 기다리는 중, 작품 안 들어온다고...\" ('데이앤나잇')",
-      "Link": "https://v.daum.net/v/20260626081547083",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "‘21kg 감량’ 손담비, 날씬할 수밖에… ‘이 운동’ 즐겨 하던데, 뭘까?",
-      "Link": "https://n.news.naver.com/mnews/article/296/0000101946",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "트럼프 “이란, 호르무즈 통행료 없다고 확인···사실 아니면 협상 종료” - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hcVVPQ2ZQZTNaVTlsRTlXNS1xVlZsZFltX002ZTdFc3ZDNDE4WDdSN205SW1WNnRiNEcxcUlxX1Q4UDItREEtM25vYW50UFVlZmJLU1NkaFJjQdIBX0FVX3lxTE5HOGExc1pDaldwZ3ZrQVVSSGJKRHRnZWtmYlBsYUtFOHhYUGFxcVBnLXIwUENIUTZlcURHYkc3NERBa1RnMVhWWWxlT1ItYVVtLXJTQUh0eW1oOFcxNWZn?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
     },
     {
       "Title": "[이기호의 유머란 무엇인가] 전쟁과 절망 앞에서 농담과 유머가 필요한 이유 - 조선일보",
@@ -2155,424 +199,334 @@ window.LOCAL_DATA = {
       "Category": "기타"
     },
     {
-      "Title": "\"이동통신 해지, 전화 안 해도 됩니다\"…채팅·앱 신청 도입",
-      "Link": "https://n.news.naver.com/mnews/article/138/0002232189",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "‘하수도 사회주의’가 온다 [특파원 칼럼] - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iSkJSYkZxQ2hRRlJHSW5TNElldWNSOTAtUmU2ZlNWZFpZOFlCN1puMy00T1BZT2tYMGJseXRiQW5rY2JNLU5oSDRndkV4N09yLS0tN3M0RG5qbDd1c2Izd0hhaU9Edw?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "“2024 우승했을 때 분위기, 김도영이 여러 방면으로…” 네일은 요즘 KIA가 2024년 KIA같다? 네일도 2024년처럼 아트",
-      "Link": "https://v.daum.net/v/20260626061200860",
+      "Title": "복권기금, 고령화 지역 철원서 노인 일자리 사업 지원",
+      "Link": "https://v.daum.net/v/20260626160502458",
       "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "전 IMF 이코노미스트 \"비트코인 정점은 2025년…사기꾼들 기억해라\" - 디지털투데이",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vQndkMkNFVWlhRW1jakRtakNGYlBMcDBPaXctUWZ4U0VZM25NSVNSQTRHd2ZIZ0cwd1NVTWhvV2xUUGxuZlUzUUhIT19YOVB1UURKWnAtWDNsMXdBNXp1eUVpWVV6MFhkdkxNdlBVa0R1U0U?oc=5",
-      "Portal": "Google News",
       "Category": "경제"
     },
     {
-      "Title": "이재명 대통령 “제주포럼 계기로 국제협력 선도” - 제주의소리",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4yM254ZlhpV21KQnZTbTFQTnlUQTVWZTlMb0NYekR6bXp0V2RQMzRhNWphUHREdE1Ed2tfU1ZUbURLMGxmaEw5SVVnN2VMeVBvOTdySmh6VlNIa2xHcGJZMEV4cWk3bHJsdFU4?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "日 해역서도 규모 7.2 지진… 외벽 떨어져나가 주민 공포 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUzQ3TFlBNlpoYVg4XzlkYjE4dy16YTlYbHNtZ0pmWmtnbXkzY19kSl9YNnJfcmQ5OVZBYnhxZ1JiTnExWG9rVzZtNFc3OGIwTl90U2Z3TnpDT25lOFVZX2FjX3c1aHNXZEU0Z3ZnRGVZN3ZHelo3eUhNMnl0U1JUY3FuU0Y3LVdCS0RDYnBtZ2IyaGU2cmxyaDU1VnhfQQ?oc=5",
+      "Title": "“한국, 전쟁하면 북한에 패배할 수도”…트럼프도 손 못 대는 진짜 이유 [밀리터리+] - 나우뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BOGN5Z2NjbVZUZUhiUUFGLVNNSUgzVXVpYWEyU09QZDh0UE5DeVpuQkFjSExDLV8tSVJYVWEzai1GUVAtTWZKcm16VmxJcjF4OXNtajl0WVM1bTVUUUM5SE1jazhEampUTGVBSUkwY1o?oc=5",
       "Portal": "Google News",
       "Category": "세계"
     },
     {
-      "Title": "카카오, 4대 과기원과 청소년 AI 창업가 키운다",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315321",
-      "Portal": "네이버",
+      "Title": "로봇이 박격포 들고 전장 누비는 시대...군사용 로봇 개발사가 밝힌 미래 전쟁 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUktIOTFWUFRaRkR3NXI1NHp4dFoyTnJhN0JjNUF2emx2ME5UbmpueHY2U3Z4ZnMwY3BiUFVhN2d4TFpXeUZQM3VKdjFqeGdMZk1meldCcU5PTGdUOHBsR2RmMTJ0VE05Wm5tblFMQ3ZPNjBzc1hPOVdNNWRWemZJcWhjNA?oc=5",
+      "Portal": "Google News",
       "Category": "IT/과학"
     },
     {
-      "Title": "[허준열의 부동산 고발] \"1억대 30평대 아파트의 진실\"… 유혹 뒤에 숨은 함정 - 세종의소리",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqYnpvU0xnRFBuUnJZYmdVMHZLUkt4LW1MRGV6T09CSXZWLVpzaG5RM3VWTzVKYnBFcHkyUDRuUmRHRWFxVXBKSXhUVmlHUWJkTmFYMEVPSjg0MDZxa1Y1cHZyOXlmc2c?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "'뭘 해도 도움 안되는 얄미운 일본' 한국 32강 확률 더 떨어졌다..일..",
-      "Link": "https://v.daum.net/v/20260626095852261",
+      "Title": "카스트로의 솔로 홈런 추가, 점수차 벌리는 KIA",
+      "Link": "https://www.daum.net/video/v/g1k53pf9ht35b7m8",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "혈압·혈당·콜레스테롤 모두 전단계땐 심혈관질환 빨간불 - 스포츠월드",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLdTlpQVdlT1Y3NlE5eWQtM1pyWkc4d1J4WTVHWU1MX01TWTI3aDBlejVtaDB4eW1SNjd0cFdKNlVrUEJCRkUwbUFsZEtfY28zYk1NYTNNTjJ4QjVLQUZtRUtR?oc=5",
+      "Title": "대전도시철도 3·4·5호선, 2호선 2개 지선 만든다…승인고시",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878719",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "여름철 운동 후 숙면 방해 줄이려면…전문가가 꼽은 쿨다운 요령 - 스트레이트뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55M2F5RlpmLThpZzFoYU1VWTBaR3JBY0JMS2VlUk5yUElkX281VmJ2MDJNWFF0Q2piM2hheTNSWnN0SjZHNW15aEQwQ1J4clQxSXlvZDlCancwTmtGYXVrMFlIMXhOS0hBOGFlbnhZX2JmUjDSAXdBVV95cUxONGJTMnQ4MERvV1lzTU9zMU5DaTNOTFpZM2FWS3JPSzdTajVpbVU4ZTd1eXViTUIxSDdVZzFjdWI5czY5NWVzUDFTZnhMYW9hQTBiZjhjelcwaVVaYjdURjNMUWVwbGhJeVR5SUloQ19heF9GTVB3dw?oc=5",
       "Portal": "Google News",
       "Category": "생활/건강"
     },
     {
-      "Title": "코스피 급락하자 424억원 강제처분…초단기빚투 개미들 ‘악’소리 - 문화일보",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9kYlI1dFRmUk5RN3RpaDcyMmRKd2Y5SzFDQjM2dy02VDlIZ1lSMldhWE5QRXlCeF9SVktGcW1menkwd0ZRempuOU5Yd2dkeVdp?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
+      "Title": "\"양치하면 흙맛, 구역질까지…\" 광양 수돗물 악취 20여 일째",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162268",
+      "Portal": "네이버",
+      "Category": "생활/건강"
     },
     {
-      "Title": "[주간 코인플릭스] 26년 26주차 암호화폐 상승률 1위 '딕시'",
-      "Link": "https://v.daum.net/v/20260626110918813",
+      "Title": "김정은 \"새 장거리 타격수단 선보일 것\"…대남 위협 강도 더 높여",
+      "Link": "https://v.daum.net/v/20260626143601860",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "‘귀멸의 칼날 전집중전’ 서울 상륙… 국내 최초 대형 전시 6월 27일 개막 - 뉴스와이어",
+      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PZG1PUmE4cDhqS05ZSTBXU3IzamJUZXJ1b1V2dS1tN0o3elhjVV9ZVFg1b1ZjMTBYd0Q3dVEtbS1rX1BwcGZmZ29vemRYMU16VnNHbU1kd0pJRWpPcm9n?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "월드컵 감독이 그렇게 중요한가요? [이슈크래커]",
+      "Link": "https://v.daum.net/v/20260626161419841",
       "Portal": "다음",
       "Category": "경제"
     },
     {
-      "Title": "'신'도 홍명보호 32강행 불허한다.. 스웨덴-일본 무승부, 한국의 차가운 현실",
-      "Link": "https://v.daum.net/v/20260626100016354",
+      "Title": "靑 “檢 탄압 받은 李, 개혁의지 분명…리스크 없는 방식 찾는 중\"",
+      "Link": "https://v.daum.net/v/20260115113925106",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "'비트코인 큰손' 스트래티지 흔들…'4년 주기 폭락장' 재현되나 - 블루밍비트",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xR0FMSWJSbnkzbXJwTUlxNnVjYVFoc0RVVkthQm81NTQ3Z0Zyb01xQ3ZCMFJFSVJpazBPdnJNX3k1Y3NRbFJCTU9sQUN3NGVS?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "이정후, 역전 3타점 3루타… 하지만 SF 9회 역전패 [스포타임#뉴스]",
+      "Link": "https://www.daum.net/video/v/wzp6pcemp77est6q",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "런던살이 10년, 英 왕립음대가 교수로 모셔간 32세 바이올리니스트",
-      "Link": "https://v.daum.net/v/20260626092604655",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "역대 가장 뜨거워진 바다, 주말엔 다시 최고 33도 폭염...이례적 7월 장마 찾아오나",
-      "Link": "https://n.news.naver.com/mnews/article/437/0000498118",
+      "Title": "아이폰·애플워치 값 안 올랐지만…\"가격인상 시간 문제\"",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428241",
       "Portal": "네이버",
-      "Category": "생활/건강"
+      "Category": "IT/과학"
     },
     {
-      "Title": "[원자재 시황] 금값 5일만에 반등…비트코인 2년래 최저 - ebn.co.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tQUpjV0dFZmc0NktJZlkyaTVnNGo0cmNDVUR1b3RmLU9wVzJoang3SkxXaGt0VEYwSWNmODRiaDRiMk9RcnlrZ0UwM1dJNTNBZmR2LUJoSUcxbkQzRjhPWGZWOU9DQ1o4?oc=5",
+      "Title": "정청래 \"시간끌기\" 발언 파장…장동혁, 징계 카드로 압박 - 연합뉴스TV",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50M2l4ekxUckNGcDJjOGo5VWVGbUdRQV9LTlpHXzJyWWFCLXZmbTNpR1d6Y1Z1SWxibmU1YTVGYjVlSjE3WFAyVUJQT3VhYzJnNlNhbXdZcl8yZXNCWnRBN05UX2FqWWc?oc=5",
       "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[코인뉴스] 또 6만 달러 내줬다…큰손 매수도 멈추나",
-      "Link": "https://v.daum.net/v/20260626104142449",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "김재연 대표 무기한 단식 \"이재명 정부, 홈플러스 사태 해결 나서라\"",
-      "Link": "https://n.news.naver.com/mnews/article/006/0000136453",
-      "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "비트코인, 100억 달러 옵션 만기·PCE 앞두고 6만 달러 사수 분기점 - tokenpost.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjOGdJaHhCVTlWbmRyOUVseEI1YV9LdklmeUVsOEswNkluMnVQLWxHZE9hMXltRXppcGlmRzRnM2dzR2pYYlFXYk1JTGppaXl1RFltVGw2c3NFcEtZMlV1ZtIBZkFVX3lxTE1fT1hzbzZjaEF2ZHZNN3pXT1dkemYzVDl0MnN5MVBsakNUcnQtbFl0dlRoOXVwcDU1NURuaTl3YlRjN3lfZXF1MDRDVnZ1WXgtRkRWSDZNTVYydjQ2elI2Z2Nkb0ptZw?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[최태호의 우리말 바로 알기] ‘해물육수(海物肉水)’ 유감",
-      "Link": "https://n.news.naver.com/mnews/article/002/0002446316",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[분석] \"스트래티지, 파산 가능성은 낮아…주당 비트코인 가치 희석이 리스크\" - 블루밍비트",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE05c3FpX3gtdmJIQmZHUkhJMW83UXd1TEVxbWdtaGZyQXppNU1xQUM3aWNGTUVnN05nODBYMHNDMmRpMV9Kd2pwaFRqUnZKNURK?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "“신장암 맞춤형 백신, 항암 면역 반응 확인” - 현대건강신문",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0ycGY4NnNwN0FwX2lNNlQweWlld205WnNPcHk0RF9zdkdpSG1oS2tKNmxVVkVsR2RJVmw1X1lsQ1ZjeWJsZHVJQV83ZWtwLUExRFVBcjF3?oc=5",
+      "Title": "외상 중심 CBTp, 정신증·PTSD 동반 환자서 효과·안전성 입증 - 메디칼업저버",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1WFdrTGpiWnRVZHRHWnhPcGlyTHkyQTJ5ellIVDRDYml6bzNLZWJBN1ExdERoNHI3THJZc1ZMVUhJOV80dnlFWEozQkttRjNleVdJTXVGRHFwbWlrMHZZVDhORXJCSlRrNXNv?oc=5",
       "Portal": "Google News",
       "Category": "생활/건강"
     },
     {
-      "Title": "식케이, 10살 연하 日댄서 우와와 파리 데이트 포착…사실상 공개열애",
-      "Link": "https://v.daum.net/v/20260626123216820",
+      "Title": "李 \"드론·로봇이 안보 열쇠\"… 최정예 방산벤처 50개 키운다",
+      "Link": "https://v.daum.net/v/20260626172709302",
       "Portal": "다음",
-      "Category": "연예"
+      "Category": "정치"
     },
     {
-      "Title": "김영광, 생방송 중 \"홍명보 나가\"…안정환 당황 고개 푹",
-      "Link": "https://v.daum.net/v/20260626124806119",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“그록 이용 절반이 19금 콘텐츠”…머스크 xAI 전 직원 주장에 논란",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800558",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "삼성전자, D램·낸드 점유율 1위… SK하이닉스는 HBM 58% 차지 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVEllY3lybXA5MURsOGhpZmw2Ml9McDhNekhHTkd5andCYlVkMmhkU25BWDFSU1dBSFp3WGY2YjRZX1hGeFBmQWZ6UV9kN3ZQX2ZNRmJobDlheU1aVEEzdEZjYkl1WUt1Y2lYVGZ0dVd6MmxRUTJPNlZfLXpPb1h2VWtR0gGWAUFVX3lxTE14Y2NZV1BxUmN5aXBTbVgyUFdJOEFSd0x3UWZkR0wwN1RoNnBQdEc5Z2FFdkotR1FvcWc2NEZPNjhZZE0wZmUxdUdPYmF2emtCc2J3ZF9YcjdJZjBRVHhCeWU0TVlJVmwtTld5dkt1cWdJRHpTY2ZEQlJ2ZEtwM2ZTUlFIS01xYlJpSG5mS0ZKWDVQVnVHUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "삼성 ‘호남 팹’ 급물살… K반도체 벨트 키운다 - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90bG9VVmEzaFN0STdBc1dxLUFJLTVKSTJCRTdLZjNXemozbi0xQ0FidWdMNzcwbEZqajktdmtjdlE2M1piclp1QmNRcWJCTk4xRmdkcU1RQjlGSHl1RzU0QmpVYXg2S0dFZUtBVVdhcGwyOEtZV1HSAWZBVV95cUxQRVlnSGhnZ3ltNzVKMEpFZTlUNi1fOFVTMnRnRFMyb1BUWWNNbVdtN2xqQkNtREFYOVp1QmluMzNwd3dOUzlySll5MHF4TGd6WDQtOTdNbTlTeElJeDhFQi13N2lwRGc?oc=5",
+      "Title": "오리진엑스, 아시아 비트코인 컨퍼런스 '오리진서울 2026' 8월 개최 - 서울경제TV",
+      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNc0d2YTJLeFJYSnJocFkwaVdyQ25CUGVKbmkweUF0TUVnNnVKc21uSVU1bkRMOFBrUkI0RmRVdk56UE8waFd0TGgyNFBXQzg1a1lkblpfU25lbm9nZ0NnVWtOQUQ?oc=5",
       "Portal": "Google News",
       "Category": "경제"
     },
     {
-      "Title": "원빈 근황 나왔다…“머리 기르며 작품 준비 중, 제안 잘 안 들어와” (데이앤나잇) - 스포츠동아",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQTmhPOWQzRXltbm9XcFcxR0d6Nk0zQXNXcmE5VVFkTHZNWFVkY3JLYlA2S3ZxYzFQOHR0ZHRwOEd0MDdfU3lXbFhIZEUyUmFYcDBSUEQ0X2NfVGlMejRpLVdmUzlmTC1OMGxKRXd3?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "비트코인 6만달러, 금값 4000달러 동시에 깨져 - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93ckM3dFNPb3hhT3BNTmhsUlZDX3lvdTNaYmkzR3FOVjJ5UjhwX19vYXNwZVYyeWVMdTh4RmJuOERmM0FzNXRTRkNIY0R2Mnl1cnZ1cmhB?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[임윤철 칼럼] AI 혁명의 완성, ‘신구 한 팀’에 달렸다 - technovalue.com",
-      "Link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBuZ3NuZUhlaDNoeDFQU2xVUEJqTkt0aEVRRHJDVy1LbkhBbDVpMUdIakNHeTViU1hQN3c0a0I0ckdEMEo1bnJ5SkpRZFdEeWUxTnA4TGxKaw?oc=5",
+      "Title": "B급 유머 코드가 이 작품의 힘 - 캐나다 한국일보",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAybmhieE9vRlAzd3VBNDhjckJCeXJ5ZzlFOHVRT0taWW1uZUtWNHEyS2U5cXc2S2hDWUNQV2pYb3FBdTZGR0Z3bXhuU3h4ZjVrOXVkbEdia2Q2RVI4ZVRWcWRQcmpDQQ?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "[ASCO싱가포르] CAR-T·이중항체 시대…아태 지역 '접근성' 격차 숙제",
-      "Link": "https://v.daum.net/v/20260626122134616",
+      "Title": "\"이게 중국산 코딩 AI?\" 美전문가도 놀랐다…제2 '딥시크 쇼크' 또?",
+      "Link": "https://v.daum.net/v/20260626144518177",
       "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "美, 변압기 규제 재검토…포스코·효성 등 '청신호'",
-      "Link": "https://n.news.naver.com/mnews/article/374/0000518432",
-      "Portal": "네이버",
       "Category": "세계"
     },
     {
-      "Title": "[BLT칼럼] 보도자료로는 미국 상표권을 지킬 수 없다 - 미국 상표는 ‘출원’이 아니라 ‘사용’으로 살아남는다 - 플래텀(Platum)",
-      "Link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBvMDktQ1dIRWxKdGJrV2tTSi1PSVlwblFuTmNaZXplYXpmZmdmTWdWdm84TUZGNE9RZ1lVbmRpeUUxTkRLWUdXRw?oc=5",
+      "Title": "\"월드컵 경기 못 볼 뻔했다?\" JTBC 중계권 논란이 남긴 질문",
+      "Link": "https://n.news.naver.com/mnews/article/047/0002520668",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "李, 韓 선박 호르무즈 탈출에 “남은 3척도 주말 안에”",
+      "Link": "https://n.news.naver.com/mnews/article/005/0001857373",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "[전남광주반도체]\"맨바닥 인프라 구축 말고, 전력 용수 등 이미 준비 된 경북으로\"",
+      "Link": "https://v.daum.net/v/20260626172012114",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "\"비만 치료도 정밀의료 시대…GLP-1 등 약물 효과보다 환자 특성 고려해야\" - MEDI:GATE NEWS",
+      "Link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBJcGRaM0tMWnJaeUhJZlZOY1dKMmZ5VS0wYU11X28tVndSQkdDeEVQN2p3YWMtcXFWU2tKWFl2WWhnYVZLZHpheEV0QTVvRkU3N3E1bHJvRQ?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "심혈관 건강 안 좋은 임신부, 아이 발달 지연 가능성 높다 - 전자신문",
+      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwaHJhZDRMN0dhaDRmTTFQVFVjMWdjVnNqU1pnelUwMGxBRlZZVWtXNmhTaXFFV3NIYzNLYzlOay05MWJ1cnFyS3pzTXJVdw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[비하인드 뉴스] 식사 전 \"시장합니다\" 박찬대식 유머에 이 대통령 ‘웃음’ - JTBC",
+      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fakhsa3Y4eHZSZTMtZWNhTy1BaW9XelJHOWZhVGJLYXJVWjVFMWtuWXNFTlRDdHZRVW91dXI2YW13WGNsLXlqOHE4U2k2eG1kdVRXZQ?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "[속보]코스피, 8% 폭락에 서킷브레이커 발동…20분간 매매 중단 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkMlBRcEUtdXlfdzJoR2pVeWhmUFUteWFoSlZ1amJWTjg4dlVmcjhMQ014U09NNUd2QjhpOTg0VW9kS0Q2STQwVERZVjNlMklhSHluOE9SZWthZ9IBX0FVX3lxTFA4T0I5VnV3dHVINnJYVnRDb1MyOXRseTdRRmQwQV9YRkJDRFVwUG5aVXVJY1pEUVdjZkVZZ0g0S1g4ZHN6QUpqcE44TFZBcF9kajdScmhxLU9qVjFvdFJN?oc=5",
-      "Portal": "Google News",
+      "Title": "검은 화요일, 검은 금요일…코스피 미친 변동성 왜?",
+      "Link": "https://n.news.naver.com/mnews/article/028/0002811557",
+      "Portal": "네이버",
       "Category": "경제"
     },
     {
-      "Title": "인플레·AI에 짓눌린 가상자산… 비트코인 6만달러 선 붕괴 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSUgyMVdudE5RRU1zWjl3dVpMMjVJN0RkdTI4Y0xGTmRUMXl6enFnMHdLeHExcURyVmtLaF9YeGZHdnZ4a21IUGVvWGVLMElvdE5zNXkweV9NY3hNUmEwZElscllXUlU2cm85MThJeDhsQWhrWGxDXzk5T3R6eHB6MNIBlAFBVV95cUxOVkdGWGlGc0hWaWhrMmM3Q2xSQ0M1LVhPZG9mRkg0enRTS1lUdEM4aW1raWx2N2NJYk45WVJzWUJnTHZ4X3U1blFkSXp5TDFwejdacDRrVTRWVXJWMS1LbklDWXRXc3ZIUS13bnNQcWI4UV9NT0ZZazNBRzhyNzBzQUpKMGdSend3VlQxbzk1N09vNkl3?oc=5",
+      "Title": "제2형 당뇨병 위험이 높은 혈액형 - Laodong.vn",
+      "Link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd1pvWmE4Z3BzWHg0NXgycWY5OGFCMkgzZFdRZmRBcFhZX1l3QUZ1Zk9WN2JfRzBCSmpNQ3VlR3RrYmIyUTh6MkthNFZ4aHJLdjl2Sm83LWozWjc5OUtEa2k3SlN3djBncEVvZVl1dUZuVTFSOG1aV3dXNG1IYUVLMzVremN4ZHpjeVJzT1k1bHBXZw?oc=5",
       "Portal": "Google News",
-      "Category": "경제"
+      "Category": "생활/건강"
     },
     {
-      "Title": "행안부 첫 여성 실장 김주이 20억·송경주 27억 신고…명계남 2929만원 - 파이낸셜뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZSjNJdVZENjExMjAwbXEyazV0bGJSS3R2OVZveTBUS09ybzRIaHpwcXRUYWVtdk9QOTRfNGc5VjdFdVh1cnpSSVViY0NpUGt4dm5abnpGcUg4QQ?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "부천 심곡3동, ‘복(福)잇는 부동산’ 협약 및 현판식 개최 - 생생부천",
-      "Link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd25CVndvM3cxVU9xemRnUVM2cDhMaHQtN29qMlN3c0oxZExBOEhxN1o2a0Q2Sk5lWFRjQkdOcWdYSWVIU2FUSHJTWWJHVWVKZ2dVTlRUOEdRODNzcEExbXdUT0dJTXo3YlluUWRrbl85eVJnYWtpcVpPck4tUmtpMzlMeEpSdGthR1QzNUlZaUY4MDgyTEtraU5GZXBjYUM2N01Uc2xHQ3hGTFRXN1JXWDZQVnUwMFg3c3hjSFI5RFM2V0ZJYm93aV95R3NmVnBFbDhQUGpKZVhlS1hvMllv?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "한국생산성본부, 충청권 중기 AI 전환 지원… 기업당 최대 783만원",
-      "Link": "https://v.daum.net/v/20260626130345566",
+      "Title": "\"청담동은 수박 1통에 3만원인데..\" 한그루, 경동시장 물가에 '충격'",
+      "Link": "https://v.daum.net/v/20260626153401086",
       "Portal": "다음",
-      "Category": "IT/과학"
+      "Category": "연예"
     },
     {
-      "Title": "셔틀외교 마친 이 대통령… 51조원 방산·A I ‘세일즈 외교’",
-      "Link": "https://v.daum.net/v/20260115120806425",
-      "Portal": "다음",
-      "Category": "정치"
+      "Title": "'허위정보 유포' 모스 탄, 어제 첫 경찰 출석‥\"2시간여 비공개 조사\"",
+      "Link": "https://n.news.naver.com/mnews/article/214/0001508002",
+      "Portal": "네이버",
+      "Category": "생활/건강"
     },
     {
-      "Title": "“군함 빨리 건조” 트럼프, 조금만 기다려…1500억달러 ‘마스가’ 시동 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ULURlYVVWN3VVOU9zV0Z2Skx5azFQMVlIeXhmbUZadHJEZEZtVWdadnZMY2ZZWXVxelI3dWdOZGthVnI2bFhNM2FiMDQ2R2lJR2xMSnY5dDZJVmdncUhUN1FtUkdRbTVhd2c?oc=5",
+      "Title": "부동산 고민 깊어지는 靑…李대통령 SNS 메시지 줄었다 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UdGlJTEZVNXdDeFloSzREcllLdFpTeTlxX2NjQ0psaXJwSzhZYUxLV2huWEFGbklBakgxdUJyTUJScnF0TkFsT2JVLWdsQ2c?oc=5",
       "Portal": "Google News",
       "Category": "경제"
     },
     {
-      "Title": "국방부, 드론 2만대·K-LUCAS 전력화…‘50만 드론 전사’양성",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002661907",
+      "Title": "내년 최저임금 본격 줄다리기 시작‥\"16% 인상\" vs \"동결\"서 출발 - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BbUdlV3ZjQjBITFBsRjNqdWtYZFgtZmNibVg0VkRsS0dhZldPLVRiRVRLM3BsRllETzdRNFFyWGJ4T1lhc2FDZFIxSDRPY2pPMkJySlJ6cVJwN0I3bHQ5bndEdHBSeDVyTEFhdzRuUHhzT3l3aEpj0gF3QVVfeXFMUHhPM21PUTIzaWtscFBndndITGpHM0x0blJISzNYR05SeXctbk0yNC1VR1k1a2I1cTU5VG1uQkFIakc1Yk1uWFNiYWxRaHBibVZSZm0tTmdWU0NrNzItLXA5bkZNRzRQUU85UXBwSmxpaWF2TzIzU00?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "송하윤 학폭 폭로자, 검찰 송치 돼 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44UnpMSkRydW9yeUVjejlxdHJfUzFVS0VhZ0t2UFNCS2JFbVZ0a243OUFtOVg3LVkxeDNNei0xT21pWnBydmdCa0gyaUhybWY4VHFCQlU5Q2VQQdIBVEFVX3lxTE1xcThFdlpld0hiRlNBbkZSd213MTI0YmJyaU1xOTdZYzJDUWhyY3dRcWRncDd3V3JOcUZRYnRsamZPcXV1VGN5S1BrbjRBbHpIZE1lMg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "한병도 \"18개 상임위 처리 요청할 것\" 정점식 \"與 독주에 강하게 항의\" [뉴시스Pic]",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030997",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "레미콘, 경남 동부권 파업…남부권은 ‘단체교섭’서 막혀",
-      "Link": "https://v.daum.net/v/20260626113508182",
+      "Title": "[칼럼] 납세자보호, 디지털이 먼저일 수는 있어도 디지털만으로는 안 된다 - 세정일보",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DLW1vNkw2NUx2T3NCR08xMDNqVXJiUTNiaTdTcVRHUndiLUIxOXdvcm9fZGdDTW84UE9heVdmM2FONG9Xa3RjMzN6WDRhRHBlckZtamZzaVNnMlEwVFNDdTRJME8tdTEtTFdaRQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "공무직 영양사 인권위에 차별 진정",
+      "Link": "https://v.daum.net/v/20260626063249181",
       "Portal": "다음",
       "Category": "생활/건강"
     },
     {
-      "Title": "[단독] 삼성, 신규 반도체 공장 광주 첨단3지구로… SK는 전남 장성·해외 놓고 저울질",
-      "Link": "https://n.news.naver.com/mnews/article/366/0001174591",
-      "Portal": "네이버",
+      "Title": "메모리 사이클 5년 더? 마이크론 뛰고, '호구' 빅테크 폭락 [김현석의 월스트리트나우] - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50SXpWNFhhVnZORVVBcFhoRnpWM1dlUzlUTFhzejREQVJiQS1uZ1hTOGpTNk13alh6SXlPdFQ4ZkhVcTYwS2ZOMm9iRm40U01aUFFYLUNNck9rUdIBVEFVX3lxTFBUeWQ4dWI2bUhNVjU4aWJrbGFwX3pMMFI0NkxXRnJWREZkdFI1NmFscE5qOUotdFRobUxBT0kwbTZLdnc1VjRQRm5QTGNQT1E4ekVBMg?oc=5",
+      "Portal": "Google News",
       "Category": "IT/과학"
     },
     {
-      "Title": "하이닉스, 나스닥100 연내편입 유력 … 삼성전자도 美에 ADR 상장설 솔솔 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41UXBuczR0TWdUc0lRR3QxMGF0LTNoaXJEX1ZiSkxPOVRUWmNuUTdsbGZubWpyYzIxUnhURHBwWkkzb2J3dTNXandxRW02VUxRa1E?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "한국 선박 5척 호르무즈 탈출...남은 선박 13척",
-      "Link": "https://n.news.naver.com/mnews/article/052/0002370902",
+      "Title": "드론작전 육해공군 이관·정책은 드론본부로…우크라전 벤치마킹",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161869",
       "Portal": "네이버",
-      "Category": "경제"
+      "Category": "정치"
     },
     {
-      "Title": "아뿔싸, 홍명보호 탈락 현실로… 이대로면 한국 추월, 호주-파라과이 전반 0-0",
-      "Link": "https://v.daum.net/v/20260626115302834",
+      "Title": "'술파티 위증' 유죄에도…민주당 \"조작기소 의혹은 끝나지 않았다\"",
+      "Link": "https://n.news.naver.com/mnews/article/586/0000132474",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "메모리 수급난에 두 손 든 애플, PC 제품 가격 최대 22% 인상 - 지디넷코리아",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1udDhFUFp4M2tfX0U1Rnc3YW9Gcm1iZ2cxaWJoVTJrOTA1blJWZWtUeWlJbmVsb2hMUTRFcExKTjdNOUMxRFVSTUVtbkJmaEh4aGpiOE5R?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "읽기도, 쓰기도, 요약도 AI로 …'생각 안 하는' 사람이 온다",
+      "Link": "https://n.news.naver.com/mnews/article/009/0005699322",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "트럼프에 불어닥친 ‘이란전 삼중 역풍’ - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVlpMSFhIY2d1MEFCa0hFS0dDWWhHdlV3TXB6QTVXOGY3OElxRER5bjNPZEhBcEM0VmlZTkdVLWFneGNvOEUtejNJQmNEQVRTcG9LZjNkQ194UWJ2VDFDZjllT2F2M2YyYlIyZUhyZzI3N1R1QThQNWVqcTR4bmY2bkJLZ282ZFNjdlRocVBkMFVrV2FDVHRVRzk5aTFPUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "韓 32강 확률 폭락! '믿었던 독일·일본에 발등 찍혔다'… 홍명보호, 남은 경우의 수는?",
+      "Link": "https://v.daum.net/v/20260626102004407",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "대화보다 핵무력 우선 재확인한 북한[정창현의 북한읽기]",
-      "Link": "https://v.daum.net/v/20260626100147425",
-      "Portal": "다음",
-      "Category": "정치"
+      "Title": "Europe's heat pump boom now delivers the heat of 200 LNG tankers, saving over $11 billion",
+      "Link": "https://finance.yahoo.com/energy/articles/europes-heat-pump-boom-now-051200248.html",
+      "Portal": "Yahoo US",
+      "Category": "세계"
     },
     {
-      "Title": "폐경 후 '해마 조직의 ECM 변화'로 알츠하이머병 위험↑ - 후생신보",
-      "Link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBYT0dzSjEyMzVEZVd5YmNqc2RJZTNFY0RHdFdxTHZRVE9zcXkxQ0VMbFA4bElDajZnYkZUc1BsZ3J1dFUy?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "군대에도 판타지가 있다…B급 유머에 감칠맛 터진 '취사병' - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Nc0d2NFljZHNxMTFNcFZOYUpzbGt3WHF0MXJESnBHSGJ6dmllcmd3Ui1Nc2dsN2RUMkRMbXY2RUtYUXlsU2d4X3RUZWhEbUdrYXVFUW5QODMtMDjSAWBBVV95cUxOUUM3ZzlUaTBVVXppZ05JY1V0UFYzY0RvLWFBS1pGdEE4dWFEaGs4SE5NclF4MTBCWjJPQVNwVmFBTjVFV2V1VE5FNzctX0J1WmpQbzBHYURVR0RCNkJBOXA?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "경남도-경상국립대, 성장엔진 연계 지역인재 양성 본격화",
-      "Link": "https://v.daum.net/v/20260626121006346",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "[단독] 이유리, 유튜브 예능 도전…7월 공개 - 스포츠동아",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tMTY3am1GbEowTmRNMUlXTE9zTWc2QWszaXNpX0l4UmFEcEdtV1hwejhkY1dibHJjOWQ5NVpmTnI0aUVKV251dmVIRXB5VVNWTnRBdkR1NTJvZ3ZCN05vb2dTYVZOUkQ3WGhjdHN3?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "조국 \"기성 언론 유튜브, 정치적 입장에 기초해 추측·비방\"",
-      "Link": "https://v.daum.net/v/20260626112831864",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“마약 없는 사회, 약국에서 시작된다”…세계마약퇴치의 날, 약사사회 예방 역할 부각",
-      "Link": "https://v.daum.net/v/20260626122142622",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "덜 먹는다고 살 빠는 거 아니다?… 체중 감량 숨은 변수는 - 조세일보",
-      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfS1J0VHF5N2wzcUJGU19WOVFQY0ZsODJ3Y2JkaVlEYk1DSkFxYnhFaUt4Q20ybHZkOEtPN3dFbEVLZG1aX1JzWGQtTVBsRFljRERmY1BRb0JzdGxIcUx6c3hhTTNsRE54T2loT2Fhd3N3eG4x?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"'토지'하면 하동 최참판댁만 떠오른다고요?\"",
-      "Link": "https://v.daum.net/v/20260626101251036",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "'194만 유튜버' 랄랄, 2세대 합친 펜트하우스 내부 공개...풍자 \"성공했구나\"",
-      "Link": "https://v.daum.net/v/20260626125204184",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "임원희, 1세대 걸그룹 멤버와 핑크빛 진짜였다…윤은혜 \"실제로 들었다\" 폭로 ('미우새')",
-      "Link": "https://v.daum.net/v/20260626120251192",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2025년 11월 둘째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uaGZTMUFzTlBpam1Tck5zcklGWTRndzF0YzRjVmtlU05pdUhPY3Uwdm5wR1IwcmM5NmM0NHJRcEptZ05HcklNdkNVQVdqOUhxei01VGZjckdYOVl5ZHE4ZVRVZGZVZWl0dVlvNnZ30gFyQVVfeXFMTjZvcGtNaGEyOWU4RFF4Q3J6NUVweVB3YXJHMjdpNU1MbjFkYmJ3ZFl1clRUTnB3MVhER2lQZEhHVlh1SXA3czdmR2w4X09UeTRVR3FJZkRrOHRwSXBJaXl0WU4yRmxvM0FyV3l0ZGZEQnRB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "1루수 강민호의 등장, 1루 송구 받아 이닝 마무리",
-      "Link": "https://www.daum.net/video/v/qwj63y0t4c45sp7y",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "족보 꺼낸 정청래 '적통' 주장에...고민정 \"하늘에 계신 분들이 인정할까\"",
-      "Link": "https://n.news.naver.com/mnews/article/437/0000498133",
+      "Title": "[단독] 투표용지 부족이 부정선거 대응 탓? 선관위, 부정선거 보도엔 무대응",
+      "Link": "https://n.news.naver.com/mnews/article/006/0000136459",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "국민연금 고갈 시점 늦어졌지만…‘용돈 연금’ 벗어나려면 퇴직연금 의무화해야",
-      "Link": "https://v.daum.net/v/20260626080724902",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "[김대윤 칼럼] 돈의 출처를 묻는 시대 - 월드코리안뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QT0ZXQkJoalhYMFkxRW9YUG9RSTQ3d0xTT0dqU2UyTnpTZVBnVHZPQThOQUF2Q1N6b0tKbG41TGNocVV3RC1sQ203TlJXWi1qYmx0Zy1wcHdHcC1FMkdZUk1wSDVEMU1KYlFOWDR3?oc=5",
+      "Title": "\"로젠로펌, 스트래티지·STRC 조사 착수…오해 소지 사업 정보 제공 가능성\" - 블루밍비트",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mOXVUeG1ITjNPc20xOWlIME1WSEJTZGgxRU9LZmFKYzhKLW9iX2dZUU5seFBQT01ZV3BwNlRGZ0lsd2QzRTZ4bDU5RDdGY1p5?oc=5",
       "Portal": "Google News",
-      "Category": "기타"
+      "Category": "IT/과학"
     },
     {
-      "Title": "\"그린닷 안녕\"…네이버, 대화형 검색 'AI탭' 전면 도입",
-      "Link": "https://n.news.naver.com/mnews/article/138/0002232174",
+      "Title": "'1억 손실' 미자, SK하이닉스 진입 후 마음고생 \"나 때문 떨어졌다 하지 말길\" - starnewskorea.com",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IdGYyNFRNU2dSZ1dwd3otZURlQXJZWHQzVWJ2ZUJOYk5yODZWaGlXeF82VWZ0TWstc0k2WnI3UU5PSWRrb3dCNFBHUjU5RERicjZBMl9CbzhNNjBUYjNGTEdaN0R0enYxdk05Q0dWam9GS0U?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "네이버, 대화형 검색 'AI탭' 정식 출시…모바일 검색창 개편",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878568",
       "Portal": "네이버",
       "Category": "IT/과학"
     },
     {
-      "Title": "네타냐후 \"작년 이란 공격 트럼프 허락 안 받아‥통보했을 뿐\" - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CWk1KTk9fd0dYbjV5WjVFemNpb0tGY1pScG80MEkxNFNYZm9PX0RobUlYYnhVb09iWnFkbE1GQnZuRlhhTm1DdVg5cDQ1RmkwRmhrbV9PT0JTMDlrQlN1eFJSTXVEd1U4SEx0WFFkaFVVSU9x0gF0QVVfeXFMUE9xNUp5YThIdW1saUpPejU3MWxzRDktR0Fna0hZckFldTRQSnVvRGZ2bXR5VUdKYmkyRGRKRTBRajA5d0JyZ2VEWlE3TnhuZTRTRVFZYXpwV3lOZ2FCYl90Q19IVTJSNzlPczU1TTZwaFhrZ1A?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "한일, 28일 국방장관회담…'블랙이글스 日 급유' 등 우호 협력 논의(종합)",
-      "Link": "https://v.daum.net/v/20260626121230388",
+      "Title": "AI 시대, 젠더폭력도 진화…“범죄행위 중심 처벌에 한계, 구조적 맥락 살펴야”",
+      "Link": "https://v.daum.net/v/20260626155152873",
       "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "신두식 칼럼 '살다보니' | 욕심(欲心) - 나무신문",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKNUhwS2dzMUEyaUQ5eWZqekN4S2lsZFRidU9sSmgtVE5FTG9lNTZhWjZ4NldjeGh3b0V2T3VMNDZfdjhZcXhvY3Y0Wks1Y29tSkdXaU9ZYWZ1V0ZVbU5mZzQ0VGkwcVJ6enc?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "설상가상 스페이스X…8월 더 큰 폭탄 온다 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3b09nejF2ZWQzTzlDSzYyUDJtbm40NVRpSHRlQVBiNHp0WjRDa2VLVGJ2SUNjLVNGQmY0WDM5WktoblpEWG92c3Ezel9jZk11SVE?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "美, 미사일 부족 심화…트럼프, 생산 확대·예산 확보 총력",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161014",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "전주 초등교 옥상서 여학생 추락…중상 입고 병원 이송",
-      "Link": "https://n.news.naver.com/mnews/article/022/0004138417",
-      "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "6월 10일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hVkVLODQ1TnZsLVdCSlRHTS1MbWZ3Y1QwZGJfaVhpYnhiaW1BQUJfd1NWLTBmYVhSWFZvUk1qckpCWFJ0WlI2VTR5cDB4Z1F5U01EN0N6ZEVQV0VwcUo5YURB?oc=5",
+      "Title": "한혜진, 500평 초호화 별장 수영장 파놓고 후회...\"멍청해서 이렇게 만들었다\"",
+      "Link": "https://v.daum.net/v/20260626152636744",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "[이기호의 유머란 무엇인가] 한국이 발명한 ‘부장님 유머’… 웃다가 왜 짠해졌나 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeEU2Um9EczJwS3k0dWtRQldmZ3BsMklPR3J4cGZtcEQxekQwNXpjUGs4MXFfRE53b00wVXJ5N3dvNEx6WWNkemltQUtPbTluOXg5ZGRhZWsyUTRUcG1zRjF5eUswX1hhR0lRdnM1UGVnM3p0SFgwalVGSUZ5OE9DclpoUVJVaFJfVGpMbC1iRFk?oc=5",
       "Portal": "Google News",
       "Category": "기타"
+    },
+    {
+      "Title": "[속보] 코스피 급락에 매도 사이드카…8400선까지 밀려",
+      "Link": "https://n.news.naver.com/mnews/article/016/0002662004",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "카카오 노조, 29일 2차 파업 계획대로 진행…\"합의할 수준 아냐\"",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315944",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "에펠탑 조기폐장하고 학교 문 닫아…6월인데 40도까지 치솟은 유럽, 무슨 일? - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xY0RROWh3QXBLenZJS3VrQlZVUC01TGVTN3RXdUhXVXJySEhtaS1HMWN3VVlWanlxQXdPNzZyR2pOSWluV0dBbEJqTW9sSXJBN1E?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "양종희號 KB금융, KB증권에 1조 더 베팅…생산적 금융·IMA ‘두 토끼’ 잡는다",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232262",
+      "Portal": "네이버",
+      "Category": "경제"
     },
     {
       "Title": "[AI 시사상식] ‘AX’ 인공지능 전환 - KBS 뉴스",
@@ -2581,188 +535,38 @@ window.LOCAL_DATA = {
       "Category": "기타"
     },
     {
-      "Title": "[8:44 가상자산] 비트코인, 美 물가 부담에 투자심리 위축 - 신아일보",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NUWwtRWVCdERSckNaTlBXXzE2ZTd1d0dPX3VBcVJ3NGJacVFPV2l5c3BBRkpFTHdvdUR0cmhPbl9GVm9hem1UVDdPVk1rb3JBcThxRVczaGZvaWhwLXZKT2hTLUVqY1REVk85dWdrOVk?oc=5",
+      "Title": "[속보]“메모리 너무 비싸”나스닥 나흘 연속 하락 - 문화일보",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tYUFMTFkxZlhMb2lWd3dLV3NkRU1OUlA5ZWJKZTlzYTdMS2lCRmxrMmgwOUJ0S2g2aXY5N3pJeGV5U0RXYjZSY1Vpd1l3ZVVB?oc=5",
       "Portal": "Google News",
       "Category": "경제"
     },
     {
-      "Title": "35세 넘으면 제왕절개가 더 안전?⋯ “‘실질적 고위험군’ 아니면 자연분만이 좋아”",
-      "Link": "https://n.news.naver.com/mnews/article/296/0000101943",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "장동혁, 친한계 등 '기강 잡기' 돌입... \"징계 결론 낼 때 됐다\"",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520612",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "‘변비일까’ 생각에 3세 딸 배 만졌다가… 암 잡아낸 엄마의 직감 - 헬스조선",
-      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UbkhSXzgyaGt5MHo1eXpKUk43b1NuVU1VdWRIM1pveWtjaTNNcVN1VkdIbXBMWXR1OEVtSFBsVGtSTF9SX19sYzhGNDU5TmFGeGxTcjlvRklWRVU4ZjUyYVoyRHRrNWctWndxY0JyelR6c3pRNlJWcUtWUmYzTDA?oc=5",
+      "Title": "“중동 리스크 아직 안 끝났다”…소비자 물가 또 들썩이나 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JcUR1RmFkaWVOdTdERTVPOW1LSVMyOU9veHk2dU9NOHpCRFZKTFo5S3l2dHBGVzVtUG8tWGxEVnJrdzgzbkdpMUpNWUtmUnE0QVFMVg?oc=5",
       "Portal": "Google News",
-      "Category": "생활/건강"
+      "Category": "경제"
     },
     {
-      "Title": "장동혁 \"당내 징계 요청, 결론 내려야 할 시점 됐다\"",
-      "Link": "https://n.news.naver.com/mnews/article/656/0000180021",
+      "Title": "겨울방학, 그림책 속 유머로 추위 녹인다… 111CM 기획전 ‘유머의 맛 서현 그림책’ 가보니 - 수원시 인터넷신문",
+      "Link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wZ0QwcmJ5a2Jid096R1RGMGRzc3FFSWVJNFBsN3I5RlFzaXQ0YWFwd0xRTTRjVGJOMXFvZVRXZjhrblRKQkdmRVZHcWhvekFFdGtzT0dqVzNIaVEwUkczZTVwQXZZbHBvdC16em05VHBjdHV5VXZvNXRB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "장동혁 \"명분 없이 대표 흔들어...징계요청에 답할 때 됐다\"",
+      "Link": "https://n.news.naver.com/mnews/article/052/0002371250",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "대기업 가지 않아도 육아휴직을 쓸 수 있으려면",
-      "Link": "https://v.daum.net/v/20260625150034129",
-      "Portal": "다음",
+      "Title": "Confused by the new COVID vaccine guidelines? Here's what you need to know.",
+      "Link": "https://www.yahoo.com/news/article/confused-by-the-new-covid-vaccine-guidelines-heres-what-you-need-to-know-183705404.html",
+      "Portal": "Yahoo US",
       "Category": "생활/건강"
     },
     {
       "Title": "수입차 대거 불참, 현대차·BYD 전면에…부산모빌리티쇼 막 올랐다 - 지디넷코리아",
       "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yWU5RZkxLMmdtTXR1YTFjVUZON05rSEZ1YWxsLU12M0RpM1NudHRnMGJuVHU0T1NSend2Q3hmMjEtMlFZbU9INGYyX1NzY0NBb2JVU0hn?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "“덜 앉을수록 좋다” 반만 맞았다…앉는 시간 늘려야 하는 사람은?[노화설계]",
-      "Link": "https://n.news.naver.com/mnews/article/020/0003729670",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[현장연결] 이 대통령, 칼둔 아부다비 행정청장 접견…'K-방위산업 세일즈'",
-      "Link": "https://v.daum.net/v/20260115124607235",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "\"괜찮은 줄 알았는데…\" 뇌 노화 1.6년 앞당긴 '이 습관' - 데일리25",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LRmwySXdPVUJOWV82MW90ZUJLTXJUMEJYN04tTTN3akRiN0xkU1d2SzlDVERnNHc0Q0hFbXdlWW85WEhQSGpic2p5em8wejR3aGY3V2lfZU5yTlFacFBrVmxHS2VhYXU5RW1YVg?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "잘나가는 삼전닉스 '이 신호' 뜨면 위험하다 - 아시아경제",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42clhhZU5TY0lrUDdreE1BcklaMVk5b2k2T29RbS1kOXJoWVp1WllOdEdaWEt3blAxXzBUdHc2N3BUTXpONjN2bXAzWXl1aUE0WkNzX2NwNEJXQzJnQmQ5M0hUQ1dsMlg5d3p4clBObkU?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "코어라인 뇌출혈 AI, 병원 실사용 확대…응급실 안착 가속",
-      "Link": "https://v.daum.net/v/20260626103914343",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "[2026 국토교통기술대전] “AI 도시 격차, 플랫폼 가진 도시가 벌린다”",
-      "Link": "https://v.daum.net/v/20260626122247647",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "업주 영업 정지 당할 판인데…청소년들 사이에서 번졌다",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367561",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "'100배 수익설' 김문수 “하닉 보유중…팔 줄 몰라서? 그럴리가\"",
-      "Link": "https://n.news.naver.com/mnews/article/057/0001955658",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "정년논쟁서 빠진 것…경영계-노동계 싸움에 '청년'은 또 없었다",
-      "Link": "https://v.daum.net/v/20260626125023153",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 05월 둘째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FVXNyQWdrTTJoOE8zcmR5eTFmRXpRYWRJbHdseGVpTUtmNE5veVpqbEhIN19jM3RlWTlsQ2EtQlhWNDlaYXJYWV9LMkJyRVVjSlNtUngwS2prMElMQ2hReXFNMjJGazhBRWFsUV9R0gFyQVVfeXFMTnI0UUdRTHFEZV9XcHR2eVYxMDIyWWhaVmd1YzFxbWNFNkJQOUtpc3haTFpwcGRwT2VlaGktT1ZXWU9lYW9abEpCc3I2TWc5QzZyMGh6TW50V1pkS0VZOWR1bjBqSlpOblJ1NFV2Y09mcjhn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "20일 넘게 이어진 광양 수돗물 악취…한국수자원공사 관리 부실 도마 위에",
-      "Link": "https://v.daum.net/v/20260626131003825",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "6·25에 서울 때릴 무기 참관한 김정은…“남부국경 화력 태세 변화”",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533387",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "4월 출생아 18% 급증했지만…“저출생 터널 탈출 안심 일러”",
-      "Link": "https://v.daum.net/v/20260625120007061",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"우리 아니었으면 佛語 썼겠지\" 찰스 英국왕의 트럼프 맞춤 유머 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmRqOFlFWEdnSUdfWmNERFVPZHFMVUJsYUVmRm00a1RDTmx1b0RXcW1xbUpvVEFiMjMxdDg4MmMxYUhSanFhYzN0NmJ4RU9zeTRua1dvTkpBYkpLSEJjRlNRQmVFRjVxbXhPRmY5ZEs5X2J5b2ZBRml0VkJqS054dTc3UGZmRW9xRTVYRUhaRVpIeHd5TFVMdWFRXzFBUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "임원희, '9세 연하' 이희진과 핑크빛→\"집도 오가는 사이\"…윤은혜도 증언 ('미우새')",
-      "Link": "https://v.daum.net/v/20260626122700724",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "[제71회 호남예술제 심사평]",
-      "Link": "https://v.daum.net/v/20260626114610616",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"HBM 가격 더 오른다\"...증권가, SK하이닉스 목표주가 400만원대로 줄상향 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeDFERGE5dDVtRkE4X1pOZWQySnJiYmJLTDNHYk5laERVMEVFWmx1eGNFVDRVaVAzSTVycEttNXdVU25QaDkxakkyTkZoOTA2c1BVOGt1aDZLaVJLdkZpejRJY1ZUc2ZVazJ5OGFxOHE2LUZnZHI1c1ZFSlhpODNaWQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "'타율 0.332' 이정후, 만루 싹쓸이 3루타 폭발..샌프란시스코는 6-9 역전패",
-      "Link": "https://v.daum.net/v/20260626093451114",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "‘심장 건강’ 걱정된다면?…심장 살리는 탄수화물 따로 있다",
-      "Link": "https://n.news.naver.com/mnews/article/145/0000023907",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "달리는 차에 ‘손목치기’…“휴대폰 부서졌다” 1370만원 뜯은 20대 - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YZlR6N2llbGxXWFc4N3h1WUMwZzJzNnY4dEZabFVHb0tMbVpkZnAyVkVUZmRkUDRMLVZnVURvbnhRM1g5eGpOanhqb3hGZVE0X24tNl9ubUhWdmJaWmRNSExBWWxGekpRTnBicXRFM3gtQmh4QmfSAWZBVV95cUxNb0p2MURJWDY2M1JsS2E5WFp6TUVnakRGRjQ2MW90ZWJhcUhrVDF4Y2ViamNaTHQtV0dDalE1VmIwSWRTbjR1T2t4V3IyaWUtbWJwdTdiSXNNX2dRSV9OLV9JbGJwR3c?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "대만 방송, 잠실 '부정선거 음모론자' 주장 무비판 보도 논란 [오마이팩트]",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520618",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "낮잠 1시간 넘게 자면…사망률 높다는 ‘깜짝 통계’ - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KYU9VU1hLbHNCNkdGM0NvVlgwNEdDMlRWOFpzWDNVZktDbnFab05qb2xvUmlhU0stNnFVQUNKZmZqaTJkZ2xVN2dJdWNGa2MtRFVFeHZnaVBIcURsbmpMZ25xNkZUU29ad2xHYmkyN2h3T1JmV25KTg?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"동일본대지진보다 더 흔들렸다…베네수엘라 韓대사관도 파손\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161120",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "다이아몬드 지고 금값 주춤하자…‘손톱만 한 부동산’이 뜬다 - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oNUVqcGhBNXNaLVlnZmZoXzN4bXM1YkNZeEpkM0ZfZ2pRQjhrXzFXclE3V3B2LXRzRkY1MG1kSXREalhnUnM2OUplYjlKcDVuZUtQSmVB?oc=5",
       "Portal": "Google News",
       "Category": "경제"
     },
@@ -2773,892 +577,88 @@ window.LOCAL_DATA = {
       "Category": "스포츠"
     },
     {
-      "Title": "\"日 가려면 '이 사람들' 만나라\" 매출 700% 키운 노하우는",
-      "Link": "https://v.daum.net/v/20260626094801762",
-      "Portal": "다음",
+      "Title": "호르무즈서 화물선 피격 신고...이란 \"지정 항로 지켜야\" 경고",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377449",
+      "Portal": "네이버",
       "Category": "세계"
     },
     {
-      "Title": "트럼프 1기 대북협상 실무자 “북핵 문제, 지도자 간 합의 다시 시도해볼 가치 있어”",
-      "Link": "https://v.daum.net/v/20260625182144047",
+      "Title": "김건희, 급하게 명품값 이체했지만... 감경 없었다",
+      "Link": "https://n.news.naver.com/mnews/article/047/0002520674",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "HBM 장악한 한미반도체…이번엔 AI 시스템반도체 장비 정조준",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006316006",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "권정열, 일상 사진 속 센스 있는 유머 - TopStarNews",
+      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uai00RVEzSXEyNkptVWVqcmhxQzhHbWVBZXhncFdka0h2alI5SEhtZklocmktV3l5MG8tM1NDOVBPcXd0VlpfSkpweVhxSkVhVGF1TzBlaGlxbmZTM0ZHNzlVeWdSQnc2SkRvV3RZT3hzZw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "이란 협상 대표 “미국은 유전자 조작 콩과 헛소리만 수출”",
+      "Link": "https://n.news.naver.com/mnews/article/056/0012206497",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "카라얀은 최고의 비주얼 디렉터였다...귀의 시대에서 눈의 시대로",
+      "Link": "https://v.daum.net/v/20260626164610908",
       "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[조순형 칼럼] 당진 LNG 터미널 3단계 확장을 멈춰야 하는 이유 - 당진신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5VHZPbzlVSm5pSnZwdUEzZVVwSE1OVkppYWxmU0VRLXdlUzZDUmh4MzFwLW5yc01VbDljdWlIQk1paWd6X2VYeEpNd0U3VHNrS2hlWXg0ajkyY2lqQi1LbVNPVHhvSXQz?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "“한국 잠수함은 미끼…캐나다, 한국 돈으로 트럼프 관세 손해 만회” [밀리터리+]",
+      "Link": "https://n.news.naver.com/mnews/article/081/0003656263",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "널뛰는 장에 6월 1~24일 9054억 강제청산… 개미 비명 - 문화일보",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xbW5QM1lqeW9OYm5XaVE4Uk82VFJUNWV6bXNkajRGamMxakFOcTFvdUVsaWs3cnlJLTVUTk1SaV9MUktkbVFyMDMwMG5Uby1R?oc=5",
+      "Portal": "Google News",
       "Category": "정치"
     },
     {
-      "Title": "\"40살 아니라 4살 같다더니..\" 금발 뽀글펌 후 반응 터진 보아, 동안 미모",
-      "Link": "https://v.daum.net/v/15MDGz6bhh",
+      "Title": "새 볼펜 하나 사려다가 다시 꺼낸 베스트셀러",
+      "Link": "https://v.daum.net/v/20260626171800023",
       "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "NHN 팩토리X, ‘슈퍼컴퓨터 TOP500’ 국내 최고 순위",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315374",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "이게 할말인가… '선수탓+변명' 일관한 홍명보 감독 \"나도 당황스러워\"",
-      "Link": "https://v.daum.net/v/20260626092051358",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "[신창기 칼럼] 교권보호국, 이름보다 중요한 것 - 에듀프레스",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iSDJyZkhCeDA1X1F3Q3BLX1VkSGdnazZoVVBoZFVmTy1ReUd3Uld3c2JXZVR0UUtlYlBnb1c1bXlfNmo5cUJIdXdMVmJfclhKRkhVMjU4azg1VXZXVkhreUlUSC1TWTla?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[데스크 칼럼] 대통령과 법무부장관 - 아시아투데이",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsMmRsem5YLUtkSGtQbV9PWHNQQ2RyeF80Sl8zUlF2Uy1wMTRJb3AxWlQwazJxVTJnYjFQaTlGa3MtdUVqV0VDOFhoT2RzNDhPNFBXNUtPVGl5cTdaVkQ1Nms4TUZfcEkwdThFYVp3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[박근종 칼럼] 과도한 빚투로 금융 취약성 확대, 한은의 불균형 누적 경고 흘려들어선 안 돼 - 더쎈뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94Y3NHSWRSTkIwMTl6ODJGUHA5MENNeVB2NVlQSTQzSFhnRno0OFZ5MmNjaU5oM3NMY05qVWdJYjlRSGRodC1USDI1bllFQnhsc1cxTEdjdi01RlFVSWxxTFRoZjY1cTM0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "리가켐, ADC 조기 기술이전 넘어 후기임상 선택지 넓혔다",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025342",
-      "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "170% 수익 냈더니 퇴출?…액티브ETF '상관계수 0.7' 논란 확산",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030311",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "세계 첫 ‘조만장자’ 머스크, 10일 만에 타이틀 반납…주가 하락해 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RamlCbGhTRGFCWldYc1R5N1BTUnIzemJ6cXR0TVFMRjRwRVZYbkx5SVgtcUM2UXNlQVVVUXlGTEVORHpwRl8xb2dGN1F3NW0ya2h5Wm85STFIMFlSTXBwcS1vbE1EV1g0UWFycTdmMA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "마이크론發 어닝서프에 코스피 9000선 목전…삼전6%·하닉10% 급등 [투자360]",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002661329",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "[정영현 칼럼] 교권보호국, 시대가 요구하는 공적 안전망 - 에듀프레스",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJSFp2VjAtOTZtNTB0TE1sVEhCWGVjeV83Y2NYZEtfYzh2QW1BcjVQV3lyV1FYM3d0Zm5XRVgzSGlzclV4MFRNRnJlZWVSM19mYk9DNGNVTG95bTc4WVRmd0N5SEdpOVBH?oc=5",
+      "Title": "4월 29일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDbGxhWFlEVXFYM1F5cHlRRXh3OUhHZ3UyMWx5MlRYTDFnQnM0UW1xelZVS2JXak9zT3p5S0s4M3JzQTY0RHBUT3RnRGJDUVl5QnAtMjVIaTNwWGR3a01XOXpR?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "네이버, 대화로 검색하는 ‘AI탭’ 본격 등판…8년만 검색창 대개편",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002661894",
-      "Portal": "네이버",
+      "Title": "'구글 지원' 760개 스타트업 한 자리에…\"글로벌 스케일업 노하우 공유\"",
+      "Link": "https://v.daum.net/v/20260626170051348",
+      "Portal": "다음",
       "Category": "IT/과학"
     },
     {
-      "Title": "\"미국우파, 이란에 인식 변화…끔찍하다→강하고 똑똑하다\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161160",
+      "Title": "사상 초유의 ‘쌍둥이 지진’ 발생…‘최대 10만명 사망’ 예상 나온 진짜 이유 [핫이슈]",
+      "Link": "https://n.news.naver.com/mnews/article/081/0003656232",
       "Portal": "네이버",
       "Category": "세계"
     },
     {
-      "Title": "32강 가는 길도 ‘경우의 수’ 신세",
-      "Link": "https://v.daum.net/v/20260626043542789",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "화웨이 \"AI 시대 통신사 새 수익원은 토큰\"…MWC 상하이서 전략 공개",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315547",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "“무조건 5kg 빠진다” 강주은이 추천한 ‘뱃살 빠지는’ 운동",
-      "Link": "https://n.news.naver.com/mnews/article/346/0000111937",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[현장칼럼] 공기업 임원들의 자사주 매입을 허하라 - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EMk0tbHdKTEdESldTUjVhVGV4ZVlkdk5GQTNicElxS2tkTzRTRTRLdVJkcDBPaHVfR0I5VExabGR6Q3pOOTRncjVzSi1FVEwxWXlwaDNmVjhDQ0FwUnBTSV80bjdYQktDUF91TXA5dUE?oc=5",
+      "Title": "장애와 유머: 차별적 재현에 대한 비판적 고찰 (4) - 브런치",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pc1Q5cmoxWFF4TUppVUhLaHVPRmdlTmFwTE5YMUZiTE13YVE5c0FKeHhIN2VUV3hFbWVUY0F4d3E4cDVDMXFPV29YcTJ4d1ZlbUE?oc=5",
       "Portal": "Google News",
       "Category": "기타"
-    },
-    {
-      "Title": "\"선생님, 저 배에 힘 진짜 많이 줬어요!\" 6세 유아들의 특별한 도전",
-      "Link": "https://v.daum.net/v/20260626123302833",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "한미반도체, AI 시스템반도체용 ‘FC 본더 3.5’ 출시",
-      "Link": "https://n.news.naver.com/mnews/article/366/0001174602",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "여름 음식에 식초 한 스푼 넣었더니…몸에 생긴 변화 7가지 - 코메디닷컴",
-      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5RNk10cThUaXREaHFZNTVIMkNYRE9qOWNJUWo4WTFrRDlKTl9taE02MjYtYTNuaEIxc2M3UkV3QURpUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "광화문 일민미술관에서 흉기에 찔려…70대 용의자 추적",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367559",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "Apple and Microsoft are raising their prices as chip costs soar",
-      "Link": "https://finance.yahoo.com/technology/articles/apple-hikes-mac-ipad-prices-181331569.html",
-      "Portal": "Yahoo US",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "어디까지 버틸 수 있나요? 영역 확장하며 버티는 생존 게임 '코드램프'",
-      "Link": "https://v.daum.net/v/20260626130001345",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[이재윤 칼럼] 스타벅스 정치학 - 영남일보",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WXVkR3djS1hHTnphMmFDdHdFcDgyLThqNk5tWG9kcXQ2dGNLRld4dElFeXNUNWxoNnhzSk1vVXRyWXo5NnBJaHpaVF9fZnNZamw2eGE3MW81Tktqd002NTc4RVJNajNKMVUw?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "Poll: Only 15% of Americans agree with the unproven claim that Tylenol causes autism",
-      "Link": "https://www.yahoo.com/news/science/article/poll-only-15-of-americans-agree-with-the-unproven-claim-that-tylenol-causes-autism-203609478.html",
-      "Portal": "Yahoo US",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘강진’ 베네수, 3만9천명 실종 신고… 사망 235명, 1만명 넘을 수도 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9TLW1veVB3TGxnTkFKMk1PbmRuY0xDLVkyS0NKdTZyTTBhTUpZTC10a19wNzBURUFkT0RqVXpRZFdGbmJmdzczX3RzdXdwRHpLVGJhYjVESDhDbi14RFBuTkxMQVRoNUFac1NkbE8xUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "[사설] 중국차 공세 거센데, 현대차 ‘순이익 30% 성과급’ 파업 가결",
-      "Link": "https://v.daum.net/v/20260625110935947",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "2026 방산기술보호 컨퍼런스 개최…기술보호·수출통제 정책 동향 공유",
-      "Link": "https://v.daum.net/v/20260626130148432",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "명노현 LS 부회장 \"기회의 땅 북미서 전력·에너지 산업 패권 잡을 것\"",
-      "Link": "https://n.news.naver.com/mnews/article/417/0001149121",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "‘참교육’ 작업반장 김균하, 지난달 결혼 뒤늦게 알려져 - 스포츠경향",
-      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sU19OLUlXMDVqU2xEOUl4ZDBXcE5uNVByX1VDZGRVeTZVX3JNRVZDSWlXVngweEg1dDVzQjBGclBDaDRrRlp4cFh1SnNqOEpIRnRVaWRoa0xUbi1JcFHSAWNBVV95cUxOOWczOXBULU9JVFd4ems4SjBZTlhSZUttQS1aX1FtVmhWNTY2MnhJN3JvM2ZPemxmSm04Z3JfX0VIWlp6bzVaRjR0ck5Dck1YdkRpVkFjSWVwNUdXY0Z6NTl1N00?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "\"이란 파워 키워주나\" 걸프국 'MOU 불만'에 급거 투입된 美국무 - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01cmJ3ek5MMXdXdHQ0U1BEbHh2NXNfUGVPdlhiTm9WR3VDSjhLU013X2VjQ3JwMVIxWmV4ZzZscURXWkxRX0NHUkxRMnJvODVCN2lTSDZRaHV5a2_SAWBBVV95cUxPT1dNVjQwU0hLVzQ4Z3RXeXpwWFhHVTIxN2w2Y295WlRKNkh4QXUtS2hfNWlINTd6Q0s3SkZSVXE4WndNYTlTQ2wyNUEyS196Nm5aVTdYamVtY2NnQXVyMTQ?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "장영란 “얼굴 못생겨 서류 탈락”…오디션만 100번 본 과거 고백 (A급) - 스포츠경향",
-      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BUGJtQnpCbllBTVd4S0NGYnoxYk0tWmNnNl84b1M5RUhkNmtVQTRRTjFmZ05RZHVDa3pueWFxVmIweXhWbXhrX2dFVkNybUk1OVo4bm8tX3NWVnRtNmfSAWNBVV95cUxOc1ZKSnc0dnNTSzNBNElhT2Y5cDJoSGtwb29MVzFYY3Q3YjJJMGZZNk9FMG1WT3A2T2NGczlYdGM1WnhKZkJvajFRXzBSS0lUM1V3LWRSNkxhUXVZdnRueVhEVnM?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "럭셔리 넘어 고성능으로…제네시스, 마그마·하이퍼카로 새 10년 연다",
-      "Link": "https://n.news.naver.com/mnews/article/008/0005377558",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“스위프트 결혼식, 월드컵 중 독립기념일에 맨해튼에서 진행 왜!”",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030266",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "[시선]어떤 유머는 저열한 다큐다 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oX0FSdVk0azFXYnlhTGJLRjY1M25XZmRyWWlybkE0UGZDQzdVWkZjS2xyaFQ2M3VBNkV0cmVuVkJtazFEM0FVeVJQSUgxZmVESEdjMkZ3UWJxQdIBX0FVX3lxTE14dEpzdFpXaVlkREd2RGdmOFZEOXJZa2QwbEl4clB4NGRCbzMzS3UwRHpCbVFpaDZYY2lFZko0N09aR2hVMlRnLWVpci1kY0d2V09USHE2RE1HQXRJeXhJ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 05월 마지막(06월 첫째)주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00aHZYc3RNT2J4WWw1STZTTWJrTW5yR2dFVTdjSDRKZERHczZNaVRWQjdhMDRnT09zcjhhbDBBR3pSU2JnMFl2R094cGtEM1Nlek1wQmtuOUVmTDBrNk9MbUhMbWhTcElIWTBYOFFR0gFyQVVfeXFMUE4xcmhNNVJNcm93RVgxb1VWUVI4OTdfUEhMUGFPcXY3ODExRURCS3BIU2lIUF9BN090OVhHOWlWdktDS1FoeEUya2dNWXZoMjlrVnBvVWZUb2lSSmpVVWdNN3JReXByYVdIdHA5U3dScmFB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "장동혁 “내가 간 곳 다 졌다?…사퇴론 의원들 성적표부터”",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656169",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "[문상윤의 로컬푸드 이야기] 못난이는 죄가 없다",
-      "Link": "https://v.daum.net/v/20260626113406115",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[삼척소식]'제3회 해랑영화제' 단편영화 공모 접수 시작 등",
-      "Link": "https://v.daum.net/v/20260626092812758",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"베트남서 롤보다 큰 스포츠는 축구뿐... e스포츠는 Z세대 정체성\" [아세안 속으로]",
-      "Link": "https://v.daum.net/v/20260626080119715",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"치명적 결함 0건\"… 리플(XRP) 대출 프로토콜 재감사 통과에 기관 투심 '들썩' - 글로벌이코노믹",
-      "Link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPejBLRDJKSGZwQWZEb0NxRUZMb3JmMEhVcVhiRmRPTnRvNV9yRWxOeV9haVpGNENpakhMbkNTMW45RU5pUlp3cEdSM2xIdGJET1lMTmRMM3dmQTZnR3VDRFZEWmd5RGpHTkdWbVo4cGcwcWE0S2l0MUUyMHN0bE42Wl9oZzZPWTQ?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "소유진 미담…배그부부 남편에 대량 선물 보냈다 \"택배 쌓여 있어\" [엑's 이슈]",
-      "Link": "https://v.daum.net/v/20260626083918773",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "“아내가 딸 학원강사와 자택·별장서 20년간 바람” 불륜남에 10억 원대 위자료 소송 청구한 남편...결과는?",
-      "Link": "https://v.daum.net/v/20260626113417134",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "예산 당국 \"교부금 손질 불가피\"…교부금 개편 논의 불붙나",
-      "Link": "https://v.daum.net/v/20260626123718923",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "유머 - 브런치",
-      "Link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE44OW9UVTY3cEN0dUJ0VDBfektGbW9PdlprUi0xeWJMRFlqOGVIOFdTQjcwT2k2YTRBWkxYZzd0THhIZm1zaUV3WE9R?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "㈜고수플러스-성신여자대학교 창업지원센터, 여성 청년 창업가 육성·1인 주거 혁신 위한 업무협약 체결",
-      "Link": "https://v.daum.net/v/20260626105143904",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "이영표,‘이 말’때문 홍명보와 3년 연락 끊었다는데…",
-      "Link": "https://v.daum.net/v/20260626100517663",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "소수당·무소속 뭉쳤다…전주·완주 의회 교섭단체 첫 출범(종합)",
-      "Link": "https://v.daum.net/v/20260626121658507",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "한국 32강행 셈법 또 하나의 변수… '돌풍' H그룹 3위 카보 베르데, 부비스타 감독 \"총력전, 진짜 실력 보여준다\"",
-      "Link": "https://v.daum.net/v/20260626122004572",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "한성숙 청문회, 野 \"오피스텔 지인에 헐값 매각\" 與 \"수준 낮아\"…고성 끝 정회",
-      "Link": "https://v.daum.net/v/20260626130707730",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "'뇌 노화'를 앞당긴 건 '나이'만이 아니었다",
-      "Link": "https://v.daum.net/v/20260626122156627",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[단독] SK텔레콤도 美 ‘AI 컴퍼니’에 4억8000만달러 출자… SK그룹 반도체·전력·데이터센터 투자 허브로 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQN19IZ0Y0RUFTZURINUJ4cmZsbEdFWVBWb0J4cDZ6ajJRX3pwVlBzVlhZM2dlcURPM0xyaGZONDJQSGttOFdVc0NERVVWamc3QWFMWkl0bFFidkgxUUg4aWJCclNVNUlHTjBwdm91a2Q4V0hfVDRqYjBfVTlCa19scXBB0gGWAUFVX3lxTFBVQ2pVZ0h6R3BjaXJfSjl6SjNmN2loSnlsQ2xUTkVpQ1RUZ1huZ3YydnY5dVAtV09MOVVrbldjUXRGZ0ZVbEhzN0h2dkM5Q3ZHaUJNSUg1ZlZqSElWT2VyVjdIOEFoYTJHUDg1Z2VzTkkxM2plekdscG5HYkp6cEN5SDVEQUQ2My1GSjlrZVpDay02eVBGUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[오늘의 운세] 2026년 6월 26일 금요일(음력 5월 12일/일진: 신미(辛未)/띠별·생년월일 운세) - 중부일보",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nTnVmTGtESzJDZUQ3Skl3Mzl5SDczMmhCcXprODI0YmQ0ak83bDFiV0dsdWFDUlpsb2NrLW1hQzJtZXhKYVBZaGZ1YTJkTEdrVkhidzNTZnNSV3pQejc2SlVHX1F3VnNETnNGSkhCaw?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "“한국, 전쟁하면 북한에 패배할 수도”…트럼프도 손 못 대는 진짜 이유 [밀리터리+] - 나우뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BOGN5Z2NjbVZUZUhiUUFGLVNNSUgzVXVpYWEyU09QZDh0UE5DeVpuQkFjSExDLV8tSVJYVWEzai1GUVAtTWZKcm16VmxJcjF4OXNtajl0WVM1bTVUUUM5SE1jazhEampUTGVBSUkwY1o?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"왜 바다에 버리나\"…ISS 철거 계획에 비판 목소리",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428146",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "국힘 “다주택자 미꾸라지”… 한성숙 “부동산 투자 다신 안해” - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CSWF5Q1VjSHduQ1JwYV9yNHpwVFNzdzZqdXF5WW1SOTUzemdud2xJck5jVXdNdURvSm1WMVVJT2dpMGt5WlYwQ05uVU16WkxWZ05oT1c2S0ppSkZpOEpVUmF2MzRfY2d1MU5tTXhkSVFsTnZORWFv0gFmQVVfeXFMTXV6UGJ3RVc5bmNqSTZnXzlxTFhYdWh0eGIzZEZReWt5ZkNtR0ZDNG03eHFHSWNEM3BMZUtDbnNVUG55a295NDlsdXMwX3lsUEZsQUVKNnVHOHU1VE03Ylg3Z0VESXVn?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "냉동실 성에, 방치하면 전기료 더 나온다?…청소 방법 알아보니",
-      "Link": "https://n.news.naver.com/mnews/article/296/0000101945",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "스페이스X에 알고보니 한국 부품이…사천에 있는 알짜기업 어디? - 머니투데이 - 머니투데이",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPWkl3TzZCVnM1ZjQ0VUJZVGZreE9UVTQ1UUxfV190c0RLN0ozU3JvMnJSQXJxM0JZSVhaanN1LVBLZjhHV0twdDE3RThCaUxTelZhT1pMYk5OM3VnTmNRSW45bVphTTDSAWxBVV95cUxQQl9xSHVCTWZkN3pjZHlBYzZ5Nk8zTGdYSnlKendXRmRTOFdoMHQ1bHRMdFBNeGZZNFpZNFdBQzNaRHB6czN1LXM2N0hkQWF5NXJ0dlQ2bGU5VWRKeXBudmdWMnE5WU9tVFVkVWo?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "'타율 0.332' 이정후, 만루 싹쓸이 3루타 폭발..샌프란시스코는 6-9 ..",
-      "Link": "https://v.daum.net/v/20260626093451114",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "대성 “허영지와 열애설 아니라고? 난 들은 적 없다” 황당…지드래곤도 입 열었다 - 스포츠경향",
-      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCdmJLUG9UYWpTMS1FbVB4eW5sNDhacnl4T0dqV3BjejVUTXhxSi0yaktzdWdJbFJxY25vdEUzV0FhWDJMdDV2a3I5NjVLOHNqd05BazNHMDY2UjAtMnfSAWNBVV95cUxNeDJZZjA5alREbUFBbkItcFBuam9VN0F3WTYydHNXZTlrVlZRa1h5SnAxRUhDTE5YZDRkYjhuYlNhY0VWcjFNSHA2R1RQLTA5SE80TUl3R0ZiV0pTWm8tYkRpNkk?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "작년 국내 의약품 시장 108조 원 돌파…전년 대비 7.4%↑",
-      "Link": "https://v.daum.net/v/20260626130300532",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "[VIEWfinder] 결핍을 감추기 위한 허기진 유머, 연극 ‘플리백’ - 문화저널21",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIQ0JSODJ5MVZkcEJGRkJ5a3BHdUVLTTczY2tVRGw2bDVEVGNRNm1qX0pOcFF4VlhiRzVTa1I3ZEI5UkY4b3I5VmI5NjZIYVVkU2ZoWjhFR09DY0E5WDhqNlZiQU16Vmc?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "경찰, 김병기 측 3천만 원 반환 장소·시간 특정",
-      "Link": "https://n.news.naver.com/mnews/article/052/0002371335",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“외국인에 eSIM 팔아 고수익”…대규모 투자 사기 피해자 집단 고소",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656177",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“거제형 K-BBQ로 세계인 입맛 잡는다”… 거제에 미식·관광 거리 조성",
-      "Link": "https://v.daum.net/v/20260626124451068",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "'11kg 찐' 박서진, 고도비만 여동생 몸무게보다 더 나가..'충격'(살림남) - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMmJkM0VFcGEtaXcwU0ZsR19oVTBoZTFzNmFmTV9aZ0FRTmJHRy1XMDBhc19kd1dfSFgzX283Qk5qVUcwbm44b3BDSEl2UGJJZVV0SVFXUXZzMmdCdjVaalNxdkJueHZfREhHLUVGVm1fb19XQTl2d3pTSURTU1hsWGhSSDgybUs2bzIwTG1VSQ?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "3월 18일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxWUlEVm9uVmY4bDJOc0x4UlBYeHNJOC11Y0VaMFRPNUNVT0pTNmJGMTZ4ZndfeVhWYWZZX190ZXVwUVp1NXktak9IS21pMHpJdi1uQkRSQ21EWmRlY1M3UE1n?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "무인기 재판부 \"尹, 계엄 최소 두달 전 준비\"…내란재판 2심 영향은",
-      "Link": "https://v.daum.net/v/20260612154350967",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "최종건 前 외교차관 \"북핵 문제, 이젠 '롱 게임'…북미 수교가 먼저 필요\"",
-      "Link": "https://v.daum.net/v/20260626060210610",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "차기 제주도의회 의장 선거, 민주당 3선 의원 5파전 압축",
-      "Link": "https://v.daum.net/v/20260626122308657",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "흔들리는 OPEC…이라크 \"생산 할당량 안 늘려주면 탈퇴\"",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315610",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "몸과 물질로 구현한 ‘진화의 압축’…잘레×나와 무용작 ‘플래닛[방랑자]’",
-      "Link": "https://v.daum.net/v/20260626103402115",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "영국의 찰스3세 국왕...“유머로 할 말 다 하는 고품격 외교” - 브레이크뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9aZUtEOUw4alBBUjVNZGtBTEVTWnJNMGlPc2RIRlNacEV5bE8tUkxLT1I4TW9FVkRKSFdNaU81Ykp4NlJXSTU3VQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[장준영의 ‘지피지기’ 일본역사] ‘우리가 남이가?’의 딜레마 - 고대 백제와 일본의 동반자 관계",
-      "Link": "https://v.daum.net/v/20260626111219984",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "B급 유머 코드가 이 작품의 힘 - 캐나다 한국일보",
-      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAybmhieE9vRlAzd3VBNDhjckJCeXJ5ZzlFOHVRT0taWW1uZUtWNHEyS2U5cXc2S2hDWUNQV2pYb3FBdTZGR0Z3bXhuU3h4ZjVrOXVkbEdia2Q2RVI4ZVRWcWRQcmpDQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "대만학계 \"美 남중국해 우선순위 낮춘 틈에…中, 대만대응 시험\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161144",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "스텐트 시술 후, '이 약' 먹고 심혈관 사망 위험 낮췄다",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938768",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[가보니] “커피 대신 맥주”…오전 월드컵, 카스 뷰잉펍에 모인 붉은 함성",
-      "Link": "https://v.daum.net/v/20260626114130486",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "Chagas disease, a deadly infection caused by ‘kissing bugs,’ may have taken root in the U.S., researchers say",
-      "Link": "https://www.yahoo.com/news/us/article/chagas-disease-a-deadly-infection-caused-by-kissing-bugs-may-have-taken-root-in-the-us-researchers-say-223616589.html",
-      "Portal": "Yahoo US",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "남아공전 졌지만 韓 32강 확률 87.6%… 시뮬레이션이 찾은 ‘승점 3점’ 커트라인 때문",
-      "Link": "https://v.daum.net/v/20260626131251904",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "가온전선, 美전기차 공급망 첫 진입...'테슬라 데이터센터'로 추정",
-      "Link": "https://n.news.naver.com/mnews/article/014/0005540107",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"게임에 현질까지 했는데 AI로 만든거라고?\" 불매운동까지…거부감 숙제[K게임 3중고]③",
-      "Link": "https://v.daum.net/v/20260626064200290",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "메모리 가격 급등에…애플, 맥·아이패드 100~300달러 ‘폭풍 인상’",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938764",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "당뇨 환자도 과자 먹어도 됩니다! - K-Life TV",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zNy1BeUNYSlFVNG45aDNqNDk4cTNKTmtOaV96SzVGTUNjczBuQWhMWGUxMHhySWZoT1l5LV9saVRsQTlWRUkzTVhULW9BTWNqWTlVal9YUUVwcEdYbmN4R2tLekNLUWRxSDRFQw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "공무직 영양사 인권위에 차별 진정",
-      "Link": "https://v.daum.net/v/20260626063249181",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[이충재 칼럼] 이 대통령, 지지율 회복의 조건 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zUW14U1RiVkk4b2RiY2s1dEFEcmdDNWMwaEFtMjN6N1p3cWJBRTRoSEpoYWZLWVpKSF93OG54TW1SNFNlU05Zb2xlOTVKdEE?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "2월 25일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01YTZydC1HUU1mME9RSENXd2pVOW8xRWRkUlNmZ1k0Smg2bGtuN3lWQkxFWHZWaHhwWURic29xamVQb3g3SHNlbDNvdS1hSTV5cmQ4LURqamNUZWlIYVJUSFhn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "트와이스 나연, 압구정에서 만난 귀엽고 예쁜 대장토끼",
-      "Link": "https://www.daum.net/video/v/h1r0k4c5sfhvxx60",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "국내 HIV 감염자, 2024년 1천명 아래로...생존자 1만7015명 - 메디소비자뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JSUJHRUxYYVR4MW43X29iQXgtMXNJUG5sV2hCMWd6eUJxallOOHU3RmJKQzZ4N3R1SlhUMU1wa1NWLVh0VlhvZlBIUDlIRjUxTnFEWXRDSGNWRlJDa0psLXNuOUE0Z1hkRnhLRnRMUU5jYkXSAXZBVV95cUxQQzcxVDBuN2x5b29CSV8xb0ZiR29GN2VWa3JuV2NvenJyc2JMSVMyLWh6ZHFSUmE1WVMzVFpib2x1MjdQcmxGLVJjNHRFT0tGR0RwUm1yOUdsaFZjR19MS21CbXVhenBGZEw3QUJlMFE0Y2ZJbkdR?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"챗GPT 답변 80%가 좌편향, 제미나이가 가장 중립적\" - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcDQ4TndETjdWa2lsRktBOHZQQ0psS0pRUl9JYTUtWkNFTkdhZFFYV0dhMmJLc3VYWUszZU4wTFpNYUFJSldFQ0daQTlGZDBMS1JFWHF2cDZjbHd0Y0hSNmhIN1JvbUJpWlVURVdFYzFzb05QRVZEUzVDc0l3YmhhQmY1Zw?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "한투증권, '2026 서울특별시 환경상' 최우수상 - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sZWl0dnNwYS1wd3BoREwxQmI5LU9WOXVHUFMtbzFPVjdZWWp1VjI4ZkZHaXVPTTdVakVxOWJ4NUhZdV9GbFRhMmNZVndfUkk3WEplWHBOSVZPUFlmQzUycNIBYEFVX3lxTE1sZWl0dnNwYS1wd3BoREwxQmI5LU9WOXVHUFMtbzFPVjdZWWp1VjI4ZkZHaXVPTTdVakVxOWJ4NUhZdV9GbFRhMmNZVndfUkk3WEplWHBOSVZPUFlmQzUycA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "한성숙 청문회서 도마 오른 축협과 홍명보 “카르텔이 문제” “홍명보 청문회해야”",
-      "Link": "https://n.news.naver.com/mnews/article/023/0003984266",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "애덤 백 “비트코인 저평가…전환 시작” - tokenpost.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9USFNmX0VEeDJ4SzBEQU92ak9MYS1oM1QzenZyd0ZqTU9lNGdkeTU3RE9WR2c1ZDRRRzVoRGxaYW5lX3Z0b1pzaWRYbzV3dE1YMDhsQm93R1_SAV5BVV95cUxNZnAtdUxUcElyaG85dmJCWFNMOEd5MmhiTWx6REI0MXg3dEJLZ2hpZURDOFRCVUdkRTJZclZUa2dGcFJNUnMzekJNSTRxb05nTFFjLW9mNXVuY2ZQel9n?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 04월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02SHBaTHkyaXNySDcxVUYtRE05WlhiRzRpZUJVbW9sazR4bDhxTlotQ2NYaHZkM0VlTS1nMkhHZ1hhOHpOYW9CWXllajJjRVdnX2RjU1QyREUwOEYzdG12V1JUVHBFNGZnMUc3ckZn0gFyQVVfeXFMTXB5U3R5TXlVWERVZkh2dWxyeGRuRnctdEpJWE5Ec0FzbERYa1NtbWU0dlM2ZGpWM2xkQkFsVmg5cFJiQjJZS3hPVU1HNUtQNGEzRlUtX2kybWxjY2hXR3V3cGhpczlKS3FHdzJ5TGhKZHZn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "전쟁 끝나나 싶더니 더 센 놈 온다…\"쌀값 100% 뛸 수도\" 경고 - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQR195YWxsdmRKMWJjRUMtSXQwWlFQWXRBd0xPWGhJVGZ4dXU0VlVrS3FFRWJsaUk0VFJHbHpnM0dVN0VkMW9uMlF3c2ZXSHphcW80RjBpZWJjQdIBVEFVX3lxTFA5azExbkJOd2xLWEdZNlFyeEc3TUVKUmNEZ3J4NjNWSUhiY0JRVGY0MnpZc21vcExTT29jb1FRWEczaURTWEFuaUdodUUzOVdYY09UdQ?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "BYD, '씨라이언 6 DM-i'로 하이브리드 시장 출사표…점유율 확대 승부수 띄웠다",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315554",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "李 대통령 지지율 51%로 최저치…부정평가 첫 40%대 진입",
-      "Link": "https://n.news.naver.com/mnews/article/366/0001174625",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "팀 쿡 \"100년 만의 홍수\" 소비자 덮쳤다…애플 줄인상",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014029979",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "LG전자 류재철 \"엔비디아와 피지컬AI 협력 구체화…시너지 기대\"",
-      "Link": "https://v.daum.net/v/20260626123202808",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[이기호의 유머란 무엇인가] 친구 같은 아버지는 어쩌다 ‘외로운 왕’이 되었나 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DdllHUmV4R2d4a3dubWVYbFc2cnRpWk80LV9Rdi1vX0hnS2NWZUFEZE4zWVMwa0JmT2RpeURsT1E3RkdMblRtRUhIaU9QMDA?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "中이 쥔 콩고 코발트에 美 기업 돌아왔다…트럼프, 광물 패권전 본격화",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030124",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "[코인시황] 비트코인, 6만달러 회복했지만…스트래티지 리스크에 ‘투심’ 싸늘 - 블록미디어",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5udDZTdlBLWDdLcTI0Vy1idnNFQlEtaXR0R0xiRkVJR2VQWi1QTE5LMElqRWQ5cnJ3NUhKdVh4WW9uQ0hTOW1hZHVCYWlqS3lLbkZ6elI0M18?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 02월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4OENKNVl2SjZ3dG9CRUIwNTU0LWdVU1paVm1oSTFKdjZ0Slp1MUFFUERLNDVYTFZTNWVxTWVRVjc3d3gyTWFQS2JUQXR6YlZEZnNYMjBZY09RakRaNWtRRzNIeEFjdXVGNVdpMXNn0gFyQVVfeXFMUEFuTzRkV2Q1RUlpbzM2RS1xeUJtU3l5NTh0bWlWWEZQdS1ONWdSdEJGbklvMVE4LUQ0Zm4wN285SVhhSTBqR1pkdV8tY1g1T2EwdWUxNFA2MkNOR2tzbWVtYURQdFFkd0l5a1hRUFNSR3NR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "‘가위로 다리 절단’ 요양병원 논란에…의료계 “잘한 판단” 왜",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533392",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "국제유가는 전쟁 전 수준 회복.. 주유소 기름값 왜 그대로? - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yaTV1cEhBVmVPWlNuWF9GYi1mQl92a2xmN1NWQnhSVDVMVldCRENtRzZqUU9sVnRmMU9WVzJLYk1nbkY4dl9DYW44bjV4dDg?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"로젠로펌, 스트래티지·STRC 조사 착수…오해 소지 사업 정보 제공 가능성\" - 블루밍비트",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mOXVUeG1ITjNPc20xOWlIME1WSEJTZGgxRU9LZmFKYzhKLW9iX2dZUU5seFBQT01ZV3BwNlRGZ0lsd2QzRTZ4bDU5RDdGY1p5?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[사이언스칼럼]차가운 표준이 보증하는 뜨거운 여름 드라마, 월드컵 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE43bjFETUxLdGNNWFBCUV95dlcycjQ3TTg3OWUzU0FaMnlpb01wUkk2c1dVOGxsTGtpZzhMMS1HWGJpQ1BZMFBkUGJRajZfYzg?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "종합특검, '계엄 합수부 지원 의혹' 홍장원 4차 조사",
-      "Link": "https://n.news.naver.com/mnews/article/079/0004162042",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“李 공소 취소 위한 과정, 모두 ‘거짓말’ 됐다” [진중권의 시선]",
-      "Link": "https://v.daum.net/v/20260626120118085",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "“1년 만에 198만원 떨어질수도”…‘잿빛 전망’ 아이폰 폴더블 중고, 왜? - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ZbGplbjNBbGhYcGU3cWo2bEMtNmIwMVF2X1RTU1dyY1N5ZHYwcUMzVWtfZTcwbjFrU0JoZ1JLZ2d0Sm1FYjBnUzhRZ2REdw?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'(종합)",
-      "Link": "https://v.daum.net/v/20260626115431897",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"뻔한 줄 알았는데 눈물이 났다\"…명작이라는 평이 나온 이유 있었다",
-      "Link": "https://v.daum.net/v/WYVOKdcnC9",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "코스피, 올해 5번째 서킷브레이커 발동⋯삼전ㆍSK하닉 9%↓",
-      "Link": "https://v.daum.net/v/20260626124004965",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "[사설] ‘삼성 팹 이전 없다’고 정부가 밝혀야 한다",
-      "Link": "https://v.daum.net/v/20260625030536523",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "대습상속의 함정…패륜 자녀 막아도 손자가 온다",
-      "Link": "https://v.daum.net/v/20260626060116532",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "이민정, 이병헌 등지고 변우석만 본 사연 해명 \"이병헌 유머에 변우석 너무 크게 웃어\" - 조이뉴스24",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81WGpNUTZWVTg4UHpZUjJwXzVNYW9sRGhGb0w2QWR2MW9JU05Ta2thSFpoUzVWNGR4eUduQm05SXhhR1pXUm5OblZUdE4xZ0E?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "교회로 바뀌는 상가 - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2UE0tNHlVa3RCeW5ENkhuNEdWQzM3RDlHSVBWQ2dfcGthSGx6alBwdDVUemNKQ1hKTVJINHdtLXVDaVBuZ1RGRUpWVWhxaEdkMVYyb1NUYl81UdIBVEFVX3lxTE14bG9keUcwVHAxUHMxcjdsQjdXLVFHaTNObmxmcS1UbF9Ea1hvMDVINFJmcWpudDRzLVczRGdLS3lySlNEMkRKSmtEekFKd05Qd3pkYQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "네이버 검색창 개편…대화로 검색하는 'AI탭' 서비스",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938777",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "정부, 하반기 물가 3% 이내 관리 목표…공공요금 동결·1조 원 투입",
-      "Link": "https://v.daum.net/v/20260626123000779",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "베네수 강진 사상자 4,500여명…국제사회 구호 손길",
-      "Link": "https://v.daum.net/v/20260626115551924",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "‘시간과의 싸움’인 지진 구조작업, ‘골든타임’ 놓치지 않으려면 베네수 제재 빨리 해제해야",
-      "Link": "https://v.daum.net/v/20260626123745931",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "노봉법·삼성 성과급 바람 타고 하투 본격화 … '파업 공화국' 오명 스멀스멀 - 뉴데일리",
-      "Link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5ZC1TVGRwb1ZxYmhiM3ZJdFNfRzhaMDViZVpwOXVzQ3ludUxkcVJSN0xXU0FWOG1xLXFwUHU4OTIxaDQtX1RlY194TWpkVUhLX2NrajFKNW9BRldrLUVtMkRIbkd6VTZxcFk2cXR6OUlYSGlMM2RLSzRPZ9IBgAFBVV95cUxPTmVzMXE3aXdCTThBWkRROXFUSGdTZ0RxLUFXMVJMdGdWYXJ4NGhUUXJUeHczY1hyWG55M3c3LVRSZmQ0a3Voa012RkRBTUk5V1pWUWF6REVpWll6QUotOTRQeTY1VmxVSzc5ZG4xQlUyRk5kdk5LMXRTU1NNSEQtMA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "손흥민 벤치로 쓴 대한민국, 결국 조 3위 확정",
-      "Link": "https://www.daum.net/video/v/spkxmtcn1v696edk",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "주식 부담스럽고 예금은 아쉽다면… NH투자증권 “중위험·중수익 IMA가 대안” - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONVl1ZVR4VDlJREg1dmNOOG5neWdBcFdsY0x4bFdpb1ktczZESmljRHRHMmhkX0J0QWtFWjJWSFFLb01QV2JyMFh0VWNkQXNSOW5EQWhsaXRDckFzTHJpQ1h4LTNBT3I0MS1SNzVHQUt0dEU3MUplTFd2enhmbjM0b004YWdyRG120gGcAUFVX3lxTE44bnVUYTEyQUIwZHd2eDhhUEZZVXhaTU5kZkwtVEZuMGxBaHhIMHVkeWtMemp2S1ZnYzFGRUtYRm9nLTdIMGRvT3V2aTFCU2pzVzNITXJFZEQ0b1J3ak5yaXRYSks5SFBGN0MtOTVzRDREeFYydFI1TmVWejdRVF8wUjdiX3YzdXZkbE5pQjFUaVhLYlo5RER1ODJUdQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "고양시의회 원구성 협상 첫발부터 삐걱…의장 선출 안갯속",
-      "Link": "https://v.daum.net/v/20260626131015834",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“적당히 성공한 코미디언”이라더니…트럼프 “젤렌스키, 꽤 일 잘하네” 돌연 칭찬 [핫이슈] - 나우뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YLWk5ZWpVQzhlX2ZkSXhZU0owS3RMQmRPTURDRjV3S0JObzg2aVJuRFo3ZC1iRGtjdHYxblBjdEI5NlJ1U294YWQ1aXY0c3FhbHdZX25rdDJKRkt5TENQNWtodlMwbEFRSHpocG1PUW0?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "[월드컵] 디애슬레틱 '한국 32강 가능성 94%'…다른 조 결과 따라 유동적 - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KTkppWmVFRWdsSW9PczQtdFpmdlYtdkUwcnlRcC16VEpXYnhreU4tQjl5VDRSTGdyZXBCUVNFRkNGUUxfREJKcHRuVE04a1NfVEh3WlZqbjRmeU3SAWBBVV95cUxNSlduT3JsMVdnNkpJbi15RHRCSzNpMTY1eXZKY1JqLXBMMGVnNGVickFEY1RIdlJDOWJXRFNMQzBhNVJubTE2VVRPb0I1eUM3RV9lbGVRSUNiYVFZRk1oN1Q?oc=5",
-      "Portal": "Google News",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2025년 11월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tRWlFSmxPUE0wa090cW9Ta3BlbXBXZ0lJcEF1ZXRzLTZ5UkkxeS1pZnZXbzQ2MEpLNWxYZjVpaXNNWTNWZjVCbEpUQ0U3bUM3eVg2LXRPV2ZuYWRXRWhJei0zM2RCU2pidktzb0VR0gFyQVVfeXFMTTZNbzFjXzd0bldBa242dll4bUdZNmp5R1JXcjVtckpwamd6VnFiSHhQWldKRmNLdXVxdVRZc2pEQVlPbGlaamQ1aEZyVXNqYTJ0RFZLNHdTUHRZcXBoQTVnSkc1Z1NoQTZqeXFXWWMzNTdB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[속보] 軍, 장거리 자폭무인기 'K-LUCAS' 전력화 추진 - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UcUFNMHZzQjkyak5wVF9EOUt0S2xQYW5faHdBc3VJNEk4Y2NJQW9tUXMzaHNMU09TaHhNTlFUNUJESV9DbDloWlJUNFJBaGtYb3RmeHljZXh2WVJjVlpYNNIBYEFVX3lxTE9UcUFNMHZzQjkyak5wVF9EOUt0S2xQYW5faHdBc3VJNEk4Y2NJQW9tUXMzaHNMU09TaHhNTlFUNUJESV9DbDloWlJUNFJBaGtYb3RmeHljZXh2WVJjVlpYNA?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "네덜란드 ‘불치병 1~12살 아동’에 첫 안락사 시행 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vell0YXVFUmhGMUsySGZQZUVGS1hyRHpsRndEM0xOSmpQRFRwUEdwOGR0WVlQdGJqTXJjMGFTeFlYcU03elo5RG5MZUJ5bm1GZG1qbE10YlBTN2tFN003ZW5uRkdYWXpLNUQzU2xB?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "대전 도시철도망 청사진 나왔다… 3·4·5호선 '63.43㎞' 확정",
-      "Link": "https://n.news.naver.com/mnews/article/656/0000180020",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "외국인도 '디지털 관광주민증'…관광정책 공모전 최우수상",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016160430",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"취업·혼인·장병적금 세금 깎아라\"…2.3조 세감면 법안 줄발의",
-      "Link": "https://n.news.naver.com/mnews/article/015/0005303161",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "트럼프 \"이란 돈으로 美농산물 구매\"…이란 \"어디에 쓸진 우리가 결정\"",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025472",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "EU·NATO 및 동유럽에 우주 민관사절단 파견…14개 기업 참여",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161123",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "피케이멜즈, “파킨슨병 치료 연속성 유지 핵심 정주 옵션 의미 커” - 메디칼업저버",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NQnZmU0xLRU9md0w4N3lDOWIzd0RPaWF3YjZrQ3Y4SjUwVEVpYmZMSTN3THpyQldfTmg1bjdWTTEzWW1lZXVNTzQ5OHFJcURndlBRUUNrN2lTamVIVF9MVmNOWWtJdUVSSHFv?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[6월25일] \"모델이 하네스를 먹어 치울 것\"...구글이 본 AI 경쟁의 다음 단계 - AI타임스",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11Z3Rhbk4wdXRTQ3Ezdld5dFBwN1BvbFEwYTNpdkczX1Z5elZTV2lCaldweUQ4Um5ydnRSSlZxWlJxZmQ4VEw4dFRmdG1TTGlYWWNYbnd3VmwyVThsU09fQzhDbDlIOFBpb3c?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "네이버, 현대차 SDV에 올라탄다…지도·검색·웨일 차량 안으로",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002661933",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "꿈의 ‘1나노 벽’ 깬 IBM… 반도체 패권 흔들까",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656039",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"반도체로 우르르\" 고점서 29% 고꾸러진 金... ETF서 1000억 '엑소더스'",
-      "Link": "https://v.daum.net/v/20260626130433620",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피 8%대 급락에 서킷브레이커 발동…20분간 거래 중단",
-      "Link": "https://v.daum.net/v/20260626122008575",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "메모리 수급난에 두 손 든 애플, PC 제품 가격 최대 22% 인상 - 지디넷코리아",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1udDhFUFp4M2tfX0U1Rnc3YW9Gcm1iZ2cxaWJoVTJrOTA1blJWZWtUeWlJbmVsb2hMUTRFcExKTjdNOUMxRFVSTUVtbkJmaEh4aGpiOE5R?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "맑고 초여름 더위⋯26일 강원전역 소나기[주말날씨]",
-      "Link": "https://n.news.naver.com/mnews/article/087/0001201588",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 03월 둘째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51NEdqUmlSV2JoWXRJa1M1WXVqUXFlcl9Tc2JmTE1NeUl1MnB5dU1aUE1ucUs5am1FOGhseWlzdUtMUGR2cU5NaHppcWtBbkJWUHdOMFNBMm1MWVNhV1NTSDhVRF9ELVZBTTZYaU1R0gFyQVVfeXFMTlc4Q2ZUSEJvX1lhMnkwTENnYzU4VUpDeDN5QTc0SHlWbGg4bHlqdEhocm95b3NXdjU2NlY3eTNJcW83SzJhSVBsWTltamN1SWhWbHQzQTJuR0YwYkdxbHlWT2lsa0F2MmlKTlB5SHV1cktn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "“中 경제스파이 활동, 美 AI까지 겨냥”…“中, AI 슈퍼빌런 될 것”",
-      "Link": "https://v.daum.net/v/20260626111204951",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "“세 경기 중 가장 좋지 않은 경기, 결과는 감독 책임”…홍명보 감독",
-      "Link": "https://www.daum.net/video/v/9b1j09vwva852j1f",
-      "Portal": "다음",
-      "Category": "스포츠"
     },
     {
       "Title": "수면의 질은 치매 위험과 관련이 있는 것으로 여겨집니다 - Laodong.vn",
@@ -3667,568 +667,166 @@ window.LOCAL_DATA = {
       "Category": "생활/건강"
     },
     {
-      "Title": "[책의 향기]유머 감각 없는 친구에게 주고 싶은… - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUdkxwZE9NR0E3Y1BMSWYwcDV5d0dQSWlocEY1enZxSjJBNFMwSDgzdm8yU2I2QUR6dlh1ZHJTZU5pTG9tQktiQzRDNDhhY0E2VnA5bWU0aWVhdVlrd1RISmIyV05hRndDemtSdzAyMmlBUlZpbVHSAWZBVV95cUxQcUxCSGZoWjdMSGw1alpvR2p4dkJrM2g1QXB3VmVYZXVPc3JoUmRucG5MeVZsM3kxcFJpLTVrQWw4SGoyLU45VWloWFRNZmV0VHFIbGVDdm9ldDVHdldFSWpBWnpTMlE?oc=5",
+      "Title": "“한국인 오지 말라더니…돈은 필요?” 日, 외국인 신칸센값 대신 내줘 발칵 [핫이슈] - 나우뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aM29HMmJiQi1xUFpHWFF4Vjl0MTFIVlotR0I0dTZLMjNXTVo4Q1pJdnY4Z09TcFp4eVFrNko2N0lyeXRXaXFkNGI1VVJtZV81R0NFc2ZueDBRZmhWX3Y3QU9OVDl6bEVMN1RTbG1od0E?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "[책의 향기]힙한 유머 뒤엔 증오의 비수가… - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSaXhaQl8yNXRUVzFUQTlEWHpXOER0OG52N1pHYzJrN05aRVNFTUdHWXlxY29ESmtnVGdlcFR4blFsOGlhZk9ycGdyRWhCTmRWek5FWm1lUFZzTGJFVjBMV0k1SUZtczRqSHpzcmQzNXBTQjE4QUHSAWZBVV95cUxPdGl0X1VlNXMtQzJXcVY3ZDdSakdNRnNuQ3k0dTV6M05GZFY2b2ZlRHVHU0x6blJsU1ZRSm1SblhlNDJ6MmNpT2ZNSzVPWl9KMDg1akdoZGRBUmRJYzRJclk4cmhLMXc?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "미 동아태차관보 \"이재명 정부의 전작권 조속 전환 의지 안다\"",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938718",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "[티타임] 코스피, 8000선도 위태…730포인트 급락에 '서킷 브레이커' 발동",
-      "Link": "https://n.news.naver.com/mnews/article/417/0001149167",
-      "Portal": "네이버",
+      "Title": "[코인뉴스] 또 6만 달러 내줬다…큰손 매수도 멈추나",
+      "Link": "https://v.daum.net/v/20260626104142449",
+      "Portal": "다음",
       "Category": "경제"
     },
     {
-      "Title": "\"한국산 왜 사요\" 중국 가전에 푹 빠졌다…동남아의 '변심' [도쿄나우]",
-      "Link": "https://v.daum.net/v/20260626075616594",
+      "Title": "카드로 보는 시사상식 [2026년 03월 넷째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vbzBEUVJoMmFsdk9PTkRma0VFMGNtZzNjdHNUbzBOT2tPaXZ0THlSR2lUTHNCZGtoSXZHZkJ4dVRfNzZpUkRiTUlIREljR3ZKR0ZBbWRhMXBYVkd3QUNWb2s2dnBQV2N1UUhVU0ZR0gFyQVVfeXFMUHgxUEU4amREZmxiTmZuTDNEZnFNLTBHWEZlUXlXenJkZDUzRWVFbThiSVloYXg4WUtnbENVWWdLRC1wR0J0aXNGUlpRMlZWcV8xSTN4TUxlRUhGZ1FtejU5WEN3dUdqZDBvYkgwNVo0Z2F3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "베네수 지진에 4만명 넘게 실종 …\"맨손으로 땅 파며 구조\"",
+      "Link": "https://v.daum.net/v/20260626172108146",
       "Portal": "다음",
       "Category": "세계"
     },
     {
-      "Title": "SGLT-2 억제제 암 예방 효과, 기대보다 낮았다 - 메디칼업저버",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XeFFRUmlpSkZsLU5wNEZOOHFnSFZuemhibmhuUHZUNnhiUnBCUjg0NWtWV2lLYWotMkZESDdIdUNUTVRnT0N4Y0VzdzlmNEtQaWwyblFIVW5uWUhZMDFPVnMtOV81NzVPOGtB?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "하룻밤 새에 사라진 수원 사진 명소 ‘파란대문장미’···경찰, 60대 2명 특정",
-      "Link": "https://n.news.naver.com/mnews/article/032/0003454541",
+      "Title": "\"운동할 시간 없을 땐 5분이면 충분\"…의사들의 심장 관리법",
+      "Link": "https://n.news.naver.com/mnews/article/123/0002385478",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "'21만 명' 동시 접속 폭주…빅뱅, 9년 만 단독 콘서트 오픈 동시에 '초고속 매진'",
-      "Link": "https://v.daum.net/v/20260626124216017",
+      "Title": "[DD퇴근길] 카카오 노조 29일 로그아웃…주가는 바닥뚫고 지하실로",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232261",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "아득한 과거에서 찾은 현재의 해답… 베르베르의 전생 체험",
+      "Link": "https://n.news.naver.com/mnews/article/469/0000938808",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"15분만 누우세요\"…책 읽는 사람들 잠들게 한 마성의 침대[르포]",
+      "Link": "https://v.daum.net/v/20260626171655997",
       "Portal": "다음",
-      "Category": "연예"
+      "Category": "기타"
     },
     {
-      "Title": "애플, 메모리 대란에 맥북·아이패드 가격 줄인상…칩 로드맵도 방향 전환",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656176",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "종합특검, '관저 예산 전용 의혹' 김완섭 전 환경부 장관 소환",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030228",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "인플레·반도체에 맥 못 추는 가상자산…비트코인 가격 ‘바닥’ - 시사저널",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9IYnlwSGM0MTlIb0VfTjFNenNjcUxmZzIxYVVxbUI4cWFOVDN3bWVxR3BNNWEtTkEyVHFqOWVJRERBaTZlbkdmMXFFZ0FONXVxUXZJX0ExTnAyeHhocnItT0M4bm1RTHRUWlEyUnY0WdIBc0FVX3lxTE9XSlRQTU5aNG04QmNZaVlqSkpCY0ZmczJVQXpod0toaTVETEE3NExtWHl0VXdqTGJvQjItaFhoZjlMdlB1TVQ0WGNFQnFHUDZRLXhydFVsMklRSTZSTkJGOF9mM2VOWjh0ZDJ5SnVsTmlxNjQ?oc=5",
+      "Title": "[BLT칼럼] 보도자료로는 미국 상표권을 지킬 수 없다 - 미국 상표는 ‘출원’이 아니라 ‘사용’으로 살아남는다 - 플래텀(Platum)",
+      "Link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBvMDktQ1dIRWxKdGJrV2tTSi1PSVlwblFuTmNaZXplYXpmZmdmTWdWdm84TUZGNE9RZ1lVbmRpeUUxTkRLWUdXRw?oc=5",
       "Portal": "Google News",
-      "Category": "경제"
+      "Category": "기타"
     },
     {
-      "Title": "“BYD 첫 하이브리드”…BYD, ‘씨라이언6 DM-i’ 국내 공개",
-      "Link": "https://n.news.naver.com/mnews/article/009/0005699182",
+      "Title": "유아 '독서사업' 이름이 \"슈퍼파워, 북크닉\"?...'외국말 남용' 논란",
+      "Link": "https://n.news.naver.com/mnews/article/047/0002520671",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "한국의 32강 막차 확률, 이제 67.93%! 쭉쭉 떨어지는 중",
-      "Link": "https://v.daum.net/v/20260626103501148",
+      "Title": "'AI 강자' 네이버·SKT·엔씨 \"K팰런티어 될 것\"",
+      "Link": "https://v.daum.net/v/20260626173025406",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "대한민국 축구 참사, 손흥민↔홍명보 감독 의견 엇갈려…“날씨 탓 변명 안 돼” “환경적인 면에서 어려움” 도대체 원인이 뭘까",
+      "Link": "https://v.daum.net/v/20260626160604495",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "푸틴, 최악의 약점 들켰다…나토, 러 비행장 통째로 마비 노린다 [밀리터리+] - 나우뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qWG1IbmdBMlAwWXFaUng2RUg2R3VoVzQ4QmFib0hVbDNFMkQwY2RYdkt5QU5jeGZIbnlxU0lkLXAyT21XN3Z0amdUbUo2dFJvUVR3QThfUnZHckREek5YYjIyVHY4NFhENVB6TFFpTUE?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "베네수 보건장관 \"지진 사망자 235명으로 늘어\"…실종자 집계 안 돼",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030119",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "‘합숙 맞선2’ 첫방부터 종교가 화두…“예수 믿는 사람이네?” - 일간스포츠",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aS1plcHhObEZWRTRvMVZWX0FDQlkwMG1wZktFZ2h0OUFaLUM0Nks5Rnl4MkNjOXpOVTVYVEViaEJwbjduY1lCR3Z4eEVUVjYybnVNamtwdTBMUkU?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "여성 불법 촬영 피의자, 경찰 압수수색 도중 자택에서 추락사",
-      "Link": "https://n.news.naver.com/mnews/article/214/0001507971",
+      "Title": "\"선관위 직원 경찰복 입혀 빼냈다\" 폭로…돈 노린 '자작극'이었다",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315987",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "미 우파, 이란에 대한 인식 급변…\"끔찍\"→\"강하고 똑똑\"",
-      "Link": "https://n.news.naver.com/mnews/article/422/0000878751",
+      "Title": "베네수 강진에 수만명 행방불명…'골든타임' 앞 필사적 수색",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161862",
       "Portal": "네이버",
       "Category": "세계"
     },
     {
-      "Title": "필리핀, ASF·구제역 백신 개발 프로그램 착수 - 한돈뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aRGg5b0EzZFhRR2VJWFFHTlAzc0tnWFpJb1dRTEh0NWNLQUJuWHVYRVktbVpIUndsb0xMZ3FJOEF4aTFBRWVtbTNpT0ZwZ3hyTlN1aV9ENXhmX0I2MUZKaTJzM1dRZmRE0gFsQVVfeXFMT0I4ZC1qay1VSmxhUmp1VWF0Q2ZDSVJsNWVLTnktb0ZiUU9vZlJuU3BsNTdDVmVrRWxvczJwV0JQYW9nTF9ybW41djZ0eDN5Y3lFSllXWTdncThNdGN3S1hDc01pcm8ybDFObUsz?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "LG전자 류재철 \"엔비디아와 피지컬AI 협력 구체화…시너지 기대\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161238",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"가당음료 설탕부담금 도입 시 연 최대 9천억원 부과 추산\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161148",
+      "Title": "'매관매직' 김건희 징역 7년…\"억대 금품 거리낌 없이 받아\"",
+      "Link": "https://n.news.naver.com/mnews/article/629/0000510989",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "계엄용 대북 공작 주도 드작사, 사령부 기능 없애고 관리 조직으로 개편",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025503",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "“여성들도 전쟁 준비하자”…전역 12년차 이내면 예비군 동원한다는 대만",
-      "Link": "https://v.daum.net/v/20260625193702750",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "얼마나 화가 났으면…“홍명보 출입 금지” 써 붙인 편의점, 무슨 일?",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002662081",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "놀이가 된 혐오… 소비와 유머로 번지는 극우 - 한국일보",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XWmk5dXJUMVlfWUhLYW40S1ZjQVpNY01mT2xhVnRBUkkzVEloc0t4V3Vwb09WQm5uWDJVWEc0U1Z2cERHaEdVd0JIUF9pUE9MWWxVQ0xHNWg2c0Z1MHZ5QUUtdHRCaVRjLU1nOE5R0gFzQVVfeXFMTmgzUnF5dmJXQWZjenJKcTlaZlI4cTF2eTBzYk1iV1dLRnl4YXlZazNROWxlbkw5YTlUdllSTmRBc2VtN1dvR0Q2UndGTmZmbjM3eW0wLTVNd1NHOFB0WWxVNnBBdnVXbXB1OHMwWFJWcG1mSQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "동아일보 사옥서 칼부림…출근길 목격자들 “피가 흘러내려”",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533394",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘홍명보호 좌절’ 일본, 스웨덴과 1-1 무…브라질과 32강전 치른다",
-      "Link": "https://v.daum.net/v/20260626100230496",
+      "Title": "3경기 연속 홈런, 노시환의 시즌 13호",
+      "Link": "https://www.daum.net/video/v/etpb47bgfkqdfsgt",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "정해인, '볼찌빵' [사진]",
-      "Link": "https://v.daum.net/v/20260626130256531",
-      "Portal": "다음",
-      "Category": "연예"
+      "Title": "\"내 여름휴가랑 겹치는 거 아냐?\"…'7월 지각 장마' 가능성  [포크뉴스]",
+      "Link": "https://n.news.naver.com/mnews/article/057/0001955699",
+      "Portal": "네이버",
+      "Category": "생활/건강"
     },
     {
-      "Title": "함익병 “34세부터 부자로 살아, 365일 쉬지 않고 10년 살았다” - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5yTllEUWF4dXdSWk16b2tBeFBGRE5WU0ZwcXZKbV9Cbnp0VDM4OTBrNWRHdlYtVE8tOEZ4czI1ZTI3YnZsQTNPb0RUR0tlTExqTnBuZ1o5MVlZdlNObzhGU0pOal9uRzFQQ254WnAxR1pKazY2M3fSAWZBVV95cUxQNG40ei15aXBITExIclpIOHBxN2JVellGSXNDNHd3WS16a1FfVDhRaEd0TG41LVVRakFDS2h6M1dZNXp0bEdMZXl1ZjZKRWlCMURuM3N3ZkpuV1ViZ2pCTmlXSzlkUmc?oc=5",
+      "Title": "‘넷째 임신’ 김동현 “연애 때부터 피임 안 해” 솔직 고백…금슬 자랑 - sportsseoul.com",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1GQThJZ05rYlZrNy1UcVVTMGlpWGNYUjBCZGJFczc5WV85VXhEWkpqT3JoVkNVcE5WVk9GOE1UUnJyXzJ0dlRJbXdiM3Y5WHFmelNXeEx2bzk?oc=5",
       "Portal": "Google News",
       "Category": "연예"
     },
     {
-      "Title": "'공수 완벽' 이정후, 2G 연속 멀티히트+호수비...SF 역전승 견인 [스포타임#뉴스]",
-      "Link": "https://www.daum.net/video/v/944c375gahe9qr2c",
-      "Portal": "다음",
+      "Title": "샌프란시스코 이정후, 애슬레틱스전 3타점 3루타...팀은 역전패 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRzNNXzN6cFN2UHl0b1IyTnFZdDB2UEVMYkh4cEg2cE5TdE1nYl94QUI4WkFkaE9aajFsX0oxSTAwZWZJQUdUVHU0LW00OFlYRlNGRDFlXzVBNHYwazJUZXhqbVk0bTlmdXluNmt6LVF1d3E4Z3hreFAyMWtidE04SDVlWmZDd2l1WEM0?oc=5",
+      "Portal": "Google News",
       "Category": "스포츠"
     },
     {
-      "Title": "신장식 “조국, 부산 출마 희망했지만 민주당이 만류…결국 평택 선택”",
-      "Link": "https://n.news.naver.com/mnews/article/022/0004138374",
-      "Portal": "네이버",
-      "Category": "정치"
+      "Title": "유머라는 방패 - 브런치",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKNV9Rb0lwemphcEtjXzVTRzZoNXlyZlJhSTNZTmlVQjZkM2ZBdFFLeHVrZHdNYVp0Zl9ISTVkYXBaN0hDVlctTTBMT1VNWEk3Z0E?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
     },
     {
-      "Title": "LK 삼양, 초경량 줌 시스템 완성 AF 60-180mm F2.8 FE 출시 - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HcGVsX002bjlGd0hfMDZBTkdUeW5Ccy1aRU1lS0NKTVJGcWoxRmFldnVMUWFWS24yNENQdkxLV3dEeEJ0N2pYOHc3X25Dd3Z5ZVRF?oc=5",
-      "Portal": "Google News",
+      "Title": "[현장] 서울국제도서전 맞선 ‘서울제대로도서전’ 뜻밖 흥행 [.txt]",
+      "Link": "https://v.daum.net/v/20260626170703620",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "Apple Is Rolling Out Huge Price Increases. Here's What Investors Need to Know.",
+      "Link": "https://finance.yahoo.com/markets/stocks/articles/apple-rolling-huge-price-increases-062000727.html",
+      "Portal": "Yahoo US",
       "Category": "IT/과학"
     },
     {
-      "Title": "유머 담긴 유화·조각으로 비틀다, 엄마가 된 후 달라진 여성의 삶 - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByX0xDWjhoLVRvR0lCSkhJeERVcFZBT1RmZWZsNlFFMjJXZFlza2xBdDZudEtWLUNBeEJEOE15SVhXdEhldW5oUG9BbTBZMkUycFJweG1B?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "일진전기, 239억원 규모 신안우이 해상풍력 설비 공급",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428137",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "삼척 해랑영화제 단편공모 접수…AI 창작 부문 신설",
-      "Link": "https://v.daum.net/v/20260626100513658",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "한일, 28일 국방장관회담…'블랙이글스 日 급유' 등 우호 협력 논의(종합)",
-      "Link": "https://v.daum.net/v/20260626121230388",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "[오늘의 칼럼 모아보기] ‘N% 성과급’ 주총 결의 의무화, 미적거릴 시간 없다 - 프리진뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aLU1vQmZ1b2hfVEpjOHdkWjN0bVdyNUwzSHVpQXdtd01TOHdOYktXbGd5Yk1zVEdXbjAxNzVkZXRWX0dla3J3akE4ZDI2cnNiTXRQQV9oYmNfYU5Rc29fUEstZW44emJSSXVaOTRMMA?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "영국 왕실 세무기록 첫 공개…찰스 3세 연 264억원 세금 납부",
-      "Link": "https://v.daum.net/v/20260626124117994",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "'자산 100억' 함익병, 단칸방 소년에서 타워팰리스 20년 거주까지…",
-      "Link": "https://v.daum.net/v/20260626121342420",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "트럼프·밴스보다 강경한 루비오…이란 종전 MOU 해석차",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030225",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "한성숙 청문회 부동산 공방...\"미용실 원장에 헐값매매\"·\"억측\"",
-      "Link": "https://v.daum.net/v/20260626130103396",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "부산 어선 침몰사고 실종 선원 수색 이틀째",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520590",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘내란 가담’ 박성재 1심 징역 25년…법원 “윤석열 반대 세력 제압에 도움”",
-      "Link": "https://v.daum.net/v/20260622173118828",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "트럼프에 불어닥친 ‘이란전 삼중 역풍’ - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVlpMSFhIY2d1MEFCa0hFS0dDWWhHdlV3TXB6QTVXOGY3OElxRER5bjNPZEhBcEM0VmlZTkdVLWFneGNvOEUtejNJQmNEQVRTcG9LZjNkQ194UWJ2VDFDZjllT2F2M2YyYlIyZUhyZzI3N1R1QThQNWVqcTR4bmY2bkJLZ282ZFNjdlRocVBkMFVrV2FDVHRVRzk5aTFPUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "종전합의 서명한 ‘하메네이 복심’…전쟁 속 존재감 증명 [더 비저너리-갈리바프 이란 의회 의장]",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002662069",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "황인엽 '훈훈하다 훈훈해'[엑's HD포토]",
-      "Link": "https://v.daum.net/v/20260626130405574",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "구미시 \"평당 1천 원에 부지 제공\"…반도체 팹 유치 파격 제안",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367238",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘반격’ 장동혁 “한동훈과 힘합친 대표 공격 바로잡아 기강확립”",
-      "Link": "https://v.daum.net/v/20260626114118478",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "메모리 사이클 5년 더? 마이크론 뛰고, '호구' 빅테크 폭락 [김현석의 월스트리트나우] - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50SXpWNFhhVnZORVVBcFhoRnpWM1dlUzlUTFhzejREQVJiQS1uZ1hTOGpTNk13alh6SXlPdFQ4ZkhVcTYwS2ZOMm9iRm40U01aUFFYLUNNck9rUdIBVEFVX3lxTFBUeWQ4dWI2bUhNVjU4aWJrbGFwX3pMMFI0NkxXRnJWREZkdFI1NmFscE5qOUotdFRobUxBT0kwbTZLdnc1VjRQRm5QTGNQT1E4ekVBMg?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "트럼프, 이란전 비용 135조원 추가 예산 요청 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYkRleFVMSWxkdDJnb1ZBV0s5VDNlQ1U3bjZMclhuWVVHSVNvZGx1NncxMmlPZzU3YnIzVjF6TzJzVFZyWUxVa01Fc0M1QWd6RWRITy1yUEpDMjdNQXRQQzdvRVJfU1JudENocjRWS2VsemFRSng3eDlFX0lzNkNnZy1TaHhHd3MwRGx3Ty1PRDJUQ3hlSTNGV3MxWjJGUdIBsgFBVV95cUxPRU1LYWNTRWh2T2doYU1TUGhZV0RzZER2UnEyaUthTGVyUTRTSE9mWFRrRU4yN2xQV1Z6SVJNQm1KZlZBOTQ2U25MdWFtU2wtOFFGN1ZVY3RDWEZtSWt2MnlQTXZIUUZDVGh1TXVkOGw0cmgwcGlUTjZsVGVFTW44YXNNekVQS29BQWR4OUVZbkcxUGlyNFZYVHlsS0t1Z0ZqYllGcHhlajY2SThzWlVsUjF3?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "[2026 부산모빌리티쇼]현대차, 신형 아반떼 최초 공개...무뇨스 \"평생 고객 만드는 출발점\"",
-      "Link": "https://v.daum.net/v/20260626131230903",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "동해안 해남 사진가 이진수 ‘응시의 얼룩들’ 개인전",
-      "Link": "https://v.daum.net/v/20260626124317038",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "'디올백·금거북이' 대가로 한자리?‥잠시 후 선고",
-      "Link": "https://n.news.naver.com/mnews/article/214/0001507968",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘故 안재환 빚 78억’ 떠안았던 정선희, “세상 원망하고 사람들 저주했다” 고백(종합)",
-      "Link": "https://v.daum.net/v/20260626102545657",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "“7차 석유최고가격 인하…공공 요금은 동결”",
-      "Link": "https://v.daum.net/v/20260626122119610",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "아흔 할머니부터 퇴직한 60대까지, 이곳에 모인 이유",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520610",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "고민정 “계파 적통? 하늘에 계신 분들이 인정 안할 것”…정청래 ‘친노·친문’ 구애 비판",
-      "Link": "https://n.news.naver.com/mnews/article/032/0003454542",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "한성숙 ‘축구협 카르텔’ 지적에 “온 국민 굉장히 분노, 잘 해결될 것”",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002662089",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "3월 11일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZTnJXZmlqekRkLXVSX3dYSVAycks2NmRETEtuUm92SGN3d3JoX0pPVlBCODJNMXEwbC1tVnJnZHBzRDBGYWdyY2NESHhBaDlReXBLSGk0QzVjSm9yOTRmQ01B?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "‘좌충우돌’ 트럼프, 이란 향해 “미국인도 핵 사찰”…공화당과는 “미치광이” 고성 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Xa2hoWVU4N2hkQXdiZ0F4MThOSVFZRmVQRjVMZkxNRTAwVE5KNFU5VkVDOXcwRURXMk9fSFJFcG1SS1g0NEFFdGR6MFBhcDhBU0ZXQTBjUldXdFNIQ0VNeE54dVNBTVlod05IWUR2RQ?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "[이충재 칼럼] 이 대통령, 지지율 회복의 조건 - 오마이뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vOGdmXzVITlJRYzdrVHdOM0ZDTTBzSzFNYXNFM293OXpDZGpQdHljUTdsUno0WWhfUDZteGRvc1piY1hIeVpxNEJSNWpYLXpPd1E1LXM3NEVYZmpPT29YTVRobWZOdXg5bGhKZHNVbUtFUDJXVExn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"연결 중입니다\" 대기 해방…채팅으로 통신서비스 해지한다",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025357",
+      "Title": "별 6000만개 빽빽하게…유클리드 망원경이 포착한 우리은하 중심부",
+      "Link": "https://n.news.naver.com/mnews/article/584/0000038242",
       "Portal": "네이버",
       "Category": "IT/과학"
     },
     {
-      "Title": "임종득·백선희·이준석 의원, 29일 ‘부상군인 지원확대’ 세미나",
-      "Link": "https://v.daum.net/v/20260626125017152",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "6월 24일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZdzgxVm1NaVpaclBvU2ZDbE84UVJBbjlkVjl5VjU0a0UxZTZKMXZfNk80R1FhZGtYMWFXMnUzRXhsTmdlRlQxckhac0M4MEJBbnQ5SmFPYlB0QnJIOERtRGR3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "“엄마, 잘 해낼게요”…서효림, 故김수미 김치 사업 잇는다 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3MHNmbnFBc2JNSk5jTWhBSEM0Tm45NUZ5LXdNbGxoLXRfT2tmeFQxSVBncGMzZGsxdzBvUTkxUzZETzgtc0JXQThUREdJOUwwNk5vaw?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "머스크, ‘X머니’ 서비스 확대…X 슈퍼앱 구상 본격화 - 블록미디어",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45ajFBZHcwTUQxclhxMkwwa3luQmVOelRENXpJUFFEZkJualEySWpzaVk1VFRaNmp2c1ZhTE5ndURKRTZmMlVNNmxLNFhDeTVrTHpyRk1rTEY?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "비수도권 발전소 갖춘 GS, 데이터센터 직접 지어 시너지 노린다 - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiTURWcHgzeTFXdFdHT1VKUUJpdk0xazlDZ0xfWXNIcHlpTThyd293d3p0V19IZHhFcmlxMndORWItdXpES1pzQ0prOW5zT05RRjlUQk5pR0dmUdIBVEFVX3lxTE84SHpnbTJOV1l5MHhrQU5BVFRKREZZY0F4NlBIcUhUc08tdGlIMHdWN0JnMWg5ZDRWbU02SXpRa0RHbTZaRzI4Mml2LU9PZ29lcXFyZg?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "LG, 경찰청·적십자사와 폭력피해 아동·청소년 지원…6억 기부",
-      "Link": "https://n.news.naver.com/mnews/article/422/0000878741",
+      "Title": "[투자 노하우] 미국 5월 PCE 4.1% 상승, 인플레 압력 더 거세져",
+      "Link": "https://n.news.naver.com/mnews/article/374/0000518521",
       "Portal": "네이버",
       "Category": "경제"
     },
     {
-      "Title": "반도체·데이터센터가 끌어올린 건설계약…1분기 74조원, 23% 급증",
-      "Link": "https://v.daum.net/v/20260626123609891",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "장동혁 \"특검 거부하면 혁명 수준의 국민 저항\" - 대전일보",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EMkNJelVIaFpFcVlGblhUV0JZR05Uel9ZWEc0NndKR2EyeWpfNmgyeW1weEtvR1pld1BMWGswM3VrSEVDZEVyQ0ZBbnhpWEFRWmxvUXk3bFJRVzlHUjkzMEhnRlBmeFpFM3Y0bDNjVQ?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "중국, 미 GPU 없이도 슈퍼컴퓨터 세계 1위 복귀",
-      "Link": "https://n.news.naver.com/mnews/article/028/0002811486",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "마이크론, 실적 호조에 가이던스도 예상치 상회…시간외서 13% 급등(상보) - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iV3VnOHFlUGFtNXZsc0dIVFZLZ1ZWUWhZTXdFRDd2X1BCeURfLU8xOFR0R0RNbkg0MmlBQmdJMXlLOTVMLTFXRTUwSFdWeDhUZ1JMWUZYUWFIbnBzYTJVQlROcjNnMVBVdmNDdUJBZjA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "비트코인 9089만 원대 하락, 자산운용사 21셰어즈 \"반감기 영향 아직 유효\" - 비즈니스포스트",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9oSmc3NU9TNVYxTWNybjBMOEIzcWcxQTZyNjNIbEVDTzc2T2s0N0c1VlVhVlFieEpienpGbjV3ME5UcDBGbzEwYjg5WmtKRGEzSk4xN1Fid2g2MVY5Skk3Y3A3OGFEM01HcC1meDdMbHh6Ym8?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "비트코인, 연중 최저치까지 '뚝'…ETF 유출에 9000만원도 위태[코인브리핑]",
-      "Link": "https://v.daum.net/v/20260626103600181",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "한성숙 인사청문회 이틀째…청문보고서 합의 채택 난항",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367557",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "[내란재판기록] 징역 30년 윤석열 웃음, 집유 5년 드론사령관 괴로운 얼굴",
-      "Link": "https://v.daum.net/v/20260612175921448",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 05월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yUWxiTS01dG1qNWpCaG5VRHBDSjRVbHM4bDRkU2U3VWRDNlE3V043akw4QWVhOUtiNG1tS1VORDVyWHhYNkZHQW11TDVaWGw5eTZkR2xWcWU0WnhlS29xVVN4RnRDUnluRU9ZeGtR0gFyQVVfeXFMTjJMZWZ6blZzMHhTRXFuUXNRMm5sMHptQS01LWp1el8xQmtrSWx1YjNCTHR3TWU3bEsxUkdjQzgyY3JDQlc1NGJGcnV2d0dvbXdnQTVlbUEybC1IWFdrd1k0LUJFUERiRkNTbGMyMTRERDVB?oc=5",
+      "Title": "호서대 윤명식 교수 연구팀, 강북삼성병원·유머스트알엔디와 '진통제 성분 활용' 자궁경부암 나노 주사제 개발 - 뉴스파고",
+      "Link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9ZYmdCTkhsTnlHZDVEODRCNm45Vk5FRnZBRHM5dU1CM3Zsa3UzUkhaazFabVdIaVB4VkplYVllaG5aR1c0?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "BYD코리아, 씨라이언 6 DM-i 사전계약 돌입…3750만원",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781917",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "김도영의 투런과 나성범의 솔로포, KIA의 백투백 홈런",
-      "Link": "https://www.daum.net/video/v/zdnehwq91nkata83",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "세계 최고령 저자 김형석의 유머…“철이 늦게 들어 오래 산거지요” - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CeTdCYmRoMDNnNFRzR3ZRRFJRZHd6MTNDUG1LcnpTSmhMM3lGTXN4RWdnRGZRSFEtQV9kUEp3eXh1UU5kWm11WGJ4UXdjYW5hNzBUZGJB?oc=5",
+      "Title": "6월 17일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3RXo0ck9YNTFKOVF4THdwR3JqeTVaZXRMZDNhLWY1YnBkUVRUQnFkMklWMktCSk5mODFBZDZXeGNIMklCZXE5RTRaWHU1QnZScjFKYUgxR2hMcWRoRXVhMTNR?oc=5",
       "Portal": "Google News",
       "Category": "기타"
-    },
-    {
-      "Title": "[사설]법사위원장은 원내 2당이 맡는 게 맞다 - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FcWhTNnZ6cy1lZmtfU05Cb3hSaEREUE5pbnZENllYdExXRnFSd19reWRjMWtld1hBdGRlWU42VUVrZDhVMmNVbGUxWjJpOGxKUENEV2NxRnJJQ3E4R3lOMUtPWmZqZnE2Y01UcTZ6OEZnbkJwdnfSAWZBVV95cUxQZnREVGx3NGQ2b0hwSXNzVmszS0FIYzRXRnZVdS1LbXhoaDJyQ1pKWURoNnZIMEtlVW5aaTRoV0FhLVhLSDRPVXhBVXBQckg1amdkVy1yNEdqZU5mY18wZmtJZ1lwaHc?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "AI가 메모리 빨아들이자 맥북도 올랐다…가전·PC업계 원가 압박",
-      "Link": "https://v.daum.net/v/20260626122431681",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[김시동의 사진으로 보는 강원의 기억] 2. 지게에 실린 산촌의 기억, 돌산령을 넘다-양구돌산령지게놀이",
-      "Link": "https://v.daum.net/v/20260626000652363",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘먹튀 방지법’ ML 사무국 ‘FA 계약 5년 제한’→‘2027시즌 못 열리나’",
-      "Link": "https://v.daum.net/v/20260626062006978",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "슈퍼스타 김도영, 투런포 추가로 홈런 공동 1위 복귀",
-      "Link": "https://www.daum.net/video/v/kfp3t9yy9jt9ggk2",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "장동혁, 사퇴 요구에 \"당심 거스르는 해당행위\"…징계 가능성 시사(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030192",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 04월 넷째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jcC1PbWRYQ3p0UGJ0SFVVSWRFMWRJUFJUQU5ZX2JRV1ZkX203SkNHQnQyMVpTUlhpQ29IU2pNbkVYNjYwRWd6clRCVDUwaTRhOGZPV3BhRi1qWEtxTV9TaGhzdnNNNjRrTjMtR2pn0gFyQVVfeXFMTTlmYzloTXZZaWJKTVhqWDJOeEZ4Q0lVdDNFNTBiakh0alB5XzBZWEEydU9KUldWb3dZdlhSNUhnS2hIMVEwZWhQOUJiejRuV1pTVFdlSE1UMjNkbkp4NkhYZW0zTG9xZ0ZnZ0FlUHExTDFB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[서울뉴스통신 칼럼] 곽도용 대표이사, 글로벌 문화관광도시 수원’ 완성에 초석이 되어주시길 - 서울뉴스통신",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5haDR2Rl92WG5vNVZFaWxqTGJJbU1zX2YtanIwTkI0U19qb0NlMU1BN3BXVVV5Tkh2aU9SdmhZSC1rN0o4Q3gtMHZnRjhpZDdMQzc5ZVVHb05rUWVLUE43NERSdWFyNHdvSGFJ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"감히 머리카락 다 내놓고 공연을 해?\"…여가수에 '태형 74대' 선고한 이란",
-      "Link": "https://v.daum.net/v/20260625180831744",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "'전력괴물' AI가 쏘아 올린 '원전 특수'…K건설, 안방 불황 뚫을 활로 찾았다",
-      "Link": "https://v.daum.net/v/20260626114317543",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "한윤서 남친, 대형 냉장고 프러포즈…혼수 전쟁 '깜짝 반전'('조선의사랑꾼')",
-      "Link": "https://v.daum.net/v/20260626124203007",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "이 대통령, 6·25 기념사서 \"강력한 국방력으로 평화의 한반도 만들 것\" - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LVmVXaEpXMWJmV0Zlb3FCTjdLTjF5bk01aHhMM2s3TXlLclRNblpadFd5aXZXVEJwaW1fS0VWVjg5d1hrX3Y1RUtXZ3AwMUtQVThDMV9aRXl6R1BPT0FjMGgzWUpaaXhfcnRwTWtwYjdpX1VCYnp4c9IBeEFVX3lxTE9GakpGS3R6YUl1XzJlS3VMaEpqZ3BtTWZCWkUtT2p5UmUxT1diNG1SSW1FOHRzMTlmQUFxM1g3RkNNNDFISDVJaHJxX2hVODRZZ2pPU2EwZ05PR2pBbVJKRUwyTnZTRFcza1IxOXFNSG9EbDJzLTVGNg?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "리안갤러리 대구 새 공간 첫 작가 이광호…\"시작과 끝은 하나였다\"",
-      "Link": "https://v.daum.net/v/20260626092003312",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "김요한♥이주연, 결국 위기?…“그만하고 싶다” 충격 고백 (신랑수업2) - 스포츠동아",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1neERjVTBJa3Foem4ySXJodkRFYkNzdUdyNWRJSmNBa2pkSTc4Y3JrYzlSQ3ZOdUxQVmR6cXl2VHdfV1d2WEhVM3JYdndlZDNMbW5iSkx2RUdQYlNYYzZSUE9zMlNhanJ1aTZibldR?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "[Why] 현금 800억 있는데 3500억 더 조달…에이프릴바이오 ‘실탄’ 장전 이유는 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQksxNldwdV9DTGlRRkZtdXRLVUJSUnV2bmVBVVlScTZaT2ZUWG5MNC1ReWpmZUZaSmd2d21HbWRDNXVBVGJqb1oxNXNkYUxrdHR3eC1PTzJSRm1YdWpYbTM5R3dtcTllX0d5YU10MEJYei1UaEMtSFg3MWdTU2Z6eHpmZzlYUHfSAZsBQVVfeXFMTzJ1NGtQRHpQNU1vMTdpNHctRURoMHEtX2tqX3pYNHgtZElWeHdRX2VEMUtQUWU2dDZTQkxqRkZ0U2NCYjBDVnVjS0hoSWFLSVY0TmEzQWF6Y0lCVTRSd2ZjREdEbXo1NHJpUWVZdGVRT1hBS2FQbkN6VWNXZEJ6YnlWOFJIeTk2Ri1HejA1UTRqUVhjWi03U0pQQUU?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
     },
     {
       "Title": "빗썸, VASP 갱신 지연 왜?",
@@ -4237,122 +835,248 @@ window.LOCAL_DATA = {
       "Category": "경제"
     },
     {
-      "Title": "북중미 월드컵 조별리그 3위 현황",
-      "Link": "https://v.daum.net/v/20260626093303049",
+      "Title": "‘출소’ 김호중 활동 복귀, 지자체·공연계 책임 있는 선택해야 [돌파구]",
+      "Link": "https://v.daum.net/v/20260626165705233",
       "Portal": "다음",
-      "Category": "스포츠"
+      "Category": "연예"
     },
     {
-      "Title": "추미애 \"AI·반도체가 경기도 미래\"... 성장으로 민생 풀겠다는 새 도정 청사진",
-      "Link": "https://v.daum.net/v/20260626130301534",
+      "Title": "[ASCO싱가포르] HER2 양성 유방암…이네테타맙·피로티닙 조합 주목",
+      "Link": "https://v.daum.net/v/20260626155827163",
       "Portal": "다음",
-      "Category": "정치"
+      "Category": "생활/건강"
     },
     {
-      "Title": "[속보] 지수 급락에, 유가증권시장 매도 사이드카 발동 - 서울신문",
-      "Link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfOGR0OWJkREJPT25YLUlpZlJ1UjVUNHA0c2VuSzhMWFlVSEthRFFGTlBOeF85NFdvekRNUHpWSGkwWV96cGlMNk1UaExRMTNDRzRDWDUtQkJ6aTRfTTNEVE1EYWlxYW1td3czSG5IWk9nb1RGaE5yajUxM0VRdw?oc=5",
+      "Title": "잘나가는 삼전닉스 '이 신호' 뜨면 위험하다 - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42clhhZU5TY0lrUDdreE1BcklaMVk5b2k2T29RbS1kOXJoWVp1WllOdEdaWEt3blAxXzBUdHc2N3BUTXpONjN2bXAzWXl1aUE0WkNzX2NwNEJXQzJnQmQ5M0hUQ1dsMlg5d3p4clBObkU?oc=5",
       "Portal": "Google News",
-      "Category": "경제"
+      "Category": "IT/과학"
     },
     {
-      "Title": "파랗게 질린 코스피…‘삼전닉스’ -10%에 또 서킷브레이커",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656181",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "종료 D-9 삼성 '감사 페스티벌'…매장 방문객 75%·삼성닷컴 200%↑",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014029680",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "VUS 분류 변이가 있으나 임상 양상을 통해 Agalsidase β 투여를 결정한 사례 - 메디칼업저버",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pZWtwcjhpRXlNY0tWeHRjSWNhUjZWS0VNSzhxSm93emZmS2NHcndqWVFIbWIxaGJuVzluV1hRYS1ubHdUcG10a1pqTmkzWmpnX1JpdWRLQ2JZSng1OUkybVFMTTI0TkliT21J?oc=5",
+      "Title": "\"90년대생, 부모 세대보다 빨리 늙는다\"…조기암 급증 단서 찾았다[저널톡] - 한국부동산뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zR2N1c2NoR3ZURkRBbWdxa3JTRkVQRGpyMkpLOTN0bEswbjFwd2k1cF9EWmFLVmM2OWhfeG5YSVE0X1dBeEdJWWtKZWpQb2FnVjNGYTFkdG02Ykh5SGxHME8xZUlERHYyU2E4?oc=5",
       "Portal": "Google News",
       "Category": "생활/건강"
     },
     {
-      "Title": "[속보]“메모리 너무 비싸”나스닥 나흘 연속 하락 - 문화일보",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tYUFMTFkxZlhMb2lWd3dLV3NkRU1OUlA5ZWJKZTlzYTdMS2lCRmxrMmgwOUJ0S2g2aXY5N3pJeGV5U0RXYjZSY1Vpd1l3ZVVB?oc=5",
+      "Title": "“이것저것 사고 파는 AI, 허당이네”…단순 ‘장기투자자’ 보다 수익률 낮아 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4xVkc1dGhKdU1HSjEtRzUyZXdYbVZOZ2xLR2hHVjVpeGU4U2ZHb1ZXd0dac3VnTGhYUVQyaUVPS3lYUzRPTHhYczVLakZUZw?oc=5",
       "Portal": "Google News",
       "Category": "경제"
     },
     {
-      "Title": "경찰, 김병기 측 '3000만원 정치자금' 반환 시점·장소 특정",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030250",
+      "Title": "검색 기록에 '두개골 구조'…이별 살인 20대 재판행",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256730",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "카드로 보는 시사상식 [2026년 04월 둘째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yRWtFOWRVb2tBa19NQUdPdUdVWUdHZnpaRWNSNHRfb2UyZUNWU0U2N2NKbFJJZVBOSndXR0l0SXpLb2k1NlNIVDNHQTZkYkZVbUpaMlR6YnV3QzRjSWlVN0ZKZ3ZuZEpobHl4M2dB0gFyQVVfeXFMT1NSaC0wZ19VZGZucjNKc0hRN3BSVDhYZWZtVU5RNXFjX01HR1VwdXRWRWpuTUgzODJoXzFRR3NYQzViOVVfTzV1NTMxTENGa2J5UTVTZk01Mzl1dlNIcWhrRU1TN3VZRVFtckx5TzQ3MGV3?oc=5",
+      "Title": "교회로 바뀌는 상가 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2UE0tNHlVa3RCeW5ENkhuNEdWQzM3RDlHSVBWQ2dfcGthSGx6alBwdDVUemNKQ1hKTVJINHdtLXVDaVBuZ1RGRUpWVWhxaEdkMVYyb1NUYl81UdIBVEFVX3lxTE14bG9keUcwVHAxUHMxcjdsQjdXLVFHaTNObmxmcS1UbF9Ea1hvMDVINFJmcWpudDRzLVczRGdLS3lySlNEMkRKSmtEekFKd05Qd3pkYQ?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "[단독] ‘업비트 사장 비공식 1000만개 지급’…이희진 ‘뒷돈 리스트’ 확인 - JTBC NEWS",
+      "Title": "5분만에 전석 매진...다시 없을 초호화 캐스팅으로 천만 노리는 韓영화",
+      "Link": "https://v.daum.net/v/qgSFX1B3SG",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "일상에서 로즈우드호텔·신세계백화점을 누리다… ‘더파크사이드 서울’ 주목",
+      "Link": "https://v.daum.net/v/20260626172318195",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "방영 2회만에 세계인들 열광시키며 글로벌 흥행중인 신작 한국 드라마",
+      "Link": "https://v.daum.net/v/z1HpPMNdC4",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "AI·전략기술에 R&D 예산 200조 투입…\"미래 30년 기반\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030835",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "분양수익 2000억 벌어놓고 '아파트 울타리'…원베일리 개방 의무 논란",
+      "Link": "https://n.news.naver.com/mnews/article/417/0001149225",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "[써보고서] 운동용 꼬리표 뗐다…일상 파고든 샥즈 '오픈닷 2'",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428233",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "‘하수도 사회주의’가 온다 [특파원 칼럼] - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iSkJSYkZxQ2hRRlJHSW5TNElldWNSOTAtUmU2ZlNWZFpZOFlCN1puMy00T1BZT2tYMGJseXRiQW5rY2JNLU5oSDRndkV4N09yLS0tN3M0RG5qbDd1c2Izd0hhaU9Edw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "통신사 침공에 알뜰폰 '고삐'…마진 없애고 '출혈경쟁'",
+      "Link": "https://v.daum.net/v/20260626171302858",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "롯데, 베트남 '에코 스마트시티' 재개 공식화…현지기업과 파트너십 - 인사이드비나",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiTVVfWjd5SExQUmhrY01LUkM1VkFsVzNmZ2ZrOXVGdG1SSk0xcW9fTjRYVVp3TE5JUkhraklRNnp2cmJBekdSbFEzaEd5RGptN3p0TUZhM1h3S0FvWDNJVUQ0NVlrWHpEbDh1VA?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[단독] 메가박스중앙 '돈맥경화' 우려에…영진위 '피해접수센터' 연다",
+      "Link": "https://n.news.naver.com/mnews/article/015/0005303234",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "비트코인, 6만 달러 붕괴에 추가 하락 경고등…코인피드, ETF 자금 이탈·고용지표 주목 - tokenpost.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBra2xtNzRoQnBVcUVVTFJSckxaVWpyM2swYVFkRmtUQU1pbUxOSFM1YlJkVGRKTTlwMjh3Mlp6Y3QyNmJudWpxUVltV3loVTNvZFRtdzloUmPSAV5BVV95cUxNaVBSelZIbk1XVGllSlUtbEs4b1lHV1hhZDc5SnFER2M5X0NkeFFNVHQ1OXJPODZrQVJpYjJxcm1NX0F0WGdBV0RyM1ZxNUlHXzEwdndnLTFBTl95S2V3?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "김동근 시장, 4년 시정 마침표...“시민과 만든 변화, 의정부 미래로 이어지길”",
+      "Link": "https://v.daum.net/v/20260626172810340",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "최종건 前 외교차관 \"북핵 문제, 이젠 '롱 게임'…북미 수교가 먼저 필요\"",
+      "Link": "https://v.daum.net/v/20260626060210610",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "[팀 알퍼의 런던 Eye] [37] 영국식 유머의 비밀 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYU5VNW9GQjVkbXphZWZaRWU5NG45QmxsMVRxd2w1MFJ4T0QtZ2kxbjFneER3Y2pHVVYzLVdPcERLb0VESXBTS3ZMYUZkdGkyNXFOcWg5SEhlaUJCc3oweERLV0VGN3pDR2piMVZsSDJtZFNlcWw4ODNoenpPVVBoY3R3TmVXYVRzRHVPUkVybzY?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "‘첫 혼혈 선수’ 옌스 카스트로프, 아쉬운 데뷔전…“실점 장면은 내 실수” - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2U05ZalJWZHM0Mk1LNWxBNUM1eU9SVlpjNkNYRGlyVGg5U0FfTDlmUVF6Qlpxb1ZiR2o4SkF3dXY3OEtISERKVFVrdnM0aUp5OGowaVd5MjN1eWhoOFo4NEVveFBrNVdNQ2tDX1RQT2t4b2s50gFmQVVfeXFMTUhMdDJwNXI3N0pZd1FobTBQQXUwVG9CTnBXWjQxM2pTcThiVTlEQllZMGlVaDhpTEtobktmRlg2TTNqcF9kbnR0cGhiVEFKcWFNZlFOSXhBZGlWdzVpTGhUa215c2hR?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "“반도체 가격 상승, 호재서 부담으로…조정은 매도보다 분할매수 대응”",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006316008",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "'문' 만나는 이 대통령에 김어준 \"위기 극복 신호\"",
+      "Link": "https://n.news.naver.com/mnews/article/057/0001955698",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "[정제영 칼럼] AX 시대, 대학교육의 길을 묻다③ 지식 독점의 해체 - 대학은 무엇으로 존재하는가 - 한국대학신문",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91TENROHY4S3BLY21kTG14QjREREFKZFoySWtYSzZNNU9sVUNIdllEVnQ0VXMxR1N1TUQtd2hFemRId0FZNGF1ak5UazZzN2J6Q2xOY1JMSWpnb1dXWEhDOGR1WWduZw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "첫 지진 39초 뒤 3배 강한 충격파 덮쳐…액체처럼 지반 흔들려",
+      "Link": "https://v.daum.net/v/20260626164638926",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "[단독] ‘업비트 사장 비공식 1000만개 지급’…이희진 ‘뒷돈 리스트’ 확인 - JTBC",
       "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYY0pVVmxsYXExN3BCWkNDUmdKQ3JnNU1DamVUUHJwVXpLemhvbzRCQVZMS2VoY1lOWkdNOFpaTl9tbVdhdjdYVXhLbVlnNFhJbWoxVQ?oc=5",
       "Portal": "Google News",
       "Category": "IT/과학"
     },
     {
-      "Title": "이동욱, 10년 만에 유인나에 사과했다 “내가 너한테 XXX라고 했어?”(‘도깨비10주년여행’)",
-      "Link": "https://v.daum.net/v/20260626111416103",
+      "Title": "튀르키예, 미국에 '3-2' 승리... 탈락 확정됐지만 이기고 떠난다",
+      "Link": "https://v.daum.net/v/20260626135832305",
       "Portal": "다음",
-      "Category": "연예"
+      "Category": "스포츠"
     },
     {
-      "Title": "실패·납치도 웃으며 넘긴다…무거운 설정 낮추는 코미디의 힘 [D:영화 뷰]",
-      "Link": "https://v.daum.net/v/20260626070502725",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "Trump calls Sydney Sweeney's American Eagle 'good jeans' campaign the 'HOTTEST’ ad out there, driving up the company's stock",
-      "Link": "https://www.yahoo.com/entertainment/celebrity/article/trump-calls-sydney-sweeneys-american-eagle-good-jeans-campaign-the-hottest-ad-out-there-driving-up-the-companys-stock-221428273.html",
-      "Portal": "Yahoo US",
-      "Category": "연예"
-    },
-    {
-      "Title": "Paris restricts alcohol consumption and sales as Europe's heatwave shifts east",
-      "Link": "https://www.yahoo.com/news/weather-news/articles/europes-heatwave-shifts-east-france-122231744.html",
-      "Portal": "Yahoo US",
-      "Category": "세계"
-    },
-    {
-      "Title": "엔비디아·구글이 양자칩에 베팅하는 진짜 이유 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVndWZlNLWElmRkhGYnVVRkltU0dOaEVNZlFjZXhlT1dCdE0xeW12b2QtcV8wRWluTG00R0N0b3l4Y3dTTnNiMkw1cWpUdnlJVU1hdVFyLUR5bUlaazVKZkJfd0pldWExelprc2RQc3FxTWVxNkptZmJqMHdaZFJHZnFEdF9NZw?oc=5",
-      "Portal": "Google News",
+      "Title": "미 정부, ‘미토스5’ 수출통제 이어 GPT 새 모델 공개도 제한 요구",
+      "Link": "https://n.news.naver.com/mnews/article/028/0002811535",
+      "Portal": "네이버",
       "Category": "IT/과학"
     },
     {
-      "Title": "[주진의 와이낫] 대통령의 시간",
-      "Link": "https://v.daum.net/v/20260626130157441",
+      "Title": "대우건설 \"안전·품질·AI로 ESG 강화\"⋯지속가능경영보고서 발간",
+      "Link": "https://v.daum.net/v/20260626171918090",
       "Portal": "다음",
       "Category": "경제"
     },
     {
-      "Title": "복권기금 6억 투입…철원 경로당 급식이 어르신 일자리로",
-      "Link": "https://v.daum.net/v/20260626100954869",
-      "Portal": "다음",
+      "Title": "요동치는 코스피 5.8% 급락‥또 서킷브레이커",
+      "Link": "https://n.news.naver.com/mnews/article/214/0001508014",
+      "Portal": "네이버",
       "Category": "경제"
     },
     {
-      "Title": "카드로 보는 시사상식 [2026년 05월 셋째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Jay1tNjNYd0FxNi0xNEJTV2NJY2stOUx5MWtnMGJ1VndYOXR1aTVMZDk3RWRmTTVEeFJXVEFEZUp6TFRQRWQwOUo4QUJOczlzVENRQUFNS0FGYWhwTkNTRXp4M3Q4ZnpyZjBENVFR0gFyQVVfeXFMTUh4ZTgxei05YWtDeEhiMHdhV0kwM0gwQURNWHRKUWd3SjRkWnVBaE1zMUlUb0NKaHBGdjFhdHBTbXFValRlbVo2X2xKV3ZGUE0wajVSMDl4ZEJFemREVk5ObllYTjRRZHV5SjhhRlFjN3Nn?oc=5",
+      "Title": "[칼럼] ‘충남도백’ 박수현에 보내는 편지 - 로컬투데이",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CTjN2VzJ0dVNjQmFKZGQ0RGpXOWZrREVXZEItTkczM3lQZFl3TjdmNWRocHcwWmJlWG5oM1JLNW5hTzlqRW5pQzIzRjd5R01EMXN2U29ta3dtVVhLTDJXQU4wWFpPajhaR01LTkxmVUQ?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "AI는 줄거리를 요약할 뿐, 차프스키가 될 수 없다",
-      "Link": "https://n.news.naver.com/mnews/article/020/0003729683",
+      "Title": "세븐틴 정한, 오늘(25일) 소집해제…향후 활동 관심 - TopStarNews",
+      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd1FPY0hWTlVkZ0VIc3hyVDkwQUNYZS1VM2FURlU2Q1kzM3VxaG1fcTkxSVJjLTVZa0tpdHZxajVoVWlzR1haUVVUMVlDamE4YlZYM3dPb0w0NFowTFJFZi13YmVoeUdfVW5HQU1WS00xdw?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "전주시의회, 개원 앞두고 민주당-비민주당 진영 '파열음'",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161549",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "이제 다시 '싸이흠뻑쇼'에 빠질 시간 [이금준의 담다디談]",
-      "Link": "https://v.daum.net/v/20260626113216040",
+      "Title": "전력망에 5년간 1135조 투입...中, 태양광·풍력 비중 절반 넘긴다",
+      "Link": "https://v.daum.net/v/20260626132616275",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "After Shohei Ohtani and Jontay Porter, can sports and legal gambling coexist?",
+      "Link": "https://www.yahoo.com/news/after-shohei-ohtani-and-jontay-porter-can-sports-and-legal-gambling-coexist-165422946.html",
+      "Portal": "Yahoo US",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "\"순찰차부터 팝업스토어까지\"…기아, 부산서 PBV 비전 제시",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009025268",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "노년의 유머, 인생의 진정한 비밀번호 - 브런치",
+      "Link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9wcHRxRTBCNGc5cS1nOTI1YUJtX1VaUVpUdW9FQTZ2ZzFYT0hDV0xXLVZjQkMxcjRaU19RYV9Gejd3LTdrVC1uWXpjVGI?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[사설] 계절근로 전문기관 ‘허수아비’ 전락 안된다",
+      "Link": "https://v.daum.net/v/20260624050152402",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "삼성전자, D램·낸드 점유율 1위… SK하이닉스는 HBM 58% 차지 - 조선비즈 - Chosunbiz",
+      "Link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVEllY3lybXA5MURsOGhpZmw2Ml9McDhNekhHTkd5andCYlVkMmhkU25BWDFSU1dBSFp3WGY2YjRZX1hGeFBmQWZ6UV9kN3ZQX2ZNRmJobDlheU1aVEEzdEZjYkl1WUt1Y2lYVGZ0dVd6MmxRUTJPNlZfLXpPb1h2VWtR0gGWAUFVX3lxTE14Y2NZV1BxUmN5aXBTbVgyUFdJOEFSd0x3UWZkR0wwN1RoNnBQdEc5Z2FFdkotR1FvcWc2NEZPNjhZZE0wZmUxdUdPYmF2emtCc2J3ZF9YcjdJZjBRVHhCeWU0TVlJVmwtTld5dkt1cWdJRHpTY2ZEQlJ2ZEtwM2ZTUlFIS01xYlJpSG5mS0ZKWDVQVnVHUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "악인과 천재 사이의 줄타기, 탁구 천재의 기구한 운명",
+      "Link": "https://v.daum.net/v/20260626161302801",
       "Portal": "다음",
       "Category": "생활/건강"
     },
@@ -4363,70 +1087,16 @@ window.LOCAL_DATA = {
       "Category": "세계"
     },
     {
-      "Title": "펄펄 끓는 유럽, 사망자 속출에도 에어컨 사용 주저하는 이유",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520603",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "황인엽 / 카시오(CASIO) 포토행사",
-      "Link": "https://www.daum.net/video/v/aynmcdpdy3arky8k",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "서울선관위 사무처장 \"시민들 만나겠다\" 올공 갔다가 경찰 만류에 발길 돌려",
-      "Link": "https://n.news.naver.com/mnews/article/437/0000498131",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "겨울방학, 그림책 속 유머로 추위 녹인다… 111CM 기획전 ‘유머의 맛 서현 그림책’ 가보니 - 수원시 인터넷신문",
-      "Link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wZ0QwcmJ5a2Jid096R1RGMGRzc3FFSWVJNFBsN3I5RlFzaXQ0YWFwd0xRTTRjVGJOMXFvZVRXZjhrblRKQkdmRVZHcWhvekFFdGtzT0dqVzNIaVEwUkczZTVwQXZZbHBvdC16em05VHBjdHV5VXZvNXRB?oc=5",
+      "Title": "다올증권, 하나투어 목표가↓…\"전쟁으로 업황 악화\" - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lQzdlb3A2MTZUazRZRnIyQ0xXU2M1bE53VXhsR19UWkxZLXBjWThSV2pBTTJVWElCTHhkcG45NkRSdU1qaFk5SU1HVU54X2ZFc29kcmdGSmNVSzFDUk96ZdIBYEFVX3lxTE5lQzdlb3A2MTZUazRZRnIyQ0xXU2M1bE53VXhsR19UWkxZLXBjWThSV2pBTTJVWElCTHhkcG45NkRSdU1qaFk5SU1HVU54X2ZFc29kcmdGSmNVSzFDUk96ZQ?oc=5",
       "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 03월 넷째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vbzBEUVJoMmFsdk9PTkRma0VFMGNtZzNjdHNUbzBOT2tPaXZ0THlSR2lUTHNCZGtoSXZHZkJ4dVRfNzZpUkRiTUlIREljR3ZKR0ZBbWRhMXBYVkd3QUNWb2s2dnBQV2N1UUhVU0ZR0gFyQVVfeXFMUHgxUEU4amREZmxiTmZuTDNEZnFNLTBHWEZlUXlXenJkZDUzRWVFbThiSVloYXg4WUtnbENVWWdLRC1wR0J0aXNGUlpRMlZWcV8xSTN4TUxlRUhGZ1FtejU5WEN3dUdqZDBvYkgwNVo0Z2F3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "AI부터 기후변화 대응까지…대우건설, 지속가능경영 체계 고도화",
-      "Link": "https://v.daum.net/v/20260626122203635",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[현장] 피자 도우처럼 생긴 누룩방…양조장도 ‘볼거리’가 경쟁력",
-      "Link": "https://v.daum.net/v/20260626114546593",
-      "Portal": "다음",
       "Category": "경제"
     },
     {
-      "Title": "“영어 빼고 다 통해” 美 의회 사로잡은 찰스 3세 ‘영국식 유머’ - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaEU2cHUtMU96OGdsTlhkcTZjRmcwVWxoRWFna0lxN01mZTdNaExFOXFXcEsxN19iOE9MNk84bldDYmJQN254aUM5UmRkWEZYVGc3WXA5NGY4X2wyNUVYSFhpZ2lSaXJWbmxPLVF5akNqX2JTNlpqV2FxR0c5NEk5NF9jMUlSdnNhRWNHNjFLUlRuN1VPSGFGQkRuNWRTZw?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"비만 치료도 정밀의료 시대…GLP-1 등 약물 효과보다 환자 특성 고려해야\" - MEDI:GATE NEWS",
-      "Link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBJcGRaM0tMWnJaeUhJZlZOY1dKMmZ5VS0wYU11X28tVndSQkdDeEVQN2p3YWMtcXFWU2tKWFl2WWhnYVZLZHpheEV0QTVvRkU3N3E1bHJvRQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "포시에스, 고배당 정책 추진…\"AI·글로벌 사업확대\"",
-      "Link": "https://v.daum.net/v/20260626114801670",
+      "Title": "‘호남 반도체’ 투자에…野 “일류기업 팔 비틀어” 與 “구태 정치”",
+      "Link": "https://v.daum.net/v/20260626171051771",
       "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"선수야 모델이야?\" 일본 홀린 스웨덴 7번 '금발 왕자'",
-      "Link": "https://v.daum.net/v/20260626112141556",
-      "Portal": "다음",
-      "Category": "세계"
+      "Category": "정치"
     },
     {
       "Title": "Trump promotes unproven theory about Tylenol and autism. What does the science say?",
@@ -4435,118 +1105,184 @@ window.LOCAL_DATA = {
       "Category": "생활/건강"
     },
     {
-      "Title": "\"애플, M6 프로·맥스 없이 M7 바로 간다\"",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428149",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"아이가 없었으면 이혼\" 한 지붕 아래 철저히 남남처럼 지내는 12년 차 부부",
-      "Link": "https://v.daum.net/v/xdFIS39U3M",
+      "Title": "‘깐부 할아버지’ 오영수, 대법원서 ‘강제추행 혐의’ 무죄 확정 [MK★이슈]",
+      "Link": "https://v.daum.net/v/20260626162402178",
       "Portal": "다음",
       "Category": "연예"
     },
     {
-      "Title": "'신'도 홍명보호 32강행 불허한다.. 스웨덴-일본 무승부, 한국의 차..",
-      "Link": "https://v.daum.net/v/20260626100016354",
+      "Title": "\"오염되지 않은 깨끗한 여성 찾아요\"…'女 비하' 광고 결국 '삭제'[이런일이]",
+      "Link": "https://v.daum.net/v/20260626134500854",
       "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "[사설] 계절근로 전문기관 ‘허수아비’ 전락 안된다",
-      "Link": "https://v.daum.net/v/20260624050152402",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "IAEA 사무총장 “원자력 부정적 낙인 시대는 완전히 끝났다”",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800599",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "아리랑 6호 또 1년 연기…9월 누리호 5차 발사",
-      "Link": "https://v.daum.net/v/20260626054750387",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "‘1호 평화특구’ 7개 시군 경합 - 강원도민일보",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DczF6VUY4NzNyYjh3VUx2RzlGUExLRTFaeFlhU1pYTTY0WENCcG15R0ppSk9kVlR3cVdNWTRFblhjRjZ3SzRINFE3QVBiVjRBSEZoYUdBQUwyR1JvcDVFRWRWNUwwUkk?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "이별 노래만 부르던 '이 가수'가 달달한 사랑 노래를 부르게 된 사연",
-      "Link": "https://v.daum.net/v/9H8OmNNd87",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "미래에셋증권, 6억달러 채권 발행 성공…조달 잰걸음 - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxcDZ4cGtxUG9iU2MtREZxc0loc2ZVODZ2RGFDUzlTaW56RFFFS0RhdEZCWDNWeTBIY2s0YW1ja0Nub2tnWEVLTDFETjJPRHlmbjBBZW03dUZDQWNseTJTNVNDVjNTM1ZaSnFMSXpZVXA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"일주일에 90분만으로도\"…치매·사망 위험 크게 낮추는 근력 운동 - 세계일보",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QZnBqYldBZkYtVUNDM2x2eHE3bkpjV3h3WHlYRWNkTkpTbW15NGpJZTZwRWpyVk5XTzI3QjBTWFBrZjJ4aXFFbHNvazJIWF8tMkkzRFRobkHSAVRBVV95cUxObWp1SzFoMVgtaTV6QmdlTXRqT29kMkVVTEtDWlFMaUtMMEJVeE9TcWRibGtPcGh4aVpUTEZ6T3dJY1F2WWZEYWtpX1lZNllwYkpWR3Q?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "Ali Khamenei’s secret bunker included blast-resistant room, escape tunnels under Tehran",
-      "Link": "https://www.yahoo.com/news/world/articles/ali-khamenei-secret-bunker-included-031137532.html",
-      "Portal": "Yahoo US",
       "Category": "세계"
     },
     {
-      "Title": "[특별기고] 양파 한 알의 힘, 과장과 진실 사이에서 찾는 건강의 지혜 - yangpatv.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LWnpCZzl1SXh3dk00RWcyQnkzZWNmV2JjVlpfbkJFS1BFX21mcVZGR1BYT0VuU2VKX1JUZm05aGVqcC02ZVc1enc2UUNSWlBiNWNFVDAyX0VxSVZ0Mmk3V2c4dWM1QWt6?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "Apple increases prices for Macs and iPads, blaming a shortage of memory chips",
-      "Link": "https://finance.yahoo.com/technology/articles/apple-increases-prices-macs-ipads-185354948.html",
-      "Portal": "Yahoo US",
+      "Title": "통신3사 5G 손배소 판결, 공정위 과징금 불복 소송 영향은",
+      "Link": "https://v.daum.net/v/20260626151215152",
+      "Portal": "다음",
       "Category": "IT/과학"
     },
     {
-      "Title": "트럼프 행정부, 안보 우려로 \"GPT-5.6 순차적 출시\" 압박 - AI타임스",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iTWE4WjQ0Rm9FMXhnNklpUE9yc0lRQnQ3RHN3blYtR1lkUmRCRi1rbGQxYVhZWHljVWNPeU5kakVsUzJvdndhWGRiZGs3X2FEZXVvR2FuUnZyXzcxWUttcGhOc1F3OUQ2X2c?oc=5",
+      "Title": "셔틀외교 마친 이 대통령… 51조원 방산·A I ‘세일즈 외교’",
+      "Link": "https://v.daum.net/v/20260115120806425",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "日 가와사키중공업, 에어버스와 방위 드론 제휴…자위대에 대잠용 제안",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026247",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "홍명보호 32강에 영향 줄까...초유의 선수단 '집단 항명 사태' 우루과이, 회의 중 단체 퇴장까지",
+      "Link": "https://v.daum.net/v/20260626143631894",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "\"거래대금 늘면 증권주 오른다\"는 옛말...반도체 독주에 증권업종 '울상' - 녹색경제신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90ZVJjWVZVeHV3LVB5Zy1PZ3dqckdtV0szWUdqa2VHbVRteEtrakRpM3h3ZWxMbjBJaG8talN1QVV2X2pERUtqcDhwUjNqMEswd2Z4XzAzNjFyQ2twZmVZRlNmN2N2aDYx?oc=5",
       "Portal": "Google News",
       "Category": "경제"
     },
     {
-      "Title": "59세 김희애, 감탄만 나오는 ‘레깅스핏’…군살 없는 몸매 - 서울신문",
-      "Link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZmtlSmx3ckVLcDJNWmhZcnQ2R3NTNXFKQ1F2Ti1Kc2lKWHhzbTNfcVg5d2ExQi1aa21xZXkwTmwyQnRmQU5IakduWVdwbVYzYmdseXZmc3RlNXh0U3VkanlNbEpBckVZNWEtZXB4Yk5LZlZ4T0I2bWtFbWdUb0RDb28wTDhjZw?oc=5",
-      "Portal": "Google News",
+      "Title": "'아뿔사' 94%→ 54%로 뚝… 벼랑 끝 몰린 홍명보호, 32강 무대 멀어지나 '남은 경우의 수 6가지'",
+      "Link": "https://v.daum.net/v/20260626141416950",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "휴대전화 해지 쉬워진다…채팅 상담·모바일앱으로 신청 가능",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878720",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[탈 앱마켓②] '수수료 절감' 뒤 숨은 그늘 '양극화'...D2C 전략으로 '체질 개선'",
+      "Link": "https://v.daum.net/v/20260626150313807",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[단독]'불륜 논란' 홍서범·조갑경 아들, 전처 항소심도 결국 졌다",
+      "Link": "https://v.daum.net/v/20260626141718069",
+      "Portal": "다음",
       "Category": "연예"
     },
     {
-      "Title": "\"비트코인, 주식시장과 더 닮아간다\"…한은이 짚은 연결고리 - 블록미디어",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JLW03cFpmRlFiTTIzc21IamRld09rQmZfMWNHV0dOSGFiMzVtNXh0WXJVeWNxUDFPRk1hbDhYcVZ1WlB0bGVkOTkyb3RjNHZjQ09tNF9hODc?oc=5",
-      "Portal": "Google News",
+      "Title": "지구에 대재앙 닥치나?…베네수엘라·일본·미국 8시간 만에 연쇄 지진 왜? [핫이슈]",
+      "Link": "https://n.news.naver.com/mnews/article/081/0003656285",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "밀리의서재, 오디오북 서비스 5년만에 접는다",
+      "Link": "https://v.daum.net/v/20260626171602964",
+      "Portal": "다음",
       "Category": "IT/과학"
     },
     {
-      "Title": "[이종혁의 투자] 부동산 '쉽다'에서 '닥공' 전환 - KB Think",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3VllaTTVXcmxZakVqeFBGWmpNTXlxaklzaWJ6bDREZFBQdC1UclJrSHhtYjlKelBfZ2RCUTBqOU5Jd2VMQ1FMNkRXOFdfTW5kcWlDZl8waEJOWW1PTjlRbjlUUjBrVWtnZ29MdmdBNjIyUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "권정열, 일상 사진 속 센스 있는 유머 - TopStarNews",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uai00RVEzSXEyNkptVWVqcmhxQzhHbWVBZXhncFdka0h2alI5SEhtZklocmktV3l5MG8tM1NDOVBPcXd0VlpfSkpweVhxSkVhVGF1TzBlaGlxbmZTM0ZHNzlVeWdSQnc2SkRvV3RZT3hzZw?oc=5",
+      "Title": "카드로 보는 시사상식 [2026년 02월 둘째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FaUNOMVJhVTg0d2xFYVBpWmswUlppbEcydFAxdEtab2JJMHlMR1dkWW9UcXhyZTQ5Y2JwZUNpZzRCNllYRWxRX05Mc2hiRU0weE1ESFVWWFJBd215el94dzFVOW5YQ3YtTG1CMV9R0gFyQVVfeXFMUHNfQVhHUEVMaV8wUHNwWnZEYXhtWW1pQnNVd3prOUhFMWNkVFNFakxMMVJHZWV6SWpQYXRQdXBoSzFiSE96ZExuaHJiZnNOclhFLVFDNHBDc1A1THRwRzZIT0tOSU5FTDdXSWlLVUM5d0JB?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "카스트로의 솔로 홈런 추가, 점수차 벌리는 KIA",
-      "Link": "https://www.daum.net/video/v/g1k53pf9ht35b7m8",
+      "Title": "매각 접고 밸류업 선언…크레센도, HPSP 직접 경영 나선다[시그널]",
+      "Link": "https://v.daum.net/v/20260626173203465",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "Making sense of the showdown at the CDC",
+      "Link": "https://www.yahoo.com/news/politics/article/making-sense-of-the-showdown-at-the-cdc-190824510.html",
+      "Portal": "Yahoo US",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "혈압·혈당·콜레스테롤 모두 전단계땐 심혈관질환 빨간불 - 스포츠월드",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLdTlpQVdlT1Y3NlE5eWQtM1pyWkc4d1J4WTVHWU1MX01TWTI3aDBlejVtaDB4eW1SNjd0cFdKNlVrUEJCRkUwbUFsZEtfY28zYk1NYTNNTjJ4QjVLQUZtRUtR?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[신창기 칼럼] 교권보호국, 이름보다 중요한 것 - 에듀프레스",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iSDJyZkhCeDA1X1F3Q3BLX1VkSGdnazZoVVBoZFVmTy1ReUd3Uld3c2JXZVR0UUtlYlBnb1c1bXlfNmo5cUJIdXdMVmJfclhKRkhVMjU4azg1VXZXVkhreUlUSC1TWTla?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "'코스닥은 떨어지기만'…급락 원인 지목",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256739",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "[칼럼] 사람이 관리하는 공장에서, AI가 운영하는 공장으로... - FA저널",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pNFhnbW85Wlc3aXRja2p2V0ZuczZVd0xyeG05MkdETnVaaTdtcnRLRTBreC1BSkhSajFlRWVqdloycmQyTTktR0M4RTlsakU5U1REVF9YS3dDSVFFamlGUDBEbF81TlR6LWpJ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"어깨 아팠지만 암 관련없다해\"…유방암 완치 두 달 만에 4기, 무슨 사연? - 코메디닷컴",
+      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9HeVZCaEtpOFozYWJfcjFnNEUyelFBUWM5cEcwdExBMmN3TGR5OVlnSXJtblY1WjVUSjZrZEJIUENoUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "정청래 “검찰 보완수사권, 정부 시행령도 완벽 폐지로 준비해달라” - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HcUd6ZUMyaE8wSHVQWGllMDF5TDJpN1AwazBKU1drMTRkLTh3Tm1Rd0JjZHI0VjhQR2FXSUZNSnhtUmRsa1BqQUN1STRqVEpBd1B5emdnZHdIR3d3QTZra3d3bGZPemdCT3JaeDBzMkJXNGN0?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "의지 강했다 사구 맞은 두산 양의지 휴식 없이 나온다 [MD잠실]",
+      "Link": "https://v.daum.net/v/20260626163945726",
       "Portal": "다음",
       "Category": "스포츠"
+    },
+    {
+      "Title": "임기 시작하자마자 韓 대통령 백악관 초청… 위기에도 유머 로널드 레이건 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZmwtTVRmZjVDRldaOTRyVGkwNlN4UGlaYUU3UGdFdmJTNzVTb1NmV0QyeUl4SGplNzFLcjdvV0d0djlYS0pTbW1fVkRhRUJ6SU96ZTdRNzYydDlVYlNNcEgzTUx2UU1jYTQ0MUstaXZGMVBXZ1EzR1VSNmhrUTIwdUdVb0x3SEc4MlJrSnRIdlZwZUM5?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"美 중동기지 일부 이스라엘 이전 검토…이란 공습 피해 심각\"",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005781984",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "비만대사수술 후 술 한 잔이 두 잔 된다?…더 빨리 취하는 이유",
+      "Link": "https://n.news.naver.com/mnews/article/296/0000101956",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[문수철 기자가 본 세상 데스크 칼럼] ‘본질’을 말했지만, 정작 본질은 놓쳤다. - 경기헤드라인",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qQmxBak04dHJPbGw5RGt0S19PZ3lGNUcySEduQkVWNUdKQTFQYUpnNDJ1bTJzSVBjOXFhMVRWQXJ2ZW42VmRNcTZGTi1yRGU3WEIzZTdwN1dRSzNoRVVFYnFVdG8xUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카카오 노조, 29일 하루 업무 중단…사측 \"서비스 안정 대응\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030992",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"우주 시대 '첨단 소재' 연구 근간\" KIST 전북분원 가보니",
+      "Link": "https://v.daum.net/v/20260626135451170",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "안정환도 홍명보 비판 가세…\"왜 경기 중 전술 변화 없나\"",
+      "Link": "https://v.daum.net/v/20260626155806142",
+      "Portal": "다음",
+      "Category": "생활/건강"
     },
     {
       "Title": "[우분투칼럼] 모닝커피서 명절 차례상까지 우리 곁 '아프리카' - 연합뉴스",
@@ -4555,76 +1291,28 @@ window.LOCAL_DATA = {
       "Category": "기타"
     },
     {
-      "Title": "[AI는 지금] \"1조 달러는 못 낮춰\"…오픈AI, 앤트로픽 공세 속 IPO 전략 수정",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428153",
+      "Title": "카드로 보는 시사상식 [2025년 10월 셋째주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wRFozREFudU9lUTRtelR6ajBVWWtjVkNrYlJhZHNmQlVLMndUb0o1clhUVThkRmZTSThwQmJqb2xvcGRZMEJHQ2VkaXRzVmc3VXo2TUI4a3JCMlhMdnZrZmd5d0Y2UU1DdmQ4UUh30gFyQVVfeXFMT3AyRnNYc1NDdjlHeTAzRXd3LXE2N2QxaGVJNEplaUpyZk5VYUdIZ2NaYmJ5R3NDbndPZF9HcldpTG5tRmxoY3djb0tPR2o3QjhTVGxwNWlHSkttWGRtcy1sRWpTUWVaSGNxeThkVTlXWHNn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "SK하이닉스, 그룹 전용기 지분 잇단 확보…미국 사업 확대 영향",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161782",
       "Portal": "네이버",
       "Category": "IT/과학"
     },
     {
-      "Title": "현대차증권, KIA 타이거즈 ‘스폰서 데이’ 개최 - Hyundai Motor Group",
-      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQendWbnNISnZ3WDMya0xkTXhzaGx3SGM0a2lSOVVETU9oREkxM2VUSTJXQUdEZXhFTEhFc2pzVThaV1doeDdyU25GT3YyZVpzUVJCR0RmMjhhZk83S3JuOEFvcWhTUFZsdUtLTVVLMFhyRkU1a2JSOEpxWDExc09mR1lIOGlJOFVwSjl5UnlpTk4?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "사상 초유의 쌍둥이 지진...여진 공포 계속",
-      "Link": "https://v.daum.net/v/20260626115215811",
+      "Title": "한혜진, 500평 별장 수영장 청소하다 기겁 “이거 ‘무한도전’ 아니야?”",
+      "Link": "https://v.daum.net/v/20260626163348521",
       "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "세븐틴 조슈아, 유네스코서 연설 \"세상 바꿀 해답은 청년에게\"",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781607",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "암자의 두 스님 - 법보신문",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xRnJnQzR0QkJ0ZnNtcFJLd2lFZ25yb19SQlhYZVVLVm1DM1VlTGhYdUV2ZFNad2NzUTR5dllFeUlfNHcwT184dlVVNURqbXFpN01vQ0pIWEpQbWJ5dERnSTVQVzBqNXg0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "Olympian Rebecca Cheptegei dies days after partner set her on fire; officials highlight pattern of 'gender-based violence'",
-      "Link": "https://www.yahoo.com/news/olympian-rebecca-cheptegei-dies-days-after-partner-set-her-on-fire-officials-highlight-pattern-of-gender-based-violence-165656807.html",
-      "Portal": "Yahoo US",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "[속보]한동훈, ‘삼전닉스 호남 반도체 투자설’에 “박근혜 정부 미르·K스포츠 재단 때와 뭐가 다른가”",
-      "Link": "https://n.news.naver.com/mnews/article/087/0001201598",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "'MBK vs 메리츠' 홈플러스 2000억 DIP 공방…본질은 '구조적 한계'와 '배임 리스크' 충돌",
-      "Link": "https://v.daum.net/v/20260626124803113",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "[단독]성과급이 다가 아니었네···SK하이닉스, 정서적 연봉까지 합친 총 연봉 1위 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZR25fV1hLVy1yeXQtZW1DTWdrbU8zUXphTmhrcjUtVDA1dmdTLWdwcmU0THE0RkVUTWNEWUdrWWkzWTBqdG91Tm9sN0hSX3pSQ01RNlVLVEpWQdIBX0FVX3lxTFBHZ1VVSm40cHlNaGlIVHhXaXdaLVdEb2R0S3M2bjM1ZDFUa0RUa2xiMkcwUXdMMmk2RS0zcDB4YS1SWE93eE14bl9JY0lCcnpzb254NFNsaHYzVlViNkRV?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "정년논쟁서 빠진 것…경영계-노동계 싸움에 '청년'은 또 없었다",
-      "Link": "https://v.daum.net/v/20260626125023153",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "SK하이닉스 이어 日키옥시아까지…메모리 업계 '美ADR 상장' 확산 움직임",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030224",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "유재석 만난 허남준, 시청률 터졌다..'유퀴즈' 최고 5.9% - starnewskorea.com",
-      "Link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX0tRVldtRElHZnFZY0dWbG54ZzVWQTFzOGxsZFhkMGxYODJhVngwWVRTeTBCTnZFakN4d1ItblNZVmJ2YWlIWHd4MDBOMGs4VWV0RzlLNVUzMnZ0X0VMYUZWYkdKUk40TVdabktWMkpYNEFhd1Zhd24yR19fdkZYcQ?oc=5",
-      "Portal": "Google News",
       "Category": "연예"
+    },
+    {
+      "Title": "“국민 1인당 매달 62만 원”…반도체 초과세수 국부펀드 조성 주장",
+      "Link": "https://v.daum.net/v/20260626110431553",
+      "Portal": "다음",
+      "Category": "생활/건강"
     },
     {
       "Title": "[칼럼] 교권과 인권의 참교육 - v.daum.net",
@@ -4633,118 +1321,466 @@ window.LOCAL_DATA = {
       "Category": "기타"
     },
     {
-      "Title": "보완수사권 정부案 안 낸다는 金총리와 공직자의 책무[사설]",
-      "Link": "https://v.daum.net/v/20260626114346545",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "15년 만에 의붓딸 첫 공개…이혜영, 활동 접게 한 한마디 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91M1gxdHJFNUFYVDVtUk5NTjU0RzNZcWt0NS1zUWxjLUtfR3VDMUtJT1hSWU1La3FNdDVmNWVWWllwTGNaOGhJeGt0UXc3TEVSVmF2bQ?oc=5",
+      "Title": "“양자컴퓨터 나오면 비트코인 끝?”…국내 전문가 4인의 답은 달랐다 - 르데스크",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05N1YwcDN6UVRWaDZmV2xTdjYzVE1nR3JBVW9walVYcm1lVVJlcS1EUUlqQ3F4UGliMzQ2djlRY09mNVJpeW5hYlgxMkwzVzZsbEpHenR3?oc=5",
       "Portal": "Google News",
-      "Category": "연예"
+      "Category": "경제"
     },
     {
-      "Title": "당뇨병 환자라면 주목… 낮잠 30분 이상 자면 지방간 위험 높아진다? - 하이닥",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MeXdrN3dTdDJwTEozUDRHUnY1MjRBNXhRSG1CbkZCNHpfLVlKTVZ5Wm1wd1FEV1VDVURCMHF6NjF3YzlLdXllOTl3ek11WTVQdXNYd2t4N2dkZ3BQdThLVjRhUHRENHdGUnc?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "냉소와 허무의 시대… 활력소는 ‘유머’에 있다[북리뷰] - 문화일보",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvLUJTYXVqZmhZX0FXZUljZ0Y2Sm1uYlh0ajM2MFI5YVJpb0J5emNKWi0yX2MtLWhacXB6Zi0tdDFneUxxZ0tET2N4Y1l6bVND?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "잠실 개표소 찾은 서울시선관위 사무처장…경찰 만류로 돌아가",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161194",
+      "Title": "\"1만피 여전히 가능\"…코스피 급락이 기우인 이유",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256737",
       "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "李, ‘빛의 위원장’에 광주 시민운동가 박미경 지명 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUnFmMjBwSF9HR0JvbTg4bVdkdmZmWDhpcDlSMmhNNG1GOTBkYS0zbUNYZ1d6cTlpa2hvajRVMUoyQVg3Wl9LR0ZtaE5JcTJ0ekYtbjQ3UlJhWExjNWdzamFYbzd0SnZ2M1g4QktXcFlwMjZER3JEMUVoRERNbldocURxX3VCczRQ?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "장영란, ‘금쪽이’ 6년 만 종영에 눈물 “오은영 존경해”…애틋한 추억 방출도 - 스포츠경향",
+      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0a182RFVSNk1XSjBsdU1kVVNab0JoVUotX3FXSmQ3NUlwODdnT1VBbFA1UWxIdjlSMzd4Nm00X1h3TjFBLXdKVWJOUlc4MDctb3Jual92a3pYLTlBdWfSAWNBVV95cUxQWjg3VlU5eDNRdXRMNWtCcEJXRkFtZnVyRHpCRGxPTE5VbmlrWXl3WEN5aEJyM1VVR1o4cFdTZXp1Nm9Ealo5aEMtSFBwX25KUlVBOGlRWVhDVXB4WjlIcjF2cGM?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "[특파원 칼럼] 대사관저의 불이 꺼지지 않으려면",
+      "Link": "https://v.daum.net/v/20260626144101031",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "[칼럼] 재선 심덕섭 군수의 4년, 이제는 ‘성과로 증명할 시간’이다 - 이로운넷",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2R3VsZzl4NHBmTmRneVlpTWJ0QkMzeTE3MWV4U0Zia2JVSHRiajJoYmx0dFRIWFlsWnNwZG83dFRpb0hQWGR3ZVlCdEV1blRyUllRUy1qU2lsRmZEOEVEeU1fdHRCQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "IPO 앞둔 오픈AI, 재무 상태 폭로 문서 나와…\"완전 난장판\" - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lRk5Wdk4xSzlQTDRCRThhTjBmRWxwcWI3RHNhRHlTNnJwVnI5azRaVWNRTGQtLTg4WkdVMTYzTVNmZzZzdENOSWdhMDZlbXlYZUlLbWttSXN0dkJ3aXhuYlFIdjh1QTdEVk8tWUtSUUY?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"돌고래 아닌 제주섬 전체를\"…생태법인 논의 확장",
+      "Link": "https://v.daum.net/v/20260626171739012",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "[날씨칼럼] 예고 없는 흔들림, 준비가 생명을 지킨다 - 국제신문",
+      "Link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM09BTVh5V1gwTEc5eEdjNVFlOTdzV3g1ZXlRTlI3bXdrbWduUzE0S2NMenVwMF9GWnJPWWVRek13aUI3cjE4VEZYdTRFVDZzN1JydGxxdFhHVks2VGhIc3docjVLTkdXVXF5Z0VpZmFKOEVTc0FzY2JUOHNvRW8tSENFbE9kWHJSeVNNbGpB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"왜 바다에 버리나\"…ISS 철거 계획에 비판 목소리 - 지디넷코리아",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BVWgwd1NVZEdBcFFIb2M3eFYtWV91aTY2dlE2ZjJVNHBrOTZCRGVJWWpMdFpJRjF2X0tZVXFYUzJWYVBrRWF3SHZkNVJpRHVZYzVBSWh3?oc=5",
+      "Portal": "Google News",
       "Category": "생활/건강"
     },
     {
-      "Title": "영어·스페인어 다음은 한국어···미국 음악시장 ‘3위 언어’ 됐다 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCci1uSlFvY0Zjc3JJX3dmbzhJZ1gyLWNYWExfVEdTM2pITngtVjVjWGRoMXdvT3I4Z3BidWxXZ2s4VGtVZjU3N2poaklLcFhaSG9mR3FnanNfQdIBX0FVX3lxTFBvUVBNclpZelpEcEJYYkU5S2cyRVFMNUVxRF90bmZNWUp2T3g1WFRKSnBzZmxBZ3gxM2hGZGlSRlgweTBzTG9CT01rYWI0LVBmQVBrZ0RsZEdyWVBxUlow?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
+      "Title": "\"미국 우파, 이란에 인식 변화…끔찍하다→강하고 똑똑하다\"",
+      "Link": "https://v.daum.net/v/20260626163600585",
+      "Portal": "다음",
+      "Category": "세계"
     },
     {
-      "Title": "황민현 시선 따라 걷는 길…사진전 개최 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LalRyU3VYamhOUTVFNTFBN3FhWFZEN05OTERqWkcyTjdaUU5xSUZaODgyLVZ1UkduQlNtLWxlcU03TXpodFdORE01alNfbHRMbWZv?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
+      "Title": "창원 진해구, 여름철 집중호우·폭염 대비 안전망 강화",
+      "Link": "https://v.daum.net/v/20260625202500756",
+      "Portal": "다음",
+      "Category": "생활/건강"
     },
     {
-      "Title": "삼전닉스 '호남 반도체' 투자에… 안철수 \"李가 멱살 잡고, 與는 부추겨\"",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938778",
+      "Title": "'한국行 포기 시사' 유승준 \"축구 때문에 열 받아서…\"",
+      "Link": "https://v.daum.net/v/20260626161405833",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "스와치 \"삼성이 명품시계 도용\"…2627억원 배상 요구",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315995",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "‘히잡 대신 드레스 입고 노래한 죄’…여성 가수에 태형 74대 선고한 이란 [플랫]",
+      "Link": "https://v.daum.net/v/20260626113230044",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'서울 수성' 국힘, 당선자 한자리에…\"안주하지 말고 힘 합쳐야\"",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161960",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "[뉴스페이스 오디세이] \"레이저로 우주와 지구 연결…천문학 기반 상장사 꿈꾼다\"",
-      "Link": "https://v.daum.net/v/20260626060203579",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "비트코인 급락에 풋옵션 몰렸다…시장, 5만2000달러 대비 - 디지털투데이",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE92c2lmMHphYW9ualFmemx4QUw4V094QzZWcXYzbjFoanZoQkxfUFp3clRPWE4zT1luZ1JKZkYwVk1SaXlRS1RCYXdrWUdqblYtLTExTnA5NjFZN2xmUjRLeFJERi05YzBub2I3cTBOajJzbTg?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[조한규 칼럼] 영일만에서 `에너지 혁명`이 시작되고 있다. - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9idXZPSEZJbXdSTWdVelc3S1Vwb2staUNOU2MwSDAwN2lhYzFPTHJtSDBjT2xCR2prMXFqUGgtSDdZWHFhR1lpSGdWNzZpUFhVR2N1YkYydVNXS2xjVWFJc1Zn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[책의 향기]힙한 유머 뒤엔 증오의 비수가… - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSaXhaQl8yNXRUVzFUQTlEWHpXOER0OG52N1pHYzJrN05aRVNFTUdHWXlxY29ESmtnVGdlcFR4blFsOGlhZk9ycGdyRWhCTmRWek5FWm1lUFZzTGJFVjBMV0k1SUZtczRqSHpzcmQzNXBTQjE4QUHSAWZBVV95cUxPdGl0X1VlNXMtQzJXcVY3ZDdSakdNRnNuQ3k0dTV6M05GZFY2b2ZlRHVHU0x6blJsU1ZRSm1SblhlNDJ6MmNpT2ZNSzVPWl9KMDg1akdoZGRBUmRJYzRJclk4cmhLMXc?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "LGU+, 생성형 AI ‘휴대폰결제’ 고객에 최대 45% 청구할인 혜택",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002661853",
+      "Title": "​[HR기업 AX 열전]② 리멤버, 서치펌 확보…한국형 링크드인 야심",
+      "Link": "https://n.news.naver.com/mnews/article/293/0000086851",
       "Portal": "네이버",
       "Category": "IT/과학"
     },
     {
-      "Title": "무턱대고 독서? 시사상식을 잡아라 - kids.donga.com",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIUF9FLVF5djJUek43UHZZNGwxaVZLWmIyMFdBaHRsQU5yZE5acVZPTlZUdjEwcm5Db2EtbmQxUTh2WlU4bkFOM1ZPcGNpbGJESTZQQThoT1Y4R3NEaC03NEhJdGJJcFll?oc=5",
+      "Title": "“꾸준히 먹으면 콜레스테롤 수치 감소” 영양사 추천 음식 4가지 - 헬스조선",
+      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EaDlfQlNsY0xSN1NKNWN2VUhPUmFnYUhYLUQyMFBuWVFfcm95ZFJ6bFhZX3hzZVQ1LWRPSDFMdkxMQ2ZCeV9HQ2RvWW56SFhaZkFHdlBrVGxHd3VYYVN4dFFXMEhPbHVNSFF6VlVOT0phY1A3bl9COFZqR0lkTWc?oc=5",
       "Portal": "Google News",
-      "Category": "기타"
+      "Category": "생활/건강"
     },
     {
-      "Title": "현대차·기아, 미래 모빌리티 청사진 공개…아반떼·PV5 앞세워 SDV·PBV 전략 본격화 [부산모빌리티쇼]",
-      "Link": "https://v.daum.net/v/20260626131204886",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "JTBC, 작가 원고료도 밀렸는데…현장 프리랜서·파견직 공고 우수수 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DOXJNV3N0azN6bXpSSGpwRjU1Nk9GbDREb0s5ZUxQajY3TGVWbTJTbWcyT1BOWVVSX0FZTFljY0RVXy1janhJNDNCZGFGejZFam96dDBQb3BlY09MN2FDLVBrNVY?oc=5",
+      "Title": "‘아리스 인 보더랜드’ 무라카미 니지로, 여성 폭행·상해 혐의 검찰 송치 - 스포츠동아",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96LXRCSmdGNy1YWmFNS0tqUXBaU0I5RGdXZ3ViMzVESzE3SGZGX0YxZ1lBanpuWWhDeDltWWJiRUNTVkM5dTlKUjJ5WXZick95Q0FuNE5fcDRDQUlLMDdjemJNSnE4X0RVdThmSGlB?oc=5",
       "Portal": "Google News",
       "Category": "연예"
     },
     {
-      "Title": "[서울뉴스통신 칼럼] 최성호 양서농협 조합장의 ‘금융자산 1조 원 시대’, 뜨겁게 응원한다 - 서울뉴스통신",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1fdUtoUXdiRlhCajZVc2pRVXdPMzhjS1M4clpjNXdhdV9HanAzTVdyUkpqX0o2SERfMmVVVEJyNXRnWHRLa2cxWnZ4UGpwc1NBN3ItRTRma3gwQUdyQk1XalVmaGZfekRJYzBJ?oc=5",
+      "Title": "마이크론으로 시작된 실적시즌…국내증시 상승 조건은 - 데일리안",
+      "Link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPUXdOcV9ISWtOZ1FxNGNjajE0Z18yTWR6NTdVWHVIQVNPYnl5TVJKVzZHV0VlNnFGRmdLdnYwWVhTc3c3M2VvZElMejlmclVKT2pjTWpHMEZFOXBxck1WdGx4SDdsVmdjLWtvU1dJR1JIdGNObFlkNU9TYmhJWG1nLWIwSGktbUl2aDRZS2lKYmYydkw0TF9BcDhQOEtOeVAzYUtjVlU5LUtxWlR0bzdwdzhrdlByRnZqRzdLSlp1ZXNqVnM1NmppQ013aEFhUkFEYVE3SXRKeWlMOGpOdnUyZXRnYk85U0pXVWlwWVhQSkVKWDJ2MjBVLXB0dFM1dEJ1REJfTUlJb1gwRHRONlVLTDRUM2xKZDc0RW5xb19LSkQ5U2VBLWRmLXBBNktnUdIBsAJBVV95cUxQTUQyb2Zma1V4aThia3BuQWhDbDRxVDZwME9BQXlGSW9fMjhEYkdPVURaX2Y1NW0zOTI5UUI0MFBhNlJMOVRXM3g4bVJPSVNLc2drTmRMSUJVZ08zYkRIRlBYNVpEVk5SbU85M2k5TkdKbzh4RFVuNUJrazAtYUtIRnl0Mm8zeXREZ2hPQkR2UXkwR0FCNHJaZmtrd0x2eVVWd181ZEtxd1RTbXFaa0l3WVR3V0pWbEJIQ2pDbUpUOFNaVWlLN19MWkNnM1h3bDg2bE53RllZUGRnek85TEliMGMwamJHYy1aR0ZIcXA5Q20yZFJ5bkFRWWxtZ3pjR3JfR0c5T2ZNNWtaWDlEQU9KaldVZG9NdElTRkluUUlvcW1fdkVtZ2pjdTdERXRRVk1L?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "어? 큰일났다…독일 잡은 에콰도르에 한국 32강 가능성 또 추락 - mbn.co.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ObkhCVFdMLS1nZTVfcWxNemNQUFNmV0ROR25TTmtJX2lveEhZVExxalgzejkzbmphSC0wOVhYRFhQeXB5dzlCZnZOY1cyODVNbDNZ0gFMQVVfeXFMUGhPSUtreXFPUGx3bXgzZ0dsaERtWHlCRzV6TUpOTHN6di14Z3NUSTBCX1hxOWNxVnoyMF8ybmhuM1lGOXhNdHYtejZ6TA?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "\"피케이멜즈, 파킨슨병 치료 연속성 유지 핵심 정주 옵션 의미 커\" - 메디칼업저버",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NQnZmU0xLRU9md0w4N3lDOWIzd0RPaWF3YjZrQ3Y4SjUwVEVpYmZMSTN3THpyQldfTmg1bjdWTTEzWW1lZXVNTzQ5OHFJcURndlBRUUNrN2lTamVIVF9MVmNOWWtJdUVSSHFv?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'홍명보호 탈락해라'…'와일드카드 경쟁' D조 3위 파라과이 승점 4점 획득, 호주와 무승부",
+      "Link": "https://v.daum.net/v/20260626130030371",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "6월 3일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uc1VTZTV5alNjRTFUa0tVeWZSbUhWcENQdWxuVElEdGduWmU1YU90LTN6SXc1V1FJdzZObWlYZFhwME1wRTJ0TEtESXhoakFjTW9uczBlNUgwWHRTRmdlMGx3?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "Confused by the new COVID vaccine guidelines? Here's what you need to know.",
-      "Link": "https://www.yahoo.com/news/article/confused-by-the-new-covid-vaccine-guidelines-heres-what-you-need-to-know-183705404.html",
-      "Portal": "Yahoo US",
+      "Title": "호남 반도체 비판 토론회, 기업·산업부 불참..\"李정부 압력\" - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82WWY2SjZ2R1poYmlpSXRpWUplbDNRTExHM28yNl80MlpQeFRWREpzd29sYm5fV056aVl5SXRoYXR6cWdrVk4yM3NCQlQzekU?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "[르포]'1.3조' 성수4지구, 갈등 끝 정상궤도…'대우 vs 롯데' 누가 웃게 될까",
+      "Link": "https://v.daum.net/v/20260626154003395",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[이충재 칼럼] 이 대통령, 지지율 회복의 조건 - 오마이뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vOGdmXzVITlJRYzdrVHdOM0ZDTTBzSzFNYXNFM293OXpDZGpQdHljUTdsUno0WWhfUDZteGRvc1piY1hIeVpxNEJSNWpYLXpPd1E1LXM3NEVYZmpPT29YTVRobWZOdXg5bGhKZHNVbUtFUDJXVExn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "'오겜 깐부 할아버지' 오영수, '강제추행 혐의' 4년 만에 무죄 확정",
+      "Link": "https://n.news.naver.com/mnews/article/417/0001149227",
+      "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "메모리 품귀에 아이폰18 프로도 비상…얼마나 오를까",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428166",
+      "Title": "혈액 DNA·RNA 함께 보니...알츠하이머병 환자 구분 향상 - 병원신문",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wVTBnTXNlUGRkY3BDNUc5TlRWa2lFQlBQMmtJbTBpZFpXLTl1R3NNMTJNbTBIRm80dnRFTDlFUmpTOWxOdTg5UnJiLWRaajE5NFdmYnFUOURycUVxVFNjT2diQzh5QkhlNVE?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"썰렁하다 비웃지마!\" 아재 개그, 뇌를 깨운다고?…스트레스 낮추고 뇌 건강에 좋다! - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41LVVyNlA0Rkh0eTd4WE1sMkxZV3lQVUktb2t2d0RHZlBvU01vUGFXS0owVF91TFVVVjFJTjN5TmRQWERCS2xQaHRpTUtnWm1PV2VF?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[칼럼] 사람 바꿔도 반복되는 문제…책임감보다 먼저 봐야 할 ‘시스템’ - 산경투데이",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CVzJxcmJWb2ZnOVd3S3FwbEpnUGdPV3MySW5xdGJtaVh2eDhOV29ZWEZ0bFFtbGR5anJWSW5ERTAwbUVpVTNJOHNJWi1Kd1BwVXhNV2Q3bEJfQnBlZndUVnlyNjhpUy1nMnlXckE1dTPSAXRBVV95cUxPSExTZUFYVFJlbzFuazJaUi1OUDNIWU42eUdfUGR6QzBpNG1pRm8xamtIcVNwN1dGZThXcC1yWVpoamliRnpaQU9sZXFTcFNGb1ZUdjdvVE1lY1NxdVJWQUpYVHVBV0lFSEpIUVAybS03cjNadg?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "공공기관 해외거점 통합 본격화, 핵심은 수보다 실효성",
+      "Link": "https://v.daum.net/v/20260626155718116",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "메타, 전직 페이스북 임원 폭로전에 법정 공방",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428235",
       "Portal": "네이버",
       "Category": "IT/과학"
+    },
+    {
+      "Title": "美동아태차관보 “韓의 전작권 조속 전환 의지 이해…조건 충족되게 집중”",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729703",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "[마케팅 인사이트] '무신사 vs 지그재그' SNS 디스전…비난 대신 유머로 '고객 웃고 매출 늘고' - 반론보도닷컴",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6VjI4QjlFWWJkbWxXOUZTSVY2UGpNMnliQ2thazJHcTRRM2xUdENlTzFabm1QVXNnSzFVRUs3U3VPbGpNSnQ0VXc5S045WjhWU2J2ZzlSZzc2WW10MDRVUUlVaDlpNFd0dy1VWNIBcEFVX3lxTE9FeU45QXpIclJNOXZhcEdmMjVOcXdBRko5amdCaXZwenhISmdXRVNtVXlRZ2xZV0xEQ3NuU0Jzb2NrcDFBMzlULXJKV2d1Nk5QaWR3eGgteWlMZWU1NVhXb3RTV3YzTlZQYmR3ZlpNeDg?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "엠게임, 주주환원 보폭 넓힌다…또 자사주 매입",
+      "Link": "https://n.news.naver.com/mnews/article/648/0000048387",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2025년 12월 셋째주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNaExZSlpWdXgwR3dTMjh4ck4wQ0d6T1BWbmsyT0tmU0ppRnVmbExpMTNJRXFid29PMVBuMzI3WDlzTzVidVNBOWpOSDFFMGgzSFF2RGhyeWxVLXJmMUtSMFlOUXl3MnlfN25TcFJB0gFyQVVfeXFMTTFxaHZ6NUlXTVktaXUwZ2pOWlRqY1N1a0xHeFdXNWlFcGlWeURsdE85UUNjdkpDcm1lQUYtXzFRUGJjaEV4MnFNNHkzZjRjTjRETHJfMmV1eHlXQU1hYjB0M3JicV9vR29HUDZaMHM3Slln?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "‘취임 후 최저’ 李 지지율 51%…與 41%·국힘 27% [한국갤럽]",
+      "Link": "https://n.news.naver.com/mnews/article/024/0000106501",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "檢, 이화영 '무죄·공소기각'에 불복 항소…'술 파티 공방' 2심으로",
+      "Link": "https://n.news.naver.com/mnews/article/586/0000132495",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "펀딩 목표 8400% 달성…'심슨 덕후' 가슴 뛰게 할 대백과사전 나왔다 - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3dHVFSUdJckxBdWtyQW1UQTZIZU41QTdDZ2NjdVRhWm96UjR0NTNfYTVCWjBXUlAybFB5aXNUNWdQbU1qREVyOEVnS1VNcWJ6dDU4?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "3m 높이 트럭에 ‘테트리스’ 하듯 척척...택배 상·하적 로봇 개발한 美 스타트업 가보니",
+      "Link": "https://n.news.naver.com/mnews/article/023/0003984296",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "대한항공, 합병인가 넘어도 과제 산적…아시아나 '적자 흡수' 돌파구는",
+      "Link": "https://n.news.naver.com/mnews/article/293/0000086864",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "KT, 4년만에 클라우드 다시 품고 'AI 인프라 회사' 체질개선 시동",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005781383",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "체중계 숫자의 함정… 엉덩이 처지고 배 나오는 ‘가짜 다이어트’ 특징",
+      "Link": "https://n.news.naver.com/mnews/article/346/0000111948",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "‘법사위원장 이견’ 여야 원구성 논의 공전…“이달 절대 못 넘겨” vs “마지막까지 반대”",
+      "Link": "https://v.daum.net/v/20260626172547264",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "김준수 측, 외주 PD 절도·코인 탈취 논란에…\"개인 범죄일 뿐, 아티스트와 무관\"",
+      "Link": "https://v.daum.net/v/20260626170016329",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "중년기 이후 젊은 뇌를 원한다면?… 40대부터 운동하라 - 미주한국일보",
+      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81cUJiYzZCZnI1c3NXZktzNnN5NjdTTGNnV1prbGRhdVAyeC1Cd1llRzh5M1lYN3JHbmNNVlNmX21FLUpXNUtTa0VTanB0WVAzS01BeUhZVVJMU0ZxVmQ0?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "김무열 \"'참교육' 글로벌 1위 소식에 윤승아 안고 오열\"",
+      "Link": "https://v.daum.net/v/20260626173058422",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'가석방' 김호중, 두 달 전 팬들에...\"어떻게든 다시 일어설 것\" 복귀 의지",
+      "Link": "https://v.daum.net/v/20260626163016376",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "카카오 노조 \"29일 로그아웃데이 예정대로 진행\"",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428218",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "San Diego-Tokyo flights to become daily due to high demand",
+      "Link": "https://travel.yahoo.com/flights/articles/san-diego-tokyo-flights-become-050751322.html",
+      "Portal": "Yahoo US",
+      "Category": "세계"
+    },
+    {
+      "Title": "한성숙 오피스텔 공방…野 “미용실 원장 특혜” 與 “억측”",
+      "Link": "https://v.daum.net/v/20260626172851356",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "홈플러스 직원·협력사·점주, 국민신문고 통해 정부 도움 요청",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161506",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "'K-팰런티어' 키운다는 정부, 규제혁파가 안보혁신 출발점 [사설]",
+      "Link": "https://v.daum.net/v/20260626172104141",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "국힘, '호남 반도체 투자'에 \"사류 정치가 일류 기업 팔 비틀어\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030147",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "육·해·공 모두 반대하는 사관학교 통합, 백지화해야[사설]",
+      "Link": "https://v.daum.net/v/20260626114032451",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"AI 서버가 부품 싹쓸이해서\"…애플, 공급망 압박에 맥북·아이패드 기습 인상",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232154",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "[사설] ‘삼성 팹 이전 없다’고 정부가 밝혀야 한다",
+      "Link": "https://v.daum.net/v/20260625030536523",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "추미애 “AI·반도체로 경기도정 도약”…부동산 세입·정책 현장 점검 주문 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9xd1dENWZfRHAyRDBzTVY3X3NweWpWWVpZdVJxcUw0VWJYWU5oeGthOXhScm9QTExtU0FPaFdxUzBnOWZmVnRsLS12ZE5hcXM?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "軍, 드론사 해체하고 ‘국방드론본부’ 신설…정찰·자폭드론 2만대 확보 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV1RCOU5RZjdJeFhoNUtNd2I0dktCcGtrRzZseTZwQWtmQXhoX2I1LVp0Yk5KXzhzaWpxZFUtR3VBZVlTMVAtODNmc0x1dHZNM0RkRmNrV01NNHlwTk10MWoydU1hOFR5Q2Q1dGwzT3BPRjFlcmZLN0dBVjJ1SGlGUlFvY0Z6OGo1QUQwOERLRWY1dw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "美국무 \"호르무즈는 특정국 소유 아냐\"…이란 통행료 구상에 경고",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014029864",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "경실련, 부동산원 '주간 집값통계' 폐지 요구…\"매수심리 자극\" - 한국부동산뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iUFlaNGh2NGdtbzBPOWphSXpETjBhSnd5MDdJSGk4bU9xZkpxenZid0FJa2hHZ0NxcEdKVmhhM0xSSUI0M2JJSnBsTktCN0JxdnpxY1pSZXd3b2RId1NCU19qd0FpaW5tcjhV?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "세븐틴 조슈아 유네스코 연설 “청년들 다양성 존중받으며 성장하자” [현장영상]",
+      "Link": "https://n.news.naver.com/mnews/article/056/0012206921",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "이 대통령, 6·25 기념사서 \"강력한 국방력으로 평화의 한반도 만들 것\" - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LVmVXaEpXMWJmV0Zlb3FCTjdLTjF5bk01aHhMM2s3TXlLclRNblpadFd5aXZXVEJwaW1fS0VWVjg5d1hrX3Y1RUtXZ3AwMUtQVThDMV9aRXl6R1BPT0FjMGgzWUpaaXhfcnRwTWtwYjdpX1VCYnp4c9IBeEFVX3lxTE9GakpGS3R6YUl1XzJlS3VMaEpqZ3BtTWZCWkUtT2p5UmUxT1diNG1SSW1FOHRzMTlmQUFxM1g3RkNNNDFISDVJaHJxX2hVODRZZ2pPU2EwZ05PR2pBbVJKRUwyTnZTRFcza1IxOXFNSG9EbDJzLTVGNg?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "[양성희의 문장으로 읽는 책] 헤세의 ‘고급유머’ - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93SnpzUEVjVGd0cHhDTWstVWdqNkRTUGJhdzF3VXl2MzFoOUNZZlpWa2Q3ekxwTmZRUzJKQ2VoMzFxRmpIazVKSHBlQ29ZOW8?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "뜻밖의 주장 \"손흥민 이미 포기해 버린 것 같다\"...그 승부욕 많던 손흥민이 눈물조차 흘리지 않았다 '팬들 우려'",
+      "Link": "https://v.daum.net/v/20260626152807812",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "'하나 코리아' 김민하 \"실존 인물을 모티브로 한 영화여서 소중히 다루려했다\"",
+      "Link": "https://v.daum.net/v/20260626162918341",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "스페이스X, 소비자용 스타링크 출시 계획…美 이동통신시장 흔드나",
+      "Link": "https://v.daum.net/v/20260626173057421",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "김원기 의정부시장 인수위, “CRC 관통도로 사용료 즉각 면제”",
+      "Link": "https://v.daum.net/v/20260626173243490",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "국가유산청, 한센인 삶 담긴 소록도 유산 보존 나선다",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030070",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "SK “딜 무산 아냐”… 두산과 SK실트론 매각가 이견 조율 중",
+      "Link": "https://v.daum.net/v/20260626173416548",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "4월 출생아 18% 급증했지만…“저출생 터널 탈출 안심 일러”",
+      "Link": "https://v.daum.net/v/20260625120007061",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[월드컵]한국, 32강 경쟁 6위로 하락...호주-파라과이 0-0 비겨 승점 4 - KBC광주방송",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SdWwwbUYzUVZOV0tfUDJPRjJqVkstbXVoVFNLVGtDVFY2NEd6ZENqRG1mWkhtdHFrbFdFWFlSX09TX3B1WjNZVkoyMzNwNDE0aTVXaWtrYVZnNjZXSXJRZVpB?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "‘임신 중 불륜’ 홍서범·조갑경 아들, ‘사실혼 파기’ 1억 소송 항소심 결과 나온다 - sportsseoul.com",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41WkJnUjhHSFJjalVTSnFXLVhaSlNKZEw4NmtZSE14Tjc0WUlKb3JNcjdDZ3c2T1ItZHVuaUZjV3pzMTZuLWItczctbV9CeHV1SnRjMTVnV2k?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "[정치 ON] 목걸이·시계·그림...'매관매직' 김건희 1심 선고",
+      "Link": "https://v.daum.net/v/20260626163725649",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[사설] K-농업, 물 들어올 때 노 저으려면",
+      "Link": "https://v.daum.net/v/20260626050204935",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "'불륜 논란' 홍서범·조갑경 아들, '사실혼 파기 손배소' 항소심도 패소",
+      "Link": "https://n.news.naver.com/mnews/article/448/0000622495",
+      "Portal": "네이버",
+      "Category": "생활/건강"
     },
     {
       "Title": "[칼럼] 의료개혁은 왜 반복해서 실패하는가 - 청년의사",
@@ -4753,38 +1789,548 @@ window.LOCAL_DATA = {
       "Category": "기타"
     },
     {
-      "Title": "\"조정 오면 더 담아라\"…코스피 '1만5000' 파격 전망 [분석+] - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56VGg2akNjaUdIcEpza2ZpeU1JWnlYSjNDbmZZQVRBc2JJYzM4Z0JlZHFfM0dLWVhDSExmR0RiSXhxVlJ5ZmMySy1mRFF0Y0d0THpmMVhwRk4yZ9IBVEFVX3lxTFBWTlJyRkMwSmIzSER2TnMtX3ZuazBVaElZU3dCV0wzaGgwUkY2Nng4Ym45Z3otRTlXMEZ3a0FvMnRtN3dDQUQtZ1NFWXN6Y1hGRmJLTw?oc=5",
-      "Portal": "Google News",
+      "Title": "[주간 코인플릭스] 26년 26주차 암호화폐 상승률 1위 '딕시'",
+      "Link": "https://v.daum.net/v/20260626110918813",
+      "Portal": "다음",
       "Category": "경제"
     },
     {
-      "Title": "에이티즈, 무더위도 집어삼킬 뜨거운 에너지…오늘(26일) '골든아워: 파트5' 발매 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVkdjNEFualFIZGpBcG51WUxhMnNZMXZEelg2Q0UwSFpkaUdBbVlOdG1HbTJwQVhNcDJxX25TMkROb251NjREOGJKTFBaSW5nY01sXzVCVUlhTzFqMlQyY2lFNUQ3amtmRVlibHZaWVAzei1jUEhBbnFZYUI2dGxVMmdRd1JOdGdaLVRIMDkzMkdadlnSAacBQVVfeXFMTnl2MTNkZU4yZHpkalo2cUtyd0VDbUtCTENHYWNfRktCcDl4OW9tODNOeTFtMUJGbEJwWGdtNXFadUtKODU3YzdaZnNqSTdmNGdGcTBHSHFOZGFNd3gyRFpMeUFnX0RENFJ5SkF6NHpHZzdseEYwUHplSGl1T3Z6Q2M1cWJnd25hVjk2RkM2UGl2aUVvZjg0VEhqeGFIYXJ2ZENDLVVmOXM?oc=5",
-      "Portal": "Google News",
+      "Title": "안서현, 볼하트 귀요미[★포토]",
+      "Link": "https://v.daum.net/v/20260626170120380",
+      "Portal": "다음",
       "Category": "연예"
     },
     {
-      "Title": "[이종혁의 투자] 부동산 '쉽다'에서 '닥공' 전환 - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMkpRbC14Si1aS3VJaW10cElDMDBMalg4ajhCQ092eEtjQ1dHRzhyN1lubUpQQW9wRXJVSllFcFBTckcxN1Vmb1VsOXJLVVdrOW1YVlZYVGVhZ05USmVDY29mSmFmUkJlRmpFNDhYdEE?oc=5",
+      "Title": "한성숙 “'오피스텔 헐값에 매매' 특혜 주장은 억측…가족 증여 문제는 달게 받겠다\"",
+      "Link": "https://n.news.naver.com/mnews/article/087/0001201599",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "\"지구 아파\" 에어컨 거부 프랑스 돌변…역대급 폭염, 대선 흔든다[WHY]",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377720",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "손흥민 벤치 지킨 남아공전, 관중석엔 손웅정…유튜브 영상 속 '굳은 표정' 포착 - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xOXNhdlA2V21fa0h5Vm9JdV9ia1dkRnZKNFpVOEhtam5WY3h0Q2ZfQnl0YVZoLW9rLXZfbWx2VWhMeDJRTEhNNVgxMG9QOFZMdlVtV3J1QVR5TkllN1JNSA?oc=5",
       "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "회생 신청 후폭풍…금감원, JTBC·중앙일보 회계공시 들여다본다",
+      "Link": "https://n.news.naver.com/mnews/article/015/0005303257",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "[여성뉴스] 메리놀병원, 산부인과 김동휘 과장 부임... 부인암 및 부인종양 등 여성질환 진료 대폭 강화 外",
+      "Link": "https://v.daum.net/v/20260626151112102",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "웹툰 다음은 웹소설 … 드라마 새 금맥 부상",
+      "Link": "https://v.daum.net/v/20260626171800027",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "민선 5기 세종시정 핵심 과제 ‘응급·중증 의료체계 확충’",
+      "Link": "https://v.daum.net/v/20260626164549889",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "카카오 노조, 29일 2차 파업…\"하루 업무 중단\"",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878821",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[사설] 경기도 위원회, 예산 절감과 통폐합 동시에 가야",
+      "Link": "https://v.daum.net/v/20260626030405371",
+      "Portal": "다음",
       "Category": "기타"
     },
     {
-      "Title": "[날씨] 오늘은 다시 초여름 더위…동쪽엔 요란한 소나기",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367566",
+      "Title": "대습상속의 함정…패륜 자녀 막아도 손자가 온다",
+      "Link": "https://v.daum.net/v/20260626060116532",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"사도 되나\" 불신 지운 중고폰 인증제...1년간 47개 기업 획득",
+      "Link": "https://v.daum.net/v/20260626172402210",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "“손흥민 벤치에 앉힌 건 심각한 의문”…월드컵 지켜본 앙리마저 ‘쓴소리’ - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TaUF5VEVaSWw2T1ltMVE0TDNLYWUyZUhISmF0ZDRLR1ExWHg0NFkwazdTT2pqcUluaE5kWXo3cXhzSlVoOE5WUFFSQkU5Nzd4MlE?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "도깨비의 이야기를 파는 개발팀. '망량기담' 개발한 '망량상회'",
+      "Link": "https://v.daum.net/v/20260626134501856",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "빗썸 사회공헌 브랜드 '빗썸나눔', 상반기 30여 차례 봉사활동",
+      "Link": "https://v.daum.net/v/20260626172004112",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "사진가들 사이에서도 소문난 능소화 맛집, 여깁니다",
+      "Link": "https://n.news.naver.com/mnews/article/047/0002520664",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "The U.S. cricket team just advanced to the Super 8. How an unlikely lineup of 9-to-5ers is making history",
-      "Link": "https://www.yahoo.com/news/the-us-cricket-team-just-advanced-to-the-super-8-how-an-unlikely-lineup-of-9-to-5ers-is-making-history-011404225.html",
-      "Portal": "Yahoo US",
+      "Title": "“고위험군도 늦지 않았다”…‘이 식단’ 치매 발병 위험 최대 30% 떨어뜨려 - 농민신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZNk83X0dRejBwM3EySnd4Skl4WjB6ek0tWlB2ejVFeVhJVUo0QnpSY0dwNFMza2RLWUhTYmY2dlN2Q2NWbFlYaXlXOEFQNUdHdFkwb3VZR1JHZw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "SGLT-2 억제제 암 예방 효과, 기대보다 낮았다 - 메디칼업저버",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XeFFRUmlpSkZsLU5wNEZOOHFnSFZuemhibmhuUHZUNnhiUnBCUjg0NWtWV2lLYWotMkZESDdIdUNUTVRnT0N4Y0VzdzlmNEtQaWwyblFIVW5uWUhZMDFPVnMtOV81NzVPOGtB?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "F조 3위 스웨덴에도 밀린 홍명보호…32강 경쟁 5위 - KBS 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhbVJUc0tEVGRzWExLdk0zQzB2Sl9GQ2ZCUnROV3hlbnVBQWRjYnVzZ2hsSGlyOUlTM01DdFBMNERvN0VTZGxMcTgzX25mRFR2UDZ0TGJ4bWpBQjg?oc=5",
+      "Portal": "Google News",
       "Category": "스포츠"
     },
     {
-      "Title": "한국부동산원, 정비사업 조합운영 컨설팅 추진 - 한국주택경제신문",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYdy0wSHA5VFZCeHBKNldmamZsNjNIWnhYYXJTa2d0NTZHR1Z6ZFdEeXMtNnFfYl90RFJJQTd6RG1tMk9qQW5qRHAzR0pNWUlvcnRIRDQycjllN2xVXzFGWVFzcEc4QVdO?oc=5",
+      "Title": "신두식 칼럼 '살다보니' | 욕심(欲心) - 나무신문",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKNUhwS2dzMUEyaUQ5eWZqekN4S2lsZFRidU9sSmgtVE5FTG9lNTZhWjZ4NldjeGh3b0V2T3VMNDZfdjhZcXhvY3Y0Wks1Y29tSkdXaU9ZYWZ1V0ZVbU5mZzQ0VGkwcVJ6enc?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "BMW, IX3 내달 6일 출격…플래그십 전동화 시장서 질주[2026 부산모빌리티쇼]",
+      "Link": "https://n.news.naver.com/mnews/article/030/0003441697",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "Micron is looking to end the memory industry's boom-bust cycle",
+      "Link": "https://finance.yahoo.com/technology/article/micron-is-looking-to-end-the-memory-industrys-boom-bust-cycle-193630909.html",
+      "Portal": "Yahoo US",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "'깐부 할아버지' 오영수, 4년간의 법정 공방 끝…강제추행 '무죄' 확정",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377771",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "정점식 “‘보완수사권 폐지’ 정부안 미제출, 국정 책임 포기”",
+      "Link": "https://n.news.naver.com/mnews/article/081/0003656103",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "IBM 1nm 이하 반도체 길 열었다…트랜지스터 위로 쌓는 0.7나노 기술 공개 [팩플]",
+      "Link": "https://n.news.naver.com/mnews/article/025/0003533220",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "한성숙 청문회서 부동산 공방‥\"미용실 원장에 헐값매매\"·\"억측\" - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQVRuWjR1QkhWbEw2bVRzcHVhb1hfYm5NcTVwVEVUYnRwb0FtQ096U3FYM3NycWY3TlhsaUxLcjdpM1ZlcVo1V3RSMXJya0pBZkNhZU1HczUxdHFfNTVuYlU4eFo4YVZtV0xiZThGb2tlOExwcnE0M296aFN0S1YzSjZIcVdQNGJsQTJoMURzMEFrZzFTaGNxOUhGMGJWN2V2N3kyNXdNa0pOMnpIYnpRcjN0VHlKZjJWWXNTMmtMNHHSAXhBVV95cUxQVWRLZks3YU9qcTFudndqaU1WWFNFVV9qeDd1bHluLXFWbE1QbkhGZE82UmlGSzhMcFlEU0U4cmttb29od0xfOWJOY2RNLXhUZllIa2FJaXdiMTFWX1JXakxtOTRFVzc4cFFxb3ducFJ4MURVcFFHNkE?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "엔비디아·테슬라 만난 'K-피지컬 AI'…실리콘밸리서 협력 논의 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QOGxQZFYwSHNGaWhKb05rMlNNNmk2ZnRfbWRQdm90LXgxZ05mVXE2ZWhhNzNqZklhVS1zZklzUmxrRkxncUZxbmxKUmJ3ZzJhM1U3NjdpUExid9IBVEFVX3lxTE1hZ2FrWHZkalhZWDlSTG9VR3Nib1U5Y3pjZEtYN016alZnZVVmVmhlalA0NTVnVnhOcDdjZW43R1I4c042SkpZMEpZTklfTy1hUUx2Xw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "6월 10일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hVkVLODQ1TnZsLVdCSlRHTS1MbWZ3Y1QwZGJfaVhpYnhiaW1BQUJfd1NWLTBmYVhSWFZvUk1qckpCWFJ0WlI2VTR5cDB4Z1F5U01EN0N6ZEVQV0VwcUo5YURB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[속보]유가증권시장 1단계 서킷브레이커 발동 - 전자신문",
+      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1jclJsYmRtNzRlcENoMHprT1gtNzJzQzl0eHhzS2d1OXZlc1JWU0QtMFpBS0V3UzNqbmVEeVF2SFZaRXZnM3prOGdJa1g5QQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[책을 읽읍시다] 자유주의자의 그람시 읽기",
+      "Link": "https://n.news.naver.com/mnews/article/014/0005540198",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "(방종현 시민기자의 유머 산책) 그늘집이 있는 농장 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yQ2s3V3Qyd3NMODhyZS0tR3BrRjZFU05wX1VLM1BNV0kteXpWSG1BeUlHSjd4MWhvSkxGQWxDSUpUbHhhUkFwLXdjQ2EzNHM?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[비즈톡톡] 엑스박스 가격 또 올린 MS… 게임사업 부진에 새판짜기 본격화",
+      "Link": "https://v.daum.net/v/20260626171416908",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[이슈] 비트코인 6만 달러 붕괴…금값도 4000달러 아래로 - 폴리뉴스 Polinews",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fMUhZdnNkREZWbl8xUXllU190Yk9fS2V6aElxRmU5WW9NMHp6RGxEdjc4enZwUmVodV9WWjBvcjVKd2hXMXl0RHl1bFFULVRHNm5tQVJ3WW8wOGxJWXRwaGtYS1FMUndFS1FXT3ZR0gFyQVVfeXFMT1otR2VpZGNLYUMycXNsTlE4QjZWT2lTQi0yeXU2ZXhZUk1qSERSbXBXYkl0d29nRXpmVUhfVDcyQnFISjhaZGd3S25La1c3b0JsLVp4NUpEQlZ2bVNzSEdEX0hkajREWVZhSUducjc3Tnl3?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "“우크라·이란 전쟁이 바꿨다”… 인도가 무장 드론 키우는 이유",
+      "Link": "https://v.daum.net/v/20260626111051885",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "‘휘황찬란’ 8세대 아반떼 데뷔[부산모빌리티쇼 현장]",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729709",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"그냥 여행 가도 14만원\"…7월부터 5배 오르는 日 비자 수수료에 中 '발끈' - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KOUtnLWw5bzl2NGh3WDNPSlNEMUEtZDROYVg2UVRrNlFCQVlYN0lSRmFlRXA1ZENwMjdDMkZ5aGNNckZfbW5pX3J0TTF2b1Byc1pfaGIwRTJzZVZYOU9hLQ?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "'강제추행 벌금형' 유재환, 활동명 바꾸고 혼성 밴드 '로즈'로 새 출발 - 파이낸셜뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zUzFxcXhlSnFWcWJGbHFoaXBST1dIVmJRLTZNTWp3eElWMnlWYlJVUUp4UnNadzkySFBfNnNTaDcxTEVsUVNUUVVFendyRnA1bTFSUmRHaDBxQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "귀걸이·목걸이·브로치·그림·시계…김건희 '매관매직' 1심 모두 유죄(종합)",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014031074",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "베네수엘라, 최악 연쇄 지진에 수만명 행방불명…'골든타임' 앞 필사적 수색",
+      "Link": "https://n.news.naver.com/mnews/article/082/0001387210",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "청년미래적금 갈아타봤더니…수익률 11.2% vs 8.7% - 비즈워치",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OTHVLRXJKZEJ3M3pfV0pjQVJJVVozTnRtZlZBYjNpcGRwQzFLVjRKYTMzMUFuTGtsbkRRamh3T1pTa3NyTGxwOTBxY1VwdkJfREVWTVZsSU9PRU90MXRKNGFFbkVUNGcydnRB?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "베네수 강진에 실종자 수만 명…맨손으로 잔해더미 확인",
+      "Link": "https://v.daum.net/v/20260626164816982",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "스페이스X 의식했나…오픈AI 상장 내년으로 미룰 수도",
+      "Link": "https://n.news.naver.com/mnews/article/437/0000498154",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "[속보] 법원 \"김건희, 알선 명목 '반클리프 목걸이' 수수 인정\" - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11YnFUNXF6YWdIQVd3ckI3WjF0OWJha0hwTGVUaFBjbnhyMFBwNEtES1RVYmJCWHhyZG5vb2VSTVFWQU0wTDk5eEVvYlBfd2FsYlVVbFB0WmQtZFXSAWBBVV95cUxPS1hrSnNGMmYyRDEyR2tQMnpvOEtqS2pHMVRnWXM2eGRDUF9yMlNtdU1qdms5NXVIeXVIanF1c1B2bTJ3Q2VDYjZnbDVYTkh3YTN5ZWEyRXhBOW1waWM5dFo?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "[현장] \"독서가 일상인 밀리하우스에 놀러와\"…10살 밀리의 집들이",
+      "Link": "https://v.daum.net/v/20260626133915690",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "美 세컨드 레이디, ‘8달러’ 산모용 드레스 영수증 인증… NYT에 유쾌한 한 방 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ09ucHphdlI1M0xJZk4xMXFSZlNBQmJfdW04cjJVTmZSWkhoSUl0R1I1X1hpcC1fUHIyTEd1MXpqeVJSeloxTXBoTEpmZ1JRajZaZTNicFhjcmRFcEh3Qk5Hek5NdnotMjd6UE40V05Hdm9VZTlmOVZoUXZlOGY0R0drLVU?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 02월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4OENKNVl2SjZ3dG9CRUIwNTU0LWdVU1paVm1oSTFKdjZ0Slp1MUFFUERLNDVYTFZTNWVxTWVRVjc3d3gyTWFQS2JUQXR6YlZEZnNYMjBZY09RakRaNWtRRzNIeEFjdXVGNVdpMXNn0gFyQVVfeXFMUEFuTzRkV2Q1RUlpbzM2RS1xeUJtU3l5NTh0bWlWWEZQdS1ONWdSdEJGbklvMVE4LUQ0Zm4wN285SVhhSTBqR1pkdV8tY1g1T2EwdWUxNFA2MkNOR2tzbWVtYURQdFFkd0l5a1hRUFNSR3NR?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "2022년 즉위 찰스 3세, 개인 소득세 600억 납부…“왕도 세금 냅니다”",
+      "Link": "https://n.news.naver.com/mnews/article/030/0003441712",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "푸틴, 최악의 약점 들켰다…나토, 러 비행장 통째로 마비 노린다 [밀리터리+] - 나우뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qWG1IbmdBMlAwWXFaUng2RUg2R3VoVzQ4QmFib0hVbDNFMkQwY2RYdkt5QU5jeGZIbnlxU0lkLXAyT21XN3Z0amdUbUo2dFJvUVR3QThfUnZHckREek5YYjIyVHY4NFhENVB6TFFpTUE?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "BYD코리아, 첫 PHEV ‘씨라이언6’ 3750만원 파격가로 승부수",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428207",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "폴란드판 살인의 추억? 밋밋한 과유불급이 아쉬운 '악의 색깔: 블랙'",
+      "Link": "https://v.daum.net/v/20260626164602896",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“피로 때문 아닐 수도” 하품 자주 하는 사람이 의심해야 할 병",
+      "Link": "https://n.news.naver.com/mnews/article/346/0000111951",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "8척 또 나왔다…\"무료기한내 전부 통과 가능\"",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878852",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "무턱대고 독서? 시사상식을 잡아라 - kids.donga.com",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIUF9FLVF5djJUek43UHZZNGwxaVZLWmIyMFdBaHRsQU5yZE5acVZPTlZUdjEwcm5Db2EtbmQxUTh2WlU4bkFOM1ZPcGNpbGJESTZQQThoT1Y4R3NEaC03NEhJdGJJcFll?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 01월 마지막 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1nN1ZHR1lpOTZValVXbWdZU2ZCdHo3S1UyMm0xVHB3bS1HWExJaGNlRG93eWlnWWNLaE9fOGJ6dmdmYW12Zk1qMDRCcldNTVZ0RDNQeGlVaXNrZ2VfY1N5LVFRM2JXWWVmV3RBdmlR0gFyQVVfeXFMTWhUNDFhZkY2dzVLSmJsQlhjaFpRblh5SXNyMHdOaHNfX2N6c2ZpYWo2S3hMVzJrWlA3ZmpNa2diLUR5a0w4MTcwMGpObmNpVHQ1cTVpZ2toQ0w0YVRNOW5uaWx0ZmNSZl9LaXgyZzdkeWVB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "“SK하이닉스, 나스닥 상장이 기업가치 20% 끌어올릴 것”",
+      "Link": "https://n.news.naver.com/mnews/article/030/0003441731",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "韓엄마·흑인 아빠·백인 아내… 내 유머 비결은 ‘가족’ - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRFJ2aEYwcDNReWFRUnJpbExBUmd4QTRXaTR0SktlR2xpQVU0Ry14NmhsOXJkMTJLMU5ENHhKRGZQNU1vaWZ6Z2VvNnRVbXhXMGNreFV3THViNXNvbl96ek9GM0E3MTNwcm9EWnlOc1RibXZJdHd5UjlKcEVIeWk5di1FenVCS3puclhPaG4yWk1rYWJCYUxQNDd3WlhOUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"결국 14년 만에 각자의 길\" 7살 나이 차 극복 못하고 결별 발표한 톱스타 커플",
+      "Link": "https://v.daum.net/v/XRE5H5qF9S",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "#황인엽 시크하게 생겼는데 귀여운거 좋아는 여우",
+      "Link": "https://www.daum.net/video/v/s0mbtrg471eb2bd4",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "어디까지 버틸 수 있나요? 영역 확장하며 버티는 생존 게임 '코드램프'",
+      "Link": "https://v.daum.net/v/20260626130001345",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "리츠협회, 부동산 자산-리츠 투자자 이어주는 플랫폼 개설 - 연합뉴스 한민족센터",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hMUlXaG1URGVUeWM4Yk1GYUt1RW1CU2Q2YmhUbGlEMzczNWVIOXdySGVSZFg0ejlIMUYwU1Z0MWRJUnZheWx2Q05Iemp6TUVKQnRiRUdkcTI5Vldzdk5VY2pHQk5ibE1pcV9QdWtOS1poeWpV?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "보완수사권 정부案 안 낸다는 金총리와 공직자의 책무[사설]",
+      "Link": "https://v.daum.net/v/20260626114346545",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "애플 이어 MS도 가격 인상…\"메모리 대란, 소비자 부담 본격화\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030740",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "아이돌 챌린지 유행인데⋯알고 보니 'AI' 노래였다?! [솔드아웃]",
+      "Link": "https://v.daum.net/v/20260626173107431",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "스마트폰 허용에 월급 오르자 … 군장병 온라인도박·빚투 노출",
+      "Link": "https://v.daum.net/v/20260626173025407",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "엔비디아·구글이 양자칩에 베팅하는 진짜 이유 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVndWZlNLWElmRkhGYnVVRkltU0dOaEVNZlFjZXhlT1dCdE0xeW12b2QtcV8wRWluTG00R0N0b3l4Y3dTTnNiMkw1cWpUdnlJVU1hdVFyLUR5bUlaazVKZkJfd0pldWExelprc2RQc3FxTWVxNkptZmJqMHdaZFJHZnFEdF9NZw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "기후변화 아니었다면 같은 폭염이어도 50년 전에 3.5도 더 낮았을 것",
+      "Link": "https://v.daum.net/v/20260626173216478",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "챗GPT 상장, 내년으로 미룰 듯…'1조 달러 기업' 계획 흔들",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162181",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "삼성전자 부럽지 않았던 SDS 직원들, 인센티브 개편안에 부글부글 이유는 - 인베스트조선",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZXhLb1F3dlNhRFNPRlBiZHg1b1dKNFByemRkRE5KMm9oYUJkVnJsb0Y0S3VvVWMyXzdTZGI5ODNmVkgyZVZzYWFseHRCcDBUT2VOd09DaTZ6TTdEbURZNlRCSDNhamtPZkhFTkRCdjRQazJlNmROSnp1Z1JhTUhIY3Y5RQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "애플, 제품 가격 줄인상…팀 쿡 \"원자재 가격 감당 불가\"",
+      "Link": "https://n.news.naver.com/mnews/article/629/0000510976",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "류재철 LG전자 사장 \"엔비디아와 로봇 개발, 피지컬 AI 가속화\"",
+      "Link": "https://v.daum.net/v/20260626164718949",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "자고 일어나면 오르더니...'112만→80만원대' 금값 뚝, 매수 기회? - 머니투데이 - 머니투데이",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBbWh5d2E3dkRia1lHeDlTS2k2VFRaSEtZdHo4LWVpOUVrRGFLZmNFcXpDZmxZc3ROTUtIX3lVS1Q2U0MtVGdCV0Q1Y2NlSjZVaXI2ZXhSM0l2Rk51RUtxaHVqeVJQSXdVdm1F0gFwQVVfeXFMTWpxTVBETVg5eGdVMU9GdWh5MHUxZDVhamZ2eXN5WHdpYTdmVEhqSWxPYm1zWDlpMlhaVmtYbEZScUg5ZDNiaXdueE5rT2RGYjZXRy04dFJDQUY3WkpLX0c2ZkdSQjAzUXpFeG0wTmQ0Rg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "폐경 후 '해마 조직의 ECM 변화'로 알츠하이머병 위험↑ - 후생신보",
+      "Link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBYT0dzSjEyMzVEZVd5YmNqc2RJZTNFY0RHdFdxTHZRVE9zcXkxQ0VMbFA4bElDajZnYkZUc1BsZ3J1dFUy?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "널뛰는 장에 6월 1~24일 9054억 강제청산… 개미 비명 - 문화일보",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xbW5QM1lqeW9OYm5XaVE4Uk82VFJUNWV6bXNkajRGamMxakFOcTFvdUVsaWs3cnlJLTVUTk1SaV9MUktkbVFyMDMwMG5Uby1R?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "청년미래적금, 출시 닷새 만에 가입 신청자 100만 명 넘어",
+      "Link": "https://n.news.naver.com/mnews/article/056/0012206854",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "[해외칼럼] AI 감시, 연준 같은 독립기구에 맡겨야 - 서울경제",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84ckVib0tNVkY4S0FycG1fSHBaWHBMT1kxWTdjWEZMSjEtX3hSdG9ZR2YzSnFtenRPY19zWjVXSkRFMmpreHM1OGkyemtQLUFkVmfSAVNBVV95cUxQMzY0bFVjcWVkQXdXSXV6YUdwMV9yMVl1c19sLUJnQ1owaHdYTVo1WXFsWTI1MHBSX1B0Q0xyV0ZLOXJoQTdPVENWQ2hYVnpvSFh0OA?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"SK하이닉스, 올해 내년 영업익 294조원 435조원…목표가↑\"-하나 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yYnd4TzFjcHhqS3ExT2YzVklDSmREU2Q1YXpVdURPcGt3cmh1dWdQYjd2Yno1X0FkQXNYZkprMm13U3dZeWk3cVB4ckRrTkZYV2w5R1hYdmVBQdIBVEFVX3lxTE1tbnlhTlpNajV6MjFzR3VaWWV4VDZsdWZiWHcwekR3Zk5xelZPeGNlSlpTYUhWMnpHV0JxdjlyUGYyZEpqWFhpUWp0VC1mZEtmNUdWQg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "한성숙 총리후보자 이틀째 청문회...부동산 매매 놓고 공방 - YTN",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9peU1ZTE9TWXpHWXpMSnhhSkRYNmVHWGsxdERWS01KQTV3NlVwZEV4ZGh3Z19iV3hTLU1xcHJ5X3FQZkN0YTZ3ODh1SmZBdGZvTlJIR0FuUVN0ME93VllOYW1vYkFvVm1NOG1oUVNfNnRjbmNqcHc?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "자궁경부암 검진 사각지대 줄이려면... 자궁경부 확대촬영·HPV 검사 병행 필요 - 바이오타임즈",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oOEkyc2VlZGd2VW1UWUYwR0EwTnFXcVppenlUWFotR0czcUdVRGw0cE45MmJHNUg3a1ZINV9lcTJCMVA0SjVwR2tXa2h2U3VjcFliaDFfOGU0TWw5dVdQY0FDOHpETTNVZzF3WQ?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "아이돌 챌린지 유행인데⋯알고 보니 'AI' 노래였다?! [솔드아웃]",
+      "Link": "https://v.daum.net/v/20260626173107431",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "“내 몸의 80% 채웠을 것” 한고은 즐겨 먹는다는 ‘의외의 음식’",
+      "Link": "https://n.news.naver.com/mnews/article/346/0000111953",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "Former Shin Bet chief threatens to sue Channel 14 over ‘completely false’  inflammatory comments",
+      "Link": "https://www.yahoo.com/news/world/articles/former-shin-bet-chief-threatens-054231800.html",
+      "Portal": "Yahoo US",
+      "Category": "세계"
+    },
+    {
+      "Title": "대한변리사회 80주년...국회 여야 “소송대리권, 비밀유지권 법안 약속”",
+      "Link": "https://v.daum.net/v/20260626171200799",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "환율 1,550원 넘보다 매도 물량 쏟아져…1,530원대로 급락",
+      "Link": "https://n.news.naver.com/mnews/article/055/0001367625",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "[실버뉴스] 중구, 50세 이상 대상 ‘시니어 그림책 읽기 자원활동가’ 양성 과정 운영 外",
+      "Link": "https://v.daum.net/v/20260626104902776",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "전기·가스요금 또 묶였다… 한전·가스공사 재정난 ‘빨간불’",
+      "Link": "https://v.daum.net/v/20260626173348529",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "[비즈톡톡] 다시 품고 싶은 KT, 비싸게 팔고 싶은 투자자… KT클라우드 재합병의 딜레마",
+      "Link": "https://n.news.naver.com/mnews/article/366/0001174764",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "김건희 여사, '매관매직 의혹' 1심 징역 7년 선고[뉴스1PICK]",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026165",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "베네수엘라 '126년만' 최악 강진, 트럼프 '경제 보호국 구상' 제동 거나",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377727",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2025년 11월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tRWlFSmxPUE0wa090cW9Ta3BlbXBXZ0lJcEF1ZXRzLTZ5UkkxeS1pZnZXbzQ2MEpLNWxYZjVpaXNNWTNWZjVCbEpUQ0U3bUM3eVg2LXRPV2ZuYWRXRWhJei0zM2RCU2pidktzb0VR0gFyQVVfeXFMTTZNbzFjXzd0bldBa242dll4bUdZNmp5R1JXcjVtckpwamd6VnFiSHhQWldKRmNLdXVxdVRZc2pEQVlPbGlaamQ1aEZyVXNqYTJ0RFZLNHdTUHRZcXBoQTVnSkc1Z1NoQTZqeXFXWWMzNTdB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "어제 반등은 데드 캣 바운스?…비트코인 한때 5만8천달러선까지 하락 - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54V2N5MWI4R0lUVUtYVTBhTE9ZWHE4NXVrODdwbEF2MVowNzFKanJaV043TlUyTW8xT1JMaVFEOUxTV0I2RjRHak1ETGM2cFEyaE5FaFpTNnk2djYxX2ZqTEoxc1lKNDlxMlJGT1dBQms?oc=5",
       "Portal": "Google News",
       "Category": "경제"
     },
@@ -4795,1820 +2341,100 @@ window.LOCAL_DATA = {
       "Category": "연예"
     },
     {
-      "Title": "\"삼전닉스 쏠림, 미국 M7과 닮아…1년 이상 지속될 수도\" - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44QzBnb3hFWUpxc2lXZzBwbUlVamNvWVY5M0tmME9VOHhYWVd5QXNxOE5vaWtUdTZUX0ZaMm1keFhCQU9Dc0FscEhXbUZ0VVhtanZpa2JPMkY0VmpHQ2p4Vi1zdkRVd1RyTVMydGdNMHA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "노동시간 안 줄이고 주 4일 근무했더니 여성이 ‘독박 육아’",
-      "Link": "https://v.daum.net/v/20260626063235171",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "스페이스X 급락…머스크, 10일만에 '조만장자' 타이틀 반납 - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhMlI5Z0JZUm1WMHlPREcwYWtWaXFXUnZQYjhLTnYwb0UyWW5NNk5zZUdiaWtoYTJ0bEVrd0FVZ01CLWZ4Qzl6WjNZRlZHWGFNVlpN?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "SK엠앤서비스, '안전365솔루션' 활용 광주 중소기업 안전관리 간담회 개최",
-      "Link": "https://v.daum.net/v/20260626130149434",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[단독] 삼성, 10년간 1000조 투자 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DeXctMkZGV3FUNjBtaUs2b21qeVlxWEgtbUtmUEpyd2RYWHpXUW9XcHdMSE83bkZXVk5KSWlQOEtiYTdiWXM4RldOS2x3V013NWtRSGF3?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "Leaping over waves, vaulting to glory: Athleticism is on display in photos from the 2024 Paris Olympics opening weekend",
-      "Link": "https://www.yahoo.com/news/leaping-over-waves-vaulting-to-glory-athleticism-is-on-display-in-photos-from-the-2024-paris-olympics-opening-weekend-192259999.html",
-      "Portal": "Yahoo US",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "아이웨어 '볼론' 브랜드 앰배서더로 가수 권은비 선정 - 패션비즈",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10MVVJVFM4STZIdlo2Qm56azZxMDZ5SW11SEthVzA2X3hLemotRm5WY2FjYV9qRmJhaDUyLTB2S3Z2YmtNNk1uSGFhREZuTXhM?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "송희구 '부동산 교과서' 2주 연속 1위…투자서 강세 이어져[베스트셀러] - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NUlU0Q1E1eEV1MTJERTNCblNzdkl5RmI3enlzTndZM1J1NWl1TXQxeUN4aXFfYUZ4RWM1UmpiMExJZEtYUHQwRnBlVUhmbXM?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "법원, 최태원·노소영 ‘재산분할’ 파기환송심 7월 24일 선고",
-      "Link": "https://n.news.naver.com/mnews/article/023/0003984256",
+      "Title": "장동혁 “징계 요청에 답할 때 됐다”…김용태·김재섭·우재준 거론도",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729748",
       "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[칼럼] ‘충남도백’ 박수현에 보내는 편지 - 로컬투데이",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CTjN2VzJ0dVNjQmFKZGQ0RGpXOWZrREVXZEItTkczM3lQZFl3TjdmNWRocHcwWmJlWG5oM1JLNW5hTzlqRW5pQzIzRjd5R01EMXN2U29ta3dtVVhLTDJXQU4wWFpPajhaR01LTkxmVUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "한국 선박 8척, 호르무즈 해협 통과…1척은 한국에 온다",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367552",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피, 거래 재개…‘삼전닉스’ 9% 이상 급락",
-      "Link": "https://n.news.naver.com/mnews/article/050/0000107855",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"AI가 일자리 빼앗을까\"… 취준생 71% \"하반기 더 어렵다\"",
-      "Link": "https://v.daum.net/v/20260626101003879",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "‘참교육’에 담은 참어른 진심…원작 논란 딛고 김무열 제 2 전성기 - 국제신문",
-      "Link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaHQtX1VfRkxGRVlOTUYzRWFUODlGT1VvXzVrZlpoekoyYTAyZ0VSbjRkY3RwU2hLZWZoY2YzQnRyX3JTVXlGTzZPWTJ4aEpaYWRBd0picnlvWHZFZDVGd2thczdpVGtzRTNQQ3NqNllnT3VkN2s5V0VvbmFTaDlqanhNNHRFZE9Wb0h4Q0ln?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "[이상민의 건치로 지키는 백세건강 2] 고령자 폐렴, 입안 세균부터 관리해야 하는 이유 - 헬스경향",
-      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQanROLXZiQ19xUVh4UVlUVHZ5d2RwbnZqTnlZUlN5b25Id3lueDFraXFDb19MRHRiRnZ3MTBYYkV1TlVScFJXQzdkb3ZkNm82dEJLYVIxeUhQcTJtX3d1eEZBQkQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "전 백악관 NSC 수석부보좌관 “트럼프, 김정은·북한에 여전히 관심”",
-      "Link": "https://v.daum.net/v/20260625213216752",
-      "Portal": "다음",
       "Category": "정치"
     },
     {
-      "Title": "\"차체·엔진 모두 키웠다\" 현대차, '파격 디자인' 신형 아반떼 공개[부산모빌리티쇼]",
-      "Link": "https://v.daum.net/v/20260626131102857",
-      "Portal": "다음",
+      "Title": "부동산원, 재개발·재건축 조합 운영 컨설팅…7월 전국 시행 - 매일경제 마켓",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41N0tyQ3o2VFRYNlVlV2swOUhDVEQwYjJwbVhQQU50TWFhOV9iMjg1cFFfdWFHY1drTDJnUUZmV2hKRG80YWd2NkJFMXJQSC0zUmc?oc=5",
+      "Portal": "Google News",
       "Category": "경제"
     },
     {
-      "Title": "[AI 시사상식] 하이드레이션 브레이크 - KBS 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5T1czc281RGVMU3Rnb0hTT0NRYVVWT2VrMTc4dTNRVUJMem9CN1dyUTNNcmV3LXhIS19vSzQxNThWR0MwcTEtNi1yY0E1RzZwb0xMc1Mza3pFSHFUcTdGU2hVLVFRUQ?oc=5",
+      "Title": "카드로 보는 시사상식 [2026년 04월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02SHBaTHkyaXNySDcxVUYtRE05WlhiRzRpZUJVbW9sazR4bDhxTlotQ2NYaHZkM0VlTS1nMkhHZ1hhOHpOYW9CWXllajJjRVdnX2RjU1QyREUwOEYzdG12V1JUVHBFNGZnMUc3ckZn0gFyQVVfeXFMTXB5U3R5TXlVWERVZkh2dWxyeGRuRnctdEpJWE5Ec0FzbERYa1NtbWU0dlM2ZGpWM2xkQkFsVmg5cFJiQjJZS3hPVU1HNUtQNGEzRlUtX2kybWxjY2hXR3V3cGhpczlKS3FHdzJ5TGhKZHZn?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "Blackberry Stock Just Scored a New 'Buy' Rating. Here's Why.",
-      "Link": "https://finance.yahoo.com/markets/stocks/articles/blackberry-stock-just-scored-buy-184518743.html",
-      "Portal": "Yahoo US",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "여름 앞두고 체중관리 시작했다면...지방간도 함께 점검해야 - 글로벌뉴스통신GNA",
-      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MTlJDYjhkVHdkZ09vYU9nRU1HcEs5elhYZkltZlV6NFkxNkxTcVh1ekhkVDFoWDlMTjlSWUdtWENQMDJmNTdOY1B3RUFYN2FfSDdRUE9sWWVsQ21jOWJpaFVWZjNIQjhDWWZKRVl2WTNIVndw?oc=5",
+      "Title": "협회, 아주경제 ‘2026년 부동산정책포럼’ 후원사 참여 - 한국부동산뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJZTVWWmZkQnNOaEdtVElZSTJVZ0xYM0Y2ZnJOVHJid2xQVHZNLV9CVlkyUTZmQjJkVkRFakNvYWJEcnduNC1oaVBYUlV6eGVmUWRrbkpMYTNkRmJheUNTMGxqbWlqZWU0d1U0?oc=5",
       "Portal": "Google News",
-      "Category": "생활/건강"
+      "Category": "경제"
     },
     {
-      "Title": "뇌 형성과정서 신경세포 DNA 손상기전 밝혀져 - 의학신문",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxZEdVX1FkTHN6dWlzOUh3WVhGdFY4TGROa3NqSHVNRVJmLVVLbFY3eEd6ek43ZzBJWVRLX3NVTUhJWTVCY3ZCc3lCYkE3NF9nc194NHlwSDVZTmEwQXBCRkV4MTlLd3RqNXc?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[만나보니] 넥써쓰 장현국 \"원스토어로 모바일판 스팀 만들겠다\"",
-      "Link": "https://v.daum.net/v/20260626071423870",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[칼럼] 재선 심덕섭 군수의 4년, 이제는 ‘성과로 증명할 시간’이다 - 이로운넷",
-      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2R3VsZzl4NHBmTmRneVlpTWJ0QkMzeTE3MWV4U0Zia2JVSHRiajJoYmx0dFRIWFlsWnNwZG83dFRpb0hQWGR3ZVlCdEV1blRyUllRUy1qU2lsRmZEOEVEeU1fdHRCQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "트럼프도 “베네수엘라 돕겠다”…국제사회 지원 잇따라",
-      "Link": "https://v.daum.net/v/20260626123617897",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "“대한민국이 날 버렸어”…정작 홍명보가 버린 한국 축구",
-      "Link": "https://v.daum.net/v/20260626110530583",
+      "Title": "'이게 얼마만의 복귀냐' SSG 서진용, 448일만에 1군 콜업[인천 현장]",
+      "Link": "https://v.daum.net/v/20260626165103059",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "카드로 보는 시사상식 [2025년 09월 마지막주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWMHNvcmZRZE5GRFFMLWx6RnEwdF9xWkZjYWZHYWxIYnYyNXJDMmRXUVZFVVQ0d0xENVg0bHgxU082N1Jvc1plZFhvbk1HNXVhMlNmTTdFUFFuR0NoSFFqdjFfMGl2dmtZdkdheklB0gFyQVVfeXFMUHNmNDZfUHU4SnM1RUZWbE4xdWtsSHZ5NjdwTmhUUGptSjBWQ0VrOGlsUlZST0RkcE9Tc2pLMTdQLURVVEl6b0pWeGhMUnQtZU1KWmhtNG96VHJGMnJBR1U5UHZmRlUwY0VISmE3aE80dVZn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[실버뉴스] 중구, 50세 이상 대상 ‘시니어 그림책 읽기 자원활동가’ 양성 과정 운영 外",
-      "Link": "https://v.daum.net/v/20260626104902776",
+      "Title": "[한반도 심포지엄] \"中, 北中관계 개선 원하지만 한반도 비핵화 입장 변화 없어\"",
+      "Link": "https://v.daum.net/v/20260626170901689",
       "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "이 대통령, 이재용 회장과 회동…신규 반도체 투자 논의 - JTBC NEWS",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZenhXR0JEZ2E3TU51ZlpFdkZrWVJaM0MxbGJVRUVMMjRDWko5NnJjYWlCazBYR1N1bDZMLVJfSEpiMVY4QnFSc1FqVUJGRElrLW9ybA?oc=5",
-      "Portal": "Google News",
       "Category": "정치"
     },
     {
-      "Title": "트럼프 “미친, 앉아!” 공화 의원 ‘싫은데?’…군사행동 중단 결의안 충돌 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Qa1JlT2JYTzZrZnZFMzBCeG5HYmYyc1NNcEdfYVVnQUZMaXd6RkN0ODBEV3hZaVBvY2N2Ml9mN2hRT2dMN1lPSks3aDhtc0RaN1lGZVhINlhMd194NGJHaExES3FqOE5JRGp4RTFnVQ?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "“유머 코드가 잘 맞는다”…‘나솔사계’ 8기 영수, 여자 2호와 여자 3호의 동시 선택에 기쁨 폭발 - TopStarNews",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fUDh0czVpdG1DRFlScUtMd1Z5cDdoRFVmRUlRQm9XcnZWTTBwM29Fd2hpX1hZZFV6UWhSbmpNVFBhTk93OVplSG5PSzNuNjNIX3JkSFptaWw3T18xMTV1Wk82MmNtUVg3U2d2UzdJcl9Udw?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "오만 외무 \"호르무즈 해협 통행료 부과 없을 것\" - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mUFkyR1d1TGN0eFl5ak9fbnYwRVUxWnp0YTYtdVNWQmZ1c1U2WFRmYmhoeDFPTFB6MFFabzlLWllXU3VNX1ZLUkUzRVBFYVM4dTFsRkFjajF4MmvSAWBBVV95cUxOM1piTDhXeTl4OHQ1cVFra2w0MHpTNFU2V2pEZzhiVWVBbDRvZm1nVWNfdUdqbXl2VldhTENtMTJXSkV3aWlhN2NuUWxjRml4MGZjWDBmWkYxbXNZdnd0Ukw?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "정부, 하반기 물가 3% 이내 관리 목표…공공요금 동결·1조 원 투입",
-      "Link": "https://n.news.naver.com/mnews/article/079/0004162116",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "Venezuela earthquakes death toll rises to 235",
-      "Link": "https://www.yahoo.com/news/world/articles/venezuela-earthquakes-death-toll-rises-025735826.html",
-      "Portal": "Yahoo US",
-      "Category": "세계"
-    },
-    {
-      "Title": "한동훈 \"호남 반도체 투자 압박, 박근혜 미르·K스포츠와 뭐가 다른가\"",
-      "Link": "https://n.news.naver.com/mnews/article/088/0001016405",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "정년논쟁서 빠진 것…경영계-노동계 싸움에 '청년'은 또 없었다",
-      "Link": "https://n.news.naver.com/mnews/article/665/0000007636",
-      "Portal": "네이버",
+      "Title": "[단독] “촉법이라 처벌 안 받으니 합의 마라” 무인점포 훼손한 중학생 부모의 민낯",
+      "Link": "https://v.daum.net/v/20260626162219139",
+      "Portal": "다음",
       "Category": "생활/건강"
     },
     {
-      "Title": "李대통령, 7월 1일 文 전 대통령과 청와대서 오찬 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaXg3N2wzSmdvbU13bFJIM1pqT3FWV1lUR0w3Ylc4a1EtMWNSYThJMldXbHZhdVp4NmNkeTV6LU52UEtIcU1VNEttNjlleXpnTVpEWEhnOFpKSFVfeHBNdFltTm83OF9YMThjTF9MQkdFTHlhTHhTT1dpQkszQ085OTlOQWkwT1hr?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
+      "Title": "AI 시대에 아직도 '시내전화' 지원…\"30년 묵은 통신복지 손봐야\"",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315908",
+      "Portal": "네이버",
+      "Category": "IT/과학"
     },
     {
-      "Title": "[미국 특징주] 스트래티지의 비트코인 재무 모델 우려 확산 - 뉴스핌",
-      "Link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EM3NUTnJoRG82M0pFZjd1LVhFczhTSXNhVTlhTTZFUzh1N1BlUkdnemZmeGZncDdiTnFySTFzVld1UnZ0T0NPSVBMakN1c1VBOERFdWtrNkVHTmJt?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2025년 10월 마지막 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HVGZaLWdNWXh2VFVlSzdZdHo4aHlsRXFsdjRTTDktQWFnanFKblFUUG9LaURhVFQxUzdVQjQtUTVCbGd6Q2JxUjdIY0c2dnJxc3RLaXRiaUFhY0U2cU1URTMwcTBtWHh5YTJXcDFR0gFyQVVfeXFMUDlMZlB0Rl9xNzdQMU9zM2tEb3R3UlB0UkNDMFA1MEpQd0ZxY0NDQ2d4SkZQdmFZcVlxNDF3elc4T2syYUY2eURZbEYwYXJGc20zMnRZNGU5dXZBVEFMNHozN2wzd0ljSkRubTJJVEJ6SkFB?oc=5",
+      "Title": "[시선]어떤 유머는 저열한 다큐다 - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oX0FSdVk0azFXYnlhTGJLRjY1M25XZmRyWWlybkE0UGZDQzdVWkZjS2xyaFQ2M3VBNkV0cmVuVkJtazFEM0FVeVJQSUgxZmVESEdjMkZ3UWJxQdIBX0FVX3lxTE14dEpzdFpXaVlkREd2RGdmOFZEOXJZa2QwbEl4clB4NGRCbzMzS3UwRHpCbVFpaDZYY2lFZko0N09aR2hVMlRnLWVpci1kY0d2V09USHE2RE1HQXRJeXhJ?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "[Y터뷰] '남편들' 박규태 감독 \"코미디는 삶의 윤활유, 영화는 재미있어야\"(종합) - YTN",
-      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UdG9tamVGdFdIV1IzVkRELWpxUmlaWGpWaWVjMWJQanZFb1dlMHVYRDZoSlNQa0lKckNWTXJxeW1aTmFNXzFvbWNSV3NSWGVjem5VZWpVSGhrS1pwR2lF?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "코스피 8%대 급락에 사이드카·서킷브레이커 잇단 발동",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367560",
+      "Title": "'AI폰 넘어 웨어러블까지'…삼성·SK, 낸드 앞세워 시장 선점 속도",
+      "Link": "https://n.news.naver.com/mnews/article/417/0001149224",
       "Portal": "네이버",
       "Category": "경제"
     },
     {
-      "Title": "미 상원서 '4년 공백 상태' 북한인권법 재승인법안 발의",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367438",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "‘빚 6억’ 윤남노, 가게 운영 힘들었나..홀쭉해진 근황 “먹어도 살 빠져” (장공장장윤정)[핫피플] - osen.co.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PWWU0WFFFb0lJLUdEWFZvb0VtaC1vS0V4eW1iNlZIV2Z2Y3RHNEJMTDN4UGJic0Z2TjNtSXN6NEJzX0s3WUI2OVdJaGJFUDNQQ184?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "정부, 중소기업 공격표면 무료 점검... AI 위협 대비 보안 지원 나서",
-      "Link": "https://v.daum.net/v/20260626120335226",
+      "Title": "[영상] 5G·LTE 칸막이 허문 '통합요금제' 출격···통신비 인하 체감은 '글쎄’",
+      "Link": "https://v.daum.net/v/20260626173304503",
       "Portal": "다음",
       "Category": "IT/과학"
     },
     {
-      "Title": "심혈관 건강 안 좋은 임신부, 아이 발달 지연 가능성 높다 - 전자신문",
-      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwaHJhZDRMN0dhaDRmTTFQVFVjMWdjVnNqU1pnelUwMGxBRlZZVWtXNmhTaXFFV3NIYzNLYzlOay05MWJ1cnFyS3pzTXJVdw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[칼럼] 범죄와의 전쟁1 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aM1U4R1IzLUlQR085azB4VGx4UmJnSjRkdzZyU1JxSTlFYjRBSXNOQjRIN3loaTVwaS0yYW9MODcycEYtSkZ2QkhRVjVDWk0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "5월 27일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjWFRjWDlkbGczUnJwUENmUXVBLW04anRlNnRNTEJfZjJIa2RTV1RkVlRSbnBMMlRsS0NxektUUEhCbUhxMG9ZNjRKMHJIM244WllCclZQVV9PU1lOZFp3WUZR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "정부초청 외국인 장학생들 한 자리에…첫 홈커밍데이",
-      "Link": "https://v.daum.net/v/20260626120203143",
+      "Title": "침수된 도서관에서 빛난 소명의식, 비주류를 위한 사서들의 분투…연극 ‘사사로운 사서’",
+      "Link": "https://v.daum.net/v/20260626161145730",
       "Portal": "다음",
       "Category": "생활/건강"
     },
     {
-      "Title": "카드로 보는 시사상식 [2026년 06월 둘째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzcFNIRUJ4VE9qSHBxOGFNVktIZ0s2WW9DVHhjendUTC1DdTRoc01nbFZXaUwzTjdocFNUY3VLdXBFaDVUR1ZaWVRrUFNZRzJfN0RmM2hzTXA1VjdqTGsyYWREQV9UajBfQ3pYUkFB0gFyQVVfeXFMUEU2YzlIdGI5TFZydnBjNnE1Q3lTREdTdE0weXR0bm53b1NITTBaR2dVZWpycjVhMElRRjVTMjRhOWxDMFNLZHRoak42OUVhTDFWQW1SeV9XU0lPT2NTTl9GSUhPOHFNdHR1RURZR1l3cEZR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[양성희의 문장으로 읽는 책] 헤세의 ‘고급유머’ - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93SnpzUEVjVGd0cHhDTWstVWdqNkRTUGJhdzF3VXl2MzFoOUNZZlpWa2Q3ekxwTmZRUzJKQ2VoMzFxRmpIazVKSHBlQ29ZOW8?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[현장] AI가 뉴스를 요약하는 시대, 저널리즘은 무엇으로 살아남나",
-      "Link": "https://v.daum.net/v/20260626091205999",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "달러 흔들리자 위안화 띄우는 中…첫 ‘금융 기본법’ 꺼냈다 [정다은의 차이나코어]",
-      "Link": "https://v.daum.net/v/20260626060147543",
+      "Title": "부천 중동에는 소사간이학교가 있었다",
+      "Link": "https://v.daum.net/v/20260626170251439",
       "Portal": "다음",
       "Category": "세계"
     },
     {
-      "Title": "‘행정기관’ 강조한 우주항공청장, 민간 출신 직원들 입지 흔들릴 수도",
-      "Link": "https://v.daum.net/v/20260626103600184",
+      "Title": "구윤철 “석유최고가격 인하…하반기 전기-가스요금은 동결” - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YMlJHc2JhdU5VWVhQbU1YTWFDc1hHclpYODVSQWZDX2k0RVowd1BaY1hYcE9ZVjJuR2tUUHZaN19EeG1FMUNPQ3gzZUJuV3FUSXlfWmZCTzNrSExMRkZuMEdvMW5IUVQ0VS1aSGJOOUZqanRzVUHSAWZBVV95cUxPRGRMWHptX0hjNlhxM1lkN3E2VV85M3VYN0o4bnZBOHBWYzZPY1N5ZVNmVjV6VnFYaE5aUzhSV2YtbWhMWjNuVzRSYTEtVTNIaHJNNXRFa0RsQy00eEVNbjh5aWFoWmc?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "엔씨 슈팅 신작, 글로벌 문화 포용에 방점",
+      "Link": "https://v.daum.net/v/20260626171746014",
       "Portal": "다음",
       "Category": "IT/과학"
     },
     {
-      "Title": "정소민, 몸매가 거의 종잇장…얼마나 말랐길래 이 정도? - 마이데일리",
-      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rMU10VWFUYVZHTkN3d0xLejBSMnNUemJyTm5IS3FYWlJoYXB0MV83RE9PQzUtZWpzNERSWjhhSEVpSHVTUGhnVkY0bU0xWGxFQTd3UmpMd1Q3ZkNZRkh0T2J0aWVUZw?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "[EE칼럼] 500년 ‘장마’의 퇴장, 이제 장마를 장마라 부를 수 없다 - 에너지경제신문",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GLXFWLTljZG1EV2NQdTVtQjFmUEJhMXRpRzZFN0s4MUZCMjNiVmlsc1IyckRoYUdYN256bW9IOHY1WWplNGV1ZnY1Q1VpalBkd2NxQ2k0bDQ4RXM?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "현대차, 부산서 ‘디 올 뉴 아반떼’ 세계 최초 공개…6년 만 풀체인지",
-      "Link": "https://n.news.naver.com/mnews/article/082/0001387160",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "박정수 曰 \"세월의 주름 속에 감출 수 없는 품격 있는 인생의 표정이란..\"",
-      "Link": "https://v.daum.net/v/9zIIzxaeus",
+      "Title": "나영석 또 통했다…첫방 최고 시청률 4.2%→동시간대 '1위'로 안방 극장 접수한 韓 예능 ('콩콩팜팜')",
+      "Link": "https://v.daum.net/v/20260626135451169",
       "Portal": "다음",
       "Category": "연예"
-    },
-    {
-      "Title": "\"이틀 걸려 날아왔어요\"... 하노이 폭염보다 뜨거운 '한국e스포츠' 앓이[아세안 속으로]",
-      "Link": "https://v.daum.net/v/20260626043234717",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 01월 셋째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93YS1nbUR2azRmYzE0dThlSFBOTlE4b3lvSnFIdktnUHo4dEtkM2FUNmw2YmVIVU1IbUtPbDZrWTlsSTJjTDdBei1ld2xZNXU3VHVva29qQTN5ZDJVSndtWm5VR0ZqS2NHOVhxMnJ30gFyQVVfeXFMTUxxZUtsUGV0WjJpdzRVZXFka1VaOE8zOEZNeDJSSV8zSGdaRjhFUHBOeDN3aUMxeDVtcklaSmM1Q3JjeEJPM3AydWpaZjUwV2xHT3dMV2M3QTQ0MUtJUERoNzRCSkR2bGZkenA0NUJsVjR3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "치솟는 달러값…환율, 5일 연속 올라 1550원 근접 '비상' - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qTzZpbmE4UXdCdE5ZVDNMMUlZcVJJdEYxWlpwWnRpNDdaRFp2T09TYnhaQ0IyT0VKOEw2TzU2TjZFZWp2N0JRTS1kalRoY1piRy03YkVNUmt1dw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "Kansas City Chiefs' Harrison Butker attacked LGBTQ rights and said women grads were excited about marriage and kids. Here’s what social media said.",
-      "Link": "https://www.yahoo.com/news/kansas-city-chiefs-harrison-butker-attacked-lgbtq-rights-and-said-women-grads-were-excited-about-marriage-and-kids-heres-what-social-media-said-203611261.html",
-      "Portal": "Yahoo US",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "한성숙, 국힘 '오피스텔 헐값 매각·지인 특혜' 주장에 \"좀 과하다\"",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030249",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "이수근, 인지도 굴욕…국내 최초 ‘레크리에이션 전공 교장’ 됐다 (수근스쿨) - iMBC 연예",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nRGIxSFhCTHdVaHJITmIyNGRjX1NPYzFsQ2NrQXJFYmk2cVZ6SndMUVNWNG50akFuSnFuMEMwRG5tSWlEc3prcVoyT09fTDEwOWduQmFYTDRKZ3NRb3FxaQ?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "양구 백토로 빚은 보물, 고향으로… ‘이성계 발원백자’ 첫 공개",
-      "Link": "https://v.daum.net/v/20260626000705380",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "확 바뀌는 ML 에이스 판도? 2026시즌 지배하는 ‘25세 이하 신인급’ 투수들",
-      "Link": "https://v.daum.net/v/20260626060032509",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 03월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DMnQzSDYzMllCaVZJU3gzZ200Q3NZalJpUlNQdDJuVE5VZnBYT0pTbHZDV3IyV2lnSTZ4RHNpZVJCZ3pfTXFxZFdtMmtxa3FVMGllQnhJZWpJV2RwWWF6MW1hYW1nVGVRMHViemVR0gFyQVVfeXFMTWgwQVdtSXRiTVdfU3hGMzIzazc4ZTZwY29KVkdUSGdhYXVKODU5dWctbGZoXzZIaGhjV01wUlowOUJYVnRTNThuTDdGQmNJVHJ6WnpDTW1HMnFqMng5eWl5NF9ZUmZKUS0tSUJ6N3hDUUF3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "하나은행, KISA와 ‘맞손’…금융권 최초 실시간 스미싱 탐지 서비스 가동",
-      "Link": "https://v.daum.net/v/20260626130230499",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "리플(XRP) 가격 1달러 위태…30일간 22% 급락 - tokenpost.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tdF9KS3A0bVItcHlibHZGdVkteGd6S2ttSk4xdDZySjF4RTBfenVUc2NkN1JtMm9HS1d4VjRMVWtQRXMwWWN5WHJ2bEllRFhlV0YxZFlZQ1FLb3JCV0IyQdIBZkFVX3lxTE5CTGJJbGRHMWxmdzZ3N1BhcTM3Wmp1X2pKTVJKN0dNWXhoWkZFbm9US190bEZtb3FkVlIyanJ1U0hub2tpTlQ4b0d1eUJoQnFOY3F6X0QyaHlsRWxUY0dHOVoyVjRqQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "미사일 수천발 쏘더니…美 탄약고 '바닥'",
-      "Link": "https://n.news.naver.com/mnews/article/215/0001256689",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"휴, 괜히 걱정했네\"…유통업계 '월드컵 특수' 톡톡 - 지디넷코리아",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xcGVDU3h6NndIamFSWjRJMnhLakhIX3FOVUVCcEt5ZXRoRFRIWlMySnRHR2tOZGVodGhveUo4ZjNDOFk5NWNMMXpJREVrdG1QUW4zZ2VB?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "반도체 사이클 동행…KB증권 “LG이노텍, 목표주가 200만원” 유지 - 매일경제 마켓",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uMHVjVFBPQlFXcDBHOWhYU1FCSDJWS19JVnJsb0trLWVMR1Z4b203SkVjbVNnOVlUVnMwNkNUeXVnWGROOEI2M3pNTi0zMldVSVE?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 06월 셋째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBicWdBenpzOVpmbmw3S1JpbUNseTBPSkEwb1hpOFhCMlZMd1F3MnVaMjJNcEtmaldfZmgwbEwxTlJqeU5EclIzTzljYlA5WjN3TDEyTWFUVEo5QkdLUlBvejFOM2hPMWpScmtidE9n0gFyQVVfeXFMUEdKYldKV2lULTNxTmZmVHMyUmZGUWxMRUMyc2liTFc5OTdJc3hFZWxqZlRsNFhxVWRzc2xsclcxMkNJNjRFc05KTHViTXh5MWhOS0VnenFvYVA0NGZ4QV96bHg2WXdUZGFrMHNrblo3cnh3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "300만원 주고 샀는데 1년 뒤 100만원?…폴더블 아이폰 ‘충격 전망’ 나왔다",
-      "Link": "https://n.news.naver.com/mnews/article/011/0004635291",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[이 사람, 단독] \"제발 있는 그대로 봐주세요\"… '청도 소누나'가 울먹인 이유",
-      "Link": "https://v.daum.net/v/20260626115213810",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "류혜영, '응팔' 이후 부담감→암막 커튼 생활 속…'연예인 병' 갑론을박",
-      "Link": "https://v.daum.net/v/20260626122651721",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "간지럼 타면 인간도 유인원도 '하하하'…언어 진화 단서 포착",
-      "Link": "https://v.daum.net/v/20260626112517717",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "文도 “한 남는다”던 ‘낙동강변 살인사건’...관련 경찰 법정 선다",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533397",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "송호성 미래차 승부수…기아, SDV·PBV·EREV로 전동화 확장",
-      "Link": "https://n.news.naver.com/mnews/article/029/0003033849",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "교권보호국 논의 본격화…전문가들 \"총괄기구 필요\"",
-      "Link": "https://v.daum.net/v/20260626123918957",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "로봇이 박격포 들고 전장 누비는 시대...군사용 로봇 개발사가 밝힌 미래 전쟁 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUktIOTFWUFRaRkR3NXI1NHp4dFoyTnJhN0JjNUF2emx2ME5UbmpueHY2U3Z4ZnMwY3BiUFVhN2d4TFpXeUZQM3VKdjFqeGdMZk1meldCcU5PTGdUOHBsR2RmMTJ0VE05Wm5tblFMQ3ZPNjBzc1hPOVdNNWRWemZJcWhjNA?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "최태원·노소영 '재산분할' 파기환송심 종결…'다음달 24일 결론'(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/417/0001149168",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "기후동행카드→모두의카드 갈아타면…“최소 월 3만2천원 절감” - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85ZzRpc0NKcEIyZU5XZzFYcWdaTHgyNVBKTzJvX1I5aW02azFWSHNaVFI3YldjRU9oUy16bXlTNWdwUHVvNUc0dy1hRnRKZDJGRVhvSFQ3anVoY19wSlluSGhkV3pIbHkydE5vYWE4aDhOdw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "한동훈 “李정권 호남 반도체 투자 압박, 박근혜 미르재단과 뭐가 다르냐”",
-      "Link": "https://n.news.naver.com/mnews/article/023/0003984268",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "'쯔양 스토킹·협박' 김세의, 첫 재판 불출석해 공전 - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5NVRpa3RRQm5RRWZjX0lOVHNiLXNwWmk2MnVva2ZKZHRwaXM3c0p4U1otTF92TENPUGE3OU0wMTJ1U3ZpV1hSVDl5VTJPWmxSb3BXUEItc0FiTXcyTEpvMzBydUxhb0RjVlVPdXhUV0xHR090dWtZ0gF3QVVfeXFMT2NNWDlDLVpUaGZXWV9vTDRpZ21GZExKLVgya1Zta0NlUWhFSHBKY1kxa1A3ZndsUldGRUdWY0h1Q3NFcllMdjgwVUxRT0hfRmJONDk3UEVRbGluMjBHMnBIcWVOZ3cyYXZ4V0VrZEloaVpRenVKVXc?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "코스피 급등에 장초반 매수 사이드카 발동…삼전닉스 상승세 - JTBC NEWS",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RT1lrcUVHOUliLVhWVzV2S2ZuWS1xeG5xOS0zaTVQcmZYUFZNN0RFSmdqaThGbF9JMkZqbmFoVE5CRm9UX3lCdm5oSmZFS19hbjNOaw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[날씨] 서쪽 30도 안팎 낮 더위…동쪽 곳곳 소나기",
-      "Link": "https://n.news.naver.com/mnews/article/422/0000878756",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"어깨 아팠지만 암 관련없다해\"…유방암 완치 두 달 만에 4기, 무슨 사연? - 코메디닷컴",
-      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9HeVZCaEtpOFozYWJfcjFnNEUyelFBUWM5cEcwdExBMmN3TGR5OVlnSXJtblY1WjVUSjZrZEJIUENoUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[2026 부산모빌리티쇼]현대차, 신형 아반떼에 SDV 심었다...박민우 사장 \"차가 사용자를 이해하는 시대\"",
-      "Link": "https://v.daum.net/v/20260626131300914",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"웹툰·웹소설도 국립중앙도서관에 제출해야 해요\"… 12월 달라지는 납본제도",
-      "Link": "https://v.daum.net/v/20260626120118084",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "붉은사막 1000만장 간다…DLC 개발 '착착'",
-      "Link": "https://v.daum.net/v/20260626075502572",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "'넷째 임신' 김동현, 반포 60평 아파트 살지만 또 '반전세'..\"돈 모으는 중\" - sportschosun.com",
-      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaG1HY05xR01yMDJqTm1pNzZvM3VQaGlSMzlDTXdseVFxcXZVQWlUTE9aNVRhaXk5VUFhdE5YZlRQTDRrSThiTlNJMlA1RGl1eVd6eXBEYU1NM1lyRXdNVUZwZGRYd3Nia0J2YTJjeGlXMFZ4T0Zrd08xeFdDQnk1RGlBczE?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "[에버라드 칼럼] 시진핑 중국 국가주석의 방북이 남긴 것 - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80d0hBX2xYXzF5VUR4VUtpa21zT2VWc29heVR2akJfUWxXcXdmaWswc3psZEdmRVFXQ2hLT3g2VV9NVmFFVDhxYlhvcmlWSUtaTXU1VUFB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "軍, 드론사 해체하고 ‘국방드론본부’ 신설…정찰·자폭드론 2만대 확보 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV1RCOU5RZjdJeFhoNUtNd2I0dktCcGtrRzZseTZwQWtmQXhoX2I1LVp0Yk5KXzhzaWpxZFUtR3VBZVlTMVAtODNmc0x1dHZNM0RkRmNrV01NNHlwTk10MWoydU1hOFR5Q2Q1dGwzT3BPRjFlcmZLN0dBVjJ1SGlGUlFvY0Z6OGo1QUQwOERLRWY1dw?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "타블로, 딸바보 아버지 사연에 \"자식은 소유물 아냐\"",
-      "Link": "https://v.daum.net/v/20260626130703724",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "내일까지 곳곳 소나기…천둥·번개·우박 동반하는 곳도",
-      "Link": "https://n.news.naver.com/mnews/article/056/0012206287",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "독창적 선무늬 15세기 '분청사기 음각선어문 편병' 보물 됐다",
-      "Link": "https://v.daum.net/v/20260626094030423",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "비타민D 충전, 햇빛만으로는 부족하다? - 뉴스토마토",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uQThkZ1cwZWN0LWYtZFY2WUswN0NRcDl5Q3I0SGtlS2Y0LW9fLXJaVVRLblgzRTFLd1lVNDNjV3M2dzVLX1hKRE9oTzJOMzR3SkhCeTNPbHBwZ2hsc2ZYag?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“우크라·이란 전쟁이 바꿨다”… 인도가 무장 드론 키우는 이유",
-      "Link": "https://v.daum.net/v/20260626111051885",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "베네수엘라 규모 7 이상 강진으로 188명 사망·수천 명 부상 [뉴시스Pic]",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014029974",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "['26 부산모터쇼] BYD, 하이브리드 승부수…'씨라이언 6' 3750만원 출격",
-      "Link": "https://n.news.naver.com/mnews/article/629/0000510888",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "Making sense of the showdown at the CDC",
-      "Link": "https://www.yahoo.com/news/politics/article/making-sense-of-the-showdown-at-the-cdc-190824510.html",
-      "Portal": "Yahoo US",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "울산 석화업체 공사 현장서 흙더미 붕괴…작업자 1명 사망(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161187",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "BYD, 국내 첫 PHEV ‘씨라이언 6’ 출격…3750만원",
-      "Link": "https://n.news.naver.com/mnews/article/029/0003033850",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "'14억 사기 혐의' 태영호 전 의원 장남, 재판행 - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1bHZCV2JDeGxrNWtEQWJxX1JlNnNMcmxXODJ5NGdiSW1qM25QUkoxaENjTjhLa2FIM21jYXBZbThydzZjLXhTSmdoM0hGRHdQcmJEc2RpMmE3ZDhmSUhUdWRXanRFQ3lDTWNvbWY0ZDdfNkVMOU1z0gF3QVVfeXFMTWJIQ1FPaW9HcTNrUXBUSDNrWEgxN05Da21iTmVHMXNkTk5mVTFidVRsQXgyWGF5Sl9LQXBhcEdad2NKOUZYcmpabGdaZGo1dnBid2dOTERmZzhPNzBBUkFjWVFmZmlXUDZWTlFoOU0zV3p0UXdLWDQ?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "20년 된 에어컨 내부를 뜯어본 기사의 말 \"역대급입니다\" - 오마이뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Cb242bVJtQ2xPeVQyR3FpS0Q3QlZpLXAyalliSUJyWDd4UURudmFSOUVISWVEeV9BZXhQdTRudFVBM3c1U3k2QVZXd0tYdkxVZzRHaG9tY2lHSXJ2U2R3NVBNOUhTalVKMEVOVHJHbzMxUDBvTzlr?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"조국, 부산 출마 희망…민주당이 만류\" / 특검, '사형 선고' 요청 / 32강 가는 '경우의 수'는? [프레스룸 뉴스라이브]",
-      "Link": "https://n.news.naver.com/mnews/article/057/0001955665",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "126년만의 최악 강진…베네수 사망자 235명으로 증가(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781900",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 01월 마지막 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1nN1ZHR1lpOTZValVXbWdZU2ZCdHo3S1UyMm0xVHB3bS1HWExJaGNlRG93eWlnWWNLaE9fOGJ6dmdmYW12Zk1qMDRCcldNTVZ0RDNQeGlVaXNrZ2VfY1N5LVFRM2JXWWVmV3RBdmlR0gFyQVVfeXFMTWhUNDFhZkY2dzVLSmJsQlhjaFpRblh5SXNyMHdOaHNfX2N6c2ZpYWo2S3hMVzJrWlA3ZmpNa2diLUR5a0w4MTcwMGpObmNpVHQ1cTVpZ2toQ0w0YVRNOW5uaWx0ZmNSZl9LaXgyZzdkeWVB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "Micron is looking to end the memory industry's boom-bust cycle",
-      "Link": "https://finance.yahoo.com/technology/article/micron-is-looking-to-end-the-memory-industrys-boom-bust-cycle-193630909.html",
-      "Portal": "Yahoo US",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "버스 지하철 무임승차 70세 상향, 언제부터 시행되나",
-      "Link": "https://v.daum.net/v/20260626113415125",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "공성훈 1990년대 실험미술 다시 본다…초기작 '더블 블라인드' 공개",
-      "Link": "https://v.daum.net/v/20260626115655947",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[속보]홈플러스 전단채 투자 피해자들 “MBK, 자기돈 내 놔야”",
-      "Link": "https://n.news.naver.com/mnews/article/658/0000147825",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "K팝 공연 국내 팬클럽 선예매…암표 차단책인가 해외 팬 역차별인가",
-      "Link": "https://v.daum.net/v/20260625205518146",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "해킹메일 감염, 중소·중견기업 가장 심각... 모의훈련 결과 발표",
-      "Link": "https://v.daum.net/v/20260626111820396",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"우리도 참전국이었다니\"…월드컵 응원 현장서 6·25 마주한 남아공 매튜 씨의 '감회'[출동!인턴]",
-      "Link": "https://v.daum.net/v/20260626064606346",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "정부, ‘잇단 불소 누출’ SK하이닉스 등 25개 반도체 업체 집중 점검",
-      "Link": "https://v.daum.net/v/20260626111144928",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "비트코인, 연중 최저치까지 '뚝'…ETF 유출에 9000만원도 위태[코인브리핑] - 뉴스1",
-      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9NWU5oRDFQWmxzWFhBTHJSODBFVmx3Qm9TdFU4dmpEZ0dhNWU3ZTdyRDFZbHBzRmxJcmpWaGVZemlscDhHUkh1SkNvZThfek9lTUxsdW1leE1HSmNWbVF3a1dGYWdQUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "송하윤 학폭 폭로자 ‘불송치’는 과거 일…보강 수사 거쳐 ‘기소 의견’ 檢 송치 - 스포츠경향",
-      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kblExUGZoME1sbFpnbUUyTEhnRWozYzQ5MUpNRVJPUXBxVy1TNEJQTDRtQTlYNzhzNVRHOXE0Q1ZOeGI3WHYzRGY3cVQ2TDBiRU5mckJ3MmxjeC1hdUHSAWNBVV95cUxOaktldkpiOWlMc3RPTWZtSmNTZEU3VU11Q25LR0hFbGk4THVMMFVtbU52d0dLY2FKVTRkM2FYbkJGcV9hWGJpb1BibUxPZ1V4WGNMc2U2ZllCRVZrNUJmRUpNdWM?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "출소 5개월 만에 들려온 비보…故 김성민, 10년 지나도 잊히지 않는 그날의 충격",
-      "Link": "https://v.daum.net/v/20260626093833300",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "'버터 없는 버터맥주' 박용인, 2심도 집유…\"유해하지 않고 표시만 잘못\"",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014029992",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"우와\" \"미쳤다\"…BYD, 중형 PHEV SUV 판매가 3750만원 '승부수'",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025512",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "김재연 대표 무기한 단식 \"이재명 정부, 홈플러스 사태 해결 나서라\"",
-      "Link": "https://v.daum.net/v/20260626125031155",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“시간 하나 바꿨을 뿐인데”…아침·저녁 운동 효과 ‘이렇게’ 다르다 - 코메디닷컴",
-      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBWV1VTVUFHSFhUdkxqRjJNOWZfbWdsVE1SLUI1ZURrR0ducHVTU3FUVHdETUVCZ2R4YzNBYkpyeGQ5Zw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "다주택자 규제 역풍 … 서울 아파트 전세값 13년 만 최대폭 급등 - 뉴데일리",
-      "Link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FckpPUGhUUE5tWVhHSjMzT2FNYUl0U0RNQXNVNmRJRjVwdWZ5Vkw5alJrczQ3SnFkZDhpV0VYQ05MN3lqVzVHTjhjQnZRZGJ6NnM1R3VtRUtMNVNuVjVTSWRKTVpuTElfSE9mMVNWR3B6RERqTmU5UDd2a9IBgAFBVV95cUxPa1htQTIyV2ktVjVEM0Nsby1MRW1WNlRHLWtqdmZhWFdkMzRxbk43WUk4bnQ1OVZBVVFYR1pwZFJaRm9kdHY3UGFocF9uYVYtLWpTWHFQVWpRYXJjdTVhUU9LaC1Pc0N0elB1R2NZbE5ZaG9MLTc3cm5vX0NfWHNGQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "How Qualcomm is evolving to grab a piece of the AI data center explosion.",
-      "Link": "https://finance.yahoo.com/technology/article/how-qualcomm-is-evolving-to-grab-a-piece-of-the-ai-data-center-explosion-200314570.html",
-      "Portal": "Yahoo US",
-      "Category": "IT/과학"
-    }
-  ],
-  "경제": [
-    {
-      "Title": "다올증권, 하나투어 목표가↓…\"전쟁으로 업황 악화\" - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lQzdlb3A2MTZUazRZRnIyQ0xXU2M1bE53VXhsR19UWkxZLXBjWThSV2pBTTJVWElCTHhkcG45NkRSdU1qaFk5SU1HVU54X2ZFc29kcmdGSmNVSzFDUk96ZdIBYEFVX3lxTE5lQzdlb3A2MTZUazRZRnIyQ0xXU2M1bE53VXhsR19UWkxZLXBjWThSV2pBTTJVWElCTHhkcG45NkRSdU1qaFk5SU1HVU54X2ZFc29kcmdGSmNVSzFDUk96ZQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "인플레·반도체에 맥 못 추는 가상자산…비트코인 가격 ‘바닥’ - 시사저널",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9IYnlwSGM0MTlIb0VfTjFNenNjcUxmZzIxYVVxbUI4cWFOVDN3bWVxR3BNNWEtTkEyVHFqOWVJRERBaTZlbkdmMXFFZ0FONXVxUXZJX0ExTnAyeHhocnItT0M4bm1RTHRUWlEyUnY0WdIBc0FVX3lxTE9XSlRQTU5aNG04QmNZaVlqSkpCY0ZmczJVQXpod0toaTVETEE3NExtWHl0VXdqTGJvQjItaFhoZjlMdlB1TVQ0WGNFQnFHUDZRLXhydFVsMklRSTZSTkJGOF9mM2VOWjh0ZDJ5SnVsTmlxNjQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "세계 첫 ‘조만장자’ 머스크, 10일 만에 타이틀 반납…주가 하락해 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RamlCbGhTRGFCWldYc1R5N1BTUnIzemJ6cXR0TVFMRjRwRVZYbkx5SVgtcUM2UXNlQVVVUXlGTEVORHpwRl8xb2dGN1F3NW0ya2h5Wm85STFIMFlSTXBwcS1vbE1EV1g0UWFycTdmMA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"조정 오면 더 담아라\"…코스피 '1만5000' 파격 전망 [분석+] - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56VGg2akNjaUdIcEpza2ZpeU1JWnlYSjNDbmZZQVRBc2JJYzM4Z0JlZHFfM0dLWVhDSExmR0RiSXhxVlJ5ZmMySy1mRFF0Y0d0THpmMVhwRk4yZ9IBVEFVX3lxTFBWTlJyRkMwSmIzSER2TnMtX3ZuazBVaElZU3dCV0wzaGgwUkY2Nng4Ym45Z3otRTlXMEZ3a0FvMnRtN3dDQUQtZ1NFWXN6Y1hGRmJLTw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[이종혁의 투자] 부동산 '쉽다'에서 '닥공' 전환 - KB Think",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3VllaTTVXcmxZakVqeFBGWmpNTXlxaklzaWJ6bDREZFBQdC1UclJrSHhtYjlKelBfZ2RCUTBqOU5Jd2VMQ1FMNkRXOFdfTW5kcWlDZl8waEJOWW1PTjlRbjlUUjBrVWtnZ29MdmdBNjIyUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[속보] 지수 급락에, 유가증권시장 매도 사이드카 발동 - 서울신문",
-      "Link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfOGR0OWJkREJPT25YLUlpZlJ1UjVUNHA0c2VuSzhMWFlVSEthRFFGTlBOeF85NFdvekRNUHpWSGkwWV96cGlMNk1UaExRMTNDRzRDWDUtQkJ6aTRfTTNEVE1EYWlxYW1td3czSG5IWk9nb1RGaE5yajUxM0VRdw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "수입차 대거 불참, 현대차·BYD 전면에…부산모빌리티쇼 막 올랐다 - 지디넷코리아",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yWU5RZkxLMmdtTXR1YTFjVUZON05rSEZ1YWxsLU12M0RpM1NudHRnMGJuVHU0T1NSend2Q3hmMjEtMlFZbU9INGYyX1NzY0NBb2JVU0hn?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "현대차증권, KIA 타이거즈 ‘스폰서 데이’ 개최 - Hyundai Motor Group",
-      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQendWbnNISnZ3WDMya0xkTXhzaGx3SGM0a2lSOVVETU9oREkxM2VUSTJXQUdEZXhFTEhFc2pzVThaV1doeDdyU25GT3YyZVpzUVJCR0RmMjhhZk83S3JuOEFvcWhTUFZsdUtLTVVLMFhyRkU1a2JSOEpxWDExc09mR1lIOGlJOFVwSjl5UnlpTk4?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "구윤철 “오늘 석유최고가격 인하…전기·가스요금 동결”",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656135",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "현대차, 부산서 ‘디 올 뉴 아반떼’ 세계 최초 공개…6년 만 풀체인지",
-      "Link": "https://n.news.naver.com/mnews/article/082/0001387160",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"반도체 꺾이면 같이 망한다..韓, 상당히 위험한 경제구조\"",
-      "Link": "https://v.daum.net/v/20260626114512587",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "IPO 앞둔 오픈AI, 재무 상태 폭로 문서 나와…\"완전 난장판\" - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lRk5Wdk4xSzlQTDRCRThhTjBmRWxwcWI3RHNhRHlTNnJwVnI5azRaVWNRTGQtLTg4WkdVMTYzTVNmZzZzdENOSWdhMDZlbXlYZUlLbWttSXN0dkJ3aXhuYlFIdjh1QTdEVk8tWUtSUUbSAXRBVV95cUxPZnB6MUlxYWEzYS1jQXlkdGRlZkxULW9NM2FWeHQ1cEZuTWxpcE1sUDRjSDJ2YUZ1RXd0bTItRjZtOW5hNEZ5X0xkSm1IY2ZTQUpkZHlFZElQQXlhRUhlcmFxX04yN09IQWl3ZEU0OTJ4UU9BVw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "기후동행카드→모두의카드 갈아타면…“최소 월 3만2천원 절감” - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85ZzRpc0NKcEIyZU5XZzFYcWdaTHgyNVBKTzJvX1I5aW02azFWSHNaVFI3YldjRU9oUy16bXlTNWdwUHVvNUc0dy1hRnRKZDJGRVhvSFQ3anVoY19wSlluSGhkV3pIbHkydE5vYWE4aDhOdw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "미래에셋증권, 6억달러 채권 발행 성공…조달 잰걸음 - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxcDZ4cGtxUG9iU2MtREZxc0loc2ZVODZ2RGFDUzlTaW56RFFFS0RhdEZCWDNWeTBIY2s0YW1ja0Nub2tnWEVLTDFETjJPRHlmbjBBZW03dUZDQWNseTJTNVNDVjNTM1ZaSnFMSXpZVXA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "트럼프 행정부, 안보 우려로 \"GPT-5.6 순차적 출시\" 압박 - AI타임스",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iTWE4WjQ0Rm9FMXhnNklpUE9yc0lRQnQ3RHN3blYtR1lkUmRCRi1rbGQxYVhZWHljVWNPeU5kakVsUzJvdndhWGRiZGs3X2FEZXVvR2FuUnZyXzcxWUttcGhOc1F3OUQ2X2c?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "HBM 제패한 한미반도체, AI 패키징 시장도 공략",
-      "Link": "https://n.news.naver.com/mnews/article/011/0004635290",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "[8:44 가상자산] 비트코인, 美 물가 부담에 투자심리 위축 - 신아일보",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NUWwtRWVCdERSckNaTlBXXzE2ZTd1d0dPX3VBcVJ3NGJacVFPV2l5c3BBRkpFTHdvdUR0cmhPbl9GVm9hem1UVDdPVk1rb3JBcThxRVczaGZvaWhwLXZKT2hTLUVqY1REVk85dWdrOVk?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "한국부동산원, 정비사업 조합운영 컨설팅 추진 - 한국주택경제신문",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYdy0wSHA5VFZCeHBKNldmamZsNjNIWnhYYXJTa2d0NTZHR1Z6ZFdEeXMtNnFfYl90RFJJQTd6RG1tMk9qQW5qRHAzR0pNWUlvcnRIRDQycjllN2xVXzFGWVFzcEc4QVdO?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "대습상속의 함정…패륜 자녀 막아도 손자가 온다",
-      "Link": "https://v.daum.net/v/20260626060116532",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "BYD 또 '갓성비' 승부수…3700만원대 'PHEV' 한국 상륙",
-      "Link": "https://n.news.naver.com/mnews/article/648/0000048376",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "비트코인, 9000만원선도 흔들... 가격 급락에 스트래티지 자금조달 시험대 - 한양경제",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Ca2FDUlBjdjRZTWJGVlJUSm5lWi13YVU1YTVUOGhUUm9DMy1FdjQxeVRmTEFySmVzRnVCY0ZBejNMOWhhdnBLTDJwRF9Yc0J3MVM2SWtxeTJBbFNJWkREMlg2UXNaYnFVZmh4RGVxZXQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[단독]성과급이 다가 아니었네···SK하이닉스, 정서적 연봉까지 합친 총 연봉 1위 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZR25fV1hLVy1yeXQtZW1DTWdrbU8zUXphTmhrcjUtVDA1dmdTLWdwcmU0THE0RkVUTWNEWUdrWWkzWTBqdG91Tm9sN0hSX3pSQ01RNlVLVEpWQdIBX0FVX3lxTFBHZ1VVSm40cHlNaGlIVHhXaXdaLVdEb2R0S3M2bjM1ZDFUa0RUa2xiMkcwUXdMMmk2RS0zcDB4YS1SWE93eE14bl9JY0lCcnpzb254NFNsaHYzVlViNkRV?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "어제 반등은 데드 캣 바운스?…비트코인 한때 5만8천달러선까지 하락 - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54V2N5MWI4R0lUVUtYVTBhTE9ZWHE4NXVrODdwbEF2MVowNzFKanJaV043TlUyTW8xT1JMaVFEOUxTV0I2RjRHak1ETGM2cFEyaE5FaFpTNnk2djYxX2ZqTEoxc1lKNDlxMlJGT1dBQms?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[속보]코스피, 8% 폭락에 서킷브레이커 발동…20분간 매매 중단 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkMlBRcEUtdXlfdzJoR2pVeWhmUFUteWFoSlZ1amJWTjg4dlVmcjhMQ014U09NNUd2QjhpOTg0VW9kS0Q2STQwVERZVjNlMklhSHluOE9SZWthZ9IBX0FVX3lxTFA4T0I5VnV3dHVINnJYVnRDb1MyOXRseTdRRmQwQV9YRkJDRFVwUG5aVXVJY1pEUVdjZkVZZ0g0S1g4ZHN6QUpqcE44TFZBcF9kajdScmhxLU9qVjFvdFJN?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "부동산원, 초기 재건축·재개발 조합 맞춤형 컨설팅 나선다 - 더팩트",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ybmFSeENhQnAySHdDNFJqQ0JrZXZoai0zX3BBbGh4eFFNNk93a0djZ0g1c0hEakFuNnZCemcxazhSS0VTVGNqN1hsYkxQUEtURndvR2pPOEdTQdIBVEFVX3lxTE5WendNbGpaQTVYYmFhUEVoNU5WQXhCOFAzeXFJMFlQaS1wYXczVXJFNzNRdVFkaEZZNVpfT1J5cWx6RlFGRXNXa3dhby00bnNMNC02Sw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "부동산원·대구시, 조합운영 컨설팅 시범운영…사업 초기 지원 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nSUpWaGRqLUpNLTBsX1liTTd1RlZxdURQUkVHdThNYjFhaVowdlVZNnhkeDBheXVVTzYyQXktNnZBenF1UkZLYTNGX1ZEY1E?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "LG전자 류재철 \"엔비디아와 피지컬AI 협력 구체화…시너지 기대\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161238",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "인플레·AI에 짓눌린 가상자산… 비트코인 6만달러 선 붕괴 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSUgyMVdudE5RRU1zWjl3dVpMMjVJN0RkdTI4Y0xGTmRUMXl6enFnMHdLeHExcURyVmtLaF9YeGZHdnZ4a21IUGVvWGVLMElvdE5zNXkweV9NY3hNUmEwZElscllXUlU2cm85MThJeDhsQWhrWGxDXzk5T3R6eHB6MNIBlAFBVV95cUxOVkdGWGlGc0hWaWhrMmM3Q2xSQ0M1LVhPZG9mRkg0enRTS1lUdEM4aW1raWx2N2NJYk45WVJzWUJnTHZ4X3U1blFkSXp5TDFwejdacDRrVTRWVXJWMS1LbklDWXRXc3ZIUS13bnNQcWI4UV9NT0ZZazNBRzhyNzBzQUpKMGdSend3VlQxbzk1N09vNkl3?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "전 美차관보 \"한국 내 핵무장론, 핵잠 협상 복잡하게 만든다\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161241",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "[분석] \"스트래티지, 파산 가능성은 낮아…주당 비트코인 가치 희석이 리스크\" - 블루밍비트",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE05c3FpX3gtdmJIQmZHUkhJMW83UXd1TEVxbWdtaGZyQXppNU1xQUM3aWNGTUVnN05nODBYMHNDMmRpMV9Kd2pwaFRqUnZKNURK?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "“금리 앞에선 금도 못버텨”…4천달러 붕괴하며 3년 강세장 마감 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92Ym5BeDRWUWRvNXNKOHBmRkF4eVhmYk15UnNmYzZIcXVzd0toM29rcmRjdjQ4cFFXWGp4UjMtTEEwYUw5cXFjbnBBMmdaTlI1V2c?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "재테크 열풍 속 베트스셀러에 ‘부동산·주식·달러’ 책 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QSVdDX1d3Z3dhcEx4VnlzeUlWZ01Pb0Q5VkxWc2VHZFVYQWwyaWFTSERtR3hzWm1KMnFhVFFydjJJa21jbTV2ZXQySExFNm1jS0dES251V3Y5d9IBX0FVX3lxTE9vUkNMallPaGNucUMtcHpRdFJueFBwc1pEWDZhdlpnemJRVVdYY0lTcEhSa1FUTzFqTkJpdjU5RVBTczNDOG1GMGVBUDluZUJNVlZISS1WSm1oSHlVcUZF?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[속보]홈플러스 전단채 투자 피해자들 “MBK, 자기돈 내 놔야”",
-      "Link": "https://n.news.naver.com/mnews/article/658/0000147825",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "PBS 폐지 안착 속도…출연연 인건비 전액 지원·신규수탁 제한 - 전자신문",
-      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9KYlpEQjZoVV9fdkt2UE1ZUkVxOTc0Q2YyakpQbjJQcjNnMU1xVG1rVmtHZEsxMlNRWmFzeWxvRkYxREdSckdDWVRVc3V0dw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "구윤철 \"7차 석유최고가격 인하할 것‥민생물가 안정에 1조 원 투입\" - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBETFNPb2RnLW5nS3lITUNtRTJjTi1XRVRnVHNjOGJxQWVBb19XNkM4YVJmSHRMWWtPdWQwQ3dCeG1PZVpvVnByZU9ueE5jYlphQS1IZmJpNTNRLU1fS2ZIamVJRWZiVDBsMGhrbWl6MXNhUjJZ0gF0QVVfeXFMTmxDekh0cXg2R21EX2xpSi1HVUNmUmFlMlBxWXc1UDdubWVPYUtYeDFPVmtBQ2ppbDhITTZ6QVJxVVh2Wk01Ujk4QlN0LVBHSTlnckJvSnlYc0F6ZUotOEU3MWFoUGhyVl9YREFIZGxlN0xDUE4?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "현대차 무뇨스 “가격보다 경험”…아반떼로 ‘평생 고객’ 만든다",
-      "Link": "https://n.news.naver.com/mnews/article/029/0003033848",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "美 5월 소비 물가 4.1% 상승... 1분기 GDP 2.1% 증가로 상향 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcXhrRmhEbmZ5cXdmTlB3dG1HeHZGRlpuVDVGWDYzT1c1Zm4wUHBpbXQzOXdFYjRnMFdRMkI1TkJENUJaRUdocEl5ZG9VOWhaR2g3MHNJV2N3dEFXNmNTbGFqMG9TYW9JWGE1T2U0Tk5qWFd6aFh2UjFmNVhxLXlIRHZrdjdmM1FWZVNr?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[ASCO싱가포르] 전 세계 덮친 '젋은 암'…원인 규명·대응 전략 모색 - 약사공론",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xRVNmdy10a3BSOFdha2xlRllacmFTWFpMY0RnVS16NV91VjJRTXJFQUpFdzdTcXlNcWdKT00waGlPTllqd05QMDNkZUJFb3QzZmhnZ0o3cVRRUHdCUGFWM0hxMF9vSnozMkJFQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "40억 아파트 1주택자, 종부세 부담 확 늘린다 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zdDQ2X01EUEVFeTFkcjJXRENxSkthVjZuUXh3LVltSXo4SkNSZ0QtdHplUExkYlp0Q3lWWHJGRlp4dkZRUFBMaGxNMW83Z1k?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "비트코인 9089만 원대 하락, 자산운용사 21셰어즈 \"반감기 영향 아직 유효\" - 비즈니스포스트",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9oSmc3NU9TNVYxTWNybjBMOEIzcWcxQTZyNjNIbEVDTzc2T2s0N0c1VlVhVlFieEpienpGbjV3ME5UcDBGbzEwYjg5WmtKRGEzSk4xN1Fid2g2MVY5Skk3Y3A3OGFEM01HcC1meDdMbHh6Ym8?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피 8%대 급락에 사이드카·서킷브레이커 잇단 발동",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367560",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "주식 부담스럽고 예금은 아쉽다면… NH투자증권 “중위험·중수익 IMA가 대안” - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONVl1ZVR4VDlJREg1dmNOOG5neWdBcFdsY0x4bFdpb1ktczZESmljRHRHMmhkX0J0QWtFWjJWSFFLb01QV2JyMFh0VWNkQXNSOW5EQWhsaXRDckFzTHJpQ1h4LTNBT3I0MS1SNzVHQUt0dEU3MUplTFd2enhmbjM0b004YWdyRG120gGcAUFVX3lxTE44bnVUYTEyQUIwZHd2eDhhUEZZVXhaTU5kZkwtVEZuMGxBaHhIMHVkeWtMemp2S1ZnYzFGRUtYRm9nLTdIMGRvT3V2aTFCU2pzVzNITXJFZEQ0b1J3ak5yaXRYSks5SFBGN0MtOTVzRDREeFYydFI1TmVWejdRVF8wUjdiX3YzdXZkbE5pQjFUaVhLYlo5RER1ODJUdQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "애플, 메모리 대란에 맥북·아이패드 가격 줄인상…칩 로드맵도 방향 전환",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656176",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피 8% 급락…사이드카·서킷브레이커 잇달아 발동",
-      "Link": "https://n.news.naver.com/mnews/article/374/0000518448",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "비트코인 6만 달러 아래로…20개월 만에 최저 - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4WldJaFpMQWJWeVMwbmVwMG9xX3FqRk82LWF1UGNXVW90UVREY09WN1lTdW1ZeXotQmJNMkdSQmpSRFFUaXVTVzFoTVdsSTRHMUpmNjNaenhsX3JDZnpQS9IBYEFVX3lxTFA4WldJaFpMQWJWeVMwbmVwMG9xX3FqRk82LWF1UGNXVW90UVREY09WN1lTdW1ZeXotQmJNMkdSQmpSRFFUaXVTVzFoTVdsSTRHMUpmNjNaenhsX3JDZnpQSw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피 급락하자 424억원 강제처분…초단기빚투 개미들 ‘악’소리 - 문화일보",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9kYlI1dFRmUk5RN3RpaDcyMmRKd2Y5SzFDQjM2dy02VDlIZ1lSMldhWE5QRXlCeF9SVktGcW1menkwd0ZRempuOU5Yd2dkeVdp?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피, 거래 재개…‘삼전닉스’ 9% 이상 급락",
-      "Link": "https://n.news.naver.com/mnews/article/050/0000107855",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"20배 이상 폭등한다, 지금 절대 팔지마\"…월가 큰손이 내놓은 비트코인 파격 전망 - 아시아경제",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeWc1MXVCa0ZkRk9HYzQxemdwQ3RLQWJqQ1hUMU9UV2hPR2Rzek1laFNqeXRzaHdBSW1jVnpESEZESE1BSldBTlNOOVF2UnVPZFZwQ1dPdmdOeGFwck9jUA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"HBM 가격 더 오른다\"...증권가, SK하이닉스 목표주가 400만원대로 줄상향 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeDFERGE5dDVtRkE4X1pOZWQySnJiYmJLTDNHYk5laERVMEVFWmx1eGNFVDRVaVAzSTVycEttNXdVU25QaDkxakkyTkZoOTA2c1BVOGt1aDZLaVJLdkZpejRJY1ZUc2ZVazJ5OGFxOHE2LUZnZHI1c1ZFSlhpODNaWQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[2026 부산모빌리티쇼]현대차, 신형 아반떼에 SDV 심었다...박민우 사장 \"차가 사용자를 이해하는 시대\"",
-      "Link": "https://v.daum.net/v/20260626131300914",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "하이닉스, 나스닥100 연내편입 유력 … 삼성전자도 美에 ADR 상장설 솔솔 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41UXBuczR0TWdUc0lRR3QxMGF0LTNoaXJEX1ZiSkxPOVRUWmNuUTdsbGZubWpyYzIxUnhURHBwWkkzb2J3dTNXandxRW02VUxRa1E?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[미국 특징주] 스트래티지의 비트코인 재무 모델 우려 확산 - 뉴스핌",
-      "Link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EM3NUTnJoRG82M0pFZjd1LVhFczhTSXNhVTlhTTZFUzh1N1BlUkdnemZmeGZncDdiTnFySTFzVld1UnZ0T0NPSVBMakN1c1VBOERFdWtrNkVHTmJt?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[허준열의 부동산 고발] \"1억대 30평대 아파트의 진실\"… 유혹 뒤에 숨은 함정 - 세종의소리",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqYnpvU0xnRFBuUnJZYmdVMHZLUkt4LW1MRGV6T09CSXZWLVpzaG5RM3VWTzVKYnBFcHkyUDRuUmRHRWFxVXBKSXhUVmlHUWJkTmFYMEVPSjg0MDZxa1Y1cHZyOXlmc2c?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "한국생산성본부, 충청권 중기 AI 전환 지원… 기업당 최대 783만원",
-      "Link": "https://v.daum.net/v/20260626130345566",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "[속보] 코스피, 급락에 서킷브레이커 발동…‘삼전닉스’ 9%이상 폭락",
-      "Link": "https://n.news.naver.com/mnews/article/029/0003033847",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "AI가 메모리 빨아들이자 맥북도 올랐다…가전·PC업계 원가 압박",
-      "Link": "https://n.news.naver.com/mnews/article/119/0003105109",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "NH투자증권, 일본주식 1주 거래 도입…홍콩은 업계 첫 시장가 주문 지원 - 브릿지경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iMHhuZkhwY2htX2NaOXBQam13c21LM0ozVDJhZGhUQmJrZmhMWWw5NTNWTlBNSmpPMEw5Y1U2dFpxLU84LWRNbFVxem41MU1PeTVsaEpnczhZUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[2026 국토교통기술대전] “AI 도시 격차, 플랫폼 가진 도시가 벌린다”",
-      "Link": "https://v.daum.net/v/20260626122247647",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "[원자재 시황] 금값 5일만에 반등…비트코인 2년래 최저 - ebn.co.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tQUpjV0dFZmc0NktJZlkyaTVnNGo0cmNDVUR1b3RmLU9wVzJoang3SkxXaGt0VEYwSWNmODRiaDRiMk9RcnlrZ0UwM1dJNTNBZmR2LUJoSUcxbkQzRjhPWGZWOU9DQ1o4?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"삼전닉스 쏠림, 미국 M7과 닮아…1년 이상 지속될 수도\" - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44QzBnb3hFWUpxc2lXZzBwbUlVamNvWVY5M0tmME9VOHhYWVd5QXNxOE5vaWtUdTZUX0ZaMm1keFhCQU9Dc0FscEhXbUZ0VVhtanZpa2JPMkY0VmpHQ2p4Vi1zdkRVd1RyTVMydGdNMHA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "HMM, 글로벌 ESG 평가서 3년 연속 상위 1% 기록",
-      "Link": "https://n.news.naver.com/mnews/article/119/0003105024",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "'178만원→95만원' 반토막됐는데…외국인은 1800억 쓸어 담은 종목은 - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ETnJ4b1lBSVZ6VXlyM1pNS245TzJvNWdnWWt4WU5tdFRyS0pDYW1zVS0tWmx0emNBRk5hRkhVUGpEdWlsWHBBQ1pZbWRRUzBLdFVz?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[단독]“이제 검색을 대화로”… 네이버 ‘AI탭’ 오늘 정식 출시 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUDljUnFBVDJVTzh5NHdvYl9sdm53ZW5EenBDX1Yzb0JIVGF0WHBzaEdoX1J0OWJlM1BkbGxMTHkybzZHY0xJdUFlOS1kbVdhS2NoN0k4emJYOTVHWEZNRGQyVWZGOXByRVZkbWZDUDZtRlhjY0I4bkVNV2RpUHk2OVlqRQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "SK하이닉스 이어 日키옥시아까지…메모리 업계 '美ADR 상장' 확산 움직임",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030224",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "다이아몬드 지고 금값 주춤하자…‘손톱만 한 부동산’이 뜬다 - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oNUVqcGhBNXNaLVlnZmZoXzN4bXM1YkNZeEpkM0ZfZ2pRQjhrXzFXclE3V3B2LXRzRkY1MG1kSXREalhnUnM2OUplYjlKcDVuZUtQSmVB?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "종료 D-9 삼성 '감사 페스티벌'…매장 방문객 75%·삼성닷컴 200%↑",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014029680",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "국힘 “다주택자 미꾸라지”… 한성숙 “부동산 투자 다신 안해” - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CSWF5Q1VjSHduQ1JwYV9yNHpwVFNzdzZqdXF5WW1SOTUzemdud2xJck5jVXdNdURvSm1WMVVJT2dpMGt5WlYwQ05uVU16WkxWZ05oT1c2S0ppSkZpOEpVUmF2MzRfY2d1MU5tTXhkSVFsTnZORWFv0gFmQVVfeXFMTXV6UGJ3RVc5bmNqSTZnXzlxTFhYdWh0eGIzZEZReWt5ZkNtR0ZDNG03eHFHSWNEM3BMZUtDbnNVUG55a295NDlsdXMwX3lsUEZsQUVKNnVHOHU1VE03Ylg3Z0VESXVn?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "송희구 '부동산 교과서' 2주 연속 1위…투자서 강세 이어져[베스트셀러] - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NUlU0Q1E1eEV1MTJERTNCblNzdkl5RmI3enlzTndZM1J1NWl1TXQxeUN4aXFfYUZ4RWM1UmpiMExJZEtYUHQwRnBlVUhmbXM?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "치솟는 달러값…환율, 5일 연속 올라 1550원 근접 '비상' - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qTzZpbmE4UXdCdE5ZVDNMMUlZcVJJdEYxWlpwWnRpNDdaRFp2T09TYnhaQ0IyT0VKOEw2TzU2TjZFZWp2N0JRTS1kalRoY1piRy03YkVNUmt1dw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[뉴스in뉴스] 마이크론 ‘깜짝 실적’…슈퍼사이클 언제까지?",
-      "Link": "https://n.news.naver.com/mnews/article/056/0012206802",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피, 올해 5번째 서킷브레이커 발동⋯삼전ㆍSK하닉 9%↓",
-      "Link": "https://v.daum.net/v/20260626124004965",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "자고 일어나면 오르더니...'112만→80만원대' 금값 뚝, 매수 기회? - 머니투데이 - 머니투데이",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBbWh5d2E3dkRia1lHeDlTS2k2VFRaSEtZdHo4LWVpOUVrRGFLZmNFcXpDZmxZc3ROTUtIX3lVS1Q2U0MtVGdCV0Q1Y2NlSjZVaXI2ZXhSM0l2Rk51RUtxaHVqeVJQSXdVdm1F0gFwQVVfeXFMTWpxTVBETVg5eGdVMU9GdWh5MHUxZDVhamZ2eXN5WHdpYTdmVEhqSWxPYm1zWDlpMlhaVmtYbEZScUg5ZDNiaXdueE5rT2RGYjZXRy04dFJDQUY3WkpLX0c2ZkdSQjAzUXpFeG0wTmQ0Rg?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "전 IMF 이코노미스트 \"비트코인 정점은 2025년…사기꾼들 기억해라\" - 디지털투데이",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vQndkMkNFVWlhRW1jakRtakNGYlBMcDBPaXctUWZ4U0VZM25NSVNSQTRHd2ZIZ0cwd1NVTWhvV2xUUGxuZlUzUUhIT19YOVB1UURKWnAtWDNsMXdBNXp1eUVpWVV6MFhkdkxNdlBVa0R1U0U?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "반도체·데이터센터가 끌어올린 건설계약…1분기 74조원, 23% 급증",
-      "Link": "https://v.daum.net/v/20260626123609891",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "[현장에서] 반도체 초호황, 부동산 발열을 잡아라 - KB Think",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnMkNHUXRabDFUYmVua2haNTNWNEZuLU1tYl8wXzVReXlTSktNNG05WTd5MEJHQXFPTU5aQjdCT2xHSmk0dmFyN1RJTFBRc0lMblpxd0lVOG9SVjJ1Y0FBN2V4Yi1IUFg1QW83eExlajZ0UQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"반도체로 우르르\" 고점서 29% 고꾸러진 金... ETF서 1000억 '엑소더스'",
-      "Link": "https://v.daum.net/v/20260626130433620",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "“청약가점 낮아도 기회 있다는데”… 추첨제 물량 대거 포함 신규 물량 보니",
-      "Link": "https://n.news.naver.com/mnews/article/009/0005699185",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "LG, 경찰청·적십자사와 폭력피해 아동·청소년 지원…6억 기부",
-      "Link": "https://n.news.naver.com/mnews/article/422/0000878741",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "다주택자 규제 역풍 … 서울 아파트 전세값 13년 만 최대폭 급등 - 뉴데일리",
-      "Link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FckpPUGhUUE5tWVhHSjMzT2FNYUl0U0RNQXNVNmRJRjVwdWZ5Vkw5alJrczQ3SnFkZDhpV0VYQ05MN3lqVzVHTjhjQnZRZGJ6NnM1R3VtRUtMNVNuVjVTSWRKTVpuTElfSE9mMVNWR3B6RERqTmU5UDd2a9IBgAFBVV95cUxPa1htQTIyV2ktVjVEM0Nsby1MRW1WNlRHLWtqdmZhWFdkMzRxbk43WUk4bnQ1OVZBVVFYR1pwZFJaRm9kdHY3UGFocF9uYVYtLWpTWHFQVWpRYXJjdTVhUU9LaC1Pc0N0elB1R2NZbE5ZaG9MLTc3cm5vX0NfWHNGQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "하나증권, SK하이닉스 목표주가 275만원→360만원 상향 - 매일경제 마켓",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Cbzk1Nklucy1VODJSOExqeWFVRUxlMU9xN1o3Snh5UGZmZXlGekpJbm5YWkJENnNZTXBRc0ZUSzJfQmxLMm1oYmRUd3hTZGdEeXc?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "비트코인 6만달러, 금값 4000달러 동시에 깨져 - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93ckM3dFNPb3hhT3BNTmhsUlZDX3lvdTNaYmkzR3FOVjJ5UjhwX19vYXNwZVYyeWVMdTh4RmJuOERmM0FzNXRTRkNIY0R2Mnl1cnZ1cmhB?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[코인뉴스] 또 6만 달러 내줬다…큰손 매수도 멈추나",
-      "Link": "https://v.daum.net/v/20260626104142449",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "애플, 메모리 대란에 가격 올리고 칩 로드맵도 수정(종합) - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42Nzh3Y3NZc3BVWHhTeFR5YUFENlNQNHFaLS1pRmc3YWFFX2ZUSUZyWTFpOU5ZcF9WQms5RkpJRUV2cERZbTBLd0k1VXYyUThfS3VWSXBoQmhBdm_SAWBBVV95cUxNaV9VUzN3RmxXVHZrYkFoOUZRV3BCLVVVTXhHQ0E2TDd0dzRQYThGeU92bzktUmx0aHBtTzBDblItWUFHQ0Uyb0dMcVBNUmx3b2YyY09ocjExRWFzdVhhUmU?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "기획예산처, 올해 첫 도입 '통합재정사업 성과평가제도' 개선",
-      "Link": "https://n.news.naver.com/mnews/article/079/0004162112",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "국민연금 고갈 시점 늦어졌지만…‘용돈 연금’ 벗어나려면 퇴직연금 의무화해야",
-      "Link": "https://v.daum.net/v/20260626080724902",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "송호성 미래차 승부수…기아, SDV·PBV·EREV로 전동화 확장",
-      "Link": "https://n.news.naver.com/mnews/article/029/0003033849",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "“군함 빨리 건조” 트럼프, 조금만 기다려…1500억달러 ‘마스가’ 시동 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ULURlYVVWN3VVOU9zV0Z2Skx5azFQMVlIeXhmbUZadHJEZEZtVWdadnZMY2ZZWXVxelI3dWdOZGthVnI2bFhNM2FiMDQ2R2lJR2xMSnY5dDZJVmdncUhUN1FtUkdRbTVhd2c?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "명노현 LS 부회장 \"기회의 땅 북미서 전력·에너지 산업 패권 잡을 것\"",
-      "Link": "https://n.news.naver.com/mnews/article/417/0001149121",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "국제유가는 전쟁 전 수준 회복.. 주유소 기름값 왜 그대로? - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yaTV1cEhBVmVPWlNuWF9GYi1mQl92a2xmN1NWQnhSVDVMVldCRENtRzZqUU9sVnRmMU9WVzJLYk1nbkY4dl9DYW44bjV4dDg?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[Why] 현금 800억 있는데 3500억 더 조달…에이프릴바이오 ‘실탄’ 장전 이유는 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQksxNldwdV9DTGlRRkZtdXRLVUJSUnV2bmVBVVlScTZaT2ZUWG5MNC1ReWpmZUZaSmd2d21HbWRDNXVBVGJqb1oxNXNkYUxrdHR3eC1PTzJSRm1YdWpYbTM5R3dtcTllX0d5YU10MEJYei1UaEMtSFg3MWdTU2Z6eHpmZzlYUHfSAZsBQVVfeXFMTzJ1NGtQRHpQNU1vMTdpNHctRURoMHEtX2tqX3pYNHgtZElWeHdRX2VEMUtQUWU2dDZTQkxqRkZ0U2NCYjBDVnVjS0hoSWFLSVY0TmEzQWF6Y0lCVTRSd2ZjREdEbXo1NHJpUWVZdGVRT1hBS2FQbkN6VWNXZEJ6YnlWOFJIeTk2Ri1HejA1UTRqUVhjWi03U0pQQUU?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"AI가 일자리 빼앗을까\"… 취준생 71% \"하반기 더 어렵다\"",
-      "Link": "https://v.daum.net/v/20260626101003879",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "부천 심곡3동, ‘복(福)잇는 부동산’ 협약 및 현판식 개최 - 생생부천",
-      "Link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd25CVndvM3cxVU9xemRnUVM2cDhMaHQtN29qMlN3c0oxZExBOEhxN1o2a0Q2Sk5lWFRjQkdOcWdYSWVIU2FUSHJTWWJHVWVKZ2dVTlRUOEdRODNzcEExbXdUT0dJTXo3YlluUWRrbl85eVJnYWtpcVpPck4tUmtpMzlMeEpSdGthR1QzNUlZaUY4MDgyTEtraU5GZXBjYUM2N01Uc2xHQ3hGTFRXN1JXWDZQVnUwMFg3c3hjSFI5RFM2V0ZJYm93aV95R3NmVnBFbDhQUGpKZVhlS1hvMllv?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[6월25일] \"모델이 하네스를 먹어 치울 것\"...구글이 본 AI 경쟁의 다음 단계 - AI타임스",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11Z3Rhbk4wdXRTQ3Ezdld5dFBwN1BvbFEwYTNpdkczX1Z5elZTV2lCaldweUQ4Um5ydnRSSlZxWlJxZmQ4VEw4dFRmdG1TTGlYWWNYbnd3VmwyVThsU09fQzhDbDlIOFBpb3c?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[주진의 와이낫] 대통령의 시간",
-      "Link": "https://v.daum.net/v/20260626130157441",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "“11호 종투사 먼저 따낸다”…우리투자증권, 교보증권 앞질렀다 - 디지털데일리",
-      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80M0Y4empBdWJRbkhTNURaSWJNTHNrdUFRREJFRG5YTHNvUWJJTkZSem1NRjBZTFhFMnBvSjlqTnJ0SjBha2pMZGo2clg1Q3dyNFpkakYyYnRVTncyalhLV2MtOE8?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "GS그룹, 강원·충청에 '기가와트급' AI 데이터센터 짓는다 - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40R0oxb2RwYm9tQ2dwZHJJWXVxR1VOMmpmODVWNld0V094Ml9oemFTYlhrTU5zNDQwcmM1cnoxNjlxY0hKcGRYakVzYVdLY2dRTjdTX0hBYVhwQdIBVEFVX3lxTE8xQnVaN0U0anRsbUljYUhSVy1DNnBNS3BOR01IUzU3NzFIM0hnNlpFTHdCNXpJMTVHMDBjM0NDZEdzZVJ3QXoycFJPbnVJZGdYblRDeA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[단독] 제일 바쁜 점심에 먹통 된 ‘토스 포스’… 전국 식당 전쟁통",
-      "Link": "https://n.news.naver.com/mnews/article/005/0001857344",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"휴, 괜히 걱정했네\"…유통업계 '월드컵 특수' 톡톡 - 지디넷코리아",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xcGVDU3h6NndIamFSWjRJMnhLakhIX3FOVUVCcEt5ZXRoRFRIWlMySnRHR2tOZGVodGhveUo4ZjNDOFk5NWNMMXpJREVrdG1QUW4zZ2VB?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "BYD, 국내 첫 PHEV ‘씨라이언 6’ 출격…3750만원",
-      "Link": "https://n.news.naver.com/mnews/article/029/0003033850",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "내년 최저임금 본격 줄다리기 시작‥\"16% 인상\" vs \"동결\"서 출발 - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BbUdlV3ZjQjBITFBsRjNqdWtYZFgtZmNibVg0VkRsS0dhZldPLVRiRVRLM3BsRllETzdRNFFyWGJ4T1lhc2FDZFIxSDRPY2pPMkJySlJ6cVJwN0I3bHQ5bndEdHBSeDVyTEFhdzRuUHhzT3l3aEpj0gF3QVVfeXFMUHhPM21PUTIzaWtscFBndndITGpHM0x0blJISzNYR05SeXctbk0yNC1VR1k1a2I1cTU5VG1uQkFIakc1Yk1uWFNiYWxRaHBibVZSZm0tTmdWU0NrNzItLXA5bkZNRzRQUU85UXBwSmxpaWF2TzIzU00?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "정년논쟁서 빠진 것…경영계-노동계 싸움에 '청년'은 또 없었다",
-      "Link": "https://v.daum.net/v/20260626125023153",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "요금은 묶이고 원가는 뛰고…한전·가스공사 '이중 부담'",
-      "Link": "https://v.daum.net/v/20260626113230046",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피 급등에 장초반 매수 사이드카 발동…삼전닉스 상승세 - JTBC NEWS",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RT1lrcUVHOUliLVhWVzV2S2ZuWS1xeG5xOS0zaTVQcmZYUFZNN0RFSmdqaThGbF9JMkZqbmFoVE5CRm9UX3lCdm5oSmZFS19hbjNOaw?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "한국 선박 8척, 호르무즈 해협 통과…1척은 한국에 온다",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367552",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "[주간 코인플릭스] 26년 26주차 암호화폐 상승률 1위 '딕시'",
-      "Link": "https://v.daum.net/v/20260626110918813",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "최태원·노소영 '재산분할' 파기환송심 종결…'다음달 24일 결론'(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/417/0001149168",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "[2026 부산모빌리티쇼]현대차, 신형 아반떼 최초 공개...무뇨스 \"평생 고객 만드는 출발점\"",
-      "Link": "https://v.daum.net/v/20260626131230903",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'(종합)",
-      "Link": "https://v.daum.net/v/20260626115431897",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "설상가상 스페이스X…8월 더 큰 폭탄 온다 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3b09nejF2ZWQzTzlDSzYyUDJtbm40NVRpSHRlQVBiNHp0WjRDa2VLVGJ2SUNjLVNGQmY0WDM5WktoblpEWG92c3Ezel9jZk11SVE?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "마이크론發 어닝서프에 코스피 9000선 목전…삼전6%·하닉10% 급등 [투자360]",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002661329",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "국민성장펀드, 리가켐바이오·LIG D&A에 1조원 투자 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZGxRbHQxcmNLdzhHVzlqU2xCX19ucmhOdDBGNXg3c242U2FENDNNOERKcGtkRVdDM1Z3bHBldmVWczdoSVhVdzdyaWRmOFlaRkpQYlduMGkzek9KZFN4VHJEbGQ0QzdvWWhhZXNIR0lBa3lxUEpYR21aWWQxTGJQYtIBlAFBVV95cUxPMVJ4WXllTDY1akl6czBRdlF3R01MZDkxVVBZc1pESEd2U2VaZzd6dklJdkdESkhHQ3U5V3pIRzI0U3VWQlJyOTR0T3VyaHllbTA0Y3YzZnpHc1BQVEt6WEQwVjVXZnlQUDZWN1FGX0xsMEJWeXBnSklUeGU0al82T1dFX2FNaExvdlNsSmNqamNjOFpK?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "한성숙 청문회 이틀 차…“히딩크 감독 돼달라” “부동산 실수 반복” - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1lMHgwa0MzajdWR2VwOF9CWUFfM3BQeFMyN3QzendheTMxYzV6NkxScll4SGh3T1JvcEZuOFl4OTZCYnhSY29zdDU4VnY1UEk?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[티타임] 코스피, 8000선도 위태…730포인트 급락에 '서킷 브레이커' 발동",
-      "Link": "https://n.news.naver.com/mnews/article/417/0001149167",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "현대차·기아, 미래 모빌리티 청사진 공개…아반떼·PV5 앞세워 SDV·PBV 전략 본격화 [부산모빌리티쇼]",
-      "Link": "https://v.daum.net/v/20260626131204886",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "“추대냐 경선이냐”…충주상공회의소 23대 회장 선출 ‘촉각’",
-      "Link": "https://v.daum.net/v/20260626125834321",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "끝나지 않는 외국인 리밸런싱…주가 급등의 역설에 갇힌 원화",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533182",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "비트코인 6만 달러 겨우 회복, 기관 이탈에 반등 동력 실종 - jabon.co.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE43ZG1PeFdLT1lxUFJBVFNXRWdLYXVjLWpNd1hOeFNTazItWjUwVDF1Y3Z6cG55Z1dPM3VzcVpicXVVWXlVMGQtME5jd3J5WXR1RDNSR2gycW8xMUIzMXZWWXdIdEVnYUU?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "흔들리는 OPEC…이라크 \"생산 할당량 안 늘려주면 탈퇴\"",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315610",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "감사원, 금융당국 감사 착수…\"레버리지 ETF 투자자 보호\" - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fNkI5cHVIczV1NGFOSWFPT0Vrd3FsMWJKT0lRNlNPZldEd0R3YmI1aGZUWDBJQXZlVzA0TEdXSWRHdVB5dHBqX1NXNmZ5OUFHeV9iVkx0d19nd9IBVEFVX3lxTE41ZzJqR3NSR0NZMlIwNFhyenpIZlhxSUxvcjJlbXg1dXJiZGQ2VGVyX2lHZ0Y1M3lGQjlSYy04eG5xbmVLSWp4TVdJYlQ0RFJCZzJ4Sg?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "비트코인 6만달러선 붕괴…한때 21개월來 최저 - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10c1N6NzJwbTlrczR6cW1HRWx0bkhod0dON240aGpnaXFwWlVQVlNGNTBNM0pOSkJMTjBlaHBDRHN3Q3FsSkRxZ2RINkl3c0xfZkF6VnBmcXg4UlN1ZlZrMUJ3X2VfbTVRV0hGZjhvZ0E?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "[현장] 피자 도우처럼 생긴 누룩방…양조장도 ‘볼거리’가 경쟁력",
-      "Link": "https://v.daum.net/v/20260626114546593",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "피지컬AI 주도주 현대차·기아…연금계좌서 집중 투자하는 방법은?",
-      "Link": "https://v.daum.net/v/20260626060216630",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "삼성 ‘호남 팹’ 급물살… K반도체 벨트 키운다 - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90bG9VVmEzaFN0STdBc1dxLUFJLTVKSTJCRTdLZjNXemozbi0xQ0FidWdMNzcwbEZqajktdmtjdlE2M1piclp1QmNRcWJCTk4xRmdkcU1RQjlGSHl1RzU0QmpVYXg2S0dFZUtBVVdhcGwyOEtZV1HSAWZBVV95cUxQRVlnSGhnZ3ltNzVKMEpFZTlUNi1fOFVTMnRnRFMyb1BUWWNNbVdtN2xqQkNtREFYOVp1QmluMzNwd3dOUzlySll5MHF4TGd6WDQtOTdNbTlTeElJeDhFQi13N2lwRGc?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "비트코인, 연중 최저치까지 '뚝'…ETF 유출에 9000만원도 위태[코인브리핑]",
-      "Link": "https://v.daum.net/v/20260626103600181",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "하나은행, KISA와 ‘맞손’…금융권 최초 실시간 스미싱 탐지 서비스 가동",
-      "Link": "https://v.daum.net/v/20260626130230499",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피 덮친 '검은 화요일' 재현 공포…매도 사이드카·CB 잇단 발동(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025513",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "정부, 하반기 물가 3% 이내 관리 목표…공공요금 동결·1조 원 투입",
-      "Link": "https://n.news.naver.com/mnews/article/079/0004162116",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"차체·엔진 모두 키웠다\" 현대차, '파격 디자인' 신형 아반떼 공개[부산모빌리티쇼]",
-      "Link": "https://v.daum.net/v/20260626131102857",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피 8%대 급락에 서킷브레이커 발동…20분간 거래 중단",
-      "Link": "https://v.daum.net/v/20260626122008575",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "빗썸, VASP 갱신 지연 왜?",
-      "Link": "https://v.daum.net/v/20260626105431064",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "파랗게 질린 코스피…‘삼전닉스’ -10%에 또 서킷브레이커",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656181",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "최태원·노소영 '세기의 재산분할' 다음 달 24일 판가름‥SK 주식은? - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLYkw5MWs2eEZPcWkwanNjbXhoMHliLTZrLVg2UUVjN28zRHlsdHhPMUQ0RnluZmpjc1g3ZlJXSlVRTkhQeGhWbkxxOW1RMTdXbmZsQ054N2tpRmRLelpiNVNtcGpOektlMnpQX3lLX05QZThXRTFN0gF3QVVfeXFMUHMyOWJoUFpWa0g5LXo1cHh3ZngzVGFnczR3NHY1akRRS3M1bncxUTg2Uzk1VENqNUgtZENUbDVkZTNWUkExRjRMOS1hSi15emVEQVBER01ZX1NQMVZhQi1Bd2xWdWR6S0NyR2tnenZKdGxRSm5tZFk?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "\"취업·혼인·장병적금 세금 깎아라\"…2.3조 세감면 법안 줄발의",
-      "Link": "https://n.news.naver.com/mnews/article/015/0005303161",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "[속보]“메모리 너무 비싸”나스닥 나흘 연속 하락 - 문화일보",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tYUFMTFkxZlhMb2lWd3dLV3NkRU1OUlA5ZWJKZTlzYTdMS2lCRmxrMmgwOUJ0S2g2aXY5N3pJeGV5U0RXYjZSY1Vpd1l3ZVVB?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "코스피 8% 넘게 폭락…올해 5번째 서킷브레이커 발동",
-      "Link": "https://n.news.naver.com/mnews/article/366/0001174635",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "반도체 사이클 동행…KB증권 “LG이노텍, 목표주가 200만원” 유지 - 매일경제 마켓",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uMHVjVFBPQlFXcDBHOWhYU1FCSDJWS19JVnJsb0trLWVMR1Z4b203SkVjbVNnOVlUVnMwNkNUeXVnWGROOEI2M3pNTi0zMldVSVE?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "버스 지하철 무임승차 70세 상향, 언제부터 시행되나",
-      "Link": "https://v.daum.net/v/20260626113415125",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "LS 명노현 \"'기회의 땅' 美에서 글로벌 전력 패권 잡을 것\"",
-      "Link": "https://n.news.naver.com/mnews/article/014/0005540109",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "[머니쇼츠-영상] 비트코인 폭락에 전체적 하락 형세 - mstoday.co.kr",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15MVd6bG9hX0RldUhkdmNuR1NXNmhWTkUzVS1FcnJKNDdrTDJHUGYycGRpV25OWDAwbGhvcXhLcXRLcmZ3THFoQ3dQOFZyTl9TYWgzSHFiQmFld2toMWJaX3ZjYUxnbEhoaDhUbQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "한국 선박 5척 호르무즈 탈출...남은 선박 13척",
-      "Link": "https://n.news.naver.com/mnews/article/052/0002370902",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "마이크론, 실적 호조에 가이던스도 예상치 상회…시간외서 13% 급등(상보) - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iV3VnOHFlUGFtNXZsc0dIVFZLZ1ZWUWhZTXdFRDd2X1BCeURfLU8xOFR0R0RNbkg0MmlBQmdJMXlLOTVMLTFXRTUwSFdWeDhUZ1JMWUZYUWFIbnBzYTJVQlROcjNnMVBVdmNDdUJBZjA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "'MBK vs 메리츠' 홈플러스 2000억 DIP 공방…본질은 '구조적 한계'와 '배임 리스크' 충돌",
-      "Link": "https://v.daum.net/v/20260626124803113",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "비트코인, 연중 최저치까지 '뚝'…ETF 유출에 9000만원도 위태[코인브리핑] - 뉴스1",
-      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9NWU5oRDFQWmxzWFhBTHJSODBFVmx3Qm9TdFU4dmpEZ0dhNWU3ZTdyRDFZbHBzRmxJcmpWaGVZemlscDhHUkh1SkNvZThfek9lTUxsdW1leE1HSmNWbVF3a1dGYWdQUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "복권기금 6억 투입…철원 경로당 급식이 어르신 일자리로",
-      "Link": "https://v.daum.net/v/20260626100954869",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "가온전선, 美전기차 공급망 첫 진입...'테슬라 데이터센터'로 추정",
-      "Link": "https://n.news.naver.com/mnews/article/014/0005540107",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "[단독] SK텔레콤도 美 ‘AI 컴퍼니’에 4억8000만달러 출자… SK그룹 반도체·전력·데이터센터 투자 허브로 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQN19IZ0Y0RUFTZURINUJ4cmZsbEdFWVBWb0J4cDZ6ajJRX3pwVlBzVlhZM2dlcURPM0xyaGZONDJQSGttOFdVc0NERVVWamc3QWFMWkl0bFFidkgxUUg4aWJCclNVNUlHTjBwdm91a2Q4V0hfVDRqYjBfVTlCa19scXBB0gGWAUFVX3lxTFBVQ2pVZ0h6R3BjaXJfSjl6SjNmN2loSnlsQ2xUTkVpQ1RUZ1huZ3YydnY5dVAtV09MOVVrbldjUXRGZ0ZVbEhzN0h2dkM5Q3ZHaUJNSUg1ZlZqSElWT2VyVjdIOEFoYTJHUDg1Z2VzTkkxM2plekdscG5HYkp6cEN5SDVEQUQ2My1GSjlrZVpDay02eVBGUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "한투증권, '2026 서울특별시 환경상' 최우수상 - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sZWl0dnNwYS1wd3BoREwxQmI5LU9WOXVHUFMtbzFPVjdZWWp1VjI4ZkZHaXVPTTdVakVxOWJ4NUhZdV9GbFRhMmNZVndfUkk3WEplWHBOSVZPUFlmQzUycNIBYEFVX3lxTE1sZWl0dnNwYS1wd3BoREwxQmI5LU9WOXVHUFMtbzFPVjdZWWp1VjI4ZkZHaXVPTTdVakVxOWJ4NUhZdV9GbFRhMmNZVndfUkk3WEplWHBOSVZPUFlmQzUycA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "‘데이터 기반 RWA’ 사업 확장 토스, 포세이돈과 손잡은 이유는",
-      "Link": "https://v.daum.net/v/20260626130119414",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "노봉법·삼성 성과급 바람 타고 하투 본격화 … '파업 공화국' 오명 스멀스멀 - 뉴데일리",
-      "Link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5ZC1TVGRwb1ZxYmhiM3ZJdFNfRzhaMDViZVpwOXVzQ3ludUxkcVJSN0xXU0FWOG1xLXFwUHU4OTIxaDQtX1RlY194TWpkVUhLX2NrajFKNW9BRldrLUVtMkRIbkd6VTZxcFk2cXR6OUlYSGlMM2RLSzRPZ9IBgAFBVV95cUxPTmVzMXE3aXdCTThBWkRROXFUSGdTZ0RxLUFXMVJMdGdWYXJ4NGhUUXJUeHczY1hyWG55M3c3LVRSZmQ0a3Voa012RkRBTUk5V1pWUWF6REVpWll6QUotOTRQeTY1VmxVSzc5ZG4xQlUyRk5kdk5LMXRTU1NNSEQtMA?oc=5",
-      "Portal": "Google News",
-      "Category": "경제"
-    },
-    {
-      "Title": "코어라인 뇌출혈 AI, 병원 실사용 확대…응급실 안착 가속",
-      "Link": "https://v.daum.net/v/20260626103914343",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "'전력괴물' AI가 쏘아 올린 '원전 특수'…K건설, 안방 불황 뚫을 활로 찾았다",
-      "Link": "https://v.daum.net/v/20260626114317543",
-      "Portal": "다음",
-      "Category": "경제"
-    },
-    {
-      "Title": "170% 수익 냈더니 퇴출?…액티브ETF '상관계수 0.7' 논란 확산",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030311",
-      "Portal": "네이버",
-      "Category": "경제"
-    },
-    {
-      "Title": "'달러화 예금' 늘며 외화예금 두 달째 증가",
-      "Link": "https://v.daum.net/v/20260626130148429",
-      "Portal": "다음",
-      "Category": "경제"
-    }
-  ],
-  "세계": [
-    {
-      "Title": "메모리 가격 급등에…애플, 맥·아이패드 100~300달러 ‘폭풍 인상’",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938764",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "美 세컨드 레이디, ‘8달러’ 산모용 드레스 영수증 인증… NYT에 유쾌한 한 방 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ09ucHphdlI1M0xJZk4xMXFSZlNBQmJfdW04cjJVTmZSWkhoSUl0R1I1X1hpcC1fUHIyTEd1MXpqeVJSeloxTXBoTEpmZ1JRajZaZTNicFhjcmRFcEh3Qk5Hek5NdnotMjd6UE40V05Hdm9VZTlmOVZoUXZlOGY0R0drLVU?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "IMO, 호르무즈 화물선 피격에 \"선박 대피 중단…안전보장 재점검\"",
-      "Link": "https://v.daum.net/v/20260626083905765",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "베네수엘라 강진 사망자 최소 235명…부상자 4300명 [TF사진관]",
-      "Link": "https://v.daum.net/v/20260626124652096",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "中, 대만 동부해역 관공선 활동 비판에  \"해양권익 수호조치\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016159973",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "‘왕도 세금 냅니다’…英 찰스 3세, 즉위 후 612억원 납부 내역 첫 공개",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800585",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "‘시간과의 싸움’인 지진 구조작업, ‘골든타임’ 놓치지 않으려면 베네수 제재 빨리 해제해야",
-      "Link": "https://v.daum.net/v/20260626123745931",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "이스라엘-레바논 5차 협상 하루 연장…\"26일 오전 재개\"",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025502",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "전쟁 끝나나 싶더니 더 센 놈 온다…\"쌀값 100% 뛸 수도\" 경고 - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQR195YWxsdmRKMWJjRUMtSXQwWlFQWXRBd0xPWGhJVGZ4dXU0VlVrS3FFRWJsaUk0VFJHbHpnM0dVN0VkMW9uMlF3c2ZXSHphcW80RjBpZWJjQdIBVEFVX3lxTFA5azExbkJOd2xLWEdZNlFyeEc3TUVKUmNEZ3J4NjNWSUhiY0JRVGY0MnpZc21vcExTT29jb1FRWEczaURTWEFuaUdodUUzOVdYY09UdQ?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "네타냐후 \"작년 이란 공격 트럼프 허락 안 받아‥통보했을 뿐\" - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CWk1KTk9fd0dYbjV5WjVFemNpb0tGY1pScG80MEkxNFNYZm9PX0RobUlYYnhVb09iWnFkbE1GQnZuRlhhTm1DdVg5cDQ1RmkwRmhrbV9PT0JTMDlrQlN1eFJSTXVEd1U4SEx0WFFkaFVVSU9x0gF0QVVfeXFMUE9xNUp5YThIdW1saUpPejU3MWxzRDktR0Fna0hZckFldTRQSnVvRGZ2bXR5VUdKYmkyRGRKRTBRajA5d0JyZ2VEWlE3TnhuZTRTRVFZYXpwV3lOZ2FCYl90Q19IVTJSNzlPczU1TTZwaFhrZ1A?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "中이 쥔 콩고 코발트에 美 기업 돌아왔다…트럼프, 광물 패권전 본격화",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030124",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "대만학계 \"美 남중국해 우선순위 낮춘 틈에…中, 대만대응 시험\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161144",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "“그록 이용 절반이 19금 콘텐츠”…머스크 xAI 전 직원 주장에 논란",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800558",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "“스위프트 결혼식, 월드컵 중 독립기념일에 맨해튼에서 진행 왜!”",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030266",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "‘좌충우돌’ 트럼프, 이란 향해 “미국인도 핵 사찰”…공화당과는 “미치광이” 고성 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Xa2hoWVU4N2hkQXdiZ0F4MThOSVFZRmVQRjVMZkxNRTAwVE5KNFU5VkVDOXcwRURXMk9fSFJFcG1SS1g0NEFFdGR6MFBhcDhBU0ZXQTBjUldXdFNIQ0VNeE54dVNBTVlod05IWUR2RQ?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"그냥 여행 가도 14만원\"…7월부터 5배 오르는 日 비자 수수료에 中 '발끈' - 아시아경제",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KOUtnLWw5bzl2NGh3WDNPSlNEMUEtZDROYVg2UVRrNlFCQVlYN0lSRmFlRXA1ZENwMjdDMkZ5aGNNckZfbW5pX3J0TTF2b1Byc1pfaGIwRTJzZVZYOU9hLQ?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "낮잠 1시간 넘게 자면…사망률 높다는 ‘깜짝 통계’ - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KYU9VU1hLbHNCNkdGM0NvVlgwNEdDMlRWOFpzWDNVZktDbnFab05qb2xvUmlhU0stNnFVQUNKZmZqaTJkZ2xVN2dJdWNGa2MtRFVFeHZnaVBIcURsbmpMZ25xNkZUU29ad2xHYmkyN2h3T1JmV25KTg?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"'오스만 철도 부활' 튀르키예 막으려…이스라엘, 물밑 외교전\"",
-      "Link": "https://v.daum.net/v/20260625220103114",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "미사일 수천발 쏘더니…美 탄약고 '바닥'",
-      "Link": "https://n.news.naver.com/mnews/article/215/0001256689",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "美 대법원, 트럼프 이민 단속에 힘 실어…35만명 추방 위기",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781650",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"결코 예전과 같지않아\" 이란, 연 62조원 '호르무즈 서비스료' 추진",
-      "Link": "https://n.news.naver.com/mnews/article/008/0005377617",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "베네수 강진 사상자 4,500여명…국제사회 구호 손길",
-      "Link": "https://v.daum.net/v/20260626115551924",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"베트남서 롤보다 큰 스포츠는 축구뿐... e스포츠는 Z세대 정체성\" [아세안 속으로]",
-      "Link": "https://v.daum.net/v/20260626080119715",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "에펠탑 조기폐장하고 학교 문 닫아…6월인데 40도까지 치솟은 유럽, 무슨 일? - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xY0RROWh3QXBLenZJS3VrQlZVUC01TGVTN3RXdUhXVXJySEhtaS1HMWN3VVlWanlxQXdPNzZyR2pOSWluV0dBbEJqTW9sSXJBN1E?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "“아내가 딸 학원강사와 자택·별장서 20년간 바람” 불륜남에 10억 원대 위자료 소송 청구한 남편...결과는?",
-      "Link": "https://v.daum.net/v/20260626113417134",
-      "Portal": "다음",
-      "Category": "세계"
     },
     {
       "Title": "“적당히 성공한 코미디언”이라더니…트럼프 “젤렌스키, 꽤 일 잘하네” 돌연 칭찬 [핫이슈] - 나우뉴스",
@@ -6617,244 +2443,922 @@ window.LOCAL_DATA = {
       "Category": "세계"
     },
     {
-      "Title": "\"日 가려면 '이 사람들' 만나라\" 매출 700% 키운 노하우는",
-      "Link": "https://v.daum.net/v/20260626094801762",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"하루 심정지 25건, 응급실 마비\"…'40도 폭염' 파리, 음주 금지령",
-      "Link": "https://v.daum.net/v/20260626110547591",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "[장준영의 ‘지피지기’ 일본역사] ‘우리가 남이가?’의 딜레마 - 고대 백제와 일본의 동반자 관계",
-      "Link": "https://v.daum.net/v/20260626111219984",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "‘강진’ 베네수, 3만9천명 실종 신고… 사망 235명, 1만명 넘을 수도 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9TLW1veVB3TGxnTkFKMk1PbmRuY0xDLVkyS0NKdTZyTTBhTUpZTC10a19wNzBURUFkT0RqVXpRZFdGbmJmdzczX3RzdXdwRHpLVGJhYjVESDhDbi14RFBuTkxMQVRoNUFac1NkbE8xUQ?oc=5",
+      "Title": "[현장칼럼] 공기업 임원들의 자사주 매입을 허하라 - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EMk0tbHdKTEdESldTUjVhVGV4ZVlkdk5GQTNicElxS2tkTzRTRTRLdVJkcDBPaHVfR0I5VExabGR6Q3pOOTRncjVzSi1FVEwxWXlwaDNmVjhDQ0FwUnBTSV80bjdYQktDUF91TXA5dUE?oc=5",
       "Portal": "Google News",
-      "Category": "세계"
+      "Category": "기타"
     },
     {
-      "Title": "美, 미사일 부족 심화…트럼프, 생산 확대·예산 확보 총력",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161014",
+      "Title": "당권 경쟁 도전하는 김용민 국회의원…3.15국립묘지 참배",
+      "Link": "https://v.daum.net/v/20260626173007394",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "\"연합 사장 출신 성기홍 수석, 뉴스통신진흥법 입장 있나\"",
+      "Link": "https://n.news.naver.com/mnews/article/127/0000039451",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "Apple increases prices for Macs and iPads, blaming a shortage of memory chips",
+      "Link": "https://finance.yahoo.com/technology/articles/apple-increases-prices-macs-ipads-185354948.html",
+      "Portal": "Yahoo US",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"또 물렸다\" 개미들 한숨⋯외인·기관 '폭탄 매도' 부른 악재 2가지는?",
+      "Link": "https://n.news.naver.com/mnews/article/031/0001037949",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"네이버표 AI, 공식 데뷔\"…한국어 능통에 쇼핑·구매까지 가능",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026308",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "[2026 북중미] ‘홍명보호 절망적’ 호주 vs 파라과이마저 ‘무승부’…32강 위태→3위 중 6위 추락 - 일간스포츠",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xZ2FDaDUtUzhjeE9LbG5MbExXcWNoZVpLTkdaX1ZCa1YxdkNOalhTTWFUUHFnYjlIMDFqblpvaU41SFNQeFRZcTlnNXgyUS1seURJRE5JSjdFek0?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "반도체 호황에도 싸늘해진 기업 체감경기 [사설]",
+      "Link": "https://v.daum.net/v/20260626172105142",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "달라진 아반떼, 준중형 세단 불씨 살릴까 [부산모빌리티쇼 2026]",
+      "Link": "https://n.news.naver.com/mnews/article/243/0000099664",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“빨리빨리 먹어!”…한국 직장인 점심문화, ‘비만’ 부추긴다 | - HeraldK.com",
+      "Link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxObjNvUWtZeXE0clFOSF9oTDk0SjJjcEZHR2p6Skk5YUlGWUttbl9ZNUtNTG1NeEJJSno3Ymg0OV9HeUplNTFaRml0bFlsa0ZzSERYdGZzZmJ6cWNET1JrNHJGSVprS3lpTTJDbjdzQk96Qms4cmtyaE9JckVyanBxeG5pa2pDWEwtUGExeHAxYTZmMGJ3ekRTS3g4NGd0U1dmUWFOXzZ3SEhrMlZuZzBtVTJTbXktLTUtR3NHRWRxOGcxOTZKN2RmQWpObXRqZXAycjNTc2pYTnZ3a1RLd3g4c0lPNy1CUEtVekR0Y3NqTjFvb0QzV0NyNlhGdkNyMk5kMHA5Ujh3OHNPbXBHRmt0U1lsb0pYbmVDREl3VHFmV0lWZzRnOXdsQmdkQ3lIbEhKWHIxbF96M1VwZjJKTkI2dk05NjFmaVlj?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "미래 과학군 이끌 대한민국 육군의 리더 356명의 신임장교 탄생",
+      "Link": "https://v.daum.net/v/20260626171437916",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "오세훈·한동훈, ‘반도체 호남행’ 비난 공세…“국정 사유화” “명청대전 총알”",
+      "Link": "https://n.news.naver.com/mnews/article/028/0002811543",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "[뉴스특보] 김건희 '매관매직' 선고…보완수사권 폐지 공방",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878837",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "정선희, 故 안재환 사별 후 “사람들 저주할 만큼 미웠지만…나도 다르지 않더라” - 스포츠경향",
+      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZbDJubXBQMUdMbi10ampvMllwZVNicFI1QVFxVUN6dWlSYV9La0NOczZ4VzVOVy1CenVRN3E4S1B2cmtSZGx1alZTRlFjYVJnaXBzRnNjSm13YXRlZ1HSAWNBVV95cUxQQUxuVXo5dmd5NVhERmF0WG0xc01qTklSV2hmUnpnbkVMTFdXT05RMV9TbHBERjdndWE2VmlvcVNieGxVeGUzc3JheTgxMGJTS0pMdFRyR0pLZHdtdmlSc25fV2c?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "부동산에서 주식, 4050에서 2030…‘재테크 필수 시대’ 열기 확산",
+      "Link": "https://v.daum.net/v/20260626173217481",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "마윈 알리바바 창업자, 하버드·MIT 등장…언제 경영 전면 복귀하나",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030986",
       "Portal": "네이버",
       "Category": "세계"
     },
     {
-      "Title": "NYT \"中 AI 모델, 앤트로픽·오픈AI 턱밑까지 추격\"",
-      "Link": "https://n.news.naver.com/mnews/article/374/0000518429",
+      "Title": "카드로 보는 시사상식 [2026년 04월 넷째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jcC1PbWRYQ3p0UGJ0SFVVSWRFMWRJUFJUQU5ZX2JRV1ZkX203SkNHQnQyMVpTUlhpQ29IU2pNbkVYNjYwRWd6clRCVDUwaTRhOGZPV3BhRi1qWEtxTV9TaGhzdnNNNjRrTjMtR2pn0gFyQVVfeXFMTTlmYzloTXZZaWJKTVhqWDJOeEZ4Q0lVdDNFNTBiakh0alB5XzBZWEEydU9KUldWb3dZdlhSNUhnS2hIMVEwZWhQOUJiejRuV1pTVFdlSE1UMjNkbkp4NkhYZW0zTG9xZ0ZnZ0FlUHExTDFB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "Trump calls Sydney Sweeney's American Eagle 'good jeans' campaign the 'HOTTEST’ ad out there, driving up the company's stock",
+      "Link": "https://www.yahoo.com/entertainment/celebrity/article/trump-calls-sydney-sweeneys-american-eagle-good-jeans-campaign-the-hottest-ad-out-there-driving-up-the-companys-stock-221428273.html",
+      "Portal": "Yahoo US",
+      "Category": "연예"
+    },
+    {
+      "Title": "제주포럼 사흘 일정 마무리…‘평화비전 2035 선언문’ 발표",
+      "Link": "https://v.daum.net/v/20260626172002109",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "PBS 폐지 안착 속도…출연연 인건비 전액 지원·신규수탁 제한 - 전자신문",
+      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9KYlpEQjZoVV9fdkt2UE1ZUkVxOTc0Q2YyakpQbjJQcjNnMU1xVG1rVmtHZEsxMlNRWmFzeWxvRkYxREdSckdDWVRVc3V0dw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "“영어 빼고 다 통해” 美 의회 사로잡은 찰스 3세 ‘영국식 유머’ - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaEU2cHUtMU96OGdsTlhkcTZjRmcwVWxoRWFna0lxN01mZTdNaExFOXFXcEsxN19iOE9MNk84bldDYmJQN254aUM5UmRkWEZYVGc3WXA5NGY4X2wyNUVYSFhpZ2lSaXJWbmxPLVF5akNqX2JTNlpqV2FxR0c5NEk5NF9jMUlSdnNhRWNHNjFLUlRuN1VPSGFGQkRuNWRTZw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "당신이 배달 음식 유혹에 무너지는 과학적 이유…\"뇌를 해킹당했다\" - 파이낸셜뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IRXNJMHREU2dIMmI2dG81a0dUd0Q3Q2M2YUpjanN6VmxqeGNpcEZUbjU2MmE3YzBtaXlReFdZaTVUUVNpRmhkVi1qQ2tuM0JBWjNMckRKcENnQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "체코 프라하서 ‘K-콘텐츠’ 엑스포 열린다...동유럽 시장 정조준",
+      "Link": "https://v.daum.net/v/20260626162400171",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[이슈ON] 주택 건물 와르르...\"수만 명 깔렸다\" 구조 상황은?",
+      "Link": "https://n.news.naver.com/mnews/article/052/0002371405",
       "Portal": "네이버",
       "Category": "세계"
     },
     {
-      "Title": "美, 변압기 규제 재검토…포스코·효성 등 '청신호'",
-      "Link": "https://n.news.naver.com/mnews/article/374/0000518432",
-      "Portal": "네이버",
-      "Category": "세계"
+      "Title": "쇼핑 갔다가 살바도르 달리 조각이 눈앞에! 예술의 문턱 없애는 베이징",
+      "Link": "https://v.daum.net/v/20260626164621919",
+      "Portal": "다음",
+      "Category": "생활/건강"
     },
     {
-      "Title": "“여성들도 전쟁 준비하자”…전역 12년차 이내면 예비군 동원한다는 대만",
-      "Link": "https://v.daum.net/v/20260625193702750",
+      "Title": "\"환율 하반기엔 크게 떨어진다\" vs \"내년에도 1500원대\"",
+      "Link": "https://v.daum.net/v/20260626172051126",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "전화 말고 채팅상담으로도 휴대전화 해지 가능해진다",
+      "Link": "https://n.news.naver.com/mnews/article/009/0005699331",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "“올해 서른이 된 상은이 생일 축하해”…올해도 ‘딸 없는 생일상’ 차린 이태원참사 유족",
+      "Link": "https://v.daum.net/v/20260626171831070",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“감기 없는 세상 만들겠다”…실리콘밸리의 대담한 도전 - MIT 테크놀로지 리뷰",
+      "Link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNaWRtdm1lUEhGbzdXWHpHQ3lHdVFBU1ZMVk83Vjg2YlM1eThGQ2tNWXBCN3RvWEQwYmFlZjRUQlkwNDJfSEMzWlFkSmpOZUZCR0pjMFR4Njc0LTJkM2FHN3lhcWZFc3BiTWI2ODB0LWt0UVRFNlR5MC1hSzQ2NXc2N3FWX3V6TzZfLUdneDdWMUxjdWQ2M0VCNHRTWW9XMG5ZY2dYTlNULVNpN005bkNoNlUydk5nQk9rRC0tT2VhU0ZVakltQnh3TjZtLWU1em5VUEhodlJxTkpTT1dEcVNxQ2w4eUNXN1lnUW9nT2gxcmptZ3Y3UzZraWNYMWdKd0swMzdmVkd5anZ4OTF0ZEUyNmF1NXduQWVacEtvTHNHY1NOVk9aMkJ4blZaNWpMWE1GUHNJOFpNRUhYaWwwM0pxLS1R?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[현장] 펀진 \"AI 참모로 지휘관 결심 돕는다\"",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428217",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "“한 번도 너를 포기한 적 없었다”…희귀병 딸 안고 태평양 건넌 아빠",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729737",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[코인시황] 비트코인, 결국 6만달러 붕괴…'극심한 공포'에 투심 꽁꽁 - 뉴스웍스",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1hN1YzZEk2Y2lPZXYwajZ0eC1RNjA5Qlp6ejg1cHNSbzVpS0xRSUtONUhGNnJEZ3ZzeGJRN0tUbVRNRVlRdDVKSmlYZmk1SXF3MjNBYnI2bDdfZnZoblVXcUlwaU94bUJlTVJBR1Fya9IBc0FVX3lxTFBZOXZtbGdCOWJYd0VXcXcya1ZvQUpUcnM3QllBck5ualVlckhEcHdPSFFwN1p1T09ETE5MdkJ1bDZGNXNvYUZROG1sVXlHWFM5MlpCTm1FRVFDMExQaHdGQ01sZjFUcXdpQVhnX2FwZU9Wa0k?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "대성 “허영지와 열애설 아니라고? 난 들은 적 없다” 황당…지드래곤도 입 열었다 - 스포츠경향",
+      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCdmJLUG9UYWpTMS1FbVB4eW5sNDhacnl4T0dqV3BjejVUTXhxSi0yaktzdWdJbFJxY25vdEUzV0FhWDJMdDV2a3I5NjVLOHNqd05BazNHMDY2UjAtMnfSAWNBVV95cUxNeDJZZjA5alREbUFBbkItcFBuam9VN0F3WTYydHNXZTlrVlZRa1h5SnAxRUhDTE5YZDRkYjhuYlNhY0VWcjFNSHA2R1RQLTA5SE80TUl3R0ZiV0pTWm8tYkRpNkk?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "놀이가 된 혐오… 소비와 유머로 번지는 극우 - 한국일보",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XWmk5dXJUMVlfWUhLYW40S1ZjQVpNY01mT2xhVnRBUkkzVEloc0t4V3Vwb09WQm5uWDJVWEc0U1Z2cERHaEdVd0JIUF9pUE9MWWxVQ0xHNWg2c0Z1MHZ5QUUtdHRCaVRjLU1nOE5R0gFzQVVfeXFMTmgzUnF5dmJXQWZjenJKcTlaZlI4cTF2eTBzYk1iV1dLRnl4YXlZazNROWxlbkw5YTlUdllSTmRBc2VtN1dvR0Q2UndGTmZmbjM3eW0wLTVNd1NHOFB0WWxVNnBBdnVXbXB1OHMwWFJWcG1mSQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "비수도권 발전소 갖춘 GS, 데이터센터 직접 지어 시너지 노린다 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiTURWcHgzeTFXdFdHT1VKUUJpdk0xazlDZ0xfWXNIcHlpTThyd293d3p0V19IZHhFcmlxMndORWItdXpES1pzQ0prOW5zT05RRjlUQk5pR0dmUdIBVEFVX3lxTE84SHpnbTJOV1l5MHhrQU5BVFRKREZZY0F4NlBIcUhUc08tdGlIMHdWN0JnMWg5ZDRWbU02SXpRa0RHbTZaRzI4Mml2LU9PZ29lcXFyZg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[내란재판기록] 징역 30년 윤석열 웃음, 집유 5년 드론사령관 괴로운 얼굴",
+      "Link": "https://v.daum.net/v/20260612175921448",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "英찰스 \"동맹가치 지켜야\"…유머 속 내내 '긴장감' - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZQW5yUUpIaWtsRXJjUzBhQlFsRy1Nd3FlcW5sdmRNSjd3SlhnYjQyWEloeU5UMTBUU3hacno0R2pSTUhYNHFxeW5nbTNQTVdpekNYbUY5RkdiUm_SAWBBVV95cUxNdjFQUTVnZVlia2syVVpYTlhRREQ4WjJYTWhfNEMwZnFZbDF0M1BVbHhKRjZ4cmFiM2o3RGhTWmRMWGt1V1VqWmR4ekRLZFJMM2h1cW1WUE83Y2E2aHB4STI?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[속보] 趙의장, 국힘에 원구성 명단 일방 통보",
+      "Link": "https://n.news.naver.com/mnews/article/002/0002446366",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "서울선관위 사무처장, '잠실 개표소 봉쇄' 현장 찾았다가 경찰 만류로 복귀",
+      "Link": "https://n.news.naver.com/mnews/article/119/0003105230",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'멀멀'이 뭐길래…올리브영 신제품이 다 비슷해 보이는 까닭은 [박현주의 코덕의 트렌드 관찰기]",
+      "Link": "https://n.news.naver.com/mnews/article/015/0005303197",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "김무열 “1년 수입 20만 원”…‘참교육’ 대박 전 무명시절 공개 - 스포츠동아",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SRjRrWGZiaXFRWFctVFdtaDFHSzkwWlViWUstMHdnUWFyYXR5ZVhpUW5EZFRXT2lYa01kN3ZXVXJEYllvdUNkbEZPd3NDRFpJRVE4X1lwN0lEdHYwOHltOHo4akl0MDVYa3h5ZzZR?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "마라톤의 도시3-베를린 - 세종의소리",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsUDA2MHl3V1U4Z3NlUjFkVWczYUZseXpmNnhDNVVOTXBsN3RlVHJNdko4WEY3SUpodUJGRVpEaTgtMl8yNW1pTEV2RjRnSk9DWjhYQ3k0TTEwaURORmFoWS1ValJWME0?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "반도체 공장 입지로 나라 두 쪽 날 판 [이브닝 브리핑]",
+      "Link": "https://n.news.naver.com/mnews/article/055/0001367627",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "다정한 양육은 어떻게 아이를 망치는가 [김소연 칼럼] - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tbTM1QmxZanByMlRjYzVVYXZHV3JPbVh2ZFhBbmxFXzMwYlhHel9EeVQwUnBvcVJDc1lHMGVYbjkzbXltWUljUHVpblZ5ZHlVU2x3Tg?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "'47세' 수애, 이렇게 안 늙을 수 있나…4년 공백 무색한 비주얼",
+      "Link": "https://v.daum.net/v/20260626094431583",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "장혜덕 \"추론용 데이터센터는 이용자와 가까운 곳에 둬야\"",
+      "Link": "https://v.daum.net/v/20260626172118153",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "신형 아반떼 어때요? \"불끈불끈 근육질 몸매, '섹시한' 두뇌\" 탐나네",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026158",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "韓 서킷브레이커에 日 증시도 '패닉'…하루 만에 3700 폭락",
+      "Link": "https://v.daum.net/v/20260626132702293",
       "Portal": "다음",
       "Category": "세계"
     },
     {
-      "Title": "호르무즈서 화물선 피격‥이란 \"지정구역 벗어나면 안전보장 못해\" - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZakl4eGtqd196VjVBZmZwZFpMTDRPVHpYTVNBVmNtbGkwSFBVbjZoYnVSeEZ5cTJGV19ySXhDcC1yZGNKZGZQb2RaZS1qMDNrV29uZXpOUXc3UjN0OUx1WnFRaU9CTGdSaEFJX3JTUXJtaVAt0gF0QVVfeXFMTzI2MFF2c1NzMThzTWJhc2ttV3NFMzIxYmZiNVlFZmZUNXpzM3lINWZpODVVOXlOTnctSGUtYTlJRXNsb1JCbEZ4Ni1FbndtNVZObHlIQ1ZJV3RscWROdExEZk9hZmsweGlfc0dQZlpOeUJKLWY?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "이란, 호르무즈 통행 유료화 추진…연 60조원 수입 기대 - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1maTRXQVpFWC03X2E4c01nZ0NqOUgwYzBWN3FsV2xTNU53WnQxWDFaWk5rbFFnb09wM2l3dkk2SG5qR1RaTG1SQXA0N0hld3JydS1TNkQ1VXd6UdIBVEFVX3lxTE9NZDYyZ3MwOEtXelhRelAxa2Nka3hvU2w4bk9HcXgwcnRGekhtbWZxN3hPblVLT0pCNHhjbmhtcS1ibEpLWHRlRDlkQzZZdWRtOXNTQg?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "건물·도로 흔적만 … “살려달라” 들려도 속수무책",
-      "Link": "https://v.daum.net/v/20260626115635941",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "베네수 보건장관 \"지진 사망자 235명으로 늘어\"…실종자 집계 안 돼",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030119",
+      "Title": "남아공에 충격 패 한국, 32강 막차?…경우의 수는",
+      "Link": "https://n.news.naver.com/mnews/article/030/0003441443",
       "Portal": "네이버",
       "Category": "세계"
     },
     {
-      "Title": "오만 외무 \"호르무즈 해협 통행료 부과 없을 것\" - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mUFkyR1d1TGN0eFl5ak9fbnYwRVUxWnp0YTYtdVNWQmZ1c1U2WFRmYmhoeDFPTFB6MFFabzlLWllXU3VNX1ZLUkUzRVBFYVM4dTFsRkFjajF4MmvSAWBBVV95cUxOM1piTDhXeTl4OHQ1cVFra2w0MHpTNFU2V2pEZzhiVWVBbDRvZm1nVWNfdUdqbXl2VldhTENtMTJXSkV3aWlhN2NuUWxjRml4MGZjWDBmWkYxbXNZdnd0Ukw?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
+      "Title": "'대한민국 초비상' 홍명보호 벼랑 끝 몰린다..파라과이도 승점 4로 32강행→벌써 4팀 태극전사 추월",
+      "Link": "https://v.daum.net/v/20260626130118412",
+      "Portal": "다음",
+      "Category": "스포츠"
     },
     {
-      "Title": "미 상원서 '4년 공백 상태' 북한인권법 재승인법안 발의",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367438",
+      "Title": "정부, 'K-팔란티어' 키운다…2030년까지 혁신기업 50곳 육성",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005781980",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "트럼프, 對튀르키예 '차세대전투기 엔진 수출금지' 해제 추진",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030766",
       "Portal": "네이버",
       "Category": "세계"
     },
     {
-      "Title": "영국 왕실 세무기록 첫 공개…찰스 3세 연 264억원 세금 납부",
-      "Link": "https://v.daum.net/v/20260626124117994",
+      "Title": "현대차증권, KIA 타이거즈 ‘스폰서 데이’ 개최 - Hyundai Motor Group",
+      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQendWbnNISnZ3WDMya0xkTXhzaGx3SGM0a2lSOVVETU9oREkxM2VUSTJXQUdEZXhFTEhFc2pzVThaV1doeDdyU25GT3YyZVpzUVJCR0RmMjhhZk83S3JuOEFvcWhTUFZsdUtLTVVLMFhyRkU1a2JSOEpxWDExc09mR1lIOGlJOFVwSjl5UnlpTk4?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"120명 스태프 앞 비밀 연애 끝에 프로포즈\" 드라마 속 연인이 현실 부부가 된 사연",
+      "Link": "https://v.daum.net/v/2CyKqKMVFE",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "\"AI는 도구일 뿐\"…GIST 문승현 전 총장, 저서 출판",
+      "Link": "https://v.daum.net/v/20260626173144444",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "한국도 '저가 자폭 드론' 갖춘다... 대당 5400만 원에 벌떼 공격 가능",
+      "Link": "https://n.news.naver.com/mnews/article/469/0000938821",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "[이상민의 건치로 지키는 백세건강 2] 고령자 폐렴, 입안 세균부터 관리해야 하는 이유 - 헬스경향",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GejE4QzNBYjhHZGtBT3U5ZU1SN21LVnhDb1Nqclo2cVpqa0h0UDFCdnI2dFBqVERjU1QySnprdlpBWTNTbktfS2FndlR6UGN0TnlKc2JxbVBGT0NhWFNaenJnZG9vZlVQZVE?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'매관매직' 김건희 여사, 징역 7년…반클리프 목걸이·디올백 등 빼앗겨",
+      "Link": "https://v.daum.net/v/20260626163204447",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“거제형 K-BBQ로 세계인 입맛 잡는다”… 거제에 미식·관광 거리 조성",
+      "Link": "https://v.daum.net/v/20260626124451068",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "‘마약 자수’ 식케이, ’10살 연하’ 우와♥ 공개 열애…”파리서 다정한 투샷” [MHN:피드] - mhnse.com",
+      "Link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4eFBYZzMycTNWc1BTSTlUVmFqZmJDZ2dYVllUU3BnUll3VmVlLWxTcTVIMFlzVTg5OUs0cWFNVUhYSUxaSmN2cVRrX3lQUURBNGtaOUplNVNCVE5heUdTaERaa9IBZ0FVX3lxTE05WkE2b0wyV1hCUjZKajBJdkF3dlMtb3BjNVhrR0E3VW5TU2tXVU9OUkthQ2JLOHpZVWlhdy1Oc2Z0WURTLWxOeUNiazE4bjB2SzZwdTZ5ODJqTkp0QnZPMlhKb29oVk0?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "비트코인 MVRV 1.1까지 하락…\"이번 사이클 최저치\" - 블루밍비트",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WcDM5eVpaLTRVbDJBRHBpaGpvUjRQbWREeW9Od0RaRlZOQnd3clFfS3VYZTR2ZnZhNTFnbWQ2UXRhNW9Mb3VlSHFwbVFIMjdN?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "주식시장 키운다는 與, 결국 부동산 선택할 것",
+      "Link": "https://n.news.naver.com/mnews/article/262/0000019474",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "비트코인 6만달러, 금값 4000달러 동시에 깨져 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NcnFEc1NkWTgwZUkwajR5dTVURmpaR2xqU2txUXI2QzdNTWU2MFRVRHJoNkJLZFQ1YjJrU3dmb2UwNlMtTjdKNENiM2dfZzA?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"'돈맛'에 매몰된 도서전 말고, 책·독자 중심 '제대로 도서전' 열어보자\"",
+      "Link": "https://n.news.naver.com/mnews/article/002/0002446293",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'반도체 제조의 한계를 깨다' IBM, 세계 최초 1나노 반도체 기술 개발",
+      "Link": "https://n.news.naver.com/mnews/article/469/0000938834",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "데이터센터용 전력 확보 경쟁 아마존·구글 선두권",
+      "Link": "https://n.news.naver.com/mnews/article/374/0000518496",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "홍명보호 운명 '사실상 내일 결정!' 가장 가능성 높은 경기 다 열린다... 단 1개만 뒤틀려도 끝장",
+      "Link": "https://v.daum.net/v/20260626152020465",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "폴리마켓, 韓 월드컵 32강 확률 '56%→30%' 급락…경우의 수 '빨간불' - 뉴스1",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmRTVuLTcyTkJEaS1jLXZtVFcyMFpQZnE3ZzhsbzB2MjVnTlp0SjRoNHVNTHVjSE5NN25pNFpHY3N1ck5ENDY4amFkNXJMVkZ1VEFLX3JZY3FWYlNOd3E4UmRUbUlEdw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "눈물과 박수 속 마지막 퇴근…강수현 양주시장, 4년 시정 마무리",
+      "Link": "https://v.daum.net/v/20260626173209472",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[사설] 농특세 세수 급증, 활용방안 논의에 주목한다",
+      "Link": "https://v.daum.net/v/20260626050151902",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "군대에도 판타지가 있다…B급 유머에 감칠맛 터진 '취사병' - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Nc0d2NFljZHNxMTFNcFZOYUpzbGt3WHF0MXJESnBHSGJ6dmllcmd3Ui1Nc2dsN2RUMkRMbXY2RUtYUXlsU2d4X3RUZWhEbUdrYXVFUW5QODMtMDjSAWBBVV95cUxOUUM3ZzlUaTBVVXppZ05JY1V0UFYzY0RvLWFBS1pGdEE4dWFEaGs4SE5NclF4MTBCWjJPQVNwVmFBTjVFV2V1VE5FNzctX0J1WmpQbzBHYURVR0RCNkJBOXA?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "“K-팔란티어 본격 시동”…국방 소버린 AI, 민간에 데이터 개방·AX 가속",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232246",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[조한규 칼럼] 영일만에서 `에너지 혁명`이 시작되고 있다. - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9idXZPSEZJbXdSTWdVelc3S1Vwb2staUNOU2MwSDAwN2lhYzFPTHJtSDBjT2xCR2prMXFqUGgtSDdZWHFhR1lpSGdWNzZpUFhVR2N1YkYydVNXS2xjVWFJc1Zn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "댕댕이도 사람도, 걸음걸이 보면...‘이것’이 보인다?",
+      "Link": "https://n.news.naver.com/mnews/article/296/0000101952",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"지역감정 부추긴 김용범 사퇴해야\"…국민의힘, '호남 반도체' 투자 갈등에 책임론 등 [6/26(금) 데일리안 퇴근길 뉴스]",
+      "Link": "https://n.news.naver.com/mnews/article/119/0003105214",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "평화경제는 미래세대의 성장전략이다 - 행정수도뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DeEt2QnJPZDNCeG9qYmFVbG1oREpBZjRLdkkzZG11bW1xS3VtdVlLY3dZQmlEaF9BazlrX2w0LWdKUklPVm9yQjRwNVVObE9nM3d6emF0WnZSNTZUTlU0czhNLVNWQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "오세훈·한동훈, ‘호남 반도체 투자’ 저격…“국정 사유화” “제2의 미르재단” - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUVXpJSVlxeW1OTHZNWVRXUUhtTWk1YkxCN0lUbmRfVVVRS0x3R2t5NmhvWlpaMmhWMHRBMUF1U2RQQ1llQll4SDZDU0tiY0Zqb19rak1NaU5WZDNkUm9GVkplRC16SzVHZHBMZXZQX3NlcjlB?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "비만대사수술 후 술 한 잔이 두 잔 된다?…더 빨리 취하는 이유 - 코메디닷컴",
+      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1Bdk43RVlzci1WZFI5ZzBta3l6NXJyTF9DLWNXM0Q5UVk4OTd4WHJkbFpTRThWdDRhUUtJdGJvRGVFZw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "아내를 위한 여름 보약, '꿀마늘'을 만들었습니다",
+      "Link": "https://n.news.naver.com/mnews/article/047/0002520655",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'쯔양 스토킹·협박' 김세의, 첫 재판 불출석해 공전 - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5NVRpa3RRQm5RRWZjX0lOVHNiLXNwWmk2MnVva2ZKZHRwaXM3c0p4U1otTF92TENPUGE3OU0wMTJ1U3ZpV1hSVDl5VTJPWmxSb3BXUEItc0FiTXcyTEpvMzBydUxhb0RjVlVPdXhUV0xHR090dWtZ0gF3QVVfeXFMT2NNWDlDLVpUaGZXWV9vTDRpZ21GZExKLVgya1Zta0NlUWhFSHBKY1kxa1A3ZndsUldGRUdWY0h1Q3NFcllMdjgwVUxRT0hfRmJONDk3UEVRbGluMjBHMnBIcWVOZ3cyYXZ4V0VrZEloaVpRenVKVXc?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 01월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MRkkwQV84bnB1QW14akZpUzhtbUhFdzdDMlM4UzQxMFJZNnRPdTloa2RqcFkza3ZUVGtmY24xZzZteTlONU5BMWg2ZTZTVUttZHQ4c1lSZkMwQWZNc05hYTdCbERaLXMwaEUtcm1n0gFyQVVfeXFMTlM0NUIwV3EzanphRWJuLTBvTk1NdlBGM0xpS1E2bEttS2ZaZXI0bTFBUHUtUzdaTVNhQUNkMUFfWFMzUGRBRTB5R1JmdjJfMVRZU2ZNclJQbE5MRGxEaUdlNFFaQjNZYmlmYjBDMnF0ZnJn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[단독]대한항공, 에어부산 등 인수 검토…'지주사 규제 피하자' - 비즈워치",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CZGJvZEd6WElYWk5zd2dFSjg4bnlEOHdjeDUwcjhySm1DTVV1MmRWenljSmc1bEs1dThXbEV1MDh0aUw2d3VHWWVJTnhadk5PcGota2MySVlwREZ1WHRNWmg1S1hnMkJ5TVNZQw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "통합 대한항공 12월 17일 공식 출범…국토부, 합병 인가",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009024320",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "美공화당 대권 경쟁의 서막?…밴스vs루비오, 이스라엘 놓고 노선 충돌",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026224",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "베네수엘라 최악의 강진‥수만 명 실종 등록",
+      "Link": "https://v.daum.net/v/20260626171005735",
       "Portal": "다음",
       "Category": "세계"
     },
     {
-      "Title": "Ali Khamenei’s secret bunker included blast-resistant room, escape tunnels under Tehran",
-      "Link": "https://www.yahoo.com/news/world/articles/ali-khamenei-secret-bunker-included-031137532.html",
+      "Title": "[날씨] 영남 약한 소나기…주말, 서울 낮 32도 불볕더위",
+      "Link": "https://n.news.naver.com/mnews/article/055/0001367632",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "Years-old building collapse video from Turkey falsely linked to 2026 Venezuela quakes",
+      "Link": "https://www.yahoo.com/news/world/articles/years-old-building-collapse-video-074905513.html",
       "Portal": "Yahoo US",
       "Category": "세계"
     },
     {
-      "Title": "“우크라·이란 전쟁이 바꿨다”… 인도가 무장 드론 키우는 이유",
-      "Link": "https://v.daum.net/v/20260626111051885",
-      "Portal": "다음",
-      "Category": "세계"
+      "Title": "이 대통령 “팔란티어 경쟁할 혁신기업 육성…CIA처럼 한국형 인큐텔 설립” - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaY3JMdDVZdnZ2R3E3Sms3TklFRG1DTm1teWNlM05HMFBxby1pNy03VXhOemh5bW81SEtudXc1RV9qRUd1b05Ib2xEMmNxTE8wTXJXWk5EcmtkZ9IBX0FVX3lxTE5sUnhaTnJTQnhOYVZXYnN5TFNjZi1tY1FxSUFibjh4RzkzWW52dXZhWHJLUUtUTG9WV1hyTkotOHdibFBFdm1ocHkzaTg2RXdMeDhmUVltMG5yU3NSaE9r?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
     },
     {
-      "Title": "\"감히 머리카락 다 내놓고 공연을 해?\"…여가수에 '태형 74대' 선고한 이란",
-      "Link": "https://v.daum.net/v/20260625180831744",
+      "Title": "비공개 공간 열었더니…외국인들 몰린 ‘K-공연장’ 투어 가보니",
+      "Link": "https://v.daum.net/v/20260626170600571",
       "Portal": "다음",
-      "Category": "세계"
+      "Category": "기타"
     },
     {
-      "Title": "네덜란드 ‘불치병 1~12살 아동’에 첫 안락사 시행 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vell0YXVFUmhGMUsySGZQZUVGS1hyRHpsRndEM0xOSmpQRFRwUEdwOGR0WVlQdGJqTXJjMGFTeFlYcU03elo5RG5MZUJ5bm1GZG1qbE10YlBTN2tFN003ZW5uRkdYWXpLNUQzU2xB?oc=5",
+      "Title": "스페이스X에 알고보니 한국 부품이…사천에 있는 알짜기업 어디? - 머니투데이 - 머니투데이",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPWkl3TzZCVnM1ZjQ0VUJZVGZreE9UVTQ1UUxfV190c0RLN0ozU3JvMnJSQXJxM0JZSVhaanN1LVBLZjhHV0twdDE3RThCaUxTelZhT1pMYk5OM3VnTmNRSW45bVphTTDSAWxBVV95cUxQQl9xSHVCTWZkN3pjZHlBYzZ5Nk8zTGdYSnlKendXRmRTOFdoMHQ1bHRMdFBNeGZZNFpZNFdBQzNaRHB6czN1LXM2N0hkQWF5NXJ0dlQ2bGU5VWRKeXBudmdWMnE5WU9tVFVkVWo?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 04월 둘째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yRWtFOWRVb2tBa19NQUdPdUdVWUdHZnpaRWNSNHRfb2UyZUNWU0U2N2NKbFJJZVBOSndXR0l0SXpLb2k1NlNIVDNHQTZkYkZVbUpaMlR6YnV3QzRjSWlVN0ZKZ3ZuZEpobHl4M2dB0gFyQVVfeXFMT1NSaC0wZ19VZGZucjNKc0hRN3BSVDhYZWZtVU5RNXFjX01HR1VwdXRWRWpuTUgzODJoXzFRR3NYQzViOVVfTzV1NTMxTENGa2J5UTVTZk01Mzl1dlNIcWhrRU1TN3VZRVFtckx5TzQ3MGV3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "설영우 측 \"인신공격, 명예훼손에 선처 없이 강경 대응\" - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oSGduRlAwaFczYUtESFFDaWo4MV9HeWpQaTVlT3BhNFFDSnVKM0VpVzU4cnU0aDRoaUhNMEhMV0V5V1JOdVJYR3hlMEFPMGRiZEFtaEdlRm8zd9IBVEFVX3lxTE5mS29nWXNUUkVWem9nVm5sSm1sV1pXQVdmU1R3VlJ5dFBvMEU2LVlEYlNFQ2hCTVVGSUdSTWR0Rm5PRlROSTVwUC1iazFGejZtSDdNMg?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "투어스, 한 달간 부상자만 둘 \"영재 근육 손상…안무 조졍 예정\" [공식]",
+      "Link": "https://v.daum.net/v/20260626171748019",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "독일-일본-호주, 홍명보 외면했다.. 한국 제친 '무승부' 파라과이, 홍명보호 탈락위기",
+      "Link": "https://v.daum.net/v/20260626130000340",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "최태원·노소영 '세기의 재산분할' 다음 달 24일 판가름‥SK 주식은?",
+      "Link": "https://n.news.naver.com/mnews/article/214/0001507948",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "전쟁 끝나나 싶더니 더 센 놈 온다…\"쌀값 100% 뛸 수도\" 경고 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQR195YWxsdmRKMWJjRUMtSXQwWlFQWXRBd0xPWGhJVGZ4dXU0VlVrS3FFRWJsaUk0VFJHbHpnM0dVN0VkMW9uMlF3c2ZXSHphcW80RjBpZWJjQdIBVEFVX3lxTFA5azExbkJOd2xLWEdZNlFyeEc3TUVKUmNEZ3J4NjNWSUhiY0JRVGY0MnpZc21vcExTT29jb1FRWEczaURTWEFuaUdodUUzOVdYY09UdQ?oc=5",
       "Portal": "Google News",
       "Category": "세계"
     },
     {
-      "Title": "마이크론 '어닝 서프라이즈'…'풍향계'가 측정한 메모리 사이클",
-      "Link": "https://n.news.naver.com/mnews/article/374/0000518416",
+      "Title": "이별 통보에 '흉기 살해' 20대 구속기소…사전 범행 계획",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030741",
       "Portal": "네이버",
-      "Category": "세계"
+      "Category": "생활/건강"
     },
     {
-      "Title": "이중지진에 최소 235명 사망… “튀르키예·아이티 지진과 유사”",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800610",
-      "Portal": "네이버",
-      "Category": "세계"
+      "Title": "'법사위 공방' 지속..與 \"이달 내 원 구성\"",
+      "Link": "https://v.daum.net/v/20260626164833989",
+      "Portal": "다음",
+      "Category": "기타"
     },
     {
-      "Title": "\"얼굴 보고 대화한 적도 없다\"…日 총리에 불만 폭주한 까닭 [도쿄나우] - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzRE8yZUpDY052ZGRPdE55MWhQS1FCenRBV1d5VEtuSWFOOWlhU1gzY0tYc0M1TWtNay1WWVF2RGZQQzRlX25ycklkRmN0YThDa2ptM0tMc3Jjd9IBVEFVX3lxTE1oeHAyQ1RTQnR4UHZmRjV2cy0td0pjQjhKdU0wTXQwQmNxZ1hCU3hHcFB6RGIyc2wtcEhuTUNPM3dxQlVEM0EzWjQ2THdIRHVQZW9RcA?oc=5",
+      "Title": "[컬처로드] \"유행어 될 줄 몰랐는데\"…'영크크' 처음 만든 건 누구?",
+      "Link": "https://v.daum.net/v/20260626171522946",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "MBC 시청자위원회, 방문진 이사 후보로 강형철·신종원 추천",
+      "Link": "https://v.daum.net/v/20260626160200314",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“이거 한 번 써보세요” 연예인 믿고 샀다가 ‘뒤통수’…192억어치 팔렸다",
+      "Link": "https://n.news.naver.com/mnews/article/011/0004635372",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "김주령 '탈북민으로 연기 변신'[엑's HD포토]",
+      "Link": "https://v.daum.net/v/20260626170203410",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "오세훈, 장동혁 사퇴론에 \"민심과 당내 공감대 마냥 무시 못 할 것\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014031036",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "여름 음식에 식초 한 스푼 넣었더니…몸에 생긴 변화 7가지 - 코메디닷컴",
+      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5RNk10cThUaXREaHFZNTVIMkNYRE9qOWNJUWo4WTFrRDlKTl9taE02MjYtYTNuaEIxc2M3UkV3QURpUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'몬테레이 참사' 하루 만에 웃음꽃?...홍명보 감독 화기애애, 다른 조에 운명 맡기고 미소 만개",
+      "Link": "https://v.daum.net/v/20260626124831126",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "6월 24일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZdzgxVm1NaVpaclBvU2ZDbE84UVJBbjlkVjl5VjU0a0UxZTZKMXZfNk80R1FhZGtYMWFXMnUzRXhsTmdlRlQxckhac0M4MEJBbnQ5SmFPYlB0QnJIOERtRGR3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "이란이 미국 파상공세 버틴 비결은 벙커버스터도 못 뚫는 지하 미사일 기지 - 주간동아",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5TdFd4dndadkZ5UU93TkFVRHBhWGJzQ0d3VFU2bjN0Q3c4TmQ5NHdlc2RMdzlCalk4cWYwZjFOamo3NlJ0UXhWMFZKd1FFVFNvWENsRnRoZGFucWxSMExYSlgydE1Hdw?oc=5",
       "Portal": "Google News",
       "Category": "세계"
     },
     {
-      "Title": "IMF·세계은행, 강진 덮친 베네수엘라 긴급 지원",
-      "Link": "https://n.news.naver.com/mnews/article/014/0005539916",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "밴스 부통령도 결국…\"충격받은 네타냐후, 패닉 빠졌다\" [취재파일]",
-      "Link": "https://v.daum.net/v/20260626104809738",
+      "Title": "조현, 이란 외무장관과 통화‥호르무즈 해협 통항 등 논의",
+      "Link": "https://v.daum.net/v/20260626173304505",
       "Portal": "다음",
-      "Category": "세계"
+      "Category": "정치"
     },
     {
-      "Title": "\"사망자 10만 명에 달할 수도\"…'100년만' 최악 지진 베네수엘라[이런일이]",
-      "Link": "https://n.news.naver.com/mnews/article/079/0004162107",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"선수야 모델이야?\" 일본 홀린 스웨덴 7번 '금발 왕자'",
-      "Link": "https://v.daum.net/v/20260626112141556",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "미 동아태차관보 \"이재명 정부의 전작권 조속 전환 의지 안다\"",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938718",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "푸틴, 최악의 약점 들켰다…나토, 러 비행장 통째로 마비 노린다 [밀리터리+] - 나우뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qWG1IbmdBMlAwWXFaUng2RUg2R3VoVzQ4QmFib0hVbDNFMkQwY2RYdkt5QU5jeGZIbnlxU0lkLXAyT21XN3Z0amdUbUo2dFJvUVR3QThfUnZHckREek5YYjIyVHY4NFhENVB6TFFpTUE?oc=5",
+      "Title": "[ASCO싱가포르] 전 세계 덮친 '젋은 암'…원인 규명·대응 전략 모색 - 약사공론",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xRVNmdy10a3BSOFdha2xlRllacmFTWFpMY0RnVS16NV91VjJRTXJFQUpFdzdTcXlNcWdKT00waGlPTllqd05QMDNkZUJFb3QzZmhnZ0o3cVRRUHdCUGFWM0hxMF9vSnozMkJFQQ?oc=5",
       "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "“전현무 월드컵 중계 너무 못해, 채널 돌렸다” …혹평에 갑론을박[MD이슈]",
+      "Link": "https://v.daum.net/v/20260626142341312",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "국민 절반, 장동혁 사퇴해야…李 지지도 51%, 최저치-한국갤럽",
+      "Link": "https://n.news.naver.com/mnews/article/021/0002800650",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "독일-일본-호주, 홍명보 외면했다.. 한국 제친 '무승부' 파라과이, ..",
+      "Link": "https://v.daum.net/v/20260626130000340",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "박서진 “그냥 돼지로 살란다” 속세 끊고 영월 산골행 (살림남2) - 스포츠동아",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PRGxaOWlnOXVYMkhSMHJhMzlQSDVjYm45MjhkZWZYYVlJYkdBNkhqZEdtQlhfVHFjQzBRZ1ZELTl6dzZxMnh6UV9xYU12bXo0YVdadDNDYUNKT2xVZS1PdE1ha3RDWkxfU3NtT0pn?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "SDN, 10대1 병합으로 동전주 탈피...체질 개선 시동",
+      "Link": "https://n.news.naver.com/mnews/article/293/0000086865",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "“유머 코드가 잘 맞는다”…‘나솔사계’ 8기 영수, 여자 2호와 여자 3호의 동시 선택에 기쁨 폭발 - TopStarNews",
+      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fUDh0czVpdG1DRFlScUtMd1Z5cDdoRFVmRUlRQm9XcnZWTTBwM29Fd2hpX1hZZFV6UWhSbmpNVFBhTk93OVplSG5PSzNuNjNIX3JkSFptaWw3T18xMTV1Wk82MmNtUVg3U2d2UzdJcl9Udw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[애프터스크리닝] '하나 코리아' 외국인의 시선으로 바라본 분단국가의 탈북민 이야기 ★☆",
+      "Link": "https://v.daum.net/v/20260626172017118",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“용서받지 못할 부부…윤석열 내란 꿈꿀 때 김건희 매관매직”",
+      "Link": "https://n.news.naver.com/mnews/article/028/0002811550",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "김민재, 교체 불만 논란에 \"수비 간격 아쉬움 표현한 것\" 해명 - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80aVVaRDZ3aDl4V3dUMXAwOUphTjNEOTR1azFrWnJNV3E4WXVzYUdSLWM4OU1sZHZfR1paM01YUjZnSGk1bnJPX2NBX3NzNHpaMmd1VDNxLW9kMEVBdUV6S2wtWlczaE9pOGItWVB6amRKeUVrWkHSAXZBVV95cUxOOTd0NHgwcGxXNjBpalFRWGtuVUZvbWpwQmo3WnZERzNhcEVsT2J2Wk0yT0liQ29LYUlueV9DQTA4ZUhaRzg3Ml90LU44NVpfN0RqYTJEaHVvWU5YNF9wek1ZOUswSDNlRzB5MDVIcm1tYVdwUzNn?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "'쉬었음' 청년에 닥친 또다른 난관?…\"OO도 나빠진다\"[뉴스럽다]",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162267",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"우리 아니었으면 佛語 썼겠지\" 찰스 英국왕의 트럼프 맞춤 유머 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmRqOFlFWEdnSUdfWmNERFVPZHFMVUJsYUVmRm00a1RDTmx1b0RXcW1xbUpvVEFiMjMxdDg4MmMxYUhSanFhYzN0NmJ4RU9zeTRua1dvTkpBYkpLSEJjRlNRQmVFRjVxbXhPRmY5ZEs5X2J5b2ZBRml0VkJqS054dTc3UGZmRW9xRTVYRUhaRVpIeHd5TFVMdWFRXzFBUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "총리 청문회서도 '월드컵 졸전' 화제...\"한성숙 아닌 홍명보 청문회를\"",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377773",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "李 “GPU 확보 재원 추가 발생…추경할지 몰라”…2차 추경 시사",
+      "Link": "https://v.daum.net/v/20260626173251493",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "법사위에 막힌 후반기 원구성…민주당 \"18개 상임위 선출 강행 요청\"",
+      "Link": "https://n.news.naver.com/mnews/article/417/0001149219",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "크레센도, 알파플러스 경영권 매각 착수 [시그널]",
+      "Link": "https://v.daum.net/v/20260626173202457",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "출소 5개월 만에 들려온 비보…故 김성민, 10년 지나도 잊히지 않는 그날의 충격 - sportschosun.com",
+      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU0RxTHVTQUVpTHAxckNaZGZsdjk1RTlrVUwzMlhiWFRSdGV1NXNmbWhTamcwbTBJLUV1YkNNaFFYdGVXVnZkWlFDMWwwcFJlVWVKRHJHRWl5VEhDdGFDRVN5a1hjSjJjWkhqM3UyMkdDN3piTWdhekdrTXRfekFRM2J0MDA?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "[AI 시사상식] 하이드레이션 브레이크 - KBS 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5T1czc281RGVMU3Rnb0hTT0NRYVVWT2VrMTc4dTNRVUJMem9CN1dyUTNNcmV3LXhIS19vSzQxNThWR0MwcTEtNi1yY0E1RzZwb0xMc1Mza3pFSHFUcTdGU2hVLVFRUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "“왕도 소득세 낸다”…찰스3세 3년간 610억원 납부 내역 첫 공개",
+      "Link": "https://v.daum.net/v/20260626165200096",
+      "Portal": "다음",
       "Category": "세계"
     },
     {
-      "Title": "Venezuela earthquakes death toll rises to 235",
-      "Link": "https://www.yahoo.com/news/world/articles/venezuela-earthquakes-death-toll-rises-025735826.html",
+      "Title": "[데스크칼럼] 부동산 보유세, 이제 마주할 시간 - 우먼타임스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSTTRYQm1zSEM3ZDlPTGhtV1dqUkZOUGtFUUNGZjdueG02aC10bGtzcHJEQkVEa01NNGRMN2gtenlIN29OV2o1MVZNNWlnU1ZmMGhMZDQ5U1RDMHBjVXJRYzBVMGE0LUtYVWdFcm01enLSAXRBVV95cUxNUURUNmFDQnBFSGtGSnJiOXBPYVIxMXVGd3paUkJCZTNxZS1QM21nYjJta3F3ZHhwVS1mamtnMGtJUFVIOFMxenY0bWhaUEx4TmJZdVhHZUJoNUVFLW5mYVNZMDlwUjF5UzNSQmNwbXNiR25EVw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[단독] 송혜교, 14년만 UAA 떠난다‥박현정 대표와 결별 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA0ZjdmYm4tYm9xTmc3S285ZTlHVXMzWGxfTGNPMVhsTmZ5aVh4cm1DSkk4Z1gxOEYxQ2F2VlBha2lrRlVhMDhTOExiMVZDeWc?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "\"공무원이면 무기징역 가능\"‥'7분 참교육' 김건희 완패 [현장영상]",
+      "Link": "https://n.news.naver.com/mnews/article/214/0001508013",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[경인경제 칼럼] 최성호 양서농협 조합장의 ‘금융자산 1조 원 시대’, 뜨겁게 응원한다 - 경인경제",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VdTExQnNIYU5Bb19DRXpic1I1dFRKbkUzdFBib01oeWRWNG1FcmVrU2ZrcHVUNWpvQ2xZMHhJamZuNE9Yemd0MmFzcFV2STdSWEtwaE9oSHE4b0o4c2Qwd2RTUnBlVnhm?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 03월 셋째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXZXN4WFVEZG9WNzZWOFhQcDZtWDRQN0wyVFZtSDNUQkUwcWc0bk4zMEVFZ29xSUFtS3BQYmY3alpoYTl6eFpnY0I5OUlJR1VGSU5aMzc3TXV3RjlGa2Z1N1U1OWVxOW1WMURBUTBR0gFyQVVfeXFMTnpYa1ROZGxkYV9OWlI4UTlETTlFUmZRX0hCZkpxMi0zOHpqSmw5emR0b3EtQUk5d2JxOFdMTjFPVjdQUEVVa1VsV1dnN1ZXTmd4R3hoeWhUWHMxZTNKNENuRmFDUWRnYy1hblBMdnBzMGR3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "포시에스, 배당성향 40% 목표…AI·SaaS로 밸류업 추진",
+      "Link": "https://n.news.naver.com/mnews/article/293/0000086855",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "박재현-김호령 연속 적시타로 달아나는 KIA",
+      "Link": "https://www.daum.net/video/v/0ac9r1frq1rgrzp8",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "[책의 향기]유머 감각 없는 친구에게 주고 싶은… - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUdkxwZE9NR0E3Y1BMSWYwcDV5d0dQSWlocEY1enZxSjJBNFMwSDgzdm8yU2I2QUR6dlh1ZHJTZU5pTG9tQktiQzRDNDhhY0E2VnA5bWU0aWVhdVlrd1RISmIyV05hRndDemtSdzAyMmlBUlZpbVHSAWZBVV95cUxQcUxCSGZoWjdMSGw1alpvR2p4dkJrM2g1QXB3VmVYZXVPc3JoUmRucG5MeVZsM3kxcFJpLTVrQWw4SGoyLU45VWloWFRNZmV0VHFIbGVDdm9ldDVHdldFSWpBWnpTMlE?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "BYD 또 '갓성비' 승부수…3700만원대 'PHEV' 한국 상륙 - 비즈워치",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tMkdjTXl4NGRzdmEzTFl6aTdTbmZaT3VONm1IRGROTHUtWWVvZUV0RUtEeVFWaGJIYTN0YTRERHVBMFZMM19VSXVpUHFYYy1xMExscXN2aGhDVllvbm5DeUZjRWxFRk4tVFAyaQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "2월 25일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01YTZydC1HUU1mME9RSENXd2pVOW8xRWRkUlNmZ1k0Smg2bGtuN3lWQkxFWHZWaHhwWURic29xamVQb3g3SHNlbDNvdS1hSTV5cmQ4LURqamNUZWlIYVJUSFhn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "오세훈 \"호남 대규모 반도체 투자, 정략적 폭주…국정 사유화\"(종합)",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161995",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[전문의 칼럼]청소년 자살 조기 대응 해답은 전문가의 학교 현장 방문 - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyTzNQbUdPUlJ5bzZ0bFhWSHV6Ul9CMGJxVldVQ1JJQ0E1Tm9pemdCSVEySzAxaktLTHhfS3VUSDdVa3dkRVJfTFpPZW1OY2w4MmxJaFhQYmRPYXE2WXRfSjdNVWdvMERvZHpRbTJsUdIBZkFVX3lxTE1hWnYtVTBEd2ZRUEdhTnQ0anI0S0hyY2xJSER2b213bExvVXhtMm4zYXVSZFpFMlhSdklldWtGWDJ0Sk52MmoxOXhKT1c3bXZiU25USHVWc21nZnQtdFNtRFJtV2tjQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "2026 북중미 월드컵 조별 3위팀 순위",
+      "Link": "https://v.daum.net/v/20260626144606200",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "트럼프 지지 일부 우익도 변했다…\"이란, '악의 축' 아닌 공존 국가\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030697",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "[오늘의 운세] 6월 27일 토요일 (음력 5월 13일 壬申)",
+      "Link": "https://n.news.naver.com/mnews/article/023/0003984298",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "구글·NASA와…빛의 예술로 기후위기 일깨워",
+      "Link": "https://v.daum.net/v/20260626165114072",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[채권마감] 커브스팁, 초장기 금리차 정상화 가속",
+      "Link": "https://v.daum.net/v/20260626173113434",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "Leaping over waves, vaulting to glory: Athleticism is on display in photos from the 2024 Paris Olympics opening weekend",
+      "Link": "https://www.yahoo.com/news/leaping-over-waves-vaulting-to-glory-athleticism-is-on-display-in-photos-from-the-2024-paris-olympics-opening-weekend-192259999.html",
       "Portal": "Yahoo US",
-      "Category": "세계"
+      "Category": "스포츠"
     },
     {
-      "Title": "베네수엘라 규모 7 이상 강진으로 188명 사망·수천 명 부상 [뉴시스Pic]",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014029974",
+      "Title": "\"韓 어항 좁다\"…나스닥 직행한 SK하이닉스 '글로벌 펀딩' 셈법",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232252",
       "Portal": "네이버",
-      "Category": "세계"
+      "Category": "IT/과학"
     },
     {
-      "Title": "트럼프에 불어닥친 ‘이란전 삼중 역풍’ - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVlpMSFhIY2d1MEFCa0hFS0dDWWhHdlV3TXB6QTVXOGY3OElxRER5bjNPZEhBcEM0VmlZTkdVLWFneGNvOEUtejNJQmNEQVRTcG9LZjNkQ194UWJ2VDFDZjllT2F2M2YyYlIyZUhyZzI3N1R1QThQNWVqcTR4bmY2bkJLZ282ZFNjdlRocVBkMFVrV2FDVHRVRzk5aTFPUQ?oc=5",
+      "Title": "비타민D 충전, 햇빛만으로는 부족하다? - 뉴스토마토",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uQThkZ1cwZWN0LWYtZFY2WUswN0NRcDl5Q3I0SGtlS2Y0LW9fLXJaVVRLblgzRTFLd1lVNDNjV3M2dzVLX1hKRE9oTzJOMzR3SkhCeTNPbHBwZ2hsc2ZYag?oc=5",
       "Portal": "Google News",
-      "Category": "세계"
+      "Category": "생활/건강"
     },
     {
-      "Title": "트럼프 \"이란 돈으로 美농산물 구매\"…이란 \"어디에 쓸진 우리가 결정\"",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025472",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "“한국, 전쟁하면 북한에 패배할 수도”…트럼프도 손 못 대는 진짜 이유 [밀리터리+] - 나우뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BOGN5Z2NjbVZUZUhiUUFGLVNNSUgzVXVpYWEyU09QZDh0UE5DeVpuQkFjSExDLV8tSVJYVWEzai1GUVAtTWZKcm16VmxJcjF4OXNtajl0WVM1bTVUUUM5SE1jazhEampUTGVBSUkwY1o?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "中관영지 \"미·영·프·독, 대만 독립 지원 어림 없다\" 경고",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025470",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "[단독]美 “韓, 반도체-핵심광물 등 공급망 안정화의 핵심 파트너” - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tbkhEYkE5Sy1PM1BUMU5LRm8yNlFqaVpYS09yeVVPeElaNl8yLW1BWkd6aS0zajFZQzdyYk1qZWEwYk9TQWhWVTZvZmI5Z3BaNC1WbktCalhNRDZuUnk0R1N3WjF2bUFxNFotVDF1T09ZSVHSAWZBVV95cUxNZzB3SUZBMzdWR3UtaHo1bHp2Sy1hMURkN0l0TDh2ZTZZZzBmbFlfTkd3cHlhOUdNLTVreUozQU5la3FZYkJUZUtmaEdRZC1VZmVsbDVSdmxKLWR0Q2NtVGFQeFNET1E?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"한국산 왜 사요\" 중국 가전에 푹 빠졌다…동남아의 '변심' [도쿄나우]",
-      "Link": "https://v.daum.net/v/20260626075616594",
+      "Title": "하이힐이 아스팔트 뚫었다…\"에어컨도 없는데\" 150년 만의 기록적 폭염에 '끙끙'",
+      "Link": "https://v.daum.net/v/20260626152104493",
       "Portal": "다음",
       "Category": "세계"
     },
     {
-      "Title": "\"이틀 걸려 날아왔어요\"... 하노이 폭염보다 뜨거운 '한국e스포츠' 앓이[아세안 속으로]",
-      "Link": "https://v.daum.net/v/20260626043234717",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "종전합의 서명한 ‘하메네이 복심’…전쟁 속 존재감 증명 [더 비저너리-갈리바프 이란 의회 의장]",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002662069",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "20년 된 에어컨 내부를 뜯어본 기사의 말 \"역대급입니다\" - 오마이뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Cb242bVJtQ2xPeVQyR3FpS0Q3QlZpLXAyalliSUJyWDd4UURudmFSOUVISWVEeV9BZXhQdTRudFVBM3c1U3k2QVZXd0tYdkxVZzRHaG9tY2lHSXJ2U2R3NVBNOUhTalVKMEVOVHJHbzMxUDBvTzlr?oc=5",
+      "Title": "이 대통령, 이재용 회장과 비공개 회동…비수도권 지역 반도체 투자 막판 조율 - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05M1lpbUd4V3prdFRlLXF4TGRlRFB5aXdLaTB4NzJfaEhmaDh2OFcyekl1bFJ3YWlUaU9acWMyLUo2eTBPNEQ4eUUtNTFuNXJHVEtRVExSN1NVUdIBX0FVX3lxTE92VTNvOHBSc0U2UktLd1poRVMwV1ItUGVnX1labUlSZl82cnpaWkRnS0JVaUMyTWpRbnI3UV9HcFFJM0kwdDZldi0waFhqOEJydDFLQkdOSVZfOWUyX0hr?oc=5",
       "Portal": "Google News",
-      "Category": "세계"
+      "Category": "정치"
     },
     {
-      "Title": "Who will control Africa’s AI infrastructure, and at what cost?",
-      "Link": "https://finance.yahoo.com/technology/ai/articles/control-africa-ai-infrastructure-cost-005333899.html",
-      "Portal": "Yahoo US",
-      "Category": "세계"
+      "Title": "자고 일어나면 오르더니…'112만→80만원대' 금값 뚝, 매수 기회? - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VaTEwemZETzFYaXpNRGNiaWs1SnlqNEpzdEtlOHFVbGdhOGttUl9xSTM1cnU5Y2lRQTRETFVfYUZaRlA1cjJ3Zm8yeC1JbUFYR1Fv?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"우와~ 로봇이 인생샷 찰칵\" \"K팝 댄스 대박\"...韓 휴머노이드에 '환호' - 머니투데이 - 머니투데이",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWTVVqcVM0cG5rY1lJQThYck1yMGVnc19TZDd6ZHpPbFJmWF9uVFRlX1BGa0hxazdUaS1Ja2QyWUxzOVNtZkVKc003T3BqSG1jdTU4RWd2LVNKc09URjlmLTVUZi1HbWd1blBZONIBckFVX3lxTE52R1lmZzVsU1ZHeHd6TWpsSk11MnRBaEJPSmZoNGJEWnVhX05WWUxGc1A1QWVVVHZ4QTZERnhYcEtlRl90RXN4OG1JbmNYa3FGOWZ3Q0JqQ2hMWVFoRm9LQUFfMFhmdVpHRnY4Z0xDdUhSQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "비수도권 발전소 갖춘 GS, 데이터센터 직접 지어 시너지 노린다 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiTURWcHgzeTFXdFdHT1VKUUJpdk0xazlDZ0xfWXNIcHlpTThyd293d3p0V19IZHhFcmlxMndORWItdXpES1pzQ0prOW5zT05RRjlUQk5pR0dmUdIBVEFVX3lxTE84SHpnbTJOV1l5MHhrQU5BVFRKREZZY0F4NlBIcUhUc08tdGlIMHdWN0JnMWg5ZDRWbU02SXpRa0RHbTZaRzI4Mml2LU9PZ29lcXFyZg?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "삶에게 웃으며 말 거는 법 - 독서노트 - 브런치",
+      "Link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPd1oydGdORk05YjhLUnhHbkRKNGl4dEh3eUVoeDdydUx1RGZ6YmY3UWNtQWc4RlpQV2ljNjJDOTVFWE91Q0ZtcnVIZUYtMVRjQ1hCSTViMGl5Yl8tOWp4bkF0OA?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
     },
     {
       "Title": "\"이란 파워 키워주나\" 걸프국 'MOU 불만'에 급거 투입된 美국무 - 연합뉴스",
@@ -6863,45 +3367,357 @@ window.LOCAL_DATA = {
       "Category": "세계"
     },
     {
-      "Title": "트럼프 “이란, 호르무즈 통행료 없다고 확인···사실 아니면 협상 종료” - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hcVVPQ2ZQZTNaVTlsRTlXNS1xVlZsZFltX002ZTdFc3ZDNDE4WDdSN205SW1WNnRiNEcxcUlxX1Q4UDItREEtM25vYW50UFVlZmJLU1NkaFJjQdIBX0FVX3lxTE5HOGExc1pDaldwZ3ZrQVVSSGJKRHRnZWtmYlBsYUtFOHhYUGFxcVBnLXIwUENIUTZlcURHYkc3NERBa1RnMVhWWWxlT1ItYVVtLXJTQUh0eW1oOFcxNWZn?oc=5",
+      "Title": "\"애플이 웬일로 싸게 파나 했다\"…아이폰18도 최대 50만원 오른다",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026056",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "“한남더힐 팔아 비트코인 올인” 김동현, ‘반포 60평 반전세’ 살이 된 눈물겨운 전말",
+      "Link": "https://v.daum.net/v/20260626162120108",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "휴로틱스, 무릎 부하 줄이는 신기술 JNER 등재…신규 파이프라인 확장 - 위클리피플 인물지식가이드저널",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zTXpGcncxTjQzbHZzZG5zTnFCQmZsRUppaENDNFgya2VhaUNuNUdoT2FKSkRGRWVYUmtLYUlRaktYMnZZemhpQXp3eXhUTkNyQWFDN3BwZnFZdw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "취업 불안 커지자…대기업만 보던 취준생 달라졌다",
+      "Link": "https://v.daum.net/v/20260626140851746",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "삼전닉스-애플 엇갈린 주가… 'AI 거품' 잠재운 마이크론 실적의 함의 [IT+]",
+      "Link": "https://n.news.naver.com/mnews/article/665/0000007638",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"부족한 GPU는 SW로 극복\"…최적화 승부수 던진 K스타트업",
+      "Link": "https://v.daum.net/v/20260626171922096",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 01월 셋째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93YS1nbUR2azRmYzE0dThlSFBOTlE4b3lvSnFIdktnUHo4dEtkM2FUNmw2YmVIVU1IbUtPbDZrWTlsSTJjTDdBei1ld2xZNXU3VHVva29qQTN5ZDJVSndtWm5VR0ZqS2NHOVhxMnJ30gFyQVVfeXFMTUxxZUtsUGV0WjJpdzRVZXFka1VaOE8zOEZNeDJSSV8zSGdaRjhFUHBOeDN3aUMxeDVtcklaSmM1Q3JjeEJPM3AydWpaZjUwV2xHT3dMV2M3QTQ0MUtJUERoNzRCSkR2bGZkenA0NUJsVjR3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "국방부, 드론 '전군 보편화'…드론작전사 기능 분산, '국방드론본부' 신설",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315366",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "\"AI 범죄 꼼짝마\"...범부처 협의체 힘 모은다",
+      "Link": "https://v.daum.net/v/20260626173051419",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "미국 통화긴축 가능성…비트코인 6만달러선 붕괴 - 뉴스토마토",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04SnBsY09zVElWLXFZNV9Qc0VDemNIT2h3eUFLVmhka29VRFZtOUc4NDlyVDVSLXFWdFNyRVBpNXpuTVpMcUItUGdISW90ZURtRWhNbHlQWlQxRWE2MmVDRg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "얼마나 예쁘길래 19살에 사진 한 장 올렸다가 60곳 러브콜 받은 탑여배우",
+      "Link": "https://v.daum.net/v/bFWKeiEoyT",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "영끌족 어쩌나…주담대 금리 다시 뛴다",
+      "Link": "https://n.news.naver.com/mnews/article/374/0000518491",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "[국세 칼럼] 인공지능시대 알고리즘 신뢰 기준과 인간 책임의 재정립 - intn.co.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BQ3kwNnp1bDJlT2tncXc5cTVpb1hmNTFZNnduUmFhV3AtSEJfdy1ZOEdtZWYtek1tVTQzcldvUU1aRVJzNDAwS19vRHFQMmhtTGZaT1U2V0p1QnB1UzI1aDR5U0hlSzFoNWc?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "치솟는 달러값…환율, 5일 연속 올라 1550원 근접 '비상' - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qTzZpbmE4UXdCdE5ZVDNMMUlZcVJJdEYxWlpwWnRpNDdaRFp2T09TYnhaQ0IyT0VKOEw2TzU2TjZFZWp2N0JRTS1kalRoY1piRy03YkVNUmt1d9IBVEFVX3lxTE5kc1M4bm11NnlwLVowVjYwUDRNd2JabHdUekgxUmVlQm1pYTU4TW84RkQzcFNXMUE3TzlBS2NDQmRiMWQ1RHFZaTRIbjZVeU5MUHByRw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[김병철 칼럼] 시장 하은호는 떠나고, 군포시민 하은호는 남는다 - 뉴스타운",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LNU84bTFnbVhkeHpFck5yYWowTjJpZ1RreUFsbjE4aXlWTHVwZzhGWUZxdWhPQk9QajFKRjV3R00tVi1yZlJXdDhMbUJVQUUzamdjWDBhTFlIdWlOalViRlVybGtSYVZ2MkZDam9B?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "IAEA 총장 “미·이란 종전 합의로 이란 핵시설 접근권 보장”",
+      "Link": "https://v.daum.net/v/20260626165653226",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 05월 마지막(06월 첫째)주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00aHZYc3RNT2J4WWw1STZTTWJrTW5yR2dFVTdjSDRKZERHczZNaVRWQjdhMDRnT09zcjhhbDBBR3pSU2JnMFl2R094cGtEM1Nlek1wQmtuOUVmTDBrNk9MbUhMbWhTcElIWTBYOFFR0gFyQVVfeXFMUE4xcmhNNVJNcm93RVgxb1VWUVI4OTdfUEhMUGFPcXY3ODExRURCS3BIU2lIUF9BN090OVhHOWlWdktDS1FoeEUya2dNWXZoMjlrVnBvVWZUb2lSSmpVVWdNN3JReXByYVdIdHA5U3dScmFB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "‘내란 가담’ 박성재 1심 징역 25년…법원 “윤석열 반대 세력 제압에 도움”",
+      "Link": "https://v.daum.net/v/20260622173118828",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "유럽 폭염, 관측 사상 최악…\"기후변화 없었다면 불가능\"",
+      "Link": "https://v.daum.net/v/20260626171651994",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "이란, 호르무즈 '통제력' 과시하려…오만 쪽 항행 선박 공격 [이상은의 워싱턴나우]",
+      "Link": "https://v.daum.net/v/20260626164416850",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "KB증권, 1조원 규모 유상증자…KB금융, 생산적 금융 박차 - 연합뉴스TV",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE82dFQ1SWxoZ01vbDVXTHQ3c2JMTTJ3emJiWGZmRlNxVXR4YkdwUDhoZ2NMSFMyQzVzVGJNSmkxVndhUVlMTzRHOHYzdDFxZVJXSFJjeUxLa2hZZzhhdVI1b3hVNUJMQzQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "‘80억 CEO’ 현영 “애들 학교 때문에 송도로 이사하며 의류 사업 마무리…지금은 화장품” - 일간스포츠",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4UTFGUS1UWUtaSWNNVlJBbGFoNmxic3J6Tkk1OE01UWZsRzl1N3hpdXlSV0tNcUh0XzNMbmFqbUUyMlRLbDJvS0Zxem10SF9vWnZUZ0NDNjF6NTg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "원 구성 표류에 국회의장, 野 의원 상임위 직권 배정",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315981",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "정부, 민주노총 만나 “산단별 운영위에 노동자 참여 긍정 검토”",
+      "Link": "https://v.daum.net/v/20260626160633526",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "인도, 이란 석유 수입 재개?…양국 석유장관 뉴델리서 회담",
+      "Link": "https://v.daum.net/v/20260626171209822",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "[포토S] 김민하-김주령-안서현, '하나코리아 파이팅!'",
+      "Link": "https://v.daum.net/v/20260626165318142",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "3월 11일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZTnJXZmlqekRkLXVSX3dYSVAycks2NmRETEtuUm92SGN3d3JoX0pPVlBCODJNMXEwbC1tVnJnZHBzRDBGYWdyY2NESHhBaDlReXBLSGk0QzVjSm9yOTRmQ01B?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "IBM, 세계 최초 1나노 이하 칩 기술 공개 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOThHaDVqOXVoX3V4cHJSR3hDWHdfY3hHVEFwNFdaZjAzWDItd1FzSWdjanNjQ1h4a1lfcmFoYWpjOTU2LVJET2pjOFVORjVBSW5mQXJJR1JDVTRXdVgyWVlLajlzNEZXMVlFWUF4MEN1ajdqMENfMEFZM01jUEJlZkZLMA?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "식케이, 일본 댄서 우와와 파리서 다정 스킨십…사실상 공개 열애? [엑's 이슈]",
+      "Link": "https://v.daum.net/v/20260626135851315",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "Poll: Only 15% of Americans agree with the unproven claim that Tylenol causes autism",
+      "Link": "https://www.yahoo.com/news/science/article/poll-only-15-of-americans-agree-with-the-unproven-claim-that-tylenol-causes-autism-203609478.html",
+      "Portal": "Yahoo US",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2025년 11월 둘째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uaGZTMUFzTlBpam1Tck5zcklGWTRndzF0YzRjVmtlU05pdUhPY3Uwdm5wR1IwcmM5NmM0NHJRcEptZ05HcklNdkNVQVdqOUhxei01VGZjckdYOVl5ZHE4ZVRVZGZVZWl0dVlvNnZ30gFyQVVfeXFMTjZvcGtNaGEyOWU4RFF4Q3J6NUVweVB3YXJHMjdpNU1MbjFkYmJ3ZFl1clRUTnB3MVhER2lQZEhHVlh1SXA3czdmR2w4X09UeTRVR3FJZkRrOHRwSXBJaXl0WU4yRmxvM0FyV3l0ZGZEQnRB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "NH투자증권, 일본 주요종목 1주 단위 시장가 주문 도입 - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfN28zZUhhWTdQcVZTaTlCWmRabzQ0cDhsUmd3bVZ3YlVMWWJvckUwX043NzNqcmE2dXUyelZBUFBRWFVCa3dHa3FXY0QzMmFVbUdxYzBSRHQ1aUU0SVZjTg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "원산갈마지구 찾은 김정은, 최악 낙후 北 철도역 현대화 지시 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbUpHU1cyeTM1VFgxa01lcVJiMjFUZm1YMEswZ0oya25vNVRXQWxmNHlVNmhHdml3NDJ0Z0VRVGpwOXVwS3Ezd1NNT2ZoSFZtMU12cVBhcDdsNTVYdVYySkhMYkl2bF9nT0UtckNzeFBHdkFGQWJQLWxVUHNRbno5eGdoZnYyOUM3eHc?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "유머 - 브런치",
+      "Link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE44OW9UVTY3cEN0dUJ0VDBfektGbW9PdlprUi0xeWJMRFlqOGVIOFdTQjcwT2k2YTRBWkxYZzd0THhIZm1zaUV3WE9R?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[장은수의 책과 미래] '찐독자'와 '텍스트힙 독자'",
+      "Link": "https://v.daum.net/v/20260626173012396",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "유가 내려도 주유소 '요지부동'...최고가격 하향 검토",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256642",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "정부의 정보 검열과 감시에 맞서 싸운 게임 속 영웅들",
+      "Link": "https://v.daum.net/v/20260626154502602",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "‘할라페뇨’ 웨이퍼 든 올트먼…오픈AI, AI 반도체 독립 선언 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOFJ6MUZnRUxnUTkyajliYnh0T0NvRy04MGQtRUZlOEc2M2RiWXliR2NfTElWSTBrUjRNbU1GcnIzeTdmZkdCcWIyMGdhREdnNnAxN1RaVktXVTJ0TUZzQ05zbGdSbDFLQk9GS1VMaXV1VTBIWlFZR0wxVC0wYnhRdFhIRQ?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "한투증권, '2026 서울특별시 환경상' 최우수상 - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sZWl0dnNwYS1wd3BoREwxQmI5LU9WOXVHUFMtbzFPVjdZWWp1VjI4ZkZHaXVPTTdVakVxOWJ4NUhZdV9GbFRhMmNZVndfUkk3WEplWHBOSVZPUFlmQzUycNIBYEFVX3lxTE1sZWl0dnNwYS1wd3BoREwxQmI5LU9WOXVHUFMtbzFPVjdZWWp1VjI4ZkZHaXVPTTdVakVxOWJ4NUhZdV9GbFRhMmNZVndfUkk3WEplWHBOSVZPUFlmQzUycA?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "1세대 걸그룹 멤버, 데이트 폭력 피해자였다 “바람·도둑질·감금까지” - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1sTWNKaWJ5ZkZoZjNfemVpNUpvNWVvYlkwOVlSeHF5b2RkeDZuVDdTbWx0TE55WmpJV0FIaVBqZHY4c0pOUnhkemtRQ1loSWd0ZW5XUg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "Apple and Microsoft are raising their prices as chip costs soar",
+      "Link": "https://finance.yahoo.com/technology/articles/apple-hikes-mac-ipad-prices-181331569.html",
+      "Portal": "Yahoo US",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "“나 여자 좋아해” 여고생 고백…혐오 사라진 이들의 쿨한 ‘여름’",
+      "Link": "https://v.daum.net/v/20260626153008912",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "50세 이상 '한국형 주치의' 시범사업 본격화...일차의료 통합수가 도입",
+      "Link": "https://v.daum.net/v/20260626160307399",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[단독]美 “韓, 반도체-핵심광물 등 공급망 안정화의 핵심 파트너” - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tbkhEYkE5Sy1PM1BUMU5LRm8yNlFqaVpYS09yeVVPeElaNl8yLW1BWkd6aS0zajFZQzdyYk1qZWEwYk9TQWhWVTZvZmI5Z3BaNC1WbktCalhNRDZuUnk0R1N3WjF2bUFxNFotVDF1T09ZSVHSAWZBVV95cUxNZzB3SUZBMzdWR3UtaHo1bHp2Sy1hMURkN0l0TDh2ZTZZZzBmbFlfTkd3cHlhOUdNLTVreUozQU5la3FZYkJUZUtmaEdRZC1VZmVsbDVSdmxKLWR0Q2NtVGFQeFNET1E?oc=5",
       "Portal": "Google News",
       "Category": "세계"
     },
     {
-      "Title": "“태평양은 군사 훈련 중”…림팩·밸리언트 실드·레질런트 드래곤",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030202",
+      "Title": "“2024 우승했을 때 분위기, 김도영이 여러 방면으로…” 네일은 요즘 KIA가 2024년 KIA같다? 네일도 2024년처럼 아트",
+      "Link": "https://v.daum.net/v/20260626061200860",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "[사설]법사위원장은 원내 2당이 맡는 게 맞다 - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FcWhTNnZ6cy1lZmtfU05Cb3hSaEREUE5pbnZENllYdExXRnFSd19reWRjMWtld1hBdGRlWU42VUVrZDhVMmNVbGUxWjJpOGxKUENEV2NxRnJJQ3E4R3lOMUtPWmZqZnE2Y01UcTZ6OEZnbkJwdnfSAWZBVV95cUxQZnREVGx3NGQ2b0hwSXNzVmszS0FIYzRXRnZVdS1LbXhoaDJyQ1pKWURoNnZIMEtlVW5aaTRoV0FhLVhLSDRPVXhBVXBQckg1amdkVy1yNEdqZU5mY18wZmtJZ1lwaHc?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "크레오에스지, 메르스 백신 캐나다 특허 취득 - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JbjZ6cFFGd2ZJSDJ6TDY3OVdUUWZyQWdjMExRU2xFTFkzbG5Ja3BPYmtPNE5iUVVuVkRGLWtoZlFVV0cyMUJJZFNqUTB6TVVfbEE0ZzhjV0dDZzAzZTJqekdR?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "김 총리 “대권 꿈-檢 출신 악습 고칠 때”…오세훈-한동훈 겨냥?",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729749",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "\"절대 안 판다\"던 스트래티지의 비트코인 매각 이유는?[비트코인 A to Z] - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42MkZMYVl6dEVtZGtNZE1Qa0M1ZGVIQS1MOEg1dnpTOWJYZDh4aUs1WGNlVjJKanpxa05YZ0pIRU93a3REek9PM3BrSTZtYkk?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "HSBC \"SK하이닉스, 나스닥 상장으로 20% 재평가 가능\"",
+      "Link": "https://n.news.naver.com/mnews/article/374/0000518498",
       "Portal": "네이버",
       "Category": "세계"
     },
     {
-      "Title": "미 우파, 이란에 대한 인식 급변…\"끔찍\"→\"강하고 똑똑\"",
-      "Link": "https://n.news.naver.com/mnews/article/422/0000878751",
-      "Portal": "네이버",
-      "Category": "세계"
+      "Title": "조정훈 \"미꾸라지\" 발언 직전, 한성숙 향해 \"이쁨 받으신 것 같다\"",
+      "Link": "https://v.daum.net/v/20260626155803134",
+      "Portal": "다음",
+      "Category": "생활/건강"
     },
     {
-      "Title": "\"99만원 맥북이 119만원 됐다\" 현실이 된 칩플레이션…애플·MS 등 줄인상 예고",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781909",
+      "Title": "전립선암, 폐암·위암 제치고 남성암 1위…생존율 높이는 핵심은",
+      "Link": "https://n.news.naver.com/mnews/article/469/0000938840",
       "Portal": "네이버",
-      "Category": "세계"
+      "Category": "생활/건강"
     },
     {
-      "Title": "\"동일본대지진보다 더 흔들렸다…베네수엘라 韓대사관도 파손\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161120",
-      "Portal": "네이버",
-      "Category": "세계"
+      "Title": "'오징어 게임' 배우 오영수, 강제추행 혐의 \"무죄\" 확정 - 경기일보",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ROG9BdGhCRE12UV8tTlJfVl81STFMQTNyUmNuRkUwRVVvWVU4OUtnMFdIenNqaHZsdlBrbk4xLXVzSkdzYjhfWVJWODhTRjNkaGs3eGJYcTFpSzg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
     },
     {
-      "Title": "126년만의 최악 강진…베네수 사망자 235명으로 증가(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781900",
-      "Portal": "네이버",
-      "Category": "세계"
+      "Title": "다이아몬드 지고 금값 주춤하자…‘손톱만 한 부동산’이 뜬다 - 중앙일보",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oNUVqcGhBNXNaLVlnZmZoXzN4bXM1YkNZeEpkM0ZfZ2pRQjhrXzFXclE3V3B2LXRzRkY1MG1kSXREalhnUnM2OUplYjlKcDVuZUtQSmVB?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
     },
     {
-      "Title": "France, Italy seek coalition to support Lebanon after UN mission ends",
-      "Link": "https://www.yahoo.com/news/world/articles/france-italy-seek-coalition-support-002738404.html",
-      "Portal": "Yahoo US",
+      "Title": "[현장르포] “어두운 골목, 우리가 직접 살핀다”… 경찰·시민 함께 뛰는 ‘순찰 러닝’",
+      "Link": "https://v.daum.net/v/20260626130833782",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "국힘 “다주택자 미꾸라지”… 한성숙 “부동산 투자 다신 안해” - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CSWF5Q1VjSHduQ1JwYV9yNHpwVFNzdzZqdXF5WW1SOTUzemdud2xJck5jVXdNdURvSm1WMVVJT2dpMGt5WlYwQ05uVU16WkxWZ05oT1c2S0ppSkZpOEpVUmF2MzRfY2d1MU5tTXhkSVFsTnZORWFv0gFmQVVfeXFMTXV6UGJ3RVc5bmNqSTZnXzlxTFhYdWh0eGIzZEZReWt5ZkNtR0ZDNG03eHFHSWNEM3BMZUtDbnNVUG55a295NDlsdXMwX3lsUEZsQUVKNnVHOHU1VE03Ylg3Z0VESXVn?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "크래프톤, PNC 2026 서울 개막..16개국, 장충체육관서 배틀그라운드 국가대항전",
+      "Link": "https://v.daum.net/v/20260626154205481",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "이혜영, 결혼 15년 만에 의붓딸 첫 공개… “연예계보다 딸 곁을 택했다” - 일간스포츠",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10VWRIS0E0aURCN25EV3B1S0xabzRKMURJVHFOMXZmTW1zR0JRMDR0dGdLUGNCRzZlYUxaWXVIaDVabXV4TkdNTGtnTFMxcl93bDVBdzh4X2RzRzg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "IAEA 총장 \"미국·이란 합의로 이란 핵시설 접근권 보장\"",
+      "Link": "https://n.news.naver.com/mnews/article/055/0001367612",
+      "Portal": "네이버",
       "Category": "세계"
     },
     {
@@ -6911,20 +3727,176 @@ window.LOCAL_DATA = {
       "Category": "세계"
     },
     {
-      "Title": "\"오픈AI, IPO 내년으로 미루나…1조 달러 몸값 위해 속도조절\"",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030190",
+      "Title": "행안부 첫 여성 실장 김주이 20억·송경주 27억 신고…명계남 2929만원 - 파이낸셜뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZSjNJdVZENjExMjAwbXEyazV0bGJSS3R2OVZveTBUS09ybzRIaHpwcXRUYWVtdk9QOTRfNGc5VjdFdVh1cnpSSVViY0NpUGt4dm5abnpGcUg4QQ?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "[문화+] 서스펜스 스릴러 ‘눈동자’…제임스 건 제작 ‘슈퍼걸’",
+      "Link": "https://v.daum.net/v/20260626173119439",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "농심 달래는 트럼프…\"이란, 동결 해제 자금으로 미국 농산물 많이 살 것\"",
+      "Link": "https://n.news.naver.com/mnews/article/055/0001367600",
       "Portal": "네이버",
       "Category": "세계"
     },
     {
-      "Title": "이란 전쟁에 '美 무기고 텅 비었다'…中 견제 흔들",
-      "Link": "https://v.daum.net/v/20260626110431554",
+      "Title": "필리핀, ASF·구제역 백신 개발 프로그램 착수 - 한돈뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aRGg5b0EzZFhRR2VJWFFHTlAzc0tnWFpJb1dRTEh0NWNLQUJuWHVYRVktbVpIUndsb0xMZ3FJOEF4aTFBRWVtbTNpT0ZwZ3hyTlN1aV9ENXhmX0I2MUZKaTJzM1dRZmRE0gFsQVVfeXFMT0I4ZC1qay1VSmxhUmp1VWF0Q2ZDSVJsNWVLTnktb0ZiUU9vZlJuU3BsNTdDVmVrRWxvczJwV0JQYW9nTF9ybW41djZ0eDN5Y3lFSllXWTdncThNdGN3S1hDc01pcm8ybDFObUsz?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "NH증권, '일본 주식 1주 단위·홍콩 주식 시장가' 주문 도입 - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lTUVWaHF6SktjVW9NeWM1THhnaVpWNk9mN2JfVk5FVFgxcmdSdlVZbXJtU1BiSEp0UTk0a0phYkNtWG03MzRTdDUwRHQ2TkxkUFVzV0ZDUVlQQzFFcmx2YdIBYEFVX3lxTE5lTUVWaHF6SktjVW9NeWM1THhnaVpWNk9mN2JfVk5FVFgxcmdSdlVZbXJtU1BiSEp0UTk0a0phYkNtWG03MzRTdDUwRHQ2TkxkUFVzV0ZDUVlQQzFFcmx2YQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "‘계엄 비판 자막 삭제’ 이은우 전 KTV 원장, 1심서 집유",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005781960",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "외국인도 '디지털 관광주민증'…관광정책 공모전 최우수상",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016160430",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "찰스 3세 영국왕 연간 세금은 260억 원...왕실 납세 내역 첫 공개",
+      "Link": "https://v.daum.net/v/20260626151032081",
       "Portal": "다음",
       "Category": "세계"
     },
     {
-      "Title": "\"미국우파, 이란에 인식 변화…끔찍하다→강하고 똑똑하다\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161160",
+      "Title": "지방간 있으면 '심근경색 위험' 높다 - 후생신보",
+      "Link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1RNEhVYlpNRWNKMEFoZXduYldQZjRKbnIxY2VRUXRIeFA5T1RsUVZydjJBMVRPSEdZb1ptWkR3SUxXeGNP?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"한성숙 후보자, 다주택 등 과거 지적 사항 외면...진정성 있게 해낼지 의심”[박영환의 시사1번지]",
+      "Link": "https://v.daum.net/v/20260626171732010",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "다시 웃는 경포호, 18일간의 기록이 바꾼 풍경",
+      "Link": "https://v.daum.net/v/20260626163302479",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“청문회하느라 축구 안봐 수명 몇년 늘었을 것”…의원들 폭소 - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE44SFVVZzlOYmdfV1EyOVVjeEY2NEdqVHd1YkxEVHNuT0dmVUNJSzhObHBPT1FkUkdGX1BreHhfUTBHUjUzVk5Sck5ROUFGNUlFbkQxcjNHLUxHM0FBUTY5SUhKeDlUSkVEcHYwTlhzNmRPMUpXOENv0gFmQVVfeXFMUHo0R2VCRzdJYk5RQi1zNWZsbE13dENLWG9XT2JNRzNrRmc4bGhva25sQjA4aVVFTlQ2QVBVc2FVbi0tNG5pY1ZWVFFveGRlSTl0d0lyZTJ3NnBMN0RveFlzZzhsdWl3?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "슈퍼스타 김도영, 투런포 추가로 홈런 공동 1위 복귀",
+      "Link": "https://www.daum.net/video/v/kfp3t9yy9jt9ggk2",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "추성훈, ‘아카자’ 빙의[O! STAR 숏폼]",
+      "Link": "https://www.daum.net/video/v/fq532hsmg42r3py6",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 06월 셋째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBicWdBenpzOVpmbmw3S1JpbUNseTBPSkEwb1hpOFhCMlZMd1F3MnVaMjJNcEtmaldfZmgwbEwxTlJqeU5EclIzTzljYlA5WjN3TDEyTWFUVEo5QkdLUlBvejFOM2hPMWpScmtidE9n0gFyQVVfeXFMUEdKYldKV2lULTNxTmZmVHMyUmZGUWxMRUMyc2liTFc5OTdJc3hFZWxqZlRsNFhxVWRzc2xsclcxMkNJNjRFc05KTHViTXh5MWhOS0VnenFvYVA0NGZ4QV96bHg2WXdUZGFrMHNrblo3cnh3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "한국-이란 외교장관 통화…호르무즈 통항, 중동 정세 등 논의",
+      "Link": "https://v.daum.net/v/20260626173145445",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "신지 \"이지혜가 광고한 속옷 주문…알고 보니 AI\" - 뉴시스",
+      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BV1BuLUtCOFJlSXlFV3FsQ2J1dUt4aHRvLVVRSk5SV1VYUS1MNE42T1lwTndVVEdtM1pYNTRnTjZXZzhOS0hRNTFyLWU5ZGlZQm92dWk4M1dxUmlwRGxVSERMWFDSAXhBVV95cUxOUVpGWGZsQnI5UmNXbjZmeEdPWkZfM0ZCQUM3dGRRcERzVTdNSUMxTEstTGFVeTFkTXhpUEJneF82MFNXcm52YkM5RE1WVi0xb3NlcV9QRWVqRG1XS3hiYTBRYU0wSXVOazRkTWwydmxTOE9mWFp4U3I?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "비트코인, 100억 달러 옵션 만기·PCE 앞두고 6만 달러 사수 분기점 - tokenpost.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjOGdJaHhCVTlWbmRyOUVseEI1YV9LdklmeUVsOEswNkluMnVQLWxHZE9hMXltRXppcGlmRzRnM2dzR2pYYlFXYk1JTGppaXl1RFltVGw2c3NFcEtZMlV1ZtIBZkFVX3lxTE1fT1hzbzZjaEF2ZHZNN3pXT1dkemYzVDl0MnN5MVBsakNUcnQtbFl0dlRoOXVwcDU1NURuaTl3YlRjN3lfZXF1MDRDVnZ1WXgtRkRWSDZNTVYydjQ2elI2Z2Nkb0ptZw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "머스크, 2주 만에 ‘조만장자’ 타이틀 반납 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RcjRXLUtlTFI5Wld1ZlRETVk3eWd3YUxJVW90SUpUaTQwbm91dk1RU3pRQmZRM21pVnVjRkR6Z2h2aXpDNER0TzBuaGdkdw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "독창적 선무늬 15세기 '분청사기 음각선어문 편병' 보물 됐다",
+      "Link": "https://v.daum.net/v/20260626094030423",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "與 당권 경쟁에 소모품 된 '檢 보완수사권'",
+      "Link": "https://n.news.naver.com/mnews/article/015/0005302951",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 02월 셋째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hQUpjcXlWSDNEWDVBdWNhSTRheDBlU3p4SmpJU2VFaGRhQnZSeC1SNGMzREQ0NU9CdEd6eWViVmVYNWlxbkRnd1RFNWRYSk5mZ2JWMTQ4TVk4elVGeUlUU05UMC1BS0poOFRDU0Vn0gFyQVVfeXFMT2gwSkltVkNlTXFHLXJyTU1uVF9IWTZUbF8ydnBlVEQwcGFOX29IU0p4MHhNdUdVYjA5alFNV2JLU3RVbzBHaE9CZXRjS3l4Z3BWTFNibENUdEE2eS1GYmxtUWhBWTdyYmFJSERSTGtyOERB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "美정부, 앤트로픽 '괴물 AI' 외부 제공 막자…中, 빈자리 치고 들어왔다",
+      "Link": "https://v.daum.net/v/20260626163406539",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "14기 순자, 배우 최주원과 혼인신고 완료...“평생 공식 짝꿍” - 스타투데이 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FU2tzLS1JSzFzOWRWX0RxUk1EcmFoZnBhRm9iVjlxOHF4Z1JXZndPSW1wcXQ1clNiSEZEbGdfRm1za1BPejl6eHJ6US0tTEMyM0VJcEZwbF8?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "[이종혁의 투자] 부동산 '쉽다'에서 '닥공' 전환 - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMkpRbC14Si1aS3VJaW10cElDMDBMalg4ajhCQ092eEtjQ1dHRzhyN1lubUpQQW9wRXJVSllFcFBTckcxN1Vmb1VsOXJLVVdrOW1YVlZYVGVhZ05USmVDY29mSmFmUkJlRmpFNDhYdEE?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "내란 특검, 尹 항소심서도 사형 요청… 尹 측 “메시지성 계엄” 주장",
+      "Link": "https://v.daum.net/v/20260625175016130",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "뇌 형성과정서 신경세포 DNA 손상기전 밝혀져 - 의학신문",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxZEdVX1FkTHN6dWlzOUh3WVhGdFY4TGROa3NqSHVNRVJmLVVLbFY3eEd6ek43ZzBJWVRLX3NVTUhJWTVCY3ZCc3lCYkE3NF9nc194NHlwSDVZTmEwQXBCRkV4MTlLd3RqNXc?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'당이 미뤄' 김민석 반박한 정청래...\"정부안을 만들테니 '기다려라'였다\"",
+      "Link": "https://n.news.naver.com/mnews/article/437/0000498160",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "\"돈만으론 안 됐다\"…맘다니 좌파 돌풍에 월가도 전략 다시 짠다",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030895",
       "Portal": "네이버",
       "Category": "세계"
     },
@@ -6935,184 +3907,128 @@ window.LOCAL_DATA = {
       "Category": "세계"
     },
     {
-      "Title": "오픈AI, ‘1조달러 고집’에 IPO 연기하나…스페이스X 부진에 멈칫",
-      "Link": "https://n.news.naver.com/mnews/article/011/0004635281",
+      "Title": "與 \"균형발전·산업전략\" VS 野 \"인프라 부족·직권남용\"...호남 반도체 투자 공방",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315978",
       "Portal": "네이버",
-      "Category": "세계"
+      "Category": "정치"
     },
     {
-      "Title": "트럼프·밴스보다 강경한 루비오…이란 종전 MOU 해석차",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030225",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "달러 흔들리자 위안화 띄우는 中…첫 ‘금융 기본법’ 꺼냈다 [정다은의 차이나코어]",
-      "Link": "https://v.daum.net/v/20260626060147543",
+      "Title": "'면역항암제 오전 투여' 효과 크다더니…중국 폐암 논문 4개월 만에 철회",
+      "Link": "https://v.daum.net/v/20260626150303791",
       "Portal": "다음",
-      "Category": "세계"
+      "Category": "생활/건강"
     },
     {
-      "Title": "이란 혁명수비대 \"호르무즈 지정 항로 벗어나면 대응\"",
-      "Link": "https://n.news.naver.com/mnews/article/422/0000878426",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "“일본 여행 잡아놨는데 어떡해”…태풍 2개 동시 북상에 열도 ‘초비상’",
-      "Link": "https://v.daum.net/v/20260626105631134",
+      "Title": "美대사관, 대통령경호처 초청 리셉션…경주 APEC 경호협력에 감사 뜻",
+      "Link": "https://v.daum.net/v/20260115122603837",
       "Portal": "다음",
-      "Category": "세계"
+      "Category": "정치"
     },
     {
-      "Title": "이란 \"동결자산으로 美농산물 안 산다\"…미국 주장 반박",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030133",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "아프간 철수 ‘마지막 미군’이었던 미 육군 대장도 ‘충성도’ 탓에 해임 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMnFyZ2pwcjhzbWtlNDNOdnlfOWxwLTZ2QjhaVVNLMk85MVB3ZnI4VS1ZR012N0RXOXhkOUFmaG8zeVBIVkk3S1IzMEM0WjZzcnBoejM2WUJYTGdvTjJ3Q250SGxMMzQzR2pPUllIQWdVdGV5RG84aWxZeXFLeDdOLXNacGJCNWRoUDQtNFY1Y0h2S0dpRlplZmlGWXdMZw?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "“中 경제스파이 활동, 美 AI까지 겨냥”…“中, AI 슈퍼빌런 될 것”",
-      "Link": "https://v.daum.net/v/20260626111204951",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "“스타벅스 마케팅 참패, 역사 교육만으로 안 끝나”",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315561",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "트럼프도 “베네수엘라 돕겠다”…국제사회 지원 잇따라",
-      "Link": "https://v.daum.net/v/20260626123617897",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "日 해역서도 규모 7.2 지진… 외벽 떨어져나가 주민 공포 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUzQ3TFlBNlpoYVg4XzlkYjE4dy16YTlYbHNtZ0pmWmtnbXkzY19kSl9YNnJfcmQ5OVZBYnhxZ1JiTnExWG9rVzZtNFc3OGIwTl90U2Z3TnpDT25lOFVZX2FjX3c1aHNXZEU0Z3ZnRGVZN3ZHelo3eUhNMnl0U1JUY3FuU0Y3LVdCS0RDYnBtZ2IyaGU2cmxyaDU1VnhfQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "세계"
-    },
-    {
-      "Title": "Paris restricts alcohol consumption and sales as Europe's heatwave shifts east",
-      "Link": "https://www.yahoo.com/news/weather-news/articles/europes-heatwave-shifts-east-france-122231744.html",
-      "Portal": "Yahoo US",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"망하기 전에 살린다\" 日, 채권자 75%면 기업 채무 탕감",
-      "Link": "https://v.daum.net/v/20260626101001876",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "사상 초유의 쌍둥이 지진...여진 공포 계속",
-      "Link": "https://v.daum.net/v/20260626115215811",
-      "Portal": "다음",
-      "Category": "세계"
-    },
-    {
-      "Title": "펄펄 끓는 유럽, 사망자 속출에도 에어컨 사용 주저하는 이유",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520603",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "\"철수했다\" vs \"아니다\"…레바논 철군 두고 엇갈린 美·이스라엘",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315085",
-      "Portal": "네이버",
-      "Category": "세계"
-    },
-    {
-      "Title": "CIA 대신 군대가 직접?…美·이란, 군 직통 채널 구축",
-      "Link": "https://n.news.naver.com/mnews/article/079/0004162089",
-      "Portal": "네이버",
-      "Category": "세계"
-    }
-  ],
-  "IT/과학": [
-    {
-      "Title": "스페이스X 급락…머스크, 10일만에 '조만장자' 타이틀 반납 - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhMlI5Z0JZUm1WMHlPREcwYWtWaXFXUnZQYjhLTnYwb0UyWW5NNk5zZUdiaWtoYTJ0bEVrd0FVZ01CLWZ4Qzl6WjNZRlZHWGFNVlpN?oc=5",
+      "Title": "1500억 스텔스 대신 100억 '발키리'…'가성비'에 사활 건 美 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzTDlBUWhNY3RyX3FkaUplVUROck1yM0s5aW5SRmxuUDFqNWIxdmlycW00TkZsekZud1VFS0pQU1JMcDBWaUFFZXV1c0Z3SGJVLWM3RzJLYnRqUdIBVEFVX3lxTE9iZUQ0R01GNzdDYzRraThjeDFZMVdZUUpYTElzN3NhR25XaXU0YTVjOUZMMnVfNFJLM0poeGVCN05wR2tycEpBdTIyRE96S1NwTWZFVQ?oc=5",
       "Portal": "Google News",
       "Category": "IT/과학"
     },
     {
-      "Title": "Apple and Microsoft are raising their prices as chip costs soar",
-      "Link": "https://finance.yahoo.com/technology/articles/apple-hikes-mac-ipad-prices-181331569.html",
-      "Portal": "Yahoo US",
-      "Category": "IT/과학"
+      "Title": "감사원장, 신임 감사위원에 이진국 전 청와대 사법제도비서관 임명제청",
+      "Link": "https://v.daum.net/v/20260626173147450",
+      "Portal": "다음",
+      "Category": "정치"
     },
     {
-      "Title": "사우디·대만 \"독점 수입권 달라\"…러브콜 쏟아진 K바이오",
-      "Link": "https://n.news.naver.com/mnews/article/015/0005303156",
+      "Title": "영남·충청·전북 반발 ‘광주 반도체’ 국민 납득이 관건[사설]",
+      "Link": "https://v.daum.net/v/20260626114433564",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "“생선은 먹고 싶지만 손질하긴 싫다면?” 영양사들이 추천한 통조림 생선 활용법",
+      "Link": "https://n.news.naver.com/mnews/article/032/0003454560",
       "Portal": "네이버",
-      "Category": "IT/과학"
+      "Category": "생활/건강"
     },
     {
-      "Title": "[단독] 삼성, 신규 반도체 공장 광주 첨단3지구로… SK는 전남 장성·해외 놓고 저울질",
-      "Link": "https://n.news.naver.com/mnews/article/366/0001174591",
+      "Title": "막 오른 '부산 모빌리티쇼'…전동화 주도권 경쟁 본격화(종합)",
+      "Link": "https://n.news.naver.com/mnews/article/417/0001149208",
       "Portal": "네이버",
-      "Category": "IT/과학"
+      "Category": "생활/건강"
     },
     {
-      "Title": "“AI 도입 비용부터 낮춘다”…KT, AX 체험·현장 검증으로 B2B 공략",
-      "Link": "https://n.news.naver.com/mnews/article/009/0005698494",
-      "Portal": "네이버",
-      "Category": "IT/과학"
+      "Title": "김도영의 투런과 나성범의 솔로포, KIA의 백투백 홈런",
+      "Link": "https://www.daum.net/video/v/zdnehwq91nkata83",
+      "Portal": "다음",
+      "Category": "스포츠"
     },
     {
-      "Title": "일진전기, 239억원 규모 신안우이 해상풍력 설비 공급",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428137",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "중국, 미 GPU 없이도 슈퍼컴퓨터 세계 1위 복귀",
-      "Link": "https://n.news.naver.com/mnews/article/028/0002811486",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[단독] 삼성, 10년간 1000조 투자 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DeXctMkZGV3FUNjBtaUs2b21qeVlxWEgtbUtmUEpyd2RYWHpXUW9XcHdMSE83bkZXVk5KSWlQOEtiYTdiWXM4RldOS2x3V013NWtRSGF3?oc=5",
+      "Title": "'공백 4년' 수애, 반가운 근황…47세라 안 믿기네 - 파이낸셜뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BdE9OT1ZtNF9fOVZ0bTZFSVAyNDg1SktQTVVIcklHa1RjY001SUxxeEkxUnlnVWF2SlluaHRZSEhfa3hnV3NVNU9CUEdfYTVrR2pIdmh5cUFoUQ?oc=5",
       "Portal": "Google News",
-      "Category": "IT/과학"
+      "Category": "연예"
     },
     {
-      "Title": "팀 쿡 \"100년 만의 홍수\" 소비자 덮쳤다…애플 줄인상",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014029979",
+      "Title": "지진 나면 탁자 아래가 먼저…꼭 알아야 할 행동요령과 속설",
+      "Link": "https://n.news.naver.com/mnews/article/022/0004138455",
       "Portal": "네이버",
-      "Category": "IT/과학"
+      "Category": "생활/건강"
     },
     {
-      "Title": "스페이스X에 알고보니 한국 부품이…사천에 있는 알짜기업 어디? - 머니투데이 - 머니투데이",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPWkl3TzZCVnM1ZjQ0VUJZVGZreE9UVTQ1UUxfV190c0RLN0ozU3JvMnJSQXJxM0JZSVhaanN1LVBLZjhHV0twdDE3RThCaUxTelZhT1pMYk5OM3VnTmNRSW45bVphTTDSAWxBVV95cUxQQl9xSHVCTWZkN3pjZHlBYzZ5Nk8zTGdYSnlKendXRmRTOFdoMHQ1bHRMdFBNeGZZNFpZNFdBQzNaRHB6czN1LXM2N0hkQWF5NXJ0dlQ2bGU5VWRKeXBudmdWMnE5WU9tVFVkVWo?oc=5",
+      "Title": "재판부 기피신청에 멈췄던 尹 내란 항소심, 한 달만에 재개",
+      "Link": "https://v.daum.net/v/20260625200017232",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "12명 살해한 악마 vs 수상한 천재 프로파일러 … 인간 본성 들여다보다",
+      "Link": "https://v.daum.net/v/20260626164200783",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "레미콘, 경남 동부권 파업…남부권은 ‘단체교섭’서 막혀",
+      "Link": "https://v.daum.net/v/20260626113508182",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "오만 “호르무즈 통행료 없다”, 이란 “인정 못해”…다시 긴장 고조 - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XZ2c0Q3p5VnA0Vkw5V0Y2d3NQUGVFdG5hbldWaEtYNG5Ob1RBcEZCZmt1VXpjR3hEV2NoOE1vQ0lBdHpYVGNvTzJ3Q0xRS1M4T3FSc1hTa1hSNzNqUVl2X19sX2h4aTloQlZQdmpQNzV6ZWM?oc=5",
       "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "남규리, 방부제 미모[O! STAR 숏폼]",
+      "Link": "https://www.daum.net/video/v/s5bvdan47aernvd1",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "‘행정기관’ 강조한 우주항공청장, 민간 출신 직원들 입지 흔들릴 수도",
+      "Link": "https://v.daum.net/v/20260626103600184",
+      "Portal": "다음",
       "Category": "IT/과학"
     },
     {
-      "Title": "메모리 수급난에 두 손 든 애플, PC 제품 가격 최대 22% 인상 - 지디넷코리아",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1udDhFUFp4M2tfX0U1Rnc3YW9Gcm1iZ2cxaWJoVTJrOTA1blJWZWtUeWlJbmVsb2hMUTRFcExKTjdNOUMxRFVSTUVtbkJmaEh4aGpiOE5R?oc=5",
+      "Title": "장동혁 \"특검 거부하면 혁명 수준의 국민 저항\" - 대전일보",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EMkNJelVIaFpFcVlGblhUV0JZR05Uel9ZWEc0NndKR2EyeWpfNmgyeW1weEtvR1pld1BMWGswM3VrSEVDZEVyQ0ZBbnhpWEFRWmxvUXk3bFJRVzlHUjkzMEhnRlBmeFpFM3Y0bDNjVQ?oc=5",
       "Portal": "Google News",
-      "Category": "IT/과학"
+      "Category": "정치"
     },
     {
-      "Title": "\"그린닷 안녕\"…네이버, 대화형 검색 'AI탭' 전면 도입",
-      "Link": "https://n.news.naver.com/mnews/article/138/0002232174",
-      "Portal": "네이버",
-      "Category": "IT/과학"
+      "Title": "카드로 보는 시사상식 [2025년 10월 마지막 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HVGZaLWdNWXh2VFVlSzdZdHo4aHlsRXFsdjRTTDktQWFnanFKblFUUG9LaURhVFQxUzdVQjQtUTVCbGd6Q2JxUjdIY0c2dnJxc3RLaXRiaUFhY0U2cU1URTMwcTBtWHh5YTJXcDFR0gFyQVVfeXFMUDlMZlB0Rl9xNzdQMU9zM2tEb3R3UlB0UkNDMFA1MEpQd0ZxY0NDQ2d4SkZQdmFZcVlxNDF3elc4T2syYUY2eURZbEYwYXJGc20zMnRZNGU5dXZBVEFMNHozN2wzd0ljSkRubTJJVEJ6SkFB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
     },
     {
-      "Title": "'반지의 제왕' 노리나…애플, 포기했던 '아이링' 개발설 재점화",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428140",
+      "Title": "아직 첫방도 안 했는데 난리... 시청률 배우 출격에 한국 드라마, 극장가보다 더 뜨겁다",
+      "Link": "https://v.daum.net/v/4sOUgjIkzp",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "SK하이닉스, 그룹 전용기 지분 잇단 확보… 미국 사업 확대 영향",
+      "Link": "https://n.news.naver.com/mnews/article/366/0001174758",
       "Portal": "네이버",
       "Category": "IT/과학"
     },
@@ -7123,32 +4039,2918 @@ window.LOCAL_DATA = {
       "Category": "IT/과학"
     },
     {
-      "Title": "“이것저것 사고 파는 AI, 허당이네”…단순 ‘장기투자자’ 보다 수익률 낮아",
-      "Link": "https://n.news.naver.com/mnews/article/009/0005699132",
-      "Portal": "네이버",
-      "Category": "IT/과학"
+      "Title": "Vol. 9 밀당은 빈곤의 증거: 슈퍼리치들이 연애하는 법 [THE RARE]",
+      "Link": "https://v.daum.net/v/20260626172410217",
+      "Portal": "다음",
+      "Category": "경제"
     },
     {
-      "Title": "“1년 만에 198만원 떨어질수도”…‘잿빛 전망’ 아이폰 폴더블 중고, 왜? - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ZbGplbjNBbGhYcGU3cWo2bEMtNmIwMVF2X1RTU1dyY1N5ZHYwcUMzVWtfZTcwbjFrU0JoZ1JLZ2d0Sm1FYjBnUzhRZ2REdw?oc=5",
+      "Title": "최태원-노소영 ‘재산분할 소송’, 내달 24일 선고…폭등 SK 주식 변수 - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE02VVliaXNwYlNNaU9lUTk0QUpCc1hhRUFLeEJ2aUZIXzhINlhQZWhaRGFoZ213WkwxQmZTa01fTmNobE9qRXFlV3hsWXN6VWpGZXhTeEpUSHZQclJ2RDM1a2hXVWJBdVNYVXBmZ3plNWVOQQ?oc=5",
       "Portal": "Google News",
-      "Category": "IT/과학"
+      "Category": "경제"
     },
     {
-      "Title": "쿠팡 6246억 과징금 공방…'조회'와 '유출' 기준 법정서 가린다",
-      "Link": "https://v.daum.net/v/20260626112656777",
+      "Title": "\"통일도, 대화도 생각없는 北…통일부 이름 '선린부'로 바꿔야\"",
+      "Link": "https://v.daum.net/v/20260626171802039",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "안정환 “감독, 선택에 책임져야”→김남일 “명보야 잘하자” 쓴소리(티키타카쇼)",
+      "Link": "https://v.daum.net/v/20260626143617884",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "위험 신호 다 보고도 '상환 무난' 판단…신한증권, JTBC 실사 적정성 도마 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JOGtqSmMzVUVMYUJFTll2M1hTb0dwYXBabE1nbTlvU1JaRTllTmhKeEphNHRVR0RnWnpfczFmMEMxcEQ0WlhQRkVGWjF0Tzg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "트럼프 행정부, 안보 우려로 \"GPT-5.6 순차적 출시\" 압박 - AI타임스",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iTWE4WjQ0Rm9FMXhnNklpUE9yc0lRQnQ3RHN3blYtR1lkUmRCRi1rbGQxYVhZWHljVWNPeU5kakVsUzJvdndhWGRiZGs3X2FEZXVvR2FuUnZyXzcxWUttcGhOc1F3OUQ2X2c?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "스페이스X 급락에 머스크 ‘조만장자’ 타이틀 반납 - 연합뉴스TV",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Tbkw1Zm8zaGFjRVFWUlJsT2xMRnNzQkI5elBVdDBTaUN0TzFhMGlFcFU2MFZnQUtnZ193UG5YSUVaSEI3WTBGSnNHTDlqanNncS05djltalpLYTh2WTdjcE13ekJFTE0?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "김정은, 관광지구 시찰…대남 타격용 미사일 발사 참관[데일리 북한]",
+      "Link": "https://v.daum.net/v/20260626145233400",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "조 의장, 국힘에 상임위원 선임 명단 보내…\"29일까지 의견 달라\" 공문",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014031065",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "온세미, 시냅틱스 10조7700억원에 인수… 피지컬 AI 시장 ‘정조준’",
+      "Link": "https://v.daum.net/v/20260626173317513",
       "Portal": "다음",
       "Category": "IT/과학"
     },
     {
-      "Title": "메모리 사이클 5년 더? 마이크론 뛰고, '호구' 빅테크 폭락 [김현석의 월스트리트나우] - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50SXpWNFhhVnZORVVBcFhoRnpWM1dlUzlUTFhzejREQVJiQS1uZ1hTOGpTNk13alh6SXlPdFQ4ZkhVcTYwS2ZOMm9iRm40U01aUFFYLUNNck9rUdIBVEFVX3lxTFBUeWQ4dWI2bUhNVjU4aWJrbGFwX3pMMFI0NkxXRnJWREZkdFI1NmFscE5qOUotdFRobUxBT0kwbTZLdnc1VjRQRm5QTGNQT1E4ekVBMg?oc=5",
+      "Title": "[양파 소비 캠페인] 양파와 같이 먹으면 좋은 '5가지 궁합 음식' - 소셜타임스",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GNW9OWDdTZW5XOHZ2MzJRaThnUXpWSERGNklGOFk1X2dyc01HRFpzZkI5YXpFbjhFZ1NUc2J3LVJrcmt4U1dlREpJcEpDYUY3Q19RdkkyU0lYMG1MTEwza2ZiT2ZRcDFQV3pZckVCTdIBc0FVX3lxTFBGdGVpQzl0bEhSRmFMWE1nTnFDYzU4SEZ2UlRRMzVodmFtT2dDaENid0ZQOHd2akRRNWQxT2hYTmduLXBya0R4OERUM3FpcDgzekNZNkNNMjJkRU5wUWNxQlJYTUpPRDlxNlFLbG1nTHNITUE?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "치솟는 물가·美 은행 건전성 확인…연준 ‘연내 금리 인상’ 명분 쌓인다",
+      "Link": "https://n.news.naver.com/mnews/article/243/0000099673",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "유머 담긴 유화·조각으로 비틀다, 엄마가 된 후 달라진 여성의 삶 - 중앙일보",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByX0xDWjhoLVRvR0lCSkhJeERVcFZBT1RmZWZsNlFFMjJXZFlza2xBdDZudEtWLUNBeEJEOE15SVhXdEhldW5oUG9BbTBZMkUycFJweG1B?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "무인기 재판부 \"尹, 계엄 최소 두달 전 준비\"…내란재판 2심 영향은",
+      "Link": "https://v.daum.net/v/20260612154350967",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "Olympian Rebecca Cheptegei dies days after partner set her on fire; officials highlight pattern of 'gender-based violence'",
+      "Link": "https://www.yahoo.com/news/olympian-rebecca-cheptegei-dies-days-after-partner-set-her-on-fire-officials-highlight-pattern-of-gender-based-violence-165656807.html",
+      "Portal": "Yahoo US",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "남도의병역사박물관, 개관 첫 특별전 '의병의 시작, 나주'",
+      "Link": "https://v.daum.net/v/20260626161703970",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "전역 한 달 앞둔 권순우, 2년 만에 윔블던 본선 밟는다",
+      "Link": "https://v.daum.net/v/20260626140207517",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "[월드컵 리뷰]\"日, 한국 일부러 패배\" 황당 주장! '16강 미국→헛된 꿈' 손흥민 스승 포체티노 첫 극장패, '탈락' 튀르키예 3-2 '눈물' 첫 승 - sportschosun.com",
+      "Link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBIRVd5WkhITDlrR1lGeDdKZkpTT0FUUTN6ZkpqZ3paeFBvVGp6YzJHaDJFTFJldjA1UHRTbDQ4U3k0ZmsybHYwOUlkUVZsZ2I0aXNwZHY4cnJPNTgxeE5oVmdUaGhRX1E4dzRmeWhGMjE0ZWtLWndSenNvSXM1UQ?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "고민정 “계파 적통? 하늘에 계신 분들이 인정 안할 것”…정청래 ‘친노·친문’ 구애 비판",
+      "Link": "https://n.news.naver.com/mnews/article/032/0003454542",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 05월 둘째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FVXNyQWdrTTJoOE8zcmR5eTFmRXpRYWRJbHdseGVpTUtmNE5veVpqbEhIN19jM3RlWTlsQ2EtQlhWNDlaYXJYWV9LMkJyRVVjSlNtUngwS2prMElMQ2hReXFNMjJGazhBRWFsUV9R0gFyQVVfeXFMTnI0UUdRTHFEZV9XcHR2eVYxMDIyWWhaVmd1YzFxbWNFNkJQOUtpc3haTFpwcGRwT2VlaGktT1ZXWU9lYW9abEpCc3I2TWc5QzZyMGh6TW50V1pkS0VZOWR1bjBqSlpOblJ1NFV2Y09mcjhn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "한혜진, '500평 별장' 수영장 청소 중 경악…\"이거 '무한도전' 아니야?\"",
+      "Link": "https://v.daum.net/v/20260626142451363",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "상상력·유머로 현대미술과 접선하는 ‘조선의 팝아트’ [문소영 논설위원이 간다] - 중앙일보",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5IVUpHNlhYSVJTSGQ0LUVyTlQ4cUs5OU9wdXhqSG4tMEhMM0Z1bGVpUHZJUFpNYzR4Y013ZTdGVnZTRVYtaUZ0WmlYYy10c0llUVBYbzdR?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "비트코인 6만달러선 붕괴…한때 21개월來 최저 - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10c1N6NzJwbTlrczR6cW1HRWx0bkhod0dON240aGpnaXFwWlVQVlNGNTBNM0pOSkJMTjBlaHBDRHN3Q3FsSkRxZ2RINkl3c0xfZkF6VnBmcXg4UlN1ZlZrMUJ3X2VfbTVRV0hGZjhvZ0E?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"혁신하지 않으면 퇴보\" 한국 축구에서 얻는 교훈 [사설]",
+      "Link": "https://v.daum.net/v/20260626172106144",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[차이나워치] 한중 총리 7년 만에 회담…中, 희토류로 미·일 압박",
+      "Link": "https://v.daum.net/v/20260626172204165",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "국내 HIV 감염자, 2024년 1천명 아래로...생존자 1만7015명 - 메디소비자뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JSUJHRUxYYVR4MW43X29iQXgtMXNJUG5sV2hCMWd6eUJxallOOHU3RmJKQzZ4N3R1SlhUMU1wa1NWLVh0VlhvZlBIUDlIRjUxTnFEWXRDSGNWRlJDa0psLXNuOUE0Z1hkRnhLRnRMUU5jYkXSAXZBVV95cUxQQzcxVDBuN2x5b29CSV8xb0ZiR29GN2VWa3JuV2NvenJyc2JMSVMyLWh6ZHFSUmE1WVMzVFpib2x1MjdQcmxGLVJjNHRFT0tGR0RwUm1yOUdsaFZjR19MS21CbXVhenBGZEw3QUJlMFE0Y2ZJbkdR?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "냉소와 허무의 시대… 활력소는 ‘유머’에 있다[북리뷰] - 문화일보",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvLUJTYXVqZmhZX0FXZUljZ0Y2Sm1uYlh0ajM2MFI5YVJpb0J5emNKWi0yX2MtLWhacXB6Zi0tdDFneUxxZ0tET2N4Y1l6bVND?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "李대통령 \"1조 이상 가치 혁신기업 5곳 육성…팔란티어와 경쟁\"(종합)",
+      "Link": "https://v.daum.net/v/20260626165854276",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "“주식도 금도 아니었다”…6월 17% 빠진 비트코인, ‘매도 공포’까지 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Ya245YmVha3hxY25kSnJnc0lRNExHZkhpQjZFT19jWkZRSHVCNHhzSUZOU2NrbWRXaE5CakJ2eXFDdGFwOW5PckM1VEt6blE?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "골키퍼의 착각 골 넣었다고 믿은 순간 이건 아닌데...",
+      "Link": "https://www.daum.net/video/v/68pa5f3878t44skv",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "국힘 \"정치가 기업 팔 비튼 것\"…'호남 반도체 투자설' 공세(종합)",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161875",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "'대한민국 초비상' 홍명보호 벼랑 끝 몰린다..파라과이도 승점 4로 3..",
+      "Link": "https://v.daum.net/v/20260626130118412",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "“코스피 9000 넘으면, 국민연금 최대 74조원 판다”…증권가 전망",
+      "Link": "https://n.news.naver.com/mnews/article/366/0001174757",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "코스피 5%대 급락 한때 8,400 아래로‥'매도 사이드카' 발동 - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nc09WaVRqSlJxeUdMSXQteGFjb2w3S1Zia2JKNEdrSmRkalhkQ1VhTWNhSzI0WjFZNXg4alh5ek85SnR5LWNla0d5S1NLcC1CTDQxU0dmY2pVX1ptdkxMV1VmN2FjWWpSdXRXUzRwSjQ3Wk9R0gF0QVVfeXFMUG1GMUFteTJ3VGpsT3lBdUM4TVhFTWJILW5fYWJYT1pSUzh4QXN4YTdmTVhtQzN1eFRWU0FiT1NSTG9sZ0pYTXlSOXJjcU9IVnRpLWJwSFJ6Nmk3Mmc4Yy0tRjVSTER3Tm9MRmNwaTFvRUR3WjI?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "“여기도 나타났어요” 수 줄었지만 더 넓게 퍼진 러브버그, 지도로 피해간다",
+      "Link": "https://v.daum.net/v/20260626162604259",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "빚부담에 軍사고 늘어날까 … 국방부·금감원, 장병들 금융교육 강화나서",
+      "Link": "https://v.daum.net/v/20260626173027408",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "“치매 막는데도 도움 될까”...비타민C의 다양한 건강 이점 - 코메디닷컴",
+      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFAwZXpyWHVNZWs3d0VUeVBTcW1MdlYtdkMtVW1hTnBRYy04UHZ0OFVRY0NXX1cwMG11ZFl0aVlXNjhwZw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“앤트로픽 버렸다” 미국 개발자들이 중국 AI로 갈아타는 이유[딥다이브] - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PWU1iV2FfclVfdUZydmFwSFBuaVpNSi1lOUlCMC1LTmJCczB0ZGFhcldkUUdubG9QaXZVZnBPWVBSaldua2JuNTFFamVtcVE0QXp3c280bjV2OHdScUV0MjRUV01peWJMSnFNR0hqRjJvSEVOWmfSAWZBVV95cUxPNnRaeHBWOFhRVGEtYUZJdExXclA1UUJZTjVMQml0T1Z6RE1EWjJGR0t2OFNzVWVzelpwa0R0bVRZcWk1XzBsWDlxei1keU9saE81emlkc1ZUQUZPQzFnZWh1Z0dzcEE?oc=5",
       "Portal": "Google News",
       "Category": "IT/과학"
     },
     {
+      "Title": "머스크, ‘X머니’ 서비스 확대…X 슈퍼앱 구상 본격화 - 블록미디어",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45ajFBZHcwTUQxclhxMkwwa3luQmVOelRENXpJUFFEZkJualEySWpzaVk1VFRaNmp2c1ZhTE5ndURKRTZmMlVNNmxLNFhDeTVrTHpyRk1rTEY?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[현장] '하나 코리아' 프레드릭 감독 \"김민하·김주령·안서현 엄청난 배우\" - 맥스무비",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaT2N6NUFvQWpLRHVRRnBhSE9TNGVZV3BFbnZHTFA3b2N3b1lmaUNZOUR1SmhyN1EwbVhCMVBna0lpbkt3b1VtZlNQaVJlRTdMLVdfZmk4WlVWYUF4MjlRLVE0YW0tWHVHWk5V?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "VUS 분류 변이가 있으나 임상 양상을 통해 Agalsidase β 투여를 결정한 사례 - 메디칼업저버",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pZWtwcjhpRXlNY0tWeHRjSWNhUjZWS0VNSzhxSm93emZmS2NHcndqWVFIbWIxaGJuVzluV1hRYS1ubHdUcG10a1pqTmkzWmpnX1JpdWRLQ2JZSng1OUkybVFMTTI0TkliT21J?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "김기태 \"17세 이후 연락 끊긴 어머니…뒤늦게 사망 소식 알아\" 눈물 (사이다) - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tMDlGaXhxTk5NVUtaM2dlMHpqUlEyQlgyeE9VYVFBa0tyYmhxVEdkRUxRQWszdkxHaUZmVlNtOGpzMTRUaGs5N2tpUG5RS01sTXQw?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "英 의회 기후금융 제안서에 'XRPL' 등장…재생에너지 운영 인프라 되나 - 디지털투데이",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmMFc0SlFJdFFidlBmY2V1MFhFSVNoMW1oQnRqczBPVThraEVRT0hxYWtEelJNYXVpM3lmcXJlRWk0TjdzbUJhckxvWkJUaHNSbUlyRXNnSFl0eU5JQmlOcmVzOGU4djRpOXZDR0lhQ3dsWjQ?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"3위 마이크론 대박 쳤다\" 삼전닉스도 신기록?…개미 '두근두근' - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xSlcyZ3pOQ2lYN2lIWktNUjlMdDNHSWpGSkMtV19mQ1dGREdvcTJzS1hMNUhpZ2k1SFdBTGc1a0lHVW1YRXZ0cE5kUEZQUVBCS1Bn?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "SK하이닉스 ADR에…환율 변수 된 '7월 초 메모리 투자심리' - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xTVE2S1VOR2xEQzVoYm5TWktjbXRLazNKajFBeDVfZFNEMEowOUpRY2U4WHVkNjlYeUdOM29kYXpFVjZrVDZWdlBJRGlKZDJ5RlhjNmxWczhIaGlJN2RRQlRHYVdXSTU5SGtpTGRjeVM?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "정부, 석유 최고가격제 유지..재정 1조 투입 '물가 3%이내' 억제",
+      "Link": "https://n.news.naver.com/mnews/article/014/0005539965",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "김민하, 러블리 모먼트[★포토]",
+      "Link": "https://v.daum.net/v/20260626165816265",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "“일주일만 해도 살 빠진다”… 의사가 꼽은 ‘아침 루틴’ 4가지 - 헬스조선",
+      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwQ1VoRF9wcm9IcGh6a0Q5LTZQRFVVLVJOMnFKc1VQYlh1eFdNbXBoS181blUxdXB3MVVKRU1teEFWeVNkbWV4a21DME5BTDBGajlESFdEZmdBd0FZNE1lNC1zYk4waTMxR05BdlBvaF9VY085dkFlUElhbDluUFU?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "곤룡포 입은 고양이, 자개 두른 쿠키…캐릭터 업계 'K-헤리티지' 열풍",
+      "Link": "https://v.daum.net/v/20260626152704768",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "베네수엘라 강진 사망자 최소 235명, 약 4300명 다쳐",
+      "Link": "https://n.news.naver.com/mnews/article/014/0005540104",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
       "Title": "북한은 왜 스테이블코인을 총애하나… FBI가 추적한 ‘심현섭’의 정체 - 조선일보",
       "Link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbEpjS0FJN2tYQWJ6Z1hCLXRkV1ltWnFwOF9VOUVWN0N2ZG9ENEZFWF9CZzB0ZVU4RThxTXpPRzNOYzFsRVdqeGktUG5SNV91cm1NWW5YQXJQSzVWdWI1NzBSMzhMZ09YcUxNY3Vsc2tHOENCRWF3UDR6WnhNZ2dTYi1CZGZIVnlwNHVFTDFB?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "말왕 역대급 ‘꽈당’, 이노스케 변장[O! STAR",
+      "Link": "https://www.daum.net/video/v/wn8dtptqk4fhc0bh",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "교권보호과 신설 검토에 교총 “교권보호국으로 격상을”",
+      "Link": "https://v.daum.net/v/20260626160251363",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[김대윤 칼럼] 돈의 출처를 묻는 시대 - 월드코리안뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QT0ZXQkJoalhYMFkxRW9YUG9RSTQ3d0xTT0dqU2UyTnpTZVBnVHZPQThOQUF2Q1N6b0tKbG41TGNocVV3RC1sQ203TlJXWi1qYmx0Zy1wcHdHcC1FMkdZUk1wSDVEMU1KYlFOWDR3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "빅파마는 AI, 중국은 자본…K바이오가 샌디에이고서 마주한 현실[바이오 USA 결산]",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009025281",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"손흥민이 후반에 들어가면 골칫거리인 득점도 할 수 있지 않을까\" 홍명보 감독 '손흥민 선발 제외 해명'이 궁색한 이유",
+      "Link": "https://v.daum.net/v/20260626155702098",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "“또 급락? 도대체 왜 이러나”…코스피, 하루 735p 요동",
+      "Link": "https://v.daum.net/v/20260626172702293",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "[Y터뷰] '남편들' 박규태 감독 \"코미디는 삶의 윤활유, 영화는 재미있어야\"(종합) - YTN",
+      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UdG9tamVGdFdIV1IzVkRELWpxUmlaWGpWaWVjMWJQanZFb1dlMHVYRDZoSlNQa0lKckNWTXJxeW1aTmFNXzFvbWNSV3NSWGVjem5VZWpVSGhrS1pwR2lF?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "‘희생의 땅’에서 ‘기회의 땅’으로…경기준비위, ‘경기북부 대전환’ 본격 시동",
+      "Link": "https://n.news.naver.com/mnews/article/028/0002811529",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "IBM, 세계 최초 1나노 이하 반도체 기술 공개",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014031006",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "'중국산이었어?' 日 발칵‥자위대에 온 선물 '반전'",
+      "Link": "https://n.news.naver.com/mnews/article/214/0001507994",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "발레의 별들, 7월 성남 출격…발레 명장면만 쏙쏙 뽑아 선보인다",
+      "Link": "https://v.daum.net/v/20260626165710237",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "뭉쳐야 통한다…롯데·신세계 ‘원팀’ 전략 속도↑",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428225",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "함익병 “34세부터 부자로 살아, 365일 쉬지 않고 10년 살았다” - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5yTllEUWF4dXdSWk16b2tBeFBGRE5WU0ZwcXZKbV9Cbnp0VDM4OTBrNWRHdlYtVE8tOEZ4czI1ZTI3YnZsQTNPb0RUR0tlTExqTnBuZ1o5MVlZdlNObzhGU0pOal9uRzFQQ254WnAxR1pKazY2M3fSAWZBVV95cUxQNG40ei15aXBITExIclpIOHBxN2JVellGSXNDNHd3WS16a1FfVDhRaEd0TG41LVVRakFDS2h6M1dZNXp0bEdMZXl1ZjZKRWlCMURuM3N3ZkpuV1ViZ2pCTmlXSzlkUmc?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "[경제인칼럼] 1kWh의 가치 - 대전일보",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zNzFFNVVhRjVZMDhNWnlHTEd3VllGc3l4d2o1T0xnOFFPMWZwVlNienViWW5ETlFfaXRyb3cwcUJrZ0pxc1ViT0FvRXFkQVpmV3JsaVlIaGh2dUh5SXNXSVNrVVNOR2JZcHBhdzg4NNIBc0FVX3lxTE1BcTZZNVAxV2JlakswZk4xMTF4YmZZaXNVWklIcmc4bXh5UFBpTG53ZVh0bmdjOUFzUzRLOElHU3hXeFcyd2x6dlhjUmxmQVFrUDg0NHRBUmhwdTZLRDZ3X294NXN1UlpZZ3dmTjdsb05CQ2c?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "‘매관매직’ 김건희 징역 7년···1심 재판부 “공무원이었으면 10년 형 이상”",
+      "Link": "https://v.daum.net/v/20260626172431224",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[오늘의 운세] 2026년 6월 26일 금요일(음력 5월 12일/일진: 신미(辛未)/띠별·생년월일 운세) - 중부일보",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nTnVmTGtESzJDZUQ3Skl3Mzl5SDczMmhCcXprODI0YmQ0ak83bDFiV0dsdWFDUlpsb2NrLW1hQzJtZXhKYVBZaGZ1YTJkTEdrVkhidzNTZnNSV3pQejc2SlVHX1F3VnNETnNGSkhCaw?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "카카오 노조, 29일 '로그아웃 데이' 강행…교섭 난항",
+      "Link": "https://n.news.naver.com/mnews/article/119/0003105225",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "대화보다 핵무력 우선 재확인한 북한[정창현의 북한읽기]",
+      "Link": "https://v.daum.net/v/20260626100147425",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "북중미 월드컵 조별리그 3위 현황",
+      "Link": "https://v.daum.net/v/20260626131302915",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "비트코인보다 더 빠진 스트래티지… STRC 약세에 시장 우려 확산 - 조세일보",
+      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WTnJzd3ZyeDBvSFNqa3ZlN09ZVXI0MWhKcWlyZlFNOVY2ZGdndDhLUFJ5VFV0UXVQeXVjckp0cGUyQzdQMHFodFNva1pqVWVieUJFSHkxNjZYaGFWYjJR?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "국힘 소장파 반발…“한동훈과 옷깃만 스쳐도 징계 명단”",
+      "Link": "https://n.news.naver.com/mnews/article/057/0001955694",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "네타냐후 \"작년 이란 공격 트럼프 허락 안 받아‥통보했을 뿐\" - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CWk1KTk9fd0dYbjV5WjVFemNpb0tGY1pScG80MEkxNFNYZm9PX0RobUlYYnhVb09iWnFkbE1GQnZuRlhhTm1DdVg5cDQ1RmkwRmhrbV9PT0JTMDlrQlN1eFJSTXVEd1U4SEx0WFFkaFVVSU9x0gF0QVVfeXFMUE9xNUp5YThIdW1saUpPejU3MWxzRDktR0Fna0hZckFldTRQSnVvRGZ2bXR5VUdKYmkyRGRKRTBRajA5d0JyZ2VEWlE3TnhuZTRTRVFZYXpwV3lOZ2FCYl90Q19IVTJSNzlPczU1TTZwaFhrZ1A?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "'파업 불참자 불이익' 전 MBC 경영진 2심도 벌금형",
+      "Link": "https://v.daum.net/v/20260626155701093",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "제임스 웹이 본 오리온의 '우주 탄생 요람'…\"별들의 탄생 순간\"",
+      "Link": "https://v.daum.net/v/20260626153207013",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "외국인, 47조 매도 폭탄에도 지분율 35% 돌파···역대 최고 - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DQUFRWVhXaGdPV0k4MjdrdFlLVDVtZ0xlQlhFZTFObXdmRnlDUVctRzRZeDZMQkN6ekkzWG1TN29KbjFpd2M3clFaZGw0M016bHBoN0xPWElUd9IBX0FVX3lxTFBMY19rVjAwd0lLSUdUX245S0d0S2hhSnZkYnYwVVp0SHZteUF4LWFlbXQ5UlhfMmV0Nk9Fb0ZmRzlkakpuX1VNaVNDdTZXTjNEaFZpZU1NdFJvVGN2UUJz?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "45세 허경환 \"결혼식은 조용히…4년 안에 결혼하고파\" - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwY0pxX25YS0xIX3cyRkRFekUzX1JQYUNVQUZxMkxzN0d3dkRwRVdnbDhvNThNQjBVa2xvLWF4Zlc3QlpCdmFXSk5uUGVSekE?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "비트코인 하루 새 8.9억달러 청산…다음 타깃은 5만8500달러? - 블록미디어",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1mTndZNGFRU01JVjQwN0gxWFRKTTFieENfWVBPa2tON204cHlXSnpnWUIxcWpUb1JvY1NzeFpRUnBkdDJhT0RYNU0xSXdPRGQ1Z1hjNDNmUVA?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "새출발기금 채무조정 더 깐깐해진다...변제 능력 높으면 감면율 축소 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSUtpRGctdm9PN1d2bnR4TS1DSUR3bVIwT1Q1Qko0Wk9jbndSUGs1MGIzX2NqZ1pGTVFGdmF2NmFWRjloR3VITU43NTF4Y05xeW1KbHFZZWpQcVdTZkdfaDVCbnFWWFFnTGFmbVVXckQ0SG5MNTVKMjhWUkgtdG5kRGtCV0FFU3hRUUNKOS1R?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[이기호의 유머란 무엇인가] 친구 같은 아버지는 어쩌다 ‘외로운 왕’이 되었나 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DdllHUmV4R2d4a3dubWVYbFc2cnRpWk80LV9Rdi1vX0hnS2NWZUFEZE4zWVMwa0JmT2RpeURsT1E3RkdMblRtRUhIaU9QMDA?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "Kansas City Chiefs' Harrison Butker attacked LGBTQ rights and said women grads were excited about marriage and kids. Here’s what social media said.",
+      "Link": "https://www.yahoo.com/news/kansas-city-chiefs-harrison-butker-attacked-lgbtq-rights-and-said-women-grads-were-excited-about-marriage-and-kids-heres-what-social-media-said-203611261.html",
+      "Portal": "Yahoo US",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "‘악구자’ 문성호 시의원을 규탄한다 - 법보신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93UGgtUnNsQ3FkZXFjWGdXVGgtMmo4c19wUlQtLW5QdDUwYjkzdVZKdWhLNkMwekVOZW4yb1ItTy0yTnRTTUI5TW1fWHNEQTVrbnFLb3JjUkxfOU5rdWdCMTJQa2J0Qk1r?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "루미스 상원의원 “미국 비트코인 참여의 불씨 되고 싶다” - tokenpost.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoWU81WVBMWnJValJkUlhzaXBKVllsOTdBaXhBVlRZdzY1OHA3bWNEUk14TlE2clF5ZF9QTkZJeVJuRm5BN3lCQjhXWEF1MjR0emdDN2F5cHPSAV5BVV95cUxOWWNJMVFoTVFhWWxScjFsZzNicHRVeVBrYXpGQVhmLWhCa29veS1UVW9rbkxBTlgzcTE3dVlUR0xOVDlXS1E5dTZiZFVuT3FPejlzUzhpMDZHQnNrZ0d3?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "서울 전세난에 경기 전세 매물 ‘급감’···광명 감소율 전국 1위",
+      "Link": "https://v.daum.net/v/20260626171506938",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "[단독] 골드만삭스 \"한국, 2035년까지 세계 휴머노이드 로봇 생산량 30% 지원\" - 더구루",
+      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lbEpzcmFXMXZwWElxaVplZnVkWDBuc2pzQzYwRGZNNThVc3E0dDE0bVZTUDVEQnY4Y01ZeHlHak96V2R3Zmpydm1MOGRla194M3lPVkRsdXFMeWdzN2c?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "서울시, ‘칸쿤 출장 의혹’ 정원오 주민감사 착수",
+      "Link": "https://n.news.naver.com/mnews/article/005/0001857374",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "엔씨, 경영 전략 연계한 지속가능보고서 발간",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005781594",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"손흥민을 빼?\" 신문선도 극대노[한판승부]",
+      "Link": "https://www.daum.net/video/v/jmk57mx0cmwvgd19",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "[현장연결] 이 대통령, 칼둔 아부다비 행정청장 접견…'K-방위산업 세일즈'",
+      "Link": "https://v.daum.net/v/20260115124607235",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "[유한양행 100주년<하>] '사람 중심' 경영으로 노사 무분규…새 100년도 '동업자 정신'",
+      "Link": "https://v.daum.net/v/20260626160400422",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "화승인더, 베트남 컴파운드 사업 中 기업에 매각[시그널]",
+      "Link": "https://n.news.naver.com/mnews/article/011/0004635378",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "도 행정부지사 김영수·경제부지사 신원철 내정 - 강원도민일보",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WSHhTQUdtcTRVdjhsWDZJaEpCc3cxNEJLLUt2LURXbTBFbGo3eFZoZjBhVk9LRmptaUJZYWpMblVoaWlXVVNOU21DWXVWZk5zdTI3Y3pseE0zRjRYMzhDQWpRV2FjSzg?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "애플, 칩 부족으로 맥·아이패드 가격 인상…주가 5% 급락 - Investing.com 한국어",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81RmhLOGdHTVNJU1pzRzU2VHlDWWlCNElwNTgxVG1pZjdmZWZtV0taYlYwX3ZhV1otV05XUlkyelZPcUxUdmx6WkdadVVJRWd1VFU5SHdpbks1dlVmMFhsOVF1TWZZTWRNaWRaalRwSmM?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "'1세대 인플루언서' 이주희 사망 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OVFQzeE9LaGZWam5EemZLODdJWlZ3WTNiRm9TZnVlTlBIZUNuM25wYVVkall2SkNENEh4aGdQQTliMURmeTVtaTlxNmFOeGNEVm11Zi1wR2VxZ9IBVEFVX3lxTE5lZjJ2d3lRWC1TVzdoQUtEeXprX2V4bHBjTU02Uk5xUGRwUEdpVURrLWxIN0JHQXdxMkJPYUJ6OVBpdUthQlRwTnIxU0x2MzBEam9DQg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 03월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DMnQzSDYzMllCaVZJU3gzZ200Q3NZalJpUlNQdDJuVE5VZnBYT0pTbHZDV3IyV2lnSTZ4RHNpZVJCZ3pfTXFxZFdtMmtxa3FVMGllQnhJZWpJV2RwWWF6MW1hYW1nVGVRMHViemVR0gFyQVVfeXFMTWgwQVdtSXRiTVdfU3hGMzIzazc4ZTZwY29KVkdUSGdhYXVKODU5dWctbGZoXzZIaGhjV01wUlowOUJYVnRTNThuTDdGQmNJVHJ6WnpDTW1HMnFqMng5eWl5NF9ZUmZKUS0tSUJ6N3hDUUF3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 03월 마지막 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04ckZyTFFWS0dGRExudTAwYWQ5UngtLXBtUEU4OXhDRFJUUW82bnFVREVpSnpfQVMwRnd4SlhZQUVfRVR0T2doWkJlTkIxeXJiVVNNdjlYTzNxX2JlYUdlOW1wRm82MW9zLU11aE9B0gFyQVVfeXFMUF9rMU5Bcy1nNkdPOHctdk5OcVNjOGZWSkN5c2V0OFEwX2ZJaEVFVm01WXRPbFVhOHRBXzJoTG5ucXV4a1NBMXlabEF6SV80SVI4T2FpZnloWlBmZk12aHhka2FhaDRTM0VnR0Rvb3N5WFFR?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "미스코리아가 월 100만원 버는 배우와 결혼한 진짜 이유",
+      "Link": "https://v.daum.net/v/f9LTiorNTQ",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "공기를 둘러싼 오해와 진실…칼 짐머 '공기의 세계' 출간",
+      "Link": "https://v.daum.net/v/20260626171805056",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[르포] BYD 국내 공략 가속…현대차 아반떼·기아 PV5로 맞불",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016162025",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "Chagas disease, a deadly infection caused by ‘kissing bugs,’ may have taken root in the U.S., researchers say",
+      "Link": "https://www.yahoo.com/news/us/article/chagas-disease-a-deadly-infection-caused-by-kissing-bugs-may-have-taken-root-in-the-us-researchers-say-223616589.html",
+      "Portal": "Yahoo US",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "나이는 나만 먹지..공유X김고은X이동욱X유인나 '도깨비 10주년 여행' 동결된 케미 뭉친다 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZm1PakZYajhVeGF3eFFOUHdmdEVnM0lyNTFyLUVhVG1JanNyZS11MmtGX09oNmpyR1BlU2V4ak9qNWVfY1JfZERDNVVPejd3Q0VmNXoxT09XM3hnT3dkTjBwVGlYdXBla1VsUkV3RGh1RjU3X01VMzdSR0RVOUd0QjNTOWFWVzFCeXI2Yi0yMA?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "[OTT톡] 최민식·최현욱의 만남…'맨 끝줄 소년', 의뭉스러운 서스펜스의 시작 - 뉴스핌",
+      "Link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JbmZSa1FRc2J6TzdLbjhKZkZvdlMySTBLem1td2hQdjRqUmo4YnBnQ1l3WmdQSFVJdEFhOWNKZkt1amc2cy1uWUdkWU93aGFON2xhRXRIaHRCU0tP?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "드론사, 작전권 없애고 국방드론본부로 개편…한국형 장거리 자폭 드론 전력화 추진",
+      "Link": "https://n.news.naver.com/mnews/article/025/0003533445",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "코스피 5.8% 급락 8,400선까지 밀려‥인공지능 투자 위축 우려 등으로 차익실현 - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SZDFHdnNLYkQwendUak9kN2xnWnR2MklyYlg4ZE5oTkV4SHBPbWFoVEhnQWlBbnVqc1VPRTZ6SXpwUmVDTFBHdlRzSGEwVmNnUUdvUC1FMlhnMUlyaFBnWFR6RGdsSXl6am1iNTJwMHJ2dzNo0gF0QVVfeXFMT2hDbmtSN0RhYld1amJXZ1d6cUZ2elduYmhaVWs2cWxaZGd3eEE0cjd6Y3lJcUdkRjgwbXl2TFo0SDdJRUk4WVB6ajJlM1B6OFpFOEEyWEJzSGxyVGl6RjgyT0p0Rm9vVXhVdkhrcDk2bUF5dlU?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "인구 14억명인데… 중국이 사람도, 조명도 안 쓰는 ‘다크 팩토리’ 돌리는 이유 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLOGZvSWxNaHBJRzFhbk9ZODNCdHdMN1BwdjlnMDEtNUItWnJ1U2c5QmNxMkhoNW9kZ0NVZkxhUGpnVi1velYwZ0prS1dWTWl6UDBUVFpUNzVhejVkemFQY0cyTHpYM1lkZVVOSzQ4SFJ2aWFuc09zNw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "정부 “3500억 농축산물 할인… 불법수익 2배 환수 신설”",
+      "Link": "https://v.daum.net/v/20260626152917871",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "[이재윤 칼럼] 스타벅스 정치학 - 영남일보",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WXVkR3djS1hHTnphMmFDdHdFcDgyLThqNk5tWG9kcXQ2dGNLRld4dElFeXNUNWxoNnhzSk1vVXRyWXo5NnBJaHpaVF9fZnNZamw2eGE3MW81Tktqd002NTc4RVJNajNKMVUw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "앤스로픽 \"알리바바, 클로드 베끼려 허위 계정 2만5000개 동원\" - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRFNoTGp3aHBycHlZY2U2aDd4ei1zcG9LN084YjdQVEdaWFEwTGdMa1pYVXZDSXlGUE9WcE43elR5NkJwb3lSVWx0SnhLVGJRUVBxSHRuS2VhXzdaOEgtZzJvcXdaZG1rWG94anpQNkZodDVpZmJiMHJ6ZTJaYUgtLTdUYw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[칼럼] 철강산업위기 선제대응 지역 지정과 향후 과제 - 당진신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90c0xVTXVLNTVMdUhkVTBUUzJEWWJBRzdnYmNUTVlETkFpM1hITGJuVHJpNFVxQ1pSMEs2ZzV0VWlvSnEwWEZUS0QtNW90Qk9NQWZtQU1hWjRUNEN0UGd6Z2c0OGlMVS1N?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "코스피 8.19%급락에 '서킷브레이커'…삼전닉스 9%대↓",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162153",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "김영옥, 사별 후 남편 생각에 눈물 \"보기 싫은 짓 많이 했지만…자꾸 생각나\" - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9pVmJRZVBfaWxKS3EwT2hqWVV6U1ZnLURPSW44SWZTcE51NnhNQUp1M1A5NGhCbTdQaVBEUjRJcFBoVGFYdVQtd0FZUS1ybmh2VFJn?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "[칼럼] 당뇨병 혈당과 혈압 통합치료 '중요' - 뉴스더보이스헬스케어",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GNmM3djJ0aUZ0TmsyNnRWZmdLa1ZROTF1Qkw4dmM2QTQ5ZHRkZklvcjlTRVowWnpjc0F2eUtZdXhGejN6Y3BVUHR0OXA4NmJfVVZFcFhVTi1kS2RRZk9XZFRpRW40TFVOR0Rfb1Rwdw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "세종대 가상융합대학원, ‘브랜드 경험 프로젝트’ 전시회",
+      "Link": "https://v.daum.net/v/20260626165202104",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[단독] 삼성, 10년간 1000조 투자 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DeXctMkZGV3FUNjBtaUs2b21qeVlxWEgtbUtmUEpyd2RYWHpXUW9XcHdMSE83bkZXVk5KSWlQOEtiYTdiWXM4RldOS2x3V013NWtRSGF3?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2025년 12월 넷째주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBRSDgxdDBRWWMxaEFfRHZaUEdET1JZX3ZCcDd2OWdLY3dyb3B3bHM3QjFFS3ZlZWR2Z0l3ckRlclpxNW43SWxDT2NEOFJWQmNPMmY3RjBoa0g1dVVlTUhRTU5TaFlVOXM0eXJFc0Jn0gFyQVVfeXFMTTZ2QkhST3hES3dMek1adFVxYW9YT2pYUW8zUC1sWXdScFA3YmVrQVNDeXZMTmFpN1ZmcDlCdzhJSXBMRXdTMXNsZmtQRGktakI2d1IzLUJyLWpqbjA5c0ltMUlfOTBlbXQzcWZtc3M5U0F3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "HD현대重, '군산조선소' 7800억원에 매각…제이오션重 새 주인으로",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232259",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "이별 노래만 부르던 '이 가수'가 달달한 사랑 노래를 부르게 된 사연",
+      "Link": "https://v.daum.net/v/9H8OmNNd87",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "암자의 두 스님 - 법보신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xRnJnQzR0QkJ0ZnNtcFJLd2lFZ25yb19SQlhYZVVLVm1DM1VlTGhYdUV2ZFNad2NzUTR5dllFeUlfNHcwT184dlVVNURqbXFpN01vQ0pIWEpQbWJ5dERnSTVQVzBqNXg0?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "‘임신 중 외도 논란’ 홍서범·조갑경 子, 손배소 항소심도 졌다",
+      "Link": "https://n.news.naver.com/mnews/article/119/0003105224",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "이영표,‘이 말’때문 홍명보와 3년 연락 끊었다는데…",
+      "Link": "https://v.daum.net/v/20260626100517663",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "[코인뉴스] 비트코인 반등했지만…시장은 '청산 공포' - 데일리안",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13NndUMDhQWjJrUFJQNGIzZy1idEEza2VfTmttR2NIUG8xUmQ5MlRZaWZ3TVpGcldHN3k0ekRKaGJuWkR5N1czMWlQZEd2U05KQS1MT2dR0gGwAkFVX3lxTE16eTFSSzZzaGNHYkkxUjRzbjVsSVJhMElqUGJpU19nMFZZakFhODZMc0lGYzBMU3BWa2NyeDIzN1ViSnVCeGJYTDRoQWk5X0ViUlNZc3BQMEFlN0U5TTRLU1VJY05jZW03eHcxVksxZGYzMU1xZ2syU1JCaUpUeU5sM0pHanE5UTd4OEFEUW1tZ0pDU0ljNkZNb1J4WkxqWEQ1dHUxWFZjRWdQNEE0ZlY2SGdHNzYtQ0FKcFhka2pmeEhpakRpV1h5SzV6LTdWb1FzdFZWSFIwc25RZ0c5akNBT256YWRBNTRIZG1GN0hiZDRSWEdzU2wtUk9Camtta2p4T3pKa0pOaTRjX3RuakhnY250Z1prZ1BKRG1waWlsZVBQa2RMRVVMRTlsRkl2Q0I?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "안영미, 국내서 둘째 득남…원정출산설 불식 '축하 봇물' [엑's 이슈]",
+      "Link": "https://v.daum.net/v/20260626160617517",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "하나증권, '전주금융센터' 개점…전북 금융거점 키운다 - 스트레이트뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80N04xcno2WUpwMVc3bTY3NjNtYnAzZ1RlNGYwY0o1S25CaU5IOXRtVGRsTWl4YmdTOGdNOUdSaUtHa1JoLVo0R0tzcnBUeUN1N1Z1c3FTSmR6QW9XUHRaRzhjU0dpa3hRb25wRERmalJyUmPSAXdBVV95cUxQaHA4NkNSWllJOUFPR2pZT1pFTUhEWDFvNXJPZWtSRnpmNC14cGlFd21DdTU3azVkaWFqbG4xdlZWd1UtTmoxbVRxYko4S1NZU185NnM4blEtWl9PbDdaa0ZVQy05alZLZTBjUmZsRzBEMnhoSUFiRQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "단아한 미모의 ‘테니스 여제’ 크리스 에버트, 난소암 두 번째 재발",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729716",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“애플워치 왜 사?” 에어팟 프로3, ‘귀에 심는’ 심박수 기능 수준 봤더니 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mWkZhM0Q5emVFSnVJTVpYaW9PWWNHSlg0Mlc1NVNnbVpuSHF3UzBxckh5OUdXaUhWMndfV0Fib0VHZFNYTWh3Q3hLTUp2UGxMdWp2b3pB?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "휴대폰 해지 쉬워진다…채팅 상담·모바일 앱으로도 가능",
+      "Link": "https://n.news.naver.com/mnews/article/119/0003105194",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[단독] SK텔레콤도 美 ‘AI 컴퍼니’에 4억8000만달러 출자… SK그룹 반도체·전력·데이터센터 투자 허브로 - 조선비즈 - Chosunbiz",
+      "Link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQN19IZ0Y0RUFTZURINUJ4cmZsbEdFWVBWb0J4cDZ6ajJRX3pwVlBzVlhZM2dlcURPM0xyaGZONDJQSGttOFdVc0NERVVWamc3QWFMWkl0bFFidkgxUUg4aWJCclNVNUlHTjBwdm91a2Q4V0hfVDRqYjBfVTlCa19scXBB0gGWAUFVX3lxTFBVQ2pVZ0h6R3BjaXJfSjl6SjNmN2loSnlsQ2xUTkVpQ1RUZ1huZ3YydnY5dVAtV09MOVVrbldjUXRGZ0ZVbEhzN0h2dkM5Q3ZHaUJNSUg1ZlZqSElWT2VyVjdIOEFoYTJHUDg1Z2VzTkkxM2plekdscG5HYkp6cEN5SDVEQUQ2My1GSjlrZVpDay02eVBGUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "2026 북중미 월드컵 조별리그 중간 결과",
+      "Link": "https://v.daum.net/v/20260626152014449",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "안영미, 25일 국내서 둘째 출산 “산모·아이 건강” [공식] - 일간스포츠",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLU1dVVmtCTVlJLTF3QmlQRHdPTkNWTlBvQnQ5Q2JnOWQyVUpqS2J6ZzBYekJOc1ZBeEduMTRWbXNEZV8xeWtOZ0ZkQ3Naa3FGTTV1TWpKenlGVlU?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "금값 강세장 끝났나…중국 금 ETF 자본 3조원대 유출됐다",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315979",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "정부, ‘잇단 불소 누출’ SK하이닉스 등 25개 반도체 업체 집중 점검",
+      "Link": "https://v.daum.net/v/20260626111144928",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[경제실록] 환율 1500원이 소환한 IMF의 기억 … 경제위기 경로가 달라졌다",
+      "Link": "https://v.daum.net/v/20260626163915714",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "귀걸이·목걸이·브로치·그림·시계…김건희 '매관매직' 1심 모두 유죄(종합)",
+      "Link": "https://v.daum.net/v/20260626170906695",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "‘마통 끌어다 한방’ 노렸는데, 빚투 어쩌나…고신용자 마통 금리도 5% 뚫어",
+      "Link": "https://n.news.naver.com/mnews/article/021/0002800647",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "IPARK현산 노조, 중노위 조정 재신청…3년만 파업 위기",
+      "Link": "https://n.news.naver.com/mnews/article/648/0000048390",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "아이웨어 '볼론' 브랜드 앰배서더로 가수 권은비 선정 - 패션비즈",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10MVVJVFM4STZIdlo2Qm56azZxMDZ5SW11SEthVzA2X3hLemotRm5WY2FjYV9qRmJhaDUyLTB2S3Z2YmtNNk1uSGFhREZuTXhM?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "아산시 출생아 3년 연속 증가…인구 50만 자족도시 기반 다진다",
+      "Link": "https://v.daum.net/v/20260625104300461",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[퇴근길 정치톡] 청와대, 역대급 반도체 투자 발표 예고…한성숙 청문회 부동산 공방",
+      "Link": "https://v.daum.net/v/20260626173145446",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "코어라인 뇌출혈 AI, 병원 실사용 확대…응급실 안착 가속",
+      "Link": "https://v.daum.net/v/20260626103914343",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 06월 넷째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95QWlVNVJRU3IwbXJyX2IzS0ZDZDM0QkNaeXpjV3BHSkFIekp6cWExd3lzWFZINXRUYzBrUk9aR1VMRDQ3ZzN2T0xnZzRmTHRNTnBoWDFZaUJTWVN6cElVVlFqVVM2SWRmUzdiNjFn0gFyQVVfeXFMTWxrZi02dVloRnJvY1FqakxnNlI5UUFSVVY2THNwYlQycDhtdWV6V2VlR2t6b09LUnNsVXFFeXAzOTVxZnlMZkZ0bTEydjUtd3NYSTFnTHAwVVVVdVIxMm5id1ZZT1FUM0hyZDR2UHNmUjhB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "대기업 가지 않아도 육아휴직을 쓸 수 있으려면",
+      "Link": "https://v.daum.net/v/20260625150034129",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "아버지가 빚만 남기고 돌아가셨다…‘상속포기’ 하면 될까?",
+      "Link": "https://n.news.naver.com/mnews/article/662/0000098332",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "美, 中 연계된 커넥티드카 판매 금지… 폴스타 4 만드는 르노 부산공장 ‘날벼락’",
+      "Link": "https://n.news.naver.com/mnews/article/366/0001174704",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[단독] 투표용지 부족이 부정선거 대응 탓? 선관위, 부정선거 보도엔 무대응",
+      "Link": "https://v.daum.net/v/20260626160542479",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[전병규 칼럼] 빨간불의 미학 - 뉴스민",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYYm85QWdZajNGeXFRYXlDUldERWxMMWNWdWNyQzhSRE8zSHlZcDVVQk52b0lad184UmE5MkhkaExzdENFa08tcG5lSnlLUEk?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "中관영지, 日기업들 공급망박람회 참여 부각…\"다카이치 향한 신호\"",
+      "Link": "https://v.daum.net/v/20260626134302802",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "조별리그 조 3위 중간순위",
+      "Link": "https://v.daum.net/v/20260626133801652",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "[특파원 칼럼] 대사관저의 불이 꺼지지 않으려면 - 뉴스1",
+      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBBQjNFS01zMGFoUHptRmVleDBlejR1U2FLNEo1U19zR2xMZFlCTzlqVkRrMnd6Q09CVTVHR1BBQnlQUnVXdEtURnY4V2FWUU1nMnhmZjZycFZhdkhnTHc?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "‘변비일까’ 생각에 3세 딸 배 만졌다가… 암 잡아낸 엄마의 직감 - 헬스조선",
+      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UbkhSXzgyaGt5MHo1eXpKUk43b1NuVU1VdWRIM1pveWtjaTNNcVN1VkdIbXBMWXR1OEVtSFBsVGtSTF9SX19sYzhGNDU5TmFGeGxTcjlvRklWRVU4ZjUyYVoyRHRrNWctWndxY0JyelR6c3pRNlJWcUtWUmYzTDA?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "김민석, 국민의힘 ‘호남 반도체’ 비판에 “정치 망치는 것도 모자라 경제·미래 발목 잡아서야”",
+      "Link": "https://v.daum.net/v/20260626173345525",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "트럼프 \"이란 돈으로 美농산물 사라\"…이란 \"헛소리만 수출하나\"",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315960",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "반도체 '피크아웃' 한방에 날린 마이크론 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qdW02OWNkZEYzTXQ0akl4N191RF93LTc2S21MTXprcFdNOTZOYlJHN1MxSVpkQV9UaVZyblJpUVlwRlNsVXVJak40R3h2REYtYmI3Vy1OQ2JEd9IBVEFVX3lxTE1OczdHYU9tNENuVFZHRXVtc1pvc1h4VTJfb1pYXzNNTWUxY3A3NjZORlAwMHFoMVVxT1cxQ2o5cGlQU0MyNW5hdFplaUdVWERiR1I3MQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"여자는 진급 제외했다\"…폭탄 같은 대통령 아래, 폭탄 같은 참모[World Photo] - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rM01iQ1FXT1ZKbVF2Zk14dWtSZGpPNnhyam1OY2FBQ244RUtTLS04UTJ5c2ZLTHRyWVNDcEhMWGlRdEY5bGdjWFFEa3h3YWx5Tk5xTHlTM0JHRC1NU3E0YVV2blhycHp0RnBiVk9pRVk?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "\"대학보다 하이닉스\" 고교 입시까지 번진 '하닉고시' 열풍",
+      "Link": "https://v.daum.net/v/20260626160519475",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "마크롱 \"美, 더 이상 우크라전 중립적 중재자 아냐…키이우 지지\"",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026135",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "제왕적 당대표직 허물고 공천권은 시민과 당원에게 돌려줘야 [쓴소리 곧은 소리]",
+      "Link": "https://n.news.naver.com/mnews/article/586/0000132489",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "9년 만에 새 주인 맞은 군산조선소…선박 건조 재개 '첫발'",
+      "Link": "https://n.news.naver.com/mnews/article/002/0002446370",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "영어·스페인어 다음은 한국어···미국 음악시장 ‘3위 언어’ 됐다 - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCci1uSlFvY0Zjc3JJX3dmbzhJZ1gyLWNYWExfVEdTM2pITngtVjVjWGRoMXdvT3I4Z3BidWxXZ2s4VGtVZjU3N2poaklLcFhaSG9mR3FnanNfQdIBX0FVX3lxTFBvUVBNclpZelpEcEJYYkU5S2cyRVFMNUVxRF90bmZNWUp2T3g1WFRKSnBzZmxBZ3gxM2hGZGlSRlgweTBzTG9CT01rYWI0LVBmQVBrZ0RsZEdyWVBxUlow?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "[단독] “강남에 콘센트 있는 넓은 카페 추천해줘“… 네이버, 대화로 검색하는 ‘AI탭’ 정식 출시 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLXFGY1pqYmxLLUlzcHZaYk9FYlNfczVrZ3d0clpnMXB6VmFVZ0pScDRKQmYwdHdXaTlnb3Z1ZlFaMzZ3bGxpU1lrLUJfVE9DeXdYZjZBX0pybHNnOV9XZ1k3eHgwRTZtR2x0X2hVWEttVXFWeVIyT2NwelJUbUNYcXpOTQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[사설] 근거 없는 ‘마약 좀비’, 마약 불안만 키웠다",
+      "Link": "https://v.daum.net/v/20260626030510377",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "이민정, 이병헌 등지고 변우석만 본 사연 해명 \"이병헌 유머에 변우석 너무 크게 웃어\" - 조이뉴스24",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81WGpNUTZWVTg4UHpZUjJwXzVNYW9sRGhGb0w2QWR2MW9JU05Ta2thSFpoUzVWNGR4eUduQm05SXhhR1pXUm5OblZUdE4xZ0E?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "교통비 아끼려면 얼른 갈아타세요…‘모두의 카드’ 추가 환급 9월까지 연장 - 농민신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDZDA2TGdmazFLWkctdW1DT1ZCeE5pU20wYWhZRHQ3VVZFeUhkWElPUGZPbVl3eWxvSDBlRGwyQWZWVWhvUk9wS0ZFT0w5Z3N5cWp1WmhpMzhpUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "20년 된 에어컨 내부를 뜯어본 기사의 말 \"역대급입니다\" - 오마이뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Cb242bVJtQ2xPeVQyR3FpS0Q3QlZpLXAyalliSUJyWDd4UURudmFSOUVISWVEeV9BZXhQdTRudFVBM3c1U3k2QVZXd0tYdkxVZzRHaG9tY2lHSXJ2U2R3NVBNOUhTalVKMEVOVHJHbzMxUDBvTzlr?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "Hulk Hogan's roles as movie star, media crusader and MAGA hypeman had a major impact outside of the ring",
+      "Link": "https://www.yahoo.com/entertainment/celebrity/article/hulk-hogans-roles-as-movie-star-media-crusader-and-maga-hypeman-had-a-major-impact-outside-of-the-ring-184345886.html",
+      "Portal": "Yahoo US",
+      "Category": "연예"
+    },
+    {
+      "Title": "AI사령관이 전황 좌우 … 순식간에 타깃 1000곳 초토화",
+      "Link": "https://v.daum.net/v/20260626173022405",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"홍명보 출입 금지\" 안내문까지…남아공전 완패에 '분통' 터진 민심",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315411",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "3월 18일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxWUlEVm9uVmY4bDJOc0x4UlBYeHNJOC11Y0VaMFRPNUNVT0pTNmJGMTZ4ZndfeVhWYWZZX190ZXVwUVp1NXktak9IS21pMHpJdi1uQkRSQ21EWmRlY1M3UE1n?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "5월 27일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjWFRjWDlkbGczUnJwUENmUXVBLW04anRlNnRNTEJfZjJIa2RTV1RkVlRSbnBMMlRsS0NxektUUEhCbUhxMG9ZNjRKMHJIM244WllCclZQVV9PU1lOZFp3WUZR?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "투표용지 국조, SK하이닉스 시총 1위, 월드컵 참패[노컷한컷]",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162266",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"李 대통령 소년원 수감\" 발언한 모스 탄…경찰, 비공개 소환조사했다",
+      "Link": "https://n.news.naver.com/mnews/article/088/0001016437",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "캐나다 | 코스트 콘돔 불량 \"아이도 반품되나요\" 유머 화제 - 밴쿠버 중앙일보",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9zbzlaVmRjTVpjdzFIT1Z2U1Vpb0xncnotZXB1T1pOTzhBVE50dDdPVF8zZmgtYzZHTWgxNjNHel9QT2pGVVpjdHpCVWlZS2NjdGc5MjBYZmE3TXZtS2xRM2w1VV9GUEVVSVI3bGhGMUhGQnNlaTVr?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "시청률 21.8% 만든 경이로운 배우...세계 1위 기대되는 드라마로 복귀",
+      "Link": "https://v.daum.net/v/xeaE8QgRdL",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "공급망 박람회 亞최대 규모 참가한 日, 중일 관계 개선 물꼬틀까",
+      "Link": "https://v.daum.net/v/20260626151946415",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "미 상원, 7월 암호화폐 법안 추진…일정 차질 우려 - tokenpost.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKQlVYY0FHZWdDcDQ4d0h2ck1oS3JLRTl0a0poVjJxbGVSWGRWMFMzSTNrQjd2ZmIwVTVNYUo5YjhTaEVSc2tRaGV0eTdpVFIxX01DQmZ2NGnSAV5BVV95cUxOTmEtTWhNTGQ4dVhXQUJseldFTWJ3YWgzWmNwQnlhR2pieTVlN0MwY0s0VmxqMml6MjdCalNkeGhEa0Z2LUlnYUtkdFBIOEsyY3dXaC1lZWxFaHFzUkhR?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"현빈 닮았어요\" 이강현 폭풍 플러팅…`직진녀` 거부한 문성모 마음 흔들까 [합숙 맞선2] - 마이데일리",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0QkVmYVZtNi1CUUxya0VKS1d4ajdNdnJqSVpBaU15WFExcmpVRjlRMHpmNW10XzVRekltRDhPN2hpcUZ1c2Jqc3gzSEsybDZ4ZUxzYTNDM2ZjRDYyTlp6MFJzOHNVQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2025년 09월 마지막주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWMHNvcmZRZE5GRFFMLWx6RnEwdF9xWkZjYWZHYWxIYnYyNXJDMmRXUVZFVVQ0d0xENVg0bHgxU082N1Jvc1plZFhvbk1HNXVhMlNmTTdFUFFuR0NoSFFqdjFfMGl2dmtZdkdheklB0gFyQVVfeXFMUHNmNDZfUHU4SnM1RUZWbE4xdWtsSHZ5NjdwTmhUUGptSjBWQ0VrOGlsUlZST0RkcE9Tc2pLMTdQLURVVEl6b0pWeGhMUnQtZU1KWmhtNG96VHJGMnJBR1U5UHZmRlUwY0VISmE3aE80dVZn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "“급락 본질은 반도체 쏠림 되감기…레버리지 ETF가 변동성 키웠다”",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315991",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "‘합숙맞선2’ 이강현, 문성모에 적극 플러팅 “현빈 닮으셨어요”[결정적장면]",
+      "Link": "https://v.daum.net/v/20260626141434958",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "3년 뒤 물러날 다이먼의 후계자는…JP모건 차기 주자 2파전 압축",
+      "Link": "https://n.news.naver.com/mnews/article/011/0004635332",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "“언어 빼고 다 통해” 미 의회 빵 터뜨린 찰스 3세 유머 - 중앙일보",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0walRtWkM3X040X1lnYXQ4NTREMklKdnREVDhwNDRzUDhvdjdYQWFYb2xWemdqZG40eG9Tc2d3YVk0djB3STZObXZoX09aczFuUzEyQ2tB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "“내 취향에 맞는 싱글몰트 찾아요”",
+      "Link": "https://v.daum.net/v/20260626173301499",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "1루수 강민호의 등장, 1루 송구 받아 이닝 마무리",
+      "Link": "https://www.daum.net/video/v/qwj63y0t4c45sp7y",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "정청래 “공소청에 수사관 남아있을 이유 없다…수사권 완전 폐지”",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729723",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "안효섭, 공식 솔로 데뷔 “드라마 촬영 중에도 늘 머릿속에 자리잡고 있었다”",
+      "Link": "https://v.daum.net/v/20260626163818682",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "인간보다 더 인간 같은 기계…성해나 첫 기담집 '인비인'",
+      "Link": "https://v.daum.net/v/20260626171802041",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "내로남불... 홍명보의 '손흥민 90분 불가판정'이 어이없는 이유",
+      "Link": "https://v.daum.net/v/20260626170202397",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 05월 셋째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Jay1tNjNYd0FxNi0xNEJTV2NJY2stOUx5MWtnMGJ1VndYOXR1aTVMZDk3RWRmTTVEeFJXVEFEZUp6TFRQRWQwOUo4QUJOczlzVENRQUFNS0FGYWhwTkNTRXp4M3Q4ZnpyZjBENVFR0gFyQVVfeXFMTUh4ZTgxei05YWtDeEhiMHdhV0kwM0gwQURNWHRKUWd3SjRkWnVBaE1zMUlUb0NKaHBGdjFhdHBTbXFValRlbVo2X2xKV3ZGUE0wajVSMDl4ZEJFemREVk5ObllYTjRRZHV5SjhhRlFjN3Nn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "“군함 빨리 건조” 트럼프, 조금만 기다려…1500억달러 ‘마스가’ 시동 - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ULURlYVVWN3VVOU9zV0Z2Skx5azFQMVlIeXhmbUZadHJEZEZtVWdadnZMY2ZZWXVxelI3dWdOZGthVnI2bFhNM2FiMDQ2R2lJR2xMSnY5dDZJVmdncUhUN1FtUkdRbTVhd2c?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"챗GPT 답변 80%가 좌편향, 제미나이가 가장 중립적\" - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcDQ4TndETjdWa2lsRktBOHZQQ0psS0pRUl9JYTUtWkNFTkdhZFFYV0dhMmJLc3VYWUszZU4wTFpNYUFJSldFQ0daQTlGZDBMS1JFWHF2cDZjbHd0Y0hSNmhIN1JvbUJpWlVURVdFYzFzb05QRVZEUzVDc0l3YmhhQmY1Zw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "낮잠 1시간 넘게 자면…사망률 높다는 ‘깜짝 통계’ - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KYU9VU1hLbHNCNkdGM0NvVlgwNEdDMlRWOFpzWDNVZktDbnFab05qb2xvUmlhU0stNnFVQUNKZmZqaTJkZ2xVN2dJdWNGa2MtRFVFeHZnaVBIcURsbmpMZ25xNkZUU29ad2xHYmkyN2h3T1JmV25KTg?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "[머니쇼츠-영상] 비트코인 폭락에 전체적 하락 형세 - mstoday.co.kr",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15MVd6bG9hX0RldUhkdmNuR1NXNmhWTkUzVS1FcnJKNDdrTDJHUGYycGRpV25OWDAwbGhvcXhLcXRLcmZ3THFoQ3dQOFZyTl9TYWgzSHFiQmFld2toMWJaX3ZjYUxnbEhoaDhUbQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "하이닉스 ‘2만원대’에 산 김문수 “40주 그대로 보유”…100배 뛰어도 안 판 이유는",
+      "Link": "https://n.news.naver.com/mnews/article/081/0003656292",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 05월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yUWxiTS01dG1qNWpCaG5VRHBDSjRVbHM4bDRkU2U3VWRDNlE3V043akw4QWVhOUtiNG1tS1VORDVyWHhYNkZHQW11TDVaWGw5eTZkR2xWcWU0WnhlS29xVVN4RnRDUnluRU9ZeGtR0gFyQVVfeXFMTjJMZWZ6blZzMHhTRXFuUXNRMm5sMHptQS01LWp1el8xQmtrSWx1YjNCTHR3TWU3bEsxUkdjQzgyY3JDQlc1NGJGcnV2d0dvbXdnQTVlbUEybC1IWFdrd1k0LUJFUERiRkNTbGMyMTRERDVB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[현장] 서울국제도서전 맞선 ‘서울제대로도서전’ 뜻밖 흥행 [.txt]",
+      "Link": "https://v.daum.net/v/20260626170703620",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"30일까지 2천억 못구하면 파산\"…홈플러스 직원·입점점주 호소",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256722",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "크래프톤, PNC 2026 서울 개막..16개국, 장충체육관서 배틀그라운드 ..",
+      "Link": "https://v.daum.net/v/20260626154205481",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "내년 R&D 예산안 비공개 결정…예산 규모 확정 미뤄져(종합)",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161950",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "BMW, 차세대 플랫폼 첫 전기차 'iX3' 일반 공개…\"내년까지 40종 출시\"",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428236",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "피지컬AI 주도주 현대차·기아…연금계좌서 집중 투자하는 방법은?",
+      "Link": "https://v.daum.net/v/20260626060216630",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "실종 선원 수색 이틀째...토사 무너져 작업자 숨져",
+      "Link": "https://n.news.naver.com/mnews/article/052/0002371417",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "중국 지푸AI ‘GLM5.2’, 해킹 위협 가속화",
+      "Link": "https://v.daum.net/v/20260626164723953",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "삼전닉스-애플 엇갈린 주가… 'AI 거품' 잠재운 마이크론 실적의 함의 [IT+]",
+      "Link": "https://v.daum.net/v/20260626172044124",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "주담대 문 닫는 은행들 … 하반기 집 살 사람들 '비상' - 뉴데일리",
+      "Link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EY2RRckc3ZWhZUzRxYkxyd2stcktVTkFENjlKdV96OTQwbU9xb3dqZzI5ZWFZWEsxQjBsUUZieWtfTUFzaGtrOG1XT3dxY3gtaWZrWGI3YWRUUmFyUS1lWHk3MzJsY2Vud0M2eGNSQ1NTMTczbWRSM1c5ONIBgAFBVV95cUxQZzMtX2xhSFBVT3lQMFRac1lsdDJyanFfdDdYSmZfeHduMXBTVHgyRVYxbDB2NWhrWTRQbUFwZFh4X0UxUlJpcXRkdWxNS1BHWjJJeDI2dnVtS3YwVVFiQUdkVlpQdXAwMDhaODBuMWl2U1Iyb0xHMWlFMUhORVkzVw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"한 사람은 책임져야 해\" 이수근, 자기 이름 건 학교 건립→국내 최초 레크레이션 교장 됐다 ('수근스쿨') [순간포착] - 조선비즈 - Chosunbiz",
+      "Link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNzgtWVpfeENLa2RhUUxqaDYyZ1JlSlhLbUhwUktZNjh4SkxWSEtsRllrYTJaa0UzdUpBckg2VmlJSzhYYkM5anBMUUlOQ1pMX1FSVnhOUFdhSDloZlNUaE9YSkdUYTNXXzhjLWZMT0paemRCbUItZGR1RDF2LWduRXRWa3ZBMHBPTllua2ZoQTJvaFHSAacBQVVfeXFMUGg3M1RSejdMYV95bHAyYWgxa25GZmFuUmVXZVg5WW9qX3diMEZRRmI1R1oxN1U4ZE5SMkZheUxfWW5IczNOOEczQ0hOaWpSNElOcy04cktpT1B5YkVPTTBpNnVGSzBXRERPakZvS0NBRzJETE1vZTFPUWNoenhnSVMySEZUNm1aRVJDVVBRSnVNaklxZm9lR2dDeGJDNTR3bkpOdHI1MFk?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "김대명 다이어트 어떻게 했대 “맛집 하루에 7·8차까지” (냉부) - 스포츠동아",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzWnlzNXJKbVJreWd6YkFjY1MyWkwybUZNZ2ZjUExCYWdVQkdXZWZwS1g5VzNoU0lYOEVYWWIxdWlOdFBQZ1N2cHNnaGZ2ME51SmhkandWeGNWZFRKbExCMlR4U0dRM3h6blNNeHRR?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "미국, 중국산 로봇도 겨냥…수혜주 꼽힌 '이 기업'",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256740",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "AI 활용 교육 준비 안 된 학교…교사 역량 차 크고 네트워크 인프라도 미비",
+      "Link": "https://v.daum.net/v/20260626154632656",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'이재명 명예훼손 혐의' 모스 탄, 비공개 경찰 조사",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005782048",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "국제유가, 전쟁 전 수준으로…정유·석화업계 '확 바뀐 셈법' - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90eTZicEVVb3FESzFWbTZ3T3N1WUV0QXFNYTBORlBfcHVxM0h0MXRJYmg0ZGszbWZ2R0NzTWRvTjRxdDZrcU1UdW9Ed2g2ZzNDdGhjRlEtT1RMemY4X2U5RGtOU1RDazVfRVRSRVNHVEo?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "'건강검진에서 흔히 발견되는 지방간, 방치하면 간경변증 위험' - 이데일리",
+      "Link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRy1tX1NlY0I1dVhCOFZwaVZZMXFpUlluS0xjUUtWcHJ5WDZ3ZHNfMm1VSTNzQXdkRjhUYXdNNkozRnFtTlVvdmdEdlJXSzF4U1VMSW84WUtBa0dTX0lwTWo2YVIxZDJHenl2NGtXRzlJOUlIRUVKaHlTWnRhSmEzTg?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "군산조선소, 다시 뛴다…제이오션중공업, HD현대重과 본계약",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428231",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "안서현·김민하·김주령 '하나 코리아' 빛나는 주역들",
+      "Link": "https://v.daum.net/v/20260626165403166",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "[급식칼럼] 국민을 위한 급식, 현실적 제도 우선돼야 - 대한급식신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FMVJDZkROY1VjNjI1ejFXSjRCd1dKekFLc2VOUlNNTlY2d3pqRE9vOExGaUVJS1IzdDhIbHpVc3ZPSjdYUXc5UHpteTdqZkN6dVJCQkR0N2d2eWRacTVpN1BNdThKa1p4?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"제2의 HBM 찾아라\"…'AI 병목' 돌파에 사활 건 韓 이공계대학",
+      "Link": "https://n.news.naver.com/mnews/article/015/0005303268",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "덜 먹는다고 살 빠는 거 아니다?… 체중 감량 숨은 변수는 - 조세일보",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfS1J0VHF5N2wzcUJGU19WOVFQY0ZsODJ3Y2JkaVlEYk1DSkFxYnhFaUt4Q20ybHZkOEtPN3dFbEVLZG1aX1JzWGQtTVBsRFljRERmY1BRb0JzdGxIcUx6c3hhTTNsRE54T2loT2Fhd3N3eG4x?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "홍콩 느와르 '영웅본색' 등 서울에서 4K로 다시 본다",
+      "Link": "https://v.daum.net/v/20260626160816607",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "檢보완수사권 폐지·공소제기도 '심의회' 통제…구속기간 30→21일 축소",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026298",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "급물살 타는 교육교부금 개편 논의…“학령인구 감소 반영해야”",
+      "Link": "https://v.daum.net/v/20260626165633218",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "中AI, 인력·자본 공격적 확충…딥시크는 조직 2배 확대 추진",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161927",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "中, '대만 인근 공무선 투입' 서방 우려에 \"정당한 조치\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014029109",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "제네시스 따위가 포람페급? 비웃다 감격…국뽕 아닌 국력, 기적 아닌 실력 [세상만車]",
+      "Link": "https://n.news.naver.com/mnews/article/009/0005699010",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[문화 트렌드] 대한민국 최초! 역대급 캐릭터 라인업의 역사적 만남 外",
+      "Link": "https://v.daum.net/v/20260626153800290",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "경찰, '5·18은 북한 폭동' SNS 유포한 남성 불구속 송치",
+      "Link": "https://n.news.naver.com/mnews/article/469/0000938781",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"20배 이상 폭등한다, 지금 절대 팔지마\"…월가 큰손이 내놓은 비트코인 파격 전망 - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeWc1MXVCa0ZkRk9HYzQxemdwQ3RLQWJqQ1hUMU9UV2hPR2Rzek1laFNqeXRzaHdBSW1jVnpESEZESE1BSldBTlNOOVF2UnVPZFZwQ1dPdmdOeGFwck9jUA?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "李대통령, ‘빛의 위원회’ 위원장에 시민운동가 박미경 지명",
+      "Link": "https://n.news.naver.com/mnews/article/022/0004138479",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "Clip of building damaged by Taiwan earthquake falsely linked to Venezuela tremor",
+      "Link": "https://www.yahoo.com/news/world/articles/clip-building-damaged-taiwan-earthquake-053830201.html",
+      "Portal": "Yahoo US",
+      "Category": "세계"
+    },
+    {
+      "Title": "최문순 화천군수 퇴임…'교육·복지·파크골프·기본소득' 성과",
+      "Link": "https://v.daum.net/v/20260626171715002",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "AI발 쇼크에 日증시 '와르르'…닛케이지수 4.15% 급락",
+      "Link": "https://n.news.naver.com/mnews/article/014/0005540228",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 03월 둘째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51NEdqUmlSV2JoWXRJa1M1WXVqUXFlcl9Tc2JmTE1NeUl1MnB5dU1aUE1ucUs5am1FOGhseWlzdUtMUGR2cU5NaHppcWtBbkJWUHdOMFNBMm1MWVNhV1NTSDhVRF9ELVZBTTZYaU1R0gFyQVVfeXFMTlc4Q2ZUSEJvX1lhMnkwTENnYzU4VUpDeDN5QTc0SHlWbGg4bHlqdEhocm95b3NXdjU2NlY3eTNJcW83SzJhSVBsWTltamN1SWhWbHQzQTJuR0YwYkdxbHlWT2lsa0F2MmlKTlB5SHV1cktn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "How Qualcomm is evolving to grab a piece of the AI data center explosion.",
+      "Link": "https://finance.yahoo.com/technology/article/how-qualcomm-is-evolving-to-grab-a-piece-of-the-ai-data-center-explosion-200314570.html",
+      "Portal": "Yahoo US",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "현대차 노조 파업권 확보…중노위, 조정 중지 - 연합뉴스TV",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE03R1dSYy1ycFlxVzREVFNocFpYU3hMNG1aNDNpRFRfWExjazY4SGJkT0wydXpBOThORjdLRlBJWHF4eEZGVldKSTlSM3NJZGFqeUM0QUZLdV9rOFNvWmU5X0JsbEZEMGs?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "칼 빼든 장동혁 \"징계 요청 답할 때 됐다\"…윤리위로 기강 잡기",
+      "Link": "https://v.daum.net/v/20260626173147449",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "“차라리 반도체 주식 살걸”…비트코인, 9000만원도 위태 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IM2FwTnlacDdGNEFyaUNGM3V2bFluYU14ZExnNnh0cnZuWkVURTNUdUxnUjQyUGZzSFpCR2JlMFg2VnVTeERFX09lRlpIa1k?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "이 대통령, 박찬대 당선인에 “연평부대 장병 뱃삯 무려 11만원, 해결해달라” - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qX2xEWXlVZEFkUnRBX2xpOFFRWmdJWW1nU1N5Uk4xQksxTWN0bnV1dktkcmF2b2dRXzJKYkJKVHlMYXNQMFV6VGpXaW5BOFNEWjVuU3hZTDhCZ9IBX0FVX3lxTE85REJvX3pUbjUtRkxOMWZzRG1keDd0N0FOQkp3cGVXclVhR2dWcTVUaldHS1BQYzQyRzhrUmgtMElwd1EzMXlkZ0FLUVdPX0Q3OTB5QUd3aEM4ZXpRRFVz?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "XRP, 1달러도 못 막나…대규모 청산에 기술적 지지선 0.91달러로 - 디지털투데이",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tUkpXbTdIMk55c2RMaG5yME9pb3ZwemZqeTV3OWNUZ0pSOTlLZkxKNDc4MXJlMHEtR3pIVzk4UVJxU1FONzkwQjlnbDRiOXBkZ29TeDJfSXoyOXJzS195TXAzaW9xSVFrTmJiQWpQdXlWcjA?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[이다혜 칼럼] 진정성과 유머의 포옹? 좋음. 좋음. | 예스24 - 채널예스",
+      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rTGJfRVR0SkM0VEp5ZE5VdXJHZ2dzczZkbDI3U3NIc1pveDFYeGk2WDhMRE5GQ09lS1Nla1p5d0ppaHlnX21hZVNvYm41QW90OTRPRA?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "깨달음 향해 걷는 '워킹붓다'…한국 중생 만나러 찾아왔다",
+      "Link": "https://n.news.naver.com/mnews/article/009/0005699329",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "국민성장펀드, 리가켐바이오·LIG디펜스 투자 승인…각 5천억원 - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01b3lwejlXX2cyRUNzVVA1cXhuMV9fbGhPRS1XUVZyZEM3Yy1fVTUwX1Z5ODJ1N2VVRGZVc2p5RG9sdGNnZmpxQVpvMWszQ0xaSzF3WG1Td0FmbXPSAWBBVV95cUxNNFV2OE9MYnhLM0E4SDZRZ01kaUQyX3A4ZTd1ck9iQWZ2SUpTcmFtYWlrT0NHWTU1RVVWZms1QWU5WlAyR01ERC10MlVrMksyTzI5Z0o3SzJOcUUxTmk5TEM?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[애프터스크리닝] '하나 코리아' 외국인의 시선으로 바라본 분단국가의 탈북민 이야기 ★☆",
+      "Link": "https://v.daum.net/v/20260626172017118",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "‘이혼숙려캠프’ 큰아들 부부 갈등 - bntnews.co.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zZEhaWTFSNVNSTHVaZTZXWk1sUUZZQVJuSG9fcER4R0dvQzZ0UHZCLXl3aUQxWF9ENjJScDVSQjNacXlZY0lyYktNbUpkQkp0MDAweVpwaFlhZ25tRDdjeGI5UU4?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "소방청, 감사담당관 전격 교체…‘갑질 방조’도 전부 징계",
+      "Link": "https://v.daum.net/v/20260626172851357",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "신생아 울음에 맘 졸이던 엄마 울린…이웃들 '손편지'",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377770",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    }
+  ],
+  "경제": [
+    {
+      "Title": "청년미래적금 갈아타봤더니…수익률 11.2% vs 8.7% - 비즈워치",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OTHVLRXJKZEJ3M3pfV0pjQVJJVVozTnRtZlZBYjNpcGRwQzFLVjRKYTMzMUFuTGtsbkRRamh3T1pTa3NyTGxwOTBxY1VwdkJfREVWTVZsSU9PRU90MXRKNGFFbkVUNGcydnRB?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "국힘 “다주택자 미꾸라지”… 한성숙 “부동산 투자 다신 안해” - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CSWF5Q1VjSHduQ1JwYV9yNHpwVFNzdzZqdXF5WW1SOTUzemdud2xJck5jVXdNdURvSm1WMVVJT2dpMGt5WlYwQ05uVU16WkxWZ05oT1c2S0ppSkZpOEpVUmF2MzRfY2d1MU5tTXhkSVFsTnZORWFv0gFmQVVfeXFMTXV6UGJ3RVc5bmNqSTZnXzlxTFhYdWh0eGIzZEZReWt5ZkNtR0ZDNG03eHFHSWNEM3BMZUtDbnNVUG55a295NDlsdXMwX3lsUEZsQUVKNnVHOHU1VE03Ylg3Z0VESXVn?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "주식시장 키운다는 與, 결국 부동산 선택할 것",
+      "Link": "https://n.news.naver.com/mnews/article/262/0000019474",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "HD현대重, '군산조선소' 7800억원에 매각…제이오션重 새 주인으로",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232259",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "새출발기금 채무조정 더 깐깐해진다...변제 능력 높으면 감면율 축소 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSUtpRGctdm9PN1d2bnR4TS1DSUR3bVIwT1Q1Qko0Wk9jbndSUGs1MGIzX2NqZ1pGTVFGdmF2NmFWRjloR3VITU43NTF4Y05xeW1KbHFZZWpQcVdTZkdfaDVCbnFWWFFnTGFmbVVXckQ0SG5MNTVKMjhWUkgtdG5kRGtCV0FFU3hRUUNKOS1R?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "“중동 리스크 아직 안 끝났다”…소비자 물가 또 들썩이나 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JcUR1RmFkaWVOdTdERTVPOW1LSVMyOU9veHk2dU9NOHpCRFZKTFo5S3l2dHBGVzVtUG8tWGxEVnJrdzgzbkdpMUpNWUtmUnE0QVFMVg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"환율 하반기엔 크게 떨어진다\" vs \"내년에도 1500원대\"",
+      "Link": "https://v.daum.net/v/20260626172051126",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "서울 전세난에 경기 전세 매물 ‘급감’···광명 감소율 전국 1위",
+      "Link": "https://v.daum.net/v/20260626171506938",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"거래대금 늘면 증권주 오른다\"는 옛말...반도체 독주에 증권업종 '울상' - 녹색경제신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90ZVJjWVZVeHV3LVB5Zy1PZ3dqckdtV0szWUdqa2VHbVRteEtrakRpM3h3ZWxMbjBJaG8talN1QVV2X2pERUtqcDhwUjNqMEswd2Z4XzAzNjFyQ2twZmVZRlNmN2N2aDYx?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "“급락 본질은 반도체 쏠림 되감기…레버리지 ETF가 변동성 키웠다”",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315991",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "양종희號 KB금융, KB증권에 1조 더 베팅…생산적 금융·IMA ‘두 토끼’ 잡는다",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232262",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "주담대 문 닫는 은행들 … 하반기 집 살 사람들 '비상' - 뉴데일리",
+      "Link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EY2RRckc3ZWhZUzRxYkxyd2stcktVTkFENjlKdV96OTQwbU9xb3dqZzI5ZWFZWEsxQjBsUUZieWtfTUFzaGtrOG1XT3dxY3gtaWZrWGI3YWRUUmFyUS1lWHk3MzJsY2Vud0M2eGNSQ1NTMTczbWRSM1c5ONIBgAFBVV95cUxQZzMtX2xhSFBVT3lQMFRac1lsdDJyanFfdDdYSmZfeHduMXBTVHgyRVYxbDB2NWhrWTRQbUFwZFh4X0UxUlJpcXRkdWxNS1BHWjJJeDI2dnVtS3YwVVFiQUdkVlpQdXAwMDhaODBuMWl2U1Iyb0xHMWlFMUhORVkzVw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "반도체 '피크아웃' 한방에 날린 마이크론 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qdW02OWNkZEYzTXQ0akl4N191RF93LTc2S21MTXprcFdNOTZOYlJHN1MxSVpkQV9UaVZyblJpUVlwRlNsVXVJak40R3h2REYtYmI3Vy1OQ2JEd9IBVEFVX3lxTE1OczdHYU9tNENuVFZHRXVtc1pvc1h4VTJfb1pYXzNNTWUxY3A3NjZORlAwMHFoMVVxT1cxQ2o5cGlQU0MyNW5hdFplaUdVWERiR1I3MQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "비트코인보다 더 빠진 스트래티지… STRC 약세에 시장 우려 확산 - 조세일보",
+      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WTnJzd3ZyeDBvSFNqa3ZlN09ZVXI0MWhKcWlyZlFNOVY2ZGdndDhLUFJ5VFV0UXVQeXVjckp0cGUyQzdQMHFodFNva1pqVWVieUJFSHkxNjZYaGFWYjJR?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "외국인, 47조 매도 폭탄에도 지분율 35% 돌파···역대 최고 - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DQUFRWVhXaGdPV0k4MjdrdFlLVDVtZ0xlQlhFZTFObXdmRnlDUVctRzRZeDZMQkN6ekkzWG1TN29KbjFpd2M3clFaZGw0M016bHBoN0xPWElUd9IBX0FVX3lxTFBMY19rVjAwd0lLSUdUX245S0d0S2hhSnZkYnYwVVp0SHZteUF4LWFlbXQ5UlhfMmV0Nk9Fb0ZmRzlkakpuX1VNaVNDdTZXTjNEaFZpZU1NdFJvVGN2UUJz?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "PBS 폐지 안착 속도…출연연 인건비 전액 지원·신규수탁 제한 - 전자신문",
+      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9KYlpEQjZoVV9fdkt2UE1ZUkVxOTc0Q2YyakpQbjJQcjNnMU1xVG1rVmtHZEsxMlNRWmFzeWxvRkYxREdSckdDWVRVc3V0dw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "요동치는 코스피 5.8% 급락‥또 서킷브레이커",
+      "Link": "https://n.news.naver.com/mnews/article/214/0001508014",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "[코인뉴스] 비트코인 반등했지만…시장은 '청산 공포' - 데일리안",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13NndUMDhQWjJrUFJQNGIzZy1idEEza2VfTmttR2NIUG8xUmQ5MlRZaWZ3TVpGcldHN3k0ekRKaGJuWkR5N1czMWlQZEd2U05KQS1MT2dR0gGwAkFVX3lxTE16eTFSSzZzaGNHYkkxUjRzbjVsSVJhMElqUGJpU19nMFZZakFhODZMc0lGYzBMU3BWa2NyeDIzN1ViSnVCeGJYTDRoQWk5X0ViUlNZc3BQMEFlN0U5TTRLU1VJY05jZW03eHcxVksxZGYzMU1xZ2syU1JCaUpUeU5sM0pHanE5UTd4OEFEUW1tZ0pDU0ljNkZNb1J4WkxqWEQ1dHUxWFZjRWdQNEE0ZlY2SGdHNzYtQ0FKcFhka2pmeEhpakRpV1h5SzV6LTdWb1FzdFZWSFIwc25RZ0c5akNBT256YWRBNTRIZG1GN0hiZDRSWEdzU2wtUk9Camtta2p4T3pKa0pOaTRjX3RuakhnY250Z1prZ1BKRG1waWlsZVBQa2RMRVVMRTlsRkl2Q0I?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "치솟는 달러값…환율, 5일 연속 올라 1550원 근접 '비상' - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qTzZpbmE4UXdCdE5ZVDNMMUlZcVJJdEYxWlpwWnRpNDdaRFp2T09TYnhaQ0IyT0VKOEw2TzU2TjZFZWp2N0JRTS1kalRoY1piRy03YkVNUmt1d9IBVEFVX3lxTE5kc1M4bm11NnlwLVowVjYwUDRNd2JabHdUekgxUmVlQm1pYTU4TW84RkQzcFNXMUE3TzlBS2NDQmRiMWQ1RHFZaTRIbjZVeU5MUHByRw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "국힘, ‘삼전닉스 호남 투자설’ 총공세…“정치가 기업 팔 비틀어”",
+      "Link": "https://v.daum.net/v/20260626173240488",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "부동산 고민 깊어지는 靑…李대통령 SNS 메시지 줄었다 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UdGlJTEZVNXdDeFloSzREcllLdFpTeTlxX2NjQ0psaXJwSzhZYUxLV2huWEFGbklBakgxdUJyTUJScnF0TkFsT2JVLWdsQ2c?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "화승인더, 베트남 컴파운드 사업 中 기업에 매각[시그널]",
+      "Link": "https://n.news.naver.com/mnews/article/011/0004635378",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "오리진엑스, 아시아 비트코인 컨퍼런스 '오리진서울 2026' 8월 개최 - 서울경제TV",
+      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNc0d2YTJLeFJYSnJocFkwaVdyQ25CUGVKbmkweUF0TUVnNnVKc21uSVU1bkRMOFBrUkI0RmRVdk56UE8waFd0TGgyNFBXQzg1a1lkblpfU25lbm9nZ0NnVWtOQUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "어제 반등은 데드 캣 바운스?…비트코인 한때 5만8천달러선까지 하락 - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54V2N5MWI4R0lUVUtYVTBhTE9ZWHE4NXVrODdwbEF2MVowNzFKanJaV043TlUyTW8xT1JMaVFEOUxTV0I2RjRHak1ETGM2cFEyaE5FaFpTNnk2djYxX2ZqTEoxc1lKNDlxMlJGT1dBQms?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"AI 서버가 부품 싹쓸이해서\"…애플, 공급망 압박에 맥북·아이패드 기습 인상",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232154",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "NH증권, '일본 주식 1주 단위·홍콩 주식 시장가' 주문 도입 - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lTUVWaHF6SktjVW9NeWM1THhnaVpWNk9mN2JfVk5FVFgxcmdSdlVZbXJtU1BiSEp0UTk0a0phYkNtWG03MzRTdDUwRHQ2TkxkUFVzV0ZDUVlQQzFFcmx2YdIBYEFVX3lxTE5lTUVWaHF6SktjVW9NeWM1THhnaVpWNk9mN2JfVk5FVFgxcmdSdlVZbXJtU1BiSEp0UTk0a0phYkNtWG03MzRTdDUwRHQ2TkxkUFVzV0ZDUVlQQzFFcmx2YQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "SDN, 10대1 병합으로 동전주 탈피...체질 개선 시동",
+      "Link": "https://n.news.naver.com/mnews/article/293/0000086865",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "한국부동산원, 정비사업 조합운영 컨설팅 추진 - 한국주택경제신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYdy0wSHA5VFZCeHBKNldmamZsNjNIWnhYYXJTa2d0NTZHR1Z6ZFdEeXMtNnFfYl90RFJJQTd6RG1tMk9qQW5qRHAzR0pNWUlvcnRIRDQycjllN2xVXzFGWVFzcEc4QVdO?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "공공기관 해외거점 통합 본격화, 핵심은 수보다 실효성",
+      "Link": "https://v.daum.net/v/20260626155718116",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "한성숙 총리후보자 이틀째 청문회...부동산 매매 놓고 공방 - YTN",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9peU1ZTE9TWXpHWXpMSnhhSkRYNmVHWGsxdERWS01KQTV3NlVwZEV4ZGh3Z19iV3hTLU1xcHJ5X3FQZkN0YTZ3ODh1SmZBdGZvTlJIR0FuUVN0ME93VllOYW1vYkFvVm1NOG1oUVNfNnRjbmNqcHc?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "“이것저것 사고 파는 AI, 허당이네”…단순 ‘장기투자자’ 보다 수익률 낮아 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4xVkc1dGhKdU1HSjEtRzUyZXdYbVZOZ2xLR2hHVjVpeGU4U2ZHb1ZXd0dac3VnTGhYUVQyaUVPS3lYUzRPTHhYczVLakZUZw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "다올증권, 하나투어 목표가↓…\"전쟁으로 업황 악화\" - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lQzdlb3A2MTZUazRZRnIyQ0xXU2M1bE53VXhsR19UWkxZLXBjWThSV2pBTTJVWElCTHhkcG45NkRSdU1qaFk5SU1HVU54X2ZFc29kcmdGSmNVSzFDUk96ZdIBYEFVX3lxTE5lQzdlb3A2MTZUazRZRnIyQ0xXU2M1bE53VXhsR19UWkxZLXBjWThSV2pBTTJVWElCTHhkcG45NkRSdU1qaFk5SU1HVU54X2ZFc29kcmdGSmNVSzFDUk96ZQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "“차라리 반도체 주식 살걸”…비트코인, 9000만원도 위태 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IM2FwTnlacDdGNEFyaUNGM3V2bFluYU14ZExnNnh0cnZuWkVURTNUdUxnUjQyUGZzSFpCR2JlMFg2VnVTeERFX09lRlpIa1k?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "빗썸 사회공헌 브랜드 '빗썸나눔', 상반기 30여 차례 봉사활동",
+      "Link": "https://v.daum.net/v/20260626172004112",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "회생 신청 후폭풍…금감원, JTBC·중앙일보 회계공시 들여다본다",
+      "Link": "https://n.news.naver.com/mnews/article/015/0005303257",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "내년 최저임금 본격 줄다리기 시작‥\"16% 인상\" vs \"동결\"서 출발 - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BbUdlV3ZjQjBITFBsRjNqdWtYZFgtZmNibVg0VkRsS0dhZldPLVRiRVRLM3BsRllETzdRNFFyWGJ4T1lhc2FDZFIxSDRPY2pPMkJySlJ6cVJwN0I3bHQ5bndEdHBSeDVyTEFhdzRuUHhzT3l3aEpj0gF3QVVfeXFMUHhPM21PUTIzaWtscFBndndITGpHM0x0blJISzNYR05SeXctbk0yNC1VR1k1a2I1cTU5VG1uQkFIakc1Yk1uWFNiYWxRaHBibVZSZm0tTmdWU0NrNzItLXA5bkZNRzRQUU85UXBwSmxpaWF2TzIzU00?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "추미애 “AI·반도체로 경기도정 도약”…부동산 세입·정책 현장 점검 주문 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9xd1dENWZfRHAyRDBzTVY3X3NweWpWWVpZdVJxcUw0VWJYWU5oeGthOXhScm9QTExtU0FPaFdxUzBnOWZmVnRsLS12ZE5hcXM?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "HBM 장악한 한미반도체…이번엔 AI 시스템반도체 장비 정조준",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006316006",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "한성숙 청문회서 부동산 공방‥\"미용실 원장에 헐값매매\"·\"억측\" - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQVRuWjR1QkhWbEw2bVRzcHVhb1hfYm5NcTVwVEVUYnRwb0FtQ096U3FYM3NycWY3TlhsaUxLcjdpM1ZlcVo1V3RSMXJya0pBZkNhZU1HczUxdHFfNTVuYlU4eFo4YVZtV0xiZThGb2tlOExwcnE0M296aFN0S1YzSjZIcVdQNGJsQTJoMURzMEFrZzFTaGNxOUhGMGJWN2V2N3kyNXdNa0pOMnpIYnpRcjN0VHlKZjJWWXNTMmtMNHHSAXhBVV95cUxQVWRLZks3YU9qcTFudndqaU1WWFNFVV9qeDd1bHluLXFWbE1QbkhGZE82UmlGSzhMcFlEU0U4cmttb29od0xfOWJOY2RNLXhUZllIa2FJaXdiMTFWX1JXakxtOTRFVzc4cFFxb3ducFJ4MURVcFFHNkE?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "트럼프 행정부, 안보 우려로 \"GPT-5.6 순차적 출시\" 압박 - AI타임스",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iTWE4WjQ0Rm9FMXhnNklpUE9yc0lRQnQ3RHN3blYtR1lkUmRCRi1rbGQxYVhZWHljVWNPeU5kakVsUzJvdndhWGRiZGs3X2FEZXVvR2FuUnZyXzcxWUttcGhOc1F3OUQ2X2c?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "교통비 아끼려면 얼른 갈아타세요…‘모두의 카드’ 추가 환급 9월까지 연장 - 농민신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDZDA2TGdmazFLWkctdW1DT1ZCeE5pU20wYWhZRHQ3VVZFeUhkWElPUGZPbVl3eWxvSDBlRGwyQWZWVWhvUk9wS0ZFT0w5Z3N5cWp1WmhpMzhpUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "다이아몬드 지고 금값 주춤하자…‘손톱만 한 부동산’이 뜬다 - 중앙일보",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oNUVqcGhBNXNaLVlnZmZoXzN4bXM1YkNZeEpkM0ZfZ2pRQjhrXzFXclE3V3B2LXRzRkY1MG1kSXREalhnUnM2OUplYjlKcDVuZUtQSmVB?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "현대차증권, KIA 타이거즈 ‘스폰서 데이’ 개최 - Hyundai Motor Group",
+      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQendWbnNISnZ3WDMya0xkTXhzaGx3SGM0a2lSOVVETU9oREkxM2VUSTJXQUdEZXhFTEhFc2pzVThaV1doeDdyU25GT3YyZVpzUVJCR0RmMjhhZk83S3JuOEFvcWhTUFZsdUtLTVVLMFhyRkU1a2JSOEpxWDExc09mR1lIOGlJOFVwSjl5UnlpTk4?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "동탄 집값 누적상승률 전국 1위···서울 전세 상승률도 13년만에 최대 상승폭 - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PT3Bxa0RCeDk0UmVQMUdBNGFyTUpqdUdTNHAyYUlvVXdZOWt6ZFE5V3RleE14UE9lbkhpTFdzVTdTOFdzZHVNdW1HUk5UUk4weGFZcVZYckVqZ9IBX0FVX3lxTFBaZ0UtMFBnbVptWVdxbEpFbU5qX3c4Znc1VWpNV2l5a2ZsaFdyR082VjdVajduUVRtcXpYeE9PU3lQVHk4VFFMT0lGaTRZamdMM2M5S0RFQVBxN1VGZURF?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "챗GPT 상장, 내년으로 미룰 듯…'1조 달러 기업' 계획 흔들",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162181",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "비트코인, 6만 달러 붕괴에 추가 하락 경고등…코인피드, ETF 자금 이탈·고용지표 주목 - tokenpost.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBra2xtNzRoQnBVcUVVTFJSckxaVWpyM2swYVFkRmtUQU1pbUxOSFM1YlJkVGRKTTlwMjh3Mlp6Y3QyNmJudWpxUVltV3loVTNvZFRtdzloUmPSAV5BVV95cUxNaVBSelZIbk1XVGllSlUtbEs4b1lHV1hhZDc5SnFER2M5X0NkeFFNVHQ1OXJPODZrQVJpYjJxcm1NX0F0WGdBV0RyM1ZxNUlHXzEwdndnLTFBTl95S2V3?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "‘마통 끌어다 한방’ 노렸는데, 빚투 어쩌나…고신용자 마통 금리도 5% 뚫어",
+      "Link": "https://n.news.naver.com/mnews/article/021/0002800647",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "반도체 공장 입지로 나라 두 쪽 날 판 [이브닝 브리핑]",
+      "Link": "https://n.news.naver.com/mnews/article/055/0001367627",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "구윤철 “석유최고가격 인하…하반기 전기-가스요금은 동결” - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YMlJHc2JhdU5VWVhQbU1YTWFDc1hHclpYODVSQWZDX2k0RVowd1BaY1hYcE9ZVjJuR2tUUHZaN19EeG1FMUNPQ3gzZUJuV3FUSXlfWmZCTzNrSExMRkZuMEdvMW5IUVQ0VS1aSGJOOUZqanRzVUHSAWZBVV95cUxPRGRMWHptX0hjNlhxM1lkN3E2VV85M3VYN0o4bnZBOHBWYzZPY1N5ZVNmVjV6VnFYaE5aUzhSV2YtbWhMWjNuVzRSYTEtVTNIaHJNNXRFa0RsQy00eEVNbjh5aWFoWmc?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "국제유가, 전쟁 전 수준으로…정유·석화업계 '확 바뀐 셈법' - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90eTZicEVVb3FESzFWbTZ3T3N1WUV0QXFNYTBORlBfcHVxM0h0MXRJYmg0ZGszbWZ2R0NzTWRvTjRxdDZrcU1UdW9Ed2g2ZzNDdGhjRlEtT1RMemY4X2U5RGtOU1RDazVfRVRSRVNHVEo?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"SK하이닉스, 올해 내년 영업익 294조원 435조원…목표가↑\"-하나 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yYnd4TzFjcHhqS3ExT2YzVklDSmREU2Q1YXpVdURPcGt3cmh1dWdQYjd2Yno1X0FkQXNYZkprMm13U3dZeWk3cVB4ckRrTkZYV2w5R1hYdmVBQdIBVEFVX3lxTE1tbnlhTlpNajV6MjFzR3VaWWV4VDZsdWZiWHcwekR3Zk5xelZPeGNlSlpTYUhWMnpHV0JxdjlyUGYyZEpqWFhpUWp0VC1mZEtmNUdWQg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[단독] “강남에 콘센트 있는 넓은 카페 추천해줘“… 네이버, 대화로 검색하는 ‘AI탭’ 정식 출시 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLXFGY1pqYmxLLUlzcHZaYk9FYlNfczVrZ3d0clpnMXB6VmFVZ0pScDRKQmYwdHdXaTlnb3Z1ZlFaMzZ3bGxpU1lrLUJfVE9DeXdYZjZBX0pybHNnOV9XZ1k3eHgwRTZtR2x0X2hVWEttVXFWeVIyT2NwelJUbUNYcXpOTQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "스마트폰 허용에 월급 오르자 … 군장병 온라인도박·빚투 노출",
+      "Link": "https://v.daum.net/v/20260626173025407",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "경실련, 부동산원 '주간 집값통계' 폐지 요구…\"매수심리 자극\" - 한국부동산뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iUFlaNGh2NGdtbzBPOWphSXpETjBhSnd5MDdJSGk4bU9xZkpxenZid0FJa2hHZ0NxcEdKVmhhM0xSSUI0M2JJSnBsTktCN0JxdnpxY1pSZXd3b2RId1NCU19qd0FpaW5tcjhV?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "스와치 \"삼성이 명품시계 도용\"…2627억원 배상 요구",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315995",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "대우건설 \"안전·품질·AI로 ESG 강화\"⋯지속가능경영보고서 발간",
+      "Link": "https://v.daum.net/v/20260626171918090",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "빗썸, VASP 갱신 지연 왜?",
+      "Link": "https://v.daum.net/v/20260626105431064",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "[코인시황] 비트코인, 결국 6만달러 붕괴…'극심한 공포'에 투심 꽁꽁 - 뉴스웍스",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1hN1YzZEk2Y2lPZXYwajZ0eC1RNjA5Qlp6ejg1cHNSbzVpS0xRSUtONUhGNnJEZ3ZzeGJRN0tUbVRNRVlRdDVKSmlYZmk1SXF3MjNBYnI2bDdfZnZoblVXcUlwaU94bUJlTVJBR1Fya9IBc0FVX3lxTFBZOXZtbGdCOWJYd0VXcXcya1ZvQUpUcnM3QllBck5ualVlckhEcHdPSFFwN1p1T09ETE5MdkJ1bDZGNXNvYUZROG1sVXlHWFM5MlpCTm1FRVFDMExQaHdGQ01sZjFUcXdpQVhnX2FwZU9Wa0k?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "마이크론으로 시작된 실적시즌…국내증시 상승 조건은 - 데일리안",
+      "Link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPUXdOcV9ISWtOZ1FxNGNjajE0Z18yTWR6NTdVWHVIQVNPYnl5TVJKVzZHV0VlNnFGRmdLdnYwWVhTc3c3M2VvZElMejlmclVKT2pjTWpHMEZFOXBxck1WdGx4SDdsVmdjLWtvU1dJR1JIdGNObFlkNU9TYmhJWG1nLWIwSGktbUl2aDRZS2lKYmYydkw0TF9BcDhQOEtOeVAzYUtjVlU5LUtxWlR0bzdwdzhrdlByRnZqRzdLSlp1ZXNqVnM1NmppQ013aEFhUkFEYVE3SXRKeWlMOGpOdnUyZXRnYk85U0pXVWlwWVhQSkVKWDJ2MjBVLXB0dFM1dEJ1REJfTUlJb1gwRHRONlVLTDRUM2xKZDc0RW5xb19LSkQ5U2VBLWRmLXBBNktnUdIBsAJBVV95cUxQTUQyb2Zma1V4aThia3BuQWhDbDRxVDZwME9BQXlGSW9fMjhEYkdPVURaX2Y1NW0zOTI5UUI0MFBhNlJMOVRXM3g4bVJPSVNLc2drTmRMSUJVZ08zYkRIRlBYNVpEVk5SbU85M2k5TkdKbzh4RFVuNUJrazAtYUtIRnl0Mm8zeXREZ2hPQkR2UXkwR0FCNHJaZmtrd0x2eVVWd181ZEtxd1RTbXFaa0l3WVR3V0pWbEJIQ2pDbUpUOFNaVWlLN19MWkNnM1h3bDg2bE53RllZUGRnek85TEliMGMwamJHYy1aR0ZIcXA5Q20yZFJ5bkFRWWxtZ3pjR3JfR0c5T2ZNNWtaWDlEQU9KaldVZG9NdElTRkluUUlvcW1fdkVtZ2pjdTdERXRRVk1L?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "하나증권, '전주금융센터' 개점…전북 금융거점 키운다 - 스트레이트뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80N04xcno2WUpwMVc3bTY3NjNtYnAzZ1RlNGYwY0o1S25CaU5IOXRtVGRsTWl4YmdTOGdNOUdSaUtHa1JoLVo0R0tzcnBUeUN1N1Z1c3FTSmR6QW9XUHRaRzhjU0dpa3hRb25wRERmalJyUmPSAXdBVV95cUxQaHA4NkNSWllJOUFPR2pZT1pFTUhEWDFvNXJPZWtSRnpmNC14cGlFd21DdTU3azVkaWFqbG4xdlZWd1UtTmoxbVRxYko4S1NZU185NnM4blEtWl9PbDdaa0ZVQy05alZLZTBjUmZsRzBEMnhoSUFiRQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "“양자컴퓨터 나오면 비트코인 끝?”…국내 전문가 4인의 답은 달랐다 - 르데스크",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05N1YwcDN6UVRWaDZmV2xTdjYzVE1nR3JBVW9walVYcm1lVVJlcS1EUUlqQ3F4UGliMzQ2djlRY09mNVJpeW5hYlgxMkwzVzZsbEpHenR3?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "'코스닥은 떨어지기만'…급락 원인 지목",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256739",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "[속보]유가증권시장 1단계 서킷브레이커 발동 - 전자신문",
+      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1jclJsYmRtNzRlcENoMHprT1gtNzJzQzl0eHhzS2d1OXZlc1JWU0QtMFpBS0V3UzNqbmVEeVF2SFZaRXZnM3prOGdJa1g5QQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "애플, 칩 부족으로 맥·아이패드 가격 인상…주가 5% 급락 - Investing.com 한국어",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81RmhLOGdHTVNJU1pzRzU2VHlDWWlCNElwNTgxVG1pZjdmZWZtV0taYlYwX3ZhV1otV05XUlkyelZPcUxUdmx6WkdadVVJRWd1VFU5SHdpbks1dlVmMFhsOVF1TWZZTWRNaWRaalRwSmM?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "통합 대한항공 12월 17일 공식 출범…국토부, 합병 인가",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009024320",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "코스피 5%대 급락 한때 8,400 아래로‥'매도 사이드카' 발동 - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nc09WaVRqSlJxeUdMSXQteGFjb2w3S1Zia2JKNEdrSmRkalhkQ1VhTWNhSzI0WjFZNXg4alh5ek85SnR5LWNla0d5S1NLcC1CTDQxU0dmY2pVX1ptdkxMV1VmN2FjWWpSdXRXUzRwSjQ3Wk9R0gF0QVVfeXFMUG1GMUFteTJ3VGpsT3lBdUM4TVhFTWJILW5fYWJYT1pSUzh4QXN4YTdmTVhtQzN1eFRWU0FiT1NSTG9sZ0pYTXlSOXJjcU9IVnRpLWJwSFJ6Nmk3Mmc4Yy0tRjVSTER3Tm9MRmNwaTFvRUR3WjI?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[ASCO싱가포르] 전 세계 덮친 '젋은 암'…원인 규명·대응 전략 모색 - 약사공론",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xRVNmdy10a3BSOFdha2xlRllacmFTWFpMY0RnVS16NV91VjJRTXJFQUpFdzdTcXlNcWdKT00waGlPTllqd05QMDNkZUJFb3QzZmhnZ0o3cVRRUHdCUGFWM0hxMF9vSnozMkJFQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "금값 강세장 끝났나…중국 금 ETF 자본 3조원대 유출됐다",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315979",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "“내 취향에 맞는 싱글몰트 찾아요”",
+      "Link": "https://v.daum.net/v/20260626173301499",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "영끌족 어쩌나…주담대 금리 다시 뛴다",
+      "Link": "https://n.news.naver.com/mnews/article/374/0000518491",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "대습상속의 함정…패륜 자녀 막아도 손자가 온다",
+      "Link": "https://v.daum.net/v/20260626060116532",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "리츠협회, 부동산 자산-리츠 투자자 이어주는 플랫폼 개설 - 연합뉴스 한민족센터",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hMUlXaG1URGVUeWM4Yk1GYUt1RW1CU2Q2YmhUbGlEMzczNWVIOXdySGVSZFg0ejlIMUYwU1Z0MWRJUnZheWx2Q05Iemp6TUVKQnRiRUdkcTI5Vldzdk5VY2pHQk5ibE1pcV9QdWtOS1poeWpV?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "최태원-노소영 ‘재산분할 소송’, 내달 24일 선고…폭등 SK 주식 변수 - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE02VVliaXNwYlNNaU9lUTk0QUpCc1hhRUFLeEJ2aUZIXzhINlhQZWhaRGFoZ213WkwxQmZTa01fTmNobE9qRXFlV3hsWXN6VWpGZXhTeEpUSHZQclJ2RDM1a2hXVWJBdVNYVXBmZ3plNWVOQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "소프트뱅크, AI 인프라 비용 우려에 12%대 급락 - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtQm1SVzVySHE2Z3AwNmt3eUZhTkt2bENJamFOSHRrb2FkSUpGVG15aHJWdkxTaTdrUWoyV1dlb2pxOHNqbzFvVkxBdUhkOHZXdjM2MGtGV21ldGlSYXhQZkExVDVxUVFzYmJtVlNCVkg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "한투증권, '2026 서울특별시 환경상' 최우수상 - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sZWl0dnNwYS1wd3BoREwxQmI5LU9WOXVHUFMtbzFPVjdZWWp1VjI4ZkZHaXVPTTdVakVxOWJ4NUhZdV9GbFRhMmNZVndfUkk3WEplWHBOSVZPUFlmQzUycNIBYEFVX3lxTE1sZWl0dnNwYS1wd3BoREwxQmI5LU9WOXVHUFMtbzFPVjdZWWp1VjI4ZkZHaXVPTTdVakVxOWJ4NUhZdV9GbFRhMmNZVndfUkk3WEplWHBOSVZPUFlmQzUycA?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "'비트코인 큰손' 스트래티지 흔들…'4년 주기 폭락장' 재현되나 - 블루밍비트",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xR0FMSWJSbnkzbXJwTUlxNnVjYVFoc0RVVkthQm81NTQ3Z0Zyb01xQ3ZCMFJFSVJpazBPdnJNX3k1Y3NRbFJCTU9sQUN3NGVS?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "Vol. 9 밀당은 빈곤의 증거: 슈퍼리치들이 연애하는 법 [THE RARE]",
+      "Link": "https://v.daum.net/v/20260626172410217",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "[주간 코인플릭스] 26년 26주차 암호화폐 상승률 1위 '딕시'",
+      "Link": "https://v.daum.net/v/20260626110918813",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "대한항공, 합병인가 넘어도 과제 산적…아시아나 '적자 흡수' 돌파구는",
+      "Link": "https://n.news.naver.com/mnews/article/293/0000086864",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "전기·가스요금 또 묶였다… 한전·가스공사 재정난 ‘빨간불’",
+      "Link": "https://v.daum.net/v/20260626173348529",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "널뛰는 장에 6월 1~24일 9054억 강제청산… 개미 비명 - 문화일보",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xbW5QM1lqeW9OYm5XaVE4Uk82VFJUNWV6bXNkajRGamMxakFOcTFvdUVsaWs3cnlJLTVUTk1SaV9MUktkbVFyMDMwMG5Uby1R?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "홈플러스 직원·협력사·점주, 국민신문고 통해 정부 도움 요청",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161506",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "복권기금, 고령화 지역 철원서 노인 일자리 사업 지원",
+      "Link": "https://v.daum.net/v/20260626160502458",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "자고 일어나면 오르더니...'112만→80만원대' 금값 뚝, 매수 기회? - 머니투데이 - 머니투데이",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBbWh5d2E3dkRia1lHeDlTS2k2VFRaSEtZdHo4LWVpOUVrRGFLZmNFcXpDZmxZc3ROTUtIX3lVS1Q2U0MtVGdCV0Q1Y2NlSjZVaXI2ZXhSM0l2Rk51RUtxaHVqeVJQSXdVdm1F0gFwQVVfeXFMTWpxTVBETVg5eGdVMU9GdWh5MHUxZDVhamZ2eXN5WHdpYTdmVEhqSWxPYm1zWDlpMlhaVmtYbEZScUg5ZDNiaXdueE5rT2RGYjZXRy04dFJDQUY3WkpLX0c2ZkdSQjAzUXpFeG0wTmQ0Rg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "치솟는 물가·美 은행 건전성 확인…연준 ‘연내 금리 인상’ 명분 쌓인다",
+      "Link": "https://n.news.naver.com/mnews/article/243/0000099673",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "피지컬AI 주도주 현대차·기아…연금계좌서 집중 투자하는 방법은?",
+      "Link": "https://v.daum.net/v/20260626060216630",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "[단독]대한항공, 에어부산 등 인수 검토…'지주사 규제 피하자' - 비즈워치",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CZGJvZEd6WElYWk5zd2dFSjg4bnlEOHdjeDUwcjhySm1DTVV1MmRWenljSmc1bEs1dThXbEV1MDh0aUw2d3VHWWVJTnhadk5PcGota2MySVlwREZ1WHRNWmg1S1hnMkJ5TVNZQw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "청년미래적금, 출시 닷새 만에 가입 신청자 100만 명 넘어",
+      "Link": "https://n.news.naver.com/mnews/article/056/0012206854",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "취업 불안 커지자…대기업만 보던 취준생 달라졌다",
+      "Link": "https://v.daum.net/v/20260626140851746",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "IPARK현산 노조, 중노위 조정 재신청…3년만 파업 위기",
+      "Link": "https://n.news.naver.com/mnews/article/648/0000048390",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "부동산원, 재개발·재건축 조합 운영 컨설팅…7월 전국 시행 - 매일경제 마켓",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41N0tyQ3o2VFRYNlVlV2swOUhDVEQwYjJwbVhQQU50TWFhOV9iMjg1cFFfdWFHY1drTDJnUUZmV2hKRG80YWd2NkJFMXJQSC0zUmc?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "유가 내려도 주유소 '요지부동'...최고가격 하향 검토",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256642",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "SK하이닉스 ADR에…환율 변수 된 '7월 초 메모리 투자심리' - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xTVE2S1VOR2xEQzVoYm5TWktjbXRLazNKajFBeDVfZFNEMEowOUpRY2U4WHVkNjlYeUdOM29kYXpFVjZrVDZWdlBJRGlKZDJ5RlhjNmxWczhIaGlJN2RRQlRHYVdXSTU5SGtpTGRjeVM?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "엔비디아·테슬라 만난 'K-피지컬 AI'…실리콘밸리서 협력 논의 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QOGxQZFYwSHNGaWhKb05rMlNNNmk2ZnRfbWRQdm90LXgxZ05mVXE2ZWhhNzNqZklhVS1zZklzUmxrRkxncUZxbmxKUmJ3ZzJhM1U3NjdpUExid9IBVEFVX3lxTE1hZ2FrWHZkalhZWDlSTG9VR3Nib1U5Y3pjZEtYN016alZnZVVmVmhlalA0NTVnVnhOcDdjZW43R1I4c042SkpZMEpZTklfTy1hUUx2Xw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[이슈] 비트코인 6만 달러 붕괴…금값도 4000달러 아래로 - 폴리뉴스 Polinews",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fMUhZdnNkREZWbl8xUXllU190Yk9fS2V6aElxRmU5WW9NMHp6RGxEdjc4enZwUmVodV9WWjBvcjVKd2hXMXl0RHl1bFFULVRHNm5tQVJ3WW8wOGxJWXRwaGtYS1FMUndFS1FXT3ZR0gFyQVVfeXFMT1otR2VpZGNLYUMycXNsTlE4QjZWT2lTQi0yeXU2ZXhZUk1qSERSbXBXYkl0d29nRXpmVUhfVDcyQnFISjhaZGd3S25La1c3b0JsLVp4NUpEQlZ2bVNzSEdEX0hkajREWVZhSUducjc3Tnl3?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "월드컵 감독이 그렇게 중요한가요? [이슈크래커]",
+      "Link": "https://v.daum.net/v/20260626161419841",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "[머니쇼츠-영상] 비트코인 폭락에 전체적 하락 형세 - mstoday.co.kr",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15MVd6bG9hX0RldUhkdmNuR1NXNmhWTkUzVS1FcnJKNDdrTDJHUGYycGRpV25OWDAwbGhvcXhLcXRLcmZ3THFoQ3dQOFZyTl9TYWgzSHFiQmFld2toMWJaX3ZjYUxnbEhoaDhUbQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "아이돌 챌린지 유행인데⋯알고 보니 'AI' 노래였다?! [솔드아웃]",
+      "Link": "https://v.daum.net/v/20260626173107431",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"20배 이상 폭등한다, 지금 절대 팔지마\"…월가 큰손이 내놓은 비트코인 파격 전망 - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EeWc1MXVCa0ZkRk9HYzQxemdwQ3RLQWJqQ1hUMU9UV2hPR2Rzek1laFNqeXRzaHdBSW1jVnpESEZESE1BSldBTlNOOVF2UnVPZFZwQ1dPdmdOeGFwck9jUA?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "비수도권 발전소 갖춘 GS, 데이터센터 직접 지어 시너지 노린다 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiTURWcHgzeTFXdFdHT1VKUUJpdk0xazlDZ0xfWXNIcHlpTThyd293d3p0V19IZHhFcmlxMndORWItdXpES1pzQ0prOW5zT05RRjlUQk5pR0dmUdIBVEFVX3lxTE84SHpnbTJOV1l5MHhrQU5BVFRKREZZY0F4NlBIcUhUc08tdGlIMHdWN0JnMWg5ZDRWbU02SXpRa0RHbTZaRzI4Mml2LU9PZ29lcXFyZg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"1만피 여전히 가능\"…코스피 급락이 기우인 이유",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256737",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "“반도체 가격 상승, 호재서 부담으로…조정은 매도보다 분할매수 대응”",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006316008",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "미국, 중국산 로봇도 겨냥…수혜주 꼽힌 '이 기업'",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256740",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "삼성전자 부럽지 않았던 SDS 직원들, 인센티브 개편안에 부글부글 이유는 - 인베스트조선",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZXhLb1F3dlNhRFNPRlBiZHg1b1dKNFByemRkRE5KMm9oYUJkVnJsb0Y0S3VvVWMyXzdTZGI5ODNmVkgyZVZzYWFseHRCcDBUT2VOd09DaTZ6TTdEbURZNlRCSDNhamtPZkhFTkRCdjRQazJlNmROSnp1Z1JhTUhIY3Y5RQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "삼전닉스-애플 엇갈린 주가… 'AI 거품' 잠재운 마이크론 실적의 함의 [IT+]",
+      "Link": "https://v.daum.net/v/20260626172044124",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "정부 “3500억 농축산물 할인… 불법수익 2배 환수 신설”",
+      "Link": "https://v.daum.net/v/20260626152917871",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "미국 통화긴축 가능성…비트코인 6만달러선 붕괴 - 뉴스토마토",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04SnBsY09zVElWLXFZNV9Qc0VDemNIT2h3eUFLVmhka29VRFZtOUc4NDlyVDVSLXFWdFNyRVBpNXpuTVpMcUItUGdISW90ZURtRWhNbHlQWlQxRWE2MmVDRg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "부동산에서 주식, 4050에서 2030…‘재테크 필수 시대’ 열기 확산",
+      "Link": "https://v.daum.net/v/20260626173217481",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "비트코인 6만달러, 금값 4000달러 동시에 깨져 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NcnFEc1NkWTgwZUkwajR5dTVURmpaR2xqU2txUXI2QzdNTWU2MFRVRHJoNkJLZFQ1YjJrU3dmb2UwNlMtTjdKNENiM2dfZzA?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "검은 화요일, 검은 금요일…코스피 미친 변동성 왜?",
+      "Link": "https://n.news.naver.com/mnews/article/028/0002811557",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "매각 접고 밸류업 선언…크레센도, HPSP 직접 경영 나선다[시그널]",
+      "Link": "https://v.daum.net/v/20260626173203465",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "협회, 아주경제 ‘2026년 부동산정책포럼’ 후원사 참여 - 한국부동산뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJZTVWWmZkQnNOaEdtVElZSTJVZ0xYM0Y2ZnJOVHJid2xQVHZNLV9CVlkyUTZmQjJkVkRFakNvYWJEcnduNC1oaVBYUlV6eGVmUWRrbkpMYTNkRmJheUNTMGxqbWlqZWU0d1U0?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"절대 안 판다\"던 스트래티지의 비트코인 매각 이유는?[비트코인 A to Z] - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42MkZMYVl6dEVtZGtNZE1Qa0M1ZGVIQS1MOEg1dnpTOWJYZDh4aUs1WGNlVjJKanpxa05YZ0pIRU93a3REek9PM3BrSTZtYkk?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "코스피 8.19%급락에 '서킷브레이커'…삼전닉스 9%대↓",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162153",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "수입차 대거 불참, 현대차·BYD 전면에…부산모빌리티쇼 막 올랐다 - 지디넷코리아",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yWU5RZkxLMmdtTXR1YTFjVUZON05rSEZ1YWxsLU12M0RpM1NudHRnMGJuVHU0T1NSend2Q3hmMjEtMlFZbU9INGYyX1NzY0NBb2JVU0hn?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "롯데, 베트남 '에코 스마트시티' 재개 공식화…현지기업과 파트너십 - 인사이드비나",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiTVVfWjd5SExQUmhrY01LUkM1VkFsVzNmZ2ZrOXVGdG1SSk0xcW9fTjRYVVp3TE5JUkhraklRNnp2cmJBekdSbFEzaEd5RGptN3p0TUZhM1h3S0FvWDNJVUQ0NVlrWHpEbDh1VA?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"네이버표 AI, 공식 데뷔\"…한국어 능통에 쇼핑·구매까지 가능",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026308",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "크레센도, 알파플러스 경영권 매각 착수 [시그널]",
+      "Link": "https://v.daum.net/v/20260626173202457",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "SK “딜 무산 아냐”… 두산과 SK실트론 매각가 이견 조율 중",
+      "Link": "https://v.daum.net/v/20260626173416548",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "[속보] 코스피 급락에 매도 사이드카…8400선까지 밀려",
+      "Link": "https://n.news.naver.com/mnews/article/016/0002662004",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "“또 급락? 도대체 왜 이러나”…코스피, 하루 735p 요동",
+      "Link": "https://v.daum.net/v/20260626172702293",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "환율 1,550원 넘보다 매도 물량 쏟아져…1,530원대로 급락",
+      "Link": "https://n.news.naver.com/mnews/article/055/0001367625",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "스페이스X 급락에 머스크 ‘조만장자’ 타이틀 반납 - 연합뉴스TV",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Tbkw1Zm8zaGFjRVFWUlJsT2xMRnNzQkI5elBVdDBTaUN0TzFhMGlFcFU2MFZnQUtnZ193UG5YSUVaSEI3WTBGSnNHTDlqanNncS05djltalpLYTh2WTdjcE13ekJFTE0?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "“군함 빨리 건조” 트럼프, 조금만 기다려…1500억달러 ‘마스가’ 시동 - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ULURlYVVWN3VVOU9zV0Z2Skx5azFQMVlIeXhmbUZadHJEZEZtVWdadnZMY2ZZWXVxelI3dWdOZGthVnI2bFhNM2FiMDQ2R2lJR2xMSnY5dDZJVmdncUhUN1FtUkdRbTVhd2c?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[경제실록] 환율 1500원이 소환한 IMF의 기억 … 경제위기 경로가 달라졌다",
+      "Link": "https://v.daum.net/v/20260626163915714",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"대학보다 하이닉스\" 고교 입시까지 번진 '하닉고시' 열풍",
+      "Link": "https://v.daum.net/v/20260626160519475",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "이 대통령 “팔란티어 경쟁할 혁신기업 육성…CIA처럼 한국형 인큐텔 설립” - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaY3JMdDVZdnZ2R3E3Sms3TklFRG1DTm1teWNlM05HMFBxby1pNy03VXhOemh5bW81SEtudXc1RV9qRUd1b05Ib2xEMmNxTE8wTXJXWk5EcmtkZ9IBX0FVX3lxTE5sUnhaTnJTQnhOYVZXYnN5TFNjZi1tY1FxSUFibjh4RzkzWW52dXZhWHJLUUtUTG9WV1hyTkotOHdibFBFdm1ocHkzaTg2RXdMeDhmUVltMG5yU3NSaE9r?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "코어라인 뇌출혈 AI, 병원 실사용 확대…응급실 안착 가속",
+      "Link": "https://v.daum.net/v/20260626103914343",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "“주식도 금도 아니었다”…6월 17% 빠진 비트코인, ‘매도 공포’까지 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Ya245YmVha3hxY25kSnJnc0lRNExHZkhpQjZFT19jWkZRSHVCNHhzSUZOU2NrbWRXaE5CakJ2eXFDdGFwOW5PckM1VEt6blE?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "분양수익 2000억 벌어놓고 '아파트 울타리'…원베일리 개방 의무 논란",
+      "Link": "https://n.news.naver.com/mnews/article/417/0001149225",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "“코스피 9000 넘으면, 국민연금 최대 74조원 판다”…증권가 전망",
+      "Link": "https://n.news.naver.com/mnews/article/366/0001174757",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "NH투자증권, 일본 주요종목 1주 단위 시장가 주문 도입 - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfN28zZUhhWTdQcVZTaTlCWmRabzQ0cDhsUmd3bVZ3YlVMWWJvckUwX043NzNqcmE2dXUyelZBUFBRWFVCa3dHa3FXY0QzMmFVbUdxYzBSRHQ1aUU0SVZjTg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "빚부담에 軍사고 늘어날까 … 국방부·금감원, 장병들 금융교육 강화나서",
+      "Link": "https://v.daum.net/v/20260626173027408",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "[코인뉴스] 또 6만 달러 내줬다…큰손 매수도 멈추나",
+      "Link": "https://v.daum.net/v/20260626104142449",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "하이닉스 ‘2만원대’에 산 김문수 “40주 그대로 보유”…100배 뛰어도 안 판 이유는",
+      "Link": "https://n.news.naver.com/mnews/article/081/0003656292",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "현대차 노조 파업권 확보…중노위, 조정 중지 - 연합뉴스TV",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE03R1dSYy1ycFlxVzREVFNocFpYU3hMNG1aNDNpRFRfWExjazY4SGJkT0wydXpBOThORjdLRlBJWHF4eEZGVldKSTlSM3NJZGFqeUM0QUZLdV9rOFNvWmU5X0JsbEZEMGs?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[투자 노하우] 미국 5월 PCE 4.1% 상승, 인플레 압력 더 거세져",
+      "Link": "https://n.news.naver.com/mnews/article/374/0000518521",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "[속보]“메모리 너무 비싸”나스닥 나흘 연속 하락 - 문화일보",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tYUFMTFkxZlhMb2lWd3dLV3NkRU1OUlA5ZWJKZTlzYTdMS2lCRmxrMmgwOUJ0S2g2aXY5N3pJeGV5U0RXYjZSY1Vpd1l3ZVVB?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "'AI폰 넘어 웨어러블까지'…삼성·SK, 낸드 앞세워 시장 선점 속도",
+      "Link": "https://n.news.naver.com/mnews/article/417/0001149224",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "위험 신호 다 보고도 '상환 무난' 판단…신한증권, JTBC 실사 적정성 도마 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JOGtqSmMzVUVMYUJFTll2M1hTb0dwYXBabE1nbTlvU1JaRTllTmhKeEphNHRVR0RnWnpfczFmMEMxcEQ0WlhQRkVGWjF0Tzg?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[유한양행 100주년<하>] '사람 중심' 경영으로 노사 무분규…새 100년도 '동업자 정신'",
+      "Link": "https://v.daum.net/v/20260626160400422",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "[르포] BYD 국내 공략 가속…현대차 아반떼·기아 PV5로 맞불",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016162025",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "국민성장펀드, 리가켐바이오·LIG디펜스 투자 승인…각 5천억원 - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01b3lwejlXX2cyRUNzVVA1cXhuMV9fbGhPRS1XUVZyZEM3Yy1fVTUwX1Z5ODJ1N2VVRGZVc2p5RG9sdGNnZmpxQVpvMWszQ0xaSzF3WG1Td0FmbXPSAWBBVV95cUxNNFV2OE9MYnhLM0E4SDZRZ01kaUQyX3A4ZTd1ck9iQWZ2SUpTcmFtYWlrT0NHWTU1RVVWZms1QWU5WlAyR01ERC10MlVrMksyTzI5Z0o3SzJOcUUxTmk5TEM?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "정부, 석유 최고가격제 유지..재정 1조 투입 '물가 3%이내' 억제",
+      "Link": "https://n.news.naver.com/mnews/article/014/0005539965",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "'2배' 레버리지 ETF 삼전·하닉뿐 … 금융당국이 '반도체 쏠림' 자초했다 - 뉴데일리",
+      "Link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KUXhXeXVSNkhBelJqcEY0UW4wWWJQU3J0ZGxXaGQ0N1FrODl6MTN1aFlGd1N3VlBKX05JZ1hRekVKOTZwdTc4SHh0cG5FcEFUZ2h0WXF3R1RNLVhrU0V3eDFDYWJDYlZ4UGRQcWtyeHBWdWFYVllaaGI1a9IBgAFBVV95cUxOMlh4R2E3UE13dERkempTdnFVdUxlLXcyVzJtbVM0NnVQQjNNUjVXV2lXcVc1Z2phYlp0MkNFUnp5dUl2aDA1VlpoN05OemFqYXItazJVSkNKNlJNZ1otMUZBOV9ZRXJUMS1mMlA1RklacFpiQ1lfb1ZSaURORXZRQw?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "[채권마감] 커브스팁, 초장기 금리차 정상화 가속",
+      "Link": "https://v.daum.net/v/20260626173113434",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "KB증권, 1조원 규모 유상증자…KB금융, 생산적 금융 박차 - 연합뉴스TV",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE82dFQ1SWxoZ01vbDVXTHQ3c2JMTTJ3emJiWGZmRlNxVXR4YkdwUDhoZ2NMSFMyQzVzVGJNSmkxVndhUVlMTzRHOHYzdDFxZVJXSFJjeUxLa2hZZzhhdVI1b3hVNUJMQzQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "오세훈·한동훈, ‘호남 반도체 투자’ 저격…“국정 사유화” “제2의 미르재단” - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUVXpJSVlxeW1OTHZNWVRXUUhtTWk1YkxCN0lUbmRfVVVRS0x3R2t5NmhvWlpaMmhWMHRBMUF1U2RQQ1llQll4SDZDU0tiY0Zqb19rak1NaU5WZDNkUm9GVkplRC16SzVHZHBMZXZQX3NlcjlB?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "\"또 물렸다\" 개미들 한숨⋯외인·기관 '폭탄 매도' 부른 악재 2가지는?",
+      "Link": "https://n.news.naver.com/mnews/article/031/0001037949",
+      "Portal": "네이버",
+      "Category": "경제"
+    },
+    {
+      "Title": "비트코인 6만달러선 붕괴…한때 21개월來 최저 - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10c1N6NzJwbTlrczR6cW1HRWx0bkhod0dON240aGpnaXFwWlVQVlNGNTBNM0pOSkJMTjBlaHBDRHN3Q3FsSkRxZ2RINkl3c0xfZkF6VnBmcXg4UlN1ZlZrMUJ3X2VfbTVRV0hGZjhvZ0E?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "비트코인 MVRV 1.1까지 하락…\"이번 사이클 최저치\" - 블루밍비트",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WcDM5eVpaLTRVbDJBRHBpaGpvUjRQbWREeW9Od0RaRlZOQnd3clFfS3VYZTR2ZnZhNTFnbWQ2UXRhNW9Mb3VlSHFwbVFIMjdN?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    },
+    {
+      "Title": "일상에서 로즈우드호텔·신세계백화점을 누리다… ‘더파크사이드 서울’ 주목",
+      "Link": "https://v.daum.net/v/20260626172318195",
+      "Portal": "다음",
+      "Category": "경제"
+    },
+    {
+      "Title": "BYD 또 '갓성비' 승부수…3700만원대 'PHEV' 한국 상륙 - 비즈워치",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tMkdjTXl4NGRzdmEzTFl6aTdTbmZaT3VONm1IRGROTHUtWWVvZUV0RUtEeVFWaGJIYTN0YTRERHVBMFZMM19VSXVpUHFYYy1xMExscXN2aGhDVllvbm5DeUZjRWxFRk4tVFAyaQ?oc=5",
+      "Portal": "Google News",
+      "Category": "경제"
+    }
+  ],
+  "세계": [
+    {
+      "Title": "日 가와사키중공업, 에어버스와 방위 드론 제휴…자위대에 대잠용 제안",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026247",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "이란 협상 대표 “미국은 유전자 조작 콩과 헛소리만 수출”",
+      "Link": "https://n.news.naver.com/mnews/article/056/0012206497",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "美동아태차관보 “韓의 전작권 조속 전환 의지 이해…조건 충족되게 집중”",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729703",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "“우크라·이란 전쟁이 바꿨다”… 인도가 무장 드론 키우는 이유",
+      "Link": "https://v.daum.net/v/20260626111051885",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "이란, 호르무즈 '통제력' 과시하려…오만 쪽 항행 선박 공격 [이상은의 워싱턴나우]",
+      "Link": "https://v.daum.net/v/20260626164416850",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "베네수 강진에 실종자 수만 명…맨손으로 잔해더미 확인",
+      "Link": "https://v.daum.net/v/20260626164816982",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "\"그냥 여행 가도 14만원\"…7월부터 5배 오르는 日 비자 수수료에 中 '발끈' - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KOUtnLWw5bzl2NGh3WDNPSlNEMUEtZDROYVg2UVRrNlFCQVlYN0lSRmFlRXA1ZENwMjdDMkZ5aGNNckZfbW5pX3J0TTF2b1Byc1pfaGIwRTJzZVZYOU9hLQ?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "하이힐이 아스팔트 뚫었다…\"에어컨도 없는데\" 150년 만의 기록적 폭염에 '끙끙'",
+      "Link": "https://v.daum.net/v/20260626152104493",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "부천 중동에는 소사간이학교가 있었다",
+      "Link": "https://v.daum.net/v/20260626170251439",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "\"이란 파워 키워주나\" 걸프국 'MOU 불만'에 급거 투입된 美국무 - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01cmJ3ek5MMXdXdHQ0U1BEbHh2NXNfUGVPdlhiTm9WR3VDSjhLU013X2VjQ3JwMVIxWmV4ZzZscURXWkxRX0NHUkxRMnJvODVCN2lTSDZRaHV5a2_SAWBBVV95cUxPT1dNVjQwU0hLVzQ4Z3RXeXpwWFhHVTIxN2w2Y295WlRKNkh4QXUtS2hfNWlINTd6Q0s3SkZSVXE4WndNYTlTQ2wyNUEyS196Nm5aVTdYamVtY2NnQXVyMTQ?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "Former Shin Bet chief threatens to sue Channel 14 over ‘completely false’  inflammatory comments",
+      "Link": "https://www.yahoo.com/news/world/articles/former-shin-bet-chief-threatens-054231800.html",
+      "Portal": "Yahoo US",
+      "Category": "세계"
+    },
+    {
+      "Title": "Years-old building collapse video from Turkey falsely linked to 2026 Venezuela quakes",
+      "Link": "https://www.yahoo.com/news/world/articles/years-old-building-collapse-video-074905513.html",
+      "Portal": "Yahoo US",
+      "Category": "세계"
+    },
+    {
+      "Title": "베네수엘라, 최악 연쇄 지진에 수만명 행방불명…'골든타임' 앞 필사적 수색",
+      "Link": "https://n.news.naver.com/mnews/article/082/0001387210",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "오만 “호르무즈 통행료 없다”, 이란 “인정 못해”…다시 긴장 고조 - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XZ2c0Q3p5VnA0Vkw5V0Y2d3NQUGVFdG5hbldWaEtYNG5Ob1RBcEZCZmt1VXpjR3hEV2NoOE1vQ0lBdHpYVGNvTzJ3Q0xRS1M4T3FSc1hTa1hSNzNqUVl2X19sX2h4aTloQlZQdmpQNzV6ZWM?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "“30배 웃돈 주고도 못 구하더니 이젠 헐값”…중고시장에 쏟아진 ‘라부부’",
+      "Link": "https://n.news.naver.com/mnews/article/011/0004635379",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "韓 서킷브레이커에 日 증시도 '패닉'…하루 만에 3700 폭락",
+      "Link": "https://v.daum.net/v/20260626132702293",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "밴스 부통령도 결국…\"충격받은 네타냐후, 패닉 빠졌다\" [취재파일]",
+      "Link": "https://v.daum.net/v/20260626104809738",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "낮잠 1시간 넘게 자면…사망률 높다는 ‘깜짝 통계’ - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KYU9VU1hLbHNCNkdGM0NvVlgwNEdDMlRWOFpzWDNVZktDbnFab05qb2xvUmlhU0stNnFVQUNKZmZqaTJkZ2xVN2dJdWNGa2MtRFVFeHZnaVBIcURsbmpMZ25xNkZUU29ad2xHYmkyN2h3T1JmV25KTg?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "\"美 중동기지 일부 이스라엘 이전 검토…이란 공습 피해 심각\"",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005781984",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "김종대 “종전, 마음 급한 트럼프는 된다 우기고 이란은 부인하는 중” [김은지의 뉴스IN] - 시사IN",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RbWQ4d0k1ckVJenh1clZPQUp1V1BURThXdmc2M2tvelY2b1NEMGl2bVJJSGN5dXNiMnJlZjVVMWF6X0pXcGNnMWZza2FnaVlEVXJScWFhbGQzMjNCd0JrbkhqQk1aU09iMVE?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "유럽 폭염, 관측 사상 최악…\"기후변화 없었다면 불가능\"",
+      "Link": "https://v.daum.net/v/20260626171651994",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "스페이스X 의식했나…오픈AI 상장 내년으로 미룰 수도",
+      "Link": "https://n.news.naver.com/mnews/article/437/0000498154",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "전쟁 끝나나 싶더니 더 센 놈 온다…\"쌀값 100% 뛸 수도\" 경고 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQR195YWxsdmRKMWJjRUMtSXQwWlFQWXRBd0xPWGhJVGZ4dXU0VlVrS3FFRWJsaUk0VFJHbHpnM0dVN0VkMW9uMlF3c2ZXSHphcW80RjBpZWJjQdIBVEFVX3lxTFA5azExbkJOd2xLWEdZNlFyeEc3TUVKUmNEZ3J4NjNWSUhiY0JRVGY0MnpZc21vcExTT29jb1FRWEczaURTWEFuaUdodUUzOVdYY09UdQ?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "“한국 잠수함은 미끼…캐나다, 한국 돈으로 트럼프 관세 손해 만회” [밀리터리+]",
+      "Link": "https://n.news.naver.com/mnews/article/081/0003656263",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "인도, 이란 석유 수입 재개?…양국 석유장관 뉴델리서 회담",
+      "Link": "https://v.daum.net/v/20260626171209822",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "트럼프, 對튀르키예 '차세대전투기 엔진 수출금지' 해제 추진",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030766",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "푸틴, 최악의 약점 들켰다…나토, 러 비행장 통째로 마비 노린다 [밀리터리+] - 나우뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qWG1IbmdBMlAwWXFaUng2RUg2R3VoVzQ4QmFib0hVbDNFMkQwY2RYdkt5QU5jeGZIbnlxU0lkLXAyT21XN3Z0amdUbUo2dFJvUVR3QThfUnZHckREek5YYjIyVHY4NFhENVB6TFFpTUE?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "“왕도 소득세 낸다”…찰스3세 3년간 610억원 납부 내역 첫 공개",
+      "Link": "https://v.daum.net/v/20260626165200096",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "마윈 알리바바 창업자, 하버드·MIT 등장…언제 경영 전면 복귀하나",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030986",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "\"오염되지 않은 깨끗한 여성 찾아요\"…'女 비하' 광고 결국 '삭제'[이런일이]",
+      "Link": "https://v.daum.net/v/20260626134500854",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "베네수엘라 '126년만' 최악 강진, 트럼프 '경제 보호국 구상' 제동 거나",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377727",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "“적당히 성공한 코미디언”이라더니…트럼프 “젤렌스키, 꽤 일 잘하네” 돌연 칭찬 [핫이슈] - 나우뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YLWk5ZWpVQzhlX2ZkSXhZU0owS3RMQmRPTURDRjV3S0JObzg2aVJuRFo3ZC1iRGtjdHYxblBjdEI5NlJ1U294YWQ1aXY0c3FhbHdZX25rdDJKRkt5TENQNWtodlMwbEFRSHpocG1PUW0?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "찰스 3세 영국왕 연간 세금은 260억 원...왕실 납세 내역 첫 공개",
+      "Link": "https://v.daum.net/v/20260626151032081",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "San Diego-Tokyo flights to become daily due to high demand",
+      "Link": "https://travel.yahoo.com/flights/articles/san-diego-tokyo-flights-become-050751322.html",
+      "Portal": "Yahoo US",
+      "Category": "세계"
+    },
+    {
+      "Title": "에펠탑 조기폐장하고 학교 문 닫아…6월인데 40도까지 치솟은 유럽, 무슨 일? - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xY0RROWh3QXBLenZJS3VrQlZVUC01TGVTN3RXdUhXVXJySEhtaS1HMWN3VVlWanlxQXdPNzZyR2pOSWluV0dBbEJqTW9sSXJBN1E?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "트럼프 “미친, 앉아!” 공화 의원 ‘싫은데?’…군사행동 중단 결의안 충돌 - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Qa1JlT2JYTzZrZnZFMzBCeG5HYmYyc1NNcEdfYVVnQUZMaXd6RkN0ODBEV3hZaVBvY2N2Ml9mN2hRT2dMN1lPSks3aDhtc0RaN1lGZVhINlhMd194NGJHaExES3FqOE5JRGp4RTFnVQ?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "트럼프에 불어닥친 ‘이란전 삼중 역풍’ - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVlpMSFhIY2d1MEFCa0hFS0dDWWhHdlV3TXB6QTVXOGY3OElxRER5bjNPZEhBcEM0VmlZTkdVLWFneGNvOEUtejNJQmNEQVRTcG9LZjNkQ194UWJ2VDFDZjllT2F2M2YyYlIyZUhyZzI3N1R1QThQNWVqcTR4bmY2bkJLZ282ZFNjdlRocVBkMFVrV2FDVHRVRzk5aTFPUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "\"여자는 진급 제외했다\"…폭탄 같은 대통령 아래, 폭탄 같은 참모[World Photo] - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rM01iQ1FXT1ZKbVF2Zk14dWtSZGpPNnhyam1OY2FBQ244RUtTLS04UTJ5c2ZLTHRyWVNDcEhMWGlRdEY5bGdjWFFEa3h3YWx5Tk5xTHlTM0JHRC1NU3E0YVV2blhycHp0RnBiVk9pRVk?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "20년 된 에어컨 내부를 뜯어본 기사의 말 \"역대급입니다\" - 오마이뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Cb242bVJtQ2xPeVQyR3FpS0Q3QlZpLXAyalliSUJyWDd4UURudmFSOUVISWVEeV9BZXhQdTRudFVBM3c1U3k2QVZXd0tYdkxVZzRHaG9tY2lHSXJ2U2R3NVBNOUhTalVKMEVOVHJHbzMxUDBvTzlr?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "美정부, 앤트로픽 '괴물 AI' 외부 제공 막자…中, 빈자리 치고 들어왔다",
+      "Link": "https://v.daum.net/v/20260626163406539",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "네타냐후 \"작년 이란 공격 트럼프 허락 안 받아‥통보했을 뿐\" - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CWk1KTk9fd0dYbjV5WjVFemNpb0tGY1pScG80MEkxNFNYZm9PX0RobUlYYnhVb09iWnFkbE1GQnZuRlhhTm1DdVg5cDQ1RmkwRmhrbV9PT0JTMDlrQlN1eFJSTXVEd1U4SEx0WFFkaFVVSU9x0gF0QVVfeXFMUE9xNUp5YThIdW1saUpPejU3MWxzRDktR0Fna0hZckFldTRQSnVvRGZ2bXR5VUdKYmkyRGRKRTBRajA5d0JyZ2VEWlE3TnhuZTRTRVFZYXpwV3lOZ2FCYl90Q19IVTJSNzlPczU1TTZwaFhrZ1A?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "\"지구 아파\" 에어컨 거부 프랑스 돌변…역대급 폭염, 대선 흔든다[WHY]",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377720",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "中AI, 인력·자본 공격적 확충…딥시크는 조직 2배 확대 추진",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161927",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "IAEA 총장 “미·이란 종전 합의로 이란 핵시설 접근권 보장”",
+      "Link": "https://v.daum.net/v/20260626165653226",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "美국무 \"호르무즈는 특정국 소유 아냐\"…이란 통행료 구상에 경고",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014029864",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "베네수 강진에 수만명 행방불명…'골든타임' 앞 필사적 수색",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161862",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "“한국, 전쟁하면 북한에 패배할 수도”…트럼프도 손 못 대는 진짜 이유 [밀리터리+] - 나우뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BOGN5Z2NjbVZUZUhiUUFGLVNNSUgzVXVpYWEyU09QZDh0UE5DeVpuQkFjSExDLV8tSVJYVWEzai1GUVAtTWZKcm16VmxJcjF4OXNtajl0WVM1bTVUUUM5SE1jazhEampUTGVBSUkwY1o?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "트럼프 지지 일부 우익도 변했다…\"이란, '악의 축' 아닌 공존 국가\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030697",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "베네수엘라 강진 사망자 최소 235명, 약 4300명 다쳐",
+      "Link": "https://n.news.naver.com/mnews/article/014/0005540104",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "베네수엘라 최악의 강진‥수만 명 실종 등록",
+      "Link": "https://v.daum.net/v/20260626171005735",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "'중국산이었어?' 日 발칵‥자위대에 온 선물 '반전'",
+      "Link": "https://n.news.naver.com/mnews/article/214/0001507994",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "IAEA 총장 \"미국·이란 합의로 이란 핵시설 접근권 보장\"",
+      "Link": "https://n.news.naver.com/mnews/article/055/0001367612",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "\"일자리 뺏기고 콩나물 장사\"…中 숏폼 시장 흔드는 AI 열풍 \"사이버 대학살\"",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005782025",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "마크롱 \"美, 더 이상 우크라전 중립적 중재자 아냐…키이우 지지\"",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026135",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "中, '대만 인근 공무선 투입' 서방 우려에 \"정당한 조치\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014029109",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "\"돈만으론 안 됐다\"…맘다니 좌파 돌풍에 월가도 전략 다시 짠다",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030895",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "이란이 미국 파상공세 버틴 비결은 벙커버스터도 못 뚫는 지하 미사일 기지 - 주간동아",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5TdFd4dndadkZ5UU93TkFVRHBhWGJzQ0d3VFU2bjN0Q3c4TmQ5NHdlc2RMdzlCalk4cWYwZjFOamo3NlJ0UXhWMFZKd1FFVFNvWENsRnRoZGFucWxSMExYSlgydE1Hdw?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "베네수 지진에 4만명 넘게 실종 …\"맨손으로 땅 파며 구조\"",
+      "Link": "https://v.daum.net/v/20260626172108146",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "[특파원 칼럼] 대사관저의 불이 꺼지지 않으려면",
+      "Link": "https://v.daum.net/v/20260626144101031",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "HSBC \"SK하이닉스, 나스닥 상장으로 20% 재평가 가능\"",
+      "Link": "https://n.news.naver.com/mnews/article/374/0000518498",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "Europe's heat pump boom now delivers the heat of 200 LNG tankers, saving over $11 billion",
+      "Link": "https://finance.yahoo.com/energy/articles/europes-heat-pump-boom-now-051200248.html",
+      "Portal": "Yahoo US",
+      "Category": "세계"
+    },
+    {
+      "Title": "3년 뒤 물러날 다이먼의 후계자는…JP모건 차기 주자 2파전 압축",
+      "Link": "https://n.news.naver.com/mnews/article/011/0004635332",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "'더블 태풍' 북상…일본 열도 폭우 우려, 도쿄 교통차질 가능성 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12WDdZMEI3N0dKamZlLTlhVnRUSEVoaUlIRjM2V24zV2ZiZHJ5NWxPa1l2OUljSVZra3BHSndwVk5sNllHa0x3X2tRU0d1ajlsZGRtYl82Y0NwUdIBVEFVX3lxTFB6Vm9jZDFpV29BTUJRZlRfcUdCVXM5WUUyRTlDU0RBQ2JuSmhRdXNhR3RZVE1kcE94bzRFQXRJN052akdkdnVzWWJtQi1sTHdZS2xJZw?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "Clip of building damaged by Taiwan earthquake falsely linked to Venezuela tremor",
+      "Link": "https://www.yahoo.com/news/world/articles/clip-building-damaged-taiwan-earthquake-053830201.html",
+      "Portal": "Yahoo US",
+      "Category": "세계"
+    },
+    {
+      "Title": "美공화당 대권 경쟁의 서막?…밴스vs루비오, 이스라엘 놓고 노선 충돌",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026224",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "“SK하이닉스, 나스닥 상장이 기업가치 20% 끌어올릴 것”",
+      "Link": "https://n.news.naver.com/mnews/article/030/0003441731",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "맘다니 공약 현실화? 뉴욕 임대료委, 임대료 동결 승인",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315778",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "농심 달래는 트럼프…\"이란, 동결 해제 자금으로 미국 농산물 많이 살 것\"",
+      "Link": "https://n.news.naver.com/mnews/article/055/0001367600",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "사상 초유의 ‘쌍둥이 지진’ 발생…‘최대 10만명 사망’ 예상 나온 진짜 이유 [핫이슈]",
+      "Link": "https://n.news.naver.com/mnews/article/081/0003656232",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "남아공에 충격 패 한국, 32강 막차?…경우의 수는",
+      "Link": "https://n.news.naver.com/mnews/article/030/0003441443",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "\"이게 중국산 코딩 AI?\" 美전문가도 놀랐다…제2 '딥시크 쇼크' 또?",
+      "Link": "https://v.daum.net/v/20260626144518177",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "AI발 쇼크에 日증시 '와르르'…닛케이지수 4.15% 급락",
+      "Link": "https://n.news.naver.com/mnews/article/014/0005540228",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "\"미국 우파, 이란에 인식 변화…끔찍하다→강하고 똑똑하다\"",
+      "Link": "https://v.daum.net/v/20260626163600585",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "트럼프 \"이란 돈으로 美농산물 사라\"…이란 \"헛소리만 수출하나\"",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315960",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "美 세컨드 레이디, ‘8달러’ 산모용 드레스 영수증 인증… NYT에 유쾌한 한 방 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ09ucHphdlI1M0xJZk4xMXFSZlNBQmJfdW04cjJVTmZSWkhoSUl0R1I1X1hpcC1fUHIyTEd1MXpqeVJSeloxTXBoTEpmZ1JRajZaZTNicFhjcmRFcEh3Qk5Hek5NdnotMjd6UE40V05Hdm9VZTlmOVZoUXZlOGY0R0drLVU?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "데이터센터용 전력 확보 경쟁 아마존·구글 선두권",
+      "Link": "https://n.news.naver.com/mnews/article/374/0000518496",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "지구에 대재앙 닥치나?…베네수엘라·일본·미국 8시간 만에 연쇄 지진 왜? [핫이슈]",
+      "Link": "https://n.news.naver.com/mnews/article/081/0003656285",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "전력망에 5년간 1135조 투입...中, 태양광·풍력 비중 절반 넘긴다",
+      "Link": "https://v.daum.net/v/20260626132616275",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "호르무즈서 화물선 피격 신고...이란 \"지정 항로 지켜야\" 경고",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377449",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "공급망 박람회 亞최대 규모 참가한 日, 중일 관계 개선 물꼬틀까",
+      "Link": "https://v.daum.net/v/20260626151946415",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "2022년 즉위 찰스 3세, 개인 소득세 600억 납부…“왕도 세금 냅니다”",
+      "Link": "https://n.news.naver.com/mnews/article/030/0003441712",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "“한국인 오지 말라더니…돈은 필요?” 日, 외국인 신칸센값 대신 내줘 발칵 [핫이슈] - 나우뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aM29HMmJiQi1xUFpHWFF4Vjl0MTFIVlotR0I0dTZLMjNXTVo4Q1pJdnY4Z09TcFp4eVFrNko2N0lyeXRXaXFkNGI1VVJtZV81R0NFc2ZueDBRZmhWX3Y3QU9OVDl6bEVMN1RTbG1od0E?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "첫 지진 39초 뒤 3배 강한 충격파 덮쳐…액체처럼 지반 흔들려",
+      "Link": "https://v.daum.net/v/20260626164638926",
+      "Portal": "다음",
+      "Category": "세계"
+    },
+    {
+      "Title": "[이슈ON] 주택 건물 와르르...\"수만 명 깔렸다\" 구조 상황은?",
+      "Link": "https://n.news.naver.com/mnews/article/052/0002371405",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "베네수엘라 지진 사망자 최소 235명...\"실종자 수만 4만여 명\" - 한국일보",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOM0xEd2RhOVl4SjZlcVdzVS03cVJWY2FMejZUb1ZkMzhOMmpCVzFZSjlvdXpXLUxUUlNFLXhjcFNRMlFwNHVsQTZOWXBYbG5UdXQxV1FyWURmS3Q2ZFNhbm1JcldGS1JSTGl0ZjZR0gFzQVVfeXFMUDBHUjNhRWYxenljNFRIeEVRaUNiWE9fYUI5blFYdW9jWFZjeWpPa1ZGeTRkT096MXBOeUVmR29EUEhHMWVjV0lydXdnNnpta1NOUFZlUU9mTU1FQXNpeG1XeTI0YVFNbmlNR25maGxSWEx4VQ?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "[단독]美 “韓, 반도체-핵심광물 등 공급망 안정화의 핵심 파트너” - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tbkhEYkE5Sy1PM1BUMU5LRm8yNlFqaVpYS09yeVVPeElaNl8yLW1BWkd6aS0zajFZQzdyYk1qZWEwYk9TQWhWVTZvZmI5Z3BaNC1WbktCalhNRDZuUnk0R1N3WjF2bUFxNFotVDF1T09ZSVHSAWZBVV95cUxNZzB3SUZBMzdWR3UtaHo1bHp2Sy1hMURkN0l0TDh2ZTZZZzBmbFlfTkd3cHlhOUdNLTVreUozQU5la3FZYkJUZUtmaEdRZC1VZmVsbDVSdmxKLWR0Q2NtVGFQeFNET1E?oc=5",
+      "Portal": "Google News",
+      "Category": "세계"
+    },
+    {
+      "Title": "애플 이어 MS도 가격 인상…\"메모리 대란, 소비자 부담 본격화\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030740",
+      "Portal": "네이버",
+      "Category": "세계"
+    },
+    {
+      "Title": "中관영지, 日기업들 공급망박람회 참여 부각…\"다카이치 향한 신호\"",
+      "Link": "https://v.daum.net/v/20260626134302802",
+      "Portal": "다음",
+      "Category": "세계"
+    }
+  ],
+  "IT/과학": [
+    {
+      "Title": "엠게임, 주주환원 보폭 넓힌다…또 자사주 매입",
+      "Link": "https://n.news.naver.com/mnews/article/648/0000048387",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "英 의회 기후금융 제안서에 'XRPL' 등장…재생에너지 운영 인프라 되나 - 디지털투데이",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmMFc0SlFJdFFidlBmY2V1MFhFSVNoMW1oQnRqczBPVThraEVRT0hxYWtEelJNYXVpM3lmcXJlRWk0TjdzbUJhckxvWkJUaHNSbUlyRXNnSFl0eU5JQmlOcmVzOGU4djRpOXZDR0lhQ3dsWjQ?oc=5",
       "Portal": "Google News",
       "Category": "IT/과학"
     },
@@ -7159,393 +6961,69 @@ window.LOCAL_DATA = {
       "Category": "IT/과학"
     },
     {
+      "Title": "스페이스X, 소비자용 스타링크 출시 계획…美 이동통신시장 흔드나",
+      "Link": "https://v.daum.net/v/20260626173057421",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "북한은 왜 스테이블코인을 총애하나… FBI가 추적한 ‘심현섭’의 정체 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbEpjS0FJN2tYQWJ6Z1hCLXRkV1ltWnFwOF9VOUVWN0N2ZG9ENEZFWF9CZzB0ZVU4RThxTXpPRzNOYzFsRVdqeGktUG5SNV91cm1NWW5YQXJQSzVWdWI1NzBSMzhMZ09YcUxNY3Vsc2tHOENCRWF3UDR6WnhNZ2dTYi1CZGZIVnlwNHVFTDFB?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[탈 앱마켓②] '수수료 절감' 뒤 숨은 그늘 '양극화'...D2C 전략으로 '체질 개선'",
+      "Link": "https://v.daum.net/v/20260626150313807",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "아이폰·애플워치 값 안 올랐지만…\"가격인상 시간 문제\"",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428241",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "“애플워치 왜 사?” 에어팟 프로3, ‘귀에 심는’ 심박수 기능 수준 봤더니 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mWkZhM0Q5emVFSnVJTVpYaW9PWWNHSlg0Mlc1NVNnbVpuSHF3UzBxckh5OUdXaUhWMndfV0Fib0VHZFNYTWh3Q3hLTUp2UGxMdWp2b3pB?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[DD퇴근길] 카카오 노조 29일 로그아웃…주가는 바닥뚫고 지하실로",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232261",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "AI 시대에 아직도 '시내전화' 지원…\"30년 묵은 통신복지 손봐야\"",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315908",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "도깨비의 이야기를 파는 개발팀. '망량기담' 개발한 '망량상회'",
+      "Link": "https://v.daum.net/v/20260626134501856",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "스페이스X에 알고보니 한국 부품이…사천에 있는 알짜기업 어디? - 머니투데이 - 머니투데이",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPWkl3TzZCVnM1ZjQ0VUJZVGZreE9UVTQ1UUxfV190c0RLN0ozU3JvMnJSQXJxM0JZSVhaanN1LVBLZjhHV0twdDE3RThCaUxTelZhT1pMYk5OM3VnTmNRSW45bVphTTDSAWxBVV95cUxQQl9xSHVCTWZkN3pjZHlBYzZ5Nk8zTGdYSnlKendXRmRTOFdoMHQ1bHRMdFBNeGZZNFpZNFdBQzNaRHB6czN1LXM2N0hkQWF5NXJ0dlQ2bGU5VWRKeXBudmdWMnE5WU9tVFVkVWo?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "머스크, 2주 만에 ‘조만장자’ 타이틀 반납 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RcjRXLUtlTFI5Wld1ZlRETVk3eWd3YUxJVW90SUpUaTQwbm91dk1RU3pRQmZRM21pVnVjRkR6Z2h2aXpDNER0TzBuaGdkdw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
       "Title": "“앤트로픽 버렸다” 미국 개발자들이 중국 AI로 갈아타는 이유[딥다이브] - 동아일보",
       "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PWU1iV2FfclVfdUZydmFwSFBuaVpNSi1lOUlCMC1LTmJCczB0ZGFhcldkUUdubG9QaXZVZnBPWVBSaldua2JuNTFFamVtcVE0QXp3c280bjV2OHdScUV0MjRUV01peWJMSnFNR0hqRjJvSEVOWmfSAWZBVV95cUxPNnRaeHBWOFhRVGEtYUZJdExXclA1UUJZTjVMQml0T1Z6RE1EWjJGR0t2OFNzVWVzelpwa0R0bVRZcWk1XzBsWDlxei1keU9saE81emlkc1ZUQUZPQzFnZWh1Z0dzcEE?oc=5",
       "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "붉은사막 1000만장 간다…DLC 개발 '착착'",
-      "Link": "https://v.daum.net/v/20260626075502572",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "EU·NATO 및 동유럽에 우주 민관사절단 파견…14개 기업 참여",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161123",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "비트코인 급락에 풋옵션 몰렸다…시장, 5만2000달러 대비 - 디지털투데이",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE92c2lmMHphYW9ualFmemx4QUw4V094QzZWcXYzbjFoanZoQkxfUFp3clRPWE4zT1luZ1JKZkYwVk1SaXlRS1RCYXdrWUdqblYtLTExTnA5NjFZN2xmUjRLeFJERi05YzBub2I3cTBOajJzbTg?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "디즈니 \"정부가 압박\" vs FCC \"ABC가 허위 광고\"",
-      "Link": "https://v.daum.net/v/20260626130904795",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "비트코인, 100억 달러 옵션 만기·PCE 앞두고 6만 달러 사수 분기점 - tokenpost.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjOGdJaHhCVTlWbmRyOUVseEI1YV9LdklmeUVsOEswNkluMnVQLWxHZE9hMXltRXppcGlmRzRnM2dzR2pYYlFXYk1JTGppaXl1RFltVGw2c3NFcEtZMlV1ZtIBZkFVX3lxTE1fT1hzbzZjaEF2ZHZNN3pXT1dkemYzVDl0MnN5MVBsakNUcnQtbFl0dlRoOXVwcDU1NURuaTl3YlRjN3lfZXF1MDRDVnZ1WXgtRkRWSDZNTVYydjQ2elI2Z2Nkb0ptZw?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "엔비디아·구글이 양자칩에 베팅하는 진짜 이유 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVndWZlNLWElmRkhGYnVVRkltU0dOaEVNZlFjZXhlT1dCdE0xeW12b2QtcV8wRWluTG00R0N0b3l4Y3dTTnNiMkw1cWpUdnlJVU1hdVFyLUR5bUlaazVKZkJfd0pldWExelprc2RQc3FxTWVxNkptZmJqMHdaZFJHZnFEdF9NZw?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "SK엠앤서비스, '안전365솔루션' 활용 광주 중소기업 안전관리 간담회 개최",
-      "Link": "https://v.daum.net/v/20260626130149434",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "KAIST, 8개국 학생 창업가 연결한 플랫폼 첫선…中 '패스트스웜' 1위",
-      "Link": "https://v.daum.net/v/20260626130117411",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "네이버, 대화로 검색하는 ‘AI탭’ 본격 등판…8년만 검색창 대개편",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002661894",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "꿈의 ‘1나노 벽’ 깬 IBM… 반도체 패권 흔들까",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656039",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "잘나가는 삼전닉스 '이 신호' 뜨면 위험하다 - 아시아경제",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42clhhZU5TY0lrUDdreE1BcklaMVk5b2k2T29RbS1kOXJoWVp1WllOdEdaWEt3blAxXzBUdHc2N3BUTXpONjN2bXAzWXl1aUE0WkNzX2NwNEJXQzJnQmQ5M0hUQ1dsMlg5d3p4clBObkU?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "베네수엘라 강진 큰 피해 이유는 '더블릿'…\"美·日 같은날 강진, 연관성 없다\"",
-      "Link": "https://n.news.naver.com/mnews/article/584/0000038237",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[속보] 軍, 장거리 자폭무인기 'K-LUCAS' 전력화 추진 - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UcUFNMHZzQjkyak5wVF9EOUt0S2xQYW5faHdBc3VJNEk4Y2NJQW9tUXMzaHNMU09TaHhNTlFUNUJESV9DbDloWlJUNFJBaGtYb3RmeHljZXh2WVJjVlpYNNIBYEFVX3lxTE9UcUFNMHZzQjkyak5wVF9EOUt0S2xQYW5faHdBc3VJNEk4Y2NJQW9tUXMzaHNMU09TaHhNTlFUNUJESV9DbDloWlJUNFJBaGtYb3RmeHljZXh2WVJjVlpYNA?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "애덤 백 “비트코인 저평가…전환 시작” - tokenpost.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9USFNmX0VEeDJ4SzBEQU92ak9MYS1oM1QzenZyd0ZqTU9lNGdkeTU3RE9WR2c1ZDRRRzVoRGxaYW5lX3Z0b1pzaWRYbzV3dE1YMDhsQm93R1_SAV5BVV95cUxNZnAtdUxUcElyaG85dmJCWFNMOEd5MmhiTWx6REI0MXg3dEJLZ2hpZURDOFRCVUdkRTJZclZUa2dGcFJNUnMzekJNSTRxb05nTFFjLW9mNXVuY2ZQel9n?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "메모리 품귀에 아이폰18 프로도 비상…얼마나 오를까",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428166",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "韓위성 15기 태우고…누리호 5호 9월 쏜다",
-      "Link": "https://v.daum.net/v/20260626040217528",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"연결 중입니다\" 대기 해방…채팅으로 통신서비스 해지한다",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025357",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "LGU+, 생성형 AI ‘휴대폰결제’ 고객에 최대 45% 청구할인 혜택",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002661853",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "하나은행, KISA와 ‘맞손’…금융권 최초 실시간 스미싱 탐지 서비스 가동",
-      "Link": "https://v.daum.net/v/20260626130230499",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "임직원 10명 중 4명 해킹메일 열었다…12.7%는 악성코드 감염",
-      "Link": "https://v.daum.net/v/20260626130803762",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "삼성전자·하이닉스도 기대, 2분기 영업이익 150조 전망 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRZldGWnpfcHBqVzdLSGVYanJRUnFMMGlPLUdLOW45Y0R0dDZUZzdnblo2RVloNVFlZFV6UzVXel9CZzc1Wmx3dm91N0t5dUE?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "IPO 앞둔 오픈AI, 재무 상태 폭로 문서 나와…\"완전 난장판\" - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lRk5Wdk4xSzlQTDRCRThhTjBmRWxwcWI3RHNhRHlTNnJwVnI5azRaVWNRTGQtLTg4WkdVMTYzTVNmZzZzdENOSWdhMDZlbXlYZUlLbWttSXN0dkJ3aXhuYlFIdjh1QTdEVk8tWUtSUUbSAXRBVV95cUxPZnB6MUlxYWEzYS1jQXlkdGRlZkxULW9NM2FWeHQ1cEZuTWxpcE1sUDRjSDJ2YUZ1RXd0bTItRjZtOW5hNEZ5X0xkSm1IY2ZTQUpkZHlFZElQQXlhRUhlcmFxX04yN09IQWl3ZEU0OTJ4UU9BVw?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "‘행정기관’ 강조한 우주항공청장, 민간 출신 직원들 입지 흔들릴 수도",
-      "Link": "https://v.daum.net/v/20260626103600184",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"우와~ 로봇이 인생샷 찰칵\" \"K팝 댄스 대박\"...韓 휴머노이드에 '환호' - 머니투데이 - 머니투데이",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWTVVqcVM0cG5rY1lJQThYck1yMGVnc19TZDd6ZHpPbFJmWF9uVFRlX1BGa0hxazdUaS1Ja2QyWUxzOVNtZkVKc003T3BqSG1jdTU4RWd2LVNKc09URjlmLTVUZi1HbWd1blBZONIBckFVX3lxTE52R1lmZzVsU1ZHeHd6TWpsSk11MnRBaEJPSmZoNGJEWnVhX05WWUxGc1A1QWVVVHZ4QTZERnhYcEtlRl90RXN4OG1JbmNYa3FGOWZ3Q0JqQ2hMWVFoRm9LQUFfMFhmdVpHRnY4Z0xDdUhSQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "LK 삼양, 초경량 줌 시스템 완성 AF 60-180mm F2.8 FE 출시 - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HcGVsX002bjlGd0hfMDZBTkdUeW5Ccy1aRU1lS0NKTVJGcWoxRmFldnVMUWFWS24yNENQdkxLV3dEeEJ0N2pYOHc3X25Dd3Z5ZVRF?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "AI부터 기후변화 대응까지…대우건설, 지속가능경영 체계 고도화",
-      "Link": "https://v.daum.net/v/20260626122203635",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"비트코인, 주식시장과 더 닮아간다\"…한은이 짚은 연결고리 - 블록미디어",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JLW03cFpmRlFiTTIzc21IamRld09rQmZfMWNHV0dOSGFiMzVtNXh0WXJVeWNxUDFPRk1hbDhYcVZ1WlB0bGVkOTkyb3RjNHZjQ09tNF9hODc?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"치명적 결함 0건\"… 리플(XRP) 대출 프로토콜 재감사 통과에 기관 투심 '들썩' - 글로벌이코노믹",
-      "Link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPejBLRDJKSGZwQWZEb0NxRUZMb3JmMEhVcVhiRmRPTnRvNV9yRWxOeV9haVpGNENpakhMbkNTMW45RU5pUlp3cEdSM2xIdGJET1lMTmRMM3dmQTZnR3VDRFZEWmd5RGpHTkdWbVo4cGcwcWE0S2l0MUUyMHN0bE42Wl9oZzZPWTQ?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "달리는 차에 ‘손목치기’…“휴대폰 부서졌다” 1370만원 뜯은 20대 - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YZlR6N2llbGxXWFc4N3h1WUMwZzJzNnY4dEZabFVHb0tMbVpkZnAyVkVUZmRkUDRMLVZnVURvbnhRM1g5eGpOanhqb3hGZVE0X24tNl9ubUhWdmJaWmRNSExBWWxGekpRTnBicXRFM3gtQmh4QmfSAWZBVV95cUxNb0p2MURJWDY2M1JsS2E5WFp6TUVnakRGRjQ2MW90ZWJhcUhrVDF4Y2ViamNaTHQtV0dDalE1VmIwSWRTbjR1T2t4V3IyaWUtbWJwdTdiSXNNX2dRSV9OLV9JbGJwR3c?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"챗GPT 답변 80%가 좌편향, 제미나이가 가장 중립적\" - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcDQ4TndETjdWa2lsRktBOHZQQ0psS0pRUl9JYTUtWkNFTkdhZFFYV0dhMmJLc3VYWUszZU4wTFpNYUFJSldFQ0daQTlGZDBMS1JFWHF2cDZjbHd0Y0hSNmhIN1JvbUJpWlVURVdFYzFzb05QRVZEUzVDc0l3YmhhQmY1Zw?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "한국생산성본부, 충청권 중기 AI 전환 지원… 기업당 최대 783만원",
-      "Link": "https://v.daum.net/v/20260626130345566",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"AI 범죄에 체계적 대응\"⋯범부처 협의체 공식 출범",
-      "Link": "https://v.daum.net/v/20260626130542671",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "Micron is looking to end the memory industry's boom-bust cycle",
-      "Link": "https://finance.yahoo.com/technology/article/micron-is-looking-to-end-the-memory-industrys-boom-bust-cycle-193630909.html",
-      "Portal": "Yahoo US",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "머스크, ‘X머니’ 서비스 확대…X 슈퍼앱 구상 본격화 - 블록미디어",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45ajFBZHcwTUQxclhxMkwwa3luQmVOelRENXpJUFFEZkJualEySWpzaVk1VFRaNmp2c1ZhTE5ndURKRTZmMlVNNmxLNFhDeTVrTHpyRk1rTEY?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "자고 일어나면 오르더니…'112만→80만원대' 금값 뚝, 매수 기회? - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VaTEwemZETzFYaXpNRGNiaWs1SnlqNEpzdEtlOHFVbGdhOGttUl9xSTM1cnU5Y2lRQTRETFVfYUZaRlA1cjJ3Zm8yeC1JbUFYR1Fv?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"로젠로펌, 스트래티지·STRC 조사 착수…오해 소지 사업 정보 제공 가능성\" - 블루밍비트",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mOXVUeG1ITjNPc20xOWlIME1WSEJTZGgxRU9LZmFKYzhKLW9iX2dZUU5seFBQT01ZV3BwNlRGZ0lsd2QzRTZ4bDU5RDdGY1p5?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "클라우드 토큰 비용 폭발…인텔, PII 탐지 정확도 99% ‘슈퍼클로’ 베타 부상",
-      "Link": "https://n.news.naver.com/mnews/article/138/0002232209",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"보안에 휴머노이드 로봇 적용\" 아이엘, 에스텍시스템과 맞손",
-      "Link": "https://v.daum.net/v/20260626130231503",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "Apple increases prices for Macs and iPads, blaming a shortage of memory chips",
-      "Link": "https://finance.yahoo.com/technology/articles/apple-increases-prices-macs-ipads-185354948.html",
-      "Portal": "Yahoo US",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "AI가 메모리 빨아들이자 맥북도 올랐다…가전·PC업계 원가 압박",
-      "Link": "https://v.daum.net/v/20260626122431681",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"애플, M6 프로·맥스 없이 M7 바로 간다\"",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428149",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"왜 바다에 버리나\"…ISS 철거 계획에 비판 목소리",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428146",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "아리랑 6호 또 1년 연기…9월 누리호 5차 발사",
-      "Link": "https://v.daum.net/v/20260626054750387",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "신지 \"이지혜가 광고한 속옷 주문…알고 보니 AI\" - 뉴시스",
-      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BV1BuLUtCOFJlSXlFV3FsQ2J1dUt4aHRvLVVRSk5SV1VYUS1MNE42T1lwTndVVEdtM1pYNTRnTjZXZzhOS0hRNTFyLWU5ZGlZQm92dWk4M1dxUmlwRGxVSERMWFDSAXhBVV95cUxOUVpGWGZsQnI5UmNXbjZmeEdPWkZfM0ZCQUM3dGRRcERzVTdNSUMxTEstTGFVeTFkTXhpUEJneF82MFNXcm52YkM5RE1WVi0xb3NlcV9QRWVqRG1XS3hiYTBRYU0wSXVOazRkTWwydmxTOE9mWFp4U3I?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "남아공전 졌지만 韓 32강 확률 87.6%… 시뮬레이션이 찾은 ‘승점 3점’ 커트라인 때문",
-      "Link": "https://v.daum.net/v/20260626131251904",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "화웨이 \"AI 시대 통신사 새 수익원은 토큰\"…MWC 상하이서 전략 공개",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315547",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "IBM, 세계 최초 1나노 이하 칩 기술 공개 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOThHaDVqOXVoX3V4cHJSR3hDWHdfY3hHVEFwNFdaZjAzWDItd1FzSWdjanNjQ1h4a1lfcmFoYWpjOTU2LVJET2pjOFVORjVBSW5mQXJJR1JDVTRXdVgyWVlLajlzNEZXMVlFWUF4MEN1ajdqMENfMEFZM01jUEJlZkZLMA?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "AI 호황 올라탄 日 키옥시아, 하이닉스처럼 미 ADR 추진",
-      "Link": "https://n.news.naver.com/mnews/article/023/0003984249",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "軍, 드론사 해체하고 ‘국방드론본부’ 신설…정찰·자폭드론 2만대 확보 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV1RCOU5RZjdJeFhoNUtNd2I0dktCcGtrRzZseTZwQWtmQXhoX2I1LVp0Yk5KXzhzaWpxZFUtR3VBZVlTMVAtODNmc0x1dHZNM0RkRmNrV01NNHlwTk10MWoydU1hOFR5Q2Q1dGwzT3BPRjFlcmZLN0dBVjJ1SGlGUlFvY0Z6OGo1QUQwOERLRWY1dw?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "카카오, 4대 과기원과 청소년 AI 창업가 키운다",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315321",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[코인시황] 비트코인, 6만달러 회복했지만…스트래티지 리스크에 ‘투심’ 싸늘 - 블록미디어",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5udDZTdlBLWDdLcTI0Vy1idnNFQlEtaXR0R0xiRkVJR2VQWi1QTE5LMElqRWQ5cnJ3NUhKdVh4WW9uQ0hTOW1hZHVCYWlqS3lLbkZ6elI0M18?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "LG전자 류재철 \"엔비디아와 피지컬AI 협력 구체화…시너지 기대\"",
-      "Link": "https://v.daum.net/v/20260626123202808",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "코스피 8%대 급락에 또 서킷브레이커…올해 다섯번째",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428176",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "임직원 10명 중 1명 해킹 메일에 당했다",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016160790",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "비수도권 발전소 갖춘 GS, 데이터센터 직접 지어 시너지 노린다 - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiTURWcHgzeTFXdFdHT1VKUUJpdk0xazlDZ0xfWXNIcHlpTThyd293d3p0V19IZHhFcmlxMndORWItdXpES1pzQ0prOW5zT05RRjlUQk5pR0dmUdIBVEFVX3lxTE84SHpnbTJOV1l5MHhrQU5BVFRKREZZY0F4NlBIcUhUc08tdGlIMHdWN0JnMWg5ZDRWbU02SXpRa0RHbTZaRzI4Mml2LU9PZ29lcXFyZg?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"뉴럴링크, 그 너머로\"… ‘뇌신호로 로봇 움직이고, 사람처럼 감각도 느끼고’",
-      "Link": "https://n.news.naver.com/mnews/article/029/0003033634",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "NHN 팩토리X, ‘슈퍼컴퓨터 TOP500’ 국내 최고 순위",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315374",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "셀트리온, 바이오USA서 글로벌 파트너링 '역대 최대' AI·ADC 신약 경쟁력 부각",
-      "Link": "https://n.news.naver.com/mnews/article/014/0005540049",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "경남TP 3D프린팅 기술세미나…제조기업 기술역량 제고",
-      "Link": "https://v.daum.net/v/20260626131017839",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "삼성전자, D램·낸드 점유율 1위… SK하이닉스는 HBM 58% 차지 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVEllY3lybXA5MURsOGhpZmw2Ml9McDhNekhHTkd5andCYlVkMmhkU25BWDFSU1dBSFp3WGY2YjRZX1hGeFBmQWZ6UV9kN3ZQX2ZNRmJobDlheU1aVEEzdEZjYkl1WUt1Y2lYVGZ0dVd6MmxRUTJPNlZfLXpPb1h2VWtR0gGWAUFVX3lxTE14Y2NZV1BxUmN5aXBTbVgyUFdJOEFSd0x3UWZkR0wwN1RoNnBQdEc5Z2FFdkotR1FvcWc2NEZPNjhZZE0wZmUxdUdPYmF2emtCc2J3ZF9YcjdJZjBRVHhCeWU0TVlJVmwtTld5dkt1cWdJRHpTY2ZEQlJ2ZEtwM2ZTUlFIS01xYlJpSG5mS0ZKWDVQVnVHUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "네이버, 현대차 SDV에 올라탄다…지도·검색·웨일 차량 안으로",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002661933",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "간지럼 타면 인간도 유인원도 '하하하'…언어 진화 단서 포착",
-      "Link": "https://v.daum.net/v/20260626112517717",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "\"게임에 현질까지 했는데 AI로 만든거라고?\" 불매운동까지…거부감 숙제[K게임 3중고]③",
-      "Link": "https://v.daum.net/v/20260626064200290",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "포시에스, 고배당 정책 추진…\"AI·글로벌 사업확대\"",
-      "Link": "https://v.daum.net/v/20260626114801670",
-      "Portal": "다음",
       "Category": "IT/과학"
     },
     {
@@ -7555,122 +7033,92 @@ window.LOCAL_DATA = {
       "Category": "IT/과학"
     },
     {
-      "Title": "\"이동통신 해지, 전화 안 해도 됩니다\"…채팅·앱 신청 도입",
-      "Link": "https://n.news.naver.com/mnews/article/138/0002232189",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "SK그룹 미국 AI 공략 가속…하이닉스·스퀘어·SKT 삼각축 부상",
-      "Link": "https://n.news.naver.com/mnews/article/119/0003105058",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "삼성SDS, 현금 성과급 폐지·100% 주식 지급 추진",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016160715",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[단독] ‘업비트 사장 비공식 1000만개 지급’…이희진 ‘뒷돈 리스트’ 확인 - JTBC NEWS",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYY0pVVmxsYXExN3BCWkNDUmdKQ3JnNU1DamVUUHJwVXpLemhvbzRCQVZMS2VoY1lOWkdNOFpaTl9tbVdhdjdYVXhLbVlnNFhJbWoxVQ?oc=5",
+      "Title": "\"우와~ 로봇이 인생샷 찰칵\" \"K팝 댄스 대박\"...韓 휴머노이드에 '환호' - 머니투데이 - 머니투데이",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWTVVqcVM0cG5rY1lJQThYck1yMGVnc19TZDd6ZHpPbFJmWF9uVFRlX1BGa0hxazdUaS1Ja2QyWUxzOVNtZkVKc003T3BqSG1jdTU4RWd2LVNKc09URjlmLTVUZi1HbWd1blBZONIBckFVX3lxTE52R1lmZzVsU1ZHeHd6TWpsSk11MnRBaEJPSmZoNGJEWnVhX05WWUxGc1A1QWVVVHZ4QTZERnhYcEtlRl90RXN4OG1JbmNYa3FGOWZ3Q0JqQ2hMWVFoRm9LQUFfMFhmdVpHRnY4Z0xDdUhSQQ?oc=5",
       "Portal": "Google News",
       "Category": "IT/과학"
     },
     {
-      "Title": "정부, 중소기업 공격표면 무료 점검... AI 위협 대비 보안 지원 나서",
-      "Link": "https://v.daum.net/v/20260626120335226",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[AI는 지금] 11조 실탄 쥔 中 딥시크, 조직 2배로 키운다",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428173",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "트럼프 행정부, 안보 우려로 \"GPT-5.6 순차적 출시\" 압박 - AI타임스",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iTWE4WjQ0Rm9FMXhnNklpUE9yc0lRQnQ3RHN3blYtR1lkUmRCRi1rbGQxYVhZWHljVWNPeU5kakVsUzJvdndhWGRiZGs3X2FEZXVvR2FuUnZyXzcxWUttcGhOc1F3OUQ2X2c?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[AI는 지금] \"1조 달러는 못 낮춰\"…오픈AI, 앤트로픽 공세 속 IPO 전략 수정",
-      "Link": "https://n.news.naver.com/mnews/article/092/0002428153",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "엘이디온 “광변환 소재 기술로 백색 LED에 근적외선까지 구현” [농업이 IT(잇)다]",
-      "Link": "https://v.daum.net/v/20260626112703788",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "한미반도체, AI 시스템반도체용 ‘FC 본더 3.5’ 출시",
-      "Link": "https://n.news.naver.com/mnews/article/366/0001174602",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "로봇이 박격포 들고 전장 누비는 시대...군사용 로봇 개발사가 밝힌 미래 전쟁 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUktIOTFWUFRaRkR3NXI1NHp4dFoyTnJhN0JjNUF2emx2ME5UbmpueHY2U3Z4ZnMwY3BiUFVhN2d4TFpXeUZQM3VKdjFqeGdMZk1meldCcU5PTGdUOHBsR2RmMTJ0VE05Wm5tblFMQ3ZPNjBzc1hPOVdNNWRWemZJcWhjNA?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "의료AI, 개인정보 유출 또다른 '사각지대'…희귀질환·소수집단 더 위험",
-      "Link": "https://n.news.naver.com/mnews/article/584/0000038234",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "대화보며 연애상담까지하는 ‘카카오 AI’",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002662049",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "해킹메일 감염, 중소·중견기업 가장 심각... 모의훈련 결과 발표",
-      "Link": "https://v.daum.net/v/20260626111820396",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "네이버 검색창 개편…대화로 검색하는 'AI탭' 서비스",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938777",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "How Qualcomm is evolving to grab a piece of the AI data center explosion.",
-      "Link": "https://finance.yahoo.com/technology/article/how-qualcomm-is-evolving-to-grab-a-piece-of-the-ai-data-center-explosion-200314570.html",
+      "Title": "Apple and Microsoft are raising their prices as chip costs soar",
+      "Link": "https://finance.yahoo.com/technology/articles/apple-hikes-mac-ipad-prices-181331569.html",
       "Portal": "Yahoo US",
       "Category": "IT/과학"
     },
     {
-      "Title": "\"애플도 올렸다\"...메모리 대란에 게임 콘솔, 노트북 등 IT기기 줄인상",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781772",
-      "Portal": "네이버",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "리플(XRP) 가격 1달러 위태…30일간 22% 급락 - tokenpost.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tdF9KS3A0bVItcHlibHZGdVkteGd6S2ttSk4xdDZySjF4RTBfenVUc2NkN1JtMm9HS1d4VjRMVWtQRXMwWWN5WHJ2bEllRFhlV0YxZFlZQ1FLb3JCV0IyQdIBZkFVX3lxTE5CTGJJbGRHMWxmdzZ3N1BhcTM3Wmp1X2pKTVJKN0dNWXhoWkZFbm9US190bEZtb3FkVlIyanJ1U0hub2tpTlQ4b0d1eUJoQnFOY3F6X0QyaHlsRWxUY0dHOVoyVjRqQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "[뉴스페이스 오디세이] \"레이저로 우주와 지구 연결…천문학 기반 상장사 꿈꾼다\"",
-      "Link": "https://v.daum.net/v/20260626060203579",
+      "Title": "\"사도 되나\" 불신 지운 중고폰 인증제...1년간 47개 기업 획득",
+      "Link": "https://v.daum.net/v/20260626172402210",
       "Portal": "다음",
       "Category": "IT/과학"
     },
     {
-      "Title": "앤스로픽 “알리바바, 클로드 베끼려 허위 계정 2만5000개 동원”",
-      "Link": "https://n.news.naver.com/mnews/article/023/0003984257",
+      "Title": "메모리 사이클 5년 더? 마이크론 뛰고, '호구' 빅테크 폭락 [김현석의 월스트리트나우] - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50SXpWNFhhVnZORVVBcFhoRnpWM1dlUzlUTFhzejREQVJiQS1uZ1hTOGpTNk13alh6SXlPdFQ4ZkhVcTYwS2ZOMm9iRm40U01aUFFYLUNNck9rUdIBVEFVX3lxTFBUeWQ4dWI2bUhNVjU4aWJrbGFwX3pMMFI0NkxXRnJWREZkdFI1NmFscE5qOUotdFRobUxBT0kwbTZLdnc1VjRQRm5QTGNQT1E4ekVBMg?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "잘나가는 삼전닉스 '이 신호' 뜨면 위험하다 - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42clhhZU5TY0lrUDdreE1BcklaMVk5b2k2T29RbS1kOXJoWVp1WllOdEdaWEt3blAxXzBUdHc2N3BUTXpONjN2bXAzWXl1aUE0WkNzX2NwNEJXQzJnQmQ5M0hUQ1dsMlg5d3p4clBObkU?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "엔씨 슈팅 신작, 글로벌 문화 포용에 방점",
+      "Link": "https://v.daum.net/v/20260626171746014",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"AI 범죄 꼼짝마\"...범부처 협의체 힘 모은다",
+      "Link": "https://v.daum.net/v/20260626173051419",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "통신3사 5G 손배소 판결, 공정위 과징금 불복 소송 영향은",
+      "Link": "https://v.daum.net/v/20260626151215152",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "'배그' 세계대회 'PNC 인 서울' 개최…28일까지 16개팀 격돌",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009025493",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "1500억 스텔스 대신 100억 '발키리'…'가성비'에 사활 건 美 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzTDlBUWhNY3RyX3FkaUplVUROck1yM0s5aW5SRmxuUDFqNWIxdmlycW00TkZsekZud1VFS0pQU1JMcDBWaUFFZXV1c0Z3SGJVLWM3RzJLYnRqUdIBVEFVX3lxTE9iZUQ0R01GNzdDYzRraThjeDFZMVdZUUpYTElzN3NhR25XaXU0YTVjOUZMMnVfNFJLM0poeGVCN05wR2tycEpBdTIyRE96S1NwTWZFVQ?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "'구글 지원' 760개 스타트업 한 자리에…\"글로벌 스케일업 노하우 공유\"",
+      "Link": "https://v.daum.net/v/20260626170051348",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[써보고서] 운동용 꼬리표 뗐다…일상 파고든 샥즈 '오픈닷 2'",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428233",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "메타, 전직 페이스북 임원 폭로전에 법정 공방",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428235",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "군산조선소, 다시 뛴다…제이오션중공업, HD현대重과 본계약",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428231",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "별 6000만개 빽빽하게…유클리드 망원경이 포착한 우리은하 중심부",
+      "Link": "https://n.news.naver.com/mnews/article/584/0000038242",
       "Portal": "네이버",
       "Category": "IT/과학"
     },
@@ -7681,563 +7129,503 @@ window.LOCAL_DATA = {
       "Category": "IT/과학"
     },
     {
+      "Title": "軍, 드론사 해체하고 ‘국방드론본부’ 신설…정찰·자폭드론 2만대 확보 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV1RCOU5RZjdJeFhoNUtNd2I0dktCcGtrRzZseTZwQWtmQXhoX2I1LVp0Yk5KXzhzaWpxZFUtR3VBZVlTMVAtODNmc0x1dHZNM0RkRmNrV01NNHlwTk10MWoydU1hOFR5Q2Q1dGwzT3BPRjFlcmZLN0dBVjJ1SGlGUlFvY0Z6OGo1QUQwOERLRWY1dw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"3위 마이크론 대박 쳤다\" 삼전닉스도 신기록?…개미 '두근두근' - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xSlcyZ3pOQ2lYN2lIWktNUjlMdDNHSWpGSkMtV19mQ1dGREdvcTJzS1hMNUhpZ2k1SFdBTGc1a0lHVW1YRXZ0cE5kUEZQUVBCS1Bn?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "엔씨, 경영 전략 연계한 지속가능보고서 발간",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005781594",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "휴대폰 해지 쉬워진다…채팅 상담·모바일 앱으로도 가능",
+      "Link": "https://n.news.naver.com/mnews/article/119/0003105194",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "'반도체 제조의 한계를 깨다' IBM, 세계 최초 1나노 반도체 기술 개발",
+      "Link": "https://n.news.naver.com/mnews/article/469/0000938834",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
       "Title": "‘할라페뇨’ 웨이퍼 든 올트먼…오픈AI, AI 반도체 독립 선언 - 조선일보",
       "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOFJ6MUZnRUxnUTkyajliYnh0T0NvRy04MGQtRUZlOEc2M2RiWXliR2NfTElWSTBrUjRNbU1GcnIzeTdmZkdCcWIyMGdhREdnNnAxN1RaVktXVTJ0TUZzQ05zbGdSbDFLQk9GS1VMaXV1VTBIWlFZR0wxVC0wYnhRdFhIRQ?oc=5",
       "Portal": "Google News",
       "Category": "IT/과학"
     },
     {
-      "Title": "Blackberry Stock Just Scored a New 'Buy' Rating. Here's Why.",
-      "Link": "https://finance.yahoo.com/markets/stocks/articles/blackberry-stock-just-scored-buy-184518743.html",
+      "Title": "[현장] 펀진 \"AI 참모로 지휘관 결심 돕는다\"",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428217",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "Apple Is Rolling Out Huge Price Increases. Here's What Investors Need to Know.",
+      "Link": "https://finance.yahoo.com/markets/stocks/articles/apple-rolling-huge-price-increases-062000727.html",
       "Portal": "Yahoo US",
       "Category": "IT/과학"
     },
     {
-      "Title": "삼성전자, 4000억 상당 온누리상품권 푼다",
-      "Link": "https://v.daum.net/v/20260626124405056",
-      "Portal": "다음",
+      "Title": "IBM, 세계 최초 1나노 이하 칩 기술 공개 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOThHaDVqOXVoX3V4cHJSR3hDWHdfY3hHVEFwNFdaZjAzWDItd1FzSWdjanNjQ1h4a1lfcmFoYWpjOTU2LVJET2pjOFVORjVBSW5mQXJJR1JDVTRXdVgyWVlLajlzNEZXMVlFWUF4MEN1ajdqMENfMEFZM01jUEJlZkZLMA?oc=5",
+      "Portal": "Google News",
       "Category": "IT/과학"
     },
     {
-      "Title": "[만나보니] 넥써쓰 장현국 \"원스토어로 모바일판 스팀 만들겠다\"",
-      "Link": "https://v.daum.net/v/20260626071423870",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "중국 AI의 거센 추격…'6분의 1 가격'으로 美 선두권 위협",
-      "Link": "https://v.daum.net/v/20260626114219519",
-      "Portal": "다음",
-      "Category": "IT/과학"
-    },
-    {
-      "Title": "300만원 주고 샀는데 1년 뒤 100만원?…폴더블 아이폰 ‘충격 전망’ 나왔다",
-      "Link": "https://n.news.naver.com/mnews/article/011/0004635291",
+      "Title": "\"韓 어항 좁다\"…나스닥 직행한 SK하이닉스 '글로벌 펀딩' 셈법",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232252",
       "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "IPO 앞둔 오픈AI, 재무 상태 폭로 문서 나와…\"완전 난장판\" - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lRk5Wdk4xSzlQTDRCRThhTjBmRWxwcWI3RHNhRHlTNnJwVnI5azRaVWNRTGQtLTg4WkdVMTYzTVNmZzZzdENOSWdhMDZlbXlYZUlLbWttSXN0dkJ3aXhuYlFIdjh1QTdEVk8tWUtSUUY?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[단독] 삼성, 10년간 1000조 투자 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DeXctMkZGV3FUNjBtaUs2b21qeVlxWEgtbUtmUEpyd2RYWHpXUW9XcHdMSE83bkZXVk5KSWlQOEtiYTdiWXM4RldOS2x3V013NWtRSGF3?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "‘행정기관’ 강조한 우주항공청장, 민간 출신 직원들 입지 흔들릴 수도",
+      "Link": "https://v.daum.net/v/20260626103600184",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "앤스로픽 \"알리바바, 클로드 베끼려 허위 계정 2만5000개 동원\" - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRFNoTGp3aHBycHlZY2U2aDd4ei1zcG9LN084YjdQVEdaWFEwTGdMa1pYVXZDSXlGUE9WcE43elR5NkJwb3lSVWx0SnhLVGJRUVBxSHRuS2VhXzdaOEgtZzJvcXdaZG1rWG94anpQNkZodDVpZmJiMHJ6ZTJaYUgtLTdUYw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "카카오 노조, 29일 2차 파업…\"하루 업무 중단\"",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878821",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "메모리 수급난에 두 손 든 애플, PC 제품 가격 최대 22% 인상 - 지디넷코리아",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1udDhFUFp4M2tfX0U1Rnc3YW9Gcm1iZ2cxaWJoVTJrOTA1blJWZWtUeWlJbmVsb2hMUTRFcExKTjdNOUMxRFVSTUVtbkJmaEh4aGpiOE5R?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "휴대전화 해지 쉬워진다…채팅 상담·모바일앱으로 신청 가능",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878720",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "미 정부, ‘미토스5’ 수출통제 이어 GPT 새 모델 공개도 제한 요구",
+      "Link": "https://n.news.naver.com/mnews/article/028/0002811535",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"부족한 GPU는 SW로 극복\"…최적화 승부수 던진 K스타트업",
+      "Link": "https://v.daum.net/v/20260626171922096",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "미 상원, 7월 암호화폐 법안 추진…일정 차질 우려 - tokenpost.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKQlVYY0FHZWdDcDQ4d0h2ck1oS3JLRTl0a0poVjJxbGVSWGRWMFMzSTNrQjd2ZmIwVTVNYUo5YjhTaEVSc2tRaGV0eTdpVFIxX01DQmZ2NGnSAV5BVV95cUxOTmEtTWhNTGQ4dVhXQUJseldFTWJ3YWgzWmNwQnlhR2pieTVlN0MwY0s0VmxqMml6MjdCalNkeGhEa0Z2LUlnYUtkdFBIOEsyY3dXaC1lZWxFaHFzUkhR?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "신지 \"이지혜가 광고한 속옷 주문…알고 보니 AI\" - 뉴시스",
+      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BV1BuLUtCOFJlSXlFV3FsQ2J1dUt4aHRvLVVRSk5SV1VYUS1MNE42T1lwTndVVEdtM1pYNTRnTjZXZzhOS0hRNTFyLWU5ZGlZQm92dWk4M1dxUmlwRGxVSERMWFDSAXhBVV95cUxOUVpGWGZsQnI5UmNXbjZmeEdPWkZfM0ZCQUM3dGRRcERzVTdNSUMxTEstTGFVeTFkTXhpUEJneF82MFNXcm52YkM5RE1WVi0xb3NlcV9QRWVqRG1XS3hiYTBRYU0wSXVOazRkTWwydmxTOE9mWFp4U3I?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "Micron is looking to end the memory industry's boom-bust cycle",
+      "Link": "https://finance.yahoo.com/technology/article/micron-is-looking-to-end-the-memory-industrys-boom-bust-cycle-193630909.html",
+      "Portal": "Yahoo US",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "비트코인 하루 새 8.9억달러 청산…다음 타깃은 5만8500달러? - 블록미디어",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1mTndZNGFRU01JVjQwN0gxWFRKTTFieENfWVBPa2tON204cHlXSnpnWUIxcWpUb1JvY1NzeFpRUnBkdDJhT0RYNU0xSXdPRGQ1Z1hjNDNmUVA?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "장혜덕 \"추론용 데이터센터는 이용자와 가까운 곳에 둬야\"",
+      "Link": "https://v.daum.net/v/20260626172118153",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "기후변화 아니었다면 같은 폭염이어도 50년 전에 3.5도 더 낮았을 것",
+      "Link": "https://v.daum.net/v/20260626173216478",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "구글·NASA와…빛의 예술로 기후위기 일깨워",
+      "Link": "https://v.daum.net/v/20260626165114072",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "로봇이 박격포 들고 전장 누비는 시대...군사용 로봇 개발사가 밝힌 미래 전쟁 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUktIOTFWUFRaRkR3NXI1NHp4dFoyTnJhN0JjNUF2emx2ME5UbmpueHY2U3Z4ZnMwY3BiUFVhN2d4TFpXeUZQM3VKdjFqeGdMZk1meldCcU5PTGdUOHBsR2RmMTJ0VE05Wm5tblFMQ3ZPNjBzc1hPOVdNNWRWemZJcWhjNA?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "삼성전자, D램·낸드 점유율 1위… SK하이닉스는 HBM 58% 차지 - 조선비즈 - Chosunbiz",
+      "Link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVEllY3lybXA5MURsOGhpZmw2Ml9McDhNekhHTkd5andCYlVkMmhkU25BWDFSU1dBSFp3WGY2YjRZX1hGeFBmQWZ6UV9kN3ZQX2ZNRmJobDlheU1aVEEzdEZjYkl1WUt1Y2lYVGZ0dVd6MmxRUTJPNlZfLXpPb1h2VWtR0gGWAUFVX3lxTE14Y2NZV1BxUmN5aXBTbVgyUFdJOEFSd0x3UWZkR0wwN1RoNnBQdEc5Z2FFdkotR1FvcWc2NEZPNjhZZE0wZmUxdUdPYmF2emtCc2J3ZF9YcjdJZjBRVHhCeWU0TVlJVmwtTld5dkt1cWdJRHpTY2ZEQlJ2ZEtwM2ZTUlFIS01xYlJpSG5mS0ZKWDVQVnVHUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "How Qualcomm is evolving to grab a piece of the AI data center explosion.",
+      "Link": "https://finance.yahoo.com/technology/article/how-qualcomm-is-evolving-to-grab-a-piece-of-the-ai-data-center-explosion-200314570.html",
+      "Portal": "Yahoo US",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "SK하이닉스, 그룹 전용기 지분 잇단 확보… 미국 사업 확대 영향",
+      "Link": "https://n.news.naver.com/mnews/article/366/0001174758",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "자고 일어나면 오르더니…'112만→80만원대' 금값 뚝, 매수 기회? - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VaTEwemZETzFYaXpNRGNiaWs1SnlqNEpzdEtlOHFVbGdhOGttUl9xSTM1cnU5Y2lRQTRETFVfYUZaRlA1cjJ3Zm8yeC1JbUFYR1Fv?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "삼전닉스-애플 엇갈린 주가… 'AI 거품' 잠재운 마이크론 실적의 함의 [IT+]",
+      "Link": "https://n.news.naver.com/mnews/article/665/0000007638",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "'AI 강자' 네이버·SKT·엔씨 \"K팰런티어 될 것\"",
+      "Link": "https://v.daum.net/v/20260626173025406",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "카카오 노조, 29일 2차 파업 계획대로 진행…\"합의할 수준 아냐\"",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315944",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "엔비디아·구글이 양자칩에 베팅하는 진짜 이유 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVndWZlNLWElmRkhGYnVVRkltU0dOaEVNZlFjZXhlT1dCdE0xeW12b2QtcV8wRWluTG00R0N0b3l4Y3dTTnNiMkw1cWpUdnlJVU1hdVFyLUR5bUlaazVKZkJfd0pldWExelprc2RQc3FxTWVxNkptZmJqMHdaZFJHZnFEdF9NZw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "제임스 웹이 본 오리온의 '우주 탄생 요람'…\"별들의 탄생 순간\"",
+      "Link": "https://v.daum.net/v/20260626153207013",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "뭉쳐야 통한다…롯데·신세계 ‘원팀’ 전략 속도↑",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428225",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[영상] 5G·LTE 칸막이 허문 '통합요금제' 출격···통신비 인하 체감은 '글쎄’",
+      "Link": "https://v.daum.net/v/20260626173304503",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "카카오 노조, 29일 '로그아웃 데이' 강행…교섭 난항",
+      "Link": "https://n.news.naver.com/mnews/article/119/0003105225",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "SK하이닉스, 그룹 전용기 지분 잇단 확보…미국 사업 확대 영향",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161782",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "포시에스, 배당성향 40% 목표…AI·SaaS로 밸류업 추진",
+      "Link": "https://n.news.naver.com/mnews/article/293/0000086855",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "폴리마켓, 韓 월드컵 32강 확률 '56%→30%' 급락…경우의 수 '빨간불' - 뉴스1",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmRTVuLTcyTkJEaS1jLXZtVFcyMFpQZnE3ZzhsbzB2MjVnTlp0SjRoNHVNTHVjSE5NN25pNFpHY3N1ck5ENDY4amFkNXJMVkZ1VEFLX3JZY3FWYlNOd3E4UmRUbUlEdw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "네이버, 대화형 검색 'AI탭' 정식 출시…모바일 검색창 개편",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878568",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[단독] ‘업비트 사장 비공식 1000만개 지급’…이희진 ‘뒷돈 리스트’ 확인 - JTBC",
+      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYY0pVVmxsYXExN3BCWkNDUmdKQ3JnNU1DamVUUHJwVXpLemhvbzRCQVZMS2VoY1lOWkdNOFpaTl9tbVdhdjdYVXhLbVlnNFhJbWoxVQ?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "아이돌 챌린지 유행인데⋯알고 보니 'AI' 노래였다?! [솔드아웃]",
+      "Link": "https://v.daum.net/v/20260626173107431",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"제2의 HBM 찾아라\"…'AI 병목' 돌파에 사활 건 韓 이공계대학",
+      "Link": "https://n.news.naver.com/mnews/article/015/0005303268",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"애플이 웬일로 싸게 파나 했다\"…아이폰18도 최대 50만원 오른다",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026056",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "비수도권 발전소 갖춘 GS, 데이터센터 직접 지어 시너지 노린다 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiTURWcHgzeTFXdFdHT1VKUUJpdk0xazlDZ0xfWXNIcHlpTThyd293d3p0V19IZHhFcmlxMndORWItdXpES1pzQ0prOW5zT05RRjlUQk5pR0dmUdIBVEFVX3lxTE84SHpnbTJOV1l5MHhrQU5BVFRKREZZY0F4NlBIcUhUc08tdGlIMHdWN0JnMWg5ZDRWbU02SXpRa0RHbTZaRzI4Mml2LU9PZ29lcXFyZg?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "KT, 4년만에 클라우드 다시 품고 'AI 인프라 회사' 체질개선 시동",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005781383",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "AI·전략기술에 R&D 예산 200조 투입…\"미래 30년 기반\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030835",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "CZ \"양자컴퓨터 시대엔 사토시 비트코인 동결 검토해야\" - 블록미디어",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2TFM5Q3Z1aXNhQ2JsRXNVTzNqUi13UHdheWdXTjBWSVhlUktRd21qSVMteTdwX0JZNHR5anV2UWdlSk5hbDdsNkFvSHZiZnc1WmE5eVlaN0U?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"AI는 도구일 뿐\"…GIST 문승현 전 총장, 저서 출판",
+      "Link": "https://v.daum.net/v/20260626173144444",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "美, 中 연계된 커넥티드카 판매 금지… 폴스타 4 만드는 르노 부산공장 ‘날벼락’ - Chosunbiz",
+      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DVTJybE9BRDdQYWtGd01RQWVydUt3bkIwc1RQYlIzXy1kVzdhTUFyd0Z0UUMwZVlPOTVpQ2JxU09kQlczQy1TUHFGc1JuVU5vbWZLN3VJZEZoT0lhVG0wSlFrUVRFQjV1OFViYXViTVh4eWxMdUVudVhtZXNaVWs?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "카카오 노조 \"29일 로그아웃데이 예정대로 진행\"",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428218",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "대한변리사회 80주년...국회 여야 “소송대리권, 비밀유지권 법안 약속”",
+      "Link": "https://v.daum.net/v/20260626171200799",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "정부의 정보 검열과 감시에 맞서 싸운 게임 속 영웅들",
+      "Link": "https://v.daum.net/v/20260626154502602",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "통신사 침공에 알뜰폰 '고삐'…마진 없애고 '출혈경쟁'",
+      "Link": "https://v.daum.net/v/20260626171302858",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "비트코인, 100억 달러 옵션 만기·PCE 앞두고 6만 달러 사수 분기점 - tokenpost.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjOGdJaHhCVTlWbmRyOUVseEI1YV9LdklmeUVsOEswNkluMnVQLWxHZE9hMXltRXppcGlmRzRnM2dzR2pYYlFXYk1JTGppaXl1RFltVGw2c3NFcEtZMlV1ZtIBZkFVX3lxTE1fT1hzbzZjaEF2ZHZNN3pXT1dkemYzVDl0MnN5MVBsakNUcnQtbFl0dlRoOXVwcDU1NURuaTl3YlRjN3lfZXF1MDRDVnZ1WXgtRkRWSDZNTVYydjQ2elI2Z2Nkb0ptZw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "내년 R&D 예산안 비공개 결정…예산 규모 확정 미뤄져(종합)",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161950",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "IBM, 세계 최초 1나노 이하 반도체 기술 공개",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014031006",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "​[HR기업 AX 열전]② 리멤버, 서치펌 확보…한국형 링크드인 야심",
+      "Link": "https://n.news.naver.com/mnews/article/293/0000086851",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"로젠로펌, 스트래티지·STRC 조사 착수…오해 소지 사업 정보 제공 가능성\" - 블루밍비트",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mOXVUeG1ITjNPc20xOWlIME1WSEJTZGgxRU9LZmFKYzhKLW9iX2dZUU5seFBQT01ZV3BwNlRGZ0lsd2QzRTZ4bDU5RDdGY1p5?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[비즈톡톡] 엑스박스 가격 또 올린 MS… 게임사업 부진에 새판짜기 본격화",
+      "Link": "https://v.daum.net/v/20260626171416908",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "[비즈톡톡] 다시 품고 싶은 KT, 비싸게 팔고 싶은 투자자… KT클라우드 재합병의 딜레마",
+      "Link": "https://n.news.naver.com/mnews/article/366/0001174764",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "머스크, ‘X머니’ 서비스 확대…X 슈퍼앱 구상 본격화 - 블록미디어",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45ajFBZHcwTUQxclhxMkwwa3luQmVOelRENXpJUFFEZkJualEySWpzaVk1VFRaNmp2c1ZhTE5ndURKRTZmMlVNNmxLNFhDeTVrTHpyRk1rTEY?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "카카오 노조, 29일 하루 업무 중단…사측 \"서비스 안정 대응\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030992",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "AI사령관이 전황 좌우 … 순식간에 타깃 1000곳 초토화",
+      "Link": "https://v.daum.net/v/20260626173022405",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "애플, 제품 가격 줄인상…팀 쿡 \"원자재 가격 감당 불가\"",
+      "Link": "https://n.news.naver.com/mnews/article/629/0000510976",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "루미스 상원의원 “미국 비트코인 참여의 불씨 되고 싶다” - tokenpost.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoWU81WVBMWnJValJkUlhzaXBKVllsOTdBaXhBVlRZdzY1OHA3bWNEUk14TlE2clF5ZF9QTkZJeVJuRm5BN3lCQjhXWEF1MjR0emdDN2F5cHPSAV5BVV95cUxOWWNJMVFoTVFhWWxScjFsZzNicHRVeVBrYXpGQVhmLWhCa29veS1UVW9rbkxBTlgzcTE3dVlUR0xOVDlXS1E5dTZiZFVuT3FPejlzUzhpMDZHQnNrZ0d3?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "“K-팔란티어 본격 시동”…국방 소버린 AI, 민간에 데이터 개방·AX 가속",
+      "Link": "https://n.news.naver.com/mnews/article/138/0002232246",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "전화 말고 채팅상담으로도 휴대전화 해지 가능해진다",
+      "Link": "https://n.news.naver.com/mnews/article/009/0005699331",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "중국 지푸AI ‘GLM5.2’, 해킹 위협 가속화",
+      "Link": "https://v.daum.net/v/20260626164723953",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "IBM 1nm 이하 반도체 길 열었다…트랜지스터 위로 쌓는 0.7나노 기술 공개 [팩플]",
+      "Link": "https://n.news.naver.com/mnews/article/025/0003533220",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "Apple increases prices for Macs and iPads, blaming a shortage of memory chips",
+      "Link": "https://finance.yahoo.com/technology/articles/apple-increases-prices-macs-ipads-185354948.html",
+      "Portal": "Yahoo US",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "온세미, 시냅틱스 10조7700억원에 인수… 피지컬 AI 시장 ‘정조준’",
+      "Link": "https://v.daum.net/v/20260626173317513",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "XRP, 1달러도 못 막나…대규모 청산에 기술적 지지선 0.91달러로 - 디지털투데이",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tUkpXbTdIMk55c2RMaG5yME9pb3ZwemZqeTV3OWNUZ0pSOTlLZkxKNDc4MXJlMHEtR3pIVzk4UVJxU1FONzkwQjlnbDRiOXBkZ29TeDJfSXoyOXJzS195TXAzaW9xSVFrTmJiQWpQdXlWcjA?oc=5",
+      "Portal": "Google News",
       "Category": "IT/과학"
     },
     {
       "Title": "어디까지 버틸 수 있나요? 영역 확장하며 버티는 생존 게임 '코드램프'",
       "Link": "https://v.daum.net/v/20260626130001345",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "3m 높이 트럭에 ‘테트리스’ 하듯 척척...택배 상·하적 로봇 개발한 美 스타트업 가보니",
+      "Link": "https://n.news.naver.com/mnews/article/023/0003984296",
+      "Portal": "네이버",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "\"챗GPT 답변 80%가 좌편향, 제미나이가 가장 중립적\" - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcDQ4TndETjdWa2lsRktBOHZQQ0psS0pRUl9JYTUtWkNFTkdhZFFYV0dhMmJLc3VYWUszZU4wTFpNYUFJSldFQ0daQTlGZDBMS1JFWHF2cDZjbHd0Y0hSNmhIN1JvbUJpWlVURVdFYzFzb05QRVZEUzVDc0l3YmhhQmY1Zw?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "코스피 5.8% 급락 8,400선까지 밀려‥인공지능 투자 위축 우려 등으로 차익실현 - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SZDFHdnNLYkQwendUak9kN2xnWnR2MklyYlg4ZE5oTkV4SHBPbWFoVEhnQWlBbnVqc1VPRTZ6SXpwUmVDTFBHdlRzSGEwVmNnUUdvUC1FMlhnMUlyaFBnWFR6RGdsSXl6am1iNTJwMHJ2dzNo0gF0QVVfeXFMT2hDbmtSN0RhYld1amJXZ1d6cUZ2elduYmhaVWs2cWxaZGd3eEE0cjd6Y3lJcUdkRjgwbXl2TFo0SDdJRUk4WVB6ajJlM1B6OFpFOEEyWEJzSGxyVGl6RjgyT0p0Rm9vVXhVdkhrcDk2bUF5dlU?oc=5",
+      "Portal": "Google News",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "밀리의서재, 오디오북 서비스 5년만에 접는다",
+      "Link": "https://v.daum.net/v/20260626171602964",
+      "Portal": "다음",
+      "Category": "IT/과학"
+    },
+    {
+      "Title": "류재철 LG전자 사장 \"엔비디아와 로봇 개발, 피지컬 AI 가속화\"",
+      "Link": "https://v.daum.net/v/20260626164718949",
       "Portal": "다음",
       "Category": "IT/과학"
     }
   ],
   "생활/건강": [
     {
-      "Title": "여성은 84세 되어서야 은퇴하는 ‘가사노동’ 남성은 44세에 끝난다 [플랫]",
-      "Link": "https://v.daum.net/v/20260625110933915",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“꾸준히 먹으면 콜레스테롤 수치 감소” 영양사 추천 음식 4가지 - 헬스조선",
-      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EaDlfQlNsY0xSN1NKNWN2VUhPUmFnYUhYLUQyMFBuWVFfcm95ZFJ6bFhZX3hzZVQ1LWRPSDFMdkxMQ2ZCeV9HQ2RvWW56SFhaZkFHdlBrVGxHd3VYYVN4dFFXMEhPbHVNSFF6VlVOT0phY1A3bl9COFZqR0lkTWc?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "제2형 당뇨병 위험이 높은 혈액형 - Laodong.vn",
-      "Link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd1pvWmE4Z3BzWHg0NXgycWY5OGFCMkgzZFdRZmRBcFhZX1l3QUZ1Zk9WN2JfRzBCSmpNQ3VlR3RrYmIyUTh6MkthNFZ4aHJLdjl2Sm83LWozWjc5OUtEa2k3SlN3djBncEVvZVl1dUZuVTFSOG1aV3dXNG1IYUVLMzVremN4ZHpjeVJzT1k1bHBXZw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“36년만에 대기업, 이순신 정신 덕분에 가능” 윤동한 한국콜마 회장, 충무공 책 출간",
-      "Link": "https://v.daum.net/v/20260626114502574",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "뇌 형성과정서 신경세포 DNA 손상기전 밝혀져 - 의학신문",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxZEdVX1FkTHN6dWlzOUh3WVhGdFY4TGROa3NqSHVNRVJmLVVLbFY3eEd6ek43ZzBJWVRLX3NVTUhJWTVCY3ZCc3lCYkE3NF9nc194NHlwSDVZTmEwQXBCRkV4MTlLd3RqNXc?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "BMW, 미래 전동화 비전 제시…\"iX3 사전예약 4500대 돌파\"['26 부산모터쇼]",
-      "Link": "https://n.news.naver.com/mnews/article/629/0000510820",
+      "Title": "\"'돈맛'에 매몰된 도서전 말고, 책·독자 중심 '제대로 도서전' 열어보자\"",
+      "Link": "https://n.news.naver.com/mnews/article/002/0002446293",
       "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "'버터 없는 버터맥주' 박용인, 2심도 집유…\"유해하지 않고 표시만 잘못\"",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014029992",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "박민우 \"2027년 자율주행 계획대로\"…플레오스 전 차종 적용",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025473",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "동해안 해남 사진가 이진수 ‘응시의 얼룩들’ 개인전",
-      "Link": "https://v.daum.net/v/20260626124317038",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "MBC 에브리원이 6·25를 기억하는 법",
-      "Link": "https://v.daum.net/v/20260625180807738",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"탈모 원인 상관없이 모발 성장 돕는 'cADPR', 다음 단계는 FDA 승인\" [탈모 전문가 100인 인터뷰]",
-      "Link": "https://n.news.naver.com/mnews/article/014/0005540064",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "공무직 영양사 인권위에 차별 진정",
-      "Link": "https://v.daum.net/v/20260626063249181",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "['26 부산모터쇼] BYD, 하이브리드 승부수…'씨라이언 6' 3750만원 출격",
-      "Link": "https://n.news.naver.com/mnews/article/629/0000510888",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "BYD, 5개월 만에 작년 판매량 넘어섰다…수입차 4위 '안착'",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315531",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "실패·납치도 웃으며 넘긴다…무거운 설정 낮추는 코미디의 힘 [D:영화 뷰]",
-      "Link": "https://v.daum.net/v/20260626070502725",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "골칫거리였던 여름 무, 남편도 극찬한 밥도둑으로",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520602",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"어깨 아팠지만 암 관련없다해\"…유방암 완치 두 달 만에 4기, 무슨 사연? - 코메디닷컴",
-      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9HeVZCaEtpOFozYWJfcjFnNEUyelFBUWM5cEcwdExBMmN3TGR5OVlnSXJtblY1WjVUSjZrZEJIUENoUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "외국인도 '디지털 관광주민증'…관광정책 공모전 최우수상",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016160430",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "부산 어선 침몰사고 실종 선원 수색 이틀째",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520590",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“거제형 K-BBQ로 세계인 입맛 잡는다”… 거제에 미식·관광 거리 조성",
-      "Link": "https://v.daum.net/v/20260626124451068",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“시간 하나 바꿨을 뿐인데”…아침·저녁 운동 효과 ‘이렇게’ 다르다 - 코메디닷컴",
-      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBWV1VTVUFHSFhUdkxqRjJNOWZfbWdsVE1SLUI1ZURrR0ducHVTU3FUVHdETUVCZ2R4YzNBYkpyeGQ5Zw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "당뇨병 환자라면 주목… 낮잠 30분 이상 자면 지방간 위험 높아진다? - 하이닥",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MeXdrN3dTdDJwTEozUDRHUnY1MjRBNXhRSG1CbkZCNHpfLVlKTVZ5Wm1wd1FEV1VDVURCMHF6NjF3YzlLdXllOTl3ek11WTVQdXNYd2t4N2dkZ3BQdThLVjRhUHRENHdGUnc?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"선생님, 저 배에 힘 진짜 많이 줬어요!\" 6세 유아들의 특별한 도전",
-      "Link": "https://v.daum.net/v/20260626123302833",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[벤치마킹하자GO③] “독일에서 홍천 검색?” 외국인까지 불러오는 스포츠외교마케팅",
-      "Link": "https://v.daum.net/v/20260626120902327",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘성폭력 불송치’ 20살 사망…시민 8200명, 기소 촉구 연명서 전달한다",
-      "Link": "https://v.daum.net/v/20260625201203499",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[AI기상캐스터] 서쪽 중심 낮 더위, 서울29도...오후 한때 동쪽 소나기",
-      "Link": "https://v.daum.net/v/20260626131002823",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "필리핀, ASF·구제역 백신 개발 프로그램 착수 - 한돈뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aRGg5b0EzZFhRR2VJWFFHTlAzc0tnWFpJb1dRTEh0NWNLQUJuWHVYRVktbVpIUndsb0xMZ3FJOEF4aTFBRWVtbTNpT0ZwZ3hyTlN1aV9ENXhmX0I2MUZKaTJzM1dRZmRE0gFsQVVfeXFMT0I4ZC1qay1VSmxhUmp1VWF0Q2ZDSVJsNWVLTnktb0ZiUU9vZlJuU3BsNTdDVmVrRWxvczJwV0JQYW9nTF9ybW41djZ0eDN5Y3lFSllXWTdncThNdGN3S1hDc01pcm8ybDFObUsz?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "수면의 질은 치매 위험과 관련이 있는 것으로 여겨집니다 - Laodong.vn",
-      "Link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWS1TTEZGY2VjS2hRNHh3azVXUnJQMGlGVkg0T3FMV3VPem5zbER0MWtYNXk5Q2phNDRUWjdvYV9VbzU1cnM5QVR6QnBUMm1RcTRmaG43d3QyX3VyZkU4blp5WFZvSTVHYlJmeGotZ2xabWQ5ZGNzR1hvY1VNUGt0cUxoSG94VUJFczk3Ym4zOV9BTjNRWTNTQ3JEWGVpUnFVNDNnRG44eXhrTkduSlR6SQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "국내 HIV 감염자, 2024년 1천명 아래로...생존자 1만7015명 - 메디소비자뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JSUJHRUxYYVR4MW43X29iQXgtMXNJUG5sV2hCMWd6eUJxallOOHU3RmJKQzZ4N3R1SlhUMU1wa1NWLVh0VlhvZlBIUDlIRjUxTnFEWXRDSGNWRlJDa0psLXNuOUE0Z1hkRnhLRnRMUU5jYkXSAXZBVV95cUxQQzcxVDBuN2x5b29CSV8xb0ZiR29GN2VWa3JuV2NvenJyc2JMSVMyLWh6ZHFSUmE1WVMzVFpib2x1MjdQcmxGLVJjNHRFT0tGR0RwUm1yOUdsaFZjR19MS21CbXVhenBGZEw3QUJlMFE0Y2ZJbkdR?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "전주 초등교 옥상서 여학생 추락…중상 입고 병원 이송",
-      "Link": "https://n.news.naver.com/mnews/article/022/0004138417",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "긴 밤을 지나도, 우리는 다시 빛을 만날 수 있다 루리 작가의 《긴긴밤》을 읽고",
-      "Link": "https://v.daum.net/v/20260626114536591",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "구미시 \"평당 1천 원에 부지 제공\"…반도체 팹 유치 파격 제안",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367238",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[커버스토리] '녹지율→체류율' 대구 도심 공원의 과제",
-      "Link": "https://v.daum.net/v/20260626121239390",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "Making sense of the showdown at the CDC",
-      "Link": "https://www.yahoo.com/news/politics/article/making-sense-of-the-showdown-at-the-cdc-190824510.html",
-      "Portal": "Yahoo US",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[문상윤의 로컬푸드 이야기] 못난이는 죄가 없다",
-      "Link": "https://v.daum.net/v/20260626113406115",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[이 사람, 단독] \"제발 있는 그대로 봐주세요\"… '청도 소누나'가 울먹인 이유",
-      "Link": "https://v.daum.net/v/20260626115213810",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "김영광, 생방송 중 \"홍명보 나가\"…안정환 당황 고개 푹",
-      "Link": "https://v.daum.net/v/20260626124806119",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "VUS 분류 변이가 있으나 임상 양상을 통해 Agalsidase β 투여를 결정한 사례 - 메디칼업저버",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pZWtwcjhpRXlNY0tWeHRjSWNhUjZWS0VNSzhxSm93emZmS2NHcndqWVFIbWIxaGJuVzluV1hRYS1ubHdUcG10a1pqTmkzWmpnX1JpdWRLQ2JZSng1OUkybVFMTTI0TkliT21J?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "잠실 개표소 찾은 서울시선관위 사무처장…경찰 만류로 돌아가",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161194",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[최태호의 우리말 바로 알기] ‘해물육수(海物肉水)’ 유감",
-      "Link": "https://n.news.naver.com/mnews/article/002/0002446316",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "맑고 초여름 더위⋯26일 강원전역 소나기[주말날씨]",
-      "Link": "https://n.news.naver.com/mnews/article/087/0001201588",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[뉴스나우] 김건희 '매관매직' 1심 선고...청탁 대가성 밝혀낼까?",
-      "Link": "https://v.daum.net/v/20260626131015833",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[날씨] 서쪽 30도 안팎 낮 더위…동쪽 곳곳 소나기",
-      "Link": "https://n.news.naver.com/mnews/article/422/0000878756",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "양구 백토로 빚은 보물, 고향으로… ‘이성계 발원백자’ 첫 공개",
-      "Link": "https://v.daum.net/v/20260626000705380",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "여름 음식에 식초 한 스푼 넣었더니…몸에 생긴 변화 7가지 - 코메디닷컴",
-      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5RNk10cThUaXREaHFZNTVIMkNYRE9qOWNJUWo4WTFrRDlKTl9taE02MjYtYTNuaEIxc2M3UkV3QURpUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "비타민D 충전, 햇빛만으로는 부족하다? - 뉴스토마토",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uQThkZ1cwZWN0LWYtZFY2WUswN0NRcDl5Q3I0SGtlS2Y0LW9fLXJaVVRLblgzRTFLd1lVNDNjV3M2dzVLX1hKRE9oTzJOMzR3SkhCeTNPbHBwZ2hsc2ZYag?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“신장암 맞춤형 백신, 항암 면역 반응 확인” - 현대건강신문",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0ycGY4NnNwN0FwX2lNNlQweWlld205WnNPcHk0RF9zdkdpSG1oS2tKNmxVVkVsR2RJVmw1X1lsQ1ZjeWJsZHVJQV83ZWtwLUExRFVBcjF3?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"가당음료 설탕부담금 도입 시 연 최대 9천억원 부과 추산\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161148",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "김재연 대표 무기한 단식 \"이재명 정부, 홈플러스 사태 해결 나서라\"",
-      "Link": "https://v.daum.net/v/20260626125031155",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"'토지'하면 하동 최참판댁만 떠오른다고요?\"",
-      "Link": "https://v.daum.net/v/20260626101251036",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "대만 방송, 잠실 '부정선거 음모론자' 주장 무비판 보도 논란 [오마이팩트]",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520618",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘지각 장마’보다 먼저 찾아오는 곰팡이, 지금 해야 하는 것은?",
-      "Link": "https://n.news.naver.com/mnews/article/032/0003454538",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"웹툰·웹소설도 국립중앙도서관에 제출해야 해요\"… 12월 달라지는 납본제도",
-      "Link": "https://v.daum.net/v/20260626120118084",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[위클리 브리핑] 서울국제도서전이 던진 질문, 독서교육은 어디로 가고 있나",
-      "Link": "https://v.daum.net/v/20260626112726815",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "법원, 최태원·노소영 ‘재산분할’ 파기환송심 7월 24일 선고",
-      "Link": "https://n.news.naver.com/mnews/article/023/0003984256",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "남산에서 결혼하면 연출비까지… 서울시, 최대 300만원 지원",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781732",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "역대 가장 뜨거워진 바다, 주말엔 다시 최고 33도 폭염...이례적 7월 장마 찾아오나",
-      "Link": "https://n.news.naver.com/mnews/article/437/0000498118",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "레미콘, 경남 동부권 파업…남부권은 ‘단체교섭’서 막혀",
-      "Link": "https://v.daum.net/v/20260626113508182",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "피케이멜즈, “파킨슨병 치료 연속성 유지 핵심 정주 옵션 의미 커” - 메디칼업저버",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NQnZmU0xLRU9md0w4N3lDOWIzd0RPaWF3YjZrQ3Y4SjUwVEVpYmZMSTN3THpyQldfTmg1bjdWTTEzWW1lZXVNTzQ5OHFJcURndlBRUUNrN2lTamVIVF9MVmNOWWtJdUVSSHFv?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "예산 당국 \"교부금 손질 불가피\"…교부금 개편 논의 불붙나",
-      "Link": "https://v.daum.net/v/20260626123718923",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "교권보호국 논의 본격화…전문가들 \"총괄기구 필요\"",
-      "Link": "https://v.daum.net/v/20260626123918957",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "20일 넘게 이어진 광양 수돗물 악취…한국수자원공사 관리 부실 도마 위에",
-      "Link": "https://v.daum.net/v/20260626131003825",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[김시동의 사진으로 보는 강원의 기억] 2. 지게에 실린 산촌의 기억, 돌산령을 넘다-양구돌산령지게놀이",
-      "Link": "https://v.daum.net/v/20260626000652363",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[날씨] 오늘은 다시 초여름 더위…동쪽엔 요란한 소나기",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367566",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "AI는 줄거리를 요약할 뿐, 차프스키가 될 수 없다",
-      "Link": "https://n.news.naver.com/mnews/article/020/0003729683",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "소화제 자주 먹으면 살 찐다? 우리가 몰랐던 ‘소화제의 진실’ 3가지",
-      "Link": "https://n.news.naver.com/mnews/article/346/0000111934",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[삼척소식]'제3회 해랑영화제' 단편영화 공모 접수 시작 등",
-      "Link": "https://v.daum.net/v/20260626092812758",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "30주년 부천국제판타스틱영화제, 예산 늘었는데 새 콘텐츠는 없어",
-      "Link": "https://v.daum.net/v/20260626071634910",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"비만 치료도 정밀의료 시대…GLP-1 등 약물 효과보다 환자 특성 고려해야\" - MEDI:GATE NEWS",
-      "Link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBJcGRaM0tMWnJaeUhJZlZOY1dKMmZ5VS0wYU11X28tVndSQkdDeEVQN2p3YWMtcXFWU2tKWFl2WWhnYVZLZHpheEV0QTVvRkU3N3E1bHJvRQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "창원 진해구, 여름철 집중호우·폭염 대비 안전망 강화",
-      "Link": "https://v.daum.net/v/20260625202500756",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "경찰, 김병기 측 '3000만원 정치자금' 반환 시점·장소 특정",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030250",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"괜찮은 줄 알았는데…\" 뇌 노화 1.6년 앞당긴 '이 습관' - 데일리25",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LRmwySXdPVUJOWV82MW90ZUJLTXJUMEJYN04tTTN3akRiN0xkU1d2SzlDVERnNHc0Q0hFbXdlWW85WEhQSGpic2p5em8wejR3aGY3V2lfZU5yTlFacFBrVmxHS2VhYXU5RW1YVg?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "스텐트 시술 후, '이 약' 먹고 심혈관 사망 위험 낮췄다",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938768",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "울산 공사 현장 토사 붕괴…작업자 1명 숨져",
-      "Link": "https://n.news.naver.com/mnews/article/005/0001857345",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "'불법 촬영 혐의' 30대 男, 경찰 압수수색 도중 자택서 추락해 사망",
-      "Link": "https://n.news.naver.com/mnews/article/031/0001037856",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "동아일보 사옥서 칼부림…출근길 목격자들 “피가 흘러내려”",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533394",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "민아, 결혼 후 행복한 근황…민소매 입고 청량 미모",
-      "Link": "https://v.daum.net/v/20260626113652259",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "업주 영업 정지 당할 판인데…청소년들 사이에서 번졌다",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367561",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "리안갤러리 대구 새 공간 첫 작가 이광호…\"시작과 끝은 하나였다\"",
-      "Link": "https://v.daum.net/v/20260626092003312",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "젊은 세대, ‘생물학적 노화’ 더 빨라…조기 암 원인? [노화설계] - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rMVJhNmZ6N05oVnNiTkpQQTktbUYwOXloa3VRQ1FmLUVPc0JvMVJfRXlpYnZKeFJLTU1XTFU1NWEwYnlFSE1KeHN1QllldzFYNFRyWDlaT2hpMzA4T3pFbU1kcTBDVmlOM19kV0xkRdIBZkFVX3lxTE1aZzNfeC02b3E5bjZsM1Aya2dlSGxGOUFHTmVGSWxaTjRlaWpZVzd1M1FUeVZlNHpKcF9mUncxRTVPTlV6TGg0WWNzcEhYQ0NVOC16NTQyTDN5V08tSW9wZzRJM0Uzdw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "울산 석화업체 공사 현장서 흙더미 붕괴…작업자 1명 사망(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161187",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "종합특검, '계엄 합수부 지원 의혹' 홍장원 4차 조사",
-      "Link": "https://n.news.naver.com/mnews/article/079/0004162042",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "'뇌 노화'를 앞당긴 건 '나이'만이 아니었다",
-      "Link": "https://v.daum.net/v/20260626122156627",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“마약 없는 사회, 약국에서 시작된다”…세계마약퇴치의 날, 약사사회 예방 역할 부각",
-      "Link": "https://v.daum.net/v/20260626122142622",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘변비일까’ 생각에 3세 딸 배 만졌다가… 암 잡아낸 엄마의 직감 - 헬스조선",
-      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UbkhSXzgyaGt5MHo1eXpKUk43b1NuVU1VdWRIM1pveWtjaTNNcVN1VkdIbXBMWXR1OEVtSFBsVGtSTF9SX19sYzhGNDU5TmFGeGxTcjlvRklWRVU4ZjUyYVoyRHRrNWctWndxY0JyelR6c3pRNlJWcUtWUmYzTDA?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "4월 출생아 18% 급증했지만…“저출생 터널 탈출 안심 일러”",
-      "Link": "https://v.daum.net/v/20260625120007061",
-      "Portal": "다음",
       "Category": "생활/건강"
     },
     {
@@ -8247,536 +7635,38 @@ window.LOCAL_DATA = {
       "Category": "생활/건강"
     },
     {
-      "Title": "부산모빌리티쇼 언론 공개…\"27일 오전 10시 공식 개막\"",
-      "Link": "https://v.daum.net/v/20260626130806765",
+      "Title": "檢, 이화영 '무죄·공소기각'에 불복 항소…'술 파티 공방' 2심으로",
+      "Link": "https://n.news.naver.com/mnews/article/586/0000132495",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "창원 진해구, 여름철 집중호우·폭염 대비 안전망 강화",
+      "Link": "https://v.daum.net/v/20260625202500756",
       "Portal": "다음",
       "Category": "생활/건강"
     },
     {
-      "Title": "삼척 해랑영화제 단편공모 접수…AI 창작 부문 신설",
-      "Link": "https://v.daum.net/v/20260626100513658",
+      "Title": "[단독] 투표용지 부족이 부정선거 대응 탓? 선관위, 부정선거 보도엔 무대응",
+      "Link": "https://v.daum.net/v/20260626160542479",
       "Portal": "다음",
       "Category": "생활/건강"
     },
     {
-      "Title": "대한민국예술원 신입회원에 이승우·배창호 등 7명 선출",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800570",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[실버뉴스] 중구, 50세 이상 대상 ‘시니어 그림책 읽기 자원활동가’ 양성 과정 운영 外",
-      "Link": "https://v.daum.net/v/20260626104902776",
+      "Title": "[현장] 서울국제도서전 맞선 ‘서울제대로도서전’ 뜻밖 흥행 [.txt]",
+      "Link": "https://v.daum.net/v/20260626170703620",
       "Portal": "다음",
       "Category": "생활/건강"
     },
     {
-      "Title": "중앙·JTBC 구성원들 \"오너 한 명의 무능이 만든 고용 불안 책임져야\"",
-      "Link": "https://v.daum.net/v/20260626080140722",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[이상민의 건치로 지키는 백세건강 2] 고령자 폐렴, 입안 세균부터 관리해야 하는 이유 - 헬스경향",
-      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQanROLXZiQ19xUVh4UVlUVHZ5d2RwbnZqTnlZUlN5b25Id3lueDFraXFDb19MRHRiRnZ3MTBYYkV1TlVScFJXQzdkb3ZkNm82dEJLYVIxeUhQcTJtX3d1eEZBQkQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "Trump promotes unproven theory about Tylenol and autism. What does the science say?",
-      "Link": "https://www.yahoo.com/news/science/article/trump-promotes-unproven-theory-about-tylenol-and-autism-what-does-the-science-say-214925073.html",
-      "Portal": "Yahoo US",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "정부, ‘잇단 불소 누출’ SK하이닉스 등 25개 반도체 업체 집중 점검",
-      "Link": "https://v.daum.net/v/20260626111144928",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘아기 울음’ 커진 광주·전남…출생아 수 회복 ‘기대감’",
-      "Link": "https://v.daum.net/v/20260624195214609",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "Chagas disease, a deadly infection caused by ‘kissing bugs,’ may have taken root in the U.S., researchers say",
-      "Link": "https://www.yahoo.com/news/us/article/chagas-disease-a-deadly-infection-caused-by-kissing-bugs-may-have-taken-root-in-the-us-researchers-say-223616589.html",
-      "Portal": "Yahoo US",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "한성숙 ‘축구협 카르텔’ 지적에 “온 국민 굉장히 분노, 잘 해결될 것”",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002662089",
+      "Title": "국가유산청, 한센인 삶 담긴 소록도 유산 보존 나선다",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030070",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "이제 다시 '싸이흠뻑쇼'에 빠질 시간 [이금준의 담다디談]",
-      "Link": "https://v.daum.net/v/20260626113216040",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "'불법촬영 혐의' 30대, 압수수색 중 자택서 추락사",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938738",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"감사원, 결론 정해놓고 의견 강요\"...심사위원들의 '반전 증언'",
-      "Link": "https://v.daum.net/v/20260626105800199",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "조국 \"기성 언론 유튜브, 정치적 입장에 기초해 추측·비방\"",
-      "Link": "https://v.daum.net/v/20260626112831864",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "K-미디어아트 저력…우주+림희영·이정우, '아르스 일렉트로니카' 수상",
-      "Link": "https://v.daum.net/v/20260626130503648",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "심청이 서천꽃밭에 피다…제주 창작국악극 ‘심청, 花’",
-      "Link": "https://v.daum.net/v/20260626104225517",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[시니어그룹] 원작보다 더 흥미로운 동화 속 인물들의 숨겨진 진실",
-      "Link": "https://v.daum.net/v/20260626112313625",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "심혈관 건강 안 좋은 임신부, 아이 발달 지연 가능성 높다 - 전자신문",
-      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwaHJhZDRMN0dhaDRmTTFQVFVjMWdjVnNqU1pnelUwMGxBRlZZVWtXNmhTaXFFV3NIYzNLYzlOay05MWJ1cnFyS3pzTXJVdw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "노동시간 안 줄이고 주 4일 근무했더니 여성이 ‘독박 육아’",
-      "Link": "https://v.daum.net/v/20260626063235171",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "종합특검, '관저 예산 전용 의혹' 김완섭 전 환경부 장관 소환",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030228",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘히잡 대신 드레스 입고 노래한 죄’…여성 가수에 태형 74대 선고한 이란 [플랫]",
-      "Link": "https://v.daum.net/v/20260626113230044",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "BYD코리아, 씨라이언 6 DM-i 사전계약 돌입…3750만원",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781917",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "리가켐, ADC 조기 기술이전 넘어 후기임상 선택지 넓혔다",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025342",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "런던살이 10년, 英 왕립음대가 교수로 모셔간 32세 바이올리니스트",
-      "Link": "https://v.daum.net/v/20260626092604655",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "대전 도시철도망 청사진 나왔다… 3·4·5호선 '63.43㎞' 확정",
-      "Link": "https://n.news.naver.com/mnews/article/656/0000180020",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "풍경화 이전의 공성훈…설치·개념미술 조명한 5주기 기념전",
-      "Link": "https://v.daum.net/v/20260626091709223",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "크레오에스지, 메르스 백신 캐나다 특허 취득 - 아시아경제",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1T1BDTi1XZXVDcTRxNTV2RWdCNzlHYlJNVHdIWE5wYXozaUJOWDBmLVNhQTJxcUlpeFBhUldqZkNtekNxQmpMeEFFOF9VZjhpZjMtVnVveDlUV3FEbkFuRw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "간헐적 단식 vs 칼로리 제한, 감량 효과 비슷.... 과식 충동 억제 효과는? - 하이닥",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55T1hKR2pZM2JEbXVLUUlaLXhJNThMUmZUcHhMYVhkOFptRjgweDVMekVvSFpYSzhVZUNCalp5OEJfamhZYWNSYlBfc1hiTUh2VWx0bG1JSlJKLUFXdzQ4ZnFTaGJMd3dZQXc?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "독창적 선무늬 15세기 '분청사기 음각선어문 편병' 보물 됐다",
-      "Link": "https://v.daum.net/v/20260626094030423",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "세븐틴 조슈아, 유네스코서 연설 \"세상 바꿀 해답은 청년에게\"",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781607",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“BYD 첫 하이브리드”…BYD, ‘씨라이언6 DM-i’ 국내 공개",
-      "Link": "https://n.news.naver.com/mnews/article/009/0005699182",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "정년논쟁서 빠진 것…경영계-노동계 싸움에 '청년'은 또 없었다",
-      "Link": "https://n.news.naver.com/mnews/article/665/0000007636",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘21kg 감량’ 손담비, 날씬할 수밖에… ‘이 운동’ 즐겨 하던데, 뭘까?",
-      "Link": "https://n.news.naver.com/mnews/article/296/0000101946",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[제71회 호남예술제 심사평]",
-      "Link": "https://v.daum.net/v/20260626114610616",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“무조건 5kg 빠진다” 강주은이 추천한 ‘뱃살 빠지는’ 운동",
-      "Link": "https://n.news.naver.com/mnews/article/346/0000111937",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[특별기고] 양파 한 알의 힘, 과장과 진실 사이에서 찾는 건강의 지혜 - yangpatv.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LWnpCZzl1SXh3dk00RWcyQnkzZWNmV2JjVlpfbkJFS1BFX21mcVZGR1BYT0VuU2VKX1JUZm05aGVqcC02ZVc1enc2UUNSWlBiNWNFVDAyX0VxSVZ0Mmk3V2c4dWM1QWt6?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "AI에게 날마다 속마음 털어놓는 당신, 별일 없겠죠? 신간 <우리는 왜…>",
-      "Link": "https://v.daum.net/v/20260626094428579",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "심부전 위험과 관련된 것으로 의심되는 건강 기능 식품 - Laodong.vn",
-      "Link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN2RIUE4yeXlfeE5zc0xiUXhMeU10N0hLbWw1UlA4b1FsdjJRNVAxVXhwWGRJQkthNGd2OWtJb1hleVY3dWs5QXRuYlI5WGM2N2ZOeGpRS0tkMk1fWEpoMGc2RHQ4a1UtRjNMRUVwWXlJS1pETHotQndoa0FzZi14eUxRX1ExbDBhV0dBYVZ2NkFMaXM5THhqQ2tMaGE5UHBITWxfWlFUWHM?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "식케이, 10세 연하 日 댄서 우와와 파리 데이트 포착",
-      "Link": "https://v.daum.net/v/20260626124406057",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "하룻밤 새에 사라진 수원 사진 명소 ‘파란대문장미’···경찰, 60대 2명 특정",
-      "Link": "https://n.news.naver.com/mnews/article/032/0003454541",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "면대약국 운영 적발…배우자 귀금속·명품가방까지 압류",
-      "Link": "https://v.daum.net/v/20260626122138619",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“감기 없는 세상 만들겠다”…실리콘밸리의 대담한 도전 - MIT 테크놀로지 리뷰",
-      "Link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNaWRtdm1lUEhGbzdXWHpHQ3lHdVFBU1ZMVk83Vjg2YlM1eThGQ2tNWXBCN3RvWEQwYmFlZjRUQlkwNDJfSEMzWlFkSmpOZUZCR0pjMFR4Njc0LTJkM2FHN3lhcWZFc3BiTWI2ODB0LWt0UVRFNlR5MC1hSzQ2NXc2N3FWX3V6TzZfLUdneDdWMUxjdWQ2M0VCNHRTWW9XMG5ZY2dYTlNULVNpN005bkNoNlUydk5nQk9rRC0tT2VhU0ZVakltQnh3TjZtLWU1em5VUEhodlJxTkpTT1dEcVNxQ2w4eUNXN1lnUW9nT2gxcmptZ3Y3UzZraWNYMWdKd0swMzdmVkd5anZ4OTF0ZEUyNmF1NXduQWVacEtvTHNHY1NOVk9aMkJ4blZaNWpMWE1GUHNJOFpNRUhYaWwwM0pxLS1R?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "서울선관위 간부, 올림픽공원 왔다 경찰 만류로 돌아가‥\"안전 우려\"",
-      "Link": "https://n.news.naver.com/mnews/article/214/0001507980",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“빨리빨리 먹어!”…한국 직장인 점심문화, ‘비만’ 부추긴다 | - HeraldK.com",
-      "Link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxObjNvUWtZeXE0clFOSF9oTDk0SjJjcEZHR2p6Skk5YUlGWUttbl9ZNUtNTG1NeEJJSno3Ymg0OV9HeUplNTFaRml0bFlsa0ZzSERYdGZzZmJ6cWNET1JrNHJGSVprS3lpTTJDbjdzQk96Qms4cmtyaE9JckVyanBxeG5pa2pDWEwtUGExeHAxYTZmMGJ3ekRTS3g4NGd0U1dmUWFOXzZ3SEhrMlZuZzBtVTJTbXktLTUtR3NHRWRxOGcxOTZKN2RmQWpObXRqZXAycjNTc2pYTnZ3a1RLd3g4c0lPNy1CUEtVekR0Y3NqTjFvb0QzV0NyNlhGdkNyMk5kMHA5Ujh3OHNPbXBHRmt0U1lsb0pYbmVDREl3VHFmV0lWZzRnOXdsQmdkQ3lIbEhKWHIxbF96M1VwZjJKTkI2dk05NjFmaVlj?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "서울선관위 사무처장 \"시민들 만나겠다\" 올공 갔다가 경찰 만류에 발길 돌려",
-      "Link": "https://n.news.naver.com/mnews/article/437/0000498131",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "여름 앞두고 체중관리 시작했다면...지방간도 함께 점검해야 - 글로벌뉴스통신GNA",
-      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MTlJDYjhkVHdkZ09vYU9nRU1HcEs5elhYZkltZlV6NFkxNkxTcVh1ekhkVDFoWDlMTjlSWUdtWENQMDJmNTdOY1B3RUFYN2FfSDdRUE9sWWVsQ21jOWJpaFVWZjNIQjhDWWZKRVl2WTNIVndw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "검찰, '14년 해외 도피' 126억원대 조세포탈범 구속기소",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030227",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "서울 광화문 일민미술관서 흉기피습…용의자 추적 중",
-      "Link": "https://n.news.naver.com/mnews/article/422/0000878760",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "경찰, 김병기 측 3천만 원 반환 장소·시간 특정",
-      "Link": "https://n.news.naver.com/mnews/article/052/0002371335",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[날씨체크] 주말 동안 낮 기온 30도 웃돌며 더워요···강한 자외선 유의",
-      "Link": "https://n.news.naver.com/mnews/article/657/0000052782",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "'디올백·금거북이' 대가로 한자리?‥잠시 후 선고",
-      "Link": "https://n.news.naver.com/mnews/article/214/0001507968",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "몸과 물질로 구현한 ‘진화의 압축’…잘레×나와 무용작 ‘플래닛[방랑자]’",
-      "Link": "https://v.daum.net/v/20260626103402115",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "SGLT-2 억제제 암 예방 효과, 기대보다 낮았다 - 메디칼업저버",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XeFFRUmlpSkZsLU5wNEZOOHFnSFZuemhibmhuUHZUNnhiUnBCUjg0NWtWV2lLYWotMkZESDdIdUNUTVRnT0N4Y0VzdzlmNEtQaWwyblFIVW5uWUhZMDFPVnMtOV81NzVPOGtB?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[뉴스12 날씨] 맑고 한낮 다시 더워져…동쪽 소나기",
-      "Link": "https://n.news.naver.com/mnews/article/056/0012206801",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "폐경 후 '해마 조직의 ECM 변화'로 알츠하이머병 위험↑ - 후생신보",
-      "Link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBYT0dzSjEyMzVEZVd5YmNqc2RJZTNFY0RHdFdxTHZRVE9zcXkxQ0VMbFA4bElDajZnYkZUc1BsZ3J1dFUy?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "타블로, 딸바보 아버지 사연에 \"자식은 소유물 아냐\"",
-      "Link": "https://v.daum.net/v/20260626130703724",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "중년기 이후 젊은 뇌를 원한다면?… 40대부터 운동하라 - 미주한국일보",
-      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81cUJiYzZCZnI1c3NXZktzNnN5NjdTTGNnV1prbGRhdVAyeC1Cd1llRzh5M1lYN3JHbmNNVlNmX21FLUpXNUtTa0VTanB0WVAzS01BeUhZVVJMU0ZxVmQ0?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "아산시 출생아 3년 연속 증가…인구 50만 자족도시 기반 다진다",
-      "Link": "https://v.daum.net/v/20260625104300461",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "㈜고수플러스-성신여자대학교 창업지원센터, 여성 청년 창업가 육성·1인 주거 혁신 위한 업무협약 체결",
-      "Link": "https://v.daum.net/v/20260626105143904",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "BYD, '씨라이언 6 DM-i'로 하이브리드 시장 출사표…점유율 확대 승부수 띄웠다",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315554",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘가위로 다리 절단’ 요양병원 논란에…의료계 “잘한 판단” 왜",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533392",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"우와\" \"미쳤다\"…BYD, 중형 PHEV SUV 판매가 3750만원 '승부수'",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025512",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "러브 머신 등 [이 책]",
-      "Link": "https://v.daum.net/v/20260626093142951",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "중년女 ‘복부 비만’ 선 넘으면...“뇌 손상 급증, 정상 체중도 안심 일러” - 디멘시아뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yRUF2bDBYbXFDcWdGWjkyS2h5Z2tHX1N2SW9XSjk4UkgyV0xSZFI2VGFzd0ZfWUZ4dXpUdnk3Zl83WDI2MnZFNEhoUEdiWDFVU2tnWlZXc0VwZzVZTlNvVXUzRkhKckdXcTJxZXc1TFVHQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "고양시의회 원구성 협상 첫발부터 삐걱…의장 선출 안갯속",
-      "Link": "https://v.daum.net/v/20260626131015834",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "투란도트 '네순 도르마'처럼…\"동트기 전까지는 아무도 날 몰랐죠\"",
-      "Link": "https://v.daum.net/v/20260625171807886",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[ASCO싱가포르] CAR-T·이중항체 시대…아태 지역 '접근성' 격차 숙제",
-      "Link": "https://v.daum.net/v/20260626122134616",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "당신이 배달 음식 유혹에 무너지는 과학적 이유…\"뇌를 해킹당했다\" - 와이드경제",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05RzNxYjFqLXlfS3FaclZsVWRBeDFURUFTRGF5UkplMk1ROW1hblQ4WXJkVGRGQThXVnpNUGYwX0JiakE2MjVzdjZnV3FjS3RfT0MyUnd2Rnh4a2RBVGVzOGxCbmhvazFqUWhEZQ?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "여성 불법 촬영 피의자, 경찰 압수수색 도중 자택에서 추락사",
-      "Link": "https://n.news.naver.com/mnews/article/214/0001507971",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "얼마나 화가 났으면…“홍명보 출입 금지” 써 붙인 편의점, 무슨 일?",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002662081",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "혈액 DNA·RNA 함께 보니...알츠하이머병 환자 구분 향상 - 병원신문",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wVTBnTXNlUGRkY3BDNUc5TlRWa2lFQlBQMmtJbTBpZFpXLTl1R3NNMTJNbTBIRm80dnRFTDlFUmpTOWxOdTg5UnJiLWRaajE5NFdmYnFUOURycUVxVFNjT2diQzh5QkhlNVE?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "‘심장 건강’ 걱정된다면?…심장 살리는 탄수화물 따로 있다",
-      "Link": "https://n.news.naver.com/mnews/article/145/0000023907",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "아흔 할머니부터 퇴직한 60대까지, 이곳에 모인 이유",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520610",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"염증 유발 적은 식단, 치매 고위험 고령자 발병 위험 낮춰\" - 세무사신문",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tcmRkNXFHQXN1cFVrZFA2TmNRVXpQTTExX0Jzek1ZbFQ4X2UxWnpIRHh1TWhxUmhzUExKYU9NaEhqOXZZNmpNNmxqYmstUnB1ZTE5MTdhMkxLSmo0eFZmQ1NZVUtGdEdtQVRZQw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "호세 무뇨스 현대차 사장 \"中 저가 공세, 고객 경험으로 대응\"",
-      "Link": "https://n.news.naver.com/mnews/article/018/0006315527",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "럭셔리 넘어 고성능으로…제네시스, 마그마·하이퍼카로 새 10년 연다",
-      "Link": "https://n.news.naver.com/mnews/article/008/0005377558",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[손혜진의 아름다운 우리 가락] 전통공연, 어디서 볼까?",
-      "Link": "https://v.daum.net/v/20260626115701955",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "정부초청 외국인 장학생들 한 자리에…첫 홈커밍데이",
-      "Link": "https://v.daum.net/v/20260626120203143",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "송호성 \"유럽·韓 전기차, 美 하이브리드…맞춤형 전략으로 점유율↑\"",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025507",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "아이비, 뮤지컬 '시카고' 주역으로 브로드웨이 진출한다",
-      "Link": "https://v.daum.net/v/20260626124511078",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "文도 “한 남는다”던 ‘낙동강변 살인사건’...관련 경찰 법정 선다",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533397",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "내일까지 곳곳 소나기…천둥·번개·우박 동반하는 곳도",
-      "Link": "https://n.news.naver.com/mnews/article/056/0012206287",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[뉴스 플러스+] “90년 광산 노하우 소실 위기…기술·인적 자원 보존해야”",
-      "Link": "https://v.daum.net/v/20260626000837522",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "당뇨 환자도 과자 먹어도 됩니다! - K-Life TV",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zNy1BeUNYSlFVNG45aDNqNDk4cTNKTmtOaV96SzVGTUNjczBuQWhMWGUxMHhySWZoT1l5LV9saVRsQTlWRUkzTVhULW9BTWNqWTlVal9YUUVwcEdYbmN4R2tLekNLUWRxSDRFQw?oc=5",
-      "Portal": "Google News",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "Poll: Only 15% of Americans agree with the unproven claim that Tylenol causes autism",
-      "Link": "https://www.yahoo.com/news/science/article/poll-only-15-of-americans-agree-with-the-unproven-claim-that-tylenol-causes-autism-203609478.html",
-      "Portal": "Yahoo US",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“덜 앉을수록 좋다” 반만 맞았다…앉는 시간 늘려야 하는 사람은?[노화설계]",
-      "Link": "https://n.news.naver.com/mnews/article/020/0003729670",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "[빵 굽는 타자기]거절이 아픈건 네 문제가 아니라 뇌문제야",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781879",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "경기지사인수위, 장애인 콜택시 운전원 2배 증원 제안",
-      "Link": "https://n.news.naver.com/mnews/article/052/0002371298",
+      "Title": "\"내 여름휴가랑 겹치는 거 아냐?\"…'7월 지각 장마' 가능성  [포크뉴스]",
+      "Link": "https://n.news.naver.com/mnews/article/057/0001955699",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
@@ -8787,50 +7677,806 @@ window.LOCAL_DATA = {
       "Category": "생활/건강"
     },
     {
-      "Title": "우리나라 맞아? 170년 간 점점 커진, 도심 속 거대한 공간",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520615",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "Confused by the new COVID vaccine guidelines? Here's what you need to know.",
-      "Link": "https://www.yahoo.com/news/article/confused-by-the-new-covid-vaccine-guidelines-heres-what-you-need-to-know-183705404.html",
-      "Portal": "Yahoo US",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "광화문 일민미술관에서 흉기에 찔려…70대 용의자 추적",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367559",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "日 반출됐다 돌아온 분청사기·부산 범어사 불화, 보물 됐다",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016160711",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "송혜교, 마지막 인사…\"소중한 추억 간직하겠다\"",
-      "Link": "https://v.daum.net/v/20260626115658949",
+      "Title": "새 볼펜 하나 사려다가 다시 꺼낸 베스트셀러",
+      "Link": "https://v.daum.net/v/20260626171800023",
       "Portal": "다음",
       "Category": "생활/건강"
     },
     {
-      "Title": "냉동실 성에, 방치하면 전기료 더 나온다?…청소 방법 알아보니",
-      "Link": "https://n.news.naver.com/mnews/article/296/0000101945",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "\"일주일에 90분만으로도\"…치매·사망 위험 크게 낮추는 근력 운동 - 세계일보",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QZnBqYldBZkYtVUNDM2x2eHE3bkpjV3h3WHlYRWNkTkpTbW15NGpJZTZwRWpyVk5XTzI3QjBTWFBrZjJ4aXFFbHNvazJIWF8tMkkzRFRobkHSAVRBVV95cUxObWp1SzFoMVgtaTV6QmdlTXRqT29kMkVVTEtDWlFMaUtMMEJVeE9TcWRibGtPcGh4aVpUTEZ6T3dJY1F2WWZEYWtpX1lZNllwYkpWR3Q?oc=5",
+      "Title": "수면의 질은 치매 위험과 관련이 있는 것으로 여겨집니다 - Laodong.vn",
+      "Link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWS1TTEZGY2VjS2hRNHh3azVXUnJQMGlGVkg0T3FMV3VPem5zbER0MWtYNXk5Q2phNDRUWjdvYV9VbzU1cnM5QVR6QnBUMm1RcTRmaG43d3QyX3VyZkU4blp5WFZvSTVHYlJmeGotZ2xabWQ5ZGNzR1hvY1VNUGt0cUxoSG94VUJFczk3Ym4zOV9BTjNRWTNTQ3JEWGVpUnFVNDNnRG44eXhrTkduSlR6SQ?oc=5",
       "Portal": "Google News",
       "Category": "생활/건강"
     },
     {
-      "Title": "K팝 공연 국내 팬클럽 선예매…암표 차단책인가 해외 팬 역차별인가",
-      "Link": "https://v.daum.net/v/20260625205518146",
+      "Title": "美, 中 연계된 커넥티드카 판매 금지… 폴스타 4 만드는 르노 부산공장 ‘날벼락’",
+      "Link": "https://n.news.naver.com/mnews/article/366/0001174704",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“피로 때문 아닐 수도” 하품 자주 하는 사람이 의심해야 할 병",
+      "Link": "https://n.news.naver.com/mnews/article/346/0000111951",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "소방청, 감사담당관 전격 교체…‘갑질 방조’도 전부 징계",
+      "Link": "https://v.daum.net/v/20260626172851357",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“국민 1인당 매달 62만 원”…반도체 초과세수 국부펀드 조성 주장",
+      "Link": "https://v.daum.net/v/20260626110431553",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“생선은 먹고 싶지만 손질하긴 싫다면?” 영양사들이 추천한 통조림 생선 활용법",
+      "Link": "https://n.news.naver.com/mnews/article/032/0003454560",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "카라얀은 최고의 비주얼 디렉터였다...귀의 시대에서 눈의 시대로",
+      "Link": "https://v.daum.net/v/20260626164610908",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "오세훈 \"호남 대규모 반도체 투자, 정략적 폭주…국정 사유화\"(종합)",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161995",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'멀멀'이 뭐길래…올리브영 신제품이 다 비슷해 보이는 까닭은 [박현주의 코덕의 트렌드 관찰기]",
+      "Link": "https://n.news.naver.com/mnews/article/015/0005303197",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "제네시스 따위가 포람페급? 비웃다 감격…국뽕 아닌 국력, 기적 아닌 실력 [세상만車]",
+      "Link": "https://n.news.naver.com/mnews/article/009/0005699010",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“올해 서른이 된 상은이 생일 축하해”…올해도 ‘딸 없는 생일상’ 차린 이태원참사 유족",
+      "Link": "https://v.daum.net/v/20260626171831070",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "VUS 분류 변이가 있으나 임상 양상을 통해 Agalsidase β 투여를 결정한 사례 - 메디칼업저버",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pZWtwcjhpRXlNY0tWeHRjSWNhUjZWS0VNSzhxSm93emZmS2NHcndqWVFIbWIxaGJuVzluV1hRYS1ubHdUcG10a1pqTmkzWmpnX1JpdWRLQ2JZSng1OUkybVFMTTI0TkliT21J?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "당신이 배달 음식 유혹에 무너지는 과학적 이유…\"뇌를 해킹당했다\" - 파이낸셜뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IRXNJMHREU2dIMmI2dG81a0dUd0Q3Q2M2YUpjanN6VmxqeGNpcEZUbjU2MmE3YzBtaXlReFdZaTVUUVNpRmhkVi1qQ2tuM0JBWjNMckRKcENnQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "침수된 도서관에서 빛난 소명의식, 비주류를 위한 사서들의 분투…연극 ‘사사로운 사서’",
+      "Link": "https://v.daum.net/v/20260626161145730",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'이재명 명예훼손 혐의' 모스 탄, 비공개 경찰 조사",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005782048",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "뇌 형성과정서 신경세포 DNA 손상기전 밝혀져 - 의학신문",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxZEdVX1FkTHN6dWlzOUh3WVhGdFY4TGROa3NqSHVNRVJmLVVLbFY3eEd6ek43ZzBJWVRLX3NVTUhJWTVCY3ZCc3lCYkE3NF9nc194NHlwSDVZTmEwQXBCRkV4MTlLd3RqNXc?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"90년대생, 부모 세대보다 빨리 늙는다\"…조기암 급증 단서 찾았다[저널톡] - 한국부동산뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zR2N1c2NoR3ZURkRBbWdxa3JTRkVQRGpyMkpLOTN0bEswbjFwd2k1cF9EWmFLVmM2OWhfeG5YSVE0X1dBeEdJWWtKZWpQb2FnVjNGYTFkdG02Ykh5SGxHME8xZUlERHYyU2E4?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "레미콘, 경남 동부권 파업…남부권은 ‘단체교섭’서 막혀",
+      "Link": "https://v.daum.net/v/20260626113508182",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "공기를 둘러싼 오해와 진실…칼 짐머 '공기의 세계' 출간",
+      "Link": "https://v.daum.net/v/20260626171805056",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"운동할 시간 없을 땐 5분이면 충분\"…의사들의 심장 관리법",
+      "Link": "https://n.news.naver.com/mnews/article/123/0002385478",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "서산 농장 탈출한 늑대개 11마리, 열흘만에 모두 돌아와",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729746",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "BYD코리아, 첫 PHEV ‘씨라이언6’ 3750만원 파격가로 승부수",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428207",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[ASCO싱가포르] HER2 양성 유방암…이네테타맙·피로티닙 조합 주목",
+      "Link": "https://v.daum.net/v/20260626155827163",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "필리핀, ASF·구제역 백신 개발 프로그램 착수 - 한돈뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aRGg5b0EzZFhRR2VJWFFHTlAzc0tnWFpJb1dRTEh0NWNLQUJuWHVYRVktbVpIUndsb0xMZ3FJOEF4aTFBRWVtbTNpT0ZwZ3hyTlN1aV9ENXhmX0I2MUZKaTJzM1dRZmRE0gFsQVVfeXFMT0I4ZC1qay1VSmxhUmp1VWF0Q2ZDSVJsNWVLTnktb0ZiUU9vZlJuU3BsNTdDVmVrRWxvczJwV0JQYW9nTF9ybW41djZ0eDN5Y3lFSllXWTdncThNdGN3S1hDc01pcm8ybDFObUsz?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'매관매직' 김건희 징역 7년…\"억대 금품 거리낌 없이 받아\"",
+      "Link": "https://n.news.naver.com/mnews/article/629/0000510989",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[오늘의 운세] 6월 27일 토요일 (음력 5월 13일 壬申)",
+      "Link": "https://n.news.naver.com/mnews/article/023/0003984298",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[실버뉴스] 중구, 50세 이상 대상 ‘시니어 그림책 읽기 자원활동가’ 양성 과정 운영 外",
+      "Link": "https://v.daum.net/v/20260626104902776",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'오겜 깐부 할아버지' 오영수, '강제추행 혐의' 4년 만에 무죄 확정",
+      "Link": "https://n.news.naver.com/mnews/article/417/0001149227",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'면역항암제 오전 투여' 효과 크다더니…중국 폐암 논문 4개월 만에 철회",
+      "Link": "https://v.daum.net/v/20260626150303791",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "읽기도, 쓰기도, 요약도 AI로 …'생각 안 하는' 사람이 온다",
+      "Link": "https://n.news.naver.com/mnews/article/009/0005699322",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[문화 트렌드] 대한민국 최초! 역대급 캐릭터 라인업의 역사적 만남 外",
+      "Link": "https://v.daum.net/v/20260626153800290",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“내 몸의 80% 채웠을 것” 한고은 즐겨 먹는다는 ‘의외의 음식’",
+      "Link": "https://n.news.naver.com/mnews/article/346/0000111953",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"30일까지 2천억 못구하면 파산\"…홈플러스 직원·입점점주 호소",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256722",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "체중계 숫자의 함정… 엉덩이 처지고 배 나오는 ‘가짜 다이어트’ 특징",
+      "Link": "https://n.news.naver.com/mnews/article/346/0000111948",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“여기도 나타났어요” 수 줄었지만 더 넓게 퍼진 러브버그, 지도로 피해간다",
+      "Link": "https://v.daum.net/v/20260626162604259",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "Chagas disease, a deadly infection caused by ‘kissing bugs,’ may have taken root in the U.S., researchers say",
+      "Link": "https://www.yahoo.com/news/us/article/chagas-disease-a-deadly-infection-caused-by-kissing-bugs-may-have-taken-root-in-the-us-researchers-say-223616589.html",
+      "Portal": "Yahoo US",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“나 여자 좋아해” 여고생 고백…혐오 사라진 이들의 쿨한 ‘여름’",
+      "Link": "https://v.daum.net/v/20260626153008912",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "웹툰 다음은 웹소설 … 드라마 새 금맥 부상",
+      "Link": "https://v.daum.net/v/20260626171800027",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "김건희, 급하게 명품값 이체했지만... 감경 없었다",
+      "Link": "https://n.news.naver.com/mnews/article/047/0002520674",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "AI 활용 교육 준비 안 된 학교…교사 역량 차 크고 네트워크 인프라도 미비",
+      "Link": "https://v.daum.net/v/20260626154632656",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "인간보다 더 인간 같은 기계…성해나 첫 기담집 '인비인'",
+      "Link": "https://v.daum.net/v/20260626171802041",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "자궁경부암 검진 사각지대 줄이려면... 자궁경부 확대촬영·HPV 검사 병행 필요 - 바이오타임즈",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oOEkyc2VlZGd2VW1UWUYwR0EwTnFXcVppenlUWFotR0czcUdVRGw0cE45MmJHNUg3a1ZINV9lcTJCMVA0SjVwR2tXa2h2U3VjcFliaDFfOGU0TWw5dVdQY0FDOHpETTNVZzF3WQ?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "급물살 타는 교육교부금 개편 논의…“학령인구 감소 반영해야”",
+      "Link": "https://v.daum.net/v/20260626165633218",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "‘계엄 비판 자막 삭제’ 이은우 전 KTV 원장, 1심서 집유",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005781960",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "비타민D 충전, 햇빛만으로는 부족하다? - 뉴스토마토",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uQThkZ1cwZWN0LWYtZFY2WUswN0NRcDl5Q3I0SGtlS2Y0LW9fLXJaVVRLblgzRTFLd1lVNDNjV3M2dzVLX1hKRE9oTzJOMzR3SkhCeTNPbHBwZ2hsc2ZYag?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "50세 이상 '한국형 주치의' 시범사업 본격화...일차의료 통합수가 도입",
+      "Link": "https://v.daum.net/v/20260626160307399",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "신형 아반떼 어때요? \"불끈불끈 근육질 몸매, '섹시한' 두뇌\" 탐나네",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026158",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "女소방관 '갑질 사망'에…소방청, 조직문화 전반 점검",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162201",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "민선 5기 세종시정 핵심 과제 ‘응급·중증 의료체계 확충’",
+      "Link": "https://v.daum.net/v/20260626164549889",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'건강검진에서 흔히 발견되는 지방간, 방치하면 간경변증 위험' - 이데일리",
+      "Link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRy1tX1NlY0I1dVhCOFZwaVZZMXFpUlluS0xjUUtWcHJ5WDZ3ZHNfMm1VSTNzQXdkRjhUYXdNNkozRnFtTlVvdmdEdlJXSzF4U1VMSW84WUtBa0dTX0lwTWo2YVIxZDJHenl2NGtXRzlJOUlIRUVKaHlTWnRhSmEzTg?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[이상민의 건치로 지키는 백세건강 2] 고령자 폐렴, 입안 세균부터 관리해야 하는 이유 - 헬스경향",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GejE4QzNBYjhHZGtBT3U5ZU1SN21LVnhDb1Nqclo2cVpqa0h0UDFCdnI2dFBqVERjU1QySnprdlpBWTNTbktfS2FndlR6UGN0TnlKc2JxbVBGT0NhWFNaenJnZG9vZlVQZVE?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "정부, ‘잇단 불소 누출’ SK하이닉스 등 25개 반도체 업체 집중 점검",
+      "Link": "https://v.daum.net/v/20260626111144928",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[단독] “촉법이라 처벌 안 받으니 합의 마라” 무인점포 훼손한 중학생 부모의 민낯",
+      "Link": "https://v.daum.net/v/20260626162219139",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "혈압·혈당·콜레스테롤 모두 전단계땐 심혈관질환 빨간불 - 스포츠월드",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLdTlpQVdlT1Y3NlE5eWQtM1pyWkc4d1J4WTVHWU1MX01TWTI3aDBlejVtaDB4eW1SNjd0cFdKNlVrUEJCRkUwbUFsZEtfY28zYk1NYTNNTjJ4QjVLQUZtRUtR?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[장은수의 책과 미래] '찐독자'와 '텍스트힙 독자'",
+      "Link": "https://v.daum.net/v/20260626173012396",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "이별 통보에 '흉기 살해' 20대 구속기소…사전 범행 계획",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030741",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "체코 프라하서 ‘K-콘텐츠’ 엑스포 열린다...동유럽 시장 정조준",
+      "Link": "https://v.daum.net/v/20260626162400171",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"李 대통령 소년원 수감\" 발언한 모스 탄…경찰, 비공개 소환조사했다",
+      "Link": "https://n.news.naver.com/mnews/article/088/0001016437",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "실종 선원 수색 이틀째...토사 무너져 작업자 숨져",
+      "Link": "https://n.news.naver.com/mnews/article/052/0002371417",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "남도의병역사박물관, 개관 첫 특별전 '의병의 시작, 나주'",
+      "Link": "https://v.daum.net/v/20260626161703970",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "‘임신 중 외도 논란’ 홍서범·조갑경 子, 손배소 항소심도 졌다",
+      "Link": "https://n.news.naver.com/mnews/article/119/0003105224",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“일주일만 해도 살 빠진다”… 의사가 꼽은 ‘아침 루틴’ 4가지 - 헬스조선",
+      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwQ1VoRF9wcm9IcGh6a0Q5LTZQRFVVLVJOMnFKc1VQYlh1eFdNbXBoS181blUxdXB3MVVKRU1teEFWeVNkbWV4a21DME5BTDBGajlESFdEZmdBd0FZNE1lNC1zYk4waTMxR05BdlBvaF9VY085dkFlUElhbDluUFU?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "AI 시대, 젠더폭력도 진화…“범죄행위 중심 처벌에 한계, 구조적 맥락 살펴야”",
+      "Link": "https://v.daum.net/v/20260626155152873",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "아득한 과거에서 찾은 현재의 해답… 베르베르의 전생 체험",
+      "Link": "https://n.news.naver.com/mnews/article/469/0000938808",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "김무열 \"'참교육' 글로벌 1위 소식에 윤승아 안고 오열\"",
+      "Link": "https://v.daum.net/v/20260626173058422",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "‘희생의 땅’에서 ‘기회의 땅’으로…경기준비위, ‘경기북부 대전환’ 본격 시동",
+      "Link": "https://n.news.naver.com/mnews/article/028/0002811529",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“감기 없는 세상 만들겠다”…실리콘밸리의 대담한 도전 - MIT 테크놀로지 리뷰",
+      "Link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNaWRtdm1lUEhGbzdXWHpHQ3lHdVFBU1ZMVk83Vjg2YlM1eThGQ2tNWXBCN3RvWEQwYmFlZjRUQlkwNDJfSEMzWlFkSmpOZUZCR0pjMFR4Njc0LTJkM2FHN3lhcWZFc3BiTWI2ODB0LWt0UVRFNlR5MC1hSzQ2NXc2N3FWX3V6TzZfLUdneDdWMUxjdWQ2M0VCNHRTWW9XMG5ZY2dYTlNULVNpN005bkNoNlUydk5nQk9rRC0tT2VhU0ZVakltQnh3TjZtLWU1em5VUEhodlJxTkpTT1dEcVNxQ2w4eUNXN1lnUW9nT2gxcmptZ3Y3UzZraWNYMWdKd0swMzdmVkd5anZ4OTF0ZEUyNmF1NXduQWVacEtvTHNHY1NOVk9aMkJ4blZaNWpMWE1GUHNJOFpNRUhYaWwwM0pxLS1R?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“치매 막는데도 도움 될까”...비타민C의 다양한 건강 이점 - 코메디닷컴",
+      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFAwZXpyWHVNZWs3d0VUeVBTcW1MdlYtdkMtVW1hTnBRYy04UHZ0OFVRY0NXX1cwMG11ZFl0aVlXNjhwZw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"공무원이면 무기징역 가능\"‥'7분 참교육' 김건희 완패 [현장영상]",
+      "Link": "https://n.news.naver.com/mnews/article/214/0001508013",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "‘히잡 대신 드레스 입고 노래한 죄’…여성 가수에 태형 74대 선고한 이란 [플랫]",
+      "Link": "https://v.daum.net/v/20260626113230044",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[여성뉴스] 메리놀병원, 산부인과 김동휘 과장 부임... 부인암 및 부인종양 등 여성질환 진료 대폭 강화 外",
+      "Link": "https://v.daum.net/v/20260626151112102",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "외국인도 '디지털 관광주민증'…관광정책 공모전 최우수상",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016160430",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "다시 웃는 경포호, 18일간의 기록이 바꾼 풍경",
+      "Link": "https://v.daum.net/v/20260626163302479",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "혈액 DNA·RNA 함께 보니...알츠하이머병 환자 구분 향상 - 병원신문",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wVTBnTXNlUGRkY3BDNUc5TlRWa2lFQlBQMmtJbTBpZFpXLTl1R3NNMTJNbTBIRm80dnRFTDlFUmpTOWxOdTg5UnJiLWRaajE5NFdmYnFUOURycUVxVFNjT2diQzh5QkhlNVE?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "폐경 후 '해마 조직의 ECM 변화'로 알츠하이머병 위험↑ - 후생신보",
+      "Link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBYT0dzSjEyMzVEZVd5YmNqc2RJZTNFY0RHdFdxTHZRVE9zcXkxQ0VMbFA4bElDajZnYkZUc1BsZ3J1dFUy?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "국내 HIV 감염자, 2024년 1천명 아래로...생존자 1만7015명 - 메디소비자뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JSUJHRUxYYVR4MW43X29iQXgtMXNJUG5sV2hCMWd6eUJxallOOHU3RmJKQzZ4N3R1SlhUMU1wa1NWLVh0VlhvZlBIUDlIRjUxTnFEWXRDSGNWRlJDa0psLXNuOUE0Z1hkRnhLRnRMUU5jYkXSAXZBVV95cUxQQzcxVDBuN2x5b29CSV8xb0ZiR29GN2VWa3JuV2NvenJyc2JMSVMyLWh6ZHFSUmE1WVMzVFpib2x1MjdQcmxGLVJjNHRFT0tGR0RwUm1yOUdsaFZjR19MS21CbXVhenBGZEw3QUJlMFE0Y2ZJbkdR?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "빅파마는 AI, 중국은 자본…K바이오가 샌디에이고서 마주한 현실[바이오 USA 결산]",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009025281",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "경찰, '5·18은 북한 폭동' SNS 유포한 남성 불구속 송치",
+      "Link": "https://n.news.naver.com/mnews/article/469/0000938781",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "여름 음식에 식초 한 스푼 넣었더니…몸에 생긴 변화 7가지 - 코메디닷컴",
+      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5RNk10cThUaXREaHFZNTVIMkNYRE9qOWNJUWo4WTFrRDlKTl9taE02MjYtYTNuaEIxc2M3UkV3QURpUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'깐부 할아버지' 오영수, 4년간의 법정 공방 끝…강제추행 '무죄' 확정",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377771",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "서울선관위 사무처장, '잠실 개표소 봉쇄' 현장 찾았다가 경찰 만류로 복귀",
+      "Link": "https://n.news.naver.com/mnews/article/119/0003105230",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "쇼핑 갔다가 살바도르 달리 조각이 눈앞에! 예술의 문턱 없애는 베이징",
+      "Link": "https://v.daum.net/v/20260626164621919",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "사진가들 사이에서도 소문난 능소화 맛집, 여깁니다",
+      "Link": "https://n.news.naver.com/mnews/article/047/0002520664",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "BMW, IX3 내달 6일 출격…플래그십 전동화 시장서 질주[2026 부산모빌리티쇼]",
+      "Link": "https://n.news.naver.com/mnews/article/030/0003441697",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "독창적 선무늬 15세기 '분청사기 음각선어문 편병' 보물 됐다",
+      "Link": "https://v.daum.net/v/20260626094030423",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "4월 출생아 18% 급증했지만…“저출생 터널 탈출 안심 일러”",
+      "Link": "https://v.daum.net/v/20260625120007061",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "검색 기록에 '두개골 구조'…이별 살인 20대 재판행",
+      "Link": "https://n.news.naver.com/mnews/article/215/0001256730",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "‘변비일까’ 생각에 3세 딸 배 만졌다가… 암 잡아낸 엄마의 직감 - 헬스조선",
+      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UbkhSXzgyaGt5MHo1eXpKUk43b1NuVU1VdWRIM1pveWtjaTNNcVN1VkdIbXBMWXR1OEVtSFBsVGtSTF9SX19sYzhGNDU5TmFGeGxTcjlvRklWRVU4ZjUyYVoyRHRrNWctWndxY0JyelR6c3pRNlJWcUtWUmYzTDA?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "아산시 출생아 3년 연속 증가…인구 50만 자족도시 기반 다진다",
+      "Link": "https://v.daum.net/v/20260625104300461",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "MBC 시청자위원회, 방문진 이사 후보로 강형철·신종원 추천",
+      "Link": "https://v.daum.net/v/20260626160200314",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "발레의 별들, 7월 성남 출격…발레 명장면만 쏙쏙 뽑아 선보인다",
+      "Link": "https://v.daum.net/v/20260626165710237",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "깨달음 향해 걷는 '워킹붓다'…한국 중생 만나러 찾아왔다",
+      "Link": "https://n.news.naver.com/mnews/article/009/0005699329",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "댕댕이도 사람도, 걸음걸이 보면...‘이것’이 보인다?",
+      "Link": "https://n.news.naver.com/mnews/article/296/0000101952",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "12명 살해한 악마 vs 수상한 천재 프로파일러 … 인간 본성 들여다보다",
+      "Link": "https://v.daum.net/v/20260626164200783",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'쉬었음' 청년에 닥친 또다른 난관?…\"OO도 나빠진다\"[뉴스럽다]",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162267",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "곤룡포 입은 고양이, 자개 두른 쿠키…캐릭터 업계 'K-헤리티지' 열풍",
+      "Link": "https://v.daum.net/v/20260626152704768",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "여름철 운동 후 숙면 방해 줄이려면…전문가가 꼽은 쿨다운 요령 - 스트레이트뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55M2F5RlpmLThpZzFoYU1VWTBaR3JBY0JMS2VlUk5yUElkX281VmJ2MDJNWFF0Q2piM2hheTNSWnN0SjZHNW15aEQwQ1J4clQxSXlvZDlCancwTmtGYXVrMFlIMXhOS0hBOGFlbnhZX2JmUjDSAXdBVV95cUxONGJTMnQ4MERvV1lzTU9zMU5DaTNOTFpZM2FWS3JPSzdTajVpbVU4ZTd1eXViTUIxSDdVZzFjdWI5czY5NWVzUDFTZnhMYW9hQTBiZjhjelcwaVVaYjdURjNMUWVwbGhJeVR5SUloQ19heF9GTVB3dw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "중년기 이후 젊은 뇌를 원한다면?… 40대부터 운동하라 - 미주한국일보",
+      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81cUJiYzZCZnI1c3NXZktzNnN5NjdTTGNnV1prbGRhdVAyeC1Cd1llRzh5M1lYN3JHbmNNVlNmX21FLUpXNUtTa0VTanB0WVAzS01BeUhZVVJMU0ZxVmQ0?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "전주시의회, 개원 앞두고 민주당-비민주당 진영 '파열음'",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161549",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "Making sense of the showdown at the CDC",
+      "Link": "https://www.yahoo.com/news/politics/article/making-sense-of-the-showdown-at-the-cdc-190824510.html",
+      "Portal": "Yahoo US",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'매관매직' 김건희 여사, 징역 7년…반클리프 목걸이·디올백 등 빼앗겨",
+      "Link": "https://v.daum.net/v/20260626163204447",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"홍명보 출입 금지\" 안내문까지…남아공전 완패에 '분통' 터진 민심",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315411",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "세븐틴 조슈아 유네스코 연설 “청년들 다양성 존중받으며 성장하자” [현장영상]",
+      "Link": "https://n.news.naver.com/mnews/article/056/0012206921",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "단아한 미모의 ‘테니스 여제’ 크리스 에버트, 난소암 두 번째 재발",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729716",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "공무직 영양사 인권위에 차별 진정",
+      "Link": "https://v.daum.net/v/20260626063249181",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[양파 소비 캠페인] 양파와 같이 먹으면 좋은 '5가지 궁합 음식' - 소셜타임스",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GNW9OWDdTZW5XOHZ2MzJRaThnUXpWSERGNklGOFk1X2dyc01HRFpzZkI5YXpFbjhFZ1NUc2J3LVJrcmt4U1dlREpJcEpDYUY3Q19RdkkyU0lYMG1MTEwza2ZiT2ZRcDFQV3pZckVCTdIBc0FVX3lxTFBGdGVpQzl0bEhSRmFMWE1nTnFDYzU4SEZ2UlRRMzVodmFtT2dDaENid0ZQOHd2akRRNWQxT2hYTmduLXBya0R4OERUM3FpcDgzekNZNkNNMjJkRU5wUWNxQlJYTUpPRDlxNlFLbG1nTHNITUE?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'허위정보 유포' 모스 탄, 어제 첫 경찰 출석‥\"2시간여 비공개 조사\"",
+      "Link": "https://n.news.naver.com/mnews/article/214/0001508002",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "심혈관 건강 안 좋은 임신부, 아이 발달 지연 가능성 높다 - 전자신문",
+      "Link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwaHJhZDRMN0dhaDRmTTFQVFVjMWdjVnNqU1pnelUwMGxBRlZZVWtXNmhTaXFFV3NIYzNLYzlOay05MWJ1cnFyS3pzTXJVdw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "Poll: Only 15% of Americans agree with the unproven claim that Tylenol causes autism",
+      "Link": "https://www.yahoo.com/news/science/article/poll-only-15-of-americans-agree-with-the-unproven-claim-that-tylenol-causes-autism-203609478.html",
+      "Portal": "Yahoo US",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "김동근 시장, 4년 시정 마침표...“시민과 만든 변화, 의정부 미래로 이어지길”",
+      "Link": "https://v.daum.net/v/20260626172810340",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"선관위 직원 경찰복 입혀 빼냈다\" 폭로…돈 노린 '자작극'이었다",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315987",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“고위험군도 늦지 않았다”…‘이 식단’ 치매 발병 위험 최대 30% 떨어뜨려 - 농민신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZNk83X0dRejBwM3EySnd4Skl4WjB6ek0tWlB2ejVFeVhJVUo0QnpSY0dwNFMza2RLWUhTYmY2dlN2Q2NWbFlYaXlXOEFQNUdHdFkwb3VZR1JHZw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "檢보완수사권 폐지·공소제기도 '심의회' 통제…구속기간 30→21일 축소",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026298",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "SGLT-2 억제제 암 예방 효과, 기대보다 낮았다 - 메디칼업저버",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XeFFRUmlpSkZsLU5wNEZOOHFnSFZuemhibmhuUHZUNnhiUnBCUjg0NWtWV2lLYWotMkZESDdIdUNUTVRnT0N4Y0VzdzlmNEtQaWwyblFIVW5uWUhZMDFPVnMtOV81NzVPOGtB?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "서울시, ‘칸쿤 출장 의혹’ 정원오 주민감사 착수",
+      "Link": "https://n.news.naver.com/mnews/article/005/0001857374",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "크레오에스지, 메르스 백신 캐나다 특허 취득 - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JbjZ6cFFGd2ZJSDJ6TDY3OVdUUWZyQWdjMExRU2xFTFkzbG5Ja3BPYmtPNE5iUVVuVkRGLWtoZlFVV0cyMUJJZFNqUTB6TVVfbEE0ZzhjV0dDZzAzZTJqekdR?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "9년 만에 새 주인 맞은 군산조선소…선박 건조 재개 '첫발'",
+      "Link": "https://n.news.naver.com/mnews/article/002/0002446370",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "눈물과 박수 속 마지막 퇴근…강수현 양주시장, 4년 시정 마무리",
+      "Link": "https://v.daum.net/v/20260626173209472",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"양치하면 흙맛, 구역질까지…\" 광양 수돗물 악취 20여 일째",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162268",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“한 번도 너를 포기한 적 없었다”…희귀병 딸 안고 태평양 건넌 아빠",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729737",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'파업 불참자 불이익' 전 MBC 경영진 2심도 벌금형",
+      "Link": "https://v.daum.net/v/20260626155701093",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "김원기 의정부시장 인수위, “CRC 관통도로 사용료 즉각 면제”",
+      "Link": "https://v.daum.net/v/20260626173243490",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"피케이멜즈, 파킨슨병 치료 연속성 유지 핵심 정주 옵션 의미 커\" - 메디칼업저버",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NQnZmU0xLRU9md0w4N3lDOWIzd0RPaWF3YjZrQ3Y4SjUwVEVpYmZMSTN3THpyQldfTmg1bjdWTTEzWW1lZXVNTzQ5OHFJcURndlBRUUNrN2lTamVIVF9MVmNOWWtJdUVSSHFv?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "전립선암, 폐암·위암 제치고 남성암 1위…생존율 높이는 핵심은",
+      "Link": "https://n.news.naver.com/mnews/article/469/0000938840",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'한국行 포기 시사' 유승준 \"축구 때문에 열 받아서…\"",
+      "Link": "https://v.daum.net/v/20260626161405833",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"운동할 시간 없을 땐 5분이면 충분\"…의사들의 심장 관리법 - 조세일보",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01SXQzTzR6NUlXT05TSE1SVlNza3A2Y0tOMzBObkNPbWprdFp3WVNUYXh1YUM4T3pHS3laR2syZ3dsTmF0RV9yd285MWNtcEl3T2x3d3BfQzJLaXlfcllkVmNDSzhkOUpicFBmSEt5UXY2U05V?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“꾸준히 먹으면 콜레스테롤 수치 감소” 영양사 추천 음식 4가지 - 헬스조선",
+      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EaDlfQlNsY0xSN1NKNWN2VUhPUmFnYUhYLUQyMFBuWVFfcm95ZFJ6bFhZX3hzZVQ1LWRPSDFMdkxMQ2ZCeV9HQ2RvWW56SFhaZkFHdlBrVGxHd3VYYVN4dFFXMEhPbHVNSFF6VlVOT0phY1A3bl9COFZqR0lkTWc?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[정치 ON] 목걸이·시계·그림...'매관매직' 김건희 1심 선고",
+      "Link": "https://v.daum.net/v/20260626163725649",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "교권보호과 신설 검토에 교총 “교권보호국으로 격상을”",
+      "Link": "https://v.daum.net/v/20260626160251363",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "비만대사수술 후 술 한 잔이 두 잔 된다?…더 빨리 취하는 이유",
+      "Link": "https://n.news.naver.com/mnews/article/296/0000101956",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "아버지가 빚만 남기고 돌아가셨다…‘상속포기’ 하면 될까?",
+      "Link": "https://n.news.naver.com/mnews/article/662/0000098332",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[날씨] 영남 약한 소나기…주말, 서울 낮 32도 불볕더위",
+      "Link": "https://n.news.naver.com/mnews/article/055/0001367632",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[애프터스크리닝] '하나 코리아' 외국인의 시선으로 바라본 분단국가의 탈북민 이야기 ★☆",
+      "Link": "https://v.daum.net/v/20260626172017118",
       "Portal": "다음",
       "Category": "생활/건강"
     },
@@ -8841,68 +8487,38 @@ window.LOCAL_DATA = {
       "Category": "생활/건강"
     },
     {
-      "Title": "인천 한전 시설물 공사현장 토사 붕괴...작업자 숨져",
-      "Link": "https://n.news.naver.com/mnews/article/052/0002371330",
+      "Title": "막 오른 '부산 모빌리티쇼'…전동화 주도권 경쟁 본격화(종합)",
+      "Link": "https://n.news.naver.com/mnews/article/417/0001149208",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "전화로만 됐던 휴대폰 해지, 상담원 채팅으로도 가능해진다",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938767",
+      "Title": "“이거 한 번 써보세요” 연예인 믿고 샀다가 ‘뒤통수’…192억어치 팔렸다",
+      "Link": "https://n.news.naver.com/mnews/article/011/0004635372",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
     {
-      "Title": "공성훈 1990년대 실험미술 다시 본다…초기작 '더블 블라인드' 공개",
-      "Link": "https://v.daum.net/v/20260626115655947",
+      "Title": "조정훈 \"미꾸라지\" 발언 직전, 한성숙 향해 \"이쁨 받으신 것 같다\"",
+      "Link": "https://v.daum.net/v/20260626155803134",
       "Portal": "다음",
       "Category": "생활/건강"
     },
     {
-      "Title": "\"조국, 부산 출마 희망…민주당이 만류\" / 특검, '사형 선고' 요청 / 32강 가는 '경우의 수'는? [프레스룸 뉴스라이브]",
-      "Link": "https://n.news.naver.com/mnews/article/057/0001955665",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "혈압·혈당·콜레스테롤 모두 전단계땐 심혈관질환 빨간불 - 스포츠월드",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLdTlpQVdlT1Y3NlE5eWQtM1pyWkc4d1J4WTVHWU1MX01TWTI3aDBlejVtaDB4eW1SNjd0cFdKNlVrUEJCRkUwbUFsZEtfY28zYk1NYTNNTjJ4QjVLQUZtRUtR?oc=5",
+      "Title": "\"비만 치료도 정밀의료 시대…GLP-1 등 약물 효과보다 환자 특성 고려해야\" - MEDI:GATE NEWS",
+      "Link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBJcGRaM0tMWnJaeUhJZlZOY1dKMmZ5VS0wYU11X28tVndSQkdDeEVQN2p3YWMtcXFWU2tKWFl2WWhnYVZLZHpheEV0QTVvRkU3N3E1bHJvRQ?oc=5",
       "Portal": "Google News",
       "Category": "생활/건강"
     },
     {
-      "Title": "“국민 1인당 매달 62만 원”…반도체 초과세수 국부펀드 조성 주장",
-      "Link": "https://v.daum.net/v/20260626110431553",
+      "Title": "안정환도 홍명보 비판 가세…\"왜 경기 중 전술 변화 없나\"",
+      "Link": "https://v.daum.net/v/20260626155806142",
       "Portal": "다음",
       "Category": "생활/건강"
     },
     {
-      "Title": "[현장+] 군입대도 이적도 다 함께…'오픈 더 도어'로 온앤오프 3막 시작",
-      "Link": "https://v.daum.net/v/20260626111632234",
-      "Portal": "다음",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“볼록 나온 남성 뱃살, ‘이 상태’면 정말 심각”… 의사가 경고한 위험한 배 특징은?",
-      "Link": "https://n.news.naver.com/mnews/article/296/0000101942",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "“외국인에 eSIM 팔아 고수익”…대규모 투자 사기 피해자 집단 고소",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656177",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "검사가 서면으로 구형…대법 \"방어권 침해 없으면 위법 아냐\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161175",
-      "Portal": "네이버",
-      "Category": "생활/건강"
-    },
-    {
-      "Title": "폐암 환자 10명 중 8명 근감소증…약 써도 암 두 배 빨리 악화",
-      "Link": "https://n.news.naver.com/mnews/article/296/0000101940",
+      "Title": "유아 '독서사업' 이름이 \"슈퍼파워, 북크닉\"?...'외국말 남용' 논란",
+      "Link": "https://n.news.naver.com/mnews/article/047/0002520671",
       "Portal": "네이버",
       "Category": "생활/건강"
     },
@@ -8913,22 +8529,238 @@ window.LOCAL_DATA = {
       "Category": "생활/건강"
     },
     {
-      "Title": "35세 넘으면 제왕절개가 더 안전?⋯ “‘실질적 고위험군’ 아니면 자연분만이 좋아”",
-      "Link": "https://n.news.naver.com/mnews/article/296/0000101943",
+      "Title": "[컬처로드] \"유행어 될 줄 몰랐는데\"…'영크크' 처음 만든 건 누구?",
+      "Link": "https://v.daum.net/v/20260626171522946",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[단독] 메가박스중앙 '돈맥경화' 우려에…영진위 '피해접수센터' 연다",
+      "Link": "https://n.news.naver.com/mnews/article/015/0005303234",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "휴로틱스, 무릎 부하 줄이는 신기술 JNER 등재…신규 파이프라인 확장 - 위클리피플 인물지식가이드저널",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zTXpGcncxTjQzbHZzZG5zTnFCQmZsRUppaENDNFgya2VhaUNuNUdoT2FKSkRGRWVYUmtLYUlRaktYMnZZemhpQXp3eXhUTkNyQWFDN3BwZnFZdw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[책을 읽읍시다] 자유주의자의 그람시 읽기",
+      "Link": "https://n.news.naver.com/mnews/article/014/0005540198",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"순찰차부터 팝업스토어까지\"…기아, 부산서 PBV 비전 제시",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009025268",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "신생아 울음에 맘 졸이던 엄마 울린…이웃들 '손편지'",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377770",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "정부, 민주노총 만나 “산단별 운영위에 노동자 참여 긍정 검토”",
+      "Link": "https://v.daum.net/v/20260626160633526",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"월드컵 경기 못 볼 뻔했다?\" JTBC 중계권 논란이 남긴 질문",
+      "Link": "https://n.news.naver.com/mnews/article/047/0002520668",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "김건희 여사, '매관매직 의혹' 1심 징역 7년 선고[뉴스1PICK]",
+      "Link": "https://n.news.naver.com/mnews/article/421/0009026165",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "‘취임 후 최저’ 李 지지율 51%…與 41%·국힘 27% [한국갤럽]",
+      "Link": "https://n.news.naver.com/mnews/article/024/0000106501",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "대전도시철도 3·4·5호선, 2호선 2개 지선 만든다…승인고시",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878719",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "[문화+] 서스펜스 스릴러 ‘눈동자’…제임스 건 제작 ‘슈퍼걸’",
+      "Link": "https://v.daum.net/v/20260626173119439",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "지방간 있으면 '심근경색 위험' 높다 - 후생신보",
+      "Link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1RNEhVYlpNRWNKMEFoZXduYldQZjRKbnIxY2VRUXRIeFA5T1RsUVZydjJBMVRPSEdZb1ptWkR3SUxXeGNP?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“빨리빨리 먹어!”…한국 직장인 점심문화, ‘비만’ 부추긴다 | - HeraldK.com",
+      "Link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxObjNvUWtZeXE0clFOSF9oTDk0SjJjcEZHR2p6Skk5YUlGWUttbl9ZNUtNTG1NeEJJSno3Ymg0OV9HeUplNTFaRml0bFlsa0ZzSERYdGZzZmJ6cWNET1JrNHJGSVprS3lpTTJDbjdzQk96Qms4cmtyaE9JckVyanBxeG5pa2pDWEwtUGExeHAxYTZmMGJ3ekRTS3g4NGd0U1dmUWFOXzZ3SEhrMlZuZzBtVTJTbXktLTUtR3NHRWRxOGcxOTZKN2RmQWpObXRqZXAycjNTc2pYTnZ3a1RLd3g4c0lPNy1CUEtVekR0Y3NqTjFvb0QzV0NyNlhGdkNyMk5kMHA5Ujh3OHNPbXBHRmt0U1lsb0pYbmVDREl3VHFmV0lWZzRnOXdsQmdkQ3lIbEhKWHIxbF96M1VwZjJKTkI2dk05NjFmaVlj?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "달라진 아반떼, 준중형 세단 불씨 살릴까 [부산모빌리티쇼 2026]",
+      "Link": "https://n.news.naver.com/mnews/article/243/0000099664",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "지진 나면 탁자 아래가 먼저…꼭 알아야 할 행동요령과 속설",
+      "Link": "https://n.news.naver.com/mnews/article/022/0004138455",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "‘휘황찬란’ 8세대 아반떼 데뷔[부산모빌리티쇼 현장]",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729709",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "중년女 ‘복부 비만’ 선 넘으면...“뇌 손상 급증, 정상 체중도 안심 일러” - 디멘시아뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yRUF2bDBYbXFDcWdGWjkyS2h5Z2tHX1N2SW9XSjk4UkgyV0xSZFI2VGFzd0ZfWUZ4dXpUdnk3Zl83WDI2MnZFNEhoUEdiWDFVU2tnWlZXc0VwZzVZTlNvVXUzRkhKckdXcTJxZXc1TFVHQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"연합 사장 출신 성기홍 수석, 뉴스통신진흥법 입장 있나\"",
+      "Link": "https://n.news.naver.com/mnews/article/127/0000039451",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "Trump promotes unproven theory about Tylenol and autism. What does the science say?",
+      "Link": "https://www.yahoo.com/news/science/article/trump-promotes-unproven-theory-about-tylenol-and-autism-what-does-the-science-say-214925073.html",
+      "Portal": "Yahoo US",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "투표용지 국조, SK하이닉스 시총 1위, 월드컵 참패[노컷한컷]",
+      "Link": "https://n.news.naver.com/mnews/article/079/0004162266",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "Confused by the new COVID vaccine guidelines? Here's what you need to know.",
+      "Link": "https://www.yahoo.com/news/article/confused-by-the-new-covid-vaccine-guidelines-heres-what-you-need-to-know-183705404.html",
+      "Portal": "Yahoo US",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "악인과 천재 사이의 줄타기, 탁구 천재의 기구한 운명",
+      "Link": "https://v.daum.net/v/20260626161302801",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "BMW, 차세대 플랫폼 첫 전기차 'iX3' 일반 공개…\"내년까지 40종 출시\"",
+      "Link": "https://n.news.naver.com/mnews/article/092/0002428236",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "\"어깨 아팠지만 암 관련없다해\"…유방암 완치 두 달 만에 4기, 무슨 사연? - 코메디닷컴",
+      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9HeVZCaEtpOFozYWJfcjFnNEUyelFBUWM5cEcwdExBMmN3TGR5OVlnSXJtblY1WjVUSjZrZEJIUENoUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "홍콩 느와르 '영웅본색' 등 서울에서 4K로 다시 본다",
+      "Link": "https://v.daum.net/v/20260626160816607",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "비만대사수술 후 술 한 잔이 두 잔 된다?…더 빨리 취하는 이유 - 코메디닷컴",
+      "Link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1Bdk43RVlzci1WZFI5ZzBta3l6NXJyTF9DLWNXM0Q5UVk4OTd4WHJkbFpTRThWdDRhUUtJdGJvRGVFZw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "8척 또 나왔다…\"무료기한내 전부 통과 가능\"",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878852",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "아내를 위한 여름 보약, '꿀마늘'을 만들었습니다",
+      "Link": "https://n.news.naver.com/mnews/article/047/0002520655",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "폴란드판 살인의 추억? 밋밋한 과유불급이 아쉬운 '악의 색깔: 블랙'",
+      "Link": "https://v.daum.net/v/20260626164602896",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "최태원·노소영 '세기의 재산분할' 다음 달 24일 판가름‥SK 주식은?",
+      "Link": "https://n.news.naver.com/mnews/article/214/0001507948",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "제2형 당뇨병 위험이 높은 혈액형 - Laodong.vn",
+      "Link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd1pvWmE4Z3BzWHg0NXgycWY5OGFCMkgzZFdRZmRBcFhZX1l3QUZ1Zk9WN2JfRzBCSmpNQ3VlR3RrYmIyUTh6MkthNFZ4aHJLdjl2Sm83LWozWjc5OUtEa2k3SlN3djBncEVvZVl1dUZuVTFSOG1aV3dXNG1IYUVLMzVremN4ZHpjeVJzT1k1bHBXZw?oc=5",
+      "Portal": "Google News",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "“거제형 K-BBQ로 세계인 입맛 잡는다”… 거제에 미식·관광 거리 조성",
+      "Link": "https://v.daum.net/v/20260626124451068",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "세종대 가상융합대학원, ‘브랜드 경험 프로젝트’ 전시회",
+      "Link": "https://v.daum.net/v/20260626165202104",
+      "Portal": "다음",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "'불륜 논란' 홍서범·조갑경 아들, '사실혼 파기 손배소' 항소심도 패소",
+      "Link": "https://n.news.naver.com/mnews/article/448/0000622495",
+      "Portal": "네이버",
+      "Category": "생활/건강"
+    },
+    {
+      "Title": "귀걸이·목걸이·브로치·그림·시계…김건희 '매관매직' 1심 모두 유죄(종합)",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014031074",
       "Portal": "네이버",
       "Category": "생활/건강"
     }
   ],
   "정치": [
     {
-      "Title": "내란 특검, 尹 항소심서도 사형 요청… 尹 측 “메시지성 계엄” 주장",
-      "Link": "https://v.daum.net/v/20260625175016130",
+      "Title": "정부, 'K-팔란티어' 키운다…2030년까지 혁신기업 50곳 육성",
+      "Link": "https://n.news.naver.com/mnews/article/277/0005781980",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "[전남광주반도체]\"맨바닥 인프라 구축 말고, 전력 용수 등 이미 준비 된 경북으로\"",
+      "Link": "https://v.daum.net/v/20260626172012114",
       "Portal": "다음",
       "Category": "정치"
     },
     {
-      "Title": "한동훈 \"호남 반도체 투자 압박, 박근혜 미르·K스포츠와 뭐가 다른가\"",
-      "Link": "https://n.news.naver.com/mnews/article/088/0001016405",
+      "Title": "국힘 소장파 반발…“한동훈과 옷깃만 스쳐도 징계 명단”",
+      "Link": "https://n.news.naver.com/mnews/article/057/0001955694",
       "Portal": "네이버",
       "Category": "정치"
     },
@@ -8939,195 +8771,9 @@ window.LOCAL_DATA = {
       "Category": "정치"
     },
     {
-      "Title": "한성숙 청문회서 도마 오른 축협과 홍명보 “카르텔이 문제” “홍명보 청문회해야”",
-      "Link": "https://n.news.naver.com/mnews/article/023/0003984266",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "靑 “檢 탄압 받은 李, 개혁의지 분명…리스크 없는 방식 찾는 중\"",
-      "Link": "https://v.daum.net/v/20260115113925106",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "행안부 첫 여성 실장 김주이 20억·송경주 27억 신고…명계남 2929만원 - 파이낸셜뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZSjNJdVZENjExMjAwbXEyazV0bGJSS3R2OVZveTBUS09ybzRIaHpwcXRUYWVtdk9QOTRfNGc5VjdFdVh1cnpSSVViY0NpUGt4dm5abnpGcUg4QQ?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "김재연 대표 무기한 단식 \"이재명 정부, 홈플러스 사태 해결 나서라\"",
-      "Link": "https://n.news.naver.com/mnews/article/006/0000136453",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "한성숙 청문회 부동산 공방...\"미용실 원장에 헐값매매\"·\"억측\"",
-      "Link": "https://v.daum.net/v/20260626130103396",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
       "Title": "이 대통령, 박찬대 당선인에 “연평부대 장병 뱃삯 무려 11만원, 해결해달라” - 경향신문",
       "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qX2xEWXlVZEFkUnRBX2xpOFFRWmdJWW1nU1N5Uk4xQksxTWN0bnV1dktkcmF2b2dRXzJKYkJKVHlMYXNQMFV6VGpXaW5BOFNEWjVuU3hZTDhCZ9IBX0FVX3lxTE85REJvX3pUbjUtRkxOMWZzRG1keDd0N0FOQkp3cGVXclVhR2dWcTVUaldHS1BQYzQyRzhrUmgtMElwd1EzMXlkZ0FLUVdPX0Q3OTB5QUd3aEM4ZXpRRFVz?oc=5",
       "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "삼전닉스 '호남 반도체' 투자에… 안철수 \"李가 멱살 잡고, 與는 부추겨\"",
-      "Link": "https://n.news.naver.com/mnews/article/469/0000938778",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "李 대통령 지지율 51%로 최저치…부정평가 첫 40%대 진입",
-      "Link": "https://n.news.naver.com/mnews/article/366/0001174625",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "경남도-경상국립대, 성장엔진 연계 지역인재 양성 본격화",
-      "Link": "https://v.daum.net/v/20260626121006346",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "임종득·백선희·이준석 의원, 29일 ‘부상군인 지원확대’ 세미나",
-      "Link": "https://v.daum.net/v/20260626125017152",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "한성숙 인사청문회 이틀째…청문보고서 합의 채택 난항",
-      "Link": "https://n.news.naver.com/mnews/article/055/0001367557",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "보은군, 민선 9기 비전·6대 군정 방침 확정",
-      "Link": "https://v.daum.net/v/20260626131101854",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "張 \"지도부 흔들기는 해당 행위\"…친한계 징계도 시사(종합)",
-      "Link": "https://v.daum.net/v/20260626122614716",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "차기 제주도의회 의장 선거, 민주당 3선 의원 5파전 압축",
-      "Link": "https://v.daum.net/v/20260626122308657",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "정부, 하반기 물가 3% 이내 관리 목표…공공요금 동결·1조 원 투입",
-      "Link": "https://v.daum.net/v/20260626123000779",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "“육·해·공군 사관학교 왜 통합?” 생도 질문에 안규백 장관 대답은? [런치정치]",
-      "Link": "https://n.news.naver.com/mnews/article/449/0000350657",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "김용범 “‘메가프로젝트 국민보고회’서 나오는 숫자들 매우 낯설 것”",
-      "Link": "https://n.news.naver.com/mnews/article/022/0004138404",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "트럼프, 이란전 비용 135조원 추가 예산 요청 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYkRleFVMSWxkdDJnb1ZBV0s5VDNlQ1U3bjZMclhuWVVHSVNvZGx1NncxMmlPZzU3YnIzVjF6TzJzVFZyWUxVa01Fc0M1QWd6RWRITy1yUEpDMjdNQXRQQzdvRVJfU1JudENocjRWS2VsemFRSng3eDlFX0lzNkNnZy1TaHhHd3MwRGx3Ty1PRDJUQ3hlSTNGV3MxWjJGUdIBsgFBVV95cUxPRU1LYWNTRWh2T2doYU1TUGhZV0RzZER2UnEyaUthTGVyUTRTSE9mWFRrRU4yN2xQV1Z6SVJNQm1KZlZBOTQ2U25MdWFtU2wtOFFGN1ZVY3RDWEZtSWt2MnlQTXZIUUZDVGh1TXVkOGw0cmgwcGlUTjZsVGVFTW44YXNNekVQS29BQWR4OUVZbkcxUGlyNFZYVHlsS0t1Z0ZqYllGcHhlajY2SThzWlVsUjF3?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "김민석 “정부, 보완수사권 폐지로 정리” - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GTGJKeW5xUUpYRE5lQ2pJQ1JqT2V3ZXk1cDBJZkNkakpJWnFjMFVEbmU2NEJlZTN3dVZsS01fNk5WMUtIbkczY0FGUXVEby1OeWZqTVpMZGMyQdIBX0FVX3lxTE9XQlJfdXpXMGJaWERCQlRzSm1mWDhVdE9wOG5xRWFyWWJMR0g3VGdtV0tRMGpDV3JjWGtjai1wU01OSUNxZmxDRk0wN1BmUWhJQ0FZUDhjbWZSSlNCbXFJ?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "장동혁 \"특검 거부하면 혁명 수준의 국민 저항\" - 대전일보",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EMkNJelVIaFpFcVlGblhUV0JZR05Uel9ZWEc0NndKR2EyeWpfNmgyeW1weEtvR1pld1BMWGswM3VrSEVDZEVyQ0ZBbnhpWEFRWmxvUXk3bFJRVzlHUjkzMEhnRlBmeFpFM3Y0bDNjVQ?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "전 백악관 NSC 수석부보좌관 “트럼프, 김정은·북한에 여전히 관심”",
-      "Link": "https://v.daum.net/v/20260625213216752",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "이 대통령, 6·25 기념사서 \"강력한 국방력으로 평화의 한반도 만들 것\" - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LVmVXaEpXMWJmV0Zlb3FCTjdLTjF5bk01aHhMM2s3TXlLclRNblpadFd5aXZXVEJwaW1fS0VWVjg5d1hrX3Y1RUtXZ3AwMUtQVThDMV9aRXl6R1BPT0FjMGgzWUpaaXhfcnRwTWtwYjdpX1VCYnp4c9IBeEFVX3lxTE9GakpGS3R6YUl1XzJlS3VMaEpqZ3BtTWZCWkUtT2p5UmUxT1diNG1SSW1FOHRzMTlmQUFxM1g3RkNNNDFISDVJaHJxX2hVODRZZ2pPU2EwZ05PR2pBbVJKRUwyTnZTRFcza1IxOXFNSG9EbDJzLTVGNg?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "선관위, 싹 뜯어 고친다… 위원 선임방식 바꾸고 감사원 감사도 의무화",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800621",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "‘내란 가담’ 박성재 1심 징역 25년…법원 “윤석열 반대 세력 제압에 도움”",
-      "Link": "https://v.daum.net/v/20260622173118828",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "“축구 안 본 게 우리 수명 몇 년은 늘렸을 것”…총리 청문회장서 ‘폭소’",
-      "Link": "https://n.news.naver.com/mnews/article/020/0003729685",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "[현장연결] 이 대통령, 칼둔 아부다비 행정청장 접견…'K-방위산업 세일즈'",
-      "Link": "https://v.daum.net/v/20260115124607235",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "장동혁, 사퇴 요구에 \"당심 거스르는 해당행위\"…징계 가능성 시사(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030192",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "한성숙 청문회, 野 \"오피스텔 지인에 헐값 매각\" 與 \"수준 낮아\"…고성 끝 정회",
-      "Link": "https://v.daum.net/v/20260626130707730",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "'14억 사기 혐의' 태영호 전 의원 장남, 재판행 - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1bHZCV2JDeGxrNWtEQWJxX1JlNnNMcmxXODJ5NGdiSW1qM25QUkoxaENjTjhLa2FIM21jYXBZbThydzZjLXhTSmdoM0hGRHdQcmJEc2RpMmE3ZDhmSUhUdWRXanRFQ3lDTWNvbWY0ZDdfNkVMOU1z0gF3QVVfeXFMTWJIQ1FPaW9HcTNrUXBUSDNrWEgxN05Da21iTmVHMXNkTk5mVTFidVRsQXgyWGF5Sl9LQXBhcEdad2NKOUZYcmpabGdaZGo1dnBid2dOTERmZzhPNzBBUkFjWVFmZmlXUDZWTlFoOU0zV3p0UXdLWDQ?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "'100배 수익설' 김문수 “하닉 보유중…팔 줄 몰라서? 그럴리가\"",
-      "Link": "https://n.news.naver.com/mnews/article/057/0001955658",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "장동혁, 친한계 등 '기강 잡기' 돌입... \"징계 결론 낼 때 됐다\"",
-      "Link": "https://n.news.naver.com/mnews/article/047/0002520612",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "한성숙 청문회 이틀 차…“히딩크 감독 돼달라” “부동산 실수 반복”",
-      "Link": "https://n.news.naver.com/mnews/article/056/0012206784",
-      "Portal": "네이버",
       "Category": "정치"
     },
     {
@@ -9137,116 +8783,8 @@ window.LOCAL_DATA = {
       "Category": "정치"
     },
     {
-      "Title": "한일, 28일 국방장관회담…'블랙이글스 日 급유' 등 우호 협력 논의(종합)",
-      "Link": "https://v.daum.net/v/20260626121230388",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "정점식 \"보완수사권 폐지? 법사위 野몫 돼야…趙의장, 거수기 안돼\"",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781769",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "범여권 일부 의원, '檢보완수사권 폐지' 형소법 개정안 발의",
-      "Link": "https://v.daum.net/v/20260626121404431",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "중동戰서 빛본 저가드론 2만대 확보… 내년부터 전방접경지 대응체계 구축",
-      "Link": "https://v.daum.net/v/20260626120632289",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "신장식 “조국, 부산 출마 희망했지만 민주당이 만류…결국 평택 선택”",
-      "Link": "https://n.news.naver.com/mnews/article/022/0004138374",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "정부, 보완수사권 완전 폐지...검찰 일부 \"선고 결과 책임 누가 지느냐\" 우려",
-      "Link": "https://n.news.naver.com/mnews/article/057/0001955527",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "하토야마 전 日총리 “한국이 핵잠 가지면 일본도 핵잠 가지려고 할 것”",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800619",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "軍, 장거리 자폭무인기 전력화…드론사→국방드론본부 개편(종합)",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161164",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "6·25에 서울 때릴 무기 참관한 김정은…“남부국경 화력 태세 변화”",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533387",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "한성숙, 국힘 '오피스텔 헐값 매각·지인 특혜' 주장에 \"좀 과하다\"",
-      "Link": "https://n.news.naver.com/mnews/article/003/0014030249",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "장동혁 \"당내 징계 요청, 결론 내려야 할 시점 됐다\"",
-      "Link": "https://n.news.naver.com/mnews/article/656/0000180021",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "이 대통령, 이재용 회장과 회동…신규 반도체 투자 논의 - JTBC NEWS",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZenhXR0JEZ2E3TU51ZlpFdkZrWVJaM0MxbGJVRUVMMjRDWko5NnJjYWlCazBYR1N1bDZMLVJfSEpiMVY4QnFSc1FqVUJGRElrLW9ybA?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "2026 방산기술보호 컨퍼런스 개최…기술보호·수출통제 정책 동향 공유",
-      "Link": "https://v.daum.net/v/20260626130148432",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "[내란재판기록] 징역 30년 윤석열 웃음, 집유 5년 드론사령관 괴로운 얼굴",
-      "Link": "https://v.daum.net/v/20260612175921448",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "무인기 재판부 \"尹, 계엄 최소 두달 전 준비\"…내란재판 2심 영향은",
-      "Link": "https://v.daum.net/v/20260612154350967",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "셔틀외교 마친 이 대통령… 51조원 방산·A I ‘세일즈 외교’",
-      "Link": "https://v.daum.net/v/20260115120806425",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "한성숙 \"저가 매각 특혜 주장은 과해\"…가족 얘기하다 '울컥'도",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161259",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "소수당·무소속 뭉쳤다…전주·완주 의회 교섭단체 첫 출범(종합)",
-      "Link": "https://v.daum.net/v/20260626121658507",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "김 총리 \"보완수사권 폐지, 정부 기본입장으로 최종 정리\" - JTBC NEWS",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QV3dVYmJPTmRBZXlJejUwNkROX05aX2pJeXlUSjY0WS1rYlpOallsM2YwZ2NGSkNqOUw3N2RBbXRSemFkOEkwMm5PZlZVOHpDbHBlZA?oc=5",
+      "Title": "정청래 “검찰 보완수사권, 정부 시행령도 완벽 폐지로 준비해달라” - 한겨레",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HcUd6ZUMyaE8wSHVQWGllMDF5TDJpN1AwazBKU1drMTRkLTh3Tm1Rd0JjZHI0VjhQR2FXSUZNSnhtUmRsa1BqQUN1STRqVEpBd1B5emdnZHdIR3d3QTZra3d3bGZPemdCT3JaeDBzMkJXNGN0?oc=5",
       "Portal": "Google News",
       "Category": "정치"
     },
@@ -9257,128 +8795,74 @@ window.LOCAL_DATA = {
       "Category": "정치"
     },
     {
-      "Title": "트럼프 1기 대북협상 실무자 “북핵 문제, 지도자 간 합의 다시 시도해볼 가치 있어”",
-      "Link": "https://v.daum.net/v/20260625182144047",
+      "Title": "칼 빼든 장동혁 \"징계 요청 답할 때 됐다\"…윤리위로 기강 잡기",
+      "Link": "https://v.daum.net/v/20260626173147449",
       "Portal": "다음",
       "Category": "정치"
     },
     {
-      "Title": "원산갈마지구 찾은 김정은, 최악 낙후 北 철도역 현대화 지시 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbUpHU1cyeTM1VFgxa01lcVJiMjFUZm1YMEswZ0oya25vNVRXQWxmNHlVNmhHdml3NDJ0Z0VRVGpwOXVwS3Ezd1NNT2ZoSFZtMU12cVBhcDdsNTVYdVYySkhMYkl2bF9nT0UtckNzeFBHdkFGQWJQLWxVUHNRbno5eGdoZnYyOUM3eHc?oc=5",
+      "Title": "최문순 화천군수 퇴임…'교육·복지·파크골프·기본소득' 성과",
+      "Link": "https://v.daum.net/v/20260626171715002",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "이 대통령, 6·25 기념사서 \"강력한 국방력으로 평화의 한반도 만들 것\" - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LVmVXaEpXMWJmV0Zlb3FCTjdLTjF5bk01aHhMM2s3TXlLclRNblpadFd5aXZXVEJwaW1fS0VWVjg5d1hrX3Y1RUtXZ3AwMUtQVThDMV9aRXl6R1BPT0FjMGgzWUpaaXhfcnRwTWtwYjdpX1VCYnp4c9IBeEFVX3lxTE9GakpGS3R6YUl1XzJlS3VMaEpqZ3BtTWZCWkUtT2p5UmUxT1diNG1SSW1FOHRzMTlmQUFxM1g3RkNNNDFISDVJaHJxX2hVODRZZ2pPU2EwZ05PR2pBbVJKRUwyTnZTRFcza1IxOXFNSG9EbDJzLTVGNg?oc=5",
       "Portal": "Google News",
       "Category": "정치"
     },
     {
-      "Title": "민주당 “헌법 개정해 선관위 해체”…국힘 “시선 돌리려는 시도”",
-      "Link": "https://n.news.naver.com/mnews/article/025/0003533398",
+      "Title": "장동혁 \"명분 없이 대표 흔들어...징계요청에 답할 때 됐다\"",
+      "Link": "https://n.news.naver.com/mnews/article/052/0002371250",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "李지지율 51% ‘역대 최저’… 한달만에 13%P 빠져",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800625",
+      "Title": "“용서받지 못할 부부…윤석열 내란 꿈꿀 때 김건희 매관매직”",
+      "Link": "https://n.news.naver.com/mnews/article/028/0002811550",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "사퇴론에 칼뺀 張 “징계나설 것” … 국힘 ‘사생결단’내전 예고",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800624",
+      "Title": "오세훈·한동훈, ‘반도체 호남행’ 비난 공세…“국정 사유화” “명청대전 총알”",
+      "Link": "https://n.news.naver.com/mnews/article/028/0002811543",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "\"李 공소 취소 위한 과정, 모두 '거짓말' 됐다\" [진중권의 시선]",
-      "Link": "https://n.news.naver.com/mnews/article/586/0000132423",
+      "Title": "장동혁 “징계 요청에 답할 때 됐다”…김용태·김재섭·우재준 거론도",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729748",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "국방부, 드론 2만대·K-LUCAS 전력화…‘50만 드론 전사’양성",
-      "Link": "https://n.news.naver.com/mnews/article/016/0002661907",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "“李 공소 취소 위한 과정, 모두 ‘거짓말’ 됐다” [진중권의 시선]",
-      "Link": "https://v.daum.net/v/20260626120118085",
+      "Title": "당권 경쟁 도전하는 김용민 국회의원…3.15국립묘지 참배",
+      "Link": "https://v.daum.net/v/20260626173007394",
       "Portal": "다음",
       "Category": "정치"
     },
     {
-      "Title": "[속보]한동훈, ‘삼전닉스 호남 반도체 투자설’에 “박근혜 정부 미르·K스포츠 재단 때와 뭐가 다른가”",
-      "Link": "https://n.news.naver.com/mnews/article/087/0001201598",
+      "Title": "국민 절반, 장동혁 사퇴해야…李 지지도 51%, 최저치-한국갤럽",
+      "Link": "https://n.news.naver.com/mnews/article/021/0002800650",
       "Portal": "네이버",
       "Category": "정치"
     },
     {
-      "Title": "추미애 \"AI·반도체가 경기도 미래\"... 성장으로 민생 풀겠다는 새 도정 청사진",
-      "Link": "https://v.daum.net/v/20260626130301534",
+      "Title": "李, 韓 선박 호르무즈 탈출에 “남은 3척도 주말 안에”",
+      "Link": "https://n.news.naver.com/mnews/article/005/0001857373",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "‘법사위원장 이견’ 여야 원구성 논의 공전…“이달 절대 못 넘겨” vs “마지막까지 반대”",
+      "Link": "https://v.daum.net/v/20260626172547264",
       "Portal": "다음",
       "Category": "정치"
     },
     {
-      "Title": "한성숙 청문회 부동산 공방…\"미용실 원장에 헐값매매\"·\"억측\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161264",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "작년 국내 의약품 시장 108조 원 돌파…전년 대비 7.4%↑",
-      "Link": "https://v.daum.net/v/20260626130300532",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "족보 꺼낸 정청래 '적통' 주장에...고민정 \"하늘에 계신 분들이 인정할까\"",
-      "Link": "https://n.news.naver.com/mnews/article/437/0000498133",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "고민정 “계파 적통? 하늘에 계신 분들이 인정 안할 것”…정청래 ‘친노·친문’ 구애 비판",
-      "Link": "https://n.news.naver.com/mnews/article/032/0003454542",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "[사설]법사위원장은 원내 2당이 맡는 게 맞다 - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FcWhTNnZ6cy1lZmtfU05Cb3hSaEREUE5pbnZENllYdExXRnFSd19reWRjMWtld1hBdGRlWU42VUVrZDhVMmNVbGUxWjJpOGxKUENEV2NxRnJJQ3E4R3lOMUtPWmZqZnE2Y01UcTZ6OEZnbkJwdnfSAWZBVV95cUxQZnREVGx3NGQ2b0hwSXNzVmszS0FIYzRXRnZVdS1LbXhoaDJyQ1pKWURoNnZIMEtlVW5aaTRoV0FhLVhLSDRPVXhBVXBQckg1amdkVy1yNEdqZU5mY18wZmtJZ1lwaHc?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "제주에 모인 차기 UN총장 후보들 \"신뢰 회복·제도개혁 필요\"",
-      "Link": "https://n.news.naver.com/mnews/article/277/0005781597",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "‘반격’ 장동혁 “한동훈과 힘합친 대표 공격 바로잡아 기강확립”",
-      "Link": "https://v.daum.net/v/20260626114118478",
-      "Portal": "다음",
-      "Category": "정치"
-    },
-    {
-      "Title": "계엄용 대북 공작 주도 드작사, 사령부 기능 없애고 관리 조직으로 개편",
-      "Link": "https://n.news.naver.com/mnews/article/421/0009025503",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "李대통령, 7월 1일 文 전 대통령과 청와대서 오찬 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaXg3N2wzSmdvbU13bFJIM1pqT3FWV1lUR0w3Ylc4a1EtMWNSYThJMldXbHZhdVp4NmNkeTV6LU52UEtIcU1VNEttNjlleXpnTVpEWEhnOFpKSFVfeHBNdFltTm83OF9YMThjTF9MQkdFTHlhTHhTT1dpQkszQ085OTlOQWkwT1hr?oc=5",
-      "Portal": "Google News",
-      "Category": "정치"
-    },
-    {
-      "Title": "IAEA 사무총장 “원자력 부정적 낙인 시대는 완전히 끝났다”",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800599",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "한동훈 “李정권 호남 반도체 투자 압박, 박근혜 미르재단과 뭐가 다르냐”",
-      "Link": "https://n.news.naver.com/mnews/article/023/0003984268",
+      "Title": "제왕적 당대표직 허물고 공천권은 시민과 당원에게 돌려줘야 [쓴소리 곧은 소리]",
+      "Link": "https://n.news.naver.com/mnews/article/586/0000132489",
       "Portal": "네이버",
       "Category": "정치"
     },
@@ -9389,15 +8873,411 @@ window.LOCAL_DATA = {
       "Category": "정치"
     },
     {
+      "Title": "靑 “檢 탄압 받은 李, 개혁의지 분명…리스크 없는 방식 찾는 중\"",
+      "Link": "https://v.daum.net/v/20260115113925106",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "이 대통령, 이재용 회장과 비공개 회동…비수도권 지역 반도체 투자 막판 조율 - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05M1lpbUd4V3prdFRlLXF4TGRlRFB5aXdLaTB4NzJfaEhmaDh2OFcyekl1bFJ3YWlUaU9acWMyLUo2eTBPNEQ4eUUtNTFuNXJHVEtRVExSN1NVUdIBX0FVX3lxTE92VTNvOHBSc0U2UktLd1poRVMwV1ItUGVnX1labUlSZl82cnpaWkRnS0JVaUMyTWpRbnI3UV9HcFFJM0kwdDZldi0waFhqOEJydDFLQkdOSVZfOWUyX0hr?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "김정은 \"새 장거리 타격수단 선보일 것\"…대남 위협 강도 더 높여",
+      "Link": "https://v.daum.net/v/20260626143601860",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "행안부 첫 여성 실장 김주이 20억·송경주 27억 신고…명계남 2929만원 - 파이낸셜뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZSjNJdVZENjExMjAwbXEyazV0bGJSS3R2OVZveTBUS09ybzRIaHpwcXRUYWVtdk9QOTRfNGc5VjdFdVh1cnpSSVViY0NpUGt4dm5abnpGcUg4QQ?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "내란 특검, 尹 항소심서도 사형 요청… 尹 측 “메시지성 계엄” 주장",
+      "Link": "https://v.daum.net/v/20260625175016130",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "'술파티 위증' 유죄에도…민주당 \"조작기소 의혹은 끝나지 않았다\"",
+      "Link": "https://n.news.naver.com/mnews/article/586/0000132474",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "드론사, 작전권 없애고 국방드론본부로 개편…한국형 장거리 자폭 드론 전력화 추진",
+      "Link": "https://n.news.naver.com/mnews/article/025/0003533445",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "李, ‘빛의 위원장’에 광주 시민운동가 박미경 지명 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUnFmMjBwSF9HR0JvbTg4bVdkdmZmWDhpcDlSMmhNNG1GOTBkYS0zbUNYZ1d6cTlpa2hvajRVMUoyQVg3Wl9LR0ZtaE5JcTJ0ekYtbjQ3UlJhWExjNWdzamFYbzd0SnZ2M1g4QktXcFlwMjZER3JEMUVoRERNbldocURxX3VCczRQ?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "장동혁 \"특검 거부하면 혁명 수준의 국민 저항\" - 대전일보",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EMkNJelVIaFpFcVlGblhUV0JZR05Uel9ZWEc0NndKR2EyeWpfNmgyeW1weEtvR1pld1BMWGswM3VrSEVDZEVyQ0ZBbnhpWEFRWmxvUXk3bFJRVzlHUjkzMEhnRlBmeFpFM3Y0bDNjVQ?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "與 \"균형발전·산업전략\" VS 野 \"인프라 부족·직권남용\"...호남 반도체 투자 공방",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315978",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "김정은, 관광지구 시찰…대남 타격용 미사일 발사 참관[데일리 북한]",
+      "Link": "https://v.daum.net/v/20260626145233400",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "李 \"드론·로봇이 안보 열쇠\"… 최정예 방산벤처 50개 키운다",
+      "Link": "https://v.daum.net/v/20260626172709302",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "법사위에 막힌 후반기 원구성…민주당 \"18개 상임위 선출 강행 요청\"",
+      "Link": "https://n.news.naver.com/mnews/article/417/0001149219",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "‘내란 가담’ 박성재 1심 징역 25년…법원 “윤석열 반대 세력 제압에 도움”",
+      "Link": "https://v.daum.net/v/20260622173118828",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "호남 반도체 비판 토론회, 기업·산업부 불참..\"李정부 압력\" - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82WWY2SjZ2R1poYmlpSXRpWUplbDNRTExHM28yNl80MlpQeFRWREpzd29sYm5fV056aVl5SXRoYXR6cWdrVk4yM3NCQlQzekU?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "[내란재판기록] 징역 30년 윤석열 웃음, 집유 5년 드론사령관 괴로운 얼굴",
+      "Link": "https://v.daum.net/v/20260612175921448",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "감사원장, 신임 감사위원에 이진국 전 청와대 사법제도비서관 임명제청",
+      "Link": "https://v.daum.net/v/20260626173147450",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "\"한성숙 후보자, 다주택 등 과거 지적 사항 외면...진정성 있게 해낼지 의심”[박영환의 시사1번지]",
+      "Link": "https://v.daum.net/v/20260626171732010",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "\"통일도, 대화도 생각없는 北…통일부 이름 '선린부'로 바꿔야\"",
+      "Link": "https://v.daum.net/v/20260626171802039",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "셔틀외교 마친 이 대통령… 51조원 방산·A I ‘세일즈 외교’",
+      "Link": "https://v.daum.net/v/20260115120806425",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "[차이나워치] 한중 총리 7년 만에 회담…中, 희토류로 미·일 압박",
+      "Link": "https://v.daum.net/v/20260626172204165",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "[퇴근길 정치톡] 청와대, 역대급 반도체 투자 발표 예고…한성숙 청문회 부동산 공방",
+      "Link": "https://v.daum.net/v/20260626173145446",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "'당이 미뤄' 김민석 반박한 정청래...\"정부안을 만들테니 '기다려라'였다\"",
+      "Link": "https://n.news.naver.com/mnews/article/437/0000498160",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "\"돌고래 아닌 제주섬 전체를\"…생태법인 논의 확장",
+      "Link": "https://v.daum.net/v/20260626171739012",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "제주포럼 사흘 일정 마무리…‘평화비전 2035 선언문’ 발표",
+      "Link": "https://v.daum.net/v/20260626172002109",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "고민정 “계파 적통? 하늘에 계신 분들이 인정 안할 것”…정청래 ‘친노·친문’ 구애 비판",
+      "Link": "https://n.news.naver.com/mnews/article/032/0003454542",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "오세훈, 장동혁 사퇴론에 \"민심과 당내 공감대 마냥 무시 못 할 것\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014031036",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "'문' 만나는 이 대통령에 김어준 \"위기 극복 신호\"",
+      "Link": "https://n.news.naver.com/mnews/article/057/0001955698",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "정점식 “‘보완수사권 폐지’ 정부안 미제출, 국정 책임 포기”",
+      "Link": "https://n.news.naver.com/mnews/article/081/0003656103",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "李대통령, ‘빛의 위원회’ 위원장에 시민운동가 박미경 지명",
+      "Link": "https://n.news.naver.com/mnews/article/022/0004138479",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "한국도 '저가 자폭 드론' 갖춘다... 대당 5400만 원에 벌떼 공격 가능",
+      "Link": "https://n.news.naver.com/mnews/article/469/0000938821",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "李 “GPU 확보 재원 추가 발생…추경할지 몰라”…2차 추경 시사",
+      "Link": "https://v.daum.net/v/20260626173251493",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "與 당권 경쟁에 소모품 된 '檢 보완수사권'",
+      "Link": "https://n.news.naver.com/mnews/article/015/0005302951",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "널뛰는 장에 6월 1~24일 9054억 강제청산… 개미 비명 - 문화일보",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xbW5QM1lqeW9OYm5XaVE4Uk82VFJUNWV6bXNkajRGamMxakFOcTFvdUVsaWs3cnlJLTVUTk1SaV9MUktkbVFyMDMwMG5Uby1R?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "'서울 수성' 국힘, 당선자 한자리에…\"안주하지 말고 힘 합쳐야\"",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161960",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "한성숙 “'오피스텔 헐값에 매매' 특혜 주장은 억측…가족 증여 문제는 달게 받겠다\"",
+      "Link": "https://n.news.naver.com/mnews/article/087/0001201599",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "\"정부 보완수사권 폐지 방침은 김민석 총리 도장 깨기 사건...정청래 겨냥 당내 강경파 표심 갈라치기\"[박영환의 시사1번지]",
+      "Link": "https://n.news.naver.com/mnews/article/660/0000111992",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "한국-이란 외교장관 통화…호르무즈 통항, 중동 정세 등 논의",
+      "Link": "https://v.daum.net/v/20260626173145445",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "‘호남 반도체’ 투자에…野 “일류기업 팔 비틀어” 與 “구태 정치”",
+      "Link": "https://v.daum.net/v/20260626171051771",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "미래 과학군 이끌 대한민국 육군의 리더 356명의 신임장교 탄생",
+      "Link": "https://v.daum.net/v/20260626171437916",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "[속보] 趙의장, 국힘에 원구성 명단 일방 통보",
+      "Link": "https://n.news.naver.com/mnews/article/002/0002446366",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "정청래 \"시간끌기\" 발언 파장…장동혁, 징계 카드로 압박 - 연합뉴스TV",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50M2l4ekxUckNGcDJjOGo5VWVGbUdRQV9LTlpHXzJyWWFCLXZmbTNpR1d6Y1Z1SWxibmU1YTVGYjVlSjE3WFAyVUJQT3VhYzJnNlNhbXdZcl8yZXNCWnRBN05UX2FqWWc?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "정청래 “공소청에 수사관 남아있을 이유 없다…수사권 완전 폐지”",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729723",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "조현, 이란 외무장관과 통화‥호르무즈 해협 통항 등 논의",
+      "Link": "https://v.daum.net/v/20260626173304505",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "김민석, 국민의힘 ‘호남 반도체’ 비판에 “정치 망치는 것도 모자라 경제·미래 발목 잡아서야”",
+      "Link": "https://v.daum.net/v/20260626173345525",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "조 의장, 국힘에 상임위원 선임 명단 보내…\"29일까지 의견 달라\" 공문",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014031065",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "총리 청문회서도 '월드컵 졸전' 화제...\"한성숙 아닌 홍명보 청문회를\"",
+      "Link": "https://n.news.naver.com/mnews/article/008/0005377773",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "[뉴스특보] 김건희 '매관매직' 선고…보완수사권 폐지 공방",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878837",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "한병도 \"18개 상임위 처리 요청할 것\" 정점식 \"與 독주에 강하게 항의\" [뉴시스Pic]",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030997",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "드론작전 육해공군 이관·정책은 드론본부로…우크라전 벤치마킹",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161869",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "국힘, '호남 반도체 투자'에 \"사류 정치가 일류 기업 팔 비틀어\"",
+      "Link": "https://n.news.naver.com/mnews/article/003/0014030147",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "원산갈마지구 찾은 김정은, 최악 낙후 北 철도역 현대화 지시 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbUpHU1cyeTM1VFgxa01lcVJiMjFUZm1YMEswZ0oya25vNVRXQWxmNHlVNmhHdml3NDJ0Z0VRVGpwOXVwS3Ezd1NNT2ZoSFZtMU12cVBhcDdsNTVYdVYySkhMYkl2bF9nT0UtckNzeFBHdkFGQWJQLWxVUHNRbno5eGdoZnYyOUM3eHc?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "원 구성 표류에 국회의장, 野 의원 상임위 직권 배정",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315981",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "‘보완수사권 폐지’ 與 신경전 비화…野 ‘당권 경쟁 이용’ 비판",
+      "Link": "https://v.daum.net/v/20260626172101134",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "정청래 '꼼수' 발언에 내부 갈등…장동혁, 징계 카드 압박",
+      "Link": "https://n.news.naver.com/mnews/article/422/0000878848",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "[속보] 법원 \"김건희, 알선 명목 '반클리프 목걸이' 수수 인정\" - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11YnFUNXF6YWdIQVd3ckI3WjF0OWJha0hwTGVUaFBjbnhyMFBwNEtES1RVYmJCWHhyZG5vb2VSTVFWQU0wTDk5eEVvYlBfd2FsYlVVbFB0WmQtZFXSAWBBVV95cUxPS1hrSnNGMmYyRDEyR2tQMnpvOEtqS2pHMVRnWXM2eGRDUF9yMlNtdU1qdms5NXVIeXVIanF1c1B2bTJ3Q2VDYjZnbDVYTkh3YTN5ZWEyRXhBOW1waWM5dFo?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "\"지역감정 부추긴 김용범 사퇴해야\"…국민의힘, '호남 반도체' 투자 갈등에 책임론 등 [6/26(금) 데일리안 퇴근길 뉴스]",
+      "Link": "https://n.news.naver.com/mnews/article/119/0003105214",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "김 총리 “대권 꿈-檢 출신 악습 고칠 때”…오세훈-한동훈 겨냥?",
+      "Link": "https://n.news.naver.com/mnews/article/020/0003729749",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "[한반도 심포지엄] \"中, 北中관계 개선 원하지만 한반도 비핵화 입장 변화 없어\"",
+      "Link": "https://v.daum.net/v/20260626170901689",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "국방부, 드론 '전군 보편화'…드론작전사 기능 분산, '국방드론본부' 신설",
+      "Link": "https://n.news.naver.com/mnews/article/018/0006315366",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "[현장연결] 이 대통령, 칼둔 아부다비 행정청장 접견…'K-방위산업 세일즈'",
+      "Link": "https://v.daum.net/v/20260115124607235",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "국힘 \"정치가 기업 팔 비튼 것\"…'호남 반도체 투자설' 공세(종합)",
+      "Link": "https://n.news.naver.com/mnews/article/001/0016161875",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
+      "Title": "[사설]법사위원장은 원내 2당이 맡는 게 맞다 - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FcWhTNnZ6cy1lZmtfU05Cb3hSaEREUE5pbnZENllYdExXRnFSd19reWRjMWtld1hBdGRlWU42VUVrZDhVMmNVbGUxWjJpOGxKUENEV2NxRnJJQ3E4R3lOMUtPWmZqZnE2Y01UcTZ6OEZnbkJwdnfSAWZBVV95cUxQZnREVGx3NGQ2b0hwSXNzVmszS0FIYzRXRnZVdS1LbXhoaDJyQ1pKWURoNnZIMEtlVW5aaTRoV0FhLVhLSDRPVXhBVXBQckg1amdkVy1yNEdqZU5mY18wZmtJZ1lwaHc?oc=5",
+      "Portal": "Google News",
+      "Category": "정치"
+    },
+    {
+      "Title": "한성숙 오피스텔 공방…野 “미용실 원장 특혜” 與 “억측”",
+      "Link": "https://v.daum.net/v/20260626172851356",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "[포착]“가짜 아닌데요?”… 로봇 손 잡고, 위성값 묻는 이 대통령",
+      "Link": "https://n.news.naver.com/mnews/article/005/0001857375",
+      "Portal": "네이버",
+      "Category": "정치"
+    },
+    {
       "Title": "재판부 기피신청에 멈췄던 尹 내란 항소심, 한 달만에 재개",
       "Link": "https://v.daum.net/v/20260625200017232",
       "Portal": "다음",
       "Category": "정치"
     },
     {
-      "Title": "이재명 대통령 “제주포럼 계기로 국제협력 선도” - 제주의소리",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4yM254ZlhpV21KQnZTbTFQTnlUQTVWZTlMb0NYekR6bXp0V2RQMzRhNWphUHREdE1Ed2tfU1ZUbURLMGxmaEw5SVVnN2VMeVBvOTdySmh6VlNIa2xHcGJZMEV4cWk3bHJsdFU4?oc=5",
-      "Portal": "Google News",
+      "Title": "무인기 재판부 \"尹, 계엄 최소 두달 전 준비\"…내란재판 2심 영향은",
+      "Link": "https://v.daum.net/v/20260612154350967",
+      "Portal": "다음",
+      "Category": "정치"
+    },
+    {
+      "Title": "[단독] 투표용지 부족이 부정선거 대응 탓? 선관위, 부정선거 보도엔 무대응",
+      "Link": "https://n.news.naver.com/mnews/article/006/0000136459",
+      "Portal": "네이버",
       "Category": "정치"
     },
     {
@@ -9405,168 +9285,24 @@ window.LOCAL_DATA = {
       "Link": "https://v.daum.net/v/20260115122603837",
       "Portal": "다음",
       "Category": "정치"
-    },
-    {
-      "Title": "장동혁 “내가 간 곳 다 졌다?…사퇴론 의원들 성적표부터”",
-      "Link": "https://n.news.naver.com/mnews/article/081/0003656169",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "‘법무부 패싱’ 김민석 · ‘7월중 폐지’ 정청래… 당권전쟁 제물된 보완수사권",
-      "Link": "https://n.news.naver.com/mnews/article/021/0002800612",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "李대통령, 이재용 만나 ‘반도체 지방투자’ 논의",
-      "Link": "https://n.news.naver.com/mnews/article/022/0004138299",
-      "Portal": "네이버",
-      "Category": "정치"
-    },
-    {
-      "Title": "鄭 \"보완수사권 폐지에 속도전\"…金측 \"할 일 안하고 정부탓\"",
-      "Link": "https://n.news.naver.com/mnews/article/001/0016161166",
-      "Portal": "네이버",
-      "Category": "정치"
     }
   ],
   "연예": [
     {
-      "Title": "“엄마, 잘 해낼게요”…서효림, 故김수미 김치 사업 잇는다 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3MHNmbnFBc2JNSk5jTWhBSEM0Tm45NUZ5LXdNbGxoLXRfT2tmeFQxSVBncGMzZGsxdzBvUTkxUzZETzgtc0JXQThUREdJOUwwNk5vaw?oc=5",
+      "Title": "대성 “허영지와 열애설 아니라고? 난 들은 적 없다” 황당…지드래곤도 입 열었다 - 스포츠경향",
+      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCdmJLUG9UYWpTMS1FbVB4eW5sNDhacnl4T0dqV3BjejVUTXhxSi0yaktzdWdJbFJxY25vdEUzV0FhWDJMdDV2a3I5NjVLOHNqd05BazNHMDY2UjAtMnfSAWNBVV95cUxNeDJZZjA5alREbUFBbkItcFBuam9VN0F3WTYydHNXZTlrVlZRa1h5SnAxRUhDTE5YZDRkYjhuYlNhY0VWcjFNSHA2R1RQLTA5SE80TUl3R0ZiV0pTWm8tYkRpNkk?oc=5",
       "Portal": "Google News",
       "Category": "연예"
     },
     {
-      "Title": "\"홍명보 나가라\" 외침에→안정환, '굳은 표정' 포착…\"이거 라이브 맞죠?\" 현장 분위기 급랭 ('티키타카쇼')",
-      "Link": "https://v.daum.net/v/20260626100717760",
-      "Portal": "다음",
+      "Title": "Trump calls Sydney Sweeney's American Eagle 'good jeans' campaign the 'HOTTEST’ ad out there, driving up the company's stock",
+      "Link": "https://www.yahoo.com/entertainment/celebrity/article/trump-calls-sydney-sweeneys-american-eagle-good-jeans-campaign-the-hottest-ad-out-there-driving-up-the-companys-stock-221428273.html",
+      "Portal": "Yahoo US",
       "Category": "연예"
     },
     {
-      "Title": "참교육‘ 속 최고의 빌런으로 꼽힌 우진 엄마, 어떤",
-      "Link": "https://www.daum.net/video/v/1nc8ytf0jb7fx15w",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "‘합숙 맞선2’ 첫방부터 종교가 화두…“예수 믿는 사람이네?” - 일간스포츠",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aS1plcHhObEZWRTRvMVZWX0FDQlkwMG1wZktFZ2h0OUFaLUM0Nks5Rnl4MkNjOXpOVTVYVEViaEJwbjduY1lCR3Z4eEVUVjYybnVNamtwdTBMUkU?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "유재석 만난 허남준, 시청률 터졌다..'유퀴즈' 최고 5.9% - starnewskorea.com",
-      "Link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX0tRVldtRElHZnFZY0dWbG54ZzVWQTFzOGxsZFhkMGxYODJhVngwWVRTeTBCTnZFakN4d1ItblNZVmJ2YWlIWHd4MDBOMGs4VWV0RzlLNVUzMnZ0X0VMYUZWYkdKUk40TVdabktWMkpYNEFhd1Zhd24yR19fdkZYcQ?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "“오은영 박사님 감사합니다”…‘금쪽같은 내 새끼’ 결국 종영, 스튜디오 눈물바다 - sportsseoul.com",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1mQ1A4Zks2REF3aUhpanZzZ0hXbHFGbUxDY1BOM01MREptekY3UmxUTy1sYUNRQ2JuSVBrdEg3QnFkR3BQWWlSLTJ4NHBTSXBkY1NnSW5ma1Y?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "황인엽 / 카시오(CASIO) 포토행사",
-      "Link": "https://www.daum.net/video/v/aynmcdpdy3arky8k",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "뮤지컬 8월 개막…린아·이지혜·이지수 등 캐스팅 - 더뮤지컬",
-      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80bmQtQXFpUC1ESm5KelRlQ1B3b0VPTU9SZXl1VGZVSlBMSzlmd09QRDZBTDdHWHZGNy1yM25saGlxeFp2SllvUnhZSm5yWGdyRHZfdkswMEZEazhUTWhR?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "'자산 100억' 함익병, 단칸방 소년에서 타워팰리스 20년 거주까지…",
-      "Link": "https://v.daum.net/v/20260626121342420",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "원빈 근황 나왔다…“머리 기르며 작품 준비 중, 제안 잘 안 들어와” (데이앤나잇) - 스포츠동아",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQTmhPOWQzRXltbm9XcFcxR0d6Nk0zQXNXcmE5VVFkTHZNWFVkY3JLYlA2S3ZxYzFQOHR0ZHRwOEd0MDdfU3lXbFhIZEUyUmFYcDBSUEQ0X2NfVGlMejRpLVdmUzlmTC1OMGxKRXd3?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "15년 만에 의붓딸 첫 공개…이혜영, 활동 접게 한 한마디 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91M1gxdHJFNUFYVDVtUk5NTjU0RzNZcWt0NS1zUWxjLUtfR3VDMUtJT1hSWU1La3FNdDVmNWVWWllwTGNaOGhJeGt0UXc3TEVSVmF2bQ?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "‘故 안재환 빚 78억’ 떠안았던 정선희, “세상 원망하고 사람들 저주했다” 고백(종합)",
-      "Link": "https://v.daum.net/v/20260626102545657",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "‘참교육’에 담은 참어른 진심…원작 논란 딛고 김무열 제 2 전성기 - 국제신문",
-      "Link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaHQtX1VfRkxGRVlOTUYzRWFUODlGT1VvXzVrZlpoekoyYTAyZ0VSbjRkY3RwU2hLZWZoY2YzQnRyX3JTVXlGTzZPWTJ4aEpaYWRBd0picnlvWHZFZDVGd2thczdpVGtzRTNQQ3NqNllnT3VkN2s5V0VvbmFTaDlqanhNNHRFZE9Wb0h4Q0ln?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "‘빚 6억’ 윤남노, 가게 운영 힘들었나..홀쭉해진 근황 “먹어도 살 빠져” (장공장장윤정)[핫피플] - osen.co.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PWWU0WFFFb0lJLUdEWFZvb0VtaC1vS0V4eW1iNlZIV2Z2Y3RHNEJMTDN4UGJic0Z2TjNtSXN6NEJzX0s3WUI2OVdJaGJFUDNQQ184?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "트와이스 나연 '하트도 남다른 아이돌력'[엑's HD포토]",
-      "Link": "https://v.daum.net/v/20260626130323556",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "혜리·지수·정호연, 스파 즐기며 욕조에 옹기종기…\"완벽했던 첫 여행\" [★해시태그] - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yTGRyZXBGdkw3cElqTjM1QXRPeUxXMHBobGh5UlJlSVhfdFdCOW05TDRnYXZZaDBkWURwbjJ4bFBsdmtySS04c2lZbmtkWDA?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "‘이혼숙려캠프’ 큰아들 부부 갈등 - bntnews.co.kr",
-      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zZEhaWTFSNVNSTHVaZTZXWk1sUUZZQVJuSG9fcER4R0dvQzZ0UHZCLXl3aUQxWF9ENjJScDVSQjNacXlZY0lyYktNbUpkQkp0MDAweVpwaFlhZ25tRDdjeGI5UU4?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "'21만 명' 동시 접속 폭주…빅뱅, 9년 만 단독 콘서트 오픈 동시에 '초고속 매진'",
-      "Link": "https://v.daum.net/v/20260626124216017",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "4년째 활동 중단..'두문불출' 수애, 깜짝 근황 [스타이슈] - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JRGgzcEdfejBidi1SVS1RTGZHMjYwek5VNDVfejVlZjFJQThBRHRjcWFfWjFiM3F2U2E2MzhaYTY3R2d3MnJpaXNyeDYwSUE?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "“서울대 父 닮았네”…‘100억 건물주’ 양세형, 한국사 1급 91점으로 합격 - sportsseoul.com",
-      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tUVdidkZhcFJLdERXcWhKTmhsTTRqSVFEYzRtU1lHQVpMbWVlXzFRWjQ2azBUVmtZLVMtaFdjdlRMZTB2a1BZcHB6T1lGejFKVVVaRkc1VTc?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "'쯔양 스토킹·협박' 김세의, 첫 재판 불출석해 공전 - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5NVRpa3RRQm5RRWZjX0lOVHNiLXNwWmk2MnVva2ZKZHRwaXM3c0p4U1otTF92TENPUGE3OU0wMTJ1U3ZpV1hSVDl5VTJPWmxSb3BXUEItc0FiTXcyTEpvMzBydUxhb0RjVlVPdXhUV0xHR090dWtZ0gF3QVVfeXFMT2NNWDlDLVpUaGZXWV9vTDRpZ21GZExKLVgya1Zta0NlUWhFSHBKY1kxa1A3ZndsUldGRUdWY0h1Q3NFcllMdjgwVUxRT0hfRmJONDk3UEVRbGluMjBHMnBIcWVOZ3cyYXZ4V0VrZEloaVpRenVKVXc?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "\"손예진·이민정·오윤아·엄지원·이정현\" 연예계 최고 여배우 모임의 정체",
-      "Link": "https://v.daum.net/v/WMzVEy3GzO",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "에이티즈, 무더위도 집어삼킬 뜨거운 에너지…오늘(26일) '골든아워: 파트5' 발매 - 조선비즈 - Chosunbiz",
-      "Link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVkdjNEFualFIZGpBcG51WUxhMnNZMXZEelg2Q0UwSFpkaUdBbVlOdG1HbTJwQVhNcDJxX25TMkROb251NjREOGJKTFBaSW5nY01sXzVCVUlhTzFqMlQyY2lFNUQ3amtmRVlibHZaWVAzei1jUEhBbnFZYUI2dGxVMmdRd1JOdGdaLVRIMDkzMkdadlnSAacBQVVfeXFMTnl2MTNkZU4yZHpkalo2cUtyd0VDbUtCTENHYWNfRktCcDl4OW9tODNOeTFtMUJGbEJwWGdtNXFadUtKODU3YzdaZnNqSTdmNGdGcTBHSHFOZGFNd3gyRFpMeUFnX0RENFJ5SkF6NHpHZzdseEYwUHplSGl1T3Z6Q2M1cWJnd25hVjk2RkM2UGl2aUVvZjg0VEhqeGFIYXJ2ZENDLVVmOXM?oc=5",
+      "Title": "영어·스페인어 다음은 한국어···미국 음악시장 ‘3위 언어’ 됐다 - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCci1uSlFvY0Zjc3JJX3dmbzhJZ1gyLWNYWExfVEdTM2pITngtVjVjWGRoMXdvT3I4Z3BidWxXZ2s4VGtVZjU3N2poaklLcFhaSG9mR3FnanNfQdIBX0FVX3lxTFBvUVBNclpZelpEcEJYYkU5S2cyRVFMNUVxRF90bmZNWUp2T3g1WFRKSnBzZmxBZ3gxM2hGZGlSRlgweTBzTG9CT01rYWI0LVBmQVBrZ0RsZEdyWVBxUlow?oc=5",
       "Portal": "Google News",
       "Category": "연예"
     },
@@ -9577,320 +9313,32 @@ window.LOCAL_DATA = {
       "Category": "연예"
     },
     {
-      "Title": "JTBC, 작가 원고료도 밀렸는데…현장 프리랜서·파견직 공고 우수수 - 한겨레",
-      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DOXJNV3N0azN6bXpSSGpwRjU1Nk9GbDREb0s5ZUxQajY3TGVWbTJTbWcyT1BOWVVSX0FZTFljY0RVXy1janhJNDNCZGFGejZFam96dDBQb3BlY09MN2FDLVBrNVY?oc=5",
+      "Title": "\"한 사람은 책임져야 해\" 이수근, 자기 이름 건 학교 건립→국내 최초 레크레이션 교장 됐다 ('수근스쿨') [순간포착] - 조선비즈 - Chosunbiz",
+      "Link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNzgtWVpfeENLa2RhUUxqaDYyZ1JlSlhLbUhwUktZNjh4SkxWSEtsRllrYTJaa0UzdUpBckg2VmlJSzhYYkM5anBMUUlOQ1pMX1FSVnhOUFdhSDloZlNUaE9YSkdUYTNXXzhjLWZMT0paemRCbUItZGR1RDF2LWduRXRWa3ZBMHBPTllua2ZoQTJvaFHSAacBQVVfeXFMUGg3M1RSejdMYV95bHAyYWgxa25GZmFuUmVXZVg5WW9qX3diMEZRRmI1R1oxN1U4ZE5SMkZheUxfWW5IczNOOEczQ0hOaWpSNElOcy04cktpT1B5YkVPTTBpNnVGSzBXRERPakZvS0NBRzJETE1vZTFPUWNoenhnSVMySEZUNm1aRVJDVVBRSnVNaklxZm9lR2dDeGJDNTR3bkpOdHI1MFk?oc=5",
       "Portal": "Google News",
       "Category": "연예"
     },
     {
-      "Title": "김요한♥이주연, 결국 위기?…“그만하고 싶다” 충격 고백 (신랑수업2) - 스포츠동아",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1neERjVTBJa3Foem4ySXJodkRFYkNzdUdyNWRJSmNBa2pkSTc4Y3JrYzlSQ3ZOdUxQVmR6cXl2VHdfV1d2WEhVM3JYdndlZDNMbW5iSkx2RUdQYlNYYzZSUE9zMlNhanJ1aTZibldR?oc=5",
+      "Title": "‘깐부 할아버지’ 오영수, 대법원서 ‘강제추행 혐의’ 무죄 확정 [MK★이슈]",
+      "Link": "https://v.daum.net/v/20260626162402178",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "'1억 손실' 미자, SK하이닉스 진입 후 마음고생 \"나 때문 떨어졌다 하지 말길\" - starnewskorea.com",
+      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IdGYyNFRNU2dSZ1dwd3otZURlQXJZWHQzVWJ2ZUJOYk5yODZWaGlXeF82VWZ0TWstc0k2WnI3UU5PSWRrb3dCNFBHUjU5RERicjZBMl9CbzhNNjBUYjNGTEdaN0R0enYxdk05Q0dWam9GS0U?oc=5",
       "Portal": "Google News",
       "Category": "연예"
     },
     {
-      "Title": "임원희, '9세 연하' 이희진과 핑크빛→\"집도 오가는 사이\"…윤은혜도 증언 ('미우새')",
-      "Link": "https://v.daum.net/v/20260626122700724",
+      "Title": "“전현무 월드컵 중계 너무 못해, 채널 돌렸다” …혹평에 갑론을박[MD이슈]",
+      "Link": "https://v.daum.net/v/20260626142341312",
       "Portal": "다음",
       "Category": "연예"
     },
     {
-      "Title": "Trump calls Sydney Sweeney's American Eagle 'good jeans' campaign the 'HOTTEST’ ad out there, driving up the company's stock",
-      "Link": "https://www.yahoo.com/entertainment/celebrity/article/trump-calls-sydney-sweeneys-american-eagle-good-jeans-campaign-the-hottest-ad-out-there-driving-up-the-companys-stock-221428273.html",
-      "Portal": "Yahoo US",
-      "Category": "연예"
-    },
-    {
-      "Title": "이수근, 인지도 굴욕…국내 최초 ‘레크리에이션 전공 교장’ 됐다 (수근스쿨) - iMBC 연예",
-      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nRGIxSFhCTHdVaHJITmIyNGRjX1NPYzFsQ2NrQXJFYmk2cVZ6SndMUVNWNG50akFuSnFuMEMwRG5tSWlEc3prcVoyT09fTDEwOWduQmFYTDRKZ3NRb3FxaQ?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "정해인, 달달함 한도초과 [사진]",
-      "Link": "https://v.daum.net/v/20260626130253528",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "Hulk Hogan's roles as movie star, media crusader and MAGA hypeman had a major impact outside of the ring",
-      "Link": "https://www.yahoo.com/entertainment/celebrity/article/hulk-hogans-roles-as-movie-star-media-crusader-and-maga-hypeman-had-a-major-impact-outside-of-the-ring-184345886.html",
-      "Portal": "Yahoo US",
-      "Category": "연예"
-    },
-    {
-      "Title": "송하윤 학폭 폭로자 ‘불송치’는 과거 일…보강 수사 거쳐 ‘기소 의견’ 檢 송치 - 스포츠경향",
-      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kblExUGZoME1sbFpnbUUyTEhnRWozYzQ5MUpNRVJPUXBxVy1TNEJQTDRtQTlYNzhzNVRHOXE0Q1ZOeGI3WHYzRGY3cVQ2TDBiRU5mckJ3MmxjeC1hdUHSAWNBVV95cUxOaktldkpiOWlMc3RPTWZtSmNTZEU3VU11Q25LR0hFbGk4THVMMFVtbU52d0dLY2FKVTRkM2FYbkJGcV9hWGJpb1BibUxPZ1V4WGNMc2U2ZllCRVZrNUJmRUpNdWM?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "가수 싸이, 이수지 이을 ‘2026 흠뻑쇼’ 게스트 누구?…“2026 OOO ft. OOO” - TopStarNews",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kYnRnQloyZHA1a3hJMVRCX3c0V0NMeF9OZDY3R0F0NHo4NmRmMG81d0pXU18wZlc3UDRfNzVVbmZiWElNN1lDU2dMNVQ2ZC1BWGlrWlltNFFiajRKQllGRTlqU1J0WDdCMTBEWDN0OEFOQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "[단독]'사채지옥' 갇힌 20대 여성…3년간 1.5억 뜯기고 성착취 영상까지 - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01Um9Kak1zTkl5dExKS05WUUZwX0NnbF9ibFhzbzNVeGhaWm1oNzVsWGhlZlZtdkp1T2tlYng2ZmJuNWFVNEpZa2l5bHMzRGNVU2NR?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "함익병 “34세부터 부자로 살아, 365일 쉬지 않고 10년 살았다” - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5yTllEUWF4dXdSWk16b2tBeFBGRE5WU0ZwcXZKbV9Cbnp0VDM4OTBrNWRHdlYtVE8tOEZ4czI1ZTI3YnZsQTNPb0RUR0tlTExqTnBuZ1o5MVlZdlNObzhGU0pOal9uRzFQQ254WnAxR1pKazY2M3fSAWZBVV95cUxQNG40ei15aXBITExIclpIOHBxN2JVellGSXNDNHd3WS16a1FfVDhRaEd0TG41LVVRakFDS2h6M1dZNXp0bEdMZXl1ZjZKRWlCMURuM3N3ZkpuV1ViZ2pCTmlXSzlkUmc?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "김무열♥윤승아, '참교육' 글로벌 1위에 끌어안고 오열…\"처음으로 울어\"('유퀴즈')",
-      "Link": "https://v.daum.net/v/20260626123831940",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "\"뻔한 줄 알았는데 눈물이 났다\"…명작이라는 평이 나온 이유 있었다",
-      "Link": "https://v.daum.net/v/WYVOKdcnC9",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "[단독] 이유리, 유튜브 예능 도전…7월 공개 - 스포츠동아",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tMTY3am1GbEowTmRNMUlXTE9zTWc2QWszaXNpX0l4UmFEcEdtV1hwejhkY1dibHJjOWQ5NVpmTnI0aUVKV251dmVIRXB5VVNWTnRBdkR1NTJvZ3ZCN05vb2dTYVZOUkQ3WGhjdHN3?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "정소민, 몸매가 거의 종잇장…얼마나 말랐길래 이 정도? - 마이데일리",
-      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rMU10VWFUYVZHTkN3d0xLejBSMnNUemJyTm5IS3FYWlJoYXB0MV83RE9PQzUtZWpzNERSWjhhSEVpSHVTUGhnVkY0bU0xWGxFQTd3UmpMd1Q3ZkNZRkh0T2J0aWVUZw?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "'194만 유튜버' 랄랄, 2세대 합친 펜트하우스 내부 공개...풍자 \"성공했구나\"",
-      "Link": "https://v.daum.net/v/20260626125204184",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "[인터뷰] Z세대 히로인의 탄생 - 크레이그 길레스피 감독, 배우 밀리 올콕 - 씨네21",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51M2E0amVLVXFpZXAtWF9SNUFxemdMRHFNNlBNME85dUxVaFl0czA3VVczcHdiRG1ZeHRPRnNCeTZiSWduWkFTMEpmWUhXU2VNeDlEcWhB?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "대성 “허영지와 열애설 아니라고? 난 들은 적 없다” 황당…지드래곤도 입 열었다 - 스포츠경향",
-      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCdmJLUG9UYWpTMS1FbVB4eW5sNDhacnl4T0dqV3BjejVUTXhxSi0yaktzdWdJbFJxY25vdEUzV0FhWDJMdDV2a3I5NjVLOHNqd05BazNHMDY2UjAtMnfSAWNBVV95cUxNeDJZZjA5alREbUFBbkItcFBuam9VN0F3WTYydHNXZTlrVlZRa1h5SnAxRUhDTE5YZDRkYjhuYlNhY0VWcjFNSHA2R1RQLTA5SE80TUl3R0ZiV0pTWm8tYkRpNkk?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "식케이, 10살 연하 日댄서 우와와 파리 데이트 포착…사실상 공개열애",
-      "Link": "https://v.daum.net/v/20260626123216820",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "\"40살 아니라 4살 같다더니..\" 금발 뽀글펌 후 반응 터진 보아, 동안 미모",
-      "Link": "https://v.daum.net/v/15MDGz6bhh",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "\"아이가 없었으면 이혼\" 한 지붕 아래 철저히 남남처럼 지내는 12년 차 부부",
-      "Link": "https://v.daum.net/v/xdFIS39U3M",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "“스위프트, 내달 3일 뉴욕 닉스 홈구장서 결혼” - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12ZnJkRUk5NWZkN0lLelRSSjVEdmdTVGxrZGRXLUp3N3VfMDhoMWNodDBWdmtJWW50QTVZMkZmWVI0SF93S2N3MmxadnZtaEpyelVyNjJwVnlwRldsVDN2cWlfVkNUdWFBYlJHbDRfS2NQcm1n0gFmQVVfeXFMTXMyYkxBcm1ybG0wVUJ1dTNJSzBiRmVvUk9tUlZXS2VxUnhpMlFjWWhjNWtnNk1tWTM1aGpaRkc2UDlfYV80MFB1NlFxNTdtVjFjUG5zeUNjUEhDNkp1VG5Ha0xYbmF3?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "박정수 曰 \"세월의 주름 속에 감출 수 없는 품격 있는 인생의 표정이란..\"",
-      "Link": "https://v.daum.net/v/9zIIzxaeus",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "김민형, SBS 퇴사→호반그룹 2세와 결혼…현충원 봉사활동",
-      "Link": "https://v.daum.net/v/20260626114118482",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "송혜교, UAA와 전속계약 종료…14년 만에 결별 - 맥스무비",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZSXZyU1VRMHZobHRVS2l4bHRHU25IclRuXzRUeHJteDFubDRGVEw4Q2hxZExJNm83ZUhOWkNUOERkemNfemNMNHlYaUF0U0laUWMyOGlrMWlUYkJZeDQ3V0o0Z1RwUHptVlRR?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "Poll: Americans approve of Jimmy Kimmel's return to TV by a more than 2-to-1 margin",
-      "Link": "https://www.yahoo.com/entertainment/tv/article/poll-americans-approve-of-jimmy-kimmels-return-to-tv-by-a-more-than-2-to-1-margin-183746388.html",
-      "Portal": "Yahoo US",
-      "Category": "연예"
-    },
-    {
-      "Title": "\"파격 드레스보다 놀란 건\" 데뷔 20년 만에 첫 백상 거머쥔 그녀",
-      "Link": "https://v.daum.net/v/UgRvTpV7Nu",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "'넷째 임신' 김동현, 반포 60평 아파트 살지만 또 '반전세'..\"돈 모으는 중\" - sportschosun.com",
-      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaG1HY05xR01yMDJqTm1pNzZvM3VQaGlSMzlDTXdseVFxcXZVQWlUTE9aNVRhaXk5VUFhdE5YZlRQTDRrSThiTlNJMlA1RGl1eVd6eXBEYU1NM1lyRXdNVUZwZGRYd3Nia0J2YTJjeGlXMFZ4T0Zrd08xeFdDQnk1RGlBczE?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "손예진♥현빈 가족여행 목격담 나왔다 \"아들 AI처럼 예뻐, 엄마 쏙 빼닮았다\" - sportschosun.com",
-      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQkxDSDBiekt5NVhSaHQ4T0JBTnMtZXNaYWN5LVJlSTA4RGlVWkRPVXdsRlEyeHpPZEpfclRMaWRBR2thY0FVZjVVNUJ2VThDS2NDRkpWVnlNeUgtQ2JxUkRXblMycXlRZVpzQ3RjZ0F5NHJva1dKZ1hsaVBoUEk5NVdjQ0c?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "황인엽 '훈훈하다 훈훈해'[엑's HD포토]",
-      "Link": "https://v.daum.net/v/20260626130405574",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "소유진 미담…배그부부 남편에 대량 선물 보냈다 \"택배 쌓여 있어\" [엑's 이슈]",
-      "Link": "https://v.daum.net/v/20260626083918773",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "임원희, 1세대 걸그룹 멤버와 핑크빛 진짜였다…윤은혜 \"실제로 들었다\" 폭로 ('미우새')",
-      "Link": "https://v.daum.net/v/20260626120251192",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "이동욱, 10년 만에 유인나에 사과했다 “내가 너한테 XXX라고 했어?”(‘도깨비10주년여행’)",
-      "Link": "https://v.daum.net/v/20260626111416103",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "2년 비밀연애 들통나자 부인 대신❤️초고속 결혼 발표해 세간을 놀라게 한 45세 톱여배우",
-      "Link": "https://v.daum.net/v/PEocoOGhy0",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "'53세 백발' 배용준·'48세 새치수염' 소지섭..'중후미' 생긴 아버지들 [★FOCUS]",
-      "Link": "https://v.daum.net/v/20260626065318442",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "엔플라잉 이승협 '짙은 잘생김'[엑's HD포토]",
-      "Link": "https://v.daum.net/v/20260626130325557",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "China is taking aim at American movies over Trump's tariffs. Here's why that poses a big risk to Hollywood.",
-      "Link": "https://www.yahoo.com/news/china-is-taking-aim-at-american-movies-over-trumps-tariffs-heres-why-that-poses-a-big-risk-to-hollywood-194753887.html",
-      "Portal": "Yahoo US",
-      "Category": "연예"
-    },
-    {
-      "Title": "59세 김희애, 감탄만 나오는 ‘레깅스핏’…군살 없는 몸매 - 서울신문",
-      "Link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZmtlSmx3ckVLcDJNWmhZcnQ2R3NTNXFKQ1F2Ti1Kc2lKWHhzbTNfcVg5d2ExQi1aa21xZXkwTmwyQnRmQU5IakduWVdwbVYzYmdseXZmc3RlNXh0U3VkanlNbEpBckVZNWEtZXB4Yk5LZlZ4T0I2bWtFbWdUb0RDb28wTDhjZw?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "‘故김수미 며느리’ 서효림, 김치 사업 이어가나…“잘 해낼게요”",
-      "Link": "https://v.daum.net/v/20260626105617129",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "‘참교육’ 작업반장 김균하, 지난달 결혼 뒤늦게 알려져 - 스포츠경향",
-      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sU19OLUlXMDVqU2xEOUl4ZDBXcE5uNVByX1VDZGRVeTZVX3JNRVZDSWlXVngweEg1dDVzQjBGclBDaDRrRlp4cFh1SnNqOEpIRnRVaWRoa0xUbi1JcFHSAWNBVV95cUxOOWczOXBULU9JVFd4ems4SjBZTlhSZUttQS1aX1FtVmhWNTY2MnhJN3JvM2ZPemxmSm04Z3JfX0VIWlp6bzVaRjR0ck5Dck1YdkRpVkFjSWVwNUdXY0Z6NTl1N00?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "원빈 근황 공개됐다 \"머리 기르며 차기작 기다리는 중, 작품 안 들어온다고...\" ('데이앤나잇')",
-      "Link": "https://v.daum.net/v/20260626081547083",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "영어·스페인어 다음은 한국어···미국 음악시장 ‘3위 언어’ 됐다 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCci1uSlFvY0Zjc3JJX3dmbzhJZ1gyLWNYWExfVEdTM2pITngtVjVjWGRoMXdvT3I4Z3BidWxXZ2s4VGtVZjU3N2poaklLcFhaSG9mR3FnanNfQdIBX0FVX3lxTFBvUVBNclpZelpEcEJYYkU5S2cyRVFMNUVxRF90bmZNWUp2T3g1WFRKSnBzZmxBZ3gxM2hGZGlSRlgweTBzTG9CT01rYWI0LVBmQVBrZ0RsZEdyWVBxUlow?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "\"엔딩 보고 다들 울었다\" 아직도 회자되는 그 뮤지컬 영화",
-      "Link": "https://v.daum.net/v/ZeUUnmWI97",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "출소 5개월 만에 들려온 비보…故 김성민, 10년 지나도 잊히지 않는 그날의 충격",
-      "Link": "https://v.daum.net/v/20260626093833300",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "아이웨어 '볼론' 브랜드 앰배서더로 가수 권은비 선정 - 패션비즈",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10MVVJVFM4STZIdlo2Qm56azZxMDZ5SW11SEthVzA2X3hLemotRm5WY2FjYV9qRmJhaDUyLTB2S3Z2YmtNNk1uSGFhREZuTXhM?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "한윤서 남친, 대형 냉장고 프러포즈…혼수 전쟁 '깜짝 반전'('조선의사랑꾼')",
-      "Link": "https://v.daum.net/v/20260626124203007",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "황민현 시선 따라 걷는 길…사진전 개최 - 매일경제",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LalRyU3VYamhOUTVFNTFBN3FhWFZEN05OTERqWkcyTjdaUU5xSUZaODgyLVZ1UkduQlNtLWxlcU03TXpodFdORE01alNfbHRMbWZv?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "‘안하무인 막내딸’은 잊어…이주명, ‘신입사원 강회장’ 속 당돌한 비타민 [SS스타]",
-      "Link": "https://v.daum.net/v/20260626060237707",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "출소 5개월 만에 들려온 비보…故 김성민, 10년 지나도 잊히지 않는 그날의 충격 - sportschosun.com",
-      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU0RxTHVTQUVpTHAxckNaZGZsdjk1RTlrVUwzMlhiWFRSdGV1NXNmbWhTamcwbTBJLUV1YkNNaFFYdGVXVnZkWlFDMWwwcFJlVWVKRHJHRWl5VEhDdGFDRVN5a1hjSjJjWkhqM3UyMkdDN3piTWdhekdrTXRfekFRM2J0MDA?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "이별 노래만 부르던 '이 가수'가 달달한 사랑 노래를 부르게 된 사연",
-      "Link": "https://v.daum.net/v/9H8OmNNd87",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "'47세' 수애, 이렇게 안 늙을 수 있나…4년 공백 무색한 비주얼",
-      "Link": "https://v.daum.net/v/20260626094431583",
-      "Portal": "다음",
-      "Category": "연예"
-    },
-    {
-      "Title": "‘1세대 인플루언서’ 이주희 아브컬렉션 대표 별세…추모 물결 이어져 - 아시아투데이",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LNVFPQkpHOGZPOGtsZ3FCcEV6bzl6WnByOFNLb0FoaTNKQVRSb0RpVXlOSC1JTE1ySTFDUktDWFR0U0lqWWxva2daeW9QWE56UjFBQ2RaNE5nTllNX0s1eUlQaXVKRFNKS2dZak1n?oc=5",
-      "Portal": "Google News",
-      "Category": "연예"
-    },
-    {
-      "Title": "장영란 “얼굴 못생겨 서류 탈락”…오디션만 100번 본 과거 고백 (A급) - 스포츠경향",
-      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BUGJtQnpCbllBTVd4S0NGYnoxYk0tWmNnNl84b1M5RUhkNmtVQTRRTjFmZ05RZHVDa3pueWFxVmIweXhWbXhrX2dFVkNybUk1OVo4bm8tX3NWVnRtNmfSAWNBVV95cUxOc1ZKSnc0dnNTSzNBNElhT2Y5cDJoSGtwb29MVzFYY3Q3YjJJMGZZNk9FMG1WT3A2T2NGczlYdGM1WnhKZkJvajFRXzBSS0lUM1V3LWRSNkxhUXVZdnRueVhEVnM?oc=5",
+      "Title": "‘넷째 임신’ 김동현 “연애 때부터 피임 안 해” 솔직 고백…금슬 자랑 - sportsseoul.com",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1GQThJZ05rYlZrNy1UcVVTMGlpWGNYUjBCZGJFczc5WV85VXhEWkpqT3JoVkNVcE5WVk9GOE1UUnJyXzJ0dlRJbXdiM3Y5WHFmelNXeEx2bzk?oc=5",
       "Portal": "Google News",
       "Category": "연예"
     },
@@ -9901,190 +9349,508 @@ window.LOCAL_DATA = {
       "Category": "연예"
     },
     {
-      "Title": "'11kg 찐' 박서진, 고도비만 여동생 몸무게보다 더 나가..'충격'(살림남) - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMmJkM0VFcGEtaXcwU0ZsR19oVTBoZTFzNmFmTV9aZ0FRTmJHRy1XMDBhc19kd1dfSFgzX283Qk5qVUcwbm44b3BDSEl2UGJJZVV0SVFXUXZzMmdCdjVaalNxdkJueHZfREhHLUVGVm1fb19XQTl2d3pTSURTU1hsWGhSSDgybUs2bzIwTG1VSQ?oc=5",
+      "Title": "#황인엽 시크하게 생겼는데 귀여운거 좋아는 여우",
+      "Link": "https://www.daum.net/video/v/s0mbtrg471eb2bd4",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "\"청담동은 수박 1통에 3만원인데..\" 한그루, 경동시장 물가에 '충격'",
+      "Link": "https://v.daum.net/v/20260626153401086",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "아직 첫방도 안 했는데 난리... 시청률 배우 출격에 한국 드라마, 극장가보다 더 뜨겁다",
+      "Link": "https://v.daum.net/v/4sOUgjIkzp",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "나영석 또 통했다…첫방 최고 시청률 4.2%→동시간대 '1위'로 안방 극장 접수한 韓 예능 ('콩콩팜팜')",
+      "Link": "https://v.daum.net/v/20260626135451169",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "'쯔양 스토킹·협박' 김세의, 첫 재판 불출석해 공전 - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5NVRpa3RRQm5RRWZjX0lOVHNiLXNwWmk2MnVva2ZKZHRwaXM3c0p4U1otTF92TENPUGE3OU0wMTJ1U3ZpV1hSVDl5VTJPWmxSb3BXUEItc0FiTXcyTEpvMzBydUxhb0RjVlVPdXhUV0xHR090dWtZ0gF3QVVfeXFMT2NNWDlDLVpUaGZXWV9vTDRpZ21GZExKLVgya1Zta0NlUWhFSHBKY1kxa1A3ZndsUldGRUdWY0h1Q3NFcllMdjgwVUxRT0hfRmJONDk3UEVRbGluMjBHMnBIcWVOZ3cyYXZ4V0VrZEloaVpRenVKVXc?oc=5",
       "Portal": "Google News",
       "Category": "연예"
     },
     {
-      "Title": "트와이스 나연, 압구정에서 만난 귀엽고 예쁜 대장토끼",
-      "Link": "https://www.daum.net/video/v/h1r0k4c5sfhvxx60",
+      "Title": "‘아리스 인 보더랜드’ 무라카미 니지로, 여성 폭행·상해 혐의 검찰 송치 - 스포츠동아",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96LXRCSmdGNy1YWmFNS0tqUXBaU0I5RGdXZ3ViMzVESzE3SGZGX0YxZ1lBanpuWWhDeDltWWJiRUNTVkM5dTlKUjJ5WXZick95Q0FuNE5fcDRDQUlLMDdjemJNSnE4X0RVdThmSGlB?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "'1세대 인플루언서' 이주희 사망 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OVFQzeE9LaGZWam5EemZLODdJWlZ3WTNiRm9TZnVlTlBIZUNuM25wYVVkall2SkNENEh4aGdQQTliMURmeTVtaTlxNmFOeGNEVm11Zi1wR2VxZ9IBVEFVX3lxTE5lZjJ2d3lRWC1TVzdoQUtEeXprX2V4bHBjTU02Uk5xUGRwUEdpVURrLWxIN0JHQXdxMkJPYUJ6OVBpdUthQlRwTnIxU0x2MzBEam9DQg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "\"결국 14년 만에 각자의 길\" 7살 나이 차 극복 못하고 결별 발표한 톱스타 커플",
+      "Link": "https://v.daum.net/v/XRE5H5qF9S",
       "Portal": "다음",
       "Category": "연예"
     },
     {
-      "Title": "엔플라잉 이승협 / 카시오(CASIO) 포토행사",
-      "Link": "https://www.daum.net/video/v/arsd8hyytsxs2fv7",
+      "Title": "'공백 4년' 수애, 반가운 근황…47세라 안 믿기네 - 파이낸셜뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BdE9OT1ZtNF9fOVZ0bTZFSVAyNDg1SktQTVVIcklHa1RjY001SUxxeEkxUnlnVWF2SlluaHRZSEhfa3hnV3NVNU9CUEdfYTVrR2pIdmh5cUFoUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "말왕 역대급 ‘꽈당’, 이노스케 변장[O! STAR",
+      "Link": "https://www.daum.net/video/v/wn8dtptqk4fhc0bh",
       "Portal": "다음",
       "Category": "연예"
     },
     {
-      "Title": "류혜영, '응팔' 이후 부담감→암막 커튼 생활 속…'연예인 병' 갑론을박",
-      "Link": "https://v.daum.net/v/20260626122651721",
+      "Title": "14기 순자, 배우 최주원과 혼인신고 완료...“평생 공식 짝꿍” - 스타투데이 - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FU2tzLS1JSzFzOWRWX0RxUk1EcmFoZnBhRm9iVjlxOHF4Z1JXZndPSW1wcXQ1clNiSEZEbGdfRm1za1BPejl6eHJ6US0tTEMyM0VJcEZwbF8?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "‘임신 중 불륜’ 홍서범·조갑경 아들, ‘사실혼 파기’ 1억 소송 항소심 결과 나온다 - sportsseoul.com",
+      "Link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41WkJnUjhHSFJjalVTSnFXLVhaSlNKZEw4NmtZSE14Tjc0WUlKb3JNcjdDZ3c2T1ItZHVuaUZjV3pzMTZuLWItczctbV9CeHV1SnRjMTVnV2k?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "투어스, 한 달간 부상자만 둘 \"영재 근육 손상…안무 조졍 예정\" [공식]",
+      "Link": "https://v.daum.net/v/20260626171748019",
       "Portal": "다음",
       "Category": "연예"
     },
     {
-      "Title": "정해인, '볼찌빵' [사진]",
-      "Link": "https://v.daum.net/v/20260626130256531",
+      "Title": "미스코리아가 월 100만원 버는 배우와 결혼한 진짜 이유",
+      "Link": "https://v.daum.net/v/f9LTiorNTQ",
       "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "이혜영, 결혼 15년 만에 의붓딸 첫 공개… “연예계보다 딸 곁을 택했다” - 일간스포츠",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10VWRIS0E0aURCN25EV3B1S0xabzRKMURJVHFOMXZmTW1zR0JRMDR0dGdLUGNCRzZlYUxaWXVIaDVabXV4TkdNTGtnTFMxcl93bDVBdzh4X2RzRzg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "아이웨어 '볼론' 브랜드 앰배서더로 가수 권은비 선정 - 패션비즈",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10MVVJVFM4STZIdlo2Qm56azZxMDZ5SW11SEthVzA2X3hLemotRm5WY2FjYV9qRmJhaDUyLTB2S3Z2YmtNNk1uSGFhREZuTXhM?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "Hulk Hogan's roles as movie star, media crusader and MAGA hypeman had a major impact outside of the ring",
+      "Link": "https://www.yahoo.com/entertainment/celebrity/article/hulk-hogans-roles-as-movie-star-media-crusader-and-maga-hypeman-had-a-major-impact-outside-of-the-ring-184345886.html",
+      "Portal": "Yahoo US",
+      "Category": "연예"
+    },
+    {
+      "Title": "출소 5개월 만에 들려온 비보…故 김성민, 10년 지나도 잊히지 않는 그날의 충격 - sportschosun.com",
+      "Link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU0RxTHVTQUVpTHAxckNaZGZsdjk1RTlrVUwzMlhiWFRSdGV1NXNmbWhTamcwbTBJLUV1YkNNaFFYdGVXVnZkWlFDMWwwcFJlVWVKRHJHRWl5VEhDdGFDRVN5a1hjSjJjWkhqM3UyMkdDN3piTWdhekdrTXRfekFRM2J0MDA?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "안서현, 볼하트 귀요미[★포토]",
+      "Link": "https://v.daum.net/v/20260626170120380",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "'오징어 게임' 배우 오영수, 강제추행 혐의 \"무죄\" 확정 - 경기일보",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ROG9BdGhCRE12UV8tTlJfVl81STFMQTNyUmNuRkUwRVVvWVU4OUtnMFdIenNqaHZsdlBrbk4xLXVzSkdzYjhfWVJWODhTRjNkaGs3eGJYcTFpSzg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "Poll: Americans approve of Jimmy Kimmel's return to TV by a more than 2-to-1 margin",
+      "Link": "https://www.yahoo.com/entertainment/tv/article/poll-americans-approve-of-jimmy-kimmels-return-to-tv-by-a-more-than-2-to-1-margin-183746388.html",
+      "Portal": "Yahoo US",
+      "Category": "연예"
+    },
+    {
+      "Title": "'가석방' 김호중, 두 달 전 팬들에...\"어떻게든 다시 일어설 것\" 복귀 의지",
+      "Link": "https://v.daum.net/v/20260626163016376",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "‘출소’ 김호중 활동 복귀, 지자체·공연계 책임 있는 선택해야 [돌파구]",
+      "Link": "https://v.daum.net/v/20260626165705233",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "김대명 다이어트 어떻게 했대 “맛집 하루에 7·8차까지” (냉부) - 스포츠동아",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzWnlzNXJKbVJreWd6YkFjY1MyWkwybUZNZ2ZjUExCYWdVQkdXZWZwS1g5VzNoU0lYOEVYWWIxdWlOdFBQZ1N2cHNnaGZ2ME51SmhkandWeGNWZFRKbExCMlR4U0dRM3h6blNNeHRR?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "‘귀멸의 칼날 전집중전’ 서울 상륙… 국내 최초 대형 전시 6월 27일 개막 - 뉴스와이어",
+      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PZG1PUmE4cDhqS05ZSTBXU3IzamJUZXJ1b1V2dS1tN0o3elhjVV9ZVFg1b1ZjMTBYd0Q3dVEtbS1rX1BwcGZmZ29vemRYMU16VnNHbU1kd0pJRWpPcm9n?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "이별 노래만 부르던 '이 가수'가 달달한 사랑 노래를 부르게 된 사연",
+      "Link": "https://v.daum.net/v/9H8OmNNd87",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "'강제추행 벌금형' 유재환, 활동명 바꾸고 혼성 밴드 '로즈'로 새 출발 - 파이낸셜뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zUzFxcXhlSnFWcWJGbHFoaXBST1dIVmJRLTZNTWp3eElWMnlWYlJVUUp4UnNadzkySFBfNnNTaDcxTEVsUVNUUVVFendyRnA1bTFSUmRHaDBxQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "김영옥, 사별 후 남편 생각에 눈물 \"보기 싫은 짓 많이 했지만…자꾸 생각나\" - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9pVmJRZVBfaWxKS3EwT2hqWVV6U1ZnLURPSW44SWZTcE51NnhNQUp1M1A5NGhCbTdQaVBEUjRJcFBoVGFYdVQtd0FZUS1ybmh2VFJn?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "김무열 “1년 수입 20만 원”…‘참교육’ 대박 전 무명시절 공개 - 스포츠동아",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SRjRrWGZiaXFRWFctVFdtaDFHSzkwWlViWUstMHdnUWFyYXR5ZVhpUW5EZFRXT2lYa01kN3ZXVXJEYllvdUNkbEZPd3NDRFpJRVE4X1lwN0lEdHYwOHltOHo4akl0MDVYa3h5ZzZR?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "김기태 \"17세 이후 연락 끊긴 어머니…뒤늦게 사망 소식 알아\" 눈물 (사이다) - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tMDlGaXhxTk5NVUtaM2dlMHpqUlEyQlgyeE9VYVFBa0tyYmhxVEdkRUxRQWszdkxHaUZmVlNtOGpzMTRUaGs5N2tpUG5RS01sTXQw?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "안효섭, 공식 솔로 데뷔 “드라마 촬영 중에도 늘 머릿속에 자리잡고 있었다”",
+      "Link": "https://v.daum.net/v/20260626163818682",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "티파니, ♥변요한과 결혼하더니 더 예뻐졌네…“사랑 세포 덕분” (전참시) - 스포츠동아",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01MHEwbUlKRm1mVFc3eEtuMkhad0tFckVpTFM2WmdPSGhDdngwbjg3ckE5cGZrM2RPN0RHQTVVQ2ZQSmVCSkdxYTFySnlPaDhqQ1RkUWtaM2loM0lrZ0QxbUtrUVpIeDlrQUJPV2pR?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "송하윤 학폭 폭로자, 검찰 송치 돼 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44UnpMSkRydW9yeUVjejlxdHJfUzFVS0VhZ0t2UFNCS2JFbVZ0a243OUFtOVg3LVkxeDNNei0xT21pWnBydmdCa0gyaUhybWY4VHFCQlU5Q2VQQdIBVEFVX3lxTE1xcThFdlpld0hiRlNBbkZSd213MTI0YmJyaU1xOTdZYzJDUWhyY3dRcWRncDd3V3JOcUZRYnRsamZPcXV1VGN5S1BrbjRBbHpIZE1lMg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "정선희, 故 안재환 사별 후 “사람들 저주할 만큼 미웠지만…나도 다르지 않더라” - 스포츠경향",
+      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZbDJubXBQMUdMbi10ampvMllwZVNicFI1QVFxVUN6dWlSYV9La0NOczZ4VzVOVy1CenVRN3E4S1B2cmtSZGx1alZTRlFjYVJnaXBzRnNjSm13YXRlZ1HSAWNBVV95cUxQQUxuVXo5dmd5NVhERmF0WG0xc01qTklSV2hmUnpnbkVMTFdXT05RMV9TbHBERjdndWE2VmlvcVNieGxVeGUzc3JheTgxMGJTS0pMdFRyR0pLZHdtdmlSc25fV2c?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "[애프터스크리닝] '하나 코리아' 외국인의 시선으로 바라본 분단국가의 탈북민 이야기 ★☆",
+      "Link": "https://v.daum.net/v/20260626172017118",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "China is taking aim at American movies over Trump's tariffs. Here's why that poses a big risk to Hollywood.",
+      "Link": "https://www.yahoo.com/news/china-is-taking-aim-at-american-movies-over-trumps-tariffs-heres-why-that-poses-a-big-risk-to-hollywood-194753887.html",
+      "Portal": "Yahoo US",
+      "Category": "연예"
+    },
+    {
+      "Title": "추성훈, ‘아카자’ 빙의[O! STAR 숏폼]",
+      "Link": "https://www.daum.net/video/v/fq532hsmg42r3py6",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "한혜진, 500평 별장 수영장 청소하다 기겁 “이거 ‘무한도전’ 아니야?”",
+      "Link": "https://v.daum.net/v/20260626163348521",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "얼마나 예쁘길래 19살에 사진 한 장 올렸다가 60곳 러브콜 받은 탑여배우",
+      "Link": "https://v.daum.net/v/bFWKeiEoyT",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "방영 2회만에 세계인들 열광시키며 글로벌 흥행중인 신작 한국 드라마",
+      "Link": "https://v.daum.net/v/z1HpPMNdC4",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "\"현빈 닮았어요\" 이강현 폭풍 플러팅…`직진녀` 거부한 문성모 마음 흔들까 [합숙 맞선2] - 마이데일리",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0QkVmYVZtNi1CUUxya0VKS1d4ajdNdnJqSVpBaU15WFExcmpVRjlRMHpmNW10XzVRekltRDhPN2hpcUZ1c2Jqc3gzSEsybDZ4ZUxzYTNDM2ZjRDYyTlp6MFJzOHNVQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "시청률 21.8% 만든 경이로운 배우...세계 1위 기대되는 드라마로 복귀",
+      "Link": "https://v.daum.net/v/xeaE8QgRdL",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "‘마약 자수’ 식케이, ’10살 연하’ 우와♥ 공개 열애…”파리서 다정한 투샷” [MHN:피드] - mhnse.com",
+      "Link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4eFBYZzMycTNWc1BTSTlUVmFqZmJDZ2dYVllUU3BnUll3VmVlLWxTcTVIMFlzVTg5OUs0cWFNVUhYSUxaSmN2cVRrX3lQUURBNGtaOUplNVNCVE5heUdTaERaa9IBZ0FVX3lxTE05WkE2b0wyV1hCUjZKajBJdkF3dlMtb3BjNVhrR0E3VW5TU2tXVU9OUkthQ2JLOHpZVWlhdy1Oc2Z0WURTLWxOeUNiazE4bjB2SzZwdTZ5ODJqTkp0QnZPMlhKb29oVk0?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "박서진 “그냥 돼지로 살란다” 속세 끊고 영월 산골행 (살림남2) - 스포츠동아",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PRGxaOWlnOXVYMkhSMHJhMzlQSDVjYm45MjhkZWZYYVlJYkdBNkhqZEdtQlhfVHFjQzBRZ1ZELTl6dzZxMnh6UV9xYU12bXo0YVdadDNDYUNKT2xVZS1PdE1ha3RDWkxfU3NtT0pn?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "‘80억 CEO’ 현영 “애들 학교 때문에 송도로 이사하며 의류 사업 마무리…지금은 화장품” - 일간스포츠",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4UTFGUS1UWUtaSWNNVlJBbGFoNmxic3J6Tkk1OE01UWZsRzl1N3hpdXlSV0tNcUh0XzNMbmFqbUUyMlRLbDJvS0Zxem10SF9vWnZUZ0NDNjF6NTg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "\"120명 스태프 앞 비밀 연애 끝에 프로포즈\" 드라마 속 연인이 현실 부부가 된 사연",
+      "Link": "https://v.daum.net/v/2CyKqKMVFE",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "함익병 “34세부터 부자로 살아, 365일 쉬지 않고 10년 살았다” - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5yTllEUWF4dXdSWk16b2tBeFBGRE5WU0ZwcXZKbV9Cbnp0VDM4OTBrNWRHdlYtVE8tOEZ4czI1ZTI3YnZsQTNPb0RUR0tlTExqTnBuZ1o5MVlZdlNObzhGU0pOal9uRzFQQ254WnAxR1pKazY2M3fSAWZBVV95cUxQNG40ei15aXBITExIclpIOHBxN2JVellGSXNDNHd3WS16a1FfVDhRaEd0TG41LVVRakFDS2h6M1dZNXp0bEdMZXl1ZjZKRWlCMURuM3N3ZkpuV1ViZ2pCTmlXSzlkUmc?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "남규리, 방부제 미모[O! STAR 숏폼]",
+      "Link": "https://www.daum.net/video/v/s5bvdan47aernvd1",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "김민하, 러블리 모먼트[★포토]",
+      "Link": "https://v.daum.net/v/20260626165816265",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "‘합숙맞선2’ 이강현, 문성모에 적극 플러팅 “현빈 닮으셨어요”[결정적장면]",
+      "Link": "https://v.daum.net/v/20260626141434958",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "한혜진, 500평 초호화 별장 수영장 파놓고 후회...\"멍청해서 이렇게 만들었다\"",
+      "Link": "https://v.daum.net/v/20260626152636744",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "한혜진, '500평 별장' 수영장 청소 중 경악…\"이거 '무한도전' 아니야?\"",
+      "Link": "https://v.daum.net/v/20260626142451363",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "안영미, 국내서 둘째 득남…원정출산설 불식 '축하 봇물' [엑's 이슈]",
+      "Link": "https://v.daum.net/v/20260626160617517",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "식케이, 일본 댄서 우와와 파리서 다정 스킨십…사실상 공개 열애? [엑's 이슈]",
+      "Link": "https://v.daum.net/v/20260626135851315",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "안서현·김민하·김주령 '하나 코리아' 빛나는 주역들",
+      "Link": "https://v.daum.net/v/20260626165403166",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "'하나 코리아' 김민하 \"실존 인물을 모티브로 한 영화여서 소중히 다루려했다\"",
+      "Link": "https://v.daum.net/v/20260626162918341",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "[단독] 송혜교, 14년만 UAA 떠난다‥박현정 대표와 결별 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA0ZjdmYm4tYm9xTmc3S285ZTlHVXMzWGxfTGNPMVhsTmZ5aVh4cm1DSkk4Z1gxOEYxQ2F2VlBha2lrRlVhMDhTOExiMVZDeWc?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "'47세' 수애, 이렇게 안 늙을 수 있나…4년 공백 무색한 비주얼",
+      "Link": "https://v.daum.net/v/20260626094431583",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "[현장] '하나 코리아' 프레드릭 감독 \"김민하·김주령·안서현 엄청난 배우\" - 맥스무비",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaT2N6NUFvQWpLRHVRRnBhSE9TNGVZV3BFbnZHTFA3b2N3b1lmaUNZOUR1SmhyN1EwbVhCMVBna0lpbkt3b1VtZlNQaVJlRTdMLVdfZmk4WlVWYUF4MjlRLVE0YW0tWHVHWk5V?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "“한남더힐 팔아 비트코인 올인” 김동현, ‘반포 60평 반전세’ 살이 된 눈물겨운 전말",
+      "Link": "https://v.daum.net/v/20260626162120108",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "1세대 걸그룹 멤버, 데이트 폭력 피해자였다 “바람·도둑질·감금까지” - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1sTWNKaWJ5ZkZoZjNfemVpNUpvNWVvYlkwOVlSeHF5b2RkeDZuVDdTbWx0TE55WmpJV0FIaVBqZHY4c0pOUnhkemtRQ1loSWd0ZW5XUg?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "5분만에 전석 매진...다시 없을 초호화 캐스팅으로 천만 노리는 韓영화",
+      "Link": "https://v.daum.net/v/qgSFX1B3SG",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "[단독]'불륜 논란' 홍서범·조갑경 아들, 전처 항소심도 결국 졌다",
+      "Link": "https://v.daum.net/v/20260626141718069",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "45세 허경환 \"결혼식은 조용히…4년 안에 결혼하고파\" - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwY0pxX25YS0xIX3cyRkRFekUzX1JQYUNVQUZxMkxzN0d3dkRwRVdnbDhvNThNQjBVa2xvLWF4Zlc3QlpCdmFXSk5uUGVSekE?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "김준수 측, 외주 PD 절도·코인 탈취 논란에…\"개인 범죄일 뿐, 아티스트와 무관\"",
+      "Link": "https://v.daum.net/v/20260626170016329",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "장영란, ‘금쪽이’ 6년 만 종영에 눈물 “오은영 존경해”…애틋한 추억 방출도 - 스포츠경향",
+      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0a182RFVSNk1XSjBsdU1kVVNab0JoVUotX3FXSmQ3NUlwODdnT1VBbFA1UWxIdjlSMzd4Nm00X1h3TjFBLXdKVWJOUlc4MDctb3Jual92a3pYLTlBdWfSAWNBVV95cUxQWjg3VlU5eDNRdXRMNWtCcEJXRkFtZnVyRHpCRGxPTE5VbmlrWXl3WEN5aEJyM1VVR1o4cFdTZXp1Nm9Ealo5aEMtSFBwX25KUlVBOGlRWVhDVXB4WjlIcjF2cGM?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "김주령 '탈북민으로 연기 변신'[엑's HD포토]",
+      "Link": "https://v.daum.net/v/20260626170203410",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "세븐틴 정한, 오늘(25일) 소집해제…향후 활동 관심 - TopStarNews",
+      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fd1FPY0hWTlVkZ0VIc3hyVDkwQUNYZS1VM2FURlU2Q1kzM3VxaG1fcTkxSVJjLTVZa0tpdHZxajVoVWlzR1haUVVUMVlDamE4YlZYM3dPb0w0NFowTFJFZi13YmVoeUdfVW5HQU1WS00xdw?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "나이는 나만 먹지..공유X김고은X이동욱X유인나 '도깨비 10주년 여행' 동결된 케미 뭉친다 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZm1PakZYajhVeGF3eFFOUHdmdEVnM0lyNTFyLUVhVG1JanNyZS11MmtGX09oNmpyR1BlU2V4ak9qNWVfY1JfZERDNVVPejd3Q0VmNXoxT09XM3hnT3dkTjBwVGlYdXBla1VsUkV3RGh1RjU3X01VMzdSR0RVOUd0QjNTOWFWVzFCeXI2Yi0yMA?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "안정환 “감독, 선택에 책임져야”→김남일 “명보야 잘하자” 쓴소리(티키타카쇼)",
+      "Link": "https://v.daum.net/v/20260626143617884",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "‘이혼숙려캠프’ 큰아들 부부 갈등 - bntnews.co.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zZEhaWTFSNVNSTHVaZTZXWk1sUUZZQVJuSG9fcER4R0dvQzZ0UHZCLXl3aUQxWF9ENjJScDVSQjNacXlZY0lyYktNbUpkQkp0MDAweVpwaFlhZ25tRDdjeGI5UU4?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "안영미, 25일 국내서 둘째 출산 “산모·아이 건강” [공식] - 일간스포츠",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLU1dVVmtCTVlJLTF3QmlQRHdPTkNWTlBvQnQ5Q2JnOWQyVUpqS2J6ZzBYekJOc1ZBeEduMTRWbXNEZV8xeWtOZ0ZkQ3Naa3FGTTV1TWpKenlGVlU?oc=5",
+      "Portal": "Google News",
+      "Category": "연예"
+    },
+    {
+      "Title": "[포토S] 김민하-김주령-안서현, '하나코리아 파이팅!'",
+      "Link": "https://v.daum.net/v/20260626165318142",
+      "Portal": "다음",
+      "Category": "연예"
+    },
+    {
+      "Title": "[OTT톡] 최민식·최현욱의 만남…'맨 끝줄 소년', 의뭉스러운 서스펜스의 시작 - 뉴스핌",
+      "Link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JbmZSa1FRc2J6TzdLbjhKZkZvdlMySTBLem1td2hQdjRqUmo4YnBnQ1l3WmdQSFVJdEFhOWNKZkt1amc2cy1uWUdkWU93aGFON2xhRXRIaHRCU0tP?oc=5",
+      "Portal": "Google News",
       "Category": "연예"
     }
   ],
   "스포츠": [
     {
-      "Title": "“2024 우승했을 때 분위기, 김도영이 여러 방면으로…” 네일은 요즘 KIA가 2024년 KIA같다? 네일도 2024년처럼 아트",
-      "Link": "https://v.daum.net/v/20260626061200860",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "Olympian Rebecca Cheptegei dies days after partner set her on fire; officials highlight pattern of 'gender-based violence'",
-      "Link": "https://www.yahoo.com/news/olympian-rebecca-cheptegei-dies-days-after-partner-set-her-on-fire-officials-highlight-pattern-of-gender-based-violence-165656807.html",
-      "Portal": "Yahoo US",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "카스트로의 솔로 홈런 추가, 점수차 벌리는 KIA",
-      "Link": "https://www.daum.net/video/v/g1k53pf9ht35b7m8",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "문이 점점 좁아지고 있다… 에콰도르·스웨덴 32강 확정",
-      "Link": "https://v.daum.net/v/20260626113635254",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "김도영의 투런과 나성범의 솔로포, KIA의 백투백 홈런",
-      "Link": "https://www.daum.net/video/v/zdnehwq91nkata83",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "어제 또 2안타, 10G 타율이 무려 .528..이 남자 주목[비더레전드 오늘의 Pick]",
-      "Link": "https://v.daum.net/v/WURwwYpXbN",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "홍명보 \"남아공전 패배는 몬테레이 무더위 탓\" [2026 월드컵] - 경기일보",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wMEtIbWpDYjVIOVcxU0k1X1l5dy1nSHFJQWIzcEZOYlowNjdnbldSTWp6VWV5ZG9idHNiOFJvRzRoNEQ1Mmd3MUptbmZFUmhwWE5HRENkbDlCS2M?oc=5",
-      "Portal": "Google News",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "‘먹튀 방지법’ ML 사무국 ‘FA 계약 5년 제한’→‘2027시즌 못 열리나’",
-      "Link": "https://v.daum.net/v/20260626062006978",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "이영표,‘이 말’때문 홍명보와 3년 연락 끊었다는데…",
-      "Link": "https://v.daum.net/v/20260626100517663",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "“세 경기 중 가장 좋지 않은 경기, 결과는 감독 책임”…홍명보 감독",
-      "Link": "https://www.daum.net/video/v/9b1j09vwva852j1f",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "'뭘 해도 도움 안되는 얄미운 일본' 한국 32강 확률 더 떨어졌다..일..",
-      "Link": "https://v.daum.net/v/20260626095852261",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "한국 32강행 셈법 또 하나의 변수… '돌풍' H그룹 3위 카보 베르데, 부비스타 감독 \"총력전, 진짜 실력 보여준다\"",
-      "Link": "https://v.daum.net/v/20260626122004572",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "Kansas City Chiefs' Harrison Butker attacked LGBTQ rights and said women grads were excited about marriage and kids. Here’s what social media said.",
-      "Link": "https://www.yahoo.com/news/kansas-city-chiefs-harrison-butker-attacked-lgbtq-rights-and-said-women-grads-were-excited-about-marriage-and-kids-heres-what-social-media-said-203611261.html",
-      "Portal": "Yahoo US",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "“대한민국이 날 버렸어”…정작 홍명보가 버린 한국 축구",
-      "Link": "https://v.daum.net/v/20260626110530583",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "아뿔싸, 홍명보호 탈락 현실로… 이대로면 한국 추월, 호주-파라과이 전반 0-0",
-      "Link": "https://v.daum.net/v/20260626115302834",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "손흥민 벤치로 쓴 대한민국, 결국 조 3위 확정",
-      "Link": "https://www.daum.net/video/v/spkxmtcn1v696edk",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "김민재, 교체 불만 논란에 \"수비 간격 아쉬움 표현한 것\" 해명 - MBC 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80aVVaRDZ3aDl4V3dUMXAwOUphTjNEOTR1azFrWnJNV3E4WXVzYUdSLWM4OU1sZHZfR1paM01YUjZnSGk1bnJPX2NBX3NzNHpaMmd1VDNxLW9kMEVBdUV6S2wtWlczaE9pOGItWVB6amRKeUVrWkHSAXZBVV95cUxOOTd0NHgwcGxXNjBpalFRWGtuVUZvbWpwQmo3WnZERzNhcEVsT2J2Wk0yT0liQ29LYUlueV9DQTA4ZUhaRzg3Ml90LU44NVpfN0RqYTJEaHVvWU5YNF9wek1ZOUswSDNlRzB5MDVIcm1tYVdwUzNn?oc=5",
-      "Portal": "Google News",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "After Shohei Ohtani and Jontay Porter, can sports and legal gambling coexist?",
-      "Link": "https://www.yahoo.com/news/after-shohei-ohtani-and-jontay-porter-can-sports-and-legal-gambling-coexist-165422946.html",
-      "Portal": "Yahoo US",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "확 바뀌는 ML 에이스 판도? 2026시즌 지배하는 ‘25세 이하 신인급’ 투수들",
-      "Link": "https://v.daum.net/v/20260626060032509",
+      "Title": "탈락 '경합→유력' 접근 홍명보호, 확실→확정 향하나 '도와줘요! 스페인-이집트-우즈벡'",
+      "Link": "https://v.daum.net/v/20260626150200714",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
       "Title": "북중미 월드컵 조별리그 3위 현황",
-      "Link": "https://v.daum.net/v/20260626093303049",
+      "Link": "https://v.daum.net/v/20260626131302915",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "한국 월드컵 32강 전선 ‘비상’···에콰도르, 독일 2-1 꺾고 32강 확정 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fUWlqTGROemExX2laOEJaNXJsTGNycWdKSXU5OTR0Rk9TbnZ5SkIzb0p1TkJaNnZ5b1VfbGx0b1l5MlhBUlJJVWNkUG9ZU3ZMaU56QXQtQktmQdIBX0FVX3lxTE9oejZwdFlNOC1wQ3gxbXBadjktcm96R0hEeTBRMjVCMFBCUXI5R0k0aU1Nb2ZXWkM3cjlaWXFaNjFWUElFeVZMeEpSRzZtb2RUZ1hPMG5mbmdqZVZrbjdV?oc=5",
+      "Title": "의지 강했다 사구 맞은 두산 양의지 휴식 없이 나온다 [MD잠실]",
+      "Link": "https://v.daum.net/v/20260626163945726",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "박재현-김호령 연속 적시타로 달아나는 KIA",
+      "Link": "https://www.daum.net/video/v/0ac9r1frq1rgrzp8",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "“손흥민 벤치에 앉힌 건 심각한 의문”…월드컵 지켜본 앙리마저 ‘쓴소리’ - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TaUF5VEVaSWw2T1ltMVE0TDNLYWUyZUhISmF0ZDRLR1ExWHg0NFkwazdTT2pqcUluaE5kWXo3cXhzSlVoOE5WUFFSQkU5Nzd4MlE?oc=5",
       "Portal": "Google News",
       "Category": "스포츠"
     },
     {
-      "Title": "'뭘 해도 도움 안되는 얄미운 일본' 한국 32강 확률 더 떨어졌다..일본, 스웨덴과 1-1 무승부...32강 브라질과 격돌",
-      "Link": "https://v.daum.net/v/20260626095852261",
-      "Portal": "다음",
+      "Title": "설영우 측 \"인신공격, 명예훼손에 선처 없이 강경 대응\" - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oSGduRlAwaFczYUtESFFDaWo4MV9HeWpQaTVlT3BhNFFDSnVKM0VpVzU4cnU0aDRoaUhNMEhMV0V5V1JOdVJYR3hlMEFPMGRiZEFtaEdlRm8zd9IBVEFVX3lxTE5mS29nWXNUUkVWem9nVm5sSm1sV1pXQVdmU1R3VlJ5dFBvMEU2LVlEYlNFQ2hCTVVGSUdSTWR0Rm5PRlROSTVwUC1iazFGejZtSDdNMg?oc=5",
+      "Portal": "Google News",
       "Category": "스포츠"
     },
     {
-      "Title": "‘홍명보호 좌절’ 일본, 스웨덴과 1-1 무…브라질과 32강전 치른다",
-      "Link": "https://v.daum.net/v/20260626100230496",
-      "Portal": "다음",
+      "Title": "손흥민 벤치 지킨 남아공전, 관중석엔 손웅정…유튜브 영상 속 '굳은 표정' 포착 - 아시아경제",
+      "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xOXNhdlA2V21fa0h5Vm9JdV9ia1dkRnZKNFpVOEhtam5WY3h0Q2ZfQnl0YVZoLW9rLXZfbWx2VWhMeDJRTEhNNVgxMG9QOFZMdlVtV3J1QVR5TkllN1JNSA?oc=5",
+      "Portal": "Google News",
       "Category": "스포츠"
     },
     {
-      "Title": "\"손흥민을 빼?\" 신문선도 극대노[한판승부]",
-      "Link": "https://www.daum.net/video/v/jmk57mx0cmwvgd19",
-      "Portal": "다음",
+      "Title": "[월드컵]한국, 32강 경쟁 6위로 하락...호주-파라과이 0-0 비겨 승점 4 - KBC광주방송",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SdWwwbUYzUVZOV0tfUDJPRjJqVkstbXVoVFNLVGtDVFY2NEd6ZENqRG1mWkhtdHFrbFdFWFlSX09TX3B1WjNZVkoyMzNwNDE0aTVXaWtrYVZnNjZXSXJRZVpB?oc=5",
+      "Portal": "Google News",
       "Category": "스포츠"
     },
     {
-      "Title": "믿었던 경우의 수가 무너졌다 '87%→69%'...다른 국가에 운명 맡긴 홍명보호 하루 만에 폭풍 추락",
-      "Link": "https://v.daum.net/v/20260626114000420",
-      "Portal": "다음",
+      "Title": "F조 3위 스웨덴에도 밀린 홍명보호…32강 경쟁 5위 - KBS 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhbVJUc0tEVGRzWExLdk0zQzB2Sl9GQ2ZCUnROV3hlbnVBQWRjYnVzZ2hsSGlyOUlTM01DdFBMNERvN0VTZGxMcTgzX25mRFR2UDZ0TGJ4bWpBQjg?oc=5",
+      "Portal": "Google News",
       "Category": "스포츠"
     },
     {
-      "Title": "윤이나, '메이저' KPMG 여자 PGA 챔피언십 첫날 9언더파 '맹타'",
-      "Link": "https://v.daum.net/v/20260626093051901",
+      "Title": "크래프톤, PNC 2026 서울 개막..16개국, 장충체육관서 배틀그라운드 ..",
+      "Link": "https://v.daum.net/v/20260626154205481",
       "Portal": "다음",
       "Category": "스포츠"
     },
@@ -10095,38 +9861,92 @@ window.LOCAL_DATA = {
       "Category": "스포츠"
     },
     {
-      "Title": "F조 3위 스웨덴에도 밀린 홍명보호…32강 경쟁 5위 - KBS 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhbVJUc0tEVGRzWExLdk0zQzB2Sl9GQ2ZCUnROV3hlbnVBQWRjYnVzZ2hsSGlyOUlTM01DdFBMNERvN0VTZGxMcTgzX25mRFR2UDZ0TGJ4bWpBQjg?oc=5",
-      "Portal": "Google News",
+      "Title": "After Shohei Ohtani and Jontay Porter, can sports and legal gambling coexist?",
+      "Link": "https://www.yahoo.com/news/after-shohei-ohtani-and-jontay-porter-can-sports-and-legal-gambling-coexist-165422946.html",
+      "Portal": "Yahoo US",
       "Category": "스포츠"
     },
     {
-      "Title": "[월드컵] 디애슬레틱 '한국 32강 가능성 94%'…다른 조 결과 따라 유동적 - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KTkppWmVFRWdsSW9PczQtdFpmdlYtdkUwcnlRcC16VEpXYnhreU4tQjl5VDRSTGdyZXBCUVNFRkNGUUxfREJKcHRuVE04a1NfVEh3WlZqbjRmeU3SAWBBVV95cUxNSlduT3JsMVdnNkpJbi15RHRCSzNpMTY1eXZKY1JqLXBMMGVnNGVickFEY1RIdlJDOWJXRFNMQzBhNVJubTE2VVRPb0I1eUM3RV9lbGVRSUNiYVFZRk1oN1Q?oc=5",
-      "Portal": "Google News",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "'신'도 홍명보호 32강행 불허한다.. 스웨덴-일본 무승부, 한국의 차가운 현실",
-      "Link": "https://v.daum.net/v/20260626100016354",
+      "Title": "\"손흥민을 빼?\" 신문선도 극대노[한판승부]",
+      "Link": "https://www.daum.net/video/v/jmk57mx0cmwvgd19",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "앙리의 일침 \"한국의 심장 손흥민을 벤치에 앉힌다는건…\" - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Pd0lET2xHd2FuOHdlZzN6bEJHQjB1UXhLZnY5eFRsWnBHbmlURWtjMXVTT21TcXlwa2Fodnl1cWlreExDMEV3TmZsUUlpbjNnaDlLRTB1UE1Hd9IBVEFVX3lxTE85SFJBYW5sWXRhT1NKd25lZnRvZVliM2l4RzlLTGRpT2tNQzF1UUQxeEdZRWhkc2NidGoxMF9GRTJ1ek5xbVlIYjVLUHBtbmhnSDI0Yw?oc=5",
-      "Portal": "Google News",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "\"어떻게 팀을 이따위로...감독도, 대한축구협회도 싹 다 바꿔야\"",
-      "Link": "https://v.daum.net/v/20260626122751743",
+      "Title": "독일-일본-호주, 홍명보 외면했다.. 한국 제친 '무승부' 파라과이, 홍명보호 탈락위기",
+      "Link": "https://v.daum.net/v/20260626130000340",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "태극과 사괘가 '스며들었다'.. 농구 대표팀, 신규 유니폼 공개",
-      "Link": "https://v.daum.net/v/20260626093944374",
+      "Title": "Kansas City Chiefs' Harrison Butker attacked LGBTQ rights and said women grads were excited about marriage and kids. Here’s what social media said.",
+      "Link": "https://www.yahoo.com/news/kansas-city-chiefs-harrison-butker-attacked-lgbtq-rights-and-said-women-grads-were-excited-about-marriage-and-kids-heres-what-social-media-said-203611261.html",
+      "Portal": "Yahoo US",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "'이게 얼마만의 복귀냐' SSG 서진용, 448일만에 1군 콜업[인천 현장]",
+      "Link": "https://v.daum.net/v/20260626165103059",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "대한민국 축구 참사, 손흥민↔홍명보 감독 의견 엇갈려…“날씨 탓 변명 안 돼” “환경적인 면에서 어려움” 도대체 원인이 뭘까",
+      "Link": "https://v.daum.net/v/20260626160604495",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "'몬테레이 참사' 하루 만에 웃음꽃?...홍명보 감독 화기애애, 다른 조에 운명 맡기고 미소 만개",
+      "Link": "https://v.daum.net/v/20260626124831126",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "전역 한 달 앞둔 권순우, 2년 만에 윔블던 본선 밟는다",
+      "Link": "https://v.daum.net/v/20260626140207517",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "2026 북중미 월드컵 조별 3위팀 순위",
+      "Link": "https://v.daum.net/v/20260626144606200",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "“2024 우승했을 때 분위기, 김도영이 여러 방면으로…” 네일은 요즘 KIA가 2024년 KIA같다? 네일도 2024년처럼 아트",
+      "Link": "https://v.daum.net/v/20260626061200860",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "샌프란시스코 이정후, 애슬레틱스전 3타점 3루타...팀은 역전패 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRzNNXzN6cFN2UHl0b1IyTnFZdDB2UEVMYkh4cEg2cE5TdE1nYl94QUI4WkFkaE9aajFsX0oxSTAwZWZJQUdUVHU0LW00OFlYRlNGRDFlXzVBNHYwazJUZXhqbVk0bTlmdXluNmt6LVF1d3E4Z3hreFAyMWtidE04SDVlWmZDd2l1WEM0?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "홍명보 \"남아공전 패배는 몬테레이 무더위 탓\" [2026 월드컵] - 경기일보",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wMEtIbWpDYjVIOVcxU0k1X1l5dy1nSHFJQWIzcEZOYlowNjdnbldSTWp6VWV5ZG9idHNiOFJvRzRoNEQ1Mmd3MUptbmZFUmhwWE5HRENkbDlCS2M?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "1루수 강민호의 등장, 1루 송구 받아 이닝 마무리",
+      "Link": "https://www.daum.net/video/v/qwj63y0t4c45sp7y",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "조별리그 조 3위 중간순위",
+      "Link": "https://v.daum.net/v/20260626133801652",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "확 바뀌는 ML 에이스 판도? 2026시즌 지배하는 ‘25세 이하 신인급’ 투수들",
+      "Link": "https://v.daum.net/v/20260626060032509",
       "Portal": "다음",
       "Category": "스포츠"
     },
@@ -10137,20 +9957,8 @@ window.LOCAL_DATA = {
       "Category": "스포츠"
     },
     {
-      "Title": "'타율 0.332' 이정후, 만루 싹쓸이 3루타 폭발..샌프란시스코는 6-9 ..",
-      "Link": "https://v.daum.net/v/20260626093451114",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "韓 32강 확률 폭락! '믿었던 독일·일본에 발등 찍혔다'… 홍명보호, 남은 경우의 수는?",
-      "Link": "https://v.daum.net/v/20260626102004407",
-      "Portal": "다음",
-      "Category": "스포츠"
-    },
-    {
-      "Title": "홍명보 “선수들에게 말했다, 탓할 거리 없으면 나를 탓하라고”",
-      "Link": "https://v.daum.net/v/20260626112746825",
+      "Title": "카스트로의 솔로 홈런 추가, 점수차 벌리는 KIA",
+      "Link": "https://www.daum.net/video/v/g1k53pf9ht35b7m8",
       "Portal": "다음",
       "Category": "스포츠"
     },
@@ -10161,67 +9969,259 @@ window.LOCAL_DATA = {
       "Category": "스포츠"
     },
     {
+      "Title": "내로남불... 홍명보의 '손흥민 90분 불가판정'이 어이없는 이유",
+      "Link": "https://v.daum.net/v/20260626170202397",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "골키퍼의 착각 골 넣었다고 믿은 순간 이건 아닌데...",
+      "Link": "https://www.daum.net/video/v/68pa5f3878t44skv",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "어? 큰일났다…독일 잡은 에콰도르에 한국 32강 가능성 또 추락 - mbn.co.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ObkhCVFdMLS1nZTVfcWxNemNQUFNmV0ROR25TTmtJX2lveEhZVExxalgzejkzbmphSC0wOVhYRFhQeXB5dzlCZnZOY1cyODVNbDNZ0gFMQVVfeXFMUGhPSUtreXFPUGx3bXgzZ0dsaERtWHlCRzV6TUpOTHN6di14Z3NUSTBCX1hxOWNxVnoyMF8ybmhuM1lGOXhNdHYtejZ6TA?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "Olympian Rebecca Cheptegei dies days after partner set her on fire; officials highlight pattern of 'gender-based violence'",
+      "Link": "https://www.yahoo.com/news/olympian-rebecca-cheptegei-dies-days-after-partner-set-her-on-fire-officials-highlight-pattern-of-gender-based-violence-165656807.html",
+      "Portal": "Yahoo US",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "“청문회하느라 축구 안봐 수명 몇년 늘었을 것”…의원들 폭소 - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE44SFVVZzlOYmdfV1EyOVVjeEY2NEdqVHd1YkxEVHNuT0dmVUNJSzhObHBPT1FkUkdGX1BreHhfUTBHUjUzVk5Sck5ROUFGNUlFbkQxcjNHLUxHM0FBUTY5SUhKeDlUSkVEcHYwTlhzNmRPMUpXOENv0gFmQVVfeXFMUHo0R2VCRzdJYk5RQi1zNWZsbE13dENLWG9XT2JNRzNrRmc4bGhva25sQjA4aVVFTlQ2QVBVc2FVbi0tNG5pY1ZWVFFveGRlSTl0d0lyZTJ3NnBMN0RveFlzZzhsdWl3?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "홍명보호 32강에 영향 줄까...초유의 선수단 '집단 항명 사태' 우루과이, 회의 중 단체 퇴장까지",
+      "Link": "https://v.daum.net/v/20260626143631894",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "\"손흥민이 후반에 들어가면 골칫거리인 득점도 할 수 있지 않을까\" 홍명보 감독 '손흥민 선발 제외 해명'이 궁색한 이유",
+      "Link": "https://v.daum.net/v/20260626155702098",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "'대한민국 초비상' 홍명보호 벼랑 끝 몰린다..파라과이도 승점 4로 3..",
+      "Link": "https://v.daum.net/v/20260626130118412",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "[월드컵 리뷰]\"日, 한국 일부러 패배\" 황당 주장! '16강 미국→헛된 꿈' 손흥민 스승 포체티노 첫 극장패, '탈락' 튀르키예 3-2 '눈물' 첫 승 - sportschosun.com",
+      "Link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBIRVd5WkhITDlrR1lGeDdKZkpTT0FUUTN6ZkpqZ3paeFBvVGp6YzJHaDJFTFJldjA1UHRTbDQ4U3k0ZmsybHYwOUlkUVZsZ2I0aXNwZHY4cnJPNTgxeE5oVmdUaGhRX1E4dzRmeWhGMjE0ZWtLWndSenNvSXM1UQ?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "뜻밖의 주장 \"손흥민 이미 포기해 버린 것 같다\"...그 승부욕 많던 손흥민이 눈물조차 흘리지 않았다 '팬들 우려'",
+      "Link": "https://v.daum.net/v/20260626152807812",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "韓 32강 확률 폭락! '믿었던 독일·일본에 발등 찍혔다'… 홍명보호, 남은 경우의 수는?",
+      "Link": "https://v.daum.net/v/20260626102004407",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "튀르키예, 미국에 '3-2' 승리... 탈락 확정됐지만 이기고 떠난다",
+      "Link": "https://v.daum.net/v/20260626135832305",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
       "Title": "The U.S. cricket team just advanced to the Super 8. How an unlikely lineup of 9-to-5ers is making history",
       "Link": "https://www.yahoo.com/news/the-us-cricket-team-just-advanced-to-the-super-8-how-an-unlikely-lineup-of-9-to-5ers-is-making-history-011404225.html",
       "Portal": "Yahoo US",
       "Category": "스포츠"
     },
     {
-      "Title": "'타율 0.332' 이정후, 만루 싹쓸이 3루타 폭발..샌프란시스코는 6-9 역전패",
-      "Link": "https://v.daum.net/v/20260626093451114",
+      "Title": "'홍명보호 탈락해라'…'와일드카드 경쟁' D조 3위 파라과이 승점 4점 획득, 호주와 무승부",
+      "Link": "https://v.daum.net/v/20260626130030371",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "'공수 완벽' 이정후, 2G 연속 멀티히트+호수비...SF 역전승 견인 [스포타임#뉴스]",
-      "Link": "https://www.daum.net/video/v/944c375gahe9qr2c",
+      "Title": "크래프톤, PNC 2026 서울 개막..16개국, 장충체육관서 배틀그라운드 국가대항전",
+      "Link": "https://v.daum.net/v/20260626154205481",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "1루수 강민호의 등장, 1루 송구 받아 이닝 마무리",
-      "Link": "https://www.daum.net/video/v/qwj63y0t4c45sp7y",
+      "Title": "2026 북중미 월드컵 조별리그 중간 결과",
+      "Link": "https://v.daum.net/v/20260626152014449",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "호주와 파라과이 0-0…한국, 조 3위 중 6위로 추락",
-      "Link": "https://v.daum.net/v/20260626130145424",
+      "Title": "독일-일본-호주, 홍명보 외면했다.. 한국 제친 '무승부' 파라과이, ..",
+      "Link": "https://v.daum.net/v/20260626130000340",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "한국의 32강 막차 확률, 이제 67.93%! 쭉쭉 떨어지는 중",
-      "Link": "https://v.daum.net/v/20260626103501148",
+      "Title": "이정후, 역전 3타점 3루타… 하지만 SF 9회 역전패 [스포타임#뉴스]",
+      "Link": "https://www.daum.net/video/v/wzp6pcemp77est6q",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "'4연승' KIA 파죽지세, 사령탑이 칭찬한 '5명'... 그리고 \"수도권 원정 9연전 마지막 시리즈 두산과 경기도 잘 준비하겠다\"",
-      "Link": "https://v.daum.net/v/20260626013319124",
+      "Title": "홍명보호 운명 '사실상 내일 결정!' 가장 가능성 높은 경기 다 열린다... 단 1개만 뒤틀려도 끝장",
+      "Link": "https://v.daum.net/v/20260626152020465",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "32강 가는 길도 ‘경우의 수’ 신세",
-      "Link": "https://v.daum.net/v/20260626043542789",
+      "Title": "‘첫 혼혈 선수’ 옌스 카스트로프, 아쉬운 데뷔전…“실점 장면은 내 실수” - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2U05ZalJWZHM0Mk1LNWxBNUM1eU9SVlpjNkNYRGlyVGg5U0FfTDlmUVF6Qlpxb1ZiR2o4SkF3dXY3OEtISERKVFVrdnM0aUp5OGowaVd5MjN1eWhoOFo4NEVveFBrNVdNQ2tDX1RQT2t4b2s50gFmQVVfeXFMTUhMdDJwNXI3N0pZd1FobTBQQXUwVG9CTnBXWjQxM2pTcThiVTlEQllZMGlVaDhpTEtobktmRlg2TTNqcF9kbnR0cGhiVEFKcWFNZlFOSXhBZGlWdzVpTGhUa215c2hR?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "이영표,‘이 말’때문 홍명보와 3년 연락 끊었다는데…",
+      "Link": "https://v.daum.net/v/20260626100517663",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "'신'도 홍명보호 32강행 불허한다.. 스웨덴-일본 무승부, 한국의 차..",
-      "Link": "https://v.daum.net/v/20260626100016354",
+      "Title": "'대한민국 초비상' 홍명보호 벼랑 끝 몰린다..파라과이도 승점 4로 32강행→벌써 4팀 태극전사 추월",
+      "Link": "https://v.daum.net/v/20260626130118412",
       "Portal": "다음",
       "Category": "스포츠"
     },
     {
-      "Title": "이게 할말인가… '선수탓+변명' 일관한 홍명보 감독 \"나도 당황스러워\"",
-      "Link": "https://v.daum.net/v/20260626092051358",
+      "Title": "김민재, 교체 불만 논란에 \"수비 간격 아쉬움 표현한 것\" 해명 - MBC 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80aVVaRDZ3aDl4V3dUMXAwOUphTjNEOTR1azFrWnJNV3E4WXVzYUdSLWM4OU1sZHZfR1paM01YUjZnSGk1bnJPX2NBX3NzNHpaMmd1VDNxLW9kMEVBdUV6S2wtWlczaE9pOGItWVB6amRKeUVrWkHSAXZBVV95cUxOOTd0NHgwcGxXNjBpalFRWGtuVUZvbWpwQmo3WnZERzNhcEVsT2J2Wk0yT0liQ29LYUlueV9DQTA4ZUhaRzg3Ml90LU44NVpfN0RqYTJEaHVvWU5YNF9wek1ZOUswSDNlRzB5MDVIcm1tYVdwUzNn?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "[2026 북중미] ‘홍명보호 절망적’ 호주 vs 파라과이마저 ‘무승부’…32강 위태→3위 중 6위 추락 - 일간스포츠",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xZ2FDaDUtUzhjeE9LbG5MbExXcWNoZVpLTkdaX1ZCa1YxdkNOalhTTWFUUHFnYjlIMDFqblpvaU41SFNQeFRZcTlnNXgyUS1seURJRE5JSjdFek0?oc=5",
+      "Portal": "Google News",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "'아뿔사' 94%→ 54%로 뚝… 벼랑 끝 몰린 홍명보호, 32강 무대 멀어지나 '남은 경우의 수 6가지'",
+      "Link": "https://v.daum.net/v/20260626141416950",
+      "Portal": "다음",
+      "Category": "스포츠"
+    },
+    {
+      "Title": "김도영의 투런과 나성범의 솔로포, KIA의 백투백 홈런",
+      "Link": "https://www.daum.net/video/v/zdnehwq91nkata83",
       "Portal": "다음",
       "Category": "스포츠"
     }
   ],
   "기타": [
+    {
+      "Title": "군대에도 판타지가 있다…B급 유머에 감칠맛 터진 '취사병' - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Nc0d2NFljZHNxMTFNcFZOYUpzbGt3WHF0MXJESnBHSGJ6dmllcmd3Ui1Nc2dsN2RUMkRMbXY2RUtYUXlsU2d4X3RUZWhEbUdrYXVFUW5QODMtMDjSAWBBVV95cUxOUUM3ZzlUaTBVVXppZ05JY1V0UFYzY0RvLWFBS1pGdEE4dWFEaGs4SE5NclF4MTBCWjJPQVNwVmFBTjVFV2V1VE5FNzctX0J1WmpQbzBHYURVR0RCNkJBOXA?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[칼럼] ‘충남도백’ 박수현에 보내는 편지 - 로컬투데이",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CTjN2VzJ0dVNjQmFKZGQ0RGpXOWZrREVXZEItTkczM3lQZFl3TjdmNWRocHcwWmJlWG5oM1JLNW5hTzlqRW5pQzIzRjd5R01EMXN2U29ta3dtVVhLTDJXQU4wWFpPajhaR01LTkxmVUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[경제인칼럼] 1kWh의 가치 - 대전일보",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zNzFFNVVhRjVZMDhNWnlHTEd3VllGc3l4d2o1T0xnOFFPMWZwVlNienViWW5ETlFfaXRyb3cwcUJrZ0pxc1ViT0FvRXFkQVpmV3JsaVlIaGh2dUh5SXNXSVNrVVNOR2JZcHBhdzg4NNIBc0FVX3lxTE1BcTZZNVAxV2JlakswZk4xMTF4YmZZaXNVWklIcmc4bXh5UFBpTG53ZVh0bmdjOUFzUzRLOElHU3hXeFcyd2x6dlhjUmxmQVFrUDg0NHRBUmhwdTZLRDZ3X294NXN1UlpZZ3dmTjdsb05CQ2c?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "6월 10일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hVkVLODQ1TnZsLVdCSlRHTS1MbWZ3Y1QwZGJfaVhpYnhiaW1BQUJfd1NWLTBmYVhSWFZvUk1qckpCWFJ0WlI2VTR5cDB4Z1F5U01EN0N6ZEVQV0VwcUo5YURB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "‘악구자’ 문성호 시의원을 규탄한다 - 법보신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93UGgtUnNsQ3FkZXFjWGdXVGgtMmo4c19wUlQtLW5QdDUwYjkzdVZKdWhLNkMwekVOZW4yb1ItTy0yTnRTTUI5TW1fWHNEQTVrbnFLb3JjUkxfOU5rdWdCMTJQa2J0Qk1r?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[신창기 칼럼] 교권보호국, 이름보다 중요한 것 - 에듀프레스",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iSDJyZkhCeDA1X1F3Q3BLX1VkSGdnazZoVVBoZFVmTy1ReUd3Uld3c2JXZVR0UUtlYlBnb1c1bXlfNmo5cUJIdXdMVmJfclhKRkhVMjU4azg1VXZXVkhreUlUSC1TWTla?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[칼럼] 당뇨병 혈당과 혈압 통합치료 '중요' - 뉴스더보이스헬스케어",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GNmM3djJ0aUZ0TmsyNnRWZmdLa1ZROTF1Qkw4dmM2QTQ5ZHRkZklvcjlTRVowWnpjc0F2eUtZdXhGejN6Y3BVUHR0OXA4NmJfVVZFcFhVTi1kS2RRZk9XZFRpRW40TFVOR0Rfb1Rwdw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[해외칼럼] AI 감시, 연준 같은 독립기구에 맡겨야 - 서울경제",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84ckVib0tNVkY4S0FycG1fSHBaWHBMT1kxWTdjWEZMSjEtX3hSdG9ZR2YzSnFtenRPY19zWjVXSkRFMmpreHM1OGkyemtQLUFkVmfSAVNBVV95cUxQMzY0bFVjcWVkQXdXSXV6YUdwMV9yMVl1c19sLUJnQ1owaHdYTVo1WXFsWTI1MHBSX1B0Q0xyV0ZLOXJoQTdPVENWQ2hYVnpvSFh0OA?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "영남·충청·전북 반발 ‘광주 반도체’ 국민 납득이 관건[사설]",
+      "Link": "https://v.daum.net/v/20260626114433564",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[사설] ‘삼성 팹 이전 없다’고 정부가 밝혀야 한다",
+      "Link": "https://v.daum.net/v/20260625030536523",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "'밝은' 전시가 당긴다면, 이 유머들을 만나보세요 - 오마이뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1uWmpiZFNnTkxvODR2VTZQOTd5dkN0S3JkOFRMV3dqRnN4SkNzam45ZHV3bjdxUS1xbkY3VE9abjRVTnIwZ0NJVE5JV0YtNDlfNGVKM2dfUDdPZENLbWNqLXpLUDQ0Y0JUMWx4U2ZOR2diVFRkWW1J?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[칼럼] 납세자보호, 디지털이 먼저일 수는 있어도 디지털만으로는 안 된다 - 세정일보",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DLW1vNkw2NUx2T3NCR08xMDNqVXJiUTNiaTdTcVRHUndiLUIxOXdvcm9fZGdDTW84UE9heVdmM2FONG9Xa3RjMzN6WDRhRHBlckZtamZzaVNnMlEwVFNDdTRJME8tdTEtTFdaRQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "호서대 윤명식 교수 연구팀, 강북삼성병원·유머스트알엔디와 '진통제 성분 활용' 자궁경부암 나노 주사제 개발 - 뉴스파고",
+      "Link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9ZYmdCTkhsTnlHZDVEODRCNm45Vk5FRnZBRHM5dU1CM3Zsa3UzUkhaazFabVdIaVB4VkplYVllaG5aR1c0?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "냉소와 허무의 시대… 활력소는 ‘유머’에 있다[북리뷰] - 문화일보",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvLUJTYXVqZmhZX0FXZUljZ0Y2Sm1uYlh0ajM2MFI5YVJpb0J5emNKWi0yX2MtLWhacXB6Zi0tdDFneUxxZ0tET2N4Y1l6bVND?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 06월 둘째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzcFNIRUJ4VE9qSHBxOGFNVktIZ0s2WW9DVHhjendUTC1DdTRoc01nbFZXaUwzTjdocFNUY3VLdXBFaDVUR1ZaWVRrUFNZRzJfN0RmM2hzTXA1VjdqTGsyYWREQV9UajBfQ3pYUkFB0gFyQVVfeXFMUEU2YzlIdGI5TFZydnBjNnE1Q3lTREdTdE0weXR0bm53b1NITTBaR2dVZWpycjVhMElRRjVTMjRhOWxDMFNLZHRoak42OUVhTDFWQW1SeV9XU0lPT2NTTl9GSUhPOHFNdHR1RURZR1l3cEZR?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[급식칼럼] 국민을 위한 급식, 현실적 제도 우선돼야 - 대한급식신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FMVJDZkROY1VjNjI1ejFXSjRCd1dKekFLc2VOUlNNTlY2d3pqRE9vOExGaUVJS1IzdDhIbHpVc3ZPSjdYUXc5UHpteTdqZkN6dVJCQkR0N2d2eWRacTVpN1BNdThKa1p4?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
     {
       "Title": "[우분투칼럼] 모닝커피서 명절 차례상까지 우리 곁 '아프리카' - 연합뉴스",
       "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wOThRaFJ2QXVHSl82MUVXbkFRaHNiRlZJdkRYRzk1NXlvZlBPZTNEM0lkQzdycFdKUkN3a0RUaGtpT0VyTGM2ZTNXOVhTX1BLeUxXWXRnRzdyS2_SAWBBVV95cUxNbTQ0LVN2bGE2RWgyOWRXOVR4VnlEMmhtVjZfZEtkNkZSR1d3SEtFbndPY2NoSGN0WW4xa1FEV0gzZVo1VkJrU3p2N1J6dk9IWFh6UlA4RnItd3Vrb3RhdzI?oc=5",
@@ -10229,14 +10229,146 @@ window.LOCAL_DATA = {
       "Category": "기타"
     },
     {
-      "Title": "[김대윤 칼럼] 돈의 출처를 묻는 시대 - 월드코리안뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QT0ZXQkJoalhYMFkxRW9YUG9RSTQ3d0xTT0dqU2UyTnpTZVBnVHZPQThOQUF2Q1N6b0tKbG41TGNocVV3RC1sQ203TlJXWi1qYmx0Zy1wcHdHcC1FMkdZUk1wSDVEMU1KYlFOWDR3?oc=5",
+      "Title": "\"우리 아니었으면 佛語 썼겠지\" 찰스 英국왕의 트럼프 맞춤 유머 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmRqOFlFWEdnSUdfWmNERFVPZHFMVUJsYUVmRm00a1RDTmx1b0RXcW1xbUpvVEFiMjMxdDg4MmMxYUhSanFhYzN0NmJ4RU9zeTRua1dvTkpBYkpLSEJjRlNRQmVFRjVxbXhPRmY5ZEs5X2J5b2ZBRml0VkJqS054dTc3UGZmRW9xRTVYRUhaRVpIeHd5TFVMdWFRXzFBUQ?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
-      "Title": "[서울뉴스통신 칼럼] 최성호 양서농협 조합장의 ‘금융자산 1조 원 시대’, 뜨겁게 응원한다 - 서울뉴스통신",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1fdUtoUXdiRlhCajZVc2pRVXdPMzhjS1M4clpjNXdhdV9HanAzTVdyUkpqX0o2SERfMmVVVEJyNXRnWHRLa2cxWnZ4UGpwc1NBN3ItRTRma3gwQUdyQk1XalVmaGZfekRJYzBJ?oc=5",
+      "Title": "“언어 빼고 다 통해” 미 의회 빵 터뜨린 찰스 3세 유머 - 중앙일보",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0walRtWkM3X040X1lnYXQ4NTREMklKdnREVDhwNDRzUDhvdjdYQWFYb2xWemdqZG40eG9Tc2d3YVk0djB3STZObXZoX09aczFuUzEyQ2tB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "6월 24일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZdzgxVm1NaVpaclBvU2ZDbE84UVJBbjlkVjl5VjU0a0UxZTZKMXZfNk80R1FhZGtYMWFXMnUzRXhsTmdlRlQxckhac0M4MEJBbnQ5SmFPYlB0QnJIOERtRGR3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[문수철 기자가 본 세상 데스크 칼럼] ‘본질’을 말했지만, 정작 본질은 놓쳤다. - 경기헤드라인",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qQmxBak04dHJPbGw5RGt0S19PZ3lGNUcySEduQkVWNUdKQTFQYUpnNDJ1bTJzSVBjOXFhMVRWQXJ2ZW42VmRNcTZGTi1yRGU3WEIzZTdwN1dRSzNoRVVFYnFVdG8xUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "B급 유머 코드가 이 작품의 힘 - 캐나다 한국일보",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAybmhieE9vRlAzd3VBNDhjckJCeXJ5ZzlFOHVRT0taWW1uZUtWNHEyS2U5cXc2S2hDWUNQV2pYb3FBdTZGR0Z3bXhuU3h4ZjVrOXVkbEdia2Q2RVI4ZVRWcWRQcmpDQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 04월 넷째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jcC1PbWRYQ3p0UGJ0SFVVSWRFMWRJUFJUQU5ZX2JRV1ZkX203SkNHQnQyMVpTUlhpQ29IU2pNbkVYNjYwRWd6clRCVDUwaTRhOGZPV3BhRi1qWEtxTV9TaGhzdnNNNjRrTjMtR2pn0gFyQVVfeXFMTTlmYzloTXZZaWJKTVhqWDJOeEZ4Q0lVdDNFNTBiakh0alB5XzBZWEEydU9KUldWb3dZdlhSNUhnS2hIMVEwZWhQOUJiejRuV1pTVFdlSE1UMjNkbkp4NkhYZW0zTG9xZ0ZnZ0FlUHExTDFB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[경인경제 칼럼] 최성호 양서농협 조합장의 ‘금융자산 1조 원 시대’, 뜨겁게 응원한다 - 경인경제",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VdTExQnNIYU5Bb19DRXpic1I1dFRKbkUzdFBib01oeWRWNG1FcmVrU2ZrcHVUNWpvQ2xZMHhJamZuNE9Yemd0MmFzcFV2STdSWEtwaE9oSHE4b0o4c2Qwd2RTUnBlVnhm?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "권정열, 일상 사진 속 센스 있는 유머 - TopStarNews",
+      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uai00RVEzSXEyNkptVWVqcmhxQzhHbWVBZXhncFdka0h2alI5SEhtZklocmktV3l5MG8tM1NDOVBPcXd0VlpfSkpweVhxSkVhVGF1TzBlaGlxbmZTM0ZHNzlVeWdSQnc2SkRvV3RZT3hzZw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "고양시 ‘자율주행버스’ 타보니… 사람보다 교통법규 잘 지키네",
+      "Link": "https://v.daum.net/v/20260626144729247",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[현장르포] “어두운 골목, 우리가 직접 살핀다”… 경찰·시민 함께 뛰는 ‘순찰 러닝’",
+      "Link": "https://v.daum.net/v/20260626130833782",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 05월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yUWxiTS01dG1qNWpCaG5VRHBDSjRVbHM4bDRkU2U3VWRDNlE3V043akw4QWVhOUtiNG1tS1VORDVyWHhYNkZHQW11TDVaWGw5eTZkR2xWcWU0WnhlS29xVVN4RnRDUnluRU9ZeGtR0gFyQVVfeXFMTjJMZWZ6blZzMHhTRXFuUXNRMm5sMHptQS01LWp1el8xQmtrSWx1YjNCTHR3TWU3bEsxUkdjQzgyY3JDQlc1NGJGcnV2d0dvbXdnQTVlbUEybC1IWFdrd1k0LUJFUERiRkNTbGMyMTRERDVB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "놀이가 된 혐오… 소비와 유머로 번지는 극우 - 한국일보",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XWmk5dXJUMVlfWUhLYW40S1ZjQVpNY01mT2xhVnRBUkkzVEloc0t4V3Vwb09WQm5uWDJVWEc0U1Z2cERHaEdVd0JIUF9pUE9MWWxVQ0xHNWg2c0Z1MHZ5QUUtdHRCaVRjLU1nOE5R0gFzQVVfeXFMTmgzUnF5dmJXQWZjenJKcTlaZlI4cTF2eTBzYk1iV1dLRnl4YXlZazNROWxlbkw5YTlUdllSTmRBc2VtN1dvR0Q2UndGTmZmbjM3eW0wLTVNd1NHOFB0WWxVNnBBdnVXbXB1OHMwWFJWcG1mSQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "“영어 빼고 다 통해” 美 의회 사로잡은 찰스 3세 ‘영국식 유머’ - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaEU2cHUtMU96OGdsTlhkcTZjRmcwVWxoRWFna0lxN01mZTdNaExFOXFXcEsxN19iOE9MNk84bldDYmJQN254aUM5UmRkWEZYVGc3WXA5NGY4X2wyNUVYSFhpZ2lSaXJWbmxPLVF5akNqX2JTNlpqV2FxR0c5NEk5NF9jMUlSdnNhRWNHNjFLUlRuN1VPSGFGQkRuNWRTZw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[칼럼] 사람 바꿔도 반복되는 문제…책임감보다 먼저 봐야 할 ‘시스템’ - 산경투데이",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CVzJxcmJWb2ZnOVd3S3FwbEpnUGdPV3MySW5xdGJtaVh2eDhOV29ZWEZ0bFFtbGR5anJWSW5ERTAwbUVpVTNJOHNJWi1Kd1BwVXhNV2Q3bEJfQnBlZndUVnlyNjhpUy1nMnlXckE1dTPSAXRBVV95cUxPSExTZUFYVFJlbzFuazJaUi1OUDNIWU42eUdfUGR6QzBpNG1pRm8xamtIcVNwN1dGZThXcC1yWVpoamliRnpaQU9sZXFTcFNGb1ZUdjdvVE1lY1NxdVJWQUpYVHVBV0lFSEpIUVAybS03cjNadg?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"혁신하지 않으면 퇴보\" 한국 축구에서 얻는 교훈 [사설]",
+      "Link": "https://v.daum.net/v/20260626172106144",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 03월 마지막 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04ckZyTFFWS0dGRExudTAwYWQ5UngtLXBtUEU4OXhDRFJUUW82bnFVREVpSnpfQVMwRnd4SlhZQUVfRVR0T2doWkJlTkIxeXJiVVNNdjlYTzNxX2JlYUdlOW1wRm82MW9zLU11aE9B0gFyQVVfeXFMUF9rMU5Bcy1nNkdPOHctdk5OcVNjOGZWSkN5c2V0OFEwX2ZJaEVFVm01WXRPbFVhOHRBXzJoTG5ucXV4a1NBMXlabEF6SV80SVI4T2FpZnloWlBmZk12aHhka2FhaDRTM0VnR0Rvb3N5WFFR?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[이기호의 유머란 무엇인가] 전쟁과 절망 앞에서 농담과 유머가 필요한 이유 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYnhXVjB1b3lsTzZkdDB0cWhpWmhSYTVENElKNnhtS1ZwYUhGSFNaUHc5WEl4NXVWeGtMd0RzejFZMmxacHhHT09mS2Y2NkppN1ZfRndGc0FKMEctc1BKTk5fWDdMUWU0TjN3eDJyVzloRkJJREZhYnFVdnRESkM3cU1lRmhlaFd0dmZFd3lmYzc?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[양성희의 문장으로 읽는 책] 헤세의 ‘고급유머’ - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93SnpzUEVjVGd0cHhDTWstVWdqNkRTUGJhdzF3VXl2MzFoOUNZZlpWa2Q3ekxwTmZRUzJKQ2VoMzFxRmpIazVKSHBlQ29ZOW8?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[국세 칼럼] 인공지능시대 알고리즘 신뢰 기준과 인간 책임의 재정립 - intn.co.kr",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BQ3kwNnp1bDJlT2tncXc5cTVpb1hmNTFZNnduUmFhV3AtSEJfdy1ZOEdtZWYtek1tVTQzcldvUU1aRVJzNDAwS19vRHFQMmhtTGZaT1U2V0p1QnB1UzI1aDR5U0hlSzFoNWc?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2025년 12월 넷째주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBRSDgxdDBRWWMxaEFfRHZaUEdET1JZX3ZCcDd2OWdLY3dyb3B3bHM3QjFFS3ZlZWR2Z0l3ckRlclpxNW43SWxDT2NEOFJWQmNPMmY3RjBoa0g1dVVlTUhRTU5TaFlVOXM0eXJFc0Jn0gFyQVVfeXFMTTZ2QkhST3hES3dMek1adFVxYW9YT2pYUW8zUC1sWXdScFA3YmVrQVNDeXZMTmFpN1ZmcDlCdzhJSXBMRXdTMXNsZmtQRGktakI2d1IzLUJyLWpqbjA5c0ltMUlfOTBlbXQzcWZtc3M5U0F3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "李대통령 \"1조 이상 가치 혁신기업 5곳 육성…팔란티어와 경쟁\"(종합)",
+      "Link": "https://v.daum.net/v/20260626165854276",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "비공개 공간 열었더니…외국인들 몰린 ‘K-공연장’ 투어 가보니",
+      "Link": "https://v.daum.net/v/20260626170600571",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[르포]'1.3조' 성수4지구, 갈등 끝 정상궤도…'대우 vs 롯데' 누가 웃게 될까",
+      "Link": "https://v.daum.net/v/20260626154003395",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "겨울방학, 그림책 속 유머로 추위 녹인다… 111CM 기획전 ‘유머의 맛 서현 그림책’ 가보니 - 수원시 인터넷신문",
+      "Link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wZ0QwcmJ5a2Jid096R1RGMGRzc3FFSWVJNFBsN3I5RlFzaXQ0YWFwd0xRTTRjVGJOMXFvZVRXZjhrblRKQkdmRVZHcWhvekFFdGtzT0dqVzNIaVEwUkczZTVwQXZZbHBvdC16em05VHBjdHV5VXZvNXRB?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
@@ -10253,326 +10385,8 @@ window.LOCAL_DATA = {
       "Category": "기타"
     },
     {
-      "Title": "[朝鮮칼럼] 정청래 ‘폴더 인사’, 민주당·이재명 정치의 민낯 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS0swTWNqNVNWaURhcXRpdEdfTzNncURyRWRmOXBndldoMXB0X1pDMUxXT1dwSDBDbHVUdHh3YTFPNWM3Vk1RLUdUZW1rQzlNSXhuWFlneUhGWXpUc2l6NzJHdVRJbWR1a1cwazh1Sk9kTlhGVnd6bVdQcTRIWXpUS3N5azh5aE8xaFRJ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[독자권익위원 칼럼] 포털에 종속된 기형적인 뉴스 소비와 편집권 침해 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vTC00S00yRy1aZWlGUEF6SzI5OEdGYXNlQjA3U3BfZl9OWFJJMXIyV1ZoanN6MjZac1FUTmc0ZlhCSkpNZmk1aHUxVC1xdVE?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "펀딩 목표 8400% 달성…'심슨 덕후' 가슴 뛰게 할 대백과사전 나왔다 - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3dHVFSUdJckxBdWtyQW1UQTZIZU41QTdDZ2NjdVRhWm96UjR0NTNfYTVCWjBXUlAybFB5aXNUNWdQbU1qREVyOEVnS1VNcWJ6dDU4?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "한일, 28일 국방장관회담…'블랙이글스 日 급유' 등 우호 협력 논의(종합)",
-      "Link": "https://v.daum.net/v/20260626121230388",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"서점도 복사집도 학생이 없다\"…종이 사라진 캠퍼스",
-      "Link": "https://v.daum.net/v/20260626114146487",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[에버라드 칼럼] 시진핑 중국 국가주석의 방북이 남긴 것 - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80d0hBX2xYXzF5VUR4VUtpa21zT2VWc29heVR2akJfUWxXcXdmaWswc3psZEdmRVFXQ2hLT3g2VV9NVmFFVDhxYlhvcmlWSUtaTXU1VUFB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[박근종 칼럼] 과도한 빚투로 금융 취약성 확대, 한은의 불균형 누적 경고 흘려들어선 안 돼 - 더쎈뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94Y3NHSWRSTkIwMTl6ODJGUHA5MENNeVB2NVlQSTQzSFhnRno0OFZ5MmNjaU5oM3NMY05qVWdJYjlRSGRodC1USDI1bllFQnhsc1cxTEdjdi01RlFVSWxxTFRoZjY1cTM0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[사설] 韓축구 참사…불통행정·부실인사·무능리더십이 조직의 敵",
-      "Link": "https://v.daum.net/v/20260626111256019",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "3월 18일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxWUlEVm9uVmY4bDJOc0x4UlBYeHNJOC11Y0VaMFRPNUNVT0pTNmJGMTZ4ZndfeVhWYWZZX190ZXVwUVp1NXktak9IS21pMHpJdi1uQkRSQ21EWmRlY1M3UE1n?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 01월 셋째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93YS1nbUR2azRmYzE0dThlSFBOTlE4b3lvSnFIdktnUHo4dEtkM2FUNmw2YmVIVU1IbUtPbDZrWTlsSTJjTDdBei1ld2xZNXU3VHVva29qQTN5ZDJVSndtWm5VR0ZqS2NHOVhxMnJ30gFyQVVfeXFMTUxxZUtsUGV0WjJpdzRVZXFka1VaOE8zOEZNeDJSSV8zSGdaRjhFUHBOeDN3aUMxeDVtcklaSmM1Q3JjeEJPM3AydWpaZjUwV2xHT3dMV2M3QTQ0MUtJUERoNzRCSkR2bGZkenA0NUJsVjR3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"썰렁하다 비웃지마!\" 아재 개그, 뇌를 깨운다고?…스트레스 낮추고 뇌 건강에 좋다! - 네이트",
-      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41LVVyNlA0Rkh0eTd4WE1sMkxZV3lQVUktb2t2d0RHZlBvU01vUGFXS0owVF91TFVVVjFJTjN5TmRQWERCS2xQaHRpTUtnWm1PV2VF?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 02월 둘째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FaUNOMVJhVTg0d2xFYVBpWmswUlppbEcydFAxdEtab2JJMHlMR1dkWW9UcXhyZTQ5Y2JwZUNpZzRCNllYRWxRX05Mc2hiRU0weE1ESFVWWFJBd215el94dzFVOW5YQ3YtTG1CMV9R0gFyQVVfeXFMUHNfQVhHUEVMaV8wUHNwWnZEYXhtWW1pQnNVd3prOUhFMWNkVFNFakxMMVJHZWV6SWpQYXRQdXBoSzFiSE96ZExuaHJiZnNOclhFLVFDNHBDc1A1THRwRzZIT0tOSU5FTDdXSWlLVUM5d0JB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[이충재 칼럼] 이 대통령, 지지율 회복의 조건 - 오마이뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vOGdmXzVITlJRYzdrVHdOM0ZDTTBzSzFNYXNFM293OXpDZGpQdHljUTdsUno0WWhfUDZteGRvc1piY1hIeVpxNEJSNWpYLXpPd1E1LXM3NEVYZmpPT29YTVRobWZOdXg5bGhKZHNVbUtFUDJXVExn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[전문가 칼럼] 성공하는 사람들의 뇌는 뭐가 다를까? - 조세금융신문",
-      "Link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UQjhQRDRoLUFDSFRHNDJiNGtXX19fMUd4OEJ1UmNzYXJXTm14QlpKYmw1ZExxbm9pcGZ4QzJIZml3dmhrQkR2aEJpbG9QRHBUYTZiVXhqX29YaGVTbUN4bndDdw?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[가보니] “커피 대신 맥주”…오전 월드컵, 카스 뷰잉펍에 모인 붉은 함성",
-      "Link": "https://v.daum.net/v/20260626114130486",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[서울뉴스통신 칼럼] 곽도용 대표이사, 글로벌 문화관광도시 수원’ 완성에 초석이 되어주시길 - 서울뉴스통신",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5haDR2Rl92WG5vNVZFaWxqTGJJbU1zX2YtanIwTkI0U19qb0NlMU1BN3BXVVV5Tkh2aU9SdmhZSC1rN0o4Q3gtMHZnRjhpZDdMQzc5ZVVHb05rUWVLUE43NERSdWFyNHdvSGFJ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"정형화할 수 없는 미학\"…아트로 세계관 확장 나선 마뗑킴[르포]",
-      "Link": "https://v.daum.net/v/20260626063204151",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 06월 셋째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBicWdBenpzOVpmbmw3S1JpbUNseTBPSkEwb1hpOFhCMlZMd1F3MnVaMjJNcEtmaldfZmgwbEwxTlJqeU5EclIzTzljYlA5WjN3TDEyTWFUVEo5QkdLUlBvejFOM2hPMWpScmtidE9n0gFyQVVfeXFMUEdKYldKV2lULTNxTmZmVHMyUmZGUWxMRUMyc2liTFc5OTdJc3hFZWxqZlRsNFhxVWRzc2xsclcxMkNJNjRFc05KTHViTXh5MWhOS0VnenFvYVA0NGZ4QV96bHg2WXdUZGFrMHNrblo3cnh3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "이민정, 이병헌 등지고 변우석만 본 사연 해명 \"이병헌 유머에 변우석 너무 크게 웃어\" - 조이뉴스24",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81WGpNUTZWVTg4UHpZUjJwXzVNYW9sRGhGb0w2QWR2MW9JU05Ta2thSFpoUzVWNGR4eUduQm05SXhhR1pXUm5OblZUdE4xZ0E?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "암자의 두 스님 - 법보신문",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xRnJnQzR0QkJ0ZnNtcFJLd2lFZ25yb19SQlhYZVVLVm1DM1VlTGhYdUV2ZFNad2NzUTR5dllFeUlfNHcwT184dlVVNURqbXFpN01vQ0pIWEpQbWJ5dERnSTVQVzBqNXg0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 04월 둘째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yRWtFOWRVb2tBa19NQUdPdUdVWUdHZnpaRWNSNHRfb2UyZUNWU0U2N2NKbFJJZVBOSndXR0l0SXpLb2k1NlNIVDNHQTZkYkZVbUpaMlR6YnV3QzRjSWlVN0ZKZ3ZuZEpobHl4M2dB0gFyQVVfeXFMT1NSaC0wZ19VZGZucjNKc0hRN3BSVDhYZWZtVU5RNXFjX01HR1VwdXRWRWpuTUgzODJoXzFRR3NYQzViOVVfTzV1NTMxTENGa2J5UTVTZk01Mzl1dlNIcWhrRU1TN3VZRVFtckx5TzQ3MGV3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[현장] AI 시대의 러다이트는 누구인가?",
-      "Link": "https://v.daum.net/v/20260626091304043",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[임윤철 칼럼] AI 혁명의 완성, ‘신구 한 팀’에 달렸다 - technovalue.com",
-      "Link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBuZ3NuZUhlaDNoeDFQU2xVUEJqTkt0aEVRRHJDVy1LbkhBbDVpMUdIakNHeTViU1hQN3c0a0I0ckdEMEo1bnJ5SkpRZFdEeWUxTnA4TGxKaw?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "보완수사권 정부案 안 낸다는 金총리와 공직자의 책무[사설]",
-      "Link": "https://v.daum.net/v/20260626114346545",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[신창기 칼럼] 교권보호국, 이름보다 중요한 것 - 에듀프레스",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iSDJyZkhCeDA1X1F3Q3BLX1VkSGdnazZoVVBoZFVmTy1ReUd3Uld3c2JXZVR0UUtlYlBnb1c1bXlfNmo5cUJIdXdMVmJfclhKRkhVMjU4azg1VXZXVkhreUlUSC1TWTla?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "6월 17일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3RXo0ck9YNTFKOVF4THdwR3JqeTVaZXRMZDNhLWY1YnBkUVRUQnFkMklWMktCSk5mODFBZDZXeGNIMklCZXE5RTRaWHU1QnZScjFKYUgxR2hMcWRoRXVhMTNR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[사설] ‘삼성 팹 이전 없다’고 정부가 밝혀야 한다",
-      "Link": "https://v.daum.net/v/20260625030536523",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[칼럼] 의료개혁은 왜 반복해서 실패하는가 - 청년의사",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53LWtlZjdNLUREV21aVjMwZDltNWhTVVRWM3BHNDZSaXo1Q0JnTFFDQlRZWTRGNDFVamlUaHZJYU9Wam0yNFRUX3V1V2V4OXg2Qy1VMWFXV3VsY2hya1U4SmxmTEtTQk1MdGlaVmI0NjXSAXNBVV95cUxPZWotbG9uZkpzNHdObmdDNTZqamNnSFhfc3Rqc19Id05xZndITlJnbXJWcWdwWUYzWTdDWkx6X2F5U1I0alFDUTl6WHVkSWlueV9OUC0zT1ZMTXYza0p2SHRtYjh1MGpIWEU1Z0ZxcGtuNU5Z?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 02월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4OENKNVl2SjZ3dG9CRUIwNTU0LWdVU1paVm1oSTFKdjZ0Slp1MUFFUERLNDVYTFZTNWVxTWVRVjc3d3gyTWFQS2JUQXR6YlZEZnNYMjBZY09RakRaNWtRRzNIeEFjdXVGNVdpMXNn0gFyQVVfeXFMUEFuTzRkV2Q1RUlpbzM2RS1xeUJtU3l5NTh0bWlWWEZQdS1ONWdSdEJGbklvMVE4LUQ0Zm4wN285SVhhSTBqR1pkdV8tY1g1T2EwdWUxNFA2MkNOR2tzbWVtYURQdFFkd0l5a1hRUFNSR3NR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "놀이가 된 혐오… 소비와 유머로 번지는 극우 - 한국일보",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XWmk5dXJUMVlfWUhLYW40S1ZjQVpNY01mT2xhVnRBUkkzVEloc0t4V3Vwb09WQm5uWDJVWEc0U1Z2cERHaEdVd0JIUF9pUE9MWWxVQ0xHNWg2c0Z1MHZ5QUUtdHRCaVRjLU1nOE5R0gFzQVVfeXFMTmgzUnF5dmJXQWZjenJKcTlaZlI4cTF2eTBzYk1iV1dLRnl4YXlZazNROWxlbkw5YTlUdllSTmRBc2VtN1dvR0Q2UndGTmZmbjM3eW0wLTVNd1NHOFB0WWxVNnBBdnVXbXB1OHMwWFJWcG1mSQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "“언어 빼고 다 통해” 미 의회 빵 터뜨린 찰스 3세 유머 - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0walRtWkM3X040X1lnYXQ4NTREMklKdnREVDhwNDRzUDhvdjdYQWFYb2xWemdqZG40eG9Tc2d3YVk0djB3STZObXZoX09aczFuUzEyQ2tB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[이재윤 칼럼] 스타벅스 정치학 - 영남일보",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WXVkR3djS1hHTnphMmFDdHdFcDgyLThqNk5tWG9kcXQ2dGNLRld4dElFeXNUNWxoNnhzSk1vVXRyWXo5NnBJaHpaVF9fZnNZamw2eGE3MW81Tktqd002NTc4RVJNajNKMVUw?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[시선]어떤 유머는 저열한 다큐다 - 경향신문",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oX0FSdVk0azFXYnlhTGJLRjY1M25XZmRyWWlybkE0UGZDQzdVWkZjS2xyaFQ2M3VBNkV0cmVuVkJtazFEM0FVeVJQSUgxZmVESEdjMkZ3UWJxQdIBX0FVX3lxTE14dEpzdFpXaVlkREd2RGdmOFZEOXJZa2QwbEl4clB4NGRCbzMzS3UwRHpCbVFpaDZYY2lFZko0N09aR2hVMlRnLWVpci1kY0d2V09USHE2RE1HQXRJeXhJ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[팀 알퍼의 런던 Eye] [37] 영국식 유머의 비밀 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYU5VNW9GQjVkbXphZWZaRWU5NG45QmxsMVRxd2w1MFJ4T0QtZ2kxbjFneER3Y2pHVVYzLVdPcERLb0VESXBTS3ZMYUZkdGkyNXFOcWg5SEhlaUJCc3oweERLV0VGN3pDR2piMVZsSDJtZFNlcWw4ODNoenpPVVBoY3R3TmVXYVRzRHVPUkVybzY?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[정영현 칼럼] 교권보호국, 시대가 요구하는 공적 안전망 - 에듀프레스",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJSFp2VjAtOTZtNTB0TE1sVEhCWGVjeV83Y2NYZEtfYzh2QW1BcjVQV3lyV1FYM3d0Zm5XRVgzSGlzclV4MFRNRnJlZWVSM19mYk9DNGNVTG95bTc4WVRmd0N5SEdpOVBH?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[이기호의 유머란 무엇인가] 한국이 발명한 ‘부장님 유머’… 웃다가 왜 짠해졌나 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBmZG5xdkw0QlpmTE9LUWhva2lOM1QyX1Bmam9VUWE5eTI4bUJKcXRyelpmamUyb2tXVjgxYVN2dnIxX3J0UGc?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 02월 셋째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hQUpjcXlWSDNEWDVBdWNhSTRheDBlU3p4SmpJU2VFaGRhQnZSeC1SNGMzREQ0NU9CdEd6eWViVmVYNWlxbkRnd1RFNWRYSk5mZ2JWMTQ4TVk4elVGeUlUU05UMC1BS0poOFRDU0Vn0gFyQVVfeXFMT2gwSkltVkNlTXFHLXJyTU1uVF9IWTZUbF8ydnBlVEQwcGFOX29IU0p4MHhNdUdVYjA5alFNV2JLU3RVbzBHaE9CZXRjS3l4Z3BWTFNibENUdEE2eS1GYmxtUWhBWTdyYmFJSERSTGtyOERB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "노년의 유머, 인생의 진정한 비밀번호 - 브런치",
-      "Link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9wcHRxRTBCNGc5cS1nOTI1YUJtX1VaUVpUdW9FQTZ2ZzFYT0hDV0xXLVZjQkMxcjRaU19RYV9Gejd3LTdrVC1uWXpjVGI?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[칼럼] 교권과 인권의 참교육 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IVTRibERtZUI1eFJxenZYdjNVRGZrZDlMeG5Bd0prX3BmdkctRnNBZzdWeXd6NHdZZ2FpX3B3V0E3YTREakdHVG16T3pZYTg?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2025년 11월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tRWlFSmxPUE0wa090cW9Ta3BlbXBXZ0lJcEF1ZXRzLTZ5UkkxeS1pZnZXbzQ2MEpLNWxYZjVpaXNNWTNWZjVCbEpUQ0U3bUM3eVg2LXRPV2ZuYWRXRWhJei0zM2RCU2pidktzb0VR0gFyQVVfeXFMTTZNbzFjXzd0bldBa242dll4bUdZNmp5R1JXcjVtckpwamd6VnFiSHhQWldKRmNLdXVxdVRZc2pEQVlPbGlaamQ1aEZyVXNqYTJ0RFZLNHdTUHRZcXBoQTVnSkc1Z1NoQTZqeXFXWWMzNTdB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 06월 넷째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95QWlVNVJRU3IwbXJyX2IzS0ZDZDM0QkNaeXpjV3BHSkFIekp6cWExd3lzWFZINXRUYzBrUk9aR1VMRDQ3ZzN2T0xnZzRmTHRNTnBoWDFZaUJTWVN6cElVVlFqVVM2SWRmUzdiNjFn0gFyQVVfeXFMTWxrZi02dVloRnJvY1FqakxnNlI5UUFSVVY2THNwYlQycDhtdWV6V2VlR2t6b09LUnNsVXFFeXAzOTVxZnlMZkZ0bTEydjUtd3NYSTFnTHAwVVVVdVIxMm5id1ZZT1FUM0hyZDR2UHNmUjhB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[사설] 농특세 세수 급증, 활용방안 논의에 주목한다",
-      "Link": "https://v.daum.net/v/20260626050151902",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "상상력·유머로 현대미술과 접선하는 ‘조선의 팝아트’ [문소영 논설위원이 간다] - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5IVUpHNlhYSVJTSGQ0LUVyTlQ4cUs5OU9wdXhqSG4tMEhMM0Z1bGVpUHZJUFpNYzR4Y013ZTdGVnZTRVYtaUZ0WmlYYy10c0llUVBYbzdR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[학부모 칼럼] 우리 아이들은 특수교육을 받는다 - 울산저널i",
-      "Link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTJqdWRXM2QwR1ZlNk5yMklYMFlNVmt1WDBfNXNWX0I4Wmt5ZUZxb2RkX3RGNlFZdHB5VWtTMzJQRjJsQ0ZUS2ZfeHFxTjZmNTY1SzBiWFVsTWlEN09qUXh1MndKRmpaOWU2MGRBXzF5bU0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[오늘의 칼럼 모아보기] ‘N% 성과급’ 주총 결의 의무화, 미적거릴 시간 없다 - 프리진뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aLU1vQmZ1b2hfVEpjOHdkWjN0bVdyNUwzSHVpQXdtd01TOHdOYktXbGd5Yk1zVEdXbjAxNzVkZXRWX0dla3J3akE4ZDI2cnNiTXRQQV9oYmNfYU5Rc29fUEstZW44emJSSXVaOTRMMA?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2025년 10월 마지막 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HVGZaLWdNWXh2VFVlSzdZdHo4aHlsRXFsdjRTTDktQWFnanFKblFUUG9LaURhVFQxUzdVQjQtUTVCbGd6Q2JxUjdIY0c2dnJxc3RLaXRiaUFhY0U2cU1URTMwcTBtWHh5YTJXcDFR0gFyQVVfeXFMUDlMZlB0Rl9xNzdQMU9zM2tEb3R3UlB0UkNDMFA1MEpQd0ZxY0NDQ2d4SkZQdmFZcVlxNDF3elc4T2syYUY2eURZbEYwYXJGc20zMnRZNGU5dXZBVEFMNHozN2wzd0ljSkRubTJJVEJ6SkFB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[책의 향기]힙한 유머 뒤엔 증오의 비수가… - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSaXhaQl8yNXRUVzFUQTlEWHpXOER0OG52N1pHYzJrN05aRVNFTUdHWXlxY29ESmtnVGdlcFR4blFsOGlhZk9ycGdyRWhCTmRWek5FWm1lUFZzTGJFVjBMV0k1SUZtczRqSHpzcmQzNXBTQjE4QUHSAWZBVV95cUxPdGl0X1VlNXMtQzJXcVY3ZDdSakdNRnNuQ3k0dTV6M05GZFY2b2ZlRHVHU0x6blJsU1ZRSm1SblhlNDJ6MmNpT2ZNSzVPWl9KMDg1akdoZGRBUmRJYzRJclk4cmhLMXc?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[Y터뷰] '남편들' 박규태 감독 \"코미디는 삶의 윤활유, 영화는 재미있어야\"(종합) - YTN",
-      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UdG9tamVGdFdIV1IzVkRELWpxUmlaWGpWaWVjMWJQanZFb1dlMHVYRDZoSlNQa0lKckNWTXJxeW1aTmFNXzFvbWNSV3NSWGVjem5VZWpVSGhrS1pwR2lF?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "육·해·공 모두 반대하는 사관학교 통합, 백지화해야[사설]",
-      "Link": "https://v.daum.net/v/20260626114032451",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "세계 최고령 저자 김형석의 유머…“철이 늦게 들어 오래 산거지요” - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CeTdCYmRoMDNnNFRzR3ZRRFJRZHd6MTNDUG1LcnpTSmhMM3lGTXN4RWdnRGZRSFEtQV9kUEp3eXh1UU5kWm11WGJ4UXdjYW5hNzBUZGJB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[책의 향기]유머 감각 없는 친구에게 주고 싶은… - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUdkxwZE9NR0E3Y1BMSWYwcDV5d0dQSWlocEY1enZxSjJBNFMwSDgzdm8yU2I2QUR6dlh1ZHJTZU5pTG9tQktiQzRDNDhhY0E2VnA5bWU0aWVhdVlrd1RISmIyV05hRndDemtSdzAyMmlBUlZpbVHSAWZBVV95cUxQcUxCSGZoWjdMSGw1alpvR2p4dkJrM2g1QXB3VmVYZXVPc3JoUmRucG5MeVZsM3kxcFJpLTVrQWw4SGoyLU45VWloWFRNZmV0VHFIbGVDdm9ldDVHdldFSWpBWnpTMlE?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "6월 10일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hVkVLODQ1TnZsLVdCSlRHTS1MbWZ3Y1QwZGJfaVhpYnhiaW1BQUJfd1NWLTBmYVhSWFZvUk1qckpCWFJ0WlI2VTR5cDB4Z1F5U01EN0N6ZEVQV0VwcUo5YURB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "캐나다 | 코스트 콘돔 불량 \"아이도 반품되나요\" 유머 화제 - 밴쿠버 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9zbzlaVmRjTVpjdzFIT1Z2U1Vpb0xncnotZXB1T1pOTzhBVE50dDdPVF8zZmgtYzZHTWgxNjNHel9QT2pGVVpjdHpCVWlZS2NjdGc5MjBYZmE3TXZtS2xRM2w1VV9GUEVVSVI3bGhGMUhGQnNlaTVr?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[칼럼] 재선 심덕섭 군수의 4년, 이제는 ‘성과로 증명할 시간’이다 - 이로운넷",
-      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2R3VsZzl4NHBmTmRneVlpTWJ0QkMzeTE3MWV4U0Zia2JVSHRiajJoYmx0dFRIWFlsWnNwZG83dFRpb0hQWGR3ZVlCdEV1blRyUllRUy1qU2lsRmZEOEVEeU1fdHRCQQ?oc=5",
+      "Title": "[이기호의 유머란 무엇인가] 한국이 발명한 ‘부장님 유머’… 웃다가 왜 짠해졌나 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeEU2Um9EczJwS3k0dWtRQldmZ3BsMklPR3J4cGZtcEQxekQwNXpjUGs4MXFfRE53b00wVXJ5N3dvNEx6WWNkemltQUtPbTluOXg5ZGRhZWsyUTRUcG1zRjF5eUswX1hhR0lRdnM1UGVnM3p0SFgwalVGSUZ5OE9DclpoUVJVaFJfVGpMbC1iRFk?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
@@ -10583,482 +10397,8 @@ window.LOCAL_DATA = {
       "Category": "기타"
     },
     {
-      "Title": "[현장르포] “어두운 골목, 우리가 직접 살핀다”… 경찰·시민 함께 뛰는 ‘순찰 러닝’",
-      "Link": "https://v.daum.net/v/20260626130833782",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[김병철 칼럼] 시장 하은호는 떠나고, 군포시민 하은호는 남는다 - 뉴스타운",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LNU84bTFnbVhkeHpFck5yYWowTjJpZ1RreUFsbjE4aXlWTHVwZzhGWUZxdWhPQk9QajFKRjV3R00tVi1yZlJXdDhMbUJVQUUzamdjWDBhTFlIdWlOalViRlVybGtSYVZ2MkZDam9B?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 05월 마지막(06월 첫째)주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00aHZYc3RNT2J4WWw1STZTTWJrTW5yR2dFVTdjSDRKZERHczZNaVRWQjdhMDRnT09zcjhhbDBBR3pSU2JnMFl2R094cGtEM1Nlek1wQmtuOUVmTDBrNk9MbUhMbWhTcElIWTBYOFFR0gFyQVVfeXFMUE4xcmhNNVJNcm93RVgxb1VWUVI4OTdfUEhMUGFPcXY3ODExRURCS3BIU2lIUF9BN090OVhHOWlWdktDS1FoeEUya2dNWXZoMjlrVnBvVWZUb2lSSmpVVWdNN3JReXByYVdIdHA5U3dScmFB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 01월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MRkkwQV84bnB1QW14akZpUzhtbUhFdzdDMlM4UzQxMFJZNnRPdTloa2RqcFkza3ZUVGtmY24xZzZteTlONU5BMWg2ZTZTVUttZHQ4c1lSZkMwQWZNc05hYTdCbERaLXMwaEUtcm1n0gFyQVVfeXFMTlM0NUIwV3EzanphRWJuLTBvTk1NdlBGM0xpS1E2bEttS2ZaZXI0bTFBUHUtUzdaTVNhQUNkMUFfWFMzUGRBRTB5R1JmdjJfMVRZU2ZNclJQbE5MRGxEaUdlNFFaQjNZYmlmYjBDMnF0ZnJn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[데스크 칼럼] 대통령과 법무부장관 - 아시아투데이",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsMmRsem5YLUtkSGtQbV9PWHNQQ2RyeF80Sl8zUlF2Uy1wMTRJb3AxWlQwazJxVTJnYjFQaTlGa3MtdUVqV0VDOFhoT2RzNDhPNFBXNUtPVGl5cTdaVkQ1Nms4TUZfcEkwdThFYVp3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 05월 셋째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Jay1tNjNYd0FxNi0xNEJTV2NJY2stOUx5MWtnMGJ1VndYOXR1aTVMZDk3RWRmTTVEeFJXVEFEZUp6TFRQRWQwOUo4QUJOczlzVENRQUFNS0FGYWhwTkNTRXp4M3Q4ZnpyZjBENVFR0gFyQVVfeXFMTUh4ZTgxei05YWtDeEhiMHdhV0kwM0gwQURNWHRKUWd3SjRkWnVBaE1zMUlUb0NKaHBGdjFhdHBTbXFValRlbVo2X2xKV3ZGUE0wajVSMDl4ZEJFemREVk5ObllYTjRRZHV5SjhhRlFjN3Nn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"우리 아니었으면 佛語 썼겠지\" 찰스 英국왕의 트럼프 맞춤 유머 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmRqOFlFWEdnSUdfWmNERFVPZHFMVUJsYUVmRm00a1RDTmx1b0RXcW1xbUpvVEFiMjMxdDg4MmMxYUhSanFhYzN0NmJ4RU9zeTRua1dvTkpBYkpLSEJjRlNRQmVFRjVxbXhPRmY5ZEs5X2J5b2ZBRml0VkJqS054dTc3UGZmRW9xRTVYRUhaRVpIeHd5TFVMdWFRXzFBUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[칼럼] 사람이 관리하는 공장에서, AI가 운영하는 공장으로... - FA저널",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pNFhnbW85Wlc3aXRja2p2V0ZuczZVd0xyeG05MkdETnVaaTdtcnRLRTBreC1BSkhSajFlRWVqdloycmQyTTktR0M4RTlsakU5U1REVF9YS3dDSVFFamlGUDBEbF81TlR6LWpJ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "英찰스 \"동맹가치 지켜야\"…유머 속 내내 '긴장감' - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZQW5yUUpIaWtsRXJjUzBhQlFsRy1Nd3FlcW5sdmRNSjd3SlhnYjQyWEloeU5UMTBUU3hacno0R2pSTUhYNHFxeW5nbTNQTVdpekNYbUY5RkdiUm_SAWBBVV95cUxNdjFQUTVnZVlia2syVVpYTlhRREQ4WjJYTWhfNEMwZnFZbDF0M1BVbHhKRjZ4cmFiM2o3RGhTWmRMWGt1V1VqWmR4ekRLZFJMM2h1cW1WUE83Y2E2aHB4STI?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[VIEWfinder] 결핍을 감추기 위한 허기진 유머, 연극 ‘플리백’ - 문화저널21",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIQ0JSODJ5MVZkcEJGRkJ5a3BHdUVLTTczY2tVRGw2bDVEVGNRNm1qX0pOcFF4VlhiRzVTa1I3ZEI5UkY4b3I5VmI5NjZIYVVkU2ZoWjhFR09DY0E5WDhqNlZiQU16Vmc?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[사설] 지방투자 3대 메가 프로젝트, 균형성장·일자리 효과 주목",
-      "Link": "https://v.daum.net/v/20260626111406080",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[사설] 중국차 공세 거센데, 현대차 ‘순이익 30% 성과급’ 파업 가결",
-      "Link": "https://v.daum.net/v/20260625110935947",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[사이언스칼럼]차가운 표준이 보증하는 뜨거운 여름 드라마, 월드컵 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE43bjFETUxLdGNNWFBCUV95dlcycjQ3TTg3OWUzU0FaMnlpb01wUkk2c1dVOGxsTGtpZzhMMS1HWGJpQ1BZMFBkUGJRajZfYzg?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[현장] AI가 뉴스를 요약하는 시대, 저널리즘은 무엇으로 살아남나",
-      "Link": "https://v.daum.net/v/20260626091205999",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[현장칼럼] 공기업 임원들의 자사주 매입을 허하라 - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EMk0tbHdKTEdESldTUjVhVGV4ZVlkdk5GQTNicElxS2tkTzRTRTRLdVJkcDBPaHVfR0I5VExabGR6Q3pOOTRncjVzSi1FVEwxWXlwaDNmVjhDQ0FwUnBTSV80bjdYQktDUF91TXA5dUE?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "장애와 유머: 차별적 재현에 대한 비판적 고찰 (4) - 브런치",
-      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pc1Q5cmoxWFF4TUppVUhLaHVPRmdlTmFwTE5YMUZiTE13YVE5c0FKeHhIN2VUV3hFbWVUY0F4d3E4cDVDMXFPV29YcTJ4d1ZlbUE?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[칼럼] 범죄와의 전쟁1 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aM1U4R1IzLUlQR085azB4VGx4UmJnSjRkdzZyU1JxSTlFYjRBSXNOQjRIN3loaTVwaS0yYW9MODcycEYtSkZ2QkhRVjVDWk0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[사설] 근거 없는 ‘마약 좀비’, 마약 불안만 키웠다",
-      "Link": "https://v.daum.net/v/20260626030510377",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[EE칼럼] 500년 ‘장마’의 퇴장, 이제 장마를 장마라 부를 수 없다 - 에너지경제신문",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GLXFWLTljZG1EV2NQdTVtQjFmUEJhMXRpRzZFN0s4MUZCMjNiVmlsc1IyckRoYUdYN256bW9IOHY1WWplNGV1ZnY1Q1VpalBkd2NxQ2k0bDQ4RXM?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "성공회, 경계 위의 교회 - 에큐메니안",
-      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yTDF2bFM5VnV3R3ctenU2NEItaFM2QzktWDZkSlROaUJVNklleEc0ajRTM3R0QXNPcjdZUzVxUTFhcmc2U3ZoSEZCQnRHTUxhTnpmSUVtMEljQUUtVWxMRVNsOVFCMUJ0a2lB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "2월 4일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yTzVJSTVLMW5hSzZLXzV6QnIzM1hCZnRuQ2tURk9DcUsxWUczQTR0TGpfaFcwaWFuUlNKZk83dFFzZ21TdU1DblJRbE4zX3ZSMmh2NkhUanhUaU5fcy1IbzlR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 04월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02SHBaTHkyaXNySDcxVUYtRE05WlhiRzRpZUJVbW9sazR4bDhxTlotQ2NYaHZkM0VlTS1nMkhHZ1hhOHpOYW9CWXllajJjRVdnX2RjU1QyREUwOEYzdG12V1JUVHBFNGZnMUc3ckZn0gFyQVVfeXFMTXB5U3R5TXlVWERVZkh2dWxyeGRuRnctdEpJWE5Ec0FzbERYa1NtbWU0dlM2ZGpWM2xkQkFsVmg5cFJiQjJZS3hPVU1HNUtQNGEzRlUtX2kybWxjY2hXR3V3cGhpczlKS3FHdzJ5TGhKZHZn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 03월 마지막 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04ckZyTFFWS0dGRExudTAwYWQ5UngtLXBtUEU4OXhDRFJUUW82bnFVREVpSnpfQVMwRnd4SlhZQUVfRVR0T2doWkJlTkIxeXJiVVNNdjlYTzNxX2JlYUdlOW1wRm82MW9zLU11aE9B0gFyQVVfeXFMUF9rMU5Bcy1nNkdPOHctdk5OcVNjOGZWSkN5c2V0OFEwX2ZJaEVFVm01WXRPbFVhOHRBXzJoTG5ucXV4a1NBMXlabEF6SV80SVI4T2FpZnloWlBmZk12aHhka2FhaDRTM0VnR0Rvb3N5WFFR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[칼럼] 납세자보호, 디지털이 먼저일 수는 있어도 디지털만으로는 안 된다 - 세정일보",
-      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DLW1vNkw2NUx2T3NCR08xMDNqVXJiUTNiaTdTcVRHUndiLUIxOXdvcm9fZGdDTW84UE9heVdmM2FONG9Xa3RjMzN6WDRhRHBlckZtamZzaVNnMlEwVFNDdTRJME8tdTEtTFdaRQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "무턱대고 독서? 시사상식을 잡아라 - kids.donga.com",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIUF9FLVF5djJUek43UHZZNGwxaVZLWmIyMFdBaHRsQU5yZE5acVZPTlZUdjEwcm5Db2EtbmQxUTh2WlU4bkFOM1ZPcGNpbGJESTZQQThoT1Y4R3NEaC03NEhJdGJJcFll?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "마라톤의 도시3-베를린 - 세종의소리",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsUDA2MHl3V1U4Z3NlUjFkVWczYUZseXpmNnhDNVVOTXBsN3RlVHJNdko4WEY3SUpodUJGRVpEaTgtMl8yNW1pTEV2RjRnSk9DWjhYQ3k0TTEwaURORmFoWS1ValJWME0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[칼럼] ‘충남도백’ 박수현에 보내는 편지 - 로컬투데이",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CTjN2VzJ0dVNjQmFKZGQ0RGpXOWZrREVXZEItTkczM3lQZFl3TjdmNWRocHcwWmJlWG5oM1JLNW5hTzlqRW5pQzIzRjd5R01EMXN2U29ta3dtVVhLTDJXQU4wWFpPajhaR01LTkxmVUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "겨울방학, 그림책 속 유머로 추위 녹인다… 111CM 기획전 ‘유머의 맛 서현 그림책’ 가보니 - 수원시 인터넷신문",
-      "Link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wZ0QwcmJ5a2Jid096R1RGMGRzc3FFSWVJNFBsN3I5RlFzaXQ0YWFwd0xRTTRjVGJOMXFvZVRXZjhrblRKQkdmRVZHcWhvekFFdGtzT0dqVzNIaVEwUkczZTVwQXZZbHBvdC16em05VHBjdHV5VXZvNXRB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[이기호의 유머란 무엇인가] 전쟁과 절망 앞에서 농담과 유머가 필요한 이유 - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYnhXVjB1b3lsTzZkdDB0cWhpWmhSYTVENElKNnhtS1ZwYUhGSFNaUHc5WEl4NXVWeGtMd0RzejFZMmxacHhHT09mS2Y2NkppN1ZfRndGc0FKMEctc1BKTk5fWDdMUWU0TjN3eDJyVzloRkJJREZhYnFVdnRESkM3cU1lRmhlaFd0dmZFd3lmYzc?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "B급 유머 코드가 이 작품의 힘 - 캐나다 한국일보",
-      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAybmhieE9vRlAzd3VBNDhjckJCeXJ5ZzlFOHVRT0taWW1uZUtWNHEyS2U5cXc2S2hDWUNQV2pYb3FBdTZGR0Z3bXhuU3h4ZjVrOXVkbEdia2Q2RVI4ZVRWcWRQcmpDQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "권정열, 일상 사진 속 센스 있는 유머 - TopStarNews",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uai00RVEzSXEyNkptVWVqcmhxQzhHbWVBZXhncFdka0h2alI5SEhtZklocmktV3l5MG8tM1NDOVBPcXd0VlpfSkpweVhxSkVhVGF1TzBlaGlxbmZTM0ZHNzlVeWdSQnc2SkRvV3RZT3hzZw?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[이충재 칼럼] 이 대통령, 지지율 회복의 조건 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zUW14U1RiVkk4b2RiY2s1dEFEcmdDNWMwaEFtMjN6N1p3cWJBRTRoSEpoYWZLWVpKSF93OG54TW1SNFNlU05Zb2xlOTVKdEE?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "호서대 윤명식 교수 연구팀, 강북삼성병원·유머스트알엔디와 '진통제 성분 활용' 자궁경부암 나노 주사제 개발 - 뉴스파고",
-      "Link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9ZYmdCTkhsTnlHZDVEODRCNm45Vk5FRnZBRHM5dU1CM3Zsa3UzUkhaazFabVdIaVB4VkplYVllaG5aR1c0?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[사설] 계절근로 전문기관 ‘허수아비’ 전락 안된다",
-      "Link": "https://v.daum.net/v/20260624050152402",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "“7차 석유최고가격 인하…공공 요금은 동결”",
-      "Link": "https://v.daum.net/v/20260626122119610",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "유머 담긴 유화·조각으로 비틀다, 엄마가 된 후 달라진 여성의 삶 - 중앙일보",
-      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByX0xDWjhoLVRvR0lCSkhJeERVcFZBT1RmZWZsNlFFMjJXZFlza2xBdDZudEtWLUNBeEJEOE15SVhXdEhldW5oUG9BbTBZMkUycFJweG1B?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 04월 넷째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jcC1PbWRYQ3p0UGJ0SFVVSWRFMWRJUFJUQU5ZX2JRV1ZkX203SkNHQnQyMVpTUlhpQ29IU2pNbkVYNjYwRWd6clRCVDUwaTRhOGZPV3BhRi1qWEtxTV9TaGhzdnNNNjRrTjMtR2pn0gFyQVVfeXFMTTlmYzloTXZZaWJKTVhqWDJOeEZ4Q0lVdDNFNTBiakh0alB5XzBZWEEydU9KUldWb3dZdlhSNUhnS2hIMVEwZWhQOUJiejRuV1pTVFdlSE1UMjNkbkp4NkhYZW0zTG9xZ0ZnZ0FlUHExTDFB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "“영어 빼고 다 통해” 美 의회 사로잡은 찰스 3세 ‘영국식 유머’ - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaEU2cHUtMU96OGdsTlhkcTZjRmcwVWxoRWFna0lxN01mZTdNaExFOXFXcEsxN19iOE9MNk84bldDYmJQN254aUM5UmRkWEZYVGc3WXA5NGY4X2wyNUVYSFhpZ2lSaXJWbmxPLVF5akNqX2JTNlpqV2FxR0c5NEk5NF9jMUlSdnNhRWNHNjFLUlRuN1VPSGFGQkRuNWRTZw?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 06월 둘째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzcFNIRUJ4VE9qSHBxOGFNVktIZ0s2WW9DVHhjendUTC1DdTRoc01nbFZXaUwzTjdocFNUY3VLdXBFaDVUR1ZaWVRrUFNZRzJfN0RmM2hzTXA1VjdqTGsyYWREQV9UajBfQ3pYUkFB0gFyQVVfeXFMUEU2YzlIdGI5TFZydnBjNnE1Q3lTREdTdE0weXR0bm53b1NITTBaR2dVZWpycjVhMElRRjVTMjRhOWxDMFNLZHRoak42OUVhTDFWQW1SeV9XU0lPT2NTTl9GSUhPOHFNdHR1RURZR1l3cEZR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "영국의 찰스3세 국왕...“유머로 할 말 다 하는 고품격 외교” - 브레이크뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9aZUtEOUw4alBBUjVNZGtBTEVTWnJNMGlPc2RIRlNacEV5bE8tUkxLT1I4TW9FVkRKSFdNaU81Ykp4NlJXSTU3VQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[조한규 칼럼] 영일만에서 `에너지 혁명`이 시작되고 있다. - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9idXZPSEZJbXdSTWdVelc3S1Vwb2staUNOU2MwSDAwN2lhYzFPTHJtSDBjT2xCR2prMXFqUGgtSDdZWHFhR1lpSGdWNzZpUFhVR2N1YkYydVNXS2xjVWFJc1Zn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "“유머 코드가 잘 맞는다”…‘나솔사계’ 8기 영수, 여자 2호와 여자 3호의 동시 선택에 기쁨 폭발 - TopStarNews",
-      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fUDh0czVpdG1DRFlScUtMd1Z5cDdoRFVmRUlRQm9XcnZWTTBwM29Fd2hpX1hZZFV6UWhSbmpNVFBhTk93OVplSG5PSzNuNjNIX3JkSFptaWw3T18xMTV1Wk82MmNtUVg3U2d2UzdJcl9Udw?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[시사원정대 맛보기] 캐릭터 디자이너의 하루는? - kids.donga.com",
-      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JQkF5SlVDVU53VHNFSUM1cGFXWUFpZklWakg3TFNSMVZpdnYwMWVabW10VWN1R1V1M0c1aEJlMlFWXzFXazJLTVJIMmplWHhMbFdLanVmMjJxTW82WE0wd0NYRUcwZ2lJ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[르포]\"싸게 살 수 있으려나\"…'내 집 마련' 꿈 몰린 경매장",
-      "Link": "https://v.daum.net/v/20260626110542584",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "\"우리도 참전국이었다니\"…월드컵 응원 현장서 6·25 마주한 남아공 매튜 씨의 '감회'[출동!인턴]",
-      "Link": "https://v.daum.net/v/20260626064606346",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "6월 3일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uc1VTZTV5alNjRTFUa0tVeWZSbUhWcENQdWxuVElEdGduWmU1YU90LTN6SXc1V1FJdzZObWlYZFhwME1wRTJ0TEtESXhoakFjTW9uczBlNUgwWHRTRmdlMGx3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[AI 시사상식] ‘AX’ 인공지능 전환 - KBS 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93WUljWWh4Y3pYTkJNZ1J4X05kMF9BZDMwbVFkdlRnWk9nLTFsQnAxSFFueW5JdFdxZl82NlRnWDNBb1FmVXZBcExIYnZrMFZmNlB0ZnhQcmRNVmc?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "군대에도 판타지가 있다…B급 유머에 감칠맛 터진 '취사병' - 연합뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Nc0d2NFljZHNxMTFNcFZOYUpzbGt3WHF0MXJESnBHSGJ6dmllcmd3Ui1Nc2dsN2RUMkRMbXY2RUtYUXlsU2d4X3RUZWhEbUdrYXVFUW5QODMtMDjSAWBBVV95cUxOUUM3ZzlUaTBVVXppZ05JY1V0UFYzY0RvLWFBS1pGdEE4dWFEaGs4SE5NclF4MTBCWjJPQVNwVmFBTjVFV2V1VE5FNzctX0J1WmpQbzBHYURVR0RCNkJBOXA?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "張 \"지도부 흔들기는 해당 행위\"…친한계 징계도 시사(종합)",
-      "Link": "https://v.daum.net/v/20260626122614716",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "신개념 호떡 전문 카페 해피유머리스트, 신메뉴 5종 론칭… K푸드 진출 정조준 - 뉴스와이어",
-      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vNGFXQTJYTDRiODVlOWZEZHNlWjdOdGNXTWVoeWtxNVhrSnJDY3MwUUxEYzZ3VjJVX0lDbGNfWnhSVElvbU81bHF4bjc2Q2kzeUxEN09iazRJbS1aLVU4?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[전문의 칼럼]청소년 자살 조기 대응 해답은 전문가의 학교 현장 방문 - 동아일보",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyTzNQbUdPUlJ5bzZ0bFhWSHV6Ul9CMGJxVldVQ1JJQ0E1Tm9pemdCSVEySzAxaktLTHhfS3VUSDdVa3dkRVJfTFpPZW1OY2w4MmxJaFhQYmRPYXE2WXRfSjdNVWdvMERvZHpRbTJsUdIBZkFVX3lxTE1hWnYtVTBEd2ZRUEdhTnQ0anI0S0hyY2xJSER2b213bExvVXhtMm4zYXVSZFpFMlhSdklldWtGWDJ0Sk52MmoxOXhKT1c3bXZiU25USHVWc21nZnQtdFNtRFJtV2tjQQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[경제인칼럼] 1kWh의 가치 - 대전일보",
-      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zNzFFNVVhRjVZMDhNWnlHTEd3VllGc3l4d2o1T0xnOFFPMWZwVlNienViWW5ETlFfaXRyb3cwcUJrZ0pxc1ViT0FvRXFkQVpmV3JsaVlIaGh2dUh5SXNXSVNrVVNOR2JZcHBhdzg4NNIBc0FVX3lxTE1BcTZZNVAxV2JlakswZk4xMTF4YmZZaXNVWklIcmc4bXh5UFBpTG53ZVh0bmdjOUFzUzRLOElHU3hXeFcyd2x6dlhjUmxmQVFrUDg0NHRBUmhwdTZLRDZ3X294NXN1UlpZZ3dmTjdsb05CQ2c?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[AI 시사상식] 하이드레이션 브레이크 - KBS 뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5T1czc281RGVMU3Rnb0hTT0NRYVVWT2VrMTc4dTNRVUJMem9CN1dyUTNNcmV3LXhIS19vSzQxNThWR0MwcTEtNi1yY0E1RzZwb0xMc1Mza3pFSHFUcTdGU2hVLVFRUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 03월 셋째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXZXN4WFVEZG9WNzZWOFhQcDZtWDRQN0wyVFZtSDNUQkUwcWc0bk4zMEVFZ29xSUFtS3BQYmY3alpoYTl6eFpnY0I5OUlJR1VGSU5aMzc3TXV3RjlGa2Z1N1U1OWVxOW1WMURBUTBR0gFyQVVfeXFMTnpYa1ROZGxkYV9OWlI4UTlETTlFUmZRX0hCZkpxMi0zOHpqSmw5emR0b3EtQUk5d2JxOFdMTjFPVjdQUEVVa1VsV1dnN1ZXTmd4R3hoeWhUWHMxZTNKNENuRmFDUWRnYy1hblBMdnBzMGR3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "소수당·무소속 뭉쳤다…전주·완주 의회 교섭단체 첫 출범(종합)",
-      "Link": "https://v.daum.net/v/20260626121658507",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 01월 마지막 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1nN1ZHR1lpOTZValVXbWdZU2ZCdHo3S1UyMm0xVHB3bS1HWExJaGNlRG93eWlnWWNLaE9fOGJ6dmdmYW12Zk1qMDRCcldNTVZ0RDNQeGlVaXNrZ2VfY1N5LVFRM2JXWWVmV3RBdmlR0gFyQVVfeXFMTWhUNDFhZkY2dzVLSmJsQlhjaFpRblh5SXNyMHdOaHNfX2N6c2ZpYWo2S3hMVzJrWlA3ZmpNa2diLUR5a0w4MTcwMGpObmNpVHQ1cTVpZ2toQ0w0YVRNOW5uaWx0ZmNSZl9LaXgyZzdkeWVB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "영남·충청·전북 반발 ‘광주 반도체’ 국민 납득이 관건[사설]",
-      "Link": "https://v.daum.net/v/20260626114433564",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[이다혜 칼럼] 진정성과 유머의 포옹? 좋음. 좋음. | 예스24 - 채널예스",
-      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rTGJfRVR0SkM0VEp5ZE5VdXJHZ2dzczZkbDI3U3NIc1pveDFYeGk2WDhMRE5GQ09lS1Nla1p5d0ppaHlnX21hZVNvYm41QW90OTRPRA?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "(방종현 시민기자의 유머 산책) 그늘집이 있는 농장 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yQ2s3V3Qyd3NMODhyZS0tR3BrRjZFU05wX1VLM1BNV0kteXpWSG1BeUlHSjd4MWhvSkxGQWxDSUpUbHhhUkFwLXdjQ2EzNHM?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "5월 27일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjWFRjWDlkbGczUnJwUENmUXVBLW04anRlNnRNTEJfZjJIa2RTV1RkVlRSbnBMMlRsS0NxektUUEhCbUhxMG9ZNjRKMHJIM244WllCclZQVV9PU1lOZFp3WUZR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "4월 29일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDbGxhWFlEVXFYM1F5cHlRRXh3OUhHZ3UyMWx5MlRYTDFnQnM0UW1xelZVS2JXak9zT3p5S0s4M3JzQTY0RHBUT3RnRGJDUVl5QnAtMjVIaTNwWGR3a01XOXpR?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 03월 넷째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vbzBEUVJoMmFsdk9PTkRma0VFMGNtZzNjdHNUbzBOT2tPaXZ0THlSR2lUTHNCZGtoSXZHZkJ4dVRfNzZpUkRiTUlIREljR3ZKR0ZBbWRhMXBYVkd3QUNWb2s2dnBQV2N1UUhVU0ZR0gFyQVVfeXFMUHgxUEU4amREZmxiTmZuTDNEZnFNLTBHWEZlUXlXenJkZDUzRWVFbThiSVloYXg4WUtnbENVWWdLRC1wR0J0aXNGUlpRMlZWcV8xSTN4TUxlRUhGZ1FtejU5WEN3dUdqZDBvYkgwNVo0Z2F3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[이기호의 유머란 무엇인가] 친구 같은 아버지는 어쩌다 ‘외로운 왕’이 되었나 - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DdllHUmV4R2d4a3dubWVYbFc2cnRpWk80LV9Rdi1vX0hnS2NWZUFEZE4zWVMwa0JmT2RpeURsT1E3RkdMblRtRUhIaU9QMDA?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "교회로 바뀌는 상가 - 한국경제",
-      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2UE0tNHlVa3RCeW5ENkhuNEdWQzM3RDlHSVBWQ2dfcGthSGx6alBwdDVUemNKQ1hKTVJINHdtLXVDaVBuZ1RGRUpWVWhxaEdkMVYyb1NUYl81UdIBVEFVX3lxTE14bG9keUcwVHAxUHMxcjdsQjdXLVFHaTNObmxmcS1UbF9Ea1hvMDVINFJmcWpudDRzLVczRGdLS3lySlNEMkRKSmtEekFKd05Qd3pkYQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "유머 - 브런치",
-      "Link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE44OW9UVTY3cEN0dUJ0VDBfektGbW9PdlprUi0xeWJMRFlqOGVIOFdTQjcwT2k2YTRBWkxYZzd0THhIZm1zaUV3WE9R?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2025년 09월 마지막주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWMHNvcmZRZE5GRFFMLWx6RnEwdF9xWkZjYWZHYWxIYnYyNXJDMmRXUVZFVVQ0d0xENVg0bHgxU082N1Jvc1plZFhvbk1HNXVhMlNmTTdFUFFuR0NoSFFqdjFfMGl2dmtZdkdheklB0gFyQVVfeXFMUHNmNDZfUHU4SnM1RUZWbE4xdWtsSHZ5NjdwTmhUUGptSjBWQ0VrOGlsUlZST0RkcE9Tc2pLMTdQLURVVEl6b0pWeGhMUnQtZU1KWmhtNG96VHJGMnJBR1U5UHZmRlUwY0VISmE3aE80dVZn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "'밝은' 전시가 당긴다면, 이 유머들을 만나보세요 - 오마이뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1uWmpiZFNnTkxvODR2VTZQOTd5dkN0S3JkOFRMV3dqRnN4SkNzam45ZHV3bjdxUS1xbkY3VE9abjRVTnIwZ0NJVE5JV0YtNDlfNGVKM2dfUDdPZENLbWNqLXpLUDQ0Y0JUMWx4U2ZOR2diVFRkWW1J?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[사설] K-농업, 물 들어올 때 노 저으려면",
-      "Link": "https://v.daum.net/v/20260626050204935",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "6월 24일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZdzgxVm1NaVpaclBvU2ZDbE84UVJBbjlkVjl5VjU0a0UxZTZKMXZfNk80R1FhZGtYMWFXMnUzRXhsTmdlRlQxckhac0M4MEJBbnQ5SmFPYlB0QnJIOERtRGR3?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "韓엄마·흑인 아빠·백인 아내… 내 유머 비결은 ‘가족’ - 조선일보",
-      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRFJ2aEYwcDNReWFRUnJpbExBUmd4QTRXaTR0SktlR2xpQVU0Ry14NmhsOXJkMTJLMU5ENHhKRGZQNU1vaWZ6Z2VvNnRVbXhXMGNreFV3THViNXNvbl96ek9GM0E3MTNwcm9EWnlOc1RibXZJdHd5UjlKcEVIeWk5di1FenVCS3puclhPaG4yWk1rYWJCYUxQNDd3WlhOUQ?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "정년논쟁서 빠진 것…경영계-노동계 싸움에 '청년'은 또 없었다",
-      "Link": "https://v.daum.net/v/20260626125023153",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "[양성희의 문장으로 읽는 책] 헤세의 ‘고급유머’ - v.daum.net",
-      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93SnpzUEVjVGd0cHhDTWstVWdqNkRTUGJhdzF3VXl2MzFoOUNZZlpWa2Q3ekxwTmZRUzJKQ2VoMzFxRmpIazVKSHBlQ29ZOW8?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2025년 11월 둘째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uaGZTMUFzTlBpam1Tck5zcklGWTRndzF0YzRjVmtlU05pdUhPY3Uwdm5wR1IwcmM5NmM0NHJRcEptZ05HcklNdkNVQVdqOUhxei01VGZjckdYOVl5ZHE4ZVRVZGZVZWl0dVlvNnZ30gFyQVVfeXFMTjZvcGtNaGEyOWU4RFF4Q3J6NUVweVB3YXJHMjdpNU1MbjFkYmJ3ZFl1clRUTnB3MVhER2lQZEhHVlh1SXA3czdmR2w4X09UeTRVR3FJZkRrOHRwSXBJaXl0WU4yRmxvM0FyV3l0ZGZEQnRB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 05월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yUWxiTS01dG1qNWpCaG5VRHBDSjRVbHM4bDRkU2U3VWRDNlE3V043akw4QWVhOUtiNG1tS1VORDVyWHhYNkZHQW11TDVaWGw5eTZkR2xWcWU0WnhlS29xVVN4RnRDUnluRU9ZeGtR0gFyQVVfeXFMTjJMZWZ6blZzMHhTRXFuUXNRMm5sMHptQS01LWp1el8xQmtrSWx1YjNCTHR3TWU3bEsxUkdjQzgyY3JDQlc1NGJGcnV2d0dvbXdnQTVlbUEybC1IWFdrd1k0LUJFUERiRkNTbGMyMTRERDVB?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[사설] 경기도 위원회, 예산 절감과 통폐합 동시에 가야",
-      "Link": "https://v.daum.net/v/20260626030405371",
-      "Portal": "다음",
-      "Category": "기타"
-    },
-    {
-      "Title": "2월 25일 자 시사상식 퀴즈 - 매일신문",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01YTZydC1HUU1mME9RSENXd2pVOW8xRWRkUlNmZ1k0Smg2bGtuN3lWQkxFWHZWaHhwWURic29xamVQb3g3SHNlbDNvdS1hSTV5cmQ4LURqamNUZWlIYVJUSFhn?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "냉소와 허무의 시대… 활력소는 ‘유머’에 있다[북리뷰] - 문화일보",
-      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvLUJTYXVqZmhZX0FXZUljZ0Y2Sm1uYlh0ajM2MFI5YVJpb0J5emNKWi0yX2MtLWhacXB6Zi0tdDFneUxxZ0tET2N4Y1l6bVND?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "신두식 칼럼 '살다보니' | 욕심(欲心) - 나무신문",
-      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKNUhwS2dzMUEyaUQ5eWZqekN4S2lsZFRidU9sSmgtVE5FTG9lNTZhWjZ4NldjeGh3b0V2T3VMNDZfdjhZcXhvY3Y0Wks1Y29tSkdXaU9ZYWZ1V0ZVbU5mZzQ0VGkwcVJ6enc?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "[이종혁의 투자] 부동산 '쉽다'에서 '닥공' 전환 - 연합인포맥스",
-      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMkpRbC14Si1aS3VJaW10cElDMDBMalg4ajhCQ092eEtjQ1dHRzhyN1lubUpQQW9wRXJVSllFcFBTckcxN1Vmb1VsOXJLVVdrOW1YVlZYVGVhZ05USmVDY29mSmFmUkJlRmpFNDhYdEE?oc=5",
-      "Portal": "Google News",
-      "Category": "기타"
-    },
-    {
-      "Title": "카드로 보는 시사상식 [2026년 03월 첫째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DMnQzSDYzMllCaVZJU3gzZ200Q3NZalJpUlNQdDJuVE5VZnBYT0pTbHZDV3IyV2lnSTZ4RHNpZVJCZ3pfTXFxZFdtMmtxa3FVMGllQnhJZWpJV2RwWWF6MW1hYW1nVGVRMHViemVR0gFyQVVfeXFMTWgwQVdtSXRiTVdfU3hGMzIzazc4ZTZwY29KVkdUSGdhYXVKODU5dWctbGZoXzZIaGhjV01wUlowOUJYVnRTNThuTDdGQmNJVHJ6WnpDTW1HMnFqMng5eWl5NF9ZUmZKUS0tSUJ6N3hDUUF3?oc=5",
+      "Title": "카드로 보는 시사상식 [2026년 02월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4OENKNVl2SjZ3dG9CRUIwNTU0LWdVU1paVm1oSTFKdjZ0Slp1MUFFUERLNDVYTFZTNWVxTWVRVjc3d3gyTWFQS2JUQXR6YlZEZnNYMjBZY09RakRaNWtRRzNIeEFjdXVGNVdpMXNn0gFyQVVfeXFMUEFuTzRkV2Q1RUlpbzM2RS1xeUJtU3l5NTh0bWlWWEZQdS1ONWdSdEJGbklvMVE4LUQ0Zm4wN285SVhhSTBqR1pkdV8tY1g1T2EwdWUxNFA2MkNOR2tzbWVtYURQdFFkd0l5a1hRUFNSR3NR?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
@@ -11069,8 +10409,8 @@ window.LOCAL_DATA = {
       "Category": "기타"
     },
     {
-      "Title": "카드로 보는 시사상식 [2026년 03월 둘째 주_시선뉴스] - 시선뉴스",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51NEdqUmlSV2JoWXRJa1M1WXVqUXFlcl9Tc2JmTE1NeUl1MnB5dU1aUE1ucUs5am1FOGhseWlzdUtMUGR2cU5NaHppcWtBbkJWUHdOMFNBMm1MWVNhV1NTSDhVRF9ELVZBTTZYaU1R0gFyQVVfeXFMTlc4Q2ZUSEJvX1lhMnkwTENnYzU4VUpDeDN5QTc0SHlWbGg4bHlqdEhocm95b3NXdjU2NlY3eTNJcW83SzJhSVBsWTltamN1SWhWbHQzQTJuR0YwYkdxbHlWT2lsa0F2MmlKTlB5SHV1cktn?oc=5",
+      "Title": "카드로 보는 시사상식 [2026년 03월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DMnQzSDYzMllCaVZJU3gzZ200Q3NZalJpUlNQdDJuVE5VZnBYT0pTbHZDV3IyV2lnSTZ4RHNpZVJCZ3pfTXFxZFdtMmtxa3FVMGllQnhJZWpJV2RwWWF6MW1hYW1nVGVRMHViemVR0gFyQVVfeXFMTWgwQVdtSXRiTVdfU3hGMzIzazc4ZTZwY29KVkdUSGdhYXVKODU5dWctbGZoXzZIaGhjV01wUlowOUJYVnRTNThuTDdGQmNJVHJ6WnpDTW1HMnFqMng5eWl5NF9ZUmZKUS0tSUJ6N3hDUUF3?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
@@ -11081,14 +10421,578 @@ window.LOCAL_DATA = {
       "Category": "기타"
     },
     {
-      "Title": "삶에게 웃으며 말 거는 법 - 독서노트 - 브런치",
-      "Link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPd1oydGdORk05YjhLUnhHbkRKNGl4dEh3eUVoeDdydUx1RGZ6YmY3UWNtQWc4RlpQV2ljNjJDOTVFWE91Q0ZtcnVIZUYtMVRjQ1hCSTViMGl5Yl8tOWp4bkF0OA?oc=5",
+      "Title": "[AI 시사상식] ‘AX’ 인공지능 전환 - KBS 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93WUljWWh4Y3pYTkJNZ1J4X05kMF9BZDMwbVFkdlRnWk9nLTFsQnAxSFFueW5JdFdxZl82NlRnWDNBb1FmVXZBcExIYnZrMFZmNlB0ZnhQcmRNVmc?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 04월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02SHBaTHkyaXNySDcxVUYtRE05WlhiRzRpZUJVbW9sazR4bDhxTlotQ2NYaHZkM0VlTS1nMkhHZ1hhOHpOYW9CWXllajJjRVdnX2RjU1QyREUwOEYzdG12V1JUVHBFNGZnMUc3ckZn0gFyQVVfeXFMTXB5U3R5TXlVWERVZkh2dWxyeGRuRnctdEpJWE5Ec0FzbERYa1NtbWU0dlM2ZGpWM2xkQkFsVmg5cFJiQjJZS3hPVU1HNUtQNGEzRlUtX2kybWxjY2hXR3V3cGhpczlKS3FHdzJ5TGhKZHZn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "육·해·공 모두 반대하는 사관학교 통합, 백지화해야[사설]",
+      "Link": "https://v.daum.net/v/20260626114032451",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 01월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MRkkwQV84bnB1QW14akZpUzhtbUhFdzdDMlM4UzQxMFJZNnRPdTloa2RqcFkza3ZUVGtmY24xZzZteTlONU5BMWg2ZTZTVUttZHQ4c1lSZkMwQWZNc05hYTdCbERaLXMwaEUtcm1n0gFyQVVfeXFMTlM0NUIwV3EzanphRWJuLTBvTk1NdlBGM0xpS1E2bEttS2ZaZXI0bTFBUHUtUzdaTVNhQUNkMUFfWFMzUGRBRTB5R1JmdjJfMVRZU2ZNclJQbE5MRGxEaUdlNFFaQjNZYmlmYjBDMnF0ZnJn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 02월 셋째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hQUpjcXlWSDNEWDVBdWNhSTRheDBlU3p4SmpJU2VFaGRhQnZSeC1SNGMzREQ0NU9CdEd6eWViVmVYNWlxbkRnd1RFNWRYSk5mZ2JWMTQ4TVk4elVGeUlUU05UMC1BS0poOFRDU0Vn0gFyQVVfeXFMT2gwSkltVkNlTXFHLXJyTU1uVF9IWTZUbF8ydnBlVEQwcGFOX29IU0p4MHhNdUdVYjA5alFNV2JLU3RVbzBHaE9CZXRjS3l4Z3BWTFNibENUdEE2eS1GYmxtUWhBWTdyYmFJSERSTGtyOERB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[사설] 근거 없는 ‘마약 좀비’, 마약 불안만 키웠다",
+      "Link": "https://v.daum.net/v/20260626030510377",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[이재윤 칼럼] 스타벅스 정치학 - 영남일보",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WXVkR3djS1hHTnphMmFDdHdFcDgyLThqNk5tWG9kcXQ2dGNLRld4dElFeXNUNWxoNnhzSk1vVXRyWXo5NnBJaHpaVF9fZnNZamw2eGE3MW81Tktqd002NTc4RVJNajNKMVUw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "이민정, 이병헌 등지고 변우석만 본 사연 해명 \"이병헌 유머에 변우석 너무 크게 웃어\" - 조이뉴스24",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81WGpNUTZWVTg4UHpZUjJwXzVNYW9sRGhGb0w2QWR2MW9JU05Ta2thSFpoUzVWNGR4eUduQm05SXhhR1pXUm5OblZUdE4xZ0E?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[칼럼] 사람이 관리하는 공장에서, AI가 운영하는 공장으로... - FA저널",
+      "Link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pNFhnbW85Wlc3aXRja2p2V0ZuczZVd0xyeG05MkdETnVaaTdtcnRLRTBreC1BSkhSajFlRWVqdloycmQyTTktR0M4RTlsakU5U1REVF9YS3dDSVFFamlGUDBEbF81TlR6LWpJ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "유머 담긴 유화·조각으로 비틀다, 엄마가 된 후 달라진 여성의 삶 - 중앙일보",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByX0xDWjhoLVRvR0lCSkhJeERVcFZBT1RmZWZsNlFFMjJXZFlza2xBdDZudEtWLUNBeEJEOE15SVhXdEhldW5oUG9BbTBZMkUycFJweG1B?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "다정한 양육은 어떻게 아이를 망치는가 [김소연 칼럼] - 매일경제",
+      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tbTM1QmxZanByMlRjYzVVYXZHV3JPbVh2ZFhBbmxFXzMwYlhHel9EeVQwUnBvcVJDc1lHMGVYbjkzbXltWUljUHVpblZ5ZHlVU2x3Tg?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "6월 17일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3RXo0ck9YNTFKOVF4THdwR3JqeTVaZXRMZDNhLWY1YnBkUVRUQnFkMklWMktCSk5mODFBZDZXeGNIMklCZXE5RTRaWHU1QnZScjFKYUgxR2hMcWRoRXVhMTNR?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "신두식 칼럼 '살다보니' | 욕심(欲心) - 나무신문",
+      "Link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKNUhwS2dzMUEyaUQ5eWZqekN4S2lsZFRidU9sSmgtVE5FTG9lNTZhWjZ4NldjeGh3b0V2T3VMNDZfdjhZcXhvY3Y0Wks1Y29tSkdXaU9ZYWZ1V0ZVbU5mZzQ0VGkwcVJ6enc?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[전병규 칼럼] 빨간불의 미학 - 뉴스민",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYYm85QWdZajNGeXFRYXlDUldERWxMMWNWdWNyQzhSRE8zSHlZcDVVQk52b0lad184UmE5MkhkaExzdENFa08tcG5lSnlLUEk?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2025년 11월 첫째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tRWlFSmxPUE0wa090cW9Ta3BlbXBXZ0lJcEF1ZXRzLTZ5UkkxeS1pZnZXbzQ2MEpLNWxYZjVpaXNNWTNWZjVCbEpUQ0U3bUM3eVg2LXRPV2ZuYWRXRWhJei0zM2RCU2pidktzb0VR0gFyQVVfeXFMTTZNbzFjXzd0bldBa242dll4bUdZNmp5R1JXcjVtckpwamd6VnFiSHhQWldKRmNLdXVxdVRZc2pEQVlPbGlaamQ1aEZyVXNqYTJ0RFZLNHdTUHRZcXBoQTVnSkc1Z1NoQTZqeXFXWWMzNTdB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[VIEWfinder] 결핍을 감추기 위한 허기진 유머, 연극 ‘플리백’ - 문화저널21",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIQ0JSODJ5MVZkcEJGRkJ5a3BHdUVLTTczY2tVRGw2bDVEVGNRNm1qX0pOcFF4VlhiRzVTa1I3ZEI5UkY4b3I5VmI5NjZIYVVkU2ZoWjhFR09DY0E5WDhqNlZiQU16Vmc?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[팀 알퍼의 런던 Eye] [37] 영국식 유머의 비밀 - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYU5VNW9GQjVkbXphZWZaRWU5NG45QmxsMVRxd2w1MFJ4T0QtZ2kxbjFneER3Y2pHVVYzLVdPcERLb0VESXBTS3ZMYUZkdGkyNXFOcWg5SEhlaUJCc3oweERLV0VGN3pDR2piMVZsSDJtZFNlcWw4ODNoenpPVVBoY3R3TmVXYVRzRHVPUkVybzY?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[이충재 칼럼] 이 대통령, 지지율 회복의 조건 - 오마이뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vOGdmXzVITlJRYzdrVHdOM0ZDTTBzSzFNYXNFM293OXpDZGpQdHljUTdsUno0WWhfUDZteGRvc1piY1hIeVpxNEJSNWpYLXpPd1E1LXM3NEVYZmpPT29YTVRobWZOdXg5bGhKZHNVbUtFUDJXVExn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "(방종현 시민기자의 유머 산책) 그늘집이 있는 농장 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yQ2s3V3Qyd3NMODhyZS0tR3BrRjZFU05wX1VLM1BNV0kteXpWSG1BeUlHSjd4MWhvSkxGQWxDSUpUbHhhUkFwLXdjQ2EzNHM?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[전문의 칼럼]청소년 자살 조기 대응 해답은 전문가의 학교 현장 방문 - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyTzNQbUdPUlJ5bzZ0bFhWSHV6Ul9CMGJxVldVQ1JJQ0E1Tm9pemdCSVEySzAxaktLTHhfS3VUSDdVa3dkRVJfTFpPZW1OY2w4MmxJaFhQYmRPYXE2WXRfSjdNVWdvMERvZHpRbTJsUdIBZkFVX3lxTE1hWnYtVTBEd2ZRUEdhTnQ0anI0S0hyY2xJSER2b213bExvVXhtMm4zYXVSZFpFMlhSdklldWtGWDJ0Sk52MmoxOXhKT1c3bXZiU25USHVWc21nZnQtdFNtRFJtV2tjQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[현장] \"독서가 일상인 밀리하우스에 놀러와\"…10살 밀리의 집들이",
+      "Link": "https://v.daum.net/v/20260626133915690",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[사설] 계절근로 전문기관 ‘허수아비’ 전락 안된다",
+      "Link": "https://v.daum.net/v/20260624050152402",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[조순형 칼럼] 당진 LNG 터미널 3단계 확장을 멈춰야 하는 이유 - 당진신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5VHZPbzlVSm5pSnZwdUEzZVVwSE1OVkppYWxmU0VRLXdlUzZDUmh4MzFwLW5yc01VbDljdWlIQk1paWd6X2VYeEpNd0U3VHNrS2hlWXg0ajkyY2lqQi1LbVNPVHhvSXQz?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "英찰스 \"동맹가치 지켜야\"…유머 속 내내 '긴장감' - 연합뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZQW5yUUpIaWtsRXJjUzBhQlFsRy1Nd3FlcW5sdmRNSjd3SlhnYjQyWEloeU5UMTBUU3hacno0R2pSTUhYNHFxeW5nbTNQTVdpekNYbUY5RkdiUm_SAWBBVV95cUxNdjFQUTVnZVlia2syVVpYTlhRREQ4WjJYTWhfNEMwZnFZbDF0M1BVbHhKRjZ4cmFiM2o3RGhTWmRMWGt1V1VqWmR4ekRLZFJMM2h1cW1WUE83Y2E2aHB4STI?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "“유머 코드가 잘 맞는다”…‘나솔사계’ 8기 영수, 여자 2호와 여자 3호의 동시 선택에 기쁨 폭발 - TopStarNews",
+      "Link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fUDh0czVpdG1DRFlScUtMd1Z5cDdoRFVmRUlRQm9XcnZWTTBwM29Fd2hpX1hZZFV6UWhSbmpNVFBhTk93OVplSG5PSzNuNjNIX3JkSFptaWw3T18xMTV1Wk82MmNtUVg3U2d2UzdJcl9Udw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[현장칼럼] 공기업 임원들의 자사주 매입을 허하라 - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EMk0tbHdKTEdESldTUjVhVGV4ZVlkdk5GQTNicElxS2tkTzRTRTRLdVJkcDBPaHVfR0I5VExabGR6Q3pOOTRncjVzSi1FVEwxWXlwaDNmVjhDQ0FwUnBTSV80bjdYQktDUF91TXA5dUE?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[이종혁의 투자] 부동산 '쉽다'에서 '닥공' 전환 - 연합인포맥스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMkpRbC14Si1aS3VJaW10cElDMDBMalg4ajhCQ092eEtjQ1dHRzhyN1lubUpQQW9wRXJVSllFcFBTckcxN1Vmb1VsOXJLVVdrOW1YVlZYVGVhZ05USmVDY29mSmFmUkJlRmpFNDhYdEE?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "보완수사권 정부案 안 낸다는 金총리와 공직자의 책무[사설]",
+      "Link": "https://v.daum.net/v/20260626114346545",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "'K-팰런티어' 키운다는 정부, 규제혁파가 안보혁신 출발점 [사설]",
+      "Link": "https://v.daum.net/v/20260626172104141",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[사설] 농특세 세수 급증, 활용방안 논의에 주목한다",
+      "Link": "https://v.daum.net/v/20260626050151902",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[마케팅 인사이트] '무신사 vs 지그재그' SNS 디스전…비난 대신 유머로 '고객 웃고 매출 늘고' - 반론보도닷컴",
+      "Link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6VjI4QjlFWWJkbWxXOUZTSVY2UGpNMnliQ2thazJHcTRRM2xUdENlTzFabm1QVXNnSzFVRUs3U3VPbGpNSnQ0VXc5S045WjhWU2J2ZzlSZzc2WW10MDRVUUlVaDlpNFd0dy1VWNIBcEFVX3lxTE9FeU45QXpIclJNOXZhcEdmMjVOcXdBRko5amdCaXZwenhISmdXRVNtVXlRZ2xZV0xEQ3NuU0Jzb2NrcDFBMzlULXJKV2d1Nk5QaWR3eGgteWlMZWU1NVhXb3RTV3YzTlZQYmR3ZlpNeDg?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "3월 18일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxWUlEVm9uVmY4bDJOc0x4UlBYeHNJOC11Y0VaMFRPNUNVT0pTNmJGMTZ4ZndfeVhWYWZZX190ZXVwUVp1NXktak9IS21pMHpJdi1uQkRSQ21EWmRlY1M3UE1n?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "삼전닉스-애플 엇갈린 주가… 'AI 거품' 잠재운 마이크론 실적의 함의 [IT+]",
+      "Link": "https://v.daum.net/v/20260626172044124",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2025년 09월 마지막주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWMHNvcmZRZE5GRFFMLWx6RnEwdF9xWkZjYWZHYWxIYnYyNXJDMmRXUVZFVVQ0d0xENVg0bHgxU082N1Jvc1plZFhvbk1HNXVhMlNmTTdFUFFuR0NoSFFqdjFfMGl2dmtZdkdheklB0gFyQVVfeXFMUHNmNDZfUHU4SnM1RUZWbE4xdWtsSHZ5NjdwTmhUUGptSjBWQ0VrOGlsUlZST0RkcE9Tc2pLMTdQLURVVEl6b0pWeGhMUnQtZU1KWmhtNG96VHJGMnJBR1U5UHZmRlUwY0VISmE3aE80dVZn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"우주 시대 '첨단 소재' 연구 근간\" KIST 전북분원 가보니",
+      "Link": "https://v.daum.net/v/20260626135451170",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "무턱대고 독서? 시사상식을 잡아라 - kids.donga.com",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIUF9FLVF5djJUek43UHZZNGwxaVZLWmIyMFdBaHRsQU5yZE5acVZPTlZUdjEwcm5Db2EtbmQxUTh2WlU4bkFOM1ZPcGNpbGJESTZQQThoT1Y4R3NEaC03NEhJdGJJcFll?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 02월 둘째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FaUNOMVJhVTg0d2xFYVBpWmswUlppbEcydFAxdEtab2JJMHlMR1dkWW9UcXhyZTQ5Y2JwZUNpZzRCNllYRWxRX05Mc2hiRU0weE1ESFVWWFJBd215el94dzFVOW5YQ3YtTG1CMV9R0gFyQVVfeXFMUHNfQVhHUEVMaV8wUHNwWnZEYXhtWW1pQnNVd3prOUhFMWNkVFNFakxMMVJHZWV6SWpQYXRQdXBoSzFiSE96ZExuaHJiZnNOclhFLVFDNHBDc1A1THRwRzZIT0tOSU5FTDdXSWlLVUM5d0JB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 03월 넷째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vbzBEUVJoMmFsdk9PTkRma0VFMGNtZzNjdHNUbzBOT2tPaXZ0THlSR2lUTHNCZGtoSXZHZkJ4dVRfNzZpUkRiTUlIREljR3ZKR0ZBbWRhMXBYVkd3QUNWb2s2dnBQV2N1UUhVU0ZR0gFyQVVfeXFMUHgxUEU4amREZmxiTmZuTDNEZnFNLTBHWEZlUXlXenJkZDUzRWVFbThiSVloYXg4WUtnbENVWWdLRC1wR0J0aXNGUlpRMlZWcV8xSTN4TUxlRUhGZ1FtejU5WEN3dUdqZDBvYkgwNVo0Z2F3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[조한규 칼럼] 영일만에서 `에너지 혁명`이 시작되고 있다. - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9idXZPSEZJbXdSTWdVelc3S1Vwb2staUNOU2MwSDAwN2lhYzFPTHJtSDBjT2xCR2prMXFqUGgtSDdZWHFhR1lpSGdWNzZpUFhVR2N1YkYydVNXS2xjVWFJc1Zn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[칼럼] 철강산업위기 선제대응 지역 지정과 향후 과제 - 당진신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90c0xVTXVLNTVMdUhkVTBUUzJEWWJBRzdnYmNUTVlETkFpM1hITGJuVHJpNFVxQ1pSMEs2ZzV0VWlvSnEwWEZUS0QtNW90Qk9NQWZtQU1hWjRUNEN0UGd6Z2c0OGlMVS1N?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "유머라는 방패 - 브런치",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKNV9Rb0lwemphcEtjXzVTRzZoNXlyZlJhSTNZTmlVQjZkM2ZBdFFLeHVrZHdNYVp0Zl9ISTVkYXBaN0hDVlctTTBMT1VNWEk3Z0E?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[사설] K-농업, 물 들어올 때 노 저으려면",
+      "Link": "https://v.daum.net/v/20260626050204935",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[김대윤 칼럼] 돈의 출처를 묻는 시대 - 월드코리안뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QT0ZXQkJoalhYMFkxRW9YUG9RSTQ3d0xTT0dqU2UyTnpTZVBnVHZPQThOQUF2Q1N6b0tKbG41TGNocVV3RC1sQ203TlJXWi1qYmx0Zy1wcHdHcC1FMkdZUk1wSDVEMU1KYlFOWDR3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "韓엄마·흑인 아빠·백인 아내… 내 유머 비결은 ‘가족’ - 조선일보",
+      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRFJ2aEYwcDNReWFRUnJpbExBUmd4QTRXaTR0SktlR2xpQVU0Ry14NmhsOXJkMTJLMU5ENHhKRGZQNU1vaWZ6Z2VvNnRVbXhXMGNreFV3THViNXNvbl96ek9GM0E3MTNwcm9EWnlOc1RibXZJdHd5UjlKcEVIeWk5di1FenVCS3puclhPaG4yWk1rYWJCYUxQNDd3WlhOUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[데스크칼럼] 부동산 보유세, 이제 마주할 시간 - 우먼타임스",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSTTRYQm1zSEM3ZDlPTGhtV1dqUkZOUGtFUUNGZjdueG02aC10bGtzcHJEQkVEa01NNGRMN2gtenlIN29OV2o1MVZNNWlnU1ZmMGhMZDQ5U1RDMHBjVXJRYzBVMGE0LUtYVWdFcm01enLSAXRBVV95cUxNUURUNmFDQnBFSGtGSnJiOXBPYVIxMXVGd3paUkJCZTNxZS1QM21nYjJta3F3ZHhwVS1mamtnMGtJUFVIOFMxenY0bWhaUEx4TmJZdVhHZUJoNUVFLW5mYVNZMDlwUjF5UzNSQmNwbXNiR25EVw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[이기호의 유머란 무엇인가] 친구 같은 아버지는 어쩌다 ‘외로운 왕’이 되었나 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DdllHUmV4R2d4a3dubWVYbFc2cnRpWk80LV9Rdi1vX0hnS2NWZUFEZE4zWVMwa0JmT2RpeURsT1E3RkdMblRtRUhIaU9QMDA?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[김병철 칼럼] 시장 하은호는 떠나고, 군포시민 하은호는 남는다 - 뉴스타운",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LNU84bTFnbVhkeHpFck5yYWowTjJpZ1RreUFsbjE4aXlWTHVwZzhGWUZxdWhPQk9QajFKRjV3R00tVi1yZlJXdDhMbUJVQUUzamdjWDBhTFlIdWlOalViRlVybGtSYVZ2MkZDam9B?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "평화경제는 미래세대의 성장전략이다 - 행정수도뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DeEt2QnJPZDNCeG9qYmFVbG1oREpBZjRLdkkzZG11bW1xS3VtdVlLY3dZQmlEaF9BazlrX2w0LWdKUklPVm9yQjRwNVVObE9nM3d6emF0WnZSNTZUTlU0czhNLVNWQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "‘매관매직’ 김건희 징역 7년···1심 재판부 “공무원이었으면 10년 형 이상”",
+      "Link": "https://v.daum.net/v/20260626172431224",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "'법사위 공방' 지속..與 \"이달 내 원 구성\"",
+      "Link": "https://v.daum.net/v/20260626164833989",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[책의 향기]유머 감각 없는 친구에게 주고 싶은… - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUdkxwZE9NR0E3Y1BMSWYwcDV5d0dQSWlocEY1enZxSjJBNFMwSDgzdm8yU2I2QUR6dlh1ZHJTZU5pTG9tQktiQzRDNDhhY0E2VnA5bWU0aWVhdVlrd1RISmIyV05hRndDemtSdzAyMmlBUlZpbVHSAWZBVV95cUxQcUxCSGZoWjdMSGw1alpvR2p4dkJrM2g1QXB3VmVYZXVPc3JoUmRucG5MeVZsM3kxcFJpLTVrQWw4SGoyLU45VWloWFRNZmV0VHFIbGVDdm9ldDVHdldFSWpBWnpTMlE?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     },
     {
       "Title": "카드로 보는 시사상식 [2026년 05월 둘째 주_시선뉴스] - 시선뉴스",
       "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FVXNyQWdrTTJoOE8zcmR5eTFmRXpRYWRJbHdseGVpTUtmNE5veVpqbEhIN19jM3RlWTlsQ2EtQlhWNDlaYXJYWV9LMkJyRVVjSlNtUngwS2prMElMQ2hReXFNMjJGazhBRWFsUV9R0gFyQVVfeXFMTnI0UUdRTHFEZV9XcHR2eVYxMDIyWWhaVmd1YzFxbWNFNkJQOUtpc3haTFpwcGRwT2VlaGktT1ZXWU9lYW9abEpCc3I2TWc5QzZyMGh6TW50V1pkS0VZOWR1bjBqSlpOblJ1NFV2Y09mcjhn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[Y터뷰] '남편들' 박규태 감독 \"코미디는 삶의 윤활유, 영화는 재미있어야\"(종합) - YTN",
+      "Link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UdG9tamVGdFdIV1IzVkRELWpxUmlaWGpWaWVjMWJQanZFb1dlMHVYRDZoSlNQa0lKckNWTXJxeW1aTmFNXzFvbWNSV3NSWGVjem5VZWpVSGhrS1pwR2lF?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "6월 3일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uc1VTZTV5alNjRTFUa0tVeWZSbUhWcENQdWxuVElEdGduWmU1YU90LTN6SXc1V1FJdzZObWlYZFhwME1wRTJ0TEtESXhoakFjTW9uczBlNUgwWHRTRmdlMGx3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[AI 시사상식] 하이드레이션 브레이크 - KBS 뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5T1czc281RGVMU3Rnb0hTT0NRYVVWT2VrMTc4dTNRVUJMem9CN1dyUTNNcmV3LXhIS19vSzQxNThWR0MwcTEtNi1yY0E1RzZwb0xMc1Mza3pFSHFUcTdGU2hVLVFRUQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[칼럼] 의료개혁은 왜 반복해서 실패하는가 - 청년의사",
+      "Link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53LWtlZjdNLUREV21aVjMwZDltNWhTVVRWM3BHNDZSaXo1Q0JnTFFDQlRZWTRGNDFVamlUaHZJYU9Wam0yNFRUX3V1V2V4OXg2Qy1VMWFXV3VsY2hya1U4SmxmTEtTQk1MdGlaVmI0NjXSAXNBVV95cUxPZWotbG9uZkpzNHdObmdDNTZqamNnSFhfc3Rqc19Id05xZndITlJnbXJWcWdwWUYzWTdDWkx6X2F5U1I0alFDUTl6WHVkSWlueV9OUC0zT1ZMTXYza0p2SHRtYjh1MGpIWEU1Z0ZxcGtuNU5Z?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "장애와 유머: 차별적 재현에 대한 비판적 고찰 (4) - 브런치",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pc1Q5cmoxWFF4TUppVUhLaHVPRmdlTmFwTE5YMUZiTE13YVE5c0FKeHhIN2VUV3hFbWVUY0F4d3E4cDVDMXFPV29YcTJ4d1ZlbUE?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2025년 11월 둘째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uaGZTMUFzTlBpam1Tck5zcklGWTRndzF0YzRjVmtlU05pdUhPY3Uwdm5wR1IwcmM5NmM0NHJRcEptZ05HcklNdkNVQVdqOUhxei01VGZjckdYOVl5ZHE4ZVRVZGZVZWl0dVlvNnZ30gFyQVVfeXFMTjZvcGtNaGEyOWU4RFF4Q3J6NUVweVB3YXJHMjdpNU1MbjFkYmJ3ZFl1clRUTnB3MVhER2lQZEhHVlh1SXA3czdmR2w4X09UeTRVR3FJZkRrOHRwSXBJaXl0WU4yRmxvM0FyV3l0ZGZEQnRB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[현장] 서울국제도서전 맞선 ‘서울제대로도서전’ 뜻밖 흥행 [.txt]",
+      "Link": "https://v.daum.net/v/20260626170703620",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "[이다혜 칼럼] 진정성과 유머의 포옹? 좋음. 좋음. | 예스24 - 채널예스",
+      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rTGJfRVR0SkM0VEp5ZE5VdXJHZ2dzczZkbDI3U3NIc1pveDFYeGk2WDhMRE5GQ09lS1Nla1p5d0ppaHlnX21hZVNvYm41QW90OTRPRA?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 01월 마지막 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1nN1ZHR1lpOTZValVXbWdZU2ZCdHo3S1UyMm0xVHB3bS1HWExJaGNlRG93eWlnWWNLaE9fOGJ6dmdmYW12Zk1qMDRCcldNTVZ0RDNQeGlVaXNrZ2VfY1N5LVFRM2JXWWVmV3RBdmlR0gFyQVVfeXFMTWhUNDFhZkY2dzVLSmJsQlhjaFpRblh5SXNyMHdOaHNfX2N6c2ZpYWo2S3hMVzJrWlA3ZmpNa2diLUR5a0w4MTcwMGpObmNpVHQ1cTVpZ2toQ0w0YVRNOW5uaWx0ZmNSZl9LaXgyZzdkeWVB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 06월 셋째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBicWdBenpzOVpmbmw3S1JpbUNseTBPSkEwb1hpOFhCMlZMd1F3MnVaMjJNcEtmaldfZmgwbEwxTlJqeU5EclIzTzljYlA5WjN3TDEyTWFUVEo5QkdLUlBvejFOM2hPMWpScmtidE9n0gFyQVVfeXFMUEdKYldKV2lULTNxTmZmVHMyUmZGUWxMRUMyc2liTFc5OTdJc3hFZWxqZlRsNFhxVWRzc2xsclcxMkNJNjRFc05KTHViTXh5MWhOS0VnenFvYVA0NGZ4QV96bHg2WXdUZGFrMHNrblo3cnh3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[시선]어떤 유머는 저열한 다큐다 - 경향신문",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oX0FSdVk0azFXYnlhTGJLRjY1M25XZmRyWWlybkE0UGZDQzdVWkZjS2xyaFQ2M3VBNkV0cmVuVkJtazFEM0FVeVJQSUgxZmVESEdjMkZ3UWJxQdIBX0FVX3lxTE14dEpzdFpXaVlkREd2RGdmOFZEOXJZa2QwbEl4clB4NGRCbzMzS3UwRHpCbVFpaDZYY2lFZko0N09aR2hVMlRnLWVpci1kY0d2V09USHE2RE1HQXRJeXhJ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"15분만 누우세요\"…책 읽는 사람들 잠들게 한 마성의 침대[르포]",
+      "Link": "https://v.daum.net/v/20260626171655997",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "유머 - 브런치",
+      "Link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE44OW9UVTY3cEN0dUJ0VDBfektGbW9PdlprUi0xeWJMRFlqOGVIOFdTQjcwT2k2YTRBWkxYZzd0THhIZm1zaUV3WE9R?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[정제영 칼럼] AX 시대, 대학교육의 길을 묻다③ 지식 독점의 해체 - 대학은 무엇으로 존재하는가 - 한국대학신문",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91TENROHY4S3BLY21kTG14QjREREFKZFoySWtYSzZNNU9sVUNIdllEVnQ0VXMxR1N1TUQtd2hFemRId0FZNGF1ak5UazZzN2J6Q2xOY1JMSWpnb1dXWEhDOGR1WWduZw?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "마라톤의 도시3-베를린 - 세종의소리",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsUDA2MHl3V1U4Z3NlUjFkVWczYUZseXpmNnhDNVVOTXBsN3RlVHJNdko4WEY3SUpodUJGRVpEaTgtMl8yNW1pTEV2RjRnSk9DWjhYQ3k0TTEwaURORmFoWS1ValJWME0?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 06월 넷째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95QWlVNVJRU3IwbXJyX2IzS0ZDZDM0QkNaeXpjV3BHSkFIekp6cWExd3lzWFZINXRUYzBrUk9aR1VMRDQ3ZzN2T0xnZzRmTHRNTnBoWDFZaUJTWVN6cElVVlFqVVM2SWRmUzdiNjFn0gFyQVVfeXFMTWxrZi02dVloRnJvY1FqakxnNlI5UUFSVVY2THNwYlQycDhtdWV6V2VlR2t6b09LUnNsVXFFeXAzOTVxZnlMZkZ0bTEydjUtd3NYSTFnTHAwVVVVdVIxMm5id1ZZT1FUM0hyZDR2UHNmUjhB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "4월 29일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDbGxhWFlEVXFYM1F5cHlRRXh3OUhHZ3UyMWx5MlRYTDFnQnM0UW1xelZVS2JXak9zT3p5S0s4M3JzQTY0RHBUT3RnRGJDUVl5QnAtMjVIaTNwWGR3a01XOXpR?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "2월 25일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01YTZydC1HUU1mME9RSENXd2pVOW8xRWRkUlNmZ1k0Smg2bGtuN3lWQkxFWHZWaHhwWURic29xamVQb3g3SHNlbDNvdS1hSTV5cmQ4LURqamNUZWlIYVJUSFhn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 03월 둘째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51NEdqUmlSV2JoWXRJa1M1WXVqUXFlcl9Tc2JmTE1NeUl1MnB5dU1aUE1ucUs5am1FOGhseWlzdUtMUGR2cU5NaHppcWtBbkJWUHdOMFNBMm1MWVNhV1NTSDhVRF9ELVZBTTZYaU1R0gFyQVVfeXFMTlc4Q2ZUSEJvX1lhMnkwTENnYzU4VUpDeDN5QTc0SHlWbGg4bHlqdEhocm95b3NXdjU2NlY3eTNJcW83SzJhSVBsWTltamN1SWhWbHQzQTJuR0YwYkdxbHlWT2lsa0F2MmlKTlB5SHV1cktn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "반도체 호황에도 싸늘해진 기업 체감경기 [사설]",
+      "Link": "https://v.daum.net/v/20260626172105142",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "상상력·유머로 현대미술과 접선하는 ‘조선의 팝아트’ [문소영 논설위원이 간다] - 중앙일보",
+      "Link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5IVUpHNlhYSVJTSGQ0LUVyTlQ4cUs5OU9wdXhqSG4tMEhMM0Z1bGVpUHZJUFpNYzR4Y013ZTdGVnZTRVYtaUZ0WmlYYy10c0llUVBYbzdR?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "펀딩 목표 8400% 달성…'심슨 덕후' 가슴 뛰게 할 대백과사전 나왔다 - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3dHVFSUdJckxBdWtyQW1UQTZIZU41QTdDZ2NjdVRhWm96UjR0NTNfYTVCWjBXUlAybFB5aXNUNWdQbU1qREVyOEVnS1VNcWJ6dDU4?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "5월 27일 자 시사상식 퀴즈 - 매일신문",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjWFRjWDlkbGczUnJwUENmUXVBLW04anRlNnRNTEJfZjJIa2RTV1RkVlRSbnBMMlRsS0NxektUUEhCbUhxMG9ZNjRKMHJIM244WllCclZQVV9PU1lOZFp3WUZR?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 04월 둘째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yRWtFOWRVb2tBa19NQUdPdUdVWUdHZnpaRWNSNHRfb2UyZUNWU0U2N2NKbFJJZVBOSndXR0l0SXpLb2k1NlNIVDNHQTZkYkZVbUpaMlR6YnV3QzRjSWlVN0ZKZ3ZuZEpobHl4M2dB0gFyQVVfeXFMT1NSaC0wZ19VZGZucjNKc0hRN3BSVDhYZWZtVU5RNXFjX01HR1VwdXRWRWpuTUgzODJoXzFRR3NYQzViOVVfTzV1NTMxTENGa2J5UTVTZk01Mzl1dlNIcWhrRU1TN3VZRVFtckx5TzQ3MGV3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 01월 셋째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93YS1nbUR2azRmYzE0dThlSFBOTlE4b3lvSnFIdktnUHo4dEtkM2FUNmw2YmVIVU1IbUtPbDZrWTlsSTJjTDdBei1ld2xZNXU3VHVva29qQTN5ZDJVSndtWm5VR0ZqS2NHOVhxMnJ30gFyQVVfeXFMTUxxZUtsUGV0WjJpdzRVZXFka1VaOE8zOEZNeDJSSV8zSGdaRjhFUHBOeDN3aUMxeDVtcklaSmM1Q3JjeEJPM3AydWpaZjUwV2xHT3dMV2M3QTQ0MUtJUERoNzRCSkR2bGZkenA0NUJsVjR3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "삶에게 웃으며 말 거는 법 - 독서노트 - 브런치",
+      "Link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPd1oydGdORk05YjhLUnhHbkRKNGl4dEh3eUVoeDdydUx1RGZ6YmY3UWNtQWc4RlpQV2ljNjJDOTVFWE91Q0ZtcnVIZUYtMVRjQ1hCSTViMGl5Yl8tOWp4bkF0OA?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[칼럼] 교권과 인권의 참교육 - v.daum.net",
+      "Link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IVTRibERtZUI1eFJxenZYdjNVRGZrZDlMeG5Bd0prX3BmdkctRnNBZzdWeXd6NHdZZ2FpX3B3V0E3YTREakdHVG16T3pZYTg?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "\"썰렁하다 비웃지마!\" 아재 개그, 뇌를 깨운다고?…스트레스 낮추고 뇌 건강에 좋다! - 네이트",
+      "Link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41LVVyNlA0Rkh0eTd4WE1sMkxZV3lQVUktb2t2d0RHZlBvU01vUGFXS0owVF91TFVVVjFJTjN5TmRQWERCS2xQaHRpTUtnWm1PV2VF?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2025년 10월 셋째주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wRFozREFudU9lUTRtelR6ajBVWWtjVkNrYlJhZHNmQlVLMndUb0o1clhUVThkRmZTSThwQmJqb2xvcGRZMEJHQ2VkaXRzVmc3VXo2TUI4a3JCMlhMdnZrZmd5d0Y2UU1DdmQ4UUh30gFyQVVfeXFMT3AyRnNYc1NDdjlHeTAzRXd3LXE2N2QxaGVJNEplaUpyZk5VYUdIZ2NaYmJ5R3NDbndPZF9HcldpTG5tRmxoY3djb0tPR2o3QjhTVGxwNWlHSkttWGRtcy1sRWpTUWVaSGNxeThkVTlXWHNn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[비하인드 뉴스] 식사 전 \"시장합니다\" 박찬대식 유머에 이 대통령 ‘웃음’ - JTBC",
+      "Link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fakhsa3Y4eHZSZTMtZWNhTy1BaW9XelJHOWZhVGJLYXJVWjVFMWtuWXNFTlRDdHZRVW91dXI2YW13WGNsLXlqOHE4U2k2eG1kdVRXZQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[사설] 경기도 위원회, 예산 절감과 통폐합 동시에 가야",
+      "Link": "https://v.daum.net/v/20260626030405371",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2025년 10월 마지막 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HVGZaLWdNWXh2VFVlSzdZdHo4aHlsRXFsdjRTTDktQWFnanFKblFUUG9LaURhVFQxUzdVQjQtUTVCbGd6Q2JxUjdIY0c2dnJxc3RLaXRiaUFhY0U2cU1URTMwcTBtWHh5YTJXcDFR0gFyQVVfeXFMUDlMZlB0Rl9xNzdQMU9zM2tEb3R3UlB0UkNDMFA1MEpQd0ZxY0NDQ2d4SkZQdmFZcVlxNDF3elc4T2syYUY2eURZbEYwYXJGc20zMnRZNGU5dXZBVEFMNHozN2wzd0ljSkRubTJJVEJ6SkFB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "노년의 유머, 인생의 진정한 비밀번호 - 브런치",
+      "Link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9wcHRxRTBCNGc5cS1nOTI1YUJtX1VaUVpUdW9FQTZ2ZzFYT0hDV0xXLVZjQkMxcjRaU19RYV9Gejd3LTdrVC1uWXpjVGI?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[특파원 칼럼] 대사관저의 불이 꺼지지 않으려면 - 뉴스1",
+      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBBQjNFS01zMGFoUHptRmVleDBlejR1U2FLNEo1U19zR2xMZFlCTzlqVkRrMnd6Q09CVTVHR1BBQnlQUnVXdEtURnY4V2FWUU1nMnhmZjZycFZhdkhnTHc?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "캐나다 | 코스트 콘돔 불량 \"아이도 반품되나요\" 유머 화제 - 밴쿠버 중앙일보",
+      "Link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9zbzlaVmRjTVpjdzFIT1Z2U1Vpb0xncnotZXB1T1pOTzhBVE50dDdPVF8zZmgtYzZHTWgxNjNHel9QT2pGVVpjdHpCVWlZS2NjdGc5MjBYZmE3TXZtS2xRM2w1VV9GUEVVSVI3bGhGMUhGQnNlaTVr?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "교회로 바뀌는 상가 - 한국경제",
+      "Link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2UE0tNHlVa3RCeW5ENkhuNEdWQzM3RDlHSVBWQ2dfcGthSGx6alBwdDVUemNKQ1hKTVJINHdtLXVDaVBuZ1RGRUpWVWhxaEdkMVYyb1NUYl81UdIBVEFVX3lxTE14bG9keUcwVHAxUHMxcjdsQjdXLVFHaTNObmxmcS1UbF9Ea1hvMDVINFJmcWpudDRzLVczRGdLS3lySlNEMkRKSmtEekFKd05Qd3pkYQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 05월 마지막(06월 첫째)주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00aHZYc3RNT2J4WWw1STZTTWJrTW5yR2dFVTdjSDRKZERHczZNaVRWQjdhMDRnT09zcjhhbDBBR3pSU2JnMFl2R094cGtEM1Nlek1wQmtuOUVmTDBrNk9MbUhMbWhTcElIWTBYOFFR0gFyQVVfeXFMUE4xcmhNNVJNcm93RVgxb1VWUVI4OTdfUEhMUGFPcXY3ODExRURCS3BIU2lIUF9BN090OVhHOWlWdktDS1FoeEUya2dNWXZoMjlrVnBvVWZUb2lSSmpVVWdNN3JReXByYVdIdHA5U3dScmFB?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "귀걸이·목걸이·브로치·그림·시계…김건희 '매관매직' 1심 모두 유죄(종합)",
+      "Link": "https://v.daum.net/v/20260626170906695",
+      "Portal": "다음",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 03월 셋째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXZXN4WFVEZG9WNzZWOFhQcDZtWDRQN0wyVFZtSDNUQkUwcWc0bk4zMEVFZ29xSUFtS3BQYmY3alpoYTl6eFpnY0I5OUlJR1VGSU5aMzc3TXV3RjlGa2Z1N1U1OWVxOW1WMURBUTBR0gFyQVVfeXFMTnpYa1ROZGxkYV9OWlI4UTlETTlFUmZRX0hCZkpxMi0zOHpqSmw5emR0b3EtQUk5d2JxOFdMTjFPVjdQUEVVa1VsV1dnN1ZXTmd4R3hoeWhUWHMxZTNKNENuRmFDUWRnYy1hblBMdnBzMGR3?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[책의 향기]힙한 유머 뒤엔 증오의 비수가… - 동아일보",
+      "Link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSaXhaQl8yNXRUVzFUQTlEWHpXOER0OG52N1pHYzJrN05aRVNFTUdHWXlxY29ESmtnVGdlcFR4blFsOGlhZk9ycGdyRWhCTmRWek5FWm1lUFZzTGJFVjBMV0k1SUZtczRqSHpzcmQzNXBTQjE4QUHSAWZBVV95cUxPdGl0X1VlNXMtQzJXcVY3ZDdSakdNRnNuQ3k0dTV6M05GZFY2b2ZlRHVHU0x6blJsU1ZRSm1SblhlNDJ6MmNpT2ZNSzVPWl9KMDg1akdoZGRBUmRJYzRJclk4cmhLMXc?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[칼럼] 재선 심덕섭 군수의 4년, 이제는 ‘성과로 증명할 시간’이다 - 이로운넷",
+      "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2R3VsZzl4NHBmTmRneVlpTWJ0QkMzeTE3MWV4U0Zia2JVSHRiajJoYmx0dFRIWFlsWnNwZG83dFRpb0hQWGR3ZVlCdEV1blRyUllRUy1qU2lsRmZEOEVEeU1fdHRCQQ?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "암자의 두 스님 - 법보신문",
+      "Link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xRnJnQzR0QkJ0ZnNtcFJLd2lFZ25yb19SQlhYZVVLVm1DM1VlTGhYdUV2ZFNad2NzUTR5dllFeUlfNHcwT184dlVVNURqbXFpN01vQ0pIWEpQbWJ5dERnSTVQVzBqNXg0?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "카드로 보는 시사상식 [2026년 05월 셋째 주_시선뉴스] - 시선뉴스",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Jay1tNjNYd0FxNi0xNEJTV2NJY2stOUx5MWtnMGJ1VndYOXR1aTVMZDk3RWRmTTVEeFJXVEFEZUp6TFRQRWQwOUo4QUJOczlzVENRQUFNS0FGYWhwTkNTRXp4M3Q4ZnpyZjBENVFR0gFyQVVfeXFMTUh4ZTgxei05YWtDeEhiMHdhV0kwM0gwQURNWHRKUWd3SjRkWnVBaE1zMUlUb0NKaHBGdjFhdHBTbXFValRlbVo2X2xKV3ZGUE0wajVSMDl4ZEJFemREVk5ObllYTjRRZHV5SjhhRlFjN3Nn?oc=5",
+      "Portal": "Google News",
+      "Category": "기타"
+    },
+    {
+      "Title": "[날씨칼럼] 예고 없는 흔들림, 준비가 생명을 지킨다 - 국제신문",
+      "Link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM09BTVh5V1gwTEc5eEdjNVFlOTdzV3g1ZXlRTlI3bXdrbWduUzE0S2NMenVwMF9GWnJPWWVRek13aUI3cjE4VEZYdTRFVDZzN1JydGxxdFhHVks2VGhIc3docjVLTkdXVXF5Z0VpZmFKOEVTc0FzY2JUOHNvRW8tSENFbE9kWHJSeVNNbGpB?oc=5",
       "Portal": "Google News",
       "Category": "기타"
     }
