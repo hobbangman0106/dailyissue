@@ -73,8 +73,19 @@ function parseNaver($, url) {
         $('a[href*="news_read.naver"]').each((i, el) => {
             if (posts.length >= 40) return;
             const title = $(el).attr('title') || $(el).text().trim();
-            const href = $(el).attr('href');
+            let href = $(el).attr('href');
             if (title && title.length > 5 && href) {
+                // Convert clunky finance link to clean direct Naver News link
+                if (href.includes('article_id=') && href.includes('office_id=')) {
+                    try {
+                        const resolvedUrl = new URL(href, 'https://finance.naver.com');
+                        const officeId = resolvedUrl.searchParams.get('office_id');
+                        const articleId = resolvedUrl.searchParams.get('article_id');
+                        if (officeId && articleId) {
+                            href = `https://n.news.naver.com/article/${officeId}/${articleId}`;
+                        }
+                    } catch (e) {}
+                }
                 if (!posts.find(p => p.Title === title)) {
                     posts.push({ Title: title, Link: href, Portal: '네이버' });
                 }
