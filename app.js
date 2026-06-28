@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['전체', '경제', '세계', 'IT/과학', '생활/건강', '정치', '연예', '스포츠', '기타'];
+    const CATEGORIES = ['전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠'];
     console.log("=== App v4.1.0 Loaded ===");
     console.log("Categories defined:", CATEGORIES);
 
