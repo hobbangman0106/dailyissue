@@ -93,14 +93,20 @@ document.addEventListener('DOMContentLoaded', () => {
             if (response.ok) {
                 const fetchedData = await response.json();
                 if (Object.keys(fetchedData).length > 0) {
-                    data = fetchedData;
+                    // Compare stringified data to avoid unnecessary re-renders
+                    const currentStr = JSON.stringify(data);
+                    const fetchedStr = JSON.stringify(fetchedData);
+                    if (currentStr !== fetchedStr) {
+                        data = fetchedData;
+                        window.LOCAL_DATA = fetchedData;
+                        renderSubTabs();
+                        renderPosts();
+                    }
                 }
             }
         } catch (e) {
-            console.error('Fetch failed, using local data', e);
+            console.error('Background fetch failed', e);
         }
-        renderSubTabs();
-        renderPosts();
     }
 
     function renderPosts() {
@@ -177,7 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     behavior: 'instant'
                 });
                 sessionStorage.removeItem('prev_scroll_y');
-            }, 80);
+            }, 50); // Reduced delay since data is already rendered
         }
     }
 
@@ -197,5 +203,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // Initial immediate render using local synchronous data
+    renderSubTabs();
+    renderPosts();
+
+    // Background update check
     fetchData();
 });
