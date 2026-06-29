@@ -219,12 +219,12 @@ function classifySubCategory(category, title) {
     }
     
     if (category === '경제') {
-        if (t.includes('부동산') || t.includes('아파트') || t.includes('분양') || t.includes('재건축') || t.includes('주택') || t.includes('공급') || t.includes('청약')) return '부동산';
-        if (t.includes('주식') || t.includes('증권') || t.includes('코스피') || t.includes('코스닥') || t.includes('나스닥') || t.includes('채권') || t.includes('펀드') || t.includes('상장') || t.includes('주가') || t.includes('비트코인') || t.includes('가상자산') || t.includes('암호화폐')) return '금융/증권';
+        if (t.includes('부동산') || t.includes('아파트') || t.includes('분양') || t.includes('재건축') || t.includes('주택') || t.includes('공급') || t.includes('청약') || t.includes('양도세') || t.includes('종부세') || t.includes('취득세') || t.includes('재산세')) return '부동산';
+        if (t.includes('주식') || t.includes('증권') || t.includes('코스피') || t.includes('코스닥') || t.includes('나스닥') || t.includes('채권') || t.includes('펀드') || t.includes('상장') || t.includes('주가') || t.includes('비트코인') || t.includes('가상자산') || t.includes('암호화폐') || t.includes('금투세')) return '금융/증권';
         if (t.includes('삼성') || t.includes('현대') || t.includes('lg') || t.includes('sk') || t.includes('실적') || t.includes('영업이익') || t.includes('매출') || t.includes('반도체') || t.includes('배터리') || t.includes('기업')) return '산업/기업';
         if (t.includes('취업') || t.includes('창업') || t.includes('일자리') || t.includes('고용') || t.includes('구직')) return '취업/창업';
         if (t.includes('미국') || t.includes('중국') || t.includes('유럽') || t.includes('글로벌') || t.includes('환율') || t.includes('달러') || t.includes('금리') || t.includes('유가') || t.includes('수출')) return '국제경제';
-        if (t.includes('생활') || t.includes('가계') || t.includes('물가') || t.includes('소비') || t.includes('마트')) return '생활 경제';
+        if (t.includes('생활') || t.includes('가계') || t.includes('물가') || t.includes('소비') || t.includes('마트') || t.includes('절세') || t.includes('세금') || t.includes('소득세') || t.includes('상속세') || t.includes('증여세') || t.includes('연말정산')) return '생활 경제';
         return '경제 일반';
     }
     
@@ -335,9 +335,22 @@ async function scrape() {
                     if (p.Link && !p.Link.startsWith('http')) {
                         try { p.Link = new URL(p.Link, task.url).href; } catch(e) {}
                     }
-                    if (!results[task.cat].find(existing => existing.Title === p.Title)) {
+                    
+                    // Dynamic Tax Cross-Classification Override
+                    let finalCat = task.cat;
+                    const t = p.Title.toLowerCase();
+                    const economyTaxKeywords = ['절세', '세테크', '소득세', '양도세', '증여세', '상속세', '감세', '세금혜택', '연말정산', '납세자'];
+                    const societyTaxKeywords = ['탈세', '세무조사', '체납', '조세포탈', '세무비리'];
+                    
+                    if (economyTaxKeywords.some(kw => t.includes(kw))) {
+                        finalCat = '경제';
+                    } else if (societyTaxKeywords.some(kw => t.includes(kw))) {
+                        finalCat = '사회';
+                    }
+                    
+                    if (!results[finalCat].find(existing => existing.Title === p.Title)) {
                         p.Tier = task.tier || 3;
-                        results[task.cat].push(p);
+                        results[finalCat].push(p);
                     }
                 }
             });
