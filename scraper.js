@@ -18,57 +18,57 @@ const TASKS = [
     { cat: '정치', portal: '네이버', url: 'https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=100', tier: 1 },
     { cat: '정치', portal: '다음', url: 'https://news.daum.net/politics', tier: 1 },
     { cat: '정치', portal: 'ZUM', url: 'https://news.zum.com/front?c=01', tier: 1 },
-    { cat: '정치', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/POLITICS?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 }, // Changed to Tier 1 for mixing
+    { cat: '정치', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/POLITICS?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 },
 
     // --- 경제 (투자 정보 집중 배치: 부동산, 증권, 채권, 금, 석유, 비트코인, 기업 실적 및 전망 등) ---
     { cat: '경제', portal: '네이버', url: 'https://finance.naver.com/news/news_list.naver?mode=RANK', tier: 1 },
     { cat: '경제', portal: '다음', url: 'https://news.daum.net/economy', tier: 1 },
     { cat: '경제', portal: 'ZUM', url: 'https://news.zum.com/front?c=03', tier: 1 },
-    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EB%B6%80%EB%8F%99%EC%82%B0+OR+%EC%95%84%ED%8C%8C%ED%8A%B8+OR+%EC%A3%BC%ED%83%9D&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 }, // 부동산
-    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%A3%BC%EC%8B%9D+OR+%EC%A6%9D%EA%B6%8C+OR+%EC%B1%84%EA%B6%8C+OR+%ED%8E%80%EB%93%9C+OR+%EC%84%A0%EB%AC%BC%EA%B1%B0%EB%9E%98&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 }, // 주식/채권/선물/펀드
-    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%ED%99%98%EC%9C%A8+OR+%EA%B8%88%EB%A6%AC+OR+%EC%98%88%EC%A0%81%EA%B8%88+OR+%EA%B8%88%EC%9C%B5%EC%83%81%ED%92%88&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 }, // 환율/금리/예적금/금융상품
-    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EA%B8%B8%EA%B0%92+OR+%EC%85%A5%EC%9C%A0+OR+%EC%9C%A0%EA%B0%80+OR+%EC%9B%90%EC%9E%90%EC%9E%AC&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 }, // 금/석유/원자재
-    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EB%B9%8B%ED%8A%B8%EC%BD%94%EC%9D%B8+OR+%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0+OR+%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 }, // 비트코인/가상자산
-    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EA%B8%B0%EC%97%85%EC%8B%A4%EC%A0%81+OR+%EC%98%81%EC%97%85%EC%9D%B4%EC%9D%B5+OR+%EA%B8%B0%EC%97%85%EC%A0%84%EB%A7%9D&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 }, // 기업 실적 및 전망
+    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EB%B6%80%EB%8F%99%EC%82%B0+OR+%EC%95%84%ED%8C%8C%ED%8A%B8+OR+%EC%A3%BC%ED%83%9D&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
+    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%A3%BC%EC%8B%9D+OR+%EC%A6%9D%EA%B6%8C+OR+%EC%B1%84%EA%B6%8C+OR+%ED%8E%80%EB%93%9C+OR+%EC%84%A0%EB%AC%BC%EA%B1%B0%EB%9E%98&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
+    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%ED%99%98%EC%9C%A8+OR+%EA%B8%88%EB%A6%AC+OR+%EC%98%88%EC%A0%81%EA%B8%88+OR+%EA%B8%88%EC%9C%B5%EC%83%81%ED%92%88&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
+    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EA%B8%B8%EA%B0%92+OR+%EC%85%A5%EC%9C%A0+OR+%EC%9C%A0%EA%B0%80+OR+%EC%9B%90%EC%9E%90%EC%9E%AC&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
+    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EB%B9%8B%ED%8A%B8%EC%BD%94%EC%9D%B8+OR+%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0+OR+%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
+    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EA%B8%B0%EC%97%85%EC%8B%A4%EC%A0%81+OR+%EC%98%81%EC%97%85%EC%9D%B4%EC%9D%B5+OR+%EA%B8%B0%EC%97%85%EC%A0%84%EB%A7%9D&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
 
     // --- 사회 (사건사고, 사회 일반) ---
     { cat: '사회', portal: '네이버', url: 'https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=102', tier: 1 },
     { cat: '사회', portal: '다음', url: 'https://news.daum.net/society', tier: 1 },
     { cat: '사회', portal: 'ZUM', url: 'https://news.zum.com/front?c=02', tier: 1 },
-    { cat: '사회', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%82%AC%EA%B1%B4%EC%82%AC%EA%B3%A0+OR+%EC%8B%9C%EC%82%AC%EC%83%81%EC%8B%9D&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 }, // 사건사고/시사상식
+    { cat: '사회', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%82%AC%EA%B1%B4%EC%82%AC%EA%B3%A0+OR+%EC%8B%9C%EC%82%AC%EC%83%81%EC%8B%9D&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
 
     // --- 생활/건강 (문화, 건강, 웰빙 정보 특화) ---
     { cat: '생활/건강', portal: '네이버', url: 'https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=103', tier: 1 },
     { cat: '생활/건강', portal: '다음', url: 'https://news.daum.net/culture', tier: 1 },
     { cat: '생활/건강', portal: 'ZUM', url: 'https://news.zum.com/front?c=07', tier: 1 },
-    { cat: '생활/건강', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 }, // Changed to Tier 1
-    { cat: '생활/건강', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:news.yahoo.com+OR+site:yahoo.com+health+OR+lifestyle&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 }, // Changed to Tier 1
+    { cat: '생활/건강', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 },
+    { cat: '생활/건강', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:news.yahoo.com+OR+site:yahoo.com+health+OR+lifestyle&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 },
 
     // --- 세계 ---
     { cat: '세계', portal: '네이버', url: 'https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=104', tier: 1 },
     { cat: '세계', portal: '다음', url: 'https://news.daum.net/foreign', tier: 1 },
     { cat: '세계', portal: 'ZUM', url: 'https://news.zum.com/front?c=04', tier: 1 },
-    { cat: '세계', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/WORLD?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 }, // Changed to Tier 1
-    { cat: '세계', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:news.yahoo.com+OR+site:yahoo.com+world&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 }, // Changed to Tier 1
+    { cat: '세계', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/WORLD?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 },
+    { cat: '세계', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:news.yahoo.com+OR+site:yahoo.com+world&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 },
 
     // --- IT/과학 ---
     { cat: 'IT/과학', portal: '네이버', url: 'https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=105', tier: 1 },
     { cat: 'IT/과학', portal: '다음', url: 'https://news.daum.net/digital', tier: 1 },
     { cat: 'IT/과학', portal: 'ZUM', url: 'https://news.zum.com/front?c=08', tier: 1 },
-    { cat: 'IT/과학', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 }, // Changed to Tier 1
-    { cat: 'IT/과학', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:finance.yahoo.com+OR+site:yahoo.com+technology+OR+science&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 }, // Changed to Tier 1
+    { cat: 'IT/과학', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 },
+    { cat: 'IT/과학', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:finance.yahoo.com+OR+site:yahoo.com+technology+OR+science&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 },
 
     // --- 연예 ---
     { cat: '연예', portal: '다음', url: 'https://entertain.daum.net/', tier: 1 },
     { cat: '연예', portal: 'ZUM', url: 'https://news.zum.com/front?c=06', tier: 1 },
-    { cat: '연예', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 }, // Changed to Tier 1
-    { cat: '연예', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:news.yahoo.com+OR+site:yahoo.com+entertainment+OR+celebrity&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 }, // Changed to Tier 1
+    { cat: '연예', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 },
+    { cat: '연예', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:news.yahoo.com+OR+site:yahoo.com+entertainment+OR+celebrity&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 },
 
     // --- 스포츠 ---
     { cat: '스포츠', portal: '다음', url: 'https://sports.daum.net/', tier: 1 },
     { cat: '스포츠', portal: 'ZUM', url: 'https://news.zum.com/front?c=05', tier: 1 },
-    { cat: '스포츠', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/SPORTS?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 }, // Changed to Tier 1
-    { cat: '스포츠', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:sports.yahoo.com+OR+site:yahoo.com+sports&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 }, // Changed to Tier 1
+    { cat: '스포츠', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/SPORTS?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 },
+    { cat: '스포츠', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:sports.yahoo.com+OR+site:yahoo.com+sports&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 },
 
     // --- 칼럼 ---
     { cat: '칼럼', portal: '다음', url: 'https://news.daum.net/editorial', tier: 1 },
@@ -105,7 +105,6 @@ function parseNaver($, url) {
         return posts;
     }
     
-    // For main section pages (main.naver)
     if (url.includes('main.naver')) {
         $('a').each((i, el) => {
             if (posts.length >= 40) return;
@@ -115,7 +114,6 @@ function parseNaver($, url) {
             const cleanTitle = title.replace(/\s+/g, ' ').trim();
             
             if (href.includes('article') && cleanTitle.length > 10) {
-                // Filter out non-news items
                 if (cleanTitle.includes('동영상') || cleanTitle.includes('재생시간') || cleanTitle.includes('포토') || cleanTitle.includes('카드뉴스') || cleanTitle.includes('동영상기사')) {
                     return;
                 }
@@ -213,19 +211,30 @@ function parseZum($, url) {
     const posts = [];
     $('a').each((i, el) => {
         if (posts.length >= 40) return;
-        const title = $(el).text().trim() || $(el).attr('title') || '';
         let href = $(el).attr('href') || '';
         
-        const cleanTitle = title.replace(/\s+/g, ' ').trim();
-        
-        // ZUM news links are absolute external URLs (not zum.com, except for some search/internal links)
-        if (href.startsWith('http') && !href.includes('zum.com') && cleanTitle.length > 10) {
-            // Filter out common utility links
-            if (cleanTitle.includes('이용약관') || cleanTitle.includes('개인정보') || cleanTitle.includes('고객센터') || cleanTitle.includes('저작권')) {
-                return;
+        // ZUM news links are absolute external URLs
+        if (href.startsWith('http') && !href.includes('zum.com')) {
+            let title = '';
+            const titleEl = $(el).find('.title');
+            if (titleEl.length > 0) {
+                title = titleEl.text().trim();
+            } else {
+                const clone = $(el).clone();
+                clone.find('.text, .thumb, .desc, .info, .media').remove();
+                title = clone.text().trim();
             }
-            if (!posts.find(p => p.Link === href || p.Title === cleanTitle)) {
-                posts.push({ Title: cleanTitle, Link: href, Portal: 'ZUM' });
+            
+            const cleanTitle = title.replace(/\s+/g, ' ').trim();
+            
+            if (cleanTitle.length > 10) {
+                // Filter out common utility links
+                if (cleanTitle.includes('이용약관') || cleanTitle.includes('개인정보') || cleanTitle.includes('고객센터') || cleanTitle.includes('저작권')) {
+                    return;
+                }
+                if (!posts.find(p => p.Link === href || p.Title === cleanTitle)) {
+                    posts.push({ Title: cleanTitle, Link: href, Portal: 'ZUM' });
+                }
             }
         }
     });
@@ -235,8 +244,15 @@ function parseZum($, url) {
 function parseGoogleXml($, limit, portalName) {
     const posts = [];
     $('item').slice(0, limit).each((i, el) => {
+        let title = $(el).find('title').text() || '';
+        
+        // Clean up the portal suffix (e.g., " - Yahoo News", " - Yahoo Finance", " - Google News", etc.)
+        title = title.replace(/\s*-\s*Yahoo\s*[a-zA-Z]*$/gi, '');
+        title = title.replace(/\s*-\s*Google\s*News$/gi, '');
+        title = title.trim();
+
         posts.push({
-            Title: $(el).find('title').text() || '',
+            Title: title,
             Link: $(el).find('link').text() || '',
             Portal: portalName
         });
