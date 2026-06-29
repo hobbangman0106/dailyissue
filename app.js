@@ -127,6 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const COMMUNITY_COLORS = {
             "네이버": "#03c75a",
             "다음": "#ffcc00",
+            "ZUM": "#00a5e3",
             "Google News": "#ea4335",
             "Yahoo US": "#410093",
             "default": "#5c7cfa"
