@@ -540,14 +540,17 @@ body {
 .header-actions {
     position: absolute;
     right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
 .header-btn {
-    background: none;
-    border: none;
+    background: transparent !important;
+    border: none !important;
+    outline: none;
     cursor: pointer;
     color: var(--text-primary);
     padding: 6px;
@@ -556,6 +559,8 @@ body {
     align-items: center;
     justify-content: center;
     transition: background-color 0.2s ease;
+    width: 36px;
+    height: 36px;
 }
 
 .header-btn:hover {
