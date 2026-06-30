@@ -21,10 +21,52 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentCategory = sessionStorage.getItem('active_category') || '전체';
     let currentSubCategory = sessionStorage.getItem('active_subcategory') || '최신뉴스';
     let data = window.LOCAL_DATA || {};
+    let searchQuery = '';
 
     const postsList = document.getElementById('posts-list');
     const tabsNav = document.getElementById('category-tabs');
     const subTabsNav = document.getElementById('subcategory-tabs');
+    
+    const searchBtn = document.getElementById('search-btn');
+    const searchBarContainer = document.getElementById('search-bar-container');
+    const searchInput = document.getElementById('search-input');
+    const searchClearBtn = document.getElementById('search-clear-btn');
+
+    if (searchBtn && searchBarContainer && searchInput) {
+        searchBtn.addEventListener('click', () => {
+            const isVisible = searchBarContainer.style.display === 'block';
+            if (isVisible) {
+                searchBarContainer.style.display = 'none';
+                searchQuery = '';
+                searchInput.value = '';
+                if (searchClearBtn) searchClearBtn.style.display = 'none';
+                renderPosts();
+            } else {
+                searchBarContainer.style.display = 'block';
+                searchInput.focus();
+            }
+        });
+    }
+
+    if (searchInput) {
+        searchInput.addEventListener('input', () => {
+            searchQuery = searchInput.value.trim().toLowerCase();
+            if (searchClearBtn) {
+                searchClearBtn.style.display = searchQuery ? 'block' : 'none';
+            }
+            renderPosts();
+        });
+    }
+
+    if (searchClearBtn && searchInput) {
+        searchClearBtn.addEventListener('click', () => {
+            searchInput.value = '';
+            searchQuery = '';
+            searchClearBtn.style.display = 'none';
+            searchInput.focus();
+            renderPosts();
+        });
+    }
     
     // Build Tabs
     if (tabsNav) {
@@ -119,8 +161,23 @@ document.addEventListener('DOMContentLoaded', () => {
             displayPosts = displayPosts.filter(p => p.SubCategory === currentSubCategory);
         }
 
+        if (searchQuery) {
+            displayPosts = displayPosts.filter(p => p.Title.toLowerCase().includes(searchQuery));
+        }
+
         if (displayPosts.length === 0) {
-            postsList.innerHTML = html + '<div class="empty-state">해당 카테고리에 뉴스가 없습니다.</div>';
+            if (searchQuery) {
+                postsList.innerHTML = `
+                    <div class="empty-search-state">
+                        <i data-lucide="frown" class="empty-search-icon"></i>
+                        <div class="empty-search-text">검색 결과가 없습니다</div>
+                        <div class="empty-search-subtext">'${searchQuery}'에 대한 기사를 찾을 수 없습니다. 다른 검색어를 입력해 보세요.</div>
+                    </div>
+                `;
+                if (window.lucide) window.lucide.createIcons();
+            } else {
+                postsList.innerHTML = '<div class="empty-state">해당 카테고리에 뉴스가 없습니다.</div>';
+            }
             return;
         }
 

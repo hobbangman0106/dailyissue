@@ -22,6 +22,21 @@
                     <i data-lucide="compass" class="logo-icon"></i>
                     <span>News<span>Hub</span></span>
                 </div>
+                <div class="header-actions">
+                    <button id="search-btn" class="header-btn" aria-label="검색">
+                        <i data-lucide="search"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Search Bar Container -->
+            <div class="search-bar-container" id="search-bar-container" style="display: none;">
+                <div class="search-input-wrapper">
+                    <i data-lucide="search" class="search-input-icon"></i>
+                    <input type="text" id="search-input" placeholder="기사 제목을 검색해 보세요..." autocomplete="off">
+                    <button id="search-clear-btn" class="search-clear-btn" style="display: none;">
+                        <i data-lucide="x"></i>
+                    </button>
+                </div>
             </div>
             <!-- Category Tabs -->
             <nav class="category-tabs" id="category-tabs">
