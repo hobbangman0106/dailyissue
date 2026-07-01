@@ -10,8 +10,8 @@ const JS_DATA_FILE = 'data.js';
 const PC_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
-// New categories
-const CATEGORIES = ['전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠', '칼럼'];
+// Categories including YouTube
+const CATEGORIES = ['전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠', '칼럼', '유튜브'];
 
 const TASKS = [
     // --- 정치 ---
@@ -42,38 +42,36 @@ const TASKS = [
     { cat: '생활/건강', portal: '다음', url: 'https://news.daum.net/culture', tier: 1 },
     { cat: '생활/건강', portal: 'ZUM', url: 'https://news.zum.com/front?c=07', tier: 1 },
     { cat: '생활/건강', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 },
-    { cat: '생활/건강', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:news.yahoo.com+OR+site:yahoo.com+health+OR+lifestyle&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 },
 
     // --- 세계 ---
     { cat: '세계', portal: '네이버', url: 'https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=104', tier: 1 },
     { cat: '세계', portal: '다음', url: 'https://news.daum.net/foreign', tier: 1 },
     { cat: '세계', portal: 'ZUM', url: 'https://news.zum.com/front?c=04', tier: 1 },
     { cat: '세계', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/WORLD?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 },
-    { cat: '세계', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:news.yahoo.com+OR+site:yahoo.com+world&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 },
 
     // --- IT/과학 ---
     { cat: 'IT/과학', portal: '네이버', url: 'https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=105', tier: 1 },
     { cat: 'IT/과학', portal: '다음', url: 'https://news.daum.net/digital', tier: 1 },
     { cat: 'IT/과학', portal: 'ZUM', url: 'https://news.zum.com/front?c=08', tier: 1 },
     { cat: 'IT/과학', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 },
-    { cat: 'IT/과학', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:finance.yahoo.com+OR+site:yahoo.com+technology+OR+science&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 },
 
     // --- 연예 ---
     { cat: '연예', portal: '다음', url: 'https://entertain.daum.net/', tier: 1 },
     { cat: '연예', portal: 'ZUM', url: 'https://news.zum.com/front?c=06', tier: 1 },
     { cat: '연예', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 },
-    { cat: '연예', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:news.yahoo.com+OR+site:yahoo.com+entertainment+OR+celebrity&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 },
 
     // --- 스포츠 ---
     { cat: '스포츠', portal: '다음', url: 'https://sports.daum.net/', tier: 1 },
     { cat: '스포츠', portal: 'ZUM', url: 'https://news.zum.com/front?c=05', tier: 1 },
     { cat: '스포츠', portal: 'Google News', url: 'https://news.google.com/rss/headlines/section/topic/SPORTS?hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 1 },
-    { cat: '스포츠', portal: 'Yahoo US', url: 'https://news.google.com/rss/search?q=site:sports.yahoo.com+OR+site:yahoo.com+sports&hl=en-US&gl=US&ceid=US:en', isXml: true, tier: 1 },
 
     // --- 칼럼 ---
     { cat: '칼럼', portal: '다음', url: 'https://news.daum.net/editorial', tier: 1 },
     { cat: '칼럼', portal: 'ZUM', url: 'https://news.zum.com/front?c=09', tier: 1 },
-    { cat: '칼럼', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%82%AC%EC%85%8B+OR+%EC%B9%BC%EB%9F%BC+OR+%EB%A7%8C%ED%8F%89&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 }
+    { cat: '칼럼', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%82%AC%EC%85%8B+OR+%EC%B9%BC%EB%9F%BC+OR+%EB%A7%8C%ED%8F%89&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
+
+    // --- 유튜브 (인기 급상승 동영상 차트) ---
+    { cat: '유튜브', portal: 'YouTube', url: 'https://kworb.net/youtube/trending/kr.html', tier: 1 }
 ];
 
 function parseNaver($, url) {
@@ -213,7 +211,6 @@ function parseZum($, url) {
         if (posts.length >= 40) return;
         let href = $(el).attr('href') || '';
         
-        // ZUM news links are absolute external URLs
         if (href.startsWith('http') && !href.includes('zum.com')) {
             let title = '';
             const titleEl = $(el).find('.title');
@@ -228,13 +225,46 @@ function parseZum($, url) {
             const cleanTitle = title.replace(/\s+/g, ' ').trim();
             
             if (cleanTitle.length > 10) {
-                // Filter out common utility links
                 if (cleanTitle.includes('이용약관') || cleanTitle.includes('개인정보') || cleanTitle.includes('고객센터') || cleanTitle.includes('저작권')) {
                     return;
                 }
                 if (!posts.find(p => p.Link === href || p.Title === cleanTitle)) {
                     posts.push({ Title: cleanTitle, Link: href, Portal: 'ZUM' });
                 }
+            }
+        }
+    });
+    return posts;
+}
+
+function parseKworb($, url) {
+    const posts = [];
+    $('a').each((i, el) => {
+        if (posts.length >= 50) return; // Keep up to 50 popular videos
+        const href = $(el).attr('href') || '';
+        const text = $(el).text().trim();
+        
+        const cleanTitle = text.replace(/\s+/g, ' ').trim();
+        if (cleanTitle.length < 5) return;
+        
+        let videoId = '';
+        if (href.includes('youtube.com/watch')) {
+            try {
+                const urlObj = new URL(href);
+                videoId = urlObj.searchParams.get('v') || '';
+            } catch(e) {}
+        } else if (href.includes('youtu.be/')) {
+            const parts = href.split('/');
+            videoId = parts[parts.length - 1] || '';
+        } else if (href.includes('/youtube/video/')) {
+            const match = href.match(/\/youtube\/video\/(.*?)\.html/);
+            if (match) videoId = match[1];
+        }
+
+        if (videoId) {
+            const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
+            if (!posts.find(p => p.Link === videoUrl || p.Title === cleanTitle)) {
+                posts.push({ Title: cleanTitle, Link: videoUrl, Portal: 'YouTube' });
             }
         }
     });
@@ -290,8 +320,72 @@ function tieredShuffle(posts, seed) {
     return [...tier1, ...tier2, ...tier3];
 }
 
+function interleavedAllShuffle(posts, seed) {
+    const keywords = ['증시', '재테크', '주식', '부동산', '금리', '환율', '비트코인', '코인', '증권', '코스피', '코스닥', '나스닥', '예적금', '청약', '분양', '금투세', '종부세'];
+    
+    const highInterest = [];
+    const others = [];
+    
+    posts.forEach(p => {
+        const title = p.Title.toLowerCase();
+        const hasKeyword = keywords.some(kw => title.includes(kw));
+        if (hasKeyword) {
+            highInterest.push(p);
+        } else {
+            others.push(p);
+        }
+    });
+
+    // Shuffle within tiers for highInterest
+    const hiTier1 = highInterest.filter(p => p.Tier === 1);
+    const hiTier2 = highInterest.filter(p => p.Tier === 2);
+    const hiTier3 = highInterest.filter(p => p.Tier === 3 || !p.Tier);
+    
+    seededShuffle(hiTier1, seed);
+    seededShuffle(hiTier2, seed + 1);
+    seededShuffle(hiTier3, seed + 2);
+    const hiSorted = [...hiTier1, ...hiTier2, ...hiTier3];
+    
+    // Shuffle within tiers for others
+    const otherTier1 = others.filter(p => p.Tier === 1);
+    const otherTier2 = others.filter(p => p.Tier === 2);
+    const otherTier3 = others.filter(p => p.Tier === 3 || !p.Tier);
+    
+    seededShuffle(otherTier1, seed + 3);
+    seededShuffle(otherTier2, seed + 4);
+    seededShuffle(otherTier3, seed + 5);
+    const otherSorted = [...otherTier1, ...otherTier2, ...otherTier3];
+
+    const result = [];
+    let hiIdx = 0;
+    let otherIdx = 0;
+    
+    // Interleave in the top 30 (1 high interest, 1 other)
+    while (result.length < 30 && (hiIdx < hiSorted.length || otherIdx < otherSorted.length)) {
+        if (hiIdx < hiSorted.length && (result.length % 2 === 0 || otherIdx >= otherSorted.length)) {
+            result.push(hiSorted[hiIdx++]);
+        } else if (otherIdx < otherSorted.length) {
+            result.push(otherSorted[otherIdx++]);
+        }
+    }
+    
+    // Append the rest
+    while (hiIdx < hiSorted.length) {
+        result.push(hiSorted[hiIdx++]);
+    }
+    while (otherIdx < otherSorted.length) {
+        result.push(otherSorted[otherIdx++]);
+    }
+    
+    return result;
+}
+
 function classifySubCategory(category, title) {
     const t = title.toLowerCase();
+    
+    if (category === '유튜브') {
+        return '인기 동영상';
+    }
     
     if (category === '정치') {
         if (t.includes('대통령') || t.includes('윤석열') || t.includes('용산') || t.includes('대통령실') || t.includes('영부인') || t.includes('김건희') || t.includes('청와대')) return '대통령실';
@@ -416,6 +510,7 @@ async function scrape() {
                 if (task.portal === '네이버') posts = parseNaver($, task.url);
                 else if (task.portal === '다음') posts = parseDaum($, task.url);
                 else if (task.portal === 'ZUM') posts = parseZum($, task.url);
+                else if (task.portal === 'YouTube') posts = parseKworb($, task.url);
             }
 
             posts.forEach(p => {
@@ -468,8 +563,8 @@ async function scrape() {
         results['전체'] = results['전체'].concat(results[cat]);
     }
 
-    // Apply tiered shuffle to '전체' category
-    results['전체'] = tieredShuffle(results['전체'], timeSeed);
+    // Apply interleaved shuffle to '전체' category to prioritize high-interest articles in the top 30
+    results['전체'] = interleavedAllShuffle(results['전체'], timeSeed);
 
     fs.writeFileSync(DATA_FILE, JSON.stringify(results, null, 2));
     fs.writeFileSync(JS_DATA_FILE, 'window.LOCAL_DATA = ' + JSON.stringify(results, null, 2) + ';');
