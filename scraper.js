@@ -29,7 +29,7 @@ const TASKS = [
     { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%ED%99%98%EC%9C%A8+OR+%EA%B8%88%EB%A6%AC+OR+%EC%98%88%EC%A0%81%EA%B8%88+OR+%EA%B8%88%EC%9C%B5%EC%83%81%ED%92%88&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
     { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EA%B8%B8%EA%B0%92+OR+%EC%85%A5%EC%9C%A0+OR+%EC%9C%A0%EA%B0%80+OR+%EC%9B%90%EC%9E%90%EC%9E%AC&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
     { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EB%B9%8B%ED%8A%B8%EC%BD%94%EC%9D%B8+OR+%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0+OR+%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
-    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EA%B8%B0%EC%97%85%EC%8B%A4%EC%A0%81+OR+%EC%98%81%EC%97%85%EC%9D%B4%EC%9D%B5+OR+%EA%B8%B0%EC%97%85%EC%A0%84%EB%A7%9D&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
+    { cat: '경제', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EA%B8%B0%EC%97%85%EC%8B%A4%EC%A0%81+OR+%EC%98%81%EC%97%85%EC%9D%B4%EC%9D%B5+OR+%EA%B8%B0%EC%97%85%EC%A0%전망&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
 
     // --- 사회 (사건사고, 사회 일반) ---
     { cat: '사회', portal: '네이버', url: 'https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=102', tier: 1 },
@@ -70,8 +70,14 @@ const TASKS = [
     { cat: '칼럼', portal: 'ZUM', url: 'https://news.zum.com/front?c=09', tier: 1 },
     { cat: '칼럼', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%82%AC%EC%85%8B+OR+%EC%B9%BC%EB%9F%BC+OR+%EB%A7%8C%ED%8F%89&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
 
-    // --- 유튜브 (인기 급상승 동영상 차트) ---
-    { cat: '유튜브', portal: 'YouTube', url: 'https://kworb.net/youtube/trending/kr.html', tier: 1 }
+    // --- 유튜브 (검증된 고품격 교양/지식 전문 추천 채널 RSS) ---
+    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsJ6RuBiTVWRX156FVbeaGg', isXml: true, tier: 1, channelName: '슈카월드' },
+    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UChlv4GSd7OQl3js-jkLOnFA', isXml: true, tier: 1, channelName: '삼프로TV' },
+    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCMc4EmuDxnHPc6pgGW-QWvQ', isXml: true, tier: 1, channelName: '안될과학' },
+    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCvW8norVMTLt7QN-s2pS4Bw', isXml: true, tier: 1, channelName: '조승연의 탐구생활' },
+    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCIk1-yPCTnFuzfgu4gyfWqw', isXml: true, tier: 1, channelName: '과학드림' },
+    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCDSj40X9FFUAnx1nv7gQhcA', isXml: true, tier: 1, channelName: '월급쟁이부자들TV' },
+    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCcYk_KPZZMLv_bcaSAWSSxA', isXml: true, tier: 1, channelName: '지식브런치' }
 ];
 
 function parseNaver($, url) {
@@ -237,35 +243,21 @@ function parseZum($, url) {
     return posts;
 }
 
-function parseKworb($, url) {
+function parseYoutubeXml($, channelName) {
     const posts = [];
-    $('a').each((i, el) => {
-        if (posts.length >= 50) return; // Keep up to 50 popular videos
-        const href = $(el).attr('href') || '';
-        const text = $(el).text().trim();
+    $('entry').each((i, el) => {
+        const title = $(el).find('title').text() || '';
+        let link = $(el).find('link').attr('href') || $(el).find('link').text() || '';
         
-        const cleanTitle = text.replace(/\s+/g, ' ').trim();
-        if (cleanTitle.length < 5) return;
-        
-        let videoId = '';
-        if (href.includes('youtube.com/watch')) {
-            try {
-                const urlObj = new URL(href);
-                videoId = urlObj.searchParams.get('v') || '';
-            } catch(e) {}
-        } else if (href.includes('youtu.be/')) {
-            const parts = href.split('/');
-            videoId = parts[parts.length - 1] || '';
-        } else if (href.includes('/youtube/video/')) {
-            const match = href.match(/\/youtube\/video\/(.*?)\.html/);
-            if (match) videoId = match[1];
-        }
-
-        if (videoId) {
-            const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
-            if (!posts.find(p => p.Link === videoUrl || p.Title === cleanTitle)) {
-                posts.push({ Title: cleanTitle, Link: videoUrl, Portal: 'YouTube' });
-            }
+        if (title && link) {
+            // Remove any trailing whitespace or newlines
+            const cleanTitle = title.replace(/\s+/g, ' ').trim();
+            const displayTitle = `[${channelName}] ${cleanTitle}`;
+            posts.push({
+                Title: displayTitle,
+                Link: link,
+                Portal: 'YouTube'
+            });
         }
     });
     return posts;
@@ -476,13 +468,17 @@ async function scrape() {
 
     for (const task of TASKS) {
         try {
-            console.log(`Scraping ${task.portal} - ${task.cat}...`);
+            console.log(`Scraping ${task.portal} - ${task.cat}${task.channelName ? ` (${task.channelName})` : ''}...`);
             let posts = [];
 
             if (task.isXml) {
                 const response = await axios.get(task.url, { headers: { 'User-Agent': PC_UA }, httpsAgent, timeout: 8000 });
                 const $ = cheerio.load(response.data, { xmlMode: true });
-                posts = parseGoogleXml($, 40, task.portal);
+                if (task.portal === 'YouTube') {
+                    posts = parseYoutubeXml($, task.channelName);
+                } else {
+                    posts = parseGoogleXml($, 40, task.portal);
+                }
             } else {
                 const requestConfig = {
                     headers: { 'User-Agent': PC_UA },
@@ -510,7 +506,6 @@ async function scrape() {
                 if (task.portal === '네이버') posts = parseNaver($, task.url);
                 else if (task.portal === '다음') posts = parseDaum($, task.url);
                 else if (task.portal === 'ZUM') posts = parseZum($, task.url);
-                else if (task.portal === 'YouTube') posts = parseKworb($, task.url);
             }
 
             posts.forEach(p => {
