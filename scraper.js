@@ -71,12 +71,12 @@ const TASKS = [
     { cat: '칼럼', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%82%AC%EC%85%8B+OR+%EC%B9%BC%EB%9F%BC+OR+%EB%A7%8C%ED%8F%89&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
 
     // --- 유튜브 (검증된 고품격 교양/지식 전문 추천 채널 RSS) ---
-    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsJ6RuBiTVWRX156FVbeaGg', isXml: true, tier: 1, channelName: '슈카월드' },
-    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UChlv4GSd7OQl3js-jkLOnFA', isXml: true, tier: 1, channelName: '삼프로TV' },
     { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCMc4EmuDxnHPc6pgGW-QWvQ', isXml: true, tier: 1, channelName: '안될과학' },
-    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCvW8norVMTLt7QN-s2pS4Bw', isXml: true, tier: 1, channelName: '조승연의 탐구생활' },
     { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCIk1-yPCTnFuzfgu4gyfWqw', isXml: true, tier: 1, channelName: '과학드림' },
-    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCDSj40X9FFUAnx1nv7gQhcA', isXml: true, tier: 1, channelName: '월급쟁이부자들TV' },
+    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC7F6UDq3gykPZHWRhrj_BDw', isXml: true, tier: 1, channelName: '사물궁이 잡학지식' },
+    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCF9vbHlZpz7FbOAky3fnYxw', isXml: true, tier: 1, channelName: '의학채널 비온뒤' },
+    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCedNxnMK3b2-_hzqLyo4stg', isXml: true, tier: 1, channelName: '닥터딩요' },
+    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCvW8norVMTLt7QN-s2pS4Bw', isXml: true, tier: 1, channelName: '조승연의 탐구생활' },
     { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCcYk_KPZZMLv_bcaSAWSSxA', isXml: true, tier: 1, channelName: '지식브런치' }
 ];
 
