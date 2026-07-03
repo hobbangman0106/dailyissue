@@ -71,13 +71,28 @@ const TASKS = [
     { cat: '칼럼', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%82%AC%EC%85%8B+OR+%EC%B9%BC%EB%9F%BC+OR+%EB%A7%8C%ED%8F%89&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
 
     // --- 유튜브 (검증된 고품격 교양/지식 전문 추천 채널 RSS) ---
-    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCMc4EmuDxnHPc6pgGW-QWvQ', isXml: true, tier: 1, channelName: '안될과학' },
-    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCIk1-yPCTnFuzfgu4gyfWqw', isXml: true, tier: 1, channelName: '과학드림' },
-    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC7F6UDq3gykPZHWRhrj_BDw', isXml: true, tier: 1, channelName: '사물궁이 잡학지식' },
-    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCF9vbHlZpz7FbOAky3fnYxw', isXml: true, tier: 1, channelName: '의학채널 비온뒤' },
-    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCedNxnMK3b2-_hzqLyo4stg', isXml: true, tier: 1, channelName: '닥터딩요' },
-    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCvW8norVMTLt7QN-s2pS4Bw', isXml: true, tier: 1, channelName: '조승연의 탐구생활' },
-    { cat: '유튜브', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCcYk_KPZZMLv_bcaSAWSSxA', isXml: true, tier: 1, channelName: '지식브런치' }
+    // 경제
+    { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCOB62fKRT7b73X7tRxMuN2g', isXml: true, tier: 1, channelName: '박종훈의 지식한방' },
+    { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCl_tB4AqPkkxuYcJQHz6dMw', isXml: true, tier: 1, channelName: '교양이를 부탁해' },
+    { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCFCtZJTuJhE18k8IXwmXTYQ', isXml: true, tier: 1, channelName: 'EBS 다큐멘터리' },
+    { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCF8AeLlUbEpKju6v1H6p8Eg', isXml: true, tier: 1, channelName: '한국경제TV' },
+    { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsJ6RuBiTVWRX156FVbeaGg', isXml: true, tier: 1, channelName: '슈카월드' },
+    // 과학
+    { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCMc4EmuDxnHPc6pgGW-QWvQ', isXml: true, tier: 1, channelName: '안될과학' },
+    { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCIk1-yPCTnFuzfgu4gyfWqw', isXml: true, tier: 1, channelName: '과학드림' },
+    { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCoCvTlU0KpNYwnMIgs7MPrA', isXml: true, tier: 1, channelName: 'boda' },
+    { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsOmBJ5jPTufS7sHea1HiTw', isXml: true, tier: 1, channelName: '석군의 비밀 수납장' },
+    { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC7F6UDq3gykPZHWRhrj_BDw', isXml: true, tier: 1, channelName: '사물궁이 잡학지식' },
+    // 의학/건강
+    { cat: '유튜브', subCat: '의학/건강', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCF9vbHlZpz7FbOAky3fnYxw', isXml: true, tier: 1, channelName: '의학채널 비온뒤' },
+    { cat: '유튜브', subCat: '의학/건강', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCedNxnMK3b2-_hzqLyo4stg', isXml: true, tier: 1, channelName: '닥터딩요' },
+    // 인문/교양
+    { cat: '유튜브', subCat: '인문/교양', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCvW8norVMTLt7QN-s2pS4Bw', isXml: true, tier: 1, channelName: '조승연의 탐구생활' },
+    { cat: '유튜브', subCat: '인문/교양', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCcYk_KPZZMLv_bcaSAWSSxA', isXml: true, tier: 1, channelName: '지식브런치' },
+    // 여행
+    { cat: '유튜브', subCat: '여행', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCNhofiqfw5nl-NeDJkXtPvw', isXml: true, tier: 1, channelName: '빠니보틀' },
+    { cat: '유튜브', subCat: '여행', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UClRNDVO8093rmRTtLe4GEPw', isXml: true, tier: 1, channelName: '곽튜브' },
+    { cat: '유튜브', subCat: '여행', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC9gxOp_-R78phMHmv2bW_sg', isXml: true, tier: 1, channelName: '원지의 하루' }
 ];
 
 function parseNaver($, url) {
@@ -528,6 +543,9 @@ async function scrape() {
                     
                     if (!results[finalCat].find(existing => existing.Title === p.Title)) {
                         p.Tier = task.tier || 3;
+                        if (task.subCat) {
+                            p.SubCategory = task.subCat;
+                        }
                         results[finalCat].push(p);
                     }
                 }
@@ -547,7 +565,7 @@ async function scrape() {
         
         // Add Category and SubCategory tag to each post
         results[cat] = results[cat].map(p => {
-            const sub = classifySubCategory(cat, p.Title);
+            const sub = p.SubCategory || classifySubCategory(cat, p.Title);
             return { ...p, Category: cat, SubCategory: sub };
         });
 
