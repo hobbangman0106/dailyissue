@@ -90,6 +90,7 @@ const TASKS = [
     // 인문/교양
     { cat: '유튜브', subCat: '인문/교양', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCvW8norVMTLt7QN-s2pS4Bw', isXml: true, tier: 1, channelName: '조승연의 탐구생활' },
     { cat: '유튜브', subCat: '인문/교양', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCcYk_KPZZMLv_bcaSAWSSxA', isXml: true, tier: 1, channelName: '지식브런치' },
+    { cat: '유튜브', subCat: '인문/교양', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC-swf20n5xdKW0waeLpXPFQ', isXml: true, tier: 1, channelName: 'EBS' },
     // 여행
     { cat: '유튜브', subCat: '여행', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCNhofiqfw5nl-NeDJkXtPvw', isXml: true, tier: 1, channelName: '빠니보틀' },
     { cat: '유튜브', subCat: '여행', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UClRNDVO8093rmRTtLe4GEPw', isXml: true, tier: 1, channelName: '곽튜브' },
