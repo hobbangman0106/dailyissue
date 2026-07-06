@@ -77,6 +77,7 @@ const TASKS = [
     { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCFCtZJTuJhE18k8IXwmXTYQ', isXml: true, tier: 1, channelName: 'EBS 다큐멘터리' },
     { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCF8AeLlUbEpKju6v1H6p8Eg', isXml: true, tier: 1, channelName: '한국경제TV' },
     { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsJ6RuBiTVWRX156FVbeaGg', isXml: true, tier: 1, channelName: '슈카월드' },
+    { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCGCGxsbmG_9nincyI7xypow', isXml: true, tier: 1, channelName: '한경 코리아마켓' },
     // 과학
     { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCMc4EmuDxnHPc6pgGW-QWvQ', isXml: true, tier: 1, channelName: '안될과학' },
     { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCIk1-yPCTnFuzfgu4gyfWqw', isXml: true, tier: 1, channelName: '과학드림' },
@@ -328,7 +329,7 @@ function tieredShuffle(posts, seed) {
 }
 
 function interleavedAllShuffle(posts, seed) {
-    const keywords = ['증시', '재테크', '주식', '부동산', '금리', '환율', '비트코인', '코인', '증권', '코스피', '코스닥', '나스닥', '예적금', '청약', '분양', '금투세', '종부세'];
+    const keywords = ['증시', '재테크', '주식', '부동산', '금리', '환율', '증권', '코스피', '코스닥', '나스닥', '예적금', '청약', '분양', '금투세', '종부세'];
     
     const highInterest = [];
     const others = [];
