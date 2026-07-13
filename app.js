@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "네이버": "#03c75a",
             "다음": "#ffcc00",
             "ZUM": "#00a5e3",
-            "Google News": "#ea4335",
+            "Google News": "#4285F4",
             "Yahoo US": "#410093",
             "YouTube": "#ff0000",
             "default": "#5c7cfa"
