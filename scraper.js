@@ -588,6 +588,9 @@ async function scrape() {
     // Deterministic 1-hour seed (e.g., 2026062219)
     const timeSeed = now.getFullYear() * 1000000 + (now.getMonth() + 1) * 10000 + now.getDate() * 100 + now.getHours();
 
+    const newsList = [];
+    const youtubeList = [];
+
     for (const cat of CATEGORIES) {
         if(cat === '전체') continue;
         
@@ -600,29 +603,52 @@ async function scrape() {
         // Apply tiered shuffle to individual category
         results[cat] = tieredShuffle(results[cat], timeSeed);
 
-        // Aggregate into '전체' with date limit for YouTube
-        let postsForAll = results[cat];
         if (cat === '유튜브') {
             const yesterdayStart = new Date(now);
             yesterdayStart.setDate(yesterdayStart.getDate() - 1);
             yesterdayStart.setHours(0, 0, 0, 0);
             
-            postsForAll = results[cat].filter(p => {
+            const filteredYt = results[cat].filter(p => {
                 if (p.Date) {
                     return new Date(p.Date) >= yesterdayStart;
                 }
                 return true;
             });
+            youtubeList.push(...filteredYt);
+        } else {
+            newsList.push(...results[cat]);
         }
-        results['전체'] = results['전체'].concat(postsForAll);
     }
 
-    // Sort '전체' feed by Date (newest first)
-    results['전체'].sort((a, b) => {
+    // Sort both lists by Date descending
+    newsList.sort((a, b) => {
         const dateA = a.Date ? new Date(a.Date) : new Date(0);
         const dateB = b.Date ? new Date(b.Date) : new Date(0);
         return dateB - dateA;
     });
+
+    youtubeList.sort((a, b) => {
+        const dateA = a.Date ? new Date(a.Date) : new Date(0);
+        const dateB = b.Date ? new Date(b.Date) : new Date(0);
+        return dateB - dateA;
+    });
+
+    // Interleave news and YouTube: 5 news articles followed by 1 YouTube video
+    const mixedAll = [];
+    let newsIdx = 0;
+    let ytIdx = 0;
+    const interval = 5;
+
+    while (newsIdx < newsList.length || ytIdx < youtubeList.length) {
+        for (let i = 0; i < interval && newsIdx < newsList.length; i++) {
+            mixedAll.push(newsList[newsIdx++]);
+        }
+        if (ytIdx < youtubeList.length) {
+            mixedAll.push(youtubeList[ytIdx++]);
+        }
+    }
+
+    results['전체'] = mixedAll;
 
     fs.writeFileSync(DATA_FILE, JSON.stringify(results, null, 2));
     fs.writeFileSync(JS_DATA_FILE, 'window.LOCAL_DATA = ' + JSON.stringify(results, null, 2) + ';');
