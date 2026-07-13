@@ -71,6 +71,13 @@ const TASKS = [
     { cat: '칼럼', portal: 'Google News', url: 'https://news.google.com/rss/search?q=%EC%82%AC%EC%85%8B+OR+%EC%B9%BC%EB%9F%BC+OR+%EB%A7%8C%ED%8F%89&hl=ko&gl=KR&ceid=KR:ko', isXml: true, tier: 3 },
 
     // --- 유튜브 (검증된 고품격 교양/지식 전문 추천 채널 RSS) ---
+    // 뉴스/시사
+    { cat: '유튜브', subCat: '뉴스/시사', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCcQTRi69dsVYHN3exePtZ1A', isXml: true, tier: 1, channelName: 'KBS뉴스' },
+    { cat: '유튜브', subCat: '뉴스/시사', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCF4Wxdo3inmxP-Y59wXDsFw', isXml: true, tier: 1, channelName: 'MBC뉴스' },
+    { cat: '유튜브', subCat: '뉴스/시사', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCkinYTS9IHqOEwR1Sze2JTw', isXml: true, tier: 1, channelName: 'SBS뉴스' },
+    { cat: '유튜브', subCat: '뉴스/시사', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsU-I-vHLiaMfV_ceaYz5rQ', isXml: true, tier: 1, channelName: 'JTBC뉴스' },
+    { cat: '유튜브', subCat: '뉴스/시사', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UChlgI3UHCOnwUGzWzbJ3H5w', isXml: true, tier: 1, channelName: 'YTN뉴스' },
+    { cat: '유튜브', subCat: '뉴스/시사', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCGMVfIVvYVJRL2bQXl1sxiw', isXml: true, tier: 1, channelName: 'OBS뉴스' },
     // 경제
     { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCOB62fKRT7b73X7tRxMuN2g', isXml: true, tier: 1, channelName: '박종훈의 지식한방' },
     { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCl_tB4AqPkkxuYcJQHz6dMw', isXml: true, tier: 1, channelName: '교양이를 부탁해' },
@@ -78,12 +85,17 @@ const TASKS = [
     { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCF8AeLlUbEpKju6v1H6p8Eg', isXml: true, tier: 1, channelName: '한국경제TV' },
     { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsJ6RuBiTVWRX156FVbeaGg', isXml: true, tier: 1, channelName: '슈카월드' },
     { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCGCGxsbmG_9nincyI7xypow', isXml: true, tier: 1, channelName: '한경 코리아마켓' },
+    { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC3p-0EWA8OXko2EUDUXAy5w', isXml: true, tier: 1, channelName: '서울경제TV' },
+    { cat: '유튜브', subCat: '경제', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCnfwIKyFYRuqZzzKBDt6JOA', isXml: true, tier: 1, channelName: '매일경제TV' },
     // 과학
     { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCMc4EmuDxnHPc6pgGW-QWvQ', isXml: true, tier: 1, channelName: '안될과학' },
     { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCIk1-yPCTnFuzfgu4gyfWqw', isXml: true, tier: 1, channelName: '과학드림' },
     { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCoCvTlU0KpNYwnMIgs7MPrA', isXml: true, tier: 1, channelName: 'boda' },
     { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsOmBJ5jPTufS7sHea1HiTw', isXml: true, tier: 1, channelName: '석군의 비밀 수납장' },
     { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC7F6UDq3gykPZHWRhrj_BDw', isXml: true, tier: 1, channelName: '사물궁이 잡학지식' },
+    { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCPECLB_-7T4WukChKqhjv8g', isXml: true, tier: 1, channelName: '내셔널지오그래픽 코리아' },
+    { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCZdBJIbJz0P9xyFipgOj1fA', isXml: true, tier: 1, channelName: 'YTN 사이언스' },
+    { cat: '유튜브', subCat: '과학', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8rKCy_tipwTEY3RdkNCKmw', isXml: true, tier: 1, channelName: '쿠르츠게작트 (한국어)' },
     // 의학/건강
     { cat: '유튜브', subCat: '의학/건강', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCF9vbHlZpz7FbOAky3fnYxw', isXml: true, tier: 1, channelName: '의학채널 비온뒤' },
     { cat: '유튜브', subCat: '의학/건강', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCedNxnMK3b2-_hzqLyo4stg', isXml: true, tier: 1, channelName: '닥터딩요' },
@@ -91,10 +103,7 @@ const TASKS = [
     { cat: '유튜브', subCat: '인문/교양', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCvW8norVMTLt7QN-s2pS4Bw', isXml: true, tier: 1, channelName: '조승연의 탐구생활' },
     { cat: '유튜브', subCat: '인문/교양', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCcYk_KPZZMLv_bcaSAWSSxA', isXml: true, tier: 1, channelName: '지식브런치' },
     { cat: '유튜브', subCat: '인문/교양', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC-swf20n5xdKW0waeLpXPFQ', isXml: true, tier: 1, channelName: 'EBS' },
-    // 여행
-    { cat: '유튜브', subCat: '여행', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCNhofiqfw5nl-NeDJkXtPvw', isXml: true, tier: 1, channelName: '빠니보틀' },
-    { cat: '유튜브', subCat: '여행', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UClRNDVO8093rmRTtLe4GEPw', isXml: true, tier: 1, channelName: '곽튜브' },
-    { cat: '유튜브', subCat: '여행', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC9gxOp_-R78phMHmv2bW_sg', isXml: true, tier: 1, channelName: '원지의 하루' }
+    { cat: '유튜브', subCat: '인문/교양', portal: 'YouTube', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC3CVLtaxfEbbgB8WHG3CyAQ', isXml: true, tier: 1, channelName: 'KBS 다큐' },
 ];
 
 function parseNaver($, url) {
@@ -564,7 +573,7 @@ async function scrape() {
                             p.SubCategory = task.subCat;
                         }
                         if (!p.Date) {
-                            p.Date = new Date(now.getTime() - idx * 1000).toISOString();
+                            p.Date = new Date(now.getTime() - idx * 15 * 60 * 1000).toISOString();
                         }
                         results[finalCat].push(p);
                     }
