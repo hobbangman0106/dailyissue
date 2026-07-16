@@ -38,10 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const isVisible = searchBarContainer.style.display === 'block';
             if (isVisible) {
                 searchBarContainer.style.display = 'none';
-                searchQuery = '';
                 searchInput.value = '';
                 if (searchClearBtn) searchClearBtn.style.display = 'none';
-                renderPosts();
             } else {
                 searchBarContainer.style.display = 'block';
                 searchInput.focus();
@@ -51,21 +49,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (searchInput) {
         searchInput.addEventListener('input', () => {
-            searchQuery = searchInput.value.trim().toLowerCase();
+            const val = searchInput.value.trim();
             if (searchClearBtn) {
-                searchClearBtn.style.display = searchQuery ? 'block' : 'none';
+                searchClearBtn.style.display = val ? 'block' : 'none';
             }
-            renderPosts();
+        });
+        searchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                const query = searchInput.value.trim();
+                if (query) {
+                    window.open('https://www.google.com/search?q=' + encodeURIComponent(query), '_blank');
+                }
+            }
         });
     }
 
     if (searchClearBtn && searchInput) {
         searchClearBtn.addEventListener('click', () => {
             searchInput.value = '';
-            searchQuery = '';
             searchClearBtn.style.display = 'none';
             searchInput.focus();
-            renderPosts();
         });
     }
     
@@ -162,23 +165,8 @@ document.addEventListener('DOMContentLoaded', () => {
             displayPosts = displayPosts.filter(p => p.SubCategory === currentSubCategory);
         }
 
-        if (searchQuery) {
-            displayPosts = displayPosts.filter(p => p.Title.toLowerCase().includes(searchQuery));
-        }
-
         if (displayPosts.length === 0) {
-            if (searchQuery) {
-                postsList.innerHTML = `
-                    <div class="empty-search-state">
-                        <i data-lucide="frown" class="empty-search-icon"></i>
-                        <div class="empty-search-text">검색 결과가 없습니다</div>
-                        <div class="empty-search-subtext">'${searchQuery}'에 대한 기사를 찾을 수 없습니다. 다른 검색어를 입력해 보세요.</div>
-                    </div>
-                `;
-                if (window.lucide) window.lucide.createIcons();
-            } else {
-                postsList.innerHTML = '<div class="empty-state">해당 카테고리에 뉴스가 없습니다.</div>';
-            }
+            postsList.innerHTML = '<div class="empty-state">해당 카테고리에 뉴스가 없습니다.</div>';
             return;
         }
 

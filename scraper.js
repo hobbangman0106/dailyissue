@@ -604,13 +604,13 @@ async function scrape() {
         results[cat] = tieredShuffle(results[cat], timeSeed);
 
         if (cat === '유튜브') {
-            const yesterdayStart = new Date(now);
-            yesterdayStart.setDate(yesterdayStart.getDate() - 1);
-            yesterdayStart.setHours(0, 0, 0, 0);
+            const oneWeekAgo = new Date(now);
+            oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+            oneWeekAgo.setHours(0, 0, 0, 0);
             
             const filteredYt = results[cat].filter(p => {
                 if (p.Date) {
-                    return new Date(p.Date) >= yesterdayStart;
+                    return new Date(p.Date) >= oneWeekAgo;
                 }
                 return true;
             });
