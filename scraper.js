@@ -582,6 +582,34 @@ async function scrape() {
             console.log(`  Scraped ${posts.length} posts.`);
         } catch (error) {
             console.error(`Failed to scrape ${task.portal} - ${task.cat}: ${error.message}`);
+            // Defensive Cash Fallback: Recover from existing data.json to prevent disappearing entries
+            if (fs.existsSync(DATA_FILE)) {
+                try {
+                    const existingData = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+                    let fallbackPosts = [];
+                    for (const catKey of Object.keys(existingData)) {
+                        const postsInCat = existingData[catKey] || [];
+                        let matched = [];
+                        if (task.portal === 'YouTube') {
+                            matched = postsInCat.filter(p => p.Portal === 'YouTube' && p.Title && p.Title.startsWith(`[${task.channelName}]`));
+                        } else {
+                            matched = postsInCat.filter(p => p.Portal === task.portal && p.Category === task.cat);
+                        }
+                        fallbackPosts.push(...matched);
+                    }
+                    if (fallbackPosts.length > 0) {
+                        console.log(`  -> Recovered ${fallbackPosts.length} cached posts for fallback.`);
+                        fallbackPosts.forEach(p => {
+                            const targetCat = p.Category || task.cat;
+                            if (results[targetCat] && !results[targetCat].find(existing => existing.Title === p.Title)) {
+                                results[targetCat].push(p);
+                            }
+                        });
+                    }
+                } catch (e) {
+                    console.error('Failed to read fallback cache:', e.message);
+                }
+            }
         }
     }
 
