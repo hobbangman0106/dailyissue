@@ -502,6 +502,106 @@ function classifySubCategory(category, title) {
     return '';
 }
 
+function calculateRankingScores(newsList, youtubeList, now) {
+    // 1. Common stop words / media terms to ignore during keyword extraction
+    const STOP_WORDS = new Set([
+        '포토', '속보', '영상', '오늘', '종합', '뉴스', '단독', '이유', '논란', '어떻게',
+        '것', '등', '때문', '오후', '오전', '내일', '어제', '지난', '올해', '이번',
+        '대해', '위해', '통해', '관련', '사진', '현장', '그래픽', '인사', '부고',
+        '전국', '주요', '브리핑', '전문', '직격', '기자', '보도', '뉴스룸', '스페셜',
+        '헤드라인', '라이브', '공개', '발표', '시작', '주목', '확인', '진짜',
+        // User preference: exclude coin/crypto from popularity boosting
+        '코인', '비트코인', '가상화폐', '암호화폐', '이더리움', '업비트', '빗썸', '리플'
+    ]);
+
+    // 2. Count cross-portal keyword frequencies
+    const keywordFrequency = {};
+    newsList.forEach(p => {
+        const words = (p.Title || '').match(/[가-힣]{2,}/g) || [];
+        const uniqueWords = new Set(words.filter(w => !STOP_WORDS.has(w)));
+        uniqueWords.forEach(w => {
+            keywordFrequency[w] = (keywordFrequency[w] || 0) + 1;
+        });
+    });
+
+    // 3. Identify Hot Keywords (occurring across >= 3 articles)
+    const hotKeywords = {};
+    for (const [kw, count] of Object.entries(keywordFrequency)) {
+        if (count >= 3) {
+            // Hotness bonus proportional to frequency (max 25 pts per keyword)
+            hotKeywords[kw] = Math.min(25, count * 3);
+        }
+    }
+
+    // High public interest evergreen topics (economy, stock, real estate, science, tech)
+    const evergreenKeywords = {
+        '증시': 12, '주식': 12, '부동산': 12, '금리': 15, '환율': 12, '코스피': 12,
+        '청약': 10, '아파트': 10, '대출': 10, '물가': 10, '세금': 10, '절세': 10,
+        '우주': 10, '반도체': 12, '인공지능': 12, 'AI': 12, '전망': 8
+    };
+
+    // 4. Calculate score for each news post
+    newsList.forEach(p => {
+        // A. Portal Rank Score (100 down to 0)
+        const rank = typeof p.OriginalRank === 'number' ? p.OriginalRank : 20;
+        const rankScore = Math.max(0, 100 - rank * 2.5);
+
+        // B. Hot Keyword & Evergreen Topic Bonus
+        let keywordBonus = 0;
+        const title = p.Title || '';
+        for (const [kw, boost] of Object.entries(hotKeywords)) {
+            if (title.includes(kw)) {
+                keywordBonus += boost;
+            }
+        }
+        for (const [kw, boost] of Object.entries(evergreenKeywords)) {
+            if (title.includes(kw)) {
+                keywordBonus += boost;
+            }
+        }
+        keywordBonus = Math.min(50, keywordBonus);
+
+        // C. Time Decay Penalty (older articles lose points gradually)
+        let decayPenalty = 0;
+        if (p.Date) {
+            const ageHours = Math.max(0, (now.getTime() - new Date(p.Date).getTime()) / (1000 * 60 * 60));
+            decayPenalty = Math.min(40, ageHours * 2.5);
+        }
+
+        // D. Tier Bonus
+        let tierBonus = 0;
+        if (p.Tier === 1) tierBonus = 15;
+        else if (p.Tier === 2) tierBonus = 8;
+
+        p.Score = Math.round((rankScore + keywordBonus + tierBonus - decayPenalty) * 10) / 10;
+    });
+
+    // 5. Calculate score for YouTube posts
+    youtubeList.forEach(p => {
+        let keywordBonus = 0;
+        const title = p.Title || '';
+        for (const [kw, boost] of Object.entries(hotKeywords)) {
+            if (title.includes(kw)) {
+                keywordBonus += boost;
+            }
+        }
+        for (const [kw, boost] of Object.entries(evergreenKeywords)) {
+            if (title.includes(kw)) {
+                keywordBonus += boost;
+            }
+        }
+        keywordBonus = Math.min(40, keywordBonus);
+
+        let decayPenalty = 0;
+        if (p.Date) {
+            const ageDays = Math.max(0, (now.getTime() - new Date(p.Date).getTime()) / (1000 * 60 * 60 * 24));
+            decayPenalty = Math.min(30, ageDays * 4);
+        }
+
+        p.Score = Math.round((80 + keywordBonus - decayPenalty) * 10) / 10;
+    });
+}
+
 async function scrape() {
     const now = new Date();
     let results = {};
@@ -569,6 +669,7 @@ async function scrape() {
                     
                     if (!results[finalCat].find(existing => existing.Title === p.Title)) {
                         p.Tier = task.tier || 3;
+                        p.OriginalRank = idx;
                         if (task.subCat) {
                             p.SubCategory = task.subCat;
                         }
@@ -602,6 +703,7 @@ async function scrape() {
                         fallbackPosts.forEach(p => {
                             const targetCat = p.Category || task.cat;
                             if (results[targetCat] && !results[targetCat].find(existing => existing.Title === p.Title)) {
+                                if (typeof p.OriginalRank === 'undefined') p.OriginalRank = 15;
                                 results[targetCat].push(p);
                             }
                         });
@@ -628,9 +730,6 @@ async function scrape() {
             return { ...p, Category: cat, SubCategory: sub };
         });
 
-        // Apply tiered shuffle to individual category
-        results[cat] = tieredShuffle(results[cat], timeSeed);
-
         if (cat === '유튜브') {
             const oneWeekAgo = new Date(now);
             oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
@@ -648,17 +747,28 @@ async function scrape() {
         }
     }
 
-    // Sort both lists by Date descending
+    // Calculate ranking scores based on portal rank, cross-portal hot topics, and time decay
+    calculateRankingScores(newsList, youtubeList, now);
+
+    // Sort individual categories by Score descending
+    for (const cat of CATEGORIES) {
+        if (cat === '전체' || cat === '유튜브') continue;
+        results[cat].sort((a, b) => {
+            if ((b.Score || 0) !== (a.Score || 0)) return (b.Score || 0) - (a.Score || 0);
+            return new Date(b.Date || 0) - new Date(a.Date || 0);
+        });
+    }
+
+    // Sort newsList by Score descending (highest popularity/interest first)
     newsList.sort((a, b) => {
-        const dateA = a.Date ? new Date(a.Date) : new Date(0);
-        const dateB = b.Date ? new Date(b.Date) : new Date(0);
-        return dateB - dateA;
+        if ((b.Score || 0) !== (a.Score || 0)) return (b.Score || 0) - (a.Score || 0);
+        return new Date(b.Date || 0) - new Date(a.Date || 0);
     });
 
+    // Sort youtubeList by Score descending
     youtubeList.sort((a, b) => {
-        const dateA = a.Date ? new Date(a.Date) : new Date(0);
-        const dateB = b.Date ? new Date(b.Date) : new Date(0);
-        return dateB - dateA;
+        if ((b.Score || 0) !== (a.Score || 0)) return (b.Score || 0) - (a.Score || 0);
+        return new Date(b.Date || 0) - new Date(a.Date || 0);
     });
 
     // Interleave news and YouTube: 5 news articles followed by 1 YouTube video
