@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠', '칼럼', '유튜브'];
+    const CATEGORIES = ['증시/지표', '전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠', '칼럼', '유튜브'];
     const SUB_CATEGORIES = {
         '경제': ['최신뉴스', '생활 경제', '부동산', '금융/증권', '산업/기업', '취업/창업', '국제경제', '경제 일반'],
         '사회': ['최신뉴스', '사건/사고', '교육/학교', '교통/지역', '인권/복지', '여성/노동', '환경', '미디어', '종교', '인물', '사회 일반'],
@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', () => {
         '유튜브': ['최신뉴스', '뉴스/시사', '경제', '과학', '의학/건강', '인문/교양']
     };
 
-    console.log("=== App v4.2.0 Loaded ===");
+    console.log("=== App v4.3.0 Loaded ===");
     console.log("Categories defined:", CATEGORIES);
 
     // Persistent category state across refreshes and back navigation
-    let currentCategory = sessionStorage.getItem('active_category') || '전체';
+    let currentCategory = sessionStorage.getItem('active_category') || '증시/지표';
     let currentSubCategory = sessionStorage.getItem('active_subcategory') || '최신뉴스';
     let data = window.LOCAL_DATA || {};
     let searchQuery = '';
@@ -155,9 +155,114 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function renderEconomicDashboard() {
+        const dashboard = data['증시/지표'];
+        if (!dashboard || !dashboard.sections || dashboard.sections.length === 0) {
+            postsList.innerHTML = '<div class="empty-state">경제 지표 데이터를 불러오는 중입니다...</div>';
+            return;
+        }
+
+        let timeStr = '';
+        if (dashboard.updatedAt) {
+            try {
+                const d = new Date(dashboard.updatedAt);
+                const year = d.getFullYear();
+                const month = String(d.getMonth() + 1).padStart(2, '0');
+                const day = String(d.getDate()).padStart(2, '0');
+                const hours = String(d.getHours()).padStart(2, '0');
+                const minutes = String(d.getMinutes()).padStart(2, '0');
+                timeStr = `${year}.${month}.${day} ${hours}:${minutes} 기준`;
+            } catch(e) {
+                timeStr = dashboard.updatedAt;
+            }
+        }
+
+        let html = `
+            <div class="db-container">
+                <div class="db-header">
+                    <h2>전체 경제 지표 대시보드</h2>
+                    <span class="db-timestamp">
+                        <i data-lucide="clock" class="clock-icon"></i>
+                        <span>${timeStr || '실시간 연동'}</span>
+                    </span>
+                </div>
+                <div class="db-grid">
+        `;
+
+        dashboard.sections.forEach(section => {
+            html += `
+                <div class="db-card">
+                    <h3 class="db-card-title">${section.title}</h3>
+                    <div class="db-card-content">
+                        <table class="db-table">
+                            <thead>
+                                <tr>
+                                    <th style="text-align: left;">지표명</th>
+                                    <th style="text-align: right;">현재가</th>
+                                    <th style="text-align: right;">전일대비</th>
+                                    <th style="text-align: right;">등락률</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+            `;
+
+            section.items.forEach(item => {
+                const isUp = item.direction === '상승' || (String(item.changeRate).startsWith('+') && !String(item.changeRate).startsWith('+-')) || (parseFloat(item.changeRate) > 0 && !String(item.change).startsWith('-'));
+                const isDown = item.direction === '하락' || String(item.changeRate).startsWith('-') || String(item.change).startsWith('-');
+                
+                let colorClass = 'val-stable';
+                let icon = '-';
+                if (isUp) {
+                    colorClass = 'val-up';
+                    icon = '▲';
+                } else if (isDown) {
+                    colorClass = 'val-down';
+                    icon = '▼';
+                }
+
+                let cleanChange = String(item.change || '0').replace(/^[+\-]/, '');
+                let cleanRate = String(item.changeRate || '0%').replace(/^[+\-]/, '');
+                if (!cleanRate.endsWith('%')) cleanRate += '%';
+
+                html += `
+                    <tr>
+                        <td class="db-name">${item.name}</td>
+                        <td class="db-value" style="text-align: right;">${item.price}</td>
+                        <td class="db-change ${colorClass}" style="text-align: right;">
+                            <span class="db-icon">${icon}</span> ${cleanChange}
+                        </td>
+                        <td class="db-change ${colorClass}" style="text-align: right;">
+                            <span class="db-percent">${isDown ? '-' : isUp ? '+' : ''}${cleanRate}</span>
+                        </td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+        });
+
+        html += `
+                </div>
+            </div>
+        `;
+
+        postsList.innerHTML = html;
+        if (window.lucide) window.lucide.createIcons();
+    }
+
     function renderPosts() {
         if (!postsList) return;
         
+        if (currentCategory === '증시/지표') {
+            renderEconomicDashboard();
+            return;
+        }
+
         let html = '';
         
         let displayPosts = data[currentCategory] || [];

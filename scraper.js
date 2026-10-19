@@ -10,8 +10,8 @@ const JS_DATA_FILE = 'data.js';
 const PC_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
-// Categories including YouTube
-const CATEGORIES = ['전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠', '칼럼', '유튜브'];
+// Categories including Economic Dashboard and YouTube
+const CATEGORIES = ['증시/지표', '전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠', '칼럼', '유튜브'];
 
 const TASKS = [
     // --- 정치 ---
@@ -602,10 +602,160 @@ function calculateRankingScores(newsList, youtubeList, now) {
     });
 }
 
+async function fetchEconomicDashboard() {
+    console.log('Fetching Economic Dashboard data...');
+    const dashboard = {
+        updatedAt: new Date().toISOString(),
+        sections: [
+            {
+                title: '국내외 주요 증시',
+                id: 'stocks',
+                items: []
+            },
+            {
+                title: '주요 선물 지수',
+                id: 'futures',
+                items: []
+            },
+            {
+                title: '환율 (FX)',
+                id: 'exchange',
+                items: []
+            },
+            {
+                title: '현물 / 원자재',
+                id: 'commodities',
+                items: []
+            },
+            {
+                title: '금리 & 매크로 지표',
+                id: 'interest',
+                items: []
+            }
+        ]
+    };
+
+    // 1. Fetch Naver home majors (KOSPI, KOSDAQ, Dow, Nasdaq, Dow Futures, Nasdaq 100 Futures)
+    try {
+        const res = await axios.get('https://m.stock.naver.com/api/home/majors', {
+            headers: { 'User-Agent': PC_UA },
+            httpsAgent,
+            timeout: 6000
+        });
+        const majors = res.data.homeMajors || [];
+        majors.forEach(m => {
+            const item = {
+                name: m.name,
+                code: m.itemCode || '',
+                price: m.closePrice,
+                change: m.compareToPreviousClosePrice,
+                changeRate: m.fluctuationsRatio,
+                direction: m.compareToPreviousPrice ? m.compareToPreviousPrice.text : ''
+            };
+            if (m.name.includes('선물')) {
+                dashboard.sections[1].items.push(item);
+            } else if (['코스피', '코스닥', '다우존스', '나스닥 종합'].includes(m.name)) {
+                dashboard.sections[0].items.push(item);
+            }
+        });
+    } catch(e) {
+        console.error('Naver majors error:', e.message);
+    }
+
+    // 2. Fetch Daum Exchange rates (USD, JPY, EUR, CNY)
+    try {
+        const res = await axios.get('https://finance.daum.net/api/exchanges/summaries', {
+            headers: {
+                'User-Agent': PC_UA,
+                'Referer': 'https://finance.daum.net/exchanges'
+            },
+            httpsAgent,
+            timeout: 6000
+        });
+        const list = res.data.data || [];
+        const targets = [
+            { symbol: 'FRX.KRWUSD', name: '원/달러 (USD)' },
+            { symbol: 'FRX.KRWJPY', name: '원/엔 (100 JPY)' },
+            { symbol: 'FRX.KRWEUR', name: '원/유로 (EUR)' },
+            { symbol: 'FRX.KRWCNY', name: '원/위안 (CNY)' }
+        ];
+        targets.forEach(t => {
+            const found = list.find(x => x.symbolCode === t.symbol);
+            if (found) {
+                const dir = found.change === 'RISE' ? '상승' : found.change === 'FALL' ? '하락' : '보합';
+                dashboard.sections[2].items.push({
+                    name: t.name,
+                    price: found.basePrice.toLocaleString(),
+                    change: (dir === '하락' ? '-' : '+') + found.changePrice.toFixed(2),
+                    changeRate: (found.changeRate * 100).toFixed(2),
+                    direction: dir
+                });
+            }
+        });
+    } catch(e) {
+        console.error('Daum exchange error:', e.message);
+    }
+
+    // 3. Fetch Yahoo Commodities & Macro (S&P 500, S&P 500 Futures, Dollar Index, Gold, WTI, Silver, US 10Y)
+    const yahooSymbols = [
+        { sym: '^GSPC', name: 'S&P 500', section: 0 },
+        { sym: 'ES=F', name: 'S&P 500 선물', section: 1 },
+        { sym: 'DX-Y.NYB', name: '달러 인덱스 (DXY)', section: 2 },
+        { sym: 'GC=F', name: '국제 금 (Gold $/oz)', section: 3 },
+        { sym: 'CL=F', name: 'WTI 원유 ($/배럴)', section: 3 },
+        { sym: 'SI=F', name: '국제 은 (Silver)', section: 3 },
+        { sym: '^TNX', name: '미국 국채 10년물 금리', section: 4 }
+    ];
+
+    for (const y of yahooSymbols) {
+        try {
+            const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(y.sym)}?interval=1d&range=2d`;
+            const res = await axios.get(url, {
+                headers: { 'User-Agent': PC_UA },
+                httpsAgent,
+                timeout: 6000
+            });
+            const meta = res.data.chart.result[0].meta;
+            const price = meta.regularMarketPrice;
+            const prev = meta.chartPreviousClose || meta.previousClose;
+            const change = price - prev;
+            const changePct = (change / prev) * 100;
+            const dir = change > 0 ? '상승' : change < 0 ? '하락' : '보합';
+
+            dashboard.sections[y.section].items.push({
+                name: y.name,
+                price: price >= 100 ? price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : price.toFixed(2) + (y.sym === '^TNX' ? '%' : ''),
+                change: (change > 0 ? '+' : '') + change.toFixed(2),
+                changeRate: (changePct > 0 ? '+' : '') + changePct.toFixed(2) + '%',
+                direction: dir
+            });
+        } catch(e) {
+            console.error(`Yahoo ${y.sym} error:`, e.message);
+        }
+    }
+
+    // Defensive fallback: If all sections are empty, recover previous dashboard from data.json
+    const totalItems = dashboard.sections.reduce((acc, s) => acc + s.items.length, 0);
+    if (totalItems === 0 && fs.existsSync(DATA_FILE)) {
+        try {
+            const existing = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+            if (existing['증시/지표']) {
+                console.log('Recovered previous economic dashboard from cache.');
+                return existing['증시/지표'];
+            }
+        } catch(e) {}
+    }
+
+    return dashboard;
+}
+
 async function scrape() {
     const now = new Date();
     let results = {};
-    CATEGORIES.forEach(c => results[c] = []);
+    CATEGORIES.forEach(c => results[c] = (c === '증시/지표' ? null : []));
+
+    // Fetch comprehensive economic dashboard data
+    results['증시/지표'] = await fetchEconomicDashboard();
 
     for (const task of TASKS) {
         try {
@@ -722,7 +872,7 @@ async function scrape() {
     const youtubeList = [];
 
     for (const cat of CATEGORIES) {
-        if(cat === '전체') continue;
+        if(cat === '전체' || cat === '증시/지표') continue;
         
         // Add Category and SubCategory tag to each post
         results[cat] = results[cat].map(p => {
@@ -752,7 +902,7 @@ async function scrape() {
 
     // Sort individual categories by Score descending
     for (const cat of CATEGORIES) {
-        if (cat === '전체' || cat === '유튜브') continue;
+        if (cat === '전체' || cat === '유튜브' || cat === '증시/지표') continue;
         results[cat].sort((a, b) => {
             if ((b.Score || 0) !== (a.Score || 0)) return (b.Score || 0) - (a.Score || 0);
             return new Date(b.Date || 0) - new Date(a.Date || 0);
