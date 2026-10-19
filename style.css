@@ -287,10 +287,6 @@ body {
     gap: 20px;
 }
 
-.db-card:nth-child(5) {
-    grid-column: span 2;
-}
-
 .db-card {
     background: #ffffff;
     border: 1px solid var(--border-color);
@@ -438,10 +434,6 @@ body {
     .db-grid {
         grid-template-columns: 1fr;
         gap: 16px;
-    }
-    
-    .db-card:nth-child(5) {
-        grid-column: span 1;
     }
     
     .db-card {
@@ -680,4 +672,208 @@ body {
 .empty-search-subtext {
     font-size: 0.9rem;
 }
+
+/* Industry Indicators Hub Styles */
+.industry-hub-container {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 2px dashed rgba(0, 0, 0, 0.08);
+}
+
+.industry-hub-header {
+    margin-bottom: 24px;
+}
+
+.industry-hub-title-box h2 {
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.industry-hub-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-top: 6px;
+    line-height: 1.55;
+    word-break: keep-all;
+}
+
+.industry-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.industry-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: var(--transition);
+}
+
+.industry-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    border-color: var(--border-hover);
+}
+
+.industry-card-header {
+    margin-bottom: 16px;
+}
+
+.industry-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.industry-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.industry-icon {
+    width: 20px;
+    height: 20px;
+    color: #111;
+    stroke-width: 2.2px;
+}
+
+.industry-stocks-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    margin-bottom: 10px;
+}
+
+.badge-label {
+    font-weight: 700;
+    color: #475569;
+}
+
+.badge-stocks {
+    font-weight: 600;
+    color: #0284c7;
+}
+
+.industry-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    word-break: keep-all;
+}
+
+.industry-indicators-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.industry-indicator-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 14px;
+    transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.industry-indicator-box:hover {
+    background: #f1f5f9;
+    border-color: #cbd5e1;
+}
+
+.ind-box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+.ind-name {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    letter-spacing: -0.3px;
+}
+
+.ind-source-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #0f172a;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    padding: 3px 8px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.ind-source-btn:hover {
+    background: #0f172a;
+    color: #ffffff;
+    border-color: #0f172a;
+}
+
+.ind-ext-icon {
+    width: 12px;
+    height: 12px;
+    stroke-width: 2.2px;
+}
+
+.ind-role, .ind-impact, .ind-benchmark {
+    font-size: 0.8rem;
+    line-height: 1.45;
+    margin-top: 3px;
+    word-break: keep-all;
+}
+
+.ind-role {
+    color: #334155;
+}
+
+.ind-impact {
+    color: #0369a1;
+}
+
+.ind-benchmark {
+    color: #64748b;
+}
+
+@media (max-width: 768px) {
+    .industry-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .industry-hub-title-box h2 {
+        font-size: 1.25rem;
+    }
+    .industry-card {
+        padding: 16px;
+    }
+}
+
 

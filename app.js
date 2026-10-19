@@ -207,8 +207,19 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
             section.items.forEach(item => {
-                const isUp = item.direction === '상승' || (String(item.changeRate).startsWith('+') && !String(item.changeRate).startsWith('+-')) || (parseFloat(item.changeRate) > 0 && !String(item.change).startsWith('-'));
-                const isDown = item.direction === '하락' || String(item.changeRate).startsWith('-') || String(item.change).startsWith('-');
+                let isUp = false;
+                let isDown = false;
+                if (item.direction === '상승') {
+                    isUp = true;
+                } else if (item.direction === '하락') {
+                    isDown = true;
+                } else {
+                    if (String(item.change).startsWith('+') || (parseFloat(item.changeRate) > 0 && !String(item.change).startsWith('-'))) {
+                        isUp = true;
+                    } else if (String(item.change).startsWith('-') || parseFloat(item.changeRate) < 0) {
+                        isDown = true;
+                    }
+                }
                 
                 let colorClass = 'val-stable';
                 let icon = '-';
@@ -248,6 +259,72 @@ document.addEventListener('DOMContentLoaded', () => {
 
         html += `
                 </div>
+        `;
+
+        // Render Industry-Specific Earnings Indicators Hub
+        if (dashboard.industries && dashboard.industries.length > 0) {
+            html += `
+                <div class="industry-hub-container">
+                    <div class="industry-hub-header">
+                        <div class="industry-hub-title-box">
+                            <h2>🏭 기업 실적 예측 산업별 핵심 지표 & 원본 데이터</h2>
+                            <p class="industry-hub-subtitle">
+                                한국 주력 제조업 및 수출 기업의 마진 스프레드, 물류 운임, 원자재 가격 및 <strong>공식 원본 데이터 차트</strong>를 실시간으로 확인하실 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="industry-grid">
+            `;
+
+            dashboard.industries.forEach(ind => {
+                html += `
+                    <div class="industry-card">
+                        <div class="industry-card-header">
+                            <div class="industry-title-row">
+                                <h3 class="industry-title">
+                                    <i data-lucide="${ind.icon || 'activity'}" class="industry-icon"></i>
+                                    <span>${ind.sector}</span>
+                                </h3>
+                            </div>
+                            <div class="industry-stocks-badge">
+                                <span class="badge-label">주요 관련주</span>
+                                <span class="badge-stocks">${ind.relatedStocks}</span>
+                            </div>
+                            <p class="industry-desc">${ind.description}</p>
+                        </div>
+                        <div class="industry-indicators-list">
+                `;
+
+                ind.indicators.forEach(item => {
+                    html += `
+                        <div class="industry-indicator-box">
+                            <div class="ind-box-top">
+                                <span class="ind-name">${item.name}</span>
+                                <a href="${item.sourceUrl}" target="_blank" rel="noopener noreferrer" class="ind-source-btn">
+                                    <span>${item.sourceName}</span>
+                                    <i data-lucide="external-link" class="ind-ext-icon"></i>
+                                </a>
+                            </div>
+                            <div class="ind-role"><strong>역할:</strong> ${item.role}</div>
+                            <div class="ind-impact"><strong>실적 영향:</strong> ${item.impact}</div>
+                            <div class="ind-benchmark"><strong>판단 기준:</strong> ${item.benchmark}</div>
+                        </div>
+                    `;
+                });
+
+                html += `
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `
+                    </div>
+                </div>
+            `;
+        }
+
+        html += `
             </div>
         `;
 

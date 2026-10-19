@@ -603,7 +603,7 @@ function calculateRankingScores(newsList, youtubeList, now) {
 }
 
 async function fetchEconomicDashboard() {
-    console.log('Fetching Economic Dashboard data...');
+    console.log('Fetching Comprehensive Economic Dashboard data...');
     const dashboard = {
         updatedAt: new Date().toISOString(),
         sections: [
@@ -623,13 +623,28 @@ async function fetchEconomicDashboard() {
                 items: []
             },
             {
-                title: '현물 / 원자재',
+                title: '현물 & 에너지 원자재',
                 id: 'commodities',
                 items: []
             },
             {
-                title: '금리 & 매크로 지표',
-                id: 'interest',
+                title: '주요국 국채 금리 (10년물)',
+                id: 'bonds',
+                items: []
+            },
+            {
+                title: '가상자산 (Crypto)',
+                id: 'crypto',
+                items: []
+            },
+            {
+                title: '농산물 & 곡물',
+                id: 'agriculture',
+                items: []
+            },
+            {
+                title: '해운 물류 & 경기·심리 지표',
+                id: 'logistics_sentiment',
                 items: []
             }
         ]
@@ -696,15 +711,123 @@ async function fetchEconomicDashboard() {
         console.error('Daum exchange error:', e.message);
     }
 
-    // 3. Fetch Yahoo Commodities & Macro (S&P 500, S&P 500 Futures, Dollar Index, Gold, WTI, Silver, US 10Y)
+    // 3. Upbit Crypto (BTC, ETH in KRW)
+    try {
+        const res = await axios.get('https://api.upbit.com/v1/ticker?markets=KRW-BTC,KRW-ETH', {
+            headers: { 'User-Agent': PC_UA },
+            timeout: 5000
+        });
+        const coinMap = {
+            'KRW-BTC': '비트코인 (BTC/KRW)',
+            'KRW-ETH': '이더리움 (ETH/KRW)'
+        };
+        res.data.forEach(c => {
+            const dir = c.change === 'RISE' ? '상승' : c.change === 'FALL' ? '하락' : '보합';
+            const changeVal = c.change_price * (dir === '하락' ? -1 : 1);
+            const rateVal = (c.change_rate * 100 * (dir === '하락' ? -1 : 1)).toFixed(2);
+            dashboard.sections[5].items.push({
+                name: coinMap[c.market] || c.market,
+                price: c.trade_price.toLocaleString() + '원',
+                change: (changeVal > 0 ? '+' : '') + changeVal.toLocaleString() + '원',
+                changeRate: (rateVal > 0 ? '+' : '') + rateVal + '%',
+                direction: dir
+            });
+        });
+    } catch(e) {
+        console.error('Upbit error:', e.message);
+    }
+
+    // 4. CNBC Major Sovereign Bonds (US, Korea, Japan, Germany, UK, China 10Y)
+    try {
+        const cnbcSymbols = [
+            { sym: 'US10Y', name: '미국 국채 10년물' },
+            { sym: 'KR10Y', name: '한국 국채 10년물' },
+            { sym: 'JP10Y', name: '일본 국채 10년물' },
+            { sym: 'DE10Y', name: '독일 국채 10년물 (분트)' },
+            { sym: 'GB10Y', name: '영국 국채 10년물 (길트)' },
+            { sym: 'CN10Y', name: '중국 국채 10년물' }
+        ];
+        const symQuery = cnbcSymbols.map(s => s.sym).join('|');
+        const cnbcUrl = `https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=${symQuery}&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json`;
+        const res = await axios.get(cnbcUrl, {
+            headers: { 'User-Agent': PC_UA },
+            timeout: 5000
+        });
+        const quotes = res.data.FormattedQuoteResult.FormattedQuote || [];
+        cnbcSymbols.forEach(s => {
+            const q = quotes.find(item => item.symbol === s.sym);
+            if (q && q.last) {
+                const dir = q.changetype === 'UP' ? '상승' : q.changetype === 'DOWN' ? '하락' : '보합';
+                dashboard.sections[4].items.push({
+                    name: s.name,
+                    price: q.last.endsWith('%') ? q.last : q.last + '%',
+                    change: q.change || '0',
+                    changeRate: q.change_pct ? (q.change_pct.endsWith('%') ? q.change_pct : q.change_pct + '%') : '0%',
+                    direction: dir
+                });
+            }
+        });
+    } catch(e) {
+        console.error('CNBC Bonds error:', e.message);
+    }
+
+    // 5. Baltic Dry Index (BDI) from TradingEconomics
+    try {
+        const res = await axios.get('https://tradingeconomics.com/commodity/baltic', {
+            headers: { 'User-Agent': PC_UA },
+            timeout: 6000
+        });
+        const $ = cheerio.load(res.data);
+        let bdiPrice = '', bdiChange = '', bdiRate = '';
+        $('#market tr, .table tr').each((i, el) => {
+            const txt = $(el).text().replace(/\s+/g, ' ').trim();
+            if (txt.includes('Baltic Dry') && !bdiPrice) {
+                const parts = txt.split(' ');
+                if (parts.length >= 5) {
+                    bdiPrice = parts[2];
+                    bdiChange = parts[3];
+                    bdiRate = parts[4];
+                }
+            }
+        });
+        if (bdiPrice) {
+            const isDown = bdiChange.startsWith('-');
+            const isUp = bdiChange.startsWith('+') || (!isDown && parseFloat(bdiChange) > 0);
+            dashboard.sections[7].items.push({
+                name: '발틱 운임 지수 (BDI)',
+                price: bdiPrice,
+                change: bdiChange,
+                changeRate: bdiRate,
+                direction: isUp ? '상승' : isDown ? '하락' : '보합'
+            });
+        }
+    } catch(e) {
+        console.error('Baltic Dry error:', e.message);
+    }
+
+    // 6. Yahoo Commodities, Equities, Agriculture, Logistics, Sentiment
     const yahooSymbols = [
+        // S&P 500 & Futures
         { sym: '^GSPC', name: 'S&P 500', section: 0 },
         { sym: 'ES=F', name: 'S&P 500 선물', section: 1 },
+        // FX
         { sym: 'DX-Y.NYB', name: '달러 인덱스 (DXY)', section: 2 },
+        // Commodities & Energy
         { sym: 'GC=F', name: '국제 금 (Gold $/oz)', section: 3 },
         { sym: 'CL=F', name: 'WTI 원유 ($/배럴)', section: 3 },
-        { sym: 'SI=F', name: '국제 은 (Silver)', section: 3 },
-        { sym: '^TNX', name: '미국 국채 10년물 금리', section: 4 }
+        { sym: 'SI=F', name: '국제 은 (Silver $/oz)', section: 3 },
+        { sym: 'HG=F', name: '국제 구리 (닥터 코퍼)', section: 3 },
+        { sym: 'NG=F', name: '천연가스 ($/MMBtu)', section: 3 },
+        // Crypto USD
+        { sym: 'BTC-USD', name: '비트코인 (BTC/USD)', section: 5 },
+        // Agriculture & Grains
+        { sym: 'ZC=F', name: '국제 옥수수 (Corn)', section: 6 },
+        { sym: 'ZS=F', name: '국제 대두 (Soybeans)', section: 6 },
+        { sym: 'ZW=F', name: '국제 소맥 (Wheat)', section: 6 },
+        // Logistics & Sentiment
+        { sym: 'BDRY', name: '해운 운임 ETF (BDRY)', section: 7 },
+        { sym: '^SOX', name: '필라델피아 반도체', section: 7 },
+        { sym: '^VIX', name: 'VIX 변동성 (공포지수)', section: 7 }
     ];
 
     for (const y of yahooSymbols) {
@@ -713,7 +836,7 @@ async function fetchEconomicDashboard() {
             const res = await axios.get(url, {
                 headers: { 'User-Agent': PC_UA },
                 httpsAgent,
-                timeout: 6000
+                timeout: 5000
             });
             const meta = res.data.chart.result[0].meta;
             const price = meta.regularMarketPrice;
@@ -724,7 +847,7 @@ async function fetchEconomicDashboard() {
 
             dashboard.sections[y.section].items.push({
                 name: y.name,
-                price: price >= 100 ? price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : price.toFixed(2) + (y.sym === '^TNX' ? '%' : ''),
+                price: price >= 100 ? price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : price.toFixed(2),
                 change: (change > 0 ? '+' : '') + change.toFixed(2),
                 changeRate: (changePct > 0 ? '+' : '') + changePct.toFixed(2) + '%',
                 direction: dir
@@ -733,6 +856,250 @@ async function fetchEconomicDashboard() {
             console.error(`Yahoo ${y.sym} error:`, e.message);
         }
     }
+
+    // 7. Industry Specific Earnings Indicators Hub (with verified source links)
+    dashboard.industries = [
+        {
+            sector: '해운 / 물류',
+            icon: 'ship',
+            relatedStocks: 'HMM, 팬오션, 대한해운, 대한항공, 현대글로비스',
+            description: '글로벌 물동량 및 완제품·원자재 운송 비용으로 해운사 매출과 수출 제조업체 물류비를 결정합니다.',
+            indicators: [
+                {
+                    name: '상하이 컨테이너 운임지수 (SCFI)',
+                    role: '완제품(스마트폰·가전·자동차) 컨테이너 해상 운임',
+                    impact: '운임 상승 시 HMM 등 해운사 마진 급증 / 삼성·현대차 등 수출기업 물류비 압박',
+                    benchmark: '손익분기점 약 1,000pt 내외 (2,000pt 이상 시 공급망 비용 가중)',
+                    sourceName: 'TradingEconomics SCFI',
+                    sourceUrl: 'https://tradingeconomics.com/commodity/containerized-freight'
+                },
+                {
+                    name: '발틱 건화물 운임지수 (BDI)',
+                    role: '철광석·석탄·곡물 등 건화물 벌크선 운임',
+                    impact: '팬오션, 대한해운 영업이익과 철강·발전사 원재료 조달비용 직결',
+                    benchmark: '실물 원자재 수요 및 글로벌 경기 사이클 최선행 지표',
+                    sourceName: 'TradingEconomics BDI',
+                    sourceUrl: 'https://tradingeconomics.com/commodity/baltic'
+                },
+                {
+                    name: '글로벌 항공화물 운임 (TAC Index)',
+                    role: '반도체·2차전지·바이오 등 긴급 고부가가치 항공 운송비',
+                    impact: '대한항공, 아시아나 화물사업부 분기 실적 결정 요인',
+                    benchmark: '글로벌 테크/바이오 신제품 출시 및 출하 사이클 반영',
+                    sourceName: 'Baltic Air Freight (TAC)',
+                    sourceUrl: 'https://www.balticexchange.com/en/data-services/market-information0/air-freight.html'
+                }
+            ]
+        },
+        {
+            sector: '반도체 / IT 하드웨어',
+            icon: 'cpu',
+            relatedStocks: '삼성전자, SK하이닉스, 한미반도체, 원익IPS, 리노공업',
+            description: '글로벌 빅테크의 서버/AI 투자와 스마트폰·PC 수요가 메모리·비메모리 공급망 실적을 견인합니다.',
+            indicators: [
+                {
+                    name: '필라델피아 반도체 지수 (SOX)',
+                    role: '글로벌 반도체 대표 30개 기업 주가 지수',
+                    impact: '한국 코스피 및 삼성전자, SK하이닉스 주가와 실적에 1~2분기 선행',
+                    benchmark: '글로벌 테크 하드웨어 및 파운드리 투자 심리 바로미터',
+                    sourceName: 'Yahoo Finance SOX',
+                    sourceUrl: 'https://finance.yahoo.com/quote/%5ESOX/'
+                },
+                {
+                    name: 'DRAM / NAND 메모리 가격 (DRAMeXchange)',
+                    role: 'DRAM/낸드 고정거래가격 및 현물가격 추이',
+                    impact: '삼성전자·SK하이닉스 반도체(DS) 부문 분기 영업이익률의 절대적 지표',
+                    benchmark: '빅테크 서버 교체 주기 및 AI 서버(HBM) 증설 사이클',
+                    sourceName: 'TrendForce DRAMeXchange',
+                    sourceUrl: 'https://www.dramexchange.com/'
+                },
+                {
+                    name: 'TSMC 월간 매출 동향 (Monthly Revenue)',
+                    role: '세계 1위 파운드리 업체의 매월 10일 전후 발표 매출',
+                    impact: '글로벌 빅테크(애플·엔비디아·AMD)의 최첨단 칩 주문량과 실적 선행',
+                    benchmark: '전월비(MoM) 및 전년동기비(YoY) 성장세 추적',
+                    sourceName: 'TSMC Investor Relations',
+                    sourceUrl: 'https://investor.tsmc.com/english/monthly-revenue'
+                }
+            ]
+        },
+        {
+            sector: '정유 / 에너지',
+            icon: 'flame',
+            relatedStocks: 'S-Oil, SK이노베이션, GS, HD현대',
+            description: '원유 도입가와 석유제품 판매가의 차이(정제마진) 및 재고평가손익이 정유사 분기 실적의 90%를 결정합니다.',
+            indicators: [
+                {
+                    name: '싱가포르 복합 정제마진 (GRM)',
+                    role: '원유 1배럴을 정제해 휘발유·경유 등을 팔 때 남는 마진',
+                    impact: 'S-Oil, SK이노베이션의 정유 부문 영업손익을 직접 결정',
+                    benchmark: '손익분기점(BEP) 배럴당 $4.5~$5.0 ( $10 이상 시 어닝 서프라이즈)',
+                    sourceName: 'Petronet (한국석유공사)',
+                    sourceUrl: 'https://www.petronet.co.kr/'
+                },
+                {
+                    name: 'WTI 원유 및 두바이유 시세',
+                    role: '글로벌 원유 표준 거래 가격',
+                    impact: '유가 상승 시 재고평가이익 발생, 급락 시 대규모 재고평가손실 발생',
+                    benchmark: '산유국(OPEC+) 감산 정책 및 글로벌 수요 반영',
+                    sourceName: 'Yahoo Finance WTI Crude',
+                    sourceUrl: 'https://finance.yahoo.com/quote/CL=F/'
+                },
+                {
+                    name: '국제 천연가스 선물 (Henry Hub)',
+                    role: '미국 및 글로벌 천연가스 기준 가격',
+                    impact: '도시가스사 판가, 발전공기업 원가, LNG선 운용 수익 연동',
+                    benchmark: '동절기 난방 수요 및 발전용 가스 재고량',
+                    sourceName: 'Yahoo Finance Natural Gas',
+                    sourceUrl: 'https://finance.yahoo.com/quote/NG=F/'
+                }
+            ]
+        },
+        {
+            sector: '석유화학 / 화학소재',
+            icon: 'flask-conical',
+            relatedStocks: 'LG화학, 롯데케미칼, 대한유화, 금호석유',
+            description: '원재료(나프타)와 기초유분(에틸렌 등)의 가격 격차(스프레드)가 플라스틱·합성고무 기업 마진을 좌우합니다.',
+            indicators: [
+                {
+                    name: '에틸렌 - 나프타 스프레드 (Ethylene-Naphtha)',
+                    role: '석유화학의 쌀인 에틸렌 가격에서 원료인 나프타 가격을 뺀 스프레드',
+                    impact: 'LG화학, 롯데케미칼, 대한유화 기초소재 부문 흑자/적자 판별',
+                    benchmark: '손익분기점 톤당 $300 내외 ($250 이하는 적자 한계선)',
+                    sourceName: 'TradingEconomics Naphtha',
+                    sourceUrl: 'https://tradingeconomics.com/commodity/naphtha'
+                },
+                {
+                    name: '부타디엔 - NB라텍스 스프레드',
+                    role: '위생용 장갑 및 합성고무 주원료 스프레드',
+                    impact: '금호석유화학 합성고무 사업부 이익률 직결',
+                    benchmark: '동남아 고무장갑 제조사 가동률 및 글로벌 의료·위생 수요',
+                    sourceName: 'TradingEconomics Rubber',
+                    sourceUrl: 'https://tradingeconomics.com/commodity/rubber'
+                }
+            ]
+        },
+        {
+            sector: '2차전지 / 배터리 소재',
+            icon: 'battery-charging',
+            relatedStocks: 'LG에너지솔루션, 삼성SDI, 에코프로비엠, 포스코퓨처엠, 엘앤에프',
+            description: '핵심 광물(리튬·니켈) 가격 변동이 양극재 판가(ASP)와 셀 제조사 이익률 및 재고손익을 실시간 결정합니다.',
+            indicators: [
+                {
+                    name: '탄산리튬 / 수산화리튬 시세 (Lithium)',
+                    role: '양극재 핵심 원자재 가격',
+                    impact: '에코프로비엠, 포스코퓨처엠 등 양극재 판가 연동 계약에 직결',
+                    benchmark: '리튬 가격 하락 시 역래깅(비싸게 산 원료, 싸게 납품) 적자 발생',
+                    sourceName: 'KOMIS 한국자원정보서비스',
+                    sourceUrl: 'https://www.komis.or.kr/'
+                },
+                {
+                    name: 'LME 니켈 (Nickel) 선물',
+                    role: '하이니켈 배터리(NCM/NCMA) 주원료',
+                    impact: '에너지 밀도 핵심 광물로 2차전지 소재단가 및 셀 원가 구조 영향',
+                    benchmark: '인도네시아 니켈 공급량 및 중국 제련소 가동률',
+                    sourceName: 'London Metal Exchange (LME)',
+                    sourceUrl: 'https://www.lme.com/en/metals/non-ferrous/lme-nickel'
+                }
+            ]
+        },
+        {
+            sector: '철강 / 산업 금속',
+            icon: 'shield',
+            relatedStocks: 'POSCO홀딩스, 현대제철, 동국제강, 고려아연',
+            description: '철광석·원료탄 가격과 중국 부동산·인프라 수요가 열연·후판 스프레드와 철강사 실적을 만듭니다.',
+            indicators: [
+                {
+                    name: '국제 철광석 (Iron Ore) 수입가',
+                    role: '고로(용광로) 제철소의 가장 큰 원가 비중 원자재',
+                    impact: 'POSCO홀딩스, 현대제철 원가율 및 강판 가격 협상력 잣대',
+                    benchmark: '중국 항구 철광석 재고량 및 제선 가동률',
+                    sourceName: 'TradingEconomics Iron Ore',
+                    sourceUrl: 'https://tradingeconomics.com/commodity/iron-ore'
+                },
+                {
+                    name: 'LME 전기동 / 구리 (Doctor Copper)',
+                    role: '전선, 변압기, 전력망, 전기차 모터 핵심 금속',
+                    impact: 'LS, 대한전선, HD현대일렉트릭, 효성중공업 실적과 직결',
+                    benchmark: '글로벌 전력망 인프라 투자 및 제조업 경기 선행 지표',
+                    sourceName: 'London Metal Exchange (LME)',
+                    sourceUrl: 'https://www.lme.com/en/metals/non-ferrous/lme-copper'
+                }
+            ]
+        },
+        {
+            sector: '조선 / 해양 플랜트',
+            icon: 'anchor',
+            relatedStocks: 'HD한국조선해양, HD현대중공업, 한화오션, 삼성중공업, HD현대미포',
+            description: '선박 건조 가격(신조선가)과 후판(철판) 가격의 차이가 조선사의 3개년 수주 잔고 수익성을 결정합니다.',
+            indicators: [
+                {
+                    name: '클락슨 신조선가 지수 (Newbuilding Price Index)',
+                    role: '선박을 새로 건조할 때 책정되는 선박 가격 지수',
+                    impact: '국내 대형 조선 3사의 향후 2~3년 뒤 매출 마진율을 선행 결정',
+                    benchmark: '지수 180pt 돌파 시 슈퍼사이클 호황 국면 평가',
+                    sourceName: 'Clarksons Research',
+                    sourceUrl: 'https://www.clarksons.com/home/research/'
+                },
+                {
+                    name: '조선용 후판(Thick Plate) 가격',
+                    role: '선박 제조 원가의 약 20%를 차지하는 두꺼운 강판',
+                    impact: '철강사(포스코)와의 반기별 후판가 협상 결과에 따라 충당금 환입/설정',
+                    benchmark: '선가 상승분 대비 후판가 안정 시 조선사 마진 극대화',
+                    sourceName: '한국해양진흥공사 (KOBC)',
+                    sourceUrl: 'https://www.kobc.or.kr/'
+                }
+            ]
+        },
+        {
+            sector: '자동차 / 완성차 & 부품',
+            icon: 'car',
+            relatedStocks: '현대차, 기아, 현대모비스, 한온시스템, HL만도',
+            description: '미국·유럽 신차 판매율과 인센티브(할인), 원/달러 환율이 완성차 업체의 분기 영업이익률을 결정합니다.',
+            indicators: [
+                {
+                    name: '미국 신차 연간판매속도 (TOTAL SAAR)',
+                    role: '미국 시장의 계절조정 연간 환산 자동차 판매 대수',
+                    impact: '현대차·기아의 최대 수익처인 북미 시장 완성차 판매 수요 가늠',
+                    benchmark: '연간 1,500만~1,600만 대 이상 유지 시 안정적 호실적',
+                    sourceName: 'FRED (세인트루이스 연방준비은행)',
+                    sourceUrl: 'https://fred.stlouisfed.org/series/TOTALSA'
+                },
+                {
+                    name: 'KAMA 자동차 월간 수출 동향',
+                    role: '한국 완성차(내연기관·하이브리드·전기차) 월별 수출 실적',
+                    impact: '국내 완성차 및 1차 협력 부품사 매출에 실시간 반영',
+                    benchmark: '고부가가치 SUV / 하이브리드(HEV) 수출 믹스 비중',
+                    sourceName: '한국자동차모빌리티산업협회 (KAMA)',
+                    sourceUrl: 'https://www.kama.or.kr/'
+                }
+            ]
+        },
+        {
+            sector: '건설 / 부동산 인프라',
+            icon: 'building-2',
+            relatedStocks: '현대건설, 대우건설, GS건설, 쌍용C&E, 한샘',
+            description: '전국 미분양 주택 통계와 착공 실적, 시멘트·레미콘 가격이 건설사 PF 위험과 분기 실적을 좌우합니다.',
+            indicators: [
+                {
+                    name: '전국 미분양 주택 현황 (국토부 통계)',
+                    role: '준공 후 미분양(악성 미분양) 및 지역별 분양률 추이',
+                    impact: '주택 건설사 매출 채권 회수, PF 우발채무 리스크, 대손충당금 직결',
+                    benchmark: '위험 수위 6만~7만 호 기준점 모니터링',
+                    sourceName: '국토교통부 통계누리',
+                    sourceUrl: 'https://stat.molit.go.kr/'
+                },
+                {
+                    name: '한국은행 주택 착공 실적 및 건설수주액',
+                    role: '신규 아파트/상업용 건물 착공 면적 및 수주 통계',
+                    impact: '착공 후 2~3년에 걸쳐 공사 진행률에 따라 매출 인식',
+                    benchmark: '건자재(시멘트, 철근, 가구, 창호) 수요 선행',
+                    sourceName: '한국은행 ECOS 통계시스템',
+                    sourceUrl: 'https://ecos.bok.or.kr/'
+                }
+            ]
+        }
+    ];
 
     // Defensive fallback: If all sections are empty, recover previous dashboard from data.json
     const totalItems = dashboard.sections.reduce((acc, s) => acc + s.items.length, 0);
