@@ -222,6 +222,15 @@ document.addEventListener('DOMContentLoaded', () => {
             chapterIndustries.forEach(ind => {
                 const signal = ind.correlationLogic ? ind.correlationLogic.outlookSignal : null;
                 const signalBadge = signal ? `<div class="ind-card-signal-badge ${signal.level}">${signal.badgeText}</div>` : '';
+                const demand = ind.demandAnalysis;
+                const demandBadge = demand ? `<span class="ind-card-demand-tag ${demand.status.toLowerCase()}">${demand.statusBadge}</span>` : '';
+                const risk = ind.riskDrivers;
+                const riskAlert = risk ? `
+                    <div class="ind-card-risk-alert">
+                        <i data-lucide="alert-triangle" class="risk-icon"></i>
+                        <span><strong>리스크:</strong> ${risk.bearFactor}</span>
+                    </div>
+                ` : '';
 
                 html += `
                     <div class="industry-card" onclick="window.showIndustryDetail('${ind.id}')">
@@ -235,12 +244,16 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <span>${ind.sector}</span>
                             </h3>
                             <div class="ind-card-subtitle">${ind.subTitle}</div>
-                            ${signalBadge}
+                            <div class="ind-card-badges-row">
+                                ${signalBadge}
+                                ${demandBadge}
+                            </div>
                             <div class="industry-stocks-badge">
                                 <span class="badge-label">대표기업</span>
                                 <span class="badge-stocks">${ind.relatedStocks}</span>
                             </div>
                             <p class="industry-desc">${ind.description}</p>
+                            ${riskAlert}
                         </div>
                         <div class="industry-indicators-list">
                 `;
@@ -323,6 +336,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const logic = ind.correlationLogic || {};
         const signal = logic.outlookSignal || { level: 'NEUTRAL', badgeText: '⚪ 보통', summary: '지표 관망세' };
+        const demand = ind.demandAnalysis || {
+            status: 'MODERATE',
+            statusBadge: '⚖️ 수요 관망',
+            keyDriver: '전방 수요 및 시장 지표 관망세',
+            demandIndicator: '핵심 시장 지표',
+            demandIndicatorVal: '보통'
+        };
+        const risk = ind.riskDrivers || {
+            bullFactor: '시장 안정성 및 기술력 확보',
+            bearFactor: '경기 둔화 리스크 및 피크아웃 우려'
+        };
 
         let html = `
             <div class="ind-detail-container">
@@ -350,6 +374,42 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="ind-detail-stocks-row">
                         <span class="stocks-badge-label">대표 기업:</span>
                         <span class="stocks-badge-list">${ind.relatedStocks}</span>
+                    </div>
+                </div>
+
+                <!-- 0. Market Demand Dynamics & Bull vs Bear -->
+                <div class="ind-demand-section">
+                    <div class="section-title-box">
+                        <i data-lucide="bar-chart-3" class="section-icon"></i>
+                        <h3>전방 시장 최종 수요 분석 (Demand Dynamics) & Bull vs Bear 대조</h3>
+                    </div>
+                    <div class="demand-card-box">
+                        <div class="demand-status-header">
+                            <span class="ind-card-demand-tag ${demand.status.toLowerCase()}">${demand.statusBadge}</span>
+                            <div class="demand-indicator-chip">
+                                <span class="chip-label">핵심 수요 지표:</span>
+                                <strong>${demand.demandIndicator}</strong>
+                                <span class="chip-val">(${demand.demandIndicatorVal})</span>
+                            </div>
+                        </div>
+                        <p class="demand-driver-desc">${demand.keyDriver}</p>
+                    </div>
+
+                    <div class="bull-bear-grid">
+                        <div class="factor-box bull-box">
+                            <div class="factor-header">
+                                <i data-lucide="trending-up" class="bull-icon"></i>
+                                <span>상방 견인 요인 (Bull Catalyst)</span>
+                            </div>
+                            <p>${risk.bullFactor}</p>
+                        </div>
+                        <div class="factor-box bear-box">
+                            <div class="factor-header">
+                                <i data-lucide="shield-alert" class="bear-icon"></i>
+                                <span>하방 제약 리스크 (Bear Risk & 피크아웃)</span>
+                            </div>
+                            <p>${risk.bearFactor}</p>
+                        </div>
                     </div>
                 </div>
 

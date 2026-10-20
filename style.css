@@ -1008,28 +1008,186 @@ body {
     border: 1px solid #a7f3d0;
 }
 
-.ind-card-signal-badge.MODERATE_POSITIVE {
+.ind-card-signal-badge.NEUTRAL {
     background: #fefce8;
     color: #854d0e;
-    border: 1px solid #fef08a;
+    border: 1px solid #fde047;
 }
 
-.ind-card-signal-badge.NEUTRAL {
-    background: #f1f5f9;
-    color: #475569;
-    border: 1px solid #cbd5e1;
-}
-
-.ind-card-signal-badge.MODERATE_NEGATIVE {
-    background: #fff7ed;
-    color: #c2410c;
-    border: 1px solid #fed7aa;
-}
-
+.ind-card-signal-badge.CAUTION,
 .ind-card-signal-badge.NEGATIVE {
     background: #fef2f2;
     color: #b91c1c;
     border: 1px solid #fecaca;
+}
+
+/* Card Badges Row & Demand / Risk Alert */
+.ind-card-badges-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ind-card-demand-tag {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.74rem;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 6px;
+    letter-spacing: -0.2px;
+}
+
+.ind-card-demand-tag.strong {
+    background: #ecfdf5;
+    color: #065f46;
+    border: 1px solid #a7f3d0;
+}
+
+.ind-card-demand-tag.moderate {
+    background: #fffbeb;
+    color: #92400e;
+    border: 1px solid #fde68a;
+}
+
+.ind-card-demand-tag.weak {
+    background: #f1f5f9;
+    color: #334155;
+    border: 1px solid #cbd5e1;
+}
+
+.ind-card-risk-alert {
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin-top: 10px;
+    font-size: 0.78rem;
+    color: #9a3412;
+    line-height: 1.45;
+    word-break: keep-all;
+}
+
+.ind-card-risk-alert .risk-icon {
+    width: 15px;
+    height: 15px;
+    color: #ea580c;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+/* Dedicated Demand & Bull-Bear Section in Detail View */
+.ind-demand-section {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
+
+.demand-card-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+}
+
+.demand-status-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.demand-indicator-chip {
+    font-size: 0.8rem;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 4px 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.demand-indicator-chip .chip-label {
+    font-weight: 600;
+    color: #64748b;
+}
+
+.demand-indicator-chip .chip-val {
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.demand-driver-desc {
+    font-size: 0.88rem;
+    color: #334155;
+    line-height: 1.55;
+    margin: 0;
+    word-break: keep-all;
+}
+
+.bull-bear-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+@media (max-width: 768px) {
+    .bull-bear-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.factor-box {
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    word-break: keep-all;
+}
+
+.factor-box.bull-box {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    color: #14532d;
+}
+
+.factor-box.bear-box {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    color: #7f1d1d;
+}
+
+.factor-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+    font-size: 0.86rem;
+    margin-bottom: 6px;
+}
+
+.factor-header .bull-icon {
+    width: 16px;
+    height: 16px;
+    color: #16a34a;
+}
+
+.factor-header .bear-icon {
+    width: 16px;
+    height: 16px;
+    color: #dc2626;
 }
 
 .industry-card-footer {
@@ -1259,24 +1417,13 @@ body {
     border: 1px solid #6ee7b7;
 }
 
-.forecast-signal-badge.MODERATE_POSITIVE {
+.forecast-signal-badge.NEUTRAL {
     background: #fefce8;
     color: #854d0e;
     border: 1px solid #fde047;
 }
 
-.forecast-signal-badge.NEUTRAL {
-    background: #f1f5f9;
-    color: #334155;
-    border: 1px solid #cbd5e1;
-}
-
-.forecast-signal-badge.MODERATE_NEGATIVE {
-    background: #fff7ed;
-    color: #c2410c;
-    border: 1px solid #fdba74;
-}
-
+.forecast-signal-badge.CAUTION,
 .forecast-signal-badge.NEGATIVE {
     background: #fef2f2;
     color: #b91c1c;

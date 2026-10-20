@@ -1,6 +1,6 @@
 // ==============================================================================
 // 대한민국 7대 핵심 산업 & 40개 세부 업종 정밀 실적 예측 엔진 데이터
-// 2026/2027 최신 거시 지표(환율, 유가, 금리, 곡물, 메탈가, 운임) 기반 인과관계 로직 탑재
+// 2026/2027 최신 거시 지표(환율, 유가, 금리, 곡물, 메탈가, 운임) 및 전방 시장 최종 수요 분석(Demand Check) 탑재
 // ==============================================================================
 
 window.CHAPTERS = [
@@ -70,8 +70,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "엔비디아향 HBM3E 공급 독점력 유지와 HBM4 조기 양산 체제 돌입, 일반 D램 고정가 강세로 4분기 사상 최대 실적 경신 확정적.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 강력 호전 (HBM 슈퍼사이클)",
-                "summary": "AI 데이터센터용 HBM3E 및 eSSD 수요 폭증으로 판가 상승과 OPM 35% 돌파가 이어지고 있습니다. SK하이닉스를 필두로 사상 최대 연간 영업이익 달성 전망."
+                "badgeText": "🟢 강력 호전 (HBM3E·eSSD 슈퍼사이클)",
+                "summary": "일반 IT 수요 부진에도 불구하고 AI 데이터센터향 HBM3E와 eSSD 수요가 폭발하며 메모리 판가 상승과 사상 최대 실적 경신을 견인하고 있습니다."
             }
         },
         "indicators": [
@@ -155,7 +155,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 35,
                 "comment": "반도체 테스트 소켓(리노핀) 글로벌 최강자. 무차입 경영 부채비율 8%와 OPM 43%의 압도적 기술 해자 보유"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (AI 데이터센터 독점)",
+            "keyDriver": "마이크로소프트·구글·메타·아마존 등 글로벌 빅테크의 AI 인프라 CAPEX가 사상 최대(연 260조 원)를 경신하며 HBM3E 및 서버용 DDR5, 엔터프라이즈 eSSD 수요가 공급을 완전히 초과하고 있습니다.",
+            "demandIndicator": "글로벌 빅테크 4사 AI 자본지출(CAPEX) 규모",
+            "demandIndicatorVal": "연간 260조 원 (전년비 +42% 폭증)"
+        },
+        "riskDrivers": {
+            "bullFactor": "엔비디아 차세대 블랙웰용 HBM3E 12단 독점 공급 및 고용량 eSSD 품귀로 OPM 35~40% 유지",
+            "bearFactor": "레거시 PC 및 스마트폰용 범용 D램 수요 회복 지연, 2026년 하반기 일반 D램 공급과잉 전환 리스크"
+        }
     },
     {
         "id": "display",
@@ -176,9 +187,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "애플향 IT OLED 공급 100만 대 증가 시 LG디스플레이 영업이익 약 +600억 원 개선. 탠덤 OLED 비중 10%p 상승 시 덕산네오룩스 매출 +15% 증가.",
             "currentStatus": "광저우 공장 매각 대금 유입으로 재무구조가 대폭 개선되었으며, 아이폰 16 프로 패널 공급 점유율 확대로 4분기 영업이익 흑자 안착.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 턴어라운드 (OLED 침투 확대)",
-                "summary": "LCD 완전 철수와 중국 공장 매각으로 재무 부담을 털어냈으며, 애플 모바일/IT OLED 공급 점유율 확대로 4분기 실적 턴어라운드가 가시화되었습니다."
+                "level": "CAUTION",
+                "badgeText": "🔴 실적 주의 (중국 저가 공세 & 세트 수요 둔화)",
+                "summary": "글로벌 가전/스마트폰 전방 수요가 둔화된 상황에서 중국 업체들의 대규모 보조금 기반 증설로 패널 판가 하락 압박이 지속되고 있습니다."
             }
         },
         "indicators": [
@@ -230,7 +241,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 15,
                 "comment": "OLED 핵심 유기물 소재(HTL, Red Host) 글로벌 최강자. 탠덤 OLED 확대로 유기소재 소모량 2배 증가 수혜"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "WEAK",
+            "statusBadge": "❄️ 수요 침체 (TV 교체 둔화 & 중국 OLED 증설)",
+            "keyDriver": "글로벌 TV 및 스마트폰 교체 주기가 역대 최장으로 늘어나며 패널 수요가 침체된 가운데, 중국 BOE와 CSOT의 대규모 8.6세대 OLED 정부 보조금 기반 증설로 글로벌 공급 과잉이 심화되고 있습니다.",
+            "demandIndicator": "글로벌 LCD/OLED TV 연간 출하량 성장률",
+            "demandIndicatorVal": "-2.4% (2년 연속 역성장)"
+        },
+        "riskDrivers": {
+            "bullFactor": "애플 아이패드·맥북 프로의 탠덤 OLED 탑재 확대 및 프리미엄 차량용 디스플레이 수주",
+            "bearFactor": "중국 디스플레이 업체의 공격적인 패널 단가 덤핑 공세 및 아이폰향 OLED 침투율 확대"
+        }
     },
     {
         "id": "smartphone",
@@ -251,9 +273,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "글로벌 프리미엄 스마트폰 출하 1,000만 대 증가 시 LG이노텍 영업이익 약 +800억 원 증가. 원/달러 10원 상승 시 수출 마진 약 +0.5%p 개선.",
             "currentStatus": "글로벌 스마트폰 출하량이 3년 만에 완만한 플러스 성장세로 전환되었으며, 온디바이스 AI 프리미엄 폰 수요 집중으로 부품주 실적 탄력 확대.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 점진적 개선 (AI 폰 교체 수요)",
-                "summary": "온디바이스 AI 확산으로 고부가 폴디드줌 카메라 모듈과 기판, 힌지 부품사의 ASP가 동반 상승하고 있습니다. 애플·삼성 공급망 실적 호전 전망."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (온디바이스 AI vs 교체수요 정체)",
+                "summary": "온디바이스 AI 기능 탑재로 단가 상승은 일부 있으나, 전방 세트 출하량 성장 정체로 실적 반등 폭은 제한적일 전망입니다."
             }
         },
         "indicators": [
@@ -321,7 +343,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 25,
                 "comment": "삼성전자 폴더블폰 물방울 힌지 메인 벤더. 초슬림 폴더블폰 출시에 따른 고사양 힌지 독점 공급 지속"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (교체 주기 42개월 역대 최장)",
+            "keyDriver": "스마트폰 성능 상향평준화로 글로벌 소비자들의 스마트폰 교체 주기가 42개월까지 늘어났습니다. 온디바이스 AI 폰이 출시되었으나 킬러 앱 부재로 교체 수요 촉발 효과가 제한적입니다.",
+            "demandIndicator": "글로벌 스마트폰 연간 출하량 성장률",
+            "demandIndicatorVal": "+1.1% (완만한 저성장 박스권)"
+        },
+        "riskDrivers": {
+            "bullFactor": "프리미엄 플래그십 슬림화 및 폴더블폰 힌지·카메라 모듈 등 고사양 부품 믹스 개선",
+            "bearFactor": "중저가 세트 판매 정체 및 중국 스마트폰 제조사(샤오미·비보)의 신흥국 점유율 잠식"
+        }
     },
     {
         "id": "platform",
@@ -342,9 +375,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "디지털 광고 매출 5% 증가 시 네이버 영업이익 약 +1,200억 원 증가. 생성형 AI 클라우드 엔터프라이즈 수주당 수백억 원 추가.",
             "currentStatus": "네이버의 서치플랫폼 AI 적용으로 역대 최대 분기 영업이익을 경신 중이며, 밸류에이션(PER 18배) 역시 역사적 바닥권 탈출 중.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 실적 호조 (AI & 광고 반등)",
-                "summary": "네이버의 서치플랫폼 AI 적용으로 광고 효율이 급상승하며 역대 최대 분기 영업이익을 경신 중입니다. 사우디 디지털트윈 등 해외 수주 가시화."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (AI 투자비 부담 vs 내수 광고 정체)",
+                "summary": "플랫폼 트래픽은 유지되나 경기 둔화에 따른 광고주 집행 축소와 AI 데이터센터 투자비용 증가로 마진 개선이 완만한 수준에 그치고 있습니다."
             }
         },
         "indicators": [
@@ -412,7 +445,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 30,
                 "comment": "글로벌 라이브 스트리밍 SOOP 론칭. 트위치 철수 수혜로 스트리머 락인, OPM 27%의 막강한 현금창출력"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (내수 경기 침체 & 광고 단가 정체)",
+            "keyDriver": "내수 소비 둔화와 자영업 불황으로 국내 디지털 배너 및 검색 광고 단가 성장이 정체되고 있으며, 해외 빅테크(유튜브·인스타그램)의 광고 점유율 잠식이 지속되고 있습니다.",
+            "demandIndicator": "국내 디지털 온라인 광고 시장 성장률",
+            "demandIndicatorVal": "+2.5% (과거 두 자릿수 대비 급격한 둔화)"
+        },
+        "riskDrivers": {
+            "bullFactor": "자체 초거대 AI 기반 초개인화 검색 광고 효율 개선 및 기업용 클라우드 B2B 수주",
+            "bearFactor": "생성형 AI 인프라 구축을 위한 GPU 감가상각비 급증 및 유튜브/틱톡의 체류 시간 독점"
+        }
     },
     {
         "id": "telecom",
@@ -434,9 +478,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "CAPEX 10% 절감 시 통신 3사 세전이익 약 +2,000억 원 개선 효과. 기준금리 25bp 인하 시 통신주 배당 매력 상대 우위로 주가 멀티플 약 +5% 재평가.",
             "currentStatus": "5G 가입자 포화로 무선 ARPU 성장은 정체되었으나, 마케팅 출혈경쟁 자제와 AI 데이터센터 수주 확대로 4분기 합산 영업이익 1조 원대 안착.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 안정적 호전 (고배당 & AIDC)",
-                "summary": "CAPEX 절감에 따른 감가상각비 감소와 AI 데이터센터 매출 본격화로 안정적인 이익 성장이 기대됩니다. 주주환원율 50% 이상과 6%대 배당수익률이 주가 하방 지지."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (무선 매출 정체 vs 고배당 방어주)",
+                "summary": "무선 본업의 수요 정체와 규제 리스크로 성장성은 낮으나, AI 데이터센터 신사업과 높은 배당수익률이 하방을 지지하는 전형적인 방어주 국면입니다."
             }
         },
         "indicators": [
@@ -504,7 +548,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 45,
                 "comment": "평촌 메가데이터센터 가동으로 IDC 부문 고성장. 주가 저평가 구간이며 6% 후반대 높은 배당수익률 매력 보유"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (5G 가입자 포화 & 규제 압박)",
+            "keyDriver": "국내 5G 스마트폰 보급률이 75%를 돌파하며 신규 가입자 순증이 멈췄으며, 2030 세대의 알뜰폰(MVNO) 자급제 전환이 가속화되어 가입자당 평균매출(ARPU)이 하락 압박을 받고 있습니다.",
+            "demandIndicator": "무선 이동통신 가입자당 평균매출(ARPU)",
+            "demandIndicatorVal": "분기당 -1.2% 하락 추세"
+        },
+        "riskDrivers": {
+            "bullFactor": "AI 데이터센터(AIDC) 인프라 구축 신사업 확대 및 배당성향 50% 이상의 6~7%대 고배당 매력",
+            "bearFactor": "정부의 가계통신비 인하 정책(단통법 폐지, 중저가 5G 요금제 강제) 및 6G 투자 지연"
+        }
     },
     {
         "id": "auto",
@@ -526,9 +581,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "원/달러 환율 10원 상승 시 현대차·기아 합산 영업이익 약 +2,500억~3,000억 원 증가. 하이브리드 판매 10만 대 증가 시 전사 OPM 약 +0.5%p 개선.",
             "currentStatus": "글로벌 완성차 판매량 3위 공고화 및 연간 합산 영업이익 27조 원 돌파로 역대 최고 실적 행진 지속. PER 4~5배의 극저평가 구간.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 사상 최대 실적 (HEV & 밸류업)",
-                "summary": "하이브리드 라인업의 압도적 시장 점유율과 고환율 효과로 분기마다 사상 최대 실적을 경신 중입니다. PER 5배 수준의 극저평가와 35% 주주환원율이 주가를 견인합니다."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/피크아웃 주의 (하이브리드 호조 vs 인센티브 상승)",
+                "summary": "하이브리드(HEV) 판매는 견조하나, 글로벌 고금리에 따른 신차 구매력 위축과 딜러 인센티브 상승, 관세 리스크로 전년 대비 이익 피크아웃 가능성에 대비해야 합니다."
             }
         },
         "indicators": [
@@ -580,7 +635,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 35,
                 "comment": "OPM 11.3%의 전 세계 최고 수익성 완성차. 무차입에 가까운 재무구조와 5,000억 규모 자사주 전량 소각"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (고금리 신차 구매력 저하 & 피크아웃)",
+            "keyDriver": "미국 및 유럽 시장의 고금리 장기화로 소비자들의 할부 구매 부담이 가중되어 신차 수요가 둔화되고 있으며, 딜러 인센티브(할인)가 급증하여 완성차 마진 피크아웃(Peak-out) 우려가 현실화되고 있습니다.",
+            "demandIndicator": "미국 시장 신차 평균 딜러 인센티브율 (TrueCar)",
+            "demandIndicatorVal": "6.8% (전년 5.1% 대비 급상승, 할인 압박 가중)"
+        },
+        "riskDrivers": {
+            "bullFactor": "고수익 하이브리드(HEV) 풀라인업 판매 비중 15% 돌파 및 제네시스/SUV 북미 판매 호조",
+            "bearFactor": "미국 딜러 재고 일수 증가에 따른 판촉비 급증 및 트럼프 2기 수입차 관세(10~25%) 현실화 리스크"
+        }
     },
     {
         "id": "battery",
@@ -602,9 +668,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "탄산리튬 가격 10% 반등 시 양극재 기업 분기 재고자산평가익 수백억 원 환입. 북미 ESS 수주 1GWh당 매출 약 +1,500억 원 추가.",
             "currentStatus": "메탈가 바닥 통과와 함께 북미 ESS 배터리 수주 랠리가 시작되었으며, 4680 원통형 배터리 양산 출하로 턴어라운드 조짐.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 바닥 탈출 (ESS 폭증 & 턴어라운드)",
-                "summary": "리튬 가격 하락세가 멈추며 2년간 이어진 역래깅 손실이 끝났습니다. AI 데이터센터용 ESS 수주 급증과 차세대 4680 배터리 출하로 실적 반등 시작."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/회복 지연 (ESS 버팀목 vs EV 캐즘 장기화)",
+                "summary": "리튬 원자재가 안정과 ESS 수주가 방어하고 있으나, 핵심인 전방 전기차 수요 정체로 배터리 공장 가동률 회복이 지연되며 실적 턴어라운드 속도가 완만합니다."
             }
         },
         "indicators": [
@@ -672,7 +738,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 15,
                 "comment": "양극재·음극재 풀밸류체인. 광양 전구체 및 아르헨티나 리튬 연계 원가 경쟁력 확보"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (전기차 캐즘 장기화 & OEM 전동화 지연)",
+            "keyDriver": "유럽 각국의 전기차 보조금 축소와 충전 인프라 부족으로 글로벌 순수 전기차(BEV) 판매 성장률이 급격히 둔화(캐즘)되었습니다. 포드, GM, 폭스바겐 등 전방 완성차 OEM들이 배터리 주문을 대폭 축소하거나 연기하고 있습니다.",
+            "demandIndicator": "글로벌 전기차(BEV) 출하량 성장률 (SNE리서치)",
+            "demandIndicatorVal": "연간 +11.8% (과거 +35% 대비 급격한 둔화)"
+        },
+        "riskDrivers": {
+            "bullFactor": "AI 데이터센터 신재생 전력망용 대용량 ESS 배터리 수주 폭증 및 테슬라향 4680 원통형 셀 양산",
+            "bearFactor": "완성차 OEM의 배터리 재고 조정에 따른 공장 가동률 저하(50~60%) 및 중국 저가 LFP 글로벌 잠식"
+        }
     },
     {
         "id": "tire",
@@ -693,9 +770,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "고인치 타이어 비중 1%p 상승 시 전사 OPM 약 +0.4%p 개선. 천연고무 가격 10% 하락 시 연간 원가 약 +600억 원 절감.",
             "currentStatus": "유럽·북미 교체용(RE) 타이어 수요 호조와 베트남 등 해외 공장 가동률 100%로 3사 모두 역대 최고 영업이익 기록 지속.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 사상 최대 호황 (OPM 16% & EV타이어)",
-                "summary": "고무 원가 안정과 고마진 전기차 전용(아이온) 타이어 판매 호조로 OPM 15%대의 경이로운 수익성을 구가하고 있습니다. PER 6배 수준 저평가 매력."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (고인치 믹스 양호 vs 해상운임 상승)",
+                "summary": "고인치 교체용 타이어 믹스로 높은 영업이익률을 유지하고 있으나, 해상 운임 상승과 신차용 타이어 수요 둔화가 실적 상방을 제한하고 있습니다."
             }
         },
         "indicators": [
@@ -763,7 +840,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 18,
                 "comment": "유럽 체코 공장 2단계 증설 가동으로 유럽 로컬 완성차(포르쉐 등) 공급 본격화"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (신차 납품 둔화 vs 교체용 타이어 선방)",
+            "keyDriver": "글로벌 완성차 신차 생산 둔화로 신차용(OE) 타이어 납품 수요는 둔화되었으나, 운행 차량 증가로 마진이 높은 18인치 이상 고인치 교체용(RE) 타이어 수요가 시장을 지지하고 있습니다.",
+            "demandIndicator": "글로벌 18인치 이상 고인치 승용차 타이어 판매 비중",
+            "demandIndicatorVal": "45.2% (사상 최고 비중 유지)"
+        },
+        "riskDrivers": {
+            "bullFactor": "하이브리드 및 전기차 전용 타이어(전용 마모방지 특화) 판가 프리미엄(15~20%) 확보",
+            "bearFactor": "홍해 지정학 사태로 인한 해상 컨테이너 운임(SCFI) 급등에 따른 북미/유럽 수출 물류비 증가"
+        }
     },
     {
         "id": "auto_parts",
@@ -784,9 +872,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "완성차 글로벌 생산 10만 대 증가 시 현대모비스 모듈 매출 약 +4,000억 원 증가. 전장 수주 1조 원 증가 시 연간 영업이익 약 +500억 원 증가.",
             "currentStatus": "현대차그룹의 미국 조지아 전기차 메타플랜트(HMGMA) 가동으로 동반 진출한 국내 부품사들의 북미 공장 가동률 본격 상승.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 구조적 성장 (전장화 & 북미 증설)",
-                "summary": "완성차의 안정적인 생산 호조와 전장 부품 ASP 상승, 북미 메타플랜트 가동 효과로 현대모비스·HL만도의 중장기 마진 개선이 유력합니다."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (전장화 수혜 vs 세트 출하량 정체)",
+                "summary": "샤시 전장화와 SDV 부품 탑재율 상승은 긍정적이나, 완성차 세트 출하량 정체로 외형 성장 탄력이 둔화되는 양상입니다."
             }
         },
         "indicators": [
@@ -854,7 +942,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 15,
                 "comment": "차량 구동축(등속조인트) 및 통합열관리시스템(TMS) 공급. 방산 부문 K9 화포 제작 호조"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (완성차 출하량 정체 & 단가 인하 압박)",
+            "keyDriver": "전방 글로벌 완성차 생산량이 8,900만 대 수준에서 정체됨에 따라 부품 출하 물량이 박스권에 갇혀 있습니다. 완성차 OEM들의 원가 절감(CR) 압박이 거세지고 있습니다.",
+            "demandIndicator": "글로벌 완성차 연간 생산량 추이",
+            "demandIndicatorVal": "8,920만 대 (+0.8% 정체)"
+        },
+        "riskDrivers": {
+            "bullFactor": "자율주행 레벨 2.5/3 확대 및 SDV 전환에 따른 전자식 조향·제동(by-wire) 고부가가치 전장화",
+            "bearFactor": "완성차 업체의 납품단가 인하 요구 지속 및 해외 현지 공장 인건비·전력비 상승"
+        }
     },
     {
         "id": "ship",
@@ -876,8 +975,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "3.5년치 이상의 도크 일감을 채운 상태에서 선가 협상력을 쥐고 선별 수주를 지속 중이며, 3사 모두 분기 영업이익 수천억 원대 흑자 안착.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 강력 호전 (조선 슈퍼사이클)",
-                "summary": "신조선가지수가 사상 최고치 부근을 유지하는 가운데, 2025~2027년 인도되는 고선가 물량 매출 비중이 80%를 돌파하여 사상 최대 실적 랠리가 지속됩니다."
+                "badgeText": "🟢 강력 호전 (신조선가 최고치 & 고선가 매출화)",
+                "summary": "3.5년 치 고선가 수주 잔고가 본격적으로 매출과 영업이익으로 전이되며, 조선 3사 모두 분기 영업이익률 8~10%를 달성하는 전형적인 슈퍼사이클입니다."
             }
         },
         "indicators": [
@@ -945,7 +1044,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 0,
                 "comment": "한화그룹 인수 후 특수선(잠수함, 군함) 및 미국 필리조선소 인수를 통한 미 해군 MRO(함정 유지보수) 사업 본격 진출"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (LNG선·친환경선 슬롯 품귀)",
+            "keyDriver": "국제해사기구(IMO) 탄소 배출 규제와 카타르·북미 대형 LNG 프로젝트로 인해 글로벌 선주들의 고효율 친환경 선박 발주가 폭증하여 국내 조선 3사의 도크가 3.5년 치 이상 꽉 차 있습니다.",
+            "demandIndicator": "클락슨 신조선가지수 (Clarkson Newbuilding Index)",
+            "demandIndicatorVal": "189.5p (역대 최고치 191p 근접, 초강세)"
+        },
+        "riskDrivers": {
+            "bullFactor": "척당 2.6억 달러 이상의 역대 최고가 LNG선 및 초대형 암모니아 운반선(VLAC) 매출 인식 본격화",
+            "bearFactor": "후판 가격 재상승 리스크 및 조선소 숙련 기술인력 수급 병목에 따른 공정 지연 리스크"
+        }
     },
     {
         "id": "defense",
@@ -967,8 +1077,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "폴란드 2차 실행 계약 및 루마니아 K9 납품이 본격화되며 한화에어로스페이스와 현대로템이 분기 사상 최대 영업이익을 경신 중.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 사상 최대 실적 (K-방산 100조 수주)",
-                "summary": "100조 원에 달하는 역대급 수주 잔고가 본격적인 공장 출하 및 매출로 인식되며 영업이익이 전년 대비 100% 이상 폭증하는 황금기에 진입했습니다."
+                "badgeText": "🟢 강력 호전 (수주잔고 72조 & 사상 최대 실적)",
+                "summary": "압도적인 가성비와 신속 납기 경쟁력으로 유럽, 중동, 동남아를 아우르는 방산 수출 계약이 실적에 본격 반영되며 사상 최대 실적을 지속 경신하고 있습니다."
             }
         },
         "indicators": [
@@ -1036,7 +1146,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 20,
                 "comment": "천궁-II 탄도탄 요격미사일 UAE, 사우디, 이라크 조 단위 수출 싹쓸이. 미국 고스트로보틱스 인수로 4족보행 로봇 국방 결합"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (글로벌 안보 위기 & K-방산 러브콜)",
+            "keyDriver": "우크라이나-러시아 전쟁 장기화, 나토(NATO) 회원국들의 GDP 2% 국방비 증액, 중동 지정학 분쟁으로 인해 '빠른 납기'와 '실전 검증'을 갖춘 K-방산에 전 세계 주문이 쏟아지고 있습니다.",
+            "demandIndicator": "K-방산 4대 기업(한화에어로·현대로템·KAI·LIG) 해외 수주잔고",
+            "demandIndicatorVal": "72조 원 돌파 (사상 최대치 경신)"
+        },
+        "riskDrivers": {
+            "bullFactor": "폴란드 K2 전차 2차 실행계약, 루마니아 K9 자주포 및 장갑차 레드백, 사우디 천궁-II 연속 수출",
+            "bearFactor": "유럽 현지 생산(라이선스 생산) 요구 증가에 따른 국내 마진 배분율 축소 가능성"
+        }
     },
     {
         "id": "steel",
@@ -1057,9 +1178,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "열연 스프레드 톤당 1만 원 확대 시 포스코 연간 영업이익 약 +3,500억 원 증가. 중국 철강 감산 1,000만 톤당 아시아 열연가 +3% 반등.",
             "currentStatus": "중국의 대규모 유동성 공급과 감산 기조로 열연 유통가격이 바닥을 탈출했으며, PBR 0.5배 수준의 역사적 저평가 매력 부각.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 바닥 탈출 (중국 감산 & 마진 반등)",
-                "summary": "중국 정부의 강력한 부동산 부양책과 경기 회복 패키지에 힘입어 글로벌 철광석 및 열연 가격이 바닥을 치고 반등세로 돌아섰습니다. PBR 0.5배대 저평가."
+                "level": "CAUTION",
+                "badgeText": "🔴 실적 주의 (중국 저가 덤핑 & 국내 건설 수요 절벽)",
+                "summary": "전방 건설 경기 침체로 철강 수요가 실종된 상황에서 중국산 저가 철강재 유입으로 마진이 급감하여 실적 부진이 지속되고 있습니다."
             }
         },
         "indicators": [
@@ -1127,7 +1248,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 45,
                 "comment": "세계 1위 비철금속(아연, 연, 은, 동) 제련사. 무차입 우량 재무구조와 신재생에너지/이차전지 소재 트로이카 드라이브"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "WEAK",
+            "statusBadge": "❄️ 수요 침체 (건설 착공 실종 & 중국 덤핑 폭탄)",
+            "keyDriver": "국내 주택 건설 착공이 반토막 나며 철근·형강 내수 수요가 급감한 가운데, 중국 부동산 침체로 남아도는 중국산 저가 열연·후판이 한국으로 쏟아져 들어와 시장 판가를 붕괴시키고 있습니다.",
+            "demandIndicator": "중국 열연 내수 유통가격 및 롤마진",
+            "demandIndicatorVal": "톤당 460달러 (손익분기점 대폭 하회)"
+        },
+        "riskDrivers": {
+            "bullFactor": "포스코의 고부가 기가스틸 및 해상풍력용 친환경 후판 비중 확대, 중국 정부의 강제 감산 정책",
+            "bearFactor": "중국산 저가 철강재 수입 급증에 따른 내수 시장 잠식 및 전기요금 인상에 따른 전기로 원가 폭등"
+        }
     },
     {
         "id": "construct",
@@ -1148,9 +1280,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "주택 원가율 1%p 개선 시 대형 건설사 세전이익 약 +800억~1,200억 원 증가. 체코 원전 매출 인식 시 연간 영업이익 수백억 원 추가.",
             "currentStatus": "PF 리스크가 우량 건설사 중심으로 완벽히 차별화되었으며, 서울 재건축·재개발 분양가 상승으로 자체 개발 마진 급증.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 선별적 호전 (원전 수주 & 원가율 개선)",
-                "summary": "체코 원전 본계약 체결 및 서울 주택 정비사업 수주 호조로 실적 턴어라운드가 가시화되었습니다. 순현금 우량 건설사(DL이앤씨, 삼성물산) 중심 매력 부각."
+                "level": "CAUTION",
+                "badgeText": "🔴 실적 주의 (PF 부실 리스크 & 주택 착공 급감)",
+                "summary": "해외 플랜트 및 원전 모멘텀은 유효하나, 국내 주택 착공 실종과 높은 원가율, PF 우발채무 리스크로 인해 건설사들의 영업이익률이 1~2%대로 추락한 상황입니다."
             }
         },
         "indicators": [
@@ -1218,7 +1350,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 22,
                 "comment": "e편한세상. 부채비율 98% 및 순현금 1조 원 보유로 건설업계 최고 재무 건전성 및 밸류업 자사주 소각 추진"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "WEAK",
+            "statusBadge": "❄️ 수요 침체 (부동산 PF 위기 & 신규 착공 실종)",
+            "keyDriver": "고금리 장기화와 부동산 PF(프로젝트 파이낸싱) 부실 구조조정 여파로 건설사들이 신규 착공을 전면 중단했습니다. 지방을 중심으로 미분양 아파트가 7만 호를 상회하며 주택 사업 수주가 얼어붙었습니다.",
+            "demandIndicator": "전국 미분양 주택 수 (국토교통부)",
+            "demandIndicatorVal": "7만 2,000호 초과 (위험 수위 지속)"
+        },
+        "riskDrivers": {
+            "bullFactor": "체코 원전 24조 원 수주 본계약 체결 및 중동·동남아 플랜트 EPC 인프라 수주 확대",
+            "bearFactor": "과거 고분양가에 착공한 준공 현장의 추가 원가 투입(원가율 95~100%) 및 PF 우발채무 현실화"
+        }
     },
     {
         "id": "refinery",
@@ -1239,9 +1382,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "싱가포르 정제마진 배럴당 1달러 상승 시 국내 정유 4사 연간 영업이익 약 +1조 원 증가. 유가 10달러 상승 시 재고평가익 수천억 원 발생.",
             "currentStatus": "글로벌 난방유 성수기 진입과 아시아 지역 정제마진 반등으로 4분기 실적 턴어라운드 국면 안착.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 점진적 호전 (정제마진 반등)",
-                "summary": "정제마진이 BEP를 웃도는 배럴당 6~7달러 선으로 회복되고 있으며, 정유 4사의 고도화 설비 가동으로 안정적인 배당 수익률(4~5%) 기대."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (정제마진 박스권 & 중국 수요 둔화)",
+                "summary": "유가 급락세는 멈췄으나 중국의 석유 수요 둔화로 복합정제마진이 평년 수준에 머물러 있어 폭발적인 이익 개선을 기대하기는 어렵습니다."
             }
         },
         "indicators": [
@@ -1309,7 +1452,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 22,
                 "comment": "GS칼텍스 모회사. 정유, 발전, 리테일을 아우르는 탄탄한 지주사로 PBR 0.3배대 극저평가 및 5% 후반대 고배당"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (중국 석유 수요 피크 & 전기차 확산)",
+            "keyDriver": "세계 최대 원유 수입국인 중국의 경기 부진과 전기차/LNG 트럭 급증으로 아시아 석유제품 수요 증가세가 크게 둔화되었습니다. 정제마진이 배럴당 5~7달러 박스권에 갇혀 있습니다.",
+            "demandIndicator": "싱가포르 복합 정제마진 (Singapore GRM)",
+            "demandIndicatorVal": "배럴당 6.2달러 (손익분기점 4.5달러 상회하나 과거 호황 대비 정체)"
+        },
+        "riskDrivers": {
+            "bullFactor": "글로벌 해외여행 회복에 따른 항공유(Jet Fuel) 수요 호조 및 미국 드라이빙 시즌 진입",
+            "bearFactor": "중국 티팟 정제소의 수출 쿼터 확대 및 글로벌 전기차 확산에 따른 수송용 연료 장기 수요 감소"
+        }
     },
     {
         "id": "chem",
@@ -1330,9 +1484,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "에틸렌 스프레드 톤당 50달러 개선 시 롯데케미칼 분기 영업이익 약 +1,200억 원 개선. 나프타 가격 10% 하락 시 원가율 즉각 개선.",
             "currentStatus": "범용 석유화학의 최악 적자 구간을 통과 중이며, 비핵심 자산 매각 및 고부가 스페셜티/전지소재 전환으로 생존 전략 가동.",
             "outlookSignal": {
-                "level": "NEUTRAL",
-                "badgeText": "🟡 바닥 다지기 (스페셜티 차별화)",
-                "summary": "중국 증설 부담으로 범용 에틸렌 스프레드 회복은 더디나, 금호석유 등 스페셜티 및 고무 소재 기업을 중심으로 실적 방어 및 배당 매력 유효."
+                "level": "CAUTION",
+                "badgeText": "🔴 실적 주의 (구조적 공급 과잉 & 에틸렌 역마진)",
+                "summary": "중국의 자급률 급상승으로 한국 화학사들의 전통적 수출 시장이 사라졌으며, 에틸렌 스프레드 역마진이 3년째 지속되어 구조조정이 불가피한 업종입니다."
             }
         },
         "indicators": [
@@ -1400,7 +1554,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 0,
                 "comment": "PBR 0.25배의 극단적 저평가. 파키스탄 자회사 매각 및 인도네시아 라인 프로젝트 재조정 등 자산 다각화 추진"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "WEAK",
+            "statusBadge": "❄️ 수요 침체 (중국 초대형 자급화 & 에틸렌 역마진)",
+            "keyDriver": "중국이 지난 3년간 초대형 정유석화 통합단지(CTO/MTO)를 집중 가동하며 에틸렌 자급률 100%를 돌파했습니다. 글로벌 수요 성장률을 2배 이상 초과하는 대규모 증설로 유례없는 공급 과잉에 직면했습니다.",
+            "demandIndicator": "에틸렌 - 나프타 스프레드 (Ethylene Spread)",
+            "demandIndicatorVal": "톤당 180달러 (손익분기점 250달러 대폭 하회, 역마진 장기화)"
+        },
+        "riskDrivers": {
+            "bullFactor": "이차전지 전해액용 용매, 반도체용 세정액, 탄소섬유 등 고부가 스페셜티 제품군 전환",
+            "bearFactor": "범용 석유화학 NCC(나프타 분해설비)의 구조적 가동 중단 및 누적 적자로 인한 신용등급 하락"
+        }
     },
     {
         "id": "power_grid",
@@ -1422,8 +1587,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "글로벌 변압기 수주 랠리와 미국 현지 배전 시스템 공급 확대로 분기 영업이익이 전년 대비 100% 이상 급증하는 사상 최대 호황 구가.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 강력 호황 (전력망 슈퍼사이클)",
-                "summary": "AI 데이터센터 전력 수요와 북미 전력망 교체로 변압기·전력기기 기업들의 영업이익이 100% 이상 급증하고 있습니다. 4~5년치 수주 잔고 확보."
+                "badgeText": "🟢 강력 호전 (40년 만의 변압기 슈퍼사이클)",
+                "summary": "AI 인프라 확충과 신재생 전력망 연계 수요가 폭발하며 한국 전력기기 3사(HD현대일렉트릭, 효성중공업, LS일렉트릭)의 사상 최대 실적 행진이 확정적입니다."
             }
         },
         "indicators": [
@@ -1491,7 +1656,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 20,
                 "comment": "미국 테네시 변압기 공장 흑자 전환 및 유럽 스태콤(STATCOM) 등 차세대 송전 시스템 수주 선도"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (AI 데이터센터 & 북미 전력망 교체)",
+            "keyDriver": "생성형 AI 데이터센터의 막대한 전력 소모와 북미 노후 송배전망의 강제 교체 주기가 맞물려 초고압 변압기와 배전반 주문이 쏟아지고 있습니다. 글로벌 공급 능력이 수요를 전혀 따라가지 못하는 쇼티지(공급 부족) 상태입니다.",
+            "demandIndicator": "북미 초고압 변압기 평균 리드타임(납기)",
+            "demandIndicatorVal": "48개월 (사상 최장 리드타임 지속)"
+        },
+        "riskDrivers": {
+            "bullFactor": "2028년까지 4년 치 수주 물량 완판 및 판가(ASP) 분기당 지속 인상으로 OPM 20% 돌파",
+            "bearFactor": "주요 원자재인 전기동(구리) 및 방향성 규소강판 가격 급등 시 원가 상승 부담"
+        }
     },
     {
         "id": "energy_infra",
@@ -1513,8 +1689,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "한전의 연간 영업이익 7조 원 돌파 흑자 안착과 체코 원전 본계약 체결로 원전 생태계 전반의 수주 랠리 지속.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 강력 흑자 (한전 흑자 & 원전 르네상스)",
-                "summary": "한전의 역대급 흑자 전환과 전기요금 정상화로 재무 리스크가 완전히 해소되었으며, 두산에너빌리티의 SMR 파운드리 수주 확대로 원전 르네상스 본격화."
+                "badgeText": "🟢 강력 호전 (한전 흑자 안착 & 글로벌 원전 르네상스)",
+                "summary": "연료비 안정화와 산업용 요금 인상 효과로 한국전력의 대규모 영업흑자 전환이 안착되었으며, 팀코리아의 체코 원전 수주로 장기 실적 가시성이 매우 높습니다."
             }
         },
         "indicators": [
@@ -1582,7 +1758,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 55,
                 "comment": "원전 및 발전설비 정비(MRO) 독점 공기업. 무차입 경영 및 5%대 안정적인 고배당 매력 보유"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (AI 전력 수요 급증 & 원전 부활)",
+            "keyDriver": "AI 데이터센터의 24시간 가동을 위한 기저부하 전력원으로서 원자력 발전 수요가 글로벌 빅테크(MS, 아마존, 구글)를 중심으로 급증하고 있으며, 국내에서도 한전의 산업용 전기요금 정상화로 수익성이 회복되었습니다.",
+            "demandIndicator": "국내 산업용 전력 판매 단가 및 사용량",
+            "demandIndicatorVal": "kWh당 165원 (전기요금 정상화 안착)"
+        },
+        "riskDrivers": {
+            "bullFactor": "한국전력의 연간 7조 원대 흑자 안착 및 체코 신규 원전 2기 우선협상자 본계약 체결",
+            "bearFactor": "한전의 누적 부채 200조 원에 따른 금융비용 지출 지속 및 송배전망 인프라 투자 부담"
+        }
     },
     {
         "id": "gas",
@@ -1603,9 +1790,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "도시가스 요금 MJ당 1원 인상 시 가스공사 연간 미수금 회수액 약 +5,000억 원 증가. 겨울철 기온 1도 하락 시 난방 가스 소비량 7% 증가.",
             "currentStatus": "가스요금 인상 효과로 가스공사 미수금 회수 사이클이 가동되었으며, 동해 심해 가스전 탐사 시추 모멘텀 보유.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 미수금 회수 & 배당 정상화",
-                "summary": "도시가스 요금 인상으로 한국가스공사의 미수금 회수가 시작되며 배당 재개 가시성이 높아졌습니다. 삼천리·SK가스의 안정적 현금흐름과 고배당 매력."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (미수금 정산 개시 vs 소비량 정체)",
+                "summary": "요금 정상화로 최악의 위기는 벗어났으나, 소비량 증가세가 둔화되고 막대한 미수금 회수 속도가 완만하여 주가 및 실적 반등 탄력은 제한적입니다."
             }
         },
         "indicators": [
@@ -1673,7 +1860,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 20,
                 "comment": "국내 1위 도시가스 소매사(경기 서남부 및 인천 독점). PBR 0.28배 극저평가 및 안정적 배당"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (가스 소비량 정체 & 미수금 회수 지연)",
+            "keyDriver": "고물가로 인한 가계 및 산업체의 난방·에너지 절약 기조로 도시가스 총 소비량이 정체되어 있습니다. 가스공사의 민수용 미수금(14조 원) 회수를 위한 요금 인상이 점진적으로 진행 중입니다.",
+            "demandIndicator": "한국가스공사 민수용 도시가스 미수금 잔액",
+            "demandIndicatorVal": "약 14조 원 (회수 속도 완만)"
+        },
+        "riskDrivers": {
+            "bullFactor": "원가 이하로 공급되던 민수용 가스요금의 단계적 현실화에 따른 미수금 회수 개시",
+            "bearFactor": "온화한 겨울 날씨로 인한 가스 난방 수요 감소 및 소비자 물가 반발로 인한 인상 억제"
+        }
     },
     {
         "id": "bio_cdmo",
@@ -1695,8 +1893,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "삼성바이오로직스의 연간 누적 수주 4조 원 돌파와 셀트리온의 합병 시너지 가시화로 4분기 사상 최대 실적 경신 지속.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 사상 최대 실적 (생물보안법 & 수주 폭증)",
-                "summary": "미국 생물보안법 반사이익과 4공장 풀가동으로 삼성바이오로직스가 사상 최대 실적을 달성 중이며, 셀트리온 짐펜트라의 미국 직판 안착으로 K-바이오 황금기 도래."
+                "badgeText": "🟢 강력 호전 (생물보안법 최대 수혜 & 16조 수주)",
+                "summary": "미국의 탈중국 바이오 공급망 재편의 최대 수혜를 입으며 글로벌 톱20 빅파마들과의 초대형 장기 계약이 잇따르고 있어 안정적인 두 자릿수 성장이 지속됩니다."
             }
         },
         "indicators": [
@@ -1748,7 +1946,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 20,
                 "comment": "셀트리온헬스케어 합병 완료. 미국 짐펜트라(램시마SC) 신약 직판 본격화 및 고마진 바이오시밀러 신제품 포트폴리오 완성"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (미국 생물보안법 & 빅파마 위탁 폭증)",
+            "keyDriver": "미국 의회의 '생물보안법(BIOSECURE Act)' 통과로 중국 우시바이오로직스가 미국 시장에서 퇴출 수순을 밟으면서, 글로벌 빅파마들의 대규모 바이오의약품 위탁생산(CDMO) 주문이 한국으로 급격히 이전되고 있습니다.",
+            "demandIndicator": "삼성바이오로직스 단일 공장 가동률 및 수주잔고",
+            "demandIndicatorVal": "수주잔고 16조 원 (1~4공장 풀가동)"
+        },
+        "riskDrivers": {
+            "bullFactor": "18만 리터 5공장 조기 완공 및 항체약물접합체(ADC) 전용 생산시설 가동으로 초격차 확보",
+            "bearFactor": "대규모 신규 설비 증설에 따른 초기 감가상각비 증가 및 환율 하락 시 원화 환산 마진 축소"
+        }
     },
     {
         "id": "bio_innov",
@@ -1770,8 +1979,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "국산 신약의 FDA 본승인과 글로벌 플랫폼 독점 상업화가 결합되어 코스닥 및 바이오 섹터 주도주로 전면 부상.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 사상 최대 성과 (FDA 승인 & 플랫폼 독점)",
-                "summary": "유한양행 렉라자의 미국 FDA 승인 성공과 알테오젠의 키트루다SC 독점 계약으로 K-바이오 연구개발의 상업화 결실이 폭발하고 있습니다."
+                "badgeText": "🟢 강력 호전 (블록버스터 SC 독점 로열티 상용화)",
+                "summary": "단순 기대감을 넘어 글로벌 1위 면역항암제에 독점 적용되는 피하주사 플랫폼 로열티가 본격 유입되며 조 단위 영업이익을 실현하는 단계로 진입했습니다."
             }
         },
         "indicators": [
@@ -1839,7 +2048,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 0,
                 "comment": "차세대 항암제 ADC(항체약물접합체) 플랫폼 기술 최강자. 얀센 등 글로벌 빅파마 누적 8.7조 원 기술수출 달성"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (글로벌 특허만료 & SC 제형 러브콜)",
+            "keyDriver": "키트루다 등 글로벌 블록버스터 항암제의 특허 만료(Patent Cliff)가 다가오면서, 정맥주사를 5분짜리 피하주사로 바꾸는 플랫폼 기술(ALT-B4 등)에 대한 빅파마의 수요가 폭발하고 있습니다.",
+            "demandIndicator": "K-바이오 연간 기술수출(L/O) 계약 총액",
+            "demandIndicatorVal": "10조 원 상회 (단일 계약 1조 원 돌파 다수)"
+        },
+        "riskDrivers": {
+            "bullFactor": "알테오젠의 머크 키트루다 SC 상용화 독점 로열티 수령 개시 및 리가켐바이오의 ADC 기술이전",
+            "bearFactor": "글로벌 임상 3상 실패 리스크 및 미국 FDA 보완요구서한(CRL) 발송에 따른 허가 지연 변수"
+        }
     },
     {
         "id": "pharma",
@@ -1860,9 +2080,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "원외처방액 5% 증가 시 한미약품/종근당 연간 영업이익 약 +150억~250억 원 증가. 나보타 미국 수출 10% 증가 시 대웅제약 OPM 약 +1.0%p 개선.",
             "currentStatus": "고마진 자체 개발 개량신약 처방액 증가와 나보타 미국 수출 호조로 연간 영업이익 사상 최대치 경신 지속.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 견조한 호전 (고령화 & 개량신약)",
-                "summary": "초고령화에 따른 전문의약품(ETC) 처방액 증가와 보툴리눔 톡신 미국 수출 성장으로 안정적인 실적 창출과 12~15%대 영업이익률 유지."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (만성질환 안정성 vs 약가 인하 압박)",
+                "summary": "처방 수요의 하방 경직성은 뛰어나나, 정부의 지속적인 약가 인하 정책으로 인해 영업이익률이 6~8%대 박스권에 갇혀 있는 안정형 업종입니다."
             }
         },
         "indicators": [
@@ -1914,7 +2134,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 15,
                 "comment": "보툴리눔 톡신 나보타(미국명 주보) 미국 시장 점유율 13% 돌파 및 위식도역류질환 신약 펙수클루 글로벌 수출 확대"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (고령화 처방 안정 vs 약가 인하 규제)",
+            "keyDriver": "인구 고령화로 고혈압, 당뇨, 고지혈증 등 만성질환 전문의약품(ETC) 처방 수요는 탄탄하지만, 건강보험 재정 건전화를 위한 보건당국의 제네릭 약가 인하 규제가 실적 상방을 억누르고 있습니다.",
+            "demandIndicator": "건강보험공단 총 약품비 지출액 증가율",
+            "demandIndicatorVal": "+4.2% (정부의 지출 통제 정책 지속)"
+        },
+        "riskDrivers": {
+            "bullFactor": "HK이노엔 케이캡 등 국산 신약의 해외 기술수출 및 고마진 복합 개량신약 처방 비중 확대",
+            "bearFactor": "보건복지부의 급여 재평가에 따른 기존 의약품 급여 삭제 및 제네릭 약가 차등제 시행"
+        }
     },
     {
         "id": "medtech",
@@ -1936,8 +2167,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "미국 블랙프라이데이 및 아마존 뷰티 디바이스 1위 석권과 미용 소모품 수출 호조로 연간 영업이익 50% 이상 급성장 지속.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 폭발적 성장 (홈 뷰티 & 글로벌 수출)",
-                "summary": "에이피알의 뷰티 디바이스 북미/일본 침투와 클래시스·파마리서치의 고마진 소모품 반복 매출로 K-의료기기 기업들의 OPM 25~30%대 폭발적 성장 지속."
+                "badgeText": "🟢 강력 호전 (글로벌 뷰티테크 수출 폭발 & OPM 35%)",
+                "summary": "기기 판매 후 지속적으로 발생하는 고수익 카트리지·소모품 매출 구조와 북미 현지 침투율 급상승으로 제조업 최고 수준의 OPM을 달성하고 있습니다."
             }
         },
         "indicators": [
@@ -2005,7 +2236,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 25,
                 "comment": "연어 DNA 추출 DOT PDRN 기반 리쥬란 힐러 및 콘쥬란 관절강 주사. 동남아 및 일본 외국인 관광객 피부과 필수 시술 안착"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (미국·동남아 K-뷰티테크 열풍)",
+            "keyDriver": "K-뷰티의 인기가 화장품에서 홈 뷰티기기(EMS, 고주파) 및 피부과 리프팅 시술(HIFU, RF)로 확장되며 미국, 일본, 동남아 시장에서 미용의료기기 수요가 폭발하고 있습니다.",
+            "demandIndicator": "국내 미용의료기기 및 홈 디바이스 월별 수출액",
+            "demandIndicatorVal": "전년 동기 대비 +28% 급증"
+        },
+        "riskDrivers": {
+            "bullFactor": "에이피알의 글로벌 200만 대 디바이스 판매 돌파 및 클래시스의 고마진 소모품 카트리지 매출 50% 육박",
+            "bearFactor": "미국 내 저가 유사 미용기기 진입 및 글로벌 소비 침체 시 비필수 피부과 시술 수요 둔화"
+        }
     },
     {
         "id": "food",
@@ -2027,8 +2269,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "CBOT 소맥·옥수수 선물이 연중 최저점 부근에서 안정세를 유지하고 있으며, 미국·유럽·동남아 수출액이 매월 역대 최고치를 경신.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 강력 호전 (곡물가 하락 & K-푸드)",
-                "summary": "원재료 투입원가 하락에 따른 마진 개선과 불닭볶음면, 냉동김밥 등 K-푸드의 글로벌 수출 폭증이 결합되어 음식료 업종 사상 최대 영업이익 랠리 지속."
+                "badgeText": "🟢 강력 호전 (글로벌 K-라면 돌풍 & 곡물가 안정)",
+                "summary": "원재료 곡물 가격 안정으로 원가율이 개선된 가운데, 미국과 유럽 시장에서의 폭발적인 수출 성장으로 음식료 업종 전반의 밸류에이션 리레이팅이 진행 중입니다."
             }
         },
         "indicators": [
@@ -2096,7 +2338,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 25,
                 "comment": "초코파이 및 파이·스낵 강자. 중국·베트남·러시아 현지 법인의 높은 영업이익률과 순현금 1조 원 보유"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (미국·유럽 메인스트림 K-푸드 돌풍)",
+            "keyDriver": "월마트, 코스트코 등 글로벌 유통 체인에서 K-라면(불닭볶음면), 냉동김밥, 냉동만두가 아시안 마켓을 넘어 현지 메인스트림 소비재로 안착하며 해외 수출 물량이 폭증하고 있습니다.",
+            "demandIndicator": "대한민국 농수산식품(K-푸드) 연간 수출액",
+            "demandIndicatorVal": "120억 달러 (사상 역대 최대치 달성)"
+        },
+        "riskDrivers": {
+            "bullFactor": "삼양식품 밀양 2공장 증설에 따른 공급 능력 확대 및 국제 소맥·원당·팜유 시세 하향 안정",
+            "bearFactor": "국내 인구 감소에 따른 내수 시장 출하량 정체 및 원달러 환율 급등 시 수입 원가율 상승"
+        }
     },
     {
         "id": "fishery",
@@ -2117,9 +2370,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "벙커C유 가격 10% 하락 시 동원산업 연간 선박 유류비 약 +180억~250억 원 절감. 참치 어가 톤당 100달러 상승 시 원양 부문 영업이익 약 +80억 원 증가.",
             "currentStatus": "국제유가 안정세에 따른 유류비 부담 완화와 참치 통조림 글로벌 소비 수요 견조로 4분기 실적 개선 뚜렷.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 실적 개선 (유가 하락 & 어업량 회복)",
-                "summary": "원양어선의 최대 원가 항목인 벙커C유 가격 안정화로 출어 원가가 급감하였으며, 참치 어획량 회복과 결합되어 수산·식품 부문 실적 턴어라운드 전망."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (유류비 절감 호재 vs 어획량 변동성)",
+                "summary": "유가 안정으로 선박 운항 원가는 대폭 절감되었으나, 어가 변동성과 어황에 따른 실적 변동성이 커 안정적인 추세 상승에는 시간이 필요합니다."
             }
         },
         "indicators": [
@@ -2171,7 +2424,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 15,
                 "comment": "참치 원양어업 및 수산물 가공 유통사. 유류비 절감 수혜 및 캐슬렉스 골프장 등 막대한 부동산 자산 가치 보유"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (참치 어가 변동성 & 소비 심리 관망)",
+            "keyDriver": "가공용 참치캔 수요는 견조하나, 고급 횟감용 참치의 일본 및 글로벌 소비가 주춤하며 전방 수요가 혼조세를 보이고 있습니다. 원양 어획량은 기후 조건에 따라 등락을 거듭하고 있습니다.",
+            "demandIndicator": "방콕 가다랑어(원어) 톤당 어가",
+            "demandIndicatorVal": "톤당 1,450달러 (적정 수준 유지)"
+        },
+        "riskDrivers": {
+            "bullFactor": "국제 유가(벙커C유) 하락에 따른 원양어선단 유류비 절감 및 통조림 제조 가공마진 개선",
+            "bearFactor": "태평양 중서부 어업위원회(WCPFC)의 조업 일수 제한 및 이상 수온으로 인한 어획량 편차"
+        }
     },
     {
         "id": "garment",
@@ -2192,9 +2456,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "원/달러 환율 10원 상승 시 영원무역 연간 영업이익 약 +120억 원 증가. OEM 오더 5% 증가 시 공장 레버리지로 OPM +1.2%p 상승.",
             "currentStatus": "미국 바이어의 재고 재비축(Restocking) 사이클과 원/달러 고환율 수혜로 방글라데시·베트남 공장 가동률 풀가동 호실적 기록.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 강력 호전 (바이어 재고비축 & 고환율)",
-                "summary": "미국 고객사의 재고 소진 후 신규 오더 재개와 고환율 수혜로 영원무역, 한세실업의 실적이 크게 호전 중입니다. 순현금 우량 재무구조와 저PBR 매력."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (고환율 환차익 vs 바이어 발주 관망)",
+                "summary": "환율 수혜로 원화 실적은 방어되고 있으나, 미국 의류 바이어들의 오더 증가 속도가 더뎌 본격적인 수주 회복 사이클 진입은 관망할 필요가 있습니다."
             }
         },
         "indicators": [
@@ -2262,7 +2526,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 25,
                 "comment": "글로벌 명품 핸드백(마이클코어스, 코치) 및 의류 OEM. OPM 11%대의 탄탄한 수익성과 5%대 고배당주"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (미국 의류 바이어 보수적 발주)",
+            "keyDriver": "미국 타깃, 갭, 나이키 등 주요 글로벌 패션 바이어들의 과잉 재고는 해소되었으나, 고물가로 인한 미국 소비자들의 의류 지출 긴축으로 신규 발주를 매우 보수적으로 집행하고 있습니다.",
+            "demandIndicator": "미국 의류 소매업체 재고대비 매출액 비율(I/S Ratio)",
+            "demandIndicatorVal": "1.48 (정상 범위 안착했으나 발주는 관망세)"
+        },
+        "riskDrivers": {
+            "bullFactor": "원달러 환율 1,350원대 유지로 달러 결제 수출 대금의 원화 환산 이익 극대화",
+            "bearFactor": "미국 소비자 실질구매력 둔화에 따른 최종 판매 부진 및 베트남/인도네시아 인건비 상승"
+        }
     },
     {
         "id": "fashion",
@@ -2283,9 +2558,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "중국 MLB 매장 100개 순증 시 F&F 연간 영업이익 약 +300억 원 증가. 국내 백화점 의류 판매 5% 증가 시 한섬 OPM 약 +1.0%p 상승.",
             "currentStatus": "중국의 경기 부양책과 동남아(베트남, 태국) 매장 출점 가속화로 글로벌 패션 기업으로서의 현금창출력 유지.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 견조한 호전 (해외 매장 확장 & 고마진)",
-                "summary": "MLB의 중국 매장 1,100개 안착과 동남아 시장 확대로 OPM 24%대의 독보적 수익성을 유지하고 있습니다. PER 6배대 저평가 매력."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (해외 확장 기대 vs 국내 의류 소비 둔화)",
+                "summary": "해외 라이선스 브랜드의 글로벌 확장은 긍정적이나, 국내 의류 소비 침체와 따뜻한 겨울 기후로 인한 재고 부담이 실적 개선을 제약하고 있습니다."
             }
         },
         "indicators": [
@@ -2337,7 +2612,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 30,
                 "comment": "현대백화점그룹 프리미엄 여성복(타임, 마인, 시스템). PBR 0.32배 극저평가 및 순현금 5,000억 원 보유"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (국내 패션 소비 부진 & C-커머스 침투)",
+            "keyDriver": "가계 가처분소득 감소로 백화점 영캐주얼 및 아웃도어 의류 구매가 위축되고 있으며, 알리·테무 등 중국 C-커머스의 초저가 의류 공세로 중저가 패션 시장의 가격 경쟁이 격화되었습니다.",
+            "demandIndicator": "국내 백화점 의류 부문 전년비 매출 증감률",
+            "demandIndicatorVal": "-1.8% (역신장 지속)"
+        },
+        "riskDrivers": {
+            "bullFactor": "F&F MLB 및 디스커버리의 동남아/중동 글로벌 매장 확장 및 감성코퍼레이션의 대만 진출",
+            "bearFactor": "기온 상승에 따른 고마진 겨울 패딩/코트 판매 부진 및 백화점 수수료율 인상"
+        }
     },
     {
         "id": "beauty",
@@ -2359,8 +2645,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "미국 아마존 선크림 카테고리 1~5위를 K-선크림이 싹쓸이하며 글로벌 화장품 수출액 역대 최고치 경신 중.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 폭발적 성장 (미국 인디뷰티 & ODM)",
-                "summary": "중국을 벗어나 미국·유럽·일본으로 수출 영토가 완전히 재편되었습니다. 한국콜마, 코스맥스 등 ODM 제조사와 실리콘투의 실적 퀀텀점프 지속."
+                "badgeText": "🟢 강력 호전 (미국 K-뷰티 열풍 & ODM 수주 폭증)",
+                "summary": "중국 의존도를 완전히 벗어나 미국, 유럽, 동남아로 수출 영토를 확장하며 글로벌 인디 뷰티 브랜드들의 필수 파트너로 자리매김해 사상 최대 실적을 달성 중입니다."
             }
         },
         "indicators": [
@@ -2428,7 +2714,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 15,
                 "comment": "K-뷰티 글로벌 B2B 유통 플랫폼(Stylekorean) 1위. 전 세계 풀필먼트 거점을 통해 인디 브랜드를 직수출하며 OPM 22% 달성"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (미국 아마존 랭킹 석권 & K-인디 뷰티)",
+            "keyDriver": "미국 스킨케어 시장에서 조선미녀, 아누아, 스킨1004 등 한국 인디 브랜드들이 틱톡과 아마존 랭킹 1~10위를 휩쓸며, 이들의 제품을 전담 생산하는 한국콜마, 코스맥스 등 ODM사로 주문이 폭주하고 있습니다.",
+            "demandIndicator": "대한민국 화장품 월별 수출액 (관세청)",
+            "demandIndicatorVal": "월 8.5억 달러 돌파 (미국 수출 비중 전년비 +45% 폭증)"
+        },
+        "riskDrivers": {
+            "bullFactor": "미국 FDA 자외선 차단제(OTC) 규제를 통과한 K-선크림의 글로벌 독점적 기술력과 턴키 수주",
+            "bearFactor": "중국 로컬 뷰티(C-뷰티)의 자국 시장 방어로 인한 중국 현지 법인 실적 부진 장기화"
+        }
     },
     {
         "id": "retail_off",
@@ -2449,9 +2746,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "대형마트 기존점 성장률 1%p 상승 시 연간 영업이익 약 +350억 원 증가. 편의점 신규 점포 1,000개 순증 시 연매출 약 +4,000억 원 추가.",
             "currentStatus": "이마트의 자회사(신세계건설) 부실 리스크 차단과 희망퇴직 완료로 불확실성이 해소되었으며, PBR 0.2배 수준의 극저평가 탈출 조짐.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 구조조정 완료 (그로서리 반등)",
-                "summary": "수년간 이어진 오프라인 구조조정과 점포 리뉴얼 효과가 나타나며 기존점 매출이 턴어라운드 중입니다. PBR 0.2~0.3배 극저평가 매력."
+                "level": "CAUTION",
+                "badgeText": "🔴 실적 주의 (내수 소비 침체 & 이커머스 고객 이탈)",
+                "summary": "오프라인 유통 채널의 트래픽이 온라인으로 영구 이전되고 있으며, 소비 심리 위축과 높은 고정비 부담으로 인해 구조적 마진 하락세가 이어지고 있습니다."
             }
         },
         "indicators": [
@@ -2519,7 +2816,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 35,
                 "comment": "편의점 CU 운영. PB 연세우유 크림빵 등 메가히트 상품과 몽골·카자흐스탄 등 해외 K-편의점 수출 확장"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "WEAK",
+            "statusBadge": "❄️ 수요 침체 (대형마트 객수 감소 & 이커머스 잠식)",
+            "keyDriver": "1~2인 가구 급증과 쿠팡·컬리의 새벽배송 고착화로 오프라인 대형마트 방문 고객 수가 지속 감소하고 있습니다. 고물가로 인한 장바구니 부담으로 백화점 명품을 제외한 일반 소비재 매출이 역성장 중입니다.",
+            "demandIndicator": "대형마트 전년 동월 대비 방문 고객 수(객수)",
+            "demandIndicatorVal": "-3.2% 감소 (오프라인 매장 방문 기피 지속)"
+        },
+        "riskDrivers": {
+            "bullFactor": "백화점 상위 1% VIP 초고가 명품 소비의 견조함 및 편의점 초저가 PB 식품의 집객력",
+            "bearFactor": "C-커머스(알리/테무)의 초저가 공산품 직구 침투 및 최저임금·전기요금 인상에 따른 판관비 폭등"
+        }
     },
     {
         "id": "ecommerce",
@@ -2541,8 +2849,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "국내 유통시장 점유율 독점적 확대 및 대만 로켓배송의 폭발적 성장으로 분기 매출 10조 원 및 연간 흑자 구조 완벽 안착.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 독점적 호전 (승자독식 & 흑자)",
-                "summary": "티메프 사태 이후 국내 이커머스 시장 지배력이 더욱 견고해졌으며, 멤버십 인상 효과와 대만 시장의 성공적 안착으로 압도적 현금창출력을 증명 중입니다."
+                "badgeText": "🟢 강력 호전 (로켓배송 독점력 & 조 단위 영업흑자)",
+                "summary": "국내 유통 시장의 치킨게임을 끝내고 압도적인 물류 인프라 독점력을 바탕으로 매 분기 사상 최대 매출과 수천억 원대 영업이익을 창출하는 독점 체제를 구축했습니다."
             }
         },
         "indicators": [
@@ -2578,7 +2886,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 0,
                 "comment": "구글이 지분 투자한 글로벌 쇼핑몰 구축 플랫폼. 유튜브 쇼핑 전용 스토어 독점 출시로 GMV 폭발적 성장"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (로켓배송 락인 & 유료 멤버십 독점)",
+            "keyDriver": "쿠팡의 1,400만 와우 멤버십 기반 고객 락인(Lock-in)과 로켓프레시/풀필먼트의 압도적 편의성으로 온라인 쇼핑 점유율이 25%를 돌파하며 전통 오프라인 유통의 파이를 흡수하고 있습니다.",
+            "demandIndicator": "국내 온라인 쇼핑 월간 총 거래액",
+            "demandIndicatorVal": "월 20.5조 원 돌파 (침투율 사상 최고치)"
+        },
+        "riskDrivers": {
+            "bullFactor": "3자 물류 풀필먼트(FLC) 수수료 매출 급증 및 멤버십 가격 인상(7,890원) 온기 반영 효과",
+            "bearFactor": "공정위 등 정부의 플랫폼 규제 리스크 및 중국 초저가 이커머스의 수수료 덤핑 공세"
+        }
     },
     {
         "id": "tobacco_liq",
@@ -2599,9 +2918,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "해외 담배 매출 10% 증가 시 KT&G 영업이익 약 +600억 원 증가. 소주 판가 10원 인상 시 하이트진로 연간 영업이익 약 +180억 원 증가.",
             "currentStatus": "해외 NGP 수출과 인도네시아·카자흐스탄 신공장 가동 효과로 분기 실적 호조 및 연간 4,000억 원 이상 자사주 소각 확정.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 강력 호전 (수출 성장 & 고배당)",
-                "summary": "KT&G의 전자담배 글로벌 수출 호조와 3개년 밸류업 프로그램(자사주 소각 및 6%대 배당수익률)이 주가 상승을 강력히 견인하고 있습니다."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (전자담배 수출 성장 vs 내수 주류 침체)",
+                "summary": "내수 주류 시장의 부진을 글로벌 궐련형 전자담배 수출과 부동산 배당이 방어하고 있어, 급격한 이익 개선보다는 안정적 배당주로서의 성격이 짙습니다."
             }
         },
         "indicators": [
@@ -2653,7 +2972,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 45,
                 "comment": "참이슬 및 테라·켈리 보유. 판가 인상 효과 및 베트남 해외 생산공장 착공으로 글로벌 K-소주 수출 가속"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (국내 회식 축소 vs 해외 전자담배 성장)",
+            "keyDriver": "국내 2030 세대의 음주 문화 축소와 조기 귀가 트렌드로 소주·맥주 등 전통 주류 소비량이 감소하고 있습니다. 반면, 궐련형 전자담배(NGP)는 국내외에서 일반 담배를 대체하며 견조한 침투율을 보입니다.",
+            "demandIndicator": "국내 소주·맥주 총 출하량 증감률",
+            "demandIndicatorVal": "-2.8% (주류 소비량 지속 감소)"
+        },
+        "riskDrivers": {
+            "bullFactor": "KT&G의 필립모리스(PMI) 협업을 통한 글로벌 전자담배 '릴(Liil)' 장기 수출 및 카자흐스탄/인니 공장 신증설",
+            "bearFactor": "주정 및 맥아 등 수입 원자재 가격 상승과 담배 소비세 등 세금 규제 리스크"
+        }
     },
     {
         "id": "shipping",
@@ -2674,9 +3004,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "SCFI 100포인트 상승 시 HMM 연간 영업이익 약 +3,000억 원 증가. BDI 500포인트 상승 시 팬오션 분기 영업이익 약 +500억 원 개선.",
             "currentStatus": "홍해 사태 장기화와 글로벌 해운동맹 재편으로 고운임 기조가 지속되며 HMM이 분기 1조 원대 영업이익 안착.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 어닝 서프라이즈 (홍해 우회 & 고운임)",
-                "summary": "희망봉 우회 장기화로 글로벌 컨테이너선 공급 부족이 지속되어 운임이 높은 수준을 유지하고 있습니다. HMM의 순현금 14조 원과 압도적 밸류에이션 매력."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (지정학적 고운임 vs 선박 공급 과잉 우려)",
+                "summary": "지정학적 병목으로 깜짝 실적 호조가 지속되고 있으나, 신규 선박 유입으로 인한 중장기 공급 과잉 리스크가 잠재되어 있어 보수적 접근이 필요합니다."
             }
         },
         "indicators": [
@@ -2728,7 +3058,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 22,
                 "comment": "국내 1위 벌크선사(하림그룹). 포스코, 발레(Vale) 등 장기화물운송계약(CVC) 기반 안정적 마진 및 LNG선대 확대"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (홍해 우회 반사이익 vs 신조선 대량 인도)",
+            "keyDriver": "홍해 예멘 반군 사태로 인한 아프리카 희망봉 우회 항로가 유지되며 글로벌 선복량이 강제 흡수되어 운임이 지지되고 있으나, 과거 호황기에 발주된 초대형 컨테이너선들이 대량 인도되기 시작했습니다.",
+            "demandIndicator": "상하이 컨테이너 운임지수 (SCFI)",
+            "demandIndicatorVal": "2,150p (홍해 사태로 지지되나 하반기 하락 압박)"
+        },
+        "riskDrivers": {
+            "bullFactor": "수에즈 운하 통행 중단 장기화에 따른 선복 부족 지속 및 장기 계약(SC) 운임 상승 체결",
+            "bearFactor": "글로벌 신조선 컨테이너선 대량 인도에 따른 공급 과잉 전환 및 선사 간 운임 치킨게임 재발"
+        }
     },
     {
         "id": "airline",
@@ -2749,9 +3090,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "원유 가격 배럴당 1달러 하락 시 대한항공 연간 유류비 약 +350억 원 절감. 원/달러 10원 하락 시 외화환산이익 약 +400억 원 발생.",
             "currentStatus": "유럽연합 및 미국 승인 완료로 통합 메가 캐리어 출범 초읽기에 진입했으며, 분기 영업이익 5,000억 원대 호실적 지속.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 메가 캐리어 통합 (유가 안정 & 여객 호조)",
-                "summary": "아시아나항공과의 메가 캐리어 합병 승인과 유가·환율 안정세에 힘입어 분기 영업이익 5,000억 원대의 견조한 실적과 PBR 0.8배 저평가 매력 부각."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (여행 수요 견조 vs 고환율 외화비용 압박)",
+                "summary": "국제선 탑승률은 높으나 고환율로 인한 원화 기준 비용 폭증이 이익을 갉아먹고 있어 실적 개선 모멘텀이 제한적입니다."
             }
         },
         "indicators": [
@@ -2803,7 +3144,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 25,
                 "comment": "LCC 3사(진에어, 에어부산, 에어서울) 통합 주체. 인천공항 및 김해공항 골든 슬롯 장악으로 통합 LCC 최강자 등극"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (단거리 여객 만실 vs 고환율 비용 부담)",
+            "keyDriver": "일본, 동남아 등 단거리 노선 여객 수요는 만실을 유지하고 있으나, 1,350원을 웃도는 고환율 장기화로 항공기 리스료, 유류비, 정비비 등 막대한 외화 비용 부담이 마진을 잠식하고 있습니다.",
+            "demandIndicator": "인천공항 국제선 월간 여객 수송 실적",
+            "demandIndicatorVal": "코로나 이전 대비 98% 수준 (회복 완료 후 정체)"
+        },
+        "riskDrivers": {
+            "bullFactor": "대한항공-아시아나 기업결합 승인에 따른 장거리 독점 노선 마진 방어 및 화물 운임 반등",
+            "bearFactor": "원달러 고환율로 인한 대규모 외화환산손실 발생 및 유가 변동성"
+        }
     },
     {
         "id": "express",
@@ -2825,8 +3177,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "C-커머스 물량 증대와 주 7일 배송 체제 구축으로 택배 시장 점유율 1위를 공고히 하며 분기 사상 최대 영업이익 달성.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 구조적 호전 (C-커머스 & 주7일 배송)",
-                "summary": "알리익스프레스 직구 물량 통관 독점과 2025년 주 7일 배송 도입으로 택배 부문 수익성이 극대화되고 있습니다. 현대글로비스의 사상 최대 실적 및 주주환원."
+                "badgeText": "🟢 강력 호전 (주7일 배송 도입 & C-커머스 통관 독점)",
+                "summary": "C-커머스 직구 물동량의 전담 계약과 일요일/공휴일 배송 개시를 통한 시장 지배력 확대로 외형 성장과 수익성 개선이 동시에 나타나고 있습니다."
             }
         },
         "indicators": [
@@ -2878,7 +3230,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 25,
                 "comment": "현대차그룹 완성차 해상 운송 및 물류 독점. 1:1 무상증자 완료와 사상 최대 실적 및 주주환원 확대 정책"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (주7일 매일배송 & 해외 직구 폭증)",
+            "keyDriver": "알리익스프레스·테무의 국내 배송 통관 물량이 폭증하고 있으며, 국내 이커머스 업체들의 주7일 매일배송 도입으로 택배 물동량이 연간 48억 박스를 돌파하며 탄탄한 성장을 이어가고 있습니다.",
+            "demandIndicator": "대한민국 연간 택배 총 물동량",
+            "demandIndicatorVal": "48억 5,000만 박스 (전년비 +7.5% 성장)"
+        },
+        "riskDrivers": {
+            "bullFactor": "CJ대한통운의 주7일 배송 '매일 오네' 풀필먼트 수주 확대 및 상자당 단가(ASP) 정상화",
+            "bearFactor": "메가 풀필먼트 허브센터 자동화 설비 감가상각비 및 택배 분류 인력 인건비 상승"
+        }
     },
     {
         "id": "trading",
@@ -2900,8 +3263,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "호주 세넥스에너지 3배 증산 가시화와 동해 심해 유전·가스전 개발 참여 모멘텀으로 친환경 종합 사업회사로 재평가 진행.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 강력 호전 (가스전 증산 & 자원개발)",
-                "summary": "해외 가스전 E&P 이익과 구동모터코어 고성장으로 연간 영업이익 1조 원 이상을 안정적으로 창출하고 있습니다. 동해 가스전 개발 수혜주."
+                "badgeText": "🟢 강력 호전 (호주 가스전 3배 증산 & 조 단위 영업익)",
+                "summary": "단순 무역 중개를 넘어 호주 가스전과 팜유 등 고수익 생산 자산을 직접 가동하며 분기당 안정적인 수천억 원대 영업이익을 창출하는 자원개발 기업으로 도약했습니다."
             }
         },
         "indicators": [
@@ -2953,7 +3316,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 22,
                 "comment": "인도네시아 니켈 광산 및 팜유 농장 보유. 자회사 LX판토스(물류 1위) 보유 및 PBR 0.38배, 5%대 고배당주"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (글로벌 자원안보 & 가스전 증산)",
+            "keyDriver": "미·중 갈등과 지정학적 공급망 분절로 천연가스, 니켈, 흑연 등 전략 광물 및 에너지 자원을 직접 보유한 종합상사의 가치가 급등하고 있습니다.",
+            "demandIndicator": "글로벌 LNG 스팟 가격 및 호주 가스 생산량",
+            "demandIndicatorVal": "가스전 가동률 95% 상회 (증산 본격화)"
+        },
+        "riskDrivers": {
+            "bullFactor": "포스코인터내셔널의 호주 세넥스 에너지 가스전 3배 증산 및 구동모터코아 글로벌 수주",
+            "bearFactor": "원자재 시황 급변에 따른 상품 트레이딩 마진 축소 및 E&P 탐사 실패 리스크"
+        }
     },
     {
         "id": "entertain",
@@ -2974,9 +3348,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "글로벌 월드투어 관객 100만 명 증가 시 하이브 영업이익 약 +400억 원 증가. 스트레이키즈 북미 스타디움 추가 매진 시 JYP OPM +2%p 개선.",
             "currentStatus": "내홍 사태 수습과 저연차 그룹(투모로우바이투게더, 엔하이픈, 스트레이키즈)의 북미 스타디움 안착으로 실적 턴어라운드 진입.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 강력 호전 (BTS 컴백 & 스타디움 투어)",
-                "summary": "BTS 완전체 컴백과 스트레이키즈, 에스파의 글로벌 스타디움 투어 확대로 2025~2026년 K-엔터테인먼트 사상 최대 영업이익 달성 유력."
+                "level": "CAUTION",
+                "badgeText": "🔴 실적 주의 (앨범 판매량 피크아웃 & 신인 데뷔 비용)",
+                "summary": "K-pop 앨범 거품 붕괴로 인한 음반 매출 급감과 신규 IP 개발 비용 증가로 주요 기획사들의 단기 영업이익률이 크게 악화된 조정 국면입니다."
             }
         },
         "indicators": [
@@ -3028,7 +3402,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 30,
                 "comment": "스트레이키즈 글로벌 스타디움 투어 및 트와이스 롱런. OPM 23%에 달하는 업계 최고 수준의 수익성과 투명한 거버넌스"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "WEAK",
+            "statusBadge": "❄️ 수요 침체 (K-pop 앨범 거품 붕괴 & 중국 공구 실종)",
+            "keyDriver": "K-pop 팬덤의 무리한 음반 초동 밀어내기 및 포토카드 마케팅 피로도로 앨범 판매량이 급감했습니다. 특히 중국 팬덤의 대량 공동구매가 80% 이상 급감하며 음반 매출이 피크아웃했습니다.",
+            "demandIndicator": "가온 써클차트 상위 400개 앨범 총 판매량",
+            "demandIndicatorVal": "전년 동기 대비 -18.5% 역성장 (피크아웃 확정)"
+        },
+        "riskDrivers": {
+            "bullFactor": "글로벌 스타디움 투어(BTS 전역 복귀, 블랙핑크 월드투어) 티켓 파워 및 MD 고수익",
+            "bearFactor": "음반 매출 급감, 신인 그룹 런칭에 따른 초기 마케팅비 급증 및 소속사-아티스트 분쟁 리스크"
+        }
     },
     {
         "id": "game",
@@ -3049,9 +3434,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "배틀그라운드 글로벌 동접자 10% 증가 시 분기 영업이익 약 +500억 원 증가. 스팀 신작 밀리언셀러 달성 시 OPM +10%p 개선.",
             "currentStatus": "크래프톤의 연간 영업이익 1조 2천억 원 돌파 독주와 넥슨게임즈의 라이브 서비스 호조로 탄탄한 현금흐름 유지.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 사상 최대 실적 (배그 독주 & 글로벌 IP)",
-                "summary": "크래프톤을 중심으로 글로벌 PC/모바일 트래픽이 사상 최고치를 경신하며 분기마다 어닝 서프라이즈를 기록하고 있습니다. 순현금 3조 원 우량 재무구조."
+                "level": "CAUTION",
+                "badgeText": "🔴 실적 주의 (모바일 BM 한계 & 개발 인건비 부담)",
+                "summary": "기존 모바일 과금 모델의 한계로 엔씨소프트, 넷마블 등 주요 게임사들의 본업 수익성이 훼손되었으며, 글로벌 흥행 신작 부재로 실적 부진이 이어지고 있습니다."
             }
         },
         "indicators": [
@@ -3103,7 +3488,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 0,
                 "comment": "블루아카이브 일본/글로벌 서브컬처 팬덤 롱런 및 퍼스트 디센던트 스팀 글로벌 흥행 성공"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "WEAK",
+            "statusBadge": "❄️ 수요 침체 (모바일 BM 피로도 극치 & 신작 가뭄)",
+            "keyDriver": "리니지 라이크로 대표되는 확률형 아이템 기반 모바일 MMORPG에 대한 유저들의 피로도가 극에 달했습니다. 국내 모바일 게임 결제액이 2년 연속 감소하며 기존 라이브 게임 매출이 급락하고 있습니다.",
+            "demandIndicator": "국내 모바일 게임 시장 총 인앱결제액",
+            "demandIndicatorVal": "전년비 -4.8% 감소 (과금 유저 이탈 가속)"
+        },
+        "riskDrivers": {
+            "bullFactor": "크래프톤 펍지(PUBG)의 글로벌 트래픽 장기 유지 및 스팀 PC/콘솔 패키지 신작 수출",
+            "bearFactor": "과도한 개발 인건비 고정비 부담 및 확률형 아이템 정보공개 의무화 규제 리스크"
+        }
     },
     {
         "id": "bank",
@@ -3124,9 +3520,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "NIM 5bp 개선 시 4대 금융지주 합산 순이자이익 약 +8,500억 원 증가. CET1 비율 10bp 개선 시 자사주 소각 여력 약 +3,000억 원 확대.",
             "currentStatus": "4대 금융지주 연간 합산 당기순이익 16조 원 돌파 페이스 및 PBR 0.5~0.6배 수준의 저평가 해소 국면 지속.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 강력 호전 (밸류업 & 고배당)",
-                "summary": "안정적인 이자이익과 CET1 비율 13.5% 기반의 대규모 자사주 매입·소각이 이어지고 있습니다. PBR 0.5~0.6배 수준의 극심한 저평가 해소 국면."
+                "level": "NEUTRAL",
+                "badgeText": "🟡 관망/중립 (밸류업 주주환원 vs 금리인하 NIM 축소)",
+                "summary": "역대급 자사주 소각과 배당 확대는 매력적이나, 금리 인하로 인한 순이자마진(NIM) 축소와 대출 성장 둔화로 이익 체력은 정점을 통과하고 있습니다."
             }
         },
         "indicators": [
@@ -3194,7 +3590,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 34,
                 "comment": "외환·기업금융 강자. 2027년까지 주주환원율 50% 달성 목표 공표 및 3,000억 규모 자사주 소각 진행"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "MODERATE",
+            "statusBadge": "⚖️ 수요 둔화 (가계대출 규제 & 기준금리 인하 사이클)",
+            "keyDriver": "정부의 DSR 2단계 등 가계대출 총량 규제로 대출 자산 성장이 둔화된 가운데, 한국은행의 기준금리 인하 사이클이 본격화되며 시중은행의 핵심 수익 지표인 순이자마진(NIM)이 하락 압박을 받고 있습니다.",
+            "demandIndicator": "4대 시중은행 평균 순이자마진 (NIM)",
+            "demandIndicatorVal": "1.62% (분기당 2~3bp 하락 추세)"
+        },
+        "riskDrivers": {
+            "bullFactor": "정부 밸류업 프로그램 부응으로 자사주 매입·소각 대폭 확대 및 보통주자본(CET1) 13% 상회",
+            "bearFactor": "기준금리 추가 인하에 따른 이자수익 감소 및 자영업자 연체율 상승에 따른 충당금 적립"
+        }
     },
     {
         "id": "reits",
@@ -3216,8 +3623,8 @@ window.INDUSTRY_DATA = [
             "currentStatus": "글로벌 및 국내 금리 인하 사이클 본격화로 리파이낸싱 우려가 해소되며 주가 바닥권 탈출 및 7% 중후반대 고배당 매력 급부상.",
             "outlookSignal": {
                 "level": "POSITIVE",
-                "badgeText": "🟢 강력 호전 (금리인하 최대 수혜)",
-                "summary": "기준금리 인하로 부동산 담보대출 이자 부담이 줄어들며 배당 여력이 커지고 있습니다. 서울 프라임 오피스 무공실 상태와 결합되어 7~8%대 배당수익률 유망."
+                "badgeText": "🟢 강력 호전 (금리 인하 최대 수혜 & 8%대 고배당)",
+                "summary": "고금리 터널을 지나 금리 인하의 직접적인 수혜를 받으며 차입이자 급감과 주당 배당금 상향이 확정되어 가장 매력적인 투자 시점에 진입했습니다."
             }
         },
         "indicators": [
@@ -3285,7 +3692,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 95,
                 "comment": "국내 최대 물류센터 전문 리츠. 쿠팡 등 이커머스 기업 100% 임차로 안정적 현금흐름 및 자산 재평가 수혜"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "STRONG",
+            "statusBadge": "🔥 전방 수요 강력 (기준금리 인하 & 리파이낸싱 비용 급감)",
+            "keyDriver": "글로벌 기준금리 인하 사이클에 진입하며 부동산 담보 차입금의 차환(리파이낸싱) 금리가 급락하고 있습니다. 조달이자 비용이 대폭 줄어들어 주주들에게 지급할 수 있는 배당 여력이 크게 늘어났습니다.",
+            "demandIndicator": "국고채 3년물 금리 및 리츠 차입 조달금리",
+            "demandIndicatorVal": "3.0%대 안착 (조달이자 150bp 하락 효과)"
+        },
+        "riskDrivers": {
+            "bullFactor": "이자비용 절감에 따른 배당수익률 연 7~8.5% 확보 및 서울 프라임 오피스 임대료 지속 상승",
+            "bearFactor": "지방 물류센터 및 비핵심 리테일 자산의 공실률 증가 및 자산 재평가손실 우려"
+        }
     },
     {
         "id": "securities",
@@ -3306,9 +3724,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "증시 일평균 거래대금 1조 원 증가 시 주요 증권사 연간 수탁수수료 약 +400억~600억 원 증가. 금리 25bp 인하 시 채권평가익 수백억 원 유입.",
             "currentStatus": "국내 및 미국 주식 합산 거래대금 호조와 해외주식 수수료 점유율 안정화로 분기 순이익 1조 원 클럽 복귀 유력.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 실적 호조 (해외주식 & 거래대금)",
-                "summary": "미국 증시 호황에 따른 해외주식 위탁매매 수수료 폭증과 채권운용 수익 개선으로 실적이 크게 호전되고 있습니다. 배당수익률 5~6%대 유지."
+                "level": "CAUTION",
+                "badgeText": "🔴 실적 주의 (국내 거래대금 부진 & PF 추가 충당금)",
+                "summary": "해외주식 수수료는 호조이나, 국내 증시 거래대금 부진과 잠재된 부동산 PF 부실 채권 충당금 리스크로 인해 실적 개선 탄력이 둔화되어 있습니다."
             }
         },
         "indicators": [
@@ -3376,7 +3794,18 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 30,
                 "comment": "국내 개인 주식 점유율 1위(영웅문). 영웅문 글로벌 기반 해외주식 수수료 급증과 자사주 소각 3개년 계획 이행 중"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "WEAK",
+            "statusBadge": "❄️ 수요 침체 (국내 주식 거래대금 정체 & PF 충당금)",
+            "keyDriver": "국내 코스피·코스닥 거래대금이 16~17조 원대로 위축되며 브로커리지 수수료가 정체되었으며, 지방 부동산 PF 사업장 정상화 지연으로 인한 대손충당금 추가 적립 부담이 지속되고 있습니다.",
+            "demandIndicator": "국내 주식시장 일평균 거래대금",
+            "demandIndicatorVal": "16.8조 원 (호황기 25조 원 대비 크게 위축)"
+        },
+        "riskDrivers": {
+            "bullFactor": "서학개미의 미국 나스닥 거래대금 폭증에 따른 해외주식 수탁수수료 및 환전 수익 급증",
+            "bearFactor": "중소형 증권사 중심의 부동산 PF 브릿지론 손실 현실화 및 채권 평가이익 둔화"
+        }
     },
     {
         "id": "insurance",
@@ -3397,9 +3826,9 @@ window.INDUSTRY_DATA = [
             "sensitivity": "신계약 CSM 1조 원 증가 시 향후 수년간 연간 상각 이익 약 +1,000억 원 지속 유입. 장기 위험손해율 1%p 개선 시 보험손익 약 +500억 원 개선.",
             "currentStatus": "삼성화재와 DB손해보험을 중심으로 CSM 잔액이 13조~14조 원을 돌파하며 역대 최대 보험이익 달성 및 주주환원 확대 지속.",
             "outlookSignal": {
-                "level": "POSITIVE",
-                "badgeText": "🟢 안정적 호전 (CSM 상각 & 고배당)",
-                "summary": "손해보험사를 중심으로 보장성 보험 판매 호조와 CSM 잔액 성장이 견고합니다. 자본건전성(K-ICS 200% 초과) 기반 5~6%대 배당수익률 유망."
+                "level": "CAUTION",
+                "badgeText": "🔴 실적 주의 (회계 가이드라인 강화 & 배당 여력 축소)",
+                "summary": "IFRS17 도입 초기 회계상 착시가 걷히고 당국의 엄격한 자본 규제가 적용되면서, 표면 이익 감소와 함께 주주 환원 여력이 제한되는 도전에 직면해 있습니다."
             }
         },
         "indicators": [
@@ -3467,8 +3896,25 @@ window.INDUSTRY_DATA = [
                 "payoutRatio": 35,
                 "comment": "생명보험 1위. 삼성전자 지분 8.51%(약 30조 원)를 보유한 자산 가치주이자 삼성그룹 지배구조 핵심축"
             }
-        ]
+        ],
+        "demandAnalysis": {
+            "status": "WEAK",
+            "statusBadge": "❄️ 수요 침체 (IFRS17 규제 강화 & 해약준비금 배당 제한)",
+            "keyDriver": "금융당국의 IFRS17 계리적 가정 가이드라인 강화로 그동안 부풀려졌던 보험계약마진(CSM) 상각액이 축소되었습니다. 해약환급금준비금 적립 부담으로 실제 주주 배당 가능 이익이 급감했습니다.",
+            "demandIndicator": "손해보험사 장기 보장성 인보험 손해율",
+            "demandIndicatorVal": "84.5% (실손보험 청구액 증가로 손해율 악화)"
+        },
+        "riskDrivers": {
+            "bullFactor": "고령화에 맞춘 유병자 건강보험 및 간병보험 신계약 판매 확대",
+            "bearFactor": "금융당국의 무·저해지보험 해약률 가정 강화로 인한 순이익 급감 및 배당 컷(Cut) 리스크"
+        }
     }
 ];
 
-console.log('INDUSTRY_DATA loaded successfully with ' + window.CHAPTERS.length + ' Chapters and ' + window.INDUSTRY_DATA.length + ' Industries.');
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        CHAPTERS: window.CHAPTERS,
+        INDUSTRY_DATA: window.INDUSTRY_DATA
+    };
+}
+console.log("INDUSTRY_DATA loaded successfully with 7 Chapters and 40 Industries (Demand & Risk Analysis Enriched).");
