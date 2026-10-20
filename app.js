@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['지표', '기업', '뉴스'];
+    const CATEGORIES = ['기업', '뉴스'];
     const SUB_CATEGORIES = {
         '기업': ['전체', '1. IT·전자', '2. 금융', '3. 콘텐츠·엔터', '4. 건설·중공업·자동차', '5. 에너지', '6. 유통·소매', '7. 운송'],
         '뉴스': ['전체', '경제', '사회', '정치', 'IT/과학', '세계', '생활/건강', '연예', '스포츠', '칼럼', '유튜브']
@@ -11,17 +11,15 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("Categories defined:", CATEGORIES);
 
     // Persistent category state across refreshes and back navigation
-    let currentCategory = sessionStorage.getItem('active_category') || '지표';
-    if (currentCategory === '증시/지표') currentCategory = '지표';
+    let currentCategory = sessionStorage.getItem('active_category') || '기업';
+    if (currentCategory === '지표' || currentCategory === '증시/지표') currentCategory = '기업';
     if (currentCategory === '기업/산업') currentCategory = '기업';
-    if (!['지표', '기업', '뉴스'].includes(currentCategory)) {
-        currentCategory = '뉴스';
+    if (!['기업', '뉴스'].includes(currentCategory)) {
+        currentCategory = '기업';
     }
 
     let currentSubCategory = sessionStorage.getItem('active_subcategory');
-    if (currentCategory === '지표') {
-        currentSubCategory = '';
-    } else if (currentCategory === '기업') {
+    if (currentCategory === '기업') {
         const indSubs = ['전체', '1. IT·전자', '2. 금융', '3. 콘텐츠·엔터', '4. 건설·중공업·자동차', '5. 에너지', '6. 유통·소매', '7. 운송'];
         if (!currentSubCategory || !indSubs.includes(currentSubCategory)) {
             currentSubCategory = '전체';
@@ -173,113 +171,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (e) {
             console.error('Background fetch failed', e);
         }
-    }
-
-    function renderEconomicDashboard() {
-        const dashboard = data['증시/지표'] || data['지표'];
-        if (!dashboard || !dashboard.sections || dashboard.sections.length === 0) {
-            postsList.innerHTML = '<div class="empty-state">경제 지표 데이터를 불러오는 중입니다...</div>';
-            return;
-        }
-
-        let timeStr = '';
-        if (dashboard.updatedAt) {
-            try {
-                const d = new Date(dashboard.updatedAt);
-                const year = d.getFullYear();
-                const month = String(d.getMonth() + 1).padStart(2, '0');
-                const day = String(d.getDate()).padStart(2, '0');
-                const hours = String(d.getHours()).padStart(2, '0');
-                const minutes = String(d.getMinutes()).padStart(2, '0');
-                timeStr = `${year}.${month}.${day} ${hours}:${minutes} 기준`;
-            } catch(e) {
-                timeStr = dashboard.updatedAt;
-            }
-        }
-
-        let html = `
-            <div class="db-container">
-                <div class="db-header">
-                    <h2>전체 경제 지표 대시보드</h2>
-                    <span class="db-timestamp">
-                        <i data-lucide="clock" class="clock-icon"></i>
-                        <span>${timeStr || '실시간 연동'}</span>
-                    </span>
-                </div>
-                <div class="db-grid">
-        `;
-
-        dashboard.sections.forEach(section => {
-            html += `
-                <div class="db-card">
-                    <h3 class="db-card-title">${section.title}</h3>
-                    <div class="db-card-content">
-                        <div class="db-table-3col">
-                            <div class="db-th-row">
-                                <div class="db-th-name">지표명</div>
-                                <div class="db-th-val">현재가</div>
-                                <div class="db-th-rate">등락률</div>
-                            </div>
-                            <div class="db-body">
-            `;
-
-            section.items.forEach(item => {
-                let isUp = false;
-                let isDown = false;
-                if (item.direction === '상승') {
-                    isUp = true;
-                } else if (item.direction === '하락') {
-                    isDown = true;
-                } else {
-                    if (String(item.change).startsWith('+') || (parseFloat(item.changeRate) > 0 && !String(item.change).startsWith('-'))) {
-                        isUp = true;
-                    } else if (String(item.change).startsWith('-') || parseFloat(item.changeRate) < 0) {
-                        isDown = true;
-                    }
-                }
-                
-                let colorClass = 'val-stable';
-                let icon = '-';
-                if (isUp) {
-                    colorClass = 'val-up';
-                    icon = '▲';
-                } else if (isDown) {
-                    colorClass = 'val-down';
-                    icon = '▼';
-                }
-
-                let cleanChange = String(item.change || '0').replace(/^[+\-]/, '');
-                let cleanRate = String(item.changeRate || '0%').replace(/^[+\-]/, '');
-                if (!cleanRate.endsWith('%')) cleanRate += '%';
-
-                html += `
-                    <div class="db-row-3col" title="전일대비: ${isDown ? '-' : isUp ? '+' : ''}${cleanChange}">
-                        <div class="db-cell-name">
-                            <span class="db-name-text">${item.name}</span>
-                        </div>
-                        <div class="db-cell-val">${item.price}</div>
-                        <div class="db-cell-rate ${colorClass}">
-                            <span class="db-icon">${icon}</span> ${isDown ? '-' : isUp ? '+' : ''}${cleanRate}
-                        </div>
-                    </div>
-                `;
-            });
-
-            html += `
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            `;
-        });
-
-        html += `
-                </div>
-            </div>
-        `;
-
-        postsList.innerHTML = html;
-        if (window.lucide) window.lucide.createIcons();
     }
 
     // Dedicated Tab: Render Industry & Corporate Analysis Hub (7 Chapters, 40 Days & Station Insights)
@@ -684,9 +575,7 @@ document.addEventListener('DOMContentLoaded', () => {
             renderIndustryDetailView(id);
         } else if (currentCategory === '기업') {
             renderIndustryHub();
-        } else if (currentCategory === '지표') {
-            renderEconomicDashboard();
-        } else if (currentCategory === '뉴스') {
+                } else if (currentCategory === '뉴스') {
             renderPosts();
         }
     });
@@ -697,11 +586,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderPosts() {
         if (!postsList) return;
-        
-        if (currentCategory === '지표') {
-            renderEconomicDashboard();
-            return;
-        }
 
         if (currentCategory === '기업') {
             if (window.location.hash.startsWith('#industry-')) {
