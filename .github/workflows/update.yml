@@ -2,7 +2,7 @@ name: Scheduled Community Update
 
 on:
   schedule:
-    - cron: '0 * * * *' # Every hour (UTC)
+    - cron: '21 * * * *' # At minute 21 of every hour
   workflow_dispatch: # Allow manual run
 
 jobs:
@@ -25,8 +25,8 @@ jobs:
       - name: Random Delay
         if: github.event_name == 'schedule'
         run: |
-          DELAY=$((RANDOM % 300))
-          echo "Delaying execution by $DELAY seconds (approx. $((DELAY / 60)) minutes)..."
+          DELAY=$((RANDOM % 45))
+          echo "Delaying execution by $DELAY seconds..."
           sleep $DELAY
 
       - name: Run Scraper
