@@ -1,3 +1,7 @@
+.mobile-only {
+    display: none !important;
+}
+
 :root {
     --bg-color: #ffffff;
     --text-primary: #111111;
@@ -319,21 +323,23 @@ body {
 }
 
 .db-card-content {
-    overflow-x: auto;
-}
-
-.db-table {
     width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9rem;
 }
 
-.db-table th, .db-table td {
-    padding: 10px 8px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+.db-table-flex {
+    width: 100%;
 }
 
-.db-table th {
+.db-header-row {
+    display: grid;
+    grid-template-columns: 1.4fr 1.1fr 1fr 0.9fr;
+    align-items: center;
+    padding: 8px 6px;
+    border-bottom: 1.5px solid var(--border-color);
+    margin-bottom: 4px;
+}
+
+.db-th {
     font-weight: 700;
     color: var(--text-secondary);
     font-size: 0.75rem;
@@ -341,66 +347,60 @@ body {
     letter-spacing: 0.5px;
 }
 
-.db-table tr:last-child td {
-    border-bottom: none;
+.db-th.db-col-name {
+    text-align: left;
 }
 
-.db-name {
-    font-weight: 600;
-    letter-spacing: -0.2px;
-    white-space: nowrap;
+.db-th.db-col-price,
+.db-th.db-col-change,
+.db-th.db-col-rate {
+    text-align: right;
 }
 
-.db-row-clickable {
-    cursor: pointer;
+.db-row {
+    display: grid;
+    grid-template-columns: 1.4fr 1.1fr 1fr 0.9fr;
+    align-items: center;
+    padding: 10px 6px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
     transition: background-color 0.15s ease;
 }
 
-.db-row-clickable:hover {
-    background-color: rgba(0, 0, 0, 0.025);
+.db-row:last-child {
+    border-bottom: none;
 }
 
-.db-link {
+.db-row:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.db-col-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: -0.2px;
+    text-align: left;
     color: var(--text-primary);
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    transition: var(--transition);
 }
 
-.db-link:hover {
-    color: var(--text-hover);
-}
-
-.db-link-icon {
-    width: 11px;
-    height: 11px;
-    opacity: 0.45;
-    stroke-width: 2.5px;
-    transition: var(--transition);
-}
-
-.db-link:hover .db-link-icon {
-    opacity: 0.8;
-}
-
-.db-value {
+.db-col-price {
     font-weight: 700;
     color: var(--text-primary);
     font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    text-align: right;
     white-space: nowrap;
 }
 
-.db-change, .db-rate {
+.db-col-change, .db-col-rate {
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     font-size: 0.85rem;
+    text-align: right;
     white-space: nowrap;
 }
 
 .db-percent {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: 600;
 }
 
@@ -423,8 +423,16 @@ body {
     color: var(--text-secondary) !important;
 }
 
-/* Mobile responsive for dashboard */
+/* Mobile responsive for dashboard (100% Flexible Layout) */
 @media (max-width: 768px) {
+    .desktop-only {
+        display: none !important;
+    }
+    
+    .mobile-only {
+        display: flex !important;
+    }
+
     .db-header {
         flex-direction: column;
         align-items: flex-start;
@@ -443,78 +451,79 @@ body {
     }
     
     .db-card {
-        padding: 14px 10px;
+        padding: 14px 12px;
+        border-radius: 12px;
     }
 
     .db-card-content {
-        overflow-x: hidden;
-    }
-    
-    .db-table {
+        overflow-x: visible;
         width: 100%;
-        table-layout: fixed;
-        font-size: 0.8rem;
-    }
-    
-    .db-table th, .db-table td {
-        padding: 7px 2px;
     }
 
-    .th-name, .db-name {
-        width: 31%;
-    }
-    
-    .th-val, .db-value {
-        width: 26%;
-    }
-    
-    .th-change, .db-change {
-        width: 22%;
-    }
-    
-    .th-rate, .db-rate {
-        width: 21%;
+    .db-table-flex {
+        width: 100%;
     }
 
-    .db-name {
-        font-size: 0.78rem;
-        letter-spacing: -0.4px;
-        white-space: normal;
-        word-break: keep-all;
-        line-height: 1.25;
+    /* 플렉시블 모바일 지표 행: 스마트폰 기종 폭에 맞춰 자동 신축 */
+    .db-row {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 100% !important;
+        padding: 10px 4px !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+        gap: 12px !important;
+        box-sizing: border-box !important;
     }
 
-    .db-link {
-        display: inline;
-        word-break: keep-all;
+    .db-col-name {
+        flex: 1 1 auto !important;
+        min-width: 0 !important;
+        font-size: 0.88rem !important;
+        font-weight: 600 !important;
+        color: var(--text-primary) !important;
+        line-height: 1.35 !important;
+        word-break: keep-all !important;
+        text-align: left !important;
     }
 
-    .db-link-icon {
-        display: inline-block;
-        vertical-align: middle;
-        margin-left: 2px;
+    .db-col-mobile-vals {
+        flex: 0 0 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-end !important;
+        justify-content: center !important;
+        text-align: right !important;
+        gap: 2px !important;
     }
 
-    .db-value {
-        font-size: 0.78rem;
-        letter-spacing: -0.3px;
-        white-space: nowrap;
+    .db-mobile-price {
+        font-size: 0.92rem !important;
+        font-weight: 700 !important;
+        color: var(--text-primary) !important;
+        font-family: 'Inter', sans-serif !important;
+        letter-spacing: -0.2px !important;
+        line-height: 1.25 !important;
     }
 
-    .db-change, .db-rate {
-        font-size: 0.75rem;
-        letter-spacing: -0.3px;
-        white-space: nowrap;
+    .db-mobile-change {
+        font-size: 0.78rem !important;
+        font-weight: 600 !important;
+        font-family: 'Inter', sans-serif !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 3px !important;
+        letter-spacing: -0.2px !important;
+        line-height: 1.25 !important;
     }
 
-    .db-percent {
-        font-size: 0.74rem;
-        letter-spacing: -0.3px;
+    .db-mobile-change .db-icon {
+        font-size: 0.55rem !important;
+        margin-right: 1px !important;
     }
 
-    .db-icon {
-        font-size: 0.55rem;
-        margin-right: 1px;
+    .db-rate-val {
+        font-weight: 700 !important;
     }
 }
 

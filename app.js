@@ -194,16 +194,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="db-card">
                     <h3 class="db-card-title">${section.title}</h3>
                     <div class="db-card-content">
-                        <table class="db-table">
-                            <thead>
-                                <tr>
-                                    <th class="th-name" style="text-align: left;">지표명</th>
-                                    <th class="th-val" style="text-align: right;">현재가</th>
-                                    <th class="th-change" style="text-align: right;">전일대비</th>
-                                    <th class="th-rate" style="text-align: right;">등락률</th>
-                                </tr>
-                            </thead>
-                            <tbody>
+                        <div class="db-table-flex">
+                            <div class="db-header-row desktop-only">
+                                <div class="db-th db-col-name">지표명</div>
+                                <div class="db-th db-col-price">현재가</div>
+                                <div class="db-th db-col-change">전일대비</div>
+                                <div class="db-th db-col-rate">등락률</div>
+                            </div>
+                            <div class="db-body">
             `;
 
             section.items.forEach(item => {
@@ -236,22 +234,37 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (!cleanRate.endsWith('%')) cleanRate += '%';
 
                 html += `
-                    <tr>
-                        <td class="db-name">${item.name}</td>
-                        <td class="db-value" style="text-align: right;">${item.price}</td>
-                        <td class="db-change ${colorClass}" style="text-align: right;">
+                    <div class="db-row">
+                        <!-- 지표명 -->
+                        <div class="db-col-name">
+                            <span class="db-name-text">${item.name}</span>
+                        </div>
+
+                        <!-- 데스크톱 3열 (현재가, 전일대비, 등락률) -->
+                        <div class="db-col-price desktop-only">${item.price}</div>
+                        <div class="db-col-change desktop-only ${colorClass}">
                             <span class="db-icon">${icon}</span> ${cleanChange}
-                        </td>
-                        <td class="db-rate ${colorClass}" style="text-align: right;">
+                        </div>
+                        <div class="db-col-rate desktop-only ${colorClass}">
                             <span class="db-percent">${isDown ? '-' : isUp ? '+' : ''}${cleanRate}</span>
-                        </td>
-                    </tr>
+                        </div>
+
+                        <!-- 모바일 플렉시블 우측 묶음 (상단: 현재가 / 하단: 전일대비 & 등락률) -->
+                        <div class="db-col-mobile-vals mobile-only">
+                            <div class="db-mobile-price">${item.price}</div>
+                            <div class="db-mobile-change ${colorClass}">
+                                <span class="db-icon">${icon}</span>
+                                <span class="db-change-val">${cleanChange}</span>
+                                <span class="db-rate-val">(${isDown ? '-' : isUp ? '+' : ''}${cleanRate})</span>
+                            </div>
+                        </div>
+                    </div>
                 `;
             });
 
             html += `
-                            </tbody>
-                        </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
             `;
