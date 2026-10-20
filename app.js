@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const CATEGORIES = ['기업', '뉴스'];
     const SUB_CATEGORIES = {
-        '기업': ['전체', '1. IT·전자', '2. 금융', '3. 콘텐츠·엔터', '4. 건설·중공업·자동차', '5. 에너지', '6. 유통·소매', '7. 운송'],
+        '기업': ['전체', 'IT·반도체', '자동차·배터리', '중공업·방산·건설', '정유·화학·에너지', '바이오·제약', '소비재·유통·식품', '금융·운송·엔터'],
         '뉴스': ['전체', '경제', '사회', '정치', 'IT/과학', '세계', '생활/건강', '연예', '스포츠', '칼럼', '유튜브']
     };
 
-    console.log("=== App v4.3.0 Loaded ===");
+    console.log("=== App v5.2.0 Loaded ===");
     console.log("Categories defined:", CATEGORIES);
 
     // Persistent category state across refreshes and back navigation
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentSubCategory = sessionStorage.getItem('active_subcategory');
     if (currentCategory === '기업') {
-        const indSubs = ['전체', '1. IT·전자', '2. 금융', '3. 콘텐츠·엔터', '4. 건설·중공업·자동차', '5. 에너지', '6. 유통·소매', '7. 운송'];
+        const indSubs = ['전체', 'IT·반도체', '자동차·배터리', '중공업·방산·건설', '정유·화학·에너지', '바이오·제약', '소비재·유통·식품', '금융·운송·엔터'];
         if (!currentSubCategory || !indSubs.includes(currentSubCategory)) {
             currentSubCategory = '전체';
         }
@@ -173,21 +173,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Dedicated Tab: Render Industry & Corporate Analysis Hub (7 Chapters, 40 Days & Station Insights)
+    // Dedicated Tab: Render Industry & Corporate Analysis Hub (7 Chapters & 40 Sectors)
     function renderIndustryHub() {
         if (!postsList) return;
         const allIndustries = (window.INDUSTRY_DATA && window.INDUSTRY_DATA.length > 0) ? window.INDUSTRY_DATA : [];
         const allChapters = (window.CHAPTERS && window.CHAPTERS.length > 0) ? window.CHAPTERS : [];
-        const allStations = (window.STATIONS && window.STATIONS.length > 0) ? window.STATIONS : [];
         
         let activeChapterId = null;
-        if (currentSubCategory === '1. IT·전자') activeChapterId = 1;
-        else if (currentSubCategory === '2. 금융') activeChapterId = 2;
-        else if (currentSubCategory === '3. 콘텐츠·엔터') activeChapterId = 3;
-        else if (currentSubCategory === '4. 건설·중공업·자동차') activeChapterId = 4;
-        else if (currentSubCategory === '5. 에너지') activeChapterId = 5;
-        else if (currentSubCategory === '6. 유통·소매') activeChapterId = 6;
-        else if (currentSubCategory === '7. 운송') activeChapterId = 7;
+        if (currentSubCategory === 'IT·반도체' || currentSubCategory.includes('IT')) activeChapterId = 1;
+        else if (currentSubCategory === '자동차·배터리' || currentSubCategory.includes('자동차')) activeChapterId = 2;
+        else if (currentSubCategory === '중공업·방산·건설' || currentSubCategory.includes('중공업')) activeChapterId = 3;
+        else if (currentSubCategory === '정유·화학·에너지' || currentSubCategory.includes('정유')) activeChapterId = 4;
+        else if (currentSubCategory === '바이오·제약' || currentSubCategory.includes('바이오')) activeChapterId = 5;
+        else if (currentSubCategory === '소비재·유통·식품' || currentSubCategory.includes('소비재') || currentSubCategory.includes('식품')) activeChapterId = 6;
+        else if (currentSubCategory === '금융·운송·엔터' || currentSubCategory.includes('금융')) activeChapterId = 7;
 
         const chaptersToRender = activeChapterId 
             ? allChapters.filter(c => c.id === activeChapterId)
@@ -199,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="industry-hub-title-box">
                         <h2>🏭 대한민국 7대 핵심 산업 & 40개 세부 업종 정밀 분석</h2>
                         <p class="industry-hub-subtitle">
-                            40개 업종의 <strong>실적 결정 핵심 인과관계(환율·금리·원자재·운임)</strong>와 대표 기업들의 <strong>손익 대비 시총, 대차대조표 리스크, 배당 성향</strong>을 한눈에 비교 분석합니다. 카드를 클릭하시면 상세 분석표로 이동합니다.
+                            40개 업종의 <strong>실적 결정 핵심 인과관계(환율·유가·원자재·금리·운임)</strong>와 대표 기업들의 <strong>손익 대비 시총, 대차대조표 리스크, 배당 성향</strong>을 정밀 분석합니다. 카드를 클릭하시면 상세 분석표로 이동합니다.
                         </p>
                     </div>
                 </div>
@@ -207,7 +206,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         chaptersToRender.forEach(ch => {
             const chapterIndustries = allIndustries.filter(ind => ind.chapterId === ch.id);
-            const chapterStations = allStations.filter(st => st.chapterId === ch.id);
 
             html += `
                 <div class="chapter-section-box">
@@ -229,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="industry-card" onclick="window.showIndustryDetail('${ind.id}')">
                         <div class="industry-card-header">
                             <div class="ind-card-top-meta">
-                                <span class="ind-day-chip">${ind.day}</span>
+                                <span class="ind-day-chip">${ch.short}</span>
                                 <span class="ind-click-hint">상세보기 ➔</span>
                             </div>
                             <h3 class="industry-title">
@@ -273,21 +271,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                 `;
-
-                // Render Station Insight if scheduled after this Day
-                const station = chapterStations.find(s => s.afterDay === ind.day);
-                if (station) {
-                    html += `
-                        <div class="station-insight-card">
-                            <div class="station-card-top">
-                                <span class="station-badge">Station Insight</span>
-                                <span class="station-tag">${station.tag}</span>
-                            </div>
-                            <h4 class="station-title">${station.title}</h4>
-                            <p class="station-desc">${station.content}</p>
-                        </div>
-                    `;
-                }
             });
 
             html += `
@@ -349,7 +332,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <i data-lucide="arrow-left" class="nav-icon"></i>
                         <span>← 40대 산업 목록으로 돌아가기</span>
                     </button>
-                    <span class="ind-detail-tag">${ind.day} · ${ind.chapterName}</span>
+                    <span class="ind-detail-tag">${ind.chapterName}</span>
                 </div>
 
                 <!-- Industry Detail Header -->
@@ -359,7 +342,8 @@ document.addEventListener('DOMContentLoaded', () => {
                             <i data-lucide="${ind.icon || 'activity'}"></i>
                         </div>
                         <div class="ind-detail-title-info">
-                            <h1>${ind.day}. ${ind.sector}</h1><div class="ind-detail-subtitle-text">${ind.subTitle}</div>
+                            <h1>${ind.sector}</h1>
+                            <div class="ind-detail-subtitle-text">${ind.subTitle}</div>
                             <p class="ind-detail-desc">${ind.description}</p>
                         </div>
                     </div>
@@ -469,9 +453,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="section-title-box between">
                         <div class="title-with-icon">
                             <i data-lucide="table-properties" class="section-icon"></i>
-                            <h3>${ind.sector} 대표 10개 기업 손익·시총·리스크·배당 종합 비교표</h3>
+                            <h3>${ind.sector} 대표 기업 손익·시총·리스크·배당 종합 비교표</h3>
                         </div>
-                        <span class="company-count-tag">10개 대표사 전수 분석</span>
+                        <span class="company-count-tag">${(ind.companies || []).length}개 대표사 전수 분석</span>
                     </div>
 
                     <!-- View Filter Tabs -->
@@ -549,7 +533,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="ind-detail-bottom-nav">
                     <button class="back-btn-large" onclick="window.closeIndustryDetail()">
                         <i data-lucide="arrow-left"></i>
-                        <span>전체 경제 지표 대시보드로 돌아가기</span>
+                        <span>← 산업 & 기업 분석 목록으로 돌아가기</span>
                     </button>
                 </div>
             </div>
