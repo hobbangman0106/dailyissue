@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const CATEGORIES = ['지표', '기업', '뉴스'];
     const SUB_CATEGORIES = {
-        '기업': ['전체산업', '식음료/패션/뷰티', '반도체/배터리/IT', '자동차/조선/방산', '정유/화학/철강/건설', '해운/물류'],
+        '기업': ['전체', '1. IT·전자', '2. 금융', '3. 콘텐츠·엔터', '4. 건설·중공업·자동차', '5. 에너지', '6. 유통·소매', '7. 운송'],
         '뉴스': ['전체', '경제', '사회', '정치', 'IT/과학', '세계', '생활/건강', '연예', '스포츠', '칼럼', '유튜브']
     };
 
@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (currentCategory === '지표') {
         currentSubCategory = '';
     } else if (currentCategory === '기업') {
-        const indSubs = ['전체산업', '식음료/패션/뷰티', '반도체/배터리/IT', '자동차/조선/방산', '정유/화학/철강/건설', '해운/물류'];
+        const indSubs = ['전체', '1. IT·전자', '2. 금융', '3. 콘텐츠·엔터', '4. 건설·중공업·자동차', '5. 에너지', '6. 유통·소매', '7. 운송'];
         if (!currentSubCategory || !indSubs.includes(currentSubCategory)) {
-            currentSubCategory = '전체산업';
+            currentSubCategory = '전체';
         }
     } else if (currentCategory === '뉴스') {
         const newsSubs = ['전체', '경제', '사회', '정치', 'IT/과학', '세계', '생활/건강', '연예', '스포츠', '칼럼', '유튜브'];
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 btn.classList.add('active');
                 currentCategory = btn.dataset.category;
                 if (currentCategory === '기업') {
-                    currentSubCategory = '전체산업';
+                    currentSubCategory = '전체';
                 } else if (currentCategory === '뉴스') {
                     currentSubCategory = '전체';
                 } else {
@@ -282,91 +282,130 @@ document.addEventListener('DOMContentLoaded', () => {
         if (window.lucide) window.lucide.createIcons();
     }
 
-    // Dedicated Tab: Render Industry & Corporate Analysis Hub
+    // Dedicated Tab: Render Industry & Corporate Analysis Hub (7 Chapters, 40 Days & Station Insights)
     function renderIndustryHub() {
         if (!postsList) return;
         const allIndustries = (window.INDUSTRY_DATA && window.INDUSTRY_DATA.length > 0) ? window.INDUSTRY_DATA : [];
+        const allChapters = (window.CHAPTERS && window.CHAPTERS.length > 0) ? window.CHAPTERS : [];
+        const allStations = (window.STATIONS && window.STATIONS.length > 0) ? window.STATIONS : [];
         
-        let filteredIndustries = allIndustries;
-        if (currentSubCategory === '식음료/패션/뷰티') {
-            filteredIndustries = allIndustries.filter(x => ['food', 'garment', 'beauty'].includes(x.id));
-        } else if (currentSubCategory === '반도체/배터리/IT') {
-            filteredIndustries = allIndustries.filter(x => ['semi', 'battery'].includes(x.id));
-        } else if (currentSubCategory === '자동차/조선/방산') {
-            filteredIndustries = allIndustries.filter(x => ['auto', 'ship', 'defense'].includes(x.id));
-        } else if (currentSubCategory === '정유/화학/철강/건설') {
-            filteredIndustries = allIndustries.filter(x => ['refinery', 'chem', 'steel', 'construct'].includes(x.id));
-        } else if (currentSubCategory === '해운/물류') {
-            filteredIndustries = allIndustries.filter(x => ['shipping'].includes(x.id));
-        }
+        let activeChapterId = null;
+        if (currentSubCategory === '1. IT·전자') activeChapterId = 1;
+        else if (currentSubCategory === '2. 금융') activeChapterId = 2;
+        else if (currentSubCategory === '3. 콘텐츠·엔터') activeChapterId = 3;
+        else if (currentSubCategory === '4. 건설·중공업·자동차') activeChapterId = 4;
+        else if (currentSubCategory === '5. 에너지') activeChapterId = 5;
+        else if (currentSubCategory === '6. 유통·소매') activeChapterId = 6;
+        else if (currentSubCategory === '7. 운송') activeChapterId = 7;
+
+        const chaptersToRender = activeChapterId 
+            ? allChapters.filter(c => c.id === activeChapterId)
+            : allChapters;
 
         let html = `
             <div class="industry-hub-container" id="industry-hub-root">
                 <div class="industry-hub-header">
                     <div class="industry-hub-title-box">
-                        <h2>🏭 기업 실적 예측 산업별 지표 & 13대 산업군 분석</h2>
+                        <h2>🏭 대한민국 7대 핵심 산업 & 40개 세부 업종 정밀 분석</h2>
                         <p class="industry-hub-subtitle">
-                            거시 지표(환율·유가·곡물·운임 등)를 분석하여 <strong>미래 분기 실적 추이를 예측</strong>하고, 산업별 대표기업 10개사의 <strong>손익 대비 시총, 대차대조표 리스크, 배당 성향</strong>을 한눈에 비교 분석합니다. 카드를 클릭하시면 상세 분석표로 이동합니다.
+                            40개 업종의 <strong>실적 결정 핵심 인과관계(환율·금리·원자재·운임)</strong>와 대표 기업들의 <strong>손익 대비 시총, 대차대조표 리스크, 배당 성향</strong>을 한눈에 비교 분석합니다. 카드를 클릭하시면 상세 분석표로 이동합니다.
                         </p>
                     </div>
                 </div>
-                <div class="industry-grid">
         `;
 
-        filteredIndustries.forEach(ind => {
-            const signal = ind.correlationLogic ? ind.correlationLogic.outlookSignal : null;
-            const signalBadge = signal ? `<div class="ind-card-signal-badge ${signal.level}">${signal.badgeText}</div>` : '';
+        chaptersToRender.forEach(ch => {
+            const chapterIndustries = allIndustries.filter(ind => ind.chapterId === ch.id);
+            const chapterStations = allStations.filter(st => st.chapterId === ch.id);
 
             html += `
-                <div class="industry-card" onclick="window.showIndustryDetail('${ind.id}')">
-                    <div class="industry-card-header">
-                        <div class="industry-title-row">
+                <div class="chapter-section-box">
+                    <div class="chapter-header-banner">
+                        <div class="chapter-badge">Chapter 0${ch.id}</div>
+                        <div class="chapter-info">
+                            <h3 class="chapter-title">${ch.name}</h3>
+                            <span class="chapter-count">${chapterIndustries.length}개 업종</span>
+                        </div>
+                    </div>
+                    <div class="industry-grid">
+            `;
+
+            chapterIndustries.forEach(ind => {
+                const signal = ind.correlationLogic ? ind.correlationLogic.outlookSignal : null;
+                const signalBadge = signal ? `<div class="ind-card-signal-badge ${signal.level}">${signal.badgeText}</div>` : '';
+
+                html += `
+                    <div class="industry-card" onclick="window.showIndustryDetail('${ind.id}')">
+                        <div class="industry-card-header">
+                            <div class="ind-card-top-meta">
+                                <span class="ind-day-chip">${ind.day}</span>
+                                <span class="ind-click-hint">상세보기 ➔</span>
+                            </div>
                             <h3 class="industry-title">
                                 <i data-lucide="${ind.icon || 'activity'}" class="industry-icon"></i>
                                 <span>${ind.sector}</span>
                             </h3>
-                            <span class="ind-click-hint">상세보기 ➔</span>
+                            <div class="ind-card-subtitle">${ind.subTitle}</div>
+                            ${signalBadge}
+                            <div class="industry-stocks-badge">
+                                <span class="badge-label">대표기업</span>
+                                <span class="badge-stocks">${ind.relatedStocks}</span>
+                            </div>
+                            <p class="industry-desc">${ind.description}</p>
                         </div>
-                        ${signalBadge}
-                        <div class="industry-stocks-badge">
-                            <span class="badge-label">대표기업</span>
-                            <span class="badge-stocks">${ind.relatedStocks}</span>
-                        </div>
-                        <p class="industry-desc">${ind.description}</p>
-                    </div>
-                    <div class="industry-indicators-list">
-            `;
+                        <div class="industry-indicators-list">
+                `;
 
-            (ind.indicators || []).slice(0, 2).forEach(item => {
-                html += `
-                    <div class="industry-indicator-box" onclick="event.stopPropagation()">
-                        <div class="ind-box-top">
-                            <span class="ind-name">${item.name}</span>
-                            <a href="${item.sourceUrl}" target="_blank" rel="noopener noreferrer" class="ind-source-btn">
-                                <span>${item.sourceName}</span>
-                                <i data-lucide="external-link" class="ind-ext-icon"></i>
-                            </a>
+                (ind.indicators || []).slice(0, 2).forEach(item => {
+                    html += `
+                        <div class="industry-indicator-box" onclick="event.stopPropagation()">
+                            <div class="ind-box-top">
+                                <span class="ind-name">${item.name}</span>
+                                <a href="${item.sourceUrl}" target="_blank" rel="noopener noreferrer" class="ind-source-btn">
+                                    <span>${item.sourceName}</span>
+                                    <i data-lucide="external-link" class="ind-ext-icon"></i>
+                                </a>
+                            </div>
+                            <div class="ind-role"><strong>역할:</strong> ${item.role}</div>
+                            <div class="ind-impact"><strong>실적 영향:</strong> ${item.impact}</div>
                         </div>
-                        <div class="ind-role"><strong>역할:</strong> ${item.role}</div>
-                        <div class="ind-impact"><strong>실적 영향:</strong> ${item.impact}</div>
+                    `;
+                });
+
+                html += `
+                        </div>
+                        <div class="industry-card-footer">
+                            <button class="ind-open-detail-btn" onclick="window.showIndustryDetail('${ind.id}')">
+                                <span>실적 예측 인과관계 & 대표기업 비교표 보기</span>
+                                <i data-lucide="chevron-right"></i>
+                            </button>
+                        </div>
                     </div>
                 `;
+
+                // Render Station Insight if scheduled after this Day
+                const station = chapterStations.find(s => s.afterDay === ind.day);
+                if (station) {
+                    html += `
+                        <div class="station-insight-card">
+                            <div class="station-card-top">
+                                <span class="station-badge">Station Insight</span>
+                                <span class="station-tag">${station.tag}</span>
+                            </div>
+                            <h4 class="station-title">${station.title}</h4>
+                            <p class="station-desc">${station.content}</p>
+                        </div>
+                    `;
+                }
             });
 
             html += `
-                    </div>
-                    <div class="industry-card-footer">
-                        <button class="ind-open-detail-btn" onclick="window.showIndustryDetail('${ind.id}')">
-                            <span>실적 예측 인과관계 & 10대 기업 비교표 보기</span>
-                            <i data-lucide="chevron-right"></i>
-                        </button>
                     </div>
                 </div>
             `;
         });
 
         html += `
-                </div>
             </div>
         `;
 
@@ -374,7 +413,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (window.lucide) window.lucide.createIcons();
     }
 
-    // Detail View: Render Dedicated Industry Deep-Dive Page
     window.showIndustryDetail = function(industryId) {
         window.location.hash = 'industry-' + industryId;
         renderIndustryDetailView(industryId);
@@ -418,9 +456,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="ind-detail-nav">
                     <button class="back-btn" onclick="window.closeIndustryDetail()">
                         <i data-lucide="arrow-left" class="nav-icon"></i>
-                        <span>전체 경제 지표 대시보드로 돌아가기</span>
+                        <span>← 40대 산업 목록으로 돌아가기</span>
                     </button>
-                    <span class="ind-detail-tag">산업별 정밀 분석 툴</span>
+                    <span class="ind-detail-tag">${ind.day} · ${ind.chapterName}</span>
                 </div>
 
                 <!-- Industry Detail Header -->
@@ -430,12 +468,12 @@ document.addEventListener('DOMContentLoaded', () => {
                             <i data-lucide="${ind.icon || 'activity'}"></i>
                         </div>
                         <div class="ind-detail-title-info">
-                            <h1>${ind.sector}</h1>
+                            <h1>${ind.day}. ${ind.sector}</h1><div class="ind-detail-subtitle-text">${ind.subTitle}</div>
                             <p class="ind-detail-desc">${ind.description}</p>
                         </div>
                     </div>
                     <div class="ind-detail-stocks-row">
-                        <span class="stocks-badge-label">포함 대표기업 10개사:</span>
+                        <span class="stocks-badge-label">대표 기업:</span>
                         <span class="stocks-badge-list">${ind.relatedStocks}</span>
                     </div>
                 </div>
