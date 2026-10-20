@@ -258,32 +258,39 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         // Render Industry-Specific Earnings Indicators Hub
-        if (dashboard.industries && dashboard.industries.length > 0) {
+        const industriesList = (window.INDUSTRY_DATA && window.INDUSTRY_DATA.length > 0) ? window.INDUSTRY_DATA : (dashboard.industries || []);
+        
+        if (industriesList.length > 0) {
             html += `
-                <div class="industry-hub-container">
+                <div class="industry-hub-container" id="industry-hub-root">
                     <div class="industry-hub-header">
                         <div class="industry-hub-title-box">
-                            <h2>🏭 기업 실적 예측 산업별 핵심 지표 & 원본 데이터</h2>
+                            <h2>🏭 기업 실적 예측 산업별 핵심 지표 & 13대 산업군 분석</h2>
                             <p class="industry-hub-subtitle">
-                                한국 주력 제조업 및 수출 기업의 마진 스프레드, 물류 운임, 원자재 가격 및 <strong>공식 원본 데이터 차트</strong>를 실시간으로 확인하실 수 있습니다.
+                                거시 경제 지표(환율·유가·곡물·운임 등)를 분석하여 <strong>미래 분기 실적 추이를 예측</strong>하고, 산업별 대표기업 10개사의 <strong>손익 대비 시총, 대차대조표 리스크, 배당 성향</strong>을 한눈에 비교하실 수 있습니다. 각 산업 카드를 클릭하시면 상세 분석표로 이동합니다.
                             </p>
                         </div>
                     </div>
                     <div class="industry-grid">
             `;
 
-            dashboard.industries.forEach(ind => {
+            industriesList.forEach(ind => {
+                const signal = ind.correlationLogic ? ind.correlationLogic.outlookSignal : null;
+                const signalBadge = signal ? `<div class="ind-card-signal-badge ${signal.level}">${signal.badgeText}</div>` : '';
+
                 html += `
-                    <div class="industry-card">
+                    <div class="industry-card" onclick="window.showIndustryDetail('${ind.id}')">
                         <div class="industry-card-header">
                             <div class="industry-title-row">
                                 <h3 class="industry-title">
                                     <i data-lucide="${ind.icon || 'activity'}" class="industry-icon"></i>
                                     <span>${ind.sector}</span>
                                 </h3>
+                                <span class="ind-click-hint">상세보기 ➔</span>
                             </div>
+                            ${signalBadge}
                             <div class="industry-stocks-badge">
-                                <span class="badge-label">주요 관련주</span>
+                                <span class="badge-label">대표기업</span>
                                 <span class="badge-stocks">${ind.relatedStocks}</span>
                             </div>
                             <p class="industry-desc">${ind.description}</p>
@@ -291,9 +298,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="industry-indicators-list">
                 `;
 
-                ind.indicators.forEach(item => {
+                (ind.indicators || []).slice(0, 2).forEach(item => {
                     html += `
-                        <div class="industry-indicator-box">
+                        <div class="industry-indicator-box" onclick="event.stopPropagation()">
                             <div class="ind-box-top">
                                 <span class="ind-name">${item.name}</span>
                                 <a href="${item.sourceUrl}" target="_blank" rel="noopener noreferrer" class="ind-source-btn">
@@ -303,12 +310,17 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div class="ind-role"><strong>역할:</strong> ${item.role}</div>
                             <div class="ind-impact"><strong>실적 영향:</strong> ${item.impact}</div>
-                            <div class="ind-benchmark"><strong>판단 기준:</strong> ${item.benchmark}</div>
                         </div>
                     `;
                 });
 
                 html += `
+                        </div>
+                        <div class="industry-card-footer">
+                            <button class="ind-open-detail-btn" onclick="window.showIndustryDetail('${ind.id}')">
+                                <span>실적 예측 인과관계 & 10대 기업 비교표 보기</span>
+                                <i data-lucide="chevron-right"></i>
+                            </button>
                         </div>
                     </div>
                 `;
@@ -326,6 +338,269 @@ document.addEventListener('DOMContentLoaded', () => {
 
         postsList.innerHTML = html;
         if (window.lucide) window.lucide.createIcons();
+    }
+
+    // Detail View: Render Dedicated Industry Deep-Dive Page
+    window.showIndustryDetail = function(industryId) {
+        window.location.hash = 'industry-' + industryId;
+        renderIndustryDetailView(industryId);
+    };
+
+    window.closeIndustryDetail = function() {
+        window.location.hash = '';
+        renderEconomicDashboard();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    window.currentCompanyFilter = 'all';
+    window.setCompanyFilter = function(filterName) {
+        window.currentCompanyFilter = filterName;
+        const currentIndId = window.location.hash.replace('#industry-', '');
+        renderIndustryDetailView(currentIndId);
+    };
+
+    function renderIndustryDetailView(industryId) {
+        if (!postsList) return;
+        const ind = (window.INDUSTRY_DATA || []).find(x => x.id === industryId) || (window.INDUSTRY_DATA && window.INDUSTRY_DATA[0]);
+        if (!ind) {
+            renderEconomicDashboard();
+            return;
+        }
+
+        const logic = ind.correlationLogic || {};
+        const signal = logic.outlookSignal || { level: 'NEUTRAL', badgeText: '⚪ 보통', summary: '지표 관망세' };
+
+        let html = `
+            <div class="ind-detail-container">
+                <!-- Top Nav Bar -->
+                <div class="ind-detail-nav">
+                    <button class="back-btn" onclick="window.closeIndustryDetail()">
+                        <i data-lucide="arrow-left" class="nav-icon"></i>
+                        <span>전체 경제 지표 대시보드로 돌아가기</span>
+                    </button>
+                    <span class="ind-detail-tag">산업별 정밀 분석 툴</span>
+                </div>
+
+                <!-- Industry Detail Header -->
+                <div class="ind-detail-header-card">
+                    <div class="ind-detail-title-row">
+                        <div class="ind-detail-icon-box">
+                            <i data-lucide="${ind.icon || 'activity'}"></i>
+                        </div>
+                        <div class="ind-detail-title-info">
+                            <h1>${ind.sector}</h1>
+                            <p class="ind-detail-desc">${ind.description}</p>
+                        </div>
+                    </div>
+                    <div class="ind-detail-stocks-row">
+                        <span class="stocks-badge-label">포함 대표기업 10개사:</span>
+                        <span class="stocks-badge-list">${ind.relatedStocks}</span>
+                    </div>
+                </div>
+
+                <!-- 1. Forecasting & Correlation Engine Briefing -->
+                <div class="ind-forecast-box">
+                    <div class="forecast-header">
+                        <div class="forecast-title-group">
+                            <i data-lucide="trending-up" class="forecast-icon"></i>
+                            <h3>미래 분기 실적 추이 예측 & 상관관계 메커니즘</h3>
+                        </div>
+                        <div class="forecast-signal-badge ${signal.level}">
+                            ${signal.badgeText}
+                        </div>
+                    </div>
+
+                    <!-- Outlook Summary -->
+                    <div class="forecast-summary-card">
+                        <div class="summary-label">차기 분기(2026 Q4 ~ 2027 Q1) 실적 전망 총평</div>
+                        <p class="summary-text">${signal.summary}</p>
+                    </div>
+
+                    <!-- Causal Formula -->
+                    <div class="forecast-formula-card">
+                        <div class="formula-label">
+                            <i data-lucide="git-merge" class="formula-icon"></i>
+                            <strong>실적 결정 핵심 인과 공식</strong>
+                        </div>
+                        <div class="formula-content">${logic.formula}</div>
+                    </div>
+
+                    <!-- 4-Step Causal Logic Details -->
+                    <div class="forecast-steps-card">
+                        <div class="steps-title">지표 ➔ 기업 실적 전이 단계별 인과 메커니즘</div>
+                        <div class="steps-list">
+        `;
+
+        (logic.details || []).forEach(step => {
+            html += `
+                <div class="step-item">
+                    <span class="step-bullet"><i data-lucide="check-circle-2"></i></span>
+                    <span class="step-text">${step}</span>
+                </div>
+            `;
+        });
+
+        html += `
+                        </div>
+                    </div>
+
+                    <!-- Sensitivity & Macro Status Grid -->
+                    <div class="forecast-meta-grid">
+                        <div class="meta-box sensitivity-box">
+                            <div class="meta-box-header">
+                                <i data-lucide="sliders" class="meta-icon"></i>
+                                <span>지표 민감도 (Sensitivity)</span>
+                            </div>
+                            <p>${logic.sensitivity || '지표 변동 시 기업 실적 민감도 높음'}</p>
+                        </div>
+                        <div class="meta-box status-box">
+                            <div class="meta-box-header">
+                                <i data-lucide="activity" class="meta-icon"></i>
+                                <span>현재 거시 지표 환경 진단</span>
+                            </div>
+                            <p>${logic.currentStatus || '지표 안정적 범위 유지'}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Leading Indicators & Source Data Links -->
+                <div class="ind-sources-section">
+                    <div class="section-title-box">
+                        <i data-lucide="database" class="section-icon"></i>
+                        <h3>산업 핵심 선행 지표 & 공식 원본 데이터 차트</h3>
+                    </div>
+                    <div class="ind-sources-grid">
+        `;
+
+        (ind.indicators || []).forEach(indItem => {
+            html += `
+                <div class="ind-source-card">
+                    <div class="source-card-top">
+                        <span class="source-indicator-name">${indItem.name}</span>
+                        <a href="${indItem.sourceUrl}" target="_blank" rel="noopener noreferrer" class="source-link-pill">
+                            <span>${indItem.sourceName}</span>
+                            <i data-lucide="external-link" class="ext-icon"></i>
+                        </a>
+                    </div>
+                    <div class="source-info-row"><strong>역할:</strong> ${indItem.role}</div>
+                    <div class="source-info-row"><strong>실적 영향:</strong> ${indItem.impact}</div>
+                    <div class="source-info-row benchmark"><strong>판단 기준:</strong> ${indItem.benchmark}</div>
+                </div>
+            `;
+        });
+
+        html += `
+                    </div>
+                </div>
+
+                <!-- 3. Representative Companies Financial & Valuation Comparison -->
+                <div class="ind-companies-section">
+                    <div class="section-title-box between">
+                        <div class="title-with-icon">
+                            <i data-lucide="table-properties" class="section-icon"></i>
+                            <h3>${ind.sector} 대표 10개 기업 손익·시총·리스크·배당 종합 비교표</h3>
+                        </div>
+                        <span class="company-count-tag">10개 대표사 전수 분석</span>
+                    </div>
+
+                    <!-- View Filter Tabs -->
+                    <div class="comp-filter-tabs">
+                        <button class="comp-tab ${window.currentCompanyFilter === 'all' ? 'active' : ''}" onclick="window.setCompanyFilter('all')">전체 종합 뷰</button>
+                        <button class="comp-tab ${window.currentCompanyFilter === 'profit' ? 'active' : ''}" onclick="window.setCompanyFilter('profit')">손익 & 시가총액</button>
+                        <button class="comp-tab ${window.currentCompanyFilter === 'risk' ? 'active' : ''}" onclick="window.setCompanyFilter('risk')">대차대조표 & 재무 리스크</button>
+                        <button class="comp-tab ${window.currentCompanyFilter === 'dividend' ? 'active' : ''}" onclick="window.setCompanyFilter('dividend')">배당 성향 & 주주환원</button>
+                    </div>
+
+                    <div class="comp-table-wrapper">
+                        <table class="comp-table">
+                            <thead>
+                                <tr>
+                                    <th class="th-sticky">기업명</th>
+                                    <th class="th-num">시가총액</th>
+                                    <th class="th-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">매출액</th>
+                                    <th class="th-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">영업이익</th>
+                                    <th class="th-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">영업이익률</th>
+                                    <th class="th-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">PER / PBR</th>
+                                    <th class="th-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">부채비율</th>
+                                    <th class="th-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">유동비율</th>
+                                    <th class="th-center ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">재무 건전성</th>
+                                    <th class="th-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'risk' ? 'col-hide-mobile' : ''}">배당수익률</th>
+                                    <th class="th-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'risk' ? 'col-hide-mobile' : ''}">배당성향</th>
+                                    <th class="th-comment">애널리스트 핵심 투자 포인트</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+        `;
+
+        (ind.companies || []).forEach(c => {
+            const riskBadge = c.riskStatus === 'SAFE' 
+                ? '<span class="risk-pill safe">🟢 안전</span>'
+                : c.riskStatus === 'NORMAL'
+                ? '<span class="risk-pill normal">🟡 보통</span>'
+                : '<span class="risk-pill warning">🔴 주의</span>';
+
+            const opmClass = c.opMargin >= 10 ? 'val-high-opm' : c.opMargin < 0 ? 'val-down' : '';
+            const divClass = c.dividendYield >= 4.0 ? 'val-high-div' : '';
+
+            html += `
+                <tr>
+                    <td class="td-sticky">
+                        <div class="comp-name-box">
+                            <span class="comp-name">${c.name}</span>
+                            <span class="comp-code">${c.code}</span>
+                        </div>
+                    </td>
+                    <td class="td-num comp-mcap">${c.marketCap}</td>
+                    <td class="td-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">${c.revenue}</td>
+                    <td class="td-num bold ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">${c.operatingProfit}</td>
+                    <td class="td-num bold ${opmClass} ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">${c.opMargin}%</td>
+                    <td class="td-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">
+                        <span class="per-badge">${c.per > 0 ? c.per + '배' : '적자'}</span>
+                        <span class="pbr-badge">PBR ${c.pbr}배</span>
+                    </td>
+                    <td class="td-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">${c.debtRatio}%</td>
+                    <td class="td-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">${c.currentRatio}%</td>
+                    <td class="td-center ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">${riskBadge}</td>
+                    <td class="td-num bold ${divClass} ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'risk' ? 'col-hide-mobile' : ''}">${c.dividendYield}%</td>
+                    <td class="td-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'risk' ? 'col-hide-mobile' : ''}">${c.payoutRatio}%</td>
+                    <td class="td-comment">${c.comment}</td>
+                </tr>
+            `;
+        });
+
+        html += `
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Bottom Back Button -->
+                <div class="ind-detail-bottom-nav">
+                    <button class="back-btn-large" onclick="window.closeIndustryDetail()">
+                        <i data-lucide="arrow-left"></i>
+                        <span>전체 경제 지표 대시보드로 돌아가기</span>
+                    </button>
+                </div>
+            </div>
+        `;
+
+        postsList.innerHTML = html;
+        if (window.lucide) window.lucide.createIcons();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Check hash on load or hashchange
+    window.addEventListener('hashchange', () => {
+        if (window.location.hash.startsWith('#industry-')) {
+            const id = window.location.hash.replace('#industry-', '');
+            renderIndustryDetailView(id);
+        } else if (currentCategory === '증시/지표') {
+            renderEconomicDashboard();
+        }
+    });
+
+    if (window.location.hash.startsWith('#industry-')) {
+        currentCategory = '증시/지표';
     }
 
     function renderPosts() {
