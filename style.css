@@ -225,7 +225,7 @@ body {
 
     /* Compact List Items for Mobile (10-15 per screen) */
     .content-area {
-        padding: 15px 15px 40px 15px;
+        padding: 15px 10px 40px 10px;
     }
 
     .post-list-item {
@@ -392,7 +392,7 @@ body {
     white-space: nowrap;
 }
 
-.db-change {
+.db-change, .db-rate {
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     font-size: 0.85rem;
@@ -443,15 +443,78 @@ body {
     }
     
     .db-card {
-        padding: 16px;
+        padding: 14px 10px;
+    }
+
+    .db-card-content {
+        overflow-x: hidden;
     }
     
     .db-table {
-        font-size: 0.85rem;
+        width: 100%;
+        table-layout: fixed;
+        font-size: 0.8rem;
     }
     
     .db-table th, .db-table td {
-        padding: 8px 4px;
+        padding: 7px 2px;
+    }
+
+    .th-name, .db-name {
+        width: 31%;
+    }
+    
+    .th-val, .db-value {
+        width: 26%;
+    }
+    
+    .th-change, .db-change {
+        width: 22%;
+    }
+    
+    .th-rate, .db-rate {
+        width: 21%;
+    }
+
+    .db-name {
+        font-size: 0.78rem;
+        letter-spacing: -0.4px;
+        white-space: normal;
+        word-break: keep-all;
+        line-height: 1.25;
+    }
+
+    .db-link {
+        display: inline;
+        word-break: keep-all;
+    }
+
+    .db-link-icon {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 2px;
+    }
+
+    .db-value {
+        font-size: 0.78rem;
+        letter-spacing: -0.3px;
+        white-space: nowrap;
+    }
+
+    .db-change, .db-rate {
+        font-size: 0.75rem;
+        letter-spacing: -0.3px;
+        white-space: nowrap;
+    }
+
+    .db-percent {
+        font-size: 0.74rem;
+        letter-spacing: -0.3px;
+    }
+
+    .db-icon {
+        font-size: 0.55rem;
+        margin-right: 1px;
     }
 }
 

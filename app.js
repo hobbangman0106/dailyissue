@@ -197,10 +197,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         <table class="db-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align: left;">지표명</th>
-                                    <th style="text-align: right;">현재가</th>
-                                    <th style="text-align: right;">전일대비</th>
-                                    <th style="text-align: right;">등락률</th>
+                                    <th class="th-name" style="text-align: left;">지표명</th>
+                                    <th class="th-val" style="text-align: right;">현재가</th>
+                                    <th class="th-change" style="text-align: right;">전일대비</th>
+                                    <th class="th-rate" style="text-align: right;">등락률</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <td class="db-change ${colorClass}" style="text-align: right;">
                             <span class="db-icon">${icon}</span> ${cleanChange}
                         </td>
-                        <td class="db-change ${colorClass}" style="text-align: right;">
+                        <td class="db-rate ${colorClass}" style="text-align: right;">
                             <span class="db-percent">${isDown ? '-' : isUp ? '+' : ''}${cleanRate}</span>
                         </td>
                     </tr>
