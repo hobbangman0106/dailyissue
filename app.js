@@ -1,29 +1,36 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['증시/지표', '기업/산업', '전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠', '칼럼', '유튜브'];
+    const CATEGORIES = ['지표', '기업', '뉴스'];
     const SUB_CATEGORIES = {
-        '기업/산업': ['전체산업', '식음료/패션/뷰티', '반도체/배터리/IT', '자동차/조선/방산', '정유/화학/철강/건설', '해운/물류'],
-        '경제': ['최신뉴스', '생활 경제', '부동산', '금융/증권', '산업/기업', '취업/창업', '국제경제', '경제 일반'],
-        '사회': ['최신뉴스', '사건/사고', '교육/학교', '교통/지역', '인권/복지', '여성/노동', '환경', '미디어', '종교', '인물', '사회 일반'],
-        '정치': ['최신뉴스', '대통령실', '국회/정당', '북한', '외교/안보', '정치 일반'],
-        '생활/건강': ['최신뉴스', '건강', '생활정보', '문화/예술', '여행/레저', '음식/맛집', '생활/건강 일반'],
-        '세계': ['최신뉴스', '아시아/호주', '미국/중남미', '유럽', '중동/아프리카', '해외 화제', '세계 일반'],
-        'IT/과학': ['최신뉴스', '과학', '디지털', '컴퓨터/인터넷', '뉴미디어/통신', '게임', 'IT/과학 일반'],
-        '연예': ['최신뉴스', '스타/연예인', 'TV/방송', '영화', '음악', '연예 일반'],
-        '스포츠': ['최신뉴스', '야구', '축구', '골프', '농구/배구', '일반 스포츠'],
-        '칼럼': ['최신뉴스', '사설', '칼럼', '만평'],
-        '유튜브': ['최신뉴스', '뉴스/시사', '경제', '과학', '의학/건강', '인문/교양']
+        '기업': ['전체산업', '식음료/패션/뷰티', '반도체/배터리/IT', '자동차/조선/방산', '정유/화학/철강/건설', '해운/물류'],
+        '뉴스': ['전체', '경제', '사회', '정치', 'IT/과학', '세계', '생활/건강', '연예', '스포츠', '칼럼', '유튜브']
     };
 
     console.log("=== App v4.3.0 Loaded ===");
     console.log("Categories defined:", CATEGORIES);
 
     // Persistent category state across refreshes and back navigation
-    let currentCategory = sessionStorage.getItem('active_category') || '증시/지표';
-    let currentSubCategory = sessionStorage.getItem('active_subcategory') || '최신뉴스';
-    if (currentCategory === '기업/산업' && (!currentSubCategory || currentSubCategory === '최신뉴스')) {
-        currentSubCategory = '전체산업';
+    let currentCategory = sessionStorage.getItem('active_category') || '지표';
+    if (currentCategory === '증시/지표') currentCategory = '지표';
+    if (currentCategory === '기업/산업') currentCategory = '기업';
+    if (!['지표', '기업', '뉴스'].includes(currentCategory)) {
+        currentCategory = '뉴스';
+    }
+
+    let currentSubCategory = sessionStorage.getItem('active_subcategory');
+    if (currentCategory === '지표') {
+        currentSubCategory = '';
+    } else if (currentCategory === '기업') {
+        const indSubs = ['전체산업', '식음료/패션/뷰티', '반도체/배터리/IT', '자동차/조선/방산', '정유/화학/철강/건설', '해운/물류'];
+        if (!currentSubCategory || !indSubs.includes(currentSubCategory)) {
+            currentSubCategory = '전체산업';
+        }
+    } else if (currentCategory === '뉴스') {
+        const newsSubs = ['전체', '경제', '사회', '정치', 'IT/과학', '세계', '생활/건강', '연예', '스포츠', '칼럼', '유튜브'];
+        if (!currentSubCategory || !newsSubs.includes(currentSubCategory)) {
+            currentSubCategory = '전체';
+        }
     }
     let data = window.LOCAL_DATA || {};
     let searchQuery = '';
@@ -90,10 +97,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 tabBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 currentCategory = btn.dataset.category;
-                if (currentCategory === '기업/산업') {
+                if (currentCategory === '기업') {
                     currentSubCategory = '전체산업';
+                } else if (currentCategory === '뉴스') {
+                    currentSubCategory = '전체';
                 } else {
-                    currentSubCategory = '최신뉴스';
+                    currentSubCategory = '';
                 }
                 if (window.location.hash.startsWith('#industry-')) {
                     history.replaceState(null, null, window.location.pathname);
@@ -167,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderEconomicDashboard() {
-        const dashboard = data['증시/지표'];
+        const dashboard = data['증시/지표'] || data['지표'];
         if (!dashboard || !dashboard.sections || dashboard.sections.length === 0) {
             postsList.innerHTML = '<div class="empty-state">경제 지표 데이터를 불러오는 중입니다...</div>';
             return;
@@ -373,11 +382,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.closeIndustryDetail = function() {
         window.location.hash = '';
-        currentCategory = '기업/산업';
-        sessionStorage.setItem('active_category', '기업/산업');
+        currentCategory = '기업';
+        sessionStorage.setItem('active_category', '기업');
         if (tabsNav) {
             tabsNav.querySelectorAll('.tab-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.dataset.category === '기업/산업');
+                btn.classList.toggle('active', btn.dataset.category === '기업');
             });
         }
         renderSubTabs();
@@ -626,35 +635,37 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('hashchange', () => {
         if (window.location.hash.startsWith('#industry-')) {
             const id = window.location.hash.replace('#industry-', '');
-            currentCategory = '기업/산업';
-            sessionStorage.setItem('active_category', '기업/산업');
+            currentCategory = '기업';
+            sessionStorage.setItem('active_category', '기업');
             if (tabsNav) {
                 tabsNav.querySelectorAll('.tab-btn').forEach(btn => {
-                    btn.classList.toggle('active', btn.dataset.category === '기업/산업');
+                    btn.classList.toggle('active', btn.dataset.category === '기업');
                 });
             }
             renderSubTabs();
             renderIndustryDetailView(id);
-        } else if (currentCategory === '기업/산업') {
+        } else if (currentCategory === '기업') {
             renderIndustryHub();
-        } else if (currentCategory === '증시/지표') {
+        } else if (currentCategory === '지표') {
             renderEconomicDashboard();
+        } else if (currentCategory === '뉴스') {
+            renderPosts();
         }
     });
 
     if (window.location.hash.startsWith('#industry-')) {
-        currentCategory = '기업/산업';
+        currentCategory = '기업';
     }
 
     function renderPosts() {
         if (!postsList) return;
         
-        if (currentCategory === '증시/지표') {
+        if (currentCategory === '지표') {
             renderEconomicDashboard();
             return;
         }
 
-        if (currentCategory === '기업/산업') {
+        if (currentCategory === '기업') {
             if (window.location.hash.startsWith('#industry-')) {
                 const id = window.location.hash.replace('#industry-', '');
                 renderIndustryDetailView(id);
@@ -666,9 +677,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let html = '';
         
-        let displayPosts = data[currentCategory] || [];
-        if (currentCategory !== '전체' && currentSubCategory !== '최신뉴스') {
-            displayPosts = displayPosts.filter(p => p.SubCategory === currentSubCategory);
+        let displayPosts = [];
+        if (currentCategory === '뉴스') {
+            if (currentSubCategory === '전체' || !currentSubCategory) {
+                displayPosts = data['전체'] || [];
+            } else {
+                displayPosts = data[currentSubCategory] || [];
+            }
+        } else {
+            displayPosts = data[currentCategory] || [];
         }
 
         if (displayPosts.length === 0) {
