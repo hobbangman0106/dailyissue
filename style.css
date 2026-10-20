@@ -16,8 +16,11 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 html, body {
-    overflow-x: clip;
-    width: 100%;
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    position: relative;
+    box-sizing: border-box;
 }
 
 body {
@@ -30,8 +33,11 @@ body {
 
 .app-container {
     max-width: 960px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 /* Glassmorphism Header & Navigation */
@@ -113,7 +119,10 @@ body {
 .content-area {
     padding: 40px 20px 60px 20px;
     max-width: 900px;
+    width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .posts-list-container {
@@ -256,8 +265,11 @@ body {
 /* Market Dashboard Styles */
 .db-container {
     max-width: 900px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .db-header {
@@ -293,8 +305,10 @@ body {
 
 .db-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .db-card {
@@ -304,6 +318,11 @@ body {
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
     transition: var(--transition);
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .db-card:hover {
@@ -324,84 +343,83 @@ body {
 
 .db-card-content {
     width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-.db-table-flex {
+.db-table-3col {
     width: 100%;
+    box-sizing: border-box;
 }
 
-.db-header-row {
+.db-th-row, .db-row-3col {
     display: grid;
-    grid-template-columns: 1.4fr 1.1fr 1fr 0.9fr;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.1fr) minmax(0, 1fr);
     align-items: center;
-    padding: 8px 6px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 4px;
+}
+
+.db-th-row {
+    font-weight: 700;
+    color: var(--text-secondary);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
     border-bottom: 1.5px solid var(--border-color);
     margin-bottom: 4px;
 }
 
-.db-th {
-    font-weight: 700;
-    color: var(--text-secondary);
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.db-th.db-col-name {
+.db-th-name, .db-cell-name {
     text-align: left;
+    min-width: 0;
 }
 
-.db-th.db-col-price,
-.db-th.db-col-change,
-.db-th.db-col-rate {
+.db-th-val, .db-cell-val {
     text-align: right;
+    min-width: 0;
 }
 
-.db-row {
-    display: grid;
-    grid-template-columns: 1.4fr 1.1fr 1fr 0.9fr;
-    align-items: center;
-    padding: 10px 6px;
+.db-th-rate, .db-cell-rate {
+    text-align: right;
+    min-width: 0;
+}
+
+.db-row-3col {
     border-bottom: 1px solid rgba(0, 0, 0, 0.04);
     transition: background-color 0.15s ease;
 }
 
-.db-row:last-child {
+.db-row-3col:last-child {
     border-bottom: none;
 }
 
-.db-row:hover {
+.db-row-3col:hover {
     background-color: rgba(0, 0, 0, 0.02);
 }
 
-.db-col-name {
+.db-cell-name {
     font-weight: 600;
     font-size: 0.9rem;
-    letter-spacing: -0.2px;
-    text-align: left;
+    letter-spacing: -0.3px;
     color: var(--text-primary);
+    word-break: keep-all;
 }
 
-.db-col-price {
+.db-cell-val {
     font-weight: 700;
     color: var(--text-primary);
     font-family: 'Inter', sans-serif;
-    font-size: 0.9rem;
-    text-align: right;
+    font-size: 0.92rem;
     white-space: nowrap;
 }
 
-.db-col-change, .db-col-rate {
+.db-cell-rate {
     font-weight: 700;
     font-family: 'Inter', sans-serif;
-    font-size: 0.85rem;
-    text-align: right;
+    font-size: 0.88rem;
     white-space: nowrap;
-}
-
-.db-percent {
-    font-size: 0.8rem;
-    font-weight: 600;
 }
 
 .db-icon {
@@ -423,16 +441,8 @@ body {
     color: var(--text-secondary) !important;
 }
 
-/* Mobile responsive for dashboard (100% Flexible Layout) */
+/* Mobile responsive for dashboard (Minimal 3-Column Layout) */
 @media (max-width: 768px) {
-    .desktop-only {
-        display: none !important;
-    }
-    
-    .mobile-only {
-        display: flex !important;
-    }
-
     .db-header {
         flex-direction: column;
         align-items: flex-start;
@@ -446,84 +456,54 @@ body {
     }
     
     .db-grid {
-        grid-template-columns: 1fr;
-        gap: 16px;
+        grid-template-columns: minmax(0, 1fr) !important;
+        gap: 16px !important;
+        width: 100% !important;
     }
     
     .db-card {
-        padding: 14px 12px;
+        padding: 14px 10px !important;
         border-radius: 12px;
+        width: 100% !important;
+        max-width: 100% !important;
     }
 
     .db-card-content {
-        overflow-x: visible;
+        overflow: hidden;
         width: 100%;
     }
 
-    .db-table-flex {
-        width: 100%;
-    }
-
-    /* 플렉시블 모바일 지표 행: 스마트폰 기종 폭에 맞춰 자동 신축 */
-    .db-row {
-        display: flex !important;
-        justify-content: space-between !important;
-        align-items: center !important;
+    .db-th-row, .db-row-3col {
+        grid-template-columns: minmax(0, 1.35fr) minmax(0, 1.05fr) minmax(0, 1fr) !important;
+        padding: 10px 2px !important;
         width: 100% !important;
-        padding: 10px 4px !important;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
-        gap: 12px !important;
         box-sizing: border-box !important;
     }
 
-    .db-col-name {
-        flex: 1 1 auto !important;
-        min-width: 0 !important;
-        font-size: 0.88rem !important;
-        font-weight: 600 !important;
-        color: var(--text-primary) !important;
-        line-height: 1.35 !important;
-        word-break: keep-all !important;
-        text-align: left !important;
+    .db-th-row {
+        font-size: 0.74rem;
+        padding-bottom: 6px !important;
     }
 
-    .db-col-mobile-vals {
-        flex: 0 0 auto !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-end !important;
-        justify-content: center !important;
-        text-align: right !important;
-        gap: 2px !important;
-    }
-
-    .db-mobile-price {
-        font-size: 0.92rem !important;
-        font-weight: 700 !important;
-        color: var(--text-primary) !important;
-        font-family: 'Inter', sans-serif !important;
-        letter-spacing: -0.2px !important;
+    .db-cell-name {
+        font-size: 0.84rem !important;
+        letter-spacing: -0.4px !important;
         line-height: 1.25 !important;
     }
 
-    .db-mobile-change {
-        font-size: 0.78rem !important;
-        font-weight: 600 !important;
-        font-family: 'Inter', sans-serif !important;
-        display: inline-flex !important;
-        align-items: center !important;
-        gap: 3px !important;
-        letter-spacing: -0.2px !important;
-        line-height: 1.25 !important;
+    .db-cell-val {
+        font-size: 0.86rem !important;
+        letter-spacing: -0.3px !important;
     }
 
-    .db-mobile-change .db-icon {
-        font-size: 0.55rem !important;
+    .db-cell-rate {
+        font-size: 0.84rem !important;
+        letter-spacing: -0.3px !important;
+    }
+
+    .db-cell-rate .db-icon {
+        font-size: 0.58rem !important;
         margin-right: 1px !important;
-    }
-
-    .db-rate-val {
-        font-weight: 700 !important;
     }
 }
 
@@ -756,6 +736,10 @@ body {
     margin-top: 48px;
     padding-top: 32px;
     border-top: 2px dashed rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .industry-hub-header {
@@ -782,8 +766,10 @@ body {
 
 .industry-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .industry-card {
@@ -796,6 +782,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
     transition: var(--transition);
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .industry-card:hover {
@@ -832,15 +823,18 @@ body {
 }
 
 .industry-stocks-badge {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 6px;
     background: #f1f5f9;
     border: 1px solid #e2e8f0;
-    padding: 3px 8px;
+    padding: 4px 8px;
     border-radius: 6px;
     font-size: 0.78rem;
     margin-bottom: 10px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .badge-label {
@@ -882,16 +876,20 @@ body {
 .ind-box-top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 8px;
     margin-bottom: 6px;
+    flex-wrap: wrap;
 }
 
 .ind-name {
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     font-weight: 800;
     color: var(--text-primary);
     letter-spacing: -0.3px;
+    flex: 1 1 0;
+    min-width: 120px;
+    word-break: keep-all;
 }
 
 .ind-source-btn {
@@ -943,14 +941,17 @@ body {
 
 @media (max-width: 768px) {
     .industry-grid {
-        grid-template-columns: 1fr;
-        gap: 16px;
+        grid-template-columns: minmax(0, 1fr) !important;
+        gap: 16px !important;
+        width: 100% !important;
     }
     .industry-hub-title-box h2 {
         font-size: 1.25rem;
     }
     .industry-card {
-        padding: 16px;
+        padding: 16px !important;
+        width: 100% !important;
+        max-width: 100% !important;
     }
 }
 

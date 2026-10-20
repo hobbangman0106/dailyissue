@@ -194,12 +194,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="db-card">
                     <h3 class="db-card-title">${section.title}</h3>
                     <div class="db-card-content">
-                        <div class="db-table-flex">
-                            <div class="db-header-row desktop-only">
-                                <div class="db-th db-col-name">지표명</div>
-                                <div class="db-th db-col-price">현재가</div>
-                                <div class="db-th db-col-change">전일대비</div>
-                                <div class="db-th db-col-rate">등락률</div>
+                        <div class="db-table-3col">
+                            <div class="db-th-row">
+                                <div class="db-th-name">지표명</div>
+                                <div class="db-th-val">현재가</div>
+                                <div class="db-th-rate">등락률</div>
                             </div>
                             <div class="db-body">
             `;
@@ -234,29 +233,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (!cleanRate.endsWith('%')) cleanRate += '%';
 
                 html += `
-                    <div class="db-row">
-                        <!-- 지표명 -->
-                        <div class="db-col-name">
+                    <div class="db-row-3col" title="전일대비: ${isDown ? '-' : isUp ? '+' : ''}${cleanChange}">
+                        <div class="db-cell-name">
                             <span class="db-name-text">${item.name}</span>
                         </div>
-
-                        <!-- 데스크톱 3열 (현재가, 전일대비, 등락률) -->
-                        <div class="db-col-price desktop-only">${item.price}</div>
-                        <div class="db-col-change desktop-only ${colorClass}">
-                            <span class="db-icon">${icon}</span> ${cleanChange}
-                        </div>
-                        <div class="db-col-rate desktop-only ${colorClass}">
-                            <span class="db-percent">${isDown ? '-' : isUp ? '+' : ''}${cleanRate}</span>
-                        </div>
-
-                        <!-- 모바일 플렉시블 우측 묶음 (상단: 현재가 / 하단: 전일대비 & 등락률) -->
-                        <div class="db-col-mobile-vals mobile-only">
-                            <div class="db-mobile-price">${item.price}</div>
-                            <div class="db-mobile-change ${colorClass}">
-                                <span class="db-icon">${icon}</span>
-                                <span class="db-change-val">${cleanChange}</span>
-                                <span class="db-rate-val">(${isDown ? '-' : isUp ? '+' : ''}${cleanRate})</span>
-                            </div>
+                        <div class="db-cell-val">${item.price}</div>
+                        <div class="db-cell-rate ${colorClass}">
+                            <span class="db-icon">${icon}</span> ${isDown ? '-' : isUp ? '+' : ''}${cleanRate}
                         </div>
                     </div>
                 `;
