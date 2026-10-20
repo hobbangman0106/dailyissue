@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Persistent category state across refreshes and back navigation
     let currentCategory = sessionStorage.getItem('active_category') || '증시/지표';
     let currentSubCategory = sessionStorage.getItem('active_subcategory') || '최신뉴스';
+    if (currentCategory === '기업/산업' && (!currentSubCategory || currentSubCategory === '최신뉴스')) {
+        currentSubCategory = '전체산업';
+    }
     let data = window.LOCAL_DATA || {};
     let searchQuery = '';
 
@@ -91,6 +94,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     currentSubCategory = '전체산업';
                 } else {
                     currentSubCategory = '최신뉴스';
+                }
+                if (window.location.hash.startsWith('#industry-')) {
+                    history.replaceState(null, null, window.location.pathname);
                 }
                 
                 // Save to sessionStorage to persist across page refreshes
@@ -390,7 +396,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!postsList) return;
         const ind = (window.INDUSTRY_DATA || []).find(x => x.id === industryId) || (window.INDUSTRY_DATA && window.INDUSTRY_DATA[0]);
         if (!ind) {
-            renderEconomicDashboard();
+            renderIndustryHub();
             return;
         }
 
@@ -637,7 +643,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     if (window.location.hash.startsWith('#industry-')) {
-        currentCategory = '증시/지표';
+        currentCategory = '기업/산업';
     }
 
     function renderPosts() {
@@ -645,6 +651,16 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if (currentCategory === '증시/지표') {
             renderEconomicDashboard();
+            return;
+        }
+
+        if (currentCategory === '기업/산업') {
+            if (window.location.hash.startsWith('#industry-')) {
+                const id = window.location.hash.replace('#industry-', '');
+                renderIndustryDetailView(id);
+            } else {
+                renderIndustryHub();
+            }
             return;
         }
 
