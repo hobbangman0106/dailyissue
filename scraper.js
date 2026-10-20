@@ -13,7 +13,7 @@ const PC_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 // Categories including Economic Dashboard and YouTube
-const CATEGORIES = ['증시/지표', '전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠', '칼럼', '유튜브'];
+const CATEGORIES = ['증시/지표', '기업/산업', '전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠', '칼럼', '유튜브'];
 
 const TASKS = [
     // --- 정치 ---
@@ -889,7 +889,7 @@ async function fetchEconomicDashboard() {
 async function scrape() {
     const now = new Date();
     let results = {};
-    CATEGORIES.forEach(c => results[c] = (c === '증시/지표' ? null : []));
+    CATEGORIES.forEach(c => results[c] = (c === '증시/지표' || c === '기업/산업' ? null : []));
 
     // Fetch comprehensive economic dashboard data
     results['증시/지표'] = await fetchEconomicDashboard();
@@ -1009,7 +1009,7 @@ async function scrape() {
     const youtubeList = [];
 
     for (const cat of CATEGORIES) {
-        if(cat === '전체' || cat === '증시/지표') continue;
+        if(cat === '전체' || cat === '증시/지표' || cat === '기업/산업') continue;
         
         // Add Category and SubCategory tag to each post
         results[cat] = results[cat].map(p => {
@@ -1039,7 +1039,7 @@ async function scrape() {
 
     // Sort individual categories by Score descending
     for (const cat of CATEGORIES) {
-        if (cat === '전체' || cat === '유튜브' || cat === '증시/지표') continue;
+        if (cat === '전체' || cat === '유튜브' || cat === '증시/지표' || cat === '기업/산업') continue;
         results[cat].sort((a, b) => {
             if ((b.Score || 0) !== (a.Score || 0)) return (b.Score || 0) - (a.Score || 0);
             return new Date(b.Date || 0) - new Date(a.Date || 0);

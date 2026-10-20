@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    const CATEGORIES = ['증시/지표', '전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠', '칼럼', '유튜브'];
+    const CATEGORIES = ['증시/지표', '기업/산업', '전체', '경제', '사회', '정치', '생활/건강', '세계', 'IT/과학', '연예', '스포츠', '칼럼', '유튜브'];
     const SUB_CATEGORIES = {
+        '기업/산업': ['전체산업', '식음료/패션/뷰티', '반도체/배터리/IT', '자동차/조선/방산', '정유/화학/철강/건설', '해운/물류'],
         '경제': ['최신뉴스', '생활 경제', '부동산', '금융/증권', '산업/기업', '취업/창업', '국제경제', '경제 일반'],
         '사회': ['최신뉴스', '사건/사고', '교육/학교', '교통/지역', '인권/복지', '여성/노동', '환경', '미디어', '종교', '인물', '사회 일반'],
         '정치': ['최신뉴스', '대통령실', '국회/정당', '북한', '외교/안보', '정치 일반'],
@@ -86,7 +87,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 tabBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 currentCategory = btn.dataset.category;
-                currentSubCategory = '최신뉴스'; // Reset to '최신뉴스' on main category change
+                if (currentCategory === '기업/산업') {
+                    currentSubCategory = '전체산업';
+                } else {
+                    currentSubCategory = '최신뉴스';
+                }
                 
                 // Save to sessionStorage to persist across page refreshes
                 sessionStorage.setItem('active_category', currentCategory);
@@ -255,84 +260,98 @@ document.addEventListener('DOMContentLoaded', () => {
 
         html += `
                 </div>
+            </div>
         `;
 
-        // Render Industry-Specific Earnings Indicators Hub
-        const industriesList = (window.INDUSTRY_DATA && window.INDUSTRY_DATA.length > 0) ? window.INDUSTRY_DATA : (dashboard.industries || []);
+        postsList.innerHTML = html;
+        if (window.lucide) window.lucide.createIcons();
+    }
+
+    // Dedicated Tab: Render Industry & Corporate Analysis Hub
+    function renderIndustryHub() {
+        if (!postsList) return;
+        const allIndustries = (window.INDUSTRY_DATA && window.INDUSTRY_DATA.length > 0) ? window.INDUSTRY_DATA : [];
         
-        if (industriesList.length > 0) {
-            html += `
-                <div class="industry-hub-container" id="industry-hub-root">
-                    <div class="industry-hub-header">
-                        <div class="industry-hub-title-box">
-                            <h2>🏭 기업 실적 예측 산업별 핵심 지표 & 13대 산업군 분석</h2>
-                            <p class="industry-hub-subtitle">
-                                거시 경제 지표(환율·유가·곡물·운임 등)를 분석하여 <strong>미래 분기 실적 추이를 예측</strong>하고, 산업별 대표기업 10개사의 <strong>손익 대비 시총, 대차대조표 리스크, 배당 성향</strong>을 한눈에 비교하실 수 있습니다. 각 산업 카드를 클릭하시면 상세 분석표로 이동합니다.
-                            </p>
-                        </div>
+        let filteredIndustries = allIndustries;
+        if (currentSubCategory === '식음료/패션/뷰티') {
+            filteredIndustries = allIndustries.filter(x => ['food', 'garment', 'beauty'].includes(x.id));
+        } else if (currentSubCategory === '반도체/배터리/IT') {
+            filteredIndustries = allIndustries.filter(x => ['semi', 'battery'].includes(x.id));
+        } else if (currentSubCategory === '자동차/조선/방산') {
+            filteredIndustries = allIndustries.filter(x => ['auto', 'ship', 'defense'].includes(x.id));
+        } else if (currentSubCategory === '정유/화학/철강/건설') {
+            filteredIndustries = allIndustries.filter(x => ['refinery', 'chem', 'steel', 'construct'].includes(x.id));
+        } else if (currentSubCategory === '해운/물류') {
+            filteredIndustries = allIndustries.filter(x => ['shipping'].includes(x.id));
+        }
+
+        let html = `
+            <div class="industry-hub-container" id="industry-hub-root">
+                <div class="industry-hub-header">
+                    <div class="industry-hub-title-box">
+                        <h2>🏭 기업 실적 예측 산업별 지표 & 13대 산업군 분석</h2>
+                        <p class="industry-hub-subtitle">
+                            거시 지표(환율·유가·곡물·운임 등)를 분석하여 <strong>미래 분기 실적 추이를 예측</strong>하고, 산업별 대표기업 10개사의 <strong>손익 대비 시총, 대차대조표 리스크, 배당 성향</strong>을 한눈에 비교 분석합니다. 카드를 클릭하시면 상세 분석표로 이동합니다.
+                        </p>
                     </div>
-                    <div class="industry-grid">
+                </div>
+                <div class="industry-grid">
+        `;
+
+        filteredIndustries.forEach(ind => {
+            const signal = ind.correlationLogic ? ind.correlationLogic.outlookSignal : null;
+            const signalBadge = signal ? `<div class="ind-card-signal-badge ${signal.level}">${signal.badgeText}</div>` : '';
+
+            html += `
+                <div class="industry-card" onclick="window.showIndustryDetail('${ind.id}')">
+                    <div class="industry-card-header">
+                        <div class="industry-title-row">
+                            <h3 class="industry-title">
+                                <i data-lucide="${ind.icon || 'activity'}" class="industry-icon"></i>
+                                <span>${ind.sector}</span>
+                            </h3>
+                            <span class="ind-click-hint">상세보기 ➔</span>
+                        </div>
+                        ${signalBadge}
+                        <div class="industry-stocks-badge">
+                            <span class="badge-label">대표기업</span>
+                            <span class="badge-stocks">${ind.relatedStocks}</span>
+                        </div>
+                        <p class="industry-desc">${ind.description}</p>
+                    </div>
+                    <div class="industry-indicators-list">
             `;
 
-            industriesList.forEach(ind => {
-                const signal = ind.correlationLogic ? ind.correlationLogic.outlookSignal : null;
-                const signalBadge = signal ? `<div class="ind-card-signal-badge ${signal.level}">${signal.badgeText}</div>` : '';
-
+            (ind.indicators || []).slice(0, 2).forEach(item => {
                 html += `
-                    <div class="industry-card" onclick="window.showIndustryDetail('${ind.id}')">
-                        <div class="industry-card-header">
-                            <div class="industry-title-row">
-                                <h3 class="industry-title">
-                                    <i data-lucide="${ind.icon || 'activity'}" class="industry-icon"></i>
-                                    <span>${ind.sector}</span>
-                                </h3>
-                                <span class="ind-click-hint">상세보기 ➔</span>
-                            </div>
-                            ${signalBadge}
-                            <div class="industry-stocks-badge">
-                                <span class="badge-label">대표기업</span>
-                                <span class="badge-stocks">${ind.relatedStocks}</span>
-                            </div>
-                            <p class="industry-desc">${ind.description}</p>
+                    <div class="industry-indicator-box" onclick="event.stopPropagation()">
+                        <div class="ind-box-top">
+                            <span class="ind-name">${item.name}</span>
+                            <a href="${item.sourceUrl}" target="_blank" rel="noopener noreferrer" class="ind-source-btn">
+                                <span>${item.sourceName}</span>
+                                <i data-lucide="external-link" class="ind-ext-icon"></i>
+                            </a>
                         </div>
-                        <div class="industry-indicators-list">
-                `;
-
-                (ind.indicators || []).slice(0, 2).forEach(item => {
-                    html += `
-                        <div class="industry-indicator-box" onclick="event.stopPropagation()">
-                            <div class="ind-box-top">
-                                <span class="ind-name">${item.name}</span>
-                                <a href="${item.sourceUrl}" target="_blank" rel="noopener noreferrer" class="ind-source-btn">
-                                    <span>${item.sourceName}</span>
-                                    <i data-lucide="external-link" class="ind-ext-icon"></i>
-                                </a>
-                            </div>
-                            <div class="ind-role"><strong>역할:</strong> ${item.role}</div>
-                            <div class="ind-impact"><strong>실적 영향:</strong> ${item.impact}</div>
-                        </div>
-                    `;
-                });
-
-                html += `
-                        </div>
-                        <div class="industry-card-footer">
-                            <button class="ind-open-detail-btn" onclick="window.showIndustryDetail('${ind.id}')">
-                                <span>실적 예측 인과관계 & 10대 기업 비교표 보기</span>
-                                <i data-lucide="chevron-right"></i>
-                            </button>
-                        </div>
+                        <div class="ind-role"><strong>역할:</strong> ${item.role}</div>
+                        <div class="ind-impact"><strong>실적 영향:</strong> ${item.impact}</div>
                     </div>
                 `;
             });
 
             html += `
                     </div>
+                    <div class="industry-card-footer">
+                        <button class="ind-open-detail-btn" onclick="window.showIndustryDetail('${ind.id}')">
+                            <span>실적 예측 인과관계 & 10대 기업 비교표 보기</span>
+                            <i data-lucide="chevron-right"></i>
+                        </button>
+                    </div>
                 </div>
             `;
-        }
+        });
 
         html += `
+                </div>
             </div>
         `;
 
@@ -348,7 +367,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.closeIndustryDetail = function() {
         window.location.hash = '';
-        renderEconomicDashboard();
+        currentCategory = '기업/산업';
+        sessionStorage.setItem('active_category', '기업/산업');
+        if (tabsNav) {
+            tabsNav.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.category === '기업/산업');
+            });
+        }
+        renderSubTabs();
+        renderIndustryHub();
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
@@ -593,7 +620,17 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('hashchange', () => {
         if (window.location.hash.startsWith('#industry-')) {
             const id = window.location.hash.replace('#industry-', '');
+            currentCategory = '기업/산업';
+            sessionStorage.setItem('active_category', '기업/산업');
+            if (tabsNav) {
+                tabsNav.querySelectorAll('.tab-btn').forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.category === '기업/산업');
+                });
+            }
+            renderSubTabs();
             renderIndustryDetailView(id);
+        } else if (currentCategory === '기업/산업') {
+            renderIndustryHub();
         } else if (currentCategory === '증시/지표') {
             renderEconomicDashboard();
         }

@@ -733,9 +733,8 @@ body {
 
 /* Industry Indicators Hub Styles */
 .industry-hub-container {
-    margin-top: 48px;
-    padding-top: 32px;
-    border-top: 2px dashed rgba(0, 0, 0, 0.08);
+    margin-top: 0;
+    padding-top: 0;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
