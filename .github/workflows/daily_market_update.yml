@@ -1,0 +1,36 @@
+name: Daily Market Data Update (Option A)
+
+on:
+  schedule:
+    # 08:30 UTC = 17:30 KST (Mon-Fri after Korean stock market close)
+    - cron: '30 8 * * 1-5'
+  workflow_dispatch: # Allow manual trigger anytime
+
+jobs:
+  update-market:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Daily Market Updater
+        run: node update_market_data.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add industry_data.js
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: automated daily market close data update"
+          git pull --rebase origin main
+          git push origin main
