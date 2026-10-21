@@ -210804,10 +210804,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "us-bigtech",
     "country": "미국",
     "sector": "빅테크 & 생성형 AI 소프트웨어",
-    "chapterTitle": "미국 ➔ 빅테크·AI소프트웨어",
-    "cluster": "빅테크·AI소프트웨어",
+    "chapterTitle": "미국 ➔ 빅테크·AI",
+    "cluster": "빅테크·AI",
     "stockCount": 10,
-    "changeRate": "1.37",
+    "changeRate": "-0.31",
     "correlationLogic": {
       "formula": "클라우드 ARR 성장률 × AI 소프트웨어 탑재율 - 인프라 CAPEX = FCF 극대화",
       "details": [
@@ -211570,10 +211570,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "us-semicon",
     "country": "미국",
     "sector": "반도체 & AI 가속기 하드웨어",
-    "chapterTitle": "미국 ➔ 반도체·AI하드웨어",
-    "cluster": "반도체·AI하드웨어",
+    "chapterTitle": "미국 ➔ 반도체·하드웨어",
+    "cluster": "반도체·하드웨어",
     "stockCount": 11,
-    "changeRate": "0.10",
+    "changeRate": "0.09",
     "correlationLogic": {
       "formula": "AI 가속기 출하량(Q) × 고부가 패키징 ASP(P) - 파운드리 원가 = 기록적 영업이익",
       "details": [
@@ -212407,10 +212407,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "us-bio",
     "country": "미국",
     "sector": "혁신 바이오 & 글로벌 헬스케어",
-    "chapterTitle": "미국 ➔ 바이오·제약·헬스케어",
-    "cluster": "바이오·제약·헬스케어",
+    "chapterTitle": "미국 ➔ 바이오·제약",
+    "cluster": "바이오·제약",
     "stockCount": 8,
-    "changeRate": "1.01",
+    "changeRate": "0.72",
     "correlationLogic": {
       "formula": "GLP-1 처방 환자수(Q) × 보험 급여 등재 단가(P) = 영업이익 폭발",
       "details": [
@@ -213031,10 +213031,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "us-finance",
     "country": "미국",
     "sector": "글로벌 금융 & 결제 인프라",
-    "chapterTitle": "미국 ➔ 금융·투자·결제네트워크",
-    "cluster": "금융·투자·결제네트워크",
+    "chapterTitle": "미국 ➔ 금융·결제",
+    "cluster": "금융·결제",
     "stockCount": 8,
-    "changeRate": "-0.76",
+    "changeRate": "0.06",
     "correlationLogic": {
       "formula": "대출잔액 × NIM + 글로벌 결제 거래액(TPV) 수수료 = 고수익 ROE",
       "details": [
@@ -213655,10 +213655,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "us-mobility",
     "country": "미국",
     "sector": "전기차 & 모빌리티 & 항공우주",
-    "chapterTitle": "미국 ➔ 전기차·자동차·항공우주",
-    "cluster": "전기차·자동차·항공우주",
+    "chapterTitle": "미국 ➔ 전기차·모빌리티",
+    "cluster": "전기차·모빌리티",
     "stockCount": 8,
-    "changeRate": "-0.23",
+    "changeRate": "-0.47",
     "correlationLogic": {
       "formula": "차량 및 항공기 인도대수(Q) × 고부가 ASP + 자율주행 SW 마진",
       "details": [
@@ -214279,10 +214279,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "us-consumer",
     "country": "미국",
     "sector": "글로벌 소비재 & 리테일",
-    "chapterTitle": "미국 ➔ 소비재·유통·이커머스",
-    "cluster": "소비재·유통·이커머스",
+    "chapterTitle": "미국 ➔ 소비재·유통",
+    "cluster": "소비재·유통",
     "stockCount": 8,
-    "changeRate": "-0.70",
+    "changeRate": "0.90",
     "correlationLogic": {
       "formula": "동일매장 매출성장률(SSSG) + 멤버십 수수료 - 물류/인건비 = 안정적 마진",
       "details": [
@@ -214903,10 +214903,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "us-energy",
     "country": "미국",
     "sector": "에너지 거인 & 핵심 원자재",
-    "chapterTitle": "미국 ➔ 에너지·인프라·소재",
-    "cluster": "에너지·인프라·소재",
+    "chapterTitle": "미국 ➔ 에너지·원자재",
+    "cluster": "에너지·원자재",
     "stockCount": 6,
-    "changeRate": "-0.07",
+    "changeRate": "-0.15",
     "correlationLogic": {
       "formula": "배럴당 WTI 유가 × 일일 생산량(Q) - 리프팅 코스트 = 잉여현금흐름",
       "details": [
@@ -215385,10 +215385,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "us-media",
     "country": "미국",
     "sector": "미디어 플랫폼 & 차세대 통신",
-    "chapterTitle": "미국 ➔ 미디어·통신·엔터테인먼트",
-    "cluster": "미디어·통신·엔터테인먼트",
+    "chapterTitle": "미국 ➔ 미디어·엔터",
+    "cluster": "미디어·엔터",
     "stockCount": 7,
-    "changeRate": "1.42",
+    "changeRate": "1.13",
     "correlationLogic": {
       "formula": "스트리밍 유료 가입자수(Q) × 광고 단가(P) - 제작비 = 잉여현금흐름 폭발",
       "details": [
@@ -215940,10 +215940,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "eu-luxury",
     "country": "유럽",
     "sector": "글로벌 명품 럭셔리 & 프리미엄 소비재",
-    "chapterTitle": "유럽 ➔ 럭셔리·패션·글로벌소비재",
-    "cluster": "럭셔리·패션·글로벌소비재",
+    "chapterTitle": "유럽 ➔ 명품·소비재",
+    "cluster": "명품·소비재",
     "stockCount": 7,
-    "changeRate": "-0.36",
+    "changeRate": "-0.44",
     "correlationLogic": {
       "formula": "하이엔드 판가 인상(P) × VIP 고객 재구매(Q) = 영업이익률 30%대 유지",
       "details": [
@@ -216493,10 +216493,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "eu-tech",
     "country": "유럽",
     "sector": "첨단 반도체 장비 & 산업 엔터프라이즈 SW",
-    "chapterTitle": "유럽 ➔ 반도체·산업자동화·SW",
-    "cluster": "반도체·산업자동화·SW",
+    "chapterTitle": "유럽 ➔ 반도체·SW",
+    "cluster": "반도체·SW",
     "stockCount": 6,
-    "changeRate": "0.55",
+    "changeRate": "0.00",
     "correlationLogic": {
       "formula": "High-NA EUV 장비 인도 대수 × 대당 단가(€3.5억) = 영업이익 레버리지",
       "details": [
@@ -216975,10 +216975,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "eu-pharma",
     "country": "유럽",
     "sector": "글로벌 메가 파마 & 혁신 바이오",
-    "chapterTitle": "유럽 ➔ 바이오·헬스케어·혁신신약",
-    "cluster": "바이오·헬스케어·혁신신약",
+    "chapterTitle": "유럽 ➔ 바이오·제약",
+    "cluster": "바이오·제약",
     "stockCount": 6,
-    "changeRate": "0.68",
+    "changeRate": "-0.36",
     "correlationLogic": {
       "formula": "세마글루타이드 생산량 증설 × 글로벌 시장 침투 = 사상 최대 마진",
       "details": [
@@ -217457,10 +217457,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "eu-auto",
     "country": "유럽",
     "sector": "프리미엄 완성차 & 미래 모빌리티",
-    "chapterTitle": "유럽 ➔ 프리미엄모빌리티·완성차",
-    "cluster": "프리미엄모빌리티·완성차",
+    "chapterTitle": "유럽 ➔ 자동차·모빌리티",
+    "cluster": "자동차·모빌리티",
     "stockCount": 5,
-    "changeRate": "-0.56",
+    "changeRate": "1.30",
     "correlationLogic": {
       "formula": "프리미엄 SUV 믹스(P) - 전기차 전환 투자비용(C) = OPM 8~10% 방어",
       "details": [
@@ -217868,10 +217868,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "eu-energy",
     "country": "유럽",
     "sector": "전통 에너지 & 친환경 재생에너지",
-    "chapterTitle": "유럽 ➔ 친환경에너지·소재·화학",
-    "cluster": "친환경에너지·소재·화학",
+    "chapterTitle": "유럽 ➔ 에너지·친환경",
+    "cluster": "에너지·친환경",
     "stockCount": 5,
-    "changeRate": "1.38",
+    "changeRate": "0.58",
     "correlationLogic": {
       "formula": "배럴당 유가(P) + 재생에너지 전력 판매 단가 - 탄소배출권 비용 = 안정 마진",
       "details": [
@@ -218279,10 +218279,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "eu-finance",
     "country": "유럽",
     "sector": "글로벌 금융 지주 & 메가 보험사",
-    "chapterTitle": "유럽 ➔ 글로벌금융·보험·자산운용",
-    "cluster": "글로벌금융·보험·자산운용",
+    "chapterTitle": "유럽 ➔ 금융·보험",
+    "cluster": "금융·보험",
     "stockCount": 5,
-    "changeRate": "-0.64",
+    "changeRate": "-0.33",
     "correlationLogic": {
       "formula": "NIM 스프레드 + 글로벌 자산관리 수수료 = 사상 최대 순이익",
       "details": [
@@ -218690,10 +218690,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "eu-aerospace",
     "country": "유럽",
     "sector": "항공우주 & 유럽 핵심 방산",
-    "chapterTitle": "유럽 ➔ 항공·방산·정밀기계",
-    "cluster": "항공·방산·정밀기계",
+    "chapterTitle": "유럽 ➔ 방산·항공",
+    "cluster": "방산·항공",
     "stockCount": 4,
-    "changeRate": "1.29",
+    "changeRate": "0.62",
     "correlationLogic": {
       "formula": "민항기 수주 잔고(A321neo) + 유럽 탄약/기갑 긴급 조달 = 고수익",
       "details": [
@@ -219030,10 +219030,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "eu-materials",
     "country": "유럽",
     "sector": "정밀 화학 & 특수 소재 & 글로벌 광물",
-    "chapterTitle": "유럽 ➔ 친환경에너지·소재·화학",
-    "cluster": "친환경에너지·소재·화학",
+    "chapterTitle": "유럽 ➔ 화학·소재",
+    "cluster": "화학·소재",
     "stockCount": 4,
-    "changeRate": "0.42",
+    "changeRate": "0.80",
     "correlationLogic": {
       "formula": "특수 화학 ASP(P) - 유럽 전력/천연가스 단가(C) = 마진 턴어라운드",
       "details": [
@@ -219372,10 +219372,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "jp-auto",
     "country": "일본",
     "sector": "글로벌 완성차 & 전장 모빌리티",
-    "chapterTitle": "일본 ➔ 글로벌모빌리티·완성차",
-    "cluster": "글로벌모빌리티·완성차",
+    "chapterTitle": "일본 ➔ 자동차·전장",
+    "cluster": "자동차·전장",
     "stockCount": 5,
-    "changeRate": "0.88",
+    "changeRate": "1.26",
     "correlationLogic": {
       "formula": "하이브리드 판매량(Q) × 엔화 환율(150엔/$) - 원자재가 = 영업이익 5조엔 돌파",
       "details": [
@@ -219783,10 +219783,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "jp-semicon",
     "country": "일본",
     "sector": "반도체 소부장 & 정밀전자",
-    "chapterTitle": "일본 ➔ 반도체소부장·정밀전자",
-    "cluster": "반도체소부장·정밀전자",
+    "chapterTitle": "일본 ➔ 반도체·소부장",
+    "cluster": "반도체·소부장",
     "stockCount": 5,
-    "changeRate": "-0.70",
+    "changeRate": "0.66",
     "correlationLogic": {
       "formula": "AI 메모리용 웨이퍼 테스트 및 식각 장비 수주액 × OPM = 이익 서프라이즈",
       "details": [
@@ -220194,10 +220194,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "jp-trading-bank",
     "country": "일본",
     "sector": "3대 메가뱅크 & 종합상사",
-    "chapterTitle": "일본 ➔ 종합상사·금융지주",
-    "cluster": "종합상사·금융지주",
+    "chapterTitle": "일본 ➔ 상사·금융",
+    "cluster": "상사·금융",
     "stockCount": 5,
-    "changeRate": "-0.78",
+    "changeRate": "0.43",
     "correlationLogic": {
       "formula": "대출 금리 인상에 따른 NIM 확대 + 천연자원/인프라 배당 수익 = ROE 대폭 개선",
       "details": [
@@ -220605,10 +220605,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "jp-robot",
     "country": "일본",
     "sector": "글로벌 로봇 & 정밀 기계자동화",
-    "chapterTitle": "일본 ➔ 로봇·산업자동화·중공업",
-    "cluster": "로봇·산업자동화·중공업",
+    "chapterTitle": "일본 ➔ 로봇·자동화",
+    "cluster": "로봇·자동화",
     "stockCount": 4,
-    "changeRate": "0.69",
+    "changeRate": "-0.70",
     "correlationLogic": {
       "formula": "산업용 로봇 수주 잔고(Q) × 고정밀 서보모터 판가 = 고수익 OPM",
       "details": [
@@ -220945,10 +220945,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "jp-pharma",
     "country": "일본",
     "sector": "글로벌 제약 & 바이오 헬스케어",
-    "chapterTitle": "일본 ➔ 제약·바이오·의료기기",
-    "cluster": "제약·바이오·의료기기",
+    "chapterTitle": "일본 ➔ 바이오·제약",
+    "cluster": "바이오·제약",
     "stockCount": 4,
-    "changeRate": "-0.40",
+    "changeRate": "1.45",
     "correlationLogic": {
       "formula": "ADC 항암제 글로벌 처방액 × 로열티 수수료 = 고수익 OPM 실현",
       "details": [
@@ -221285,10 +221285,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "jp-consumer",
     "country": "일본",
     "sector": "글로벌 소비재 & 게임 엔터테인먼트",
-    "chapterTitle": "일본 ➔ 글로벌소비재·게임·엔터",
-    "cluster": "글로벌소비재·게임·엔터",
+    "chapterTitle": "일본 ➔ 소비재·게임",
+    "cluster": "소비재·게임",
     "stockCount": 4,
-    "changeRate": "-0.54",
+    "changeRate": "1.63",
     "correlationLogic": {
       "formula": "글로벌 매장 출점(Q) + 슈퍼 IP 라이선싱 = 사상 최대 해외 매출",
       "details": [
@@ -221625,10 +221625,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "jp-materials",
     "country": "일본",
     "sector": "정밀 화학 & 그린 첨단소재",
-    "chapterTitle": "일본 ➔ 소재·화학·철강",
-    "cluster": "소재·화학·철강",
+    "chapterTitle": "일본 ➔ 화학·소재",
+    "cluster": "화학·소재",
     "stockCount": 3,
-    "changeRate": "1.07",
+    "changeRate": "-0.55",
     "correlationLogic": {
       "formula": "선단 공정용 극자외선(EUV) 감광액 수주 + 초고순도 화학원료 마진",
       "details": [
@@ -221894,10 +221894,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "jp-steel",
     "country": "일본",
     "sector": "철강 & 인프라 엔지니어링",
-    "chapterTitle": "일본 ➔ 소재·화학·철강",
-    "cluster": "소재·화학·철강",
+    "chapterTitle": "일본 ➔ 철강·중공업",
+    "cluster": "철강·중공업",
     "stockCount": 3,
-    "changeRate": "1.60",
+    "changeRate": "0.24",
     "correlationLogic": {
       "formula": "특수 고장력 강판 ASP - 철광석/원료탄 원가 = 톤당 스프레드 마진",
       "details": [
@@ -222165,10 +222165,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "cn-tech",
     "country": "중국",
     "sector": "플랫폼 빅테크 & 생성형 AI",
-    "chapterTitle": "중국 ➔ 플랫폼·빅테크·AI",
-    "cluster": "플랫폼·빅테크·AI",
+    "chapterTitle": "중국 ➔ 빅테크·AI",
+    "cluster": "빅테크·AI",
     "stockCount": 6,
-    "changeRate": "0.66",
+    "changeRate": "0.17",
     "correlationLogic": {
       "formula": "클라우드/게임 MAU × 광고 추천 정밀도 - 마케팅비 = 영업이익률 30%대",
       "details": [
@@ -222647,10 +222647,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "cn-ev-battery",
     "country": "중국",
     "sector": "2차전지 & 글로벌 전기차 EV",
-    "chapterTitle": "중국 ➔ 2차전지·전기차·클린테크",
-    "cluster": "2차전지·전기차·클린테크",
+    "chapterTitle": "중국 ➔ 전기차·배터리",
+    "cluster": "전기차·배터리",
     "stockCount": 4,
-    "changeRate": "-0.65",
+    "changeRate": "0.88",
     "correlationLogic": {
       "formula": "LFP 배터리 출하량(GWh) × 원가 우위 - 원자재 리튬 가격 = 높은 영업이익률",
       "details": [
@@ -222987,10 +222987,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "cn-cleantech",
     "country": "중국",
     "sector": "글로벌 클린에너지 & 태양광",
-    "chapterTitle": "중국 ➔ 2차전지·전기차·클린테크",
-    "cluster": "2차전지·전기차·클린테크",
+    "chapterTitle": "중국 ➔ 태양광·친환경",
+    "cluster": "태양광·친환경",
     "stockCount": 3,
-    "changeRate": "1.01",
+    "changeRate": "-0.67",
     "correlationLogic": {
       "formula": "태양광 모듈 글로벌 출하량 × 단가 스프레드 - 폴리실리콘 원가 = 마진 방어",
       "details": [
@@ -223256,10 +223256,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "cn-hardware",
     "country": "중국",
     "sector": "반도체 국산화 & 첨단 하드웨어",
-    "chapterTitle": "중국 ➔ 반도체·하드웨어·통신",
-    "cluster": "반도체·하드웨어·통신",
+    "chapterTitle": "중국 ➔ 반도체·IT",
+    "cluster": "반도체·IT",
     "stockCount": 4,
-    "changeRate": "0.34",
+    "changeRate": "-0.50",
     "correlationLogic": {
       "formula": "국산화 파운드리/장비 발주액 × 정부 보조금 = 고속 매출 성장",
       "details": [
@@ -223596,10 +223596,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "cn-finance",
     "country": "중국",
     "sector": "국유 4대 은행 & 메가 금융지주",
-    "chapterTitle": "중국 ➔ 국유대형은행·금융지주",
-    "cluster": "국유대형은행·금융지주",
+    "chapterTitle": "중국 ➔ 은행·금융",
+    "cluster": "은행·금융",
     "stockCount": 4,
-    "changeRate": "0.74",
+    "changeRate": "1.22",
     "correlationLogic": {
       "formula": "대출 자산 성장률 × 안정적 예대마진 + 특별 국채 자본확충 = 안정적 이익",
       "details": [
@@ -223936,10 +223936,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "cn-consumer",
     "country": "중국",
     "sector": "프리미엄 백주 & 가전 & 글로벌 소비재",
-    "chapterTitle": "중국 ➔ 프리미엄소비재·식음료",
-    "cluster": "프리미엄소비재·식음료",
+    "chapterTitle": "중국 ➔ 소비재·가전",
+    "cluster": "소비재·가전",
     "stockCount": 5,
-    "changeRate": "0.21",
+    "changeRate": "0.69",
     "correlationLogic": {
       "formula": "비천모태 출고가 × 유통 판매량 = 영업이익률 65%의 현금창출",
       "details": [
@@ -224347,10 +224347,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "cn-energy",
     "country": "중국",
     "sector": "국가기간 에너지 & 자원 & 화학",
-    "chapterTitle": "중국 ➔ 국가기간에너지·소재·철강",
-    "cluster": "국가기간에너지·소재·철강",
+    "chapterTitle": "중국 ➔ 에너지·자원",
+    "cluster": "에너지·자원",
     "stockCount": 3,
-    "changeRate": "-0.42",
+    "changeRate": "0.97",
     "correlationLogic": {
       "formula": "천연가스/석탄 생산량 × 국가 고시 가격 + 정제마진 = 안정적 현금 창출",
       "details": [
@@ -224616,10 +224616,10 @@ window.REGIONAL_INDUSTRY_DATA = {
     "id": "cn-biopharma",
     "country": "중국",
     "sector": "혁신 바이오 & 의료 인프라",
-    "chapterTitle": "중국 ➔ 바이오·혁신신약·의료",
-    "cluster": "바이오·혁신신약·의료",
+    "chapterTitle": "중국 ➔ 바이오·의료",
+    "cluster": "바이오·의료",
     "stockCount": 3,
-    "changeRate": "1.02",
+    "changeRate": "-0.62",
     "correlationLogic": {
       "formula": "해외 빅파마 기술수출 마일스톤 + 의료기기 국산화 점유율 = 흑자 전환",
       "details": [
