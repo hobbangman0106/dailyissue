@@ -110,9 +110,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 sessionStorage.setItem('active_category', currentCategory);
                 sessionStorage.setItem('active_subcategory', currentSubCategory);
                 
-                // Reset scroll position to top on category shift
-                window.scrollTo({ top: 0, behavior: 'instant' });
-                
                 renderSubTabs();
                 renderPosts();
             });
@@ -143,8 +140,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 currentSubCategory = btn.dataset.subcategory;
                 sessionStorage.setItem('active_subcategory', currentSubCategory);
                 
-                // Reset scroll position to top on subcategory shift
-                window.scrollTo({ top: 0, behavior: 'instant' });
+                if (window.location.hash.startsWith('#industry-')) {
+                    history.replaceState(null, null, window.location.pathname);
+                }
                 
                 renderPosts();
             });
@@ -302,7 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.showIndustryDetail = function(industryId) {
         window.location.hash = 'industry-' + industryId;
-        renderIndustryDetailView(industryId);
+        renderIndustryDetailView(industryId, true);
     };
 
     window.closeIndustryDetail = function() {
@@ -323,10 +321,10 @@ document.addEventListener('DOMContentLoaded', () => {
     window.setCompanyFilter = function(filterName) {
         window.currentCompanyFilter = filterName;
         const currentIndId = window.location.hash.replace('#industry-', '');
-        renderIndustryDetailView(currentIndId);
+        renderIndustryDetailView(currentIndId, false);
     };
 
-    function renderIndustryDetailView(industryId) {
+    function renderIndustryDetailView(industryId, shouldScroll = false) {
         if (!postsList) return;
         const ind = (window.INDUSTRY_DATA || []).find(x => x.id === industryId) || (window.INDUSTRY_DATA && window.INDUSTRY_DATA[0]);
         if (!ind) {
@@ -558,10 +556,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const divClass = c.dividendYield >= 4.0 ? 'val-high-div' : '';
 
             html += `
-                <tr>
+                <tr class="comp-row-clickable" onclick="window.openCompanyModal('${c.code}', '${ind.id}')" title="클릭하여 ${c.name} 5개년 재무제표 및 동종업계 비교 분석 보기">
                     <td class="td-sticky">
                         <div class="comp-name-box">
-                            <span class="comp-name">${c.name}</span>
+                            <div class="comp-name-row">
+                                <span class="comp-name">${c.name}</span>
+                                <span class="comp-click-hint-pill">심층분석 ➔</span>
+                            </div>
                             <span class="comp-code">${c.code}</span>
                         </div>
                     </td>
@@ -601,7 +602,364 @@ document.addEventListener('DOMContentLoaded', () => {
 
         postsList.innerHTML = html;
         if (window.lucide) window.lucide.createIcons();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        if (shouldScroll) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    }
+
+    /* ========================================================
+     * 4. Company In-depth Analysis Modal (Overview, 5Y Financials, Peer)
+     * ======================================================== */
+    window.activeModalTab = 'overview';
+    window.currentModalCompany = null;
+    window.currentModalIndustry = null;
+
+    function getOrCreateModalContainer() {
+        let overlay = document.getElementById('company-modal-overlay');
+        if (!overlay) {
+            overlay = document.createElement('div');
+            overlay.id = 'company-modal-overlay';
+            overlay.className = 'company-modal-overlay';
+            overlay.innerHTML = `<div class="company-modal-container" id="company-modal-container" onclick="event.stopPropagation()"></div>`;
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) {
+                    window.closeCompanyModal();
+                }
+            });
+            document.body.appendChild(overlay);
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && overlay.classList.contains('active')) {
+                    window.closeCompanyModal();
+                }
+            });
+        }
+        return overlay;
+    }
+
+    window.openCompanyModal = function(companyCode, industryId) {
+        const ind = (window.INDUSTRY_DATA || []).find(x => x.id === industryId);
+        if (!ind) return;
+        const comp = (ind.companies || []).find(c => c.code === companyCode);
+        if (!comp) return;
+
+        window.currentModalCompany = comp;
+        window.currentModalIndustry = ind;
+        window.activeModalTab = 'overview';
+
+        const overlay = getOrCreateModalContainer();
+        renderCompanyModalContent();
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    };
+
+    window.closeCompanyModal = function() {
+        const overlay = document.getElementById('company-modal-overlay');
+        if (overlay) {
+            overlay.classList.remove('active');
+        }
+        document.body.style.overflow = '';
+    };
+
+    window.switchModalTab = function(tabName) {
+        window.activeModalTab = tabName;
+        renderCompanyModalContent();
+    };
+
+    function parseMcapValue(str) {
+        if (!str) return 0;
+        let total = 0;
+        const joMatch = str.match(/([\d,.]+)\s*조/);
+        const eokMatch = str.match(/([\d,.]+)\s*억/);
+        if (joMatch) total += parseFloat(joMatch[1].replace(/,/g, '')) * 10000;
+        if (eokMatch) total += parseFloat(eokMatch[1].replace(/,/g, ''));
+        if (!joMatch && !eokMatch) total = parseFloat(str.replace(/[^0-9.]/g, '')) || 0;
+        return total;
+    }
+
+    function calculatePeerRank(companies, currentCode, getter, descending = true) {
+        const sorted = [...companies].sort((a, b) => {
+            const valA = getter(a);
+            const valB = getter(b);
+            return descending ? (valB - valA) : (valA - valB);
+        });
+        const idx = sorted.findIndex(c => c.code === currentCode);
+        return idx >= 0 ? (idx + 1) : '-';
+    }
+
+    function renderCompanyModalContent() {
+        const container = document.getElementById('company-modal-container');
+        if (!container) return;
+
+        const comp = window.currentModalCompany;
+        const ind = window.currentModalIndustry;
+        if (!comp || !ind) return;
+
+        const riskBadge = comp.riskStatus === 'SAFE' 
+            ? '<span class="risk-pill safe">🟢 재무 안전</span>'
+            : comp.riskStatus === 'NORMAL'
+            ? '<span class="risk-pill normal">🟡 재무 보통</span>'
+            : '<span class="risk-pill warning">🔴 리스크 주의</span>';
+
+        // Header
+        let html = `
+            <div class="company-modal-header">
+                <div class="company-modal-title-box">
+                    <div class="company-modal-title-row">
+                        <h2 class="modal-comp-name">${comp.name}</h2>
+                        <span class="modal-comp-code">${comp.code}</span>
+                        ${riskBadge}
+                    </div>
+                    <div class="company-modal-meta-row">
+                        <span class="modal-meta-pill"><i data-lucide="tag"></i> ${ind.chapterTitle} ➔ ${ind.sector}</span>
+                        <span class="modal-meta-pill"><i data-lucide="coins"></i> 시가총액: ${comp.marketCap}</span>
+                        <span class="modal-meta-pill"><i data-lucide="bar-chart-2"></i> 연간매출: ${comp.revenue}</span>
+                    </div>
+                </div>
+                <button class="modal-close-btn" onclick="window.closeCompanyModal()" title="창 닫기 (Esc)">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+
+            <!-- Modal Nav Tabs -->
+            <div class="company-modal-nav-tabs">
+                <button class="modal-tab-btn ${window.activeModalTab === 'overview' ? 'active' : ''}" onclick="window.switchModalTab('overview')">
+                    <i data-lucide="info"></i>
+                    <span>기업 개요 & 핵심 지표</span>
+                </button>
+                <button class="modal-tab-btn ${window.activeModalTab === 'financials' ? 'active' : ''}" onclick="window.switchModalTab('financials')">
+                    <i data-lucide="table"></i>
+                    <span>5개년 재무제표 (2021~2025E)</span>
+                </button>
+                <button class="modal-tab-btn ${window.activeModalTab === 'peer' ? 'active' : ''}" onclick="window.switchModalTab('peer')">
+                    <i data-lucide="users"></i>
+                    <span>동종 업계 피어 비교 & 랭킹</span>
+                </button>
+            </div>
+
+            <div class="company-modal-body">
+        `;
+
+        if (window.activeModalTab === 'overview') {
+            html += `
+                <div class="modal-summary-box">
+                    <div class="modal-section-title">
+                        <i data-lucide="briefcase"></i>
+                        <span>사업 개요 및 핵심 사업 영역</span>
+                    </div>
+                    <p class="modal-summary-text">${comp.businessSummary || comp.comment}</p>
+                </div>
+
+                <div class="modal-section-title">
+                    <i data-lucide="activity"></i>
+                    <span>주요 재무 및 밸류에이션 지표 요약</span>
+                </div>
+                <div class="modal-kpi-grid">
+                    <div class="modal-kpi-card">
+                        <div class="kpi-label">시가총액</div>
+                        <div class="kpi-val">${comp.marketCap}</div>
+                        <div class="kpi-sub">업계 ${ind.sector}</div>
+                    </div>
+                    <div class="modal-kpi-card">
+                        <div class="kpi-label">연간 매출액</div>
+                        <div class="kpi-val">${comp.revenue}</div>
+                        <div class="kpi-sub">영업이익 ${comp.operatingProfit}</div>
+                    </div>
+                    <div class="modal-kpi-card">
+                        <div class="kpi-label">영업이익률 (OPM)</div>
+                        <div class="kpi-val ${comp.opMargin >= 10 ? 'val-high-opm' : comp.opMargin < 0 ? 'val-down' : ''}">${comp.opMargin}%</div>
+                        <div class="kpi-sub">수익성 수준</div>
+                    </div>
+                    <div class="modal-kpi-card">
+                        <div class="kpi-label">PER / PBR</div>
+                        <div class="kpi-val">${comp.per > 0 ? comp.per + '배' : '적자'}</div>
+                        <div class="kpi-sub">PBR ${comp.pbr}배</div>
+                    </div>
+                    <div class="modal-kpi-card">
+                        <div class="kpi-label">자기자본이익률 (ROE)</div>
+                        <div class="kpi-val">${comp.roe}%</div>
+                        <div class="kpi-sub">주주자본 효율성</div>
+                    </div>
+                    <div class="modal-kpi-card">
+                        <div class="kpi-label">주당순이익 (EPS)</div>
+                        <div class="kpi-val">${(comp.eps || 0).toLocaleString()}원</div>
+                        <div class="kpi-sub">주당 가치 창출</div>
+                    </div>
+                    <div class="modal-kpi-card">
+                        <div class="kpi-label">부채비율 / 유동비율</div>
+                        <div class="kpi-val">${comp.debtRatio}%</div>
+                        <div class="kpi-sub">유동비율 ${comp.currentRatio}%</div>
+                    </div>
+                    <div class="modal-kpi-card">
+                        <div class="kpi-label">배당수익률 / 성향</div>
+                        <div class="kpi-val ${comp.dividendYield >= 4.0 ? 'val-high-div' : ''}">${comp.dividendYield}%</div>
+                        <div class="kpi-sub">배당성향 ${comp.payoutRatio}%</div>
+                    </div>
+                </div>
+
+                <div class="modal-section-title">
+                    <i data-lucide="sparkles"></i>
+                    <span>애널리스트 심층 코멘트 & 핵심 투자 포인트</span>
+                </div>
+                <div class="modal-comment-card">
+                    ${comp.comment}
+                </div>
+            `;
+        } else if (window.activeModalTab === 'financials') {
+            const finList = comp.financials5Y || [];
+            html += `
+                <div class="modal-section-title">
+                    <i data-lucide="calendar"></i>
+                    <span>최근 5개년 연결 재무제표 추이 (2021 ~ 2025E)</span>
+                </div>
+                <div class="modal-table-wrapper">
+                    <table class="modal-fin-table">
+                        <thead>
+                            <tr>
+                                <th class="th-left">구분 (연도)</th>
+                                <th>매출액</th>
+                                <th>영업이익</th>
+                                <th>당기순이익</th>
+                                <th>영업이익률(OPM)</th>
+                                <th>EPS</th>
+                                <th>ROE</th>
+                                <th>부채비율</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+
+            finList.forEach(item => {
+                const isEst = item.year.includes('E');
+                const opmNum = parseFloat(item.opMargin) || 0;
+                const opmClass = opmNum >= 10 ? 'val-high-opm' : opmNum < 0 ? 'val-down' : '';
+                html += `
+                    <tr class="${isEst ? 'highlight-year' : ''}">
+                        <td class="td-left"><strong>${item.year}</strong></td>
+                        <td>${item.revenue}</td>
+                        <td class="bold">${item.opProfit}</td>
+                        <td>${item.netProfit}</td>
+                        <td class="bold ${opmClass}">${item.opMargin}</td>
+                        <td>${(item.eps || 0).toLocaleString()}원</td>
+                        <td>${item.roe}</td>
+                        <td>${item.debtRatio}</td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                        </tbody>
+                    </table>
+                </div>
+                <p style="margin-top: 10px; font-size: 0.8rem; color: #64748b; text-align: right;">
+                    * 2025(E) 수치는 최근 애널리스트 및 가이던스 컨센서스 기준 추정치입니다.
+                </p>
+            `;
+        } else if (window.activeModalTab === 'peer') {
+            const peers = ind.companies || [];
+            const totalPeers = peers.length;
+
+            const mcapRank = calculatePeerRank(peers, comp.code, c => parseMcapValue(c.marketCap), true);
+            const opmRank = calculatePeerRank(peers, comp.code, c => parseFloat(c.opMargin) || 0, true);
+            const divRank = calculatePeerRank(peers, comp.code, c => parseFloat(c.dividendYield) || 0, true);
+            const debtRank = calculatePeerRank(peers, comp.code, c => parseFloat(c.debtRatio) || 9999, false);
+
+            html += `
+                <div class="modal-section-title">
+                    <i data-lucide="award"></i>
+                    <span>${ind.sector} 내 ${comp.name} 4대 핵심 포지션 랭킹 (동종 10개사 기준)</span>
+                </div>
+
+                <div class="peer-ranking-grid">
+                    <div class="peer-rank-card">
+                        <div class="rank-title">시가총액 랭킹</div>
+                        <div class="rank-val">${mcapRank}위</div>
+                        <div class="rank-total">/ 총 ${totalPeers}개사</div>
+                    </div>
+                    <div class="peer-rank-card">
+                        <div class="rank-title">영업이익률 (OPM)</div>
+                        <div class="rank-val">${opmRank}위</div>
+                        <div class="rank-total">/ 총 ${totalPeers}개사</div>
+                    </div>
+                    <div class="peer-rank-card">
+                        <div class="rank-title">배당수익률 랭킹</div>
+                        <div class="rank-val">${divRank}위</div>
+                        <div class="rank-total">/ 총 ${totalPeers}개사</div>
+                    </div>
+                    <div class="peer-rank-card">
+                        <div class="rank-title">재무 건전성 (낮은 부채)</div>
+                        <div class="rank-val">${debtRank}위</div>
+                        <div class="rank-total">/ 총 ${totalPeers}개사</div>
+                    </div>
+                </div>
+
+                <div class="modal-section-title">
+                    <i data-lucide="layers"></i>
+                    <span>${ind.sector} 10개 대표사 다차원 벤치마크 (원하는 기업 클릭 시 전환)</span>
+                </div>
+
+                <div class="modal-table-wrapper">
+                    <table class="modal-fin-table">
+                        <thead>
+                            <tr>
+                                <th class="th-left">기업명</th>
+                                <th>시가총액</th>
+                                <th>영업이익률</th>
+                                <th>PER</th>
+                                <th>PBR</th>
+                                <th>EPS</th>
+                                <th>ROE</th>
+                                <th>배당수익률</th>
+                                <th>부채비율</th>
+                                <th>재무상태</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+
+            peers.forEach(peer => {
+                const isCurrent = peer.code === comp.code;
+                const peerRiskBadge = peer.riskStatus === 'SAFE' 
+                    ? '<span class="risk-pill safe">🟢 안전</span>'
+                    : peer.riskStatus === 'NORMAL'
+                    ? '<span class="risk-pill normal">🟡 보통</span>'
+                    : '<span class="risk-pill warning">🔴 주의</span>';
+
+                html += `
+                    <tr class="${isCurrent ? 'highlighted-peer-row' : 'comp-row-clickable'}" 
+                        onclick="window.openCompanyModal('${peer.code}', '${ind.id}')"
+                        style="cursor: pointer;"
+                        title="${isCurrent ? '현재 보고 있는 기업' : peer.name + ' 심층 분석으로 전환'}">
+                        <td class="td-left">
+                            <span class="comp-name">${peer.name}</span>
+                            ${isCurrent ? '<span style="font-size:0.75rem; color:#4f46e5; margin-left:4px;">(선택됨)</span>' : ''}
+                        </td>
+                        <td>${peer.marketCap}</td>
+                        <td class="bold ${peer.opMargin >= 10 ? 'val-high-opm' : peer.opMargin < 0 ? 'val-down' : ''}">${peer.opMargin}%</td>
+                        <td>${peer.per > 0 ? peer.per + '배' : '적자'}</td>
+                        <td>${peer.pbr}배</td>
+                        <td>${(peer.eps || 0).toLocaleString()}원</td>
+                        <td>${peer.roe}%</td>
+                        <td class="bold ${peer.dividendYield >= 4.0 ? 'val-high-div' : ''}">${peer.dividendYield}%</td>
+                        <td>${peer.debtRatio}%</td>
+                        <td>${peerRiskBadge}</td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                        </tbody>
+                    </table>
+                </div>
+            `;
+        }
+
+        html += `
+            </div>
+        `;
+
+        container.innerHTML = html;
+        if (window.lucide) window.lucide.createIcons();
     }
 
     // Check hash on load or hashchange
