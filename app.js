@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const signal = ind.correlationLogic ? ind.correlationLogic.outlookSignal : null;
             const signalBadge = signal ? `<div class="ind-card-signal-badge ${signal.level}">${signal.badgeText}</div>` : '';
             const demand = ind.demandAnalysis;
-            const demandBadge = demand ? `<span class="ind-card-demand-tag ${demand.status.toLowerCase()}">${demand.statusBadge}</span>` : '';
+            const demandBadge = (demand && (!signal || demand.statusBadge !== signal.badgeText)) ? `<span class="ind-card-demand-tag ${demand.status.toLowerCase()}">${demand.statusBadge}</span>` : '';
             const risk = ind.riskDrivers;
             const riskAlert = risk ? `
                 <div class="ind-card-risk-alert">
@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="ind-detail-nav">
                     <button class="back-btn" onclick="window.closeIndustryDetail()">
                         <i data-lucide="arrow-left" class="nav-icon"></i>
-                        <span>← ${region} 산업 & 기업 분석 목록으로 돌아가기</span>
+                        <span>${region} 산업 & 기업 분석 목록으로 돌아가기</span>
                     </button>
                     <span class="ind-detail-tag">${ind.chapterTitle || (region + ' ➔ ' + ind.cluster)}</span>
                 </div>
@@ -471,7 +471,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                         <div class="ind-header-badges">
                             <span class="ind-outlook-pill ${signal.level}">${signal.badgeText}</span>
-                            <span class="ind-demand-pill ${demand.status ? demand.status.toLowerCase() : 'moderate'}">${demand.statusBadge}</span>
                         </div>
                     </div>
 
@@ -752,7 +751,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="ind-detail-bottom-nav">
                     <button class="back-btn-large" onclick="window.closeIndustryDetail()">
                         <i data-lucide="arrow-left"></i>
-                        <span>← ${region} 산업 & 기업 분석 목록으로 돌아가기</span>
+                        <span>${region} 산업 & 기업 분석 목록으로 돌아가기</span>
                     </button>
                 </div>
             </div>
