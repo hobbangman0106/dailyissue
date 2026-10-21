@@ -349,12 +349,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.filterCompanyTableRows = function(query) {
         const q = (query || '').toLowerCase().trim();
+        // Filter desktop table rows
         const rows = document.querySelectorAll('.comp-table tbody tr');
         rows.forEach(r => {
             const text = r.textContent.toLowerCase();
             r.style.display = text.includes(q) ? '' : 'none';
         });
+        // Filter mobile stock cards
+        const cards = document.querySelectorAll('.comp-mobile-card');
+        cards.forEach(c => {
+            const text = c.textContent.toLowerCase();
+            c.style.display = text.includes(q) ? '' : 'none';
+        });
     };
+
+    function getShortAnalystPoint(comment) {
+        if (!comment) return '';
+        const clean = comment.replace(/<[^>]+>/g, '').trim();
+        const lines = clean.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+        const targetLine = lines.find(l => l.includes('목표주가') || l.includes('목표가'));
+        const pointLine = lines.find(l => l !== targetLine && (l.includes('실적 전망') || l.includes('투자 포인트') || l.includes('핵심') || l.includes('수혜') || l.includes('성장') || l.includes('점유율')) && !l.includes('주요 증권사'));
+        
+        let parts = [];
+        if (targetLine) parts.push(targetLine.replace(/^[•\-\*\s]+/, ''));
+        if (pointLine) parts.push(pointLine.replace(/^[•\-\*\s]+/, ''));
+        
+        if (parts.length > 0) return parts.join(' | ');
+        const nonHeader = lines.filter(l => !l.startsWith('[') && !l.endsWith(']'));
+        return (nonHeader[0] || clean).replace(/^[•\-\*\s]+/, '').substring(0, 100);
+    }
 
     function parseMcapValue(str) {
         if (!str) return 0;
@@ -611,6 +634,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const allCompanies = ind.companies || [];
         const totalCompaniesInInd = allCompanies.length;
+        let mobileCardsHtml = '';
 
         allCompanies.forEach(c => {
             const riskBadge = c.riskStatus === 'SAFE' 
@@ -626,6 +650,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const peerValRank = calculatePeerRank(allCompanies, c.code, compItem => calculateValuationScore(compItem), true);
             const peerValBadge = getValuationBadge(peerValRank, totalCompaniesInInd);
+            const shortComment = getShortAnalystPoint(c.comment);
+            const cleanCommentAttr = (c.comment || '').replace(/"/g, '&quot;');
 
             html += `
                 <tr class="comp-row-clickable" onclick="window.openCompanyModal('${c.code}', '${ind.id}')" title="클릭하여 ${c.name} 5개년 재무제표 및 동종업계 비교 분석 보기">
@@ -658,14 +684,67 @@ document.addEventListener('DOMContentLoaded', () => {
                     <td class="td-center ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-hide-mobile' : ''}">${riskBadge}</td>
                     <td class="td-num bold ${divClass} ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'risk' ? 'col-hide-mobile' : ''}">${c.dividendYield}%</td>
                     <td class="td-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'risk' ? 'col-hide-mobile' : ''}">${c.payoutRatio}%</td>
-                    <td class="td-comment">${c.comment}</td>
+                    <td class="td-comment"><div class="td-comment-clamp" title="${cleanCommentAttr}">${shortComment}</div></td>
                 </tr>
+            `;
+
+            mobileCardsHtml += `
+                <div class="comp-mobile-card" onclick="window.openCompanyModal('${c.code}', '${ind.id}')" data-code="${c.code}" data-name="${c.name}">
+                    <div class="m-card-header">
+                        <div class="m-card-title-group">
+                            <span class="m-card-name">${c.name}</span>
+                            <span class="m-card-code">${c.code} ${c.exchange ? '· ' + c.exchange : ''}</span>
+                        </div>
+                        <div class="m-card-badges">
+                            <span class="val-badge ${peerValBadge.cssClass}">${peerValBadge.badgeText} (${peerValRank}위)</span>
+                            ${riskBadge}
+                        </div>
+                    </div>
+                    <div class="m-card-grid">
+                        <div class="m-card-item">
+                            <span class="m-item-label">시가총액</span>
+                            <span class="m-item-val comp-mcap">${c.marketCap}</span>
+                        </div>
+                        <div class="m-card-item">
+                            <span class="m-item-label">연간 매출액</span>
+                            <span class="m-item-val">${c.revenue}</span>
+                        </div>
+                        <div class="m-card-item">
+                            <span class="m-item-label">영업이익 (OPM)</span>
+                            <span class="m-item-val ${opmClass}">${c.operatingProfit} (${c.opMargin}%)</span>
+                        </div>
+                        <div class="m-card-item">
+                            <span class="m-item-label">PER / PBR</span>
+                            <span class="m-item-val">${c.per > 0 ? c.per + '배' : '적자'} / ${c.pbr}배</span>
+                        </div>
+                        <div class="m-card-item">
+                            <span class="m-item-label">부채 / 유동비율</span>
+                            <span class="m-item-val">${c.debtRatio}% / ${c.currentRatio}%</span>
+                        </div>
+                        <div class="m-card-item">
+                            <span class="m-item-label">배당수익률</span>
+                            <span class="m-item-val ${divClass}">${c.dividendYield}% (${c.payoutRatio}%)</span>
+                        </div>
+                    </div>
+                    <div class="m-card-comment">
+                        <span class="m-comment-tag">핵심 분석</span>
+                        <span class="m-comment-text">${shortComment}</span>
+                    </div>
+                    <div class="m-card-footer">
+                        <span class="m-card-tap-hint">5개년 재무제표 & 피어 비교 상세 보기 ➔</span>
+                    </div>
+                </div>
             `;
         });
 
         html += `
                             </tbody>
                         </table>
+                    </div>
+
+                    <!-- Mobile Cards List View (Vertical Scroll, 0 Horizontal Scroll) -->
+                    <div class="comp-mobile-cards-list" id="comp-mobile-cards-list">
+                        ${mobileCardsHtml}
                     </div>
                 </div>
 
