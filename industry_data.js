@@ -121,7 +121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "54조 9,595억원",
             "opProfit": "7조 2,547억원",
             "netProfit": "5조 5,136억원",
@@ -193,7 +193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "42조 5,800억원",
             "opProfit": "5조 7,909억원",
             "netProfit": "4조 4,011억원",
@@ -265,7 +265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "28조 2,026억원",
             "opProfit": "3조 9,766억원",
             "netProfit": "3조 222억원",
@@ -337,7 +337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "18조 542억원",
             "opProfit": "3조 1,595억원",
             "netProfit": "2조 4,012억원",
@@ -409,7 +409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 4,514억원",
             "opProfit": "4,511억원",
             "netProfit": "3,428억원",
@@ -481,7 +481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,716억원",
             "opProfit": "1,142억원",
             "netProfit": "868억원",
@@ -553,7 +553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "44%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,148억원",
             "opProfit": "195억원",
             "netProfit": "148억원",
@@ -625,7 +625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,158억원",
             "opProfit": "429억원",
             "netProfit": "326억원",
@@ -697,7 +697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,041억원",
             "opProfit": "707억원",
             "netProfit": "537억원",
@@ -769,7 +769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "40%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,795억원",
             "opProfit": "154억원",
             "netProfit": "117억원",
@@ -841,7 +841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,708억원",
             "opProfit": "660억원",
             "netProfit": "502억원",
@@ -913,7 +913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,719억원",
             "opProfit": "514억원",
             "netProfit": "391억원",
@@ -985,7 +985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,888억원",
             "opProfit": "295억원",
             "netProfit": "224억원",
@@ -1057,7 +1057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,816억원",
             "opProfit": "300억원",
             "netProfit": "228억원",
@@ -1129,7 +1129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,482억원",
             "opProfit": "237억원",
             "netProfit": "180억원",
@@ -1201,7 +1201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "703억원",
             "opProfit": "59억원",
             "netProfit": "45억원",
@@ -1273,7 +1273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,265억원",
             "opProfit": "215억원",
             "netProfit": "163억원",
@@ -1345,7 +1345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "817억원",
             "opProfit": "111억원",
             "netProfit": "84억원",
@@ -1417,7 +1417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "12억원",
             "netProfit": "9억원",
@@ -1545,7 +1545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2916조 4,014억원",
             "opProfit": "886조 5,860억원",
             "netProfit": "673조 8,054억원",
@@ -1617,7 +1617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1825조 96억원",
             "opProfit": "496조 4,026억원",
             "netProfit": "377조 2,660억원",
@@ -1689,7 +1689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "259조 4,991억원",
             "opProfit": "68조 7,673억원",
             "netProfit": "52조 2,631억원",
@@ -1761,7 +1761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "100조 6,641억원",
             "opProfit": "15조 9,049억원",
             "netProfit": "12조 877억원",
@@ -1833,7 +1833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "25조 8,706억원",
             "opProfit": "5조 2,259억원",
             "netProfit": "3조 9,717억원",
@@ -1905,7 +1905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "11조 274억원",
             "opProfit": "1조 9,849억원",
             "netProfit": "1조 5,085억원",
@@ -1977,7 +1977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "10조 7,314억원",
             "opProfit": "2조 3,931억원",
             "netProfit": "1조 8,188억원",
@@ -2049,7 +2049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 1,538억원",
             "opProfit": "8,091억원",
             "netProfit": "6,149억원",
@@ -2121,7 +2121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 3,085억원",
             "opProfit": "8,706억원",
             "netProfit": "6,617억원",
@@ -2193,7 +2193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "11조 4,142억원",
             "opProfit": "3조 4,471억원",
             "netProfit": "2조 6,198억원",
@@ -2265,7 +2265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6조 5,250억원",
             "opProfit": "1조 3,964억원",
             "netProfit": "1조 613억원",
@@ -2337,7 +2337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9조 924억원",
             "opProfit": "2조 7,004억원",
             "netProfit": "2조 523억원",
@@ -2409,7 +2409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 9,655억원",
             "opProfit": "1조 3,184억원",
             "netProfit": "1조 20억원",
@@ -2481,7 +2481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6조 1,908억원",
             "opProfit": "1조 5,167억원",
             "netProfit": "1조 1,527억원",
@@ -2553,7 +2553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7조 7,747억원",
             "opProfit": "2조 4,179억원",
             "netProfit": "1조 8,376억원",
@@ -2625,7 +2625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 6,490억원",
             "opProfit": "3,815억원",
             "netProfit": "2,899억원",
@@ -2697,7 +2697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 7,936억원",
             "opProfit": "7,929억원",
             "netProfit": "6,026억원",
@@ -2769,7 +2769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 3,357억원",
             "opProfit": "6,471억원",
             "netProfit": "4,918억원",
@@ -2841,7 +2841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 3,933억원",
             "opProfit": "1조 764억원",
             "netProfit": "8,181억원",
@@ -2913,7 +2913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 5,841억원",
             "opProfit": "7,491억원",
             "netProfit": "5,693억원",
@@ -2985,7 +2985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 6,011억원",
             "opProfit": "1조 1,917억원",
             "netProfit": "9,057억원",
@@ -3057,7 +3057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 3,987억원",
             "opProfit": "1조 6,736억원",
             "netProfit": "1조 2,719억원",
@@ -3129,7 +3129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 3,048억원",
             "opProfit": "3,642억원",
             "netProfit": "2,768억원",
@@ -3201,7 +3201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 1,135억원",
             "opProfit": "1조 942억원",
             "netProfit": "8,316억원",
@@ -3273,7 +3273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 7,866억원",
             "opProfit": "5,462억원",
             "netProfit": "4,151억원",
@@ -3345,7 +3345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 5,637억원",
             "opProfit": "1조 4,193억원",
             "netProfit": "1조 787억원",
@@ -3417,7 +3417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "112%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 1,420억원",
             "opProfit": "1조 2,675억원",
             "netProfit": "9,633억원",
@@ -3489,7 +3489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 4,221억원",
             "opProfit": "5,498억원",
             "netProfit": "4,178억원",
@@ -3561,7 +3561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 1,765억원",
             "opProfit": "4,592억원",
             "netProfit": "3,490억원",
@@ -3633,7 +3633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 9,097억원",
             "opProfit": "8,584억원",
             "netProfit": "6,524억원",
@@ -3705,7 +3705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,429억원",
             "opProfit": "1,877억원",
             "netProfit": "1,427억원",
@@ -3777,7 +3777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 555억원",
             "opProfit": "5,036억원",
             "netProfit": "3,827억원",
@@ -3849,7 +3849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 9,519억원",
             "opProfit": "4,782억원",
             "netProfit": "3,634억원",
@@ -3921,7 +3921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 718억원",
             "opProfit": "1,693억원",
             "netProfit": "1,287억원",
@@ -3993,7 +3993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 6,346억원",
             "opProfit": "3,645억원",
             "netProfit": "2,770억원",
@@ -4065,7 +4065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 9,055억원",
             "opProfit": "5,221억원",
             "netProfit": "3,968억원",
@@ -4137,7 +4137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,803억원",
             "opProfit": "3,405억원",
             "netProfit": "2,588억원",
@@ -4209,7 +4209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,214억원",
             "opProfit": "3,198억원",
             "netProfit": "2,430억원",
@@ -4281,7 +4281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 402억원",
             "opProfit": "2,008억원",
             "netProfit": "1,526억원",
@@ -4353,7 +4353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 8,129억원",
             "opProfit": "5,475억원",
             "netProfit": "4,161억원",
@@ -4425,7 +4425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,600억원",
             "opProfit": "1,795억원",
             "netProfit": "1,364억원",
@@ -4497,7 +4497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,095억원",
             "opProfit": "2,452억원",
             "netProfit": "1,864억원",
@@ -4569,7 +4569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,751억원",
             "opProfit": "1,294억원",
             "netProfit": "983억원",
@@ -4641,7 +4641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 6,477억원",
             "opProfit": "5,223억원",
             "netProfit": "3,969억원",
@@ -4713,7 +4713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,077억원",
             "opProfit": "1,454억원",
             "netProfit": "1,105억원",
@@ -4785,7 +4785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,391억원",
             "opProfit": "2,722억원",
             "netProfit": "2,069억원",
@@ -4857,7 +4857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 5,215억원",
             "opProfit": "4,717억원",
             "netProfit": "3,585억원",
@@ -4929,7 +4929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,641억원",
             "opProfit": "3,438억원",
             "netProfit": "2,613억원",
@@ -5001,7 +5001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,722억원",
             "opProfit": "1,823억원",
             "netProfit": "1,385억원",
@@ -5073,7 +5073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,251억원",
             "opProfit": "4,518억원",
             "netProfit": "3,434억원",
@@ -5145,7 +5145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,304억원",
             "opProfit": "3,007억원",
             "netProfit": "2,285억원",
@@ -5217,7 +5217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 463억원",
             "opProfit": "2,637억원",
             "netProfit": "2,004억원",
@@ -5289,7 +5289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 372억원",
             "opProfit": "2,634억원",
             "netProfit": "2,002억원",
@@ -5361,7 +5361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,080억원",
             "opProfit": "732억원",
             "netProfit": "556억원",
@@ -5433,7 +5433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,638억원",
             "opProfit": "1,900억원",
             "netProfit": "1,444억원",
@@ -5505,7 +5505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 66억원",
             "opProfit": "2,557억원",
             "netProfit": "1,943억원",
@@ -5577,7 +5577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,022억원",
             "opProfit": "1,362억원",
             "netProfit": "1,035억원",
@@ -5649,7 +5649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,320억원",
             "opProfit": "2,283억원",
             "netProfit": "1,735억원",
@@ -5721,7 +5721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,083억원",
             "opProfit": "1,417억원",
             "netProfit": "1,077억원",
@@ -5793,7 +5793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,273억원",
             "opProfit": "833억원",
             "netProfit": "633억원",
@@ -5865,7 +5865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,339억원",
             "opProfit": "913억원",
             "netProfit": "694억원",
@@ -5937,7 +5937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,585억원",
             "opProfit": "2,828억원",
             "netProfit": "2,149억원",
@@ -6009,7 +6009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,237억원",
             "opProfit": "1,708억원",
             "netProfit": "1,298억원",
@@ -6081,7 +6081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,297억원",
             "opProfit": "980억원",
             "netProfit": "745억원",
@@ -6153,7 +6153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,380억원",
             "opProfit": "1,038억원",
             "netProfit": "789억원",
@@ -6225,7 +6225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,573억원",
             "opProfit": "1,492억원",
             "netProfit": "1,134억원",
@@ -6297,7 +6297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,522억원",
             "opProfit": "3,018억원",
             "netProfit": "2,294억원",
@@ -6369,7 +6369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,283억원",
             "opProfit": "1,495억원",
             "netProfit": "1,136억원",
@@ -6441,7 +6441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,401억원",
             "opProfit": "2,028억원",
             "netProfit": "1,541억원",
@@ -6513,7 +6513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,750억원",
             "opProfit": "2,756억원",
             "netProfit": "2,095억원",
@@ -6585,7 +6585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,601억원",
             "opProfit": "1,663억원",
             "netProfit": "1,264억원",
@@ -6657,7 +6657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,341억원",
             "opProfit": "1,143억원",
             "netProfit": "869억원",
@@ -6729,7 +6729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,315억원",
             "opProfit": "1,591억원",
             "netProfit": "1,209억원",
@@ -6801,7 +6801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,117억원",
             "opProfit": "449억원",
             "netProfit": "341억원",
@@ -6873,7 +6873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,898억원",
             "opProfit": "1,938억원",
             "netProfit": "1,473억원",
@@ -6945,7 +6945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,590억원",
             "opProfit": "621억원",
             "netProfit": "472억원",
@@ -7017,7 +7017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,234억원",
             "opProfit": "847억원",
             "netProfit": "644억원",
@@ -7089,7 +7089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,955억원",
             "opProfit": "1,140억원",
             "netProfit": "866억원",
@@ -7161,7 +7161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,934억원",
             "opProfit": "1,135억원",
             "netProfit": "863억원",
@@ -7233,7 +7233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,022억원",
             "opProfit": "788억원",
             "netProfit": "599억원",
@@ -7305,7 +7305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,273억원",
             "opProfit": "944억원",
             "netProfit": "717억원",
@@ -7377,7 +7377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,670억원",
             "opProfit": "2,114억원",
             "netProfit": "1,607억원",
@@ -7449,7 +7449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,330억원",
             "opProfit": "623억원",
             "netProfit": "473억원",
@@ -7521,7 +7521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,413억원",
             "opProfit": "1,521억원",
             "netProfit": "1,156억원",
@@ -7593,7 +7593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,915억원",
             "opProfit": "1,863억원",
             "netProfit": "1,416억원",
@@ -7665,7 +7665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,461억원",
             "opProfit": "723억원",
             "netProfit": "549억원",
@@ -7737,7 +7737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "116%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,442억원",
             "opProfit": "1,703억원",
             "netProfit": "1,294억원",
@@ -7809,7 +7809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,964억원",
             "opProfit": "1,454억원",
             "netProfit": "1,105억원",
@@ -7881,7 +7881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,074억원",
             "opProfit": "621억원",
             "netProfit": "472억원",
@@ -7953,7 +7953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,871억원",
             "opProfit": "554억원",
             "netProfit": "421억원",
@@ -8025,7 +8025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,527억원",
             "opProfit": "811억원",
             "netProfit": "616억원",
@@ -8097,7 +8097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,174억원",
             "opProfit": "343억원",
             "netProfit": "261억원",
@@ -8169,7 +8169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,809억원",
             "opProfit": "952억원",
             "netProfit": "724억원",
@@ -8241,7 +8241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,404억원",
             "opProfit": "421억원",
             "netProfit": "320억원",
@@ -8313,7 +8313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,627억원",
             "opProfit": "889억원",
             "netProfit": "676억원",
@@ -8385,7 +8385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,228억원",
             "opProfit": "720억원",
             "netProfit": "547억원",
@@ -8457,7 +8457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,979억원",
             "opProfit": "1,054억원",
             "netProfit": "801억원",
@@ -8529,7 +8529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,065억원",
             "opProfit": "330억원",
             "netProfit": "251억원",
@@ -8601,7 +8601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,009억원",
             "opProfit": "671억원",
             "netProfit": "510억원",
@@ -8673,7 +8673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,740억원",
             "opProfit": "573억원",
             "netProfit": "435억원",
@@ -8745,7 +8745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,478억원",
             "opProfit": "481억원",
             "netProfit": "366억원",
@@ -8817,7 +8817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "116%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,488억원",
             "opProfit": "1,405억원",
             "netProfit": "1,068억원",
@@ -8889,7 +8889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,369억원",
             "opProfit": "896억원",
             "netProfit": "681억원",
@@ -8961,7 +8961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,524억원",
             "opProfit": "1,092억원",
             "netProfit": "830억원",
@@ -9033,7 +9033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,520억원",
             "opProfit": "243억원",
             "netProfit": "185억원",
@@ -9105,7 +9105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,979억원",
             "opProfit": "400억원",
             "netProfit": "304억원",
@@ -9177,7 +9177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,870억원",
             "opProfit": "786억원",
             "netProfit": "597억원",
@@ -9249,7 +9249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,929억원",
             "opProfit": "817억원",
             "netProfit": "621억원",
@@ -9321,7 +9321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,121억원",
             "opProfit": "921억원",
             "netProfit": "700억원",
@@ -9393,7 +9393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,443억원",
             "opProfit": "231억원",
             "netProfit": "176억원",
@@ -9465,7 +9465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,482억원",
             "opProfit": "625억원",
             "netProfit": "475억원",
@@ -9537,7 +9537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,626억원",
             "opProfit": "293억원",
             "netProfit": "223억원",
@@ -9609,7 +9609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,388억원",
             "opProfit": "222억원",
             "netProfit": "169억원",
@@ -9681,7 +9681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,506억원",
             "opProfit": "649억원",
             "netProfit": "493억원",
@@ -9753,7 +9753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,737억원",
             "opProfit": "351억원",
             "netProfit": "267억원",
@@ -9825,7 +9825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,111억원",
             "opProfit": "502억원",
             "netProfit": "382억원",
@@ -9897,7 +9897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,828억원",
             "opProfit": "851억원",
             "netProfit": "647억원",
@@ -9969,7 +9969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,646억원",
             "opProfit": "762억원",
             "netProfit": "579억원",
@@ -10041,7 +10041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,312억원",
             "opProfit": "218억원",
             "netProfit": "166억원",
@@ -10113,7 +10113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,436억원",
             "opProfit": "256억원",
             "netProfit": "195억원",
@@ -10185,7 +10185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,038억원",
             "opProfit": "149억원",
             "netProfit": "113억원",
@@ -10257,7 +10257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,795억원",
             "opProfit": "894억원",
             "netProfit": "679억원",
@@ -10329,7 +10329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,588억원",
             "opProfit": "782억원",
             "netProfit": "594억원",
@@ -10401,7 +10401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,342억원",
             "opProfit": "242억원",
             "netProfit": "184억원",
@@ -10473,7 +10473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,126억원",
             "opProfit": "178억원",
             "netProfit": "135억원",
@@ -10545,7 +10545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,013억원",
             "opProfit": "507억원",
             "netProfit": "385억원",
@@ -10617,7 +10617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,274억원",
             "opProfit": "659억원",
             "netProfit": "501억원",
@@ -10689,7 +10689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,302억원",
             "opProfit": "246억원",
             "netProfit": "187억원",
@@ -10761,7 +10761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,134억원",
             "opProfit": "196억원",
             "netProfit": "149억원",
@@ -10833,7 +10833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,345억원",
             "opProfit": "727억원",
             "netProfit": "553억원",
@@ -10905,7 +10905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,189억원",
             "opProfit": "646억원",
             "netProfit": "491억원",
@@ -10977,7 +10977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,170억원",
             "opProfit": "640억원",
             "netProfit": "486억원",
@@ -11049,7 +11049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,691억원",
             "opProfit": "414억원",
             "netProfit": "315억원",
@@ -11121,7 +11121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "989억원",
             "opProfit": "158억원",
             "netProfit": "120억원",
@@ -11193,7 +11193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,290억원",
             "opProfit": "726억원",
             "netProfit": "552억원",
@@ -11265,7 +11265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,567억원",
             "opProfit": "398억원",
             "netProfit": "302억원",
@@ -11337,7 +11337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,929억원",
             "opProfit": "583억원",
             "netProfit": "443억원",
@@ -11409,7 +11409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,578억원",
             "opProfit": "420억원",
             "netProfit": "319억원",
@@ -11481,7 +11481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,590억원",
             "opProfit": "426억원",
             "netProfit": "324억원",
@@ -11553,7 +11553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,613억원",
             "opProfit": "453억원",
             "netProfit": "344억원",
@@ -11625,7 +11625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,092억원",
             "opProfit": "228억원",
             "netProfit": "173억원",
@@ -11697,7 +11697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,227억원",
             "opProfit": "301억원",
             "netProfit": "229억원",
@@ -11769,7 +11769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,109억원",
             "opProfit": "255억원",
             "netProfit": "194억원",
@@ -11841,7 +11841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "836억원",
             "opProfit": "155억원",
             "netProfit": "118억원",
@@ -11913,7 +11913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "823억원",
             "opProfit": "154억원",
             "netProfit": "117억원",
@@ -11985,7 +11985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "846억원",
             "opProfit": "164억원",
             "netProfit": "125억원",
@@ -12057,7 +12057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "879억원",
             "opProfit": "178억원",
             "netProfit": "135억원",
@@ -12129,7 +12129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "927억원",
             "opProfit": "207억원",
             "netProfit": "157억원",
@@ -12201,7 +12201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "557억원",
             "opProfit": "84억원",
             "netProfit": "64억원",
@@ -12273,7 +12273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "673억원",
             "opProfit": "121억원",
             "netProfit": "92억원",
@@ -12345,7 +12345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,287억원",
             "opProfit": "405억원",
             "netProfit": "308억원",
@@ -12417,7 +12417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "596억원",
             "opProfit": "107억원",
             "netProfit": "81억원",
@@ -12489,7 +12489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "839억원",
             "opProfit": "216억원",
             "netProfit": "164억원",
@@ -12561,7 +12561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "817억원",
             "opProfit": "208억원",
             "netProfit": "158억원",
@@ -12633,7 +12633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "658억원",
             "opProfit": "143억원",
             "netProfit": "109억원",
@@ -12705,7 +12705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "899억원",
             "opProfit": "253억원",
             "netProfit": "192억원",
@@ -12777,7 +12777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "683억원",
             "opProfit": "182억원",
             "netProfit": "138억원",
@@ -12849,7 +12849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "803억원",
             "opProfit": "256억원",
             "netProfit": "195억원",
@@ -12921,7 +12921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "352억원",
             "opProfit": "61억원",
             "netProfit": "46억원",
@@ -12993,7 +12993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "612억원",
             "opProfit": "168억원",
             "netProfit": "128억원",
@@ -13065,7 +13065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "670억원",
             "opProfit": "208억원",
             "netProfit": "158억원",
@@ -13137,7 +13137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "462억원",
             "opProfit": "107억원",
             "netProfit": "81억원",
@@ -13209,7 +13209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "505억원",
             "opProfit": "128억원",
             "netProfit": "97억원",
@@ -13281,7 +13281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "305억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -13353,7 +13353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "302억원",
             "opProfit": "54억원",
             "netProfit": "41억원",
@@ -13425,7 +13425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "578억원",
             "opProfit": "180억원",
             "netProfit": "137억원",
@@ -13497,7 +13497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "435억원",
             "opProfit": "124억원",
             "netProfit": "94억원",
@@ -13569,7 +13569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "251억원",
             "opProfit": "57억원",
             "netProfit": "43억원",
@@ -13641,7 +13641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "83%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "241억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -13713,7 +13713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "161억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -13785,7 +13785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "187억원",
             "opProfit": "51억원",
             "netProfit": "39억원",
@@ -13857,7 +13857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "117억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -13929,7 +13929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -14057,7 +14057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 7,477억원",
             "opProfit": "1조 1,679억원",
             "netProfit": "8,876억원",
@@ -14129,7 +14129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 891억원",
             "opProfit": "7,167억원",
             "netProfit": "5,447억원",
@@ -14201,7 +14201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,835억원",
             "opProfit": "0억원",
             "netProfit": "0억원",
@@ -14273,7 +14273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "30%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,638억원",
             "opProfit": "-107억원",
             "netProfit": "-81억원",
@@ -14345,7 +14345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,705억원",
             "opProfit": "-96억원",
             "netProfit": "-73억원",
@@ -14417,7 +14417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,646억원",
             "opProfit": "1,031억원",
             "netProfit": "784억원",
@@ -14489,7 +14489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "76%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,326억원",
             "opProfit": "1,534억원",
             "netProfit": "1,166억원",
@@ -14561,7 +14561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,196억원",
             "opProfit": "1,150억원",
             "netProfit": "874억원",
@@ -14633,7 +14633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "29%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,872억원",
             "opProfit": "-30억원",
             "netProfit": "-23억원",
@@ -14705,7 +14705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,896억원",
             "opProfit": "1,145억원",
             "netProfit": "870억원",
@@ -14777,7 +14777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "76%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,835억원",
             "opProfit": "816억원",
             "netProfit": "620억원",
@@ -14849,7 +14849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,882억원",
             "opProfit": "361억원",
             "netProfit": "274억원",
@@ -14921,7 +14921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,575억원",
             "opProfit": "299억원",
             "netProfit": "227억원",
@@ -14993,7 +14993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "28%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "934억원",
             "opProfit": "-15억원",
             "netProfit": "-11억원",
@@ -15065,7 +15065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,026억원",
             "opProfit": "604억원",
             "netProfit": "459억원",
@@ -15137,7 +15137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "25%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "756억원",
             "opProfit": "-15억원",
             "netProfit": "-11억원",
@@ -15209,7 +15209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "40%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "944억원",
             "opProfit": "-1억원",
             "netProfit": "-1억원",
@@ -15281,7 +15281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "28%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "725억원",
             "opProfit": "-12억원",
             "netProfit": "-9억원",
@@ -15353,7 +15353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "599억원",
             "opProfit": "-14억원",
             "netProfit": "-11억원",
@@ -15425,7 +15425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,173억원",
             "opProfit": "272억원",
             "netProfit": "207억원",
@@ -15497,7 +15497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,289억원",
             "opProfit": "361억원",
             "netProfit": "274억원",
@@ -15569,7 +15569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "556억원",
             "opProfit": "-7억원",
             "netProfit": "-5억원",
@@ -15641,7 +15641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "28%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "501억원",
             "opProfit": "-9억원",
             "netProfit": "-7억원",
@@ -15713,7 +15713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "689억원",
             "opProfit": "131억원",
             "netProfit": "100억원",
@@ -15785,7 +15785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "480억원",
             "opProfit": "-6억원",
             "netProfit": "-5억원",
@@ -15857,7 +15857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "367억원",
             "opProfit": "-10억원",
             "netProfit": "-8억원",
@@ -15929,7 +15929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "501억원",
             "opProfit": "-4억원",
             "netProfit": "-3억원",
@@ -16001,7 +16001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "877억원",
             "opProfit": "258억원",
             "netProfit": "196억원",
@@ -16073,7 +16073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "450억원",
             "opProfit": "-3억원",
             "netProfit": "-2억원",
@@ -16145,7 +16145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "617억원",
             "opProfit": "135억원",
             "netProfit": "103억원",
@@ -16217,7 +16217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "518억원",
             "opProfit": "99억원",
             "netProfit": "75억원",
@@ -16289,7 +16289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "605억원",
             "opProfit": "143억원",
             "netProfit": "109억원",
@@ -16361,7 +16361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "594억원",
             "opProfit": "138억원",
             "netProfit": "105억원",
@@ -16433,7 +16433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "465억원",
             "opProfit": "89억원",
             "netProfit": "68억원",
@@ -16505,7 +16505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "543억원",
             "opProfit": "144억원",
             "netProfit": "109억원",
@@ -16577,7 +16577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "146억원",
             "opProfit": "-4억원",
             "netProfit": "-3억원",
@@ -16649,7 +16649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "220억원",
             "opProfit": "46억원",
             "netProfit": "35억원",
@@ -16721,7 +16721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "116억원",
             "opProfit": "-3억원",
             "netProfit": "-2억원",
@@ -16793,7 +16793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "146억원",
             "opProfit": "0억원",
             "netProfit": "0억원",
@@ -16865,7 +16865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "115억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -16937,7 +16937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "117억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -17065,7 +17065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "49조 4,661억원",
             "opProfit": "8조 630억원",
             "netProfit": "6조 1,279억원",
@@ -17137,7 +17137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "17조 9,211억원",
             "opProfit": "1조 5,054억원",
             "netProfit": "1조 1,441억원",
@@ -17209,7 +17209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "30조 1,931억원",
             "opProfit": "4조 1,968억원",
             "netProfit": "3조 1,896억원",
@@ -17281,7 +17281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "15조 9,983억원",
             "opProfit": "2조 8,797억원",
             "netProfit": "2조 1,886억원",
@@ -17353,7 +17353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "10조 3,714억원",
             "opProfit": "1조 2,549억원",
             "netProfit": "9,537억원",
@@ -17425,7 +17425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "10조 8,649억원",
             "opProfit": "1조 7,384억원",
             "netProfit": "1조 3,212억원",
@@ -17497,7 +17497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 4,458억원",
             "opProfit": "5,609억원",
             "netProfit": "4,263억원",
@@ -17569,7 +17569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6조 5,502억원",
             "opProfit": "1조 1,790억원",
             "netProfit": "8,960억원",
@@ -17641,7 +17641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 1,157억원",
             "opProfit": "3,645억원",
             "netProfit": "2,770억원",
@@ -17713,7 +17713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 8,191억원",
             "opProfit": "1,710억원",
             "netProfit": "1,300억원",
@@ -17785,7 +17785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,882억원",
             "opProfit": "2,173억원",
             "netProfit": "1,651억원",
@@ -17857,7 +17857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,860억원",
             "opProfit": "576억원",
             "netProfit": "438억원",
@@ -17929,7 +17929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,731억원",
             "opProfit": "2,593억원",
             "netProfit": "1,971억원",
@@ -18001,7 +18001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 36억원",
             "opProfit": "1,285억원",
             "netProfit": "977억원",
@@ -18073,7 +18073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,568억원",
             "opProfit": "1,044억원",
             "netProfit": "793억원",
@@ -18145,7 +18145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,241억원",
             "opProfit": "266억원",
             "netProfit": "202억원",
@@ -18217,7 +18217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,299억원",
             "opProfit": "1,159억원",
             "netProfit": "881억원",
@@ -18289,7 +18289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,290억원",
             "opProfit": "220억원",
             "netProfit": "167억원",
@@ -18361,7 +18361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,366억원",
             "opProfit": "505억원",
             "netProfit": "384억원",
@@ -18433,7 +18433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,099억원",
             "opProfit": "216억원",
             "netProfit": "164억원",
@@ -18505,7 +18505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,937억원",
             "opProfit": "458억원",
             "netProfit": "348억원",
@@ -18577,7 +18577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,444억원",
             "opProfit": "661억원",
             "netProfit": "502억원",
@@ -18649,7 +18649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,638억원",
             "opProfit": "172억원",
             "netProfit": "131억원",
@@ -18721,7 +18721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,226억원",
             "opProfit": "403억원",
             "netProfit": "306억원",
@@ -18793,7 +18793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "776억원",
             "opProfit": "68억원",
             "netProfit": "52억원",
@@ -18865,7 +18865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,037억원",
             "opProfit": "127억원",
             "netProfit": "97억원",
@@ -18937,7 +18937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,394억원",
             "opProfit": "237억원",
             "netProfit": "180억원",
@@ -19009,7 +19009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "898억원",
             "opProfit": "105억원",
             "netProfit": "80억원",
@@ -19081,7 +19081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "579억원",
             "opProfit": "68억원",
             "netProfit": "52억원",
@@ -19153,7 +19153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "738억원",
             "opProfit": "111억원",
             "netProfit": "84억원",
@@ -19225,7 +19225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "738억원",
             "opProfit": "112억원",
             "netProfit": "85억원",
@@ -19297,7 +19297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "359억원",
             "opProfit": "47억원",
             "netProfit": "36억원",
@@ -19369,7 +19369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "297억원",
             "opProfit": "35억원",
             "netProfit": "27억원",
@@ -19441,7 +19441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "324억원",
             "opProfit": "61억원",
             "netProfit": "46억원",
@@ -19513,7 +19513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "111억원",
             "opProfit": "10억원",
             "netProfit": "8억원",
@@ -19641,7 +19641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "11조 9,756억원",
             "opProfit": "8,383억원",
             "netProfit": "6,371억원",
@@ -19713,7 +19713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "12조 3,873억원",
             "opProfit": "9,786억원",
             "netProfit": "7,437억원",
@@ -19785,7 +19785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "150%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "12조 3,010억원",
             "opProfit": "1조 4,146억원",
             "netProfit": "1조 751억원",
@@ -19857,7 +19857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 3,067억원",
             "opProfit": "4,264억원",
             "netProfit": "3,241억원",
@@ -19929,7 +19929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "145%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 4,117억원",
             "opProfit": "4,941억원",
             "netProfit": "3,755억원",
@@ -20001,7 +20001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "155%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 785억원",
             "opProfit": "3,663억원",
             "netProfit": "2,784억원",
@@ -20073,7 +20073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 3,290억원",
             "opProfit": "2,306억원",
             "netProfit": "1,753억원",
@@ -20145,7 +20145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "140%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 3,255억원",
             "opProfit": "2,512억원",
             "netProfit": "1,909억원",
@@ -20217,7 +20217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 367억원",
             "opProfit": "581억원",
             "netProfit": "442억원",
@@ -20289,7 +20289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "173%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,823억원",
             "opProfit": "1,561억원",
             "netProfit": "1,186억원",
@@ -20361,7 +20361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "140%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,958억원",
             "opProfit": "859억원",
             "netProfit": "653억원",
@@ -20433,7 +20433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "154%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,828억원",
             "opProfit": "1,042억원",
             "netProfit": "792억원",
@@ -20505,7 +20505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "167%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,518억원",
             "opProfit": "1,090억원",
             "netProfit": "828억원",
@@ -20577,7 +20577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,230억원",
             "opProfit": "481억원",
             "netProfit": "366억원",
@@ -20649,7 +20649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "136%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,165억원",
             "opProfit": "437억원",
             "netProfit": "332억원",
@@ -20721,7 +20721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "124%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,728억원",
             "opProfit": "358억원",
             "netProfit": "272억원",
@@ -20793,7 +20793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,894억원",
             "opProfit": "229억원",
             "netProfit": "174억원",
@@ -20865,7 +20865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "144%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,216억원",
             "opProfit": "468억원",
             "netProfit": "356억원",
@@ -20937,7 +20937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "141%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,911억원",
             "opProfit": "422억원",
             "netProfit": "321억원",
@@ -21009,7 +21009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "136%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,602억원",
             "opProfit": "378억원",
             "netProfit": "287억원",
@@ -21081,7 +21081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "132%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,437억원",
             "opProfit": "351억원",
             "netProfit": "267억원",
@@ -21153,7 +21153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "152%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,894억원",
             "opProfit": "452억원",
             "netProfit": "344억원",
@@ -21225,7 +21225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "116%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,864억원",
             "opProfit": "258억원",
             "netProfit": "196억원",
@@ -21297,7 +21297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "131%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,193억원",
             "opProfit": "322억원",
             "netProfit": "245억원",
@@ -21369,7 +21369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "122%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,942억원",
             "opProfit": "279억원",
             "netProfit": "212억원",
@@ -21441,7 +21441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "160%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,867억원",
             "opProfit": "472억원",
             "netProfit": "359억원",
@@ -21513,7 +21513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "101%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,097억원",
             "opProfit": "168억원",
             "netProfit": "128억원",
@@ -21585,7 +21585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,346억원",
             "opProfit": "209억원",
             "netProfit": "159억원",
@@ -21657,7 +21657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "154%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,637억원",
             "opProfit": "311억원",
             "netProfit": "236억원",
@@ -21729,7 +21729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "154%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,420억원",
             "opProfit": "286억원",
             "netProfit": "217억원",
@@ -21801,7 +21801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,433억원",
             "opProfit": "109억원",
             "netProfit": "83억원",
@@ -21873,7 +21873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "154%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,243억원",
             "opProfit": "265억원",
             "netProfit": "201억원",
@@ -21945,7 +21945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "151%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,137억원",
             "opProfit": "248억원",
             "netProfit": "188억원",
@@ -22017,7 +22017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,421억원",
             "opProfit": "118억원",
             "netProfit": "90억원",
@@ -22089,7 +22089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,030억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -22161,7 +22161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "903억원",
             "opProfit": "54억원",
             "netProfit": "41억원",
@@ -22233,7 +22233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,409억원",
             "opProfit": "130억원",
             "netProfit": "99억원",
@@ -22305,7 +22305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "892억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -22377,7 +22377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "828억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -22449,7 +22449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "971억원",
             "opProfit": "70억원",
             "netProfit": "53억원",
@@ -22521,7 +22521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "76%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "794억원",
             "opProfit": "48억원",
             "netProfit": "36억원",
@@ -22593,7 +22593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "162%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,690억원",
             "opProfit": "210억원",
             "netProfit": "160억원",
@@ -22665,7 +22665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "141%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,419억원",
             "opProfit": "153억원",
             "netProfit": "116억원",
@@ -22737,7 +22737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,240억원",
             "opProfit": "123억원",
             "netProfit": "93억원",
@@ -22809,7 +22809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "76%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "694억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -22881,7 +22881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "846억원",
             "opProfit": "64억원",
             "netProfit": "49억원",
@@ -22953,7 +22953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "964억원",
             "opProfit": "86억원",
             "netProfit": "65억원",
@@ -23025,7 +23025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "172%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,470억원",
             "opProfit": "193억원",
             "netProfit": "147억원",
@@ -23097,7 +23097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "831억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -23169,7 +23169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "151%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,149억원",
             "opProfit": "133억원",
             "netProfit": "101억원",
@@ -23241,7 +23241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "779억원",
             "opProfit": "65억원",
             "netProfit": "49억원",
@@ -23313,7 +23313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "156%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,126억원",
             "opProfit": "135억원",
             "netProfit": "103억원",
@@ -23385,7 +23385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "465억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -23457,7 +23457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "136%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "882억원",
             "opProfit": "93억원",
             "netProfit": "71억원",
@@ -23529,7 +23529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "476억원",
             "opProfit": "29억원",
             "netProfit": "22억원",
@@ -23601,7 +23601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "417억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -23673,7 +23673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "579억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -23745,7 +23745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "536억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -23817,7 +23817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "496억원",
             "opProfit": "38억원",
             "netProfit": "29억원",
@@ -23889,7 +23889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "83%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "374억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -23961,7 +23961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "172%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "758억원",
             "opProfit": "99억원",
             "netProfit": "75억원",
@@ -24033,7 +24033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "364억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -24105,7 +24105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "145%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "558억원",
             "opProfit": "62억원",
             "netProfit": "47억원",
@@ -24177,7 +24177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "237억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -24249,7 +24249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "294억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -24321,7 +24321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "291억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -24393,7 +24393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "160%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "505억원",
             "opProfit": "62억원",
             "netProfit": "47억원",
@@ -24465,7 +24465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "158%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "439억원",
             "opProfit": "53억원",
             "netProfit": "40억원",
@@ -24537,7 +24537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "172%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "452억원",
             "opProfit": "59억원",
             "netProfit": "45억원",
@@ -24609,7 +24609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "143%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "343억원",
             "opProfit": "38억원",
             "netProfit": "29억원",
@@ -24681,7 +24681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "109억원",
             "opProfit": "6억원",
             "netProfit": "5억원",
@@ -24753,7 +24753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "115억원",
             "opProfit": "11억원",
             "netProfit": "8억원",
@@ -24825,7 +24825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "168%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "126억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -24897,7 +24897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "116억원",
             "opProfit": "11억원",
             "netProfit": "8억원",
@@ -24969,7 +24969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "8억원",
             "netProfit": "6억원",
@@ -25041,7 +25041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "10억원",
             "netProfit": "8억원",
@@ -25113,7 +25113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "150%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "118억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -25185,7 +25185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "125%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "115억원",
             "opProfit": "11억원",
             "netProfit": "8억원",
@@ -25313,7 +25313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 9,773억원",
             "opProfit": "1,463억원",
             "netProfit": "1,112억원",
@@ -25385,7 +25385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 3,283억원",
             "opProfit": "2,282억원",
             "netProfit": "1,734억원",
@@ -25457,7 +25457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "76%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 494억원",
             "opProfit": "2,746억원",
             "netProfit": "2,087억원",
@@ -25529,7 +25529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 7,645억원",
             "opProfit": "3,247억원",
             "netProfit": "2,468억원",
@@ -25601,7 +25601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,976억원",
             "opProfit": "684억원",
             "netProfit": "520억원",
@@ -25673,7 +25673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,895억원",
             "opProfit": "1,003억원",
             "netProfit": "762억원",
@@ -25745,7 +25745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 45억원",
             "opProfit": "1,708억원",
             "netProfit": "1,298억원",
@@ -25817,7 +25817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,492억원",
             "opProfit": "792억원",
             "netProfit": "602억원",
@@ -25889,7 +25889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,760억원",
             "opProfit": "657억원",
             "netProfit": "499억원",
@@ -25961,7 +25961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,708억원",
             "opProfit": "527억원",
             "netProfit": "401억원",
@@ -26033,7 +26033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,549억원",
             "opProfit": "916억원",
             "netProfit": "696억원",
@@ -26105,7 +26105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "51%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,509억원",
             "opProfit": "251억원",
             "netProfit": "191억원",
@@ -26177,7 +26177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,129억원",
             "opProfit": "185억원",
             "netProfit": "141억원",
@@ -26249,7 +26249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,368억원",
             "opProfit": "525억원",
             "netProfit": "399억원",
@@ -26321,7 +26321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,507억원",
             "opProfit": "127억원",
             "netProfit": "97억원",
@@ -26393,7 +26393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,271억원",
             "opProfit": "300억원",
             "netProfit": "228억원",
@@ -26465,7 +26465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,269억원",
             "opProfit": "99억원",
             "netProfit": "75억원",
@@ -26537,7 +26537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,394억원",
             "opProfit": "123억원",
             "netProfit": "93억원",
@@ -26609,7 +26609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,541억원",
             "opProfit": "151억원",
             "netProfit": "115억원",
@@ -26681,7 +26681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,519억원",
             "opProfit": "413억원",
             "netProfit": "314억원",
@@ -26753,7 +26753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,917억원",
             "opProfit": "270억원",
             "netProfit": "205억원",
@@ -26825,7 +26825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,155억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -26897,7 +26897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,573억원",
             "opProfit": "192억원",
             "netProfit": "146억원",
@@ -26969,7 +26969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,091억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -27041,7 +27041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,700억원",
             "opProfit": "250억원",
             "netProfit": "190억원",
@@ -27113,7 +27113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,078억원",
             "opProfit": "374억원",
             "netProfit": "284억원",
@@ -27185,7 +27185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,680억원",
             "opProfit": "254억원",
             "netProfit": "193억원",
@@ -27257,7 +27257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,026억원",
             "opProfit": "101억원",
             "netProfit": "77억원",
@@ -27329,7 +27329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,401억원",
             "opProfit": "198억원",
             "netProfit": "150억원",
@@ -27401,7 +27401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,437억원",
             "opProfit": "210억원",
             "netProfit": "160억원",
@@ -27473,7 +27473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "927억원",
             "opProfit": "101억원",
             "netProfit": "77억원",
@@ -27545,7 +27545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "823억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -27617,7 +27617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,149억원",
             "opProfit": "173억원",
             "netProfit": "131억원",
@@ -27689,7 +27689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "51%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "662억원",
             "opProfit": "66억원",
             "netProfit": "50억원",
@@ -27761,7 +27761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "717억원",
             "opProfit": "84억원",
             "netProfit": "64억원",
@@ -27833,7 +27833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "734억원",
             "opProfit": "89억원",
             "netProfit": "68억원",
@@ -27905,7 +27905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "954억원",
             "opProfit": "149억원",
             "netProfit": "113억원",
@@ -27977,7 +27977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "995억원",
             "opProfit": "163억원",
             "netProfit": "124억원",
@@ -28049,7 +28049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "778억원",
             "opProfit": "103억원",
             "netProfit": "78억원",
@@ -28121,7 +28121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,041억원",
             "opProfit": "181억원",
             "netProfit": "138억원",
@@ -28193,7 +28193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "491억원",
             "opProfit": "48억원",
             "netProfit": "36억원",
@@ -28265,7 +28265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "802억원",
             "opProfit": "128억원",
             "netProfit": "97억원",
@@ -28337,7 +28337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "773억원",
             "opProfit": "142억원",
             "netProfit": "108억원",
@@ -28409,7 +28409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "299억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -28481,7 +28481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "374억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -28553,7 +28553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "469억원",
             "opProfit": "66억원",
             "netProfit": "50억원",
@@ -28625,7 +28625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "457억원",
             "opProfit": "64억원",
             "netProfit": "49억원",
@@ -28697,7 +28697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "576억원",
             "opProfit": "101억원",
             "netProfit": "77억원",
@@ -28769,7 +28769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "411억원",
             "opProfit": "56억원",
             "netProfit": "43억원",
@@ -28841,7 +28841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "189억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -28913,7 +28913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "258억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -28985,7 +28985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "144억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -29057,7 +29057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "163억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -29129,7 +29129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "115억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -29201,7 +29201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "118억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -29329,7 +29329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "17조 3,858억원",
             "opProfit": "1조 5,300억원",
             "netProfit": "1조 1,628억원",
@@ -29401,7 +29401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 4,885억원",
             "opProfit": "3,907억원",
             "netProfit": "2,969억원",
@@ -29473,7 +29473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 1,804억원",
             "opProfit": "1,635억원",
             "netProfit": "1,243억원",
@@ -29545,7 +29545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 1,712억원",
             "opProfit": "9,308억원",
             "netProfit": "7,074억원",
@@ -29617,7 +29617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 2,913억원",
             "opProfit": "4,542억원",
             "netProfit": "3,452억원",
@@ -29689,7 +29689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 8,770억원",
             "opProfit": "2,027억원",
             "netProfit": "1,541억원",
@@ -29761,7 +29761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 1,893억원",
             "opProfit": "5,741억원",
             "netProfit": "4,363억원",
@@ -29833,7 +29833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 2,092억원",
             "opProfit": "6,033억원",
             "netProfit": "4,585억원",
@@ -29905,7 +29905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 6,490억원",
             "opProfit": "2,028억원",
             "netProfit": "1,541억원",
@@ -29977,7 +29977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,935억원",
             "opProfit": "2,599억원",
             "netProfit": "1,975억원",
@@ -30049,7 +30049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,471억원",
             "opProfit": "481억원",
             "netProfit": "366억원",
@@ -30121,7 +30121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,782억원",
             "opProfit": "2,168억원",
             "netProfit": "1,648억원",
@@ -30193,7 +30193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,407억원",
             "opProfit": "1,449억원",
             "netProfit": "1,101억원",
@@ -30265,7 +30265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,206억원",
             "opProfit": "2,129억원",
             "netProfit": "1,618억원",
@@ -30337,7 +30337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,630억원",
             "opProfit": "305억원",
             "netProfit": "232억원",
@@ -30409,7 +30409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,243억원",
             "opProfit": "256억원",
             "netProfit": "195억원",
@@ -30481,7 +30481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,697억원",
             "opProfit": "213억원",
             "netProfit": "162억원",
@@ -30553,7 +30553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,762억원",
             "opProfit": "945억원",
             "netProfit": "718억원",
@@ -30625,7 +30625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,623억원",
             "opProfit": "420억원",
             "netProfit": "319억원",
@@ -30697,7 +30697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,812억원",
             "opProfit": "329억원",
             "netProfit": "250억원",
@@ -30769,7 +30769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,136억원",
             "opProfit": "736억원",
             "netProfit": "559억원",
@@ -30841,7 +30841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,504억원",
             "opProfit": "288억원",
             "netProfit": "219억원",
@@ -30913,7 +30913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,580억원",
             "opProfit": "677억원",
             "netProfit": "515억원",
@@ -30985,7 +30985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,454억원",
             "opProfit": "124억원",
             "netProfit": "94억원",
@@ -31057,7 +31057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,033억원",
             "opProfit": "256억원",
             "netProfit": "195억원",
@@ -31129,7 +31129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,255억원",
             "opProfit": "347억원",
             "netProfit": "264억원",
@@ -31201,7 +31201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,380억원",
             "opProfit": "141억원",
             "netProfit": "107억원",
@@ -31273,7 +31273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,533억원",
             "opProfit": "178억원",
             "netProfit": "135억원",
@@ -31345,7 +31345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,579억원",
             "opProfit": "218억원",
             "netProfit": "166억원",
@@ -31417,7 +31417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "800억원",
             "opProfit": "59억원",
             "netProfit": "45억원",
@@ -31489,7 +31489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "825억원",
             "opProfit": "65억원",
             "netProfit": "49억원",
@@ -31561,7 +31561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,748억원",
             "opProfit": "297억원",
             "netProfit": "226억원",
@@ -31633,7 +31633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,128억원",
             "opProfit": "132억원",
             "netProfit": "100억원",
@@ -31705,7 +31705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,244억원",
             "opProfit": "165억원",
             "netProfit": "125억원",
@@ -31777,7 +31777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "752억원",
             "opProfit": "66억원",
             "netProfit": "50억원",
@@ -31849,7 +31849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "983억원",
             "opProfit": "115억원",
             "netProfit": "87억원",
@@ -31921,7 +31921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,133억원",
             "opProfit": "154억원",
             "netProfit": "117억원",
@@ -31993,7 +31993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,510억원",
             "opProfit": "278억원",
             "netProfit": "211억원",
@@ -32065,7 +32065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,098억원",
             "opProfit": "160억원",
             "netProfit": "122억원",
@@ -32137,7 +32137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "569억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -32209,7 +32209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "845억원",
             "opProfit": "115억원",
             "netProfit": "87억원",
@@ -32281,7 +32281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "486억원",
             "opProfit": "41억원",
             "netProfit": "31억원",
@@ -32353,7 +32353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "566억원",
             "opProfit": "62억원",
             "netProfit": "47억원",
@@ -32425,7 +32425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "472억원",
             "opProfit": "44억원",
             "netProfit": "33억원",
@@ -32497,7 +32497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "522억원",
             "opProfit": "54억원",
             "netProfit": "41억원",
@@ -32569,7 +32569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "690억원",
             "opProfit": "94억원",
             "netProfit": "71억원",
@@ -32641,7 +32641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "466억원",
             "opProfit": "45억원",
             "netProfit": "34억원",
@@ -32713,7 +32713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "395억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -32785,7 +32785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "553억원",
             "opProfit": "72억원",
             "netProfit": "55억원",
@@ -32857,7 +32857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "521억원",
             "opProfit": "73억원",
             "netProfit": "55억원",
@@ -32929,7 +32929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "262억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -33001,7 +33001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "239억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -33073,7 +33073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "172억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -33145,7 +33145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "194억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -33217,7 +33217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "233억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -33289,7 +33289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "126억원",
             "opProfit": "10억원",
             "netProfit": "8억원",
@@ -33361,7 +33361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "202억원",
             "opProfit": "32억원",
             "netProfit": "24억원",
@@ -33433,7 +33433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "113억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -33505,7 +33505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "115억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -33633,7 +33633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110조 6,358억원",
             "opProfit": "21조 208억원",
             "netProfit": "15조 9,758억원",
@@ -33705,7 +33705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "19조 4,946억원",
             "opProfit": "2조 664억원",
             "netProfit": "1조 5,705억원",
@@ -33777,7 +33777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "33조 2,148억원",
             "opProfit": "5조 9,787억원",
             "netProfit": "4조 5,438억원",
@@ -33849,7 +33849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "11조 8,150억원",
             "opProfit": "2조 1,267억원",
             "netProfit": "1조 6,163억원",
@@ -33921,7 +33921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 7,289억원",
             "opProfit": "7,734억원",
             "netProfit": "5,878억원",
@@ -33993,7 +33993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 7,473억원",
             "opProfit": "2,857억원",
             "netProfit": "2,171억원",
@@ -34065,7 +34065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 1,357억원",
             "opProfit": "1,751억원",
             "netProfit": "1,331억원",
@@ -34137,7 +34137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 8,994억원",
             "opProfit": "6,122억원",
             "netProfit": "4,653억원",
@@ -34209,7 +34209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 1,451억원",
             "opProfit": "3,132억원",
             "netProfit": "2,380억원",
@@ -34281,7 +34281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,183억원",
             "opProfit": "917억원",
             "netProfit": "697억원",
@@ -34353,7 +34353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 610억원",
             "opProfit": "1,485억원",
             "netProfit": "1,129억원",
@@ -34425,7 +34425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,967억원",
             "opProfit": "815억원",
             "netProfit": "619억원",
@@ -34497,7 +34497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,304억원",
             "opProfit": "344억원",
             "netProfit": "261억원",
@@ -34569,7 +34569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,595억원",
             "opProfit": "381억원",
             "netProfit": "290억원",
@@ -34641,7 +34641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,405억원",
             "opProfit": "586억원",
             "netProfit": "445억원",
@@ -34713,7 +34713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,522억원",
             "opProfit": "660억원",
             "netProfit": "502억원",
@@ -34785,7 +34785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,701억원",
             "opProfit": "128억원",
             "netProfit": "97억원",
@@ -34857,7 +34857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,853억원",
             "opProfit": "674억원",
             "netProfit": "512억원",
@@ -34929,7 +34929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,313억원",
             "opProfit": "108억원",
             "netProfit": "82억원",
@@ -35001,7 +35001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,062억원",
             "opProfit": "264억원",
             "netProfit": "201억원",
@@ -35073,7 +35073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,124억원",
             "opProfit": "101억원",
             "netProfit": "77억원",
@@ -35145,7 +35145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "883억원",
             "opProfit": "123억원",
             "netProfit": "93억원",
@@ -35217,7 +35217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "349억원",
             "opProfit": "54억원",
             "netProfit": "41억원",
@@ -35289,7 +35289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "157억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -35417,7 +35417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "21조 4,533억원",
             "opProfit": "3조 7,543억원",
             "netProfit": "2조 8,533억원",
@@ -35489,7 +35489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "12조 2,631억원",
             "opProfit": "1조 5,574억원",
             "netProfit": "1조 1,836억원",
@@ -35561,7 +35561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 8,371억원",
             "opProfit": "4,426억원",
             "netProfit": "3,364억원",
@@ -35633,7 +35633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,110억원",
             "opProfit": "745억원",
             "netProfit": "566억원",
@@ -35705,7 +35705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,094억원",
             "opProfit": "1,006억원",
             "netProfit": "765억원",
@@ -35777,7 +35777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,850억원",
             "opProfit": "1,106억원",
             "netProfit": "841억원",
@@ -35849,7 +35849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,126억원",
             "opProfit": "157억원",
             "netProfit": "119억원",
@@ -35921,7 +35921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "494억원",
             "opProfit": "84억원",
             "netProfit": "64억원",
@@ -35993,7 +35993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "158억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -36121,7 +36121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "203조 2,419억원",
             "opProfit": "37조 8,030억원",
             "netProfit": "28조 7,303억원",
@@ -36193,7 +36193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "101%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "19조 8,173억원",
             "opProfit": "3조 3,293억원",
             "netProfit": "2조 5,303억원",
@@ -36265,7 +36265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 8,410억원",
             "opProfit": "4,381억원",
             "netProfit": "3,330억원",
@@ -36337,7 +36337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "10조 2,686억원",
             "opProfit": "1조 7,559억원",
             "netProfit": "1조 3,345억원",
@@ -36409,7 +36409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 9,506억원",
             "opProfit": "4,504억원",
             "netProfit": "3,423억원",
@@ -36481,7 +36481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 6,204억원",
             "opProfit": "2,725억원",
             "netProfit": "2,071억원",
@@ -36553,7 +36553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 101억원",
             "opProfit": "7,379억원",
             "netProfit": "5,608억원",
@@ -36625,7 +36625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 2,159억원",
             "opProfit": "4,888억원",
             "netProfit": "3,715억원",
@@ -36697,7 +36697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 9,157억원",
             "opProfit": "1,782억원",
             "netProfit": "1,354억원",
@@ -36769,7 +36769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 1,748억원",
             "opProfit": "4,794억원",
             "netProfit": "3,643억원",
@@ -36841,7 +36841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 6,766억원",
             "opProfit": "4,898억원",
             "netProfit": "3,722억원",
@@ -36913,7 +36913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,945억원",
             "opProfit": "699억원",
             "netProfit": "531억원",
@@ -36985,7 +36985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,662억원",
             "opProfit": "1,785억원",
             "netProfit": "1,357억원",
@@ -37057,7 +37057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,717억원",
             "opProfit": "2,502억원",
             "netProfit": "1,902억원",
@@ -37129,7 +37129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,946억원",
             "opProfit": "1,313억원",
             "netProfit": "998억원",
@@ -37201,7 +37201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,597억원",
             "opProfit": "820억원",
             "netProfit": "623억원",
@@ -37273,7 +37273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 180억원",
             "opProfit": "1,792억원",
             "netProfit": "1,362억원",
@@ -37345,7 +37345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,481억원",
             "opProfit": "1,272억원",
             "netProfit": "967억원",
@@ -37417,7 +37417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,297억원",
             "opProfit": "1,007억원",
             "netProfit": "765억원",
@@ -37489,7 +37489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,840억원",
             "opProfit": "707억원",
             "netProfit": "537억원",
@@ -37561,7 +37561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,091억원",
             "opProfit": "804억원",
             "netProfit": "611억원",
@@ -37633,7 +37633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,272억원",
             "opProfit": "440억원",
             "netProfit": "334억원",
@@ -37705,7 +37705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,249억원",
             "opProfit": "1,399억원",
             "netProfit": "1,063억원",
@@ -37777,7 +37777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,995억원",
             "opProfit": "1,133억원",
             "netProfit": "861억원",
@@ -37849,7 +37849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,452억원",
             "opProfit": "421억원",
             "netProfit": "320억원",
@@ -37921,7 +37921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,478억원",
             "opProfit": "228억원",
             "netProfit": "173억원",
@@ -37993,7 +37993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,072억원",
             "opProfit": "639억원",
             "netProfit": "486억원",
@@ -38065,7 +38065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,052억원",
             "opProfit": "733억원",
             "netProfit": "557억원",
@@ -38137,7 +38137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,791억원",
             "opProfit": "380억원",
             "netProfit": "289억원",
@@ -38209,7 +38209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,712억원",
             "opProfit": "374억원",
             "netProfit": "284억원",
@@ -38281,7 +38281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,726억원",
             "opProfit": "387억원",
             "netProfit": "294억원",
@@ -38353,7 +38353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,502억원",
             "opProfit": "330억원",
             "netProfit": "251억원",
@@ -38425,7 +38425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,659억원",
             "opProfit": "388억원",
             "netProfit": "295억원",
@@ -38497,7 +38497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,338억원",
             "opProfit": "104억원",
             "netProfit": "79억원",
@@ -38569,7 +38569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,395억원",
             "opProfit": "642억원",
             "netProfit": "488억원",
@@ -38641,7 +38641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,231억원",
             "opProfit": "326억원",
             "netProfit": "248억원",
@@ -38713,7 +38713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,051억원",
             "opProfit": "291억원",
             "netProfit": "221억원",
@@ -38785,7 +38785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,055억원",
             "opProfit": "310억원",
             "netProfit": "236억원",
@@ -38857,7 +38857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,095억원",
             "opProfit": "92억원",
             "netProfit": "70억원",
@@ -38929,7 +38929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,310억원",
             "opProfit": "147억원",
             "netProfit": "112억원",
@@ -39001,7 +39001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,952억원",
             "opProfit": "320억원",
             "netProfit": "243억원",
@@ -39073,7 +39073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,432억원",
             "opProfit": "182억원",
             "netProfit": "138억원",
@@ -39145,7 +39145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,741억원",
             "opProfit": "268억원",
             "netProfit": "204억원",
@@ -39217,7 +39217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,948억원",
             "opProfit": "341억원",
             "netProfit": "259억원",
@@ -39289,7 +39289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,890억원",
             "opProfit": "329억원",
             "netProfit": "250억원",
@@ -39361,7 +39361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,803억원",
             "opProfit": "308억원",
             "netProfit": "234억원",
@@ -39433,7 +39433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,358억원",
             "opProfit": "183억원",
             "netProfit": "139억원",
@@ -39505,7 +39505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,526억원",
             "opProfit": "232억원",
             "netProfit": "176억원",
@@ -39577,7 +39577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,497억원",
             "opProfit": "226억원",
             "netProfit": "172억원",
@@ -39649,7 +39649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,733억원",
             "opProfit": "328억원",
             "netProfit": "249억원",
@@ -39721,7 +39721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,325억원",
             "opProfit": "207억원",
             "netProfit": "157억원",
@@ -39793,7 +39793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,488억원",
             "opProfit": "260억원",
             "netProfit": "198억원",
@@ -39865,7 +39865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "960억원",
             "opProfit": "112억원",
             "netProfit": "85억원",
@@ -39937,7 +39937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "798억원",
             "opProfit": "79억원",
             "netProfit": "60억원",
@@ -40009,7 +40009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "689억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -40081,7 +40081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "646억원",
             "opProfit": "54억원",
             "netProfit": "41억원",
@@ -40153,7 +40153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,319억원",
             "opProfit": "231억원",
             "netProfit": "176억원",
@@ -40225,7 +40225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "599억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -40297,7 +40297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,277억원",
             "opProfit": "230억원",
             "netProfit": "175억원",
@@ -40369,7 +40369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "801억원",
             "opProfit": "94억원",
             "netProfit": "71억원",
@@ -40441,7 +40441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,101억원",
             "opProfit": "176억원",
             "netProfit": "134억원",
@@ -40513,7 +40513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "759억원",
             "opProfit": "87억원",
             "netProfit": "66억원",
@@ -40585,7 +40585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "791억원",
             "opProfit": "97억원",
             "netProfit": "74억원",
@@ -40657,7 +40657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "994억원",
             "opProfit": "155억원",
             "netProfit": "118억원",
@@ -40729,7 +40729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,098억원",
             "opProfit": "192억원",
             "netProfit": "146억원",
@@ -40801,7 +40801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "891억원",
             "opProfit": "129억원",
             "netProfit": "98억원",
@@ -40873,7 +40873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "889억원",
             "opProfit": "130억원",
             "netProfit": "99억원",
@@ -40945,7 +40945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "503억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -41017,7 +41017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "552억원",
             "opProfit": "51억원",
             "netProfit": "39억원",
@@ -41089,7 +41089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,091억원",
             "opProfit": "194억원",
             "netProfit": "147억원",
@@ -41161,7 +41161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "905억원",
             "opProfit": "137억원",
             "netProfit": "104억원",
@@ -41233,7 +41233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "948억원",
             "opProfit": "152억원",
             "netProfit": "116억원",
@@ -41305,7 +41305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "843억원",
             "opProfit": "123억원",
             "netProfit": "93억원",
@@ -41377,7 +41377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "811억원",
             "opProfit": "118억원",
             "netProfit": "90억원",
@@ -41449,7 +41449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "894억원",
             "opProfit": "143억원",
             "netProfit": "109억원",
@@ -41521,7 +41521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "750억원",
             "opProfit": "110억원",
             "netProfit": "84억원",
@@ -41593,7 +41593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "578억원",
             "opProfit": "67억원",
             "netProfit": "51억원",
@@ -41665,7 +41665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "351억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -41737,7 +41737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "481억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -41809,7 +41809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "577억원",
             "opProfit": "76억원",
             "netProfit": "58억원",
@@ -41881,7 +41881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "658억원",
             "opProfit": "105억원",
             "netProfit": "80억원",
@@ -41953,7 +41953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "715억원",
             "opProfit": "125억원",
             "netProfit": "95억원",
@@ -42025,7 +42025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "394억원",
             "opProfit": "41억원",
             "netProfit": "31억원",
@@ -42097,7 +42097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "508억원",
             "opProfit": "67억원",
             "netProfit": "51억원",
@@ -42169,7 +42169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "267억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -42241,7 +42241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "378억원",
             "opProfit": "46억원",
             "netProfit": "35억원",
@@ -42313,7 +42313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "562억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -42385,7 +42385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "429억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -42457,7 +42457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "592억원",
             "opProfit": "112억원",
             "netProfit": "85억원",
@@ -42529,7 +42529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "547억원",
             "opProfit": "98억원",
             "netProfit": "74억원",
@@ -42601,7 +42601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "542억원",
             "opProfit": "98억원",
             "netProfit": "74억원",
@@ -42673,7 +42673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "212억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -42745,7 +42745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "427억원",
             "opProfit": "64억원",
             "netProfit": "49억원",
@@ -42817,7 +42817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "285억원",
             "opProfit": "29억원",
             "netProfit": "22억원",
@@ -42889,7 +42889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "459억원",
             "opProfit": "74억원",
             "netProfit": "56억원",
@@ -42961,7 +42961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "276억원",
             "opProfit": "29억원",
             "netProfit": "22억원",
@@ -43033,7 +43033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "431억원",
             "opProfit": "70억원",
             "netProfit": "53억원",
@@ -43105,7 +43105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "190억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -43177,7 +43177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "337억원",
             "opProfit": "49억원",
             "netProfit": "37억원",
@@ -43249,7 +43249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "338억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -43321,7 +43321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "255억원",
             "opProfit": "41억원",
             "netProfit": "31억원",
@@ -43393,7 +43393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "124억원",
             "opProfit": "11억원",
             "netProfit": "8억원",
@@ -43465,7 +43465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "227억원",
             "opProfit": "39억원",
             "netProfit": "30억원",
@@ -43537,7 +43537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "131억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -43609,7 +43609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "192억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -43737,7 +43737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,211억원",
             "opProfit": "1,478억원",
             "netProfit": "1,123억원",
@@ -43809,7 +43809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "58%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,651억원",
             "opProfit": "952억원",
             "netProfit": "724억원",
@@ -43881,7 +43881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,106억원",
             "opProfit": "2,288억원",
             "netProfit": "1,739억원",
@@ -43953,7 +43953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 283억원",
             "opProfit": "1,748억원",
             "netProfit": "1,328억원",
@@ -44025,7 +44025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,836억원",
             "opProfit": "1,661억원",
             "netProfit": "1,262억원",
@@ -44097,7 +44097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,232억원",
             "opProfit": "1,331억원",
             "netProfit": "1,012억원",
@@ -44169,7 +44169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,919억원",
             "opProfit": "743억원",
             "netProfit": "565억원",
@@ -44241,7 +44241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,687억원",
             "opProfit": "435억원",
             "netProfit": "331억원",
@@ -44313,7 +44313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,508억원",
             "opProfit": "246억원",
             "netProfit": "187억원",
@@ -44385,7 +44385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,243억원",
             "opProfit": "700억원",
             "netProfit": "532억원",
@@ -44457,7 +44457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,846억원",
             "opProfit": "336억원",
             "netProfit": "255억원",
@@ -44529,7 +44529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "101%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,759억원",
             "opProfit": "632억원",
             "netProfit": "480억원",
@@ -44601,7 +44601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,841억원",
             "opProfit": "177억원",
             "netProfit": "135억원",
@@ -44673,7 +44673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,669억원",
             "opProfit": "145억원",
             "netProfit": "110억원",
@@ -44745,7 +44745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,986억원",
             "opProfit": "466억원",
             "netProfit": "354억원",
@@ -44817,7 +44817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,558억원",
             "opProfit": "651억원",
             "netProfit": "495억원",
@@ -44889,7 +44889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,146억원",
             "opProfit": "253억원",
             "netProfit": "192억원",
@@ -44961,7 +44961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,491억원",
             "opProfit": "339억원",
             "netProfit": "258억원",
@@ -45033,7 +45033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,912억원",
             "opProfit": "495억원",
             "netProfit": "376억원",
@@ -45105,7 +45105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,491억원",
             "opProfit": "376억원",
             "netProfit": "286억원",
@@ -45177,7 +45177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,049억원",
             "opProfit": "299억원",
             "netProfit": "227억원",
@@ -45249,7 +45249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,517억원",
             "opProfit": "170억원",
             "netProfit": "129억원",
@@ -45321,7 +45321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,281억원",
             "opProfit": "376억원",
             "netProfit": "286억원",
@@ -45393,7 +45393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,786억원",
             "opProfit": "243억원",
             "netProfit": "185억원",
@@ -45465,7 +45465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,460억원",
             "opProfit": "168억원",
             "netProfit": "128억원",
@@ -45537,7 +45537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,617억원",
             "opProfit": "228억원",
             "netProfit": "173억원",
@@ -45609,7 +45609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,406억원",
             "opProfit": "186억원",
             "netProfit": "141억원",
@@ -45681,7 +45681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,922억원",
             "opProfit": "365억원",
             "netProfit": "277억원",
@@ -45753,7 +45753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,196억원",
             "opProfit": "153억원",
             "netProfit": "116억원",
@@ -45825,7 +45825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,047억원",
             "opProfit": "120억원",
             "netProfit": "91억원",
@@ -45897,7 +45897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "939억원",
             "opProfit": "101억원",
             "netProfit": "77억원",
@@ -45969,7 +45969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,408억원",
             "opProfit": "232억원",
             "netProfit": "176억원",
@@ -46041,7 +46041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "721억원",
             "opProfit": "63억원",
             "netProfit": "48억원",
@@ -46113,7 +46113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,562억원",
             "opProfit": "294억원",
             "netProfit": "223억원",
@@ -46185,7 +46185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,200억원",
             "opProfit": "181억원",
             "netProfit": "138억원",
@@ -46257,7 +46257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,218억원",
             "opProfit": "219억원",
             "netProfit": "166억원",
@@ -46329,7 +46329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "555억원",
             "opProfit": "49억원",
             "netProfit": "37억원",
@@ -46401,7 +46401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "482억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -46473,7 +46473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "963억원",
             "opProfit": "164억원",
             "netProfit": "125억원",
@@ -46545,7 +46545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "644억원",
             "opProfit": "76억원",
             "netProfit": "58억원",
@@ -46617,7 +46617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "404억원",
             "opProfit": "32억원",
             "netProfit": "24억원",
@@ -46689,7 +46689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "784억원",
             "opProfit": "118억원",
             "netProfit": "90억원",
@@ -46761,7 +46761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "870억원",
             "opProfit": "144억원",
             "netProfit": "109억원",
@@ -46833,7 +46833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "711억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -46905,7 +46905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "957억원",
             "opProfit": "182억원",
             "netProfit": "138억원",
@@ -46977,7 +46977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "486억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -47049,7 +47049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "884억원",
             "opProfit": "167억원",
             "netProfit": "127억원",
@@ -47121,7 +47121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "479억원",
             "opProfit": "56억원",
             "netProfit": "43억원",
@@ -47193,7 +47193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "395억원",
             "opProfit": "39억원",
             "netProfit": "30억원",
@@ -47265,7 +47265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "598억원",
             "opProfit": "87억원",
             "netProfit": "66억원",
@@ -47337,7 +47337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "626억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -47409,7 +47409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "705억원",
             "opProfit": "127억원",
             "netProfit": "97억원",
@@ -47481,7 +47481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "515억원",
             "opProfit": "75억원",
             "netProfit": "57억원",
@@ -47553,7 +47553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "543억원",
             "opProfit": "92억원",
             "netProfit": "70억원",
@@ -47625,7 +47625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "523억원",
             "opProfit": "92억원",
             "netProfit": "70억원",
@@ -47697,7 +47697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "396억원",
             "opProfit": "54억원",
             "netProfit": "41억원",
@@ -47769,7 +47769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "557억원",
             "opProfit": "105억원",
             "netProfit": "80억원",
@@ -47841,7 +47841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "343억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -47913,7 +47913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "496억원",
             "opProfit": "87억원",
             "netProfit": "66억원",
@@ -47985,7 +47985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "242억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -48057,7 +48057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "367억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -48129,7 +48129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "442억원",
             "opProfit": "80억원",
             "netProfit": "61억원",
@@ -48201,7 +48201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "202억원",
             "opProfit": "18억원",
             "netProfit": "14억원",
@@ -48273,7 +48273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "253억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -48345,7 +48345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "282억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -48417,7 +48417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "297억원",
             "opProfit": "40억원",
             "netProfit": "30억원",
@@ -48489,7 +48489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "205억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -48561,7 +48561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "123억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -48633,7 +48633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "138억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -48705,7 +48705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "169억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -48777,7 +48777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "120억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -48905,7 +48905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "34조 317억원",
             "opProfit": "6조 576억원",
             "netProfit": "4조 6,038억원",
@@ -48977,7 +48977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "17조 5,361억원",
             "opProfit": "2조 7,356억원",
             "netProfit": "2조 791억원",
@@ -49049,7 +49049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "11조 8,200억원",
             "opProfit": "1조 6,548억원",
             "netProfit": "1조 2,576억원",
@@ -49121,7 +49121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8조 4,564억원",
             "opProfit": "1조 2,346억원",
             "netProfit": "9,383억원",
@@ -49193,7 +49193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 4,532억원",
             "opProfit": "5,433억원",
             "netProfit": "4,129억원",
@@ -49265,7 +49265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 4,923억원",
             "opProfit": "5,448억원",
             "netProfit": "4,140억원",
@@ -49337,7 +49337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,799억원",
             "opProfit": "911억원",
             "netProfit": "692억원",
@@ -49409,7 +49409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,273억원",
             "opProfit": "1,076억원",
             "netProfit": "818억원",
@@ -49481,7 +49481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,978억원",
             "opProfit": "1,557억원",
             "netProfit": "1,183억원",
@@ -49553,7 +49553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,279억원",
             "opProfit": "647억원",
             "netProfit": "492억원",
@@ -49625,7 +49625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,639억원",
             "opProfit": "524억원",
             "netProfit": "398억원",
@@ -49697,7 +49697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,315억원",
             "opProfit": "682억원",
             "netProfit": "518억원",
@@ -49769,7 +49769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,838억원",
             "opProfit": "1,441억원",
             "netProfit": "1,095억원",
@@ -49841,7 +49841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 66억원",
             "opProfit": "1,913억원",
             "netProfit": "1,454억원",
@@ -49913,7 +49913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,533억원",
             "opProfit": "843억원",
             "netProfit": "641억원",
@@ -49985,7 +49985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,400억원",
             "opProfit": "493억원",
             "netProfit": "375억원",
@@ -50057,7 +50057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,024억원",
             "opProfit": "1,292억원",
             "netProfit": "982억원",
@@ -50129,7 +50129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,367억원",
             "opProfit": "550억원",
             "netProfit": "418억원",
@@ -50201,7 +50201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,977억원",
             "opProfit": "259억원",
             "netProfit": "197억원",
@@ -50273,7 +50273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,429억원",
             "opProfit": "363억원",
             "netProfit": "276억원",
@@ -50345,7 +50345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,551억원",
             "opProfit": "642억원",
             "netProfit": "488억원",
@@ -50417,7 +50417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,892억원",
             "opProfit": "807억원",
             "netProfit": "613억원",
@@ -50489,7 +50489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,349억원",
             "opProfit": "709억원",
             "netProfit": "539억원",
@@ -50561,7 +50561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,405억원",
             "opProfit": "775억원",
             "netProfit": "589억원",
@@ -50633,7 +50633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,475억원",
             "opProfit": "255억원",
             "netProfit": "194억원",
@@ -50705,7 +50705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "87%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,573억원",
             "opProfit": "529억원",
             "netProfit": "402억원",
@@ -50777,7 +50777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,413억원",
             "opProfit": "821억원",
             "netProfit": "624억원",
@@ -50849,7 +50849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,732억원",
             "opProfit": "347억원",
             "netProfit": "264억원",
@@ -50921,7 +50921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,659억원",
             "opProfit": "338억원",
             "netProfit": "257억원",
@@ -50993,7 +50993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,629억원",
             "opProfit": "337억원",
             "netProfit": "256억원",
@@ -51065,7 +51065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,207억원",
             "opProfit": "256억원",
             "netProfit": "195억원",
@@ -51137,7 +51137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,790억원",
             "opProfit": "731억원",
             "netProfit": "556억원",
@@ -51209,7 +51209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,838억원",
             "opProfit": "187억원",
             "netProfit": "142억원",
@@ -51281,7 +51281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,082억원",
             "opProfit": "539억원",
             "netProfit": "410억원",
@@ -51353,7 +51353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,271억원",
             "opProfit": "332억원",
             "netProfit": "252억원",
@@ -51425,7 +51425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,991억원",
             "opProfit": "271억원",
             "netProfit": "206억원",
@@ -51497,7 +51497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,794억원",
             "opProfit": "228억원",
             "netProfit": "173억원",
@@ -51569,7 +51569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,631억원",
             "opProfit": "484억원",
             "netProfit": "368억원",
@@ -51641,7 +51641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,309억원",
             "opProfit": "393억원",
             "netProfit": "299억원",
@@ -51713,7 +51713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,763억원",
             "opProfit": "250억원",
             "netProfit": "190억원",
@@ -51785,7 +51785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,824억원",
             "opProfit": "281억원",
             "netProfit": "214억원",
@@ -51857,7 +51857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,314억원",
             "opProfit": "150억원",
             "netProfit": "114억원",
@@ -51929,7 +51929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "873억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -52001,7 +52001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,340억원",
             "opProfit": "162억원",
             "netProfit": "123억원",
@@ -52073,7 +52073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "936억원",
             "opProfit": "87억원",
             "netProfit": "66억원",
@@ -52145,7 +52145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,196억원",
             "opProfit": "141억원",
             "netProfit": "107억원",
@@ -52217,7 +52217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,178억원",
             "opProfit": "138억원",
             "netProfit": "105억원",
@@ -52289,7 +52289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "957억원",
             "opProfit": "99억원",
             "netProfit": "75억원",
@@ -52361,7 +52361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,853억원",
             "opProfit": "352억원",
             "netProfit": "268억원",
@@ -52433,7 +52433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,558억원",
             "opProfit": "263억원",
             "netProfit": "200억원",
@@ -52505,7 +52505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,115억원",
             "opProfit": "140억원",
             "netProfit": "106억원",
@@ -52577,7 +52577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,390억원",
             "opProfit": "222억원",
             "netProfit": "169억원",
@@ -52649,7 +52649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "690억원",
             "opProfit": "59억원",
             "netProfit": "45억원",
@@ -52721,7 +52721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,036억원",
             "opProfit": "132억원",
             "netProfit": "100억원",
@@ -52793,7 +52793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,336억원",
             "opProfit": "220억원",
             "netProfit": "167억원",
@@ -52865,7 +52865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,105억원",
             "opProfit": "156억원",
             "netProfit": "119억원",
@@ -52937,7 +52937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "674억원",
             "opProfit": "59억원",
             "netProfit": "45억원",
@@ -53009,7 +53009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,462억원",
             "opProfit": "269억원",
             "netProfit": "204억원",
@@ -53081,7 +53081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,052억원",
             "opProfit": "153억원",
             "netProfit": "116억원",
@@ -53153,7 +53153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "809억원",
             "opProfit": "94억원",
             "netProfit": "71억원",
@@ -53225,7 +53225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,390억원",
             "opProfit": "267억원",
             "netProfit": "203억원",
@@ -53297,7 +53297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "528억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -53369,7 +53369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,304억원",
             "opProfit": "245억원",
             "netProfit": "186억원",
@@ -53441,7 +53441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,225억원",
             "opProfit": "221억원",
             "netProfit": "168억원",
@@ -53513,7 +53513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,285억원",
             "opProfit": "243억원",
             "netProfit": "185억원",
@@ -53585,7 +53585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,060억원",
             "opProfit": "170억원",
             "netProfit": "129억원",
@@ -53657,7 +53657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "743억원",
             "opProfit": "87억원",
             "netProfit": "66억원",
@@ -53729,7 +53729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "656억원",
             "opProfit": "71억원",
             "netProfit": "54억원",
@@ -53801,7 +53801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "629억원",
             "opProfit": "67억원",
             "netProfit": "51억원",
@@ -53873,7 +53873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,169억원",
             "opProfit": "221억원",
             "netProfit": "168억원",
@@ -53945,7 +53945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "594억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -54017,7 +54017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "363억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -54089,7 +54089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "494억원",
             "opProfit": "51억원",
             "netProfit": "39억원",
@@ -54161,7 +54161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "602억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -54233,7 +54233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "776억원",
             "opProfit": "136억원",
             "netProfit": "103억원",
@@ -54305,7 +54305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "604억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -54377,7 +54377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "782억원",
             "opProfit": "141억원",
             "netProfit": "107억원",
@@ -54449,7 +54449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "303억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -54521,7 +54521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "627억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -54593,7 +54593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "429억원",
             "opProfit": "48억원",
             "netProfit": "36억원",
@@ -54665,7 +54665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "294억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -54737,7 +54737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "538억원",
             "opProfit": "76억원",
             "netProfit": "58억원",
@@ -54809,7 +54809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "651억원",
             "opProfit": "111억원",
             "netProfit": "84억원",
@@ -54881,7 +54881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "702억원",
             "opProfit": "133억원",
             "netProfit": "101억원",
@@ -54953,7 +54953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "595억원",
             "opProfit": "98억원",
             "netProfit": "74억원",
@@ -55025,7 +55025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "65%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "419억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -55097,7 +55097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "393억원",
             "opProfit": "44억원",
             "netProfit": "33억원",
@@ -55169,7 +55169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "425억원",
             "opProfit": "52억원",
             "netProfit": "40억원",
@@ -55241,7 +55241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "376억원",
             "opProfit": "41억원",
             "netProfit": "31억원",
@@ -55313,7 +55313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "435억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -55385,7 +55385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "384억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -55457,7 +55457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "299억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -55529,7 +55529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "464억원",
             "opProfit": "63억원",
             "netProfit": "48억원",
@@ -55601,7 +55601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "535억원",
             "opProfit": "83억원",
             "netProfit": "63억원",
@@ -55673,7 +55673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "289억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -55745,7 +55745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "270억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -55817,7 +55817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "342억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -55889,7 +55889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "387억원",
             "opProfit": "48억원",
             "netProfit": "36억원",
@@ -55961,7 +55961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "325억원",
             "opProfit": "35억원",
             "netProfit": "27억원",
@@ -56033,7 +56033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "331억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -56105,7 +56105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "330억원",
             "opProfit": "38억원",
             "netProfit": "29억원",
@@ -56177,7 +56177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "316억원",
             "opProfit": "35억원",
             "netProfit": "27억원",
@@ -56249,7 +56249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "420억원",
             "opProfit": "62억원",
             "netProfit": "47억원",
@@ -56321,7 +56321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "396억원",
             "opProfit": "56억원",
             "netProfit": "43억원",
@@ -56393,7 +56393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "518억원",
             "opProfit": "95억원",
             "netProfit": "72억원",
@@ -56465,7 +56465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "376억원",
             "opProfit": "53억원",
             "netProfit": "40억원",
@@ -56537,7 +56537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "479억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -56609,7 +56609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "498억원",
             "opProfit": "94억원",
             "netProfit": "71억원",
@@ -56681,7 +56681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "238억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -56753,7 +56753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "380억원",
             "opProfit": "59억원",
             "netProfit": "45억원",
@@ -56825,7 +56825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "340억원",
             "opProfit": "48억원",
             "netProfit": "36억원",
@@ -56897,7 +56897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "229억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -56969,7 +56969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "250억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -57041,7 +57041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "267억원",
             "opProfit": "34억원",
             "netProfit": "26억원",
@@ -57113,7 +57113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "179억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -57185,7 +57185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "161억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -57257,7 +57257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "113억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -57329,7 +57329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "117억원",
             "opProfit": "18억원",
             "netProfit": "14억원",
@@ -57401,7 +57401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -57473,7 +57473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -57601,7 +57601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "20조 9,108억원",
             "opProfit": "2조 74억원",
             "netProfit": "1조 5,256억원",
@@ -57673,7 +57673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 9,436억원",
             "opProfit": "3,470억원",
             "netProfit": "2,637억원",
@@ -57745,7 +57745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "94%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 5,925억원",
             "opProfit": "5,676억원",
             "netProfit": "4,314억원",
@@ -57817,7 +57817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,126억원",
             "opProfit": "901억원",
             "netProfit": "685억원",
@@ -57889,7 +57889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,331억원",
             "opProfit": "162억원",
             "netProfit": "123억원",
@@ -58017,7 +58017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,775억원",
             "opProfit": "733억원",
             "netProfit": "557억원",
@@ -58089,7 +58089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,610억원",
             "opProfit": "360억원",
             "netProfit": "274억원",
@@ -58161,7 +58161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,165억원",
             "opProfit": "563억원",
             "netProfit": "428억원",
@@ -58233,7 +58233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "750억원",
             "opProfit": "66억원",
             "netProfit": "50억원",
@@ -58305,7 +58305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,101억원",
             "opProfit": "146억원",
             "netProfit": "111억원",
@@ -58377,7 +58377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "920억원",
             "opProfit": "107억원",
             "netProfit": "81억원",
@@ -58449,7 +58449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,203억원",
             "opProfit": "205억원",
             "netProfit": "156억원",
@@ -58521,7 +58521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,017억원",
             "opProfit": "148억원",
             "netProfit": "112억원",
@@ -58593,7 +58593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "413억원",
             "opProfit": "32억원",
             "netProfit": "24억원",
@@ -58665,7 +58665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "870억원",
             "opProfit": "138억원",
             "netProfit": "105억원",
@@ -58737,7 +58737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "719억원",
             "opProfit": "116억원",
             "netProfit": "88억원",
@@ -58809,7 +58809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "778억원",
             "opProfit": "140억원",
             "netProfit": "106억원",
@@ -58881,7 +58881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "269억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -58953,7 +58953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "261억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -59025,7 +59025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "519억원",
             "opProfit": "93억원",
             "netProfit": "71억원",
@@ -59097,7 +59097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "455억원",
             "opProfit": "73억원",
             "netProfit": "55억원",
@@ -59169,7 +59169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "221억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -59241,7 +59241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "311억원",
             "opProfit": "38억원",
             "netProfit": "29억원",
@@ -59313,7 +59313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "443억원",
             "opProfit": "84억원",
             "netProfit": "64억원",
@@ -59385,7 +59385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "225억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -59457,7 +59457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "116억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -59585,7 +59585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,747억원",
             "opProfit": "635억원",
             "netProfit": "483억원",
@@ -59657,7 +59657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,764억원",
             "opProfit": "1,242억원",
             "netProfit": "944억원",
@@ -59729,7 +59729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,290억원",
             "opProfit": "925억원",
             "netProfit": "703억원",
@@ -59801,7 +59801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,674억원",
             "opProfit": "622억원",
             "netProfit": "473억원",
@@ -59873,7 +59873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,222억원",
             "opProfit": "470억원",
             "netProfit": "357억원",
@@ -59945,7 +59945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,419억원",
             "opProfit": "609억원",
             "netProfit": "463억원",
@@ -60017,7 +60017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,525억원",
             "opProfit": "174억원",
             "netProfit": "132억원",
@@ -60089,7 +60089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "105%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,003억원",
             "opProfit": "345억원",
             "netProfit": "262억원",
@@ -60161,7 +60161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,136억원",
             "opProfit": "404억원",
             "netProfit": "307억원",
@@ -60233,7 +60233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,279억원",
             "opProfit": "156억원",
             "netProfit": "119억원",
@@ -60305,7 +60305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,007억원",
             "opProfit": "103억원",
             "netProfit": "78억원",
@@ -60377,7 +60377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,095억원",
             "opProfit": "141억원",
             "netProfit": "107억원",
@@ -60449,7 +60449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "859억원",
             "opProfit": "125억원",
             "netProfit": "95억원",
@@ -60521,7 +60521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,115억원",
             "opProfit": "214억원",
             "netProfit": "163억원",
@@ -60593,7 +60593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "440억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -60665,7 +60665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "636억원",
             "opProfit": "90억원",
             "netProfit": "68억원",
@@ -60737,7 +60737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "513억원",
             "opProfit": "63억원",
             "netProfit": "48억원",
@@ -60809,7 +60809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "335억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -60881,7 +60881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "502억원",
             "opProfit": "68억원",
             "netProfit": "52억원",
@@ -60953,7 +60953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "87%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "310억원",
             "opProfit": "46억원",
             "netProfit": "35억원",
@@ -61025,7 +61025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "187억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -61097,7 +61097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "169억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -61169,7 +61169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "182억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -61241,7 +61241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "366억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -61313,7 +61313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "112%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "349억원",
             "opProfit": "64억원",
             "netProfit": "49억원",
@@ -61385,7 +61385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "203억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -61457,7 +61457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "256억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -61529,7 +61529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "303억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -61601,7 +61601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "235억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -61673,7 +61673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "213억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -61745,7 +61745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "241억원",
             "opProfit": "33억원",
             "netProfit": "25억원",
@@ -61817,7 +61817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "101%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "293억원",
             "opProfit": "49억원",
             "netProfit": "37억원",
@@ -61889,7 +61889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "195억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -61961,7 +61961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "309억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -62033,7 +62033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "273억원",
             "opProfit": "44억원",
             "netProfit": "33억원",
@@ -62105,7 +62105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "302억원",
             "opProfit": "54억원",
             "netProfit": "41억원",
@@ -62177,7 +62177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "286억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -62249,7 +62249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "277억원",
             "opProfit": "47억원",
             "netProfit": "36억원",
@@ -62321,7 +62321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "251억원",
             "opProfit": "39억원",
             "netProfit": "30억원",
@@ -62393,7 +62393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "246억원",
             "opProfit": "38억원",
             "netProfit": "29억원",
@@ -62465,7 +62465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "130억원",
             "opProfit": "11억원",
             "netProfit": "8억원",
@@ -62537,7 +62537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "160억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -62609,7 +62609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "198억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -62681,7 +62681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "190억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -62753,7 +62753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "151억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -62825,7 +62825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "186억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -62897,7 +62897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "120억원",
             "opProfit": "10억원",
             "netProfit": "8억원",
@@ -62969,7 +62969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "138억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -63041,7 +63041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "44%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "135억원",
             "opProfit": "12억원",
             "netProfit": "9억원",
@@ -63113,7 +63113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "296억원",
             "opProfit": "56억원",
             "netProfit": "43억원",
@@ -63185,7 +63185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "109억원",
             "opProfit": "8억원",
             "netProfit": "6억원",
@@ -63257,7 +63257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "186억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -63329,7 +63329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "160억원",
             "opProfit": "18억원",
             "netProfit": "14억원",
@@ -63401,7 +63401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "219억원",
             "opProfit": "33억원",
             "netProfit": "25억원",
@@ -63473,7 +63473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "279억원",
             "opProfit": "53억원",
             "netProfit": "40억원",
@@ -63545,7 +63545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "231억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -63617,7 +63617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "248억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -63689,7 +63689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "264억원",
             "opProfit": "49억원",
             "netProfit": "37억원",
@@ -63761,7 +63761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "101%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "236억원",
             "opProfit": "40억원",
             "netProfit": "30억원",
@@ -63833,7 +63833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "228억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -63905,7 +63905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "196억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -63977,7 +63977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "178억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -64049,7 +64049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "193억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -64121,7 +64121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "175억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -64193,7 +64193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "65%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "158억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -64265,7 +64265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "213억원",
             "opProfit": "34억원",
             "netProfit": "26억원",
@@ -64337,7 +64337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "131억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -64409,7 +64409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "206억원",
             "opProfit": "32억원",
             "netProfit": "24억원",
@@ -64481,7 +64481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "147억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -64553,7 +64553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "167억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -64625,7 +64625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "235억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -64697,7 +64697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "165억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -64769,7 +64769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "207억원",
             "opProfit": "34억원",
             "netProfit": "26억원",
@@ -64841,7 +64841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "125억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -64913,7 +64913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "101%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "209억원",
             "opProfit": "35억원",
             "netProfit": "27억원",
@@ -64985,7 +64985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "111억원",
             "opProfit": "10억원",
             "netProfit": "8억원",
@@ -65057,7 +65057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "87%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "166억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -65129,7 +65129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "180억원",
             "opProfit": "29억원",
             "netProfit": "22억원",
@@ -65201,7 +65201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "152억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -65273,7 +65273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "163억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -65345,7 +65345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "189억원",
             "opProfit": "33억원",
             "netProfit": "25억원",
@@ -65417,7 +65417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "87%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "155억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -65489,7 +65489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "111억원",
             "opProfit": "10억원",
             "netProfit": "8억원",
@@ -65561,7 +65561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "162억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -65633,7 +65633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "162억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -65705,7 +65705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "126억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -65777,7 +65777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "112%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "151억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -65905,7 +65905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "66조 9,538억원",
             "opProfit": "9조 1,057억원",
             "netProfit": "6조 9,203억원",
@@ -65977,7 +65977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "16조 9,382억원",
             "opProfit": "3조 1,844억원",
             "netProfit": "2조 4,201억원",
@@ -66049,7 +66049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "65%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6조 9,217억원",
             "opProfit": "8,306억원",
             "netProfit": "6,313억원",
@@ -66121,7 +66121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 1,906억원",
             "opProfit": "5,087억원",
             "netProfit": "3,866억원",
@@ -66193,7 +66193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 2,791억원",
             "opProfit": "3,937억원",
             "netProfit": "2,992억원",
@@ -66265,7 +66265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 4,884억원",
             "opProfit": "6,970억원",
             "netProfit": "5,297억원",
@@ -66337,7 +66337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 2,227억원",
             "opProfit": "5,574억원",
             "netProfit": "4,236억원",
@@ -66409,7 +66409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 3,106억원",
             "opProfit": "7,500억원",
             "netProfit": "5,700억원",
@@ -66481,7 +66481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 9,605억원",
             "opProfit": "2,666억원",
             "netProfit": "2,026억원",
@@ -66553,7 +66553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 3,260억원",
             "opProfit": "4,466억원",
             "netProfit": "3,394억원",
@@ -66625,7 +66625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,183억원",
             "opProfit": "1,454억원",
             "netProfit": "1,105억원",
@@ -66697,7 +66697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,622억원",
             "opProfit": "523억원",
             "netProfit": "397억원",
@@ -66769,7 +66769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,090억원",
             "opProfit": "638억원",
             "netProfit": "485억원",
@@ -66841,7 +66841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,414억원",
             "opProfit": "2,213억원",
             "netProfit": "1,682억원",
@@ -66913,7 +66913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,836억원",
             "opProfit": "1,823억원",
             "netProfit": "1,385억원",
@@ -66985,7 +66985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 896억원",
             "opProfit": "1,591억원",
             "netProfit": "1,209억원",
@@ -67057,7 +67057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,428억원",
             "opProfit": "758억원",
             "netProfit": "576억원",
@@ -67129,7 +67129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,872억원",
             "opProfit": "540억원",
             "netProfit": "410억원",
@@ -67201,7 +67201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,140억원",
             "opProfit": "529억원",
             "netProfit": "402억원",
@@ -67273,7 +67273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,663억원",
             "opProfit": "1,464억원",
             "netProfit": "1,113억원",
@@ -67345,7 +67345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,914억원",
             "opProfit": "1,266억원",
             "netProfit": "962억원",
@@ -67417,7 +67417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,237억원",
             "opProfit": "1,114억원",
             "netProfit": "847억원",
@@ -67489,7 +67489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,848억원",
             "opProfit": "335억원",
             "netProfit": "255억원",
@@ -67561,7 +67561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,556억원",
             "opProfit": "574억원",
             "netProfit": "436억원",
@@ -67633,7 +67633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,565억원",
             "opProfit": "846억원",
             "netProfit": "643억원",
@@ -67705,7 +67705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,662억원",
             "opProfit": "662억원",
             "netProfit": "503억원",
@@ -67777,7 +67777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,291억원",
             "opProfit": "626억원",
             "netProfit": "476억원",
@@ -67849,7 +67849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,023억원",
             "opProfit": "587억원",
             "netProfit": "446억원",
@@ -67921,7 +67921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,679억원",
             "opProfit": "800억원",
             "netProfit": "608억원",
@@ -67993,7 +67993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,038억원",
             "opProfit": "355억원",
             "netProfit": "270억원",
@@ -68065,7 +68065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,856억원",
             "opProfit": "594억원",
             "netProfit": "451억원",
@@ -68137,7 +68137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,390억원",
             "opProfit": "773억원",
             "netProfit": "587억원",
@@ -68209,7 +68209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,370억원",
             "opProfit": "787억원",
             "netProfit": "598억원",
@@ -68281,7 +68281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,910억원",
             "opProfit": "160억원",
             "netProfit": "122억원",
@@ -68353,7 +68353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,474억원",
             "opProfit": "275억원",
             "netProfit": "209억원",
@@ -68425,7 +68425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,154억원",
             "opProfit": "442억원",
             "netProfit": "336억원",
@@ -68497,7 +68497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "116%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,218억원",
             "opProfit": "789억원",
             "netProfit": "600억원",
@@ -68569,7 +68569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,061억원",
             "opProfit": "444억원",
             "netProfit": "337억원",
@@ -68641,7 +68641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,859억원",
             "opProfit": "710억원",
             "netProfit": "540억원",
@@ -68713,7 +68713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,388억원",
             "opProfit": "282억원",
             "netProfit": "214억원",
@@ -68785,7 +68785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,860억원",
             "opProfit": "182억원",
             "netProfit": "138억원",
@@ -68857,7 +68857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,929억원",
             "opProfit": "203억원",
             "netProfit": "154억원",
@@ -68929,7 +68929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,696억원",
             "opProfit": "158억원",
             "netProfit": "120억원",
@@ -69001,7 +69001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,873억원",
             "opProfit": "457억원",
             "netProfit": "347억원",
@@ -69073,7 +69073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,856억원",
             "opProfit": "217억원",
             "netProfit": "165억원",
@@ -69145,7 +69145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,265억원",
             "opProfit": "331억원",
             "netProfit": "252억원",
@@ -69217,7 +69217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,643억원",
             "opProfit": "452억원",
             "netProfit": "344억원",
@@ -69289,7 +69289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,593억원",
             "opProfit": "438억원",
             "netProfit": "333억원",
@@ -69361,7 +69361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,514억원",
             "opProfit": "157억원",
             "netProfit": "119억원",
@@ -69433,7 +69433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,060억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -69505,7 +69505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,436억원",
             "opProfit": "148억원",
             "netProfit": "112억원",
@@ -69577,7 +69577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,291억원",
             "opProfit": "371억원",
             "netProfit": "282억원",
@@ -69649,7 +69649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,615억원",
             "opProfit": "497억원",
             "netProfit": "378억원",
@@ -69721,7 +69721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,221억원",
             "opProfit": "366억원",
             "netProfit": "278억원",
@@ -69793,7 +69793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,032억원",
             "opProfit": "83억원",
             "netProfit": "63억원",
@@ -69865,7 +69865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,440억원",
             "opProfit": "160억원",
             "netProfit": "122억원",
@@ -69937,7 +69937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,236억원",
             "opProfit": "120억원",
             "netProfit": "91억원",
@@ -70009,7 +70009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "937억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -70081,7 +70081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,415억원",
             "opProfit": "158억원",
             "netProfit": "120억원",
@@ -70153,7 +70153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,399억원",
             "opProfit": "441억원",
             "netProfit": "335억원",
@@ -70225,7 +70225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,436억원",
             "opProfit": "175억원",
             "netProfit": "133억원",
@@ -70297,7 +70297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,012억원",
             "opProfit": "342억원",
             "netProfit": "260억원",
@@ -70369,7 +70369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "989억원",
             "opProfit": "93억원",
             "netProfit": "71억원",
@@ -70441,7 +70441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "930억원",
             "opProfit": "92억원",
             "netProfit": "70억원",
@@ -70513,7 +70513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,811억원",
             "opProfit": "344억원",
             "netProfit": "261억원",
@@ -70585,7 +70585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,391억원",
             "opProfit": "210억원",
             "netProfit": "160억원",
@@ -70657,7 +70657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,456억원",
             "opProfit": "233억원",
             "netProfit": "177억원",
@@ -70729,7 +70729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "116%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,689억원",
             "opProfit": "316억원",
             "netProfit": "240억원",
@@ -70801,7 +70801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,314억원",
             "opProfit": "198억원",
             "netProfit": "150억원",
@@ -70873,7 +70873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,545억원",
             "opProfit": "270억원",
             "netProfit": "205억원",
@@ -70945,7 +70945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,075억원",
             "opProfit": "142억원",
             "netProfit": "108억원",
@@ -71017,7 +71017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "930억원",
             "opProfit": "107억원",
             "netProfit": "81억원",
@@ -71089,7 +71089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "979억원",
             "opProfit": "119억원",
             "netProfit": "90억원",
@@ -71161,7 +71161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,289억원",
             "opProfit": "206억원",
             "netProfit": "157억원",
@@ -71233,7 +71233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "550억원",
             "opProfit": "41억원",
             "netProfit": "31억원",
@@ -71305,7 +71305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "774억원",
             "opProfit": "80억원",
             "netProfit": "61억원",
@@ -71377,7 +71377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,469억원",
             "opProfit": "278억원",
             "netProfit": "211억원",
@@ -71449,7 +71449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,110억원",
             "opProfit": "173억원",
             "netProfit": "131억원",
@@ -71521,7 +71521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "711억원",
             "opProfit": "74억원",
             "netProfit": "56억원",
@@ -71593,7 +71593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "83%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "947억원",
             "opProfit": "136억원",
             "netProfit": "103억원",
@@ -71665,7 +71665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "761억원",
             "opProfit": "89억원",
             "netProfit": "68억원",
@@ -71737,7 +71737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "535억원",
             "opProfit": "45억원",
             "netProfit": "34억원",
@@ -71809,7 +71809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,007억원",
             "opProfit": "160억원",
             "netProfit": "122억원",
@@ -71881,7 +71881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "775억원",
             "opProfit": "98억원",
             "netProfit": "74억원",
@@ -71953,7 +71953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "474억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -72025,7 +72025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "638억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -72097,7 +72097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "602억원",
             "opProfit": "65억원",
             "netProfit": "49억원",
@@ -72169,7 +72169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "993억원",
             "opProfit": "179억원",
             "netProfit": "136억원",
@@ -72241,7 +72241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "514억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -72313,7 +72313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "516억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -72385,7 +72385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "406억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -72457,7 +72457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "442억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -72529,7 +72529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "315억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -72601,7 +72601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "337억원",
             "opProfit": "29억원",
             "netProfit": "22억원",
@@ -72673,7 +72673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "559억원",
             "opProfit": "91억원",
             "netProfit": "69억원",
@@ -72745,7 +72745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "574억원",
             "opProfit": "95억원",
             "netProfit": "72억원",
@@ -72817,7 +72817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "326억원",
             "opProfit": "32억원",
             "netProfit": "24억원",
@@ -72889,7 +72889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "529억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -72961,7 +72961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "264억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -73033,7 +73033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "217억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -73105,7 +73105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "450억원",
             "opProfit": "77억원",
             "netProfit": "59억원",
@@ -73177,7 +73177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "461억원",
             "opProfit": "81억원",
             "netProfit": "62억원",
@@ -73249,7 +73249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "368억원",
             "opProfit": "54억원",
             "netProfit": "41억원",
@@ -73321,7 +73321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "170억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -73393,7 +73393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110억원",
             "opProfit": "9억원",
             "netProfit": "7억원",
@@ -73521,7 +73521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "108조 278억원",
             "opProfit": "30조 4,638억원",
             "netProfit": "23조 1,525억원",
@@ -73593,7 +73593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7조 7,767억원",
             "opProfit": "2조 530억원",
             "netProfit": "1조 5,603억원",
@@ -73665,7 +73665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 5,918억원",
             "opProfit": "7,112억원",
             "netProfit": "5,405억원",
@@ -73793,7 +73793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "47조 1,987억원",
             "opProfit": "6조 8,438억원",
             "netProfit": "5조 2,013억원",
@@ -73865,7 +73865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 1,983억원",
             "opProfit": "3,759억원",
             "netProfit": "2,857억원",
@@ -73937,7 +73937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "878억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -74009,7 +74009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,317억원",
             "opProfit": "183억원",
             "netProfit": "139억원",
@@ -74081,7 +74081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,485억원",
             "opProfit": "244억원",
             "netProfit": "185억원",
@@ -74153,7 +74153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,630억원",
             "opProfit": "303억원",
             "netProfit": "230억원",
@@ -74225,7 +74225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,460억원",
             "opProfit": "274억원",
             "netProfit": "208억원",
@@ -74297,7 +74297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "752억원",
             "opProfit": "84억원",
             "netProfit": "64억원",
@@ -74369,7 +74369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "572억원",
             "opProfit": "77억원",
             "netProfit": "59억원",
@@ -74441,7 +74441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "251억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -74513,7 +74513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "501억원",
             "opProfit": "80억원",
             "netProfit": "61억원",
@@ -74585,7 +74585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "576억원",
             "opProfit": "106억원",
             "netProfit": "81억원",
@@ -74657,7 +74657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "225억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -74729,7 +74729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "354억원",
             "opProfit": "62억원",
             "netProfit": "47억원",
@@ -74801,7 +74801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "214억원",
             "opProfit": "29억원",
             "netProfit": "22억원",
@@ -74929,7 +74929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "828%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "28조 2,262억원",
             "opProfit": "7조 5,646억원",
             "netProfit": "5조 7,491억원",
@@ -75001,7 +75001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1124%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "26조 1,104억원",
             "opProfit": "8조 4,337억원",
             "netProfit": "6조 4,096억원",
@@ -75073,7 +75073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1340%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "20조 3,638억원",
             "opProfit": "7조 4,124억원",
             "netProfit": "5조 6,334억원",
@@ -75145,7 +75145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "996%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "13조 5,835억원",
             "opProfit": "4조 615억원",
             "netProfit": "3조 867억원",
@@ -75217,7 +75217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "660%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6조 9,727억원",
             "opProfit": "1조 6,456억원",
             "netProfit": "1조 2,507억원",
@@ -75289,7 +75289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1004%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9조 4,643억원",
             "opProfit": "2조 8,488억원",
             "netProfit": "2조 1,651억원",
@@ -75361,7 +75361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "692%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 1,427억원",
             "opProfit": "5,185억원",
             "netProfit": "3,941억원",
@@ -75433,7 +75433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "948%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 2,014억원",
             "opProfit": "6,384억원",
             "netProfit": "4,852억원",
@@ -75505,7 +75505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "740%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,186억원",
             "opProfit": "3,310억원",
             "netProfit": "2,516억원",
@@ -75577,7 +75577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "908%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 5,362억원",
             "opProfit": "4,347억원",
             "netProfit": "3,304억원",
@@ -75649,7 +75649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "716%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 932억원",
             "opProfit": "2,700억원",
             "netProfit": "2,052억원",
@@ -75721,7 +75721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "812%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,204억원",
             "opProfit": "2,969억원",
             "netProfit": "2,256억원",
@@ -75793,7 +75793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,797억원",
             "opProfit": "4,401억원",
             "netProfit": "3,345억원",
@@ -75865,7 +75865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "612%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,680억원",
             "opProfit": "1,516억원",
             "netProfit": "1,152억원",
@@ -75937,7 +75937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "820%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,422억원",
             "opProfit": "2,240억원",
             "netProfit": "1,702억원",
@@ -76009,7 +76009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "852%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,274억원",
             "opProfit": "1,707억원",
             "netProfit": "1,297억원",
@@ -76081,7 +76081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1068%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,176억원",
             "opProfit": "2,559억원",
             "netProfit": "1,945억원",
@@ -76153,7 +76153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "700%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,810억원",
             "opProfit": "1,174억원",
             "netProfit": "892억원",
@@ -76225,7 +76225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1132%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,993억원",
             "opProfit": "2,598억원",
             "netProfit": "1,974억원",
@@ -76297,7 +76297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "956%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,300억원",
             "opProfit": "1,840억원",
             "netProfit": "1,398억원",
@@ -76369,7 +76369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "940%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,041억원",
             "opProfit": "1,746억원",
             "netProfit": "1,327억원",
@@ -76441,7 +76441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1260%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,523억원",
             "opProfit": "2,626억원",
             "netProfit": "1,996억원",
@@ -76513,7 +76513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "676%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,482억원",
             "opProfit": "832억원",
             "netProfit": "632억원",
@@ -76585,7 +76585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,147억원",
             "opProfit": "1,647억원",
             "netProfit": "1,252억원",
@@ -76657,7 +76657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "676%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,345억원",
             "opProfit": "560억원",
             "netProfit": "426억원",
@@ -76729,7 +76729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "780%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,564억원",
             "opProfit": "664억원",
             "netProfit": "505억원",
@@ -76801,7 +76801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1044%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,468억원",
             "opProfit": "1,068억원",
             "netProfit": "812억원",
@@ -76873,7 +76873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "668%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,739억원",
             "opProfit": "414억원",
             "netProfit": "315억원",
@@ -76945,7 +76945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "652%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,595억원",
             "opProfit": "375억원",
             "netProfit": "285억원",
@@ -77017,7 +77017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "612%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,197억원",
             "opProfit": "272억원",
             "netProfit": "207억원",
@@ -77089,7 +77089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1172%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,763억원",
             "opProfit": "585억원",
             "netProfit": "445억원",
@@ -77161,7 +77161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1228%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,703억원",
             "opProfit": "584억원",
             "netProfit": "444억원",
@@ -77233,7 +77233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "700%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "534억원",
             "opProfit": "130억원",
             "netProfit": "99억원",
@@ -77305,7 +77305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "604%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "444억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -77377,7 +77377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1284%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "853억원",
             "opProfit": "301억원",
             "netProfit": "229억원",
@@ -77449,7 +77449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1276%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "621억원",
             "opProfit": "219억원",
             "netProfit": "166억원",
@@ -77521,7 +77521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "724%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "111억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -77593,7 +77593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1140%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "169억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -77665,7 +77665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1244%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "149억원",
             "opProfit": "52억원",
             "netProfit": "40억원",
@@ -77793,7 +77793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "338억원",
             "opProfit": "49억원",
             "netProfit": "37억원",
@@ -77921,7 +77921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,290억원",
             "opProfit": "1,000억원",
             "netProfit": "760억원",
@@ -77993,7 +77993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,124억원",
             "opProfit": "531억원",
             "netProfit": "404억원",
@@ -78065,7 +78065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,468억원",
             "opProfit": "186억원",
             "netProfit": "141억원",
@@ -78137,7 +78137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,269억원",
             "opProfit": "190억원",
             "netProfit": "144억원",
@@ -78209,7 +78209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "625억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -78281,7 +78281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "87%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "902억원",
             "opProfit": "133억원",
             "netProfit": "101억원",
@@ -78353,7 +78353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "329억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -78425,7 +78425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "347억원",
             "opProfit": "34억원",
             "netProfit": "26억원",
@@ -78497,7 +78497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "443억원",
             "opProfit": "65억원",
             "netProfit": "49억원",
@@ -78569,7 +78569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "266억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -78641,7 +78641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "471억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -78713,7 +78713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "376억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -78785,7 +78785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "12억원",
             "netProfit": "9억원",
@@ -78913,7 +78913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 7,498억원",
             "opProfit": "5,177억원",
             "netProfit": "3,935억원",
@@ -78985,7 +78985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,735억원",
             "opProfit": "456억원",
             "netProfit": "347억원",
@@ -79057,7 +79057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,575억원",
             "opProfit": "304억원",
             "netProfit": "231억원",
@@ -79129,7 +79129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "517억원",
             "opProfit": "41억원",
             "netProfit": "31억원",
@@ -79201,7 +79201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "534억원",
             "opProfit": "88억원",
             "netProfit": "67억원",
@@ -79273,7 +79273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "374억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -79401,7 +79401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "153조 4,758억원",
             "opProfit": "45조 4,288억원",
             "netProfit": "34조 5,259억원",
@@ -79473,7 +79473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "39조 9,579억원",
             "opProfit": "-1조 389억원",
             "netProfit": "-7,896억원",
@@ -79545,7 +79545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "14조 7,607억원",
             "opProfit": "3조 3,064억원",
             "netProfit": "2조 5,129억원",
@@ -79617,7 +79617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 5,590억원",
             "opProfit": "-1,445억원",
             "netProfit": "-1,098억원",
@@ -79689,7 +79689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "12조 1,956억원",
             "opProfit": "3조 2,196억원",
             "netProfit": "2조 4,469억원",
@@ -79761,7 +79761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "25%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 7,900억원",
             "opProfit": "-1,006억원",
             "netProfit": "-765억원",
@@ -79833,7 +79833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "40%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6조 4,451억원",
             "opProfit": "-64억원",
             "netProfit": "-49억원",
@@ -79905,7 +79905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "23%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 7,582억원",
             "opProfit": "-634억원",
             "netProfit": "-482억원",
@@ -79977,7 +79977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 4,701억원",
             "opProfit": "1조 3,566억원",
             "netProfit": "1조 310억원",
@@ -80049,7 +80049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 8,261억원",
             "opProfit": "1조 1,197억원",
             "netProfit": "8,510억원",
@@ -80121,7 +80121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 1,636억원",
             "opProfit": "8,660억원",
             "netProfit": "6,582억원",
@@ -80193,7 +80193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 721억원",
             "opProfit": "1조 5,013억원",
             "netProfit": "1조 1,410억원",
@@ -80265,7 +80265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "33%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 2,403억원",
             "opProfit": "-224억원",
             "netProfit": "-170억원",
@@ -80337,7 +80337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "26%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 7,475억원",
             "opProfit": "-332억원",
             "netProfit": "-252억원",
@@ -80409,7 +80409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,452억원",
             "opProfit": "-350억원",
             "netProfit": "-266억원",
@@ -80481,7 +80481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 1,322억원",
             "opProfit": "3,966억원",
             "netProfit": "3,014억원",
@@ -80553,7 +80553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "51%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 9,680억원",
             "opProfit": "4,015억원",
             "netProfit": "3,051억원",
@@ -80625,7 +80625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,235억원",
             "opProfit": "-43억원",
             "netProfit": "-33억원",
@@ -80697,7 +80697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,648억원",
             "opProfit": "-105억원",
             "netProfit": "-80억원",
@@ -80769,7 +80769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 884억원",
             "opProfit": "-87억원",
             "netProfit": "-66억원",
@@ -80841,7 +80841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,415억원",
             "opProfit": "-34억원",
             "netProfit": "-26억원",
@@ -80913,7 +80913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 8,129억원",
             "opProfit": "5,076억원",
             "netProfit": "3,858억원",
@@ -80985,7 +80985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 6,600억원",
             "opProfit": "4,814억원",
             "netProfit": "3,659억원",
@@ -81057,7 +81057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 5,658억원",
             "opProfit": "4,384억원",
             "netProfit": "3,332억원",
@@ -81129,7 +81129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,570억원",
             "opProfit": "2,407억원",
             "netProfit": "1,829억원",
@@ -81201,7 +81201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "65%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,420억원",
             "opProfit": "3,130억원",
             "netProfit": "2,379억원",
@@ -81273,7 +81273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "28%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,462억원",
             "opProfit": "-103억원",
             "netProfit": "-78억원",
@@ -81345,7 +81345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,295억원",
             "opProfit": "4,231억원",
             "netProfit": "3,216억원",
@@ -81417,7 +81417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4억원",
             "opProfit": "2,181억원",
             "netProfit": "1,658억원",
@@ -81489,7 +81489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,207억원",
             "opProfit": "2,247억원",
             "netProfit": "1,708억원",
@@ -81561,7 +81561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "30%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,026억원",
             "opProfit": "-70억원",
             "netProfit": "-53억원",
@@ -81633,7 +81633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,331억원",
             "opProfit": "1,510억원",
             "netProfit": "1,148억원",
@@ -81705,7 +81705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,311억원",
             "opProfit": "-27억원",
             "netProfit": "-21억원",
@@ -81777,7 +81777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,063억원",
             "opProfit": "1,639억원",
             "netProfit": "1,246억원",
@@ -81849,7 +81849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,119억원",
             "opProfit": "1,236억원",
             "netProfit": "939억원",
@@ -81921,7 +81921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,114억원",
             "opProfit": "1,272억원",
             "netProfit": "967억원",
@@ -81993,7 +81993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,946억원",
             "opProfit": "1,667억원",
             "netProfit": "1,267억원",
@@ -82065,7 +82065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,923억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -82137,7 +82137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,863억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -82209,7 +82209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,915억원",
             "opProfit": "1,826억원",
             "netProfit": "1,388억원",
@@ -82281,7 +82281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,174억원",
             "opProfit": "1,966억원",
             "netProfit": "1,494억원",
@@ -82353,7 +82353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,743억원",
             "opProfit": "-71억원",
             "netProfit": "-54억원",
@@ -82425,7 +82425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,675억원",
             "opProfit": "-64억원",
             "netProfit": "-49억원",
@@ -82497,7 +82497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,580억원",
             "opProfit": "925억원",
             "netProfit": "703억원",
@@ -82569,7 +82569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,281억원",
             "opProfit": "822억원",
             "netProfit": "625억원",
@@ -82641,7 +82641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,417억원",
             "opProfit": "892억원",
             "netProfit": "678억원",
@@ -82713,7 +82713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,446억원",
             "opProfit": "925억원",
             "netProfit": "703억원",
@@ -82785,7 +82785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,303억원",
             "opProfit": "1,866억원",
             "netProfit": "1,418억원",
@@ -82857,7 +82857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,994억원",
             "opProfit": "1,189억원",
             "netProfit": "904억원",
@@ -82929,7 +82929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,162억원",
             "opProfit": "832억원",
             "netProfit": "632억원",
@@ -83001,7 +83001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "26%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,584억원",
             "opProfit": "-49억원",
             "netProfit": "-37억원",
@@ -83073,7 +83073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,038억원",
             "opProfit": "1,799억원",
             "netProfit": "1,367억원",
@@ -83145,7 +83145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,096억원",
             "opProfit": "852억원",
             "netProfit": "648억원",
@@ -83217,7 +83217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,818억원",
             "opProfit": "756억원",
             "netProfit": "575억원",
@@ -83289,7 +83289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "40%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,964억원",
             "opProfit": "-3억원",
             "netProfit": "-2억원",
@@ -83361,7 +83361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "26%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,191억원",
             "opProfit": "-44억원",
             "netProfit": "-33억원",
@@ -83433,7 +83433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,092억원",
             "opProfit": "1,507억원",
             "netProfit": "1,145억원",
@@ -83505,7 +83505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,720억원",
             "opProfit": "811억원",
             "netProfit": "616억원",
@@ -83577,7 +83577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,777억원",
             "opProfit": "846억원",
             "netProfit": "643억원",
@@ -83649,7 +83649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,460억원",
             "opProfit": "747억원",
             "netProfit": "568억원",
@@ -83721,7 +83721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,734억원",
             "opProfit": "889억원",
             "netProfit": "676억원",
@@ -83793,7 +83793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,005억원",
             "opProfit": "1,033억원",
             "netProfit": "785억원",
@@ -83865,7 +83865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,049억원",
             "opProfit": "1,077억원",
             "netProfit": "819억원",
@@ -83937,7 +83937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "76%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,391억원",
             "opProfit": "1,265억원",
             "netProfit": "961억원",
@@ -84009,7 +84009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "29%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,032억원",
             "opProfit": "-33억원",
             "netProfit": "-25억원",
@@ -84081,7 +84081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,554억원",
             "opProfit": "0억원",
             "netProfit": "0억원",
@@ -84153,7 +84153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,194억원",
             "opProfit": "703억원",
             "netProfit": "534억원",
@@ -84225,7 +84225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,066억원",
             "opProfit": "1,147억원",
             "netProfit": "872억원",
@@ -84297,7 +84297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,588억원",
             "opProfit": "-40억원",
             "netProfit": "-30억원",
@@ -84369,7 +84369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "65%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,525억원",
             "opProfit": "881억원",
             "netProfit": "670억원",
@@ -84441,7 +84441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,629억원",
             "opProfit": "944억원",
             "netProfit": "717억원",
@@ -84513,7 +84513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,058억원",
             "opProfit": "-19억원",
             "netProfit": "-14억원",
@@ -84585,7 +84585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,897억원",
             "opProfit": "-23억원",
             "netProfit": "-17억원",
@@ -84657,7 +84657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,284억원",
             "opProfit": "7억원",
             "netProfit": "5억원",
@@ -84729,7 +84729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,275억원",
             "opProfit": "423억원",
             "netProfit": "321억원",
@@ -84801,7 +84801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "29%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,630억원",
             "opProfit": "-26억원",
             "netProfit": "-20억원",
@@ -84873,7 +84873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,118억원",
             "opProfit": "4억원",
             "netProfit": "3억원",
@@ -84945,7 +84945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "27%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,524억원",
             "opProfit": "-27억원",
             "netProfit": "-21억원",
@@ -85017,7 +85017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,218억원",
             "opProfit": "882억원",
             "netProfit": "670억원",
@@ -85089,7 +85089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "25%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,441억원",
             "opProfit": "-29억원",
             "netProfit": "-22억원",
@@ -85161,7 +85161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,126억원",
             "opProfit": "850억원",
             "netProfit": "646억원",
@@ -85233,7 +85233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "28%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,490억원",
             "opProfit": "-25억원",
             "netProfit": "-19억원",
@@ -85305,7 +85305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,801억원",
             "opProfit": "-9억원",
             "netProfit": "-7억원",
@@ -85377,7 +85377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,654억원",
             "opProfit": "658억원",
             "netProfit": "500억원",
@@ -85449,7 +85449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,877억원",
             "opProfit": "777억원",
             "netProfit": "591억원",
@@ -85521,7 +85521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,328억원",
             "opProfit": "521억원",
             "netProfit": "396억원",
@@ -85593,7 +85593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "40%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,720억원",
             "opProfit": "0억원",
             "netProfit": "0억원",
@@ -85665,7 +85665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,843억원",
             "opProfit": "802억원",
             "netProfit": "610억원",
@@ -85737,7 +85737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,056억원",
             "opProfit": "428억원",
             "netProfit": "325억원",
@@ -85809,7 +85809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,655억원",
             "opProfit": "722억원",
             "netProfit": "549억원",
@@ -85881,7 +85881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,112억원",
             "opProfit": "-27억원",
             "netProfit": "-21억원",
@@ -85953,7 +85953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "76%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,782억원",
             "opProfit": "801억원",
             "netProfit": "609억원",
@@ -86025,7 +86025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,753억원",
             "opProfit": "326억원",
             "netProfit": "248억원",
@@ -86097,7 +86097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,784억원",
             "opProfit": "830억원",
             "netProfit": "631억원",
@@ -86169,7 +86169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "44%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,696억원",
             "opProfit": "8억원",
             "netProfit": "6억원",
@@ -86241,7 +86241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,770억원",
             "opProfit": "837억원",
             "netProfit": "636억원",
@@ -86313,7 +86313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,358억원",
             "opProfit": "641억원",
             "netProfit": "487억원",
@@ -86385,7 +86385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "967억원",
             "opProfit": "-23억원",
             "netProfit": "-17억원",
@@ -86457,7 +86457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,467억원",
             "opProfit": "4억원",
             "netProfit": "3억원",
@@ -86529,7 +86529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "28%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,034억원",
             "opProfit": "-18억원",
             "netProfit": "-14억원",
@@ -86601,7 +86601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,930억원",
             "opProfit": "475억원",
             "netProfit": "361억원",
@@ -86673,7 +86673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,393억원",
             "opProfit": "6억원",
             "netProfit": "5억원",
@@ -86745,7 +86745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,093억원",
             "opProfit": "-13억원",
             "netProfit": "-10억원",
@@ -86817,7 +86817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,941억원",
             "opProfit": "516억원",
             "netProfit": "392억원",
@@ -86889,7 +86889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,098억원",
             "opProfit": "-9억원",
             "netProfit": "-7억원",
@@ -86961,7 +86961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "58%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,582억원",
             "opProfit": "358억원",
             "netProfit": "272억원",
@@ -87033,7 +87033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,095억원",
             "opProfit": "-7억원",
             "netProfit": "-5억원",
@@ -87105,7 +87105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,315억원",
             "opProfit": "258억원",
             "netProfit": "196억원",
@@ -87177,7 +87177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "935억원",
             "opProfit": "-11억원",
             "netProfit": "-8억원",
@@ -87249,7 +87249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,949억원",
             "opProfit": "573억원",
             "netProfit": "435억원",
@@ -87321,7 +87321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "990억원",
             "opProfit": "-8억원",
             "netProfit": "-6억원",
@@ -87393,7 +87393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,915억원",
             "opProfit": "567억원",
             "netProfit": "431억원",
@@ -87465,7 +87465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "29%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "868억원",
             "opProfit": "-13억원",
             "netProfit": "-10억원",
@@ -87537,7 +87537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,779억원",
             "opProfit": "495억원",
             "netProfit": "376억원",
@@ -87609,7 +87609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "949억원",
             "opProfit": "-6억원",
             "netProfit": "-5억원",
@@ -87681,7 +87681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "26%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "748억원",
             "opProfit": "-15억원",
             "netProfit": "-11억원",
@@ -87753,7 +87753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,128억원",
             "opProfit": "214억원",
             "netProfit": "163억원",
@@ -87825,7 +87825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,747억원",
             "opProfit": "517억원",
             "netProfit": "393억원",
@@ -87897,7 +87897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "630억원",
             "opProfit": "-16억원",
             "netProfit": "-12억원",
@@ -87969,7 +87969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,382억원",
             "opProfit": "337억원",
             "netProfit": "256억원",
@@ -88041,7 +88041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,290억원",
             "opProfit": "304억원",
             "netProfit": "231억원",
@@ -88113,7 +88113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,426억원",
             "opProfit": "376억원",
             "netProfit": "286억원",
@@ -88185,7 +88185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "943억원",
             "opProfit": "4억원",
             "netProfit": "3억원",
@@ -88257,7 +88257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "991억원",
             "opProfit": "192억원",
             "netProfit": "146억원",
@@ -88329,7 +88329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,524억원",
             "opProfit": "454억원",
             "netProfit": "345억원",
@@ -88401,7 +88401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,078억원",
             "opProfit": "233억원",
             "netProfit": "177억원",
@@ -88473,7 +88473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "999억원",
             "opProfit": "208억원",
             "netProfit": "158억원",
@@ -88545,7 +88545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "76%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,350억원",
             "opProfit": "386억원",
             "netProfit": "293억원",
@@ -88617,7 +88617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "838억원",
             "opProfit": "3억원",
             "netProfit": "2억원",
@@ -88689,7 +88689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,307억원",
             "opProfit": "369억원",
             "netProfit": "280억원",
@@ -88761,7 +88761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "920억원",
             "opProfit": "186억원",
             "netProfit": "141억원",
@@ -88833,7 +88833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "883억원",
             "opProfit": "177억원",
             "netProfit": "135억원",
@@ -88905,7 +88905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "51%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "879억원",
             "opProfit": "179억원",
             "netProfit": "136억원",
@@ -88977,7 +88977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "740억원",
             "opProfit": "2억원",
             "netProfit": "2억원",
@@ -89049,7 +89049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "28%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "523억원",
             "opProfit": "-9억원",
             "netProfit": "-7억원",
@@ -89121,7 +89121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "917억원",
             "opProfit": "213억원",
             "netProfit": "162억원",
@@ -89193,7 +89193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "26%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "466억원",
             "opProfit": "-9억원",
             "netProfit": "-7억원",
@@ -89265,7 +89265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "715억원",
             "opProfit": "142억원",
             "netProfit": "108억원",
@@ -89337,7 +89337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "956억원",
             "opProfit": "254억원",
             "netProfit": "193억원",
@@ -89409,7 +89409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "23%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "404억원",
             "opProfit": "-10억원",
             "netProfit": "-8억원",
@@ -89481,7 +89481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "380억원",
             "opProfit": "-10억원",
             "netProfit": "-8억원",
@@ -89553,7 +89553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "686억원",
             "opProfit": "139억원",
             "netProfit": "106억원",
@@ -89625,7 +89625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "23%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "386억원",
             "opProfit": "-9억원",
             "netProfit": "-7억원",
@@ -89697,7 +89697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "830억원",
             "opProfit": "224억원",
             "netProfit": "170억원",
@@ -89769,7 +89769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "780억원",
             "opProfit": "198억원",
             "netProfit": "150억원",
@@ -89841,7 +89841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "23%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "339억원",
             "opProfit": "-8억원",
             "netProfit": "-6억원",
@@ -89913,7 +89913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "33%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "417억원",
             "opProfit": "-4억원",
             "netProfit": "-3억원",
@@ -89985,7 +89985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "628억원",
             "opProfit": "147억원",
             "netProfit": "112억원",
@@ -90057,7 +90057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "634억원",
             "opProfit": "153억원",
             "netProfit": "116억원",
@@ -90129,7 +90129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "28%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "339억원",
             "opProfit": "-5억원",
             "netProfit": "-4억원",
@@ -90201,7 +90201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "439억원",
             "opProfit": "2억원",
             "netProfit": "2억원",
@@ -90273,7 +90273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "369억원",
             "opProfit": "-3억원",
             "netProfit": "-2억원",
@@ -90345,7 +90345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "397억원",
             "opProfit": "1억원",
             "netProfit": "1억원",
@@ -90417,7 +90417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "568억원",
             "opProfit": "144억원",
             "netProfit": "109억원",
@@ -90489,7 +90489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "51%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "439억원",
             "opProfit": "90억원",
             "netProfit": "68억원",
@@ -90561,7 +90561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "28%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "278억원",
             "opProfit": "-4억원",
             "netProfit": "-3억원",
@@ -90633,7 +90633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "23%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "245억원",
             "opProfit": "-6억원",
             "netProfit": "-5억원",
@@ -90705,7 +90705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "326억원",
             "opProfit": "-1억원",
             "netProfit": "-1억원",
@@ -90777,7 +90777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "373억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -90849,7 +90849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "363억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -90921,7 +90921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "509억원",
             "opProfit": "153억원",
             "netProfit": "116억원",
@@ -90993,7 +90993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "268억원",
             "opProfit": "-1억원",
             "netProfit": "-1억원",
@@ -91065,7 +91065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "389억원",
             "opProfit": "94억원",
             "netProfit": "71억원",
@@ -91137,7 +91137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "321억원",
             "opProfit": "70억원",
             "netProfit": "53억원",
@@ -91209,7 +91209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "158억원",
             "opProfit": "-4억원",
             "netProfit": "-3억원",
@@ -91281,7 +91281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "325억원",
             "opProfit": "94억원",
             "netProfit": "71억원",
@@ -91353,7 +91353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "228억원",
             "opProfit": "49억원",
             "netProfit": "37억원",
@@ -91425,7 +91425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "29%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "131억원",
             "opProfit": "-2억원",
             "netProfit": "-2억원",
@@ -91497,7 +91497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "40%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "146억원",
             "opProfit": "0억원",
             "netProfit": "0억원",
@@ -91569,7 +91569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "203억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -91641,7 +91641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "23%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110억원",
             "opProfit": "-3억원",
             "netProfit": "-2억원",
@@ -91713,7 +91713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "25%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110억원",
             "opProfit": "-2억원",
             "netProfit": "-2억원",
@@ -91785,7 +91785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "118억원",
             "opProfit": "30억원",
             "netProfit": "23억원",
@@ -91857,7 +91857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "111억원",
             "opProfit": "-1억원",
             "netProfit": "-1억원",
@@ -91985,7 +91985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "29조 6,875억원",
             "opProfit": "2조 2,266억원",
             "netProfit": "1조 6,922억원",
@@ -92057,7 +92057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "30조 5,864억원",
             "opProfit": "4조 2,515억원",
             "netProfit": "3조 2,311억원",
@@ -92129,7 +92129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "17조 8,759억원",
             "opProfit": "1조 5,016억원",
             "netProfit": "1조 1,412억원",
@@ -92201,7 +92201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "13조 5,519억원",
             "opProfit": "1조 28억원",
             "netProfit": "7,621억원",
@@ -92273,7 +92273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "19조 2,093억원",
             "opProfit": "2조 6,125억원",
             "netProfit": "1조 9,855억원",
@@ -92345,7 +92345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "16조 9,690억원",
             "opProfit": "2조 5,623억원",
             "netProfit": "1조 9,473억원",
@@ -92417,7 +92417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6조 2,701억원",
             "opProfit": "1조 973억원",
             "netProfit": "8,339억원",
@@ -92489,7 +92489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 9,386억원",
             "opProfit": "4,702억원",
             "netProfit": "3,574억원",
@@ -92561,7 +92561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 32억원",
             "opProfit": "2,544억원",
             "netProfit": "1,933억원",
@@ -92633,7 +92633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,049억원",
             "opProfit": "1,605억원",
             "netProfit": "1,220억원",
@@ -92705,7 +92705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,816억원",
             "opProfit": "559억원",
             "netProfit": "425억원",
@@ -92777,7 +92777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,922억원",
             "opProfit": "1,445억원",
             "netProfit": "1,098억원",
@@ -92849,7 +92849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,392억원",
             "opProfit": "869억원",
             "netProfit": "660억원",
@@ -92921,7 +92921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,449억원",
             "opProfit": "796억원",
             "netProfit": "605억원",
@@ -92993,7 +92993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,305억원",
             "opProfit": "603억원",
             "netProfit": "458억원",
@@ -93065,7 +93065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,648억원",
             "opProfit": "233억원",
             "netProfit": "177억원",
@@ -93137,7 +93137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,895억원",
             "opProfit": "353억원",
             "netProfit": "268억원",
@@ -93209,7 +93209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,563억원",
             "opProfit": "116억원",
             "netProfit": "88억원",
@@ -93281,7 +93281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,869억원",
             "opProfit": "436억원",
             "netProfit": "331억원",
@@ -93353,7 +93353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,351억원",
             "opProfit": "146억원",
             "netProfit": "111억원",
@@ -93425,7 +93425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,716억원",
             "opProfit": "244억원",
             "netProfit": "185억원",
@@ -93497,7 +93497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,156억원",
             "opProfit": "149억원",
             "netProfit": "113억원",
@@ -93569,7 +93569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,079억원",
             "opProfit": "142억원",
             "netProfit": "108억원",
@@ -93641,7 +93641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,327억원",
             "opProfit": "224억원",
             "netProfit": "170억원",
@@ -93713,7 +93713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "836억원",
             "opProfit": "118억원",
             "netProfit": "90억원",
@@ -93785,7 +93785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "480억원",
             "opProfit": "52억원",
             "netProfit": "40억원",
@@ -93857,7 +93857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "189억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -93929,7 +93929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "183억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -94001,7 +94001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "279억원",
             "opProfit": "51억원",
             "netProfit": "39억원",
@@ -94073,7 +94073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "212억원",
             "opProfit": "33억원",
             "netProfit": "25억원",
@@ -94201,7 +94201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,603억원",
             "opProfit": "244억원",
             "netProfit": "185억원",
@@ -94273,7 +94273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "614억원",
             "opProfit": "46억원",
             "netProfit": "35억원",
@@ -94345,7 +94345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,288억원",
             "opProfit": "227억원",
             "netProfit": "173억원",
@@ -94417,7 +94417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "589억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -94489,7 +94489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "675억원",
             "opProfit": "95억원",
             "netProfit": "72억원",
@@ -94561,7 +94561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "668억원",
             "opProfit": "110억원",
             "netProfit": "84억원",
@@ -94633,7 +94633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "273억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -94705,7 +94705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "501억원",
             "opProfit": "93억원",
             "netProfit": "71억원",
@@ -94777,7 +94777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "158억원",
             "opProfit": "12억원",
             "netProfit": "9억원",
@@ -94849,7 +94849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "205억원",
             "opProfit": "35억원",
             "netProfit": "27억원",
@@ -94921,7 +94921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "111억원",
             "opProfit": "10억원",
             "netProfit": "8억원",
@@ -94993,7 +94993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "118억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -95121,7 +95121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 1,684억원",
             "opProfit": "3,274억원",
             "netProfit": "2,488억원",
@@ -95193,7 +95193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,467억원",
             "opProfit": "1,835억원",
             "netProfit": "1,395억원",
@@ -95265,7 +95265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,522억원",
             "opProfit": "770억원",
             "netProfit": "585억원",
@@ -95337,7 +95337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,314억원",
             "opProfit": "362억원",
             "netProfit": "275억원",
@@ -95409,7 +95409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,596억원",
             "opProfit": "270억원",
             "netProfit": "205억원",
@@ -95481,7 +95481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,284억원",
             "opProfit": "269억원",
             "netProfit": "204억원",
@@ -95553,7 +95553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,638억원",
             "opProfit": "335억원",
             "netProfit": "255억원",
@@ -95625,7 +95625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,719억원",
             "opProfit": "858억원",
             "netProfit": "652억원",
@@ -95697,7 +95697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,210억원",
             "opProfit": "719억원",
             "netProfit": "546억원",
@@ -95769,7 +95769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,098억원",
             "opProfit": "1,079억원",
             "netProfit": "820억원",
@@ -95841,7 +95841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,114억원",
             "opProfit": "555억원",
             "netProfit": "422억원",
@@ -95913,7 +95913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,910억원",
             "opProfit": "300억원",
             "netProfit": "228억원",
@@ -95985,7 +95985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,717억원",
             "opProfit": "304억원",
             "netProfit": "231억원",
@@ -96057,7 +96057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,414억원",
             "opProfit": "282억원",
             "netProfit": "214억원",
@@ -96129,7 +96129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,849억원",
             "opProfit": "708억원",
             "netProfit": "538억원",
@@ -96201,7 +96201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,960억원",
             "opProfit": "435억원",
             "netProfit": "331억원",
@@ -96273,7 +96273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,385억원",
             "opProfit": "291억원",
             "netProfit": "221억원",
@@ -96345,7 +96345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,761억원",
             "opProfit": "166억원",
             "netProfit": "126억원",
@@ -96417,7 +96417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,320억원",
             "opProfit": "316억원",
             "netProfit": "240억원",
@@ -96489,7 +96489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,753억원",
             "opProfit": "498억원",
             "netProfit": "378억원",
@@ -96561,7 +96561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,076억원",
             "opProfit": "81억원",
             "netProfit": "62억원",
@@ -96633,7 +96633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,468억원",
             "opProfit": "160억원",
             "netProfit": "122억원",
@@ -96705,7 +96705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,582억원",
             "opProfit": "185억원",
             "netProfit": "141억원",
@@ -96777,7 +96777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,550억원",
             "opProfit": "467억원",
             "netProfit": "355억원",
@@ -96849,7 +96849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,256억원",
             "opProfit": "429억원",
             "netProfit": "326억원",
@@ -96921,7 +96921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,757억원",
             "opProfit": "274억원",
             "netProfit": "208억원",
@@ -96993,7 +96993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,479억원",
             "opProfit": "210억원",
             "netProfit": "160억원",
@@ -97065,7 +97065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,112억원",
             "opProfit": "123억원",
             "netProfit": "93억원",
@@ -97137,7 +97137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,829억원",
             "opProfit": "329억원",
             "netProfit": "250억원",
@@ -97209,7 +97209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,320억원",
             "opProfit": "178억원",
             "netProfit": "135억원",
@@ -97281,7 +97281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "810억원",
             "opProfit": "76억원",
             "netProfit": "58억원",
@@ -97353,7 +97353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,526억원",
             "opProfit": "279억원",
             "netProfit": "212억원",
@@ -97425,7 +97425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "574억원",
             "opProfit": "45억원",
             "netProfit": "34억원",
@@ -97497,7 +97497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,171억원",
             "opProfit": "184억원",
             "netProfit": "140억원",
@@ -97569,7 +97569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,037억원",
             "opProfit": "146억원",
             "netProfit": "111억원",
@@ -97641,7 +97641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "894억원",
             "opProfit": "126억원",
             "netProfit": "96억원",
@@ -97713,7 +97713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,228억원",
             "opProfit": "232억원",
             "netProfit": "176억원",
@@ -97785,7 +97785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "689억원",
             "opProfit": "84억원",
             "netProfit": "64억원",
@@ -97857,7 +97857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "758억원",
             "opProfit": "103억원",
             "netProfit": "78억원",
@@ -97929,7 +97929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "447억원",
             "opProfit": "39억원",
             "netProfit": "30억원",
@@ -98001,7 +98001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "804억원",
             "opProfit": "129억원",
             "netProfit": "98억원",
@@ -98073,7 +98073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "898억원",
             "opProfit": "162억원",
             "netProfit": "123억원",
@@ -98145,7 +98145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "893억원",
             "opProfit": "164억원",
             "netProfit": "125억원",
@@ -98217,7 +98217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "652억원",
             "opProfit": "98억원",
             "netProfit": "74억원",
@@ -98289,7 +98289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "509억원",
             "opProfit": "62억원",
             "netProfit": "47억원",
@@ -98361,7 +98361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "727억원",
             "opProfit": "124억원",
             "netProfit": "94억원",
@@ -98433,7 +98433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "393억원",
             "opProfit": "40억원",
             "netProfit": "30억원",
@@ -98505,7 +98505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "502억원",
             "opProfit": "68억원",
             "netProfit": "52억원",
@@ -98577,7 +98577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "333억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -98649,7 +98649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "640억원",
             "opProfit": "112억원",
             "netProfit": "85억원",
@@ -98721,7 +98721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "312억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -98793,7 +98793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "505억원",
             "opProfit": "74억원",
             "netProfit": "56억원",
@@ -98865,7 +98865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "512억원",
             "opProfit": "88억원",
             "netProfit": "67억원",
@@ -98937,7 +98937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "339억원",
             "opProfit": "40억원",
             "netProfit": "30억원",
@@ -99009,7 +99009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "187억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -99081,7 +99081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "170억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -99153,7 +99153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110억원",
             "opProfit": "9억원",
             "netProfit": "7억원",
@@ -99281,7 +99281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "145%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "35조 2,046억원",
             "opProfit": "3조 9,429억원",
             "netProfit": "2조 9,966억원",
@@ -99353,7 +99353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "23조 4,222억원",
             "opProfit": "2조 143억원",
             "netProfit": "1조 5,309억원",
@@ -99425,7 +99425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "150%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "23조 110억원",
             "opProfit": "2조 6,463억원",
             "netProfit": "2조 112억원",
@@ -99497,7 +99497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "127%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7조 7,080억원",
             "opProfit": "7,554억원",
             "netProfit": "5,741억원",
@@ -99569,7 +99569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "139%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7조 3,103억원",
             "opProfit": "7,822억원",
             "netProfit": "5,945억원",
@@ -99641,7 +99641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "150%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 6,429억원",
             "opProfit": "6,489억원",
             "netProfit": "4,932억원",
@@ -99713,7 +99713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 7,840억원",
             "opProfit": "1,865억원",
             "netProfit": "1,417억원",
@@ -99785,7 +99785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 1,727억원",
             "opProfit": "4,131억원",
             "netProfit": "3,140억원",
@@ -99857,7 +99857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "127%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 7,894억원",
             "opProfit": "3,714억원",
             "netProfit": "2,823억원",
@@ -99929,7 +99929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "136%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 6,388억원",
             "opProfit": "2,771억원",
             "netProfit": "2,106억원",
@@ -100001,7 +100001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "160%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 9,290억원",
             "opProfit": "3,573억원",
             "netProfit": "2,715억원",
@@ -100073,7 +100073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 7,522억원",
             "opProfit": "1,472억원",
             "netProfit": "1,119억원",
@@ -100145,7 +100145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "76%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,766억원",
             "opProfit": "596억원",
             "netProfit": "453억원",
@@ -100217,7 +100217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,617억원",
             "opProfit": "1,144억원",
             "netProfit": "869억원",
@@ -100289,7 +100289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "158%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 9,575억원",
             "opProfit": "2,369억원",
             "netProfit": "1,800억원",
@@ -100361,7 +100361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "158%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 9,028억원",
             "opProfit": "2,302억원",
             "netProfit": "1,750억원",
@@ -100433,7 +100433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,450억원",
             "opProfit": "950억원",
             "netProfit": "722억원",
@@ -100505,7 +100505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,693억원",
             "opProfit": "1,076억원",
             "netProfit": "818억원",
@@ -100577,7 +100577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,344억원",
             "opProfit": "343억원",
             "netProfit": "261억원",
@@ -100649,7 +100649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,702억원",
             "opProfit": "786억원",
             "netProfit": "597억원",
@@ -100721,7 +100721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,348억원",
             "opProfit": "609억원",
             "netProfit": "463억원",
@@ -100793,7 +100793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "123%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 456억원",
             "opProfit": "1,004억원",
             "netProfit": "763억원",
@@ -100865,7 +100865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "164%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,135억원",
             "opProfit": "1,767억원",
             "netProfit": "1,343억원",
@@ -100937,7 +100937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "136%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,537억원",
             "opProfit": "1,211억원",
             "netProfit": "920억원",
@@ -101009,7 +101009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,182억원",
             "opProfit": "371억원",
             "netProfit": "282억원",
@@ -101081,7 +101081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "162%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,250억원",
             "opProfit": "1,643억원",
             "netProfit": "1,249억원",
@@ -101153,7 +101153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "157%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,570억원",
             "opProfit": "1,508억원",
             "netProfit": "1,146억원",
@@ -101225,7 +101225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "142%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 862억원",
             "opProfit": "1,184억원",
             "netProfit": "900억원",
@@ -101297,7 +101297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "158%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,836억원",
             "opProfit": "1,432억원",
             "netProfit": "1,088억원",
@@ -101369,7 +101369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,422억원",
             "opProfit": "347억원",
             "netProfit": "264억원",
@@ -101441,7 +101441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "135%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,285억원",
             "opProfit": "862억원",
             "netProfit": "655억원",
@@ -101513,7 +101513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,407억원",
             "opProfit": "583억원",
             "netProfit": "443억원",
@@ -101585,7 +101585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "133%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,303억원",
             "opProfit": "752억원",
             "netProfit": "572억원",
@@ -101657,7 +101657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,629억원",
             "opProfit": "200억원",
             "netProfit": "152억원",
@@ -101729,7 +101729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "112%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,632억원",
             "opProfit": "496억원",
             "netProfit": "377억원",
@@ -101801,7 +101801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "172%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,867억원",
             "opProfit": "1,162억원",
             "netProfit": "883억원",
@@ -101873,7 +101873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "172%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,687억원",
             "opProfit": "1,138억원",
             "netProfit": "865억원",
@@ -101945,7 +101945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "173%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,001억원",
             "opProfit": "1,056억원",
             "netProfit": "803억원",
@@ -102017,7 +102017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "160%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,530억원",
             "opProfit": "797억원",
             "netProfit": "606억원",
@@ -102089,7 +102089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "129%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,013억원",
             "opProfit": "501억원",
             "netProfit": "381억원",
@@ -102161,7 +102161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "138%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,332억원",
             "opProfit": "565억원",
             "netProfit": "429억원",
@@ -102233,7 +102233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "150%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,771억원",
             "opProfit": "664억원",
             "netProfit": "505억원",
@@ -102305,7 +102305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "138%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,830억원",
             "opProfit": "512억원",
             "netProfit": "389억원",
@@ -102377,7 +102377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "116%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,955억원",
             "opProfit": "356억원",
             "netProfit": "271억원",
@@ -102449,7 +102449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "150%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,187억원",
             "opProfit": "597억원",
             "netProfit": "454억원",
@@ -102521,7 +102521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "168%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,666억원",
             "opProfit": "725억원",
             "netProfit": "551억원",
@@ -102593,7 +102593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "145%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,390억원",
             "opProfit": "492억원",
             "netProfit": "374억원",
@@ -102665,7 +102665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,035억원",
             "opProfit": "246억원",
             "netProfit": "187억원",
@@ -102737,7 +102737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "175%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,201억원",
             "opProfit": "692억원",
             "netProfit": "526억원",
@@ -102809,7 +102809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,406억원",
             "opProfit": "168억원",
             "netProfit": "128억원",
@@ -102881,7 +102881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,162억원",
             "opProfit": "138억원",
             "netProfit": "105억원",
@@ -102953,7 +102953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,496억원",
             "opProfit": "192억원",
             "netProfit": "146억원",
@@ -103025,7 +103025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "163%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,115억원",
             "opProfit": "510억원",
             "netProfit": "388억원",
@@ -103097,7 +103097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "123%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,972억원",
             "opProfit": "285억원",
             "netProfit": "217억원",
@@ -103169,7 +103169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,426억원",
             "opProfit": "197억원",
             "netProfit": "150억원",
@@ -103241,7 +103241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,635억원",
             "opProfit": "93억원",
             "netProfit": "71억원",
@@ -103313,7 +103313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,818억원",
             "opProfit": "279억원",
             "netProfit": "212억원",
@@ -103385,7 +103385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,768억원",
             "opProfit": "274억원",
             "netProfit": "208억원",
@@ -103457,7 +103457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "136%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,765억원",
             "opProfit": "290억원",
             "netProfit": "220억원",
@@ -103529,7 +103529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,127억원",
             "opProfit": "183억원",
             "netProfit": "139억원",
@@ -103601,7 +103601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "150%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,926억원",
             "opProfit": "336억원",
             "netProfit": "255억원",
@@ -103673,7 +103673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,467억원",
             "opProfit": "94억원",
             "netProfit": "71억원",
@@ -103745,7 +103745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,617억원",
             "opProfit": "113억원",
             "netProfit": "86억원",
@@ -103817,7 +103817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,676억원",
             "opProfit": "127억원",
             "netProfit": "97억원",
@@ -103889,7 +103889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "144%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,543억원",
             "opProfit": "282억원",
             "netProfit": "214억원",
@@ -103961,7 +103961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,976억원",
             "opProfit": "196억원",
             "netProfit": "149억원",
@@ -104033,7 +104033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "976억원",
             "opProfit": "53억원",
             "netProfit": "40억원",
@@ -104105,7 +104105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,389억원",
             "opProfit": "110억원",
             "netProfit": "84억원",
@@ -104177,7 +104177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "155%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,153억원",
             "opProfit": "256억원",
             "netProfit": "195억원",
@@ -104249,7 +104249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "138%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,822억원",
             "opProfit": "193억원",
             "netProfit": "147억원",
@@ -104321,7 +104321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,452억원",
             "opProfit": "129억원",
             "netProfit": "98억원",
@@ -104393,7 +104393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,305억원",
             "opProfit": "110억원",
             "netProfit": "84억원",
@@ -104465,7 +104465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,420억원",
             "opProfit": "132억원",
             "netProfit": "100억원",
@@ -104537,7 +104537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "887억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -104609,7 +104609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "737억원",
             "opProfit": "44억원",
             "netProfit": "33억원",
@@ -104681,7 +104681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "171%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,761억원",
             "opProfit": "229억원",
             "netProfit": "174억원",
@@ -104753,7 +104753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "154%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,572억원",
             "opProfit": "185억원",
             "netProfit": "141억원",
@@ -104825,7 +104825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "657억원",
             "opProfit": "35억원",
             "netProfit": "27억원",
@@ -104897,7 +104897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "144%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,450억원",
             "opProfit": "161억원",
             "netProfit": "122억원",
@@ -104969,7 +104969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "131%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,167억원",
             "opProfit": "118억원",
             "netProfit": "90억원",
@@ -105041,7 +105041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "164%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,430억원",
             "opProfit": "179억원",
             "netProfit": "136억원",
@@ -105113,7 +105113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "132%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,022억원",
             "opProfit": "104억원",
             "netProfit": "79억원",
@@ -105185,7 +105185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "689억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -105257,7 +105257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "131%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "960억원",
             "opProfit": "97억원",
             "netProfit": "74억원",
@@ -105329,7 +105329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "166%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,188억원",
             "opProfit": "151억원",
             "netProfit": "115억원",
@@ -105401,7 +105401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "123%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "857억원",
             "opProfit": "82억원",
             "netProfit": "62억원",
@@ -105473,7 +105473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "154%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,078억원",
             "opProfit": "127억원",
             "netProfit": "97억원",
@@ -105545,7 +105545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "694억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -105617,7 +105617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "429억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -105689,7 +105689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "515억원",
             "opProfit": "33억원",
             "netProfit": "25억원",
@@ -105761,7 +105761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "539억원",
             "opProfit": "38억원",
             "netProfit": "29억원",
@@ -105833,7 +105833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "505억원",
             "opProfit": "34억원",
             "netProfit": "26억원",
@@ -105905,7 +105905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "136%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "816억원",
             "opProfit": "86억원",
             "netProfit": "65억원",
@@ -105977,7 +105977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "164%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "932억원",
             "opProfit": "117억원",
             "netProfit": "89억원",
@@ -106049,7 +106049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "121%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "635억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -106121,7 +106121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "150%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "785억원",
             "opProfit": "90억원",
             "netProfit": "68억원",
@@ -106193,7 +106193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "342억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -106265,7 +106265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "453억원",
             "opProfit": "33억원",
             "netProfit": "25억원",
@@ -106337,7 +106337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "557억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -106409,7 +106409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "141%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "679억원",
             "opProfit": "73억원",
             "netProfit": "55억원",
@@ -106481,7 +106481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "154%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "749억원",
             "opProfit": "88억원",
             "netProfit": "67억원",
@@ -106553,7 +106553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "396억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -106625,7 +106625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "411억원",
             "opProfit": "29억원",
             "netProfit": "22억원",
@@ -106697,7 +106697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "323억원",
             "opProfit": "18억원",
             "netProfit": "14억원",
@@ -106769,7 +106769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "584억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -106841,7 +106841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "381억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -106913,7 +106913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "259억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -106985,7 +106985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "168%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "633억원",
             "opProfit": "81억원",
             "netProfit": "62억원",
@@ -107057,7 +107057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "324억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -107129,7 +107129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "167%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "526억원",
             "opProfit": "67억원",
             "netProfit": "51억원",
@@ -107201,7 +107201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "135%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "402억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -107273,7 +107273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "335억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -107345,7 +107345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "129%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "359억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -107417,7 +107417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "291억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -107489,7 +107489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "131%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "350억원",
             "opProfit": "35억원",
             "netProfit": "27억원",
@@ -107561,7 +107561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "140%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "373억원",
             "opProfit": "40억원",
             "netProfit": "30억원",
@@ -107633,7 +107633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "172%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "439억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -107705,7 +107705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "149%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "360억원",
             "opProfit": "41억원",
             "netProfit": "31억원",
@@ -107777,7 +107777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "128억원",
             "opProfit": "7억원",
             "netProfit": "5억원",
@@ -107849,7 +107849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "109억원",
             "opProfit": "6억원",
             "netProfit": "5억원",
@@ -107921,7 +107921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "122%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "146억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -107993,7 +107993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "109억원",
             "opProfit": "6억원",
             "netProfit": "5억원",
@@ -108121,7 +108121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,927억원",
             "opProfit": "699억원",
             "netProfit": "531억원",
@@ -108193,7 +108193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,866억원",
             "opProfit": "764억원",
             "netProfit": "581억원",
@@ -108265,7 +108265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,304억원",
             "opProfit": "194억원",
             "netProfit": "147억원",
@@ -108337,7 +108337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,622억원",
             "opProfit": "666억원",
             "netProfit": "506억원",
@@ -108409,7 +108409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,186억원",
             "opProfit": "256억원",
             "netProfit": "195억원",
@@ -108481,7 +108481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,204억원",
             "opProfit": "113억원",
             "netProfit": "86억원",
@@ -108553,7 +108553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,538억원",
             "opProfit": "217억원",
             "netProfit": "165억원",
@@ -108625,7 +108625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,997억원",
             "opProfit": "365억원",
             "netProfit": "277억원",
@@ -108697,7 +108697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,572억원",
             "opProfit": "237억원",
             "netProfit": "180억원",
@@ -108769,7 +108769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "658억원",
             "opProfit": "49억원",
             "netProfit": "37억원",
@@ -108841,7 +108841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "745억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -108913,7 +108913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "867억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -108985,7 +108985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "641억원",
             "opProfit": "56억원",
             "netProfit": "43억원",
@@ -109057,7 +109057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "495억원",
             "opProfit": "39억원",
             "netProfit": "30억원",
@@ -109129,7 +109129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "839억원",
             "opProfit": "143억원",
             "netProfit": "109억원",
@@ -109201,7 +109201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "701억원",
             "opProfit": "118억원",
             "netProfit": "90억원",
@@ -109273,7 +109273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "510억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -109345,7 +109345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "481억원",
             "opProfit": "75억원",
             "netProfit": "57억원",
@@ -109417,7 +109417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "481억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -109489,7 +109489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "349억원",
             "opProfit": "53억원",
             "netProfit": "40억원",
@@ -109561,7 +109561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "65%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "136억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -109633,7 +109633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "198억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -109705,7 +109705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "116억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -109777,7 +109777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "12억원",
             "netProfit": "9억원",
@@ -109905,7 +109905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "10조 1,106억원",
             "opProfit": "1조 2,335억원",
             "netProfit": "9,375억원",
@@ -109977,7 +109977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 5,062억원",
             "opProfit": "4,628억원",
             "netProfit": "3,517억원",
@@ -110049,7 +110049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 6,835억원",
             "opProfit": "3,140억원",
             "netProfit": "2,386억원",
@@ -110121,7 +110121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 6,819억원",
             "opProfit": "4,050억원",
             "netProfit": "3,078억원",
@@ -110193,7 +110193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 9,873억원",
             "opProfit": "5,198억원",
             "netProfit": "3,950억원",
@@ -110265,7 +110265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 3,859억원",
             "opProfit": "3,722억원",
             "netProfit": "2,829억원",
@@ -110337,7 +110337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,520억원",
             "opProfit": "2,298억원",
             "netProfit": "1,746억원",
@@ -110409,7 +110409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 305억원",
             "opProfit": "1,515억원",
             "netProfit": "1,151억원",
@@ -110481,7 +110481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,507억원",
             "opProfit": "2,326억원",
             "netProfit": "1,768억원",
@@ -110553,7 +110553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,794억원",
             "opProfit": "943억원",
             "netProfit": "717억원",
@@ -110625,7 +110625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,894억원",
             "opProfit": "421억원",
             "netProfit": "320억원",
@@ -110697,7 +110697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,292억원",
             "opProfit": "323억원",
             "netProfit": "245억원",
@@ -110769,7 +110769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,911억원",
             "opProfit": "143억원",
             "netProfit": "109억원",
@@ -110841,7 +110841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,144억원",
             "opProfit": "187억원",
             "netProfit": "142억원",
@@ -110913,7 +110913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,139억원",
             "opProfit": "274억원",
             "netProfit": "208억원",
@@ -110985,7 +110985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,747억원",
             "opProfit": "456억원",
             "netProfit": "347억원",
@@ -111057,7 +111057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,489억원",
             "opProfit": "205억원",
             "netProfit": "156억원",
@@ -111129,7 +111129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,522억원",
             "opProfit": "224억원",
             "netProfit": "170억원",
@@ -111201,7 +111201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,891억원",
             "opProfit": "340억원",
             "netProfit": "258억원",
@@ -111273,7 +111273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "802억원",
             "opProfit": "71억원",
             "netProfit": "54억원",
@@ -111345,7 +111345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "734억원",
             "opProfit": "62억원",
             "netProfit": "47억원",
@@ -111417,7 +111417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,160억원",
             "opProfit": "157억원",
             "netProfit": "119억원",
@@ -111489,7 +111489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "532억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -111561,7 +111561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "314억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -111633,7 +111633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "505억원",
             "opProfit": "67억원",
             "netProfit": "51억원",
@@ -111705,7 +111705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "600억원",
             "opProfit": "98억원",
             "netProfit": "74억원",
@@ -111777,7 +111777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "411억원",
             "opProfit": "52억원",
             "netProfit": "40억원",
@@ -111849,7 +111849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "245억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -111921,7 +111921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "408억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -111993,7 +111993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "285억원",
             "opProfit": "32억원",
             "netProfit": "24억원",
@@ -112065,7 +112065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "276억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -112137,7 +112137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "216억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -112209,7 +112209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "172억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -112281,7 +112281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "136억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -112409,7 +112409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "53조 2,314억원",
             "opProfit": "5조 7,490억원",
             "netProfit": "4조 3,692억원",
@@ -112481,7 +112481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "30조 149억원",
             "opProfit": "5조 2,526억원",
             "netProfit": "3조 9,920억원",
@@ -112553,7 +112553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "21조 7,126억원",
             "opProfit": "3조 5,392억원",
             "netProfit": "2조 6,898억원",
@@ -112625,7 +112625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "23조 6,708억원",
             "opProfit": "4조 2,844억원",
             "netProfit": "3조 2,561억원",
@@ -112697,7 +112697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "14조 6,629억원",
             "opProfit": "1조 8,622억원",
             "netProfit": "1조 4,153억원",
@@ -112769,7 +112769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 4,161억원",
             "opProfit": "2,827억원",
             "netProfit": "2,149억원",
@@ -112841,7 +112841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,924억원",
             "opProfit": "1,202억원",
             "netProfit": "914억원",
@@ -112913,7 +112913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 376억원",
             "opProfit": "1,121억원",
             "netProfit": "852억원",
@@ -112985,7 +112985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,494억원",
             "opProfit": "412억원",
             "netProfit": "313억원",
@@ -113057,7 +113057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,877억원",
             "opProfit": "1,071억원",
             "netProfit": "814억원",
@@ -113129,7 +113129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,380억원",
             "opProfit": "1,307억원",
             "netProfit": "993억원",
@@ -113201,7 +113201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "83%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,866억원",
             "opProfit": "701억원",
             "netProfit": "533억원",
@@ -113273,7 +113273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,390억원",
             "opProfit": "1,227억원",
             "netProfit": "933억원",
@@ -113345,7 +113345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,922억원",
             "opProfit": "482억원",
             "netProfit": "366억원",
@@ -113417,7 +113417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,495억원",
             "opProfit": "764억원",
             "netProfit": "581억원",
@@ -113489,7 +113489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,314억원",
             "opProfit": "500억원",
             "netProfit": "380억원",
@@ -113561,7 +113561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,448억원",
             "opProfit": "562억원",
             "netProfit": "427억원",
@@ -113633,7 +113633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,711억원",
             "opProfit": "168억원",
             "netProfit": "128억원",
@@ -113705,7 +113705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,118억원",
             "opProfit": "280억원",
             "netProfit": "213억원",
@@ -113777,7 +113777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,272억원",
             "opProfit": "107억원",
             "netProfit": "81억원",
@@ -113849,7 +113849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,469억원",
             "opProfit": "447억원",
             "netProfit": "340억원",
@@ -113921,7 +113921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,117억원",
             "opProfit": "98억원",
             "netProfit": "74억원",
@@ -113993,7 +113993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,892억원",
             "opProfit": "278억원",
             "netProfit": "211억원",
@@ -114065,7 +114065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,305억원",
             "opProfit": "141억원",
             "netProfit": "107억원",
@@ -114137,7 +114137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,764억원",
             "opProfit": "258억원",
             "netProfit": "196억원",
@@ -114209,7 +114209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,806억원",
             "opProfit": "282억원",
             "netProfit": "214억원",
@@ -114281,7 +114281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,667억원",
             "opProfit": "243억원",
             "netProfit": "185억원",
@@ -114353,7 +114353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "997억원",
             "opProfit": "118억원",
             "netProfit": "90억원",
@@ -114425,7 +114425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,268억원",
             "opProfit": "203억원",
             "netProfit": "154억원",
@@ -114497,7 +114497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "760억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -114569,7 +114569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "467억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -114641,7 +114641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "501억원",
             "opProfit": "56억원",
             "netProfit": "43억원",
@@ -114713,7 +114713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "464억원",
             "opProfit": "52억원",
             "netProfit": "40억원",
@@ -114785,7 +114785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "373억원",
             "opProfit": "65억원",
             "netProfit": "49억원",
@@ -114857,7 +114857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "165억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -114985,7 +114985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1004%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,420억원",
             "opProfit": "1,932억원",
             "netProfit": "1,468억원",
@@ -115057,7 +115057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1356%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,172억원",
             "opProfit": "1,898억원",
             "netProfit": "1,442억원",
@@ -115129,7 +115129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1284%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,295억원",
             "opProfit": "1,163억원",
             "netProfit": "884억원",
@@ -115201,7 +115201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1172%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,067억원",
             "opProfit": "686억원",
             "netProfit": "521억원",
@@ -115273,7 +115273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "948%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "359억원",
             "opProfit": "104억원",
             "netProfit": "79억원",
@@ -115345,7 +115345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "628%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "202억원",
             "opProfit": "46억원",
             "netProfit": "35억원",
@@ -115473,7 +115473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "20조 548억원",
             "opProfit": "1조 7,648억원",
             "netProfit": "1조 3,412억원",
@@ -115545,7 +115545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 2,677억원",
             "opProfit": "2,517억원",
             "netProfit": "1,913억원",
@@ -115617,7 +115617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,246억원",
             "opProfit": "1,396억원",
             "netProfit": "1,061억원",
@@ -115689,7 +115689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,980억원",
             "opProfit": "1,901억원",
             "netProfit": "1,445억원",
@@ -115761,7 +115761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 893억원",
             "opProfit": "1,961억원",
             "netProfit": "1,490억원",
@@ -115833,7 +115833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,363억원",
             "opProfit": "309억원",
             "netProfit": "235억원",
@@ -115905,7 +115905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,801억원",
             "opProfit": "260억원",
             "netProfit": "198억원",
@@ -115977,7 +115977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,755억원",
             "opProfit": "130억원",
             "netProfit": "99억원",
@@ -116049,7 +116049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,987억원",
             "opProfit": "394억원",
             "netProfit": "299억원",
@@ -116121,7 +116121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,679억원",
             "opProfit": "354억원",
             "netProfit": "269억원",
@@ -116193,7 +116193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,931억원",
             "opProfit": "469억원",
             "netProfit": "356억원",
@@ -116265,7 +116265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "44%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,478억원",
             "opProfit": "134억원",
             "netProfit": "102억원",
@@ -116337,7 +116337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,671억원",
             "opProfit": "427억원",
             "netProfit": "325억원",
@@ -116409,7 +116409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,403억원",
             "opProfit": "123억원",
             "netProfit": "93억원",
@@ -116481,7 +116481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,294억원",
             "opProfit": "335억원",
             "netProfit": "255억원",
@@ -116553,7 +116553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,025억원",
             "opProfit": "572억원",
             "netProfit": "435억원",
@@ -116625,7 +116625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,585억원",
             "opProfit": "165억원",
             "netProfit": "125억원",
@@ -116697,7 +116697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,560억원",
             "opProfit": "461억원",
             "netProfit": "350억원",
@@ -116769,7 +116769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,375억원",
             "opProfit": "140억원",
             "netProfit": "106억원",
@@ -116841,7 +116841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,608억원",
             "opProfit": "204억원",
             "netProfit": "155억원",
@@ -116913,7 +116913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,754억원",
             "opProfit": "246억원",
             "netProfit": "187억원",
@@ -116985,7 +116985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,233억원",
             "opProfit": "134억원",
             "netProfit": "102억원",
@@ -117057,7 +117057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,665억원",
             "opProfit": "245억원",
             "netProfit": "186억원",
@@ -117129,7 +117129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "623억원",
             "opProfit": "46억원",
             "netProfit": "35억원",
@@ -117201,7 +117201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "975억원",
             "opProfit": "114억원",
             "netProfit": "87억원",
@@ -117273,7 +117273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "958억원",
             "opProfit": "113억원",
             "netProfit": "86억원",
@@ -117345,7 +117345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "620억원",
             "opProfit": "48억원",
             "netProfit": "36억원",
@@ -117417,7 +117417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "692억원",
             "opProfit": "64억원",
             "netProfit": "49억원",
@@ -117489,7 +117489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "500억원",
             "opProfit": "44억원",
             "netProfit": "33억원",
@@ -117561,7 +117561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "675억원",
             "opProfit": "82억원",
             "netProfit": "62억원",
@@ -117633,7 +117633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "490억원",
             "opProfit": "53억원",
             "netProfit": "40억원",
@@ -117705,7 +117705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "40%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "339억원",
             "opProfit": "29억원",
             "netProfit": "22억원",
@@ -117777,7 +117777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "455억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -117849,7 +117849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "33%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "258억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -117921,7 +117921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "420억원",
             "opProfit": "76억원",
             "netProfit": "58억원",
@@ -117993,7 +117993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "364억원",
             "opProfit": "66억원",
             "netProfit": "50억원",
@@ -118065,7 +118065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "261억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -118137,7 +118137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "179억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -118209,7 +118209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "116억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -118281,7 +118281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "113억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -118409,7 +118409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "48조 847억원",
             "opProfit": "9조 2,323억원",
             "netProfit": "7조 165억원",
@@ -118537,7 +118537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110조 5,744억원",
             "opProfit": "10조 7,257억원",
             "netProfit": "8조 1,515억원",
@@ -118609,7 +118609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "54조 425억원",
             "opProfit": "5조 5,123억원",
             "netProfit": "4조 1,893억원",
@@ -118681,7 +118681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "19조 3,009억원",
             "opProfit": "2조 9,144억원",
             "netProfit": "2조 2,149억원",
@@ -118753,7 +118753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 6,777억원",
             "opProfit": "4,584억원",
             "netProfit": "3,484억원",
@@ -118825,7 +118825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 4,125억원",
             "opProfit": "9,959억원",
             "netProfit": "7,569억원",
@@ -118897,7 +118897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 7,087억원",
             "opProfit": "8,193억원",
             "netProfit": "6,227억원",
@@ -118969,7 +118969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 641억원",
             "opProfit": "4,167억원",
             "netProfit": "3,167억원",
@@ -119041,7 +119041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 8,994억원",
             "opProfit": "4,784억원",
             "netProfit": "3,636억원",
@@ -119113,7 +119113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 5,898억원",
             "opProfit": "1,717억원",
             "netProfit": "1,305억원",
@@ -119185,7 +119185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,390억원",
             "opProfit": "695억원",
             "netProfit": "528억원",
@@ -119257,7 +119257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,807억원",
             "opProfit": "1,228억원",
             "netProfit": "933억원",
@@ -119329,7 +119329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 63억원",
             "opProfit": "3,872억원",
             "netProfit": "2,943억원",
@@ -119401,7 +119401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 5,611억원",
             "opProfit": "2,732억원",
             "netProfit": "2,076억원",
@@ -119473,7 +119473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,890억원",
             "opProfit": "1,736억원",
             "netProfit": "1,319억원",
@@ -119545,7 +119545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,980억원",
             "opProfit": "478억원",
             "netProfit": "363억원",
@@ -119617,7 +119617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,228억원",
             "opProfit": "983억원",
             "netProfit": "747억원",
@@ -119689,7 +119689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,528억원",
             "opProfit": "1,364억원",
             "netProfit": "1,037억원",
@@ -119761,7 +119761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,673억원",
             "opProfit": "861억원",
             "netProfit": "654억원",
@@ -119833,7 +119833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,273억원",
             "opProfit": "1,539억원",
             "netProfit": "1,170억원",
@@ -119905,7 +119905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,307억원",
             "opProfit": "448억원",
             "netProfit": "340억원",
@@ -119977,7 +119977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,031억원",
             "opProfit": "435억원",
             "netProfit": "331억원",
@@ -120049,7 +120049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,442억원",
             "opProfit": "586억원",
             "netProfit": "445억원",
@@ -120121,7 +120121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,720억원",
             "opProfit": "689억원",
             "netProfit": "524억원",
@@ -120193,7 +120193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,806억원",
             "opProfit": "261억원",
             "netProfit": "198억원",
@@ -120265,7 +120265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,757억원",
             "opProfit": "733억원",
             "netProfit": "557억원",
@@ -120337,7 +120337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,219억원",
             "opProfit": "166억원",
             "netProfit": "126억원",
@@ -120409,7 +120409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,531억원",
             "opProfit": "434억원",
             "netProfit": "330억원",
@@ -120481,7 +120481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,623억원",
             "opProfit": "529억원",
             "netProfit": "402억원",
@@ -120553,7 +120553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,561억원",
             "opProfit": "538억원",
             "netProfit": "409억원",
@@ -120625,7 +120625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,474억원",
             "opProfit": "277억원",
             "netProfit": "211억원",
@@ -120697,7 +120697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,662억원",
             "opProfit": "325억원",
             "netProfit": "247억원",
@@ -120769,7 +120769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,292억원",
             "opProfit": "815억원",
             "netProfit": "619억원",
@@ -120841,7 +120841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,271억원",
             "opProfit": "277억원",
             "netProfit": "211억원",
@@ -120913,7 +120913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,618억원",
             "opProfit": "180억원",
             "netProfit": "137억원",
@@ -120985,7 +120985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,510억원",
             "opProfit": "427억원",
             "netProfit": "325억원",
@@ -121057,7 +121057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,261억원",
             "opProfit": "113억원",
             "netProfit": "86억원",
@@ -121129,7 +121129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,870억원",
             "opProfit": "247억원",
             "netProfit": "188억원",
@@ -121201,7 +121201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,954억원",
             "opProfit": "301억원",
             "netProfit": "229억원",
@@ -121273,7 +121273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "921억원",
             "opProfit": "83억원",
             "netProfit": "63억원",
@@ -121345,7 +121345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,697억원",
             "opProfit": "272억원",
             "netProfit": "207억원",
@@ -121417,7 +121417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,851억원",
             "opProfit": "324억원",
             "netProfit": "246억원",
@@ -121489,7 +121489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,678억원",
             "opProfit": "284억원",
             "netProfit": "216억원",
@@ -121561,7 +121561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,133억원",
             "opProfit": "133억원",
             "netProfit": "101억원",
@@ -121633,7 +121633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,616억원",
             "opProfit": "275억원",
             "netProfit": "209억원",
@@ -121705,7 +121705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "990억원",
             "opProfit": "111억원",
             "netProfit": "84억원",
@@ -121777,7 +121777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "930억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -121849,7 +121849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,402억원",
             "opProfit": "247억원",
             "netProfit": "188억원",
@@ -121921,7 +121921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "730억원",
             "opProfit": "72억원",
             "netProfit": "55억원",
@@ -121993,7 +121993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,129억원",
             "opProfit": "170억원",
             "netProfit": "129억원",
@@ -122065,7 +122065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "572억원",
             "opProfit": "46억원",
             "netProfit": "35억원",
@@ -122137,7 +122137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "797억원",
             "opProfit": "105억원",
             "netProfit": "80억원",
@@ -122209,7 +122209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "890억원",
             "opProfit": "134억원",
             "netProfit": "102억원",
@@ -122281,7 +122281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "967억원",
             "opProfit": "163억원",
             "netProfit": "124억원",
@@ -122353,7 +122353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "729억원",
             "opProfit": "114억원",
             "netProfit": "87억원",
@@ -122425,7 +122425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "702억원",
             "opProfit": "108억원",
             "netProfit": "82억원",
@@ -122497,7 +122497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "405억원",
             "opProfit": "40억원",
             "netProfit": "30억원",
@@ -122569,7 +122569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "674억원",
             "opProfit": "111억원",
             "netProfit": "84억원",
@@ -122641,7 +122641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "40%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "308억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -122713,7 +122713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "442억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -122785,7 +122785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "530억원",
             "opProfit": "87억원",
             "netProfit": "66억원",
@@ -122857,7 +122857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "213억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -122929,7 +122929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "393억원",
             "opProfit": "57억원",
             "netProfit": "43억원",
@@ -123001,7 +123001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "325억원",
             "opProfit": "51억원",
             "netProfit": "39억원",
@@ -123073,7 +123073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "294억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -123145,7 +123145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "397억원",
             "opProfit": "75억원",
             "netProfit": "57억원",
@@ -123217,7 +123217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110억원",
             "opProfit": "9억원",
             "netProfit": "7억원",
@@ -123289,7 +123289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "111억원",
             "opProfit": "10억원",
             "netProfit": "8억원",
@@ -123361,7 +123361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "11억원",
             "netProfit": "8억원",
@@ -123489,7 +123489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7조 29억원",
             "opProfit": "8,824억원",
             "netProfit": "6,706억원",
@@ -123561,7 +123561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,309억원",
             "opProfit": "1,046억원",
             "netProfit": "795억원",
@@ -123633,7 +123633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,512억원",
             "opProfit": "915억원",
             "netProfit": "695억원",
@@ -123705,7 +123705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,671억원",
             "opProfit": "771억원",
             "netProfit": "586억원",
@@ -123777,7 +123777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,990억원",
             "opProfit": "255억원",
             "netProfit": "194억원",
@@ -123849,7 +123849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,023억원",
             "opProfit": "149억원",
             "netProfit": "113억원",
@@ -123921,7 +123921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "602억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -123993,7 +123993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "656억원",
             "opProfit": "112억원",
             "netProfit": "85억원",
@@ -124121,7 +124121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7조 2,308억원",
             "opProfit": "1조 1,569억원",
             "netProfit": "8,792억원",
@@ -124193,7 +124193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,713억원",
             "opProfit": "1,591억원",
             "netProfit": "1,209억원",
@@ -124265,7 +124265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,054억원",
             "opProfit": "399억원",
             "netProfit": "303억원",
@@ -124337,7 +124337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,249억원",
             "opProfit": "1,213억원",
             "netProfit": "922억원",
@@ -124409,7 +124409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "105%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,436억원",
             "opProfit": "1,279억원",
             "netProfit": "972억원",
@@ -124481,7 +124481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,699억원",
             "opProfit": "667억원",
             "netProfit": "507억원",
@@ -124553,7 +124553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,174억원",
             "opProfit": "551억원",
             "netProfit": "419억원",
@@ -124625,7 +124625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,945억원",
             "opProfit": "1,124억원",
             "netProfit": "854억원",
@@ -124697,7 +124697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,756억원",
             "opProfit": "1,088억원",
             "netProfit": "827억원",
@@ -124769,7 +124769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,981억원",
             "opProfit": "541억원",
             "netProfit": "411억원",
@@ -124841,7 +124841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,160억원",
             "opProfit": "222억원",
             "netProfit": "169억원",
@@ -124913,7 +124913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,178억원",
             "opProfit": "496억원",
             "netProfit": "377억원",
@@ -124985,7 +124985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,817억원",
             "opProfit": "204억원",
             "netProfit": "155억원",
@@ -125057,7 +125057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,973억원",
             "opProfit": "547억원",
             "netProfit": "416억원",
@@ -125129,7 +125129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,270억원",
             "opProfit": "107억원",
             "netProfit": "81억원",
@@ -125201,7 +125201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,269억원",
             "opProfit": "395억원",
             "netProfit": "300억원",
@@ -125273,7 +125273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,154억원",
             "opProfit": "358억원",
             "netProfit": "272억원",
@@ -125345,7 +125345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,020억원",
             "opProfit": "86억원",
             "netProfit": "65억원",
@@ -125417,7 +125417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,419억원",
             "opProfit": "457억원",
             "netProfit": "347억원",
@@ -125489,7 +125489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,101억원",
             "opProfit": "357억원",
             "netProfit": "271억원",
@@ -125561,7 +125561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,001억원",
             "opProfit": "97억원",
             "netProfit": "74억원",
@@ -125633,7 +125633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,170억원",
             "opProfit": "133억원",
             "netProfit": "101억원",
@@ -125705,7 +125705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "596억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -125777,7 +125777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "751억원",
             "opProfit": "93억원",
             "netProfit": "71억원",
@@ -125849,7 +125849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "838억원",
             "opProfit": "158억원",
             "netProfit": "120억원",
@@ -125921,7 +125921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "362억원",
             "opProfit": "33억원",
             "netProfit": "25억원",
@@ -125993,7 +125993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "282억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -126065,7 +126065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "550억원",
             "opProfit": "84억원",
             "netProfit": "64억원",
@@ -126137,7 +126137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "275억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -126209,7 +126209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "12억원",
             "netProfit": "9억원",
@@ -126281,7 +126281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "133억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -126409,7 +126409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 9,535억원",
             "opProfit": "2,422억원",
             "netProfit": "1,841억원",
@@ -126481,7 +126481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,063억원",
             "opProfit": "1,139억원",
             "netProfit": "866억원",
@@ -126553,7 +126553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "33%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,588억원",
             "opProfit": "577억원",
             "netProfit": "439억원",
@@ -126625,7 +126625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,480억원",
             "opProfit": "606억원",
             "netProfit": "461억원",
@@ -126697,7 +126697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 274억원",
             "opProfit": "1,253억원",
             "netProfit": "952억원",
@@ -126769,7 +126769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,171억원",
             "opProfit": "803억원",
             "netProfit": "610억원",
@@ -126841,7 +126841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 239억원",
             "opProfit": "1,935억원",
             "netProfit": "1,471억원",
@@ -126913,7 +126913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,892억원",
             "opProfit": "719억원",
             "netProfit": "546억원",
@@ -126985,7 +126985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,592억원",
             "opProfit": "781억원",
             "netProfit": "594억원",
@@ -127057,7 +127057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,563억원",
             "opProfit": "502억원",
             "netProfit": "382억원",
@@ -127129,7 +127129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,106억원",
             "opProfit": "739억원",
             "netProfit": "562억원",
@@ -127201,7 +127201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,379억원",
             "opProfit": "314억원",
             "netProfit": "239억원",
@@ -127273,7 +127273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,136억원",
             "opProfit": "117억원",
             "netProfit": "89억원",
@@ -127345,7 +127345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,361억원",
             "opProfit": "184억원",
             "netProfit": "140억원",
@@ -127417,7 +127417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "856억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -127489,7 +127489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "571억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -127561,7 +127561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "948억원",
             "opProfit": "132억원",
             "netProfit": "100억원",
@@ -127633,7 +127633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "426억원",
             "opProfit": "32억원",
             "netProfit": "24억원",
@@ -127705,7 +127705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "113억원",
             "opProfit": "12억원",
             "netProfit": "9억원",
@@ -127833,7 +127833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 8,735억원",
             "opProfit": "3,757억원",
             "netProfit": "2,855억원",
@@ -127905,7 +127905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 780억원",
             "opProfit": "798억원",
             "netProfit": "606억원",
@@ -127977,7 +127977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,993억원",
             "opProfit": "650억원",
             "netProfit": "494억원",
@@ -128049,7 +128049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,554억원",
             "opProfit": "1,155억원",
             "netProfit": "878억원",
@@ -128121,7 +128121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,631억원",
             "opProfit": "902억원",
             "netProfit": "686억원",
@@ -128193,7 +128193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,727억원",
             "opProfit": "515억원",
             "netProfit": "391억원",
@@ -128265,7 +128265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,772억원",
             "opProfit": "1,469억원",
             "netProfit": "1,116억원",
@@ -128337,7 +128337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,622억원",
             "opProfit": "337억원",
             "netProfit": "256억원",
@@ -128409,7 +128409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,437억원",
             "opProfit": "870억원",
             "netProfit": "661억원",
@@ -128481,7 +128481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,035억원",
             "opProfit": "861억원",
             "netProfit": "654억원",
@@ -128553,7 +128553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,199억원",
             "opProfit": "731억원",
             "netProfit": "556억원",
@@ -128625,7 +128625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,368억원",
             "opProfit": "249억원",
             "netProfit": "189억원",
@@ -128697,7 +128697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,684억원",
             "opProfit": "330억원",
             "netProfit": "251억원",
@@ -128769,7 +128769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,675억원",
             "opProfit": "673억원",
             "netProfit": "511억원",
@@ -128841,7 +128841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,785억원",
             "opProfit": "166억원",
             "netProfit": "126억원",
@@ -128913,7 +128913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,377억원",
             "opProfit": "302억원",
             "netProfit": "230억원",
@@ -128985,7 +128985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,308억원",
             "opProfit": "293억원",
             "netProfit": "223억원",
@@ -129057,7 +129057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,748억원",
             "opProfit": "231억원",
             "netProfit": "176억원",
@@ -129129,7 +129129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,553억원",
             "opProfit": "217억원",
             "netProfit": "165억원",
@@ -129201,7 +129201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,109억원",
             "opProfit": "392억원",
             "netProfit": "298억원",
@@ -129273,7 +129273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,127억원",
             "opProfit": "119억원",
             "netProfit": "90억원",
@@ -129345,7 +129345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,390억원",
             "opProfit": "183억원",
             "netProfit": "139억원",
@@ -129417,7 +129417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,142억원",
             "opProfit": "128억원",
             "netProfit": "97억원",
@@ -129489,7 +129489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,430억원",
             "opProfit": "217억원",
             "netProfit": "165억원",
@@ -129561,7 +129561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,101억원",
             "opProfit": "141억원",
             "netProfit": "107억원",
@@ -129633,7 +129633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "601억원",
             "opProfit": "47억원",
             "netProfit": "36억원",
@@ -129705,7 +129705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "707억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -129777,7 +129777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,136억원",
             "opProfit": "177억원",
             "netProfit": "135억원",
@@ -129849,7 +129849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,425억원",
             "opProfit": "275억원",
             "netProfit": "209억원",
@@ -129921,7 +129921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "898억원",
             "opProfit": "132억원",
             "netProfit": "100억원",
@@ -129993,7 +129993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "882억원",
             "opProfit": "143억원",
             "netProfit": "109억원",
@@ -130065,7 +130065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "542억원",
             "opProfit": "56억원",
             "netProfit": "43억원",
@@ -130137,7 +130137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "865억원",
             "opProfit": "147억원",
             "netProfit": "112억원",
@@ -130209,7 +130209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "409억원",
             "opProfit": "35억원",
             "netProfit": "27억원",
@@ -130281,7 +130281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "927억원",
             "opProfit": "171억원",
             "netProfit": "130억원",
@@ -130353,7 +130353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "892억원",
             "opProfit": "159억원",
             "netProfit": "121억원",
@@ -130425,7 +130425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "492억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -130497,7 +130497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "867억원",
             "opProfit": "165억원",
             "netProfit": "125억원",
@@ -130569,7 +130569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "470억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -130641,7 +130641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "589억원",
             "opProfit": "92억원",
             "netProfit": "70억원",
@@ -130713,7 +130713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "572억원",
             "opProfit": "92억원",
             "netProfit": "70억원",
@@ -130785,7 +130785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "272억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -130857,7 +130857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "395억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -130929,7 +130929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "265억원",
             "opProfit": "32억원",
             "netProfit": "24억원",
@@ -131001,7 +131001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "238억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -131073,7 +131073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "133억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -131145,7 +131145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "119억원",
             "opProfit": "18억원",
             "netProfit": "14억원",
@@ -131217,7 +131217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "141억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -131289,7 +131289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "111억원",
             "opProfit": "10억원",
             "netProfit": "8억원",
@@ -131361,7 +131361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "11억원",
             "netProfit": "8억원",
@@ -131433,7 +131433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "119억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -131561,7 +131561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,384억원",
             "opProfit": "403억원",
             "netProfit": "306억원",
@@ -131633,7 +131633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "116%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,262억원",
             "opProfit": "797억원",
             "netProfit": "606억원",
@@ -131705,7 +131705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,170억원",
             "opProfit": "495억원",
             "netProfit": "376억원",
@@ -131777,7 +131777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "83%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,741억원",
             "opProfit": "251억원",
             "netProfit": "191억원",
@@ -131849,7 +131849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,610억원",
             "opProfit": "253억원",
             "netProfit": "192억원",
@@ -131921,7 +131921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "681억원",
             "opProfit": "57억원",
             "netProfit": "43억원",
@@ -131993,7 +131993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,582억원",
             "opProfit": "294억원",
             "netProfit": "223억원",
@@ -132065,7 +132065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "696억원",
             "opProfit": "68억원",
             "netProfit": "52억원",
@@ -132137,7 +132137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "416억원",
             "opProfit": "33억원",
             "netProfit": "25억원",
@@ -132209,7 +132209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "464억원",
             "opProfit": "75억원",
             "netProfit": "57억원",
@@ -132281,7 +132281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "344억원",
             "opProfit": "47억원",
             "netProfit": "36억원",
@@ -132353,7 +132353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "180억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -132425,7 +132425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "189억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -132497,7 +132497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "119억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -132625,7 +132625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "21조 6,314억원",
             "opProfit": "3조 2,663억원",
             "netProfit": "2조 4,824억원",
@@ -132697,7 +132697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "10조 6,762억원",
             "opProfit": "1조 2,171억원",
             "netProfit": "9,250억원",
@@ -132769,7 +132769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 7,183억원",
             "opProfit": "2,900억원",
             "netProfit": "2,204억원",
@@ -132841,7 +132841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 3,819억원",
             "opProfit": "7,804억원",
             "netProfit": "5,931억원",
@@ -132913,7 +132913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 3,549억원",
             "opProfit": "3,154억원",
             "netProfit": "2,397억원",
@@ -132985,7 +132985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 9,068억원",
             "opProfit": "3,401억원",
             "netProfit": "2,585억원",
@@ -133057,7 +133057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 15억원",
             "opProfit": "3,872억원",
             "netProfit": "2,943억원",
@@ -133129,7 +133129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 1,599억원",
             "opProfit": "3,369억원",
             "netProfit": "2,560억원",
@@ -133201,7 +133201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,229억원",
             "opProfit": "1,172억원",
             "netProfit": "891억원",
@@ -133273,7 +133273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,098억원",
             "opProfit": "738억원",
             "netProfit": "561억원",
@@ -133345,7 +133345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,671억원",
             "opProfit": "272억원",
             "netProfit": "207억원",
@@ -133417,7 +133417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,909억원",
             "opProfit": "1,384억원",
             "netProfit": "1,052억원",
@@ -133489,7 +133489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,707억원",
             "opProfit": "1,680억원",
             "netProfit": "1,277억원",
@@ -133561,7 +133561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,250억원",
             "opProfit": "263억원",
             "netProfit": "200억원",
@@ -133633,7 +133633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,034억원",
             "opProfit": "700억원",
             "netProfit": "532억원",
@@ -133705,7 +133705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,255억원",
             "opProfit": "1,063억원",
             "netProfit": "808억원",
@@ -133777,7 +133777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,460억원",
             "opProfit": "353억원",
             "netProfit": "268억원",
@@ -133849,7 +133849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,622억원",
             "opProfit": "652억원",
             "netProfit": "496억원",
@@ -133921,7 +133921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,149억원",
             "opProfit": "159억원",
             "netProfit": "121억원",
@@ -133993,7 +133993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,477억원",
             "opProfit": "991억원",
             "netProfit": "753억원",
@@ -134065,7 +134065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,286억원",
             "opProfit": "215억원",
             "netProfit": "163억원",
@@ -134137,7 +134137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,973억원",
             "opProfit": "636억원",
             "netProfit": "483억원",
@@ -134209,7 +134209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,502억원",
             "opProfit": "305억원",
             "netProfit": "232억원",
@@ -134281,7 +134281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,645억원",
             "opProfit": "138억원",
             "netProfit": "105억원",
@@ -134353,7 +134353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,415억원",
             "opProfit": "328억원",
             "netProfit": "249억원",
@@ -134425,7 +134425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "65%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,089억원",
             "opProfit": "251억원",
             "netProfit": "191억원",
@@ -134497,7 +134497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,000억원",
             "opProfit": "236억원",
             "netProfit": "179억원",
@@ -134569,7 +134569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,695억원",
             "opProfit": "431억원",
             "netProfit": "328억원",
@@ -134641,7 +134641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,146억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -134713,7 +134713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,832억원",
             "opProfit": "216억원",
             "netProfit": "164억원",
@@ -134785,7 +134785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,806억원",
             "opProfit": "211억원",
             "netProfit": "160억원",
@@ -134857,7 +134857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,663억원",
             "opProfit": "490억원",
             "netProfit": "372억원",
@@ -134929,7 +134929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,641억원",
             "opProfit": "200억원",
             "netProfit": "152억원",
@@ -135001,7 +135001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,280억원",
             "opProfit": "420억원",
             "netProfit": "319억원",
@@ -135073,7 +135073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,884억원",
             "opProfit": "307억원",
             "netProfit": "233억원",
@@ -135145,7 +135145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,735억원",
             "opProfit": "271억원",
             "netProfit": "206억원",
@@ -135217,7 +135217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "761억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -135289,7 +135289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,415억원",
             "opProfit": "233억원",
             "netProfit": "177억원",
@@ -135361,7 +135361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "40%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "699억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -135433,7 +135433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "928억원",
             "opProfit": "110억원",
             "netProfit": "84억원",
@@ -135505,7 +135505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,070억원",
             "opProfit": "151억원",
             "netProfit": "115억원",
@@ -135577,7 +135577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,048억원",
             "opProfit": "149억원",
             "netProfit": "113억원",
@@ -135649,7 +135649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "541억원",
             "opProfit": "45억원",
             "netProfit": "34억원",
@@ -135721,7 +135721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "726억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -135793,7 +135793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "527억원",
             "opProfit": "47억원",
             "netProfit": "36억원",
@@ -135865,7 +135865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "596억원",
             "opProfit": "61억원",
             "netProfit": "46억원",
@@ -135937,7 +135937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "550억원",
             "opProfit": "57억원",
             "netProfit": "43억원",
@@ -136009,7 +136009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,015억원",
             "opProfit": "189억원",
             "netProfit": "144억원",
@@ -136081,7 +136081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "966억원",
             "opProfit": "178억원",
             "netProfit": "135억원",
@@ -136153,7 +136153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "430억원",
             "opProfit": "38억원",
             "netProfit": "29억원",
@@ -136225,7 +136225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "779억원",
             "opProfit": "122억원",
             "netProfit": "93억원",
@@ -136297,7 +136297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "438억원",
             "opProfit": "51억원",
             "netProfit": "39억원",
@@ -136369,7 +136369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "461억원",
             "opProfit": "59억원",
             "netProfit": "45억원",
@@ -136441,7 +136441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "275억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -136513,7 +136513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "510억원",
             "opProfit": "82억원",
             "netProfit": "62억원",
@@ -136585,7 +136585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "112%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "523억원",
             "opProfit": "95억원",
             "netProfit": "72억원",
@@ -136657,7 +136657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "383억원",
             "opProfit": "54억원",
             "netProfit": "41억원",
@@ -136729,7 +136729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "189억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -136801,7 +136801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "258억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -136873,7 +136873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "179억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -136945,7 +136945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "193억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -137017,7 +137017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "306억원",
             "opProfit": "40억원",
             "netProfit": "30억원",
@@ -137089,7 +137089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "438억원",
             "opProfit": "83억원",
             "netProfit": "63억원",
@@ -137161,7 +137161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "363억원",
             "opProfit": "64억원",
             "netProfit": "49억원",
@@ -137289,7 +137289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,035억원",
             "opProfit": "159억원",
             "netProfit": "121억원",
@@ -137361,7 +137361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,703억원",
             "opProfit": "476억원",
             "netProfit": "362억원",
@@ -137433,7 +137433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,527억원",
             "opProfit": "267억원",
             "netProfit": "203억원",
@@ -137505,7 +137505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "531억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -137577,7 +137577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "440억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -137649,7 +137649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "508억원",
             "opProfit": "81억원",
             "netProfit": "62억원",
@@ -137721,7 +137721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "214억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -137793,7 +137793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "408억원",
             "opProfit": "71억원",
             "netProfit": "54억원",
@@ -137865,7 +137865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110억원",
             "opProfit": "9억원",
             "netProfit": "7억원",
@@ -137937,7 +137937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "138억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -138009,7 +138009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "115억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -138137,7 +138137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "46조 4,449억원",
             "opProfit": "6조 5,487억원",
             "netProfit": "4조 9,770억원",
@@ -138209,7 +138209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "24조 2,062억원",
             "opProfit": "3조 5,341억원",
             "netProfit": "2조 6,859억원",
@@ -138281,7 +138281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,491억원",
             "opProfit": "727억원",
             "netProfit": "553억원",
@@ -138353,7 +138353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,880억원",
             "opProfit": "291억원",
             "netProfit": "221억원",
@@ -138425,7 +138425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,123억원",
             "opProfit": "412억원",
             "netProfit": "313억원",
@@ -138497,7 +138497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,734억원",
             "opProfit": "653억원",
             "netProfit": "496억원",
@@ -138569,7 +138569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,763억원",
             "opProfit": "486억원",
             "netProfit": "369억원",
@@ -138641,7 +138641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,319억원",
             "opProfit": "397억원",
             "netProfit": "302억원",
@@ -138713,7 +138713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,782억원",
             "opProfit": "274억원",
             "netProfit": "208억원",
@@ -138785,7 +138785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "692억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -138857,7 +138857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "721억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -138929,7 +138929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "846억원",
             "opProfit": "112억원",
             "netProfit": "85억원",
@@ -139001,7 +139001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "802억원",
             "opProfit": "152억원",
             "netProfit": "116억원",
@@ -139073,7 +139073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "548억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -139145,7 +139145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "256억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -139217,7 +139217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "117억원",
             "opProfit": "18억원",
             "netProfit": "14억원",
@@ -139345,7 +139345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "41조 5,541억원",
             "opProfit": "4조 6,541억원",
             "netProfit": "3조 5,371억원",
@@ -139417,7 +139417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "11조 8,755억원",
             "opProfit": "1조 5,438억원",
             "netProfit": "1조 1,733억원",
@@ -139489,7 +139489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7조 6,970억원",
             "opProfit": "1조 2,315억원",
             "netProfit": "9,359억원",
@@ -139561,7 +139561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "94%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 6,711억원",
             "opProfit": "7,380억원",
             "netProfit": "5,609억원",
@@ -139633,7 +139633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 8,303억원",
             "opProfit": "2,915억원",
             "netProfit": "2,215억원",
@@ -139705,7 +139705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 360억원",
             "opProfit": "1,527억원",
             "netProfit": "1,161억원",
@@ -139777,7 +139777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 1,890억원",
             "opProfit": "7,708억원",
             "netProfit": "5,858억원",
@@ -139849,7 +139849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 6,500억원",
             "opProfit": "1,452억원",
             "netProfit": "1,104억원",
@@ -139921,7 +139921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 8,392억원",
             "opProfit": "1,986억원",
             "netProfit": "1,509억원",
@@ -139993,7 +139993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 3,862억원",
             "opProfit": "3,484억원",
             "netProfit": "2,648억원",
@@ -140065,7 +140065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 5,848억원",
             "opProfit": "2,409억원",
             "netProfit": "1,831억원",
@@ -140137,7 +140137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,357억원",
             "opProfit": "2,340억원",
             "netProfit": "1,778억원",
@@ -140209,7 +140209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "101%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,217억원",
             "opProfit": "2,388억원",
             "netProfit": "1,815억원",
@@ -140281,7 +140281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,203억원",
             "opProfit": "735억원",
             "netProfit": "559억원",
@@ -140353,7 +140353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,860억원",
             "opProfit": "927억원",
             "netProfit": "705억원",
@@ -140425,7 +140425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,998억원",
             "opProfit": "984억원",
             "netProfit": "748억원",
@@ -140497,7 +140497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,058억원",
             "opProfit": "790억원",
             "netProfit": "600억원",
@@ -140569,7 +140569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 517억원",
             "opProfit": "2,019억원",
             "netProfit": "1,534억원",
@@ -140641,7 +140641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,524억원",
             "opProfit": "1,355억원",
             "netProfit": "1,030억원",
@@ -140713,7 +140713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,614억원",
             "opProfit": "880억원",
             "netProfit": "669억원",
@@ -140785,7 +140785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,691억원",
             "opProfit": "910억원",
             "netProfit": "692억원",
@@ -140857,7 +140857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,528억원",
             "opProfit": "1,242억원",
             "netProfit": "944억원",
@@ -140929,7 +140929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,245억원",
             "opProfit": "1,290억원",
             "netProfit": "980억원",
@@ -141001,7 +141001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,508억원",
             "opProfit": "799억원",
             "netProfit": "607억원",
@@ -141073,7 +141073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,806억원",
             "opProfit": "678억원",
             "netProfit": "515억원",
@@ -141145,7 +141145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,530억원",
             "opProfit": "395억원",
             "netProfit": "300억원",
@@ -141217,7 +141217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,076억원",
             "opProfit": "1,154억원",
             "netProfit": "877억원",
@@ -141289,7 +141289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,716억원",
             "opProfit": "736억원",
             "netProfit": "559억원",
@@ -141361,7 +141361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,220억원",
             "opProfit": "595억원",
             "netProfit": "452억원",
@@ -141433,7 +141433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,805억원",
             "opProfit": "1,097억원",
             "netProfit": "834억원",
@@ -141505,7 +141505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,376억원",
             "opProfit": "432억원",
             "netProfit": "328억원",
@@ -141577,7 +141577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,973억원",
             "opProfit": "925억원",
             "netProfit": "703억원",
@@ -141649,7 +141649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,601억원",
             "opProfit": "551억원",
             "netProfit": "419억원",
@@ -141721,7 +141721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,553억원",
             "opProfit": "554억원",
             "netProfit": "421억원",
@@ -141793,7 +141793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,693억원",
             "opProfit": "139억원",
             "netProfit": "106억원",
@@ -141865,7 +141865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,730억원",
             "opProfit": "671억원",
             "netProfit": "510억원",
@@ -141937,7 +141937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,982억원",
             "opProfit": "438억원",
             "netProfit": "333억원",
@@ -142009,7 +142009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,775억원",
             "opProfit": "391억원",
             "netProfit": "297억원",
@@ -142081,7 +142081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,776억원",
             "opProfit": "433억원",
             "netProfit": "329억원",
@@ -142153,7 +142153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,583억원",
             "opProfit": "147억원",
             "netProfit": "112억원",
@@ -142225,7 +142225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,309억원",
             "opProfit": "312억원",
             "netProfit": "237억원",
@@ -142297,7 +142297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,231억원",
             "opProfit": "595억원",
             "netProfit": "452억원",
@@ -142369,7 +142369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,834억원",
             "opProfit": "519억원",
             "netProfit": "394억원",
@@ -142441,7 +142441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,290억원",
             "opProfit": "114억원",
             "netProfit": "87억원",
@@ -142513,7 +142513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "76%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,960억원",
             "opProfit": "263억원",
             "netProfit": "200억원",
@@ -142585,7 +142585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,613억원",
             "opProfit": "481억원",
             "netProfit": "366억원",
@@ -142657,7 +142657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,148억원",
             "opProfit": "337억원",
             "netProfit": "256억원",
@@ -142729,7 +142729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,411억원",
             "opProfit": "422억원",
             "netProfit": "321억원",
@@ -142801,7 +142801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "116%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,596억원",
             "opProfit": "485억원",
             "netProfit": "369억원",
@@ -142873,7 +142873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,614억원",
             "opProfit": "199억원",
             "netProfit": "151억원",
@@ -142945,7 +142945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,049억원",
             "opProfit": "320억원",
             "netProfit": "243억원",
@@ -143017,7 +143017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,304억원",
             "opProfit": "424억원",
             "netProfit": "322억원",
@@ -143089,7 +143089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,712억원",
             "opProfit": "241억원",
             "netProfit": "183억원",
@@ -143161,7 +143161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,826억원",
             "opProfit": "285억원",
             "netProfit": "217억원",
@@ -143233,7 +143233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,777억원",
             "opProfit": "270억원",
             "netProfit": "205억원",
@@ -143305,7 +143305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "778억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -143377,7 +143377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,784억원",
             "opProfit": "294억원",
             "netProfit": "223억원",
@@ -143449,7 +143449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,083억원",
             "opProfit": "396억원",
             "netProfit": "301억원",
@@ -143521,7 +143521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "860억원",
             "opProfit": "72억원",
             "netProfit": "55억원",
@@ -143593,7 +143593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "924억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -143665,7 +143665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,490억원",
             "opProfit": "218억원",
             "netProfit": "166억원",
@@ -143737,7 +143737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,300억원",
             "opProfit": "172억원",
             "netProfit": "131억원",
@@ -143809,7 +143809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,723억원",
             "opProfit": "295억원",
             "netProfit": "224억원",
@@ -143881,7 +143881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,862억원",
             "opProfit": "346억원",
             "netProfit": "263억원",
@@ -143953,7 +143953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,393억원",
             "opProfit": "210억원",
             "netProfit": "160억원",
@@ -144025,7 +144025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,235억원",
             "opProfit": "168억원",
             "netProfit": "128억원",
@@ -144097,7 +144097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,553억원",
             "opProfit": "264억원",
             "netProfit": "201억원",
@@ -144169,7 +144169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "692억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -144241,7 +144241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "651억원",
             "opProfit": "51억원",
             "netProfit": "39억원",
@@ -144313,7 +144313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,142억원",
             "opProfit": "158억원",
             "netProfit": "120억원",
@@ -144385,7 +144385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,291억원",
             "opProfit": "201억원",
             "netProfit": "153억원",
@@ -144457,7 +144457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,453억원",
             "opProfit": "254억원",
             "netProfit": "193억원",
@@ -144529,7 +144529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "629억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -144601,7 +144601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,187억원",
             "opProfit": "173억원",
             "netProfit": "131억원",
@@ -144673,7 +144673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,527억원",
             "opProfit": "281억원",
             "netProfit": "214억원",
@@ -144745,7 +144745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,210억원",
             "opProfit": "183억원",
             "netProfit": "139억원",
@@ -144817,7 +144817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "757억원",
             "opProfit": "74억원",
             "netProfit": "56억원",
@@ -144889,7 +144889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "755억원",
             "opProfit": "74억원",
             "netProfit": "56억원",
@@ -144961,7 +144961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,293억원",
             "opProfit": "219억원",
             "netProfit": "166억원",
@@ -145033,7 +145033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "835억원",
             "opProfit": "94억원",
             "netProfit": "71억원",
@@ -145105,7 +145105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,060억원",
             "opProfit": "149억원",
             "netProfit": "113억원",
@@ -145177,7 +145177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,438억원",
             "opProfit": "270억원",
             "netProfit": "205억원",
@@ -145249,7 +145249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,333억원",
             "opProfit": "235억원",
             "netProfit": "179억원",
@@ -145321,7 +145321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "877억원",
             "opProfit": "106억원",
             "netProfit": "81억원",
@@ -145393,7 +145393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "536억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -145465,7 +145465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,008억원",
             "opProfit": "152억원",
             "netProfit": "116억원",
@@ -145537,7 +145537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "761억원",
             "opProfit": "89억원",
             "netProfit": "68억원",
@@ -145609,7 +145609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,275억원",
             "opProfit": "242억원",
             "netProfit": "184억원",
@@ -145681,7 +145681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "791억원",
             "opProfit": "97억원",
             "netProfit": "74억원",
@@ -145753,7 +145753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "505억원",
             "opProfit": "40억원",
             "netProfit": "30억원",
@@ -145825,7 +145825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "877억원",
             "opProfit": "121억원",
             "netProfit": "92억원",
@@ -145897,7 +145897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "742억원",
             "opProfit": "88억원",
             "netProfit": "67억원",
@@ -145969,7 +145969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "667억원",
             "opProfit": "72억원",
             "netProfit": "55억원",
@@ -146041,7 +146041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "509억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -146113,7 +146113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "687억원",
             "opProfit": "79억원",
             "netProfit": "60억원",
@@ -146185,7 +146185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "673억원",
             "opProfit": "77억원",
             "netProfit": "59억원",
@@ -146257,7 +146257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "598억원",
             "opProfit": "65억원",
             "netProfit": "49억원",
@@ -146329,7 +146329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "743억원",
             "opProfit": "99억원",
             "netProfit": "75억원",
@@ -146401,7 +146401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "871억원",
             "opProfit": "138억원",
             "netProfit": "105억원",
@@ -146473,7 +146473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,066억원",
             "opProfit": "206억원",
             "netProfit": "157억원",
@@ -146545,7 +146545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "935억원",
             "opProfit": "165억원",
             "netProfit": "125억원",
@@ -146617,7 +146617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "937억원",
             "opProfit": "167억원",
             "netProfit": "127억원",
@@ -146689,7 +146689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "465억원",
             "opProfit": "46억원",
             "netProfit": "35억원",
@@ -146761,7 +146761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "620억원",
             "opProfit": "80억원",
             "netProfit": "61억원",
@@ -146833,7 +146833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "399억원",
             "opProfit": "34억원",
             "netProfit": "26억원",
@@ -146905,7 +146905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "573억원",
             "opProfit": "70억원",
             "netProfit": "53억원",
@@ -146977,7 +146977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "760억원",
             "opProfit": "129억원",
             "netProfit": "98억원",
@@ -147049,7 +147049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "561억원",
             "opProfit": "73억원",
             "netProfit": "55억원",
@@ -147121,7 +147121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "520억원",
             "opProfit": "63억원",
             "netProfit": "48억원",
@@ -147193,7 +147193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "631억원",
             "opProfit": "95억원",
             "netProfit": "72억원",
@@ -147265,7 +147265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "744억원",
             "opProfit": "134억원",
             "netProfit": "102억원",
@@ -147337,7 +147337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "566억원",
             "opProfit": "80억원",
             "netProfit": "61억원",
@@ -147409,7 +147409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "583억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -147481,7 +147481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "685억원",
             "opProfit": "116억원",
             "netProfit": "88억원",
@@ -147553,7 +147553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "529억원",
             "opProfit": "72억원",
             "netProfit": "55억원",
@@ -147625,7 +147625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "58%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "392억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -147697,7 +147697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "679억원",
             "opProfit": "125억원",
             "netProfit": "95억원",
@@ -147769,7 +147769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "538억원",
             "opProfit": "81억원",
             "netProfit": "62억원",
@@ -147841,7 +147841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "496억원",
             "opProfit": "70억원",
             "netProfit": "53억원",
@@ -147913,7 +147913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "402억원",
             "opProfit": "47억원",
             "netProfit": "36억원",
@@ -147985,7 +147985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "303억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -148057,7 +148057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "294억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -148129,7 +148129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "320억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -148201,7 +148201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "557억원",
             "opProfit": "94억원",
             "netProfit": "71억원",
@@ -148273,7 +148273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "280억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -148345,7 +148345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "472억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -148417,7 +148417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "359억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -148489,7 +148489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "51%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "302억원",
             "opProfit": "30억원",
             "netProfit": "23억원",
@@ -148561,7 +148561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "388억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -148633,7 +148633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "557억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -148705,7 +148705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "435억원",
             "opProfit": "64억원",
             "netProfit": "49억원",
@@ -148777,7 +148777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "509억원",
             "opProfit": "87억원",
             "netProfit": "66억원",
@@ -148849,7 +148849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "306억원",
             "opProfit": "33억원",
             "netProfit": "25억원",
@@ -148921,7 +148921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "556억원",
             "opProfit": "105억원",
             "netProfit": "80억원",
@@ -148993,7 +148993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "238억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -149065,7 +149065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "271억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -149137,7 +149137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "311억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -149209,7 +149209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "33%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "195억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -149281,7 +149281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "262억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -149353,7 +149353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "388억원",
             "opProfit": "63억원",
             "netProfit": "48억원",
@@ -149425,7 +149425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "186억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -149497,7 +149497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "262억원",
             "opProfit": "29억원",
             "netProfit": "22억원",
@@ -149569,7 +149569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "226억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -149641,7 +149641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "165억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -149713,7 +149713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "207억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -149785,7 +149785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "58%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "190억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -149857,7 +149857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "171억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -149929,7 +149929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "142억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -150001,7 +150001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "11억원",
             "netProfit": "8억원",
@@ -150073,7 +150073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "111억원",
             "opProfit": "10억원",
             "netProfit": "8억원",
@@ -150145,7 +150145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "118억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -150217,7 +150217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "118억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -150289,7 +150289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110억원",
             "opProfit": "9억원",
             "netProfit": "7억원",
@@ -150417,7 +150417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "31조 3,829억원",
             "opProfit": "5조 7,745억원",
             "netProfit": "4조 3,886억원",
@@ -150489,7 +150489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "58%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 220억원",
             "opProfit": "2,224억원",
             "netProfit": "1,690억원",
@@ -150561,7 +150561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,129억원",
             "opProfit": "821억원",
             "netProfit": "624억원",
@@ -150633,7 +150633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,144억원",
             "opProfit": "572억원",
             "netProfit": "435억원",
@@ -150705,7 +150705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,704억원",
             "opProfit": "696억원",
             "netProfit": "529억원",
@@ -150777,7 +150777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,551억원",
             "opProfit": "444억원",
             "netProfit": "337억원",
@@ -150849,7 +150849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "898억원",
             "opProfit": "75억원",
             "netProfit": "57억원",
@@ -150921,7 +150921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,167억원",
             "opProfit": "142억원",
             "netProfit": "108억원",
@@ -150993,7 +150993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,129억원",
             "opProfit": "137억원",
             "netProfit": "104억원",
@@ -151065,7 +151065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "638억원",
             "opProfit": "105억원",
             "netProfit": "80억원",
@@ -151137,7 +151137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "624억원",
             "opProfit": "113억원",
             "netProfit": "86억원",
@@ -151209,7 +151209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "198억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -151281,7 +151281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -151409,7 +151409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "13조 7,990억원",
             "opProfit": "1조 6,835억원",
             "netProfit": "1조 2,795억원",
@@ -151481,7 +151481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7조 2,840억원",
             "opProfit": "9,906억원",
             "netProfit": "7,529억원",
@@ -151553,7 +151553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 6,626억원",
             "opProfit": "2,183억원",
             "netProfit": "1,659억원",
@@ -151625,7 +151625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 7,309억원",
             "opProfit": "6,907억원",
             "netProfit": "5,249억원",
@@ -151697,7 +151697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 7,204억원",
             "opProfit": "4,688억원",
             "netProfit": "3,563억원",
@@ -151769,7 +151769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 9,696억원",
             "opProfit": "6,947억원",
             "netProfit": "5,280억원",
@@ -151841,7 +151841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 2,707억원",
             "opProfit": "2,770억원",
             "netProfit": "2,105억원",
@@ -151913,7 +151913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 8,334억원",
             "opProfit": "2,035억원",
             "netProfit": "1,547억원",
@@ -151985,7 +151985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 8,901억원",
             "opProfit": "2,306억원",
             "netProfit": "1,753억원",
@@ -152057,7 +152057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,352억원",
             "opProfit": "1,175억원",
             "netProfit": "893억원",
@@ -152129,7 +152129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,565억원",
             "opProfit": "1,384억원",
             "netProfit": "1,052억원",
@@ -152201,7 +152201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,404억원",
             "opProfit": "2,037억원",
             "netProfit": "1,548억원",
@@ -152273,7 +152273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,336억원",
             "opProfit": "2,267억원",
             "netProfit": "1,723억원",
@@ -152345,7 +152345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,441억원",
             "opProfit": "2,433억원",
             "netProfit": "1,849억원",
@@ -152417,7 +152417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,216억원",
             "opProfit": "506억원",
             "netProfit": "385억원",
@@ -152489,7 +152489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,677억원",
             "opProfit": "1,198억원",
             "netProfit": "910억원",
@@ -152561,7 +152561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,838억원",
             "opProfit": "1,419억원",
             "netProfit": "1,078억원",
@@ -152633,7 +152633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,419억원",
             "opProfit": "1,365억원",
             "netProfit": "1,037억원",
@@ -152705,7 +152705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,517억원",
             "opProfit": "1,193억원",
             "netProfit": "907억원",
@@ -152777,7 +152777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,313억원",
             "opProfit": "548억원",
             "netProfit": "416억원",
@@ -152849,7 +152849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,688억원",
             "opProfit": "424억원",
             "netProfit": "322억원",
@@ -152921,7 +152921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,185억원",
             "opProfit": "557억원",
             "netProfit": "423억원",
@@ -152993,7 +152993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,512억원",
             "opProfit": "1,014억원",
             "netProfit": "771억원",
@@ -153065,7 +153065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,465억원",
             "opProfit": "697억원",
             "netProfit": "530억원",
@@ -153137,7 +153137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,584억원",
             "opProfit": "459억원",
             "netProfit": "349억원",
@@ -153209,7 +153209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "65%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,251억원",
             "opProfit": "390억원",
             "netProfit": "296억원",
@@ -153281,7 +153281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,378억원",
             "opProfit": "709억원",
             "netProfit": "539억원",
@@ -153353,7 +153353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,785억원",
             "opProfit": "141억원",
             "netProfit": "107억원",
@@ -153425,7 +153425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,283억원",
             "opProfit": "235억원",
             "netProfit": "179억원",
@@ -153497,7 +153497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,839억원",
             "opProfit": "361억원",
             "netProfit": "274억원",
@@ -153569,7 +153569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,253억원",
             "opProfit": "475억원",
             "netProfit": "361억원",
@@ -153641,7 +153641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,111억원",
             "opProfit": "217억원",
             "netProfit": "165억원",
@@ -153713,7 +153713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,966억원",
             "opProfit": "750억원",
             "netProfit": "570억원",
@@ -153785,7 +153785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,226억원",
             "opProfit": "529억원",
             "netProfit": "402억원",
@@ -153857,7 +153857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,689억원",
             "opProfit": "167억원",
             "netProfit": "127억원",
@@ -153929,7 +153929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,217억원",
             "opProfit": "90억원",
             "netProfit": "68억원",
@@ -154001,7 +154001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,668억원",
             "opProfit": "424억원",
             "netProfit": "322억원",
@@ -154073,7 +154073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,309억원",
             "opProfit": "337억원",
             "netProfit": "256억원",
@@ -154145,7 +154145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,189억원",
             "opProfit": "94억원",
             "netProfit": "71억원",
@@ -154217,7 +154217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,919억원",
             "opProfit": "292억원",
             "netProfit": "222억원",
@@ -154289,7 +154289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,016억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -154361,7 +154361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,289억원",
             "opProfit": "430억원",
             "netProfit": "327억원",
@@ -154433,7 +154433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,627억원",
             "opProfit": "238억원",
             "netProfit": "181억원",
@@ -154505,7 +154505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,778억원",
             "opProfit": "284억원",
             "netProfit": "216억원",
@@ -154577,7 +154577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,054억원",
             "opProfit": "103억원",
             "netProfit": "78억원",
@@ -154649,7 +154649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,842억원",
             "opProfit": "313억원",
             "netProfit": "238억원",
@@ -154721,7 +154721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "886억원",
             "opProfit": "80억원",
             "netProfit": "61억원",
@@ -154793,7 +154793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,896억원",
             "opProfit": "360억원",
             "netProfit": "274억원",
@@ -154865,7 +154865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,521억원",
             "opProfit": "252억원",
             "netProfit": "192억원",
@@ -154937,7 +154937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,514억원",
             "opProfit": "256억원",
             "netProfit": "195억원",
@@ -155009,7 +155009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,445억원",
             "opProfit": "262억원",
             "netProfit": "199억원",
@@ -155081,7 +155081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,115억원",
             "opProfit": "163억원",
             "netProfit": "124억원",
@@ -155153,7 +155153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,396억원",
             "opProfit": "257억원",
             "netProfit": "195억원",
@@ -155225,7 +155225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "600억원",
             "opProfit": "51억원",
             "netProfit": "39억원",
@@ -155297,7 +155297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "538억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -155369,7 +155369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "802억원",
             "opProfit": "99억원",
             "netProfit": "75억원",
@@ -155441,7 +155441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,279억원",
             "opProfit": "246억원",
             "netProfit": "187억원",
@@ -155513,7 +155513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,141억원",
             "opProfit": "205억원",
             "netProfit": "156억원",
@@ -155585,7 +155585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "990억원",
             "opProfit": "157억원",
             "netProfit": "119억원",
@@ -155657,7 +155657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "554억원",
             "opProfit": "51억원",
             "netProfit": "39억원",
@@ -155729,7 +155729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "579억원",
             "opProfit": "57억원",
             "netProfit": "43억원",
@@ -155801,7 +155801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "748억원",
             "opProfit": "96억원",
             "netProfit": "73억원",
@@ -155873,7 +155873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "64%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "654억원",
             "opProfit": "77억원",
             "netProfit": "59억원",
@@ -155945,7 +155945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "597억원",
             "opProfit": "73억원",
             "netProfit": "55억원",
@@ -156017,7 +156017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "633억원",
             "opProfit": "86억원",
             "netProfit": "65억원",
@@ -156089,7 +156089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "329억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -156161,7 +156161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "436억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -156233,7 +156233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "637억원",
             "opProfit": "96억원",
             "netProfit": "73억원",
@@ -156305,7 +156305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "691억원",
             "opProfit": "124억원",
             "netProfit": "94억원",
@@ -156377,7 +156377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "323억원",
             "opProfit": "30억원",
             "netProfit": "23억원",
@@ -156449,7 +156449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "116%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "610억원",
             "opProfit": "114억원",
             "netProfit": "87억원",
@@ -156521,7 +156521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "442억원",
             "opProfit": "65억원",
             "netProfit": "49억원",
@@ -156593,7 +156593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "551억원",
             "opProfit": "101억원",
             "netProfit": "77억원",
@@ -156665,7 +156665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "577억원",
             "opProfit": "111억원",
             "netProfit": "84억원",
@@ -156737,7 +156737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "501억원",
             "opProfit": "88억원",
             "netProfit": "67억원",
@@ -156809,7 +156809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "461억원",
             "opProfit": "77억원",
             "netProfit": "59억원",
@@ -156881,7 +156881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "353억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -156953,7 +156953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "443억원",
             "opProfit": "81억원",
             "netProfit": "62억원",
@@ -157025,7 +157025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "262억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -157097,7 +157097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "174억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -157169,7 +157169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "273억원",
             "opProfit": "35억원",
             "netProfit": "27억원",
@@ -157241,7 +157241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "193억원",
             "opProfit": "18억원",
             "netProfit": "14억원",
@@ -157313,7 +157313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "261억원",
             "opProfit": "41억원",
             "netProfit": "31억원",
@@ -157385,7 +157385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "112%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "261억원",
             "opProfit": "48억원",
             "netProfit": "36억원",
@@ -157457,7 +157457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110억원",
             "opProfit": "9억원",
             "netProfit": "7억원",
@@ -157529,7 +157529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "113억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -157601,7 +157601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "109억원",
             "opProfit": "8억원",
             "netProfit": "6억원",
@@ -157673,7 +157673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -157745,7 +157745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "11억원",
             "netProfit": "8억원",
@@ -157817,7 +157817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "115억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -157889,7 +157889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "109억원",
             "opProfit": "8억원",
             "netProfit": "6억원",
@@ -157961,7 +157961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "119억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -158089,7 +158089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,658억원",
             "opProfit": "973억원",
             "netProfit": "739억원",
@@ -158161,7 +158161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,706억원",
             "opProfit": "135억원",
             "netProfit": "103억원",
@@ -158233,7 +158233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "65%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,460억원",
             "opProfit": "175억원",
             "netProfit": "133억원",
@@ -158305,7 +158305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,272억원",
             "opProfit": "438억원",
             "netProfit": "333억원",
@@ -158377,7 +158377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,179억원",
             "opProfit": "159억원",
             "netProfit": "121억원",
@@ -158449,7 +158449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "676억원",
             "opProfit": "87억원",
             "netProfit": "66억원",
@@ -158521,7 +158521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "854억원",
             "opProfit": "149억원",
             "netProfit": "113억원",
@@ -158593,7 +158593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "606억원",
             "opProfit": "80억원",
             "netProfit": "61억원",
@@ -158665,7 +158665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "292억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -158737,7 +158737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "87%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "462억원",
             "opProfit": "68억원",
             "netProfit": "52억원",
@@ -158809,7 +158809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "504억원",
             "opProfit": "93억원",
             "netProfit": "71억원",
@@ -158881,7 +158881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "511억원",
             "opProfit": "97억원",
             "netProfit": "74억원",
@@ -158953,7 +158953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "180억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -159081,7 +159081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,986억원",
             "opProfit": "532억원",
             "netProfit": "404억원",
@@ -159153,7 +159153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "867억원",
             "opProfit": "81억원",
             "netProfit": "62억원",
@@ -159225,7 +159225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,742억원",
             "opProfit": "319억원",
             "netProfit": "242억원",
@@ -159297,7 +159297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "787억원",
             "opProfit": "86억원",
             "netProfit": "65억원",
@@ -159369,7 +159369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "890억원",
             "opProfit": "112억원",
             "netProfit": "85억원",
@@ -159441,7 +159441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,147억원",
             "opProfit": "204억원",
             "netProfit": "155억원",
@@ -159513,7 +159513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "277억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -159641,7 +159641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "135%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "43조 3,069억원",
             "opProfit": "4조 5,039억원",
             "netProfit": "3조 4,230억원",
@@ -159713,7 +159713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 5,780억원",
             "opProfit": "3,342억원",
             "netProfit": "2,540억원",
@@ -159785,7 +159785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "84%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,793억원",
             "opProfit": "924억원",
             "netProfit": "702억원",
@@ -159857,7 +159857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "101%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,060억원",
             "opProfit": "565억원",
             "netProfit": "429억원",
@@ -159929,7 +159929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,922억원",
             "opProfit": "729억원",
             "netProfit": "554억원",
@@ -160001,7 +160001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "133%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,819억원",
             "opProfit": "908억원",
             "netProfit": "690억원",
@@ -160073,7 +160073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "94%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,880억원",
             "opProfit": "435억원",
             "netProfit": "331억원",
@@ -160145,7 +160145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "133%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,593억원",
             "opProfit": "782억원",
             "netProfit": "594억원",
@@ -160217,7 +160217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,900억원",
             "opProfit": "226억원",
             "netProfit": "172억원",
@@ -160289,7 +160289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,533억원",
             "opProfit": "205억원",
             "netProfit": "156억원",
@@ -160361,7 +160361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,535억원",
             "opProfit": "219억원",
             "netProfit": "166억원",
@@ -160433,7 +160433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "169%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,039억원",
             "opProfit": "1,037억원",
             "netProfit": "788억원",
@@ -160505,7 +160505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "155%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,012억원",
             "opProfit": "834억원",
             "netProfit": "634억원",
@@ -160577,7 +160577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "132%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,886억원",
             "opProfit": "600억원",
             "netProfit": "456억원",
@@ -160649,7 +160649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,317억원",
             "opProfit": "345억원",
             "netProfit": "262억원",
@@ -160721,7 +160721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "149%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,139억원",
             "opProfit": "700억원",
             "netProfit": "532억원",
@@ -160793,7 +160793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,146억원",
             "opProfit": "118억원",
             "netProfit": "90억원",
@@ -160865,7 +160865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,055억원",
             "opProfit": "263억원",
             "netProfit": "200억원",
@@ -160937,7 +160937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,572억원",
             "opProfit": "93억원",
             "netProfit": "71억원",
@@ -161009,7 +161009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "167%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,425억원",
             "opProfit": "438억원",
             "netProfit": "333억원",
@@ -161081,7 +161081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,356억원",
             "opProfit": "76억원",
             "netProfit": "58억원",
@@ -161153,7 +161153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,239억원",
             "opProfit": "68억원",
             "netProfit": "52억원",
@@ -161225,7 +161225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,434억원",
             "opProfit": "108억원",
             "netProfit": "82억원",
@@ -161297,7 +161297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "158%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,093억원",
             "opProfit": "253억원",
             "netProfit": "192억원",
@@ -161369,7 +161369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "150%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,753억원",
             "opProfit": "202억원",
             "netProfit": "154억원",
@@ -161441,7 +161441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "101%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,156억원",
             "opProfit": "92억원",
             "netProfit": "70억원",
@@ -161513,7 +161513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "167%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,953억원",
             "opProfit": "250억원",
             "netProfit": "190억원",
@@ -161585,7 +161585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "886억원",
             "opProfit": "57억원",
             "netProfit": "43억원",
@@ -161657,7 +161657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "166%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,854억원",
             "opProfit": "235억원",
             "netProfit": "179억원",
@@ -161729,7 +161729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "94%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "955억원",
             "opProfit": "71억원",
             "netProfit": "54억원",
@@ -161801,7 +161801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,307억원",
             "opProfit": "129억원",
             "netProfit": "98억원",
@@ -161873,7 +161873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "94%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "882억원",
             "opProfit": "65억원",
             "netProfit": "49억원",
@@ -161945,7 +161945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "167%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,529억원",
             "opProfit": "196억원",
             "netProfit": "149억원",
@@ -162017,7 +162017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "546억원",
             "opProfit": "30억원",
             "netProfit": "23억원",
@@ -162089,7 +162089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "76%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "578억원",
             "opProfit": "35억원",
             "netProfit": "27억원",
@@ -162161,7 +162161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "127%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "869억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -162233,7 +162233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "457억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -162305,7 +162305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "373억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -162377,7 +162377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "657억원",
             "opProfit": "61억원",
             "netProfit": "46억원",
@@ -162449,7 +162449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "130%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "704억원",
             "opProfit": "70억원",
             "netProfit": "53억원",
@@ -162521,7 +162521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "174%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "895억원",
             "opProfit": "118억원",
             "netProfit": "90억원",
@@ -162593,7 +162593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "519억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -162665,7 +162665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "163%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "783억원",
             "opProfit": "97억원",
             "netProfit": "74억원",
@@ -162737,7 +162737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "66%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "299억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -162809,7 +162809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "470억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -162881,7 +162881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "315억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -162953,7 +162953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "441억원",
             "opProfit": "44억원",
             "netProfit": "33억원",
@@ -163025,7 +163025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "280억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -163097,7 +163097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "94%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "292억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -163169,7 +163169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "226억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -163241,7 +163241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "233억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -163313,7 +163313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "256억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -163385,7 +163385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "167%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "244억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -163457,7 +163457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "135%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "116억원",
             "opProfit": "12억원",
             "netProfit": "9억원",
@@ -163529,7 +163529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "112%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "10억원",
             "netProfit": "8억원",
@@ -163657,7 +163657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,430억원",
             "opProfit": "662억원",
             "netProfit": "503억원",
@@ -163785,7 +163785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1076%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "100조 5,667억원",
             "opProfit": "31조 5,779억원",
             "netProfit": "23조 9,992억원",
@@ -163857,7 +163857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "692%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "44조 8,596억원",
             "opProfit": "10조 8,560억원",
             "netProfit": "8조 2,506억원",
@@ -163929,7 +163929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1148%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "62조 8,093억원",
             "opProfit": "20조 6,015억원",
             "netProfit": "15조 6,571억원",
@@ -164001,7 +164001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "764%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "27조 2,637억원",
             "opProfit": "6조 9,795억원",
             "netProfit": "5조 3,044억원",
@@ -164073,7 +164073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "932%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "23조 5,590억원",
             "opProfit": "6조 7,614억원",
             "netProfit": "5조 1,387억원",
@@ -164145,7 +164145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1036%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "16조 1,823억원",
             "opProfit": "4조 9,680억원",
             "netProfit": "3조 7,757억원",
@@ -164217,7 +164217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1052%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8조 4,464억원",
             "opProfit": "2조 6,184억원",
             "netProfit": "1조 9,900억원",
@@ -164289,7 +164289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "820%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 5,630억원",
             "opProfit": "1조 4,798억원",
             "netProfit": "1조 1,246억원",
@@ -164361,7 +164361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "764%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 434억원",
             "opProfit": "7,791억원",
             "netProfit": "5,921억원",
@@ -164433,7 +164433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "940%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 2,069억원",
             "opProfit": "9,268억원",
             "netProfit": "7,044억원",
@@ -164505,7 +164505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "828%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,309억원",
             "opProfit": "1,155억원",
             "netProfit": "878억원",
@@ -164633,7 +164633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 2,850억원",
             "opProfit": "2,759억원",
             "netProfit": "2,097억원",
@@ -164705,7 +164705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 9,743억원",
             "opProfit": "5,246억원",
             "netProfit": "3,987억원",
@@ -164777,7 +164777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,252억원",
             "opProfit": "2,385억원",
             "netProfit": "1,813억원",
@@ -164849,7 +164849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,141억원",
             "opProfit": "504억원",
             "netProfit": "383억원",
@@ -164921,7 +164921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,438억원",
             "opProfit": "453억원",
             "netProfit": "344억원",
@@ -164993,7 +164993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,080억원",
             "opProfit": "539억원",
             "netProfit": "410억원",
@@ -165065,7 +165065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,422억원",
             "opProfit": "809억원",
             "netProfit": "615억원",
@@ -165137,7 +165137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,774억원",
             "opProfit": "204억원",
             "netProfit": "155억원",
@@ -165209,7 +165209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,648억원",
             "opProfit": "185억원",
             "netProfit": "141억원",
@@ -165281,7 +165281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,451억원",
             "opProfit": "157억원",
             "netProfit": "119억원",
@@ -165353,7 +165353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,364억원",
             "opProfit": "143억원",
             "netProfit": "109억원",
@@ -165425,7 +165425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "745억원",
             "opProfit": "83억원",
             "netProfit": "63억원",
@@ -165553,7 +165553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "128%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "37조 3,464억원",
             "opProfit": "3조 6,973억원",
             "netProfit": "2조 8,099억원",
@@ -165625,7 +165625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "123%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 7,191억원",
             "opProfit": "5,490억원",
             "netProfit": "4,172억원",
@@ -165697,7 +165697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "167%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,528억원",
             "opProfit": "1,860억원",
             "netProfit": "1,414억원",
@@ -165769,7 +165769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "135%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,662억원",
             "opProfit": "797억원",
             "netProfit": "606억원",
@@ -165841,7 +165841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "131%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,733억원",
             "opProfit": "478억원",
             "netProfit": "363억원",
@@ -165913,7 +165913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,681억원",
             "opProfit": "156억원",
             "netProfit": "119억원",
@@ -165985,7 +165985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "144%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,488억원",
             "opProfit": "165억원",
             "netProfit": "125억원",
@@ -166057,7 +166057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "165%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,704억원",
             "opProfit": "215억원",
             "netProfit": "163억원",
@@ -166129,7 +166129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "670억원",
             "opProfit": "49억원",
             "netProfit": "37억원",
@@ -166201,7 +166201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "132%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "922억원",
             "opProfit": "94억원",
             "netProfit": "71억원",
@@ -166273,7 +166273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "217억원",
             "opProfit": "18억원",
             "netProfit": "14억원",
@@ -166401,7 +166401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 5,146억원",
             "opProfit": "6,326억원",
             "netProfit": "4,808억원",
@@ -166473,7 +166473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 8,277억원",
             "opProfit": "2,339억원",
             "netProfit": "1,778억원",
@@ -166545,7 +166545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,772억원",
             "opProfit": "1,271억원",
             "netProfit": "966억원",
@@ -166617,7 +166617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,046억원",
             "opProfit": "1,348억원",
             "netProfit": "1,024억원",
@@ -166689,7 +166689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,870억원",
             "opProfit": "1,204억원",
             "netProfit": "915억원",
@@ -166761,7 +166761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 378억원",
             "opProfit": "1,380억원",
             "netProfit": "1,049억원",
@@ -166833,7 +166833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,782억원",
             "opProfit": "1,074억원",
             "netProfit": "816억원",
@@ -166905,7 +166905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,507억원",
             "opProfit": "464억원",
             "netProfit": "353억원",
@@ -166977,7 +166977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "94%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,438억원",
             "opProfit": "859억원",
             "netProfit": "653억원",
@@ -167049,7 +167049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,335억원",
             "opProfit": "350억원",
             "netProfit": "266억원",
@@ -167121,7 +167121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,548억원",
             "opProfit": "433억원",
             "netProfit": "329억원",
@@ -167193,7 +167193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,436억원",
             "opProfit": "419억원",
             "netProfit": "318억원",
@@ -167265,7 +167265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,433억원",
             "opProfit": "419억원",
             "netProfit": "318억원",
@@ -167337,7 +167337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,400억원",
             "opProfit": "415억원",
             "netProfit": "315억원",
@@ -167409,7 +167409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,167억원",
             "opProfit": "946억원",
             "netProfit": "719억원",
@@ -167481,7 +167481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,757억원",
             "opProfit": "314억원",
             "netProfit": "239억원",
@@ -167553,7 +167553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,609억원",
             "opProfit": "617억원",
             "netProfit": "469억원",
@@ -167625,7 +167625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "65%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,117억원",
             "opProfit": "254억원",
             "netProfit": "193억원",
@@ -167697,7 +167697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,908억원",
             "opProfit": "259억원",
             "netProfit": "197억원",
@@ -167769,7 +167769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,455억원",
             "opProfit": "170억원",
             "netProfit": "129억원",
@@ -167841,7 +167841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,064억원",
             "opProfit": "99억원",
             "netProfit": "75억원",
@@ -167913,7 +167913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "790억원",
             "opProfit": "76억원",
             "netProfit": "58억원",
@@ -167985,7 +167985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "621억원",
             "opProfit": "61억원",
             "netProfit": "46억원",
@@ -168057,7 +168057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,035억원",
             "opProfit": "172억원",
             "netProfit": "131억원",
@@ -168129,7 +168129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "656억원",
             "opProfit": "81억원",
             "netProfit": "62억원",
@@ -168201,7 +168201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "742억원",
             "opProfit": "116억원",
             "netProfit": "88억원",
@@ -168273,7 +168273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "597억원",
             "opProfit": "82억원",
             "netProfit": "62억원",
@@ -168345,7 +168345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "267억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -168417,7 +168417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "467억원",
             "opProfit": "88억원",
             "netProfit": "67억원",
@@ -168489,7 +168489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "182억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -168617,7 +168617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,303억원",
             "opProfit": "3,118억원",
             "netProfit": "2,370억원",
@@ -168689,7 +168689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,578억원",
             "opProfit": "1,872억원",
             "netProfit": "1,423억원",
@@ -168761,7 +168761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,456억원",
             "opProfit": "498억원",
             "netProfit": "378억원",
@@ -168833,7 +168833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,760억원",
             "opProfit": "2,082억원",
             "netProfit": "1,582억원",
@@ -168905,7 +168905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,020억원",
             "opProfit": "1,101억원",
             "netProfit": "837억원",
@@ -168977,7 +168977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,177억원",
             "opProfit": "377억원",
             "netProfit": "287억원",
@@ -169049,7 +169049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,594억원",
             "opProfit": "542억원",
             "netProfit": "412억원",
@@ -169121,7 +169121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,410억원",
             "opProfit": "487억원",
             "netProfit": "370억원",
@@ -169193,7 +169193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,957억원",
             "opProfit": "852억원",
             "netProfit": "648억원",
@@ -169265,7 +169265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,975억원",
             "opProfit": "878억원",
             "netProfit": "667억원",
@@ -169337,7 +169337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,968억원",
             "opProfit": "893억원",
             "netProfit": "679억원",
@@ -169409,7 +169409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,403억원",
             "opProfit": "639억원",
             "netProfit": "486억원",
@@ -169481,7 +169481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,222억원",
             "opProfit": "193억원",
             "netProfit": "147억원",
@@ -169553,7 +169553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,082억원",
             "opProfit": "158억원",
             "netProfit": "120억원",
@@ -169625,7 +169625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,494억원",
             "opProfit": "323억원",
             "netProfit": "245억원",
@@ -169697,7 +169697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,441억원",
             "opProfit": "311억원",
             "netProfit": "236억원",
@@ -169769,7 +169769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,548억원",
             "opProfit": "370억원",
             "netProfit": "281억원",
@@ -169841,7 +169841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "77%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,515억원",
             "opProfit": "358억원",
             "netProfit": "272억원",
@@ -169913,7 +169913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,743억원",
             "opProfit": "464억원",
             "netProfit": "353억원",
@@ -169985,7 +169985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,396억원",
             "opProfit": "314억원",
             "netProfit": "239억원",
@@ -170057,7 +170057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,708억원",
             "opProfit": "492억원",
             "netProfit": "374억원",
@@ -170129,7 +170129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "791억원",
             "opProfit": "125억원",
             "netProfit": "95억원",
@@ -170201,7 +170201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,546억원",
             "opProfit": "490억원",
             "netProfit": "372억원",
@@ -170273,7 +170273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,011억원",
             "opProfit": "241억원",
             "netProfit": "183억원",
@@ -170345,7 +170345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,364억원",
             "opProfit": "430억원",
             "netProfit": "327억원",
@@ -170417,7 +170417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "663억원",
             "opProfit": "118억원",
             "netProfit": "90억원",
@@ -170489,7 +170489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,256억원",
             "opProfit": "379억원",
             "netProfit": "288억원",
@@ -170561,7 +170561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "776억원",
             "opProfit": "162억원",
             "netProfit": "123억원",
@@ -170633,7 +170633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,111억원",
             "opProfit": "312억원",
             "netProfit": "237억원",
@@ -170705,7 +170705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "548억원",
             "opProfit": "95억원",
             "netProfit": "72억원",
@@ -170777,7 +170777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "552억원",
             "opProfit": "99억원",
             "netProfit": "75억원",
@@ -170849,7 +170849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "658억원",
             "opProfit": "138억원",
             "netProfit": "105억원",
@@ -170921,7 +170921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "778억원",
             "opProfit": "200억원",
             "netProfit": "152억원",
@@ -170993,7 +170993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "959억원",
             "opProfit": "302억원",
             "netProfit": "230억원",
@@ -171065,7 +171065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "593억원",
             "opProfit": "128억원",
             "netProfit": "97억원",
@@ -171137,7 +171137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "739억원",
             "opProfit": "203억원",
             "netProfit": "154억원",
@@ -171209,7 +171209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "415억원",
             "opProfit": "75억원",
             "netProfit": "57억원",
@@ -171281,7 +171281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "558억원",
             "opProfit": "128억원",
             "netProfit": "97억원",
@@ -171353,7 +171353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "796억원",
             "opProfit": "245억원",
             "netProfit": "186억원",
@@ -171425,7 +171425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "94%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "671억원",
             "opProfit": "181억원",
             "netProfit": "138억원",
@@ -171497,7 +171497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "569억원",
             "opProfit": "135억원",
             "netProfit": "103억원",
@@ -171569,7 +171569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "800억원",
             "opProfit": "254억원",
             "netProfit": "193억원",
@@ -171641,7 +171641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "352억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -171713,7 +171713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "367억원",
             "opProfit": "63억원",
             "netProfit": "48억원",
@@ -171785,7 +171785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "687억원",
             "opProfit": "198억원",
             "netProfit": "150억원",
@@ -171857,7 +171857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "324억원",
             "opProfit": "51억원",
             "netProfit": "39억원",
@@ -171929,7 +171929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "611억원",
             "opProfit": "162억원",
             "netProfit": "123억원",
@@ -172001,7 +172001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "445억원",
             "opProfit": "91억원",
             "netProfit": "69억원",
@@ -172073,7 +172073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "654억원",
             "opProfit": "184억원",
             "netProfit": "140억원",
@@ -172145,7 +172145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "417억원",
             "opProfit": "82억원",
             "netProfit": "62억원",
@@ -172217,7 +172217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "326억원",
             "opProfit": "54억원",
             "netProfit": "41억원",
@@ -172289,7 +172289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "586억원",
             "opProfit": "157억원",
             "netProfit": "119억원",
@@ -172361,7 +172361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "390억원",
             "opProfit": "76억원",
             "netProfit": "58억원",
@@ -172433,7 +172433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "395억원",
             "opProfit": "80억원",
             "netProfit": "61억원",
@@ -172505,7 +172505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "304억원",
             "opProfit": "53억원",
             "netProfit": "40억원",
@@ -172577,7 +172577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "576억원",
             "opProfit": "179억원",
             "netProfit": "136억원",
@@ -172649,7 +172649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "337억원",
             "opProfit": "68억원",
             "netProfit": "52억원",
@@ -172721,7 +172721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "554억원",
             "opProfit": "167억원",
             "netProfit": "127억원",
@@ -172793,7 +172793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "536억원",
             "opProfit": "158억원",
             "netProfit": "120억원",
@@ -172865,7 +172865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "214억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -172937,7 +172937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "490억원",
             "opProfit": "139억원",
             "netProfit": "106억원",
@@ -173009,7 +173009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "373억원",
             "opProfit": "89억원",
             "netProfit": "68억원",
@@ -173081,7 +173081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "298억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -173153,7 +173153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "241억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -173225,7 +173225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "367억원",
             "opProfit": "91억원",
             "netProfit": "69억원",
@@ -173297,7 +173297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "351억원",
             "opProfit": "84억원",
             "netProfit": "64억원",
@@ -173369,7 +173369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "313억원",
             "opProfit": "72억원",
             "netProfit": "55억원",
@@ -173441,7 +173441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "443억원",
             "opProfit": "136억원",
             "netProfit": "103억원",
@@ -173513,7 +173513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "249억원",
             "opProfit": "54억원",
             "netProfit": "41억원",
@@ -173585,7 +173585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "292억원",
             "opProfit": "92억원",
             "netProfit": "70억원",
@@ -173657,7 +173657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "135억원",
             "opProfit": "34억원",
             "netProfit": "26억원",
@@ -173729,7 +173729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -173801,7 +173801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "148억원",
             "opProfit": "43억원",
             "netProfit": "33억원",
@@ -173873,7 +173873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -174001,7 +174001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 308억원",
             "opProfit": "3,655억원",
             "netProfit": "2,778억원",
@@ -174073,7 +174073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,169억원",
             "opProfit": "1,183억원",
             "netProfit": "899억원",
@@ -174145,7 +174145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,364억원",
             "opProfit": "346억원",
             "netProfit": "263억원",
@@ -174217,7 +174217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,025억원",
             "opProfit": "247억원",
             "netProfit": "188억원",
@@ -174289,7 +174289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,201억원",
             "opProfit": "112억원",
             "netProfit": "85억원",
@@ -174361,7 +174361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "406억원",
             "opProfit": "40억원",
             "netProfit": "30억원",
@@ -174433,7 +174433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "302억원",
             "opProfit": "33억원",
             "netProfit": "25억원",
@@ -174505,7 +174505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "238억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -174577,7 +174577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "356억원",
             "opProfit": "50억원",
             "netProfit": "38억원",
@@ -174649,7 +174649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "408억원",
             "opProfit": "70억원",
             "netProfit": "53억원",
@@ -174721,7 +174721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "394억원",
             "opProfit": "70억원",
             "netProfit": "53억원",
@@ -174849,7 +174849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 9,327억원",
             "opProfit": "6,135억원",
             "netProfit": "4,663억원",
@@ -174921,7 +174921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,160억원",
             "opProfit": "1,727억원",
             "netProfit": "1,313억원",
@@ -174993,7 +174993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,871억원",
             "opProfit": "310억원",
             "netProfit": "236억원",
@@ -175065,7 +175065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,755억원",
             "opProfit": "832억원",
             "netProfit": "632억원",
@@ -175137,7 +175137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,106억원",
             "opProfit": "173억원",
             "netProfit": "131억원",
@@ -175209,7 +175209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,512억원",
             "opProfit": "478억원",
             "netProfit": "363억원",
@@ -175281,7 +175281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "40%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,049억원",
             "opProfit": "176억원",
             "netProfit": "134억원",
@@ -175353,7 +175353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,418억원",
             "opProfit": "502억원",
             "netProfit": "382억원",
@@ -175425,7 +175425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,682억원",
             "opProfit": "338억원",
             "netProfit": "257억원",
@@ -175497,7 +175497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,651억원",
             "opProfit": "220억원",
             "netProfit": "167억원",
@@ -175569,7 +175569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "975억원",
             "opProfit": "96억원",
             "netProfit": "73억원",
@@ -175641,7 +175641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "908억원",
             "opProfit": "89억원",
             "netProfit": "68억원",
@@ -175713,7 +175713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,222억원",
             "opProfit": "163억원",
             "netProfit": "124억원",
@@ -175785,7 +175785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "666억원",
             "opProfit": "59억원",
             "netProfit": "45억원",
@@ -175857,7 +175857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,256억원",
             "opProfit": "224억원",
             "netProfit": "170억원",
@@ -175929,7 +175929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,131억원",
             "opProfit": "188억원",
             "netProfit": "143억원",
@@ -176001,7 +176001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,164억원",
             "opProfit": "199억원",
             "netProfit": "151억원",
@@ -176073,7 +176073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "696억원",
             "opProfit": "75억원",
             "netProfit": "57억원",
@@ -176145,7 +176145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,006억원",
             "opProfit": "161억원",
             "netProfit": "122억원",
@@ -176217,7 +176217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "390억원",
             "opProfit": "32억원",
             "netProfit": "24억원",
@@ -176289,7 +176289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "696억원",
             "opProfit": "125억원",
             "netProfit": "95억원",
@@ -176361,7 +176361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "361억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -176433,7 +176433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "318억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -176505,7 +176505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "333억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -176577,7 +176577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "575억원",
             "opProfit": "109억원",
             "netProfit": "83억원",
@@ -176649,7 +176649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "199억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -176721,7 +176721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "275억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -176793,7 +176793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "327억원",
             "opProfit": "57억원",
             "netProfit": "43억원",
@@ -176865,7 +176865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "254억원",
             "opProfit": "40억원",
             "netProfit": "30억원",
@@ -176937,7 +176937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "181억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -177065,7 +177065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "44%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6조 463억원",
             "opProfit": "5,502억원",
             "netProfit": "4,182억원",
@@ -177137,7 +177137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 57억원",
             "opProfit": "7,559억원",
             "netProfit": "5,745억원",
@@ -177209,7 +177209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 7,115억원",
             "opProfit": "1,352억원",
             "netProfit": "1,028억원",
@@ -177281,7 +177281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 2,858억원",
             "opProfit": "5,126억원",
             "netProfit": "3,896억원",
@@ -177353,7 +177353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,419억원",
             "opProfit": "1,615억원",
             "netProfit": "1,227억원",
@@ -177425,7 +177425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,295억원",
             "opProfit": "1,808억원",
             "netProfit": "1,374억원",
@@ -177497,7 +177497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,762억원",
             "opProfit": "426억원",
             "netProfit": "324억원",
@@ -177569,7 +177569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,940억원",
             "opProfit": "612억원",
             "netProfit": "465억원",
@@ -177641,7 +177641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,523억원",
             "opProfit": "1,287억원",
             "netProfit": "978억원",
@@ -177713,7 +177713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,243억원",
             "opProfit": "724억원",
             "netProfit": "550억원",
@@ -177785,7 +177785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,423억원",
             "opProfit": "1,734억원",
             "netProfit": "1,318억원",
@@ -177857,7 +177857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9,095억원",
             "opProfit": "1,710억원",
             "netProfit": "1,300억원",
@@ -177929,7 +177929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,153억원",
             "opProfit": "874억원",
             "netProfit": "664억원",
@@ -178001,7 +178001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,604억원",
             "opProfit": "1,369억원",
             "netProfit": "1,040억원",
@@ -178073,7 +178073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,004억원",
             "opProfit": "225억원",
             "netProfit": "171억원",
@@ -178145,7 +178145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,217억원",
             "opProfit": "280억원",
             "netProfit": "213억원",
@@ -178217,7 +178217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,914억원",
             "opProfit": "688억원",
             "netProfit": "523억원",
@@ -178289,7 +178289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,529억원",
             "opProfit": "381억원",
             "netProfit": "290억원",
@@ -178361,7 +178361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,711억원",
             "opProfit": "434억원",
             "netProfit": "330억원",
@@ -178433,7 +178433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,903억원",
             "opProfit": "492억원",
             "netProfit": "374억원",
@@ -178505,7 +178505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,817억원",
             "opProfit": "756억원",
             "netProfit": "575억원",
@@ -178577,7 +178577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,108억원",
             "opProfit": "873억원",
             "netProfit": "663억원",
@@ -178649,7 +178649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,419억원",
             "opProfit": "218억원",
             "netProfit": "166억원",
@@ -178721,7 +178721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,939억원",
             "opProfit": "143억원",
             "netProfit": "109억원",
@@ -178793,7 +178793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,689억원",
             "opProfit": "277억원",
             "netProfit": "211억원",
@@ -178865,7 +178865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,879억원",
             "opProfit": "139억원",
             "netProfit": "106억원",
@@ -178937,7 +178937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,168억원",
             "opProfit": "431억원",
             "netProfit": "328억원",
@@ -179009,7 +179009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "88%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,466억원",
             "opProfit": "520억원",
             "netProfit": "395억원",
@@ -179081,7 +179081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,369억원",
             "opProfit": "826억원",
             "netProfit": "628억원",
@@ -179153,7 +179153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,447억원",
             "opProfit": "538억원",
             "netProfit": "409억원",
@@ -179225,7 +179225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,685억원",
             "opProfit": "135억원",
             "netProfit": "103억원",
@@ -179297,7 +179297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,245억원",
             "opProfit": "251억원",
             "netProfit": "191억원",
@@ -179369,7 +179369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,743억원",
             "opProfit": "414억원",
             "netProfit": "315억원",
@@ -179441,7 +179441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,731억원",
             "opProfit": "415억원",
             "netProfit": "315억원",
@@ -179513,7 +179513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,487억원",
             "opProfit": "363억원",
             "netProfit": "276억원",
@@ -179585,7 +179585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,476억원",
             "opProfit": "374억원",
             "netProfit": "284억원",
@@ -179657,7 +179657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,157억원",
             "opProfit": "86억원",
             "netProfit": "65억원",
@@ -179729,7 +179729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,525억원",
             "opProfit": "396억원",
             "netProfit": "301억원",
@@ -179801,7 +179801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,161억원",
             "opProfit": "294억원",
             "netProfit": "223억원",
@@ -179873,7 +179873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,584억원",
             "opProfit": "163억원",
             "netProfit": "124억원",
@@ -179945,7 +179945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,044억원",
             "opProfit": "288억원",
             "netProfit": "219억원",
@@ -180017,7 +180017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,792억원",
             "opProfit": "528억원",
             "netProfit": "401억원",
@@ -180089,7 +180089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,329억원",
             "opProfit": "144억원",
             "netProfit": "109억원",
@@ -180161,7 +180161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,251억원",
             "opProfit": "405억원",
             "netProfit": "308억원",
@@ -180233,7 +180233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,001억원",
             "opProfit": "324억원",
             "netProfit": "246억원",
@@ -180305,7 +180305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,008억원",
             "opProfit": "331억원",
             "netProfit": "252억원",
@@ -180377,7 +180377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "949억원",
             "opProfit": "80억원",
             "netProfit": "61억원",
@@ -180449,7 +180449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "993억원",
             "opProfit": "93억원",
             "netProfit": "71억원",
@@ -180521,7 +180521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,684억원",
             "opProfit": "288억원",
             "netProfit": "219억원",
@@ -180593,7 +180593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "653억원",
             "opProfit": "48억원",
             "netProfit": "36억원",
@@ -180665,7 +180665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,524억원",
             "opProfit": "259억원",
             "netProfit": "197억원",
@@ -180737,7 +180737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "968억원",
             "opProfit": "108억원",
             "netProfit": "82억원",
@@ -180809,7 +180809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "723억원",
             "opProfit": "61억원",
             "netProfit": "46억원",
@@ -180881,7 +180881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "876억원",
             "opProfit": "90억원",
             "netProfit": "68억원",
@@ -180953,7 +180953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "829억원",
             "opProfit": "81억원",
             "netProfit": "62억원",
@@ -181025,7 +181025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "952억원",
             "opProfit": "107억원",
             "netProfit": "81억원",
@@ -181097,7 +181097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,433억원",
             "opProfit": "238억원",
             "netProfit": "181억원",
@@ -181169,7 +181169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,256억원",
             "opProfit": "191억원",
             "netProfit": "145억원",
@@ -181241,7 +181241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,259억원",
             "opProfit": "208억원",
             "netProfit": "158억원",
@@ -181313,7 +181313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "759억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -181385,7 +181385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,449억원",
             "opProfit": "274억원",
             "netProfit": "208억원",
@@ -181457,7 +181457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "636억원",
             "opProfit": "57억원",
             "netProfit": "43억원",
@@ -181529,7 +181529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,165억원",
             "opProfit": "192억원",
             "netProfit": "146억원",
@@ -181601,7 +181601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,294억원",
             "opProfit": "237억원",
             "netProfit": "180억원",
@@ -181673,7 +181673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "647억원",
             "opProfit": "63억원",
             "netProfit": "48억원",
@@ -181745,7 +181745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,106억원",
             "opProfit": "192억원",
             "netProfit": "146억원",
@@ -181817,7 +181817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,021억원",
             "opProfit": "179억원",
             "netProfit": "136억원",
@@ -181889,7 +181889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "700억원",
             "opProfit": "89억원",
             "netProfit": "68억원",
@@ -181961,7 +181961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "860억원",
             "opProfit": "132억원",
             "netProfit": "100억원",
@@ -182033,7 +182033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,050억원",
             "opProfit": "198억원",
             "netProfit": "150억원",
@@ -182105,7 +182105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "850억원",
             "opProfit": "136억원",
             "netProfit": "103억원",
@@ -182177,7 +182177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "865억원",
             "opProfit": "147억원",
             "netProfit": "112억원",
@@ -182249,7 +182249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "557억원",
             "opProfit": "65억원",
             "netProfit": "49억원",
@@ -182321,7 +182321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "725억원",
             "opProfit": "109억원",
             "netProfit": "83억원",
@@ -182393,7 +182393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "475억원",
             "opProfit": "49억원",
             "netProfit": "37억원",
@@ -182465,7 +182465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "397억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -182537,7 +182537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "473억원",
             "opProfit": "55억원",
             "netProfit": "42억원",
@@ -182609,7 +182609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "452억원",
             "opProfit": "52억원",
             "netProfit": "40억원",
@@ -182681,7 +182681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "687억원",
             "opProfit": "122억원",
             "netProfit": "93억원",
@@ -182753,7 +182753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "452억원",
             "opProfit": "56억원",
             "netProfit": "43억원",
@@ -182825,7 +182825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "309억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -182897,7 +182897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "298억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -182969,7 +182969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "608억원",
             "opProfit": "106억원",
             "netProfit": "81억원",
@@ -183041,7 +183041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "613억원",
             "opProfit": "114억원",
             "netProfit": "87억원",
@@ -183113,7 +183113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "555억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -183185,7 +183185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "338억원",
             "opProfit": "39억원",
             "netProfit": "30억원",
@@ -183257,7 +183257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "321억원",
             "opProfit": "39억원",
             "netProfit": "30억원",
@@ -183329,7 +183329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "198억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -183401,7 +183401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "330억원",
             "opProfit": "47억원",
             "netProfit": "36억원",
@@ -183473,7 +183473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "197억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -183545,7 +183545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "190억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -183617,7 +183617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "120억원",
             "opProfit": "9억원",
             "netProfit": "7억원",
@@ -183689,7 +183689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "172억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -183761,7 +183761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "161억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -183833,7 +183833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "109억원",
             "opProfit": "8억원",
             "netProfit": "6억원",
@@ -183905,7 +183905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "11억원",
             "netProfit": "8억원",
@@ -183977,7 +183977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "158억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -184049,7 +184049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "115억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -184121,7 +184121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "109억원",
             "opProfit": "8억원",
             "netProfit": "6억원",
@@ -184193,7 +184193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "110억원",
             "opProfit": "9억원",
             "netProfit": "7억원",
@@ -184265,7 +184265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "115억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -184337,7 +184337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "12억원",
             "netProfit": "9억원",
@@ -184409,7 +184409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "113억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -184481,7 +184481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "118억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -184609,7 +184609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 8,596억원",
             "opProfit": "8,553억원",
             "netProfit": "6,500억원",
@@ -184681,7 +184681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,261억원",
             "opProfit": "463억원",
             "netProfit": "352억원",
@@ -184753,7 +184753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,252억원",
             "opProfit": "98억원",
             "netProfit": "74억원",
@@ -184825,7 +184825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,206억원",
             "opProfit": "335억원",
             "netProfit": "255억원",
@@ -184897,7 +184897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,193억원",
             "opProfit": "382억원",
             "netProfit": "290억원",
@@ -184969,7 +184969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,688억원",
             "opProfit": "275억원",
             "netProfit": "209억원",
@@ -185041,7 +185041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,332억원",
             "opProfit": "233억원",
             "netProfit": "177억원",
@@ -185113,7 +185113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,039억원",
             "opProfit": "146억원",
             "netProfit": "111억원",
@@ -185185,7 +185185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "647억원",
             "opProfit": "60억원",
             "netProfit": "46억원",
@@ -185257,7 +185257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "859억원",
             "opProfit": "158억원",
             "netProfit": "120억원",
@@ -185329,7 +185329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "447억원",
             "opProfit": "46억원",
             "netProfit": "35억원",
@@ -185401,7 +185401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "393억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -185473,7 +185473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "454억원",
             "opProfit": "53억원",
             "netProfit": "40억원",
@@ -185545,7 +185545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "261억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -185617,7 +185617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "228억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -185689,7 +185689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "215억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -185761,7 +185761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "335억원",
             "opProfit": "39억원",
             "netProfit": "30억원",
@@ -185833,7 +185833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "198억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -185905,7 +185905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "169억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -186033,7 +186033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "80조 5,879억원",
             "opProfit": "8조 7,035억원",
             "netProfit": "6조 6,147억원",
@@ -186105,7 +186105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "70조 7,244억원",
             "opProfit": "9조 6,185억원",
             "netProfit": "7조 3,101억원",
@@ -186177,7 +186177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 3,160억원",
             "opProfit": "4,200억원",
             "netProfit": "3,192억원",
@@ -186249,7 +186249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 3,877억원",
             "opProfit": "4,300억원",
             "netProfit": "3,268억원",
@@ -186321,7 +186321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,413억원",
             "opProfit": "661억원",
             "netProfit": "502억원",
@@ -186393,7 +186393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,019억원",
             "opProfit": "1,067억원",
             "netProfit": "811억원",
@@ -186465,7 +186465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,808억원",
             "opProfit": "377억원",
             "netProfit": "287억원",
@@ -186537,7 +186537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,865억원",
             "opProfit": "266억원",
             "netProfit": "202억원",
@@ -186609,7 +186609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,570억원",
             "opProfit": "226억원",
             "netProfit": "172억원",
@@ -186681,7 +186681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,269억원",
             "opProfit": "209억원",
             "netProfit": "159억원",
@@ -186753,7 +186753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,576억원",
             "opProfit": "184억원",
             "netProfit": "140억원",
@@ -186825,7 +186825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "548억원",
             "opProfit": "99억원",
             "netProfit": "75억원",
@@ -186953,7 +186953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 349억원",
             "opProfit": "5,326억원",
             "netProfit": "4,048억원",
@@ -187025,7 +187025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 1,431억원",
             "opProfit": "5,759억원",
             "netProfit": "4,377억원",
@@ -187097,7 +187097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 7,677억원",
             "opProfit": "2,823억원",
             "netProfit": "2,145억원",
@@ -187169,7 +187169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 2,169억원",
             "opProfit": "2,062억원",
             "netProfit": "1,567억원",
@@ -187241,7 +187241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 8,652억원",
             "opProfit": "3,782억원",
             "netProfit": "2,874억원",
@@ -187313,7 +187313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 7,825억원",
             "opProfit": "3,840억원",
             "netProfit": "2,918억원",
@@ -187385,7 +187385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,335억원",
             "opProfit": "1,204억원",
             "netProfit": "915억원",
@@ -187457,7 +187457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,765억원",
             "opProfit": "1,236억원",
             "netProfit": "939억원",
@@ -187529,7 +187529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,703억원",
             "opProfit": "1,032억원",
             "netProfit": "784억원",
@@ -187601,7 +187601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,532억원",
             "opProfit": "798억원",
             "netProfit": "606억원",
@@ -187673,7 +187673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "119%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,204억원",
             "opProfit": "423억원",
             "netProfit": "321억원",
@@ -187745,7 +187745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "740억원",
             "opProfit": "141억원",
             "netProfit": "107억원",
@@ -187817,7 +187817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "346억원",
             "opProfit": "49억원",
             "netProfit": "37억원",
@@ -187889,7 +187889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "211억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -188017,7 +188017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6조 7,527억원",
             "opProfit": "1조 1,480억원",
             "netProfit": "8,725억원",
@@ -188089,7 +188089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "47%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 8,725억원",
             "opProfit": "2,758억원",
             "netProfit": "2,096억원",
@@ -188161,7 +188161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 1,038억원",
             "opProfit": "9,595억원",
             "netProfit": "7,292억원",
@@ -188233,7 +188233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 342억원",
             "opProfit": "1,770억원",
             "netProfit": "1,345억원",
@@ -188305,7 +188305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,101억원",
             "opProfit": "851억원",
             "netProfit": "647억원",
@@ -188377,7 +188377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,093억원",
             "opProfit": "2,056억원",
             "netProfit": "1,563억원",
@@ -188449,7 +188449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,394억원",
             "opProfit": "2,355억원",
             "netProfit": "1,790억원",
@@ -188521,7 +188521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "51%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,227억원",
             "opProfit": "523억원",
             "netProfit": "397억원",
@@ -188593,7 +188593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,375억원",
             "opProfit": "1,340억원",
             "netProfit": "1,018억원",
@@ -188665,7 +188665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,810억원",
             "opProfit": "495억원",
             "netProfit": "376억원",
@@ -188737,7 +188737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,008억원",
             "opProfit": "223억원",
             "netProfit": "169억원",
@@ -188809,7 +188809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,027억원",
             "opProfit": "399억원",
             "netProfit": "303억원",
@@ -188881,7 +188881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,614억원",
             "opProfit": "351억원",
             "netProfit": "267억원",
@@ -188953,7 +188953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,321억원",
             "opProfit": "609억원",
             "netProfit": "463억원",
@@ -189025,7 +189025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "104%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,280억원",
             "opProfit": "903억원",
             "netProfit": "686억원",
@@ -189097,7 +189097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,843억원",
             "opProfit": "523억원",
             "netProfit": "397억원",
@@ -189169,7 +189169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,496억원",
             "opProfit": "245억원",
             "netProfit": "186억원",
@@ -189241,7 +189241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,178억원",
             "opProfit": "200억원",
             "netProfit": "152억원",
@@ -189313,7 +189313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,675억원",
             "opProfit": "300억원",
             "netProfit": "228억원",
@@ -189385,7 +189385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,856억원",
             "opProfit": "686억원",
             "netProfit": "521억원",
@@ -189457,7 +189457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,726억원",
             "opProfit": "354억원",
             "netProfit": "269억원",
@@ -189529,7 +189529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,717억원",
             "opProfit": "361억원",
             "netProfit": "274억원",
@@ -189601,7 +189601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,652억원",
             "opProfit": "353억원",
             "netProfit": "268억원",
@@ -189673,7 +189673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,971억원",
             "opProfit": "466억원",
             "netProfit": "354억원",
@@ -189745,7 +189745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,359억원",
             "opProfit": "370억원",
             "netProfit": "281억원",
@@ -189817,7 +189817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,622억원",
             "opProfit": "467억원",
             "netProfit": "355억원",
@@ -189889,7 +189889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,393억원",
             "opProfit": "143억원",
             "netProfit": "109억원",
@@ -189961,7 +189961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,772억원",
             "opProfit": "234억원",
             "netProfit": "178억원",
@@ -190033,7 +190033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,092억원",
             "opProfit": "366억원",
             "netProfit": "278억원",
@@ -190105,7 +190105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,118억원",
             "opProfit": "114억원",
             "netProfit": "87억원",
@@ -190177,7 +190177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "815억원",
             "opProfit": "65억원",
             "netProfit": "49억원",
@@ -190249,7 +190249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "889억원",
             "opProfit": "83억원",
             "netProfit": "63억원",
@@ -190321,7 +190321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,689억원",
             "opProfit": "296억원",
             "netProfit": "225억원",
@@ -190393,7 +190393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,783억원",
             "opProfit": "337억원",
             "netProfit": "256억원",
@@ -190465,7 +190465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "826억원",
             "opProfit": "76억원",
             "netProfit": "58억원",
@@ -190537,7 +190537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "822억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -190609,7 +190609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "965억원",
             "opProfit": "118억원",
             "netProfit": "90억원",
@@ -190681,7 +190681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "862억원",
             "opProfit": "97억원",
             "netProfit": "74억원",
@@ -190753,7 +190753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,439억원",
             "opProfit": "268억원",
             "netProfit": "204억원",
@@ -190825,7 +190825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "979억원",
             "opProfit": "127억원",
             "netProfit": "97억원",
@@ -190897,7 +190897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,015억원",
             "opProfit": "141억원",
             "netProfit": "107억원",
@@ -190969,7 +190969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,072억원",
             "opProfit": "163억원",
             "netProfit": "124억원",
@@ -191041,7 +191041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "592억원",
             "opProfit": "52억원",
             "netProfit": "40억원",
@@ -191113,7 +191113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,129억원",
             "opProfit": "186억원",
             "netProfit": "141억원",
@@ -191185,7 +191185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "947억원",
             "opProfit": "138억원",
             "netProfit": "105억원",
@@ -191257,7 +191257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,117억원",
             "opProfit": "190억원",
             "netProfit": "144억원",
@@ -191329,7 +191329,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "722억원",
             "opProfit": "84억원",
             "netProfit": "64억원",
@@ -191401,7 +191401,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,187억원",
             "opProfit": "221억원",
             "netProfit": "168억원",
@@ -191473,7 +191473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,054억원",
             "opProfit": "178억원",
             "netProfit": "135억원",
@@ -191545,7 +191545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "869억원",
             "opProfit": "133억원",
             "netProfit": "101억원",
@@ -191617,7 +191617,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "563억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -191689,7 +191689,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "930억원",
             "opProfit": "158억원",
             "netProfit": "120억원",
@@ -191761,7 +191761,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "478억원",
             "opProfit": "44억원",
             "netProfit": "33억원",
@@ -191833,7 +191833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "906억원",
             "opProfit": "163억원",
             "netProfit": "124억원",
@@ -191905,7 +191905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "799억원",
             "opProfit": "140억원",
             "netProfit": "106억원",
@@ -191977,7 +191977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "524억원",
             "opProfit": "66억원",
             "netProfit": "50억원",
@@ -192049,7 +192049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "583억원",
             "opProfit": "82억원",
             "netProfit": "62억원",
@@ -192121,7 +192121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "401억원",
             "opProfit": "41억원",
             "netProfit": "31억원",
@@ -192193,7 +192193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "428억원",
             "opProfit": "48억원",
             "netProfit": "36억원",
@@ -192265,7 +192265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "401억원",
             "opProfit": "45억원",
             "netProfit": "34억원",
@@ -192337,7 +192337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "347억원",
             "opProfit": "34억원",
             "netProfit": "26억원",
@@ -192409,7 +192409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "472억원",
             "opProfit": "62억원",
             "netProfit": "47억원",
@@ -192481,7 +192481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "253억원",
             "opProfit": "19억원",
             "netProfit": "14억원",
@@ -192553,7 +192553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "295억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -192625,7 +192625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "469억원",
             "opProfit": "69억원",
             "netProfit": "52억원",
@@ -192697,7 +192697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "364억원",
             "opProfit": "48억원",
             "netProfit": "36억원",
@@ -192769,7 +192769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "179억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -192841,7 +192841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "258억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -192913,7 +192913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "186억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -192985,7 +192985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "216억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -193057,7 +193057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "422억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -193129,7 +193129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "177억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -193201,7 +193201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "267억원",
             "opProfit": "34억원",
             "netProfit": "26억원",
@@ -193273,7 +193273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "79%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "263억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -193345,7 +193345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "295억원",
             "opProfit": "52억원",
             "netProfit": "40억원",
@@ -193417,7 +193417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "244억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -193489,7 +193489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "139억원",
             "opProfit": "17억원",
             "netProfit": "13억원",
@@ -193561,7 +193561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "54%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "12억원",
             "netProfit": "9억원",
@@ -193633,7 +193633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -193705,7 +193705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "115억원",
             "opProfit": "15억원",
             "netProfit": "11억원",
@@ -193777,7 +193777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "106%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "124억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -193905,7 +193905,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "11조 4,958억원",
             "opProfit": "1조 4,025억원",
             "netProfit": "1조 659억원",
@@ -193977,7 +193977,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 6,357억원",
             "opProfit": "2,952억원",
             "netProfit": "2,244억원",
@@ -194049,7 +194049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 3,495억원",
             "opProfit": "3,266억원",
             "netProfit": "2,482억원",
@@ -194121,7 +194121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 826억원",
             "opProfit": "4,019억원",
             "netProfit": "3,054억원",
@@ -194193,7 +194193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 5,921억원",
             "opProfit": "2,500억원",
             "netProfit": "1,900억원",
@@ -194265,7 +194265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 4,940억원",
             "opProfit": "2,331억원",
             "netProfit": "1,772억원",
@@ -194337,7 +194337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,107억원",
             "opProfit": "1,466억원",
             "netProfit": "1,114억원",
@@ -194409,7 +194409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,660억원",
             "opProfit": "857억원",
             "netProfit": "651억원",
@@ -194481,7 +194481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,894억원",
             "opProfit": "353억원",
             "netProfit": "268억원",
@@ -194553,7 +194553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,586억원",
             "opProfit": "290억원",
             "netProfit": "220억원",
@@ -194625,7 +194625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,067억원",
             "opProfit": "712억원",
             "netProfit": "541억원",
@@ -194697,7 +194697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "44%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,910억원",
             "opProfit": "174억원",
             "netProfit": "132억원",
@@ -194769,7 +194769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,557억원",
             "opProfit": "435억원",
             "netProfit": "331억원",
@@ -194841,7 +194841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,247억원",
             "opProfit": "357억원",
             "netProfit": "271억원",
@@ -194913,7 +194913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,106억원",
             "opProfit": "329억원",
             "netProfit": "250억원",
@@ -194985,7 +194985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,094억원",
             "opProfit": "92억원",
             "netProfit": "70억원",
@@ -195057,7 +195057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,167억원",
             "opProfit": "355억원",
             "netProfit": "270억원",
@@ -195129,7 +195129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,332억원",
             "opProfit": "413억원",
             "netProfit": "314억원",
@@ -195201,7 +195201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,222억원",
             "opProfit": "389억원",
             "netProfit": "296억원",
@@ -195273,7 +195273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,419억원",
             "opProfit": "173억원",
             "netProfit": "131억원",
@@ -195345,7 +195345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "976억원",
             "opProfit": "85억원",
             "netProfit": "65억원",
@@ -195417,7 +195417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,549억원",
             "opProfit": "246억원",
             "netProfit": "187억원",
@@ -195489,7 +195489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "830억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -195561,7 +195561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,441억원",
             "opProfit": "231억원",
             "netProfit": "176억원",
@@ -195633,7 +195633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,449억원",
             "opProfit": "261억원",
             "netProfit": "198억원",
@@ -195705,7 +195705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "65%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "875억원",
             "opProfit": "105억원",
             "netProfit": "80억원",
@@ -195777,7 +195777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "535억원",
             "opProfit": "47억원",
             "netProfit": "36억원",
@@ -195849,7 +195849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,033억원",
             "opProfit": "181억원",
             "netProfit": "138억원",
@@ -195921,7 +195921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "418억원",
             "opProfit": "31억원",
             "netProfit": "24억원",
@@ -195993,7 +195993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "512억원",
             "opProfit": "48억원",
             "netProfit": "36억원",
@@ -196065,7 +196065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "417억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -196137,7 +196137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "569억원",
             "opProfit": "74억원",
             "netProfit": "56억원",
@@ -196209,7 +196209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "328억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -196281,7 +196281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "652억원",
             "opProfit": "99억원",
             "netProfit": "75억원",
@@ -196353,7 +196353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "699억원",
             "opProfit": "122억원",
             "netProfit": "93억원",
@@ -196425,7 +196425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "631억원",
             "opProfit": "101억원",
             "netProfit": "77억원",
@@ -196497,7 +196497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "388억원",
             "opProfit": "40억원",
             "netProfit": "30억원",
@@ -196569,7 +196569,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "671억원",
             "opProfit": "117억원",
             "netProfit": "89억원",
@@ -196641,7 +196641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "718억원",
             "opProfit": "136억원",
             "netProfit": "103억원",
@@ -196713,7 +196713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "655억원",
             "opProfit": "122억원",
             "netProfit": "93억원",
@@ -196785,7 +196785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "303억원",
             "opProfit": "28억원",
             "netProfit": "21억원",
@@ -196857,7 +196857,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "586억원",
             "opProfit": "103억원",
             "netProfit": "78억원",
@@ -196929,7 +196929,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "355억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -197001,7 +197001,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "280억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -197073,7 +197073,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "364억원",
             "opProfit": "47억원",
             "netProfit": "36억원",
@@ -197145,7 +197145,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "508억원",
             "opProfit": "92억원",
             "netProfit": "70억원",
@@ -197217,7 +197217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "457억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -197289,7 +197289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "251억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -197361,7 +197361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "296억원",
             "opProfit": "35억원",
             "netProfit": "27억원",
@@ -197433,7 +197433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "250억원",
             "opProfit": "27억원",
             "netProfit": "21억원",
@@ -197505,7 +197505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "191억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -197577,7 +197577,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "220억원",
             "opProfit": "23억원",
             "netProfit": "17억원",
@@ -197649,7 +197649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "179억원",
             "opProfit": "18억원",
             "netProfit": "14억원",
@@ -197721,7 +197721,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "113억원",
             "opProfit": "13억원",
             "netProfit": "10억원",
@@ -197793,7 +197793,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "12억원",
             "netProfit": "9억원",
@@ -197865,7 +197865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "118억원",
             "opProfit": "20억원",
             "netProfit": "15억원",
@@ -197937,7 +197937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "120억원",
             "opProfit": "22억원",
             "netProfit": "17억원",
@@ -198065,7 +198065,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,845억원",
             "opProfit": "473억원",
             "netProfit": "359억원",
@@ -198137,7 +198137,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,763억원",
             "opProfit": "229억원",
             "netProfit": "174억원",
@@ -198209,7 +198209,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,137억원",
             "opProfit": "140억원",
             "netProfit": "106억원",
@@ -198281,7 +198281,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "101%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,023억원",
             "opProfit": "172억원",
             "netProfit": "131억원",
@@ -198353,7 +198353,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "597억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -198425,7 +198425,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "529억원",
             "opProfit": "67억원",
             "netProfit": "51억원",
@@ -198497,7 +198497,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "158억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -198625,7 +198625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 1,299억원",
             "opProfit": "1,232억원",
             "netProfit": "936억원",
@@ -198753,7 +198753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3조 4,917억원",
             "opProfit": "4,749억원",
             "netProfit": "3,609억원",
@@ -198825,7 +198825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,352억원",
             "opProfit": "198억원",
             "netProfit": "150억원",
@@ -198897,7 +198897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,504억원",
             "opProfit": "147억원",
             "netProfit": "112억원",
@@ -198969,7 +198969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,812억원",
             "opProfit": "284억원",
             "netProfit": "216억원",
@@ -199041,7 +199041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "98%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,408억원",
             "opProfit": "230억원",
             "netProfit": "175억원",
@@ -199113,7 +199113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "609억원",
             "opProfit": "77억원",
             "netProfit": "59억원",
@@ -199241,7 +199241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "14조 1,780억원",
             "opProfit": "2조 2,118억원",
             "netProfit": "1조 6,810억원",
@@ -199313,7 +199313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,667억원",
             "opProfit": "676억원",
             "netProfit": "514억원",
@@ -199385,7 +199385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 5,956억원",
             "opProfit": "2,409억원",
             "netProfit": "1,831억원",
@@ -199457,7 +199457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 6,908억원",
             "opProfit": "2,739억원",
             "netProfit": "2,082억원",
@@ -199529,7 +199529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,160억원",
             "opProfit": "433억원",
             "netProfit": "329억원",
@@ -199601,7 +199601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,183억원",
             "opProfit": "223억원",
             "netProfit": "169억원",
@@ -199673,7 +199673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,529억원",
             "opProfit": "150억원",
             "netProfit": "114억원",
@@ -199745,7 +199745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,405억원",
             "opProfit": "129억원",
             "netProfit": "98억원",
@@ -199817,7 +199817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "986억원",
             "opProfit": "83억원",
             "netProfit": "63억원",
@@ -199889,7 +199889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "717억원",
             "opProfit": "63억원",
             "netProfit": "48억원",
@@ -199961,7 +199961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,353억원",
             "opProfit": "237억원",
             "netProfit": "180억원",
@@ -200033,7 +200033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "785억원",
             "opProfit": "97억원",
             "netProfit": "74억원",
@@ -200105,7 +200105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "73%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "731억원",
             "opProfit": "95억원",
             "netProfit": "72억원",
@@ -200177,7 +200177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "794억원",
             "opProfit": "116억원",
             "netProfit": "88억원",
@@ -200249,7 +200249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "788억원",
             "opProfit": "119억원",
             "netProfit": "90억원",
@@ -200321,7 +200321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "891억원",
             "opProfit": "160억원",
             "netProfit": "122억원",
@@ -200393,7 +200393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "38%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "284억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -200465,7 +200465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "491억원",
             "opProfit": "81억원",
             "netProfit": "62억원",
@@ -200537,7 +200537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "71%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "327억원",
             "opProfit": "42억원",
             "netProfit": "32억원",
@@ -200609,7 +200609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "239억원",
             "opProfit": "24억원",
             "netProfit": "18억원",
@@ -200737,7 +200737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,512억원",
             "opProfit": "272억원",
             "netProfit": "207억원",
@@ -200865,7 +200865,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8조 2,958억원",
             "opProfit": "1조 2,527억원",
             "netProfit": "9,521억원",
@@ -200937,7 +200937,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "9조 9,641억원",
             "opProfit": "2조 9,593억원",
             "netProfit": "2조 2,491억원",
@@ -201009,7 +201009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5조 7,324억원",
             "opProfit": "1조 5,993억원",
             "netProfit": "1조 2,155억원",
@@ -201081,7 +201081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 9,682억원",
             "opProfit": "1조 5,401억원",
             "netProfit": "1조 1,705억원",
@@ -201153,7 +201153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "61%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 4,501억원",
             "opProfit": "4,974억원",
             "netProfit": "3,780억원",
@@ -201225,7 +201225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 1,487억원",
             "opProfit": "5,565억원",
             "netProfit": "4,229억원",
@@ -201297,7 +201297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,870억원",
             "opProfit": "2,691억원",
             "netProfit": "2,045억원",
@@ -201369,7 +201369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,965억원",
             "opProfit": "4,245억원",
             "netProfit": "3,226억원",
@@ -201441,7 +201441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,060억원",
             "opProfit": "1,525억원",
             "netProfit": "1,159억원",
@@ -201513,7 +201513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,773억원",
             "opProfit": "2,588억원",
             "netProfit": "1,967억원",
@@ -201585,7 +201585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,550억원",
             "opProfit": "2,522억원",
             "netProfit": "1,917억원",
@@ -201657,7 +201657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "102%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,584억원",
             "opProfit": "2,169억원",
             "netProfit": "1,648억원",
@@ -201729,7 +201729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "91%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,485억원",
             "opProfit": "1,719억원",
             "netProfit": "1,306억원",
@@ -201801,7 +201801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,260억원",
             "opProfit": "910억원",
             "netProfit": "692억원",
@@ -201873,7 +201873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,353억원",
             "opProfit": "966억원",
             "netProfit": "734억원",
@@ -201945,7 +201945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,434억원",
             "opProfit": "1,037억원",
             "netProfit": "788억원",
@@ -202017,7 +202017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "46%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,578억원",
             "opProfit": "276억원",
             "netProfit": "210억원",
@@ -202089,7 +202089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,856억원",
             "opProfit": "401억원",
             "netProfit": "305억원",
@@ -202161,7 +202161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,488억원",
             "opProfit": "308억원",
             "netProfit": "234억원",
@@ -202233,7 +202233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,506억원",
             "opProfit": "346억원",
             "netProfit": "263억원",
@@ -202305,7 +202305,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,375억원",
             "opProfit": "297억원",
             "netProfit": "226억원",
@@ -202377,7 +202377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,216억원",
             "opProfit": "289억원",
             "netProfit": "220억원",
@@ -202449,7 +202449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,721억원",
             "opProfit": "542억원",
             "netProfit": "412억원",
@@ -202521,7 +202521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,645억원",
             "opProfit": "510억원",
             "netProfit": "388억원",
@@ -202593,7 +202593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,412억원",
             "opProfit": "438억원",
             "netProfit": "333억원",
@@ -202665,7 +202665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "499억원",
             "opProfit": "78억원",
             "netProfit": "59억원",
@@ -202737,7 +202737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "113%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "838억원",
             "opProfit": "258억원",
             "netProfit": "196억원",
@@ -202809,7 +202809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "532억원",
             "opProfit": "143억원",
             "netProfit": "109억원",
@@ -202881,7 +202881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "484억원",
             "opProfit": "133억원",
             "netProfit": "101억원",
@@ -202953,7 +202953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "184억원",
             "opProfit": "26억원",
             "netProfit": "20억원",
@@ -203025,7 +203025,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "307억원",
             "opProfit": "86억원",
             "netProfit": "65억원",
@@ -203097,7 +203097,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "126억원",
             "opProfit": "25억원",
             "netProfit": "19억원",
@@ -203169,7 +203169,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "95%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "117억원",
             "opProfit": "32억원",
             "netProfit": "24억원",
@@ -203241,7 +203241,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "119억원",
             "opProfit": "36억원",
             "netProfit": "27억원",
@@ -203369,7 +203369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "604%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "23조 6,704억원",
             "opProfit": "5조 3,495억원",
             "netProfit": "4조 656억원",
@@ -203441,7 +203441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1284%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "26조 5,627억원",
             "opProfit": "9조 3,766억원",
             "netProfit": "7조 1,262억원",
@@ -203513,7 +203513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1244%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7조 6,119억원",
             "opProfit": "2조 6,337억원",
             "netProfit": "2조 16억원",
@@ -203585,7 +203585,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "604%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 6,073억원",
             "opProfit": "5,892억원",
             "netProfit": "4,478억원",
@@ -203657,7 +203657,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1172%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4조 9,146억원",
             "opProfit": "1조 6,316억원",
             "netProfit": "1조 2,400억원",
@@ -203729,7 +203729,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "780%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 3,866억원",
             "opProfit": "3,591억원",
             "netProfit": "2,729억원",
@@ -203801,7 +203801,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "636%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,401억원",
             "opProfit": "1,717억원",
             "netProfit": "1,305억원",
@@ -203873,7 +203873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1268%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 5,685억원",
             "opProfit": "5,490억원",
             "netProfit": "4,172억원",
@@ -203945,7 +203945,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1004%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,040억원",
             "opProfit": "2,420억원",
             "netProfit": "1,839억원",
@@ -204017,7 +204017,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1068%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,933억원",
             "opProfit": "1,544억원",
             "netProfit": "1,173억원",
@@ -204089,7 +204089,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "1172%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,090억원",
             "opProfit": "1,358억원",
             "netProfit": "1,032억원",
@@ -204161,7 +204161,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "788%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "112억원",
             "opProfit": "29억원",
             "netProfit": "22억원",
@@ -204289,7 +204289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "36조 6,894억원",
             "opProfit": "6조 6,041억원",
             "netProfit": "5조 191억원",
@@ -204361,7 +204361,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7조 5,833억원",
             "opProfit": "7,735억원",
             "netProfit": "5,879억원",
@@ -204433,7 +204433,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "877억원",
             "opProfit": "103억원",
             "netProfit": "78억원",
@@ -204505,7 +204505,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "433억원",
             "opProfit": "82억원",
             "netProfit": "62억원",
@@ -204633,7 +204633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,056억원",
             "opProfit": "553억원",
             "netProfit": "420억원",
@@ -204705,7 +204705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,358억원",
             "opProfit": "370억원",
             "netProfit": "281억원",
@@ -204777,7 +204777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,268억원",
             "opProfit": "228억원",
             "netProfit": "173억원",
@@ -204849,7 +204849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,085억원",
             "opProfit": "204억원",
             "netProfit": "155억원",
@@ -204921,7 +204921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "851억원",
             "opProfit": "140억원",
             "netProfit": "106억원",
@@ -205049,7 +205049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,762억원",
             "opProfit": "762억원",
             "netProfit": "579억원",
@@ -205121,7 +205121,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 5,018억원",
             "opProfit": "2,898억원",
             "netProfit": "2,202억원",
@@ -205193,7 +205193,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "6,511억원",
             "opProfit": "990억원",
             "netProfit": "752억원",
@@ -205265,7 +205265,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,111억원",
             "opProfit": "1,509억원",
             "netProfit": "1,147억원",
@@ -205337,7 +205337,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,300억원",
             "opProfit": "323억원",
             "netProfit": "245억원",
@@ -205409,7 +205409,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,035억원",
             "opProfit": "501억원",
             "netProfit": "381억원",
@@ -205481,7 +205481,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,915억원",
             "opProfit": "214억원",
             "netProfit": "163억원",
@@ -205553,7 +205553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "36%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "998억원",
             "opProfit": "80억원",
             "netProfit": "61억원",
@@ -205625,7 +205625,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,012억원",
             "opProfit": "352억원",
             "netProfit": "268억원",
@@ -205697,7 +205697,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "69%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,355억원",
             "opProfit": "168억원",
             "netProfit": "128억원",
@@ -205769,7 +205769,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,807억원",
             "opProfit": "318억원",
             "netProfit": "242억원",
@@ -205841,7 +205841,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,483억원",
             "opProfit": "261억원",
             "netProfit": "198억원",
@@ -205913,7 +205913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "773억원",
             "opProfit": "76억원",
             "netProfit": "58억원",
@@ -205985,7 +205985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "794억원",
             "opProfit": "87억원",
             "netProfit": "66억원",
@@ -206057,7 +206057,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "112%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,341억원",
             "opProfit": "244억원",
             "netProfit": "185억원",
@@ -206129,7 +206129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "120%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,426억원",
             "opProfit": "275억원",
             "netProfit": "209억원",
@@ -206201,7 +206201,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "554억원",
             "opProfit": "65억원",
             "netProfit": "49억원",
@@ -206273,7 +206273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "109%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "873억원",
             "opProfit": "155억원",
             "netProfit": "118억원",
@@ -206345,7 +206345,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "455억원",
             "opProfit": "45억원",
             "netProfit": "34억원",
@@ -206417,7 +206417,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "68%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "506억원",
             "opProfit": "62억원",
             "netProfit": "47억원",
@@ -206489,7 +206489,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "400억원",
             "opProfit": "41억원",
             "netProfit": "31억원",
@@ -206561,7 +206561,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "50%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "374억원",
             "opProfit": "37억원",
             "netProfit": "28억원",
@@ -206633,7 +206633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "78%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "467억원",
             "opProfit": "64억원",
             "netProfit": "49억원",
@@ -206705,7 +206705,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "97%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "440억원",
             "opProfit": "71억원",
             "netProfit": "54억원",
@@ -206777,7 +206777,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "355억원",
             "opProfit": "58억원",
             "netProfit": "44억원",
@@ -206849,7 +206849,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "48%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "11억원",
             "netProfit": "8억원",
@@ -206921,7 +206921,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "108%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "119억원",
             "opProfit": "21억원",
             "netProfit": "16억원",
@@ -207049,7 +207049,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "111%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "10조 9,127억원",
             "opProfit": "1조 9,752억원",
             "netProfit": "1조 5,012억원",
@@ -207177,7 +207177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 4,535억원",
             "opProfit": "4,416억원",
             "netProfit": "3,356억원",
@@ -207249,7 +207249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 2,214억원",
             "opProfit": "1,405억원",
             "netProfit": "1,068억원",
@@ -207321,7 +207321,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "86%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,655억원",
             "opProfit": "537억원",
             "netProfit": "408억원",
@@ -207393,7 +207393,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,511억원",
             "opProfit": "576억원",
             "netProfit": "438억원",
@@ -207465,7 +207465,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "96%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,147억원",
             "opProfit": "344억원",
             "netProfit": "261억원",
@@ -207537,7 +207537,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,759억원",
             "opProfit": "292억원",
             "netProfit": "222억원",
@@ -207609,7 +207609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "80%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,031억원",
             "opProfit": "143억원",
             "netProfit": "109억원",
@@ -207681,7 +207681,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "769억원",
             "opProfit": "99억원",
             "netProfit": "75억원",
@@ -207753,7 +207753,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,086억원",
             "opProfit": "205억원",
             "netProfit": "156억원",
@@ -207825,7 +207825,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "375억원",
             "opProfit": "33억원",
             "netProfit": "25억원",
@@ -207897,7 +207897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "527억원",
             "opProfit": "100억원",
             "netProfit": "76억원",
@@ -207969,7 +207969,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "339억원",
             "opProfit": "49억원",
             "netProfit": "37억원",
@@ -208041,7 +208041,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "327억원",
             "opProfit": "62억원",
             "netProfit": "47억원",
@@ -208113,7 +208113,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "115%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "315억원",
             "opProfit": "59억원",
             "netProfit": "45억원",
@@ -208185,7 +208185,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "70%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "114억원",
             "opProfit": "14억원",
             "netProfit": "11억원",
@@ -208257,7 +208257,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "116억원",
             "opProfit": "16억원",
             "netProfit": "12억원",
@@ -208385,7 +208385,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "85%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 5,706억원",
             "opProfit": "2,293억원",
             "netProfit": "1,743억원",
@@ -208457,7 +208457,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,961억원",
             "opProfit": "621억원",
             "netProfit": "472억원",
@@ -208529,7 +208529,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,068억원",
             "opProfit": "301억원",
             "netProfit": "229억원",
@@ -208601,7 +208601,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "41%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,184억원",
             "opProfit": "190억원",
             "netProfit": "144억원",
@@ -208673,7 +208673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "67%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,453억원",
             "opProfit": "299억원",
             "netProfit": "227억원",
@@ -208745,7 +208745,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,644억원",
             "opProfit": "145억원",
             "netProfit": "110억원",
@@ -208817,7 +208817,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,404억원",
             "opProfit": "124억원",
             "netProfit": "94억원",
@@ -208889,7 +208889,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "103%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,644억원",
             "opProfit": "449억원",
             "netProfit": "341억원",
@@ -208961,7 +208961,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "43%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "983억원",
             "opProfit": "88억원",
             "netProfit": "67억원",
@@ -209033,7 +209033,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,782억원",
             "opProfit": "294억원",
             "netProfit": "223억원",
@@ -209105,7 +209105,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,493억원",
             "opProfit": "245억원",
             "netProfit": "186억원",
@@ -209177,7 +209177,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,028억원",
             "opProfit": "136억원",
             "netProfit": "103억원",
@@ -209249,7 +209249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "110%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "954억원",
             "opProfit": "172억원",
             "netProfit": "131억원",
@@ -209377,7 +209377,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "57%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 3,301억원",
             "opProfit": "2,540억원",
             "netProfit": "1,930억원",
@@ -209449,7 +209449,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,414억원",
             "opProfit": "1,157억원",
             "netProfit": "879억원",
@@ -209521,7 +209521,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "100%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,820억원",
             "opProfit": "966억원",
             "netProfit": "734억원",
@@ -209593,7 +209593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "89%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,467억원",
             "opProfit": "524억원",
             "netProfit": "398억원",
@@ -209665,7 +209665,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "53%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,288억원",
             "opProfit": "236억원",
             "netProfit": "179억원",
@@ -209737,7 +209737,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2,862억원",
             "opProfit": "406억원",
             "netProfit": "309억원",
@@ -209809,7 +209809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "118%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,353억원",
             "opProfit": "637억원",
             "netProfit": "484억원",
@@ -209881,7 +209881,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "93%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,754억원",
             "opProfit": "275억원",
             "netProfit": "209억원",
@@ -210009,7 +210009,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "74%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "15조 25억원",
             "opProfit": "1조 9,803억원",
             "netProfit": "1조 5,050억원",
@@ -210081,7 +210081,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "60%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "2조 2,414억원",
             "opProfit": "2,510억원",
             "netProfit": "1,908억원",
@@ -210153,7 +210153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "34%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1조 389억원",
             "opProfit": "810억원",
             "netProfit": "616억원",
@@ -210225,7 +210225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,223억원",
             "opProfit": "954억원",
             "netProfit": "725억원",
@@ -210297,7 +210297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "63%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,389억원",
             "opProfit": "514억원",
             "netProfit": "391억원",
@@ -210369,7 +210369,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "99%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,184억원",
             "opProfit": "855억원",
             "netProfit": "650억원",
@@ -210441,7 +210441,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "81%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,848억원",
             "opProfit": "259억원",
             "netProfit": "197억원",
@@ -210513,7 +210513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "90%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "206억원",
             "opProfit": "32억원",
             "netProfit": "24억원",
@@ -210641,7 +210641,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "12조 4,167억원",
             "opProfit": "1조 554억원",
             "netProfit": "8,021억원",
@@ -210713,7 +210713,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "37%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "999억원",
             "opProfit": "82억원",
             "netProfit": "62억원",
@@ -210785,7 +210785,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,030억원",
             "opProfit": "195억원",
             "netProfit": "148억원",
@@ -210914,7 +210914,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$294.0B",
             "opProfit": "$136.7B",
             "netProfit": "$109.4B",
@@ -210985,7 +210985,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$372.0B",
             "opProfit": "$122.8B",
             "netProfit": "$98.2B",
@@ -211056,7 +211056,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$690.0B",
             "opProfit": "$81.4B",
             "netProfit": "$65.1B",
@@ -211127,7 +211127,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$162.0B",
             "opProfit": "$65.6B",
             "netProfit": "$52.5B",
@@ -211198,7 +211198,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "317%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$63.6B",
             "opProfit": "$20.7B",
             "netProfit": "$16.5B",
@@ -211325,7 +211325,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "19%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$45.6B",
             "opProfit": "$10.7B",
             "netProfit": "$8.6B",
@@ -211396,7 +211396,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "29%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$13.2B",
             "opProfit": "$4.2B",
             "netProfit": "$3.4B",
@@ -211467,7 +211467,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$19.2B",
             "opProfit": "$5.1B",
             "netProfit": "$4.1B",
@@ -211538,7 +211538,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$9.0B",
             "opProfit": "$1.9B",
             "netProfit": "$1.5B",
@@ -211609,7 +211609,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$25.8B",
             "opProfit": "$9.7B",
             "netProfit": "$7.7B",
@@ -211680,7 +211680,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$3.8B",
             "opProfit": "$1.2B",
             "netProfit": "$0.9B",
@@ -211807,7 +211807,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$9.8B",
             "opProfit": "$2.8B",
             "netProfit": "$2.2B",
@@ -211878,7 +211878,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "25%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$4.6B",
             "opProfit": "$1.1B",
             "netProfit": "$0.9B",
@@ -211949,7 +211949,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$6.7B",
             "opProfit": "$2.0B",
             "netProfit": "$1.6B",
@@ -212020,7 +212020,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$64.8B",
             "opProfit": "$19.1B",
             "netProfit": "$15.3B",
@@ -212091,7 +212091,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$2.8B",
             "opProfit": "$0.6B",
             "netProfit": "$0.5B",
@@ -212218,7 +212218,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$144.0B",
             "opProfit": "$95.8B",
             "netProfit": "$76.6B",
@@ -212289,7 +212289,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$61.2B",
             "opProfit": "$26.3B",
             "netProfit": "$21.1B",
@@ -212360,7 +212360,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$28.8B",
             "opProfit": "$5.8B",
             "netProfit": "$4.6B",
@@ -212431,7 +212431,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$45.6B",
             "opProfit": "$13.9B",
             "netProfit": "$11.1B",
@@ -212502,7 +212502,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$4.1B",
             "opProfit": "$1.9B",
             "netProfit": "$1.5B",
@@ -212629,7 +212629,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "29%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$32.4B",
             "opProfit": "$10.2B",
             "netProfit": "$8.2B",
@@ -212700,7 +212700,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$18.0B",
             "opProfit": "$5.8B",
             "netProfit": "$4.6B",
@@ -212771,7 +212771,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$12.0B",
             "opProfit": "$4.7B",
             "netProfit": "$3.7B",
@@ -212842,7 +212842,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$3.4B",
             "opProfit": "$0.8B",
             "netProfit": "$0.6B",
@@ -212913,7 +212913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$4.2B",
             "opProfit": "$1.1B",
             "netProfit": "$0.9B",
@@ -213040,7 +213040,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "31%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$30.0B",
             "opProfit": "$7.2B",
             "netProfit": "$5.8B",
@@ -213111,7 +213111,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$15.6B",
             "opProfit": "$2.6B",
             "netProfit": "$2.1B",
@@ -213182,7 +213182,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "137%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$9.4B",
             "opProfit": "$1.9B",
             "netProfit": "$1.5B",
@@ -213253,7 +213253,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$3.7B",
             "opProfit": "$0.7B",
             "netProfit": "$0.5B",
@@ -213380,7 +213380,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "142%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$54.0B",
             "opProfit": "$20.0B",
             "netProfit": "$16.0B",
@@ -213451,7 +213451,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "207%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$39.6B",
             "opProfit": "$13.5B",
             "netProfit": "$10.8B",
@@ -213522,7 +213522,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$0.1B",
             "opProfit": "$-0.0B",
             "netProfit": "$-0.0B",
@@ -213649,7 +213649,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$105.6B",
             "opProfit": "$32.2B",
             "netProfit": "$25.8B",
@@ -213720,7 +213720,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$75.6B",
             "opProfit": "$27.2B",
             "netProfit": "$21.8B",
@@ -213791,7 +213791,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "257%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$66.0B",
             "opProfit": "$26.4B",
             "netProfit": "$21.1B",
@@ -213862,7 +213862,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$72.0B",
             "opProfit": "$16.6B",
             "netProfit": "$13.2B",
@@ -213933,7 +213933,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "112%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$56.4B",
             "opProfit": "$13.8B",
             "netProfit": "$11.1B",
@@ -214060,7 +214060,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$9.6B",
             "opProfit": "$3.7B",
             "netProfit": "$3.0B",
@@ -214131,7 +214131,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$39.6B",
             "opProfit": "$10.5B",
             "netProfit": "$8.4B",
@@ -214202,7 +214202,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$19.2B",
             "opProfit": "$5.4B",
             "netProfit": "$4.3B",
@@ -214273,7 +214273,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$25.2B",
             "opProfit": "$6.6B",
             "netProfit": "$5.2B",
@@ -214400,7 +214400,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "817%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$198.0B",
             "opProfit": "$87.1B",
             "netProfit": "$69.7B",
@@ -214471,7 +214471,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "747%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$57.6B",
             "opProfit": "$21.3B",
             "netProfit": "$17.0B",
@@ -214542,7 +214542,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "707%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$67.2B",
             "opProfit": "$22.8B",
             "netProfit": "$18.3B",
@@ -214613,7 +214613,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "837%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$122.4B",
             "opProfit": "$45.3B",
             "netProfit": "$36.2B",
@@ -214684,7 +214684,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$24.0B",
             "opProfit": "$10.7B",
             "netProfit": "$8.5B",
@@ -214811,7 +214811,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$42.0B",
             "opProfit": "$28.8B",
             "netProfit": "$23.0B",
@@ -214882,7 +214882,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "177%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$32.4B",
             "opProfit": "$19.4B",
             "netProfit": "$15.6B",
@@ -214953,7 +214953,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "157%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$76.8B",
             "opProfit": "$16.5B",
             "netProfit": "$13.2B",
@@ -215024,7 +215024,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$37.2B",
             "opProfit": "$7.3B",
             "netProfit": "$5.8B",
@@ -215095,7 +215095,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$27.6B",
             "opProfit": "$2.9B",
             "netProfit": "$2.3B",
@@ -215222,7 +215222,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$116.4B",
             "opProfit": "$11.9B",
             "netProfit": "$9.5B",
@@ -215293,7 +215293,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$6.2B",
             "opProfit": "$-3.5B",
             "netProfit": "$-2.8B",
@@ -215364,7 +215364,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$1.1B",
             "opProfit": "$-2.4B",
             "netProfit": "$-1.9B",
@@ -215491,7 +215491,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "167%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$210.0B",
             "opProfit": "$19.3B",
             "netProfit": "$15.5B",
@@ -215562,7 +215562,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "237%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$216.0B",
             "opProfit": "$12.5B",
             "netProfit": "$10.0B",
@@ -215633,7 +215633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$42.0B",
             "opProfit": "$6.9B",
             "netProfit": "$5.5B",
@@ -215760,7 +215760,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$792.0B",
             "opProfit": "$49.1B",
             "netProfit": "$39.3B",
@@ -215831,7 +215831,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$306.0B",
             "opProfit": "$17.7B",
             "netProfit": "$14.2B",
@@ -215902,7 +215902,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$128.4B",
             "opProfit": "$9.5B",
             "netProfit": "$7.6B",
@@ -215973,7 +215973,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "277%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$186.0B",
             "opProfit": "$30.1B",
             "netProfit": "$24.1B",
@@ -216100,7 +216100,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "142%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$55.2B",
             "opProfit": "$17.4B",
             "netProfit": "$13.9B",
@@ -216171,7 +216171,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "192%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$110.4B",
             "opProfit": "$17.7B",
             "netProfit": "$14.1B",
@@ -216242,7 +216242,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$100.8B",
             "opProfit": "$26.2B",
             "netProfit": "$21.0B",
@@ -216313,7 +216313,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "217%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$31.2B",
             "opProfit": "$15.1B",
             "netProfit": "$12.1B",
@@ -216384,7 +216384,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "177%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$43.2B",
             "opProfit": "$7.3B",
             "netProfit": "$5.9B",
@@ -216511,7 +216511,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "19%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$414.0B",
             "opProfit": "$68.3B",
             "netProfit": "$54.6B",
@@ -216582,7 +216582,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "21%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$240.0B",
             "opProfit": "$34.8B",
             "netProfit": "$27.8B",
@@ -216653,7 +216653,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$69.6B",
             "opProfit": "$17.4B",
             "netProfit": "$13.9B",
@@ -216724,7 +216724,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$39.6B",
             "opProfit": "$7.3B",
             "netProfit": "$5.9B",
@@ -216851,7 +216851,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$28.8B",
             "opProfit": "$5.9B",
             "netProfit": "$4.7B",
@@ -216922,7 +216922,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "142%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$18.0B",
             "opProfit": "$4.3B",
             "netProfit": "$3.5B",
@@ -216993,7 +216993,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "137%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$33.6B",
             "opProfit": "$11.4B",
             "netProfit": "$9.1B",
@@ -217064,7 +217064,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$42.0B",
             "opProfit": "$3.6B",
             "netProfit": "$2.9B",
@@ -217191,7 +217191,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$45.6B",
             "opProfit": "$13.0B",
             "netProfit": "$10.4B",
@@ -217262,7 +217262,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$109.2B",
             "opProfit": "$16.4B",
             "netProfit": "$13.1B",
@@ -217333,7 +217333,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$49.2B",
             "opProfit": "$5.2B",
             "netProfit": "$4.1B",
@@ -217404,7 +217404,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "112%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$146.4B",
             "opProfit": "$31.5B",
             "netProfit": "$25.2B",
@@ -217531,7 +217531,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$2.8B",
             "opProfit": "$0.7B",
             "netProfit": "$0.6B",
@@ -217602,7 +217602,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$4.1B",
             "opProfit": "$0.8B",
             "netProfit": "$0.6B",
@@ -217673,7 +217673,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "$6.1B",
             "opProfit": "$0.4B",
             "netProfit": "$0.3B",
@@ -217802,7 +217802,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€103.2B",
             "opProfit": "€29.4B",
             "netProfit": "€23.5B",
@@ -217873,7 +217873,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€16.8B",
             "opProfit": "€7.4B",
             "netProfit": "€5.9B",
@@ -217944,7 +217944,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€22.8B",
             "opProfit": "€4.2B",
             "netProfit": "€3.4B",
@@ -218015,7 +218015,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€3.7B",
             "opProfit": "€1.2B",
             "netProfit": "€0.9B",
@@ -218086,7 +218086,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€25.2B",
             "opProfit": "€6.4B",
             "netProfit": "€5.1B",
@@ -218213,7 +218213,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "25%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€50.4B",
             "opProfit": "€11.1B",
             "netProfit": "€8.9B",
@@ -218284,7 +218284,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€114.0B",
             "opProfit": "€22.2B",
             "netProfit": "€17.8B",
@@ -218355,7 +218355,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€72.0B",
             "opProfit": "€13.7B",
             "netProfit": "€10.9B",
@@ -218426,7 +218426,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€43.2B",
             "opProfit": "€7.3B",
             "netProfit": "€5.9B",
@@ -218553,7 +218553,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "29%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€33.6B",
             "opProfit": "€11.1B",
             "netProfit": "€8.9B",
@@ -218624,7 +218624,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€3.2B",
             "opProfit": "€0.9B",
             "netProfit": "€0.7B",
@@ -218695,7 +218695,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€0.7B",
             "opProfit": "€0.3B",
             "netProfit": "€0.2B",
@@ -218822,7 +218822,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€39.6B",
             "opProfit": "€10.1B",
             "netProfit": "€8.1B",
@@ -218893,7 +218893,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€18.0B",
             "opProfit": "€4.0B",
             "netProfit": "€3.2B",
@@ -218964,7 +218964,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€16.8B",
             "opProfit": "€3.0B",
             "netProfit": "€2.4B",
@@ -219091,7 +219091,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€42.0B",
             "opProfit": "€19.5B",
             "netProfit": "€15.6B",
@@ -219162,7 +219162,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€58.8B",
             "opProfit": "€21.8B",
             "netProfit": "€17.4B",
@@ -219233,7 +219233,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€57.6B",
             "opProfit": "€17.3B",
             "netProfit": "€13.8B",
@@ -219304,7 +219304,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€52.8B",
             "opProfit": "€15.0B",
             "netProfit": "€12.0B",
@@ -219431,7 +219431,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€7.8B",
             "opProfit": "€2.4B",
             "netProfit": "€1.9B",
@@ -219502,7 +219502,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€182.4B",
             "opProfit": "€24.6B",
             "netProfit": "€19.7B",
@@ -219573,7 +219573,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "117%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€186.0B",
             "opProfit": "€22.7B",
             "netProfit": "€18.2B",
@@ -219644,7 +219644,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "177%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€384.0B",
             "opProfit": "€32.6B",
             "netProfit": "€26.1B",
@@ -219771,7 +219771,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€372.0B",
             "opProfit": "€50.2B",
             "netProfit": "€40.2B",
@@ -219842,7 +219842,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "25%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€258.0B",
             "opProfit": "€41.3B",
             "netProfit": "€33.0B",
@@ -219913,7 +219913,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€252.0B",
             "opProfit": "€29.0B",
             "netProfit": "€23.2B",
@@ -219984,7 +219984,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "122%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€62.4B",
             "opProfit": "€15.0B",
             "netProfit": "€12.0B",
@@ -220111,7 +220111,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "887%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€79.2B",
             "opProfit": "€38.0B",
             "netProfit": "€30.4B",
@@ -220182,7 +220182,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "917%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€56.4B",
             "opProfit": "€20.9B",
             "netProfit": "€16.7B",
@@ -220253,7 +220253,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "847%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€49.2B",
             "opProfit": "€14.8B",
             "netProfit": "€11.8B",
@@ -220324,7 +220324,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "207%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€194.4B",
             "opProfit": "€24.3B",
             "netProfit": "€19.4B",
@@ -220451,7 +220451,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€80.4B",
             "opProfit": "€8.7B",
             "netProfit": "€6.9B",
@@ -220522,7 +220522,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€9.8B",
             "opProfit": "€1.7B",
             "netProfit": "€1.4B",
@@ -220593,7 +220593,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€33.6B",
             "opProfit": "€4.4B",
             "netProfit": "€3.5B",
@@ -220664,7 +220664,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€28.8B",
             "opProfit": "€4.8B",
             "netProfit": "€3.8B",
@@ -220791,7 +220791,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€33.6B",
             "opProfit": "€6.9B",
             "netProfit": "€5.5B",
@@ -220862,7 +220862,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€39.6B",
             "opProfit": "€11.9B",
             "netProfit": "€9.5B",
@@ -220933,7 +220933,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€82.8B",
             "opProfit": "€6.2B",
             "netProfit": "€5.0B",
@@ -221004,7 +221004,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "€8.6B",
             "opProfit": "€1.9B",
             "netProfit": "€1.5B",
@@ -221133,7 +221133,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "107%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥54조엔",
             "opProfit": "¥7.29조엔",
             "netProfit": "¥5.832조엔",
@@ -221204,7 +221204,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥24조엔",
             "opProfit": "¥2.112조엔",
             "netProfit": "¥1.69조엔",
@@ -221275,7 +221275,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥6.6조엔",
             "opProfit": "¥0.693조엔",
             "netProfit": "¥0.554조엔",
@@ -221346,7 +221346,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥5.76조엔",
             "opProfit": "¥0.68조엔",
             "netProfit": "¥0.544조엔",
@@ -221473,7 +221473,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥8.64조엔",
             "opProfit": "¥0.821조엔",
             "netProfit": "¥0.657조엔",
@@ -221544,7 +221544,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥5.88조엔",
             "opProfit": "¥0.365조엔",
             "netProfit": "¥0.292조엔",
@@ -221615,7 +221615,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "39%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥5.28조엔",
             "opProfit": "¥0.713조엔",
             "netProfit": "¥0.57조엔",
@@ -221742,7 +221742,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "19%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥2.64조엔",
             "opProfit": "¥0.752조엔",
             "netProfit": "¥0.602조엔",
@@ -221813,7 +221813,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥0.696조엔",
             "opProfit": "¥0.209조엔",
             "netProfit": "¥0.167조엔",
@@ -221884,7 +221884,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥0.384조엔",
             "opProfit": "¥0.156조엔",
             "netProfit": "¥0.124조엔",
@@ -221955,7 +221955,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥0.624조엔",
             "opProfit": "¥0.125조엔",
             "netProfit": "¥0.1조엔",
@@ -222082,7 +222082,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥2.88조엔",
             "opProfit": "¥0.95조엔",
             "netProfit": "¥0.76조엔",
@@ -222153,7 +222153,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥0.504조엔",
             "opProfit": "¥0.083조엔",
             "netProfit": "¥0.067조엔",
@@ -222224,7 +222224,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥0.216조엔",
             "opProfit": "¥0.046조엔",
             "netProfit": "¥0.037조엔",
@@ -222351,7 +222351,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥23.4조엔",
             "opProfit": "¥2.153조엔",
             "netProfit": "¥1.722조엔",
@@ -222422,7 +222422,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥17.04조엔",
             "opProfit": "¥1.5조엔",
             "netProfit": "¥1.2조엔",
@@ -222493,7 +222493,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "75%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥16.2조엔",
             "opProfit": "¥1.539조엔",
             "netProfit": "¥1.231조엔",
@@ -222564,7 +222564,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥8.16조엔",
             "opProfit": "¥0.694조엔",
             "netProfit": "¥0.555조엔",
@@ -222691,7 +222691,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "947%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥12.6조엔",
             "opProfit": "¥4.662조엔",
             "netProfit": "¥3.73조엔",
@@ -222762,7 +222762,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "917%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥10.56조엔",
             "opProfit": "¥3.802조엔",
             "netProfit": "¥3.041조엔",
@@ -222833,7 +222833,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "937%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥9조엔",
             "opProfit": "¥2.97조엔",
             "netProfit": "¥2.376조엔",
@@ -222904,7 +222904,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "877%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥4.56조엔",
             "opProfit": "¥1.049조엔",
             "netProfit": "¥0.839조엔",
@@ -223031,7 +223031,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥1.26조엔",
             "opProfit": "¥0.68조엔",
             "netProfit": "¥0.544조엔",
@@ -223102,7 +223102,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥0.984조엔",
             "opProfit": "¥0.212조엔",
             "netProfit": "¥0.169조엔",
@@ -223173,7 +223173,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥1.02조엔",
             "opProfit": "¥0.306조엔",
             "netProfit": "¥0.245조엔",
@@ -223244,7 +223244,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "25%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥0.696조엔",
             "opProfit": "¥0.094조엔",
             "netProfit": "¥0.075조엔",
@@ -223371,7 +223371,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥1.92조엔",
             "opProfit": "¥0.394조엔",
             "netProfit": "¥0.315조엔",
@@ -223442,7 +223442,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "92%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥5.16조엔",
             "opProfit": "¥0.722조엔",
             "netProfit": "¥0.578조엔",
@@ -223513,7 +223513,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥1.14조엔",
             "opProfit": "¥0.239조엔",
             "netProfit": "¥0.192조엔",
@@ -223640,7 +223640,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥2.04조엔",
             "opProfit": "¥0.704조엔",
             "netProfit": "¥0.563조엔",
@@ -223711,7 +223711,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "45%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥15.6조엔",
             "opProfit": "¥1.841조엔",
             "netProfit": "¥1.473조엔",
@@ -223782,7 +223782,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥0.192조엔",
             "opProfit": "¥0.075조엔",
             "netProfit": "¥0.06조엔",
@@ -223909,7 +223909,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥3.72조엔",
             "opProfit": "¥0.688조엔",
             "netProfit": "¥0.551조엔",
@@ -223980,7 +223980,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥13.8조엔",
             "opProfit": "¥0.897조엔",
             "netProfit": "¥0.718조엔",
@@ -224051,7 +224051,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥3.36조엔",
             "opProfit": "¥0.386조엔",
             "netProfit": "¥0.309조엔",
@@ -224178,7 +224178,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥3조엔",
             "opProfit": "¥0.204조엔",
             "netProfit": "¥0.163조엔",
@@ -224249,7 +224249,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥1.14조엔",
             "opProfit": "¥0.188조엔",
             "netProfit": "¥0.15조엔",
@@ -224320,7 +224320,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥3.36조엔",
             "opProfit": "¥0.262조엔",
             "netProfit": "¥0.21조엔",
@@ -224447,7 +224447,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥5.64조엔",
             "opProfit": "¥0.536조엔",
             "netProfit": "¥0.429조엔",
@@ -224518,7 +224518,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥10.56조엔",
             "opProfit": "¥1.183조엔",
             "netProfit": "¥0.946조엔",
@@ -224589,7 +224589,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "¥4.68조엔",
             "opProfit": "¥0.819조엔",
             "netProfit": "¥0.655조엔",
@@ -224718,7 +224718,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "25%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,320억위안",
             "opProfit": "2,928억위안",
             "netProfit": "2,342.4억위안",
@@ -224789,7 +224789,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "19%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "11,280억위안",
             "opProfit": "1,861.2억위안",
             "netProfit": "1,488.96억위안",
@@ -224860,7 +224860,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,620억위안",
             "opProfit": "348.3억위안",
             "netProfit": "278.64억위안",
@@ -224931,7 +224931,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,260억위안",
             "opProfit": "396.9억위안",
             "netProfit": "317.52억위안",
@@ -225058,7 +225058,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,000억위안",
             "opProfit": "915억위안",
             "netProfit": "732억위안",
@@ -225129,7 +225129,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,300억위안",
             "opProfit": "445.5억위안",
             "netProfit": "356.4억위안",
@@ -225200,7 +225200,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "12,960억위안",
             "opProfit": "673.92억위안",
             "netProfit": "539.136억위안",
@@ -225327,7 +225327,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "72%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "7,200억위안",
             "opProfit": "633.6억위안",
             "netProfit": "506.88억위안",
@@ -225398,7 +225398,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,488억위안",
             "opProfit": "126.48억위안",
             "netProfit": "101.184억위안",
@@ -225469,7 +225469,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "82%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "660억위안",
             "opProfit": "-237.6억위안",
             "netProfit": "-190.08억위안",
@@ -225540,7 +225540,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "62%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "372억위안",
             "opProfit": "-111.6억위안",
             "netProfit": "-89.28억위안",
@@ -225667,7 +225667,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,800억위안",
             "opProfit": "792억위안",
             "netProfit": "633.6억위안",
@@ -225738,7 +225738,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "576억위안",
             "opProfit": "72억위안",
             "netProfit": "57.6억위안",
@@ -225809,7 +225809,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "396억위안",
             "opProfit": "41.58억위안",
             "netProfit": "33.264억위안",
@@ -225936,7 +225936,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "864억위안",
             "opProfit": "159.84억위안",
             "netProfit": "127.872억위안",
@@ -226007,7 +226007,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,548억위안",
             "opProfit": "162.54억위안",
             "netProfit": "130.032억위안",
@@ -226078,7 +226078,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,668억위안",
             "opProfit": "216.84억위안",
             "netProfit": "173.472억위안",
@@ -226205,7 +226205,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "540억위안",
             "opProfit": "72.9억위안",
             "netProfit": "58.32억위안",
@@ -226276,7 +226276,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "42%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "264억위안",
             "opProfit": "60.72억위안",
             "netProfit": "48.576억위안",
@@ -226347,7 +226347,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "49%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "5,712억위안",
             "opProfit": "411.264억위안",
             "netProfit": "329.011억위안",
@@ -226418,7 +226418,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "32%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,068억위안",
             "opProfit": "229.62억위안",
             "netProfit": "183.696억위안",
@@ -226545,7 +226545,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "917%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "10,080억위안",
             "opProfit": "5,040억위안",
             "netProfit": "4,032억위안",
@@ -226616,7 +226616,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "907%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,880억위안",
             "opProfit": "4,351.2억위안",
             "netProfit": "3,480.96억위안",
@@ -226687,7 +226687,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "927%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "8,280억위안",
             "opProfit": "3,974.4억위안",
             "netProfit": "3,179.52억위안",
@@ -226758,7 +226758,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "877%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "10,920억위안",
             "opProfit": "1,583.4억위안",
             "netProfit": "1,266.72억위안",
@@ -226885,7 +226885,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "1,770억위안",
             "opProfit": "1,194.75억위안",
             "netProfit": "955.8억위안",
@@ -226956,7 +226956,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "996억위안",
             "opProfit": "498억위안",
             "netProfit": "398.4억위안",
@@ -227027,7 +227027,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "510억위안",
             "opProfit": "181.05억위안",
             "netProfit": "144.84억위안",
@@ -227154,7 +227154,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "59%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,464억위안",
             "opProfit": "544.608억위안",
             "netProfit": "435.686억위안",
@@ -227225,7 +227225,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "55%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,132억위안",
             "opProfit": "306.936억위안",
             "netProfit": "245.549억위안",
@@ -227296,7 +227296,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "29%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "744억위안",
             "opProfit": "197.16억위안",
             "netProfit": "157.728억위안",
@@ -227423,7 +227423,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "35%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "36,120억위안",
             "opProfit": "3,431.4억위안",
             "netProfit": "2,745.12억위안",
@@ -227494,7 +227494,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "4,116억위안",
             "opProfit": "1,070.16억위안",
             "netProfit": "856.128억위안",
@@ -227565,7 +227565,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "52%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "3,516억위안",
             "opProfit": "474.66억위안",
             "netProfit": "379.728억위안",
@@ -227692,7 +227692,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "480억위안",
             "opProfit": "139.2억위안",
             "netProfit": "111.36억위안",
@@ -227763,7 +227763,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "276억위안",
             "opProfit": "66.24억위안",
             "netProfit": "52.992억위안",
@@ -227834,7 +227834,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "22%"
           },
           {
-            "year": "2025(E)",
+            "year": "2025",
             "revenue": "420억위안",
             "opProfit": "155.4억위안",
             "netProfit": "124.32억위안",

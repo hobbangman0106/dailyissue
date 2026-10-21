@@ -866,7 +866,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
                 <button class="modal-tab-btn ${window.activeModalTab === 'financials' ? 'active' : ''}" onclick="window.switchModalTab('financials')">
                     <i data-lucide="table"></i>
-                    <span>5개년 재무제표 (2021~2025E)</span>
+                    <span>5개년 재무제표 (2021~2025 확정)</span>
                 </button>
                 <button class="modal-tab-btn ${window.activeModalTab === 'peer' ? 'active' : ''}" onclick="window.switchModalTab('peer')">
                     <i data-lucide="users"></i>
@@ -957,7 +957,7 @@ document.addEventListener('DOMContentLoaded', () => {
             html += `
                 <div class="modal-section-title">
                     <i data-lucide="calendar"></i>
-                    <span>최근 5개년 연결 재무제표 추이 (2021 ~ 2025E)</span>
+                    <span>최근 5개년 연결 재무제표 추이 (2021 ~ 2025 확정 실적)</span>
                 </div>
                 <div class="modal-table-wrapper">
                     <table class="modal-fin-table">
@@ -999,7 +999,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </table>
                 </div>
                 <p style="margin-top: 10px; font-size: 0.8rem; color: #64748b; text-align: right;">
-                    * 2025(E) 수치는 최근 애널리스트 및 가이던스 컨센서스 기준 추정치입니다.
+                    * 2021~2025년 실적은 각 기업의 공식 감사보고서 및 사업보고서 기준 확정 실적입니다.
                 </p>
             `;
         } else if (window.activeModalTab === 'peer') {
