@@ -210801,33 +210801,33 @@ window.REGIONAL_INDUSTRY_DATA = {
 ],
     '미국': [
   {
-    "id": "us-bigtech",
+    "id": "us-ai-cloud",
     "country": "미국",
-    "sector": "빅테크 & 생성형 AI 소프트웨어",
+    "sector": "초거대 AI 모델 & 클라우드 인프라",
     "chapterTitle": "미국 ➔ 빅테크·AI",
     "cluster": "빅테크·AI",
-    "stockCount": 10,
-    "changeRate": "-0.31",
+    "stockCount": 5,
+    "changeRate": "0.29",
     "correlationLogic": {
       "formula": "클라우드 ARR 성장률 × AI 소프트웨어 탑재율 - 인프라 CAPEX = FCF 극대화",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 빅테크 & 생성형 AI 소프트웨어 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 초거대 AI 모델 & 클라우드 인프라 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "클라우드 인프라와 생성형 AI 코파일럿 도입 가속화로 사상 최대 잉여현금흐름 창출",
+      "currentStatus": "클라우드 인프라와 거대언어모델(LLM) 상용화로 사상 최대 잉여현금흐름 창출",
       "outlookSignal": {
         "level": "BULLISH",
         "badgeText": "🟢 강력 매수",
-        "summary": "클라우드 인프라와 생성형 AI 코파일럿 도입 가속화로 사상 최대 잉여현금흐름 창출"
+        "summary": "클라우드 인프라와 거대언어모델(LLM) 상용화로 사상 최대 잉여현금흐름 창출"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
       "statusBadge": "🟢 강력 매수",
-      "keyDriver": "미국 빅테크 & 생성형 AI 소프트웨어 글로벌 수요 및 수주 모멘텀",
+      "keyDriver": "미국 초거대 AI 모델 & 클라우드 인프라 글로벌 수요 및 수주 모멘텀",
       "demandIndicator": "나스닥100 클라우드 지수 (BVP Nasdaq Emerging Cloud Index)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
@@ -210840,7 +210840,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "나스닥100 클라우드 지수 (BVP Nasdaq Emerging Cloud Index)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://www.nasdaq.com/",
-        "role": "빅테크 & 생성형 AI 소프트웨어 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "초거대 AI 모델 & 클라우드 인프라 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -210926,77 +210926,6 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "애플 (Apple)",
-        "code": "AAPL",
-        "marketCap": "$3.45T",
-        "revenue": "$385.0B",
-        "operatingProfit": "$117.4B",
-        "opMargin": 30.5,
-        "eps": 6.6,
-        "per": 33.8,
-        "pbr": 45.2,
-        "roe": 145,
-        "debtRatio": 140,
-        "currentRatio": 140,
-        "riskStatus": "NORMAL",
-        "dividendYield": 0.5,
-        "payoutRatio": 17,
-        "comment": "[JP모건 & 뱅크오브아메리카 최신 분석 보고서 종합]\n• 목표주가: $265.00 (투자의견: 매수 / Top Pick)\n• 2025~2026 실적 전망: 'Apple Intelligence' 온디바이스 AI 기능 탑재에 힘입어 전 세계 14억 대의 아이폰 교체 슈퍼사이클이 본격화되고 있습니다. 서비스 부문(App Store, Apple Pay, iCloud) 매출이 분기 250억 달러를 돌파하며 74%의 경이적인 매출총이익률을 기록 중입니다.\n• 핵심 모멘텀: 온디바이스 AI 기반 프라이버시 차별화, 활성 기기 설치 기반(Active Installed Base) 22억 대 돌파, 연간 1,100억 달러 규모의 자사주 매입·소각.\n• 리스크 요인: 중국 스마트폰 시장 내 화웨이 등 로컬 브랜드와의 경쟁 및 EU 디지털시장법(DMA) 규제.",
-        "businessSummary": "애플(NASDAQ: AAPL)은 아이폰(iPhone), 맥(Mac), 아이패드(iPad), 애플워치 등 하드웨어와 iOS 생태계 기반의 고마진 서비스 사업을 영위하는 프리미엄 IT 브랜드입니다. 독자적인 M시리즈 및 A시리즈 실리콘 칩을 바탕으로 압도적인 하드웨어-소프트웨어 수직계열화 경쟁력을 보유하고 있습니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$327.3B",
-            "opProfit": "$93.3B",
-            "netProfit": "$74.6B",
-            "opMargin": "28.5%",
-            "eps": 5.61,
-            "roe": "144%",
-            "debtRatio": "146%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$354.2B",
-            "opProfit": "$104.5B",
-            "netProfit": "$83.6B",
-            "opMargin": "29.5%",
-            "eps": 6.07,
-            "roe": "144.5%",
-            "debtRatio": "143%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$373.4B",
-            "opProfit": "$113.9B",
-            "netProfit": "$91.1B",
-            "opMargin": "30.5%",
-            "eps": 6.4,
-            "roe": "145%",
-            "debtRatio": "140%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$415.8B",
-            "opProfit": "$131.0B",
-            "netProfit": "$104.8B",
-            "opMargin": "31.5%",
-            "eps": 7.13,
-            "roe": "145.5%",
-            "debtRatio": "137%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$462.0B",
-            "opProfit": "$150.2B",
-            "netProfit": "$120.1B",
-            "opMargin": "32.5%",
-            "eps": 7.92,
-            "roe": "146%",
-            "debtRatio": "134%"
-          }
-        ]
-      },
-      {
         "name": "알파벳 (Alphabet Google)",
         "code": "GOOGL",
         "marketCap": "$2.15T",
@@ -211068,7 +210997,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "아마존 (Amazon)",
+        "name": "아마존 (Amazon AWS)",
         "code": "AMZN",
         "marketCap": "$1.98T",
         "revenue": "$575.0B",
@@ -211225,8 +211154,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "WARNING",
         "dividendYield": 1,
         "payoutRatio": 38,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $199.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 빅테크 & 생성형 AI 소프트웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $53.0B, 영업이익 $16.2B (OPM 30.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 85%, 배당수익률 1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "오라클 (Oracle)(티커: ORCL)은 미국 빅테크 & 생성형 AI 소프트웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $199.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 초거대 AI 모델 & 클라우드 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $53.0B, 영업이익 $16.2B (OPM 30.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 85%, 배당수익률 1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "오라클 (Oracle)(티커: ORCL)은 미국 초거대 AI 모델 & 클라우드 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -211279,145 +211208,130 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "314%"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "us-enterprise-saas",
+    "country": "미국",
+    "sector": "엔터프라이즈 SaaS & AI 에이전트",
+    "chapterTitle": "미국 ➔ 빅테크·AI",
+    "cluster": "빅테크·AI",
+    "stockCount": 6,
+    "changeRate": "1.33",
+    "correlationLogic": {
+      "formula": "순고객유지율(NDR) × AI 기능 업셀링 마진 - 판관비 = FCF 마진 30%",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 엔터프라이즈 SaaS & AI 에이전트 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "AI 에이전트 기반 시트당 과금 모델 도입과 엔터프라이즈 워크플로우 자동화 가속",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 성장 가속",
+        "summary": "AI 에이전트 기반 시트당 과금 모델 도입과 엔터프라이즈 워크플로우 자동화 가속"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 성장 가속",
+      "keyDriver": "미국 엔터프라이즈 SaaS & AI 에이전트 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "S&P 북미 소프트웨어 지수 (IGV Index)",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "AI 에이전트 번들링에 따른 ARPU 25% 급등 및 마진율 개선",
+      "bearFactor": "IT 지출 예산 동결 시 신규 계약 체결 주기 지연"
+    },
+    "indicators": [
+      {
+        "name": "S&P 북미 소프트웨어 지수 (IGV Index)",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "엔터프라이즈 SaaS & AI 에이전트 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
       {
-        "name": "어도비 (Adobe)",
-        "code": "ADBE",
-        "marketCap": "$220.0B",
-        "revenue": "$21.0B",
-        "operatingProfit": "$7.3B",
-        "opMargin": 35,
-        "eps": 15.5,
-        "per": 32,
-        "pbr": 13.5,
-        "roe": 34,
-        "debtRatio": 45,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 0,
-        "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $620.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 빅테크 & 생성형 AI 소프트웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $21.0B, 영업이익 $7.3B (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 34%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "어도비 (Adobe)(티커: ADBE)은 미국 빅테크 & 생성형 AI 소프트웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$17.8B",
-            "opProfit": "$5.9B",
-            "netProfit": "$4.7B",
-            "opMargin": "33%",
-            "eps": 13.18,
-            "roe": "33%",
-            "debtRatio": "51%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$19.3B",
-            "opProfit": "$6.6B",
-            "netProfit": "$5.3B",
-            "opMargin": "34%",
-            "eps": 14.26,
-            "roe": "33.5%",
-            "debtRatio": "48%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$20.4B",
-            "opProfit": "$7.1B",
-            "netProfit": "$5.7B",
-            "opMargin": "35%",
-            "eps": 15.04,
-            "roe": "34%",
-            "debtRatio": "45%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$22.7B",
-            "opProfit": "$8.2B",
-            "netProfit": "$6.5B",
-            "opMargin": "36%",
-            "eps": 16.74,
-            "roe": "34.5%",
-            "debtRatio": "42%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$25.2B",
-            "opProfit": "$9.3B",
-            "netProfit": "$7.5B",
-            "opMargin": "37%",
-            "eps": 18.6,
-            "roe": "35%",
-            "debtRatio": "39%"
-          }
-        ]
-      },
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
       {
         "name": "세일즈포스 (Salesforce)",
         "code": "CRM",
-        "marketCap": "$275.0B",
-        "revenue": "$35.0B",
-        "operatingProfit": "$6.8B",
-        "opMargin": 19.5,
-        "eps": 6.1,
-        "per": 45,
-        "pbr": 4.5,
-        "roe": 11,
+        "marketCap": "$285.0B",
+        "revenue": "$38.0B",
+        "operatingProfit": "$8.2B",
+        "opMargin": 21.5,
+        "eps": 8.6,
+        "per": 33,
+        "pbr": 4.8,
+        "roe": 14.5,
         "debtRatio": 22,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 0.5,
-        "payoutRatio": 23,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $343.13 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 빅테크 & 생성형 AI 소프트웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $35.0B, 영업이익 $6.8B (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11%, 배당수익률 0.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "세일즈포스 (Salesforce)(티커: CRM)은 미국 빅테크 & 생성형 AI 소프트웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 17,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $354.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 엔터프라이즈 SaaS & AI 에이전트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $38.0B, 영업이익 $8.2B (OPM 21.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 0.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "세일즈포스 (Salesforce)(티커: CRM)은 미국 엔터프라이즈 SaaS & AI 에이전트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$29.8B",
-            "opProfit": "$5.2B",
-            "netProfit": "$4.2B",
-            "opMargin": "17.5%",
-            "eps": 5.19,
-            "roe": "10%",
+            "revenue": "$32.3B",
+            "opProfit": "$6.3B",
+            "netProfit": "$5.0B",
+            "opMargin": "19.5%",
+            "eps": 7.31,
+            "roe": "13.5%",
             "debtRatio": "28%"
           },
           {
             "year": "2022",
-            "revenue": "$32.2B",
-            "opProfit": "$6.0B",
-            "netProfit": "$4.8B",
-            "opMargin": "18.5%",
-            "eps": 5.61,
-            "roe": "10.5%",
+            "revenue": "$35.0B",
+            "opProfit": "$7.2B",
+            "netProfit": "$5.7B",
+            "opMargin": "20.5%",
+            "eps": 7.91,
+            "roe": "14%",
             "debtRatio": "25%"
           },
           {
             "year": "2023",
-            "revenue": "$33.9B",
-            "opProfit": "$6.6B",
-            "netProfit": "$5.3B",
-            "opMargin": "19.5%",
-            "eps": 5.92,
-            "roe": "11%",
+            "revenue": "$36.9B",
+            "opProfit": "$7.9B",
+            "netProfit": "$6.3B",
+            "opMargin": "21.5%",
+            "eps": 8.34,
+            "roe": "14.5%",
             "debtRatio": "22%"
           },
           {
             "year": "2024",
-            "revenue": "$37.8B",
-            "opProfit": "$7.7B",
-            "netProfit": "$6.2B",
-            "opMargin": "20.5%",
-            "eps": 6.59,
-            "roe": "11.5%",
+            "revenue": "$41.0B",
+            "opProfit": "$9.2B",
+            "netProfit": "$7.4B",
+            "opMargin": "22.5%",
+            "eps": 9.29,
+            "roe": "15%",
             "debtRatio": "19%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$42.0B",
-            "opProfit": "$9.0B",
-            "netProfit": "$7.2B",
-            "opMargin": "21.5%",
-            "eps": 7.32,
-            "roe": "12%",
+            "revenue": "$45.6B",
+            "opProfit": "$10.7B",
+            "netProfit": "$8.6B",
+            "opMargin": "23.5%",
+            "eps": 10.32,
+            "roe": "15.5%",
             "debtRatio": "16%"
           }
         ]
@@ -211425,85 +211339,298 @@ window.REGIONAL_INDUSTRY_DATA = {
       {
         "name": "서비스나우 (ServiceNow)",
         "code": "NOW",
-        "marketCap": "$185.0B",
-        "revenue": "$10.0B",
-        "operatingProfit": "$2.9B",
-        "opMargin": 29.5,
-        "eps": 15.2,
-        "per": 58,
-        "pbr": 18,
-        "roe": 30,
-        "debtRatio": 35,
+        "marketCap": "$195.0B",
+        "revenue": "$11.0B",
+        "operatingProfit": "$3.3B",
+        "opMargin": 29.8,
+        "eps": 15.8,
+        "per": 56,
+        "pbr": 17.5,
+        "roe": 31,
+        "debtRatio": 32,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 0,
         "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $1102.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 빅테크 & 생성형 AI 소프트웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $10.0B, 영업이익 $2.9B (OPM 29.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 30%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "서비스나우 (ServiceNow)(티커: NOW)은 미국 빅테크 & 생성형 AI 소프트웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $1106.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 엔터프라이즈 SaaS & AI 에이전트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $11.0B, 영업이익 $3.3B (OPM 29.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 31%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "서비스나우 (ServiceNow)(티커: NOW)은 미국 엔터프라이즈 SaaS & AI 에이전트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$8.5B",
-            "opProfit": "$2.3B",
-            "netProfit": "$1.9B",
-            "opMargin": "27.5%",
-            "eps": 12.92,
-            "roe": "29%",
+            "revenue": "$9.3B",
+            "opProfit": "$2.6B",
+            "netProfit": "$2.1B",
+            "opMargin": "27.8%",
+            "eps": 13.43,
+            "roe": "30%",
+            "debtRatio": "38%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$10.1B",
+            "opProfit": "$2.9B",
+            "netProfit": "$2.3B",
+            "opMargin": "28.8%",
+            "eps": 14.54,
+            "roe": "30.5%",
+            "debtRatio": "35%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$10.7B",
+            "opProfit": "$3.2B",
+            "netProfit": "$2.5B",
+            "opMargin": "29.8%",
+            "eps": 15.33,
+            "roe": "31%",
+            "debtRatio": "32%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$11.9B",
+            "opProfit": "$3.7B",
+            "netProfit": "$2.9B",
+            "opMargin": "30.8%",
+            "eps": 17.06,
+            "roe": "31.5%",
+            "debtRatio": "29%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$13.2B",
+            "opProfit": "$4.2B",
+            "netProfit": "$3.4B",
+            "opMargin": "31.8%",
+            "eps": 18.96,
+            "roe": "32%",
+            "debtRatio": "26%"
+          }
+        ]
+      },
+      {
+        "name": "인튜이트 (Intuit)",
+        "code": "INTU",
+        "marketCap": "$180.0B",
+        "revenue": "$16.0B",
+        "operatingProfit": "$3.9B",
+        "opMargin": 24.5,
+        "eps": 16.5,
+        "per": 38,
+        "pbr": 9.8,
+        "roe": 26,
+        "debtRatio": 35,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0.6,
+        "payoutRatio": 23,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $783.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 엔터프라이즈 SaaS & AI 에이전트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $16.0B, 영업이익 $3.9B (OPM 24.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 26%, 배당수익률 0.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "인튜이트 (Intuit)(티커: INTU)은 미국 엔터프라이즈 SaaS & AI 에이전트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$13.6B",
+            "opProfit": "$3.1B",
+            "netProfit": "$2.4B",
+            "opMargin": "22.5%",
+            "eps": 14.03,
+            "roe": "25%",
             "debtRatio": "41%"
           },
           {
             "year": "2022",
-            "revenue": "$9.2B",
-            "opProfit": "$2.6B",
-            "netProfit": "$2.1B",
-            "opMargin": "28.5%",
-            "eps": 13.98,
-            "roe": "29.5%",
+            "revenue": "$14.7B",
+            "opProfit": "$3.5B",
+            "netProfit": "$2.8B",
+            "opMargin": "23.5%",
+            "eps": 15.18,
+            "roe": "25.5%",
             "debtRatio": "38%"
           },
           {
             "year": "2023",
-            "revenue": "$9.7B",
-            "opProfit": "$2.9B",
-            "netProfit": "$2.3B",
-            "opMargin": "29.5%",
-            "eps": 14.74,
-            "roe": "30%",
+            "revenue": "$15.5B",
+            "opProfit": "$3.8B",
+            "netProfit": "$3.0B",
+            "opMargin": "24.5%",
+            "eps": 16.01,
+            "roe": "26%",
             "debtRatio": "35%"
           },
           {
             "year": "2024",
-            "revenue": "$10.8B",
-            "opProfit": "$3.3B",
-            "netProfit": "$2.6B",
-            "opMargin": "30.5%",
-            "eps": 16.42,
-            "roe": "30.5%",
+            "revenue": "$17.3B",
+            "opProfit": "$4.4B",
+            "netProfit": "$3.5B",
+            "opMargin": "25.5%",
+            "eps": 17.82,
+            "roe": "26.5%",
             "debtRatio": "32%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$12.0B",
-            "opProfit": "$3.8B",
-            "netProfit": "$3.0B",
-            "opMargin": "31.5%",
-            "eps": 18.24,
-            "roe": "31%",
+            "revenue": "$19.2B",
+            "opProfit": "$5.1B",
+            "netProfit": "$4.1B",
+            "opMargin": "26.5%",
+            "eps": 19.8,
+            "roe": "27%",
             "debtRatio": "29%"
+          }
+        ]
+      },
+      {
+        "name": "워크데이 (Workday)",
+        "code": "WDAY",
+        "marketCap": "$72.0B",
+        "revenue": "$7.5B",
+        "operatingProfit": "$1.5B",
+        "opMargin": 19.5,
+        "eps": 6.8,
+        "per": 39,
+        "pbr": 8.2,
+        "roe": 21,
+        "debtRatio": 45,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $331.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 엔터프라이즈 SaaS & AI 에이전트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $7.5B, 영업이익 $1.5B (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 21%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "워크데이 (Workday)(티커: WDAY)은 미국 엔터프라이즈 SaaS & AI 에이전트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$6.4B",
+            "opProfit": "$1.1B",
+            "netProfit": "$0.9B",
+            "opMargin": "17.5%",
+            "eps": 5.78,
+            "roe": "20%",
+            "debtRatio": "51%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$6.9B",
+            "opProfit": "$1.3B",
+            "netProfit": "$1.0B",
+            "opMargin": "18.5%",
+            "eps": 6.26,
+            "roe": "20.5%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$7.3B",
+            "opProfit": "$1.4B",
+            "netProfit": "$1.1B",
+            "opMargin": "19.5%",
+            "eps": 6.6,
+            "roe": "21%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$8.1B",
+            "opProfit": "$1.7B",
+            "netProfit": "$1.3B",
+            "opMargin": "20.5%",
+            "eps": 7.34,
+            "roe": "21.5%",
+            "debtRatio": "42%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$9.0B",
+            "opProfit": "$1.9B",
+            "netProfit": "$1.5B",
+            "opMargin": "21.5%",
+            "eps": 8.16,
+            "roe": "22%",
+            "debtRatio": "39%"
+          }
+        ]
+      },
+      {
+        "name": "어도비 (Adobe)",
+        "code": "ADBE",
+        "marketCap": "$225.0B",
+        "revenue": "$21.5B",
+        "operatingProfit": "$7.6B",
+        "opMargin": 35.5,
+        "eps": 16.2,
+        "per": 31,
+        "pbr": 13,
+        "roe": 35,
+        "debtRatio": 42,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $627.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 엔터프라이즈 SaaS & AI 에이전트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $21.5B, 영업이익 $7.6B (OPM 35.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 35%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "어도비 (Adobe)(티커: ADBE)은 미국 엔터프라이즈 SaaS & AI 에이전트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$18.3B",
+            "opProfit": "$6.1B",
+            "netProfit": "$4.9B",
+            "opMargin": "33.5%",
+            "eps": 13.77,
+            "roe": "34%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$19.8B",
+            "opProfit": "$6.8B",
+            "netProfit": "$5.5B",
+            "opMargin": "34.5%",
+            "eps": 14.9,
+            "roe": "34.5%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$20.9B",
+            "opProfit": "$7.4B",
+            "netProfit": "$5.9B",
+            "opMargin": "35.5%",
+            "eps": 15.71,
+            "roe": "35%",
+            "debtRatio": "42%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$23.2B",
+            "opProfit": "$8.5B",
+            "netProfit": "$6.8B",
+            "opMargin": "36.5%",
+            "eps": 17.5,
+            "roe": "35.5%",
+            "debtRatio": "39%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$25.8B",
+            "opProfit": "$9.7B",
+            "netProfit": "$7.7B",
+            "opMargin": "37.5%",
+            "eps": 19.44,
+            "roe": "36%",
+            "debtRatio": "36%"
           }
         ]
       },
       {
         "name": "팔란티어 테크놀로지 (Palantir)",
         "code": "PLTR",
-        "marketCap": "$105.0B",
-        "revenue": "$3.0B",
-        "operatingProfit": "$0.8B",
-        "opMargin": 26,
-        "eps": 0.42,
-        "per": 85,
-        "pbr": 18,
-        "roe": 18.5,
+        "marketCap": "$115.0B",
+        "revenue": "$3.2B",
+        "operatingProfit": "$0.9B",
+        "opMargin": 28,
+        "eps": 0.48,
+        "per": 88,
+        "pbr": 19.5,
+        "roe": 20.5,
         "debtRatio": 8,
         "currentRatio": 140,
         "riskStatus": "SAFE",
@@ -211514,52 +211641,52 @@ window.REGIONAL_INDUSTRY_DATA = {
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$2.5B",
-            "opProfit": "$0.6B",
-            "netProfit": "$0.5B",
-            "opMargin": "24%",
-            "eps": 0.36,
-            "roe": "17.5%",
+            "revenue": "$2.7B",
+            "opProfit": "$0.7B",
+            "netProfit": "$0.6B",
+            "opMargin": "26%",
+            "eps": 0.41,
+            "roe": "19.5%",
             "debtRatio": "15%"
           },
           {
             "year": "2022",
-            "revenue": "$2.8B",
-            "opProfit": "$0.7B",
+            "revenue": "$2.9B",
+            "opProfit": "$0.8B",
             "netProfit": "$0.6B",
-            "opMargin": "25%",
-            "eps": 0.39,
-            "roe": "18%",
+            "opMargin": "27%",
+            "eps": 0.44,
+            "roe": "20%",
             "debtRatio": "15%"
           },
           {
             "year": "2023",
-            "revenue": "$2.9B",
-            "opProfit": "$0.8B",
-            "netProfit": "$0.6B",
-            "opMargin": "26%",
-            "eps": 0.41,
-            "roe": "18.5%",
+            "revenue": "$3.1B",
+            "opProfit": "$0.9B",
+            "netProfit": "$0.7B",
+            "opMargin": "28%",
+            "eps": 0.47,
+            "roe": "20.5%",
             "debtRatio": "15%"
           },
           {
             "year": "2024",
-            "revenue": "$3.2B",
-            "opProfit": "$0.9B",
-            "netProfit": "$0.7B",
-            "opMargin": "27%",
-            "eps": 0.45,
-            "roe": "19%",
+            "revenue": "$3.5B",
+            "opProfit": "$1.0B",
+            "netProfit": "$0.8B",
+            "opMargin": "29%",
+            "eps": 0.52,
+            "roe": "21%",
             "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$3.6B",
-            "opProfit": "$1.0B",
-            "netProfit": "$0.8B",
-            "opMargin": "28%",
-            "eps": 0.5,
-            "roe": "19.5%",
+            "revenue": "$3.8B",
+            "opProfit": "$1.2B",
+            "netProfit": "$0.9B",
+            "opMargin": "30%",
+            "eps": 0.58,
+            "roe": "21.5%",
             "debtRatio": "15%"
           }
         ]
@@ -211567,46 +211694,457 @@ window.REGIONAL_INDUSTRY_DATA = {
     ]
   },
   {
-    "id": "us-semicon",
+    "id": "us-cyber-security",
     "country": "미국",
-    "sector": "반도체 & AI 가속기 하드웨어",
-    "chapterTitle": "미국 ➔ 반도체·하드웨어",
-    "cluster": "반도체·하드웨어",
-    "stockCount": 11,
-    "changeRate": "0.09",
+    "sector": "사이버 보안 & 제로트러스트",
+    "chapterTitle": "미국 ➔ 빅테크·AI",
+    "cluster": "빅테크·AI",
+    "stockCount": 5,
+    "changeRate": "-0.64",
     "correlationLogic": {
-      "formula": "AI 가속기 출하량(Q) × 고부가 패키징 ASP(P) - 파운드리 원가 = 기록적 영업이익",
+      "formula": "차세대 보안 ARR 성장률 × 플랫폼 통합률 - 클라우드 호스팅 비용 = 고수익성",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 반도체 & AI 가속기 하드웨어 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 사이버 보안 & 제로트러스트 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "AI LLM 학습/추론용 GPU 및 커스텀 ASIC 가속기 수요 독점",
+      "currentStatus": "클라우드 전환 및 랜섬웨어 위협 고조에 따른 필수 기업 보안 인프라 투자 지속",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 구조적 성장",
+        "summary": "클라우드 전환 및 랜섬웨어 위협 고조에 따른 필수 기업 보안 인프라 투자 지속"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 구조적 성장",
+      "keyDriver": "미국 사이버 보안 & 제로트러스트 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "글로벌 사이버보안 ETF 지수 (HACK Index)",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "단일 보안 플랫폼으로의 벤더 통합 수요 및 글로벌 사이버 규제 강화",
+      "bearFactor": "시스템 업데이트 오류 시 대규모 서비스 중단 및 단기 신뢰도 타격"
+    },
+    "indicators": [
+      {
+        "name": "글로벌 사이버보안 ETF 지수 (HACK Index)",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "사이버 보안 & 제로트러스트 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "팔로알토 네트웍스 (Palo Alto Networks)",
+        "code": "PANW",
+        "marketCap": "$125.0B",
+        "revenue": "$8.2B",
+        "operatingProfit": "$2.2B",
+        "opMargin": 26.5,
+        "eps": 6.5,
+        "per": 48,
+        "pbr": 12,
+        "roe": 28,
+        "debtRatio": 55,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $390.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 사이버 보안 & 제로트러스트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $8.2B, 영업이익 $2.2B (OPM 26.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 28%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "팔로알토 네트웍스 (Palo Alto Networks)(티커: PANW)은 미국 사이버 보안 & 제로트러스트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$7.0B",
+            "opProfit": "$1.7B",
+            "netProfit": "$1.4B",
+            "opMargin": "24.5%",
+            "eps": 5.53,
+            "roe": "27%",
+            "debtRatio": "61%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$7.5B",
+            "opProfit": "$1.9B",
+            "netProfit": "$1.5B",
+            "opMargin": "25.5%",
+            "eps": 5.98,
+            "roe": "27.5%",
+            "debtRatio": "58%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$8.0B",
+            "opProfit": "$2.1B",
+            "netProfit": "$1.7B",
+            "opMargin": "26.5%",
+            "eps": 6.31,
+            "roe": "28%",
+            "debtRatio": "55%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$8.9B",
+            "opProfit": "$2.4B",
+            "netProfit": "$1.9B",
+            "opMargin": "27.5%",
+            "eps": 7.02,
+            "roe": "28.5%",
+            "debtRatio": "52%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$9.8B",
+            "opProfit": "$2.8B",
+            "netProfit": "$2.2B",
+            "opMargin": "28.5%",
+            "eps": 7.8,
+            "roe": "29%",
+            "debtRatio": "49%"
+          }
+        ]
+      },
+      {
+        "name": "크라우드스트라이크 (CrowdStrike)",
+        "code": "CRWD",
+        "marketCap": "$78.0B",
+        "revenue": "$3.8B",
+        "operatingProfit": "$0.8B",
+        "opMargin": 22,
+        "eps": 3.9,
+        "per": 68,
+        "pbr": 18.5,
+        "roe": 24,
+        "debtRatio": 28,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $331.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 사이버 보안 & 제로트러스트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $3.8B, 영업이익 $0.8B (OPM 22%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 24%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "크라우드스트라이크 (CrowdStrike)(티커: CRWD)은 미국 사이버 보안 & 제로트러스트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$3.2B",
+            "opProfit": "$0.6B",
+            "netProfit": "$0.5B",
+            "opMargin": "20%",
+            "eps": 3.32,
+            "roe": "23%",
+            "debtRatio": "34%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$3.5B",
+            "opProfit": "$0.7B",
+            "netProfit": "$0.6B",
+            "opMargin": "21%",
+            "eps": 3.59,
+            "roe": "23.5%",
+            "debtRatio": "31%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$3.7B",
+            "opProfit": "$0.8B",
+            "netProfit": "$0.6B",
+            "opMargin": "22%",
+            "eps": 3.78,
+            "roe": "24%",
+            "debtRatio": "28%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$4.1B",
+            "opProfit": "$0.9B",
+            "netProfit": "$0.8B",
+            "opMargin": "23%",
+            "eps": 4.21,
+            "roe": "24.5%",
+            "debtRatio": "25%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$4.6B",
+            "opProfit": "$1.1B",
+            "netProfit": "$0.9B",
+            "opMargin": "24%",
+            "eps": 4.68,
+            "roe": "25%",
+            "debtRatio": "22%"
+          }
+        ]
+      },
+      {
+        "name": "포티넷 (Fortinet)",
+        "code": "FTNT",
+        "marketCap": "$62.0B",
+        "revenue": "$5.6B",
+        "operatingProfit": "$1.6B",
+        "opMargin": 28.5,
+        "eps": 2.1,
+        "per": 36,
+        "pbr": 32,
+        "roe": 85,
+        "debtRatio": 48,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $94.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 사이버 보안 & 제로트러스트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $5.6B, 영업이익 $1.6B (OPM 28.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 85%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "포티넷 (Fortinet)(티커: FTNT)은 미국 사이버 보안 & 제로트러스트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$4.8B",
+            "opProfit": "$1.3B",
+            "netProfit": "$1.0B",
+            "opMargin": "26.5%",
+            "eps": 1.79,
+            "roe": "84%",
+            "debtRatio": "54%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$5.2B",
+            "opProfit": "$1.4B",
+            "netProfit": "$1.1B",
+            "opMargin": "27.5%",
+            "eps": 1.93,
+            "roe": "84.5%",
+            "debtRatio": "51%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$5.4B",
+            "opProfit": "$1.5B",
+            "netProfit": "$1.2B",
+            "opMargin": "28.5%",
+            "eps": 2.04,
+            "roe": "85%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$6.0B",
+            "opProfit": "$1.8B",
+            "netProfit": "$1.4B",
+            "opMargin": "29.5%",
+            "eps": 2.27,
+            "roe": "85.5%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$6.7B",
+            "opProfit": "$2.0B",
+            "netProfit": "$1.6B",
+            "opMargin": "30.5%",
+            "eps": 2.52,
+            "roe": "86%",
+            "debtRatio": "42%"
+          }
+        ]
+      },
+      {
+        "name": "시스코 시스템즈 (Cisco)",
+        "code": "CSCO",
+        "marketCap": "$220.0B",
+        "revenue": "$54.0B",
+        "operatingProfit": "$14.9B",
+        "opMargin": 27.5,
+        "eps": 3.8,
+        "per": 16.5,
+        "pbr": 4.5,
+        "roe": 27,
+        "debtRatio": 65,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 3.2,
+        "payoutRatio": 53,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $78.38 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 사이버 보안 & 제로트러스트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $54.0B, 영업이익 $14.9B (OPM 27.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 27%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "시스코 시스템즈 (Cisco)(티커: CSCO)은 미국 사이버 보안 & 제로트러스트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$45.9B",
+            "opProfit": "$11.7B",
+            "netProfit": "$9.4B",
+            "opMargin": "25.5%",
+            "eps": 3.23,
+            "roe": "26%",
+            "debtRatio": "71%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$49.7B",
+            "opProfit": "$13.2B",
+            "netProfit": "$10.5B",
+            "opMargin": "26.5%",
+            "eps": 3.5,
+            "roe": "26.5%",
+            "debtRatio": "68%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$52.4B",
+            "opProfit": "$14.4B",
+            "netProfit": "$11.5B",
+            "opMargin": "27.5%",
+            "eps": 3.69,
+            "roe": "27%",
+            "debtRatio": "65%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$58.3B",
+            "opProfit": "$16.6B",
+            "netProfit": "$13.3B",
+            "opMargin": "28.5%",
+            "eps": 4.1,
+            "roe": "27.5%",
+            "debtRatio": "62%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$64.8B",
+            "opProfit": "$19.1B",
+            "netProfit": "$15.3B",
+            "opMargin": "29.5%",
+            "eps": 4.56,
+            "roe": "28%",
+            "debtRatio": "59%"
+          }
+        ]
+      },
+      {
+        "name": "지스케일러 (Zscaler)",
+        "code": "ZS",
+        "marketCap": "$32.0B",
+        "revenue": "$2.3B",
+        "operatingProfit": "$0.4B",
+        "opMargin": 18.5,
+        "eps": 2.8,
+        "per": 58,
+        "pbr": 22,
+        "roe": 18,
+        "debtRatio": 45,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $203.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 사이버 보안 & 제로트러스트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $2.3B, 영업이익 $0.4B (OPM 18.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "지스케일러 (Zscaler)(티커: ZS)은 미국 사이버 보안 & 제로트러스트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$2.0B",
+            "opProfit": "$0.3B",
+            "netProfit": "$0.3B",
+            "opMargin": "16.5%",
+            "eps": 2.38,
+            "roe": "17%",
+            "debtRatio": "51%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$2.1B",
+            "opProfit": "$0.4B",
+            "netProfit": "$0.3B",
+            "opMargin": "17.5%",
+            "eps": 2.58,
+            "roe": "17.5%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$2.2B",
+            "opProfit": "$0.4B",
+            "netProfit": "$0.3B",
+            "opMargin": "18.5%",
+            "eps": 2.72,
+            "roe": "18%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$2.5B",
+            "opProfit": "$0.5B",
+            "netProfit": "$0.4B",
+            "opMargin": "19.5%",
+            "eps": 3.02,
+            "roe": "18.5%",
+            "debtRatio": "42%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$2.8B",
+            "opProfit": "$0.6B",
+            "netProfit": "$0.5B",
+            "opMargin": "20.5%",
+            "eps": 3.36,
+            "roe": "19%",
+            "debtRatio": "39%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "us-semicon-fabless",
+    "country": "미국",
+    "sector": "AI 가속기 & 팹리스 (GPU/NPU)",
+    "chapterTitle": "미국 ➔ 반도체·하드웨어",
+    "cluster": "반도체·하드웨어",
+    "stockCount": 5,
+    "changeRate": "-0.38",
+    "correlationLogic": {
+      "formula": "AI 가속기 출하량(Q) × 고부가 패키징 ASP(P) - 파운드리 원가 = 기록적 영업이익",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 AI 가속기 & 팹리스 (GPU/NPU) 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "AI 학습/추론용 GPU 및 커스텀 ASIC 칩 공급 부족과 기술적 독점력 유지",
       "outlookSignal": {
         "level": "BULLISH",
         "badgeText": "🟢 슈퍼사이클",
-        "summary": "AI LLM 학습/추론용 GPU 및 커스텀 ASIC 가속기 수요 독점"
+        "summary": "AI 학습/추론용 GPU 및 커스텀 ASIC 칩 공급 부족과 기술적 독점력 유지"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
       "statusBadge": "🟢 슈퍼사이클",
-      "keyDriver": "미국 반도체 & AI 가속기 하드웨어 글로벌 수요 및 수주 모멘텀",
+      "keyDriver": "미국 AI 가속기 & 팹리스 (GPU/NPU) 글로벌 수요 및 수주 모멘텀",
       "demandIndicator": "필라델피아 반도체 지수 (SOX Index)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "블랙웰(Blackwell) 아키텍처 대량 양산 및 데이터센터 매출 비중 85% 상회",
-      "bearFactor": "중국향 수출 통제 강화 및 주요 고객사들의 자체 ASIC 칩 전환"
+      "bullFactor": "블랙웰(Blackwell) 아키텍처 완판 및 데이터센터 매출 비중 85% 상회",
+      "bearFactor": "미 대중국 수출 통제 강화 및 주요 고객사들의 자체 ASIC 전환 리스크"
     },
     "indicators": [
       {
         "name": "필라델피아 반도체 지수 (SOX Index)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://www.nasdaq.com/",
-        "role": "반도체 & AI 가속기 하드웨어 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "AI 가속기 & 팹리스 (GPU/NPU) 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -211692,77 +212230,6 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "TSMC ADR (대만반도체)",
-        "code": "TSM",
-        "marketCap": "$980.0B",
-        "revenue": "$85.0B",
-        "operatingProfit": "$37.0B",
-        "opMargin": 43.5,
-        "eps": 7.2,
-        "per": 24.5,
-        "pbr": 6.8,
-        "roe": 31,
-        "debtRatio": 24,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 1.2,
-        "payoutRatio": 29,
-        "comment": "[골드만삭스 최신 분석 보고서 종합]\n• 목표주가: $225.00 (투자의견: 강력매수 / 파운드리 절대 독점)\n• 2025~2026 실적 전망: 3나노 공정 가동률 100% 풀가동 지속 및 2나노 공정 조기 양산 착수로 글로벌 선단 파운드리 점유율 62%를 굳건히 유지하고 있습니다. 엔비디아, 애플, AMD 등 글로벌 테크 리더들의 독점 위탁생산자로서 강력한 판가(P) 결정력을 보유하고 있습니다.\n• 핵심 모멘텀: CoWoS 첨단 패키징 CAPA 2배 증설 및 AI 가속기 매출 비중 3배 급증.\n• 리스크 요인: 양안 지정학적 리스크 및 미국 애리조나 팹 인건비 상승에 따른 마진 압박.",
-        "businessSummary": "TSMC(NYSE: TSM)는 글로벌 선단 공정 반도체 파운드리 시장 점유율 60% 이상을 차지하는 독보적인 위탁제조 1위 기업으로, 글로벌 AI 반도체의 90% 이상을 생산하고 있습니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$72.3B",
-            "opProfit": "$30.0B",
-            "netProfit": "$24.0B",
-            "opMargin": "41.5%",
-            "eps": 6.12,
-            "roe": "30%",
-            "debtRatio": "30%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$78.2B",
-            "opProfit": "$33.2B",
-            "netProfit": "$26.6B",
-            "opMargin": "42.5%",
-            "eps": 6.62,
-            "roe": "30.5%",
-            "debtRatio": "27%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$82.5B",
-            "opProfit": "$35.9B",
-            "netProfit": "$28.7B",
-            "opMargin": "43.5%",
-            "eps": 6.98,
-            "roe": "31%",
-            "debtRatio": "24%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$91.8B",
-            "opProfit": "$40.9B",
-            "netProfit": "$32.7B",
-            "opMargin": "44.5%",
-            "eps": 7.78,
-            "roe": "31.5%",
-            "debtRatio": "21%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$102.0B",
-            "opProfit": "$46.4B",
-            "netProfit": "$37.1B",
-            "opMargin": "45.5%",
-            "eps": 8.64,
-            "roe": "32%",
-            "debtRatio": "18%"
-          }
-        ]
-      },
-      {
         "name": "브로드컴 (Broadcom)",
         "code": "AVGO",
         "marketCap": "$820.0B",
@@ -211778,8 +212245,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "NORMAL",
         "dividendYield": 1.3,
         "payoutRatio": 47,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $216.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 & AI 가속기 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $51.0B, 영업이익 $20.9B (OPM 41%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 32%, 배당수익률 1.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "브로드컴 (Broadcom)(티커: AVGO)은 미국 반도체 & AI 가속기 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $216.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: AI 가속기 & 팹리스 (GPU/NPU) 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $51.0B, 영업이익 $20.9B (OPM 41%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 32%, 배당수익률 1.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "브로드컴 (Broadcom)(티커: AVGO)은 미국 AI 가속기 & 팹리스 (GPU/NPU) 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -211849,8 +212316,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 0,
         "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $192.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 & AI 가속기 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $24.0B, 영업이익 $4.3B (OPM 18%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.5%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "AMD (Advanced Micro Devices)(티커: AMD)은 미국 반도체 & AI 가속기 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $192.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: AI 가속기 & 팹리스 (GPU/NPU) 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $24.0B, 영업이익 $4.3B (OPM 18%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.5%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "AMD (Advanced Micro Devices)(티커: AMD)은 미국 AI 가속기 & 팹리스 (GPU/NPU) 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -211920,8 +212387,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 2,
         "payoutRatio": 37,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $210.44 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 & AI 가속기 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $38.0B, 영업이익 $10.8B (OPM 28.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 38%, 배당수익률 2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "퀄컴 (Qualcomm)(티커: QCOM)은 미국 반도체 & AI 가속기 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $210.44 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: AI 가속기 & 팹리스 (GPU/NPU) 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $38.0B, 영업이익 $10.8B (OPM 28.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 38%, 배당수익률 2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "퀄컴 (Qualcomm)(티커: QCOM)은 미국 AI 가속기 & 팹리스 (GPU/NPU) 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -211976,147 +212443,132 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "인텔 (Intel)",
-        "code": "INTC",
-        "marketCap": "$98.0B",
-        "revenue": "$54.0B",
-        "operatingProfit": "$1.9B",
-        "opMargin": 3.5,
-        "eps": 0.7,
-        "per": 32,
-        "pbr": 0.9,
-        "roe": 2.5,
-        "debtRatio": 48,
+        "name": "ARM 홀딩스 (Arm Holdings)",
+        "code": "ARM",
+        "marketCap": "$145.0B",
+        "revenue": "$3.4B",
+        "operatingProfit": "$1.5B",
+        "opMargin": 44,
+        "eps": 1.4,
+        "per": 85,
+        "pbr": 24,
+        "roe": 18,
+        "debtRatio": 5,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 1.8,
-        "payoutRatio": 58,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $28.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 & AI 가속기 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $54.0B, 영업이익 $1.9B (OPM 3.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 2.5%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "인텔 (Intel)(티커: INTC)은 미국 반도체 & AI 가속기 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $148.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: AI 가속기 & 팹리스 (GPU/NPU) 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $3.4B, 영업이익 $1.5B (OPM 44%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "ARM 홀딩스 (Arm Holdings)(티커: ARM)은 미국 AI 가속기 & 팹리스 (GPU/NPU) 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$45.9B",
-            "opProfit": "$0.7B",
-            "netProfit": "$0.6B",
-            "opMargin": "1.5%",
-            "eps": 0.6,
-            "roe": "1.5%",
-            "debtRatio": "54%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$49.7B",
+            "revenue": "$2.9B",
             "opProfit": "$1.2B",
             "netProfit": "$1.0B",
-            "opMargin": "2.5%",
-            "eps": 0.64,
-            "roe": "2%",
-            "debtRatio": "51%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$52.4B",
-            "opProfit": "$1.8B",
-            "netProfit": "$1.5B",
-            "opMargin": "3.5%",
-            "eps": 0.68,
-            "roe": "2.5%",
-            "debtRatio": "48%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$58.3B",
-            "opProfit": "$2.6B",
-            "netProfit": "$2.1B",
-            "opMargin": "4.5%",
-            "eps": 0.76,
-            "roe": "3%",
-            "debtRatio": "45%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$64.8B",
-            "opProfit": "$3.6B",
-            "netProfit": "$2.9B",
-            "opMargin": "5.5%",
-            "eps": 0.84,
-            "roe": "3.5%",
-            "debtRatio": "42%"
-          }
-        ]
-      },
-      {
-        "name": "마이크론 테크놀로지 (Micron)",
-        "code": "MU",
-        "marketCap": "$125.0B",
-        "revenue": "$25.0B",
-        "operatingProfit": "$5.5B",
-        "opMargin": 22,
-        "eps": 6.8,
-        "per": 16.5,
-        "pbr": 2.4,
-        "roe": 14,
-        "debtRatio": 34,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 0.4,
-        "payoutRatio": 7,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $140.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 & AI 가속기 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $25.0B, 영업이익 $5.5B (OPM 22%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 0.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "마이크론 테크놀로지 (Micron)(티커: MU)은 미국 반도체 & AI 가속기 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$21.3B",
-            "opProfit": "$4.3B",
-            "netProfit": "$3.4B",
-            "opMargin": "20%",
-            "eps": 5.78,
-            "roe": "13%",
-            "debtRatio": "40%"
+            "opMargin": "42%",
+            "eps": 1.19,
+            "roe": "17%",
+            "debtRatio": "15%"
           },
           {
             "year": "2022",
-            "revenue": "$23.0B",
-            "opProfit": "$4.8B",
-            "netProfit": "$3.9B",
-            "opMargin": "21%",
-            "eps": 6.26,
-            "roe": "13.5%",
-            "debtRatio": "37%"
+            "revenue": "$3.1B",
+            "opProfit": "$1.3B",
+            "netProfit": "$1.1B",
+            "opMargin": "43%",
+            "eps": 1.29,
+            "roe": "17.5%",
+            "debtRatio": "15%"
           },
           {
             "year": "2023",
-            "revenue": "$24.3B",
-            "opProfit": "$5.3B",
-            "netProfit": "$4.3B",
-            "opMargin": "22%",
-            "eps": 6.6,
-            "roe": "14%",
-            "debtRatio": "34%"
+            "revenue": "$3.3B",
+            "opProfit": "$1.5B",
+            "netProfit": "$1.2B",
+            "opMargin": "44%",
+            "eps": 1.36,
+            "roe": "18%",
+            "debtRatio": "15%"
           },
           {
             "year": "2024",
-            "revenue": "$27.0B",
-            "opProfit": "$6.2B",
-            "netProfit": "$5.0B",
-            "opMargin": "23%",
-            "eps": 7.34,
-            "roe": "14.5%",
-            "debtRatio": "31%"
+            "revenue": "$3.7B",
+            "opProfit": "$1.7B",
+            "netProfit": "$1.3B",
+            "opMargin": "45%",
+            "eps": 1.51,
+            "roe": "18.5%",
+            "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$30.0B",
-            "opProfit": "$7.2B",
-            "netProfit": "$5.8B",
-            "opMargin": "24%",
-            "eps": 8.16,
-            "roe": "15%",
-            "debtRatio": "28%"
+            "revenue": "$4.1B",
+            "opProfit": "$1.9B",
+            "netProfit": "$1.5B",
+            "opMargin": "46%",
+            "eps": 1.68,
+            "roe": "19%",
+            "debtRatio": "15%"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "us-semicon-equip",
+    "country": "미국",
+    "sector": "반도체 전/후공정 제조 장비",
+    "chapterTitle": "미국 ➔ 반도체·하드웨어",
+    "cluster": "반도체·하드웨어",
+    "stockCount": 5,
+    "changeRate": "0.24",
+    "correlationLogic": {
+      "formula": "글로벌 팹 WFE CAPEX × 첨단 식각/증착 장비 M/S = 고마진 수주",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 반도체 전/후공정 제조 장비 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "글로벌 파운드리 및 첨단 HBM 패키징 라인 증설에 따른 핵심 공정 장비 수주 증가",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 실적 턴어라운드",
+        "summary": "글로벌 파운드리 및 첨단 HBM 패키징 라인 증설에 따른 핵심 공정 장비 수주 증가"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 실적 턴어라운드",
+      "keyDriver": "미국 반도체 전/후공정 제조 장비 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "SEMI 글로벌 반도체 장비 출하액 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "게이트올어라운드(GAA) 및 HBM 적층용 첨단 패키징 장비 납품 급증",
+      "bearFactor": "중국향 레거시 장비 매출 비중 축소 압박"
+    },
+    "indicators": [
+      {
+        "name": "SEMI 글로벌 반도체 장비 출하액 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://www.semi.org/",
+        "role": "반도체 전/후공정 제조 장비 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
       {
         "name": "어플라이드 머티어리얼즈 (AMAT)",
         "code": "AMAT",
@@ -212133,8 +212585,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 0.8,
         "payoutRatio": 18,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $247.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 & AI 가속기 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $27.0B, 영업이익 $8.0B (OPM 29.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 38%, 배당수익률 0.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "어플라이드 머티어리얼즈 (AMAT)(티커: AMAT)은 미국 반도체 & AI 가속기 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $247.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 전/후공정 제조 장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $27.0B, 영업이익 $8.0B (OPM 29.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 38%, 배당수익률 0.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "어플라이드 머티어리얼즈 (AMAT)(티커: AMAT)은 미국 반도체 전/후공정 제조 장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -212204,8 +212656,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 1.1,
         "payoutRatio": 27,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $101.06 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 & AI 가속기 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $15.0B, 영업이익 $4.5B (OPM 30%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 45%, 배당수익률 1.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "램리서치 (Lam Research)(티커: LRCX)은 미국 반도체 & AI 가속기 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $101.06 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 전/후공정 제조 장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $15.0B, 영업이익 $4.5B (OPM 30%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 45%, 배당수익률 1.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "램리서치 (Lam Research)(티커: LRCX)은 미국 반도체 전/후공정 제조 장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -212260,77 +212712,6 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "텍사스 인스트루먼트 (TI)",
-        "code": "TXN",
-        "marketCap": "$185.0B",
-        "revenue": "$17.0B",
-        "operatingProfit": "$6.5B",
-        "opMargin": 38,
-        "eps": 6.1,
-        "per": 31,
-        "pbr": 10.5,
-        "roe": 32,
-        "debtRatio": 75,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 2.7,
-        "payoutRatio": 84,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $236.38 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 & AI 가속기 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $17.0B, 영업이익 $6.5B (OPM 38%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 32%, 배당수익률 2.7%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "텍사스 인스트루먼트 (TI)(티커: TXN)은 미국 반도체 & AI 가속기 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$14.4B",
-            "opProfit": "$5.2B",
-            "netProfit": "$4.2B",
-            "opMargin": "36%",
-            "eps": 5.19,
-            "roe": "31%",
-            "debtRatio": "81%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$15.6B",
-            "opProfit": "$5.8B",
-            "netProfit": "$4.6B",
-            "opMargin": "37%",
-            "eps": 5.61,
-            "roe": "31.5%",
-            "debtRatio": "78%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$16.5B",
-            "opProfit": "$6.3B",
-            "netProfit": "$5.0B",
-            "opMargin": "38%",
-            "eps": 5.92,
-            "roe": "32%",
-            "debtRatio": "75%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$18.4B",
-            "opProfit": "$7.2B",
-            "netProfit": "$5.7B",
-            "opMargin": "39%",
-            "eps": 6.59,
-            "roe": "32.5%",
-            "debtRatio": "72%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$20.4B",
-            "opProfit": "$8.2B",
-            "netProfit": "$6.5B",
-            "opMargin": "40%",
-            "eps": 7.32,
-            "roe": "33%",
-            "debtRatio": "69%"
-          }
-        ]
-      },
-      {
         "name": "KLA (KLA Corp)",
         "code": "KLAC",
         "marketCap": "$95.0B",
@@ -212346,8 +212727,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "NORMAL",
         "dividendYield": 0.9,
         "payoutRatio": 25,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $892.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 & AI 가속기 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $10.0B, 영업이익 $3.7B (OPM 37%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 75%, 배당수익률 0.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "KLA (KLA Corp)(티커: KLAC)은 미국 반도체 & AI 가속기 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $892.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 전/후공정 제조 장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $10.0B, 영업이익 $3.7B (OPM 37%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 75%, 배당수익률 0.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "KLA (KLA Corp)(티커: KLAC)은 미국 반도체 전/후공정 제조 장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -212400,50 +212781,532 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "114%"
           }
         ]
+      },
+      {
+        "name": "테라다인 (Teradyne)",
+        "code": "TER",
+        "marketCap": "$22.0B",
+        "revenue": "$2.8B",
+        "operatingProfit": "$0.6B",
+        "opMargin": 21,
+        "eps": 3.6,
+        "per": 32,
+        "pbr": 6.8,
+        "roe": 19,
+        "debtRatio": 15,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0.4,
+        "payoutRatio": 13,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $144.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 전/후공정 제조 장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $2.8B, 영업이익 $0.6B (OPM 21%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 19%, 배당수익률 0.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "테라다인 (Teradyne)(티커: TER)은 미국 반도체 전/후공정 제조 장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$2.4B",
+            "opProfit": "$0.5B",
+            "netProfit": "$0.4B",
+            "opMargin": "19%",
+            "eps": 3.06,
+            "roe": "18%",
+            "debtRatio": "21%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$2.6B",
+            "opProfit": "$0.5B",
+            "netProfit": "$0.4B",
+            "opMargin": "20%",
+            "eps": 3.31,
+            "roe": "18.5%",
+            "debtRatio": "18%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$2.7B",
+            "opProfit": "$0.6B",
+            "netProfit": "$0.5B",
+            "opMargin": "21%",
+            "eps": 3.49,
+            "roe": "19%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$3.0B",
+            "opProfit": "$0.7B",
+            "netProfit": "$0.5B",
+            "opMargin": "22%",
+            "eps": 3.89,
+            "roe": "19.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$3.4B",
+            "opProfit": "$0.8B",
+            "netProfit": "$0.6B",
+            "opMargin": "23%",
+            "eps": 4.32,
+            "roe": "20%",
+            "debtRatio": "15%"
+          }
+        ]
+      },
+      {
+        "name": "인테그리스 (Entegris)",
+        "code": "ENTG",
+        "marketCap": "$18.0B",
+        "revenue": "$3.5B",
+        "operatingProfit": "$0.8B",
+        "opMargin": 23.5,
+        "eps": 3.5,
+        "per": 29,
+        "pbr": 4.8,
+        "roe": 14.5,
+        "debtRatio": 85,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0.3,
+        "payoutRatio": 9,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $126.88 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 전/후공정 제조 장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $3.5B, 영업이익 $0.8B (OPM 23.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 0.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "인테그리스 (Entegris)(티커: ENTG)은 미국 반도체 전/후공정 제조 장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$3.0B",
+            "opProfit": "$0.6B",
+            "netProfit": "$0.5B",
+            "opMargin": "21.5%",
+            "eps": 2.98,
+            "roe": "13.5%",
+            "debtRatio": "91%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$3.2B",
+            "opProfit": "$0.7B",
+            "netProfit": "$0.6B",
+            "opMargin": "22.5%",
+            "eps": 3.22,
+            "roe": "14%",
+            "debtRatio": "88%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$3.4B",
+            "opProfit": "$0.8B",
+            "netProfit": "$0.6B",
+            "opMargin": "23.5%",
+            "eps": 3.4,
+            "roe": "14.5%",
+            "debtRatio": "85%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$3.8B",
+            "opProfit": "$0.9B",
+            "netProfit": "$0.7B",
+            "opMargin": "24.5%",
+            "eps": 3.78,
+            "roe": "15%",
+            "debtRatio": "82%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$4.2B",
+            "opProfit": "$1.1B",
+            "netProfit": "$0.9B",
+            "opMargin": "25.5%",
+            "eps": 4.2,
+            "roe": "15.5%",
+            "debtRatio": "79%"
+          }
+        ]
       }
     ]
   },
   {
-    "id": "us-bio",
+    "id": "us-memory-storage",
     "country": "미국",
-    "sector": "혁신 바이오 & 글로벌 헬스케어",
-    "chapterTitle": "미국 ➔ 바이오·제약",
-    "cluster": "바이오·제약",
-    "stockCount": 8,
-    "changeRate": "0.72",
+    "sector": "메모리 반도체 & 엔터프라이즈 스토리지",
+    "chapterTitle": "미국 ➔ 반도체·하드웨어",
+    "cluster": "반도체·하드웨어",
+    "stockCount": 4,
+    "changeRate": "-0.10",
     "correlationLogic": {
-      "formula": "GLP-1 처방 환자수(Q) × 보험 급여 등재 단가(P) = 영업이익 폭발",
+      "formula": "HBM/DRAM 비트그로스(Q) × ASP 프리미엄(P) - 단위당 제조원가 = OPM 급반등",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 혁신 바이오 & 글로벌 헬스케어 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 메모리 반도체 & 엔터프라이즈 스토리지 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "GLP-1 비만 치료제 신시장 폭발 및 항암제 파이프라인 상업화 성공",
+      "currentStatus": "AI 데이터센터용 고대역폭메모리(HBM3E) 및 고용량 엔터프라이즈 SSD(eSSD) 수요 폭증",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 신약 호황",
-        "summary": "GLP-1 비만 치료제 신시장 폭발 및 항암제 파이프라인 상업화 성공"
+        "badgeText": "🟢 HBM 수혜",
+        "summary": "AI 데이터센터용 고대역폭메모리(HBM3E) 및 고용량 엔터프라이즈 SSD(eSSD) 수요 폭증"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 신약 호황",
-      "keyDriver": "미국 혁신 바이오 & 글로벌 헬스케어 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "미국 헬스케어 XLV ETF 지수",
+      "statusBadge": "🟢 HBM 수혜",
+      "keyDriver": "미국 메모리 반도체 & 엔터프라이즈 스토리지 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "DRAMeXchange D램 현물/고정거래가격",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "마운자로/젭바운드 글로벌 생산 CAPA 증설 및 적응증 확대 승인",
-      "bearFactor": "특허 만료(Patent Cliff) 및 미국 정부 IRA 약가 인하 협상 압력"
+      "bullFactor": "HBM 공급 부족 지속 및 데이터센터 eSSD 주문 100% 이상 증가",
+      "bearFactor": "범용 PC 및 스마트폰 레거시 메모리 수요 회복 지연"
     },
     "indicators": [
       {
-        "name": "미국 헬스케어 XLV ETF 지수",
+        "name": "DRAMeXchange D램 현물/고정거래가격",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "혁신 바이오 & 글로벌 헬스케어 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "메모리 반도체 & 엔터프라이즈 스토리지 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "마이크론 테크놀로지 (Micron)",
+        "code": "MU",
+        "marketCap": "$125.0B",
+        "revenue": "$25.0B",
+        "operatingProfit": "$5.5B",
+        "opMargin": 22,
+        "eps": 6.8,
+        "per": 16.5,
+        "pbr": 2.4,
+        "roe": 14,
+        "debtRatio": 34,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0.4,
+        "payoutRatio": 7,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $140.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 메모리 반도체 & 엔터프라이즈 스토리지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $25.0B, 영업이익 $5.5B (OPM 22%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 0.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "마이크론 테크놀로지 (Micron)(티커: MU)은 미국 메모리 반도체 & 엔터프라이즈 스토리지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$21.3B",
+            "opProfit": "$4.3B",
+            "netProfit": "$3.4B",
+            "opMargin": "20%",
+            "eps": 5.78,
+            "roe": "13%",
+            "debtRatio": "40%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$23.0B",
+            "opProfit": "$4.8B",
+            "netProfit": "$3.9B",
+            "opMargin": "21%",
+            "eps": 6.26,
+            "roe": "13.5%",
+            "debtRatio": "37%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$24.3B",
+            "opProfit": "$5.3B",
+            "netProfit": "$4.3B",
+            "opMargin": "22%",
+            "eps": 6.6,
+            "roe": "14%",
+            "debtRatio": "34%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$27.0B",
+            "opProfit": "$6.2B",
+            "netProfit": "$5.0B",
+            "opMargin": "23%",
+            "eps": 7.34,
+            "roe": "14.5%",
+            "debtRatio": "31%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$30.0B",
+            "opProfit": "$7.2B",
+            "netProfit": "$5.8B",
+            "opMargin": "24%",
+            "eps": 8.16,
+            "roe": "15%",
+            "debtRatio": "28%"
+          }
+        ]
+      },
+      {
+        "name": "웨스턴 디지털 (Western Digital)",
+        "code": "WDC",
+        "marketCap": "$24.0B",
+        "revenue": "$13.0B",
+        "operatingProfit": "$1.9B",
+        "opMargin": 14.5,
+        "eps": 5.8,
+        "per": 15,
+        "pbr": 2.1,
+        "roe": 13.5,
+        "debtRatio": 65,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $108.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 메모리 반도체 & 엔터프라이즈 스토리지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $13.0B, 영업이익 $1.9B (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13.5%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "웨스턴 디지털 (Western Digital)(티커: WDC)은 미국 메모리 반도체 & 엔터프라이즈 스토리지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$11.0B",
+            "opProfit": "$1.4B",
+            "netProfit": "$1.1B",
+            "opMargin": "12.5%",
+            "eps": 4.93,
+            "roe": "12.5%",
+            "debtRatio": "71%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$12.0B",
+            "opProfit": "$1.6B",
+            "netProfit": "$1.3B",
+            "opMargin": "13.5%",
+            "eps": 5.34,
+            "roe": "13%",
+            "debtRatio": "68%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$12.6B",
+            "opProfit": "$1.8B",
+            "netProfit": "$1.5B",
+            "opMargin": "14.5%",
+            "eps": 5.63,
+            "roe": "13.5%",
+            "debtRatio": "65%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$14.0B",
+            "opProfit": "$2.2B",
+            "netProfit": "$1.7B",
+            "opMargin": "15.5%",
+            "eps": 6.26,
+            "roe": "14%",
+            "debtRatio": "62%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$15.6B",
+            "opProfit": "$2.6B",
+            "netProfit": "$2.1B",
+            "opMargin": "16.5%",
+            "eps": 6.96,
+            "roe": "14.5%",
+            "debtRatio": "59%"
+          }
+        ]
+      },
+      {
+        "name": "씨게이트 테크놀로지 (Seagate)",
+        "code": "STX",
+        "marketCap": "$21.0B",
+        "revenue": "$7.8B",
+        "operatingProfit": "$1.4B",
+        "opMargin": 18.5,
+        "eps": 5.5,
+        "per": 18,
+        "pbr": 15,
+        "roe": 45,
+        "debtRatio": 140,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 2.8,
+        "payoutRatio": 50,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $123.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 메모리 반도체 & 엔터프라이즈 스토리지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $7.8B, 영업이익 $1.4B (OPM 18.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 45%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "씨게이트 테크놀로지 (Seagate)(티커: STX)은 미국 메모리 반도체 & 엔터프라이즈 스토리지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$6.6B",
+            "opProfit": "$1.1B",
+            "netProfit": "$0.9B",
+            "opMargin": "16.5%",
+            "eps": 4.68,
+            "roe": "44%",
+            "debtRatio": "146%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$7.2B",
+            "opProfit": "$1.3B",
+            "netProfit": "$1.0B",
+            "opMargin": "17.5%",
+            "eps": 5.06,
+            "roe": "44.5%",
+            "debtRatio": "143%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$7.6B",
+            "opProfit": "$1.4B",
+            "netProfit": "$1.1B",
+            "opMargin": "18.5%",
+            "eps": 5.34,
+            "roe": "45%",
+            "debtRatio": "140%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$8.4B",
+            "opProfit": "$1.6B",
+            "netProfit": "$1.3B",
+            "opMargin": "19.5%",
+            "eps": 5.94,
+            "roe": "45.5%",
+            "debtRatio": "137%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$9.4B",
+            "opProfit": "$1.9B",
+            "netProfit": "$1.5B",
+            "opMargin": "20.5%",
+            "eps": 6.6,
+            "roe": "46%",
+            "debtRatio": "134%"
+          }
+        ]
+      },
+      {
+        "name": "퓨어스토리지 (Pure Storage)",
+        "code": "PSTG",
+        "marketCap": "$16.0B",
+        "revenue": "$3.1B",
+        "operatingProfit": "$0.5B",
+        "opMargin": 16,
+        "eps": 1.6,
+        "per": 34,
+        "pbr": 8.5,
+        "roe": 18,
+        "debtRatio": 18,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $68.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 메모리 반도체 & 엔터프라이즈 스토리지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $3.1B, 영업이익 $0.5B (OPM 16%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "퓨어스토리지 (Pure Storage)(티커: PSTG)은 미국 메모리 반도체 & 엔터프라이즈 스토리지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$2.6B",
+            "opProfit": "$0.4B",
+            "netProfit": "$0.3B",
+            "opMargin": "14%",
+            "eps": 1.36,
+            "roe": "17%",
+            "debtRatio": "24%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$2.9B",
+            "opProfit": "$0.4B",
+            "netProfit": "$0.3B",
+            "opMargin": "15%",
+            "eps": 1.47,
+            "roe": "17.5%",
+            "debtRatio": "21%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$3.0B",
+            "opProfit": "$0.5B",
+            "netProfit": "$0.4B",
+            "opMargin": "16%",
+            "eps": 1.55,
+            "roe": "18%",
+            "debtRatio": "18%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$3.3B",
+            "opProfit": "$0.6B",
+            "netProfit": "$0.5B",
+            "opMargin": "17%",
+            "eps": 1.73,
+            "roe": "18.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$3.7B",
+            "opProfit": "$0.7B",
+            "netProfit": "$0.5B",
+            "opMargin": "18%",
+            "eps": 1.92,
+            "roe": "19%",
+            "debtRatio": "15%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "us-glp1-biotech",
+    "country": "미국",
+    "sector": "비만/당뇨 치료제 & GLP-1 혁신신약",
+    "chapterTitle": "미국 ➔ 바이오·제약",
+    "cluster": "바이오·제약",
+    "stockCount": 3,
+    "changeRate": "0.57",
+    "correlationLogic": {
+      "formula": "GLP-1 글로벌 처방 건수 × 바이알당 약가 - 생산 증설 CAPEX = 영업이익 폭발",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 비만/당뇨 치료제 & GLP-1 혁신신약 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "젭바운드/마운자로의 압도적 체중 감량 효능 및 심혈관/지방간 적응증 무한 확장",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 블록버스터 신약",
+        "summary": "젭바운드/마운자로의 압도적 체중 감량 효능 및 심혈관/지방간 적응증 무한 확장"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 블록버스터 신약",
+      "keyDriver": "미국 비만/당뇨 치료제 & GLP-1 혁신신약 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "FDA 글로벌 의약품 승인 현황 & GLP-1 주간 처방 트렌드",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "미국 보험 급여 적용 범위 확대 및 경구용(먹는 약) 파이프라인 임상 성공",
+      "bearFactor": "공급 부족 지속에 따른 단기 처방 제한 및 복제약 생산 경쟁"
+    },
+    "indicators": [
+      {
+        "name": "FDA 글로벌 의약품 승인 현황 & GLP-1 주간 처방 트렌드",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://www.fda.gov/",
+        "role": "비만/당뇨 치료제 & GLP-1 혁신신약 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -212461,496 +213324,70 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "일라이 릴리 (Eli Lilly)",
         "code": "LLY",
         "marketCap": "$850.0B",
-        "revenue": "$38.0B",
-        "operatingProfit": "$12.3B",
-        "opMargin": 32.5,
-        "eps": 14.2,
-        "per": 65,
-        "pbr": 48,
+        "revenue": "$45.0B",
+        "operatingProfit": "$15.7B",
+        "opMargin": 35,
+        "eps": 14.5,
+        "per": 58,
+        "pbr": 42,
         "roe": 65,
-        "debtRatio": 180,
+        "debtRatio": 145,
         "currentRatio": 140,
-        "riskStatus": "WARNING",
+        "riskStatus": "NORMAL",
         "dividendYield": 0.6,
-        "payoutRatio": 39,
+        "payoutRatio": 35,
         "comment": "[골드만삭스 최신 분석 보고서 종합]\n• 목표주가: $1,050.00 (투자의견: 매수 / 메가 헬스케어 Top Pick)\n• 2025~2026 실적 전망: 2형 당뇨 치료제 마운자로(Mounjaro)와 비만 치료제 젭바운드(Zepbound)의 글로벌 처방 수요 폭증으로 분기 매출 성장률 40%를 돌파했습니다. 차세대 경구용 비만 치료제 오르포글리프론(Orforglipron) 임상 3상 순항으로 비만 치료제 시장 점유율 1위를 굳히고 있습니다.\n• 핵심 모멘텀: 90억 달러 규모의 글로벌 생산 CAPA 증설 완료 및 알츠하이머 치료제 키선라(Kisunla) FDA 승인 수혜.\n• 리스크 요인: 초고평가 멀티플(PER 65배) 및 경쟁사(노보노디스크)의 복합제 추격.",
         "businessSummary": "일라이 릴리(NYSE: LLY)는 당뇨 및 비만 치료제(Mounjaro, Zepbound), 면역질환, 항암제, 중추신경계(치매) 신약을 개발·제조하는 글로벌 시가총액 1위 제약 기업입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$32.3B",
-            "opProfit": "$9.9B",
-            "netProfit": "$7.9B",
-            "opMargin": "30.5%",
-            "eps": 12.07,
-            "roe": "64%",
-            "debtRatio": "186%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$35.0B",
-            "opProfit": "$11.0B",
-            "netProfit": "$8.8B",
-            "opMargin": "31.5%",
-            "eps": 13.06,
-            "roe": "64.5%",
-            "debtRatio": "183%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$36.9B",
-            "opProfit": "$12.0B",
-            "netProfit": "$9.6B",
-            "opMargin": "32.5%",
-            "eps": 13.77,
-            "roe": "65%",
-            "debtRatio": "180%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$41.0B",
-            "opProfit": "$13.7B",
-            "netProfit": "$11.0B",
-            "opMargin": "33.5%",
-            "eps": 15.34,
-            "roe": "65.5%",
-            "debtRatio": "177%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$45.6B",
-            "opProfit": "$15.7B",
-            "netProfit": "$12.6B",
-            "opMargin": "34.5%",
-            "eps": 17.04,
-            "roe": "66%",
-            "debtRatio": "174%"
-          }
-        ]
-      },
-      {
-        "name": "존슨앤드존슨 (JNJ)",
-        "code": "JNJ",
-        "marketCap": "$395.0B",
-        "revenue": "$85.0B",
-        "operatingProfit": "$23.8B",
-        "opMargin": 28,
-        "eps": 9.8,
-        "per": 16.5,
-        "pbr": 5.2,
-        "roe": 32,
-        "debtRatio": 45,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 3.1,
-        "payoutRatio": 51,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $202.13 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 혁신 바이오 & 글로벌 헬스케어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $85.0B, 영업이익 $23.8B (OPM 28%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 32%, 배당수익률 3.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "존슨앤드존슨 (JNJ)(티커: JNJ)은 미국 혁신 바이오 & 글로벌 헬스케어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$72.3B",
-            "opProfit": "$18.8B",
-            "netProfit": "$15.0B",
-            "opMargin": "26%",
-            "eps": 8.33,
-            "roe": "31%",
-            "debtRatio": "51%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$78.2B",
-            "opProfit": "$21.1B",
-            "netProfit": "$16.9B",
-            "opMargin": "27%",
-            "eps": 9.02,
-            "roe": "31.5%",
-            "debtRatio": "48%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$82.5B",
-            "opProfit": "$23.1B",
-            "netProfit": "$18.5B",
-            "opMargin": "28%",
-            "eps": 9.51,
-            "roe": "32%",
-            "debtRatio": "45%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$91.8B",
-            "opProfit": "$26.6B",
-            "netProfit": "$21.3B",
-            "opMargin": "29%",
-            "eps": 10.58,
-            "roe": "32.5%",
-            "debtRatio": "42%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$102.0B",
-            "opProfit": "$30.6B",
-            "netProfit": "$24.5B",
-            "opMargin": "30%",
-            "eps": 11.76,
-            "roe": "33%",
-            "debtRatio": "39%"
-          }
-        ]
-      },
-      {
-        "name": "애브비 (AbbVie)",
-        "code": "ABBV",
-        "marketCap": "$335.0B",
-        "revenue": "$55.0B",
-        "operatingProfit": "$18.7B",
-        "opMargin": 34,
-        "eps": 11.2,
-        "per": 17,
-        "pbr": 35,
-        "roe": 65,
-        "debtRatio": 450,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 3.3,
-        "payoutRatio": 56,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $238.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 혁신 바이오 & 글로벌 헬스케어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $55.0B, 영업이익 $18.7B (OPM 34%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 65%, 배당수익률 3.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "애브비 (AbbVie)(티커: ABBV)은 미국 혁신 바이오 & 글로벌 헬스케어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$46.8B",
-            "opProfit": "$15.0B",
-            "netProfit": "$12.0B",
-            "opMargin": "32%",
-            "eps": 9.52,
-            "roe": "64%",
-            "debtRatio": "456%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$50.6B",
-            "opProfit": "$16.7B",
-            "netProfit": "$13.4B",
-            "opMargin": "33%",
-            "eps": 10.3,
-            "roe": "64.5%",
-            "debtRatio": "453%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$53.4B",
-            "opProfit": "$18.1B",
-            "netProfit": "$14.5B",
-            "opMargin": "34%",
-            "eps": 10.86,
-            "roe": "65%",
-            "debtRatio": "450%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$59.4B",
-            "opProfit": "$20.8B",
-            "netProfit": "$16.6B",
-            "opMargin": "35%",
-            "eps": 12.1,
-            "roe": "65.5%",
-            "debtRatio": "447%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$66.0B",
-            "opProfit": "$23.8B",
-            "netProfit": "$19.0B",
-            "opMargin": "36%",
-            "eps": 13.44,
-            "roe": "66%",
-            "debtRatio": "444%"
-          }
-        ]
-      },
-      {
-        "name": "화이자 (Pfizer)",
-        "code": "PFE",
-        "marketCap": "$165.0B",
-        "revenue": "$58.0B",
-        "operatingProfit": "$12.2B",
-        "opMargin": 21,
-        "eps": 2.3,
-        "per": 12.5,
-        "pbr": 1.8,
-        "roe": 12,
-        "debtRatio": 75,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 5.7,
-        "payoutRatio": 71,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $35.94 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 혁신 바이오 & 글로벌 헬스케어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $58.0B, 영업이익 $12.2B (OPM 21%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 5.7%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "화이자 (Pfizer)(티커: PFE)은 미국 혁신 바이오 & 글로벌 헬스케어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$49.3B",
-            "opProfit": "$9.4B",
-            "netProfit": "$7.5B",
-            "opMargin": "19%",
-            "eps": 1.95,
-            "roe": "11%",
-            "debtRatio": "81%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$53.4B",
-            "opProfit": "$10.7B",
-            "netProfit": "$8.5B",
-            "opMargin": "20%",
-            "eps": 2.12,
-            "roe": "11.5%",
-            "debtRatio": "78%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$56.3B",
-            "opProfit": "$11.8B",
-            "netProfit": "$9.5B",
-            "opMargin": "21%",
-            "eps": 2.23,
-            "roe": "12%",
-            "debtRatio": "75%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$62.6B",
-            "opProfit": "$13.8B",
-            "netProfit": "$11.0B",
-            "opMargin": "22%",
-            "eps": 2.48,
-            "roe": "12.5%",
-            "debtRatio": "72%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$69.6B",
-            "opProfit": "$16.0B",
-            "netProfit": "$12.8B",
-            "opMargin": "23%",
-            "eps": 2.76,
-            "roe": "13%",
-            "debtRatio": "69%"
-          }
-        ]
-      },
-      {
-        "name": "머크 (Merck)",
-        "code": "MRK",
-        "marketCap": "$280.0B",
-        "revenue": "$61.0B",
-        "operatingProfit": "$18.6B",
-        "opMargin": 30.5,
-        "eps": 7.5,
-        "per": 15,
-        "pbr": 6.5,
-        "roe": 38,
-        "debtRatio": 90,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 2.8,
-        "payoutRatio": 42,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $140.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 혁신 바이오 & 글로벌 헬스케어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $61.0B, 영업이익 $18.6B (OPM 30.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 38%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "머크 (Merck)(티커: MRK)은 미국 혁신 바이오 & 글로벌 헬스케어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$51.9B",
-            "opProfit": "$14.8B",
-            "netProfit": "$11.8B",
-            "opMargin": "28.5%",
-            "eps": 6.38,
-            "roe": "37%",
-            "debtRatio": "96%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$56.1B",
-            "opProfit": "$16.6B",
-            "netProfit": "$13.2B",
-            "opMargin": "29.5%",
-            "eps": 6.9,
-            "roe": "37.5%",
-            "debtRatio": "93%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$59.2B",
-            "opProfit": "$18.0B",
-            "netProfit": "$14.4B",
-            "opMargin": "30.5%",
-            "eps": 7.28,
-            "roe": "38%",
-            "debtRatio": "90%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$65.9B",
-            "opProfit": "$20.8B",
-            "netProfit": "$16.6B",
-            "opMargin": "31.5%",
-            "eps": 8.1,
-            "roe": "38.5%",
-            "debtRatio": "87%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$73.2B",
-            "opProfit": "$23.8B",
-            "netProfit": "$19.0B",
-            "opMargin": "32.5%",
-            "eps": 9,
-            "roe": "39%",
-            "debtRatio": "84%"
-          }
-        ]
-      },
-      {
-        "name": "서모피셔 (Thermo Fisher)",
-        "code": "TMO",
-        "marketCap": "$215.0B",
-        "revenue": "$43.0B",
-        "operatingProfit": "$9.7B",
-        "opMargin": 22.5,
-        "eps": 21.5,
-        "per": 26,
-        "pbr": 4.5,
-        "roe": 14.5,
-        "debtRatio": 75,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 0.3,
-        "payoutRatio": 8,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $698.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 혁신 바이오 & 글로벌 헬스케어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $43.0B, 영업이익 $9.7B (OPM 22.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 0.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "서모피셔 (Thermo Fisher)(티커: TMO)은 미국 혁신 바이오 & 글로벌 헬스케어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$36.5B",
-            "opProfit": "$7.5B",
-            "netProfit": "$6.0B",
-            "opMargin": "20.5%",
-            "eps": 18.27,
-            "roe": "13.5%",
-            "debtRatio": "81%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$39.6B",
-            "opProfit": "$8.5B",
-            "netProfit": "$6.8B",
-            "opMargin": "21.5%",
-            "eps": 19.78,
-            "roe": "14%",
-            "debtRatio": "78%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$41.7B",
-            "opProfit": "$9.4B",
-            "netProfit": "$7.5B",
-            "opMargin": "22.5%",
-            "eps": 20.86,
-            "roe": "14.5%",
-            "debtRatio": "75%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$46.4B",
-            "opProfit": "$10.9B",
-            "netProfit": "$8.7B",
-            "opMargin": "23.5%",
-            "eps": 23.22,
-            "roe": "15%",
-            "debtRatio": "72%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$51.6B",
+            "revenue": "$38.3B",
             "opProfit": "$12.6B",
             "netProfit": "$10.1B",
-            "opMargin": "24.5%",
-            "eps": 25.8,
-            "roe": "15.5%",
-            "debtRatio": "69%"
-          }
-        ]
-      },
-      {
-        "name": "유나이티드헬스 (UnitedHealth)",
-        "code": "UNH",
-        "marketCap": "$535.0B",
-        "revenue": "$375.0B",
-        "operatingProfit": "$33.0B",
-        "opMargin": 8.8,
-        "eps": 27.5,
-        "per": 21,
-        "pbr": 5.5,
-        "roe": 26,
-        "debtRatio": 70,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 1.4,
-        "payoutRatio": 29,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $721.88 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 혁신 바이오 & 글로벌 헬스케어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $375.0B, 영업이익 $33.0B (OPM 8.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 26%, 배당수익률 1.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "유나이티드헬스 (UnitedHealth)(티커: UNH)은 미국 혁신 바이오 & 글로벌 헬스케어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$318.8B",
-            "opProfit": "$21.7B",
-            "netProfit": "$17.3B",
-            "opMargin": "6.8%",
-            "eps": 23.38,
-            "roe": "25%",
-            "debtRatio": "76%"
+            "opMargin": "33%",
+            "eps": 12.33,
+            "roe": "64%",
+            "debtRatio": "151%"
           },
           {
             "year": "2022",
-            "revenue": "$345.0B",
-            "opProfit": "$26.9B",
-            "netProfit": "$21.5B",
-            "opMargin": "7.8%",
-            "eps": 25.3,
-            "roe": "25.5%",
-            "debtRatio": "73%"
+            "revenue": "$41.4B",
+            "opProfit": "$14.1B",
+            "netProfit": "$11.3B",
+            "opMargin": "34%",
+            "eps": 13.34,
+            "roe": "64.5%",
+            "debtRatio": "148%"
           },
           {
             "year": "2023",
-            "revenue": "$363.8B",
-            "opProfit": "$32.0B",
-            "netProfit": "$25.6B",
-            "opMargin": "8.8%",
-            "eps": 26.68,
-            "roe": "26%",
-            "debtRatio": "70%"
+            "revenue": "$43.6B",
+            "opProfit": "$15.3B",
+            "netProfit": "$12.2B",
+            "opMargin": "35%",
+            "eps": 14.07,
+            "roe": "65%",
+            "debtRatio": "145%"
           },
           {
             "year": "2024",
-            "revenue": "$405.0B",
-            "opProfit": "$39.7B",
-            "netProfit": "$31.8B",
-            "opMargin": "9.8%",
-            "eps": 29.7,
-            "roe": "26.5%",
-            "debtRatio": "67%"
+            "revenue": "$48.6B",
+            "opProfit": "$17.5B",
+            "netProfit": "$14.0B",
+            "opMargin": "36%",
+            "eps": 15.66,
+            "roe": "65.5%",
+            "debtRatio": "142%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$450.0B",
-            "opProfit": "$48.6B",
-            "netProfit": "$38.9B",
-            "opMargin": "10.8%",
-            "eps": 33,
-            "roe": "27%",
-            "debtRatio": "64%"
+            "revenue": "$54.0B",
+            "opProfit": "$20.0B",
+            "netProfit": "$16.0B",
+            "opMargin": "37%",
+            "eps": 17.4,
+            "roe": "66%",
+            "debtRatio": "139%"
           }
         ]
       },
@@ -212958,116 +213395,187 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "암젠 (Amgen)",
         "code": "AMGN",
         "marketCap": "$175.0B",
-        "revenue": "$28.0B",
-        "operatingProfit": "$9.0B",
+        "revenue": "$33.0B",
+        "operatingProfit": "$10.6B",
         "opMargin": 32,
-        "eps": 20,
-        "per": 16,
-        "pbr": 28,
-        "roe": 125,
-        "debtRatio": 480,
+        "eps": 18.2,
+        "per": 17.5,
+        "pbr": 18,
+        "roe": 48,
+        "debtRatio": 210,
         "currentRatio": 140,
         "riskStatus": "WARNING",
         "dividendYield": 2.8,
-        "payoutRatio": 45,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $400.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 혁신 바이오 & 글로벌 헬스케어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $28.0B, 영업이익 $9.0B (OPM 32%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 125%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "암젠 (Amgen)(티커: AMGN)은 미국 혁신 바이오 & 글로벌 헬스케어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 49,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $398.13 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 비만/당뇨 치료제 & GLP-1 혁신신약 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $33.0B, 영업이익 $10.6B (OPM 32%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 48%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "암젠 (Amgen)(티커: AMGN)은 미국 비만/당뇨 치료제 & GLP-1 혁신신약 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$23.8B",
-            "opProfit": "$7.1B",
-            "netProfit": "$5.7B",
+            "revenue": "$28.1B",
+            "opProfit": "$8.4B",
+            "netProfit": "$6.7B",
             "opMargin": "30%",
-            "eps": 17,
-            "roe": "124%",
-            "debtRatio": "486%"
+            "eps": 15.47,
+            "roe": "47%",
+            "debtRatio": "216%"
           },
           {
             "year": "2022",
-            "revenue": "$25.8B",
-            "opProfit": "$8.0B",
-            "netProfit": "$6.4B",
+            "revenue": "$30.4B",
+            "opProfit": "$9.4B",
+            "netProfit": "$7.5B",
             "opMargin": "31%",
-            "eps": 18.4,
-            "roe": "124.5%",
-            "debtRatio": "483%"
+            "eps": 16.74,
+            "roe": "47.5%",
+            "debtRatio": "213%"
           },
           {
             "year": "2023",
-            "revenue": "$27.2B",
-            "opProfit": "$8.7B",
-            "netProfit": "$7.0B",
+            "revenue": "$32.0B",
+            "opProfit": "$10.2B",
+            "netProfit": "$8.2B",
             "opMargin": "32%",
-            "eps": 19.4,
-            "roe": "125%",
-            "debtRatio": "480%"
+            "eps": 17.65,
+            "roe": "48%",
+            "debtRatio": "210%"
           },
           {
             "year": "2024",
-            "revenue": "$30.2B",
-            "opProfit": "$10.0B",
-            "netProfit": "$8.0B",
+            "revenue": "$35.6B",
+            "opProfit": "$11.8B",
+            "netProfit": "$9.4B",
             "opMargin": "33%",
-            "eps": 21.6,
-            "roe": "125.5%",
-            "debtRatio": "477%"
+            "eps": 19.66,
+            "roe": "48.5%",
+            "debtRatio": "207%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$33.6B",
-            "opProfit": "$11.4B",
-            "netProfit": "$9.1B",
+            "revenue": "$39.6B",
+            "opProfit": "$13.5B",
+            "netProfit": "$10.8B",
             "opMargin": "34%",
-            "eps": 24,
-            "roe": "126%",
-            "debtRatio": "474%"
+            "eps": 21.84,
+            "roe": "49%",
+            "debtRatio": "204%"
+          }
+        ]
+      },
+      {
+        "name": "바이킹 테라퓨틱스 (Viking Therapeutics)",
+        "code": "VKTX",
+        "marketCap": "$8.5B",
+        "revenue": "$0.1B",
+        "operatingProfit": "$-0.0B",
+        "opMargin": -45,
+        "eps": -1.8,
+        "per": -1,
+        "pbr": 8.5,
+        "roe": -12,
+        "debtRatio": 2,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $2.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 비만/당뇨 치료제 & GLP-1 혁신신약 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $0.1B, 영업이익 $-0.0B (OPM -45%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE -12%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "바이킹 테라퓨틱스 (Viking Therapeutics)(티커: VKTX)은 미국 비만/당뇨 치료제 & GLP-1 혁신신약 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$0.0B",
+            "opProfit": "$-0.0B",
+            "netProfit": "$-0.0B",
+            "opMargin": "-47%",
+            "eps": -1.53,
+            "roe": "-13%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$0.0B",
+            "opProfit": "$-0.0B",
+            "netProfit": "$-0.0B",
+            "opMargin": "-46%",
+            "eps": -1.66,
+            "roe": "-12.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$0.0B",
+            "opProfit": "$-0.0B",
+            "netProfit": "$-0.0B",
+            "opMargin": "-45%",
+            "eps": -1.75,
+            "roe": "-12%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$0.1B",
+            "opProfit": "$-0.0B",
+            "netProfit": "$-0.0B",
+            "opMargin": "-44%",
+            "eps": -1.94,
+            "roe": "-11.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$0.1B",
+            "opProfit": "$-0.0B",
+            "netProfit": "$-0.0B",
+            "opMargin": "-43%",
+            "eps": -2.16,
+            "roe": "-11%",
+            "debtRatio": "15%"
           }
         ]
       }
     ]
   },
   {
-    "id": "us-finance",
+    "id": "us-megapharma",
     "country": "미국",
-    "sector": "글로벌 금융 & 결제 인프라",
-    "chapterTitle": "미국 ➔ 금융·결제",
-    "cluster": "금융·결제",
-    "stockCount": 8,
-    "changeRate": "0.06",
+    "sector": "글로벌 메가 빅파마 & 면역항암제",
+    "chapterTitle": "미국 ➔ 바이오·제약",
+    "cluster": "바이오·제약",
+    "stockCount": 5,
+    "changeRate": "-0.60",
     "correlationLogic": {
-      "formula": "대출잔액 × NIM + 글로벌 결제 거래액(TPV) 수수료 = 고수익 ROE",
+      "formula": "특허 보유 블록버스터 매출 + 차세대 ADC/이중항체 파이프라인 = 안정적 현금흐름",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 글로벌 금융 & 결제 인프라 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 글로벌 메가 빅파마 & 면역항암제 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "견조한 순이자마진 및 IB 수수료 회복, 글로벌 결제망 수수료 독점력",
+      "currentStatus": "면역항암제 키트루다 등 핵심 블록버스터의 견고한 매출과 3~4% 안정적 배당",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 금리수혜",
-        "summary": "견조한 순이자마진 및 IB 수수료 회복, 글로벌 결제망 수수료 독점력"
+        "badgeText": "🟢 방어주 & 배당",
+        "summary": "면역항암제 키트루다 등 핵심 블록버스터의 견고한 매출과 3~4% 안정적 배당"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 금리수혜",
-      "keyDriver": "미국 글로벌 금융 & 결제 인프라 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "미국 금융 XLF ETF & 연준 기준금리",
+      "statusBadge": "🟢 방어주 & 배당",
+      "keyDriver": "미국 글로벌 메가 빅파마 & 면역항암제 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "S&P500 헬스케어 지수 (XLV Index)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "글로벌 M&A 및 IPO 시장 재개, 자사주 매입과 배당 성향 40% 유지",
-      "bearFactor": "상업용 부동산(CRE) 대출 부실화 및 신용카드 연체율 상승"
+      "bullFactor": "ADC(항체약물접합체) 인수합병을 통한 특허 절벽 방어 및 신흥국 매출 성장",
+      "bearFactor": "미국 인플레이션 감축법(IRA) 약가 인하 협상 압박"
     },
     "indicators": [
       {
-        "name": "미국 금융 XLF ETF & 연준 기준금리",
+        "name": "S&P500 헬스케어 지수 (XLV Index)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 금융 & 결제 인프라 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "글로벌 메가 빅파마 & 면역항암제 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -213082,428 +213590,824 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "제이피모간체이스 (JPMorgan)",
-        "code": "JPM",
-        "marketCap": "$640.0B",
-        "revenue": "$165.0B",
-        "operatingProfit": "$62.7B",
-        "opMargin": 38,
-        "eps": 17.5,
-        "per": 12.5,
-        "pbr": 1.8,
-        "roe": 16.5,
-        "debtRatio": 850,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 2.2,
-        "payoutRatio": 28,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $273.44 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 & 결제 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $165.0B, 영업이익 $62.7B (OPM 38%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16.5%, 배당수익률 2.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "제이피모간체이스 (JPMorgan)(티커: JPM)은 미국 글로벌 금융 & 결제 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$140.3B",
-            "opProfit": "$50.5B",
-            "netProfit": "$40.4B",
-            "opMargin": "36%",
-            "eps": 14.88,
-            "roe": "15.5%",
-            "debtRatio": "856%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$151.8B",
-            "opProfit": "$56.2B",
-            "netProfit": "$44.9B",
-            "opMargin": "37%",
-            "eps": 16.1,
-            "roe": "16%",
-            "debtRatio": "853%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$160.0B",
-            "opProfit": "$60.8B",
-            "netProfit": "$48.7B",
-            "opMargin": "38%",
-            "eps": 16.97,
-            "roe": "16.5%",
-            "debtRatio": "850%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$178.2B",
-            "opProfit": "$69.5B",
-            "netProfit": "$55.6B",
-            "opMargin": "39%",
-            "eps": 18.9,
-            "roe": "17%",
-            "debtRatio": "847%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$198.0B",
-            "opProfit": "$79.2B",
-            "netProfit": "$63.4B",
-            "opMargin": "40%",
-            "eps": 21,
-            "roe": "17.5%",
-            "debtRatio": "844%"
-          }
-        ]
-      },
-      {
-        "name": "버크셔 해서웨이 (Berkshire)",
-        "code": "BRK.B",
-        "marketCap": "$1.01T",
-        "revenue": "$365.0B",
-        "operatingProfit": "$80.3B",
-        "opMargin": 22,
-        "eps": 22,
-        "per": 21,
-        "pbr": 1.6,
-        "roe": 13,
+        "name": "존슨앤드존슨 (Johnson & Johnson)",
+        "code": "JNJ",
+        "marketCap": "$390.0B",
+        "revenue": "$88.0B",
+        "operatingProfit": "$25.1B",
+        "opMargin": 28.5,
+        "eps": 9.8,
+        "per": 16.5,
+        "pbr": 5.2,
+        "roe": 31,
         "debtRatio": 45,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 0,
-        "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $577.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 & 결제 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $365.0B, 영업이익 $80.3B (OPM 22%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "버크셔 해서웨이 (Berkshire)(티커: BRK.B)은 미국 글로벌 금융 & 결제 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 3.1,
+        "payoutRatio": 51,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $202.13 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 빅파마 & 면역항암제 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $88.0B, 영업이익 $25.1B (OPM 28.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 31%, 배당수익률 3.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "존슨앤드존슨 (Johnson & Johnson)(티커: JNJ)은 미국 글로벌 메가 빅파마 & 면역항암제 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$310.3B",
-            "opProfit": "$62.1B",
-            "netProfit": "$49.6B",
-            "opMargin": "20%",
-            "eps": 18.7,
-            "roe": "12%",
+            "revenue": "$74.8B",
+            "opProfit": "$19.8B",
+            "netProfit": "$15.9B",
+            "opMargin": "26.5%",
+            "eps": 8.33,
+            "roe": "30%",
             "debtRatio": "51%"
           },
           {
             "year": "2022",
-            "revenue": "$335.8B",
-            "opProfit": "$70.5B",
-            "netProfit": "$56.4B",
-            "opMargin": "21%",
-            "eps": 20.24,
-            "roe": "12.5%",
+            "revenue": "$81.0B",
+            "opProfit": "$22.3B",
+            "netProfit": "$17.8B",
+            "opMargin": "27.5%",
+            "eps": 9.02,
+            "roe": "30.5%",
             "debtRatio": "48%"
           },
           {
             "year": "2023",
-            "revenue": "$354.1B",
-            "opProfit": "$77.9B",
-            "netProfit": "$62.3B",
-            "opMargin": "22%",
-            "eps": 21.34,
-            "roe": "13%",
+            "revenue": "$85.4B",
+            "opProfit": "$24.3B",
+            "netProfit": "$19.5B",
+            "opMargin": "28.5%",
+            "eps": 9.51,
+            "roe": "31%",
             "debtRatio": "45%"
           },
           {
             "year": "2024",
-            "revenue": "$394.2B",
-            "opProfit": "$90.7B",
-            "netProfit": "$72.5B",
-            "opMargin": "23%",
-            "eps": 23.76,
-            "roe": "13.5%",
+            "revenue": "$95.0B",
+            "opProfit": "$28.0B",
+            "netProfit": "$22.4B",
+            "opMargin": "29.5%",
+            "eps": 10.58,
+            "roe": "31.5%",
             "debtRatio": "42%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$438.0B",
-            "opProfit": "$105.1B",
-            "netProfit": "$84.1B",
-            "opMargin": "24%",
-            "eps": 26.4,
-            "roe": "14%",
+            "revenue": "$105.6B",
+            "opProfit": "$32.2B",
+            "netProfit": "$25.8B",
+            "opMargin": "30.5%",
+            "eps": 11.76,
+            "roe": "32%",
             "debtRatio": "39%"
           }
         ]
       },
       {
-        "name": "비자 (Visa)",
-        "code": "V",
-        "marketCap": "$580.0B",
+        "name": "머크 (Merck & Co)",
+        "code": "MRK",
+        "marketCap": "$290.0B",
+        "revenue": "$63.0B",
+        "operatingProfit": "$21.4B",
+        "opMargin": 34,
+        "eps": 7.8,
+        "per": 15,
+        "pbr": 6.8,
+        "roe": 38,
+        "debtRatio": 75,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.7,
+        "payoutRatio": 41,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $146.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 빅파마 & 면역항암제 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $63.0B, 영업이익 $21.4B (OPM 34%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 38%, 배당수익률 2.7%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "머크 (Merck & Co)(티커: MRK)은 미국 글로벌 메가 빅파마 & 면역항암제 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$53.5B",
+            "opProfit": "$17.1B",
+            "netProfit": "$13.7B",
+            "opMargin": "32%",
+            "eps": 6.63,
+            "roe": "37%",
+            "debtRatio": "81%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$58.0B",
+            "opProfit": "$19.1B",
+            "netProfit": "$15.3B",
+            "opMargin": "33%",
+            "eps": 7.18,
+            "roe": "37.5%",
+            "debtRatio": "78%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$61.1B",
+            "opProfit": "$20.8B",
+            "netProfit": "$16.6B",
+            "opMargin": "34%",
+            "eps": 7.57,
+            "roe": "38%",
+            "debtRatio": "75%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$68.0B",
+            "opProfit": "$23.8B",
+            "netProfit": "$19.1B",
+            "opMargin": "35%",
+            "eps": 8.42,
+            "roe": "38.5%",
+            "debtRatio": "72%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$75.6B",
+            "opProfit": "$27.2B",
+            "netProfit": "$21.8B",
+            "opMargin": "36%",
+            "eps": 9.36,
+            "roe": "39%",
+            "debtRatio": "69%"
+          }
+        ]
+      },
+      {
+        "name": "애브비 (AbbVie)",
+        "code": "ABBV",
+        "marketCap": "$340.0B",
+        "revenue": "$55.0B",
+        "operatingProfit": "$20.9B",
+        "opMargin": 38,
+        "eps": 11.2,
+        "per": 17,
+        "pbr": 25,
+        "roe": 85,
+        "debtRatio": 260,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 3.3,
+        "payoutRatio": 56,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $238.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 빅파마 & 면역항암제 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $55.0B, 영업이익 $20.9B (OPM 38%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 85%, 배당수익률 3.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "애브비 (AbbVie)(티커: ABBV)은 미국 글로벌 메가 빅파마 & 면역항암제 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$46.8B",
+            "opProfit": "$16.8B",
+            "netProfit": "$13.5B",
+            "opMargin": "36%",
+            "eps": 9.52,
+            "roe": "84%",
+            "debtRatio": "266%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$50.6B",
+            "opProfit": "$18.7B",
+            "netProfit": "$15.0B",
+            "opMargin": "37%",
+            "eps": 10.3,
+            "roe": "84.5%",
+            "debtRatio": "263%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$53.4B",
+            "opProfit": "$20.3B",
+            "netProfit": "$16.2B",
+            "opMargin": "38%",
+            "eps": 10.86,
+            "roe": "85%",
+            "debtRatio": "260%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$59.4B",
+            "opProfit": "$23.2B",
+            "netProfit": "$18.5B",
+            "opMargin": "39%",
+            "eps": 12.1,
+            "roe": "85.5%",
+            "debtRatio": "257%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$66.0B",
+            "opProfit": "$26.4B",
+            "netProfit": "$21.1B",
+            "opMargin": "40%",
+            "eps": 13.44,
+            "roe": "86%",
+            "debtRatio": "254%"
+          }
+        ]
+      },
+      {
+        "name": "화이자 (Pfizer)",
+        "code": "PFE",
+        "marketCap": "$165.0B",
+        "revenue": "$60.0B",
+        "operatingProfit": "$12.6B",
+        "opMargin": 21,
+        "eps": 2.4,
+        "per": 12,
+        "pbr": 1.8,
+        "roe": 14,
+        "debtRatio": 65,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 5.8,
+        "payoutRatio": 70,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $36.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 빅파마 & 면역항암제 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $60.0B, 영업이익 $12.6B (OPM 21%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 5.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "화이자 (Pfizer)(티커: PFE)은 미국 글로벌 메가 빅파마 & 면역항암제 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$51.0B",
+            "opProfit": "$9.7B",
+            "netProfit": "$7.8B",
+            "opMargin": "19%",
+            "eps": 2.04,
+            "roe": "13%",
+            "debtRatio": "71%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$55.2B",
+            "opProfit": "$11.0B",
+            "netProfit": "$8.8B",
+            "opMargin": "20%",
+            "eps": 2.21,
+            "roe": "13.5%",
+            "debtRatio": "68%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$58.2B",
+            "opProfit": "$12.2B",
+            "netProfit": "$9.8B",
+            "opMargin": "21%",
+            "eps": 2.33,
+            "roe": "14%",
+            "debtRatio": "65%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$64.8B",
+            "opProfit": "$14.3B",
+            "netProfit": "$11.4B",
+            "opMargin": "22%",
+            "eps": 2.59,
+            "roe": "14.5%",
+            "debtRatio": "62%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$72.0B",
+            "opProfit": "$16.6B",
+            "netProfit": "$13.2B",
+            "opMargin": "23%",
+            "eps": 2.88,
+            "roe": "15%",
+            "debtRatio": "59%"
+          }
+        ]
+      },
+      {
+        "name": "브리스톨 마이어스 스큅 (BMY)",
+        "code": "BMY",
+        "marketCap": "$110.0B",
+        "revenue": "$47.0B",
+        "operatingProfit": "$10.6B",
+        "opMargin": 22.5,
+        "eps": 4.2,
+        "per": 13.5,
+        "pbr": 4.8,
+        "roe": 28,
+        "debtRatio": 115,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 4.5,
+        "payoutRatio": 61,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $70.88 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 빅파마 & 면역항암제 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $47.0B, 영업이익 $10.6B (OPM 22.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 28%, 배당수익률 4.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "브리스톨 마이어스 스큅 (BMY)(티커: BMY)은 미국 글로벌 메가 빅파마 & 면역항암제 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$39.9B",
+            "opProfit": "$8.2B",
+            "netProfit": "$6.6B",
+            "opMargin": "20.5%",
+            "eps": 3.57,
+            "roe": "27%",
+            "debtRatio": "121%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$43.2B",
+            "opProfit": "$9.3B",
+            "netProfit": "$7.4B",
+            "opMargin": "21.5%",
+            "eps": 3.86,
+            "roe": "27.5%",
+            "debtRatio": "118%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$45.6B",
+            "opProfit": "$10.3B",
+            "netProfit": "$8.2B",
+            "opMargin": "22.5%",
+            "eps": 4.07,
+            "roe": "28%",
+            "debtRatio": "115%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$50.8B",
+            "opProfit": "$11.9B",
+            "netProfit": "$9.5B",
+            "opMargin": "23.5%",
+            "eps": 4.54,
+            "roe": "28.5%",
+            "debtRatio": "112%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$56.4B",
+            "opProfit": "$13.8B",
+            "netProfit": "$11.1B",
+            "opMargin": "24.5%",
+            "eps": 5.04,
+            "roe": "29%",
+            "debtRatio": "109%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "us-medtech",
+    "country": "미국",
+    "sector": "의료기기 & 첨단 로봇 수술",
+    "chapterTitle": "미국 ➔ 바이오·제약",
+    "cluster": "바이오·제약",
+    "stockCount": 4,
+    "changeRate": "1.39",
+    "correlationLogic": {
+      "formula": "수술 로봇 설치 대수 × 수술당 소모품 판매액 - R&D 비용 = OPM 35% 달성",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 의료기기 & 첨단 로봇 수술 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "다빈치 로봇 수술기 보급 확대와 고마진 소모품 반복 매출(Recurring Revenue) 폭증",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 독점적 지배력",
+        "summary": "다빈치 로봇 수술기 보급 확대와 고마진 소모품 반복 매출(Recurring Revenue) 폭증"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 독점적 지배력",
+      "keyDriver": "미국 의료기기 & 첨단 로봇 수술 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "다우존스 미국 의료기기 지수 (DJUSMC)",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "다빈치 5(Da Vinci 5) 차세대 모델 글로벌 업그레이드 사이클 개막",
+      "bearFactor": "GLP-1 약물 확산에 따른 특정 비만 관련 외과 수술 건수 일시 둔화 우려"
+    },
+    "indicators": [
+      {
+        "name": "다우존스 미국 의료기기 지수 (DJUSMC)",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "의료기기 & 첨단 로봇 수술 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "인튜이티브 서지컬 (Intuitive Surgical)",
+        "code": "ISRG",
+        "marketCap": "$185.0B",
+        "revenue": "$8.0B",
+        "operatingProfit": "$2.9B",
+        "opMargin": 36.5,
+        "eps": 6.8,
+        "per": 68,
+        "pbr": 11.5,
+        "roe": 18,
+        "debtRatio": 0,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $578.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 의료기기 & 첨단 로봇 수술 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $8.0B, 영업이익 $2.9B (OPM 36.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "인튜이티브 서지컬 (Intuitive Surgical)(티커: ISRG)은 미국 의료기기 & 첨단 로봇 수술 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$6.8B",
+            "opProfit": "$2.3B",
+            "netProfit": "$1.9B",
+            "opMargin": "34.5%",
+            "eps": 5.78,
+            "roe": "17%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$7.4B",
+            "opProfit": "$2.6B",
+            "netProfit": "$2.1B",
+            "opMargin": "35.5%",
+            "eps": 6.26,
+            "roe": "17.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$7.8B",
+            "opProfit": "$2.8B",
+            "netProfit": "$2.3B",
+            "opMargin": "36.5%",
+            "eps": 6.6,
+            "roe": "18%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$8.6B",
+            "opProfit": "$3.2B",
+            "netProfit": "$2.6B",
+            "opMargin": "37.5%",
+            "eps": 7.34,
+            "roe": "18.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$9.6B",
+            "opProfit": "$3.7B",
+            "netProfit": "$3.0B",
+            "opMargin": "38.5%",
+            "eps": 8.16,
+            "roe": "19%",
+            "debtRatio": "15%"
+          }
+        ]
+      },
+      {
+        "name": "메드트로닉 (Medtronic)",
+        "code": "MDT",
+        "marketCap": "$115.0B",
         "revenue": "$33.0B",
-        "operatingProfit": "$22.1B",
-        "opMargin": 67,
-        "eps": 10.2,
-        "per": 29,
-        "pbr": 13.5,
-        "roe": 48,
+        "operatingProfit": "$8.1B",
+        "opMargin": 24.5,
+        "eps": 5.4,
+        "per": 16,
+        "pbr": 2.3,
+        "roe": 13.5,
         "debtRatio": 55,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 0.7,
-        "payoutRatio": 20,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $369.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 & 결제 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $33.0B, 영업이익 $22.1B (OPM 67%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 48%, 배당수익률 0.7%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "비자 (Visa)(티커: V)은 미국 글로벌 금융 & 결제 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 3.2,
+        "payoutRatio": 51,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $108.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 의료기기 & 첨단 로봇 수술 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $33.0B, 영업이익 $8.1B (OPM 24.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13.5%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "메드트로닉 (Medtronic)(티커: MDT)은 미국 의료기기 & 첨단 로봇 수술 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "$28.1B",
-            "opProfit": "$18.2B",
-            "netProfit": "$14.6B",
-            "opMargin": "65%",
-            "eps": 8.67,
-            "roe": "47%",
+            "opProfit": "$6.3B",
+            "netProfit": "$5.0B",
+            "opMargin": "22.5%",
+            "eps": 4.59,
+            "roe": "12.5%",
             "debtRatio": "61%"
           },
           {
             "year": "2022",
             "revenue": "$30.4B",
-            "opProfit": "$20.0B",
-            "netProfit": "$16.0B",
-            "opMargin": "66%",
-            "eps": 9.38,
-            "roe": "47.5%",
+            "opProfit": "$7.1B",
+            "netProfit": "$5.7B",
+            "opMargin": "23.5%",
+            "eps": 4.97,
+            "roe": "13%",
             "debtRatio": "58%"
           },
           {
             "year": "2023",
             "revenue": "$32.0B",
-            "opProfit": "$21.4B",
-            "netProfit": "$17.2B",
-            "opMargin": "67%",
-            "eps": 9.89,
-            "roe": "48%",
+            "opProfit": "$7.8B",
+            "netProfit": "$6.3B",
+            "opMargin": "24.5%",
+            "eps": 5.24,
+            "roe": "13.5%",
             "debtRatio": "55%"
           },
           {
             "year": "2024",
             "revenue": "$35.6B",
-            "opProfit": "$24.2B",
-            "netProfit": "$19.4B",
-            "opMargin": "68%",
-            "eps": 11.02,
-            "roe": "48.5%",
+            "opProfit": "$9.1B",
+            "netProfit": "$7.3B",
+            "opMargin": "25.5%",
+            "eps": 5.83,
+            "roe": "14%",
             "debtRatio": "52%"
           },
           {
             "year": "2025(E)",
             "revenue": "$39.6B",
-            "opProfit": "$27.3B",
-            "netProfit": "$21.9B",
-            "opMargin": "69%",
-            "eps": 12.24,
-            "roe": "49%",
+            "opProfit": "$10.5B",
+            "netProfit": "$8.4B",
+            "opMargin": "26.5%",
+            "eps": 6.48,
+            "roe": "14.5%",
             "debtRatio": "49%"
           }
         ]
       },
       {
-        "name": "마스터카드 (Mastercard)",
-        "code": "MA",
-        "marketCap": "$460.0B",
-        "revenue": "$25.0B",
-        "operatingProfit": "$14.5B",
-        "opMargin": 58,
-        "eps": 14.5,
-        "per": 33,
-        "pbr": 55,
-        "roe": 165,
-        "debtRatio": 210,
+        "name": "보스턴 사이언티픽 (Boston Scientific)",
+        "code": "BSX",
+        "marketCap": "$125.0B",
+        "revenue": "$16.0B",
+        "operatingProfit": "$4.2B",
+        "opMargin": 26,
+        "eps": 2.6,
+        "per": 32,
+        "pbr": 5.8,
+        "roe": 16.5,
+        "debtRatio": 48,
         "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 0.5,
-        "payoutRatio": 17,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $598.13 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 & 결제 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $25.0B, 영업이익 $14.5B (OPM 58%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 165%, 배당수익률 0.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "마스터카드 (Mastercard)(티커: MA)은 미국 글로벌 금융 & 결제 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $104.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 의료기기 & 첨단 로봇 수술 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $16.0B, 영업이익 $4.2B (OPM 26%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16.5%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "보스턴 사이언티픽 (Boston Scientific)(티커: BSX)은 미국 의료기기 & 첨단 로봇 수술 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$21.3B",
-            "opProfit": "$11.9B",
-            "netProfit": "$9.5B",
-            "opMargin": "56%",
-            "eps": 12.33,
-            "roe": "164%",
-            "debtRatio": "216%"
+            "revenue": "$13.6B",
+            "opProfit": "$3.3B",
+            "netProfit": "$2.6B",
+            "opMargin": "24%",
+            "eps": 2.21,
+            "roe": "15.5%",
+            "debtRatio": "54%"
           },
           {
             "year": "2022",
-            "revenue": "$23.0B",
-            "opProfit": "$13.1B",
-            "netProfit": "$10.5B",
-            "opMargin": "57%",
-            "eps": 13.34,
-            "roe": "164.5%",
-            "debtRatio": "213%"
+            "revenue": "$14.7B",
+            "opProfit": "$3.7B",
+            "netProfit": "$2.9B",
+            "opMargin": "25%",
+            "eps": 2.39,
+            "roe": "16%",
+            "debtRatio": "51%"
           },
           {
             "year": "2023",
-            "revenue": "$24.3B",
-            "opProfit": "$14.1B",
-            "netProfit": "$11.3B",
-            "opMargin": "58%",
-            "eps": 14.07,
-            "roe": "165%",
-            "debtRatio": "210%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$27.0B",
-            "opProfit": "$15.9B",
-            "netProfit": "$12.7B",
-            "opMargin": "59%",
-            "eps": 15.66,
-            "roe": "165.5%",
-            "debtRatio": "207%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$30.0B",
-            "opProfit": "$18.0B",
-            "netProfit": "$14.4B",
-            "opMargin": "60%",
-            "eps": 17.4,
-            "roe": "166%",
-            "debtRatio": "204%"
-          }
-        ]
-      },
-      {
-        "name": "뱅크오브아메리카 (BofA)",
-        "code": "BAC",
-        "marketCap": "$330.0B",
-        "revenue": "$100.0B",
-        "operatingProfit": "$30.0B",
-        "opMargin": 30,
-        "eps": 3.5,
-        "per": 12,
-        "pbr": 1.2,
-        "roe": 10.5,
-        "debtRatio": 920,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 2.4,
-        "payoutRatio": 29,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $52.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 & 결제 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $100.0B, 영업이익 $30.0B (OPM 30%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10.5%, 배당수익률 2.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "뱅크오브아메리카 (BofA)(티커: BAC)은 미국 글로벌 금융 & 결제 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$85.0B",
-            "opProfit": "$23.8B",
-            "netProfit": "$19.0B",
-            "opMargin": "28%",
-            "eps": 2.98,
-            "roe": "9.5%",
-            "debtRatio": "926%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$92.0B",
-            "opProfit": "$26.7B",
-            "netProfit": "$21.3B",
-            "opMargin": "29%",
-            "eps": 3.22,
-            "roe": "10%",
-            "debtRatio": "923%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$97.0B",
-            "opProfit": "$29.1B",
-            "netProfit": "$23.3B",
-            "opMargin": "30%",
-            "eps": 3.4,
-            "roe": "10.5%",
-            "debtRatio": "920%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$108.0B",
-            "opProfit": "$33.5B",
-            "netProfit": "$26.8B",
-            "opMargin": "31%",
-            "eps": 3.78,
-            "roe": "11%",
-            "debtRatio": "917%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$120.0B",
-            "opProfit": "$38.4B",
-            "netProfit": "$30.7B",
-            "opMargin": "32%",
-            "eps": 4.2,
-            "roe": "11.5%",
-            "debtRatio": "914%"
-          }
-        ]
-      },
-      {
-        "name": "모건스탠리 (Morgan Stanley)",
-        "code": "MS",
-        "marketCap": "$185.0B",
-        "revenue": "$54.0B",
-        "operatingProfit": "$15.1B",
-        "opMargin": 28,
-        "eps": 7.5,
-        "per": 15,
-        "pbr": 1.8,
-        "roe": 13,
-        "debtRatio": 750,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 3.1,
-        "payoutRatio": 47,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $140.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 & 결제 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $54.0B, 영업이익 $15.1B (OPM 28%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13%, 배당수익률 3.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "모건스탠리 (Morgan Stanley)(티커: MS)은 미국 글로벌 금융 & 결제 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$45.9B",
-            "opProfit": "$11.9B",
-            "netProfit": "$9.5B",
+            "revenue": "$15.5B",
+            "opProfit": "$4.0B",
+            "netProfit": "$3.2B",
             "opMargin": "26%",
-            "eps": 6.38,
-            "roe": "12%",
-            "debtRatio": "756%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$49.7B",
-            "opProfit": "$13.4B",
-            "netProfit": "$10.7B",
-            "opMargin": "27%",
-            "eps": 6.9,
-            "roe": "12.5%",
-            "debtRatio": "753%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$52.4B",
-            "opProfit": "$14.7B",
-            "netProfit": "$11.7B",
-            "opMargin": "28%",
-            "eps": 7.28,
-            "roe": "13%",
-            "debtRatio": "750%"
+            "eps": 2.52,
+            "roe": "16.5%",
+            "debtRatio": "48%"
           },
           {
             "year": "2024",
-            "revenue": "$58.3B",
-            "opProfit": "$16.9B",
-            "netProfit": "$13.5B",
-            "opMargin": "29%",
-            "eps": 8.1,
-            "roe": "13.5%",
-            "debtRatio": "747%"
+            "revenue": "$17.3B",
+            "opProfit": "$4.7B",
+            "netProfit": "$3.7B",
+            "opMargin": "27%",
+            "eps": 2.81,
+            "roe": "17%",
+            "debtRatio": "45%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$64.8B",
-            "opProfit": "$19.4B",
-            "netProfit": "$15.6B",
-            "opMargin": "30%",
-            "eps": 9,
-            "roe": "14%",
-            "debtRatio": "744%"
+            "revenue": "$19.2B",
+            "opProfit": "$5.4B",
+            "netProfit": "$4.3B",
+            "opMargin": "28%",
+            "eps": 3.12,
+            "roe": "17.5%",
+            "debtRatio": "42%"
+          }
+        ]
+      },
+      {
+        "name": "스트라이커 (Stryker)",
+        "code": "SYK",
+        "marketCap": "$140.0B",
+        "revenue": "$21.0B",
+        "operatingProfit": "$5.0B",
+        "opMargin": 24,
+        "eps": 12.1,
+        "per": 29,
+        "pbr": 7.2,
+        "roe": 21,
+        "debtRatio": 62,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0.9,
+        "payoutRatio": 26,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $438.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 의료기기 & 첨단 로봇 수술 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $21.0B, 영업이익 $5.0B (OPM 24%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 21%, 배당수익률 0.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "스트라이커 (Stryker)(티커: SYK)은 미국 의료기기 & 첨단 로봇 수술 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$17.8B",
+            "opProfit": "$3.9B",
+            "netProfit": "$3.1B",
+            "opMargin": "22%",
+            "eps": 10.29,
+            "roe": "20%",
+            "debtRatio": "68%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$19.3B",
+            "opProfit": "$4.4B",
+            "netProfit": "$3.6B",
+            "opMargin": "23%",
+            "eps": 11.13,
+            "roe": "20.5%",
+            "debtRatio": "65%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$20.4B",
+            "opProfit": "$4.9B",
+            "netProfit": "$3.9B",
+            "opMargin": "24%",
+            "eps": 11.74,
+            "roe": "21%",
+            "debtRatio": "62%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$22.7B",
+            "opProfit": "$5.7B",
+            "netProfit": "$4.5B",
+            "opMargin": "25%",
+            "eps": 13.07,
+            "roe": "21.5%",
+            "debtRatio": "59%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$25.2B",
+            "opProfit": "$6.6B",
+            "netProfit": "$5.2B",
+            "opMargin": "26%",
+            "eps": 14.52,
+            "roe": "22%",
+            "debtRatio": "56%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "us-investment-bank",
+    "country": "미국",
+    "sector": "글로벌 메가뱅크 & 투자은행",
+    "chapterTitle": "미국 ➔ 금융·결제",
+    "cluster": "금융·결제",
+    "stockCount": 5,
+    "changeRate": "-0.00",
+    "correlationLogic": {
+      "formula": "대출 자산 성장 × 순이자마진(NIM) + IB 자문 수수료 = 자기자본이익률(ROE) 17%",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 글로벌 메가뱅크 & 투자은행 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "글로벌 M&A 및 기업공개(IPO) 주관 수수료 급증과 순이자마진(NIM) 방어 성공",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 IB 수수료 반등",
+        "summary": "글로벌 M&A 및 기업공개(IPO) 주관 수수료 급증과 순이자마진(NIM) 방어 성공"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 IB 수수료 반등",
+      "keyDriver": "미국 글로벌 메가뱅크 & 투자은행 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "KBW 미국 은행 지수 (BKX Index)",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "금리 인하 사이클 도래에 따른 글로벌 자본시장 거래 대폭 회복",
+      "bearFactor": "상업용 부동산(CRE) 대출 손실 충당금 추가 적립 가능성"
+    },
+    "indicators": [
+      {
+        "name": "KBW 미국 은행 지수 (BKX Index)",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 메가뱅크 & 투자은행 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "제이피모건 체이스 (JPMorgan Chase)",
+        "code": "JPM",
+        "marketCap": "$640.0B",
+        "revenue": "$165.0B",
+        "operatingProfit": "$69.3B",
+        "opMargin": 42,
+        "eps": 18.2,
+        "per": 12.5,
+        "pbr": 1.8,
+        "roe": 17.5,
+        "debtRatio": 820,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 2.2,
+        "payoutRatio": 28,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $284.38 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가뱅크 & 투자은행 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $165.0B, 영업이익 $69.3B (OPM 42%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 17.5%, 배당수익률 2.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "제이피모건 체이스 (JPMorgan Chase)(티커: JPM)은 미국 글로벌 메가뱅크 & 투자은행 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$140.3B",
+            "opProfit": "$56.1B",
+            "netProfit": "$44.9B",
+            "opMargin": "40%",
+            "eps": 15.47,
+            "roe": "16.5%",
+            "debtRatio": "826%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$151.8B",
+            "opProfit": "$62.2B",
+            "netProfit": "$49.8B",
+            "opMargin": "41%",
+            "eps": 16.74,
+            "roe": "17%",
+            "debtRatio": "823%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$160.0B",
+            "opProfit": "$67.2B",
+            "netProfit": "$53.8B",
+            "opMargin": "42%",
+            "eps": 17.65,
+            "roe": "17.5%",
+            "debtRatio": "820%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$178.2B",
+            "opProfit": "$76.6B",
+            "netProfit": "$61.3B",
+            "opMargin": "43%",
+            "eps": 19.66,
+            "roe": "18%",
+            "debtRatio": "817%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$198.0B",
+            "opProfit": "$87.1B",
+            "netProfit": "$69.7B",
+            "opMargin": "44%",
+            "eps": 21.84,
+            "roe": "18.5%",
+            "debtRatio": "814%"
           }
         ]
       },
@@ -213511,70 +214415,212 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "골드만삭스 (Goldman Sachs)",
         "code": "GS",
         "marketCap": "$175.0B",
-        "revenue": "$47.0B",
-        "operatingProfit": "$14.6B",
-        "opMargin": 31,
-        "eps": 37,
+        "revenue": "$48.0B",
+        "operatingProfit": "$16.8B",
+        "opMargin": 35,
+        "eps": 38.5,
         "per": 14,
-        "pbr": 1.5,
-        "roe": 12,
-        "debtRatio": 820,
+        "pbr": 1.4,
+        "roe": 13,
+        "debtRatio": 750,
         "currentRatio": 140,
         "riskStatus": "WARNING",
         "dividendYield": 2.3,
         "payoutRatio": 32,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $647.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 & 결제 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $47.0B, 영업이익 $14.6B (OPM 31%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 2.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "골드만삭스 (Goldman Sachs)(티커: GS)은 미국 글로벌 금융 & 결제 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $673.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가뱅크 & 투자은행 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $48.0B, 영업이익 $16.8B (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13%, 배당수익률 2.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "골드만삭스 (Goldman Sachs)(티커: GS)은 미국 글로벌 메가뱅크 & 투자은행 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$39.9B",
-            "opProfit": "$11.6B",
-            "netProfit": "$9.3B",
-            "opMargin": "29%",
-            "eps": 31.45,
-            "roe": "11%",
-            "debtRatio": "826%"
+            "revenue": "$40.8B",
+            "opProfit": "$13.5B",
+            "netProfit": "$10.8B",
+            "opMargin": "33%",
+            "eps": 32.73,
+            "roe": "12%",
+            "debtRatio": "756%"
           },
           {
             "year": "2022",
-            "revenue": "$43.2B",
-            "opProfit": "$13.0B",
-            "netProfit": "$10.4B",
-            "opMargin": "30%",
-            "eps": 34.04,
-            "roe": "11.5%",
-            "debtRatio": "823%"
+            "revenue": "$44.2B",
+            "opProfit": "$15.0B",
+            "netProfit": "$12.0B",
+            "opMargin": "34%",
+            "eps": 35.42,
+            "roe": "12.5%",
+            "debtRatio": "753%"
           },
           {
             "year": "2023",
-            "revenue": "$45.6B",
-            "opProfit": "$14.1B",
-            "netProfit": "$11.3B",
-            "opMargin": "31%",
-            "eps": 35.89,
-            "roe": "12%",
-            "debtRatio": "820%"
+            "revenue": "$46.6B",
+            "opProfit": "$16.3B",
+            "netProfit": "$13.0B",
+            "opMargin": "35%",
+            "eps": 37.35,
+            "roe": "13%",
+            "debtRatio": "750%"
           },
           {
             "year": "2024",
-            "revenue": "$50.8B",
-            "opProfit": "$16.2B",
-            "netProfit": "$13.0B",
-            "opMargin": "32%",
-            "eps": 39.96,
-            "roe": "12.5%",
-            "debtRatio": "817%"
+            "revenue": "$51.8B",
+            "opProfit": "$18.7B",
+            "netProfit": "$14.9B",
+            "opMargin": "36%",
+            "eps": 41.58,
+            "roe": "13.5%",
+            "debtRatio": "747%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$56.4B",
-            "opProfit": "$18.6B",
-            "netProfit": "$14.9B",
+            "revenue": "$57.6B",
+            "opProfit": "$21.3B",
+            "netProfit": "$17.0B",
+            "opMargin": "37%",
+            "eps": 46.2,
+            "roe": "14%",
+            "debtRatio": "744%"
+          }
+        ]
+      },
+      {
+        "name": "모건스탠리 (Morgan Stanley)",
+        "code": "MS",
+        "marketCap": "$185.0B",
+        "revenue": "$56.0B",
+        "operatingProfit": "$17.9B",
+        "opMargin": 32,
+        "eps": 7.2,
+        "per": 16.5,
+        "pbr": 1.9,
+        "roe": 14.5,
+        "debtRatio": 710,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 3.1,
+        "payoutRatio": 51,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $148.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가뱅크 & 투자은행 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $56.0B, 영업이익 $17.9B (OPM 32%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 3.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "모건스탠리 (Morgan Stanley)(티커: MS)은 미국 글로벌 메가뱅크 & 투자은행 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$47.6B",
+            "opProfit": "$14.3B",
+            "netProfit": "$11.4B",
+            "opMargin": "30%",
+            "eps": 6.12,
+            "roe": "13.5%",
+            "debtRatio": "716%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$51.5B",
+            "opProfit": "$16.0B",
+            "netProfit": "$12.8B",
+            "opMargin": "31%",
+            "eps": 6.62,
+            "roe": "14%",
+            "debtRatio": "713%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$54.3B",
+            "opProfit": "$17.4B",
+            "netProfit": "$13.9B",
+            "opMargin": "32%",
+            "eps": 6.98,
+            "roe": "14.5%",
+            "debtRatio": "710%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$60.5B",
+            "opProfit": "$20.0B",
+            "netProfit": "$16.0B",
             "opMargin": "33%",
-            "eps": 44.4,
-            "roe": "13%",
-            "debtRatio": "814%"
+            "eps": 7.78,
+            "roe": "15%",
+            "debtRatio": "707%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$67.2B",
+            "opProfit": "$22.8B",
+            "netProfit": "$18.3B",
+            "opMargin": "34%",
+            "eps": 8.64,
+            "roe": "15.5%",
+            "debtRatio": "704%"
+          }
+        ]
+      },
+      {
+        "name": "뱅크오브아메리카 (Bank of America)",
+        "code": "BAC",
+        "marketCap": "$340.0B",
+        "revenue": "$102.0B",
+        "operatingProfit": "$35.7B",
+        "opMargin": 35,
+        "eps": 3.5,
+        "per": 12,
+        "pbr": 1.2,
+        "roe": 11.5,
+        "debtRatio": 840,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 2.4,
+        "payoutRatio": 29,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $52.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가뱅크 & 투자은행 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $102.0B, 영업이익 $35.7B (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11.5%, 배당수익률 2.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "뱅크오브아메리카 (Bank of America)(티커: BAC)은 미국 글로벌 메가뱅크 & 투자은행 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$86.7B",
+            "opProfit": "$28.6B",
+            "netProfit": "$22.9B",
+            "opMargin": "33%",
+            "eps": 2.98,
+            "roe": "10.5%",
+            "debtRatio": "846%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$93.8B",
+            "opProfit": "$31.9B",
+            "netProfit": "$25.5B",
+            "opMargin": "34%",
+            "eps": 3.22,
+            "roe": "11%",
+            "debtRatio": "843%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$98.9B",
+            "opProfit": "$34.6B",
+            "netProfit": "$27.7B",
+            "opMargin": "35%",
+            "eps": 3.4,
+            "roe": "11.5%",
+            "debtRatio": "840%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$110.2B",
+            "opProfit": "$39.7B",
+            "netProfit": "$31.7B",
+            "opMargin": "36%",
+            "eps": 3.78,
+            "roe": "12%",
+            "debtRatio": "837%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$122.4B",
+            "opProfit": "$45.3B",
+            "netProfit": "$36.2B",
+            "opMargin": "37%",
+            "eps": 4.2,
+            "roe": "12.5%",
+            "debtRatio": "834%"
           }
         ]
       },
@@ -213582,116 +214628,527 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "블랙록 (BlackRock)",
         "code": "BLK",
         "marketCap": "$155.0B",
-        "revenue": "$18.0B",
-        "operatingProfit": "$6.7B",
-        "opMargin": 37,
+        "revenue": "$20.0B",
+        "operatingProfit": "$8.5B",
+        "opMargin": 42.5,
         "eps": 42,
         "per": 24,
         "pbr": 3.5,
-        "roe": 15.5,
-        "debtRatio": 25,
+        "roe": 16.5,
+        "debtRatio": 35,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 2.1,
-        "payoutRatio": 50,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $1260.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 & 결제 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $18.0B, 영업이익 $6.7B (OPM 37%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15.5%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "블랙록 (BlackRock)(티커: BLK)은 미국 글로벌 금융 & 결제 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 2,
+        "payoutRatio": 48,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $1260.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가뱅크 & 투자은행 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $20.0B, 영업이익 $8.5B (OPM 42.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16.5%, 배당수익률 2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "블랙록 (BlackRock)(티커: BLK)은 미국 글로벌 메가뱅크 & 투자은행 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$15.3B",
-            "opProfit": "$5.4B",
-            "netProfit": "$4.3B",
-            "opMargin": "35%",
+            "revenue": "$17.0B",
+            "opProfit": "$6.9B",
+            "netProfit": "$5.5B",
+            "opMargin": "40.5%",
             "eps": 35.7,
-            "roe": "14.5%",
-            "debtRatio": "31%"
+            "roe": "15.5%",
+            "debtRatio": "41%"
           },
           {
             "year": "2022",
-            "revenue": "$16.6B",
-            "opProfit": "$6.0B",
-            "netProfit": "$4.8B",
-            "opMargin": "36%",
+            "revenue": "$18.4B",
+            "opProfit": "$7.6B",
+            "netProfit": "$6.1B",
+            "opMargin": "41.5%",
             "eps": 38.64,
-            "roe": "15%",
-            "debtRatio": "28%"
+            "roe": "16%",
+            "debtRatio": "38%"
           },
           {
             "year": "2023",
-            "revenue": "$17.5B",
-            "opProfit": "$6.5B",
-            "netProfit": "$5.2B",
-            "opMargin": "37%",
+            "revenue": "$19.4B",
+            "opProfit": "$8.2B",
+            "netProfit": "$6.6B",
+            "opMargin": "42.5%",
             "eps": 40.74,
-            "roe": "15.5%",
-            "debtRatio": "25%"
+            "roe": "16.5%",
+            "debtRatio": "35%"
           },
           {
             "year": "2024",
-            "revenue": "$19.4B",
-            "opProfit": "$7.4B",
-            "netProfit": "$5.9B",
-            "opMargin": "38%",
+            "revenue": "$21.6B",
+            "opProfit": "$9.4B",
+            "netProfit": "$7.5B",
+            "opMargin": "43.5%",
             "eps": 45.36,
-            "roe": "16%",
-            "debtRatio": "22%"
+            "roe": "17%",
+            "debtRatio": "32%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$21.6B",
-            "opProfit": "$8.4B",
-            "netProfit": "$6.7B",
-            "opMargin": "39%",
+            "revenue": "$24.0B",
+            "opProfit": "$10.7B",
+            "netProfit": "$8.5B",
+            "opMargin": "44.5%",
             "eps": 50.4,
-            "roe": "16.5%",
-            "debtRatio": "19%"
+            "roe": "17.5%",
+            "debtRatio": "29%"
           }
         ]
       }
     ]
   },
   {
-    "id": "us-mobility",
+    "id": "us-fintech-payment",
     "country": "미국",
-    "sector": "전기차 & 모빌리티 & 항공우주",
-    "chapterTitle": "미국 ➔ 전기차·모빌리티",
-    "cluster": "전기차·모빌리티",
-    "stockCount": 8,
-    "changeRate": "-0.47",
+    "sector": "디지털 결제망 & 글로벌 핀테크",
+    "chapterTitle": "미국 ➔ 금융·결제",
+    "cluster": "금융·결제",
+    "stockCount": 5,
+    "changeRate": "1.21",
     "correlationLogic": {
-      "formula": "차량 및 항공기 인도대수(Q) × 고부가 ASP + 자율주행 SW 마진",
+      "formula": "총 결제액(TPV) × 가맹점 수수료율 - 플랫폼 운영비 = 압도적 영업현금흐름",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 전기차 & 모빌리티 & 항공우주 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 디지털 결제망 & 글로벌 핀테크 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "자율주행 FSD 및 로보택시, 방위비 증액에 따른 항공방산 수주 잔고 급증",
+      "currentStatus": "글로벌 소비 결제액 수수료 기반 OPM 55~65%의 경이적인 독점적 경제적 해자",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 AI 혁신",
-        "summary": "자율주행 FSD 및 로보택시, 방위비 증액에 따른 항공방산 수주 잔고 급증"
+        "badgeText": "🟢 독과점 현금창출",
+        "summary": "글로벌 소비 결제액 수수료 기반 OPM 55~65%의 경이적인 독점적 경제적 해자"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 AI 혁신",
-      "keyDriver": "미국 전기차 & 모빌리티 & 항공우주 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "미국 산업재 XLI ETF 지수",
+      "statusBadge": "🟢 독과점 현금창출",
+      "keyDriver": "미국 디지털 결제망 & 글로벌 핀테크 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "글로벌 결제 지수 & 국경 간 여행 결제 통계",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "FSD v13 상용화 가속 및 북미 우주항공/방위산업 수주 호황",
-      "bearFactor": "글로벌 전기차 가격 인하 경쟁 및 보잉 기체 품질 이슈"
+      "bullFactor": "해외 여행 크로스보더(국경 간) 결제 폭증 및 B2B 상거래 결제망 침투",
+      "bearFactor": "미 법무부의 직불카드 수수료 반독점 제소 및 핀테크 간 수수료 인하 압박"
     },
     "indicators": [
       {
-        "name": "미국 산업재 XLI ETF 지수",
+        "name": "글로벌 결제 지수 & 국경 간 여행 결제 통계",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "전기차 & 모빌리티 & 항공우주 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "디지털 결제망 & 글로벌 핀테크 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "비자 (Visa)",
+        "code": "V",
+        "marketCap": "$610.0B",
+        "revenue": "$35.0B",
+        "operatingProfit": "$23.3B",
+        "opMargin": 66.5,
+        "eps": 10.5,
+        "per": 28,
+        "pbr": 14.5,
+        "roe": 52,
+        "debtRatio": 48,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0.8,
+        "payoutRatio": 22,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $367.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 디지털 결제망 & 글로벌 핀테크 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $35.0B, 영업이익 $23.3B (OPM 66.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 52%, 배당수익률 0.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "비자 (Visa)(티커: V)은 미국 디지털 결제망 & 글로벌 핀테크 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$29.8B",
+            "opProfit": "$19.2B",
+            "netProfit": "$15.4B",
+            "opMargin": "64.5%",
+            "eps": 8.92,
+            "roe": "51%",
+            "debtRatio": "54%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$32.2B",
+            "opProfit": "$21.1B",
+            "netProfit": "$16.9B",
+            "opMargin": "65.5%",
+            "eps": 9.66,
+            "roe": "51.5%",
+            "debtRatio": "51%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$33.9B",
+            "opProfit": "$22.6B",
+            "netProfit": "$18.1B",
+            "opMargin": "66.5%",
+            "eps": 10.19,
+            "roe": "52%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$37.8B",
+            "opProfit": "$25.5B",
+            "netProfit": "$20.4B",
+            "opMargin": "67.5%",
+            "eps": 11.34,
+            "roe": "52.5%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$42.0B",
+            "opProfit": "$28.8B",
+            "netProfit": "$23.0B",
+            "opMargin": "68.5%",
+            "eps": 12.6,
+            "roe": "53%",
+            "debtRatio": "42%"
+          }
+        ]
+      },
+      {
+        "name": "마스터카드 (Mastercard)",
+        "code": "MA",
+        "marketCap": "$475.0B",
+        "revenue": "$27.0B",
+        "operatingProfit": "$15.7B",
+        "opMargin": 58,
+        "eps": 15.2,
+        "per": 32,
+        "pbr": 55,
+        "roe": 175,
+        "debtRatio": 180,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 0.5,
+        "payoutRatio": 16,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $608.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 디지털 결제망 & 글로벌 핀테크 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $27.0B, 영업이익 $15.7B (OPM 58%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 175%, 배당수익률 0.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "마스터카드 (Mastercard)(티커: MA)은 미국 디지털 결제망 & 글로벌 핀테크 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$22.9B",
+            "opProfit": "$12.9B",
+            "netProfit": "$10.3B",
+            "opMargin": "56%",
+            "eps": 12.92,
+            "roe": "174%",
+            "debtRatio": "186%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$24.8B",
+            "opProfit": "$14.2B",
+            "netProfit": "$11.3B",
+            "opMargin": "57%",
+            "eps": 13.98,
+            "roe": "174.5%",
+            "debtRatio": "183%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$26.2B",
+            "opProfit": "$15.2B",
+            "netProfit": "$12.2B",
+            "opMargin": "58%",
+            "eps": 14.74,
+            "roe": "175%",
+            "debtRatio": "180%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$29.2B",
+            "opProfit": "$17.2B",
+            "netProfit": "$13.8B",
+            "opMargin": "59%",
+            "eps": 16.42,
+            "roe": "175.5%",
+            "debtRatio": "177%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$32.4B",
+            "opProfit": "$19.4B",
+            "netProfit": "$15.6B",
+            "opMargin": "60%",
+            "eps": 18.24,
+            "roe": "176%",
+            "debtRatio": "174%"
+          }
+        ]
+      },
+      {
+        "name": "아메리칸 익스프레스 (American Express)",
+        "code": "AXP",
+        "marketCap": "$205.0B",
+        "revenue": "$64.0B",
+        "operatingProfit": "$12.5B",
+        "opMargin": 19.5,
+        "eps": 13.8,
+        "per": 20,
+        "pbr": 6.2,
+        "roe": 34,
+        "debtRatio": 160,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 1,
+        "payoutRatio": 20,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $345.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 디지털 결제망 & 글로벌 핀테크 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $64.0B, 영업이익 $12.5B (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 34%, 배당수익률 1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "아메리칸 익스프레스 (American Express)(티커: AXP)은 미국 디지털 결제망 & 글로벌 핀테크 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$54.4B",
+            "opProfit": "$9.5B",
+            "netProfit": "$7.6B",
+            "opMargin": "17.5%",
+            "eps": 11.73,
+            "roe": "33%",
+            "debtRatio": "166%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$58.9B",
+            "opProfit": "$10.9B",
+            "netProfit": "$8.7B",
+            "opMargin": "18.5%",
+            "eps": 12.7,
+            "roe": "33.5%",
+            "debtRatio": "163%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$62.1B",
+            "opProfit": "$12.1B",
+            "netProfit": "$9.7B",
+            "opMargin": "19.5%",
+            "eps": 13.39,
+            "roe": "34%",
+            "debtRatio": "160%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$69.1B",
+            "opProfit": "$14.2B",
+            "netProfit": "$11.3B",
+            "opMargin": "20.5%",
+            "eps": 14.9,
+            "roe": "34.5%",
+            "debtRatio": "157%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$76.8B",
+            "opProfit": "$16.5B",
+            "netProfit": "$13.2B",
+            "opMargin": "21.5%",
+            "eps": 16.56,
+            "roe": "35%",
+            "debtRatio": "154%"
+          }
+        ]
+      },
+      {
+        "name": "페이팔 (PayPal)",
+        "code": "PYPL",
+        "marketCap": "$85.0B",
+        "revenue": "$31.0B",
+        "operatingProfit": "$5.4B",
+        "opMargin": 17.5,
+        "eps": 4.8,
+        "per": 17,
+        "pbr": 3.8,
+        "roe": 21,
+        "debtRatio": 52,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $102.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 디지털 결제망 & 글로벌 핀테크 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $31.0B, 영업이익 $5.4B (OPM 17.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 21%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "페이팔 (PayPal)(티커: PYPL)은 미국 디지털 결제망 & 글로벌 핀테크 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$26.3B",
+            "opProfit": "$4.1B",
+            "netProfit": "$3.3B",
+            "opMargin": "15.5%",
+            "eps": 4.08,
+            "roe": "20%",
+            "debtRatio": "58%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$28.5B",
+            "opProfit": "$4.7B",
+            "netProfit": "$3.8B",
+            "opMargin": "16.5%",
+            "eps": 4.42,
+            "roe": "20.5%",
+            "debtRatio": "55%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$30.1B",
+            "opProfit": "$5.3B",
+            "netProfit": "$4.2B",
+            "opMargin": "17.5%",
+            "eps": 4.66,
+            "roe": "21%",
+            "debtRatio": "52%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$33.5B",
+            "opProfit": "$6.2B",
+            "netProfit": "$5.0B",
+            "opMargin": "18.5%",
+            "eps": 5.18,
+            "roe": "21.5%",
+            "debtRatio": "49%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$37.2B",
+            "opProfit": "$7.3B",
+            "netProfit": "$5.8B",
+            "opMargin": "19.5%",
+            "eps": 5.76,
+            "roe": "22%",
+            "debtRatio": "46%"
+          }
+        ]
+      },
+      {
+        "name": "블록 (Block Square)",
+        "code": "SQ",
+        "marketCap": "$48.0B",
+        "revenue": "$23.0B",
+        "operatingProfit": "$2.0B",
+        "opMargin": 8.5,
+        "eps": 2.8,
+        "per": 28,
+        "pbr": 2.5,
+        "roe": 9.5,
+        "debtRatio": 35,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $98.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 디지털 결제망 & 글로벌 핀테크 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $23.0B, 영업이익 $2.0B (OPM 8.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 9.5%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "블록 (Block Square)(티커: SQ)은 미국 디지털 결제망 & 글로벌 핀테크 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$19.6B",
+            "opProfit": "$1.3B",
+            "netProfit": "$1.0B",
+            "opMargin": "6.5%",
+            "eps": 2.38,
+            "roe": "8.5%",
+            "debtRatio": "41%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$21.2B",
+            "opProfit": "$1.6B",
+            "netProfit": "$1.3B",
+            "opMargin": "7.5%",
+            "eps": 2.58,
+            "roe": "9%",
+            "debtRatio": "38%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$22.3B",
+            "opProfit": "$1.9B",
+            "netProfit": "$1.5B",
+            "opMargin": "8.5%",
+            "eps": 2.72,
+            "roe": "9.5%",
+            "debtRatio": "35%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$24.8B",
+            "opProfit": "$2.4B",
+            "netProfit": "$1.9B",
+            "opMargin": "9.5%",
+            "eps": 3.02,
+            "roe": "10%",
+            "debtRatio": "32%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$27.6B",
+            "opProfit": "$2.9B",
+            "netProfit": "$2.3B",
+            "opMargin": "10.5%",
+            "eps": 3.36,
+            "roe": "10.5%",
+            "debtRatio": "29%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "us-ev-autonomous",
+    "country": "미국",
+    "sector": "순수 전기차 & 자율주행 FSD",
+    "chapterTitle": "미국 ➔ 전기차·모빌리티",
+    "cluster": "전기차·모빌리티",
+    "stockCount": 3,
+    "changeRate": "1.16",
+    "correlationLogic": {
+      "formula": "차량 인도량(Q) × ASP + FSD/에너지 스토리지 매출 - 배터리 원가 = 고마진 회복",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 순수 전기차 & 자율주행 FSD 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "로보택시(Cybercab) 공개와 완전자율주행 FSD v13 상용화로 하드웨어에서 AI로 리레이팅",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 AI 모빌리티 전환",
+        "summary": "로보택시(Cybercab) 공개와 완전자율주행 FSD v13 상용화로 하드웨어에서 AI로 리레이팅"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 AI 모빌리티 전환",
+      "keyDriver": "미국 순수 전기차 & 자율주행 FSD 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "미국 신차 중 순수전기차(BEV) 침투율 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "메가팩 에너지 저장장치(ESS) 매출 100% 성장 및 자율주행 라이선싱 개시",
+      "bearFactor": "단기 글로벌 전기차 수요 둔화(캐즘) 및 가격 인하 경쟁"
+    },
+    "indicators": [
+      {
+        "name": "미국 신차 중 순수전기차(BEV) 침투율 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "순수 전기차 & 자율주행 FSD 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -213710,13 +215167,13 @@ window.REGIONAL_INDUSTRY_DATA = {
         "code": "TSLA",
         "marketCap": "$720.0B",
         "revenue": "$97.0B",
-        "operatingProfit": "$9.2B",
-        "opMargin": 9.5,
-        "eps": 2.8,
-        "per": 75,
-        "pbr": 11.5,
-        "roe": 15,
-        "debtRatio": 12,
+        "operatingProfit": "$8.0B",
+        "opMargin": 8.2,
+        "eps": 3.2,
+        "per": 68,
+        "pbr": 11,
+        "roe": 16.5,
+        "debtRatio": 15,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 0,
@@ -213727,595 +215184,509 @@ window.REGIONAL_INDUSTRY_DATA = {
           {
             "year": "2021",
             "revenue": "$82.5B",
-            "opProfit": "$6.2B",
-            "netProfit": "$4.9B",
-            "opMargin": "7.5%",
-            "eps": 2.38,
-            "roe": "14%",
-            "debtRatio": "18%"
+            "opProfit": "$5.1B",
+            "netProfit": "$4.1B",
+            "opMargin": "6.2%",
+            "eps": 2.72,
+            "roe": "15.5%",
+            "debtRatio": "21%"
           },
           {
             "year": "2022",
             "revenue": "$89.2B",
-            "opProfit": "$7.6B",
-            "netProfit": "$6.1B",
-            "opMargin": "8.5%",
-            "eps": 2.58,
-            "roe": "14.5%",
-            "debtRatio": "15%"
+            "opProfit": "$6.4B",
+            "netProfit": "$5.1B",
+            "opMargin": "7.2%",
+            "eps": 2.94,
+            "roe": "16%",
+            "debtRatio": "18%"
           },
           {
             "year": "2023",
             "revenue": "$94.1B",
-            "opProfit": "$8.9B",
-            "netProfit": "$7.2B",
-            "opMargin": "9.5%",
-            "eps": 2.72,
-            "roe": "15%",
+            "opProfit": "$7.7B",
+            "netProfit": "$6.2B",
+            "opMargin": "8.2%",
+            "eps": 3.1,
+            "roe": "16.5%",
             "debtRatio": "15%"
           },
           {
             "year": "2024",
             "revenue": "$104.8B",
-            "opProfit": "$11.0B",
-            "netProfit": "$8.8B",
-            "opMargin": "10.5%",
-            "eps": 3.02,
-            "roe": "15.5%",
+            "opProfit": "$9.6B",
+            "netProfit": "$7.7B",
+            "opMargin": "9.2%",
+            "eps": 3.46,
+            "roe": "17%",
             "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
             "revenue": "$116.4B",
-            "opProfit": "$13.4B",
-            "netProfit": "$10.7B",
-            "opMargin": "11.5%",
-            "eps": 3.36,
-            "roe": "16%",
+            "opProfit": "$11.9B",
+            "netProfit": "$9.5B",
+            "opMargin": "10.2%",
+            "eps": 3.84,
+            "roe": "17.5%",
             "debtRatio": "15%"
           }
         ]
       },
       {
-        "name": "제너럴모터스 (GM)",
-        "code": "GM",
-        "marketCap": "$60.0B",
-        "revenue": "$172.0B",
-        "operatingProfit": "$11.7B",
-        "opMargin": 6.8,
-        "eps": 9.5,
-        "per": 5.5,
-        "pbr": 0.8,
-        "roe": 15.5,
-        "debtRatio": 180,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 0.9,
-        "payoutRatio": 5,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $65.31 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전기차 & 모빌리티 & 항공우주 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $172.0B, 영업이익 $11.7B (OPM 6.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15.5%, 배당수익률 0.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "제너럴모터스 (GM)(티커: GM)은 미국 전기차 & 모빌리티 & 항공우주 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$146.2B",
-            "opProfit": "$7.0B",
-            "netProfit": "$5.6B",
-            "opMargin": "4.8%",
-            "eps": 8.07,
-            "roe": "14.5%",
-            "debtRatio": "186%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$158.2B",
-            "opProfit": "$9.2B",
-            "netProfit": "$7.3B",
-            "opMargin": "5.8%",
-            "eps": 8.74,
-            "roe": "15%",
-            "debtRatio": "183%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$166.8B",
-            "opProfit": "$11.3B",
-            "netProfit": "$9.1B",
-            "opMargin": "6.8%",
-            "eps": 9.22,
-            "roe": "15.5%",
-            "debtRatio": "180%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$185.8B",
-            "opProfit": "$14.5B",
-            "netProfit": "$11.6B",
-            "opMargin": "7.8%",
-            "eps": 10.26,
-            "roe": "16%",
-            "debtRatio": "177%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$206.4B",
-            "opProfit": "$18.2B",
-            "netProfit": "$14.5B",
-            "opMargin": "8.8%",
-            "eps": 11.4,
-            "roe": "16.5%",
-            "debtRatio": "174%"
-          }
-        ]
-      },
-      {
-        "name": "포드 (Ford)",
-        "code": "F",
-        "marketCap": "$45.0B",
-        "revenue": "$176.0B",
-        "operatingProfit": "$7.4B",
-        "opMargin": 4.2,
-        "eps": 1.8,
-        "per": 6.2,
-        "pbr": 1,
-        "roe": 14,
-        "debtRatio": 280,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 5.2,
-        "payoutRatio": 32,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $13.95 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전기차 & 모빌리티 & 항공우주 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $176.0B, 영업이익 $7.4B (OPM 4.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 5.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "포드 (Ford)(티커: F)은 미국 전기차 & 모빌리티 & 항공우주 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$149.6B",
-            "opProfit": "$3.3B",
-            "netProfit": "$2.6B",
-            "opMargin": "2.2%",
-            "eps": 1.53,
-            "roe": "13%",
-            "debtRatio": "286%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$161.9B",
-            "opProfit": "$5.2B",
-            "netProfit": "$4.1B",
-            "opMargin": "3.2%",
-            "eps": 1.66,
-            "roe": "13.5%",
-            "debtRatio": "283%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$170.7B",
-            "opProfit": "$7.2B",
-            "netProfit": "$5.7B",
-            "opMargin": "4.2%",
-            "eps": 1.75,
-            "roe": "14%",
-            "debtRatio": "280%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$190.1B",
-            "opProfit": "$9.9B",
-            "netProfit": "$7.9B",
-            "opMargin": "5.2%",
-            "eps": 1.94,
-            "roe": "14.5%",
-            "debtRatio": "277%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$211.2B",
-            "opProfit": "$13.1B",
-            "netProfit": "$10.5B",
-            "opMargin": "6.2%",
-            "eps": 2.16,
-            "roe": "15%",
-            "debtRatio": "274%"
-          }
-        ]
-      },
-      {
-        "name": "보잉 (Boeing)",
-        "code": "BA",
-        "marketCap": "$95.0B",
-        "revenue": "$78.0B",
-        "operatingProfit": "$0.9B",
-        "opMargin": 1.2,
-        "eps": -2.5,
-        "per": 0,
-        "pbr": 0,
-        "roe": -12,
-        "debtRatio": 650,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 0,
-        "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $-62.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전기차 & 모빌리티 & 항공우주 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $78.0B, 영업이익 $0.9B (OPM 1.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE -12%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "보잉 (Boeing)(티커: BA)은 미국 전기차 & 모빌리티 & 항공우주 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$66.3B",
-            "opProfit": "$-0.5B",
-            "netProfit": "$-0.4B",
-            "opMargin": "-0.8%",
-            "eps": -2.12,
-            "roe": "-13%",
-            "debtRatio": "656%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$71.8B",
-            "opProfit": "$0.1B",
-            "netProfit": "$0.1B",
-            "opMargin": "0.2%",
-            "eps": -2.3,
-            "roe": "-12.5%",
-            "debtRatio": "653%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$75.7B",
-            "opProfit": "$0.9B",
-            "netProfit": "$0.7B",
-            "opMargin": "1.2%",
-            "eps": -2.42,
-            "roe": "-12%",
-            "debtRatio": "650%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$84.2B",
-            "opProfit": "$1.9B",
-            "netProfit": "$1.5B",
-            "opMargin": "2.2%",
-            "eps": -2.7,
-            "roe": "-11.5%",
-            "debtRatio": "647%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$93.6B",
-            "opProfit": "$3.0B",
-            "netProfit": "$2.4B",
-            "opMargin": "3.2%",
-            "eps": -3,
-            "roe": "-11%",
-            "debtRatio": "644%"
-          }
-        ]
-      },
-      {
-        "name": "록히드마틴 (Lockheed Martin)",
-        "code": "LMT",
-        "marketCap": "$140.0B",
-        "revenue": "$68.0B",
-        "operatingProfit": "$8.8B",
-        "opMargin": 13,
-        "eps": 28.5,
-        "per": 19.5,
-        "pbr": 18,
-        "roe": 95,
-        "debtRatio": 240,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 2.2,
-        "payoutRatio": 43,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $694.69 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전기차 & 모빌리티 & 항공우주 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $68.0B, 영업이익 $8.8B (OPM 13%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 95%, 배당수익률 2.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "록히드마틴 (Lockheed Martin)(티커: LMT)은 미국 전기차 & 모빌리티 & 항공우주 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$57.8B",
-            "opProfit": "$6.4B",
-            "netProfit": "$5.1B",
-            "opMargin": "11%",
-            "eps": 24.23,
-            "roe": "94%",
-            "debtRatio": "246%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$62.6B",
-            "opProfit": "$7.5B",
-            "netProfit": "$6.0B",
-            "opMargin": "12%",
-            "eps": 26.22,
-            "roe": "94.5%",
-            "debtRatio": "243%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$66.0B",
-            "opProfit": "$8.6B",
-            "netProfit": "$6.9B",
-            "opMargin": "13%",
-            "eps": 27.65,
-            "roe": "95%",
-            "debtRatio": "240%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$73.4B",
-            "opProfit": "$10.3B",
-            "netProfit": "$8.2B",
-            "opMargin": "14%",
-            "eps": 30.78,
-            "roe": "95.5%",
-            "debtRatio": "237%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$81.6B",
-            "opProfit": "$12.2B",
-            "netProfit": "$9.8B",
-            "opMargin": "15%",
-            "eps": 34.2,
-            "roe": "96%",
-            "debtRatio": "234%"
-          }
-        ]
-      },
-      {
-        "name": "노스롭그루먼 (Northrop)",
-        "code": "NOC",
-        "marketCap": "$78.0B",
-        "revenue": "$39.0B",
-        "operatingProfit": "$4.5B",
-        "opMargin": 11.5,
-        "eps": 24,
-        "per": 22,
-        "pbr": 5.2,
-        "roe": 24,
-        "debtRatio": 95,
-        "currentRatio": 140,
-        "riskStatus": "NORMAL",
-        "dividendYield": 1.6,
-        "payoutRatio": 35,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $660.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전기차 & 모빌리티 & 항공우주 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $39.0B, 영업이익 $4.5B (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 24%, 배당수익률 1.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "노스롭그루먼 (Northrop)(티커: NOC)은 미국 전기차 & 모빌리티 & 항공우주 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$33.1B",
-            "opProfit": "$3.1B",
-            "netProfit": "$2.5B",
-            "opMargin": "9.5%",
-            "eps": 20.4,
-            "roe": "23%",
-            "debtRatio": "101%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$35.9B",
-            "opProfit": "$3.8B",
-            "netProfit": "$3.0B",
-            "opMargin": "10.5%",
-            "eps": 22.08,
-            "roe": "23.5%",
-            "debtRatio": "98%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$37.8B",
-            "opProfit": "$4.4B",
-            "netProfit": "$3.5B",
-            "opMargin": "11.5%",
-            "eps": 23.28,
-            "roe": "24%",
-            "debtRatio": "95%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$42.1B",
-            "opProfit": "$5.3B",
-            "netProfit": "$4.2B",
-            "opMargin": "12.5%",
-            "eps": 25.92,
-            "roe": "24.5%",
-            "debtRatio": "92%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$46.8B",
-            "opProfit": "$6.3B",
-            "netProfit": "$5.1B",
-            "opMargin": "13.5%",
-            "eps": 28.8,
-            "roe": "25%",
-            "debtRatio": "89%"
-          }
-        ]
-      },
-      {
-        "name": "캐터필러 (Caterpillar)",
-        "code": "CAT",
-        "marketCap": "$190.0B",
-        "revenue": "$67.0B",
-        "operatingProfit": "$14.1B",
-        "opMargin": 21,
-        "eps": 21.8,
-        "per": 18,
-        "pbr": 8.5,
-        "roe": 55,
-        "debtRatio": 170,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 1.4,
-        "payoutRatio": 25,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $490.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전기차 & 모빌리티 & 항공우주 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $67.0B, 영업이익 $14.1B (OPM 21%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 55%, 배당수익률 1.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "캐터필러 (Caterpillar)(티커: CAT)은 미국 전기차 & 모빌리티 & 항공우주 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$56.9B",
-            "opProfit": "$10.8B",
-            "netProfit": "$8.7B",
-            "opMargin": "19%",
-            "eps": 18.53,
-            "roe": "54%",
-            "debtRatio": "176%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$61.6B",
-            "opProfit": "$12.3B",
-            "netProfit": "$9.9B",
-            "opMargin": "20%",
-            "eps": 20.06,
-            "roe": "54.5%",
-            "debtRatio": "173%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$65.0B",
-            "opProfit": "$13.6B",
-            "netProfit": "$10.9B",
-            "opMargin": "21%",
-            "eps": 21.15,
-            "roe": "55%",
-            "debtRatio": "170%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$72.4B",
-            "opProfit": "$15.9B",
-            "netProfit": "$12.7B",
-            "opMargin": "22%",
-            "eps": 23.54,
-            "roe": "55.5%",
-            "debtRatio": "167%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$80.4B",
-            "opProfit": "$18.5B",
-            "netProfit": "$14.8B",
-            "opMargin": "23%",
-            "eps": 26.16,
-            "roe": "56%",
-            "debtRatio": "164%"
-          }
-        ]
-      },
-      {
-        "name": "우버 (Uber Technologies)",
-        "code": "UBER",
-        "marketCap": "$165.0B",
-        "revenue": "$37.0B",
-        "operatingProfit": "$3.1B",
-        "opMargin": 8.5,
-        "eps": 2.1,
-        "per": 38,
-        "pbr": 9.5,
-        "roe": 26,
-        "debtRatio": 65,
+        "name": "리비안 오토모티브 (Rivian)",
+        "code": "RIVN",
+        "marketCap": "$11.0B",
+        "revenue": "$5.2B",
+        "operatingProfit": "$-3.0B",
+        "opMargin": -58,
+        "eps": -5.2,
+        "per": -1,
+        "pbr": 1.5,
+        "roe": -48,
+        "debtRatio": 85,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 0,
         "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $99.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전기차 & 모빌리티 & 항공우주 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $37.0B, 영업이익 $3.1B (OPM 8.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 26%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "우버 (Uber Technologies)(티커: UBER)은 미국 전기차 & 모빌리티 & 항공우주 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $6.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 순수 전기차 & 자율주행 FSD 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $5.2B, 영업이익 $-3.0B (OPM -58%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE -48%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "리비안 오토모티브 (Rivian)(티커: RIVN)은 미국 순수 전기차 & 자율주행 FSD 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$31.4B",
-            "opProfit": "$2.0B",
-            "netProfit": "$1.6B",
-            "opMargin": "6.5%",
-            "eps": 1.79,
-            "roe": "25%",
-            "debtRatio": "71%"
+            "revenue": "$4.4B",
+            "opProfit": "$-2.7B",
+            "netProfit": "$-2.1B",
+            "opMargin": "-60%",
+            "eps": -4.42,
+            "roe": "-49%",
+            "debtRatio": "91%"
           },
           {
             "year": "2022",
-            "revenue": "$34.0B",
-            "opProfit": "$2.6B",
-            "netProfit": "$2.0B",
-            "opMargin": "7.5%",
-            "eps": 1.93,
-            "roe": "25.5%",
-            "debtRatio": "68%"
+            "revenue": "$4.8B",
+            "opProfit": "$-2.8B",
+            "netProfit": "$-2.3B",
+            "opMargin": "-59%",
+            "eps": -4.78,
+            "roe": "-48.5%",
+            "debtRatio": "88%"
           },
           {
             "year": "2023",
-            "revenue": "$35.9B",
-            "opProfit": "$3.1B",
-            "netProfit": "$2.4B",
-            "opMargin": "8.5%",
-            "eps": 2.04,
-            "roe": "26%",
-            "debtRatio": "65%"
+            "revenue": "$5.0B",
+            "opProfit": "$-2.9B",
+            "netProfit": "$-2.3B",
+            "opMargin": "-58%",
+            "eps": -5.04,
+            "roe": "-48%",
+            "debtRatio": "85%"
           },
           {
             "year": "2024",
-            "revenue": "$40.0B",
-            "opProfit": "$3.8B",
-            "netProfit": "$3.0B",
-            "opMargin": "9.5%",
-            "eps": 2.27,
-            "roe": "26.5%",
-            "debtRatio": "62%"
+            "revenue": "$5.6B",
+            "opProfit": "$-3.2B",
+            "netProfit": "$-2.6B",
+            "opMargin": "-57%",
+            "eps": -5.62,
+            "roe": "-47.5%",
+            "debtRatio": "82%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$44.4B",
-            "opProfit": "$4.7B",
-            "netProfit": "$3.7B",
-            "opMargin": "10.5%",
-            "eps": 2.52,
-            "roe": "27%",
-            "debtRatio": "59%"
+            "revenue": "$6.2B",
+            "opProfit": "$-3.5B",
+            "netProfit": "$-2.8B",
+            "opMargin": "-56%",
+            "eps": -6.24,
+            "roe": "-47%",
+            "debtRatio": "79%"
+          }
+        ]
+      },
+      {
+        "name": "루시드 그룹 (Lucid Group)",
+        "code": "LCID",
+        "marketCap": "$7.5B",
+        "revenue": "$0.9B",
+        "operatingProfit": "$-2.0B",
+        "opMargin": -220,
+        "eps": -1.3,
+        "per": -1,
+        "pbr": 2.1,
+        "roe": -65,
+        "debtRatio": 95,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $1.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 순수 전기차 & 자율주행 FSD 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $0.9B, 영업이익 $-2.0B (OPM -220%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE -65%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "루시드 그룹 (Lucid Group)(티커: LCID)은 미국 순수 전기차 & 자율주행 FSD 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$0.8B",
+            "opProfit": "$-1.7B",
+            "netProfit": "$-1.4B",
+            "opMargin": "-222%",
+            "eps": -1.1,
+            "roe": "-66%",
+            "debtRatio": "101%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$0.8B",
+            "opProfit": "$-1.8B",
+            "netProfit": "$-1.5B",
+            "opMargin": "-221%",
+            "eps": -1.2,
+            "roe": "-65.5%",
+            "debtRatio": "98%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$0.9B",
+            "opProfit": "$-1.9B",
+            "netProfit": "$-1.5B",
+            "opMargin": "-220%",
+            "eps": -1.26,
+            "roe": "-65%",
+            "debtRatio": "95%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$1.0B",
+            "opProfit": "$-2.1B",
+            "netProfit": "$-1.7B",
+            "opMargin": "-219%",
+            "eps": -1.4,
+            "roe": "-64.5%",
+            "debtRatio": "92%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$1.1B",
+            "opProfit": "$-2.4B",
+            "netProfit": "$-1.9B",
+            "opMargin": "-218%",
+            "eps": -1.56,
+            "roe": "-64%",
+            "debtRatio": "89%"
           }
         ]
       }
     ]
   },
   {
-    "id": "us-consumer",
+    "id": "us-auto-legacy",
     "country": "미국",
-    "sector": "글로벌 소비재 & 리테일",
-    "chapterTitle": "미국 ➔ 소비재·유통",
-    "cluster": "소비재·유통",
-    "stockCount": 8,
-    "changeRate": "0.90",
+    "sector": "전통 완성차 & 커머셜 모빌리티",
+    "chapterTitle": "미국 ➔ 전기차·모빌리티",
+    "cluster": "전기차·모빌리티",
+    "stockCount": 3,
+    "changeRate": "0.34",
     "correlationLogic": {
-      "formula": "동일매장 매출성장률(SSSG) + 멤버십 수수료 - 물류/인건비 = 안정적 마진",
+      "formula": "북미 픽업트럭 판매량 × 고수익 옵션 ASP - 노조 인건비 = 현금흐름 창출",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 글로벌 소비재 & 리테일 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 전통 완성차 & 커머셜 모빌리티 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "강력한 브랜드 충성도와 글로벌 유통망, 멤버십 수익 기반 안정적 성장",
+      "currentStatus": "고마진 픽업트럭과 내연기관/하이브리드 판매 호조 기반 강력한 자사주 매입 집행",
+      "outlookSignal": {
+        "level": "NEUTRAL",
+        "badgeText": "⚖️ 주주환원 매력",
+        "summary": "고마진 픽업트럭과 내연기관/하이브리드 판매 호조 기반 강력한 자사주 매입 집행"
+      }
+    },
+    "demandAnalysis": {
+      "status": "MODERATE",
+      "statusBadge": "⚖️ 주주환원 매력",
+      "keyDriver": "미국 전통 완성차 & 커머셜 모빌리티 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "미국 자동차 판매량(SAAR) 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "전기차 투자 속도 조절에 따른 대규모 CAPEX 절감 및 4~5%대 배당",
+      "bearFactor": "자동차 할부 금융 금리 부담 및 북미 딜러 인센티브 증가"
+    },
+    "indicators": [
+      {
+        "name": "미국 자동차 판매량(SAAR) 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "전통 완성차 & 커머셜 모빌리티 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "제너럴 모터스 (GM)",
+        "code": "GM",
+        "marketCap": "$58.0B",
+        "revenue": "$175.0B",
+        "operatingProfit": "$12.6B",
+        "opMargin": 7.2,
+        "eps": 9.8,
+        "per": 5.5,
+        "pbr": 0.8,
+        "roe": 15,
+        "debtRatio": 170,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 0.9,
+        "payoutRatio": 5,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $67.38 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전통 완성차 & 커머셜 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $175.0B, 영업이익 $12.6B (OPM 7.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15%, 배당수익률 0.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "제너럴 모터스 (GM)(티커: GM)은 미국 전통 완성차 & 커머셜 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$148.8B",
+            "opProfit": "$7.7B",
+            "netProfit": "$6.2B",
+            "opMargin": "5.2%",
+            "eps": 8.33,
+            "roe": "14%",
+            "debtRatio": "176%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$161.0B",
+            "opProfit": "$10.0B",
+            "netProfit": "$8.0B",
+            "opMargin": "6.2%",
+            "eps": 9.02,
+            "roe": "14.5%",
+            "debtRatio": "173%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$169.8B",
+            "opProfit": "$12.2B",
+            "netProfit": "$9.8B",
+            "opMargin": "7.2%",
+            "eps": 9.51,
+            "roe": "15%",
+            "debtRatio": "170%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$189.0B",
+            "opProfit": "$15.5B",
+            "netProfit": "$12.4B",
+            "opMargin": "8.2%",
+            "eps": 10.58,
+            "roe": "15.5%",
+            "debtRatio": "167%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$210.0B",
+            "opProfit": "$19.3B",
+            "netProfit": "$15.5B",
+            "opMargin": "9.2%",
+            "eps": 11.76,
+            "roe": "16%",
+            "debtRatio": "164%"
+          }
+        ]
+      },
+      {
+        "name": "포드 모터 (Ford)",
+        "code": "F",
+        "marketCap": "$44.0B",
+        "revenue": "$180.0B",
+        "operatingProfit": "$6.8B",
+        "opMargin": 3.8,
+        "eps": 1.6,
+        "per": 7.2,
+        "pbr": 1,
+        "roe": 11,
+        "debtRatio": 240,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 5.2,
+        "payoutRatio": 37,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $14.40 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전통 완성차 & 커머셜 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $180.0B, 영업이익 $6.8B (OPM 3.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11%, 배당수익률 5.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "포드 모터 (Ford)(티커: F)은 미국 전통 완성차 & 커머셜 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$153.0B",
+            "opProfit": "$2.8B",
+            "netProfit": "$2.2B",
+            "opMargin": "1.8%",
+            "eps": 1.36,
+            "roe": "10%",
+            "debtRatio": "246%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$165.6B",
+            "opProfit": "$4.6B",
+            "netProfit": "$3.7B",
+            "opMargin": "2.8%",
+            "eps": 1.47,
+            "roe": "10.5%",
+            "debtRatio": "243%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$174.6B",
+            "opProfit": "$6.6B",
+            "netProfit": "$5.3B",
+            "opMargin": "3.8%",
+            "eps": 1.55,
+            "roe": "11%",
+            "debtRatio": "240%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$194.4B",
+            "opProfit": "$9.3B",
+            "netProfit": "$7.5B",
+            "opMargin": "4.8%",
+            "eps": 1.73,
+            "roe": "11.5%",
+            "debtRatio": "237%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$216.0B",
+            "opProfit": "$12.5B",
+            "netProfit": "$10.0B",
+            "opMargin": "5.8%",
+            "eps": 1.92,
+            "roe": "12%",
+            "debtRatio": "234%"
+          }
+        ]
+      },
+      {
+        "name": "파카 (PACCAR 트럭)",
+        "code": "PCAR",
+        "marketCap": "$54.0B",
+        "revenue": "$35.0B",
+        "operatingProfit": "$5.1B",
+        "opMargin": 14.5,
+        "eps": 8.2,
+        "per": 13,
+        "pbr": 3.4,
+        "roe": 28,
+        "debtRatio": 45,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 3.8,
+        "payoutRatio": 49,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $133.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전통 완성차 & 커머셜 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $35.0B, 영업이익 $5.1B (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 28%, 배당수익률 3.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "파카 (PACCAR 트럭)(티커: PCAR)은 미국 전통 완성차 & 커머셜 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$29.8B",
+            "opProfit": "$3.7B",
+            "netProfit": "$3.0B",
+            "opMargin": "12.5%",
+            "eps": 6.97,
+            "roe": "27%",
+            "debtRatio": "51%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$32.2B",
+            "opProfit": "$4.3B",
+            "netProfit": "$3.5B",
+            "opMargin": "13.5%",
+            "eps": 7.54,
+            "roe": "27.5%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$33.9B",
+            "opProfit": "$4.9B",
+            "netProfit": "$3.9B",
+            "opMargin": "14.5%",
+            "eps": 7.95,
+            "roe": "28%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$37.8B",
+            "opProfit": "$5.9B",
+            "netProfit": "$4.7B",
+            "opMargin": "15.5%",
+            "eps": 8.86,
+            "roe": "28.5%",
+            "debtRatio": "42%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$42.0B",
+            "opProfit": "$6.9B",
+            "netProfit": "$5.5B",
+            "opMargin": "16.5%",
+            "eps": 9.84,
+            "roe": "29%",
+            "debtRatio": "39%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "us-retail-ecommerce",
+    "country": "미국",
+    "sector": "글로벌 메가 리테일 & 이커머스",
+    "chapterTitle": "미국 ➔ 소비재·유통",
+    "cluster": "소비재·유통",
+    "stockCount": 4,
+    "changeRate": "0.75",
+    "correlationLogic": {
+      "formula": "유료 멤버십 갱신율 + 자체 이커머스 거래액(GMV) - 물류 인건비 = 견고한 이익 성장",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 글로벌 메가 리테일 & 이커머스 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "월마트와 코스트코의 압도적인 가격 경쟁력과 식료품/멤버십 갱신율 93% 돌파",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 방어 & 성장",
-        "summary": "강력한 브랜드 충성도와 글로벌 유통망, 멤버십 수익 기반 안정적 성장"
+        "badgeText": "🟢 시장 지배력",
+        "summary": "월마트와 코스트코의 압도적인 가격 경쟁력과 식료품/멤버십 갱신율 93% 돌파"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 방어 & 성장",
-      "keyDriver": "미국 글로벌 소비재 & 리테일 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "미국 필수소비재 XLP ETF",
+      "statusBadge": "🟢 시장 지배력",
+      "keyDriver": "미국 글로벌 메가 리테일 & 이커머스 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "미국 소매판매 지수 (US Retail Sales)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "코스트코/월마트 e커머스 및 광고 매출 고성장, 가격 결정력 유지",
-      "bearFactor": "미국 소비자 저축률 감소 및 고물가에 따른 소비 양극화"
+      "bullFactor": "고물가 시기 저가 생필품 구매 고객 쏠림 현상 및 광고 플랫폼 고마진화",
+      "bearFactor": "물류 창고 자동화 투자에 따른 단기 감가상각비 증가"
     },
     "indicators": [
       {
-        "name": "미국 필수소비재 XLP ETF",
+        "name": "미국 소매판매 지수 (US Retail Sales)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 소비재 & 리테일 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "글로벌 메가 리테일 & 이커머스 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -214332,142 +215703,213 @@ window.REGIONAL_INDUSTRY_DATA = {
       {
         "name": "월마트 (Walmart)",
         "code": "WMT",
-        "marketCap": "$650.0B",
-        "revenue": "$648.0B",
-        "operatingProfit": "$27.2B",
+        "marketCap": "$670.0B",
+        "revenue": "$660.0B",
+        "operatingProfit": "$27.7B",
         "opMargin": 4.2,
-        "eps": 2.5,
-        "per": 32,
+        "eps": 2.6,
+        "per": 34,
         "pbr": 7.2,
         "roe": 21,
         "debtRatio": 65,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 1,
-        "payoutRatio": 32,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $100.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 리테일 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $648.0B, 영업이익 $27.2B (OPM 4.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 21%, 배당수익률 1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "월마트 (Walmart)(티커: WMT)은 미국 글로벌 소비재 & 리테일 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 34,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $110.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 리테일 & 이커머스 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $660.0B, 영업이익 $27.7B (OPM 4.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 21%, 배당수익률 1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "월마트 (Walmart)(티커: WMT)은 미국 글로벌 메가 리테일 & 이커머스 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$550.8B",
-            "opProfit": "$12.1B",
-            "netProfit": "$9.7B",
+            "revenue": "$561.0B",
+            "opProfit": "$12.3B",
+            "netProfit": "$9.9B",
             "opMargin": "2.2%",
-            "eps": 2.13,
+            "eps": 2.21,
             "roe": "20%",
             "debtRatio": "71%"
           },
           {
             "year": "2022",
-            "revenue": "$596.2B",
-            "opProfit": "$19.1B",
-            "netProfit": "$15.3B",
+            "revenue": "$607.2B",
+            "opProfit": "$19.4B",
+            "netProfit": "$15.5B",
             "opMargin": "3.2%",
-            "eps": 2.3,
+            "eps": 2.39,
             "roe": "20.5%",
             "debtRatio": "68%"
           },
           {
             "year": "2023",
-            "revenue": "$628.6B",
-            "opProfit": "$26.4B",
-            "netProfit": "$21.1B",
+            "revenue": "$640.2B",
+            "opProfit": "$26.9B",
+            "netProfit": "$21.5B",
             "opMargin": "4.2%",
-            "eps": 2.42,
+            "eps": 2.52,
             "roe": "21%",
             "debtRatio": "65%"
           },
           {
             "year": "2024",
-            "revenue": "$699.8B",
-            "opProfit": "$36.4B",
-            "netProfit": "$29.1B",
+            "revenue": "$712.8B",
+            "opProfit": "$37.1B",
+            "netProfit": "$29.7B",
             "opMargin": "5.2%",
-            "eps": 2.7,
+            "eps": 2.81,
             "roe": "21.5%",
             "debtRatio": "62%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$777.6B",
-            "opProfit": "$48.2B",
-            "netProfit": "$38.6B",
+            "revenue": "$792.0B",
+            "opProfit": "$49.1B",
+            "netProfit": "$39.3B",
             "opMargin": "6.2%",
-            "eps": 3,
+            "eps": 3.12,
             "roe": "22%",
             "debtRatio": "59%"
           }
         ]
       },
       {
-        "name": "코스트코 (Costco)",
+        "name": "코스트코 홀세일 (Costco)",
         "code": "COST",
         "marketCap": "$410.0B",
-        "revenue": "$254.0B",
-        "operatingProfit": "$9.1B",
-        "opMargin": 3.6,
-        "eps": 17,
-        "per": 54,
-        "pbr": 15,
+        "revenue": "$255.0B",
+        "operatingProfit": "$9.7B",
+        "opMargin": 3.8,
+        "eps": 16.8,
+        "per": 55,
+        "pbr": 15.5,
         "roe": 29,
         "debtRatio": 25,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 0.5,
-        "payoutRatio": 27,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $1147.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 리테일 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $254.0B, 영업이익 $9.1B (OPM 3.6%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 29%, 배당수익률 0.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "코스트코 (Costco)(티커: COST)은 미국 글로벌 소비재 & 리테일 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 28,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $1155.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 리테일 & 이커머스 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $255.0B, 영업이익 $9.7B (OPM 3.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 29%, 배당수익률 0.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "코스트코 홀세일 (Costco)(티커: COST)은 미국 글로벌 메가 리테일 & 이커머스 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$215.9B",
-            "opProfit": "$3.5B",
-            "netProfit": "$2.8B",
-            "opMargin": "1.6%",
-            "eps": 14.45,
+            "revenue": "$216.8B",
+            "opProfit": "$3.9B",
+            "netProfit": "$3.1B",
+            "opMargin": "1.8%",
+            "eps": 14.28,
             "roe": "28%",
             "debtRatio": "31%"
           },
           {
             "year": "2022",
-            "revenue": "$233.7B",
-            "opProfit": "$6.1B",
-            "netProfit": "$4.9B",
-            "opMargin": "2.6%",
-            "eps": 15.64,
+            "revenue": "$234.6B",
+            "opProfit": "$6.6B",
+            "netProfit": "$5.3B",
+            "opMargin": "2.8%",
+            "eps": 15.46,
             "roe": "28.5%",
             "debtRatio": "28%"
           },
           {
             "year": "2023",
-            "revenue": "$246.4B",
-            "opProfit": "$8.9B",
-            "netProfit": "$7.1B",
-            "opMargin": "3.6%",
-            "eps": 16.49,
+            "revenue": "$247.3B",
+            "opProfit": "$9.4B",
+            "netProfit": "$7.5B",
+            "opMargin": "3.8%",
+            "eps": 16.3,
             "roe": "29%",
             "debtRatio": "25%"
           },
           {
             "year": "2024",
-            "revenue": "$274.3B",
-            "opProfit": "$12.6B",
-            "netProfit": "$10.1B",
-            "opMargin": "4.6%",
-            "eps": 18.36,
+            "revenue": "$275.4B",
+            "opProfit": "$13.2B",
+            "netProfit": "$10.6B",
+            "opMargin": "4.8%",
+            "eps": 18.14,
             "roe": "29.5%",
             "debtRatio": "22%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$304.8B",
-            "opProfit": "$17.1B",
-            "netProfit": "$13.7B",
-            "opMargin": "5.6%",
-            "eps": 20.4,
+            "revenue": "$306.0B",
+            "opProfit": "$17.7B",
+            "netProfit": "$14.2B",
+            "opMargin": "5.8%",
+            "eps": 20.16,
             "roe": "30%",
             "debtRatio": "19%"
+          }
+        ]
+      },
+      {
+        "name": "타깃 (Target)",
+        "code": "TGT",
+        "marketCap": "$68.0B",
+        "revenue": "$107.0B",
+        "operatingProfit": "$5.8B",
+        "opMargin": 5.4,
+        "eps": 9.5,
+        "per": 15,
+        "pbr": 5.2,
+        "roe": 32,
+        "debtRatio": 110,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 3,
+        "payoutRatio": 45,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $178.13 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 리테일 & 이커머스 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $107.0B, 영업이익 $5.8B (OPM 5.4%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 32%, 배당수익률 3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "타깃 (Target)(티커: TGT)은 미국 글로벌 메가 리테일 & 이커머스 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$91.0B",
+            "opProfit": "$3.1B",
+            "netProfit": "$2.5B",
+            "opMargin": "3.4%",
+            "eps": 8.07,
+            "roe": "31%",
+            "debtRatio": "116%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$98.4B",
+            "opProfit": "$4.3B",
+            "netProfit": "$3.5B",
+            "opMargin": "4.4%",
+            "eps": 8.74,
+            "roe": "31.5%",
+            "debtRatio": "113%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$103.8B",
+            "opProfit": "$5.6B",
+            "netProfit": "$4.5B",
+            "opMargin": "5.4%",
+            "eps": 9.22,
+            "roe": "32%",
+            "debtRatio": "110%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$115.6B",
+            "opProfit": "$7.4B",
+            "netProfit": "$5.9B",
+            "opMargin": "6.4%",
+            "eps": 10.26,
+            "roe": "32.5%",
+            "debtRatio": "107%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$128.4B",
+            "opProfit": "$9.5B",
+            "netProfit": "$7.6B",
+            "opMargin": "7.4%",
+            "eps": 11.4,
+            "roe": "33%",
+            "debtRatio": "104%"
           }
         ]
       },
@@ -214475,471 +215917,116 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "홈디포 (Home Depot)",
         "code": "HD",
         "marketCap": "$405.0B",
-        "revenue": "$153.0B",
-        "operatingProfit": "$22.2B",
-        "opMargin": 14.5,
+        "revenue": "$155.0B",
+        "operatingProfit": "$22.0B",
+        "opMargin": 14.2,
         "eps": 15.5,
         "per": 26,
-        "pbr": 95,
-        "roe": 450,
-        "debtRatio": 850,
+        "pbr": 38,
+        "roe": 145,
+        "debtRatio": 280,
         "currentRatio": 140,
         "riskStatus": "WARNING",
         "dividendYield": 2.2,
         "payoutRatio": 57,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $503.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 리테일 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $153.0B, 영업이익 $22.2B (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 450%, 배당수익률 2.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "홈디포 (Home Depot)(티커: HD)은 미국 글로벌 소비재 & 리테일 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $503.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 리테일 & 이커머스 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $155.0B, 영업이익 $22.0B (OPM 14.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 145%, 배당수익률 2.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "홈디포 (Home Depot)(티커: HD)은 미국 글로벌 메가 리테일 & 이커머스 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$130.0B",
-            "opProfit": "$16.3B",
-            "netProfit": "$13.0B",
-            "opMargin": "12.5%",
+            "revenue": "$131.8B",
+            "opProfit": "$16.1B",
+            "netProfit": "$12.9B",
+            "opMargin": "12.2%",
             "eps": 13.18,
-            "roe": "449%",
-            "debtRatio": "856%"
+            "roe": "144%",
+            "debtRatio": "286%"
           },
           {
             "year": "2022",
-            "revenue": "$140.8B",
-            "opProfit": "$19.0B",
-            "netProfit": "$15.2B",
-            "opMargin": "13.5%",
+            "revenue": "$142.6B",
+            "opProfit": "$18.8B",
+            "netProfit": "$15.1B",
+            "opMargin": "13.2%",
             "eps": 14.26,
-            "roe": "449.5%",
-            "debtRatio": "853%"
+            "roe": "144.5%",
+            "debtRatio": "283%"
           },
           {
             "year": "2023",
-            "revenue": "$148.4B",
-            "opProfit": "$21.5B",
-            "netProfit": "$17.2B",
-            "opMargin": "14.5%",
+            "revenue": "$150.3B",
+            "opProfit": "$21.3B",
+            "netProfit": "$17.1B",
+            "opMargin": "14.2%",
             "eps": 15.04,
-            "roe": "450%",
-            "debtRatio": "850%"
+            "roe": "145%",
+            "debtRatio": "280%"
           },
           {
             "year": "2024",
-            "revenue": "$165.2B",
-            "opProfit": "$25.6B",
-            "netProfit": "$20.5B",
-            "opMargin": "15.5%",
+            "revenue": "$167.4B",
+            "opProfit": "$25.4B",
+            "netProfit": "$20.4B",
+            "opMargin": "15.2%",
             "eps": 16.74,
-            "roe": "450.5%",
-            "debtRatio": "847%"
+            "roe": "145.5%",
+            "debtRatio": "277%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$183.6B",
-            "opProfit": "$30.3B",
-            "netProfit": "$24.2B",
-            "opMargin": "16.5%",
+            "revenue": "$186.0B",
+            "opProfit": "$30.1B",
+            "netProfit": "$24.1B",
+            "opMargin": "16.2%",
             "eps": 18.6,
-            "roe": "451%",
-            "debtRatio": "844%"
-          }
-        ]
-      },
-      {
-        "name": "프록터앤드갬블 (P&G)",
-        "code": "PG",
-        "marketCap": "$400.0B",
-        "revenue": "$84.0B",
-        "operatingProfit": "$19.7B",
-        "opMargin": 23.5,
-        "eps": 6.5,
-        "per": 26.5,
-        "pbr": 8.2,
-        "roe": 32,
-        "debtRatio": 75,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 2.3,
-        "payoutRatio": 61,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $215.31 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 리테일 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $84.0B, 영업이익 $19.7B (OPM 23.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 32%, 배당수익률 2.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "프록터앤드갬블 (P&G)(티커: PG)은 미국 글로벌 소비재 & 리테일 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$71.4B",
-            "opProfit": "$15.4B",
-            "netProfit": "$12.3B",
-            "opMargin": "21.5%",
-            "eps": 5.53,
-            "roe": "31%",
-            "debtRatio": "81%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$77.3B",
-            "opProfit": "$17.4B",
-            "netProfit": "$13.9B",
-            "opMargin": "22.5%",
-            "eps": 5.98,
-            "roe": "31.5%",
-            "debtRatio": "78%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$81.5B",
-            "opProfit": "$19.1B",
-            "netProfit": "$15.3B",
-            "opMargin": "23.5%",
-            "eps": 6.31,
-            "roe": "32%",
-            "debtRatio": "75%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$90.7B",
-            "opProfit": "$22.2B",
-            "netProfit": "$17.8B",
-            "opMargin": "24.5%",
-            "eps": 7.02,
-            "roe": "32.5%",
-            "debtRatio": "72%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$100.8B",
-            "opProfit": "$25.7B",
-            "netProfit": "$20.6B",
-            "opMargin": "25.5%",
-            "eps": 7.8,
-            "roe": "33%",
-            "debtRatio": "69%"
-          }
-        ]
-      },
-      {
-        "name": "코카콜라 (Coca-Cola)",
-        "code": "KO",
-        "marketCap": "$290.0B",
-        "revenue": "$46.0B",
-        "operatingProfit": "$13.3B",
-        "opMargin": 29,
-        "eps": 2.8,
-        "per": 25,
-        "pbr": 10.5,
-        "roe": 42,
-        "debtRatio": 145,
-        "currentRatio": 140,
-        "riskStatus": "NORMAL",
-        "dividendYield": 2.9,
-        "payoutRatio": 73,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $87.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 리테일 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $46.0B, 영업이익 $13.3B (OPM 29%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 42%, 배당수익률 2.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "코카콜라 (Coca-Cola)(티커: KO)은 미국 글로벌 소비재 & 리테일 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$39.1B",
-            "opProfit": "$10.6B",
-            "netProfit": "$8.4B",
-            "opMargin": "27%",
-            "eps": 2.38,
-            "roe": "41%",
-            "debtRatio": "151%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$42.3B",
-            "opProfit": "$11.8B",
-            "netProfit": "$9.5B",
-            "opMargin": "28%",
-            "eps": 2.58,
-            "roe": "41.5%",
-            "debtRatio": "148%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$44.6B",
-            "opProfit": "$12.9B",
-            "netProfit": "$10.4B",
-            "opMargin": "29%",
-            "eps": 2.72,
-            "roe": "42%",
-            "debtRatio": "145%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$49.7B",
-            "opProfit": "$14.9B",
-            "netProfit": "$11.9B",
-            "opMargin": "30%",
-            "eps": 3.02,
-            "roe": "42.5%",
-            "debtRatio": "142%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$55.2B",
-            "opProfit": "$17.1B",
-            "netProfit": "$13.7B",
-            "opMargin": "31%",
-            "eps": 3.36,
-            "roe": "43%",
-            "debtRatio": "139%"
-          }
-        ]
-      },
-      {
-        "name": "펩시코 (PepsiCo)",
-        "code": "PEP",
-        "marketCap": "$240.0B",
-        "revenue": "$92.0B",
-        "operatingProfit": "$13.3B",
-        "opMargin": 14.5,
-        "eps": 7.6,
-        "per": 23,
-        "pbr": 12,
-        "roe": 52,
-        "debtRatio": 210,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 3.1,
-        "payoutRatio": 71,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $218.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 리테일 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $92.0B, 영업이익 $13.3B (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 52%, 배당수익률 3.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "펩시코 (PepsiCo)(티커: PEP)은 미국 글로벌 소비재 & 리테일 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$78.2B",
-            "opProfit": "$9.8B",
-            "netProfit": "$7.8B",
-            "opMargin": "12.5%",
-            "eps": 6.46,
-            "roe": "51%",
-            "debtRatio": "216%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$84.6B",
-            "opProfit": "$11.4B",
-            "netProfit": "$9.1B",
-            "opMargin": "13.5%",
-            "eps": 6.99,
-            "roe": "51.5%",
-            "debtRatio": "213%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$89.2B",
-            "opProfit": "$12.9B",
-            "netProfit": "$10.4B",
-            "opMargin": "14.5%",
-            "eps": 7.37,
-            "roe": "52%",
-            "debtRatio": "210%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$99.4B",
-            "opProfit": "$15.4B",
-            "netProfit": "$12.3B",
-            "opMargin": "15.5%",
-            "eps": 8.21,
-            "roe": "52.5%",
-            "debtRatio": "207%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$110.4B",
-            "opProfit": "$18.2B",
-            "netProfit": "$14.6B",
-            "opMargin": "16.5%",
-            "eps": 9.12,
-            "roe": "53%",
-            "debtRatio": "204%"
-          }
-        ]
-      },
-      {
-        "name": "맥도날드 (McDonalds)",
-        "code": "MCD",
-        "marketCap": "$215.0B",
-        "revenue": "$26.0B",
-        "operatingProfit": "$12.0B",
-        "opMargin": 46,
-        "eps": 12.2,
-        "per": 24.5,
-        "pbr": -45,
-        "roe": -180,
-        "debtRatio": 750,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 2.3,
-        "payoutRatio": 56,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $373.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 리테일 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $26.0B, 영업이익 $12.0B (OPM 46%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE -180%, 배당수익률 2.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "맥도날드 (McDonalds)(티커: MCD)은 미국 글로벌 소비재 & 리테일 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$22.1B",
-            "opProfit": "$9.7B",
-            "netProfit": "$7.8B",
-            "opMargin": "44%",
-            "eps": 10.37,
-            "roe": "-181%",
-            "debtRatio": "756%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$23.9B",
-            "opProfit": "$10.8B",
-            "netProfit": "$8.6B",
-            "opMargin": "45%",
-            "eps": 11.22,
-            "roe": "-180.5%",
-            "debtRatio": "753%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$25.2B",
-            "opProfit": "$11.6B",
-            "netProfit": "$9.3B",
-            "opMargin": "46%",
-            "eps": 11.83,
-            "roe": "-180%",
-            "debtRatio": "750%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$28.1B",
-            "opProfit": "$13.2B",
-            "netProfit": "$10.6B",
-            "opMargin": "47%",
-            "eps": 13.18,
-            "roe": "-179.5%",
-            "debtRatio": "747%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$31.2B",
-            "opProfit": "$15.0B",
-            "netProfit": "$12.0B",
-            "opMargin": "48%",
-            "eps": 14.64,
-            "roe": "-179%",
-            "debtRatio": "744%"
-          }
-        ]
-      },
-      {
-        "name": "나이키 (Nike)",
-        "code": "NKE",
-        "marketCap": "$125.0B",
-        "revenue": "$51.0B",
-        "operatingProfit": "$5.9B",
-        "opMargin": 11.5,
-        "eps": 3.2,
-        "per": 27,
-        "pbr": 8.5,
-        "roe": 35,
-        "debtRatio": 85,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 1.8,
-        "payoutRatio": 49,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $108.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 리테일 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $51.0B, 영업이익 $5.9B (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 35%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "나이키 (Nike)(티커: NKE)은 미국 글로벌 소비재 & 리테일 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$43.4B",
-            "opProfit": "$4.1B",
-            "netProfit": "$3.3B",
-            "opMargin": "9.5%",
-            "eps": 2.72,
-            "roe": "34%",
-            "debtRatio": "91%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$46.9B",
-            "opProfit": "$4.9B",
-            "netProfit": "$3.9B",
-            "opMargin": "10.5%",
-            "eps": 2.94,
-            "roe": "34.5%",
-            "debtRatio": "88%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$49.5B",
-            "opProfit": "$5.7B",
-            "netProfit": "$4.6B",
-            "opMargin": "11.5%",
-            "eps": 3.1,
-            "roe": "35%",
-            "debtRatio": "85%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$55.1B",
-            "opProfit": "$6.9B",
-            "netProfit": "$5.5B",
-            "opMargin": "12.5%",
-            "eps": 3.46,
-            "roe": "35.5%",
-            "debtRatio": "82%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$61.2B",
-            "opProfit": "$8.3B",
-            "netProfit": "$6.6B",
-            "opMargin": "13.5%",
-            "eps": 3.84,
-            "roe": "36%",
-            "debtRatio": "79%"
+            "roe": "146%",
+            "debtRatio": "274%"
           }
         ]
       }
     ]
   },
   {
-    "id": "us-energy",
+    "id": "us-fnb-staples",
     "country": "미국",
-    "sector": "에너지 거인 & 핵심 원자재",
-    "chapterTitle": "미국 ➔ 에너지·원자재",
-    "cluster": "에너지·원자재",
-    "stockCount": 6,
-    "changeRate": "-0.15",
+    "sector": "글로벌 F&B & 필수소비재",
+    "chapterTitle": "미국 ➔ 소비재·유통",
+    "cluster": "소비재·유통",
+    "stockCount": 5,
+    "changeRate": "0.40",
     "correlationLogic": {
-      "formula": "배럴당 WTI 유가 × 일일 생산량(Q) - 리프팅 코스트 = 잉여현금흐름",
+      "formula": "글로벌 유통 볼륨 × 브랜드 파워 기반 ASP 인상 - 원당/포장재 원가 = OPM 25% 안착",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 에너지 거인 & 핵심 원자재 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 글로벌 F&B & 필수소비재 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "유가 박스권 속 저비용 셰일 생산 및 대규모 주주환원(배당+자사주 소각)",
+      "currentStatus": "코카콜라와 프록터앤갬블의 50년 이상 연속 배당 인상(배당귀족주)과 가격 결정력",
       "outlookSignal": {
-        "level": "NEUTRAL",
-        "badgeText": "⚖️ 배당 호조",
-        "summary": "유가 박스권 속 저비용 셰일 생산 및 대규모 주주환원(배당+자사주 소각)"
+        "level": "BULLISH",
+        "badgeText": "🟢 워런 버핏 배당주",
+        "summary": "코카콜라와 프록터앤갬블의 50년 이상 연속 배당 인상(배당귀족주)과 가격 결정력"
       }
     },
     "demandAnalysis": {
-      "status": "MODERATE",
-      "statusBadge": "⚖️ 배당 호조",
-      "keyDriver": "미국 에너지 거인 & 핵심 원자재 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "WTI 원유 선물 가격",
+      "status": "STRONG",
+      "statusBadge": "🟢 워런 버핏 배당주",
+      "keyDriver": "미국 글로벌 F&B & 필수소비재 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "S&P 필수소비재 지수 (XLP Index)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "퍼미안 분지 대규모 M&A 시너지 및 LNG 수출 터미널 증설 수혜",
-      "bearFactor": "OPEC+ 증산 정책 리스크 및 글로벌 에너지 전환에 따른 장기 수요 피크"
+      "bullFactor": "신흥국 신규 음료 소비 확대 및 자사주 매입 기반 주당순이익(EPS) 우상향",
+      "bearFactor": "글로벌 설탕세 규제 및 외식 소비 둔화 우려"
     },
     "indicators": [
       {
-        "name": "WTI 원유 선물 가격",
+        "name": "S&P 필수소비재 지수 (XLP Index)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "에너지 거인 & 핵심 원자재 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "글로벌 F&B & 필수소비재 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -214954,7 +216041,418 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "엑슨모빌 (ExxonMobil)",
+        "name": "코카콜라 (Coca-Cola)",
+        "code": "KO",
+        "marketCap": "$295.0B",
+        "revenue": "$46.0B",
+        "operatingProfit": "$13.6B",
+        "opMargin": 29.5,
+        "eps": 2.8,
+        "per": 24.5,
+        "pbr": 11,
+        "roe": 42,
+        "debtRatio": 145,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 3,
+        "payoutRatio": 74,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $85.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 F&B & 필수소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $46.0B, 영업이익 $13.6B (OPM 29.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 42%, 배당수익률 3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "코카콜라 (Coca-Cola)(티커: KO)은 미국 글로벌 F&B & 필수소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$39.1B",
+            "opProfit": "$10.8B",
+            "netProfit": "$8.6B",
+            "opMargin": "27.5%",
+            "eps": 2.38,
+            "roe": "41%",
+            "debtRatio": "151%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$42.3B",
+            "opProfit": "$12.1B",
+            "netProfit": "$9.6B",
+            "opMargin": "28.5%",
+            "eps": 2.58,
+            "roe": "41.5%",
+            "debtRatio": "148%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$44.6B",
+            "opProfit": "$13.2B",
+            "netProfit": "$10.5B",
+            "opMargin": "29.5%",
+            "eps": 2.72,
+            "roe": "42%",
+            "debtRatio": "145%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$49.7B",
+            "opProfit": "$15.2B",
+            "netProfit": "$12.1B",
+            "opMargin": "30.5%",
+            "eps": 3.02,
+            "roe": "42.5%",
+            "debtRatio": "142%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$55.2B",
+            "opProfit": "$17.4B",
+            "netProfit": "$13.9B",
+            "opMargin": "31.5%",
+            "eps": 3.36,
+            "roe": "43%",
+            "debtRatio": "139%"
+          }
+        ]
+      },
+      {
+        "name": "펩시코 (PepsiCo)",
+        "code": "PEP",
+        "marketCap": "$235.0B",
+        "revenue": "$92.0B",
+        "operatingProfit": "$12.9B",
+        "opMargin": 14,
+        "eps": 8.1,
+        "per": 21,
+        "pbr": 12.5,
+        "roe": 52,
+        "debtRatio": 195,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 3.2,
+        "payoutRatio": 67,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $212.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 F&B & 필수소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $92.0B, 영업이익 $12.9B (OPM 14%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 52%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "펩시코 (PepsiCo)(티커: PEP)은 미국 글로벌 F&B & 필수소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$78.2B",
+            "opProfit": "$9.4B",
+            "netProfit": "$7.5B",
+            "opMargin": "12%",
+            "eps": 6.89,
+            "roe": "51%",
+            "debtRatio": "201%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$84.6B",
+            "opProfit": "$11.0B",
+            "netProfit": "$8.8B",
+            "opMargin": "13%",
+            "eps": 7.45,
+            "roe": "51.5%",
+            "debtRatio": "198%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$89.2B",
+            "opProfit": "$12.5B",
+            "netProfit": "$10.0B",
+            "opMargin": "14%",
+            "eps": 7.86,
+            "roe": "52%",
+            "debtRatio": "195%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$99.4B",
+            "opProfit": "$14.9B",
+            "netProfit": "$11.9B",
+            "opMargin": "15%",
+            "eps": 8.75,
+            "roe": "52.5%",
+            "debtRatio": "192%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$110.4B",
+            "opProfit": "$17.7B",
+            "netProfit": "$14.1B",
+            "opMargin": "16%",
+            "eps": 9.72,
+            "roe": "53%",
+            "debtRatio": "189%"
+          }
+        ]
+      },
+      {
+        "name": "프록터 앤 갬블 (P&G)",
+        "code": "PG",
+        "marketCap": "$405.0B",
+        "revenue": "$84.0B",
+        "operatingProfit": "$20.2B",
+        "opMargin": 24,
+        "eps": 6.5,
+        "per": 27,
+        "pbr": 8.5,
+        "roe": 34,
+        "debtRatio": 65,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.4,
+        "payoutRatio": 65,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $219.38 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 F&B & 필수소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $84.0B, 영업이익 $20.2B (OPM 24%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 34%, 배당수익률 2.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "프록터 앤 갬블 (P&G)(티커: PG)은 미국 글로벌 F&B & 필수소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$71.4B",
+            "opProfit": "$15.7B",
+            "netProfit": "$12.6B",
+            "opMargin": "22%",
+            "eps": 5.53,
+            "roe": "33%",
+            "debtRatio": "71%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$77.3B",
+            "opProfit": "$17.8B",
+            "netProfit": "$14.2B",
+            "opMargin": "23%",
+            "eps": 5.98,
+            "roe": "33.5%",
+            "debtRatio": "68%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$81.5B",
+            "opProfit": "$19.6B",
+            "netProfit": "$15.6B",
+            "opMargin": "24%",
+            "eps": 6.31,
+            "roe": "34%",
+            "debtRatio": "65%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$90.7B",
+            "opProfit": "$22.7B",
+            "netProfit": "$18.1B",
+            "opMargin": "25%",
+            "eps": 7.02,
+            "roe": "34.5%",
+            "debtRatio": "62%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$100.8B",
+            "opProfit": "$26.2B",
+            "netProfit": "$21.0B",
+            "opMargin": "26%",
+            "eps": 7.8,
+            "roe": "35%",
+            "debtRatio": "59%"
+          }
+        ]
+      },
+      {
+        "name": "맥도날드 (McDonalds)",
+        "code": "MCD",
+        "marketCap": "$215.0B",
+        "revenue": "$26.0B",
+        "operatingProfit": "$12.1B",
+        "opMargin": 46.5,
+        "eps": 11.8,
+        "per": 25,
+        "pbr": -1,
+        "roe": -1,
+        "debtRatio": 220,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 2.3,
+        "payoutRatio": 57,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $368.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 F&B & 필수소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $26.0B, 영업이익 $12.1B (OPM 46.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE -1%, 배당수익률 2.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "맥도날드 (McDonalds)(티커: MCD)은 미국 글로벌 F&B & 필수소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$22.1B",
+            "opProfit": "$9.8B",
+            "netProfit": "$7.9B",
+            "opMargin": "44.5%",
+            "eps": 10.03,
+            "roe": "-2%",
+            "debtRatio": "226%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$23.9B",
+            "opProfit": "$10.9B",
+            "netProfit": "$8.7B",
+            "opMargin": "45.5%",
+            "eps": 10.86,
+            "roe": "-1.5%",
+            "debtRatio": "223%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$25.2B",
+            "opProfit": "$11.7B",
+            "netProfit": "$9.4B",
+            "opMargin": "46.5%",
+            "eps": 11.45,
+            "roe": "-1%",
+            "debtRatio": "220%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$28.1B",
+            "opProfit": "$13.3B",
+            "netProfit": "$10.7B",
+            "opMargin": "47.5%",
+            "eps": 12.74,
+            "roe": "-0.5%",
+            "debtRatio": "217%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$31.2B",
+            "opProfit": "$15.1B",
+            "netProfit": "$12.1B",
+            "opMargin": "48.5%",
+            "eps": 14.16,
+            "roe": "0%",
+            "debtRatio": "214%"
+          }
+        ]
+      },
+      {
+        "name": "스타벅스 (Starbucks)",
+        "code": "SBUX",
+        "marketCap": "$110.0B",
+        "revenue": "$36.0B",
+        "operatingProfit": "$5.4B",
+        "opMargin": 15,
+        "eps": 3.5,
+        "per": 28,
+        "pbr": -1,
+        "roe": -1,
+        "debtRatio": 180,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 2.4,
+        "payoutRatio": 67,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $122.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 F&B & 필수소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $36.0B, 영업이익 $5.4B (OPM 15%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE -1%, 배당수익률 2.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "스타벅스 (Starbucks)(티커: SBUX)은 미국 글로벌 F&B & 필수소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$30.6B",
+            "opProfit": "$4.0B",
+            "netProfit": "$3.2B",
+            "opMargin": "13%",
+            "eps": 2.98,
+            "roe": "-2%",
+            "debtRatio": "186%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$33.1B",
+            "opProfit": "$4.6B",
+            "netProfit": "$3.7B",
+            "opMargin": "14%",
+            "eps": 3.22,
+            "roe": "-1.5%",
+            "debtRatio": "183%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$34.9B",
+            "opProfit": "$5.2B",
+            "netProfit": "$4.2B",
+            "opMargin": "15%",
+            "eps": 3.4,
+            "roe": "-1%",
+            "debtRatio": "180%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$38.9B",
+            "opProfit": "$6.2B",
+            "netProfit": "$5.0B",
+            "opMargin": "16%",
+            "eps": 3.78,
+            "roe": "-0.5%",
+            "debtRatio": "177%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$43.2B",
+            "opProfit": "$7.3B",
+            "netProfit": "$5.9B",
+            "opMargin": "17%",
+            "eps": 4.2,
+            "roe": "0%",
+            "debtRatio": "174%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "us-oil-gas",
+    "country": "미국",
+    "sector": "글로벌 오일 메이저 & 셰일가스/LNG",
+    "chapterTitle": "미국 ➔ 에너지·원자재",
+    "cluster": "에너지·원자재",
+    "stockCount": 4,
+    "changeRate": "-0.09",
+    "correlationLogic": {
+      "formula": "일일 원유 생산량 × WTI 유가 스프레드 - 배럴당 생산단가 = 막대한 현금 배당",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 글로벌 오일 메이저 & 셰일가스/LNG 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "퍼미안 분지 M&A 통합 완료로 배럴당 손익분기점(BEP) $35 달성 및 연 10% 주주환원",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 FCF 극대화",
+        "summary": "퍼미안 분지 M&A 통합 완료로 배럴당 손익분기점(BEP) $35 달성 및 연 10% 주주환원"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 FCF 극대화",
+      "keyDriver": "미국 글로벌 오일 메이저 & 셰일가스/LNG 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "WTI 원유 선물 가격 & 헨리허브 천연가스",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "셰일 혁신에 따른 저비용 채굴 경쟁력과 유럽/아시아향 미국산 LNG 수출 증대",
+      "bearFactor": "글로벌 경기 둔화 시 유가 배럴당 $65 하향 이탈 가능성"
+    },
+    "indicators": [
+      {
+        "name": "WTI 원유 선물 가격 & 헨리허브 천연가스",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 오일 메이저 & 셰일가스/LNG 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "엑슨모빌 (Exxon Mobil)",
         "code": "XOM",
         "marketCap": "$510.0B",
         "revenue": "$345.0B",
@@ -214962,15 +216460,15 @@ window.REGIONAL_INDUSTRY_DATA = {
         "opMargin": 14.5,
         "eps": 8.8,
         "per": 14,
-        "pbr": 2.3,
-        "roe": 17,
-        "debtRatio": 18,
+        "pbr": 2.2,
+        "roe": 18,
+        "debtRatio": 22,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 3.2,
-        "payoutRatio": 45,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $154.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 에너지 거인 & 핵심 원자재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $345.0B, 영업이익 $50.0B (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 17%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "엑슨모빌 (ExxonMobil)(티커: XOM)은 미국 에너지 거인 & 핵심 원자재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 3.3,
+        "payoutRatio": 46,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $154.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 오일 메이저 & 셰일가스/LNG 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $345.0B, 영업이익 $50.0B (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 3.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "엑슨모빌 (Exxon Mobil)(티커: XOM)은 미국 글로벌 오일 메이저 & 셰일가스/LNG 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -214979,8 +216477,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "netProfit": "$29.3B",
             "opMargin": "12.5%",
             "eps": 7.48,
-            "roe": "16%",
-            "debtRatio": "24%"
+            "roe": "17%",
+            "debtRatio": "28%"
           },
           {
             "year": "2022",
@@ -214989,8 +216487,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "netProfit": "$34.3B",
             "opMargin": "13.5%",
             "eps": 8.1,
-            "roe": "16.5%",
-            "debtRatio": "21%"
+            "roe": "17.5%",
+            "debtRatio": "25%"
           },
           {
             "year": "2023",
@@ -214999,8 +216497,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "netProfit": "$38.8B",
             "opMargin": "14.5%",
             "eps": 8.54,
-            "roe": "17%",
-            "debtRatio": "18%"
+            "roe": "18%",
+            "debtRatio": "22%"
           },
           {
             "year": "2024",
@@ -215009,8 +216507,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "netProfit": "$46.2B",
             "opMargin": "15.5%",
             "eps": 9.5,
-            "roe": "17.5%",
-            "debtRatio": "15%"
+            "roe": "18.5%",
+            "debtRatio": "19%"
           },
           {
             "year": "2025(E)",
@@ -215019,79 +216517,79 @@ window.REGIONAL_INDUSTRY_DATA = {
             "netProfit": "$54.6B",
             "opMargin": "16.5%",
             "eps": 10.56,
-            "roe": "18%",
-            "debtRatio": "15%"
+            "roe": "19%",
+            "debtRatio": "16%"
           }
         ]
       },
       {
         "name": "셰브론 (Chevron)",
         "code": "CVX",
-        "marketCap": "$280.0B",
-        "revenue": "$201.0B",
-        "operatingProfit": "$26.1B",
-        "opMargin": 13,
+        "marketCap": "$285.0B",
+        "revenue": "$200.0B",
+        "operatingProfit": "$25.0B",
+        "opMargin": 12.5,
         "eps": 10.5,
-        "per": 14.5,
+        "per": 15,
         "pbr": 1.8,
-        "roe": 13,
-        "debtRatio": 15,
+        "roe": 14,
+        "debtRatio": 24,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 4.2,
-        "payoutRatio": 61,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $190.31 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 에너지 거인 & 핵심 원자재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $201.0B, 영업이익 $26.1B (OPM 13%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13%, 배당수익률 4.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "셰브론 (Chevron)(티커: CVX)은 미국 에너지 거인 & 핵심 원자재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 63,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $196.88 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 오일 메이저 & 셰일가스/LNG 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $200.0B, 영업이익 $25.0B (OPM 12.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 4.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "셰브론 (Chevron)(티커: CVX)은 미국 글로벌 오일 메이저 & 셰일가스/LNG 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$170.8B",
-            "opProfit": "$18.8B",
-            "netProfit": "$15.0B",
-            "opMargin": "11%",
+            "revenue": "$170.0B",
+            "opProfit": "$17.8B",
+            "netProfit": "$14.3B",
+            "opMargin": "10.5%",
             "eps": 8.92,
-            "roe": "12%",
-            "debtRatio": "21%"
+            "roe": "13%",
+            "debtRatio": "30%"
           },
           {
             "year": "2022",
-            "revenue": "$184.9B",
-            "opProfit": "$22.2B",
-            "netProfit": "$17.8B",
-            "opMargin": "12%",
+            "revenue": "$184.0B",
+            "opProfit": "$21.2B",
+            "netProfit": "$16.9B",
+            "opMargin": "11.5%",
             "eps": 9.66,
-            "roe": "12.5%",
-            "debtRatio": "18%"
+            "roe": "13.5%",
+            "debtRatio": "27%"
           },
           {
             "year": "2023",
-            "revenue": "$195.0B",
-            "opProfit": "$25.3B",
-            "netProfit": "$20.3B",
-            "opMargin": "13%",
+            "revenue": "$194.0B",
+            "opProfit": "$24.3B",
+            "netProfit": "$19.4B",
+            "opMargin": "12.5%",
             "eps": 10.19,
-            "roe": "13%",
-            "debtRatio": "15%"
+            "roe": "14%",
+            "debtRatio": "24%"
           },
           {
             "year": "2024",
-            "revenue": "$217.1B",
-            "opProfit": "$30.4B",
-            "netProfit": "$24.3B",
-            "opMargin": "14%",
+            "revenue": "$216.0B",
+            "opProfit": "$29.2B",
+            "netProfit": "$23.3B",
+            "opMargin": "13.5%",
             "eps": 11.34,
-            "roe": "13.5%",
-            "debtRatio": "15%"
+            "roe": "14.5%",
+            "debtRatio": "21%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$241.2B",
-            "opProfit": "$36.2B",
-            "netProfit": "$28.9B",
-            "opMargin": "15%",
+            "revenue": "$240.0B",
+            "opProfit": "$34.8B",
+            "netProfit": "$27.8B",
+            "opMargin": "14.5%",
             "eps": 12.6,
-            "roe": "14%",
-            "debtRatio": "15%"
+            "roe": "15%",
+            "debtRatio": "18%"
           }
         ]
       },
@@ -215100,328 +216598,526 @@ window.REGIONAL_INDUSTRY_DATA = {
         "code": "COP",
         "marketCap": "$130.0B",
         "revenue": "$58.0B",
-        "operatingProfit": "$13.9B",
-        "opMargin": 24,
-        "eps": 8.5,
+        "operatingProfit": "$13.3B",
+        "opMargin": 23,
+        "eps": 8.8,
         "per": 13,
         "pbr": 2.4,
-        "roe": 18,
+        "roe": 18.5,
         "debtRatio": 35,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 2.8,
-        "payoutRatio": 36,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $138.13 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 에너지 거인 & 핵심 원자재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $58.0B, 영업이익 $13.9B (OPM 24%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "코노코필립스 (ConocoPhillips)(티커: COP)은 미국 에너지 거인 & 핵심 원자재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 3.2,
+        "payoutRatio": 42,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $143.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 오일 메이저 & 셰일가스/LNG 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $58.0B, 영업이익 $13.3B (OPM 23%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18.5%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "코노코필립스 (ConocoPhillips)(티커: COP)은 미국 글로벌 오일 메이저 & 셰일가스/LNG 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "$49.3B",
-            "opProfit": "$10.8B",
-            "netProfit": "$8.7B",
-            "opMargin": "22%",
-            "eps": 7.23,
-            "roe": "17%",
+            "opProfit": "$10.4B",
+            "netProfit": "$8.3B",
+            "opMargin": "21%",
+            "eps": 7.48,
+            "roe": "17.5%",
             "debtRatio": "41%"
           },
           {
             "year": "2022",
             "revenue": "$53.4B",
-            "opProfit": "$12.3B",
-            "netProfit": "$9.8B",
-            "opMargin": "23%",
-            "eps": 7.82,
-            "roe": "17.5%",
+            "opProfit": "$11.7B",
+            "netProfit": "$9.4B",
+            "opMargin": "22%",
+            "eps": 8.1,
+            "roe": "18%",
             "debtRatio": "38%"
           },
           {
             "year": "2023",
             "revenue": "$56.3B",
-            "opProfit": "$13.5B",
-            "netProfit": "$10.8B",
-            "opMargin": "24%",
-            "eps": 8.24,
-            "roe": "18%",
+            "opProfit": "$12.9B",
+            "netProfit": "$10.4B",
+            "opMargin": "23%",
+            "eps": 8.54,
+            "roe": "18.5%",
             "debtRatio": "35%"
           },
           {
             "year": "2024",
             "revenue": "$62.6B",
-            "opProfit": "$15.7B",
-            "netProfit": "$12.5B",
-            "opMargin": "25%",
-            "eps": 9.18,
-            "roe": "18.5%",
+            "opProfit": "$15.0B",
+            "netProfit": "$12.0B",
+            "opMargin": "24%",
+            "eps": 9.5,
+            "roe": "19%",
             "debtRatio": "32%"
           },
           {
             "year": "2025(E)",
             "revenue": "$69.6B",
-            "opProfit": "$18.1B",
-            "netProfit": "$14.5B",
-            "opMargin": "26%",
-            "eps": 10.2,
-            "roe": "19%",
+            "opProfit": "$17.4B",
+            "netProfit": "$13.9B",
+            "opMargin": "25%",
+            "eps": 10.56,
+            "roe": "19.5%",
             "debtRatio": "29%"
           }
         ]
       },
       {
-        "name": "슐룸베르거 (SLB)",
+        "name": "슐럼버거 (SLB)",
         "code": "SLB",
         "marketCap": "$62.0B",
         "revenue": "$33.0B",
-        "operatingProfit": "$5.8B",
-        "opMargin": 17.5,
-        "eps": 3,
-        "per": 15,
-        "pbr": 3.2,
-        "roe": 22,
-        "debtRatio": 65,
+        "operatingProfit": "$5.4B",
+        "opMargin": 16.5,
+        "eps": 3.1,
+        "per": 14.5,
+        "pbr": 3.1,
+        "roe": 21,
+        "debtRatio": 52,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 2.4,
-        "payoutRatio": 36,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $56.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 에너지 거인 & 핵심 원자재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $33.0B, 영업이익 $5.8B (OPM 17.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 22%, 배당수익률 2.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "슐룸베르거 (SLB)(티커: SLB)은 미국 에너지 거인 & 핵심 원자재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 2.6,
+        "payoutRatio": 38,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $56.19 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 오일 메이저 & 셰일가스/LNG 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $33.0B, 영업이익 $5.4B (OPM 16.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 21%, 배당수익률 2.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "슐럼버거 (SLB)(티커: SLB)은 미국 글로벌 오일 메이저 & 셰일가스/LNG 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "$28.1B",
-            "opProfit": "$4.3B",
-            "netProfit": "$3.5B",
-            "opMargin": "15.5%",
-            "eps": 2.55,
-            "roe": "21%",
-            "debtRatio": "71%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$30.4B",
-            "opProfit": "$5.0B",
-            "netProfit": "$4.0B",
-            "opMargin": "16.5%",
-            "eps": 2.76,
-            "roe": "21.5%",
-            "debtRatio": "68%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$32.0B",
-            "opProfit": "$5.6B",
-            "netProfit": "$4.5B",
-            "opMargin": "17.5%",
-            "eps": 2.91,
-            "roe": "22%",
-            "debtRatio": "65%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$35.6B",
-            "opProfit": "$6.6B",
-            "netProfit": "$5.3B",
-            "opMargin": "18.5%",
-            "eps": 3.24,
-            "roe": "22.5%",
-            "debtRatio": "62%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$39.6B",
-            "opProfit": "$7.7B",
-            "netProfit": "$6.2B",
-            "opMargin": "19.5%",
-            "eps": 3.6,
-            "roe": "23%",
-            "debtRatio": "59%"
-          }
-        ]
-      },
-      {
-        "name": "프리포트 맥모란 (Freeport)",
-        "code": "FCX",
-        "marketCap": "$68.0B",
-        "revenue": "$23.0B",
-        "operatingProfit": "$6.0B",
-        "opMargin": 26,
-        "eps": 1.5,
-        "per": 32,
-        "pbr": 3.8,
-        "roe": 13,
-        "debtRatio": 52,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 1.3,
-        "payoutRatio": 42,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $60.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 에너지 거인 & 핵심 원자재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $23.0B, 영업이익 $6.0B (OPM 26%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13%, 배당수익률 1.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "프리포트 맥모란 (Freeport)(티커: FCX)은 미국 에너지 거인 & 핵심 원자재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$19.6B",
-            "opProfit": "$4.7B",
-            "netProfit": "$3.8B",
-            "opMargin": "24%",
-            "eps": 1.27,
-            "roe": "12%",
+            "opProfit": "$4.1B",
+            "netProfit": "$3.3B",
+            "opMargin": "14.5%",
+            "eps": 2.64,
+            "roe": "20%",
             "debtRatio": "58%"
           },
           {
             "year": "2022",
-            "revenue": "$21.2B",
-            "opProfit": "$5.3B",
-            "netProfit": "$4.2B",
-            "opMargin": "25%",
-            "eps": 1.38,
-            "roe": "12.5%",
+            "revenue": "$30.4B",
+            "opProfit": "$4.7B",
+            "netProfit": "$3.8B",
+            "opMargin": "15.5%",
+            "eps": 2.85,
+            "roe": "20.5%",
             "debtRatio": "55%"
           },
           {
             "year": "2023",
-            "revenue": "$22.3B",
-            "opProfit": "$5.8B",
-            "netProfit": "$4.6B",
-            "opMargin": "26%",
-            "eps": 1.46,
-            "roe": "13%",
+            "revenue": "$32.0B",
+            "opProfit": "$5.3B",
+            "netProfit": "$4.2B",
+            "opMargin": "16.5%",
+            "eps": 3.01,
+            "roe": "21%",
             "debtRatio": "52%"
           },
           {
             "year": "2024",
-            "revenue": "$24.8B",
-            "opProfit": "$6.7B",
-            "netProfit": "$5.4B",
-            "opMargin": "27%",
-            "eps": 1.62,
-            "roe": "13.5%",
+            "revenue": "$35.6B",
+            "opProfit": "$6.2B",
+            "netProfit": "$5.0B",
+            "opMargin": "17.5%",
+            "eps": 3.35,
+            "roe": "21.5%",
             "debtRatio": "49%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$27.6B",
-            "opProfit": "$7.7B",
-            "netProfit": "$6.2B",
-            "opMargin": "28%",
-            "eps": 1.8,
-            "roe": "14%",
+            "revenue": "$39.6B",
+            "opProfit": "$7.3B",
+            "netProfit": "$5.9B",
+            "opMargin": "18.5%",
+            "eps": 3.72,
+            "roe": "22%",
             "debtRatio": "46%"
-          }
-        ]
-      },
-      {
-        "name": "넥스트에라 에너지 (NextEra)",
-        "code": "NEE",
-        "marketCap": "$165.0B",
-        "revenue": "$28.0B",
-        "operatingProfit": "$9.8B",
-        "opMargin": 35,
-        "eps": 3.4,
-        "per": 24,
-        "pbr": 3.2,
-        "roe": 14,
-        "debtRatio": 140,
-        "currentRatio": 140,
-        "riskStatus": "NORMAL",
-        "dividendYield": 2.6,
-        "payoutRatio": 62,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $102.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 에너지 거인 & 핵심 원자재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $28.0B, 영업이익 $9.8B (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 2.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "넥스트에라 에너지 (NextEra)(티커: NEE)은 미국 에너지 거인 & 핵심 원자재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$23.8B",
-            "opProfit": "$7.9B",
-            "netProfit": "$6.3B",
-            "opMargin": "33%",
-            "eps": 2.89,
-            "roe": "13%",
-            "debtRatio": "146%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$25.8B",
-            "opProfit": "$8.8B",
-            "netProfit": "$7.0B",
-            "opMargin": "34%",
-            "eps": 3.13,
-            "roe": "13.5%",
-            "debtRatio": "143%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$27.2B",
-            "opProfit": "$9.5B",
-            "netProfit": "$7.6B",
-            "opMargin": "35%",
-            "eps": 3.3,
-            "roe": "14%",
-            "debtRatio": "140%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$30.2B",
-            "opProfit": "$10.9B",
-            "netProfit": "$8.7B",
-            "opMargin": "36%",
-            "eps": 3.67,
-            "roe": "14.5%",
-            "debtRatio": "137%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$33.6B",
-            "opProfit": "$12.4B",
-            "netProfit": "$9.9B",
-            "opMargin": "37%",
-            "eps": 4.08,
-            "roe": "15%",
-            "debtRatio": "134%"
           }
         ]
       }
     ]
   },
   {
-    "id": "us-media",
+    "id": "us-clean-nuclear",
     "country": "미국",
-    "sector": "미디어 플랫폼 & 차세대 통신",
-    "chapterTitle": "미국 ➔ 미디어·엔터",
-    "cluster": "미디어·엔터",
-    "stockCount": 7,
-    "changeRate": "1.13",
+    "sector": "차세대 원자력 & 신재생에너지",
+    "chapterTitle": "미국 ➔ 에너지·원자재",
+    "cluster": "에너지·원자재",
+    "stockCount": 4,
+    "changeRate": "0.60",
     "correlationLogic": {
-      "formula": "스트리밍 유료 가입자수(Q) × 광고 단가(P) - 제작비 = 잉여현금흐름 폭발",
+      "formula": "원자력 PPA 장기 계약 단가 × 데이터센터 전력 소비량 = 안정적 고마진",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 미디어 플랫폼 & 차세대 통신 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 차세대 원자력 & 신재생에너지 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "넷플릭스의 독보적 글로벌 가입자 수주 및 광고 티어 수익화 본격화",
+      "currentStatus": "AI 데이터센터의 24시간 무탄소 기저부하 전력 공급을 위한 원전 재가동 장기 전력구매계약(PPA)",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 스트리밍 황금기",
-        "summary": "넷플릭스의 독보적 글로벌 가입자 수주 및 광고 티어 수익화 본격화"
+        "badgeText": "🟢 AI 전력 수혜",
+        "summary": "AI 데이터센터의 24시간 무탄소 기저부하 전력 공급을 위한 원전 재가동 장기 전력구매계약(PPA)"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 스트리밍 황금기",
-      "keyDriver": "미국 미디어 플랫폼 & 차세대 통신 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "미국 통신/미디어 XLC ETF 지수",
+      "statusBadge": "🟢 AI 전력 수혜",
+      "keyDriver": "미국 차세대 원자력 & 신재생에너지 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "미국 PJM 도매 전력 가격 & 우라늄(U3O8) 현물가",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "넷플릭스 유료 구독자 2.8억 명 돌파 및 라이브 스포츠(NFL, WWE) 독점 중계권 확보",
-      "bearFactor": "전통 레거시 케이블 TV 가입자 이탈(코드커팅) 및 제작 원가 상승"
+      "bullFactor": "마이크로소프트와의 스리마일 아일랜드 원전 20년 독점 공급 계약 체결",
+      "bearFactor": "원전 인허가 및 송배전 전력망 연결 대기 기간 장기화"
     },
     "indicators": [
       {
-        "name": "미국 통신/미디어 XLC ETF 지수",
+        "name": "미국 PJM 도매 전력 가격 & 우라늄(U3O8) 현물가",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "미디어 플랫폼 & 차세대 통신 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "차세대 원자력 & 신재생에너지 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "컨스텔레이션 에너지 (Constellation Energy)",
+        "code": "CEG",
+        "marketCap": "$85.0B",
+        "revenue": "$24.0B",
+        "operatingProfit": "$4.4B",
+        "opMargin": 18.5,
+        "eps": 9.5,
+        "per": 28,
+        "pbr": 6.8,
+        "roe": 24,
+        "debtRatio": 65,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0.6,
+        "payoutRatio": 17,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $332.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 차세대 원자력 & 신재생에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $24.0B, 영업이익 $4.4B (OPM 18.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 24%, 배당수익률 0.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "컨스텔레이션 에너지 (Constellation Energy)(티커: CEG)은 미국 차세대 원자력 & 신재생에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$20.4B",
+            "opProfit": "$3.4B",
+            "netProfit": "$2.7B",
+            "opMargin": "16.5%",
+            "eps": 8.07,
+            "roe": "23%",
+            "debtRatio": "71%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$22.1B",
+            "opProfit": "$3.9B",
+            "netProfit": "$3.1B",
+            "opMargin": "17.5%",
+            "eps": 8.74,
+            "roe": "23.5%",
+            "debtRatio": "68%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$23.3B",
+            "opProfit": "$4.3B",
+            "netProfit": "$3.4B",
+            "opMargin": "18.5%",
+            "eps": 9.22,
+            "roe": "24%",
+            "debtRatio": "65%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$25.9B",
+            "opProfit": "$5.1B",
+            "netProfit": "$4.0B",
+            "opMargin": "19.5%",
+            "eps": 10.26,
+            "roe": "24.5%",
+            "debtRatio": "62%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$28.8B",
+            "opProfit": "$5.9B",
+            "netProfit": "$4.7B",
+            "opMargin": "20.5%",
+            "eps": 11.4,
+            "roe": "25%",
+            "debtRatio": "59%"
+          }
+        ]
+      },
+      {
+        "name": "비스트라 에너지 (Vistra Corp)",
+        "code": "VST",
+        "marketCap": "$45.0B",
+        "revenue": "$15.0B",
+        "operatingProfit": "$3.3B",
+        "opMargin": 22,
+        "eps": 5.8,
+        "per": 22,
+        "pbr": 7.5,
+        "roe": 32,
+        "debtRatio": 145,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 0.8,
+        "payoutRatio": 18,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $159.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 차세대 원자력 & 신재생에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $15.0B, 영업이익 $3.3B (OPM 22%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 32%, 배당수익률 0.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "비스트라 에너지 (Vistra Corp)(티커: VST)은 미국 차세대 원자력 & 신재생에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$12.8B",
+            "opProfit": "$2.6B",
+            "netProfit": "$2.0B",
+            "opMargin": "20%",
+            "eps": 4.93,
+            "roe": "31%",
+            "debtRatio": "151%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$13.8B",
+            "opProfit": "$2.9B",
+            "netProfit": "$2.3B",
+            "opMargin": "21%",
+            "eps": 5.34,
+            "roe": "31.5%",
+            "debtRatio": "148%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$14.5B",
+            "opProfit": "$3.2B",
+            "netProfit": "$2.6B",
+            "opMargin": "22%",
+            "eps": 5.63,
+            "roe": "32%",
+            "debtRatio": "145%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$16.2B",
+            "opProfit": "$3.7B",
+            "netProfit": "$3.0B",
+            "opMargin": "23%",
+            "eps": 6.26,
+            "roe": "32.5%",
+            "debtRatio": "142%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$18.0B",
+            "opProfit": "$4.3B",
+            "netProfit": "$3.5B",
+            "opMargin": "24%",
+            "eps": 6.96,
+            "roe": "33%",
+            "debtRatio": "139%"
+          }
+        ]
+      },
+      {
+        "name": "넥스트에라 에너지 (NextEra Energy)",
+        "code": "NEE",
+        "marketCap": "$175.0B",
+        "revenue": "$28.0B",
+        "operatingProfit": "$9.0B",
+        "opMargin": 32,
+        "eps": 3.4,
+        "per": 24,
+        "pbr": 3.5,
+        "roe": 15,
+        "debtRatio": 140,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 2.6,
+        "payoutRatio": 62,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $102.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 차세대 원자력 & 신재생에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $28.0B, 영업이익 $9.0B (OPM 32%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15%, 배당수익률 2.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "넥스트에라 에너지 (NextEra Energy)(티커: NEE)은 미국 차세대 원자력 & 신재생에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$23.8B",
+            "opProfit": "$7.1B",
+            "netProfit": "$5.7B",
+            "opMargin": "30%",
+            "eps": 2.89,
+            "roe": "14%",
+            "debtRatio": "146%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$25.8B",
+            "opProfit": "$8.0B",
+            "netProfit": "$6.4B",
+            "opMargin": "31%",
+            "eps": 3.13,
+            "roe": "14.5%",
+            "debtRatio": "143%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$27.2B",
+            "opProfit": "$8.7B",
+            "netProfit": "$7.0B",
+            "opMargin": "32%",
+            "eps": 3.3,
+            "roe": "15%",
+            "debtRatio": "140%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$30.2B",
+            "opProfit": "$10.0B",
+            "netProfit": "$8.0B",
+            "opMargin": "33%",
+            "eps": 3.67,
+            "roe": "15.5%",
+            "debtRatio": "137%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$33.6B",
+            "opProfit": "$11.4B",
+            "netProfit": "$9.1B",
+            "opMargin": "34%",
+            "eps": 4.08,
+            "roe": "16%",
+            "debtRatio": "134%"
+          }
+        ]
+      },
+      {
+        "name": "GE 버노바 (GE Vernova)",
+        "code": "GEV",
+        "marketCap": "$75.0B",
+        "revenue": "$35.0B",
+        "operatingProfit": "$2.3B",
+        "opMargin": 6.5,
+        "eps": 7.2,
+        "per": 38,
+        "pbr": 4.8,
+        "roe": 12,
+        "debtRatio": 25,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $342.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 차세대 원자력 & 신재생에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $35.0B, 영업이익 $2.3B (OPM 6.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "GE 버노바 (GE Vernova)(티커: GEV)은 미국 차세대 원자력 & 신재생에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$29.8B",
+            "opProfit": "$1.3B",
+            "netProfit": "$1.1B",
+            "opMargin": "4.5%",
+            "eps": 6.12,
+            "roe": "11%",
+            "debtRatio": "31%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$32.2B",
+            "opProfit": "$1.8B",
+            "netProfit": "$1.4B",
+            "opMargin": "5.5%",
+            "eps": 6.62,
+            "roe": "11.5%",
+            "debtRatio": "28%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$33.9B",
+            "opProfit": "$2.2B",
+            "netProfit": "$1.8B",
+            "opMargin": "6.5%",
+            "eps": 6.98,
+            "roe": "12%",
+            "debtRatio": "25%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$37.8B",
+            "opProfit": "$2.8B",
+            "netProfit": "$2.3B",
+            "opMargin": "7.5%",
+            "eps": 7.78,
+            "roe": "12.5%",
+            "debtRatio": "22%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$42.0B",
+            "opProfit": "$3.6B",
+            "netProfit": "$2.9B",
+            "opMargin": "8.5%",
+            "eps": 8.64,
+            "roe": "13%",
+            "debtRatio": "19%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "us-ott-streaming",
+    "country": "미국",
+    "sector": "글로벌 OTT 스트리밍 & 엔터테인먼트",
+    "chapterTitle": "미국 ➔ 미디어·엔터",
+    "cluster": "미디어·엔터",
+    "stockCount": 4,
+    "changeRate": "0.38",
+    "correlationLogic": {
+      "formula": "유료 구독자 수(ARM) × 구독료 인상 + 광고 매출 - 콘텐츠 상각비 = FCF 70억 달러",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 글로벌 OTT 스트리밍 & 엔터테인먼트 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "넷플릭스의 글로벌 유료 구독자 2.8억 명 돌파 및 광고형 요금제/계정공유 유료화 성공",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 스트리밍 승자독식",
+        "summary": "넷플릭스의 글로벌 유료 구독자 2.8억 명 돌파 및 광고형 요금제/계정공유 유료화 성공"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 스트리밍 승자독식",
+      "keyDriver": "미국 글로벌 OTT 스트리밍 & 엔터테인먼트 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "넷플릭스 글로벌 유료 구독자 순증치 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "WWE 라이브 스포츠 중계권 확보 및 K-콘텐츠 등 글로벌 가성비 IP 성공",
+      "bearFactor": "할리우드 작가/배우 파업 등 콘텐츠 제작 지연 가능성"
+    },
+    "indicators": [
+      {
+        "name": "넷플릭스 글로벌 유료 구독자 순증치 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 OTT 스트리밍 & 엔터테인먼트 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -215438,14 +217134,14 @@ window.REGIONAL_INDUSTRY_DATA = {
       {
         "name": "넷플릭스 (Netflix)",
         "code": "NFLX",
-        "marketCap": "$320.0B",
+        "marketCap": "$325.0B",
         "revenue": "$38.0B",
-        "operatingProfit": "$10.8B",
-        "opMargin": 28.5,
-        "eps": 19.5,
-        "per": 39,
+        "operatingProfit": "$10.1B",
+        "opMargin": 26.5,
+        "eps": 19.8,
+        "per": 39.5,
         "pbr": 14.5,
-        "roe": 31,
+        "roe": 34,
         "debtRatio": 65,
         "currentRatio": 140,
         "riskStatus": "SAFE",
@@ -215457,51 +217153,51 @@ window.REGIONAL_INDUSTRY_DATA = {
           {
             "year": "2021",
             "revenue": "$32.3B",
-            "opProfit": "$8.6B",
-            "netProfit": "$6.8B",
-            "opMargin": "26.5%",
-            "eps": 16.58,
-            "roe": "30%",
+            "opProfit": "$7.9B",
+            "netProfit": "$6.3B",
+            "opMargin": "24.5%",
+            "eps": 16.83,
+            "roe": "33%",
             "debtRatio": "71%"
           },
           {
             "year": "2022",
             "revenue": "$35.0B",
-            "opProfit": "$9.6B",
-            "netProfit": "$7.7B",
-            "opMargin": "27.5%",
-            "eps": 17.94,
-            "roe": "30.5%",
+            "opProfit": "$8.9B",
+            "netProfit": "$7.1B",
+            "opMargin": "25.5%",
+            "eps": 18.22,
+            "roe": "33.5%",
             "debtRatio": "68%"
           },
           {
             "year": "2023",
             "revenue": "$36.9B",
-            "opProfit": "$10.5B",
-            "netProfit": "$8.4B",
-            "opMargin": "28.5%",
-            "eps": 18.92,
-            "roe": "31%",
+            "opProfit": "$9.8B",
+            "netProfit": "$7.8B",
+            "opMargin": "26.5%",
+            "eps": 19.21,
+            "roe": "34%",
             "debtRatio": "65%"
           },
           {
             "year": "2024",
             "revenue": "$41.0B",
-            "opProfit": "$12.1B",
-            "netProfit": "$9.7B",
-            "opMargin": "29.5%",
-            "eps": 21.06,
-            "roe": "31.5%",
+            "opProfit": "$11.3B",
+            "netProfit": "$9.0B",
+            "opMargin": "27.5%",
+            "eps": 21.38,
+            "roe": "34.5%",
             "debtRatio": "62%"
           },
           {
             "year": "2025(E)",
             "revenue": "$45.6B",
-            "opProfit": "$13.9B",
-            "netProfit": "$11.1B",
-            "opMargin": "30.5%",
-            "eps": 23.4,
-            "roe": "32%",
+            "opProfit": "$13.0B",
+            "netProfit": "$10.4B",
+            "opMargin": "28.5%",
+            "eps": 23.76,
+            "roe": "35%",
             "debtRatio": "59%"
           }
         ]
@@ -215509,426 +217205,482 @@ window.REGIONAL_INDUSTRY_DATA = {
       {
         "name": "월트 디즈니 (Walt Disney)",
         "code": "DIS",
-        "marketCap": "$185.0B",
+        "marketCap": "$175.0B",
         "revenue": "$91.0B",
-        "operatingProfit": "$12.3B",
-        "opMargin": 13.5,
-        "eps": 4.9,
+        "operatingProfit": "$11.8B",
+        "opMargin": 13,
+        "eps": 4.8,
         "per": 21,
         "pbr": 1.8,
-        "roe": 8.8,
+        "roe": 8.5,
         "debtRatio": 45,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 0.9,
         "payoutRatio": 19,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $128.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 미디어 플랫폼 & 차세대 통신 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $91.0B, 영업이익 $12.3B (OPM 13.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.8%, 배당수익률 0.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "월트 디즈니 (Walt Disney)(티커: DIS)은 미국 미디어 플랫폼 & 차세대 통신 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $126.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 OTT 스트리밍 & 엔터테인먼트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $91.0B, 영업이익 $11.8B (OPM 13%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.5%, 배당수익률 0.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "월트 디즈니 (Walt Disney)(티커: DIS)은 미국 글로벌 OTT 스트리밍 & 엔터테인먼트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "$77.3B",
-            "opProfit": "$8.9B",
-            "netProfit": "$7.1B",
-            "opMargin": "11.5%",
-            "eps": 4.17,
-            "roe": "7.8%",
+            "opProfit": "$8.5B",
+            "netProfit": "$6.8B",
+            "opMargin": "11%",
+            "eps": 4.08,
+            "roe": "7.5%",
             "debtRatio": "51%"
           },
           {
             "year": "2022",
             "revenue": "$83.7B",
-            "opProfit": "$10.5B",
-            "netProfit": "$8.4B",
-            "opMargin": "12.5%",
-            "eps": 4.51,
-            "roe": "8.3%",
+            "opProfit": "$10.0B",
+            "netProfit": "$8.0B",
+            "opMargin": "12%",
+            "eps": 4.42,
+            "roe": "8%",
             "debtRatio": "48%"
           },
           {
             "year": "2023",
             "revenue": "$88.3B",
-            "opProfit": "$11.9B",
-            "netProfit": "$9.5B",
-            "opMargin": "13.5%",
-            "eps": 4.75,
-            "roe": "8.8%",
+            "opProfit": "$11.5B",
+            "netProfit": "$9.2B",
+            "opMargin": "13%",
+            "eps": 4.66,
+            "roe": "8.5%",
             "debtRatio": "45%"
           },
           {
             "year": "2024",
             "revenue": "$98.3B",
-            "opProfit": "$14.3B",
-            "netProfit": "$11.4B",
-            "opMargin": "14.5%",
-            "eps": 5.29,
-            "roe": "9.3%",
+            "opProfit": "$13.8B",
+            "netProfit": "$11.0B",
+            "opMargin": "14%",
+            "eps": 5.18,
+            "roe": "9%",
             "debtRatio": "42%"
           },
           {
             "year": "2025(E)",
             "revenue": "$109.2B",
-            "opProfit": "$16.9B",
-            "netProfit": "$13.5B",
-            "opMargin": "15.5%",
-            "eps": 5.88,
-            "roe": "9.8%",
+            "opProfit": "$16.4B",
+            "netProfit": "$13.1B",
+            "opMargin": "15%",
+            "eps": 5.76,
+            "roe": "9.5%",
             "debtRatio": "39%"
           }
         ]
       },
       {
-        "name": "스포티파이 (Spotify)",
-        "code": "SPOT",
-        "marketCap": "$78.0B",
-        "revenue": "$16.0B",
-        "operatingProfit": "$1.8B",
-        "opMargin": 11,
-        "eps": 8.5,
-        "per": 42,
-        "pbr": 18,
-        "roe": 35,
-        "debtRatio": 25,
+        "name": "워너 브라더스 디스커버리 (WBD)",
+        "code": "WBD",
+        "marketCap": "$22.0B",
+        "revenue": "$41.0B",
+        "operatingProfit": "$3.5B",
+        "opMargin": 8.5,
+        "eps": 0.5,
+        "per": 15,
+        "pbr": 0.5,
+        "roe": 3.5,
+        "debtRatio": 110,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $9.38 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 OTT 스트리밍 & 엔터테인먼트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $41.0B, 영업이익 $3.5B (OPM 8.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 3.5%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "워너 브라더스 디스커버리 (WBD)(티커: WBD)은 미국 글로벌 OTT 스트리밍 & 엔터테인먼트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$34.9B",
+            "opProfit": "$2.3B",
+            "netProfit": "$1.8B",
+            "opMargin": "6.5%",
+            "eps": 0.43,
+            "roe": "2.5%",
+            "debtRatio": "116%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$37.7B",
+            "opProfit": "$2.8B",
+            "netProfit": "$2.3B",
+            "opMargin": "7.5%",
+            "eps": 0.46,
+            "roe": "3%",
+            "debtRatio": "113%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$39.8B",
+            "opProfit": "$3.4B",
+            "netProfit": "$2.7B",
+            "opMargin": "8.5%",
+            "eps": 0.49,
+            "roe": "3.5%",
+            "debtRatio": "110%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$44.3B",
+            "opProfit": "$4.2B",
+            "netProfit": "$3.4B",
+            "opMargin": "9.5%",
+            "eps": 0.54,
+            "roe": "4%",
+            "debtRatio": "107%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$49.2B",
+            "opProfit": "$5.2B",
+            "netProfit": "$4.1B",
+            "opMargin": "10.5%",
+            "eps": 0.6,
+            "roe": "4.5%",
+            "debtRatio": "104%"
+          }
+        ]
+      },
+      {
+        "name": "컴캐스트 (Comcast NBCU)",
+        "code": "CMCSA",
+        "marketCap": "$165.0B",
+        "revenue": "$122.0B",
+        "operatingProfit": "$23.8B",
+        "opMargin": 19.5,
+        "eps": 4.1,
+        "per": 10.5,
+        "pbr": 1.8,
+        "roe": 18,
+        "debtRatio": 115,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 3,
+        "payoutRatio": 32,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $53.81 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 OTT 스트리밍 & 엔터테인먼트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $122.0B, 영업이익 $23.8B (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "컴캐스트 (Comcast NBCU)(티커: CMCSA)은 미국 글로벌 OTT 스트리밍 & 엔터테인먼트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$103.7B",
+            "opProfit": "$18.1B",
+            "netProfit": "$14.5B",
+            "opMargin": "17.5%",
+            "eps": 3.48,
+            "roe": "17%",
+            "debtRatio": "121%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$112.2B",
+            "opProfit": "$20.8B",
+            "netProfit": "$16.6B",
+            "opMargin": "18.5%",
+            "eps": 3.77,
+            "roe": "17.5%",
+            "debtRatio": "118%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$118.3B",
+            "opProfit": "$23.1B",
+            "netProfit": "$18.5B",
+            "opMargin": "19.5%",
+            "eps": 3.98,
+            "roe": "18%",
+            "debtRatio": "115%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$131.8B",
+            "opProfit": "$27.0B",
+            "netProfit": "$21.6B",
+            "opMargin": "20.5%",
+            "eps": 4.43,
+            "roe": "18.5%",
+            "debtRatio": "112%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$146.4B",
+            "opProfit": "$31.5B",
+            "netProfit": "$25.2B",
+            "opMargin": "21.5%",
+            "eps": 4.92,
+            "roe": "19%",
+            "debtRatio": "109%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "us-adtech-social",
+    "country": "미국",
+    "sector": "디지털 광고 플랫폼 & 소셜 네트워크",
+    "chapterTitle": "미국 ➔ 미디어·엔터",
+    "cluster": "미디어·엔터",
+    "stockCount": 3,
+    "changeRate": "-0.21",
+    "correlationLogic": {
+      "formula": "일일 활성 이용자(DAU) × 체류 시간 × 광고 노출 빈도(Ad Load) = 광고 매출 폭증",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 디지털 광고 플랫폼 & 소셜 네트워크 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "AI 기반 타깃팅 광고 효율 개선으로 광고 단가 및 클릭 전환율 사상 최고치",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 광고 AI 수혜",
+        "summary": "AI 기반 타깃팅 광고 효율 개선으로 광고 단가 및 클릭 전환율 사상 최고치"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 광고 AI 수혜",
+      "keyDriver": "미국 디지털 광고 플랫폼 & 소셜 네트워크 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "글로벌 디지털 광고 시장 지출액 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "AI 추천 숏폼 동영상(Reels) 광고 수익화 가속 및 선거/이커머스 광고 수요",
+      "bearFactor": "미성년자 SNS 이용 제한 법안 및 개인정보 추적 규제"
+    },
+    "indicators": [
+      {
+        "name": "글로벌 디지털 광고 시장 지출액 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "디지털 광고 플랫폼 & 소셜 네트워크 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "더 트레이드 데스크 (The Trade Desk)",
+        "code": "TTD",
+        "marketCap": "$58.0B",
+        "revenue": "$2.3B",
+        "operatingProfit": "$0.6B",
+        "opMargin": 24,
+        "eps": 1.4,
+        "per": 78,
+        "pbr": 19,
+        "roe": 21,
+        "debtRatio": 15,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 0,
         "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $446.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 미디어 플랫폼 & 차세대 통신 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $16.0B, 영업이익 $1.8B (OPM 11%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 35%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "스포티파이 (Spotify)(티커: SPOT)은 미국 미디어 플랫폼 & 차세대 통신 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $136.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 디지털 광고 플랫폼 & 소셜 네트워크 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $2.3B, 영업이익 $0.6B (OPM 24%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 21%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "더 트레이드 데스크 (The Trade Desk)(티커: TTD)은 미국 디지털 광고 플랫폼 & 소셜 네트워크 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$13.6B",
-            "opProfit": "$1.2B",
-            "netProfit": "$1.0B",
-            "opMargin": "9%",
-            "eps": 7.23,
-            "roe": "34%",
-            "debtRatio": "31%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$14.7B",
-            "opProfit": "$1.5B",
-            "netProfit": "$1.2B",
-            "opMargin": "10%",
-            "eps": 7.82,
-            "roe": "34.5%",
-            "debtRatio": "28%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$15.5B",
-            "opProfit": "$1.7B",
-            "netProfit": "$1.4B",
-            "opMargin": "11%",
-            "eps": 8.24,
-            "roe": "35%",
-            "debtRatio": "25%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$17.3B",
-            "opProfit": "$2.1B",
-            "netProfit": "$1.7B",
-            "opMargin": "12%",
-            "eps": 9.18,
-            "roe": "35.5%",
-            "debtRatio": "22%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$19.2B",
-            "opProfit": "$2.5B",
-            "netProfit": "$2.0B",
-            "opMargin": "13%",
-            "eps": 10.2,
-            "roe": "36%",
-            "debtRatio": "19%"
-          }
-        ]
-      },
-      {
-        "name": "T-모바일 US (T-Mobile)",
-        "code": "TMUS",
-        "marketCap": "$245.0B",
-        "revenue": "$80.0B",
-        "operatingProfit": "$18.8B",
-        "opMargin": 23.5,
-        "eps": 8.8,
-        "per": 24.5,
-        "pbr": 3.5,
-        "roe": 14.5,
-        "debtRatio": 155,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 1.5,
-        "payoutRatio": 37,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $269.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 미디어 플랫폼 & 차세대 통신 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $80.0B, 영업이익 $18.8B (OPM 23.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 1.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "T-모바일 US (T-Mobile)(티커: TMUS)은 미국 미디어 플랫폼 & 차세대 통신 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$68.0B",
-            "opProfit": "$14.6B",
-            "netProfit": "$11.7B",
-            "opMargin": "21.5%",
-            "eps": 7.48,
-            "roe": "13.5%",
-            "debtRatio": "161%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$73.6B",
-            "opProfit": "$16.6B",
-            "netProfit": "$13.2B",
-            "opMargin": "22.5%",
-            "eps": 8.1,
-            "roe": "14%",
-            "debtRatio": "158%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$77.6B",
-            "opProfit": "$18.2B",
-            "netProfit": "$14.6B",
-            "opMargin": "23.5%",
-            "eps": 8.54,
-            "roe": "14.5%",
-            "debtRatio": "155%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$86.4B",
-            "opProfit": "$21.2B",
-            "netProfit": "$16.9B",
-            "opMargin": "24.5%",
-            "eps": 9.5,
-            "roe": "15%",
-            "debtRatio": "152%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$96.0B",
-            "opProfit": "$24.5B",
-            "netProfit": "$19.6B",
-            "opMargin": "25.5%",
-            "eps": 10.56,
-            "roe": "15.5%",
-            "debtRatio": "149%"
-          }
-        ]
-      },
-      {
-        "name": "컴캐스트 (Comcast)",
-        "code": "CMCSA",
-        "marketCap": "$165.0B",
-        "revenue": "$121.0B",
-        "operatingProfit": "$23.0B",
-        "opMargin": 19,
-        "eps": 3.9,
-        "per": 11,
-        "pbr": 2,
-        "roe": 18,
-        "debtRatio": 125,
-        "currentRatio": 140,
-        "riskStatus": "NORMAL",
-        "dividendYield": 3,
-        "payoutRatio": 33,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $53.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 미디어 플랫폼 & 차세대 통신 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $121.0B, 영업이익 $23.0B (OPM 19%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "컴캐스트 (Comcast)(티커: CMCSA)은 미국 미디어 플랫폼 & 차세대 통신 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$102.8B",
-            "opProfit": "$17.5B",
-            "netProfit": "$14.0B",
-            "opMargin": "17%",
-            "eps": 3.32,
-            "roe": "17%",
-            "debtRatio": "131%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$111.3B",
-            "opProfit": "$20.0B",
-            "netProfit": "$16.0B",
-            "opMargin": "18%",
-            "eps": 3.59,
-            "roe": "17.5%",
-            "debtRatio": "128%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$117.4B",
-            "opProfit": "$22.3B",
-            "netProfit": "$17.8B",
-            "opMargin": "19%",
-            "eps": 3.78,
-            "roe": "18%",
-            "debtRatio": "125%"
-          },
-          {
-            "year": "2024",
-            "revenue": "$130.7B",
-            "opProfit": "$26.1B",
-            "netProfit": "$20.9B",
-            "opMargin": "20%",
-            "eps": 4.21,
-            "roe": "18.5%",
-            "debtRatio": "122%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "$145.2B",
-            "opProfit": "$30.5B",
-            "netProfit": "$24.4B",
-            "opMargin": "21%",
-            "eps": 4.68,
-            "roe": "19%",
-            "debtRatio": "119%"
-          }
-        ]
-      },
-      {
-        "name": "버라이즌 (Verizon)",
-        "code": "VZ",
-        "marketCap": "$185.0B",
-        "revenue": "$134.0B",
-        "operatingProfit": "$29.5B",
-        "opMargin": 22,
-        "eps": 4.6,
-        "per": 9.5,
-        "pbr": 1.9,
-        "roe": 20,
-        "debtRatio": 175,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 6.3,
-        "payoutRatio": 60,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $54.62 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 미디어 플랫폼 & 차세대 통신 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $134.0B, 영업이익 $29.5B (OPM 22%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 20%, 배당수익률 6.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "버라이즌 (Verizon)(티커: VZ)은 미국 미디어 플랫폼 & 차세대 통신 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "$113.9B",
-            "opProfit": "$22.8B",
-            "netProfit": "$18.2B",
-            "opMargin": "20%",
-            "eps": 3.91,
-            "roe": "19%",
-            "debtRatio": "181%"
-          },
-          {
-            "year": "2022",
-            "revenue": "$123.3B",
-            "opProfit": "$25.9B",
-            "netProfit": "$20.7B",
-            "opMargin": "21%",
-            "eps": 4.23,
-            "roe": "19.5%",
-            "debtRatio": "178%"
-          },
-          {
-            "year": "2023",
-            "revenue": "$130.0B",
-            "opProfit": "$28.6B",
-            "netProfit": "$22.9B",
+            "revenue": "$2.0B",
+            "opProfit": "$0.4B",
+            "netProfit": "$0.3B",
             "opMargin": "22%",
-            "eps": 4.46,
+            "eps": 1.19,
             "roe": "20%",
-            "debtRatio": "175%"
+            "debtRatio": "21%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$2.1B",
+            "opProfit": "$0.5B",
+            "netProfit": "$0.4B",
+            "opMargin": "23%",
+            "eps": 1.29,
+            "roe": "20.5%",
+            "debtRatio": "18%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$2.2B",
+            "opProfit": "$0.5B",
+            "netProfit": "$0.4B",
+            "opMargin": "24%",
+            "eps": 1.36,
+            "roe": "21%",
+            "debtRatio": "15%"
           },
           {
             "year": "2024",
-            "revenue": "$144.7B",
-            "opProfit": "$33.3B",
-            "netProfit": "$26.6B",
-            "opMargin": "23%",
-            "eps": 4.97,
-            "roe": "20.5%",
-            "debtRatio": "172%"
+            "revenue": "$2.5B",
+            "opProfit": "$0.6B",
+            "netProfit": "$0.5B",
+            "opMargin": "25%",
+            "eps": 1.51,
+            "roe": "21.5%",
+            "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$160.8B",
-            "opProfit": "$38.6B",
-            "netProfit": "$30.9B",
-            "opMargin": "24%",
-            "eps": 5.52,
-            "roe": "21%",
-            "debtRatio": "169%"
+            "revenue": "$2.8B",
+            "opProfit": "$0.7B",
+            "netProfit": "$0.6B",
+            "opMargin": "26%",
+            "eps": 1.68,
+            "roe": "22%",
+            "debtRatio": "15%"
           }
         ]
       },
       {
-        "name": "부킹 홀딩스 (Booking)",
-        "code": "BKNG",
-        "marketCap": "$150.0B",
-        "revenue": "$21.0B",
-        "operatingProfit": "$7.1B",
-        "opMargin": 34,
-        "eps": 160,
-        "per": 28,
-        "pbr": -25,
-        "roe": -85,
-        "debtRatio": 320,
+        "name": "핀터레스트 (Pinterest)",
+        "code": "PINS",
+        "marketCap": "$22.0B",
+        "revenue": "$3.4B",
+        "operatingProfit": "$0.6B",
+        "opMargin": 16.5,
+        "eps": 1.2,
+        "per": 29,
+        "pbr": 6.5,
+        "roe": 18,
+        "debtRatio": 8,
         "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 0.8,
-        "payoutRatio": 22,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $5600.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 미디어 플랫폼 & 차세대 통신 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $21.0B, 영업이익 $7.1B (OPM 34%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE -85%, 배당수익률 0.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "부킹 홀딩스 (Booking)(티커: BKNG)은 미국 미디어 플랫폼 & 차세대 통신 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $43.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 디지털 광고 플랫폼 & 소셜 네트워크 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $3.4B, 영업이익 $0.6B (OPM 16.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "핀터레스트 (Pinterest)(티커: PINS)은 미국 디지털 광고 플랫폼 & 소셜 네트워크 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "$17.8B",
-            "opProfit": "$5.7B",
-            "netProfit": "$4.6B",
-            "opMargin": "32%",
-            "eps": 136,
-            "roe": "-86%",
-            "debtRatio": "326%"
+            "revenue": "$2.9B",
+            "opProfit": "$0.4B",
+            "netProfit": "$0.3B",
+            "opMargin": "14.5%",
+            "eps": 1.02,
+            "roe": "17%",
+            "debtRatio": "15%"
           },
           {
             "year": "2022",
-            "revenue": "$19.3B",
-            "opProfit": "$6.4B",
-            "netProfit": "$5.1B",
-            "opMargin": "33%",
-            "eps": 147.2,
-            "roe": "-85.5%",
-            "debtRatio": "323%"
+            "revenue": "$3.1B",
+            "opProfit": "$0.5B",
+            "netProfit": "$0.4B",
+            "opMargin": "15.5%",
+            "eps": 1.1,
+            "roe": "17.5%",
+            "debtRatio": "15%"
           },
           {
             "year": "2023",
-            "revenue": "$20.4B",
-            "opProfit": "$6.9B",
-            "netProfit": "$5.5B",
-            "opMargin": "34%",
-            "eps": 155.2,
-            "roe": "-85%",
-            "debtRatio": "320%"
+            "revenue": "$3.3B",
+            "opProfit": "$0.5B",
+            "netProfit": "$0.4B",
+            "opMargin": "16.5%",
+            "eps": 1.16,
+            "roe": "18%",
+            "debtRatio": "15%"
           },
           {
             "year": "2024",
-            "revenue": "$22.7B",
-            "opProfit": "$7.9B",
-            "netProfit": "$6.4B",
-            "opMargin": "35%",
-            "eps": 172.8,
-            "roe": "-84.5%",
-            "debtRatio": "317%"
+            "revenue": "$3.7B",
+            "opProfit": "$0.6B",
+            "netProfit": "$0.5B",
+            "opMargin": "17.5%",
+            "eps": 1.3,
+            "roe": "18.5%",
+            "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
-            "revenue": "$25.2B",
-            "opProfit": "$9.1B",
-            "netProfit": "$7.3B",
-            "opMargin": "36%",
-            "eps": 192,
-            "roe": "-84%",
-            "debtRatio": "314%"
+            "revenue": "$4.1B",
+            "opProfit": "$0.8B",
+            "netProfit": "$0.6B",
+            "opMargin": "18.5%",
+            "eps": 1.44,
+            "roe": "19%",
+            "debtRatio": "15%"
+          }
+        ]
+      },
+      {
+        "name": "스냅 (Snap Inc)",
+        "code": "SNAP",
+        "marketCap": "$18.0B",
+        "revenue": "$5.1B",
+        "operatingProfit": "$0.2B",
+        "opMargin": 4.5,
+        "eps": 0.25,
+        "per": 45,
+        "pbr": 8.5,
+        "roe": 9,
+        "debtRatio": 75,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: $14.06 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 디지털 광고 플랫폼 & 소셜 네트워크 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 $5.1B, 영업이익 $0.2B (OPM 4.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 9%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "스냅 (Snap Inc)(티커: SNAP)은 미국 디지털 광고 플랫폼 & 소셜 네트워크 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "$4.3B",
+            "opProfit": "$0.1B",
+            "netProfit": "$0.1B",
+            "opMargin": "2.5%",
+            "eps": 0.21,
+            "roe": "8%",
+            "debtRatio": "81%"
+          },
+          {
+            "year": "2022",
+            "revenue": "$4.7B",
+            "opProfit": "$0.2B",
+            "netProfit": "$0.1B",
+            "opMargin": "3.5%",
+            "eps": 0.23,
+            "roe": "8.5%",
+            "debtRatio": "78%"
+          },
+          {
+            "year": "2023",
+            "revenue": "$4.9B",
+            "opProfit": "$0.2B",
+            "netProfit": "$0.2B",
+            "opMargin": "4.5%",
+            "eps": 0.24,
+            "roe": "9%",
+            "debtRatio": "75%"
+          },
+          {
+            "year": "2024",
+            "revenue": "$5.5B",
+            "opProfit": "$0.3B",
+            "netProfit": "$0.2B",
+            "opMargin": "5.5%",
+            "eps": 0.27,
+            "roe": "9.5%",
+            "debtRatio": "72%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "$6.1B",
+            "opProfit": "$0.4B",
+            "netProfit": "$0.3B",
+            "opMargin": "6.5%",
+            "eps": 0.3,
+            "roe": "10%",
+            "debtRatio": "69%"
           }
         ]
       }
@@ -215937,46 +217689,46 @@ window.REGIONAL_INDUSTRY_DATA = {
 ],
     '유럽': [
   {
-    "id": "eu-luxury",
+    "id": "eu-luxury-empire",
     "country": "유럽",
-    "sector": "글로벌 명품 럭셔리 & 프리미엄 소비재",
+    "sector": "글로벌 하이엔드 럭셔리 & 패션 제국",
     "chapterTitle": "유럽 ➔ 명품·소비재",
     "cluster": "명품·소비재",
-    "stockCount": 7,
-    "changeRate": "-0.44",
+    "stockCount": 5,
+    "changeRate": "0.87",
     "correlationLogic": {
-      "formula": "하이엔드 판가 인상(P) × VIP 고객 재구매(Q) = 영업이익률 30%대 유지",
+      "formula": "VIP 고객 대기 수요 × 핸드백/시계 ASP 인상 - 희소성 유지 비용 = 사상 최대 마진",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 글로벌 명품 럭셔리 & 프리미엄 소비재 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 글로벌 하이엔드 럭셔리 & 패션 제국 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "역사적 브랜드 헤리티지와 압도적 가격 결정력 기반 초고마진 영위",
+      "currentStatus": "루이비통, 에르메스의 최상위 VVIP 고객 충성도 및 매년 5~10% 판가 인상 기반 OPM 28~42%",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 독보적 마진",
-        "summary": "역사적 브랜드 헤리티지와 압도적 가격 결정력 기반 초고마진 영위"
+        "badgeText": "🟢 독보적 가격결정력",
+        "summary": "루이비통, 에르메스의 최상위 VVIP 고객 충성도 및 매년 5~10% 판가 인상 기반 OPM 28~42%"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 독보적 마진",
-      "keyDriver": "유럽 글로벌 명품 럭셔리 & 프리미엄 소비재 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "유럽 럭셔리 스톡스 인덱스",
+      "statusBadge": "🟢 독보적 가격결정력",
+      "keyDriver": "유럽 글로벌 하이엔드 럭셔리 & 패션 제국 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "유로스톡스 럭셔리 지수 (STOXX Europe Luxury 10)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "글로벌 슈퍼 리치 자산 증가 및 여행 리테일 회복",
-      "bearFactor": "중국 본토 명품 소비 둔화 및 환율 변동성"
+      "bullFactor": "엔저 효과에 따른 일본/유럽 관광객 명품 소비 급증 및 귀금속/시계 라인업 호조",
+      "bearFactor": "중국 내수 부동산 경기 둔화 시 중화권 명품 매출 일시 정체"
     },
     "indicators": [
       {
-        "name": "유럽 럭셔리 스톡스 인덱스",
+        "name": "유로스톡스 럭셔리 지수 (STOXX Europe Luxury 10)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 명품 럭셔리 & 프리미엄 소비재 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "글로벌 하이엔드 럭셔리 & 패션 제국 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -215993,19 +217745,19 @@ window.REGIONAL_INDUSTRY_DATA = {
       {
         "name": "LVMH (루이비통 모에 헤네시)",
         "code": "MC.PA",
-        "marketCap": "€320.0B",
+        "marketCap": "€330.0B",
         "revenue": "€86.0B",
         "operatingProfit": "€22.8B",
         "opMargin": 26.5,
-        "eps": 31,
-        "per": 21,
+        "eps": 31.5,
+        "per": 22,
         "pbr": 4.8,
-        "roe": 24,
+        "roe": 24.5,
         "debtRatio": 45,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 2.1,
-        "payoutRatio": 44,
+        "payoutRatio": 46,
         "comment": "[HSBC & JP모건 최신 분석 보고서 종합]\n• 목표주가: €780.00 (투자의견: 매수 / 명품 제국 지배력)\n• 2025~2026 실적 전망: 루이비통, 디올, 셀린느 등 최상위 메가 브랜드의 VIP 충성 고객 기반과 일본 엔저 및 유럽 관광객 매출 회복에 힘입어 OPM 26%대의 압도적인 현금흐름을 창출하고 있습니다.\n• 핵심 모멘텀: 티파니앤코 리뉴얼 성과 가시화, 여행 리테일(DFS) 점진적 반등, 75개 이상의 럭셔리 하우스를 아우르는 독보적 포트폴리오 분산.\n• 리스크 요인: 중국 본토 중산층 명품 소비 심리 위축 장기화.",
         "businessSummary": "LVMH(루이비통 모에 헤네시, Euronext: MC)는 패션&가죽제품, 와인&위스키, 향수&화장품, 시계&보석을 아우르는 전 세계 최대 럭셔리 명품 복합 기업입니다.",
         "financials5Y": [
@@ -216015,8 +217767,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€17.9B",
             "netProfit": "€14.3B",
             "opMargin": "24.5%",
-            "eps": 26.35,
-            "roe": "23%",
+            "eps": 26.78,
+            "roe": "23.5%",
             "debtRatio": "51%"
           },
           {
@@ -216025,8 +217777,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€20.2B",
             "netProfit": "€16.1B",
             "opMargin": "25.5%",
-            "eps": 28.52,
-            "roe": "23.5%",
+            "eps": 28.98,
+            "roe": "24%",
             "debtRatio": "48%"
           },
           {
@@ -216035,8 +217787,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€22.1B",
             "netProfit": "€17.7B",
             "opMargin": "26.5%",
-            "eps": 30.07,
-            "roe": "24%",
+            "eps": 30.56,
+            "roe": "24.5%",
             "debtRatio": "45%"
           },
           {
@@ -216045,8 +217797,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€25.5B",
             "netProfit": "€20.4B",
             "opMargin": "27.5%",
-            "eps": 33.48,
-            "roe": "24.5%",
+            "eps": 34.02,
+            "roe": "25%",
             "debtRatio": "42%"
           },
           {
@@ -216055,293 +217807,420 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€29.4B",
             "netProfit": "€23.5B",
             "opMargin": "28.5%",
-            "eps": 37.2,
-            "roe": "25%",
+            "eps": 37.8,
+            "roe": "25.5%",
             "debtRatio": "39%"
           }
         ]
       },
       {
-        "name": "에르메스 (Hermes International)",
+        "name": "에르메스 인터내셔널 (Hermes)",
         "code": "RMS.PA",
-        "marketCap": "€220.0B",
-        "revenue": "€13.0B",
-        "operatingProfit": "€5.5B",
+        "marketCap": "€225.0B",
+        "revenue": "€14.0B",
+        "operatingProfit": "€5.9B",
         "opMargin": 42,
-        "eps": 42.5,
+        "eps": 42,
         "per": 48,
-        "pbr": 14.5,
+        "pbr": 15,
         "roe": 32,
-        "debtRatio": 10,
+        "debtRatio": 15,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 1.1,
-        "payoutRatio": 53,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €2550.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 명품 럭셔리 & 프리미엄 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €13.0B, 영업이익 €5.5B (OPM 42%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 32%, 배당수익률 1.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "에르메스 (Hermes International)(티커: RMS.PA)은 유럽 글로벌 명품 럭셔리 & 프리미엄 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 0.9,
+        "payoutRatio": 43,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €2520.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 하이엔드 럭셔리 & 패션 제국 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €14.0B, 영업이익 €5.9B (OPM 42%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 32%, 배당수익률 0.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "에르메스 인터내셔널 (Hermes)(티커: RMS.PA)은 유럽 글로벌 하이엔드 럭셔리 & 패션 제국 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€11.0B",
-            "opProfit": "€4.4B",
-            "netProfit": "€3.5B",
+            "revenue": "€11.9B",
+            "opProfit": "€4.8B",
+            "netProfit": "€3.8B",
             "opMargin": "40%",
-            "eps": 36.13,
+            "eps": 35.7,
             "roe": "31%",
-            "debtRatio": "16%"
+            "debtRatio": "21%"
           },
           {
             "year": "2022",
-            "revenue": "€12.0B",
-            "opProfit": "€4.9B",
-            "netProfit": "€3.9B",
+            "revenue": "€12.9B",
+            "opProfit": "€5.3B",
+            "netProfit": "€4.2B",
             "opMargin": "41%",
-            "eps": 39.1,
+            "eps": 38.64,
             "roe": "31.5%",
-            "debtRatio": "15%"
+            "debtRatio": "18%"
           },
           {
             "year": "2023",
-            "revenue": "€12.6B",
-            "opProfit": "€5.3B",
-            "netProfit": "€4.2B",
+            "revenue": "€13.6B",
+            "opProfit": "€5.7B",
+            "netProfit": "€4.6B",
             "opMargin": "42%",
-            "eps": 41.23,
+            "eps": 40.74,
             "roe": "32%",
             "debtRatio": "15%"
           },
           {
             "year": "2024",
-            "revenue": "€14.0B",
-            "opProfit": "€6.0B",
-            "netProfit": "€4.8B",
+            "revenue": "€15.1B",
+            "opProfit": "€6.5B",
+            "netProfit": "€5.2B",
             "opMargin": "43%",
-            "eps": 45.9,
+            "eps": 45.36,
             "roe": "32.5%",
             "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€15.6B",
-            "opProfit": "€6.9B",
-            "netProfit": "€5.5B",
+            "revenue": "€16.8B",
+            "opProfit": "€7.4B",
+            "netProfit": "€5.9B",
             "opMargin": "44%",
-            "eps": 51,
+            "eps": 50.4,
             "roe": "33%",
             "debtRatio": "15%"
           }
         ]
       },
       {
-        "name": "로레알 (LOreal)",
-        "code": "OR.PA",
-        "marketCap": "€195.0B",
-        "revenue": "€41.0B",
-        "operatingProfit": "€8.2B",
-        "opMargin": 20,
-        "eps": 12.8,
-        "per": 28,
-        "pbr": 6.8,
-        "roe": 24.5,
-        "debtRatio": 25,
+        "name": "케링 (Kering 구찌 모회사)",
+        "code": "KER.PA",
+        "marketCap": "€32.0B",
+        "revenue": "€19.0B",
+        "operatingProfit": "€3.1B",
+        "opMargin": 16.5,
+        "eps": 17.5,
+        "per": 15,
+        "pbr": 2.1,
+        "roe": 12,
+        "debtRatio": 85,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 1.9,
-        "payoutRatio": 53,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €448.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 명품 럭셔리 & 프리미엄 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €41.0B, 영업이익 €8.2B (OPM 20%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 24.5%, 배당수익률 1.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "로레알 (LOreal)(티커: OR.PA)은 유럽 글로벌 명품 럭셔리 & 프리미엄 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 4.5,
+        "payoutRatio": 68,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €328.13 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 하이엔드 럭셔리 & 패션 제국 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €19.0B, 영업이익 €3.1B (OPM 16.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 4.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "케링 (Kering 구찌 모회사)(티커: KER.PA)은 유럽 글로벌 하이엔드 럭셔리 & 패션 제국 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€34.9B",
-            "opProfit": "€6.3B",
-            "netProfit": "€5.0B",
-            "opMargin": "18%",
-            "eps": 10.88,
-            "roe": "23.5%",
+            "revenue": "€16.1B",
+            "opProfit": "€2.3B",
+            "netProfit": "€1.9B",
+            "opMargin": "14.5%",
+            "eps": 14.88,
+            "roe": "11%",
+            "debtRatio": "91%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€17.5B",
+            "opProfit": "€2.7B",
+            "netProfit": "€2.2B",
+            "opMargin": "15.5%",
+            "eps": 16.1,
+            "roe": "11.5%",
+            "debtRatio": "88%"
+          },
+          {
+            "year": "2023",
+            "revenue": "€18.4B",
+            "opProfit": "€3.0B",
+            "netProfit": "€2.4B",
+            "opMargin": "16.5%",
+            "eps": 16.97,
+            "roe": "12%",
+            "debtRatio": "85%"
+          },
+          {
+            "year": "2024",
+            "revenue": "€20.5B",
+            "opProfit": "€3.6B",
+            "netProfit": "€2.9B",
+            "opMargin": "17.5%",
+            "eps": 18.9,
+            "roe": "12.5%",
+            "debtRatio": "82%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "€22.8B",
+            "opProfit": "€4.2B",
+            "netProfit": "€3.4B",
+            "opMargin": "18.5%",
+            "eps": 21,
+            "roe": "13%",
+            "debtRatio": "79%"
+          }
+        ]
+      },
+      {
+        "name": "몽클레르 (Moncler)",
+        "code": "MONC.MI",
+        "marketCap": "€15.0B",
+        "revenue": "€3.1B",
+        "operatingProfit": "€0.9B",
+        "opMargin": 29.5,
+        "eps": 2.3,
+        "per": 24,
+        "pbr": 4.5,
+        "roe": 21,
+        "debtRatio": 18,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.2,
+        "payoutRatio": 53,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €69.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 하이엔드 럭셔리 & 패션 제국 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €3.1B, 영업이익 €0.9B (OPM 29.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 21%, 배당수익률 2.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "몽클레르 (Moncler)(티커: MONC.MI)은 유럽 글로벌 하이엔드 럭셔리 & 패션 제국 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "€2.6B",
+            "opProfit": "€0.7B",
+            "netProfit": "€0.6B",
+            "opMargin": "27.5%",
+            "eps": 1.95,
+            "roe": "20%",
+            "debtRatio": "24%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€2.9B",
+            "opProfit": "€0.8B",
+            "netProfit": "€0.7B",
+            "opMargin": "28.5%",
+            "eps": 2.12,
+            "roe": "20.5%",
+            "debtRatio": "21%"
+          },
+          {
+            "year": "2023",
+            "revenue": "€3.0B",
+            "opProfit": "€0.9B",
+            "netProfit": "€0.7B",
+            "opMargin": "29.5%",
+            "eps": 2.23,
+            "roe": "21%",
+            "debtRatio": "18%"
+          },
+          {
+            "year": "2024",
+            "revenue": "€3.3B",
+            "opProfit": "€1.0B",
+            "netProfit": "€0.8B",
+            "opMargin": "30.5%",
+            "eps": 2.48,
+            "roe": "21.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "€3.7B",
+            "opProfit": "€1.2B",
+            "netProfit": "€0.9B",
+            "opMargin": "31.5%",
+            "eps": 2.76,
+            "roe": "22%",
+            "debtRatio": "15%"
+          }
+        ]
+      },
+      {
+        "name": "리치몬트 (Richemont 까르띠에)",
+        "code": "CFR.SW",
+        "marketCap": "€78.0B",
+        "revenue": "€21.0B",
+        "operatingProfit": "€4.9B",
+        "opMargin": 23.5,
+        "eps": 6.8,
+        "per": 20,
+        "pbr": 3.8,
+        "roe": 19.5,
+        "debtRatio": 25,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.5,
+        "payoutRatio": 50,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €170.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 하이엔드 럭셔리 & 패션 제국 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €21.0B, 영업이익 €4.9B (OPM 23.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 19.5%, 배당수익률 2.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "리치몬트 (Richemont 까르띠에)(티커: CFR.SW)은 유럽 글로벌 하이엔드 럭셔리 & 패션 제국 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "€17.8B",
+            "opProfit": "€3.8B",
+            "netProfit": "€3.1B",
+            "opMargin": "21.5%",
+            "eps": 5.78,
+            "roe": "18.5%",
             "debtRatio": "31%"
           },
           {
             "year": "2022",
-            "revenue": "€37.7B",
-            "opProfit": "€7.2B",
-            "netProfit": "€5.7B",
-            "opMargin": "19%",
-            "eps": 11.78,
-            "roe": "24%",
+            "revenue": "€19.3B",
+            "opProfit": "€4.3B",
+            "netProfit": "€3.5B",
+            "opMargin": "22.5%",
+            "eps": 6.26,
+            "roe": "19%",
             "debtRatio": "28%"
           },
           {
             "year": "2023",
-            "revenue": "€39.8B",
-            "opProfit": "€8.0B",
-            "netProfit": "€6.4B",
-            "opMargin": "20%",
-            "eps": 12.42,
-            "roe": "24.5%",
+            "revenue": "€20.4B",
+            "opProfit": "€4.8B",
+            "netProfit": "€3.8B",
+            "opMargin": "23.5%",
+            "eps": 6.6,
+            "roe": "19.5%",
             "debtRatio": "25%"
           },
           {
             "year": "2024",
-            "revenue": "€44.3B",
-            "opProfit": "€9.3B",
-            "netProfit": "€7.4B",
-            "opMargin": "21%",
-            "eps": 13.82,
-            "roe": "25%",
+            "revenue": "€22.7B",
+            "opProfit": "€5.6B",
+            "netProfit": "€4.4B",
+            "opMargin": "24.5%",
+            "eps": 7.34,
+            "roe": "20%",
             "debtRatio": "22%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€49.2B",
-            "opProfit": "€10.8B",
-            "netProfit": "€8.7B",
-            "opMargin": "22%",
-            "eps": 15.36,
-            "roe": "25.5%",
+            "revenue": "€25.2B",
+            "opProfit": "€6.4B",
+            "netProfit": "€5.1B",
+            "opMargin": "25.5%",
+            "eps": 8.16,
+            "roe": "20.5%",
             "debtRatio": "19%"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "eu-consumer-fnb",
+    "country": "유럽",
+    "sector": "유럽 프리미엄 뷰티 & 글로벌 F&B",
+    "chapterTitle": "유럽 ➔ 명품·소비재",
+    "cluster": "명품·소비재",
+    "stockCount": 4,
+    "changeRate": "-0.53",
+    "correlationLogic": {
+      "formula": "글로벌 신흥국 인구 증가 × 프리미엄 소비재 점유율 = 안정적 영업이익률",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 유럽 프리미엄 뷰티 & 글로벌 F&B 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "로레알과 네슬레의 전 세계 1위 화장품/식음료 브랜드 포트폴리오 및 안정적 배당",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 방어적 현금창출",
+        "summary": "로레알과 네슬레의 전 세계 1위 화장품/식음료 브랜드 포트폴리오 및 안정적 배당"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 방어적 현금창출",
+      "keyDriver": "유럽 유럽 프리미엄 뷰티 & 글로벌 F&B 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "유로스톡스 소비재 지수 (SX3P Index)",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "더마톨로지컬(피부과 화장품) 뷰티 급성장 및 30년 연속 배당 인상",
+      "bearFactor": "원자재(카카오, 유제품) 가격 변동성 및 서구권 PB(자체브랜드) 상품 경쟁"
+    },
+    "indicators": [
+      {
+        "name": "유로스톡스 소비재 지수 (SX3P Index)",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "유럽 프리미엄 뷰티 & 글로벌 F&B 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
       {
-        "name": "페라리 (Ferrari)",
-        "code": "RACE",
-        "marketCap": "€78.0B",
-        "revenue": "€6.0B",
-        "operatingProfit": "€1.7B",
-        "opMargin": 27.5,
-        "eps": 8.2,
-        "per": 52,
-        "pbr": 22,
-        "roe": 45,
-        "debtRatio": 65,
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "로레알 (L'Oreal)",
+        "code": "OR.PA",
+        "marketCap": "€195.0B",
+        "revenue": "€42.0B",
+        "operatingProfit": "€8.4B",
+        "opMargin": 20,
+        "eps": 12.8,
+        "per": 28,
+        "pbr": 5.5,
+        "roe": 22,
+        "debtRatio": 28,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 0.6,
-        "payoutRatio": 31,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €533.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 명품 럭셔리 & 프리미엄 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €6.0B, 영업이익 €1.7B (OPM 27.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 45%, 배당수익률 0.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "페라리 (Ferrari)(티커: RACE)은 유럽 글로벌 명품 럭셔리 & 프리미엄 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 1.8,
+        "payoutRatio": 50,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €448.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 프리미엄 뷰티 & 글로벌 F&B 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €42.0B, 영업이익 €8.4B (OPM 20%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 22%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "로레알 (L'Oreal)(티커: OR.PA)은 유럽 유럽 프리미엄 뷰티 & 글로벌 F&B 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€5.1B",
-            "opProfit": "€1.3B",
-            "netProfit": "€1.0B",
-            "opMargin": "25.5%",
-            "eps": 6.97,
-            "roe": "44%",
-            "debtRatio": "71%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€5.5B",
-            "opProfit": "€1.5B",
-            "netProfit": "€1.2B",
-            "opMargin": "26.5%",
-            "eps": 7.54,
-            "roe": "44.5%",
-            "debtRatio": "68%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€5.8B",
-            "opProfit": "€1.6B",
-            "netProfit": "€1.3B",
-            "opMargin": "27.5%",
-            "eps": 7.95,
-            "roe": "45%",
-            "debtRatio": "65%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€6.5B",
-            "opProfit": "€1.8B",
-            "netProfit": "€1.5B",
-            "opMargin": "28.5%",
-            "eps": 8.86,
-            "roe": "45.5%",
-            "debtRatio": "62%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€7.2B",
-            "opProfit": "€2.1B",
-            "netProfit": "€1.7B",
-            "opMargin": "29.5%",
-            "eps": 9.84,
-            "roe": "46%",
-            "debtRatio": "59%"
-          }
-        ]
-      },
-      {
-        "name": "인디텍스 (Inditex ZARA)",
-        "code": "ITX.MC",
-        "marketCap": "€155.0B",
-        "revenue": "€36.0B",
-        "operatingProfit": "€6.8B",
-        "opMargin": 19,
-        "eps": 1.9,
-        "per": 26,
-        "pbr": 8.5,
-        "roe": 33,
-        "debtRatio": 5,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 3.2,
-        "payoutRatio": 83,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €61.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 명품 럭셔리 & 프리미엄 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €36.0B, 영업이익 €6.8B (OPM 19%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 33%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "인디텍스 (Inditex ZARA)(티커: ITX.MC)은 유럽 글로벌 명품 럭셔리 & 프리미엄 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€30.6B",
-            "opProfit": "€5.2B",
-            "netProfit": "€4.2B",
-            "opMargin": "17%",
-            "eps": 1.62,
-            "roe": "32%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€33.1B",
-            "opProfit": "€6.0B",
-            "netProfit": "€4.8B",
+            "revenue": "€35.7B",
+            "opProfit": "€6.4B",
+            "netProfit": "€5.1B",
             "opMargin": "18%",
-            "eps": 1.75,
-            "roe": "32.5%",
-            "debtRatio": "15%"
+            "eps": 10.88,
+            "roe": "21%",
+            "debtRatio": "34%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€38.6B",
+            "opProfit": "€7.3B",
+            "netProfit": "€5.9B",
+            "opMargin": "19%",
+            "eps": 11.78,
+            "roe": "21.5%",
+            "debtRatio": "31%"
           },
           {
             "year": "2023",
-            "revenue": "€34.9B",
-            "opProfit": "€6.6B",
-            "netProfit": "€5.3B",
-            "opMargin": "19%",
-            "eps": 1.84,
-            "roe": "33%",
-            "debtRatio": "15%"
+            "revenue": "€40.7B",
+            "opProfit": "€8.1B",
+            "netProfit": "€6.5B",
+            "opMargin": "20%",
+            "eps": 12.42,
+            "roe": "22%",
+            "debtRatio": "28%"
           },
           {
             "year": "2024",
-            "revenue": "€38.9B",
-            "opProfit": "€7.8B",
-            "netProfit": "€6.2B",
-            "opMargin": "20%",
-            "eps": 2.05,
-            "roe": "33.5%",
-            "debtRatio": "15%"
+            "revenue": "€45.4B",
+            "opProfit": "€9.5B",
+            "netProfit": "€7.6B",
+            "opMargin": "21%",
+            "eps": 13.82,
+            "roe": "22.5%",
+            "debtRatio": "25%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€43.2B",
-            "opProfit": "€9.1B",
-            "netProfit": "€7.3B",
-            "opMargin": "21%",
-            "eps": 2.28,
-            "roe": "34%",
-            "debtRatio": "15%"
+            "revenue": "€50.4B",
+            "opProfit": "€11.1B",
+            "netProfit": "€8.9B",
+            "opMargin": "22%",
+            "eps": 15.36,
+            "roe": "23%",
+            "debtRatio": "22%"
           }
         ]
       },
@@ -216349,187 +218228,258 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "네슬레 (Nestle)",
         "code": "NESN.SW",
         "marketCap": "€245.0B",
-        "revenue": "€93.0B",
-        "operatingProfit": "€16.3B",
+        "revenue": "€95.0B",
+        "operatingProfit": "€16.6B",
         "opMargin": 17.5,
-        "eps": 4.1,
-        "per": 21,
-        "pbr": 6.5,
-        "roe": 31,
-        "debtRatio": 110,
+        "eps": 4.5,
+        "per": 19.5,
+        "pbr": 5.8,
+        "roe": 29,
+        "debtRatio": 85,
         "currentRatio": 140,
-        "riskStatus": "NORMAL",
+        "riskStatus": "SAFE",
         "dividendYield": 3.5,
-        "payoutRatio": 74,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €107.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 명품 럭셔리 & 프리미엄 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €93.0B, 영업이익 €16.3B (OPM 17.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 31%, 배당수익률 3.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "네슬레 (Nestle)(티커: NESN.SW)은 유럽 글로벌 명품 럭셔리 & 프리미엄 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 68,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €109.69 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 프리미엄 뷰티 & 글로벌 F&B 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €95.0B, 영업이익 €16.6B (OPM 17.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 29%, 배당수익률 3.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "네슬레 (Nestle)(티커: NESN.SW)은 유럽 유럽 프리미엄 뷰티 & 글로벌 F&B 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€79.0B",
-            "opProfit": "€12.3B",
-            "netProfit": "€9.8B",
+            "revenue": "€80.8B",
+            "opProfit": "€12.5B",
+            "netProfit": "€10.0B",
             "opMargin": "15.5%",
-            "eps": 3.48,
-            "roe": "30%",
-            "debtRatio": "116%"
+            "eps": 3.83,
+            "roe": "28%",
+            "debtRatio": "91%"
           },
           {
             "year": "2022",
-            "revenue": "€85.6B",
-            "opProfit": "€14.1B",
-            "netProfit": "€11.3B",
+            "revenue": "€87.4B",
+            "opProfit": "€14.4B",
+            "netProfit": "€11.5B",
             "opMargin": "16.5%",
-            "eps": 3.77,
-            "roe": "30.5%",
-            "debtRatio": "113%"
+            "eps": 4.14,
+            "roe": "28.5%",
+            "debtRatio": "88%"
           },
           {
             "year": "2023",
-            "revenue": "€90.2B",
-            "opProfit": "€15.8B",
-            "netProfit": "€12.6B",
+            "revenue": "€92.1B",
+            "opProfit": "€16.1B",
+            "netProfit": "€12.9B",
             "opMargin": "17.5%",
-            "eps": 3.98,
-            "roe": "31%",
-            "debtRatio": "110%"
+            "eps": 4.37,
+            "roe": "29%",
+            "debtRatio": "85%"
           },
           {
             "year": "2024",
-            "revenue": "€100.4B",
-            "opProfit": "€18.6B",
-            "netProfit": "€14.9B",
+            "revenue": "€102.6B",
+            "opProfit": "€19.0B",
+            "netProfit": "€15.2B",
             "opMargin": "18.5%",
-            "eps": 4.43,
-            "roe": "31.5%",
-            "debtRatio": "107%"
+            "eps": 4.86,
+            "roe": "29.5%",
+            "debtRatio": "82%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€111.6B",
-            "opProfit": "€21.8B",
-            "netProfit": "€17.4B",
+            "revenue": "€114.0B",
+            "opProfit": "€22.2B",
+            "netProfit": "€17.8B",
             "opMargin": "19.5%",
-            "eps": 4.92,
-            "roe": "32%",
-            "debtRatio": "104%"
+            "eps": 5.4,
+            "roe": "30%",
+            "debtRatio": "79%"
           }
         ]
       },
       {
         "name": "유니레버 (Unilever)",
         "code": "ULVR.L",
-        "marketCap": "€140.0B",
+        "marketCap": "€145.0B",
         "revenue": "€60.0B",
-        "operatingProfit": "€10.8B",
-        "opMargin": 18,
-        "eps": 2.8,
-        "per": 19,
-        "pbr": 7.2,
-        "roe": 38,
-        "debtRatio": 140,
+        "operatingProfit": "€10.2B",
+        "opMargin": 17,
+        "eps": 2.9,
+        "per": 18,
+        "pbr": 6.8,
+        "roe": 36,
+        "debtRatio": 110,
         "currentRatio": 140,
         "riskStatus": "NORMAL",
         "dividendYield": 3.4,
-        "payoutRatio": 65,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €66.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 명품 럭셔리 & 프리미엄 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €60.0B, 영업이익 €10.8B (OPM 18%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 38%, 배당수익률 3.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "유니레버 (Unilever)(티커: ULVR.L)은 유럽 글로벌 명품 럭셔리 & 프리미엄 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 61,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €65.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 프리미엄 뷰티 & 글로벌 F&B 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €60.0B, 영업이익 €10.2B (OPM 17%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 36%, 배당수익률 3.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "유니레버 (Unilever)(티커: ULVR.L)은 유럽 유럽 프리미엄 뷰티 & 글로벌 F&B 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "€51.0B",
-            "opProfit": "€8.2B",
-            "netProfit": "€6.5B",
-            "opMargin": "16%",
-            "eps": 2.38,
-            "roe": "37%",
-            "debtRatio": "146%"
+            "opProfit": "€7.6B",
+            "netProfit": "€6.1B",
+            "opMargin": "15%",
+            "eps": 2.47,
+            "roe": "35%",
+            "debtRatio": "116%"
           },
           {
             "year": "2022",
             "revenue": "€55.2B",
-            "opProfit": "€9.4B",
-            "netProfit": "€7.5B",
-            "opMargin": "17%",
-            "eps": 2.58,
-            "roe": "37.5%",
-            "debtRatio": "143%"
+            "opProfit": "€8.8B",
+            "netProfit": "€7.1B",
+            "opMargin": "16%",
+            "eps": 2.67,
+            "roe": "35.5%",
+            "debtRatio": "113%"
           },
           {
             "year": "2023",
             "revenue": "€58.2B",
-            "opProfit": "€10.5B",
-            "netProfit": "€8.4B",
-            "opMargin": "18%",
-            "eps": 2.72,
-            "roe": "38%",
-            "debtRatio": "140%"
+            "opProfit": "€9.9B",
+            "netProfit": "€7.9B",
+            "opMargin": "17%",
+            "eps": 2.81,
+            "roe": "36%",
+            "debtRatio": "110%"
           },
           {
             "year": "2024",
             "revenue": "€64.8B",
-            "opProfit": "€12.3B",
-            "netProfit": "€9.8B",
-            "opMargin": "19%",
-            "eps": 3.02,
-            "roe": "38.5%",
-            "debtRatio": "137%"
+            "opProfit": "€11.7B",
+            "netProfit": "€9.3B",
+            "opMargin": "18%",
+            "eps": 3.13,
+            "roe": "36.5%",
+            "debtRatio": "107%"
           },
           {
             "year": "2025(E)",
             "revenue": "€72.0B",
-            "opProfit": "€14.4B",
-            "netProfit": "€11.5B",
-            "opMargin": "20%",
-            "eps": 3.36,
-            "roe": "39%",
-            "debtRatio": "134%"
+            "opProfit": "€13.7B",
+            "netProfit": "€10.9B",
+            "opMargin": "19%",
+            "eps": 3.48,
+            "roe": "37%",
+            "debtRatio": "104%"
+          }
+        ]
+      },
+      {
+        "name": "하이네켄 (Heineken)",
+        "code": "HEIA.AS",
+        "marketCap": "€45.0B",
+        "revenue": "€36.0B",
+        "operatingProfit": "€5.4B",
+        "opMargin": 15,
+        "eps": 4.8,
+        "per": 16.5,
+        "pbr": 2.4,
+        "roe": 14.5,
+        "debtRatio": 95,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 2.3,
+        "payoutRatio": 38,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €99.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 프리미엄 뷰티 & 글로벌 F&B 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €36.0B, 영업이익 €5.4B (OPM 15%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 2.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "하이네켄 (Heineken)(티커: HEIA.AS)은 유럽 유럽 프리미엄 뷰티 & 글로벌 F&B 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "€30.6B",
+            "opProfit": "€4.0B",
+            "netProfit": "€3.2B",
+            "opMargin": "13%",
+            "eps": 4.08,
+            "roe": "13.5%",
+            "debtRatio": "101%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€33.1B",
+            "opProfit": "€4.6B",
+            "netProfit": "€3.7B",
+            "opMargin": "14%",
+            "eps": 4.42,
+            "roe": "14%",
+            "debtRatio": "98%"
+          },
+          {
+            "year": "2023",
+            "revenue": "€34.9B",
+            "opProfit": "€5.2B",
+            "netProfit": "€4.2B",
+            "opMargin": "15%",
+            "eps": 4.66,
+            "roe": "14.5%",
+            "debtRatio": "95%"
+          },
+          {
+            "year": "2024",
+            "revenue": "€38.9B",
+            "opProfit": "€6.2B",
+            "netProfit": "€5.0B",
+            "opMargin": "16%",
+            "eps": 5.18,
+            "roe": "15%",
+            "debtRatio": "92%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "€43.2B",
+            "opProfit": "€7.3B",
+            "netProfit": "€5.9B",
+            "opMargin": "17%",
+            "eps": 5.76,
+            "roe": "15.5%",
+            "debtRatio": "89%"
           }
         ]
       }
     ]
   },
   {
-    "id": "eu-tech",
+    "id": "eu-semicon-litho",
     "country": "유럽",
-    "sector": "첨단 반도체 장비 & 산업 엔터프라이즈 SW",
+    "sector": "극자외선(EUV) 노광장비 & 반도체 소부장",
     "chapterTitle": "유럽 ➔ 반도체·SW",
     "cluster": "반도체·SW",
-    "stockCount": 6,
-    "changeRate": "0.00",
+    "stockCount": 3,
+    "changeRate": "-0.52",
     "correlationLogic": {
-      "formula": "High-NA EUV 장비 인도 대수 × 대당 단가(€3.5억) = 영업이익 레버리지",
+      "formula": "EUV/High-NA 장비 수주 대수 × 대당 단가 3.5억 유로 = 390억 유로 수주 잔고",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 첨단 반도체 장비 & 산업 엔터프라이즈 SW 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 극자외선(EUV) 노광장비 & 반도체 소부장 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "EUV 노광장비 글로벌 100% 독점 및 클라우드 ERP 전환 수혜",
+      "currentStatus": "ASML의 High-NA EUV 노광장비 글로벌 100% 독점 공급 및 파운드리 2나노 공정 필수재",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 독점적 해자",
-        "summary": "EUV 노광장비 글로벌 100% 독점 및 클라우드 ERP 전환 수혜"
+        "badgeText": "🟢 전 세계 독점",
+        "summary": "ASML의 High-NA EUV 노광장비 글로벌 100% 독점 공급 및 파운드리 2나노 공정 필수재"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 독점적 해자",
-      "keyDriver": "유럽 첨단 반도체 장비 & 산업 엔터프라이즈 SW 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "유로스톡스50 테크놀로지 지수",
+      "statusBadge": "🟢 전 세계 독점",
+      "keyDriver": "유럽 극자외선(EUV) 노광장비 & 반도체 소부장 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "ASML 분기 수주잔고(Backlog) 및 출하 통계",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "2나노 이하 선단 공정 경쟁 가속 및 SAP 클라우드 연간 반복 매출(ARR) 급증",
-      "bearFactor": "미국의 대중국 반도체 장비 수출 라이선스 규제 강화"
+      "bullFactor": "TSMC, 삼성전자, 인텔의 2나노 양산 경쟁에 따른 장비 도입 가속",
+      "bearFactor": "네덜란드 정부의 대중국 심자외선(DUV) 추가 수출 통제 규제"
     },
     "indicators": [
       {
-        "name": "유로스톡스50 테크놀로지 지수",
+        "name": "ASML 분기 수주잔고(Backlog) 및 출하 통계",
         "sourceName": "글로벌 공식 금융 데이터 포털",
-        "sourceUrl": "https://kr.investing.com/",
-        "role": "첨단 반도체 장비 & 산업 엔터프라이즈 SW 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "sourceUrl": "https://www.asml.com/",
+        "role": "극자외선(EUV) 노광장비 & 반도체 소부장 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -216546,472 +218496,259 @@ window.REGIONAL_INDUSTRY_DATA = {
       {
         "name": "ASML 홀딩 (ASML Holding)",
         "code": "ASML",
-        "marketCap": "€290.0B",
+        "marketCap": "€285.0B",
         "revenue": "€28.0B",
-        "operatingProfit": "€8.8B",
-        "opMargin": 31.5,
+        "operatingProfit": "€8.7B",
+        "opMargin": 31,
         "eps": 19.5,
-        "per": 38,
+        "per": 35,
         "pbr": 18,
-        "roe": 48,
-        "debtRatio": 28,
+        "roe": 55,
+        "debtRatio": 32,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 1,
-        "payoutRatio": 38,
+        "payoutRatio": 35,
         "comment": "[씨티그룹 & 도이치뱅크 최신 분석 보고서 종합]\n• 목표주가: €920.00 (투자의견: 강력매수 / 반도체 초격차 해자)\n• 2025~2026 실적 전망: 인텔, TSMC, 삼성전자의 2나노 이하 선단 공정 경쟁으로 High-NA EUV 노광장비(대당 3.5억 유로) 수주가 본격화되고 있습니다. 2025년 연간 매출 350억 유로, OPM 34% 달성 목표가 순항 중입니다.\n• 핵심 모멘텀: 7나노 이하 첨단 반도체 제조에 필수적인 EUV 노광장비 글로벌 100% 독점 기업.\n• 리스크 요인: 대중국 심자외선(DUV) 장비 수출 제한 강화 및 일부 메모리 고객사의 선단 CAPEX 일정 조정.",
         "businessSummary": "ASML(NASDAQ: ASML)은 네덜란드 벨트호벤에 본사를 둔 글로벌 독점 노광장비 기업으로, 첨단 반도체 양산에 없어서는 안 될 극자외선(EUV) 시스템을 전 세계에서 유일하게 설계·제조합니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "€23.8B",
-            "opProfit": "€7.0B",
-            "netProfit": "€5.6B",
-            "opMargin": "29.5%",
+            "opProfit": "€6.9B",
+            "netProfit": "€5.5B",
+            "opMargin": "29%",
             "eps": 16.58,
-            "roe": "47%",
-            "debtRatio": "34%"
+            "roe": "54%",
+            "debtRatio": "38%"
           },
           {
             "year": "2022",
             "revenue": "€25.8B",
-            "opProfit": "€7.9B",
-            "netProfit": "€6.3B",
-            "opMargin": "30.5%",
+            "opProfit": "€7.7B",
+            "netProfit": "€6.2B",
+            "opMargin": "30%",
             "eps": 17.94,
-            "roe": "47.5%",
-            "debtRatio": "31%"
+            "roe": "54.5%",
+            "debtRatio": "35%"
           },
           {
             "year": "2023",
             "revenue": "€27.2B",
-            "opProfit": "€8.6B",
-            "netProfit": "€6.8B",
-            "opMargin": "31.5%",
+            "opProfit": "€8.4B",
+            "netProfit": "€6.7B",
+            "opMargin": "31%",
             "eps": 18.92,
-            "roe": "48%",
-            "debtRatio": "28%"
+            "roe": "55%",
+            "debtRatio": "32%"
           },
           {
             "year": "2024",
             "revenue": "€30.2B",
-            "opProfit": "€9.8B",
-            "netProfit": "€7.9B",
-            "opMargin": "32.5%",
+            "opProfit": "€9.7B",
+            "netProfit": "€7.7B",
+            "opMargin": "32%",
             "eps": 21.06,
-            "roe": "48.5%",
-            "debtRatio": "25%"
+            "roe": "55.5%",
+            "debtRatio": "29%"
           },
           {
             "year": "2025(E)",
             "revenue": "€33.6B",
-            "opProfit": "€11.3B",
-            "netProfit": "€9.0B",
-            "opMargin": "33.5%",
+            "opProfit": "€11.1B",
+            "netProfit": "€8.9B",
+            "opMargin": "33%",
             "eps": 23.4,
-            "roe": "49%",
-            "debtRatio": "22%"
+            "roe": "56%",
+            "debtRatio": "26%"
           }
         ]
       },
       {
-        "name": "SAP (에스에이피)",
-        "code": "SAP.DE",
-        "marketCap": "€250.0B",
-        "revenue": "€31.0B",
-        "operatingProfit": "€7.3B",
-        "opMargin": 23.5,
-        "eps": 5.1,
-        "per": 42,
-        "pbr": 5.5,
-        "roe": 14,
-        "debtRatio": 35,
+        "name": "ASM 인터내셔널 (ASM International ALD)",
+        "code": "ASM.AS",
+        "marketCap": "€26.0B",
+        "revenue": "€2.7B",
+        "operatingProfit": "€0.7B",
+        "opMargin": 26.5,
+        "eps": 15.8,
+        "per": 32,
+        "pbr": 7.2,
+        "roe": 24,
+        "debtRatio": 5,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 1.1,
-        "payoutRatio": 46,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €267.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 첨단 반도체 장비 & 산업 엔터프라이즈 SW 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €31.0B, 영업이익 €7.3B (OPM 23.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 1.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "SAP (에스에이피)(티커: SAP.DE)은 유럽 첨단 반도체 장비 & 산업 엔터프라이즈 SW 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 0.6,
+        "payoutRatio": 19,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €632.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 극자외선(EUV) 노광장비 & 반도체 소부장 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €2.7B, 영업이익 €0.7B (OPM 26.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 24%, 배당수익률 0.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "ASM 인터내셔널 (ASM International ALD)(티커: ASM.AS)은 유럽 극자외선(EUV) 노광장비 & 반도체 소부장 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€26.3B",
-            "opProfit": "€5.7B",
-            "netProfit": "€4.5B",
-            "opMargin": "21.5%",
-            "eps": 4.34,
-            "roe": "13%",
-            "debtRatio": "41%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€28.5B",
-            "opProfit": "€6.4B",
-            "netProfit": "€5.1B",
-            "opMargin": "22.5%",
-            "eps": 4.69,
-            "roe": "13.5%",
-            "debtRatio": "38%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€30.1B",
-            "opProfit": "€7.1B",
-            "netProfit": "€5.7B",
-            "opMargin": "23.5%",
-            "eps": 4.95,
-            "roe": "14%",
-            "debtRatio": "35%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€33.5B",
-            "opProfit": "€8.2B",
-            "netProfit": "€6.6B",
+            "revenue": "€2.3B",
+            "opProfit": "€0.6B",
+            "netProfit": "€0.4B",
             "opMargin": "24.5%",
-            "eps": 5.51,
-            "roe": "14.5%",
-            "debtRatio": "32%"
+            "eps": 13.43,
+            "roe": "23%",
+            "debtRatio": "15%"
           },
           {
-            "year": "2025(E)",
-            "revenue": "€37.2B",
-            "opProfit": "€9.5B",
-            "netProfit": "€7.6B",
+            "year": "2022",
+            "revenue": "€2.5B",
+            "opProfit": "€0.6B",
+            "netProfit": "€0.5B",
             "opMargin": "25.5%",
-            "eps": 6.12,
-            "roe": "15%",
-            "debtRatio": "29%"
-          }
-        ]
-      },
-      {
-        "name": "지멘스 (Siemens)",
-        "code": "SIE.DE",
-        "marketCap": "€145.0B",
-        "revenue": "€78.0B",
-        "operatingProfit": "€11.7B",
-        "opMargin": 15,
-        "eps": 10.5,
-        "per": 17,
-        "pbr": 2.8,
-        "roe": 16.5,
-        "debtRatio": 75,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 2.8,
-        "payoutRatio": 48,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €223.13 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 첨단 반도체 장비 & 산업 엔터프라이즈 SW 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €78.0B, 영업이익 €11.7B (OPM 15%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16.5%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "지멘스 (Siemens)(티커: SIE.DE)은 유럽 첨단 반도체 장비 & 산업 엔터프라이즈 SW 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€66.3B",
-            "opProfit": "€8.6B",
-            "netProfit": "€6.9B",
-            "opMargin": "13%",
-            "eps": 8.92,
-            "roe": "15.5%",
-            "debtRatio": "81%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€71.8B",
-            "opProfit": "€10.0B",
-            "netProfit": "€8.0B",
-            "opMargin": "14%",
-            "eps": 9.66,
-            "roe": "16%",
-            "debtRatio": "78%"
+            "eps": 14.54,
+            "roe": "23.5%",
+            "debtRatio": "15%"
           },
           {
             "year": "2023",
-            "revenue": "€75.7B",
-            "opProfit": "€11.3B",
-            "netProfit": "€9.1B",
-            "opMargin": "15%",
-            "eps": 10.19,
-            "roe": "16.5%",
-            "debtRatio": "75%"
+            "revenue": "€2.6B",
+            "opProfit": "€0.7B",
+            "netProfit": "€0.6B",
+            "opMargin": "26.5%",
+            "eps": 15.33,
+            "roe": "24%",
+            "debtRatio": "15%"
           },
           {
             "year": "2024",
-            "revenue": "€84.2B",
-            "opProfit": "€13.5B",
-            "netProfit": "€10.8B",
-            "opMargin": "16%",
-            "eps": 11.34,
-            "roe": "17%",
-            "debtRatio": "72%"
+            "revenue": "€2.9B",
+            "opProfit": "€0.8B",
+            "netProfit": "€0.6B",
+            "opMargin": "27.5%",
+            "eps": 17.06,
+            "roe": "24.5%",
+            "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€93.6B",
-            "opProfit": "€15.9B",
-            "netProfit": "€12.7B",
-            "opMargin": "17%",
-            "eps": 12.6,
-            "roe": "17.5%",
-            "debtRatio": "69%"
+            "revenue": "€3.2B",
+            "opProfit": "€0.9B",
+            "netProfit": "€0.7B",
+            "opMargin": "28.5%",
+            "eps": 18.96,
+            "roe": "25%",
+            "debtRatio": "15%"
           }
         ]
       },
       {
-        "name": "슈나이더 일렉트릭 (Schneider)",
-        "code": "SU.PA",
-        "marketCap": "€135.0B",
-        "revenue": "€36.0B",
-        "operatingProfit": "€6.5B",
-        "opMargin": 18,
-        "eps": 8.5,
-        "per": 28,
-        "pbr": 4.8,
-        "roe": 17.5,
-        "debtRatio": 45,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 1.6,
-        "payoutRatio": 45,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €297.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 첨단 반도체 장비 & 산업 엔터프라이즈 SW 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €36.0B, 영업이익 €6.5B (OPM 18%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 17.5%, 배당수익률 1.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "슈나이더 일렉트릭 (Schneider)(티커: SU.PA)은 유럽 첨단 반도체 장비 & 산업 엔터프라이즈 SW 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€30.6B",
-            "opProfit": "€4.9B",
-            "netProfit": "€3.9B",
-            "opMargin": "16%",
-            "eps": 7.23,
-            "roe": "16.5%",
-            "debtRatio": "51%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€33.1B",
-            "opProfit": "€5.6B",
-            "netProfit": "€4.5B",
-            "opMargin": "17%",
-            "eps": 7.82,
-            "roe": "17%",
-            "debtRatio": "48%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€34.9B",
-            "opProfit": "€6.3B",
-            "netProfit": "€5.0B",
-            "opMargin": "18%",
-            "eps": 8.24,
-            "roe": "17.5%",
-            "debtRatio": "45%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€38.9B",
-            "opProfit": "€7.4B",
-            "netProfit": "€5.9B",
-            "opMargin": "19%",
-            "eps": 9.18,
-            "roe": "18%",
-            "debtRatio": "42%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€43.2B",
-            "opProfit": "€8.6B",
-            "netProfit": "€6.9B",
-            "opMargin": "20%",
-            "eps": 10.2,
-            "roe": "18.5%",
-            "debtRatio": "39%"
-          }
-        ]
-      },
-      {
-        "name": "ABB (에이비비)",
-        "code": "ABBN.SW",
-        "marketCap": "€95.0B",
-        "revenue": "€32.0B",
-        "operatingProfit": "€5.3B",
-        "opMargin": 16.5,
-        "eps": 2.1,
-        "per": 24,
-        "pbr": 6.2,
-        "roe": 26,
-        "debtRatio": 35,
+        "name": "베시 (BE Semiconductor 첨단하이브리드)",
+        "code": "BESI.AS",
+        "marketCap": "€9.5B",
+        "revenue": "€0.6B",
+        "operatingProfit": "€0.2B",
+        "opMargin": 35,
+        "eps": 2.5,
+        "per": 45,
+        "pbr": 12,
+        "roe": 38,
+        "debtRatio": 25,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 1.8,
-        "payoutRatio": 43,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €63.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 첨단 반도체 장비 & 산업 엔터프라이즈 SW 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €32.0B, 영업이익 €5.3B (OPM 16.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 26%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "ABB (에이비비)(티커: ABBN.SW)은 유럽 첨단 반도체 장비 & 산업 엔터프라이즈 SW 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 81,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €140.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 극자외선(EUV) 노광장비 & 반도체 소부장 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €0.6B, 영업이익 €0.2B (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 38%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "베시 (BE Semiconductor 첨단하이브리드)(티커: BESI.AS)은 유럽 극자외선(EUV) 노광장비 & 반도체 소부장 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€27.2B",
-            "opProfit": "€3.9B",
-            "netProfit": "€3.2B",
-            "opMargin": "14.5%",
-            "eps": 1.79,
-            "roe": "25%",
-            "debtRatio": "41%"
+            "revenue": "€0.5B",
+            "opProfit": "€0.2B",
+            "netProfit": "€0.1B",
+            "opMargin": "33%",
+            "eps": 2.13,
+            "roe": "37%",
+            "debtRatio": "31%"
           },
           {
             "year": "2022",
-            "revenue": "€29.4B",
-            "opProfit": "€4.6B",
-            "netProfit": "€3.7B",
-            "opMargin": "15.5%",
-            "eps": 1.93,
-            "roe": "25.5%",
-            "debtRatio": "38%"
+            "revenue": "€0.6B",
+            "opProfit": "€0.2B",
+            "netProfit": "€0.2B",
+            "opMargin": "34%",
+            "eps": 2.3,
+            "roe": "37.5%",
+            "debtRatio": "28%"
           },
           {
             "year": "2023",
-            "revenue": "€31.0B",
-            "opProfit": "€5.1B",
-            "netProfit": "€4.1B",
-            "opMargin": "16.5%",
-            "eps": 2.04,
-            "roe": "26%",
-            "debtRatio": "35%"
+            "revenue": "€0.6B",
+            "opProfit": "€0.2B",
+            "netProfit": "€0.2B",
+            "opMargin": "35%",
+            "eps": 2.42,
+            "roe": "38%",
+            "debtRatio": "25%"
           },
           {
             "year": "2024",
-            "revenue": "€34.6B",
-            "opProfit": "€6.0B",
-            "netProfit": "€4.8B",
-            "opMargin": "17.5%",
-            "eps": 2.27,
-            "roe": "26.5%",
-            "debtRatio": "32%"
+            "revenue": "€0.6B",
+            "opProfit": "€0.2B",
+            "netProfit": "€0.2B",
+            "opMargin": "36%",
+            "eps": 2.7,
+            "roe": "38.5%",
+            "debtRatio": "22%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€38.4B",
-            "opProfit": "€7.1B",
-            "netProfit": "€5.7B",
-            "opMargin": "18.5%",
-            "eps": 2.52,
-            "roe": "27%",
-            "debtRatio": "29%"
-          }
-        ]
-      },
-      {
-        "name": "인피니언 (Infineon)",
-        "code": "IFX.DE",
-        "marketCap": "€42.0B",
-        "revenue": "€15.0B",
-        "operatingProfit": "€3.0B",
-        "opMargin": 20,
-        "eps": 2,
-        "per": 16,
-        "pbr": 2.4,
-        "roe": 15,
-        "debtRatio": 38,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 1.2,
-        "payoutRatio": 19,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €40.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 첨단 반도체 장비 & 산업 엔터프라이즈 SW 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €15.0B, 영업이익 €3.0B (OPM 20%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "인피니언 (Infineon)(티커: IFX.DE)은 유럽 첨단 반도체 장비 & 산업 엔터프라이즈 SW 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€12.8B",
-            "opProfit": "€2.3B",
-            "netProfit": "€1.8B",
-            "opMargin": "18%",
-            "eps": 1.7,
-            "roe": "14%",
-            "debtRatio": "44%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€13.8B",
-            "opProfit": "€2.6B",
-            "netProfit": "€2.1B",
-            "opMargin": "19%",
-            "eps": 1.84,
-            "roe": "14.5%",
-            "debtRatio": "41%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€14.5B",
-            "opProfit": "€2.9B",
-            "netProfit": "€2.3B",
-            "opMargin": "20%",
-            "eps": 1.94,
-            "roe": "15%",
-            "debtRatio": "38%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€16.2B",
-            "opProfit": "€3.4B",
-            "netProfit": "€2.7B",
-            "opMargin": "21%",
-            "eps": 2.16,
-            "roe": "15.5%",
-            "debtRatio": "35%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€18.0B",
-            "opProfit": "€4.0B",
-            "netProfit": "€3.2B",
-            "opMargin": "22%",
-            "eps": 2.4,
-            "roe": "16%",
-            "debtRatio": "32%"
+            "revenue": "€0.7B",
+            "opProfit": "€0.3B",
+            "netProfit": "€0.2B",
+            "opMargin": "37%",
+            "eps": 3,
+            "roe": "39%",
+            "debtRatio": "19%"
           }
         ]
       }
     ]
   },
   {
-    "id": "eu-pharma",
+    "id": "eu-powersemi-sw",
     "country": "유럽",
-    "sector": "글로벌 메가 파마 & 혁신 바이오",
-    "chapterTitle": "유럽 ➔ 바이오·제약",
-    "cluster": "바이오·제약",
-    "stockCount": 6,
-    "changeRate": "-0.36",
+    "sector": "차량용 전력반도체 & 글로벌 ERP SW",
+    "chapterTitle": "유럽 ➔ 반도체·SW",
+    "cluster": "반도체·SW",
+    "stockCount": 3,
+    "changeRate": "0.93",
     "correlationLogic": {
-      "formula": "세마글루타이드 생산량 증설 × 글로벌 시장 침투 = 사상 최대 마진",
+      "formula": "클라우드 백로그(수주 잔고) 성장률 × 유지보수 마진율 - R&D 비용 = OPM 28%",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 글로벌 메가 파마 & 혁신 바이오 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 차량용 전력반도체 & 글로벌 ERP SW 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "오젬픽/위고비 신화로 유럽 시가총액 1위 등극 및 파이프라인 확장",
+      "currentStatus": "SAP의 S/4HANA 클라우드 ERP 전환 수주 폭증과 차량용 SiC 전력반도체 수요 확대",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 신약 돌풍",
-        "summary": "오젬픽/위고비 신화로 유럽 시가총액 1위 등극 및 파이프라인 확장"
+        "badgeText": "🟢 클라우드 전환 가속",
+        "summary": "SAP의 S/4HANA 클라우드 ERP 전환 수주 폭증과 차량용 SiC 전력반도체 수요 확대"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 신약 돌풍",
-      "keyDriver": "유럽 글로벌 메가 파마 & 혁신 바이오 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "유럽 헬스케어 섹터 지수",
+      "statusBadge": "🟢 클라우드 전환 가속",
+      "keyDriver": "유럽 차량용 전력반도체 & 글로벌 ERP SW 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "유로스톡스 테크놀로지 지수 (SX8P Index)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "심혈관/신장 질환 적응증 추가 획득 및 아스트라제네카 항암제 매출 호조",
-      "bearFactor": "GLP-1 복제약 및 경쟁 약물(터제파타이드)의 미국 점유율 추격"
+      "bullFactor": "SAP의 기업용 AI 코파일럿(Joule) 채택률 급증 및 인피니언 전력반도체 턴어라운드",
+      "bearFactor": "유럽 자동차 OEM들의 일시적 공장 가동률 조정"
     },
     "indicators": [
       {
-        "name": "유럽 헬스케어 섹터 지수",
+        "name": "유로스톡스 테크놀로지 지수 (SX8P Index)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 메가 파마 & 혁신 바이오 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "차량용 전력반도체 & 글로벌 ERP SW 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -217026,21 +218763,290 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "노보 노디스크 (Novo Nordisk)",
+        "name": "SAP (독일 최대 기업용 SW)",
+        "code": "SAP.DE",
+        "marketCap": "€260.0B",
+        "revenue": "€33.0B",
+        "operatingProfit": "€7.8B",
+        "opMargin": 23.5,
+        "eps": 5.5,
+        "per": 38,
+        "pbr": 5.8,
+        "roe": 16,
+        "debtRatio": 38,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.1,
+        "payoutRatio": 42,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €261.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 차량용 전력반도체 & 글로벌 ERP SW 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €33.0B, 영업이익 €7.8B (OPM 23.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16%, 배당수익률 1.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "SAP (독일 최대 기업용 SW)(티커: SAP.DE)은 유럽 차량용 전력반도체 & 글로벌 ERP SW 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "€28.1B",
+            "opProfit": "€6.0B",
+            "netProfit": "€4.8B",
+            "opMargin": "21.5%",
+            "eps": 4.68,
+            "roe": "15%",
+            "debtRatio": "44%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€30.4B",
+            "opProfit": "€6.8B",
+            "netProfit": "€5.5B",
+            "opMargin": "22.5%",
+            "eps": 5.06,
+            "roe": "15.5%",
+            "debtRatio": "41%"
+          },
+          {
+            "year": "2023",
+            "revenue": "€32.0B",
+            "opProfit": "€7.5B",
+            "netProfit": "€6.0B",
+            "opMargin": "23.5%",
+            "eps": 5.34,
+            "roe": "16%",
+            "debtRatio": "38%"
+          },
+          {
+            "year": "2024",
+            "revenue": "€35.6B",
+            "opProfit": "€8.7B",
+            "netProfit": "€7.0B",
+            "opMargin": "24.5%",
+            "eps": 5.94,
+            "roe": "16.5%",
+            "debtRatio": "35%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "€39.6B",
+            "opProfit": "€10.1B",
+            "netProfit": "€8.1B",
+            "opMargin": "25.5%",
+            "eps": 6.6,
+            "roe": "17%",
+            "debtRatio": "32%"
+          }
+        ]
+      },
+      {
+        "name": "인피니언 테크놀로지스 (Infineon)",
+        "code": "IFX.DE",
+        "marketCap": "€42.0B",
+        "revenue": "€15.0B",
+        "operatingProfit": "€3.1B",
+        "opMargin": 20.5,
+        "eps": 1.8,
+        "per": 18,
+        "pbr": 2.4,
+        "roe": 14.5,
+        "debtRatio": 45,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.2,
+        "payoutRatio": 22,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €40.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 차량용 전력반도체 & 글로벌 ERP SW 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €15.0B, 영업이익 €3.1B (OPM 20.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "인피니언 테크놀로지스 (Infineon)(티커: IFX.DE)은 유럽 차량용 전력반도체 & 글로벌 ERP SW 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "€12.8B",
+            "opProfit": "€2.4B",
+            "netProfit": "€1.9B",
+            "opMargin": "18.5%",
+            "eps": 1.53,
+            "roe": "13.5%",
+            "debtRatio": "51%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€13.8B",
+            "opProfit": "€2.7B",
+            "netProfit": "€2.2B",
+            "opMargin": "19.5%",
+            "eps": 1.66,
+            "roe": "14%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2023",
+            "revenue": "€14.5B",
+            "opProfit": "€3.0B",
+            "netProfit": "€2.4B",
+            "opMargin": "20.5%",
+            "eps": 1.75,
+            "roe": "14.5%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2024",
+            "revenue": "€16.2B",
+            "opProfit": "€3.5B",
+            "netProfit": "€2.8B",
+            "opMargin": "21.5%",
+            "eps": 1.94,
+            "roe": "15%",
+            "debtRatio": "42%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "€18.0B",
+            "opProfit": "€4.0B",
+            "netProfit": "€3.2B",
+            "opMargin": "22.5%",
+            "eps": 2.16,
+            "roe": "15.5%",
+            "debtRatio": "39%"
+          }
+        ]
+      },
+      {
+        "name": "ST마이크로일렉트로닉스 (STMicro)",
+        "code": "STMPA.PA",
+        "marketCap": "€24.0B",
+        "revenue": "€14.0B",
+        "operatingProfit": "€2.2B",
+        "opMargin": 16,
+        "eps": 2.1,
+        "per": 12.5,
+        "pbr": 1.5,
+        "roe": 12,
+        "debtRatio": 18,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.2,
+        "payoutRatio": 15,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €32.81 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 차량용 전력반도체 & 글로벌 ERP SW 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €14.0B, 영업이익 €2.2B (OPM 16%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "ST마이크로일렉트로닉스 (STMicro)(티커: STMPA.PA)은 유럽 차량용 전력반도체 & 글로벌 ERP SW 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "€11.9B",
+            "opProfit": "€1.7B",
+            "netProfit": "€1.3B",
+            "opMargin": "14%",
+            "eps": 1.79,
+            "roe": "11%",
+            "debtRatio": "24%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€12.9B",
+            "opProfit": "€1.9B",
+            "netProfit": "€1.5B",
+            "opMargin": "15%",
+            "eps": 1.93,
+            "roe": "11.5%",
+            "debtRatio": "21%"
+          },
+          {
+            "year": "2023",
+            "revenue": "€13.6B",
+            "opProfit": "€2.2B",
+            "netProfit": "€1.7B",
+            "opMargin": "16%",
+            "eps": 2.04,
+            "roe": "12%",
+            "debtRatio": "18%"
+          },
+          {
+            "year": "2024",
+            "revenue": "€15.1B",
+            "opProfit": "€2.6B",
+            "netProfit": "€2.1B",
+            "opMargin": "17%",
+            "eps": 2.27,
+            "roe": "12.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "€16.8B",
+            "opProfit": "€3.0B",
+            "netProfit": "€2.4B",
+            "opMargin": "18%",
+            "eps": 2.52,
+            "roe": "13%",
+            "debtRatio": "15%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-megapharma",
+    "country": "유럽",
+    "sector": "GLP-1 대사질환 & 글로벌 메가파마",
+    "chapterTitle": "유럽 ➔ 바이오·제약",
+    "cluster": "바이오·제약",
+    "stockCount": 4,
+    "changeRate": "0.38",
+    "correlationLogic": {
+      "formula": "위고비 처방 성장률 × 생산 캐파 증설 - 공장 인수 비용 = 사상 최대 순이익",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 GLP-1 대사질환 & 글로벌 메가파마 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "노보 노디스크의 위고비/오젬픽 글로벌 공급 확대 및 노바티스, 로슈의 혁신신약 호조",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 유럽 시총 1위",
+        "summary": "노보 노디스크의 위고비/오젬픽 글로벌 공급 확대 및 노바티스, 로슈의 혁신신약 호조"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 유럽 시총 1위",
+      "keyDriver": "유럽 GLP-1 대사질환 & 글로벌 메가파마 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "유로스톡스 헬스케어 지수 (SXDP Index)",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "경구용(먹는 알약) 비만약 임상 성공 및 심혈관 사망률 감소 적응증 획득",
+      "bearFactor": "미국 의회 청문회 약가 인하 압박 및 생산 시설 오염 리스크"
+    },
+    "indicators": [
+      {
+        "name": "유로스톡스 헬스케어 지수 (SXDP Index)",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "GLP-1 대사질환 & 글로벌 메가파마 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "노보 노디스크 (Novo Nordisk 위고비)",
         "code": "NOVO-B.CO",
-        "marketCap": "€420.0B",
+        "marketCap": "€480.0B",
         "revenue": "€35.0B",
         "operatingProfit": "€15.6B",
         "opMargin": 44.5,
-        "eps": 3.1,
-        "per": 34,
+        "eps": 3.2,
+        "per": 36,
         "pbr": 28,
-        "roe": 85,
+        "roe": 82,
         "debtRatio": 35,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 1.4,
-        "payoutRatio": 48,
+        "dividendYield": 1.2,
+        "payoutRatio": 43,
         "comment": "[바클레이스 최신 분석 보고서 종합]\n• 목표주가: DKK 1,020.00 (투자의견: 비중확대 / 유럽 시총 1위)\n• 2025~2026 실적 전망: 오젬픽(Ozempic)과 위고비(Wegovy)의 글로벌 품귀 현상 지속 및 캐털런트(Catalent) 충전 시설 인수로 생산 병목이 빠르게 해소되고 있습니다. 심혈관 질환 위험 감소 적응증 획득에 따른 미국 메디케어 보험 급여 등재 확대로 처방 환자수가 기하급수적으로 늘고 있습니다.\n• 핵심 모멘텀: 차세대 비만 치료 복합제 카그리세마(CagriSema) 연내 임상 결과 발표 및 유럽 헬스케어 독점력.\n• 리스크 요인: 경쟁사 일라이 릴리와의 가격 인하 압박 및 미국 내 약가 인하 정치권 압박.",
         "businessSummary": "노보 노디스크(CPH: NOVO-B)는 덴마크에 본사를 둔 유럽 시가총액 1위 제약사로, 세마글루타이드 기반의 당뇨병(Ozempic) 및 비만(Wegovy) 치료제 시장을 혁신한 글로벌 리더입니다.",
         "financials5Y": [
@@ -217050,8 +219056,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€12.6B",
             "netProfit": "€10.1B",
             "opMargin": "42.5%",
-            "eps": 2.64,
-            "roe": "84%",
+            "eps": 2.72,
+            "roe": "81%",
             "debtRatio": "41%"
           },
           {
@@ -217060,8 +219066,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€14.0B",
             "netProfit": "€11.2B",
             "opMargin": "43.5%",
-            "eps": 2.85,
-            "roe": "84.5%",
+            "eps": 2.94,
+            "roe": "81.5%",
             "debtRatio": "38%"
           },
           {
@@ -217070,8 +219076,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€15.1B",
             "netProfit": "€12.1B",
             "opMargin": "44.5%",
-            "eps": 3.01,
-            "roe": "85%",
+            "eps": 3.1,
+            "roe": "82%",
             "debtRatio": "35%"
           },
           {
@@ -217080,8 +219086,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€17.2B",
             "netProfit": "€13.8B",
             "opMargin": "45.5%",
-            "eps": 3.35,
-            "roe": "85.5%",
+            "eps": 3.46,
+            "roe": "82.5%",
             "debtRatio": "32%"
           },
           {
@@ -217090,222 +219096,151 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€19.5B",
             "netProfit": "€15.6B",
             "opMargin": "46.5%",
-            "eps": 3.72,
-            "roe": "86%",
+            "eps": 3.84,
+            "roe": "83%",
             "debtRatio": "29%"
-          }
-        ]
-      },
-      {
-        "name": "아스트라제네카 (AstraZeneca)",
-        "code": "AZN.L",
-        "marketCap": "€220.0B",
-        "revenue": "€45.0B",
-        "operatingProfit": "€10.8B",
-        "opMargin": 24,
-        "eps": 5.2,
-        "per": 28,
-        "pbr": 5.5,
-        "roe": 20,
-        "debtRatio": 65,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 2.2,
-        "payoutRatio": 62,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €182.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 파마 & 혁신 바이오 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €45.0B, 영업이익 €10.8B (OPM 24%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 20%, 배당수익률 2.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "아스트라제네카 (AstraZeneca)(티커: AZN.L)은 유럽 글로벌 메가 파마 & 혁신 바이오 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€38.3B",
-            "opProfit": "€8.4B",
-            "netProfit": "€6.7B",
-            "opMargin": "22%",
-            "eps": 4.42,
-            "roe": "19%",
-            "debtRatio": "71%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€41.4B",
-            "opProfit": "€9.5B",
-            "netProfit": "€7.6B",
-            "opMargin": "23%",
-            "eps": 4.78,
-            "roe": "19.5%",
-            "debtRatio": "68%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€43.6B",
-            "opProfit": "€10.5B",
-            "netProfit": "€8.4B",
-            "opMargin": "24%",
-            "eps": 5.04,
-            "roe": "20%",
-            "debtRatio": "65%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€48.6B",
-            "opProfit": "€12.2B",
-            "netProfit": "€9.7B",
-            "opMargin": "25%",
-            "eps": 5.62,
-            "roe": "20.5%",
-            "debtRatio": "62%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€54.0B",
-            "opProfit": "€14.0B",
-            "netProfit": "€11.2B",
-            "opMargin": "26%",
-            "eps": 6.24,
-            "roe": "21%",
-            "debtRatio": "59%"
           }
         ]
       },
       {
         "name": "노바티스 (Novartis)",
         "code": "NOVN.SW",
-        "marketCap": "€210.0B",
-        "revenue": "€45.0B",
-        "operatingProfit": "€15.7B",
+        "marketCap": "€215.0B",
+        "revenue": "€49.0B",
+        "operatingProfit": "€17.1B",
         "opMargin": 35,
         "eps": 6.8,
-        "per": 15,
-        "pbr": 5.2,
-        "roe": 35,
-        "debtRatio": 55,
+        "per": 15.5,
+        "pbr": 4.8,
+        "roe": 28,
+        "debtRatio": 52,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 3.4,
-        "payoutRatio": 51,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €127.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 파마 & 혁신 바이오 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €45.0B, 영업이익 €15.7B (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 35%, 배당수익률 3.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "노바티스 (Novartis)(티커: NOVN.SW)은 유럽 글로벌 메가 파마 & 혁신 바이오 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 3.6,
+        "payoutRatio": 56,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €131.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: GLP-1 대사질환 & 글로벌 메가파마 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €49.0B, 영업이익 €17.1B (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 28%, 배당수익률 3.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "노바티스 (Novartis)(티커: NOVN.SW)은 유럽 GLP-1 대사질환 & 글로벌 메가파마 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€38.3B",
-            "opProfit": "€12.6B",
-            "netProfit": "€10.1B",
+            "revenue": "€41.6B",
+            "opProfit": "€13.7B",
+            "netProfit": "€11.0B",
             "opMargin": "33%",
             "eps": 5.78,
-            "roe": "34%",
-            "debtRatio": "61%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€41.4B",
-            "opProfit": "€14.1B",
-            "netProfit": "€11.3B",
-            "opMargin": "34%",
-            "eps": 6.26,
-            "roe": "34.5%",
+            "roe": "27%",
             "debtRatio": "58%"
           },
           {
-            "year": "2023",
-            "revenue": "€43.6B",
+            "year": "2022",
+            "revenue": "€45.1B",
             "opProfit": "€15.3B",
-            "netProfit": "€12.2B",
-            "opMargin": "35%",
-            "eps": 6.6,
-            "roe": "35%",
+            "netProfit": "€12.3B",
+            "opMargin": "34%",
+            "eps": 6.26,
+            "roe": "27.5%",
             "debtRatio": "55%"
           },
           {
-            "year": "2024",
-            "revenue": "€48.6B",
-            "opProfit": "€17.5B",
-            "netProfit": "€14.0B",
-            "opMargin": "36%",
-            "eps": 7.34,
-            "roe": "35.5%",
+            "year": "2023",
+            "revenue": "€47.5B",
+            "opProfit": "€16.6B",
+            "netProfit": "€13.3B",
+            "opMargin": "35%",
+            "eps": 6.6,
+            "roe": "28%",
             "debtRatio": "52%"
           },
           {
+            "year": "2024",
+            "revenue": "€52.9B",
+            "opProfit": "€19.1B",
+            "netProfit": "€15.2B",
+            "opMargin": "36%",
+            "eps": 7.34,
+            "roe": "28.5%",
+            "debtRatio": "49%"
+          },
+          {
             "year": "2025(E)",
-            "revenue": "€54.0B",
-            "opProfit": "€20.0B",
-            "netProfit": "€16.0B",
+            "revenue": "€58.8B",
+            "opProfit": "€21.8B",
+            "netProfit": "€17.4B",
             "opMargin": "37%",
             "eps": 8.16,
-            "roe": "36%",
-            "debtRatio": "49%"
+            "roe": "29%",
+            "debtRatio": "46%"
           }
         ]
       },
       {
-        "name": "로슈 (Roche Holding)",
-        "code": "ROG.SW",
-        "marketCap": "€215.0B",
-        "revenue": "€59.0B",
-        "operatingProfit": "€19.5B",
-        "opMargin": 33,
-        "eps": 17.5,
-        "per": 16,
-        "pbr": 6.5,
-        "roe": 41,
-        "debtRatio": 75,
+        "name": "아스트라제네카 (AstraZeneca)",
+        "code": "AZN.L",
+        "marketCap": "€210.0B",
+        "revenue": "€48.0B",
+        "operatingProfit": "€13.4B",
+        "opMargin": 28,
+        "eps": 7.2,
+        "per": 17.5,
+        "pbr": 5.5,
+        "roe": 29,
+        "debtRatio": 65,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 3.6,
-        "payoutRatio": 58,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €350.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 파마 & 혁신 바이오 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €59.0B, 영업이익 €19.5B (OPM 33%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 41%, 배당수익률 3.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "로슈 (Roche Holding)(티커: ROG.SW)은 유럽 글로벌 메가 파마 & 혁신 바이오 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 2.1,
+        "payoutRatio": 37,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €157.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: GLP-1 대사질환 & 글로벌 메가파마 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €48.0B, 영업이익 €13.4B (OPM 28%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 29%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "아스트라제네카 (AstraZeneca)(티커: AZN.L)은 유럽 GLP-1 대사질환 & 글로벌 메가파마 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€50.1B",
-            "opProfit": "€15.5B",
-            "netProfit": "€12.4B",
-            "opMargin": "31%",
-            "eps": 14.88,
-            "roe": "40%",
-            "debtRatio": "81%"
+            "revenue": "€40.8B",
+            "opProfit": "€10.6B",
+            "netProfit": "€8.5B",
+            "opMargin": "26%",
+            "eps": 6.12,
+            "roe": "28%",
+            "debtRatio": "71%"
           },
           {
             "year": "2022",
-            "revenue": "€54.3B",
-            "opProfit": "€17.4B",
-            "netProfit": "€13.9B",
-            "opMargin": "32%",
-            "eps": 16.1,
-            "roe": "40.5%",
-            "debtRatio": "78%"
+            "revenue": "€44.2B",
+            "opProfit": "€11.9B",
+            "netProfit": "€9.5B",
+            "opMargin": "27%",
+            "eps": 6.62,
+            "roe": "28.5%",
+            "debtRatio": "68%"
           },
           {
             "year": "2023",
-            "revenue": "€57.2B",
-            "opProfit": "€18.9B",
-            "netProfit": "€15.1B",
-            "opMargin": "33%",
-            "eps": 16.97,
-            "roe": "41%",
-            "debtRatio": "75%"
+            "revenue": "€46.6B",
+            "opProfit": "€13.0B",
+            "netProfit": "€10.4B",
+            "opMargin": "28%",
+            "eps": 6.98,
+            "roe": "29%",
+            "debtRatio": "65%"
           },
           {
             "year": "2024",
-            "revenue": "€63.7B",
-            "opProfit": "€21.7B",
-            "netProfit": "€17.3B",
-            "opMargin": "34%",
-            "eps": 18.9,
-            "roe": "41.5%",
-            "debtRatio": "72%"
+            "revenue": "€51.8B",
+            "opProfit": "€15.0B",
+            "netProfit": "€12.0B",
+            "opMargin": "29%",
+            "eps": 7.78,
+            "roe": "29.5%",
+            "debtRatio": "62%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€70.8B",
-            "opProfit": "€24.8B",
-            "netProfit": "€19.8B",
-            "opMargin": "35%",
-            "eps": 21,
-            "roe": "42%",
-            "debtRatio": "69%"
+            "revenue": "€57.6B",
+            "opProfit": "€17.3B",
+            "netProfit": "€13.8B",
+            "opMargin": "30%",
+            "eps": 8.64,
+            "roe": "30%",
+            "debtRatio": "59%"
           }
         ]
       },
@@ -217313,187 +219248,116 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "사노피 (Sanofi)",
         "code": "SAN.PA",
         "marketCap": "€125.0B",
-        "revenue": "€43.0B",
-        "operatingProfit": "€11.6B",
-        "opMargin": 27,
-        "eps": 7.2,
-        "per": 13.5,
+        "revenue": "€44.0B",
+        "operatingProfit": "€11.7B",
+        "opMargin": 26.5,
+        "eps": 7.8,
+        "per": 13,
         "pbr": 1.8,
-        "roe": 13.5,
-        "debtRatio": 35,
+        "roe": 14.5,
+        "debtRatio": 38,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 3.8,
-        "payoutRatio": 51,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €121.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 파마 & 혁신 바이오 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €43.0B, 영업이익 €11.6B (OPM 27%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13.5%, 배당수익률 3.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "사노피 (Sanofi)(티커: SAN.PA)은 유럽 글로벌 메가 파마 & 혁신 바이오 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 49,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €126.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: GLP-1 대사질환 & 글로벌 메가파마 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €44.0B, 영업이익 €11.7B (OPM 26.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 3.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "사노피 (Sanofi)(티커: SAN.PA)은 유럽 GLP-1 대사질환 & 글로벌 메가파마 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€36.5B",
-            "opProfit": "€9.1B",
+            "revenue": "€37.4B",
+            "opProfit": "€9.2B",
             "netProfit": "€7.3B",
-            "opMargin": "25%",
-            "eps": 6.12,
-            "roe": "12.5%",
+            "opMargin": "24.5%",
+            "eps": 6.63,
+            "roe": "13.5%",
+            "debtRatio": "44%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€40.5B",
+            "opProfit": "€10.3B",
+            "netProfit": "€8.3B",
+            "opMargin": "25.5%",
+            "eps": 7.18,
+            "roe": "14%",
             "debtRatio": "41%"
           },
           {
-            "year": "2022",
-            "revenue": "€39.6B",
-            "opProfit": "€10.3B",
-            "netProfit": "€8.2B",
-            "opMargin": "26%",
-            "eps": 6.62,
-            "roe": "13%",
+            "year": "2023",
+            "revenue": "€42.7B",
+            "opProfit": "€11.3B",
+            "netProfit": "€9.0B",
+            "opMargin": "26.5%",
+            "eps": 7.57,
+            "roe": "14.5%",
             "debtRatio": "38%"
           },
           {
-            "year": "2023",
-            "revenue": "€41.7B",
-            "opProfit": "€11.3B",
-            "netProfit": "€9.0B",
-            "opMargin": "27%",
-            "eps": 6.98,
-            "roe": "13.5%",
+            "year": "2024",
+            "revenue": "€47.5B",
+            "opProfit": "€13.1B",
+            "netProfit": "€10.5B",
+            "opMargin": "27.5%",
+            "eps": 8.42,
+            "roe": "15%",
             "debtRatio": "35%"
           },
           {
-            "year": "2024",
-            "revenue": "€46.4B",
-            "opProfit": "€13.0B",
-            "netProfit": "€10.4B",
-            "opMargin": "28%",
-            "eps": 7.78,
-            "roe": "14%",
-            "debtRatio": "32%"
-          },
-          {
             "year": "2025(E)",
-            "revenue": "€51.6B",
+            "revenue": "€52.8B",
             "opProfit": "€15.0B",
             "netProfit": "€12.0B",
-            "opMargin": "29%",
-            "eps": 8.64,
-            "roe": "14.5%",
-            "debtRatio": "29%"
-          }
-        ]
-      },
-      {
-        "name": "GSK (글락소스미스클라인)",
-        "code": "GSK.L",
-        "marketCap": "€85.0B",
-        "revenue": "€30.0B",
-        "operatingProfit": "€8.4B",
-        "opMargin": 28,
-        "eps": 1.5,
-        "per": 12,
-        "pbr": 4.8,
-        "roe": 40,
-        "debtRatio": 110,
-        "currentRatio": 140,
-        "riskStatus": "NORMAL",
-        "dividendYield": 3.9,
-        "payoutRatio": 47,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €22.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 메가 파마 & 혁신 바이오 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €30.0B, 영업이익 €8.4B (OPM 28%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 40%, 배당수익률 3.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "GSK (글락소스미스클라인)(티커: GSK.L)은 유럽 글로벌 메가 파마 & 혁신 바이오 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€25.5B",
-            "opProfit": "€6.6B",
-            "netProfit": "€5.3B",
-            "opMargin": "26%",
-            "eps": 1.27,
-            "roe": "39%",
-            "debtRatio": "116%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€27.6B",
-            "opProfit": "€7.5B",
-            "netProfit": "€6.0B",
-            "opMargin": "27%",
-            "eps": 1.38,
-            "roe": "39.5%",
-            "debtRatio": "113%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€29.1B",
-            "opProfit": "€8.1B",
-            "netProfit": "€6.5B",
-            "opMargin": "28%",
-            "eps": 1.46,
-            "roe": "40%",
-            "debtRatio": "110%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€32.4B",
-            "opProfit": "€9.4B",
-            "netProfit": "€7.5B",
-            "opMargin": "29%",
-            "eps": 1.62,
-            "roe": "40.5%",
-            "debtRatio": "107%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€36.0B",
-            "opProfit": "€10.8B",
-            "netProfit": "€8.6B",
-            "opMargin": "30%",
-            "eps": 1.8,
-            "roe": "41%",
-            "debtRatio": "104%"
+            "opMargin": "28.5%",
+            "eps": 9.36,
+            "roe": "15.5%",
+            "debtRatio": "32%"
           }
         ]
       }
     ]
   },
   {
-    "id": "eu-auto",
+    "id": "eu-supercar-auto",
     "country": "유럽",
-    "sector": "프리미엄 완성차 & 미래 모빌리티",
+    "sector": "유럽 슈퍼카 & 프리미엄 완성차",
     "chapterTitle": "유럽 ➔ 자동차·모빌리티",
     "cluster": "자동차·모빌리티",
-    "stockCount": 5,
-    "changeRate": "1.30",
+    "stockCount": 4,
+    "changeRate": "0.08",
     "correlationLogic": {
-      "formula": "프리미엄 SUV 믹스(P) - 전기차 전환 투자비용(C) = OPM 8~10% 방어",
+      "formula": "슈퍼카 한정판 주문 잔고 × 비스포크 커스텀 ASP - R&D = OPM 28%",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 프리미엄 완성차 & 미래 모빌리티 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 유럽 슈퍼카 & 프리미엄 완성차 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "중국 시장 경쟁 심화 속 고마진 프리미엄 라인업 및 비용 절감 사활",
+      "currentStatus": "페라리의 수주 잔고 2년 완판과 OPM 28%의 럭셔리 밸류에이션 및 메르세데스 벤츠 고배당",
       "outlookSignal": {
-        "level": "CAUTIOUS",
-        "badgeText": "🟡 구조조정",
-        "summary": "중국 시장 경쟁 심화 속 고마진 프리미엄 라인업 및 비용 절감 사활"
+        "level": "BULLISH",
+        "badgeText": "🟢 페라리 럭셔리 마진",
+        "summary": "페라리의 수주 잔고 2년 완판과 OPM 28%의 럭셔리 밸류에이션 및 메르세데스 벤츠 고배당"
       }
     },
     "demandAnalysis": {
-      "status": "MODERATE",
-      "statusBadge": "🟡 구조조정",
-      "keyDriver": "유럽 프리미엄 완성차 & 미래 모빌리티 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "유로스톡스 오토모빌 지수",
+      "status": "STRONG",
+      "statusBadge": "🟢 페라리 럭셔리 마진",
+      "keyDriver": "유럽 유럽 슈퍼카 & 프리미엄 완성차 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "유로스톡스 오토모빌 지수 (SXAP Index)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "럭셔리 브랜드(포르쉐, 메르세데스 마이바흐) 초고마진 견조",
-      "bearFactor": "유럽연합 탄소배출 규제 과징금 및 중국산 저가 EV 공세"
+      "bullFactor": "V12 하이브리드 한정판 모델 사전 예약 완판 및 8~9%대 메르세데스 배당수익률",
+      "bearFactor": "EU의 2035년 내연기관 금지 규제 및 중국산 저가 전기차 유럽 침투"
     },
     "indicators": [
       {
-        "name": "유로스톡스 오토모빌 지수",
+        "name": "유로스톡스 오토모빌 지수 (SXAP Index)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "프리미엄 완성차 & 미래 모빌리티 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "유럽 슈퍼카 & 프리미엄 완성차 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -217508,403 +219372,332 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "폭스바겐 (Volkswagen)",
-        "code": "VOW3.DE",
-        "marketCap": "€48.0B",
-        "revenue": "€322.0B",
-        "operatingProfit": "€22.5B",
-        "opMargin": 7,
-        "eps": 25,
-        "per": 3.8,
-        "pbr": 0.3,
-        "roe": 7.8,
-        "debtRatio": 145,
+        "name": "페라리 (Ferrari 럭셔리 슈퍼카)",
+        "code": "RACE.MI",
+        "marketCap": "€82.0B",
+        "revenue": "€6.5B",
+        "operatingProfit": "€1.9B",
+        "opMargin": 28.5,
+        "eps": 8.8,
+        "per": 48,
+        "pbr": 18,
+        "roe": 45,
+        "debtRatio": 55,
         "currentRatio": 140,
-        "riskStatus": "NORMAL",
-        "dividendYield": 8.5,
-        "payoutRatio": 32,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €118.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 완성차 & 미래 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €322.0B, 영업이익 €22.5B (OPM 7%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 7.8%, 배당수익률 8.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "폭스바겐 (Volkswagen)(티커: VOW3.DE)은 유럽 프리미엄 완성차 & 미래 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "riskStatus": "SAFE",
+        "dividendYield": 0.6,
+        "payoutRatio": 29,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €528.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 슈퍼카 & 프리미엄 완성차 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €6.5B, 영업이익 €1.9B (OPM 28.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 45%, 배당수익률 0.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "페라리 (Ferrari 럭셔리 슈퍼카)(티커: RACE.MI)은 유럽 유럽 슈퍼카 & 프리미엄 완성차 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€273.7B",
-            "opProfit": "€13.7B",
-            "netProfit": "€10.9B",
-            "opMargin": "5%",
-            "eps": 21.25,
-            "roe": "6.8%",
-            "debtRatio": "151%"
+            "revenue": "€5.5B",
+            "opProfit": "€1.5B",
+            "netProfit": "€1.2B",
+            "opMargin": "26.5%",
+            "eps": 7.48,
+            "roe": "44%",
+            "debtRatio": "61%"
           },
           {
             "year": "2022",
-            "revenue": "€296.2B",
-            "opProfit": "€17.8B",
-            "netProfit": "€14.2B",
-            "opMargin": "6%",
-            "eps": 23,
-            "roe": "7.3%",
-            "debtRatio": "148%"
+            "revenue": "€6.0B",
+            "opProfit": "€1.6B",
+            "netProfit": "€1.3B",
+            "opMargin": "27.5%",
+            "eps": 8.1,
+            "roe": "44.5%",
+            "debtRatio": "58%"
           },
           {
             "year": "2023",
-            "revenue": "€312.3B",
-            "opProfit": "€21.9B",
-            "netProfit": "€17.5B",
-            "opMargin": "7%",
-            "eps": 24.25,
-            "roe": "7.8%",
-            "debtRatio": "145%"
+            "revenue": "€6.3B",
+            "opProfit": "€1.8B",
+            "netProfit": "€1.4B",
+            "opMargin": "28.5%",
+            "eps": 8.54,
+            "roe": "45%",
+            "debtRatio": "55%"
           },
           {
             "year": "2024",
-            "revenue": "€347.8B",
-            "opProfit": "€27.8B",
-            "netProfit": "€22.3B",
-            "opMargin": "8%",
-            "eps": 27,
-            "roe": "8.3%",
-            "debtRatio": "142%"
+            "revenue": "€7.0B",
+            "opProfit": "€2.1B",
+            "netProfit": "€1.7B",
+            "opMargin": "29.5%",
+            "eps": 9.5,
+            "roe": "45.5%",
+            "debtRatio": "52%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€386.4B",
-            "opProfit": "€34.8B",
-            "netProfit": "€27.8B",
-            "opMargin": "9%",
-            "eps": 30,
-            "roe": "8.8%",
-            "debtRatio": "139%"
+            "revenue": "€7.8B",
+            "opProfit": "€2.4B",
+            "netProfit": "€1.9B",
+            "opMargin": "30.5%",
+            "eps": 10.56,
+            "roe": "46%",
+            "debtRatio": "49%"
           }
         ]
       },
       {
-        "name": "BMW (비엠더블유)",
+        "name": "메르세데스-벤츠 (Mercedes-Benz)",
+        "code": "MBG.DE",
+        "marketCap": "€62.0B",
+        "revenue": "€152.0B",
+        "operatingProfit": "€17.5B",
+        "opMargin": 11.5,
+        "eps": 10.5,
+        "per": 5.5,
+        "pbr": 0.7,
+        "roe": 14,
+        "debtRatio": 110,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 8.5,
+        "payoutRatio": 47,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €72.19 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 슈퍼카 & 프리미엄 완성차 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €152.0B, 영업이익 €17.5B (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 8.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "메르세데스-벤츠 (Mercedes-Benz)(티커: MBG.DE)은 유럽 유럽 슈퍼카 & 프리미엄 완성차 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "€129.2B",
+            "opProfit": "€12.3B",
+            "netProfit": "€9.8B",
+            "opMargin": "9.5%",
+            "eps": 8.92,
+            "roe": "13%",
+            "debtRatio": "116%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€139.8B",
+            "opProfit": "€14.7B",
+            "netProfit": "€11.7B",
+            "opMargin": "10.5%",
+            "eps": 9.66,
+            "roe": "13.5%",
+            "debtRatio": "113%"
+          },
+          {
+            "year": "2023",
+            "revenue": "€147.4B",
+            "opProfit": "€17.0B",
+            "netProfit": "€13.6B",
+            "opMargin": "11.5%",
+            "eps": 10.19,
+            "roe": "14%",
+            "debtRatio": "110%"
+          },
+          {
+            "year": "2024",
+            "revenue": "€164.2B",
+            "opProfit": "€20.5B",
+            "netProfit": "€16.4B",
+            "opMargin": "12.5%",
+            "eps": 11.34,
+            "roe": "14.5%",
+            "debtRatio": "107%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "€182.4B",
+            "opProfit": "€24.6B",
+            "netProfit": "€19.7B",
+            "opMargin": "13.5%",
+            "eps": 12.6,
+            "roe": "15%",
+            "debtRatio": "104%"
+          }
+        ]
+      },
+      {
+        "name": "BMW 그룹 (BMW Group)",
         "code": "BMW.DE",
-        "marketCap": "€45.0B",
+        "marketCap": "€48.0B",
         "revenue": "€155.0B",
-        "operatingProfit": "€15.2B",
-        "opMargin": 9.8,
-        "eps": 16.5,
-        "per": 4.8,
+        "operatingProfit": "€15.8B",
+        "opMargin": 10.2,
+        "eps": 15.2,
+        "per": 5.2,
         "pbr": 0.5,
-        "roe": 11.5,
+        "roe": 12,
         "debtRatio": 120,
         "currentRatio": 140,
         "riskStatus": "NORMAL",
         "dividendYield": 7.8,
-        "payoutRatio": 37,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €99.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 완성차 & 미래 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €155.0B, 영업이익 €15.2B (OPM 9.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11.5%, 배당수익률 7.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "BMW (비엠더블유)(티커: BMW.DE)은 유럽 프리미엄 완성차 & 미래 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 41,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €98.80 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 슈퍼카 & 프리미엄 완성차 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €155.0B, 영업이익 €15.8B (OPM 10.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 7.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "BMW 그룹 (BMW Group)(티커: BMW.DE)은 유럽 유럽 슈퍼카 & 프리미엄 완성차 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "€131.8B",
-            "opProfit": "€10.3B",
-            "netProfit": "€8.2B",
-            "opMargin": "7.8%",
-            "eps": 14.03,
-            "roe": "10.5%",
+            "opProfit": "€10.8B",
+            "netProfit": "€8.6B",
+            "opMargin": "8.2%",
+            "eps": 12.92,
+            "roe": "11%",
             "debtRatio": "126%"
           },
           {
             "year": "2022",
             "revenue": "€142.6B",
-            "opProfit": "€12.5B",
-            "netProfit": "€10.0B",
-            "opMargin": "8.8%",
-            "eps": 15.18,
-            "roe": "11%",
+            "opProfit": "€13.1B",
+            "netProfit": "€10.5B",
+            "opMargin": "9.2%",
+            "eps": 13.98,
+            "roe": "11.5%",
             "debtRatio": "123%"
           },
           {
             "year": "2023",
             "revenue": "€150.3B",
-            "opProfit": "€14.7B",
-            "netProfit": "€11.8B",
-            "opMargin": "9.8%",
-            "eps": 16.01,
-            "roe": "11.5%",
+            "opProfit": "€15.3B",
+            "netProfit": "€12.3B",
+            "opMargin": "10.2%",
+            "eps": 14.74,
+            "roe": "12%",
             "debtRatio": "120%"
           },
           {
             "year": "2024",
             "revenue": "€167.4B",
-            "opProfit": "€18.1B",
-            "netProfit": "€14.5B",
-            "opMargin": "10.8%",
-            "eps": 17.82,
-            "roe": "12%",
+            "opProfit": "€18.7B",
+            "netProfit": "€15.0B",
+            "opMargin": "11.2%",
+            "eps": 16.42,
+            "roe": "12.5%",
             "debtRatio": "117%"
           },
           {
             "year": "2025(E)",
             "revenue": "€186.0B",
-            "opProfit": "€21.9B",
-            "netProfit": "€17.6B",
-            "opMargin": "11.8%",
-            "eps": 19.8,
-            "roe": "12.5%",
+            "opProfit": "€22.7B",
+            "netProfit": "€18.2B",
+            "opMargin": "12.2%",
+            "eps": 18.24,
+            "roe": "13%",
             "debtRatio": "114%"
           }
         ]
       },
       {
-        "name": "메르세데스 벤츠 (Mercedes-Benz)",
-        "code": "MBG.DE",
-        "marketCap": "€58.0B",
-        "revenue": "€153.0B",
-        "operatingProfit": "€17.1B",
-        "opMargin": 11.2,
-        "eps": 12.8,
-        "per": 4.5,
-        "pbr": 0.6,
-        "roe": 14,
-        "debtRatio": 110,
+        "name": "폭스바겐 (Volkswagen Group)",
+        "code": "VOW3.DE",
+        "marketCap": "€49.0B",
+        "revenue": "€320.0B",
+        "operatingProfit": "€20.8B",
+        "opMargin": 6.5,
+        "eps": 24,
+        "per": 3.8,
+        "pbr": 0.3,
+        "roe": 8.5,
+        "debtRatio": 180,
         "currentRatio": 140,
-        "riskStatus": "NORMAL",
-        "dividendYield": 8.8,
-        "payoutRatio": 40,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €72.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 완성차 & 미래 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €153.0B, 영업이익 €17.1B (OPM 11.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 8.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "메르세데스 벤츠 (Mercedes-Benz)(티커: MBG.DE)은 유럽 프리미엄 완성차 & 미래 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "riskStatus": "WARNING",
+        "dividendYield": 9.2,
+        "payoutRatio": 35,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €114.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 슈퍼카 & 프리미엄 완성차 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €320.0B, 영업이익 €20.8B (OPM 6.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.5%, 배당수익률 9.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "폭스바겐 (Volkswagen Group)(티커: VOW3.DE)은 유럽 유럽 슈퍼카 & 프리미엄 완성차 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€130.0B",
-            "opProfit": "€12.0B",
-            "netProfit": "€9.6B",
-            "opMargin": "9.2%",
-            "eps": 10.88,
-            "roe": "13%",
-            "debtRatio": "116%"
+            "revenue": "€272.0B",
+            "opProfit": "€12.2B",
+            "netProfit": "€9.8B",
+            "opMargin": "4.5%",
+            "eps": 20.4,
+            "roe": "7.5%",
+            "debtRatio": "186%"
           },
           {
             "year": "2022",
-            "revenue": "€140.8B",
-            "opProfit": "€14.4B",
-            "netProfit": "€11.5B",
-            "opMargin": "10.2%",
-            "eps": 11.78,
-            "roe": "13.5%",
-            "debtRatio": "113%"
+            "revenue": "€294.4B",
+            "opProfit": "€16.2B",
+            "netProfit": "€13.0B",
+            "opMargin": "5.5%",
+            "eps": 22.08,
+            "roe": "8%",
+            "debtRatio": "183%"
           },
           {
             "year": "2023",
-            "revenue": "€148.4B",
-            "opProfit": "€16.6B",
-            "netProfit": "€13.3B",
-            "opMargin": "11.2%",
-            "eps": 12.42,
-            "roe": "14%",
-            "debtRatio": "110%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€165.2B",
+            "revenue": "€310.4B",
             "opProfit": "€20.2B",
             "netProfit": "€16.1B",
-            "opMargin": "12.2%",
-            "eps": 13.82,
-            "roe": "14.5%",
-            "debtRatio": "107%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€183.6B",
-            "opProfit": "€24.2B",
-            "netProfit": "€19.4B",
-            "opMargin": "13.2%",
-            "eps": 15.36,
-            "roe": "15%",
-            "debtRatio": "104%"
-          }
-        ]
-      },
-      {
-        "name": "스텔란티스 (Stellantis)",
-        "code": "STLAM.MI",
-        "marketCap": "€38.0B",
-        "revenue": "€189.0B",
-        "operatingProfit": "€16.1B",
-        "opMargin": 8.5,
-        "eps": 3.8,
-        "per": 3.5,
-        "pbr": 0.5,
-        "roe": 15,
-        "debtRatio": 45,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 9.5,
-        "payoutRatio": 33,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €16.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 완성차 & 미래 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €189.0B, 영업이익 €16.1B (OPM 8.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15%, 배당수익률 9.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "스텔란티스 (Stellantis)(티커: STLAM.MI)은 유럽 프리미엄 완성차 & 미래 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€160.7B",
-            "opProfit": "€10.4B",
-            "netProfit": "€8.4B",
             "opMargin": "6.5%",
-            "eps": 3.23,
-            "roe": "14%",
-            "debtRatio": "51%"
+            "eps": 23.28,
+            "roe": "8.5%",
+            "debtRatio": "180%"
           },
           {
-            "year": "2022",
-            "revenue": "€173.9B",
-            "opProfit": "€13.0B",
-            "netProfit": "€10.4B",
+            "year": "2024",
+            "revenue": "€345.6B",
+            "opProfit": "€25.9B",
+            "netProfit": "€20.7B",
             "opMargin": "7.5%",
-            "eps": 3.5,
-            "roe": "14.5%",
-            "debtRatio": "48%"
+            "eps": 25.92,
+            "roe": "9%",
+            "debtRatio": "177%"
           },
           {
-            "year": "2023",
-            "revenue": "€183.3B",
-            "opProfit": "€15.6B",
-            "netProfit": "€12.5B",
+            "year": "2025(E)",
+            "revenue": "€384.0B",
+            "opProfit": "€32.6B",
+            "netProfit": "€26.1B",
             "opMargin": "8.5%",
-            "eps": 3.69,
-            "roe": "15%",
-            "debtRatio": "45%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€204.1B",
-            "opProfit": "€19.4B",
-            "netProfit": "€15.5B",
-            "opMargin": "9.5%",
-            "eps": 4.1,
-            "roe": "15.5%",
-            "debtRatio": "42%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€226.8B",
-            "opProfit": "€23.8B",
-            "netProfit": "€19.1B",
-            "opMargin": "10.5%",
-            "eps": 4.56,
-            "roe": "16%",
-            "debtRatio": "39%"
-          }
-        ]
-      },
-      {
-        "name": "포르쉐 (Porsche AG)",
-        "code": "P911.DE",
-        "marketCap": "€62.0B",
-        "revenue": "€40.0B",
-        "operatingProfit": "€7.0B",
-        "opMargin": 17.5,
-        "eps": 4.8,
-        "per": 14,
-        "pbr": 2.8,
-        "roe": 20,
-        "debtRatio": 35,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 3.2,
-        "payoutRatio": 45,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €84.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 완성차 & 미래 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €40.0B, 영업이익 €7.0B (OPM 17.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 20%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "포르쉐 (Porsche AG)(티커: P911.DE)은 유럽 프리미엄 완성차 & 미래 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€34.0B",
-            "opProfit": "€5.3B",
-            "netProfit": "€4.2B",
-            "opMargin": "15.5%",
-            "eps": 4.08,
-            "roe": "19%",
-            "debtRatio": "41%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€36.8B",
-            "opProfit": "€6.1B",
-            "netProfit": "€4.9B",
-            "opMargin": "16.5%",
-            "eps": 4.42,
-            "roe": "19.5%",
-            "debtRatio": "38%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€38.8B",
-            "opProfit": "€6.8B",
-            "netProfit": "€5.4B",
-            "opMargin": "17.5%",
-            "eps": 4.66,
-            "roe": "20%",
-            "debtRatio": "35%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€43.2B",
-            "opProfit": "€8.0B",
-            "netProfit": "€6.4B",
-            "opMargin": "18.5%",
-            "eps": 5.18,
-            "roe": "20.5%",
-            "debtRatio": "32%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€48.0B",
-            "opProfit": "€9.4B",
-            "netProfit": "€7.5B",
-            "opMargin": "19.5%",
-            "eps": 5.76,
-            "roe": "21%",
-            "debtRatio": "29%"
+            "eps": 28.8,
+            "roe": "9.5%",
+            "debtRatio": "174%"
           }
         ]
       }
     ]
   },
   {
-    "id": "eu-energy",
+    "id": "eu-energy-clean",
     "country": "유럽",
-    "sector": "전통 에너지 & 친환경 재생에너지",
+    "sector": "유럽 오일 메이저 & 해상풍력/클린에너지",
     "chapterTitle": "유럽 ➔ 에너지·친환경",
     "cluster": "에너지·친환경",
-    "stockCount": 5,
-    "changeRate": "0.58",
+    "stockCount": 4,
+    "changeRate": "-0.12",
     "correlationLogic": {
-      "formula": "배럴당 유가(P) + 재생에너지 전력 판매 단가 - 탄소배출권 비용 = 안정 마진",
+      "formula": "글로벌 LNG 트레이딩 마진 + 심해 원유 생산 - 탈탄소 CAPEX = 잉여현금흐름 극대화",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 전통 에너지 & 친환경 재생에너지 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 유럽 오일 메이저 & 해상풍력/클린에너지 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "북해 및 글로벌 LNG/원유 생산 호조와 풍력/태양광 포트폴리오 균형",
+      "currentStatus": "쉘, 토탈에너지의 글로벌 LNG 1위 지배력과 연간 10%를 초과하는 주주환원(배당+자사주 소각)",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 강력한 FCF",
-        "summary": "북해 및 글로벌 LNG/원유 생산 호조와 풍력/태양광 포트폴리오 균형"
+        "badgeText": "🟢 막대한 자사주 매입",
+        "summary": "쉘, 토탈에너지의 글로벌 LNG 1위 지배력과 연간 10%를 초과하는 주주환원(배당+자사주 소각)"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 강력한 FCF",
-      "keyDriver": "유럽 전통 에너지 & 친환경 재생에너지 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "브렌트유 선물 및 유럽 TTF 천연가스 가격",
+      "statusBadge": "🟢 막대한 자사주 매입",
+      "keyDriver": "유럽 유럽 오일 메이저 & 해상풍력/클린에너지 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "네덜란드 TTF 천연가스 선물 & 브렌트유",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "연간 수십억 달러 규모 자사주 매입 및 배당 수익률 4~5% 지속",
-      "bearFactor": "유럽 경기 둔화에 따른 에너지 수요 정체 및 천연가스 가격 급변동"
+      "bullFactor": "유럽의 러시아산 가스 대체용 미국/카타르 LNG 장기 계약 트레이딩 차익 독점",
+      "bearFactor": "유럽 탄소배출권 가격 변동 및 풍력 발전 터빈 인플레이션"
     },
     "indicators": [
       {
-        "name": "브렌트유 선물 및 유럽 TTF 천연가스 가격",
+        "name": "네덜란드 TTF 천연가스 선물 & 브렌트유",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "전통 에너지 & 친환경 재생에너지 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "유럽 오일 메이저 & 해상풍력/클린에너지 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -217919,72 +219712,72 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "셸 (Shell)",
+        "name": "쉘 (Shell 글로벌 1위 LNG)",
         "code": "SHEL.L",
-        "marketCap": "€210.0B",
-        "revenue": "€315.0B",
-        "operatingProfit": "€36.2B",
+        "marketCap": "€215.0B",
+        "revenue": "€310.0B",
+        "operatingProfit": "€35.6B",
         "opMargin": 11.5,
         "eps": 3.8,
-        "per": 11,
-        "pbr": 1.2,
-        "roe": 11.5,
+        "per": 8.5,
+        "pbr": 1.1,
+        "roe": 13.5,
         "debtRatio": 35,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 4.1,
-        "payoutRatio": 45,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €52.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전통 에너지 & 친환경 재생에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €315.0B, 영업이익 €36.2B (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11.5%, 배당수익률 4.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "셸 (Shell)(티커: SHEL.L)은 유럽 전통 에너지 & 친환경 재생에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 4.2,
+        "payoutRatio": 36,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €40.38 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 오일 메이저 & 해상풍력/클린에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €310.0B, 영업이익 €35.6B (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13.5%, 배당수익률 4.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "쉘 (Shell 글로벌 1위 LNG)(티커: SHEL.L)은 유럽 유럽 오일 메이저 & 해상풍력/클린에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€267.8B",
-            "opProfit": "€25.4B",
-            "netProfit": "€20.3B",
+            "revenue": "€263.5B",
+            "opProfit": "€25.0B",
+            "netProfit": "€20.0B",
             "opMargin": "9.5%",
             "eps": 3.23,
-            "roe": "10.5%",
+            "roe": "12.5%",
             "debtRatio": "41%"
           },
           {
             "year": "2022",
-            "revenue": "€289.8B",
-            "opProfit": "€30.4B",
-            "netProfit": "€24.3B",
+            "revenue": "€285.2B",
+            "opProfit": "€29.9B",
+            "netProfit": "€24.0B",
             "opMargin": "10.5%",
             "eps": 3.5,
-            "roe": "11%",
+            "roe": "13%",
             "debtRatio": "38%"
           },
           {
             "year": "2023",
-            "revenue": "€305.6B",
-            "opProfit": "€35.1B",
-            "netProfit": "€28.1B",
+            "revenue": "€300.7B",
+            "opProfit": "€34.6B",
+            "netProfit": "€27.7B",
             "opMargin": "11.5%",
             "eps": 3.69,
-            "roe": "11.5%",
+            "roe": "13.5%",
             "debtRatio": "35%"
           },
           {
             "year": "2024",
-            "revenue": "€340.2B",
-            "opProfit": "€42.5B",
-            "netProfit": "€34.0B",
+            "revenue": "€334.8B",
+            "opProfit": "€41.9B",
+            "netProfit": "€33.5B",
             "opMargin": "12.5%",
             "eps": 4.1,
-            "roe": "12%",
+            "roe": "14%",
             "debtRatio": "32%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€378.0B",
-            "opProfit": "€51.0B",
-            "netProfit": "€40.8B",
+            "revenue": "€372.0B",
+            "opProfit": "€50.2B",
+            "netProfit": "€40.2B",
             "opMargin": "13.5%",
             "eps": 4.56,
-            "roe": "12.5%",
+            "roe": "14.5%",
             "debtRatio": "29%"
           }
         ]
@@ -217993,329 +219786,258 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "토탈에너지스 (TotalEnergies)",
         "code": "TTE.PA",
         "marketCap": "€145.0B",
-        "revenue": "€218.0B",
-        "operatingProfit": "€29.4B",
-        "opMargin": 13.5,
+        "revenue": "€215.0B",
+        "operatingProfit": "€30.1B",
+        "opMargin": 14,
         "eps": 8.5,
-        "per": 8.5,
-        "pbr": 1.3,
-        "roe": 15.5,
+        "per": 7.8,
+        "pbr": 1.2,
+        "roe": 16.5,
         "debtRatio": 28,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 5.2,
-        "payoutRatio": 44,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €90.31 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전통 에너지 & 친환경 재생에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €218.0B, 영업이익 €29.4B (OPM 13.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15.5%, 배당수익률 5.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "토탈에너지스 (TotalEnergies)(티커: TTE.PA)은 유럽 전통 에너지 & 친환경 재생에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 41,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €82.88 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 오일 메이저 & 해상풍력/클린에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €215.0B, 영업이익 €30.1B (OPM 14%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16.5%, 배당수익률 5.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "토탈에너지스 (TotalEnergies)(티커: TTE.PA)은 유럽 유럽 오일 메이저 & 해상풍력/클린에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€185.3B",
-            "opProfit": "€21.3B",
-            "netProfit": "€17.0B",
-            "opMargin": "11.5%",
+            "revenue": "€182.8B",
+            "opProfit": "€21.9B",
+            "netProfit": "€17.5B",
+            "opMargin": "12%",
             "eps": 7.23,
-            "roe": "14.5%",
+            "roe": "15.5%",
             "debtRatio": "34%"
           },
           {
             "year": "2022",
-            "revenue": "€200.6B",
-            "opProfit": "€25.1B",
-            "netProfit": "€20.1B",
-            "opMargin": "12.5%",
+            "revenue": "€197.8B",
+            "opProfit": "€25.7B",
+            "netProfit": "€20.6B",
+            "opMargin": "13%",
             "eps": 7.82,
-            "roe": "15%",
+            "roe": "16%",
             "debtRatio": "31%"
           },
           {
             "year": "2023",
-            "revenue": "€211.5B",
-            "opProfit": "€28.5B",
-            "netProfit": "€22.8B",
-            "opMargin": "13.5%",
+            "revenue": "€208.5B",
+            "opProfit": "€29.2B",
+            "netProfit": "€23.4B",
+            "opMargin": "14%",
             "eps": 8.24,
-            "roe": "15.5%",
+            "roe": "16.5%",
             "debtRatio": "28%"
           },
           {
             "year": "2024",
-            "revenue": "€235.4B",
-            "opProfit": "€34.1B",
-            "netProfit": "€27.3B",
-            "opMargin": "14.5%",
+            "revenue": "€232.2B",
+            "opProfit": "€34.8B",
+            "netProfit": "€27.9B",
+            "opMargin": "15%",
             "eps": 9.18,
-            "roe": "16%",
+            "roe": "17%",
             "debtRatio": "25%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€261.6B",
-            "opProfit": "€40.5B",
-            "netProfit": "€32.4B",
-            "opMargin": "15.5%",
+            "revenue": "€258.0B",
+            "opProfit": "€41.3B",
+            "netProfit": "€33.0B",
+            "opMargin": "16%",
             "eps": 10.2,
-            "roe": "16.5%",
+            "roe": "17.5%",
             "debtRatio": "22%"
           }
         ]
       },
       {
-        "name": "BP (비피)",
+        "name": "BP (비피 영국 석유메이저)",
         "code": "BP.L",
         "marketCap": "€85.0B",
         "revenue": "€210.0B",
-        "operatingProfit": "€18.9B",
-        "opMargin": 9,
-        "eps": 0.6,
-        "per": 9.5,
-        "pbr": 1.1,
-        "roe": 12,
-        "debtRatio": 55,
+        "operatingProfit": "€19.9B",
+        "opMargin": 9.5,
+        "eps": 0.65,
+        "per": 7.2,
+        "pbr": 1,
+        "roe": 14,
+        "debtRatio": 45,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 5.5,
-        "payoutRatio": 52,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €7.13 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전통 에너지 & 친환경 재생에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €210.0B, 영업이익 €18.9B (OPM 9%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 5.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "BP (비피)(티커: BP.L)은 유럽 전통 에너지 & 친환경 재생에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 40,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €5.85 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 오일 메이저 & 해상풍력/클린에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €210.0B, 영업이익 €19.9B (OPM 9.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 5.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "BP (비피 영국 석유메이저)(티커: BP.L)은 유럽 유럽 오일 메이저 & 해상풍력/클린에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "€178.5B",
-            "opProfit": "€12.5B",
-            "netProfit": "€10.0B",
-            "opMargin": "7%",
-            "eps": 0.51,
-            "roe": "11%",
-            "debtRatio": "61%"
+            "opProfit": "€13.4B",
+            "netProfit": "€10.7B",
+            "opMargin": "7.5%",
+            "eps": 0.55,
+            "roe": "13%",
+            "debtRatio": "51%"
           },
           {
             "year": "2022",
             "revenue": "€193.2B",
-            "opProfit": "€15.5B",
-            "netProfit": "€12.4B",
-            "opMargin": "8%",
-            "eps": 0.55,
-            "roe": "11.5%",
-            "debtRatio": "58%"
+            "opProfit": "€16.4B",
+            "netProfit": "€13.1B",
+            "opMargin": "8.5%",
+            "eps": 0.6,
+            "roe": "13.5%",
+            "debtRatio": "48%"
           },
           {
             "year": "2023",
             "revenue": "€203.7B",
-            "opProfit": "€18.3B",
-            "netProfit": "€14.7B",
-            "opMargin": "9%",
-            "eps": 0.58,
-            "roe": "12%",
-            "debtRatio": "55%"
+            "opProfit": "€19.4B",
+            "netProfit": "€15.5B",
+            "opMargin": "9.5%",
+            "eps": 0.63,
+            "roe": "14%",
+            "debtRatio": "45%"
           },
           {
             "year": "2024",
             "revenue": "€226.8B",
-            "opProfit": "€22.7B",
-            "netProfit": "€18.1B",
-            "opMargin": "10%",
-            "eps": 0.65,
-            "roe": "12.5%",
-            "debtRatio": "52%"
+            "opProfit": "€23.8B",
+            "netProfit": "€19.1B",
+            "opMargin": "10.5%",
+            "eps": 0.7,
+            "roe": "14.5%",
+            "debtRatio": "42%"
           },
           {
             "year": "2025(E)",
             "revenue": "€252.0B",
-            "opProfit": "€27.7B",
-            "netProfit": "€22.2B",
-            "opMargin": "11%",
-            "eps": 0.72,
-            "roe": "13%",
-            "debtRatio": "49%"
+            "opProfit": "€29.0B",
+            "netProfit": "€23.2B",
+            "opMargin": "11.5%",
+            "eps": 0.78,
+            "roe": "15%",
+            "debtRatio": "39%"
           }
         ]
       },
       {
-        "name": "에넬 (Enel)",
-        "code": "ENEL.MI",
-        "marketCap": "€68.0B",
-        "revenue": "€95.0B",
-        "operatingProfit": "€15.7B",
-        "opMargin": 16.5,
-        "eps": 0.7,
-        "per": 10.5,
-        "pbr": 1.4,
-        "roe": 13,
-        "debtRatio": 140,
-        "currentRatio": 140,
-        "riskStatus": "NORMAL",
-        "dividendYield": 6.2,
-        "payoutRatio": 65,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €9.19 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전통 에너지 & 친환경 재생에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €95.0B, 영업이익 €15.7B (OPM 16.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13%, 배당수익률 6.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "에넬 (Enel)(티커: ENEL.MI)은 유럽 전통 에너지 & 친환경 재생에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€80.8B",
-            "opProfit": "€11.7B",
-            "netProfit": "€9.4B",
-            "opMargin": "14.5%",
-            "eps": 0.6,
-            "roe": "12%",
-            "debtRatio": "146%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€87.4B",
-            "opProfit": "€13.5B",
-            "netProfit": "€10.8B",
-            "opMargin": "15.5%",
-            "eps": 0.64,
-            "roe": "12.5%",
-            "debtRatio": "143%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€92.1B",
-            "opProfit": "€15.2B",
-            "netProfit": "€12.2B",
-            "opMargin": "16.5%",
-            "eps": 0.68,
-            "roe": "13%",
-            "debtRatio": "140%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€102.6B",
-            "opProfit": "€18.0B",
-            "netProfit": "€14.4B",
-            "opMargin": "17.5%",
-            "eps": 0.76,
-            "roe": "13.5%",
-            "debtRatio": "137%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€114.0B",
-            "opProfit": "€21.1B",
-            "netProfit": "€16.9B",
-            "opMargin": "18.5%",
-            "eps": 0.84,
-            "roe": "14%",
-            "debtRatio": "134%"
-          }
-        ]
-      },
-      {
-        "name": "이베르드롤라 (Iberdrola)",
+        "name": "이베르드로라 (Iberdrola 유럽 신재생)",
         "code": "IBE.MC",
-        "marketCap": "€82.0B",
-        "revenue": "€49.0B",
-        "operatingProfit": "€10.3B",
-        "opMargin": 21,
-        "eps": 0.8,
+        "marketCap": "€88.0B",
+        "revenue": "€52.0B",
+        "operatingProfit": "€11.4B",
+        "opMargin": 22,
+        "eps": 0.85,
         "per": 15.5,
         "pbr": 1.6,
-        "roe": 11,
-        "debtRatio": 115,
+        "roe": 11.5,
+        "debtRatio": 125,
         "currentRatio": 140,
         "riskStatus": "NORMAL",
-        "dividendYield": 4.5,
-        "payoutRatio": 70,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €15.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 전통 에너지 & 친환경 재생에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €49.0B, 영업이익 €10.3B (OPM 21%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11%, 배당수익률 4.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "이베르드롤라 (Iberdrola)(티커: IBE.MC)은 유럽 전통 에너지 & 친환경 재생에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 4.2,
+        "payoutRatio": 65,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €16.47 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 오일 메이저 & 해상풍력/클린에너지 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €52.0B, 영업이익 €11.4B (OPM 22%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11.5%, 배당수익률 4.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "이베르드로라 (Iberdrola 유럽 신재생)(티커: IBE.MC)은 유럽 유럽 오일 메이저 & 해상풍력/클린에너지 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€41.6B",
-            "opProfit": "€7.9B",
-            "netProfit": "€6.3B",
-            "opMargin": "19%",
-            "eps": 0.68,
-            "roe": "10%",
-            "debtRatio": "121%"
+            "revenue": "€44.2B",
+            "opProfit": "€8.8B",
+            "netProfit": "€7.1B",
+            "opMargin": "20%",
+            "eps": 0.72,
+            "roe": "10.5%",
+            "debtRatio": "131%"
           },
           {
             "year": "2022",
-            "revenue": "€45.1B",
-            "opProfit": "€9.0B",
-            "netProfit": "€7.2B",
-            "opMargin": "20%",
-            "eps": 0.74,
-            "roe": "10.5%",
-            "debtRatio": "118%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€47.5B",
+            "revenue": "€47.8B",
             "opProfit": "€10.0B",
             "netProfit": "€8.0B",
             "opMargin": "21%",
             "eps": 0.78,
             "roe": "11%",
-            "debtRatio": "115%"
+            "debtRatio": "128%"
+          },
+          {
+            "year": "2023",
+            "revenue": "€50.4B",
+            "opProfit": "€11.1B",
+            "netProfit": "€8.9B",
+            "opMargin": "22%",
+            "eps": 0.82,
+            "roe": "11.5%",
+            "debtRatio": "125%"
           },
           {
             "year": "2024",
-            "revenue": "€52.9B",
-            "opProfit": "€11.6B",
-            "netProfit": "€9.3B",
-            "opMargin": "22%",
-            "eps": 0.86,
-            "roe": "11.5%",
-            "debtRatio": "112%"
+            "revenue": "€56.2B",
+            "opProfit": "€12.9B",
+            "netProfit": "€10.3B",
+            "opMargin": "23%",
+            "eps": 0.92,
+            "roe": "12%",
+            "debtRatio": "122%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€58.8B",
-            "opProfit": "€13.5B",
-            "netProfit": "€10.8B",
-            "opMargin": "23%",
-            "eps": 0.96,
-            "roe": "12%",
-            "debtRatio": "109%"
+            "revenue": "€62.4B",
+            "opProfit": "€15.0B",
+            "netProfit": "€12.0B",
+            "opMargin": "24%",
+            "eps": 1.02,
+            "roe": "12.5%",
+            "debtRatio": "119%"
           }
         ]
       }
     ]
   },
   {
-    "id": "eu-finance",
+    "id": "eu-finance-bank",
     "country": "유럽",
-    "sector": "글로벌 금융 지주 & 메가 보험사",
+    "sector": "유럽 종합금융 & 글로벌 메가 보험",
     "chapterTitle": "유럽 ➔ 금융·보험",
     "cluster": "금융·보험",
-    "stockCount": 5,
-    "changeRate": "-0.33",
+    "stockCount": 4,
+    "changeRate": "0.29",
     "correlationLogic": {
-      "formula": "NIM 스프레드 + 글로벌 자산관리 수수료 = 사상 최대 순이익",
+      "formula": "순이자마진(NIM) 유지 + 보험 언더라이팅 이익 - 충당금 = ROE 14% 달성",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 글로벌 금융 지주 & 메가 보험사 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 유럽 종합금융 & 글로벌 메가 보험 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "유럽중앙은행 고금리 유지 속 강력한 자본비율(CET1) 및 배당 잔치",
+      "currentStatus": "ECB 고금리 유지 수혜로 메가뱅크들의 NIM 확대 및 알리안츠 등 글로벌 보험사의 안정적 수익",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 자본환원",
-        "summary": "유럽중앙은행 고금리 유지 속 강력한 자본비율(CET1) 및 배당 잔치"
+        "badgeText": "🟢 고배당 & ROE 개선",
+        "summary": "ECB 고금리 유지 수혜로 메가뱅크들의 NIM 확대 및 알리안츠 등 글로벌 보험사의 안정적 수익"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 자본환원",
-      "keyDriver": "유럽 글로벌 금융 지주 & 메가 보험사 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "유로스톡스 뱅크 지수 (SX7E)",
+      "statusBadge": "🟢 고배당 & ROE 개선",
+      "keyDriver": "유럽 유럽 종합금융 & 글로벌 메가 보험 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "유로스톡스 뱅크 지수 (SX7E Index)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "UBS-크레디트스위스 합병 시너지 및 알리안츠 운용자산 사상 최대",
-      "bearFactor": "유럽 경기 둔화에 따른 대출 수요 정체"
+      "bullFactor": "유럽 금융당국의 주주환원 승인 확대 및 6~8%대 고배당 매력",
+      "bearFactor": "유럽 경기 침체 시 제조업 부실 채권 발생 리스크"
     },
     "indicators": [
       {
-        "name": "유로스톡스 뱅크 지수 (SX7E)",
+        "name": "유로스톡스 뱅크 지수 (SX7E Index)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 금융 지주 & 메가 보험사 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "유럽 종합금융 & 글로벌 메가 보험 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -218330,73 +220052,73 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "HSBC 홀딩스 (HSBC)",
+        "name": "HSBC 홀딩스 (HSBC Holdings)",
         "code": "HSBA.L",
         "marketCap": "€155.0B",
         "revenue": "€66.0B",
-        "operatingProfit": "€27.7B",
-        "opMargin": 42,
+        "operatingProfit": "€30.4B",
+        "opMargin": 46,
         "eps": 1.2,
-        "per": 7.2,
+        "per": 7.5,
         "pbr": 0.9,
-        "roe": 13.5,
-        "debtRatio": 850,
+        "roe": 14,
+        "debtRatio": 890,
         "currentRatio": 140,
         "riskStatus": "WARNING",
-        "dividendYield": 7.5,
+        "dividendYield": 7.2,
         "payoutRatio": 54,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €10.80 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 지주 & 메가 보험사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €66.0B, 영업이익 €27.7B (OPM 42%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13.5%, 배당수익률 7.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "HSBC 홀딩스 (HSBC)(티커: HSBA.L)은 유럽 글로벌 금융 지주 & 메가 보험사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €11.25 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 종합금융 & 글로벌 메가 보험 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €66.0B, 영업이익 €30.4B (OPM 46%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 7.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "HSBC 홀딩스 (HSBC Holdings)(티커: HSBA.L)은 유럽 유럽 종합금융 & 글로벌 메가 보험 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "€56.1B",
-            "opProfit": "€22.4B",
-            "netProfit": "€18.0B",
-            "opMargin": "40%",
+            "opProfit": "€24.7B",
+            "netProfit": "€19.7B",
+            "opMargin": "44%",
             "eps": 1.02,
-            "roe": "12.5%",
-            "debtRatio": "856%"
+            "roe": "13%",
+            "debtRatio": "896%"
           },
           {
             "year": "2022",
             "revenue": "€60.7B",
-            "opProfit": "€24.9B",
-            "netProfit": "€19.9B",
-            "opMargin": "41%",
+            "opProfit": "€27.3B",
+            "netProfit": "€21.9B",
+            "opMargin": "45%",
             "eps": 1.1,
-            "roe": "13%",
-            "debtRatio": "853%"
+            "roe": "13.5%",
+            "debtRatio": "893%"
           },
           {
             "year": "2023",
             "revenue": "€64.0B",
-            "opProfit": "€26.9B",
-            "netProfit": "€21.5B",
-            "opMargin": "42%",
+            "opProfit": "€29.4B",
+            "netProfit": "€23.6B",
+            "opMargin": "46%",
             "eps": 1.16,
-            "roe": "13.5%",
-            "debtRatio": "850%"
+            "roe": "14%",
+            "debtRatio": "890%"
           },
           {
             "year": "2024",
             "revenue": "€71.3B",
-            "opProfit": "€30.7B",
-            "netProfit": "€24.5B",
-            "opMargin": "43%",
+            "opProfit": "€33.5B",
+            "netProfit": "€26.8B",
+            "opMargin": "47%",
             "eps": 1.3,
-            "roe": "14%",
-            "debtRatio": "847%"
+            "roe": "14.5%",
+            "debtRatio": "887%"
           },
           {
             "year": "2025(E)",
             "revenue": "€79.2B",
-            "opProfit": "€34.8B",
-            "netProfit": "€27.9B",
-            "opMargin": "44%",
+            "opProfit": "€38.0B",
+            "netProfit": "€30.4B",
+            "opMargin": "48%",
             "eps": 1.44,
-            "roe": "14.5%",
-            "debtRatio": "844%"
+            "roe": "15%",
+            "debtRatio": "884%"
           }
         ]
       },
@@ -218404,91 +220126,91 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "BNP 파리바 (BNP Paribas)",
         "code": "BNP.PA",
         "marketCap": "€72.0B",
-        "revenue": "€46.0B",
-        "operatingProfit": "€16.1B",
+        "revenue": "€47.0B",
+        "operatingProfit": "€16.4B",
         "opMargin": 35,
-        "eps": 9.2,
+        "eps": 9.5,
         "per": 6.8,
         "pbr": 0.6,
-        "roe": 9.5,
+        "roe": 10.5,
         "debtRatio": 920,
         "currentRatio": 140,
         "riskStatus": "WARNING",
-        "dividendYield": 7.2,
-        "payoutRatio": 49,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €78.20 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 지주 & 메가 보험사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €46.0B, 영업이익 €16.1B (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 9.5%, 배당수익률 7.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "BNP 파리바 (BNP Paribas)(티커: BNP.PA)은 유럽 글로벌 금융 지주 & 메가 보험사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 7.5,
+        "payoutRatio": 51,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €80.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 종합금융 & 글로벌 메가 보험 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €47.0B, 영업이익 €16.4B (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10.5%, 배당수익률 7.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "BNP 파리바 (BNP Paribas)(티커: BNP.PA)은 유럽 유럽 종합금융 & 글로벌 메가 보험 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€39.1B",
-            "opProfit": "€12.9B",
-            "netProfit": "€10.3B",
+            "revenue": "€39.9B",
+            "opProfit": "€13.2B",
+            "netProfit": "€10.5B",
             "opMargin": "33%",
-            "eps": 7.82,
-            "roe": "8.5%",
+            "eps": 8.07,
+            "roe": "9.5%",
             "debtRatio": "926%"
           },
           {
             "year": "2022",
-            "revenue": "€42.3B",
-            "opProfit": "€14.4B",
-            "netProfit": "€11.5B",
+            "revenue": "€43.2B",
+            "opProfit": "€14.7B",
+            "netProfit": "€11.8B",
             "opMargin": "34%",
-            "eps": 8.46,
-            "roe": "9%",
+            "eps": 8.74,
+            "roe": "10%",
             "debtRatio": "923%"
           },
           {
             "year": "2023",
-            "revenue": "€44.6B",
-            "opProfit": "€15.6B",
-            "netProfit": "€12.5B",
+            "revenue": "€45.6B",
+            "opProfit": "€16.0B",
+            "netProfit": "€12.8B",
             "opMargin": "35%",
-            "eps": 8.92,
-            "roe": "9.5%",
+            "eps": 9.22,
+            "roe": "10.5%",
             "debtRatio": "920%"
           },
           {
             "year": "2024",
-            "revenue": "€49.7B",
-            "opProfit": "€17.9B",
-            "netProfit": "€14.3B",
+            "revenue": "€50.8B",
+            "opProfit": "€18.3B",
+            "netProfit": "€14.6B",
             "opMargin": "36%",
-            "eps": 9.94,
-            "roe": "10%",
+            "eps": 10.26,
+            "roe": "11%",
             "debtRatio": "917%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€55.2B",
-            "opProfit": "€20.4B",
-            "netProfit": "€16.3B",
+            "revenue": "€56.4B",
+            "opProfit": "€20.9B",
+            "netProfit": "€16.7B",
             "opMargin": "37%",
-            "eps": 11.04,
-            "roe": "10.5%",
+            "eps": 11.4,
+            "roe": "11.5%",
             "debtRatio": "914%"
           }
         ]
       },
       {
-        "name": "UBS 그룹 (UBS Group)",
+        "name": "UBS 그룹 (UBS Group 크레디트스위스 통합)",
         "code": "UBSG.SW",
-        "marketCap": "€98.0B",
+        "marketCap": "€92.0B",
         "revenue": "€41.0B",
         "operatingProfit": "€11.5B",
         "opMargin": 28,
         "eps": 2.5,
-        "per": 11.5,
+        "per": 12,
         "pbr": 1.1,
-        "roe": 10,
-        "debtRatio": 780,
+        "roe": 11,
+        "debtRatio": 850,
         "currentRatio": 140,
         "riskStatus": "WARNING",
         "dividendYield": 2.8,
-        "payoutRatio": 32,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €35.94 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 지주 & 메가 보험사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €41.0B, 영업이익 €11.5B (OPM 28%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "UBS 그룹 (UBS Group)(티커: UBSG.SW)은 유럽 글로벌 금융 지주 & 메가 보험사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 34,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €37.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 종합금융 & 글로벌 메가 보험 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €41.0B, 영업이익 €11.5B (OPM 28%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "UBS 그룹 (UBS Group 크레디트스위스 통합)(티커: UBSG.SW)은 유럽 유럽 종합금융 & 글로벌 메가 보험 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -218497,8 +220219,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "netProfit": "€7.2B",
             "opMargin": "26%",
             "eps": 2.13,
-            "roe": "9%",
-            "debtRatio": "786%"
+            "roe": "10%",
+            "debtRatio": "856%"
           },
           {
             "year": "2022",
@@ -218507,8 +220229,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "netProfit": "€8.1B",
             "opMargin": "27%",
             "eps": 2.3,
-            "roe": "9.5%",
-            "debtRatio": "783%"
+            "roe": "10.5%",
+            "debtRatio": "853%"
           },
           {
             "year": "2023",
@@ -218517,8 +220239,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "netProfit": "€8.9B",
             "opMargin": "28%",
             "eps": 2.42,
-            "roe": "10%",
-            "debtRatio": "780%"
+            "roe": "11%",
+            "debtRatio": "850%"
           },
           {
             "year": "2024",
@@ -218527,8 +220249,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "netProfit": "€10.3B",
             "opMargin": "29%",
             "eps": 2.7,
-            "roe": "10.5%",
-            "debtRatio": "777%"
+            "roe": "11.5%",
+            "debtRatio": "847%"
           },
           {
             "year": "2025(E)",
@@ -218537,196 +220259,125 @@ window.REGIONAL_INDUSTRY_DATA = {
             "netProfit": "€11.8B",
             "opMargin": "30%",
             "eps": 3,
-            "roe": "11%",
-            "debtRatio": "774%"
-          }
-        ]
-      },
-      {
-        "name": "산탄데르 (Banco Santander)",
-        "code": "SAN.MC",
-        "marketCap": "€71.0B",
-        "revenue": "€57.0B",
-        "operatingProfit": "€21.7B",
-        "opMargin": 38,
-        "eps": 0.7,
-        "per": 6.2,
-        "pbr": 0.7,
-        "roe": 12,
-        "debtRatio": 890,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 4.5,
-        "payoutRatio": 28,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €5.42 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 지주 & 메가 보험사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €57.0B, 영업이익 €21.7B (OPM 38%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 4.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "산탄데르 (Banco Santander)(티커: SAN.MC)은 유럽 글로벌 금융 지주 & 메가 보험사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€48.4B",
-            "opProfit": "€17.4B",
-            "netProfit": "€14.0B",
-            "opMargin": "36%",
-            "eps": 0.6,
-            "roe": "11%",
-            "debtRatio": "896%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€52.4B",
-            "opProfit": "€19.4B",
-            "netProfit": "€15.5B",
-            "opMargin": "37%",
-            "eps": 0.64,
-            "roe": "11.5%",
-            "debtRatio": "893%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€55.3B",
-            "opProfit": "€21.0B",
-            "netProfit": "€16.8B",
-            "opMargin": "38%",
-            "eps": 0.68,
             "roe": "12%",
-            "debtRatio": "890%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€61.6B",
-            "opProfit": "€24.0B",
-            "netProfit": "€19.2B",
-            "opMargin": "39%",
-            "eps": 0.76,
-            "roe": "12.5%",
-            "debtRatio": "887%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€68.4B",
-            "opProfit": "€27.4B",
-            "netProfit": "€21.9B",
-            "opMargin": "40%",
-            "eps": 0.84,
-            "roe": "13%",
-            "debtRatio": "884%"
+            "debtRatio": "844%"
           }
         ]
       },
       {
-        "name": "알리안츠 (Allianz)",
+        "name": "알리안츠 (Allianz 글로벌 1위 보험)",
         "code": "ALV.DE",
         "marketCap": "€115.0B",
-        "revenue": "€161.0B",
-        "operatingProfit": "€15.3B",
-        "opMargin": 9.5,
+        "revenue": "€162.0B",
+        "operatingProfit": "€17.0B",
+        "opMargin": 10.5,
         "eps": 26.5,
-        "per": 11,
-        "pbr": 1.8,
-        "roe": 16,
-        "debtRatio": 320,
+        "per": 11.5,
+        "pbr": 1.6,
+        "roe": 15,
+        "debtRatio": 210,
         "currentRatio": 140,
         "riskStatus": "WARNING",
-        "dividendYield": 4.8,
-        "payoutRatio": 53,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €364.38 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 금융 지주 & 메가 보험사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €161.0B, 영업이익 €15.3B (OPM 9.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16%, 배당수익률 4.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "알리안츠 (Allianz)(티커: ALV.DE)은 유럽 글로벌 금융 지주 & 메가 보험사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 5.2,
+        "payoutRatio": 60,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €380.94 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 유럽 종합금융 & 글로벌 메가 보험 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €162.0B, 영업이익 €17.0B (OPM 10.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15%, 배당수익률 5.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "알리안츠 (Allianz 글로벌 1위 보험)(티커: ALV.DE)은 유럽 유럽 종합금융 & 글로벌 메가 보험 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€136.8B",
-            "opProfit": "€10.3B",
-            "netProfit": "€8.2B",
-            "opMargin": "7.5%",
+            "revenue": "€137.7B",
+            "opProfit": "€11.7B",
+            "netProfit": "€9.4B",
+            "opMargin": "8.5%",
             "eps": 22.53,
-            "roe": "15%",
-            "debtRatio": "326%"
+            "roe": "14%",
+            "debtRatio": "216%"
           },
           {
             "year": "2022",
-            "revenue": "€148.1B",
-            "opProfit": "€12.6B",
-            "netProfit": "€10.1B",
-            "opMargin": "8.5%",
+            "revenue": "€149.0B",
+            "opProfit": "€14.2B",
+            "netProfit": "€11.3B",
+            "opMargin": "9.5%",
             "eps": 24.38,
-            "roe": "15.5%",
-            "debtRatio": "323%"
+            "roe": "14.5%",
+            "debtRatio": "213%"
           },
           {
             "year": "2023",
-            "revenue": "€156.2B",
-            "opProfit": "€14.8B",
-            "netProfit": "€11.9B",
-            "opMargin": "9.5%",
+            "revenue": "€157.1B",
+            "opProfit": "€16.5B",
+            "netProfit": "€13.2B",
+            "opMargin": "10.5%",
             "eps": 25.71,
-            "roe": "16%",
-            "debtRatio": "320%"
+            "roe": "15%",
+            "debtRatio": "210%"
           },
           {
             "year": "2024",
-            "revenue": "€173.9B",
-            "opProfit": "€18.3B",
-            "netProfit": "€14.6B",
-            "opMargin": "10.5%",
+            "revenue": "€175.0B",
+            "opProfit": "€20.1B",
+            "netProfit": "€16.1B",
+            "opMargin": "11.5%",
             "eps": 28.62,
-            "roe": "16.5%",
-            "debtRatio": "317%"
+            "roe": "15.5%",
+            "debtRatio": "207%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€193.2B",
-            "opProfit": "€22.2B",
-            "netProfit": "€17.8B",
-            "opMargin": "11.5%",
+            "revenue": "€194.4B",
+            "opProfit": "€24.3B",
+            "netProfit": "€19.4B",
+            "opMargin": "12.5%",
             "eps": 31.8,
-            "roe": "17%",
-            "debtRatio": "314%"
+            "roe": "16%",
+            "debtRatio": "204%"
           }
         ]
       }
     ]
   },
   {
-    "id": "eu-aerospace",
+    "id": "eu-aerospace-defense",
     "country": "유럽",
-    "sector": "항공우주 & 유럽 핵심 방산",
+    "sector": "글로벌 민항기 & 첨단 방위산업",
     "chapterTitle": "유럽 ➔ 방산·항공",
     "cluster": "방산·항공",
     "stockCount": 4,
-    "changeRate": "0.62",
+    "changeRate": "-0.42",
     "correlationLogic": {
-      "formula": "민항기 수주 잔고(A321neo) + 유럽 탄약/기갑 긴급 조달 = 고수익",
+      "formula": "A321neo 월간 인도 대수 + 나토 전차/포탄 주문 잔고 = 구조적 고수익",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 항공우주 & 유럽 핵심 방산 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 글로벌 민항기 & 첨단 방위산업 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "NATO 회원국 국방비 2% 이상 상향 의무화 및 민항기 독점 수주",
+      "currentStatus": "에어버스의 수주 잔고 8,600대(10년 치) 완판과 나토(NATO) 유럽 방위비 증액에 따른 라인메탈 포탄/장갑차 수주 폭증",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 방산 슈퍼사이클",
-        "summary": "NATO 회원국 국방비 2% 이상 상향 의무화 및 민항기 독점 수주"
+        "badgeText": "🟢 슈퍼 사이클",
+        "summary": "에어버스의 수주 잔고 8,600대(10년 치) 완판과 나토(NATO) 유럽 방위비 증액에 따른 라인메탈 포탄/장갑차 수주 폭증"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 방산 슈퍼사이클",
-      "keyDriver": "유럽 항공우주 & 유럽 핵심 방산 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "유럽 항공방산 지수",
+      "statusBadge": "🟢 슈퍼 사이클",
+      "keyDriver": "유럽 글로벌 민항기 & 첨단 방위산업 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "유로스톡스 항공우주/방산 지수 (SXPARO)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "에어버스 10년치 수주 잔고 확보 및 라인메탈 포탄 생산 CAPA 3배 증설",
-      "bearFactor": "항공기 공급망 엔진 부품 납기 지연"
+      "bullFactor": "보잉 품질 사태 반사이익으로 민항기 시장 65% 독점 및 독일 국방 특별기금 집행",
+      "bearFactor": "항공기 티타늄 및 제트 엔진 부품 공급망 지연"
     },
     "indicators": [
       {
-        "name": "유럽 항공방산 지수",
+        "name": "유로스톡스 항공우주/방산 지수 (SXPARO)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "항공우주 & 유럽 핵심 방산 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "글로벌 민항기 & 첨단 방위산업 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -218741,13 +220392,13 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "에어버스 (Airbus)",
+        "name": "에어버스 (Airbus 글로벌 1위 민항기)",
         "code": "AIR.PA",
-        "marketCap": "€110.0B",
-        "revenue": "€65.0B",
-        "operatingProfit": "€5.7B",
+        "marketCap": "€115.0B",
+        "revenue": "€67.0B",
+        "operatingProfit": "€5.9B",
         "opMargin": 8.8,
-        "eps": 5.2,
+        "eps": 5.5,
         "per": 26,
         "pbr": 6.2,
         "roe": 24,
@@ -218756,317 +220407,317 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 1.8,
         "payoutRatio": 47,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €169.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 항공우주 & 유럽 핵심 방산 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €65.0B, 영업이익 €5.7B (OPM 8.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 24%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "에어버스 (Airbus)(티커: AIR.PA)은 유럽 항공우주 & 유럽 핵심 방산 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €178.75 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 민항기 & 첨단 방위산업 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €67.0B, 영업이익 €5.9B (OPM 8.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 24%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "에어버스 (Airbus 글로벌 1위 민항기)(티커: AIR.PA)은 유럽 글로벌 민항기 & 첨단 방위산업 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€55.3B",
-            "opProfit": "€3.8B",
-            "netProfit": "€3.0B",
+            "revenue": "€56.9B",
+            "opProfit": "€3.9B",
+            "netProfit": "€3.1B",
             "opMargin": "6.8%",
-            "eps": 4.42,
+            "eps": 4.68,
             "roe": "23%",
             "debtRatio": "71%"
           },
           {
             "year": "2022",
-            "revenue": "€59.8B",
-            "opProfit": "€4.7B",
-            "netProfit": "€3.7B",
+            "revenue": "€61.6B",
+            "opProfit": "€4.8B",
+            "netProfit": "€3.8B",
             "opMargin": "7.8%",
-            "eps": 4.78,
+            "eps": 5.06,
             "roe": "23.5%",
             "debtRatio": "68%"
           },
           {
             "year": "2023",
-            "revenue": "€63.0B",
-            "opProfit": "€5.5B",
-            "netProfit": "€4.4B",
+            "revenue": "€65.0B",
+            "opProfit": "€5.7B",
+            "netProfit": "€4.6B",
             "opMargin": "8.8%",
-            "eps": 5.04,
+            "eps": 5.34,
             "roe": "24%",
             "debtRatio": "65%"
           },
           {
             "year": "2024",
-            "revenue": "€70.2B",
-            "opProfit": "€6.9B",
-            "netProfit": "€5.5B",
+            "revenue": "€72.4B",
+            "opProfit": "€7.1B",
+            "netProfit": "€5.7B",
             "opMargin": "9.8%",
-            "eps": 5.62,
+            "eps": 5.94,
             "roe": "24.5%",
             "debtRatio": "62%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€78.0B",
-            "opProfit": "€8.4B",
-            "netProfit": "€6.7B",
+            "revenue": "€80.4B",
+            "opProfit": "€8.7B",
+            "netProfit": "€6.9B",
             "opMargin": "10.8%",
-            "eps": 6.24,
+            "eps": 6.6,
             "roe": "25%",
             "debtRatio": "59%"
           }
         ]
       },
       {
-        "name": "BAE 시스템즈 (BAE Systems)",
-        "code": "BA.L",
-        "marketCap": "€48.0B",
-        "revenue": "€25.0B",
-        "operatingProfit": "€2.9B",
-        "opMargin": 11.5,
-        "eps": 0.7,
-        "per": 20,
-        "pbr": 3.8,
-        "roe": 19,
-        "debtRatio": 85,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 2.5,
-        "payoutRatio": 50,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €17.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 항공우주 & 유럽 핵심 방산 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €25.0B, 영업이익 €2.9B (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 19%, 배당수익률 2.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "BAE 시스템즈 (BAE Systems)(티커: BA.L)은 유럽 항공우주 & 유럽 핵심 방산 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€21.3B",
-            "opProfit": "€2.0B",
-            "netProfit": "€1.6B",
-            "opMargin": "9.5%",
-            "eps": 0.6,
-            "roe": "18%",
-            "debtRatio": "91%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€23.0B",
-            "opProfit": "€2.4B",
-            "netProfit": "€1.9B",
-            "opMargin": "10.5%",
-            "eps": 0.64,
-            "roe": "18.5%",
-            "debtRatio": "88%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€24.3B",
-            "opProfit": "€2.8B",
-            "netProfit": "€2.2B",
-            "opMargin": "11.5%",
-            "eps": 0.68,
-            "roe": "19%",
-            "debtRatio": "85%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€27.0B",
-            "opProfit": "€3.4B",
-            "netProfit": "€2.7B",
-            "opMargin": "12.5%",
-            "eps": 0.76,
-            "roe": "19.5%",
-            "debtRatio": "82%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€30.0B",
-            "opProfit": "€4.1B",
-            "netProfit": "€3.2B",
-            "opMargin": "13.5%",
-            "eps": 0.84,
-            "roe": "20%",
-            "debtRatio": "79%"
-          }
-        ]
-      },
-      {
-        "name": "사프란 (Safran)",
-        "code": "SAF.PA",
-        "marketCap": "€92.0B",
-        "revenue": "€23.0B",
-        "operatingProfit": "€3.3B",
-        "opMargin": 14.5,
-        "eps": 6.8,
-        "per": 32,
-        "pbr": 8.5,
-        "roe": 26,
-        "debtRatio": 45,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 1.1,
-        "payoutRatio": 35,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €272.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 항공우주 & 유럽 핵심 방산 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €23.0B, 영업이익 €3.3B (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 26%, 배당수익률 1.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "사프란 (Safran)(티커: SAF.PA)은 유럽 항공우주 & 유럽 핵심 방산 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€19.6B",
-            "opProfit": "€2.4B",
-            "netProfit": "€2.0B",
-            "opMargin": "12.5%",
-            "eps": 5.78,
-            "roe": "25%",
-            "debtRatio": "51%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€21.2B",
-            "opProfit": "€2.9B",
-            "netProfit": "€2.3B",
-            "opMargin": "13.5%",
-            "eps": 6.26,
-            "roe": "25.5%",
-            "debtRatio": "48%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€22.3B",
-            "opProfit": "€3.2B",
-            "netProfit": "€2.6B",
-            "opMargin": "14.5%",
-            "eps": 6.6,
-            "roe": "26%",
-            "debtRatio": "45%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€24.8B",
-            "opProfit": "€3.9B",
-            "netProfit": "€3.1B",
-            "opMargin": "15.5%",
-            "eps": 7.34,
-            "roe": "26.5%",
-            "debtRatio": "42%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€27.6B",
-            "opProfit": "€4.6B",
-            "netProfit": "€3.6B",
-            "opMargin": "16.5%",
-            "eps": 8.16,
-            "roe": "27%",
-            "debtRatio": "39%"
-          }
-        ]
-      },
-      {
-        "name": "라인메탈 (Rheinmetall)",
+        "name": "라인메탈 (Rheinmetall 유럽 전차/포탄 1위)",
         "code": "RHM.DE",
         "marketCap": "€24.0B",
-        "revenue": "€7.0B",
-        "operatingProfit": "€0.9B",
-        "opMargin": 13,
-        "eps": 14.5,
-        "per": 35,
-        "pbr": 6.8,
-        "roe": 22,
-        "debtRatio": 75,
+        "revenue": "€8.2B",
+        "operatingProfit": "€1.3B",
+        "opMargin": 15.5,
+        "eps": 16.5,
+        "per": 32,
+        "pbr": 6.5,
+        "roe": 26,
+        "debtRatio": 35,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 1.2,
-        "payoutRatio": 42,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €634.38 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 항공우주 & 유럽 핵심 방산 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €7.0B, 영업이익 €0.9B (OPM 13%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 22%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "라인메탈 (Rheinmetall)(티커: RHM.DE)은 유럽 항공우주 & 유럽 핵심 방산 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 38,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €660.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 민항기 & 첨단 방위산업 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €8.2B, 영업이익 €1.3B (OPM 15.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 26%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "라인메탈 (Rheinmetall 유럽 전차/포탄 1위)(티커: RHM.DE)은 유럽 글로벌 민항기 & 첨단 방위산업 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€6.0B",
-            "opProfit": "€0.7B",
-            "netProfit": "€0.5B",
-            "opMargin": "11%",
-            "eps": 12.33,
-            "roe": "21%",
-            "debtRatio": "81%"
+            "revenue": "€7.0B",
+            "opProfit": "€0.9B",
+            "netProfit": "€0.8B",
+            "opMargin": "13.5%",
+            "eps": 14.03,
+            "roe": "25%",
+            "debtRatio": "41%"
           },
           {
             "year": "2022",
-            "revenue": "€6.4B",
-            "opProfit": "€0.8B",
-            "netProfit": "€0.6B",
-            "opMargin": "12%",
-            "eps": 13.34,
-            "roe": "21.5%",
-            "debtRatio": "78%"
+            "revenue": "€7.5B",
+            "opProfit": "€1.1B",
+            "netProfit": "€0.9B",
+            "opMargin": "14.5%",
+            "eps": 15.18,
+            "roe": "25.5%",
+            "debtRatio": "38%"
           },
           {
             "year": "2023",
-            "revenue": "€6.8B",
-            "opProfit": "€0.9B",
-            "netProfit": "€0.7B",
-            "opMargin": "13%",
-            "eps": 14.07,
-            "roe": "22%",
-            "debtRatio": "75%"
+            "revenue": "€8.0B",
+            "opProfit": "€1.2B",
+            "netProfit": "€1.0B",
+            "opMargin": "15.5%",
+            "eps": 16.01,
+            "roe": "26%",
+            "debtRatio": "35%"
           },
           {
             "year": "2024",
-            "revenue": "€7.6B",
-            "opProfit": "€1.1B",
-            "netProfit": "€0.8B",
-            "opMargin": "14%",
-            "eps": 15.66,
-            "roe": "22.5%",
-            "debtRatio": "72%"
+            "revenue": "€8.9B",
+            "opProfit": "€1.5B",
+            "netProfit": "€1.2B",
+            "opMargin": "16.5%",
+            "eps": 17.82,
+            "roe": "26.5%",
+            "debtRatio": "32%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€8.4B",
-            "opProfit": "€1.3B",
-            "netProfit": "€1.0B",
-            "opMargin": "15%",
-            "eps": 17.4,
+            "revenue": "€9.8B",
+            "opProfit": "€1.7B",
+            "netProfit": "€1.4B",
+            "opMargin": "17.5%",
+            "eps": 19.8,
+            "roe": "27%",
+            "debtRatio": "29%"
+          }
+        ]
+      },
+      {
+        "name": "BAE 시스템즈 (BAE Systems 영국 방산)",
+        "code": "BA.L",
+        "marketCap": "€48.0B",
+        "revenue": "€28.0B",
+        "operatingProfit": "€3.1B",
+        "opMargin": 11,
+        "eps": 0.72,
+        "per": 18,
+        "pbr": 3.8,
+        "roe": 22,
+        "debtRatio": 55,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.5,
+        "payoutRatio": 45,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €16.20 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 민항기 & 첨단 방위산업 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €28.0B, 영업이익 €3.1B (OPM 11%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 22%, 배당수익률 2.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "BAE 시스템즈 (BAE Systems 영국 방산)(티커: BA.L)은 유럽 글로벌 민항기 & 첨단 방위산업 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "€23.8B",
+            "opProfit": "€2.1B",
+            "netProfit": "€1.7B",
+            "opMargin": "9%",
+            "eps": 0.61,
+            "roe": "21%",
+            "debtRatio": "61%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€25.8B",
+            "opProfit": "€2.6B",
+            "netProfit": "€2.1B",
+            "opMargin": "10%",
+            "eps": 0.66,
+            "roe": "21.5%",
+            "debtRatio": "58%"
+          },
+          {
+            "year": "2023",
+            "revenue": "€27.2B",
+            "opProfit": "€3.0B",
+            "netProfit": "€2.4B",
+            "opMargin": "11%",
+            "eps": 0.7,
+            "roe": "22%",
+            "debtRatio": "55%"
+          },
+          {
+            "year": "2024",
+            "revenue": "€30.2B",
+            "opProfit": "€3.6B",
+            "netProfit": "€2.9B",
+            "opMargin": "12%",
+            "eps": 0.78,
+            "roe": "22.5%",
+            "debtRatio": "52%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "€33.6B",
+            "opProfit": "€4.4B",
+            "netProfit": "€3.5B",
+            "opMargin": "13%",
+            "eps": 0.86,
             "roe": "23%",
-            "debtRatio": "69%"
+            "debtRatio": "49%"
+          }
+        ]
+      },
+      {
+        "name": "사프란 (Safran 항공엔진)",
+        "code": "SAF.PA",
+        "marketCap": "€92.0B",
+        "revenue": "€24.0B",
+        "operatingProfit": "€3.5B",
+        "opMargin": 14.5,
+        "eps": 7.8,
+        "per": 28,
+        "pbr": 7.5,
+        "roe": 28,
+        "debtRatio": 42,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.4,
+        "payoutRatio": 39,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €273.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 민항기 & 첨단 방위산업 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €24.0B, 영업이익 €3.5B (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 28%, 배당수익률 1.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "사프란 (Safran 항공엔진)(티커: SAF.PA)은 유럽 글로벌 민항기 & 첨단 방위산업 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "€20.4B",
+            "opProfit": "€2.5B",
+            "netProfit": "€2.0B",
+            "opMargin": "12.5%",
+            "eps": 6.63,
+            "roe": "27%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€22.1B",
+            "opProfit": "€3.0B",
+            "netProfit": "€2.4B",
+            "opMargin": "13.5%",
+            "eps": 7.18,
+            "roe": "27.5%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2023",
+            "revenue": "€23.3B",
+            "opProfit": "€3.4B",
+            "netProfit": "€2.7B",
+            "opMargin": "14.5%",
+            "eps": 7.57,
+            "roe": "28%",
+            "debtRatio": "42%"
+          },
+          {
+            "year": "2024",
+            "revenue": "€25.9B",
+            "opProfit": "€4.0B",
+            "netProfit": "€3.2B",
+            "opMargin": "15.5%",
+            "eps": 8.42,
+            "roe": "28.5%",
+            "debtRatio": "39%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "€28.8B",
+            "opProfit": "€4.8B",
+            "netProfit": "€3.8B",
+            "opMargin": "16.5%",
+            "eps": 9.36,
+            "roe": "29%",
+            "debtRatio": "36%"
           }
         ]
       }
     ]
   },
   {
-    "id": "eu-materials",
+    "id": "eu-chemicals-gas",
     "country": "유럽",
-    "sector": "정밀 화학 & 특수 소재 & 글로벌 광물",
+    "sector": "글로벌 정밀화학 & 산업용 특수가스",
     "chapterTitle": "유럽 ➔ 화학·소재",
     "cluster": "화학·소재",
     "stockCount": 4,
-    "changeRate": "0.80",
+    "changeRate": "-0.22",
     "correlationLogic": {
-      "formula": "특수 화학 ASP(P) - 유럽 전력/천연가스 단가(C) = 마진 턴어라운드",
+      "formula": "반도체/의료용 가스 장기 테이크오어페이(ToP) 계약 × 판가 인상 = 방어적 고수익",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 정밀 화학 & 특수 소재 & 글로벌 광물 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 글로벌 정밀화학 & 산업용 특수가스 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "에너지 비용 안정화 속 스페셜티 고부가가치 화학 및 산업용 가스 독점",
+      "currentStatus": "에어리퀴드와 린데의 글로벌 산업용/반도체 특수가스 과점 체제와 장기 온사이트 공급 계약",
       "outlookSignal": {
-        "level": "NEUTRAL",
-        "badgeText": "⚖️ 회복세",
-        "summary": "에너지 비용 안정화 속 스페셜티 고부가가치 화학 및 산업용 가스 독점"
+        "level": "BULLISH",
+        "badgeText": "🟢 산업가스 과점",
+        "summary": "에어리퀴드와 린데의 글로벌 산업용/반도체 특수가스 과점 체제와 장기 온사이트 공급 계약"
       }
     },
     "demandAnalysis": {
-      "status": "MODERATE",
-      "statusBadge": "⚖️ 회복세",
-      "keyDriver": "유럽 정밀 화학 & 특수 소재 & 글로벌 광물 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "유럽 화학 섹터 지수 (SX4P)",
+      "status": "STRONG",
+      "statusBadge": "🟢 산업가스 과점",
+      "keyDriver": "유럽 글로벌 정밀화학 & 산업용 특수가스 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "유로스톡스 화학 지수 (SX4P Index)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "반도체/배터리용 고순도 전자소재 수요 및 글로벌 광물 가격 반등",
-      "bearFactor": "유럽 제조업 생산 둔화에 따른 범용 화학 수요 부진"
+      "bullFactor": "그린 수소 및 첨단 팹 반도체 특수가스 수요 급증",
+      "bearFactor": "유럽 내 천연가스 에너지 단가 상승 시 기초 화학 마진 압박"
     },
     "indicators": [
       {
-        "name": "유럽 화학 섹터 지수 (SX4P)",
+        "name": "유로스톡스 화학 지수 (SX4P Index)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "정밀 화학 & 특수 소재 & 글로벌 광물 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "글로벌 정밀화학 & 산업용 특수가스 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -219081,94 +220732,165 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "에어리퀴드 (Air Liquide)",
+        "name": "에어리퀴드 (Air Liquide 프랑스 산업가스)",
         "code": "AI.PA",
-        "marketCap": "€95.0B",
+        "marketCap": "€92.0B",
         "revenue": "€28.0B",
-        "operatingProfit": "€5.5B",
-        "opMargin": 19.5,
-        "eps": 6.2,
-        "per": 28,
-        "pbr": 3.8,
-        "roe": 14.5,
-        "debtRatio": 45,
+        "operatingProfit": "€5.2B",
+        "opMargin": 18.5,
+        "eps": 6.4,
+        "per": 26,
+        "pbr": 3.5,
+        "roe": 15,
+        "debtRatio": 48,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 1.9,
-        "payoutRatio": 53,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €217.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 정밀 화학 & 특수 소재 & 글로벌 광물 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €28.0B, 영업이익 €5.5B (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 1.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "에어리퀴드 (Air Liquide)(티커: AI.PA)은 유럽 정밀 화학 & 특수 소재 & 글로벌 광물 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 2.1,
+        "payoutRatio": 55,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €208.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 정밀화학 & 산업용 특수가스 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €28.0B, 영업이익 €5.2B (OPM 18.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "에어리퀴드 (Air Liquide 프랑스 산업가스)(티커: AI.PA)은 유럽 글로벌 정밀화학 & 산업용 특수가스 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "€23.8B",
-            "opProfit": "€4.2B",
-            "netProfit": "€3.3B",
-            "opMargin": "17.5%",
-            "eps": 5.27,
-            "roe": "13.5%",
-            "debtRatio": "51%"
+            "opProfit": "€3.9B",
+            "netProfit": "€3.1B",
+            "opMargin": "16.5%",
+            "eps": 5.44,
+            "roe": "14%",
+            "debtRatio": "54%"
           },
           {
             "year": "2022",
             "revenue": "€25.8B",
-            "opProfit": "€4.8B",
-            "netProfit": "€3.8B",
-            "opMargin": "18.5%",
-            "eps": 5.7,
-            "roe": "14%",
-            "debtRatio": "48%"
+            "opProfit": "€4.5B",
+            "netProfit": "€3.6B",
+            "opMargin": "17.5%",
+            "eps": 5.89,
+            "roe": "14.5%",
+            "debtRatio": "51%"
           },
           {
             "year": "2023",
             "revenue": "€27.2B",
-            "opProfit": "€5.3B",
-            "netProfit": "€4.2B",
-            "opMargin": "19.5%",
-            "eps": 6.01,
-            "roe": "14.5%",
-            "debtRatio": "45%"
+            "opProfit": "€5.0B",
+            "netProfit": "€4.0B",
+            "opMargin": "18.5%",
+            "eps": 6.21,
+            "roe": "15%",
+            "debtRatio": "48%"
           },
           {
             "year": "2024",
             "revenue": "€30.2B",
-            "opProfit": "€6.2B",
-            "netProfit": "€5.0B",
-            "opMargin": "20.5%",
-            "eps": 6.7,
-            "roe": "15%",
-            "debtRatio": "42%"
+            "opProfit": "€5.9B",
+            "netProfit": "€4.7B",
+            "opMargin": "19.5%",
+            "eps": 6.91,
+            "roe": "15.5%",
+            "debtRatio": "45%"
           },
           {
             "year": "2025(E)",
             "revenue": "€33.6B",
-            "opProfit": "€7.2B",
+            "opProfit": "€6.9B",
+            "netProfit": "€5.5B",
+            "opMargin": "20.5%",
+            "eps": 7.68,
+            "roe": "16%",
+            "debtRatio": "42%"
+          }
+        ]
+      },
+      {
+        "name": "린데 (Linde 글로벌 1위 산업가스)",
+        "code": "LIN.DE",
+        "marketCap": "€220.0B",
+        "revenue": "€33.0B",
+        "operatingProfit": "€9.2B",
+        "opMargin": 28,
+        "eps": 15.5,
+        "per": 31,
+        "pbr": 5.2,
+        "roe": 17.5,
+        "debtRatio": 45,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.2,
+        "payoutRatio": 37,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €600.63 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 정밀화학 & 산업용 특수가스 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €33.0B, 영업이익 €9.2B (OPM 28%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 17.5%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "린데 (Linde 글로벌 1위 산업가스)(티커: LIN.DE)은 유럽 글로벌 정밀화학 & 산업용 특수가스 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "€28.1B",
+            "opProfit": "€7.3B",
             "netProfit": "€5.8B",
-            "opMargin": "21.5%",
-            "eps": 7.44,
-            "roe": "15.5%",
+            "opMargin": "26%",
+            "eps": 13.18,
+            "roe": "16.5%",
+            "debtRatio": "51%"
+          },
+          {
+            "year": "2022",
+            "revenue": "€30.4B",
+            "opProfit": "€8.2B",
+            "netProfit": "€6.6B",
+            "opMargin": "27%",
+            "eps": 14.26,
+            "roe": "17%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2023",
+            "revenue": "€32.0B",
+            "opProfit": "€9.0B",
+            "netProfit": "€7.2B",
+            "opMargin": "28%",
+            "eps": 15.04,
+            "roe": "17.5%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2024",
+            "revenue": "€35.6B",
+            "opProfit": "€10.3B",
+            "netProfit": "€8.3B",
+            "opMargin": "29%",
+            "eps": 16.74,
+            "roe": "18%",
+            "debtRatio": "42%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "€39.6B",
+            "opProfit": "€11.9B",
+            "netProfit": "€9.5B",
+            "opMargin": "30%",
+            "eps": 18.6,
+            "roe": "18.5%",
             "debtRatio": "39%"
           }
         ]
       },
       {
-        "name": "바스프 (BASF)",
+        "name": "바스프 (BASF 독일 종합화학)",
         "code": "BAS.DE",
-        "marketCap": "€42.0B",
+        "marketCap": "€41.0B",
         "revenue": "€69.0B",
         "operatingProfit": "€3.8B",
         "opMargin": 5.5,
-        "eps": 3.2,
+        "eps": 3.1,
         "per": 15,
         "pbr": 1.1,
-        "roe": 7.2,
-        "debtRatio": 65,
+        "roe": 7.5,
+        "debtRatio": 55,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 7.2,
         "payoutRatio": 108,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €60.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 정밀 화학 & 특수 소재 & 글로벌 광물 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €69.0B, 영업이익 €3.8B (OPM 5.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 7.2%, 배당수익률 7.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "바스프 (BASF)(티커: BAS.DE)은 유럽 정밀 화학 & 특수 소재 & 글로벌 광물 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €58.13 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 정밀화학 & 산업용 특수가스 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €69.0B, 영업이익 €3.8B (OPM 5.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 7.5%, 배당수익률 7.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "바스프 (BASF 독일 종합화학)(티커: BAS.DE)은 유럽 글로벌 정밀화학 & 산업용 특수가스 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -219176,9 +220898,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€2.1B",
             "netProfit": "€1.6B",
             "opMargin": "3.5%",
-            "eps": 2.72,
-            "roe": "6.2%",
-            "debtRatio": "71%"
+            "eps": 2.64,
+            "roe": "6.5%",
+            "debtRatio": "61%"
           },
           {
             "year": "2022",
@@ -219186,9 +220908,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€2.9B",
             "netProfit": "€2.3B",
             "opMargin": "4.5%",
-            "eps": 2.94,
-            "roe": "6.7%",
-            "debtRatio": "68%"
+            "eps": 2.85,
+            "roe": "7%",
+            "debtRatio": "58%"
           },
           {
             "year": "2023",
@@ -219196,9 +220918,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€3.7B",
             "netProfit": "€2.9B",
             "opMargin": "5.5%",
-            "eps": 3.1,
-            "roe": "7.2%",
-            "debtRatio": "65%"
+            "eps": 3.01,
+            "roe": "7.5%",
+            "debtRatio": "55%"
           },
           {
             "year": "2024",
@@ -219206,9 +220928,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€4.8B",
             "netProfit": "€3.9B",
             "opMargin": "6.5%",
-            "eps": 3.46,
-            "roe": "7.7%",
-            "debtRatio": "62%"
+            "eps": 3.35,
+            "roe": "8%",
+            "debtRatio": "52%"
           },
           {
             "year": "2025(E)",
@@ -219216,151 +220938,80 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "€6.2B",
             "netProfit": "€5.0B",
             "opMargin": "7.5%",
-            "eps": 3.84,
-            "roe": "8.2%",
-            "debtRatio": "59%"
+            "eps": 3.72,
+            "roe": "8.5%",
+            "debtRatio": "49%"
           }
         ]
       },
       {
-        "name": "리오틴토 (Rio Tinto)",
-        "code": "RIO.L",
-        "marketCap": "€105.0B",
-        "revenue": "€54.0B",
-        "operatingProfit": "€15.7B",
-        "opMargin": 29,
-        "eps": 6.5,
-        "per": 10.5,
-        "pbr": 2.1,
-        "roe": 20,
-        "debtRatio": 25,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 6.8,
-        "payoutRatio": 71,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €85.31 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 정밀 화학 & 특수 소재 & 글로벌 광물 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €54.0B, 영업이익 €15.7B (OPM 29%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 20%, 배당수익률 6.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "리오틴토 (Rio Tinto)(티커: RIO.L)은 유럽 정밀 화학 & 특수 소재 & 글로벌 광물 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "€45.9B",
-            "opProfit": "€12.4B",
-            "netProfit": "€9.9B",
-            "opMargin": "27%",
-            "eps": 5.53,
-            "roe": "19%",
-            "debtRatio": "31%"
-          },
-          {
-            "year": "2022",
-            "revenue": "€49.7B",
-            "opProfit": "€13.9B",
-            "netProfit": "€11.1B",
-            "opMargin": "28%",
-            "eps": 5.98,
-            "roe": "19.5%",
-            "debtRatio": "28%"
-          },
-          {
-            "year": "2023",
-            "revenue": "€52.4B",
-            "opProfit": "€15.2B",
-            "netProfit": "€12.2B",
-            "opMargin": "29%",
-            "eps": 6.31,
-            "roe": "20%",
-            "debtRatio": "25%"
-          },
-          {
-            "year": "2024",
-            "revenue": "€58.3B",
-            "opProfit": "€17.5B",
-            "netProfit": "€14.0B",
-            "opMargin": "30%",
-            "eps": 7.02,
-            "roe": "20.5%",
-            "debtRatio": "22%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "€64.8B",
-            "opProfit": "€20.1B",
-            "netProfit": "€16.1B",
-            "opMargin": "31%",
-            "eps": 7.8,
-            "roe": "21%",
-            "debtRatio": "19%"
-          }
-        ]
-      },
-      {
-        "name": "지보단 (Givaudan)",
+        "name": "지보단 (Givaudan 스위스 향료/향수)",
         "code": "GIVN.SW",
         "marketCap": "€38.0B",
-        "revenue": "€7.0B",
-        "operatingProfit": "€1.3B",
-        "opMargin": 18,
-        "eps": 98,
-        "per": 38,
-        "pbr": 8.5,
-        "roe": 23,
-        "debtRatio": 75,
+        "revenue": "€7.2B",
+        "operatingProfit": "€1.4B",
+        "opMargin": 19.5,
+        "eps": 110,
+        "per": 35,
+        "pbr": 7.8,
+        "roe": 24,
+        "debtRatio": 65,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 1.8,
-        "payoutRatio": 68,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €4655.00 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 정밀 화학 & 특수 소재 & 글로벌 광물 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €7.0B, 영업이익 €1.3B (OPM 18%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 23%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "지보단 (Givaudan)(티커: GIVN.SW)은 유럽 정밀 화학 & 특수 소재 & 글로벌 광물 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 63,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: €4812.50 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 정밀화학 & 산업용 특수가스 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 €7.2B, 영업이익 €1.4B (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 24%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "지보단 (Givaudan 스위스 향료/향수)(티커: GIVN.SW)은 유럽 글로벌 정밀화학 & 산업용 특수가스 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "€6.0B",
-            "opProfit": "€1.0B",
-            "netProfit": "€0.8B",
-            "opMargin": "16%",
-            "eps": 83.3,
-            "roe": "22%",
-            "debtRatio": "81%"
+            "revenue": "€6.1B",
+            "opProfit": "€1.1B",
+            "netProfit": "€0.9B",
+            "opMargin": "17.5%",
+            "eps": 93.5,
+            "roe": "23%",
+            "debtRatio": "71%"
           },
           {
             "year": "2022",
-            "revenue": "€6.4B",
-            "opProfit": "€1.1B",
-            "netProfit": "€0.9B",
-            "opMargin": "17%",
-            "eps": 90.16,
-            "roe": "22.5%",
-            "debtRatio": "78%"
+            "revenue": "€6.6B",
+            "opProfit": "€1.2B",
+            "netProfit": "€1.0B",
+            "opMargin": "18.5%",
+            "eps": 101.2,
+            "roe": "23.5%",
+            "debtRatio": "68%"
           },
           {
             "year": "2023",
-            "revenue": "€6.8B",
-            "opProfit": "€1.2B",
-            "netProfit": "€1.0B",
-            "opMargin": "18%",
-            "eps": 95.06,
-            "roe": "23%",
-            "debtRatio": "75%"
+            "revenue": "€7.0B",
+            "opProfit": "€1.4B",
+            "netProfit": "€1.1B",
+            "opMargin": "19.5%",
+            "eps": 106.7,
+            "roe": "24%",
+            "debtRatio": "65%"
           },
           {
             "year": "2024",
-            "revenue": "€7.6B",
-            "opProfit": "€1.4B",
-            "netProfit": "€1.1B",
-            "opMargin": "19%",
-            "eps": 105.84,
-            "roe": "23.5%",
-            "debtRatio": "72%"
+            "revenue": "€7.8B",
+            "opProfit": "€1.6B",
+            "netProfit": "€1.3B",
+            "opMargin": "20.5%",
+            "eps": 118.8,
+            "roe": "24.5%",
+            "debtRatio": "62%"
           },
           {
             "year": "2025(E)",
-            "revenue": "€8.4B",
-            "opProfit": "€1.7B",
-            "netProfit": "€1.3B",
-            "opMargin": "20%",
-            "eps": 117.6,
-            "roe": "24%",
-            "debtRatio": "69%"
+            "revenue": "€8.6B",
+            "opProfit": "€1.9B",
+            "netProfit": "€1.5B",
+            "opMargin": "21.5%",
+            "eps": 132,
+            "roe": "25%",
+            "debtRatio": "59%"
           }
         ]
       }
@@ -219369,46 +221020,46 @@ window.REGIONAL_INDUSTRY_DATA = {
 ],
     '일본': [
   {
-    "id": "jp-auto",
+    "id": "jp-auto-hybrid",
     "country": "일본",
-    "sector": "글로벌 완성차 & 전장 모빌리티",
+    "sector": "글로벌 완성차 & 하이브리드(HEV) 리더",
     "chapterTitle": "일본 ➔ 자동차·전장",
     "cluster": "자동차·전장",
-    "stockCount": 5,
-    "changeRate": "1.26",
+    "stockCount": 4,
+    "changeRate": "-0.75",
     "correlationLogic": {
-      "formula": "하이브리드 판매량(Q) × 엔화 환율(150엔/$) - 원자재가 = 영업이익 5조엔 돌파",
+      "formula": "하이브리드 글로벌 판매량 × 환율(엔저 효과) - 원자재비 = 5조 엔 영업이익",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 글로벌 완성차 & 전장 모빌리티 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 글로벌 완성차 & 하이브리드(HEV) 리더 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "토요타 HEV 전 세계 판매 1위 독주 및 엔저 환차익에 따른 사상 최대 실적",
+      "currentStatus": "토요타의 글로벌 HEV 점유율 40% 돌파 및 사상 최대 5조 엔 영업이익 달성",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 하이브리드 제왕",
-        "summary": "토요타 HEV 전 세계 판매 1위 독주 및 엔저 환차익에 따른 사상 최대 실적"
+        "badgeText": "🟢 사상 최대 실적",
+        "summary": "토요타의 글로벌 HEV 점유율 40% 돌파 및 사상 최대 5조 엔 영업이익 달성"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 하이브리드 제왕",
-      "keyDriver": "일본 글로벌 완성차 & 전장 모빌리티 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "토픽스 수송용기기 지수",
+      "statusBadge": "🟢 사상 최대 실적",
+      "keyDriver": "일본 글로벌 완성차 & 하이브리드(HEV) 리더 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "일본 자동차 공업협회(JAMA) 수출 및 생산 통계",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "북미·동남아 시장 점유율 압도 및 차세대 전고체 배터리 상용화",
-      "bearFactor": "일본 엔화 강세 급반등 및 완성차 인증 비리 사후 수습 비용"
+      "bullFactor": "전기차 캐즘 속 현실적 대안으로 북미/유럽 하이브리드 대기 수요 6개월 이상 유지",
+      "bearFactor": "엔화 가치 급격한 절상(엔고) 시 수출 채산성 둔화 가능성"
     },
     "indicators": [
       {
-        "name": "토픽스 수송용기기 지수",
+        "name": "일본 자동차 공업협회(JAMA) 수출 및 생산 통계",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 완성차 & 전장 모빌리티 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "글로벌 완성차 & 하이브리드(HEV) 리더 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -219423,94 +221074,94 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "토요타자동차 (Toyota)",
+        "name": "토요타자동차 (Toyota 7203)",
         "code": "7203.T",
         "marketCap": "¥45조엔",
         "revenue": "¥45조엔",
-        "operatingProfit": "¥5.31조엔",
-        "opMargin": 11.8,
-        "eps": 310,
-        "per": 9.5,
+        "operatingProfit": "¥5.175조엔",
+        "opMargin": 11.5,
+        "eps": 350,
+        "per": 8.5,
         "pbr": 1.1,
-        "roe": 13.5,
+        "roe": 14.5,
         "debtRatio": 110,
         "currentRatio": 140,
         "riskStatus": "NORMAL",
-        "dividendYield": 2.8,
-        "payoutRatio": 27,
+        "dividendYield": 3.1,
+        "payoutRatio": 26,
         "comment": "[노무라증권 & 다이와증권 최신 분석 보고서 종합]\n• 목표주가: ¥3,500 (투자의견: 매수 / 글로벌 하이브리드 최강자)\n• 2025~2026 실적 전망: 전 세계적인 순수 전기차 수요 둔화(캐즘) 속에서 하이브리드(HEV) 차량의 글로벌 판매 점유율이 40%를 돌파하며 역대 최대 영업이익(5조 엔)을 달성했습니다. 북미 및 유럽 딜러 재고일수가 20일 안팎으로 유지되는 강력한 대기 수요를 보유하고 있습니다.\n• 핵심 모멘텀: 전고체 배터리 상용화 기술 특허 1위, 도요타 생산 방식(TPS)의 극강 원가 경쟁력, 연간 1조 엔 규모의 자사주 매입.\n• 리스크 요인: 일본 국토교통성 인증 부정 이슈에 따른 일부 생산 라인 가동 중단 여파 및 엔고 전환 시 환차손.",
         "businessSummary": "도요타자동차(TYO: 7203)는 연간 1,100만 대 이상의 차량을 판매하는 글로벌 1위 완성차 기업으로, 독보적인 하이브리드(HEV) 기술력과 렉서스(Lexus) 프리미엄 브랜드를 보유하고 있습니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "¥38.25조엔",
-            "opProfit": "¥3.749조엔",
-            "netProfit": "¥2.999조엔",
-            "opMargin": "9.8%",
-            "eps": 263.5,
-            "roe": "12.5%",
+            "opProfit": "¥3.634조엔",
+            "netProfit": "¥2.907조엔",
+            "opMargin": "9.5%",
+            "eps": 297.5,
+            "roe": "13.5%",
             "debtRatio": "116%"
           },
           {
             "year": "2022",
             "revenue": "¥41.4조엔",
-            "opProfit": "¥4.471조엔",
-            "netProfit": "¥3.577조엔",
-            "opMargin": "10.8%",
-            "eps": 285.2,
-            "roe": "13%",
+            "opProfit": "¥4.347조엔",
+            "netProfit": "¥3.478조엔",
+            "opMargin": "10.5%",
+            "eps": 322,
+            "roe": "14%",
             "debtRatio": "113%"
           },
           {
             "year": "2023",
             "revenue": "¥43.65조엔",
-            "opProfit": "¥5.151조엔",
-            "netProfit": "¥4.121조엔",
-            "opMargin": "11.8%",
-            "eps": 300.7,
-            "roe": "13.5%",
+            "opProfit": "¥5.02조엔",
+            "netProfit": "¥4.016조엔",
+            "opMargin": "11.5%",
+            "eps": 339.5,
+            "roe": "14.5%",
             "debtRatio": "110%"
           },
           {
             "year": "2024",
             "revenue": "¥48.6조엔",
-            "opProfit": "¥6.221조엔",
-            "netProfit": "¥4.977조엔",
-            "opMargin": "12.8%",
-            "eps": 334.8,
-            "roe": "14%",
+            "opProfit": "¥6.075조엔",
+            "netProfit": "¥4.86조엔",
+            "opMargin": "12.5%",
+            "eps": 378,
+            "roe": "15%",
             "debtRatio": "107%"
           },
           {
             "year": "2025(E)",
             "revenue": "¥54조엔",
-            "opProfit": "¥7.452조엔",
-            "netProfit": "¥5.962조엔",
-            "opMargin": "13.8%",
-            "eps": 372,
-            "roe": "14.5%",
+            "opProfit": "¥7.29조엔",
+            "netProfit": "¥5.832조엔",
+            "opMargin": "13.5%",
+            "eps": 420,
+            "roe": "15.5%",
             "debtRatio": "104%"
           }
         ]
       },
       {
-        "name": "혼다자동차 (Honda)",
+        "name": "혼다 모터 (Honda 7267)",
         "code": "7267.T",
-        "marketCap": "¥8조엔",
+        "marketCap": "¥8.5조엔",
         "revenue": "¥20조엔",
         "operatingProfit": "¥1.36조엔",
         "opMargin": 6.8,
-        "eps": 240,
-        "per": 6.5,
+        "eps": 215,
+        "per": 7.2,
         "pbr": 0.6,
-        "roe": 9.8,
+        "roe": 10.5,
         "debtRatio": 85,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 4.2,
-        "payoutRatio": 27,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥1,950 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 완성차 & 전장 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥20조엔, 영업이익 ¥1.36조엔 (OPM 6.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 9.8%, 배당수익률 4.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "혼다자동차 (Honda)(티커: 7267.T)은 일본 글로벌 완성차 & 전장 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 30,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥1,935 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 완성차 & 하이브리드(HEV) 리더 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥20조엔, 영업이익 ¥1.36조엔 (OPM 6.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10.5%, 배당수익률 4.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "혼다 모터 (Honda 7267)(티커: 7267.T)은 일본 글로벌 완성차 & 하이브리드(HEV) 리더 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -219518,8 +221169,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.816조엔",
             "netProfit": "¥0.653조엔",
             "opMargin": "4.8%",
-            "eps": 204,
-            "roe": "8.8%",
+            "eps": 182.75,
+            "roe": "9.5%",
             "debtRatio": "91%"
           },
           {
@@ -219528,8 +221179,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥1.067조엔",
             "netProfit": "¥0.854조엔",
             "opMargin": "5.8%",
-            "eps": 220.8,
-            "roe": "9.3%",
+            "eps": 197.8,
+            "roe": "10%",
             "debtRatio": "88%"
           },
           {
@@ -219538,8 +221189,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥1.319조엔",
             "netProfit": "¥1.055조엔",
             "opMargin": "6.8%",
-            "eps": 232.8,
-            "roe": "9.8%",
+            "eps": 208.55,
+            "roe": "10.5%",
             "debtRatio": "85%"
           },
           {
@@ -219548,8 +221199,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥1.685조엔",
             "netProfit": "¥1.348조엔",
             "opMargin": "7.8%",
-            "eps": 259.2,
-            "roe": "10.3%",
+            "eps": 232.2,
+            "roe": "11%",
             "debtRatio": "82%"
           },
           {
@@ -219558,268 +221209,197 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥2.112조엔",
             "netProfit": "¥1.69조엔",
             "opMargin": "8.8%",
-            "eps": 288,
-            "roe": "10.8%",
+            "eps": 258,
+            "roe": "11.5%",
             "debtRatio": "79%"
           }
         ]
       },
       {
-        "name": "덴소 (Denso)",
-        "code": "6902.T",
-        "marketCap": "¥7조엔",
-        "revenue": "¥7조엔",
-        "operatingProfit": "¥0.574조엔",
-        "opMargin": 8.2,
-        "eps": 155,
-        "per": 15,
-        "pbr": 1.3,
-        "roe": 8.5,
+        "name": "스즈키 (Suzuki 인도 1위 7269)",
+        "code": "7269.T",
+        "marketCap": "¥4.2조엔",
+        "revenue": "¥5.5조엔",
+        "operatingProfit": "¥0.468조엔",
+        "opMargin": 8.5,
+        "eps": 128,
+        "per": 13.5,
+        "pbr": 1.5,
+        "roe": 12,
         "debtRatio": 35,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 2.6,
-        "payoutRatio": 39,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥2,906 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 완성차 & 전장 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥7조엔, 영업이익 ¥0.574조엔 (OPM 8.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.5%, 배당수익률 2.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "덴소 (Denso)(티커: 6902.T)은 일본 글로벌 완성차 & 전장 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 2.1,
+        "payoutRatio": 28,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥2,160 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 완성차 & 하이브리드(HEV) 리더 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥5.5조엔, 영업이익 ¥0.468조엔 (OPM 8.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "스즈키 (Suzuki 인도 1위 7269)(티커: 7269.T)은 일본 글로벌 완성차 & 하이브리드(HEV) 리더 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "¥5.95조엔",
-            "opProfit": "¥0.369조엔",
-            "netProfit": "¥0.295조엔",
-            "opMargin": "6.2%",
-            "eps": 131.75,
-            "roe": "7.5%",
+            "revenue": "¥4.675조엔",
+            "opProfit": "¥0.304조엔",
+            "netProfit": "¥0.243조엔",
+            "opMargin": "6.5%",
+            "eps": 108.8,
+            "roe": "11%",
             "debtRatio": "41%"
           },
           {
             "year": "2022",
-            "revenue": "¥6.44조엔",
-            "opProfit": "¥0.464조엔",
-            "netProfit": "¥0.371조엔",
-            "opMargin": "7.2%",
-            "eps": 142.6,
-            "roe": "8%",
+            "revenue": "¥5.06조엔",
+            "opProfit": "¥0.38조엔",
+            "netProfit": "¥0.304조엔",
+            "opMargin": "7.5%",
+            "eps": 117.76,
+            "roe": "11.5%",
             "debtRatio": "38%"
           },
           {
             "year": "2023",
-            "revenue": "¥6.79조엔",
-            "opProfit": "¥0.557조엔",
-            "netProfit": "¥0.445조엔",
-            "opMargin": "8.2%",
-            "eps": 150.35,
-            "roe": "8.5%",
+            "revenue": "¥5.335조엔",
+            "opProfit": "¥0.453조엔",
+            "netProfit": "¥0.363조엔",
+            "opMargin": "8.5%",
+            "eps": 124.16,
+            "roe": "12%",
             "debtRatio": "35%"
           },
           {
             "year": "2024",
-            "revenue": "¥7.56조엔",
-            "opProfit": "¥0.696조엔",
-            "netProfit": "¥0.556조엔",
-            "opMargin": "9.2%",
-            "eps": 167.4,
-            "roe": "9%",
+            "revenue": "¥5.94조엔",
+            "opProfit": "¥0.564조엔",
+            "netProfit": "¥0.451조엔",
+            "opMargin": "9.5%",
+            "eps": 138.24,
+            "roe": "12.5%",
             "debtRatio": "32%"
           },
           {
             "year": "2025(E)",
-            "revenue": "¥8.4조엔",
-            "opProfit": "¥0.857조엔",
-            "netProfit": "¥0.685조엔",
-            "opMargin": "10.2%",
-            "eps": 186,
-            "roe": "9.5%",
+            "revenue": "¥6.6조엔",
+            "opProfit": "¥0.693조엔",
+            "netProfit": "¥0.554조엔",
+            "opMargin": "10.5%",
+            "eps": 153.6,
+            "roe": "13%",
             "debtRatio": "29%"
           }
         ]
       },
       {
-        "name": "스즈키 (Suzuki Motor)",
-        "code": "7269.T",
-        "marketCap": "¥4조엔",
-        "revenue": "¥5조엔",
-        "operatingProfit": "¥0.425조엔",
-        "opMargin": 8.5,
-        "eps": 140,
-        "per": 13,
-        "pbr": 1.4,
-        "roe": 11.5,
+        "name": "스바루 (Subaru 7270)",
+        "code": "7270.T",
+        "marketCap": "¥2.3조엔",
+        "revenue": "¥4.8조엔",
+        "operatingProfit": "¥0.47조엔",
+        "opMargin": 9.8,
+        "eps": 420,
+        "per": 6.5,
+        "pbr": 0.8,
+        "roe": 14,
         "debtRatio": 25,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 2.1,
-        "payoutRatio": 27,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥2,275 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 완성차 & 전장 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥5조엔, 영업이익 ¥0.425조엔 (OPM 8.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11.5%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "스즈키 (Suzuki Motor)(티커: 7269.T)은 일본 글로벌 완성차 & 전장 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 3.8,
+        "payoutRatio": 25,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥3,413 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 완성차 & 하이브리드(HEV) 리더 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥4.8조엔, 영업이익 ¥0.47조엔 (OPM 9.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 3.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "스바루 (Subaru 7270)(티커: 7270.T)은 일본 글로벌 완성차 & 하이브리드(HEV) 리더 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "¥4.25조엔",
-            "opProfit": "¥0.276조엔",
-            "netProfit": "¥0.221조엔",
-            "opMargin": "6.5%",
-            "eps": 119,
-            "roe": "10.5%",
+            "revenue": "¥4.08조엔",
+            "opProfit": "¥0.318조엔",
+            "netProfit": "¥0.255조엔",
+            "opMargin": "7.8%",
+            "eps": 357,
+            "roe": "13%",
             "debtRatio": "31%"
           },
           {
             "year": "2022",
-            "revenue": "¥4.6조엔",
-            "opProfit": "¥0.345조엔",
-            "netProfit": "¥0.276조엔",
-            "opMargin": "7.5%",
-            "eps": 128.8,
-            "roe": "11%",
+            "revenue": "¥4.416조엔",
+            "opProfit": "¥0.389조엔",
+            "netProfit": "¥0.311조엔",
+            "opMargin": "8.8%",
+            "eps": 386.4,
+            "roe": "13.5%",
             "debtRatio": "28%"
           },
           {
             "year": "2023",
-            "revenue": "¥4.85조엔",
-            "opProfit": "¥0.412조엔",
-            "netProfit": "¥0.33조엔",
-            "opMargin": "8.5%",
-            "eps": 135.8,
-            "roe": "11.5%",
+            "revenue": "¥4.656조엔",
+            "opProfit": "¥0.456조엔",
+            "netProfit": "¥0.365조엔",
+            "opMargin": "9.8%",
+            "eps": 407.4,
+            "roe": "14%",
             "debtRatio": "25%"
           },
           {
             "year": "2024",
-            "revenue": "¥5.4조엔",
-            "opProfit": "¥0.513조엔",
-            "netProfit": "¥0.41조엔",
-            "opMargin": "9.5%",
-            "eps": 151.2,
-            "roe": "12%",
+            "revenue": "¥5.184조엔",
+            "opProfit": "¥0.56조엔",
+            "netProfit": "¥0.448조엔",
+            "opMargin": "10.8%",
+            "eps": 453.6,
+            "roe": "14.5%",
             "debtRatio": "22%"
           },
           {
             "year": "2025(E)",
-            "revenue": "¥6조엔",
-            "opProfit": "¥0.63조엔",
-            "netProfit": "¥0.504조엔",
-            "opMargin": "10.5%",
-            "eps": 168,
-            "roe": "12.5%",
+            "revenue": "¥5.76조엔",
+            "opProfit": "¥0.68조엔",
+            "netProfit": "¥0.544조엔",
+            "opMargin": "11.8%",
+            "eps": 504,
+            "roe": "15%",
             "debtRatio": "19%"
-          }
-        ]
-      },
-      {
-        "name": "브리지스톤 (Bridgestone)",
-        "code": "5108.T",
-        "marketCap": "¥4조엔",
-        "revenue": "¥4조엔",
-        "operatingProfit": "¥0.46조엔",
-        "opMargin": 11.5,
-        "eps": 460,
-        "per": 12,
-        "pbr": 1.2,
-        "roe": 10,
-        "debtRatio": 45,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 3.8,
-        "payoutRatio": 46,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥6,900 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 완성차 & 전장 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥4조엔, 영업이익 ¥0.46조엔 (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10%, 배당수익률 3.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "브리지스톤 (Bridgestone)(티커: 5108.T)은 일본 글로벌 완성차 & 전장 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥3.4조엔",
-            "opProfit": "¥0.323조엔",
-            "netProfit": "¥0.258조엔",
-            "opMargin": "9.5%",
-            "eps": 391,
-            "roe": "9%",
-            "debtRatio": "51%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥3.68조엔",
-            "opProfit": "¥0.386조엔",
-            "netProfit": "¥0.309조엔",
-            "opMargin": "10.5%",
-            "eps": 423.2,
-            "roe": "9.5%",
-            "debtRatio": "48%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥3.88조엔",
-            "opProfit": "¥0.446조엔",
-            "netProfit": "¥0.357조엔",
-            "opMargin": "11.5%",
-            "eps": 446.2,
-            "roe": "10%",
-            "debtRatio": "45%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥4.32조엔",
-            "opProfit": "¥0.54조엔",
-            "netProfit": "¥0.432조엔",
-            "opMargin": "12.5%",
-            "eps": 496.8,
-            "roe": "10.5%",
-            "debtRatio": "42%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥4.8조엔",
-            "opProfit": "¥0.648조엔",
-            "netProfit": "¥0.518조엔",
-            "opMargin": "13.5%",
-            "eps": 552,
-            "roe": "11%",
-            "debtRatio": "39%"
           }
         ]
       }
     ]
   },
   {
-    "id": "jp-semicon",
+    "id": "jp-auto-parts",
     "country": "일본",
-    "sector": "반도체 소부장 & 정밀전자",
-    "chapterTitle": "일본 ➔ 반도체·소부장",
-    "cluster": "반도체·소부장",
-    "stockCount": 5,
-    "changeRate": "0.66",
+    "sector": "자동차 전장 & 첨단 파워트레인 부품",
+    "chapterTitle": "일본 ➔ 자동차·전장",
+    "cluster": "자동차·전장",
+    "stockCount": 3,
+    "changeRate": "-0.38",
     "correlationLogic": {
-      "formula": "AI 메모리용 웨이퍼 테스트 및 식각 장비 수주액 × OPM = 이익 서프라이즈",
+      "formula": "완성차 생산 대수 × 대당 전장 탑재액 = 안정적 이익 창출",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 반도체 소부장 & 정밀전자 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 자동차 전장 & 첨단 파워트레인 부품 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "도쿄일렉트론 식각/도포 장비 및 어드반테스트 HBM 테스터 글로벌 점유율 1위",
+      "currentStatus": "덴소, 아이신의 하이브리드 전동화 모듈 및 전장 인포테인먼트 공급 호조",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 AI 소부장 호황",
-        "summary": "도쿄일렉트론 식각/도포 장비 및 어드반테스트 HBM 테스터 글로벌 점유율 1위"
+        "badgeText": "🟢 토요타 밸류체인",
+        "summary": "덴소, 아이신의 하이브리드 전동화 모듈 및 전장 인포테인먼트 공급 호조"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 AI 소부장 호황",
-      "keyDriver": "일본 반도체 소부장 & 정밀전자 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "도쿄증시 반도체 지수",
+      "statusBadge": "🟢 토요타 밸류체인",
+      "keyDriver": "일본 자동차 전장 & 첨단 파워트레인 부품 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "토요타 글로벌 생산/판매 실적",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "HBM4 테스트 장비 수주 독점 및 실리콘 웨이퍼 장기 공급 계약",
-      "bearFactor": "중국 반도체 장비 수출 통제 규제 리스크"
+      "bullFactor": "자율주행 ADAS 센서 및 전동화 인버터 수주 폭증",
+      "bearFactor": "글로벌 물류비 상승 및 구형 부품 재고 조정"
     },
     "indicators": [
       {
-        "name": "도쿄증시 반도체 지수",
+        "name": "토요타 글로벌 생산/판매 실적",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "반도체 소부장 & 정밀전자 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "자동차 전장 & 첨단 파워트레인 부품 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -219834,1154 +221414,870 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "도쿄일렉트론 (Tokyo Electron)",
-        "code": "8035.T",
-        "marketCap": "¥12조엔",
-        "revenue": "¥2조엔",
-        "operatingProfit": "¥0.49조엔",
-        "opMargin": 24.5,
-        "eps": 980,
-        "per": 24,
-        "pbr": 6.5,
-        "roe": 28,
-        "debtRatio": 15,
+        "name": "덴소 (Denso 글로벌 2위 전장 6902)",
+        "code": "6902.T",
+        "marketCap": "¥7.5조엔",
+        "revenue": "¥7.2조엔",
+        "operatingProfit": "¥0.54조엔",
+        "opMargin": 7.5,
+        "eps": 165,
+        "per": 14.5,
+        "pbr": 1.3,
+        "roe": 9.5,
+        "debtRatio": 38,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 2,
+        "dividendYield": 2.8,
+        "payoutRatio": 41,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥2,991 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 자동차 전장 & 첨단 파워트레인 부품 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥7.2조엔, 영업이익 ¥0.54조엔 (OPM 7.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 9.5%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "덴소 (Denso 글로벌 2위 전장 6902)(티커: 6902.T)은 일본 자동차 전장 & 첨단 파워트레인 부품 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥6.12조엔",
+            "opProfit": "¥0.337조엔",
+            "netProfit": "¥0.269조엔",
+            "opMargin": "5.5%",
+            "eps": 140.25,
+            "roe": "8.5%",
+            "debtRatio": "44%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥6.624조엔",
+            "opProfit": "¥0.431조엔",
+            "netProfit": "¥0.344조엔",
+            "opMargin": "6.5%",
+            "eps": 151.8,
+            "roe": "9%",
+            "debtRatio": "41%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥6.984조엔",
+            "opProfit": "¥0.524조엔",
+            "netProfit": "¥0.419조엔",
+            "opMargin": "7.5%",
+            "eps": 160.05,
+            "roe": "9.5%",
+            "debtRatio": "38%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥7.776조엔",
+            "opProfit": "¥0.661조엔",
+            "netProfit": "¥0.529조엔",
+            "opMargin": "8.5%",
+            "eps": 178.2,
+            "roe": "10%",
+            "debtRatio": "35%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥8.64조엔",
+            "opProfit": "¥0.821조엔",
+            "netProfit": "¥0.657조엔",
+            "opMargin": "9.5%",
+            "eps": 198,
+            "roe": "10.5%",
+            "debtRatio": "32%"
+          }
+        ]
+      },
+      {
+        "name": "아이신 (Aisin 변속기/모듈 7259)",
+        "code": "7259.T",
+        "marketCap": "¥1.6조엔",
+        "revenue": "¥4.9조엔",
+        "operatingProfit": "¥0.206조엔",
+        "opMargin": 4.2,
+        "eps": 450,
+        "per": 11,
+        "pbr": 0.7,
+        "roe": 7.5,
+        "debtRatio": 65,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 3.5,
+        "payoutRatio": 39,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥6,188 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 자동차 전장 & 첨단 파워트레인 부품 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥4.9조엔, 영업이익 ¥0.206조엔 (OPM 4.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 7.5%, 배당수익률 3.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "아이신 (Aisin 변속기/모듈 7259)(티커: 7259.T)은 일본 자동차 전장 & 첨단 파워트레인 부품 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥4.165조엔",
+            "opProfit": "¥0.092조엔",
+            "netProfit": "¥0.073조엔",
+            "opMargin": "2.2%",
+            "eps": 382.5,
+            "roe": "6.5%",
+            "debtRatio": "71%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥4.508조엔",
+            "opProfit": "¥0.144조엔",
+            "netProfit": "¥0.115조엔",
+            "opMargin": "3.2%",
+            "eps": 414,
+            "roe": "7%",
+            "debtRatio": "68%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥4.753조엔",
+            "opProfit": "¥0.2조엔",
+            "netProfit": "¥0.16조엔",
+            "opMargin": "4.2%",
+            "eps": 436.5,
+            "roe": "7.5%",
+            "debtRatio": "65%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥5.292조엔",
+            "opProfit": "¥0.275조엔",
+            "netProfit": "¥0.22조엔",
+            "opMargin": "5.2%",
+            "eps": 486,
+            "roe": "8%",
+            "debtRatio": "62%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥5.88조엔",
+            "opProfit": "¥0.365조엔",
+            "netProfit": "¥0.292조엔",
+            "opMargin": "6.2%",
+            "eps": 540,
+            "roe": "8.5%",
+            "debtRatio": "59%"
+          }
+        ]
+      },
+      {
+        "name": "브리지스톤 (Bridgestone 타이어 5108)",
+        "code": "5108.T",
+        "marketCap": "¥4.1조엔",
+        "revenue": "¥4.4조엔",
+        "operatingProfit": "¥0.506조엔",
+        "opMargin": 11.5,
+        "eps": 460,
+        "per": 12.5,
+        "pbr": 1.2,
+        "roe": 10.5,
+        "debtRatio": 42,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 3.8,
         "payoutRatio": 48,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥7,188 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 자동차 전장 & 첨단 파워트레인 부품 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥4.4조엔, 영업이익 ¥0.506조엔 (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10.5%, 배당수익률 3.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "브리지스톤 (Bridgestone 타이어 5108)(티커: 5108.T)은 일본 자동차 전장 & 첨단 파워트레인 부품 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥3.74조엔",
+            "opProfit": "¥0.355조엔",
+            "netProfit": "¥0.284조엔",
+            "opMargin": "9.5%",
+            "eps": 391,
+            "roe": "9.5%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥4.048조엔",
+            "opProfit": "¥0.425조엔",
+            "netProfit": "¥0.34조엔",
+            "opMargin": "10.5%",
+            "eps": 423.2,
+            "roe": "10%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥4.268조엔",
+            "opProfit": "¥0.491조엔",
+            "netProfit": "¥0.393조엔",
+            "opMargin": "11.5%",
+            "eps": 446.2,
+            "roe": "10.5%",
+            "debtRatio": "42%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥4.752조엔",
+            "opProfit": "¥0.594조엔",
+            "netProfit": "¥0.475조엔",
+            "opMargin": "12.5%",
+            "eps": 496.8,
+            "roe": "11%",
+            "debtRatio": "39%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥5.28조엔",
+            "opProfit": "¥0.713조엔",
+            "netProfit": "¥0.57조엔",
+            "opMargin": "13.5%",
+            "eps": 552,
+            "roe": "11.5%",
+            "debtRatio": "36%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jp-semicon-equip",
+    "country": "일본",
+    "sector": "반도체 전/후공정 핵심 제조장비",
+    "chapterTitle": "일본 ➔ 반도체·소부장",
+    "cluster": "반도체·소부장",
+    "stockCount": 4,
+    "changeRate": "0.94",
+    "correlationLogic": {
+      "formula": "AI 팹 WFE 투자액 × 도쿄일렉트론/어드반테스트 독점 장비 점유율 = 고마진 실적",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 반도체 전/후공정 핵심 제조장비 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "도쿄일렉트론, 어드반테스트의 HBM 테스터 및 첨단 도포/현상 장비 글로벌 90% 독점",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 AI 소부장 호황",
+        "summary": "도쿄일렉트론, 어드반테스트의 HBM 테스터 및 첨단 도포/현상 장비 글로벌 90% 독점"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 AI 소부장 호황",
+      "keyDriver": "일본 반도체 전/후공정 핵심 제조장비 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "일본 반도체 제조장치 협회(SEAJ) BB율 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "엔비디아 HBM3E 검사 장비 수주 독점 및 극저온 식각 장비 상용화",
+      "bearFactor": "중국 반도체 장비 수출 통제 리스크"
+    },
+    "indicators": [
+      {
+        "name": "일본 반도체 제조장치 협회(SEAJ) BB율 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://www.seaj.or.jp/",
+        "role": "반도체 전/후공정 핵심 제조장비 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "도쿄일렉트론 (Tokyo Electron 8035)",
+        "code": "8035.T",
+        "marketCap": "¥12.5조엔",
+        "revenue": "¥2.2조엔",
+        "operatingProfit": "¥0.583조엔",
+        "opMargin": 26.5,
+        "eps": 980,
+        "per": 28,
+        "pbr": 6.8,
+        "roe": 28,
+        "debtRatio": 22,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.9,
+        "payoutRatio": 53,
         "comment": "[SMBC 닛코증권 최신 분석 보고서 종합]\n• 목표주가: ¥34,000 (투자의견: 매수 / 반도체 장비 핵심)\n• 2025~2026 실적 전망: AI 서버용 고대역폭메모리(HBM) 증설에 필수적인 본딩 및 실리콘 관통전극(TSV) 식각 장비 수주가 급증하고 있습니다. 2025년 메모리 반도체 팹 가동률 회복으로 장비 출하액이 전년 대비 28% 반등 중입니다.\n• 핵심 모멘텀: 코터/디벨로퍼(도포/현상) 장비 글로벌 점유율 90% 독점 및 첨단 3D NAND 극저온 식각 장비 상용화.\n• 리스크 요인: 대중국 레거시 반도체 장비 수출 통제 변수.",
         "businessSummary": "도쿄일렉트론(TYO: 8035)은 전 세계 3위, 일본 1위의 반도체 전공정 제조장비 기업으로, 포토리소그래피 코터·디벨로퍼, 플라즈마 식각, 성막 장비 등에서 세계 최고의 기술력을 자랑합니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "¥1.7조엔",
-            "opProfit": "¥0.383조엔",
-            "netProfit": "¥0.306조엔",
-            "opMargin": "22.5%",
+            "revenue": "¥1.87조엔",
+            "opProfit": "¥0.458조엔",
+            "netProfit": "¥0.367조엔",
+            "opMargin": "24.5%",
             "eps": 833,
             "roe": "27%",
-            "debtRatio": "21%"
+            "debtRatio": "28%"
           },
           {
             "year": "2022",
-            "revenue": "¥1.84조엔",
-            "opProfit": "¥0.432조엔",
-            "netProfit": "¥0.346조엔",
-            "opMargin": "23.5%",
+            "revenue": "¥2.024조엔",
+            "opProfit": "¥0.516조엔",
+            "netProfit": "¥0.413조엔",
+            "opMargin": "25.5%",
             "eps": 901.6,
             "roe": "27.5%",
-            "debtRatio": "18%"
+            "debtRatio": "25%"
           },
           {
             "year": "2023",
-            "revenue": "¥1.94조엔",
-            "opProfit": "¥0.475조엔",
-            "netProfit": "¥0.38조엔",
-            "opMargin": "24.5%",
+            "revenue": "¥2.134조엔",
+            "opProfit": "¥0.566조엔",
+            "netProfit": "¥0.452조엔",
+            "opMargin": "26.5%",
             "eps": 950.6,
             "roe": "28%",
-            "debtRatio": "15%"
+            "debtRatio": "22%"
           },
           {
             "year": "2024",
-            "revenue": "¥2.16조엔",
-            "opProfit": "¥0.551조엔",
-            "netProfit": "¥0.441조엔",
-            "opMargin": "25.5%",
+            "revenue": "¥2.376조엔",
+            "opProfit": "¥0.653조엔",
+            "netProfit": "¥0.523조엔",
+            "opMargin": "27.5%",
             "eps": 1058.4,
             "roe": "28.5%",
-            "debtRatio": "15%"
+            "debtRatio": "19%"
           },
           {
             "year": "2025(E)",
-            "revenue": "¥2.4조엔",
-            "opProfit": "¥0.636조엔",
-            "netProfit": "¥0.509조엔",
-            "opMargin": "26.5%",
+            "revenue": "¥2.64조엔",
+            "opProfit": "¥0.752조엔",
+            "netProfit": "¥0.602조엔",
+            "opMargin": "28.5%",
             "eps": 1176,
             "roe": "29%",
-            "debtRatio": "15%"
+            "debtRatio": "16%"
           }
         ]
       },
       {
-        "name": "어드반테스트 (Advantest)",
+        "name": "어드반테스트 (Advantest HBM테스터 6857)",
         "code": "6857.T",
-        "marketCap": "¥6조엔",
-        "revenue": "¥0.6조엔",
-        "operatingProfit": "¥0.168조엔",
+        "marketCap": "¥6.2조엔",
+        "revenue": "¥0.58조엔",
+        "operatingProfit": "¥0.162조엔",
         "opMargin": 28,
         "eps": 210,
         "per": 38,
         "pbr": 8.5,
-        "roe": 22,
-        "debtRatio": 10,
+        "roe": 24,
+        "debtRatio": 15,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 1.2,
         "payoutRatio": 46,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥9,975 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 소부장 & 정밀전자 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.6조엔, 영업이익 ¥0.168조엔 (OPM 28%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 22%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "어드반테스트 (Advantest)(티커: 6857.T)은 일본 반도체 소부장 & 정밀전자 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥9,975 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 전/후공정 핵심 제조장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.58조엔, 영업이익 ¥0.162조엔 (OPM 28%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 24%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "어드반테스트 (Advantest HBM테스터 6857)(티커: 6857.T)은 일본 반도체 전/후공정 핵심 제조장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "¥0.51조엔",
-            "opProfit": "¥0.133조엔",
-            "netProfit": "¥0.106조엔",
+            "revenue": "¥0.493조엔",
+            "opProfit": "¥0.128조엔",
+            "netProfit": "¥0.103조엔",
             "opMargin": "26%",
             "eps": 178.5,
-            "roe": "21%",
-            "debtRatio": "16%"
+            "roe": "23%",
+            "debtRatio": "21%"
           },
           {
             "year": "2022",
-            "revenue": "¥0.552조엔",
-            "opProfit": "¥0.149조엔",
-            "netProfit": "¥0.119조엔",
+            "revenue": "¥0.534조엔",
+            "opProfit": "¥0.144조엔",
+            "netProfit": "¥0.115조엔",
             "opMargin": "27%",
             "eps": 193.2,
-            "roe": "21.5%",
-            "debtRatio": "15%"
+            "roe": "23.5%",
+            "debtRatio": "18%"
           },
           {
             "year": "2023",
-            "revenue": "¥0.582조엔",
-            "opProfit": "¥0.163조엔",
-            "netProfit": "¥0.13조엔",
+            "revenue": "¥0.563조엔",
+            "opProfit": "¥0.158조엔",
+            "netProfit": "¥0.126조엔",
             "opMargin": "28%",
             "eps": 203.7,
-            "roe": "22%",
+            "roe": "24%",
             "debtRatio": "15%"
           },
           {
             "year": "2024",
-            "revenue": "¥0.648조엔",
-            "opProfit": "¥0.188조엔",
-            "netProfit": "¥0.15조엔",
+            "revenue": "¥0.626조엔",
+            "opProfit": "¥0.182조엔",
+            "netProfit": "¥0.145조엔",
             "opMargin": "29%",
             "eps": 226.8,
-            "roe": "22.5%",
+            "roe": "24.5%",
             "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
-            "revenue": "¥0.72조엔",
-            "opProfit": "¥0.216조엔",
-            "netProfit": "¥0.173조엔",
+            "revenue": "¥0.696조엔",
+            "opProfit": "¥0.209조엔",
+            "netProfit": "¥0.167조엔",
             "opMargin": "30%",
             "eps": 252,
-            "roe": "23%",
+            "roe": "25%",
             "debtRatio": "15%"
           }
         ]
       },
       {
-        "name": "소니 그룹 (Sony Group)",
-        "code": "6758.T",
-        "marketCap": "¥18조엔",
-        "revenue": "¥13조엔",
-        "operatingProfit": "¥1.274조엔",
-        "opMargin": 9.8,
-        "eps": 820,
-        "per": 18,
-        "pbr": 2.2,
-        "roe": 13,
-        "debtRatio": 55,
+        "name": "디스코 (Disco 다이싱/연마 6146)",
+        "code": "6146.T",
+        "marketCap": "¥4.8조엔",
+        "revenue": "¥0.32조엔",
+        "operatingProfit": "¥0.123조엔",
+        "opMargin": 38.5,
+        "eps": 1120,
+        "per": 39,
+        "pbr": 11,
+        "roe": 31,
+        "debtRatio": 5,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 0.7,
-        "payoutRatio": 13,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥18,450 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 소부장 & 정밀전자 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥13조엔, 영업이익 ¥1.274조엔 (OPM 9.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13%, 배당수익률 0.7%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "소니 그룹 (Sony Group)(티커: 6758.T)은 일본 반도체 소부장 & 정밀전자 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 1.5,
+        "payoutRatio": 59,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥54,600 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 전/후공정 핵심 제조장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.32조엔, 영업이익 ¥0.123조엔 (OPM 38.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 31%, 배당수익률 1.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "디스코 (Disco 다이싱/연마 6146)(티커: 6146.T)은 일본 반도체 전/후공정 핵심 제조장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "¥11.05조엔",
-            "opProfit": "¥0.862조엔",
-            "netProfit": "¥0.69조엔",
-            "opMargin": "7.8%",
-            "eps": 697,
-            "roe": "12%",
-            "debtRatio": "61%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥11.96조엔",
-            "opProfit": "¥1.052조엔",
-            "netProfit": "¥0.842조엔",
-            "opMargin": "8.8%",
-            "eps": 754.4,
-            "roe": "12.5%",
-            "debtRatio": "58%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥12.61조엔",
-            "opProfit": "¥1.236조엔",
-            "netProfit": "¥0.989조엔",
-            "opMargin": "9.8%",
-            "eps": 795.4,
-            "roe": "13%",
-            "debtRatio": "55%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥14.04조엔",
-            "opProfit": "¥1.516조엔",
-            "netProfit": "¥1.213조엔",
-            "opMargin": "10.8%",
-            "eps": 885.6,
-            "roe": "13.5%",
-            "debtRatio": "52%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥15.6조엔",
-            "opProfit": "¥1.841조엔",
-            "netProfit": "¥1.473조엔",
-            "opMargin": "11.8%",
-            "eps": 984,
-            "roe": "14%",
-            "debtRatio": "49%"
-          }
-        ]
-      },
-      {
-        "name": "키엔스 (Keyence)",
-        "code": "6861.T",
-        "marketCap": "¥16조엔",
-        "revenue": "¥1조엔",
-        "operatingProfit": "¥0.52조엔",
-        "opMargin": 52,
-        "eps": 1620,
-        "per": 42,
-        "pbr": 6,
-        "roe": 15,
-        "debtRatio": 0,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 0.5,
-        "payoutRatio": 21,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥85,050 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 소부장 & 정밀전자 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥1조엔, 영업이익 ¥0.52조엔 (OPM 52%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15%, 배당수익률 0.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "키엔스 (Keyence)(티커: 6861.T)은 일본 반도체 소부장 & 정밀전자 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥0.85조엔",
-            "opProfit": "¥0.425조엔",
-            "netProfit": "¥0.34조엔",
-            "opMargin": "50%",
-            "eps": 1377,
-            "roe": "14%",
+            "revenue": "¥0.272조엔",
+            "opProfit": "¥0.099조엔",
+            "netProfit": "¥0.079조엔",
+            "opMargin": "36.5%",
+            "eps": 952,
+            "roe": "30%",
             "debtRatio": "15%"
           },
           {
             "year": "2022",
-            "revenue": "¥0.92조엔",
-            "opProfit": "¥0.469조엔",
-            "netProfit": "¥0.375조엔",
-            "opMargin": "51%",
-            "eps": 1490.4,
-            "roe": "14.5%",
+            "revenue": "¥0.294조엔",
+            "opProfit": "¥0.11조엔",
+            "netProfit": "¥0.088조엔",
+            "opMargin": "37.5%",
+            "eps": 1030.4,
+            "roe": "30.5%",
             "debtRatio": "15%"
           },
           {
             "year": "2023",
-            "revenue": "¥0.97조엔",
-            "opProfit": "¥0.504조엔",
-            "netProfit": "¥0.404조엔",
-            "opMargin": "52%",
-            "eps": 1571.4,
-            "roe": "15%",
+            "revenue": "¥0.31조엔",
+            "opProfit": "¥0.12조엔",
+            "netProfit": "¥0.096조엔",
+            "opMargin": "38.5%",
+            "eps": 1086.4,
+            "roe": "31%",
             "debtRatio": "15%"
           },
           {
             "year": "2024",
-            "revenue": "¥1.08조엔",
-            "opProfit": "¥0.572조엔",
-            "netProfit": "¥0.458조엔",
-            "opMargin": "53%",
-            "eps": 1749.6,
-            "roe": "15.5%",
+            "revenue": "¥0.346조엔",
+            "opProfit": "¥0.137조엔",
+            "netProfit": "¥0.109조엔",
+            "opMargin": "39.5%",
+            "eps": 1209.6,
+            "roe": "31.5%",
             "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
-            "revenue": "¥1.2조엔",
-            "opProfit": "¥0.648조엔",
-            "netProfit": "¥0.518조엔",
-            "opMargin": "54%",
-            "eps": 1944,
-            "roe": "16%",
+            "revenue": "¥0.384조엔",
+            "opProfit": "¥0.156조엔",
+            "netProfit": "¥0.124조엔",
+            "opMargin": "40.5%",
+            "eps": 1344,
+            "roe": "32%",
             "debtRatio": "15%"
           }
         ]
       },
       {
-        "name": "신에츠화학 (Shin-Etsu Chemical)",
+        "name": "스크린 홀딩스 (Screen Holdings 7735)",
+        "code": "7735.T",
+        "marketCap": "¥1.8조엔",
+        "revenue": "¥0.52조엔",
+        "operatingProfit": "¥0.094조엔",
+        "opMargin": 18,
+        "eps": 650,
+        "per": 16.5,
+        "pbr": 2.8,
+        "roe": 19,
+        "debtRatio": 18,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.5,
+        "payoutRatio": 41,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥13,406 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 전/후공정 핵심 제조장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.52조엔, 영업이익 ¥0.094조엔 (OPM 18%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 19%, 배당수익률 2.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "스크린 홀딩스 (Screen Holdings 7735)(티커: 7735.T)은 일본 반도체 전/후공정 핵심 제조장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥0.442조엔",
+            "opProfit": "¥0.071조엔",
+            "netProfit": "¥0.057조엔",
+            "opMargin": "16%",
+            "eps": 552.5,
+            "roe": "18%",
+            "debtRatio": "24%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥0.478조엔",
+            "opProfit": "¥0.081조엔",
+            "netProfit": "¥0.065조엔",
+            "opMargin": "17%",
+            "eps": 598,
+            "roe": "18.5%",
+            "debtRatio": "21%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥0.504조엔",
+            "opProfit": "¥0.091조엔",
+            "netProfit": "¥0.073조엔",
+            "opMargin": "18%",
+            "eps": 630.5,
+            "roe": "19%",
+            "debtRatio": "18%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥0.562조엔",
+            "opProfit": "¥0.107조엔",
+            "netProfit": "¥0.085조엔",
+            "opMargin": "19%",
+            "eps": 702,
+            "roe": "19.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥0.624조엔",
+            "opProfit": "¥0.125조엔",
+            "netProfit": "¥0.1조엔",
+            "opMargin": "20%",
+            "eps": 780,
+            "roe": "20%",
+            "debtRatio": "15%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jp-semicon-materials",
+    "country": "일본",
+    "sector": "첨단 반도체 웨이퍼 & 포토레지스트 소재",
+    "chapterTitle": "일본 ➔ 반도체·소부장",
+    "cluster": "반도체·소부장",
+    "stockCount": 3,
+    "changeRate": "-0.78",
+    "correlationLogic": {
+      "formula": "첨단 300mm 웨이퍼 출하량 × 고순도 소재 마진 = 안정적 현금 창출",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 첨단 반도체 웨이퍼 & 포토레지스트 소재 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "신에츠화학과 SUMCO의 300mm 실리콘 웨이퍼 글로벌 과점 및 극자외선 감광액(PR) 독점",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 대체 불가능 소재",
+        "summary": "신에츠화학과 SUMCO의 300mm 실리콘 웨이퍼 글로벌 과점 및 극자외선 감광액(PR) 독점"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 대체 불가능 소재",
+      "keyDriver": "일본 첨단 반도체 웨이퍼 & 포토레지스트 소재 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "글로벌 실리콘 웨이퍼 출하 면적 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "글로벌 파운드리 3나노 이하 첨단 공정 가동률 상승에 따른 웨이퍼 수급 타이트",
+      "bearFactor": "구형 범용 실리콘 웨이퍼 재고 소진 지연"
+    },
+    "indicators": [
+      {
+        "name": "글로벌 실리콘 웨이퍼 출하 면적 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "첨단 반도체 웨이퍼 & 포토레지스트 소재 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "신에츠화학 (Shin-Etsu Chemical 4063)",
         "code": "4063.T",
-        "marketCap": "¥11조엔",
+        "marketCap": "¥11.8조엔",
         "revenue": "¥2.4조엔",
-        "operatingProfit": "¥0.732조엔",
-        "opMargin": 30.5,
-        "eps": 280,
-        "per": 21,
+        "operatingProfit": "¥0.744조엔",
+        "opMargin": 31,
+        "eps": 260,
+        "per": 22,
         "pbr": 2.8,
         "roe": 14.5,
         "debtRatio": 12,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 1.8,
-        "payoutRatio": 38,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥7,350 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 소부장 & 정밀전자 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥2.4조엔, 영업이익 ¥0.732조엔 (OPM 30.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "신에츠화학 (Shin-Etsu Chemical)(티커: 4063.T)은 일본 반도체 소부장 & 정밀전자 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 40,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥7,150 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 첨단 반도체 웨이퍼 & 포토레지스트 소재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥2.4조엔, 영업이익 ¥0.744조엔 (OPM 31%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "신에츠화학 (Shin-Etsu Chemical 4063)(티커: 4063.T)은 일본 첨단 반도체 웨이퍼 & 포토레지스트 소재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "¥2.04조엔",
-            "opProfit": "¥0.581조엔",
-            "netProfit": "¥0.465조엔",
-            "opMargin": "28.5%",
-            "eps": 238,
+            "opProfit": "¥0.592조엔",
+            "netProfit": "¥0.473조엔",
+            "opMargin": "29%",
+            "eps": 221,
             "roe": "13.5%",
             "debtRatio": "18%"
           },
           {
             "year": "2022",
             "revenue": "¥2.208조엔",
-            "opProfit": "¥0.651조엔",
-            "netProfit": "¥0.521조엔",
-            "opMargin": "29.5%",
-            "eps": 257.6,
+            "opProfit": "¥0.662조엔",
+            "netProfit": "¥0.53조엔",
+            "opMargin": "30%",
+            "eps": 239.2,
             "roe": "14%",
             "debtRatio": "15%"
           },
           {
             "year": "2023",
             "revenue": "¥2.328조엔",
-            "opProfit": "¥0.71조엔",
-            "netProfit": "¥0.568조엔",
-            "opMargin": "30.5%",
-            "eps": 271.6,
+            "opProfit": "¥0.722조엔",
+            "netProfit": "¥0.577조엔",
+            "opMargin": "31%",
+            "eps": 252.2,
             "roe": "14.5%",
             "debtRatio": "15%"
           },
           {
             "year": "2024",
             "revenue": "¥2.592조엔",
-            "opProfit": "¥0.816조엔",
-            "netProfit": "¥0.653조엔",
-            "opMargin": "31.5%",
-            "eps": 302.4,
+            "opProfit": "¥0.829조엔",
+            "netProfit": "¥0.664조엔",
+            "opMargin": "32%",
+            "eps": 280.8,
             "roe": "15%",
             "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
             "revenue": "¥2.88조엔",
-            "opProfit": "¥0.936조엔",
-            "netProfit": "¥0.749조엔",
-            "opMargin": "32.5%",
-            "eps": 336,
+            "opProfit": "¥0.95조엔",
+            "netProfit": "¥0.76조엔",
+            "opMargin": "33%",
+            "eps": 312,
             "roe": "15.5%",
             "debtRatio": "15%"
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "jp-trading-bank",
-    "country": "일본",
-    "sector": "3대 메가뱅크 & 종합상사",
-    "chapterTitle": "일본 ➔ 상사·금융",
-    "cluster": "상사·금융",
-    "stockCount": 5,
-    "changeRate": "0.43",
-    "correlationLogic": {
-      "formula": "대출 금리 인상에 따른 NIM 확대 + 천연자원/인프라 배당 수익 = ROE 대폭 개선",
-      "details": [
-        "1단계: 글로벌 매크로 환경 및 3대 메가뱅크 & 종합상사 핵심 기술 수요 변동",
-        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
-        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
-        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
-      ],
-      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "일본은행(BOJ) 금리 인상 사이클 진입과 버핏이 투자한 5대 상사의 글로벌 원자재 지배력",
-      "outlookSignal": {
-        "level": "BULLISH",
-        "badgeText": "🟢 워런버핏 픽",
-        "summary": "일본은행(BOJ) 금리 인상 사이클 진입과 버핏이 투자한 5대 상사의 글로벌 원자재 지배력"
-      }
-    },
-    "demandAnalysis": {
-      "status": "STRONG",
-      "statusBadge": "🟢 워런버핏 픽",
-      "keyDriver": "일본 3대 메가뱅크 & 종합상사 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "토픽스 은행업 지수 & 니케이 종합상사",
-      "demandIndicatorVal": "지속적인 우상향 확장세"
-    },
-    "riskDrivers": {
-      "bullFactor": "사상 최대 자사주 매입·소각 및 배당성향 40% 도달",
-      "bearFactor": "글로벌 원자재 가격 급락 및 엔화 초강세 전환"
-    },
-    "indicators": [
-      {
-        "name": "토픽스 은행업 지수 & 니케이 종합상사",
-        "sourceName": "글로벌 공식 금융 데이터 포털",
-        "sourceUrl": "https://kr.investing.com/",
-        "role": "3대 메가뱅크 & 종합상사 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
-        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
-        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
       {
-        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
-        "sourceName": "FRED & Investing.com",
-        "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
-        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
-        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
-      }
-    ],
-    "companies": [
-      {
-        "name": "미쓰비시 UFJ 파이낸셜 (MUFG)",
-        "code": "8306.T",
-        "marketCap": "¥19조엔",
-        "revenue": "¥10조엔",
-        "operatingProfit": "¥2.8조엔",
-        "opMargin": 28,
-        "eps": 135,
-        "per": 11.5,
-        "pbr": 0.9,
-        "roe": 8.8,
-        "debtRatio": 950,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 3.2,
-        "payoutRatio": 37,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥1,941 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 3대 메가뱅크 & 종합상사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥10조엔, 영업이익 ¥2.8조엔 (OPM 28%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.8%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "미쓰비시 UFJ 파이낸셜 (MUFG)(티커: 8306.T)은 일본 3대 메가뱅크 & 종합상사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥8.5조엔",
-            "opProfit": "¥2.21조엔",
-            "netProfit": "¥1.768조엔",
-            "opMargin": "26%",
-            "eps": 114.75,
-            "roe": "7.8%",
-            "debtRatio": "956%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥9.2조엔",
-            "opProfit": "¥2.484조엔",
-            "netProfit": "¥1.987조엔",
-            "opMargin": "27%",
-            "eps": 124.2,
-            "roe": "8.3%",
-            "debtRatio": "953%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥9.7조엔",
-            "opProfit": "¥2.716조엔",
-            "netProfit": "¥2.173조엔",
-            "opMargin": "28%",
-            "eps": 130.95,
-            "roe": "8.8%",
-            "debtRatio": "950%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥10.8조엔",
-            "opProfit": "¥3.132조엔",
-            "netProfit": "¥2.506조엔",
-            "opMargin": "29%",
-            "eps": 145.8,
-            "roe": "9.3%",
-            "debtRatio": "947%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥12조엔",
-            "opProfit": "¥3.6조엔",
-            "netProfit": "¥2.88조엔",
-            "opMargin": "30%",
-            "eps": 162,
-            "roe": "9.8%",
-            "debtRatio": "944%"
-          }
-        ]
-      },
-      {
-        "name": "미쓰이 스미토모 (SMFG)",
-        "code": "8316.T",
-        "marketCap": "¥13조엔",
-        "revenue": "¥8조엔",
-        "operatingProfit": "¥2.08조엔",
-        "opMargin": 26,
-        "eps": 850,
-        "per": 11,
-        "pbr": 0.8,
-        "roe": 8.5,
-        "debtRatio": 920,
-        "currentRatio": 140,
-        "riskStatus": "WARNING",
-        "dividendYield": 3.4,
-        "payoutRatio": 37,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥11,688 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 3대 메가뱅크 & 종합상사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥8조엔, 영업이익 ¥2.08조엔 (OPM 26%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.5%, 배당수익률 3.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "미쓰이 스미토모 (SMFG)(티커: 8316.T)은 일본 3대 메가뱅크 & 종합상사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥6.8조엔",
-            "opProfit": "¥1.632조엔",
-            "netProfit": "¥1.306조엔",
-            "opMargin": "24%",
-            "eps": 722.5,
-            "roe": "7.5%",
-            "debtRatio": "926%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥7.36조엔",
-            "opProfit": "¥1.84조엔",
-            "netProfit": "¥1.472조엔",
-            "opMargin": "25%",
-            "eps": 782,
-            "roe": "8%",
-            "debtRatio": "923%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥7.76조엔",
-            "opProfit": "¥2.018조엔",
-            "netProfit": "¥1.614조엔",
-            "opMargin": "26%",
-            "eps": 824.5,
-            "roe": "8.5%",
-            "debtRatio": "920%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥8.64조엔",
-            "opProfit": "¥2.333조엔",
-            "netProfit": "¥1.866조엔",
-            "opMargin": "27%",
-            "eps": 918,
-            "roe": "9%",
-            "debtRatio": "917%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥9.6조엔",
-            "opProfit": "¥2.688조엔",
-            "netProfit": "¥2.15조엔",
-            "opMargin": "28%",
-            "eps": 1020,
-            "roe": "9.5%",
-            "debtRatio": "914%"
-          }
-        ]
-      },
-      {
-        "name": "미쓰비시 상사 (Mitsubishi Corp)",
-        "code": "8058.T",
-        "marketCap": "¥12조엔",
-        "revenue": "¥19조엔",
-        "operatingProfit": "¥1.235조엔",
-        "opMargin": 6.5,
-        "eps": 245,
-        "per": 12,
-        "pbr": 1.2,
-        "roe": 11.5,
-        "debtRatio": 95,
-        "currentRatio": 140,
-        "riskStatus": "NORMAL",
-        "dividendYield": 3.5,
-        "payoutRatio": 42,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥3,675 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 3대 메가뱅크 & 종합상사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥19조엔, 영업이익 ¥1.235조엔 (OPM 6.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11.5%, 배당수익률 3.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "미쓰비시 상사 (Mitsubishi Corp)(티커: 8058.T)은 일본 3대 메가뱅크 & 종합상사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥16.15조엔",
-            "opProfit": "¥0.727조엔",
-            "netProfit": "¥0.581조엔",
-            "opMargin": "4.5%",
-            "eps": 208.25,
-            "roe": "10.5%",
-            "debtRatio": "101%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥17.48조엔",
-            "opProfit": "¥0.961조엔",
-            "netProfit": "¥0.769조엔",
-            "opMargin": "5.5%",
-            "eps": 225.4,
-            "roe": "11%",
-            "debtRatio": "98%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥18.43조엔",
-            "opProfit": "¥1.198조엔",
-            "netProfit": "¥0.958조엔",
-            "opMargin": "6.5%",
-            "eps": 237.65,
-            "roe": "11.5%",
-            "debtRatio": "95%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥20.52조엔",
-            "opProfit": "¥1.539조엔",
-            "netProfit": "¥1.231조엔",
-            "opMargin": "7.5%",
-            "eps": 264.6,
-            "roe": "12%",
-            "debtRatio": "92%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥22.8조엔",
-            "opProfit": "¥1.938조엔",
-            "netProfit": "¥1.55조엔",
-            "opMargin": "8.5%",
-            "eps": 294,
-            "roe": "12.5%",
-            "debtRatio": "89%"
-          }
-        ]
-      },
-      {
-        "name": "미쓰이물산 (Mitsui & Co)",
-        "code": "8031.T",
-        "marketCap": "¥10조엔",
-        "revenue": "¥13조엔",
-        "operatingProfit": "¥0.936조엔",
-        "opMargin": 7.2,
-        "eps": 310,
-        "per": 10.5,
-        "pbr": 1.3,
-        "roe": 14,
-        "debtRatio": 80,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 3.3,
-        "payoutRatio": 35,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥4,069 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 3대 메가뱅크 & 종합상사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥13조엔, 영업이익 ¥0.936조엔 (OPM 7.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 3.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "미쓰이물산 (Mitsui & Co)(티커: 8031.T)은 일본 3대 메가뱅크 & 종합상사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥11.05조엔",
-            "opProfit": "¥0.575조엔",
-            "netProfit": "¥0.46조엔",
-            "opMargin": "5.2%",
-            "eps": 263.5,
-            "roe": "13%",
-            "debtRatio": "86%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥11.96조엔",
-            "opProfit": "¥0.742조엔",
-            "netProfit": "¥0.593조엔",
-            "opMargin": "6.2%",
-            "eps": 285.2,
-            "roe": "13.5%",
-            "debtRatio": "83%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥12.61조엔",
-            "opProfit": "¥0.908조엔",
-            "netProfit": "¥0.726조엔",
-            "opMargin": "7.2%",
-            "eps": 300.7,
-            "roe": "14%",
-            "debtRatio": "80%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥14.04조엔",
-            "opProfit": "¥1.151조엔",
-            "netProfit": "¥0.921조엔",
-            "opMargin": "8.2%",
-            "eps": 334.8,
-            "roe": "14.5%",
-            "debtRatio": "77%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥15.6조엔",
-            "opProfit": "¥1.435조엔",
-            "netProfit": "¥1.148조엔",
-            "opMargin": "9.2%",
-            "eps": 372,
-            "roe": "15%",
-            "debtRatio": "74%"
-          }
-        ]
-      },
-      {
-        "name": "이토추상사 (Itochu)",
-        "code": "8001.T",
-        "marketCap": "¥11조엔",
-        "revenue": "¥14조엔",
-        "operatingProfit": "¥1.092조엔",
-        "opMargin": 7.8,
-        "eps": 540,
-        "per": 12.5,
-        "pbr": 1.7,
-        "roe": 15.5,
-        "debtRatio": 75,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 2.6,
-        "payoutRatio": 33,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥8,438 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 3대 메가뱅크 & 종합상사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥14조엔, 영업이익 ¥1.092조엔 (OPM 7.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15.5%, 배당수익률 2.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "이토추상사 (Itochu)(티커: 8001.T)은 일본 3대 메가뱅크 & 종합상사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥11.9조엔",
-            "opProfit": "¥0.69조엔",
-            "netProfit": "¥0.552조엔",
-            "opMargin": "5.8%",
-            "eps": 459,
-            "roe": "14.5%",
-            "debtRatio": "81%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥12.88조엔",
-            "opProfit": "¥0.876조엔",
-            "netProfit": "¥0.701조엔",
-            "opMargin": "6.8%",
-            "eps": 496.8,
-            "roe": "15%",
-            "debtRatio": "78%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥13.58조엔",
-            "opProfit": "¥1.059조엔",
-            "netProfit": "¥0.847조엔",
-            "opMargin": "7.8%",
-            "eps": 523.8,
-            "roe": "15.5%",
-            "debtRatio": "75%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥15.12조엔",
-            "opProfit": "¥1.331조엔",
-            "netProfit": "¥1.064조엔",
-            "opMargin": "8.8%",
-            "eps": 583.2,
-            "roe": "16%",
-            "debtRatio": "72%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥16.8조엔",
-            "opProfit": "¥1.646조엔",
-            "netProfit": "¥1.317조엔",
-            "opMargin": "9.8%",
-            "eps": 648,
-            "roe": "16.5%",
-            "debtRatio": "69%"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "jp-robot",
-    "country": "일본",
-    "sector": "글로벌 로봇 & 정밀 기계자동화",
-    "chapterTitle": "일본 ➔ 로봇·자동화",
-    "cluster": "로봇·자동화",
-    "stockCount": 4,
-    "changeRate": "-0.70",
-    "correlationLogic": {
-      "formula": "산업용 로봇 수주 잔고(Q) × 고정밀 서보모터 판가 = 고수익 OPM",
-      "details": [
-        "1단계: 글로벌 매크로 환경 및 글로벌 로봇 & 정밀 기계자동화 핵심 기술 수요 변동",
-        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
-        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
-        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
-      ],
-      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "글로벌 노동력 부족과 스마트 팩토리 전환에 따른 산업용 로봇 독점",
-      "outlookSignal": {
-        "level": "BULLISH",
-        "badgeText": "🟢 자동화 필수재",
-        "summary": "글로벌 노동력 부족과 스마트 팩토리 전환에 따른 산업용 로봇 독점"
-      }
-    },
-    "demandAnalysis": {
-      "status": "STRONG",
-      "statusBadge": "🟢 자동화 필수재",
-      "keyDriver": "일본 글로벌 로봇 & 정밀 기계자동화 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "일본 공작기계 공업회 수주 통계",
-      "demandIndicatorVal": "지속적인 우상향 확장세"
-    },
-    "riskDrivers": {
-      "bullFactor": "휴머노이드 액추에이터 핵심 부품 공급망 장악",
-      "bearFactor": "중국 공장 설비투자 회복 지연"
-    },
-    "indicators": [
-      {
-        "name": "일본 공작기계 공업회 수주 통계",
-        "sourceName": "글로벌 공식 금융 데이터 포털",
-        "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 로봇 & 정밀 기계자동화 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
-        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
-        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
-      },
-      {
-        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
-        "sourceName": "FRED & Investing.com",
-        "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
-        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
-        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
-      }
-    ],
-    "companies": [
-      {
-        "name": "화낙 (Fanuc)",
-        "code": "6954.T",
-        "marketCap": "¥4조엔",
-        "revenue": "¥0.8조엔",
-        "operatingProfit": "¥0.156조엔",
-        "opMargin": 19.5,
-        "eps": 170,
-        "per": 26,
-        "pbr": 2.1,
-        "roe": 8.2,
-        "debtRatio": 5,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 2.4,
-        "payoutRatio": 62,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥5,525 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 로봇 & 정밀 기계자동화 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.8조엔, 영업이익 ¥0.156조엔 (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.2%, 배당수익률 2.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "화낙 (Fanuc)(티커: 6954.T)은 일본 글로벌 로봇 & 정밀 기계자동화 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥0.68조엔",
-            "opProfit": "¥0.119조엔",
-            "netProfit": "¥0.095조엔",
-            "opMargin": "17.5%",
-            "eps": 144.5,
-            "roe": "7.2%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥0.736조엔",
-            "opProfit": "¥0.136조엔",
-            "netProfit": "¥0.109조엔",
-            "opMargin": "18.5%",
-            "eps": 156.4,
-            "roe": "7.7%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥0.776조엔",
-            "opProfit": "¥0.151조엔",
-            "netProfit": "¥0.121조엔",
-            "opMargin": "19.5%",
-            "eps": 164.9,
-            "roe": "8.2%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥0.864조엔",
-            "opProfit": "¥0.177조엔",
-            "netProfit": "¥0.142조엔",
-            "opMargin": "20.5%",
-            "eps": 183.6,
-            "roe": "8.7%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥0.96조엔",
-            "opProfit": "¥0.206조엔",
-            "netProfit": "¥0.165조엔",
-            "opMargin": "21.5%",
-            "eps": 204,
-            "roe": "9.2%",
-            "debtRatio": "15%"
-          }
-        ]
-      },
-      {
-        "name": "다이킨공업 (Daikin Industries)",
-        "code": "6367.T",
-        "marketCap": "¥6조엔",
-        "revenue": "¥4.4조엔",
-        "operatingProfit": "¥0.431조엔",
-        "opMargin": 9.8,
-        "eps": 890,
-        "per": 22,
-        "pbr": 2.5,
-        "roe": 12,
+        "name": "SUMCO (섬코 웨이퍼 3436)",
+        "code": "3436.T",
+        "marketCap": "¥0.75조엔",
+        "revenue": "¥0.42조엔",
+        "operatingProfit": "¥0.061조엔",
+        "opMargin": 14.5,
+        "eps": 85,
+        "per": 18,
+        "pbr": 1.1,
+        "roe": 6.5,
         "debtRatio": 45,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 1.4,
-        "payoutRatio": 31,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥24,475 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 로봇 & 정밀 기계자동화 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥4.4조엔, 영업이익 ¥0.431조엔 (OPM 9.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 1.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "다이킨공업 (Daikin Industries)(티커: 6367.T)은 일본 글로벌 로봇 & 정밀 기계자동화 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 2.5,
+        "payoutRatio": 45,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥1,913 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 첨단 반도체 웨이퍼 & 포토레지스트 소재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.42조엔, 영업이익 ¥0.061조엔 (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 6.5%, 배당수익률 2.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "SUMCO (섬코 웨이퍼 3436)(티커: 3436.T)은 일본 첨단 반도체 웨이퍼 & 포토레지스트 소재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "¥3.74조엔",
-            "opProfit": "¥0.292조엔",
-            "netProfit": "¥0.233조엔",
-            "opMargin": "7.8%",
-            "eps": 756.5,
-            "roe": "11%",
+            "revenue": "¥0.357조엔",
+            "opProfit": "¥0.045조엔",
+            "netProfit": "¥0.036조엔",
+            "opMargin": "12.5%",
+            "eps": 72.25,
+            "roe": "5.5%",
             "debtRatio": "51%"
           },
           {
             "year": "2022",
-            "revenue": "¥4.048조엔",
-            "opProfit": "¥0.356조엔",
-            "netProfit": "¥0.285조엔",
-            "opMargin": "8.8%",
-            "eps": 818.8,
-            "roe": "11.5%",
+            "revenue": "¥0.386조엔",
+            "opProfit": "¥0.052조엔",
+            "netProfit": "¥0.042조엔",
+            "opMargin": "13.5%",
+            "eps": 78.2,
+            "roe": "6%",
             "debtRatio": "48%"
           },
           {
             "year": "2023",
-            "revenue": "¥4.268조엔",
-            "opProfit": "¥0.418조엔",
-            "netProfit": "¥0.335조엔",
-            "opMargin": "9.8%",
-            "eps": 863.3,
-            "roe": "12%",
+            "revenue": "¥0.407조엔",
+            "opProfit": "¥0.059조엔",
+            "netProfit": "¥0.047조엔",
+            "opMargin": "14.5%",
+            "eps": 82.45,
+            "roe": "6.5%",
             "debtRatio": "45%"
           },
           {
             "year": "2024",
-            "revenue": "¥4.752조엔",
-            "opProfit": "¥0.513조엔",
-            "netProfit": "¥0.411조엔",
-            "opMargin": "10.8%",
-            "eps": 961.2,
-            "roe": "12.5%",
+            "revenue": "¥0.454조엔",
+            "opProfit": "¥0.07조엔",
+            "netProfit": "¥0.056조엔",
+            "opMargin": "15.5%",
+            "eps": 91.8,
+            "roe": "7%",
             "debtRatio": "42%"
           },
           {
             "year": "2025(E)",
-            "revenue": "¥5.28조엔",
-            "opProfit": "¥0.623조엔",
-            "netProfit": "¥0.498조엔",
-            "opMargin": "11.8%",
-            "eps": 1068,
-            "roe": "13%",
+            "revenue": "¥0.504조엔",
+            "opProfit": "¥0.083조엔",
+            "netProfit": "¥0.067조엔",
+            "opMargin": "16.5%",
+            "eps": 102,
+            "roe": "7.5%",
             "debtRatio": "39%"
           }
         ]
       },
       {
-        "name": "코마츠 (Komatsu)",
-        "code": "6301.T",
-        "marketCap": "¥4조엔",
-        "revenue": "¥3.8조엔",
-        "operatingProfit": "¥0.589조엔",
-        "opMargin": 15.5,
-        "eps": 420,
-        "per": 9.8,
-        "pbr": 1.3,
-        "roe": 14,
-        "debtRatio": 48,
+        "name": "도쿄오카공업 (Tokyo Ohka Kogyo PR 4186)",
+        "code": "4186.T",
+        "marketCap": "¥0.85조엔",
+        "revenue": "¥0.18조엔",
+        "operatingProfit": "¥0.035조엔",
+        "opMargin": 19.5,
+        "eps": 175,
+        "per": 24,
+        "pbr": 2.4,
+        "roe": 11.5,
+        "debtRatio": 15,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 4.1,
-        "payoutRatio": 40,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥5,145 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 로봇 & 정밀 기계자동화 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥3.8조엔, 영업이익 ¥0.589조엔 (OPM 15.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 4.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "코마츠 (Komatsu)(티커: 6301.T)은 일본 글로벌 로봇 & 정밀 기계자동화 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 2.2,
+        "payoutRatio": 53,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥5,250 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 첨단 반도체 웨이퍼 & 포토레지스트 소재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.18조엔, 영업이익 ¥0.035조엔 (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11.5%, 배당수익률 2.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "도쿄오카공업 (Tokyo Ohka Kogyo PR 4186)(티커: 4186.T)은 일본 첨단 반도체 웨이퍼 & 포토레지스트 소재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "¥3.23조엔",
-            "opProfit": "¥0.436조엔",
-            "netProfit": "¥0.349조엔",
-            "opMargin": "13.5%",
-            "eps": 357,
-            "roe": "13%",
-            "debtRatio": "54%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥3.496조엔",
-            "opProfit": "¥0.507조엔",
-            "netProfit": "¥0.406조엔",
-            "opMargin": "14.5%",
-            "eps": 386.4,
-            "roe": "13.5%",
-            "debtRatio": "51%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥3.686조엔",
-            "opProfit": "¥0.571조엔",
-            "netProfit": "¥0.457조엔",
-            "opMargin": "15.5%",
-            "eps": 407.4,
-            "roe": "14%",
-            "debtRatio": "48%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥4.104조엔",
-            "opProfit": "¥0.677조엔",
-            "netProfit": "¥0.542조엔",
-            "opMargin": "16.5%",
-            "eps": 453.6,
-            "roe": "14.5%",
-            "debtRatio": "45%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥4.56조엔",
-            "opProfit": "¥0.798조엔",
-            "netProfit": "¥0.638조엔",
+            "revenue": "¥0.153조엔",
+            "opProfit": "¥0.027조엔",
+            "netProfit": "¥0.021조엔",
             "opMargin": "17.5%",
-            "eps": 504,
-            "roe": "15%",
-            "debtRatio": "42%"
-          }
-        ]
-      },
-      {
-        "name": "미쓰비시중공업 (MHI)",
-        "code": "7011.T",
-        "marketCap": "¥7조엔",
-        "revenue": "¥4.6조엔",
-        "operatingProfit": "¥0.313조엔",
-        "opMargin": 6.8,
-        "eps": 65,
-        "per": 32,
-        "pbr": 3.5,
-        "roe": 12.5,
-        "debtRatio": 85,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 1.1,
-        "payoutRatio": 35,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥2,600 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 로봇 & 정밀 기계자동화 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥4.6조엔, 영업이익 ¥0.313조엔 (OPM 6.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12.5%, 배당수익률 1.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "미쓰비시중공업 (MHI)(티커: 7011.T)은 일본 글로벌 로봇 & 정밀 기계자동화 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥3.91조엔",
-            "opProfit": "¥0.188조엔",
-            "netProfit": "¥0.15조엔",
-            "opMargin": "4.8%",
-            "eps": 55.25,
-            "roe": "11.5%",
-            "debtRatio": "91%"
+            "eps": 148.75,
+            "roe": "10.5%",
+            "debtRatio": "21%"
           },
           {
             "year": "2022",
-            "revenue": "¥4.232조엔",
-            "opProfit": "¥0.245조엔",
-            "netProfit": "¥0.196조엔",
-            "opMargin": "5.8%",
-            "eps": 59.8,
-            "roe": "12%",
-            "debtRatio": "88%"
+            "revenue": "¥0.166조엔",
+            "opProfit": "¥0.031조엔",
+            "netProfit": "¥0.025조엔",
+            "opMargin": "18.5%",
+            "eps": 161,
+            "roe": "11%",
+            "debtRatio": "18%"
           },
           {
             "year": "2023",
-            "revenue": "¥4.462조엔",
-            "opProfit": "¥0.303조엔",
-            "netProfit": "¥0.243조엔",
-            "opMargin": "6.8%",
-            "eps": 63.05,
-            "roe": "12.5%",
-            "debtRatio": "85%"
+            "revenue": "¥0.175조엔",
+            "opProfit": "¥0.034조엔",
+            "netProfit": "¥0.027조엔",
+            "opMargin": "19.5%",
+            "eps": 169.75,
+            "roe": "11.5%",
+            "debtRatio": "15%"
           },
           {
             "year": "2024",
-            "revenue": "¥4.968조엔",
-            "opProfit": "¥0.388조엔",
-            "netProfit": "¥0.31조엔",
-            "opMargin": "7.8%",
-            "eps": 70.2,
-            "roe": "13%",
-            "debtRatio": "82%"
+            "revenue": "¥0.194조엔",
+            "opProfit": "¥0.04조엔",
+            "netProfit": "¥0.032조엔",
+            "opMargin": "20.5%",
+            "eps": 189,
+            "roe": "12%",
+            "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
-            "revenue": "¥5.52조엔",
-            "opProfit": "¥0.486조엔",
-            "netProfit": "¥0.389조엔",
-            "opMargin": "8.8%",
-            "eps": 78,
-            "roe": "13.5%",
-            "debtRatio": "79%"
+            "revenue": "¥0.216조엔",
+            "opProfit": "¥0.046조엔",
+            "netProfit": "¥0.037조엔",
+            "opMargin": "21.5%",
+            "eps": 210,
+            "roe": "12.5%",
+            "debtRatio": "15%"
           }
         ]
       }
     ]
   },
   {
-    "id": "jp-pharma",
+    "id": "jp-trading-houses",
     "country": "일본",
-    "sector": "글로벌 제약 & 바이오 헬스케어",
-    "chapterTitle": "일본 ➔ 바이오·제약",
-    "cluster": "바이오·제약",
+    "sector": "버핏 투자 일본 5대 종합상사",
+    "chapterTitle": "일본 ➔ 상사·금융",
+    "cluster": "상사·금융",
     "stockCount": 4,
-    "changeRate": "1.45",
+    "changeRate": "-0.23",
     "correlationLogic": {
-      "formula": "ADC 항암제 글로벌 처방액 × 로열티 수수료 = 고수익 OPM 실현",
+      "formula": "글로벌 자원 트레이딩 이익 + 비자원 사업 현금흐름 = ROE 15% 및 배당성향 40%",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 글로벌 제약 & 바이오 헬스케어 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 버핏 투자 일본 5대 종합상사 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "다이이찌산쿄의 차세대 ADC 항암제 엔허투(Enhertu) 글로벌 블록버스터 돌풍",
+      "currentStatus": "미쓰비시상사, 이토추상사의 글로벌 원자재 및 에너지, 소비재 공급망 장악과 강력한 자사주 소각",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 혁신 ADC 신약",
-        "summary": "다이이찌산쿄의 차세대 ADC 항암제 엔허투(Enhertu) 글로벌 블록버스터 돌풍"
+        "badgeText": "🟢 버핏 추가 매수",
+        "summary": "미쓰비시상사, 이토추상사의 글로벌 원자재 및 에너지, 소비재 공급망 장악과 강력한 자사주 소각"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 혁신 ADC 신약",
-      "keyDriver": "일본 글로벌 제약 & 바이오 헬스케어 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "토픽스 의약품 지수",
+      "statusBadge": "🟢 버핏 추가 매수",
+      "keyDriver": "일본 버핏 투자 일본 5대 종합상사 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "니케이 상사 지수 & 원자재 지수",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "글로벌 빅파마 아스트라제네카 공동 판권 계약 마일스톤 유입",
-      "bearFactor": "일본 국내 약가 개정(인하) 정책 압박"
+      "bullFactor": "동경증권거래소(TSE)의 PBR 1배 이하 개선 압박에 따른 파격적인 자사주 매입",
+      "bearFactor": "원자재(구리, 철광석, LNG) 국제가격 급락 시 평가손익 반영"
     },
     "indicators": [
       {
-        "name": "토픽스 의약품 지수",
+        "name": "니케이 상사 지수 & 원자재 지수",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 제약 & 바이오 헬스케어 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "버핏 투자 일본 5대 종합상사 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -220996,23 +222292,1043 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "다이이찌산쿄 (Daiichi Sankyo)",
+        "name": "미쓰비시상사 (Mitsubishi Corp 8058)",
+        "code": "8058.T",
+        "marketCap": "¥12.8조엔",
+        "revenue": "¥19.5조엔",
+        "operatingProfit": "¥1.404조엔",
+        "opMargin": 7.2,
+        "eps": 240,
+        "per": 12.5,
+        "pbr": 1.4,
+        "roe": 14,
+        "debtRatio": 85,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 3.5,
+        "payoutRatio": 44,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥3,750 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 버핏 투자 일본 5대 종합상사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥19.5조엔, 영업이익 ¥1.404조엔 (OPM 7.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 3.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "미쓰비시상사 (Mitsubishi Corp 8058)(티커: 8058.T)은 일본 버핏 투자 일본 5대 종합상사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥16.575조엔",
+            "opProfit": "¥0.862조엔",
+            "netProfit": "¥0.69조엔",
+            "opMargin": "5.2%",
+            "eps": 204,
+            "roe": "13%",
+            "debtRatio": "91%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥17.94조엔",
+            "opProfit": "¥1.112조엔",
+            "netProfit": "¥0.89조엔",
+            "opMargin": "6.2%",
+            "eps": 220.8,
+            "roe": "13.5%",
+            "debtRatio": "88%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥18.915조엔",
+            "opProfit": "¥1.362조엔",
+            "netProfit": "¥1.09조엔",
+            "opMargin": "7.2%",
+            "eps": 232.8,
+            "roe": "14%",
+            "debtRatio": "85%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥21.06조엔",
+            "opProfit": "¥1.727조엔",
+            "netProfit": "¥1.382조엔",
+            "opMargin": "8.2%",
+            "eps": 259.2,
+            "roe": "14.5%",
+            "debtRatio": "82%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥23.4조엔",
+            "opProfit": "¥2.153조엔",
+            "netProfit": "¥1.722조엔",
+            "opMargin": "9.2%",
+            "eps": 288,
+            "roe": "15%",
+            "debtRatio": "79%"
+          }
+        ]
+      },
+      {
+        "name": "이토추상사 (Itochu Corp 8001)",
+        "code": "8001.T",
+        "marketCap": "¥11.5조엔",
+        "revenue": "¥14.2조엔",
+        "operatingProfit": "¥0.966조엔",
+        "opMargin": 6.8,
+        "eps": 560,
+        "per": 13,
+        "pbr": 1.8,
+        "roe": 16.5,
+        "debtRatio": 75,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.8,
+        "payoutRatio": 36,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥9,100 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 버핏 투자 일본 5대 종합상사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥14.2조엔, 영업이익 ¥0.966조엔 (OPM 6.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16.5%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "이토추상사 (Itochu Corp 8001)(티커: 8001.T)은 일본 버핏 투자 일본 5대 종합상사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥12.07조엔",
+            "opProfit": "¥0.579조엔",
+            "netProfit": "¥0.463조엔",
+            "opMargin": "4.8%",
+            "eps": 476,
+            "roe": "15.5%",
+            "debtRatio": "81%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥13.064조엔",
+            "opProfit": "¥0.758조엔",
+            "netProfit": "¥0.606조엔",
+            "opMargin": "5.8%",
+            "eps": 515.2,
+            "roe": "16%",
+            "debtRatio": "78%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥13.774조엔",
+            "opProfit": "¥0.937조엔",
+            "netProfit": "¥0.749조엔",
+            "opMargin": "6.8%",
+            "eps": 543.2,
+            "roe": "16.5%",
+            "debtRatio": "75%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥15.336조엔",
+            "opProfit": "¥1.196조엔",
+            "netProfit": "¥0.957조엔",
+            "opMargin": "7.8%",
+            "eps": 604.8,
+            "roe": "17%",
+            "debtRatio": "72%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥17.04조엔",
+            "opProfit": "¥1.5조엔",
+            "netProfit": "¥1.2조엔",
+            "opMargin": "8.8%",
+            "eps": 672,
+            "roe": "17.5%",
+            "debtRatio": "69%"
+          }
+        ]
+      },
+      {
+        "name": "미쓰이물산 (Mitsui & Co 8031)",
+        "code": "8031.T",
+        "marketCap": "¥9.8조엔",
+        "revenue": "¥13.5조엔",
+        "operatingProfit": "¥1.013조엔",
+        "opMargin": 7.5,
+        "eps": 310,
+        "per": 11,
+        "pbr": 1.4,
+        "roe": 15,
+        "debtRatio": 78,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 3.4,
+        "payoutRatio": 37,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥4,263 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 버핏 투자 일본 5대 종합상사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥13.5조엔, 영업이익 ¥1.013조엔 (OPM 7.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15%, 배당수익률 3.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "미쓰이물산 (Mitsui & Co 8031)(티커: 8031.T)은 일본 버핏 투자 일본 5대 종합상사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥11.475조엔",
+            "opProfit": "¥0.631조엔",
+            "netProfit": "¥0.505조엔",
+            "opMargin": "5.5%",
+            "eps": 263.5,
+            "roe": "14%",
+            "debtRatio": "84%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥12.42조엔",
+            "opProfit": "¥0.807조엔",
+            "netProfit": "¥0.646조엔",
+            "opMargin": "6.5%",
+            "eps": 285.2,
+            "roe": "14.5%",
+            "debtRatio": "81%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥13.095조엔",
+            "opProfit": "¥0.982조엔",
+            "netProfit": "¥0.786조엔",
+            "opMargin": "7.5%",
+            "eps": 300.7,
+            "roe": "15%",
+            "debtRatio": "78%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥14.58조엔",
+            "opProfit": "¥1.239조엔",
+            "netProfit": "¥0.991조엔",
+            "opMargin": "8.5%",
+            "eps": 334.8,
+            "roe": "15.5%",
+            "debtRatio": "75%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥16.2조엔",
+            "opProfit": "¥1.539조엔",
+            "netProfit": "¥1.231조엔",
+            "opMargin": "9.5%",
+            "eps": 372,
+            "roe": "16%",
+            "debtRatio": "72%"
+          }
+        ]
+      },
+      {
+        "name": "스미토모상사 (Sumitomo Corp 8053)",
+        "code": "8053.T",
+        "marketCap": "¥4.8조엔",
+        "revenue": "¥6.8조엔",
+        "operatingProfit": "¥0.442조엔",
+        "opMargin": 6.5,
+        "eps": 390,
+        "per": 9.5,
+        "pbr": 1.1,
+        "roe": 12.5,
+        "debtRatio": 95,
+        "currentRatio": 140,
+        "riskStatus": "NORMAL",
+        "dividendYield": 3.8,
+        "payoutRatio": 36,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥4,631 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 버핏 투자 일본 5대 종합상사 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥6.8조엔, 영업이익 ¥0.442조엔 (OPM 6.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12.5%, 배당수익률 3.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "스미토모상사 (Sumitomo Corp 8053)(티커: 8053.T)은 일본 버핏 투자 일본 5대 종합상사 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥5.78조엔",
+            "opProfit": "¥0.26조엔",
+            "netProfit": "¥0.208조엔",
+            "opMargin": "4.5%",
+            "eps": 331.5,
+            "roe": "11.5%",
+            "debtRatio": "101%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥6.256조엔",
+            "opProfit": "¥0.344조엔",
+            "netProfit": "¥0.275조엔",
+            "opMargin": "5.5%",
+            "eps": 358.8,
+            "roe": "12%",
+            "debtRatio": "98%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥6.596조엔",
+            "opProfit": "¥0.429조엔",
+            "netProfit": "¥0.343조엔",
+            "opMargin": "6.5%",
+            "eps": 378.3,
+            "roe": "12.5%",
+            "debtRatio": "95%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥7.344조엔",
+            "opProfit": "¥0.551조엔",
+            "netProfit": "¥0.441조엔",
+            "opMargin": "7.5%",
+            "eps": 421.2,
+            "roe": "13%",
+            "debtRatio": "92%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥8.16조엔",
+            "opProfit": "¥0.694조엔",
+            "netProfit": "¥0.555조엔",
+            "opMargin": "8.5%",
+            "eps": 468,
+            "roe": "13.5%",
+            "debtRatio": "89%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jp-megabanks",
+    "country": "일본",
+    "sector": "일본 3대 메가뱅크 & 종합증권",
+    "chapterTitle": "일본 ➔ 상사·금융",
+    "cluster": "상사·금융",
+    "stockCount": 4,
+    "changeRate": "0.60",
+    "correlationLogic": {
+      "formula": "대출 잔액 × 일본 국채 10년물 금리 상승폭 = 사상 최대 순이자이익",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 일본 3대 메가뱅크 & 종합증권 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "일본은행(BOJ) 마이너스 금리 해제 및 추가 금리 인상에 따른 17년 만의 대출 예대마진 폭증",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 금리 정상화 수혜",
+        "summary": "일본은행(BOJ) 마이너스 금리 해제 및 추가 금리 인상에 따른 17년 만의 대출 예대마진 폭증"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 금리 정상화 수혜",
+      "keyDriver": "일본 일본 3대 메가뱅크 & 종합증권 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "일본 국채(JGB) 10년물 금리 추이",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "일본 기업 설비투자 및 임금 인상 선순환에 따른 대출 수요 폭증",
+      "bearFactor": "일본 국채 평가손실 발생 가능성"
+    },
+    "indicators": [
+      {
+        "name": "일본 국채(JGB) 10년물 금리 추이",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "일본 3대 메가뱅크 & 종합증권 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "미쓰비시UFJ (MUFG 금융 8306)",
+        "code": "8306.T",
+        "marketCap": "¥18.5조엔",
+        "revenue": "¥10.5조엔",
+        "operatingProfit": "¥3.675조엔",
+        "opMargin": 35,
+        "eps": 125,
+        "per": 12.5,
+        "pbr": 0.9,
+        "roe": 9.8,
+        "debtRatio": 950,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 3.2,
+        "payoutRatio": 40,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥1,953 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 일본 3대 메가뱅크 & 종합증권 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥10.5조엔, 영업이익 ¥3.675조엔 (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 9.8%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "미쓰비시UFJ (MUFG 금융 8306)(티커: 8306.T)은 일본 일본 3대 메가뱅크 & 종합증권 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥8.925조엔",
+            "opProfit": "¥2.945조엔",
+            "netProfit": "¥2.356조엔",
+            "opMargin": "33%",
+            "eps": 106.25,
+            "roe": "8.8%",
+            "debtRatio": "956%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥9.66조엔",
+            "opProfit": "¥3.284조엔",
+            "netProfit": "¥2.628조엔",
+            "opMargin": "34%",
+            "eps": 115,
+            "roe": "9.3%",
+            "debtRatio": "953%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥10.185조엔",
+            "opProfit": "¥3.565조엔",
+            "netProfit": "¥2.852조엔",
+            "opMargin": "35%",
+            "eps": 121.25,
+            "roe": "9.8%",
+            "debtRatio": "950%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥11.34조엔",
+            "opProfit": "¥4.082조엔",
+            "netProfit": "¥3.266조엔",
+            "opMargin": "36%",
+            "eps": 135,
+            "roe": "10.3%",
+            "debtRatio": "947%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥12.6조엔",
+            "opProfit": "¥4.662조엔",
+            "netProfit": "¥3.73조엔",
+            "opMargin": "37%",
+            "eps": 150,
+            "roe": "10.8%",
+            "debtRatio": "944%"
+          }
+        ]
+      },
+      {
+        "name": "미쓰이스미토모 (SMFG 8316)",
+        "code": "8316.T",
+        "marketCap": "¥12조엔",
+        "revenue": "¥8.8조엔",
+        "operatingProfit": "¥2.992조엔",
+        "opMargin": 34,
+        "eps": 290,
+        "per": 12,
+        "pbr": 0.9,
+        "roe": 9.5,
+        "debtRatio": 920,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 3.5,
+        "payoutRatio": 42,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥4,350 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 일본 3대 메가뱅크 & 종합증권 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥8.8조엔, 영업이익 ¥2.992조엔 (OPM 34%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 9.5%, 배당수익률 3.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "미쓰이스미토모 (SMFG 8316)(티커: 8316.T)은 일본 일본 3대 메가뱅크 & 종합증권 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥7.48조엔",
+            "opProfit": "¥2.394조엔",
+            "netProfit": "¥1.915조엔",
+            "opMargin": "32%",
+            "eps": 246.5,
+            "roe": "8.5%",
+            "debtRatio": "926%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥8.096조엔",
+            "opProfit": "¥2.672조엔",
+            "netProfit": "¥2.137조엔",
+            "opMargin": "33%",
+            "eps": 266.8,
+            "roe": "9%",
+            "debtRatio": "923%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥8.536조엔",
+            "opProfit": "¥2.902조엔",
+            "netProfit": "¥2.322조엔",
+            "opMargin": "34%",
+            "eps": 281.3,
+            "roe": "9.5%",
+            "debtRatio": "920%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥9.504조엔",
+            "opProfit": "¥3.326조엔",
+            "netProfit": "¥2.661조엔",
+            "opMargin": "35%",
+            "eps": 313.2,
+            "roe": "10%",
+            "debtRatio": "917%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥10.56조엔",
+            "opProfit": "¥3.802조엔",
+            "netProfit": "¥3.041조엔",
+            "opMargin": "36%",
+            "eps": 348,
+            "roe": "10.5%",
+            "debtRatio": "914%"
+          }
+        ]
+      },
+      {
+        "name": "미즈호 파이낸셜 (Mizuho 8411)",
+        "code": "8411.T",
+        "marketCap": "¥7.8조엔",
+        "revenue": "¥7.5조엔",
+        "operatingProfit": "¥2.325조엔",
+        "opMargin": 31,
+        "eps": 280,
+        "per": 11.5,
+        "pbr": 0.8,
+        "roe": 8.8,
+        "debtRatio": 940,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 3.6,
+        "payoutRatio": 41,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥4,025 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 일본 3대 메가뱅크 & 종합증권 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥7.5조엔, 영업이익 ¥2.325조엔 (OPM 31%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.8%, 배당수익률 3.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "미즈호 파이낸셜 (Mizuho 8411)(티커: 8411.T)은 일본 일본 3대 메가뱅크 & 종합증권 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥6.375조엔",
+            "opProfit": "¥1.849조엔",
+            "netProfit": "¥1.479조엔",
+            "opMargin": "29%",
+            "eps": 238,
+            "roe": "7.8%",
+            "debtRatio": "946%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥6.9조엔",
+            "opProfit": "¥2.07조엔",
+            "netProfit": "¥1.656조엔",
+            "opMargin": "30%",
+            "eps": 257.6,
+            "roe": "8.3%",
+            "debtRatio": "943%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥7.275조엔",
+            "opProfit": "¥2.255조엔",
+            "netProfit": "¥1.804조엔",
+            "opMargin": "31%",
+            "eps": 271.6,
+            "roe": "8.8%",
+            "debtRatio": "940%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥8.1조엔",
+            "opProfit": "¥2.592조엔",
+            "netProfit": "¥2.074조엔",
+            "opMargin": "32%",
+            "eps": 302.4,
+            "roe": "9.3%",
+            "debtRatio": "937%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥9조엔",
+            "opProfit": "¥2.97조엔",
+            "netProfit": "¥2.376조엔",
+            "opMargin": "33%",
+            "eps": 336,
+            "roe": "9.8%",
+            "debtRatio": "934%"
+          }
+        ]
+      },
+      {
+        "name": "노무라 홀딩스 (Nomura 8604)",
+        "code": "8604.T",
+        "marketCap": "¥2.8조엔",
+        "revenue": "¥3.8조엔",
+        "operatingProfit": "¥0.798조엔",
+        "opMargin": 21,
+        "eps": 72,
+        "per": 12,
+        "pbr": 0.8,
+        "roe": 7.5,
+        "debtRatio": 880,
+        "currentRatio": 140,
+        "riskStatus": "WARNING",
+        "dividendYield": 3.5,
+        "payoutRatio": 42,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥1,080 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 일본 3대 메가뱅크 & 종합증권 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥3.8조엔, 영업이익 ¥0.798조엔 (OPM 21%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 7.5%, 배당수익률 3.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "노무라 홀딩스 (Nomura 8604)(티커: 8604.T)은 일본 일본 3대 메가뱅크 & 종합증권 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥3.23조엔",
+            "opProfit": "¥0.614조엔",
+            "netProfit": "¥0.491조엔",
+            "opMargin": "19%",
+            "eps": 61.2,
+            "roe": "6.5%",
+            "debtRatio": "886%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥3.496조엔",
+            "opProfit": "¥0.699조엔",
+            "netProfit": "¥0.559조엔",
+            "opMargin": "20%",
+            "eps": 66.24,
+            "roe": "7%",
+            "debtRatio": "883%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥3.686조엔",
+            "opProfit": "¥0.774조엔",
+            "netProfit": "¥0.619조엔",
+            "opMargin": "21%",
+            "eps": 69.84,
+            "roe": "7.5%",
+            "debtRatio": "880%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥4.104조엔",
+            "opProfit": "¥0.903조엔",
+            "netProfit": "¥0.722조엔",
+            "opMargin": "22%",
+            "eps": 77.76,
+            "roe": "8%",
+            "debtRatio": "877%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥4.56조엔",
+            "opProfit": "¥1.049조엔",
+            "netProfit": "¥0.839조엔",
+            "opMargin": "23%",
+            "eps": 86.4,
+            "roe": "8.5%",
+            "debtRatio": "874%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jp-robotics-fa",
+    "country": "일본",
+    "sector": "산업용 로봇 & 팩토리 오토메이션(FA)",
+    "chapterTitle": "일본 ➔ 로봇·자동화",
+    "cluster": "로봇·자동화",
+    "stockCount": 4,
+    "changeRate": "0.02",
+    "correlationLogic": {
+      "formula": "글로벌 스마트팩토리 증설 건수 × 키엔스 고마진 센서 판매 = 경이적 현금 창출",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 산업용 로봇 & 팩토리 오토메이션(FA) 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "키엔스의 센서/머신비전 직판 모델(OPM 52%)과 화낙의 글로벌 1위 산업용 다관절 로봇",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 독보적 OPM 50%",
+        "summary": "키엔스의 센서/머신비전 직판 모델(OPM 52%)과 화낙의 글로벌 1위 산업용 다관절 로봇"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 독보적 OPM 50%",
+      "keyDriver": "일본 산업용 로봇 & 팩토리 오토메이션(FA) 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "일본 공작기계 공업회(JMTBA) 수주 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "글로벌 인건비 상승 및 인구 고령화에 따른 무인화 로봇 필수재화",
+      "bearFactor": "중국 제조업 설비투자(CAPEX) 회복 속도 둔화"
+    },
+    "indicators": [
+      {
+        "name": "일본 공작기계 공업회(JMTBA) 수주 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "산업용 로봇 & 팩토리 오토메이션(FA) 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "키엔스 (Keyence 센서/비전 6861)",
+        "code": "6861.T",
+        "marketCap": "¥16.5조엔",
+        "revenue": "¥1.05조엔",
+        "operatingProfit": "¥0.546조엔",
+        "opMargin": 52,
+        "eps": 1750,
+        "per": 38,
+        "pbr": 6.2,
+        "roe": 17.5,
+        "debtRatio": 2,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0.6,
+        "payoutRatio": 23,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥83,125 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 산업용 로봇 & 팩토리 오토메이션(FA) 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥1.05조엔, 영업이익 ¥0.546조엔 (OPM 52%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 17.5%, 배당수익률 0.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "키엔스 (Keyence 센서/비전 6861)(티커: 6861.T)은 일본 산업용 로봇 & 팩토리 오토메이션(FA) 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥0.893조엔",
+            "opProfit": "¥0.446조엔",
+            "netProfit": "¥0.357조엔",
+            "opMargin": "50%",
+            "eps": 1487.5,
+            "roe": "16.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥0.966조엔",
+            "opProfit": "¥0.493조엔",
+            "netProfit": "¥0.394조엔",
+            "opMargin": "51%",
+            "eps": 1610,
+            "roe": "17%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥1.019조엔",
+            "opProfit": "¥0.53조엔",
+            "netProfit": "¥0.424조엔",
+            "opMargin": "52%",
+            "eps": 1697.5,
+            "roe": "17.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥1.134조엔",
+            "opProfit": "¥0.601조엔",
+            "netProfit": "¥0.481조엔",
+            "opMargin": "53%",
+            "eps": 1890,
+            "roe": "18%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥1.26조엔",
+            "opProfit": "¥0.68조엔",
+            "netProfit": "¥0.544조엔",
+            "opMargin": "54%",
+            "eps": 2100,
+            "roe": "18.5%",
+            "debtRatio": "15%"
+          }
+        ]
+      },
+      {
+        "name": "화낙 (Fanuc 산업용 로봇 6954)",
+        "code": "6954.T",
+        "marketCap": "¥4.2조엔",
+        "revenue": "¥0.82조엔",
+        "operatingProfit": "¥0.16조엔",
+        "opMargin": 19.5,
+        "eps": 168,
+        "per": 26,
+        "pbr": 2.2,
+        "roe": 8.5,
+        "debtRatio": 5,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.2,
+        "payoutRatio": 57,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥5,460 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 산업용 로봇 & 팩토리 오토메이션(FA) 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.82조엔, 영업이익 ¥0.16조엔 (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.5%, 배당수익률 2.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "화낙 (Fanuc 산업용 로봇 6954)(티커: 6954.T)은 일본 산업용 로봇 & 팩토리 오토메이션(FA) 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥0.697조엔",
+            "opProfit": "¥0.122조엔",
+            "netProfit": "¥0.098조엔",
+            "opMargin": "17.5%",
+            "eps": 142.8,
+            "roe": "7.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥0.754조엔",
+            "opProfit": "¥0.14조엔",
+            "netProfit": "¥0.112조엔",
+            "opMargin": "18.5%",
+            "eps": 154.56,
+            "roe": "8%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥0.795조엔",
+            "opProfit": "¥0.155조엔",
+            "netProfit": "¥0.124조엔",
+            "opMargin": "19.5%",
+            "eps": 162.96,
+            "roe": "8.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥0.886조엔",
+            "opProfit": "¥0.182조엔",
+            "netProfit": "¥0.145조엔",
+            "opMargin": "20.5%",
+            "eps": 181.44,
+            "roe": "9%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥0.984조엔",
+            "opProfit": "¥0.212조엔",
+            "netProfit": "¥0.169조엔",
+            "opMargin": "21.5%",
+            "eps": 201.6,
+            "roe": "9.5%",
+            "debtRatio": "15%"
+          }
+        ]
+      },
+      {
+        "name": "SMC (공압제어 기기 6273)",
+        "code": "6273.T",
+        "marketCap": "¥4.5조엔",
+        "revenue": "¥0.85조엔",
+        "operatingProfit": "¥0.238조엔",
+        "opMargin": 28,
+        "eps": 3100,
+        "per": 22,
+        "pbr": 2.4,
+        "roe": 11.5,
+        "debtRatio": 3,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.8,
+        "payoutRatio": 40,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥85,250 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 산업용 로봇 & 팩토리 오토메이션(FA) 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.85조엔, 영업이익 ¥0.238조엔 (OPM 28%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11.5%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "SMC (공압제어 기기 6273)(티커: 6273.T)은 일본 산업용 로봇 & 팩토리 오토메이션(FA) 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥0.722조엔",
+            "opProfit": "¥0.188조엔",
+            "netProfit": "¥0.15조엔",
+            "opMargin": "26%",
+            "eps": 2635,
+            "roe": "10.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥0.782조엔",
+            "opProfit": "¥0.211조엔",
+            "netProfit": "¥0.169조엔",
+            "opMargin": "27%",
+            "eps": 2852,
+            "roe": "11%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥0.825조엔",
+            "opProfit": "¥0.231조엔",
+            "netProfit": "¥0.185조엔",
+            "opMargin": "28%",
+            "eps": 3007,
+            "roe": "11.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥0.918조엔",
+            "opProfit": "¥0.266조엔",
+            "netProfit": "¥0.213조엔",
+            "opMargin": "29%",
+            "eps": 3348,
+            "roe": "12%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥1.02조엔",
+            "opProfit": "¥0.306조엔",
+            "netProfit": "¥0.245조엔",
+            "opMargin": "30%",
+            "eps": 3720,
+            "roe": "12.5%",
+            "debtRatio": "15%"
+          }
+        ]
+      },
+      {
+        "name": "야스카와 전기 (Yaskawa 서보모터 6506)",
+        "code": "6506.T",
+        "marketCap": "¥1.4조엔",
+        "revenue": "¥0.58조엔",
+        "operatingProfit": "¥0.067조엔",
+        "opMargin": 11.5,
+        "eps": 195,
+        "per": 25,
+        "pbr": 3.5,
+        "roe": 14,
+        "debtRatio": 28,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.4,
+        "payoutRatio": 35,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥6,094 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 산업용 로봇 & 팩토리 오토메이션(FA) 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.58조엔, 영업이익 ¥0.067조엔 (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 1.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "야스카와 전기 (Yaskawa 서보모터 6506)(티커: 6506.T)은 일본 산업용 로봇 & 팩토리 오토메이션(FA) 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥0.493조엔",
+            "opProfit": "¥0.047조엔",
+            "netProfit": "¥0.037조엔",
+            "opMargin": "9.5%",
+            "eps": 165.75,
+            "roe": "13%",
+            "debtRatio": "34%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥0.534조엔",
+            "opProfit": "¥0.056조엔",
+            "netProfit": "¥0.045조엔",
+            "opMargin": "10.5%",
+            "eps": 179.4,
+            "roe": "13.5%",
+            "debtRatio": "31%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥0.563조엔",
+            "opProfit": "¥0.065조엔",
+            "netProfit": "¥0.052조엔",
+            "opMargin": "11.5%",
+            "eps": 189.15,
+            "roe": "14%",
+            "debtRatio": "28%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥0.626조엔",
+            "opProfit": "¥0.078조엔",
+            "netProfit": "¥0.063조엔",
+            "opMargin": "12.5%",
+            "eps": 210.6,
+            "roe": "14.5%",
+            "debtRatio": "25%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥0.696조엔",
+            "opProfit": "¥0.094조엔",
+            "netProfit": "¥0.075조엔",
+            "opMargin": "13.5%",
+            "eps": 234,
+            "roe": "15%",
+            "debtRatio": "22%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jp-pharma-healthcare",
+    "country": "일본",
+    "sector": "글로벌 혁신신약 & 정밀 의료기기",
+    "chapterTitle": "일본 ➔ 바이오·제약",
+    "cluster": "바이오·제약",
+    "stockCount": 3,
+    "changeRate": "0.04",
+    "correlationLogic": {
+      "formula": "ADC 라이선스 로열티 + 위장관 내시경 글로벌 점유율 70% = OPM 22%",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 글로벌 혁신신약 & 정밀 의료기기 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "다이이찌산쿄의 엔허투(Enhertu ADC) 유방암 치료제 글로벌 수십억 달러 매출 및 올림푸스 내시경 독점",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 신약 블록버스터",
+        "summary": "다이이찌산쿄의 엔허투(Enhertu ADC) 유방암 치료제 글로벌 수십억 달러 매출 및 올림푸스 내시경 독점"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 신약 블록버스터",
+      "keyDriver": "일본 글로벌 혁신신약 & 정밀 의료기기 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "글로벌 ADC 임상 데이터 & 내시경 수요 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "아스트라제네카 공동 개발 항암제 글로벌 처방 건수 급증",
+      "bearFactor": "일본 후생노동성 약가 개정(인하) 압박"
+    },
+    "indicators": [
+      {
+        "name": "글로벌 ADC 임상 데이터 & 내시경 수요 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 혁신신약 & 정밀 의료기기 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "다이이찌산쿄 (Daiichi Sankyo ADC 4568)",
         "code": "4568.T",
-        "marketCap": "¥10조엔",
+        "marketCap": "¥9.8조엔",
         "revenue": "¥1.6조엔",
         "operatingProfit": "¥0.296조엔",
         "opMargin": 18.5,
-        "eps": 145,
-        "per": 35,
-        "pbr": 4.8,
-        "roe": 14.5,
+        "eps": 125,
+        "per": 42,
+        "pbr": 5.8,
+        "roe": 15,
         "debtRatio": 25,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 1.2,
-        "payoutRatio": 42,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥6,344 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 제약 & 바이오 헬스케어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥1.6조엔, 영업이익 ¥0.296조엔 (OPM 18.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14.5%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "다이이찌산쿄 (Daiichi Sankyo)(티커: 4568.T)은 일본 글로벌 제약 & 바이오 헬스케어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 50,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥6,563 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 혁신신약 & 정밀 의료기기 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥1.6조엔, 영업이익 ¥0.296조엔 (OPM 18.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "다이이찌산쿄 (Daiichi Sankyo ADC 4568)(티커: 4568.T)은 일본 글로벌 혁신신약 & 정밀 의료기기 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -221020,8 +223336,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.224조엔",
             "netProfit": "¥0.18조엔",
             "opMargin": "16.5%",
-            "eps": 123.25,
-            "roe": "13.5%",
+            "eps": 106.25,
+            "roe": "14%",
             "debtRatio": "31%"
           },
           {
@@ -221030,8 +223346,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.258조엔",
             "netProfit": "¥0.206조엔",
             "opMargin": "17.5%",
-            "eps": 133.4,
-            "roe": "14%",
+            "eps": 115,
+            "roe": "14.5%",
             "debtRatio": "28%"
           },
           {
@@ -221040,8 +223356,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.287조엔",
             "netProfit": "¥0.23조엔",
             "opMargin": "18.5%",
-            "eps": 140.65,
-            "roe": "14.5%",
+            "eps": 121.25,
+            "roe": "15%",
             "debtRatio": "25%"
           },
           {
@@ -221050,8 +223366,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.337조엔",
             "netProfit": "¥0.27조엔",
             "opMargin": "19.5%",
-            "eps": 156.6,
-            "roe": "15%",
+            "eps": 135,
+            "roe": "15.5%",
             "debtRatio": "22%"
           },
           {
@@ -221060,30 +223376,30 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.394조엔",
             "netProfit": "¥0.315조엔",
             "opMargin": "20.5%",
-            "eps": 174,
-            "roe": "15.5%",
+            "eps": 150,
+            "roe": "16%",
             "debtRatio": "19%"
           }
         ]
       },
       {
-        "name": "다케다제약 (Takeda)",
+        "name": "다케다약품공업 (Takeda Pharma 4502)",
         "code": "4502.T",
-        "marketCap": "¥7조엔",
+        "marketCap": "¥6.8조엔",
         "revenue": "¥4.3조엔",
         "operatingProfit": "¥0.516조엔",
         "opMargin": 12,
-        "eps": 215,
-        "per": 19,
+        "eps": 180,
+        "per": 24,
         "pbr": 1.1,
-        "roe": 6.2,
-        "debtRatio": 75,
+        "roe": 4.5,
+        "debtRatio": 95,
         "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 4.3,
-        "payoutRatio": 82,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥5,106 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 제약 & 바이오 헬스케어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥4.3조엔, 영업이익 ¥0.516조엔 (OPM 12%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 6.2%, 배당수익률 4.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "다케다제약 (Takeda)(티커: 4502.T)은 일본 글로벌 제약 & 바이오 헬스케어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "riskStatus": "NORMAL",
+        "dividendYield": 4.5,
+        "payoutRatio": 108,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥5,400 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 혁신신약 & 정밀 의료기기 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥4.3조엔, 영업이익 ¥0.516조엔 (OPM 12%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 4.5%, 배당수익률 4.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "다케다약품공업 (Takeda Pharma 4502)(티커: 4502.T)은 일본 글로벌 혁신신약 & 정밀 의료기기 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -221091,9 +223407,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.366조엔",
             "netProfit": "¥0.292조엔",
             "opMargin": "10%",
-            "eps": 182.75,
-            "roe": "5.2%",
-            "debtRatio": "81%"
+            "eps": 153,
+            "roe": "3.5%",
+            "debtRatio": "101%"
           },
           {
             "year": "2022",
@@ -221101,9 +223417,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.435조엔",
             "netProfit": "¥0.348조엔",
             "opMargin": "11%",
-            "eps": 197.8,
-            "roe": "5.7%",
-            "debtRatio": "78%"
+            "eps": 165.6,
+            "roe": "4%",
+            "debtRatio": "98%"
           },
           {
             "year": "2023",
@@ -221111,9 +223427,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.501조엔",
             "netProfit": "¥0.4조엔",
             "opMargin": "12%",
-            "eps": 208.55,
-            "roe": "6.2%",
-            "debtRatio": "75%"
+            "eps": 174.6,
+            "roe": "4.5%",
+            "debtRatio": "95%"
           },
           {
             "year": "2024",
@@ -221121,9 +223437,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.604조엔",
             "netProfit": "¥0.483조엔",
             "opMargin": "13%",
-            "eps": 232.2,
-            "roe": "6.7%",
-            "debtRatio": "72%"
+            "eps": 194.4,
+            "roe": "5%",
+            "debtRatio": "92%"
           },
           {
             "year": "2025(E)",
@@ -221131,150 +223447,79 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.722조엔",
             "netProfit": "¥0.578조엔",
             "opMargin": "14%",
-            "eps": 258,
-            "roe": "7.2%",
-            "debtRatio": "69%"
-          }
-        ]
-      },
-      {
-        "name": "츄가이제약 (Chugai Pharma)",
-        "code": "4519.T",
-        "marketCap": "¥8조엔",
-        "revenue": "¥1.1조엔",
-        "operatingProfit": "¥0.462조엔",
-        "opMargin": 42,
-        "eps": 180,
-        "per": 31,
-        "pbr": 5.5,
-        "roe": 18,
-        "debtRatio": 5,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 1.6,
-        "payoutRatio": 50,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥6,975 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 제약 & 바이오 헬스케어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥1.1조엔, 영업이익 ¥0.462조엔 (OPM 42%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 1.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "츄가이제약 (Chugai Pharma)(티커: 4519.T)은 일본 글로벌 제약 & 바이오 헬스케어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥0.935조엔",
-            "opProfit": "¥0.374조엔",
-            "netProfit": "¥0.299조엔",
-            "opMargin": "40%",
-            "eps": 153,
-            "roe": "17%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥1.012조엔",
-            "opProfit": "¥0.415조엔",
-            "netProfit": "¥0.332조엔",
-            "opMargin": "41%",
-            "eps": 165.6,
-            "roe": "17.5%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥1.067조엔",
-            "opProfit": "¥0.448조엔",
-            "netProfit": "¥0.359조엔",
-            "opMargin": "42%",
-            "eps": 174.6,
-            "roe": "18%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥1.188조엔",
-            "opProfit": "¥0.511조엔",
-            "netProfit": "¥0.409조엔",
-            "opMargin": "43%",
-            "eps": 194.4,
-            "roe": "18.5%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥1.32조엔",
-            "opProfit": "¥0.581조엔",
-            "netProfit": "¥0.465조엔",
-            "opMargin": "44%",
             "eps": 216,
-            "roe": "19%",
-            "debtRatio": "15%"
+            "roe": "5.5%",
+            "debtRatio": "89%"
           }
         ]
       },
       {
-        "name": "올림푸스 (Olympus)",
+        "name": "올림푸스 (Olympus 소화기내시경 7733)",
         "code": "7733.T",
-        "marketCap": "¥3조엔",
-        "revenue": "¥0.9조엔",
-        "operatingProfit": "¥0.153조엔",
-        "opMargin": 17,
-        "eps": 110,
-        "per": 24,
+        "marketCap": "¥3.2조엔",
+        "revenue": "¥0.95조엔",
+        "operatingProfit": "¥0.181조엔",
+        "opMargin": 19,
+        "eps": 105,
+        "per": 25,
         "pbr": 4.2,
-        "roe": 17,
+        "roe": 18,
         "debtRatio": 45,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 1.3,
-        "payoutRatio": 31,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥3,300 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 제약 & 바이오 헬스케어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.9조엔, 영업이익 ¥0.153조엔 (OPM 17%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 17%, 배당수익률 1.3%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "올림푸스 (Olympus)(티커: 7733.T)은 일본 글로벌 제약 & 바이오 헬스케어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 1.8,
+        "payoutRatio": 45,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥3,281 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 혁신신약 & 정밀 의료기기 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.95조엔, 영업이익 ¥0.181조엔 (OPM 19%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "올림푸스 (Olympus 소화기내시경 7733)(티커: 7733.T)은 일본 글로벌 혁신신약 & 정밀 의료기기 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "¥0.765조엔",
-            "opProfit": "¥0.115조엔",
-            "netProfit": "¥0.092조엔",
-            "opMargin": "15%",
-            "eps": 93.5,
-            "roe": "16%",
+            "revenue": "¥0.808조엔",
+            "opProfit": "¥0.137조엔",
+            "netProfit": "¥0.11조엔",
+            "opMargin": "17%",
+            "eps": 89.25,
+            "roe": "17%",
             "debtRatio": "51%"
           },
           {
             "year": "2022",
-            "revenue": "¥0.828조엔",
-            "opProfit": "¥0.132조엔",
-            "netProfit": "¥0.106조엔",
-            "opMargin": "16%",
-            "eps": 101.2,
-            "roe": "16.5%",
+            "revenue": "¥0.874조엔",
+            "opProfit": "¥0.157조엔",
+            "netProfit": "¥0.126조엔",
+            "opMargin": "18%",
+            "eps": 96.6,
+            "roe": "17.5%",
             "debtRatio": "48%"
           },
           {
             "year": "2023",
-            "revenue": "¥0.873조엔",
-            "opProfit": "¥0.148조엔",
-            "netProfit": "¥0.119조엔",
-            "opMargin": "17%",
-            "eps": 106.7,
-            "roe": "17%",
+            "revenue": "¥0.922조엔",
+            "opProfit": "¥0.175조엔",
+            "netProfit": "¥0.14조엔",
+            "opMargin": "19%",
+            "eps": 101.85,
+            "roe": "18%",
             "debtRatio": "45%"
           },
           {
             "year": "2024",
-            "revenue": "¥0.972조엔",
-            "opProfit": "¥0.175조엔",
-            "netProfit": "¥0.14조엔",
-            "opMargin": "18%",
-            "eps": 118.8,
-            "roe": "17.5%",
+            "revenue": "¥1.026조엔",
+            "opProfit": "¥0.205조엔",
+            "netProfit": "¥0.164조엔",
+            "opMargin": "20%",
+            "eps": 113.4,
+            "roe": "18.5%",
             "debtRatio": "42%"
           },
           {
             "year": "2025(E)",
-            "revenue": "¥1.08조엔",
-            "opProfit": "¥0.205조엔",
-            "netProfit": "¥0.164조엔",
-            "opMargin": "19%",
-            "eps": 132,
-            "roe": "18%",
+            "revenue": "¥1.14조엔",
+            "opProfit": "¥0.239조엔",
+            "netProfit": "¥0.192조엔",
+            "opMargin": "21%",
+            "eps": 126,
+            "roe": "19%",
             "debtRatio": "39%"
           }
         ]
@@ -221282,46 +223527,46 @@ window.REGIONAL_INDUSTRY_DATA = {
     ]
   },
   {
-    "id": "jp-consumer",
+    "id": "jp-gaming-ip",
     "country": "일본",
-    "sector": "글로벌 소비재 & 게임 엔터테인먼트",
+    "sector": "글로벌 콘솔 게임 & IP 엔터테인먼트",
     "chapterTitle": "일본 ➔ 소비재·게임",
     "cluster": "소비재·게임",
-    "stockCount": 4,
-    "changeRate": "1.63",
+    "stockCount": 3,
+    "changeRate": "-0.03",
     "correlationLogic": {
-      "formula": "글로벌 매장 출점(Q) + 슈퍼 IP 라이선싱 = 사상 최대 해외 매출",
+      "formula": "자체 IP(마리오/포켓몬/젤다) 라이선싱 + 신형 콘솔 출시 = 사상 최대 마진",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 글로벌 소비재 & 게임 엔터테인먼트 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 글로벌 콘솔 게임 & IP 엔터테인먼트 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "닌텐도 스위치 후속기 기대감과 패스트리테일링(유니클로) 북미·유럽 시장 맹활약",
+      "currentStatus": "닌텐도 스위치 2 후속작 기대감과 소니 플레이스테이션, 캡콤 몬스터헌터의 글로벌 팬덤",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 IP 파워 & 유니클로",
-        "summary": "닌텐도 스위치 후속기 기대감과 패스트리테일링(유니클로) 북미·유럽 시장 맹활약"
+        "badgeText": "🟢 슈퍼 IP 파워",
+        "summary": "닌텐도 스위치 2 후속작 기대감과 소니 플레이스테이션, 캡콤 몬스터헌터의 글로벌 팬덤"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 IP 파워 & 유니클로",
-      "keyDriver": "일본 글로벌 소비재 & 게임 엔터테인먼트 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "토픽스 소매업 지수",
+      "statusBadge": "🟢 슈퍼 IP 파워",
+      "keyDriver": "일본 글로벌 콘솔 게임 & IP 엔터테인먼트 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "글로벌 콘솔 게임 소프트웨어 판매 랭킹",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "해외 유니클로 영업이익 비중 65% 돌파 및 차세대 콘솔 출시 모멘텀",
-      "bearFactor": "일본 엔화 강세 시 해외 실적 환산 감소 효과"
+      "bullFactor": "테마파크(슈퍼 닌텐도 월드) 및 영화화(마리오 무비) IP 다각화 매출 폭발",
+      "bearFactor": "구형 스위치 기기 수명 주기 말기 판매 둔화"
     },
     "indicators": [
       {
-        "name": "토픽스 소매업 지수",
+        "name": "글로벌 콘솔 게임 소프트웨어 판매 랭킹",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 소비재 & 게임 엔터테인먼트 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "글로벌 콘솔 게임 & IP 엔터테인먼트 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -221336,23 +223581,292 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "패스트 리테일링 (Fast Retailing)",
+        "name": "닌텐도 (Nintendo 콘솔/IP 7974)",
+        "code": "7974.T",
+        "marketCap": "¥10.5조엔",
+        "revenue": "¥1.7조엔",
+        "operatingProfit": "¥0.553조엔",
+        "opMargin": 32.5,
+        "eps": 380,
+        "per": 22,
+        "pbr": 3.8,
+        "roe": 18.5,
+        "debtRatio": 0,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.5,
+        "payoutRatio": 55,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥10,450 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 콘솔 게임 & IP 엔터테인먼트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥1.7조엔, 영업이익 ¥0.553조엔 (OPM 32.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18.5%, 배당수익률 2.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "닌텐도 (Nintendo 콘솔/IP 7974)(티커: 7974.T)은 일본 글로벌 콘솔 게임 & IP 엔터테인먼트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥1.445조엔",
+            "opProfit": "¥0.441조엔",
+            "netProfit": "¥0.353조엔",
+            "opMargin": "30.5%",
+            "eps": 323,
+            "roe": "17.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥1.564조엔",
+            "opProfit": "¥0.493조엔",
+            "netProfit": "¥0.394조엔",
+            "opMargin": "31.5%",
+            "eps": 349.6,
+            "roe": "18%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥1.649조엔",
+            "opProfit": "¥0.536조엔",
+            "netProfit": "¥0.429조엔",
+            "opMargin": "32.5%",
+            "eps": 368.6,
+            "roe": "18.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥1.836조엔",
+            "opProfit": "¥0.615조엔",
+            "netProfit": "¥0.492조엔",
+            "opMargin": "33.5%",
+            "eps": 410.4,
+            "roe": "19%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥2.04조엔",
+            "opProfit": "¥0.704조엔",
+            "netProfit": "¥0.563조엔",
+            "opMargin": "34.5%",
+            "eps": 456,
+            "roe": "19.5%",
+            "debtRatio": "15%"
+          }
+        ]
+      },
+      {
+        "name": "소니 그룹 (Sony Group 6758)",
+        "code": "6758.T",
+        "marketCap": "¥17.5조엔",
+        "revenue": "¥13조엔",
+        "operatingProfit": "¥1.274조엔",
+        "opMargin": 9.8,
+        "eps": 780,
+        "per": 17.5,
+        "pbr": 2.2,
+        "roe": 13,
+        "debtRatio": 48,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0.8,
+        "payoutRatio": 14,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥17,063 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 콘솔 게임 & IP 엔터테인먼트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥13조엔, 영업이익 ¥1.274조엔 (OPM 9.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13%, 배당수익률 0.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "소니 그룹 (Sony Group 6758)(티커: 6758.T)은 일본 글로벌 콘솔 게임 & IP 엔터테인먼트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥11.05조엔",
+            "opProfit": "¥0.862조엔",
+            "netProfit": "¥0.69조엔",
+            "opMargin": "7.8%",
+            "eps": 663,
+            "roe": "12%",
+            "debtRatio": "54%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥11.96조엔",
+            "opProfit": "¥1.052조엔",
+            "netProfit": "¥0.842조엔",
+            "opMargin": "8.8%",
+            "eps": 717.6,
+            "roe": "12.5%",
+            "debtRatio": "51%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥12.61조엔",
+            "opProfit": "¥1.236조엔",
+            "netProfit": "¥0.989조엔",
+            "opMargin": "9.8%",
+            "eps": 756.6,
+            "roe": "13%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥14.04조엔",
+            "opProfit": "¥1.516조엔",
+            "netProfit": "¥1.213조엔",
+            "opMargin": "10.8%",
+            "eps": 842.4,
+            "roe": "13.5%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥15.6조엔",
+            "opProfit": "¥1.841조엔",
+            "netProfit": "¥1.473조엔",
+            "opMargin": "11.8%",
+            "eps": 936,
+            "roe": "14%",
+            "debtRatio": "42%"
+          }
+        ]
+      },
+      {
+        "name": "캡콤 (Capcom 몬스터헌터 9697)",
+        "code": "9697.T",
+        "marketCap": "¥1.8조엔",
+        "revenue": "¥0.16조엔",
+        "operatingProfit": "¥0.059조엔",
+        "opMargin": 37,
+        "eps": 105,
+        "per": 32,
+        "pbr": 6.5,
+        "roe": 24,
+        "debtRatio": 2,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.2,
+        "payoutRatio": 38,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥4,200 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 콘솔 게임 & IP 엔터테인먼트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.16조엔, 영업이익 ¥0.059조엔 (OPM 37%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 24%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "캡콤 (Capcom 몬스터헌터 9697)(티커: 9697.T)은 일본 글로벌 콘솔 게임 & IP 엔터테인먼트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥0.136조엔",
+            "opProfit": "¥0.048조엔",
+            "netProfit": "¥0.038조엔",
+            "opMargin": "35%",
+            "eps": 89.25,
+            "roe": "23%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥0.147조엔",
+            "opProfit": "¥0.053조엔",
+            "netProfit": "¥0.042조엔",
+            "opMargin": "36%",
+            "eps": 96.6,
+            "roe": "23.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥0.155조엔",
+            "opProfit": "¥0.057조엔",
+            "netProfit": "¥0.046조엔",
+            "opMargin": "37%",
+            "eps": 101.85,
+            "roe": "24%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥0.173조엔",
+            "opProfit": "¥0.066조엔",
+            "netProfit": "¥0.053조엔",
+            "opMargin": "38%",
+            "eps": 113.4,
+            "roe": "24.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥0.192조엔",
+            "opProfit": "¥0.075조엔",
+            "netProfit": "¥0.06조엔",
+            "opMargin": "39%",
+            "eps": 126,
+            "roe": "25%",
+            "debtRatio": "15%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jp-retail-consumer",
+    "country": "일본",
+    "sector": "글로벌 패션 SPA & 종합 유통/F&B",
+    "chapterTitle": "일본 ➔ 소비재·게임",
+    "cluster": "소비재·게임",
+    "stockCount": 3,
+    "changeRate": "1.42",
+    "correlationLogic": {
+      "formula": "해외 유니클로 매장 확대 × 동일점 매출 성장률(SSS) - 원단비 = 영업이익 5천억 엔",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 글로벌 패션 SPA & 종합 유통/F&B 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "패스트리테일링(유니클로)의 북미/유럽 흑자 안착과 아사히 맥주의 글로벌 프리미엄화",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 유니클로 글로벌 독주",
+        "summary": "패스트리테일링(유니클로)의 북미/유럽 흑자 안착과 아사히 맥주의 글로벌 프리미엄화"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 유니클로 글로벌 독주",
+      "keyDriver": "일본 글로벌 패션 SPA & 종합 유통/F&B 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "유니클로 월간 일본/해외 동일점 매출 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "유니클로의 기능성 에어리즘/히트텍 글로벌 필수재 안착",
+      "bearFactor": "인바운드 관광객 소비 둔화 시 일본 내수 매장 성장 정체"
+    },
+    "indicators": [
+      {
+        "name": "유니클로 월간 일본/해외 동일점 매출 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://www.fastretailing.com/",
+        "role": "글로벌 패션 SPA & 종합 유통/F&B 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "패스트리테일링 (Fast Retailing 유니클로 9983)",
         "code": "9983.T",
-        "marketCap": "¥15조엔",
+        "marketCap": "¥15.5조엔",
         "revenue": "¥3.1조엔",
         "operatingProfit": "¥0.512조엔",
         "opMargin": 16.5,
-        "eps": 1250,
-        "per": 41,
+        "eps": 1350,
+        "per": 38,
         "pbr": 6.8,
-        "roe": 18,
-        "debtRatio": 20,
+        "roe": 21,
+        "debtRatio": 15,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 0.9,
-        "payoutRatio": 37,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥64,063 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 게임 엔터테인먼트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥3.1조엔, 영업이익 ¥0.512조엔 (OPM 16.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 0.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "패스트 리테일링 (Fast Retailing)(티커: 9983.T)은 일본 글로벌 소비재 & 게임 엔터테인먼트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "payoutRatio": 34,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥64,125 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 패션 SPA & 종합 유통/F&B 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥3.1조엔, 영업이익 ¥0.512조엔 (OPM 16.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 21%, 배당수익률 0.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "패스트리테일링 (Fast Retailing 유니클로 9983)(티커: 9983.T)은 일본 글로벌 패션 SPA & 종합 유통/F&B 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -221360,9 +223874,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.382조엔",
             "netProfit": "¥0.306조엔",
             "opMargin": "14.5%",
-            "eps": 1062.5,
-            "roe": "17%",
-            "debtRatio": "26%"
+            "eps": 1147.5,
+            "roe": "20%",
+            "debtRatio": "21%"
           },
           {
             "year": "2022",
@@ -221370,9 +223884,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.442조엔",
             "netProfit": "¥0.354조엔",
             "opMargin": "15.5%",
-            "eps": 1150,
-            "roe": "17.5%",
-            "debtRatio": "23%"
+            "eps": 1242,
+            "roe": "20.5%",
+            "debtRatio": "18%"
           },
           {
             "year": "2023",
@@ -221380,9 +223894,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.496조엔",
             "netProfit": "¥0.397조엔",
             "opMargin": "16.5%",
-            "eps": 1212.5,
-            "roe": "18%",
-            "debtRatio": "20%"
+            "eps": 1309.5,
+            "roe": "21%",
+            "debtRatio": "15%"
           },
           {
             "year": "2024",
@@ -221390,9 +223904,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.586조엔",
             "netProfit": "¥0.469조엔",
             "opMargin": "17.5%",
-            "eps": 1350,
-            "roe": "18.5%",
-            "debtRatio": "17%"
+            "eps": 1458,
+            "roe": "21.5%",
+            "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
@@ -221400,172 +223914,30 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.688조엔",
             "netProfit": "¥0.551조엔",
             "opMargin": "18.5%",
-            "eps": 1500,
-            "roe": "19%",
+            "eps": 1620,
+            "roe": "22%",
             "debtRatio": "15%"
           }
         ]
       },
       {
-        "name": "닌텐도 (Nintendo)",
-        "code": "7974.T",
-        "marketCap": "¥10조엔",
-        "revenue": "¥1.7조엔",
-        "operatingProfit": "¥0.527조엔",
-        "opMargin": 31,
-        "eps": 350,
-        "per": 23,
-        "pbr": 3.5,
-        "roe": 16.5,
-        "debtRatio": 0,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 2.6,
-        "payoutRatio": 60,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥10,063 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 게임 엔터테인먼트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥1.7조엔, 영업이익 ¥0.527조엔 (OPM 31%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16.5%, 배당수익률 2.6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "닌텐도 (Nintendo)(티커: 7974.T)은 일본 글로벌 소비재 & 게임 엔터테인먼트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥1.445조엔",
-            "opProfit": "¥0.419조엔",
-            "netProfit": "¥0.335조엔",
-            "opMargin": "29%",
-            "eps": 297.5,
-            "roe": "15.5%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥1.564조엔",
-            "opProfit": "¥0.469조엔",
-            "netProfit": "¥0.375조엔",
-            "opMargin": "30%",
-            "eps": 322,
-            "roe": "16%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥1.649조엔",
-            "opProfit": "¥0.511조엔",
-            "netProfit": "¥0.409조엔",
-            "opMargin": "31%",
-            "eps": 339.5,
-            "roe": "16.5%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥1.836조엔",
-            "opProfit": "¥0.588조엔",
-            "netProfit": "¥0.47조엔",
-            "opMargin": "32%",
-            "eps": 378,
-            "roe": "17%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥2.04조엔",
-            "opProfit": "¥0.673조엔",
-            "netProfit": "¥0.539조엔",
-            "opMargin": "33%",
-            "eps": 420,
-            "roe": "17.5%",
-            "debtRatio": "15%"
-          }
-        ]
-      },
-      {
-        "name": "시세이도 (Shiseido)",
-        "code": "4911.T",
-        "marketCap": "¥1.5조엔",
-        "revenue": "¥1조엔",
-        "operatingProfit": "¥0.045조엔",
-        "opMargin": 4.5,
-        "eps": 110,
-        "per": 32,
-        "pbr": 1.6,
-        "roe": 4.8,
-        "debtRatio": 55,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 1.8,
-        "payoutRatio": 58,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥4,400 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 게임 엔터테인먼트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥1조엔, 영업이익 ¥0.045조엔 (OPM 4.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 4.8%, 배당수익률 1.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "시세이도 (Shiseido)(티커: 4911.T)은 일본 글로벌 소비재 & 게임 엔터테인먼트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥0.85조엔",
-            "opProfit": "¥0.021조엔",
-            "netProfit": "¥0.017조엔",
-            "opMargin": "2.5%",
-            "eps": 93.5,
-            "roe": "3.8%",
-            "debtRatio": "61%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥0.92조엔",
-            "opProfit": "¥0.032조엔",
-            "netProfit": "¥0.026조엔",
-            "opMargin": "3.5%",
-            "eps": 101.2,
-            "roe": "4.3%",
-            "debtRatio": "58%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥0.97조엔",
-            "opProfit": "¥0.044조엔",
-            "netProfit": "¥0.035조엔",
-            "opMargin": "4.5%",
-            "eps": 106.7,
-            "roe": "4.8%",
-            "debtRatio": "55%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥1.08조엔",
-            "opProfit": "¥0.059조엔",
-            "netProfit": "¥0.048조엔",
-            "opMargin": "5.5%",
-            "eps": 118.8,
-            "roe": "5.3%",
-            "debtRatio": "52%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥1.2조엔",
-            "opProfit": "¥0.078조엔",
-            "netProfit": "¥0.062조엔",
-            "opMargin": "6.5%",
-            "eps": 132,
-            "roe": "5.8%",
-            "debtRatio": "49%"
-          }
-        ]
-      },
-      {
-        "name": "세븐앤아이 홀딩스 (Seven & i)",
+        "name": "세븐앤아이 (Seven & i 홀딩스 편의점 3382)",
         "code": "3382.T",
-        "marketCap": "¥5.5조엔",
+        "marketCap": "¥5.8조엔",
         "revenue": "¥11.5조엔",
         "operatingProfit": "¥0.518조엔",
         "opMargin": 4.5,
-        "eps": 95,
-        "per": 24,
+        "eps": 120,
+        "per": 18,
         "pbr": 1.4,
-        "roe": 6.5,
+        "roe": 8.5,
         "debtRatio": 85,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 1.9,
-        "payoutRatio": 46,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥2,850 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 소비재 & 게임 엔터테인먼트 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥11.5조엔, 영업이익 ¥0.518조엔 (OPM 4.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 6.5%, 배당수익률 1.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "세븐앤아이 홀딩스 (Seven & i)(티커: 3382.T)은 일본 글로벌 소비재 & 게임 엔터테인먼트 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 2.1,
+        "payoutRatio": 38,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥2,700 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 패션 SPA & 종합 유통/F&B 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥11.5조엔, 영업이익 ¥0.518조엔 (OPM 4.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.5%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "세븐앤아이 (Seven & i 홀딩스 편의점 3382)(티커: 3382.T)은 일본 글로벌 패션 SPA & 종합 유통/F&B 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -221573,8 +223945,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.244조엔",
             "netProfit": "¥0.196조엔",
             "opMargin": "2.5%",
-            "eps": 80.75,
-            "roe": "5.5%",
+            "eps": 102,
+            "roe": "7.5%",
             "debtRatio": "91%"
           },
           {
@@ -221583,8 +223955,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.37조엔",
             "netProfit": "¥0.296조엔",
             "opMargin": "3.5%",
-            "eps": 87.4,
-            "roe": "6%",
+            "eps": 110.4,
+            "roe": "8%",
             "debtRatio": "88%"
           },
           {
@@ -221593,8 +223965,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.502조엔",
             "netProfit": "¥0.402조엔",
             "opMargin": "4.5%",
-            "eps": 92.15,
-            "roe": "6.5%",
+            "eps": 116.4,
+            "roe": "8.5%",
             "debtRatio": "85%"
           },
           {
@@ -221603,8 +223975,8 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.683조엔",
             "netProfit": "¥0.546조엔",
             "opMargin": "5.5%",
-            "eps": 102.6,
-            "roe": "7%",
+            "eps": 129.6,
+            "roe": "9%",
             "debtRatio": "82%"
           },
           {
@@ -221613,55 +223985,126 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "¥0.897조엔",
             "netProfit": "¥0.718조엔",
             "opMargin": "6.5%",
-            "eps": 114,
-            "roe": "7.5%",
+            "eps": 144,
+            "roe": "9.5%",
             "debtRatio": "79%"
+          }
+        ]
+      },
+      {
+        "name": "아사히 그룹 (Asahi Group 슈퍼드라이 2502)",
+        "code": "2502.T",
+        "marketCap": "¥2.8조엔",
+        "revenue": "¥2.8조엔",
+        "operatingProfit": "¥0.266조엔",
+        "opMargin": 9.5,
+        "eps": 340,
+        "per": 16,
+        "pbr": 1.4,
+        "roe": 9.5,
+        "debtRatio": 75,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.5,
+        "payoutRatio": 40,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥6,800 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 패션 SPA & 종합 유통/F&B 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥2.8조엔, 영업이익 ¥0.266조엔 (OPM 9.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 9.5%, 배당수익률 2.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "아사히 그룹 (Asahi Group 슈퍼드라이 2502)(티커: 2502.T)은 일본 글로벌 패션 SPA & 종합 유통/F&B 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥2.38조엔",
+            "opProfit": "¥0.179조엔",
+            "netProfit": "¥0.143조엔",
+            "opMargin": "7.5%",
+            "eps": 289,
+            "roe": "8.5%",
+            "debtRatio": "81%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥2.576조엔",
+            "opProfit": "¥0.219조엔",
+            "netProfit": "¥0.175조엔",
+            "opMargin": "8.5%",
+            "eps": 312.8,
+            "roe": "9%",
+            "debtRatio": "78%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥2.716조엔",
+            "opProfit": "¥0.258조엔",
+            "netProfit": "¥0.206조엔",
+            "opMargin": "9.5%",
+            "eps": 329.8,
+            "roe": "9.5%",
+            "debtRatio": "75%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥3.024조엔",
+            "opProfit": "¥0.318조엔",
+            "netProfit": "¥0.254조엔",
+            "opMargin": "10.5%",
+            "eps": 367.2,
+            "roe": "10%",
+            "debtRatio": "72%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥3.36조엔",
+            "opProfit": "¥0.386조엔",
+            "netProfit": "¥0.309조엔",
+            "opMargin": "11.5%",
+            "eps": 408,
+            "roe": "10.5%",
+            "debtRatio": "69%"
           }
         ]
       }
     ]
   },
   {
-    "id": "jp-materials",
+    "id": "jp-specialty-chem",
     "country": "일본",
-    "sector": "정밀 화학 & 그린 첨단소재",
+    "sector": "스페셜티 고기능 화학 & 첨단 탄소섬유",
     "chapterTitle": "일본 ➔ 화학·소재",
     "cluster": "화학·소재",
     "stockCount": 3,
-    "changeRate": "-0.55",
+    "changeRate": "0.07",
     "correlationLogic": {
-      "formula": "선단 공정용 극자외선(EUV) 감광액 수주 + 초고순도 화학원료 마진",
+      "formula": "항공기 인도량 증가 × 탄소섬유 프리미엄 가격 = 구조적 마진 개선",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 정밀 화학 & 그린 첨단소재 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 스페셜티 고기능 화학 & 첨단 탄소섬유 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "포토레지스트, 실리콘 웨이퍼, 분리막 등 전 세계 반도체·배터리 소재 시장 장악",
+      "currentStatus": "도레이의 보잉/에어버스용 탄소섬유 글로벌 1위 공급 및 닛토덴코의 폴더블/광학 필름 독점",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 반도체 소재 독점",
-        "summary": "포토레지스트, 실리콘 웨이퍼, 분리막 등 전 세계 반도체·배터리 소재 시장 장악"
+        "badgeText": "🟢 항공/우주 필수재",
+        "summary": "도레이의 보잉/에어버스용 탄소섬유 글로벌 1위 공급 및 닛토덴코의 폴더블/광학 필름 독점"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 반도체 소재 독점",
-      "keyDriver": "일본 정밀 화학 & 그린 첨단소재 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "토픽스 화학업 지수",
+      "statusBadge": "🟢 항공/우주 필수재",
+      "keyDriver": "일본 스페셜티 고기능 화학 & 첨단 탄소섬유 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "글로벌 탄소섬유 수급 및 복합소재 지수",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "글로벌 파운드리 선단 라인 증설 수혜 및 기술 진입 장벽 완벽",
-      "bearFactor": "원자재 기초 유분 가격 급등 및 수출 규제 불확실성"
+      "bullFactor": "차세대 수소 탱크 및 친환경 전기차 경량화 소재 수주 확대",
+      "bearFactor": "범용 섬유/석유화학 스프레드 둔화"
     },
     "indicators": [
       {
-        "name": "토픽스 화학업 지수",
+        "name": "글로벌 탄소섬유 수급 및 복합소재 지수",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "정밀 화학 & 그린 첨단소재 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "스페셜티 고기능 화학 & 첨단 탄소섬유 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -221676,80 +224119,151 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "도레이 (Toray Industries)",
+        "name": "도레이 (Toray 탄소섬유 1위 3402)",
         "code": "3402.T",
-        "marketCap": "¥1.5조엔",
+        "marketCap": "¥1.4조엔",
         "revenue": "¥2.5조엔",
-        "operatingProfit": "¥0.112조엔",
-        "opMargin": 4.5,
-        "eps": 50,
+        "operatingProfit": "¥0.12조엔",
+        "opMargin": 4.8,
+        "eps": 52,
         "per": 18,
-        "pbr": 0.9,
-        "roe": 5.2,
-        "debtRatio": 65,
+        "pbr": 0.8,
+        "roe": 5.5,
+        "debtRatio": 75,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 2.5,
         "payoutRatio": 45,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥1,125 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 정밀 화학 & 그린 첨단소재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥2.5조엔, 영업이익 ¥0.112조엔 (OPM 4.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 5.2%, 배당수익률 2.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "도레이 (Toray Industries)(티커: 3402.T)은 일본 정밀 화학 & 그린 첨단소재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥1,170 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 스페셜티 고기능 화학 & 첨단 탄소섬유 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥2.5조엔, 영업이익 ¥0.12조엔 (OPM 4.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 5.5%, 배당수익률 2.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "도레이 (Toray 탄소섬유 1위 3402)(티커: 3402.T)은 일본 스페셜티 고기능 화학 & 첨단 탄소섬유 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "¥2.125조엔",
-            "opProfit": "¥0.053조엔",
-            "netProfit": "¥0.043조엔",
-            "opMargin": "2.5%",
-            "eps": 42.5,
-            "roe": "4.2%",
-            "debtRatio": "71%"
+            "opProfit": "¥0.06조엔",
+            "netProfit": "¥0.048조엔",
+            "opMargin": "2.8%",
+            "eps": 44.2,
+            "roe": "4.5%",
+            "debtRatio": "81%"
           },
           {
             "year": "2022",
             "revenue": "¥2.3조엔",
-            "opProfit": "¥0.081조엔",
-            "netProfit": "¥0.064조엔",
-            "opMargin": "3.5%",
-            "eps": 46,
-            "roe": "4.7%",
-            "debtRatio": "68%"
+            "opProfit": "¥0.087조엔",
+            "netProfit": "¥0.07조엔",
+            "opMargin": "3.8%",
+            "eps": 47.84,
+            "roe": "5%",
+            "debtRatio": "78%"
           },
           {
             "year": "2023",
             "revenue": "¥2.425조엔",
-            "opProfit": "¥0.109조엔",
-            "netProfit": "¥0.087조엔",
-            "opMargin": "4.5%",
-            "eps": 48.5,
-            "roe": "5.2%",
-            "debtRatio": "65%"
+            "opProfit": "¥0.116조엔",
+            "netProfit": "¥0.093조엔",
+            "opMargin": "4.8%",
+            "eps": 50.44,
+            "roe": "5.5%",
+            "debtRatio": "75%"
           },
           {
             "year": "2024",
             "revenue": "¥2.7조엔",
-            "opProfit": "¥0.149조엔",
-            "netProfit": "¥0.119조엔",
-            "opMargin": "5.5%",
-            "eps": 54,
-            "roe": "5.7%",
-            "debtRatio": "62%"
+            "opProfit": "¥0.157조엔",
+            "netProfit": "¥0.125조엔",
+            "opMargin": "5.8%",
+            "eps": 56.16,
+            "roe": "6%",
+            "debtRatio": "72%"
           },
           {
             "year": "2025(E)",
             "revenue": "¥3조엔",
-            "opProfit": "¥0.195조엔",
-            "netProfit": "¥0.156조엔",
-            "opMargin": "6.5%",
-            "eps": 60,
-            "roe": "6.2%",
-            "debtRatio": "59%"
+            "opProfit": "¥0.204조엔",
+            "netProfit": "¥0.163조엔",
+            "opMargin": "6.8%",
+            "eps": 62.4,
+            "roe": "6.5%",
+            "debtRatio": "69%"
           }
         ]
       },
       {
-        "name": "아사히 카세이 (Asahi Kasei)",
+        "name": "닛토덴코 (Nitto Denko 광학필름 6988)",
+        "code": "6988.T",
+        "marketCap": "¥1.8조엔",
+        "revenue": "¥0.95조엔",
+        "operatingProfit": "¥0.138조엔",
+        "opMargin": 14.5,
+        "eps": 720,
+        "per": 17.5,
+        "pbr": 1.8,
+        "roe": 11.5,
+        "debtRatio": 8,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.2,
+        "payoutRatio": 39,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥15,750 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 스페셜티 고기능 화학 & 첨단 탄소섬유 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.95조엔, 영업이익 ¥0.138조엔 (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11.5%, 배당수익률 2.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "닛토덴코 (Nitto Denko 광학필름 6988)(티커: 6988.T)은 일본 스페셜티 고기능 화학 & 첨단 탄소섬유 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "¥0.808조엔",
+            "opProfit": "¥0.101조엔",
+            "netProfit": "¥0.081조엔",
+            "opMargin": "12.5%",
+            "eps": 612,
+            "roe": "10.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2022",
+            "revenue": "¥0.874조엔",
+            "opProfit": "¥0.118조엔",
+            "netProfit": "¥0.094조엔",
+            "opMargin": "13.5%",
+            "eps": 662.4,
+            "roe": "11%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2023",
+            "revenue": "¥0.922조엔",
+            "opProfit": "¥0.134조엔",
+            "netProfit": "¥0.107조엔",
+            "opMargin": "14.5%",
+            "eps": 698.4,
+            "roe": "11.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2024",
+            "revenue": "¥1.026조엔",
+            "opProfit": "¥0.159조엔",
+            "netProfit": "¥0.127조엔",
+            "opMargin": "15.5%",
+            "eps": 777.6,
+            "roe": "12%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "¥1.14조엔",
+            "opProfit": "¥0.188조엔",
+            "netProfit": "¥0.15조엔",
+            "opMargin": "16.5%",
+            "eps": 864,
+            "roe": "12.5%",
+            "debtRatio": "15%"
+          }
+        ]
+      },
+      {
+        "name": "아사히카세이 (Asahi Kasei 3407)",
         "code": "3407.T",
-        "marketCap": "¥1.6조엔",
+        "marketCap": "¥1.5조엔",
         "revenue": "¥2.8조엔",
         "operatingProfit": "¥0.162조엔",
         "opMargin": 5.8,
@@ -221757,13 +224271,13 @@ window.REGIONAL_INDUSTRY_DATA = {
         "per": 15,
         "pbr": 0.9,
         "roe": 6.5,
-        "debtRatio": 55,
+        "debtRatio": 65,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 3.2,
         "payoutRatio": 48,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥1,406 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 정밀 화학 & 그린 첨단소재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥2.8조엔, 영업이익 ¥0.162조엔 (OPM 5.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 6.5%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "아사히 카세이 (Asahi Kasei)(티커: 3407.T)은 일본 정밀 화학 & 그린 첨단소재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥1,406 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 스페셜티 고기능 화학 & 첨단 탄소섬유 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥2.8조엔, 영업이익 ¥0.162조엔 (OPM 5.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 6.5%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "아사히카세이 (Asahi Kasei 3407)(티커: 3407.T)은 일본 스페셜티 고기능 화학 & 첨단 탄소섬유 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -221773,7 +224287,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opMargin": "3.8%",
             "eps": 63.75,
             "roe": "5.5%",
-            "debtRatio": "61%"
+            "debtRatio": "71%"
           },
           {
             "year": "2022",
@@ -221783,7 +224297,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opMargin": "4.8%",
             "eps": 69,
             "roe": "6%",
-            "debtRatio": "58%"
+            "debtRatio": "68%"
           },
           {
             "year": "2023",
@@ -221793,7 +224307,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opMargin": "5.8%",
             "eps": 72.75,
             "roe": "6.5%",
-            "debtRatio": "55%"
+            "debtRatio": "65%"
           },
           {
             "year": "2024",
@@ -221803,7 +224317,7 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opMargin": "6.8%",
             "eps": 81,
             "roe": "7%",
-            "debtRatio": "52%"
+            "debtRatio": "62%"
           },
           {
             "year": "2025(E)",
@@ -221813,124 +224327,53 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opMargin": "7.8%",
             "eps": 90,
             "roe": "7.5%",
-            "debtRatio": "49%"
-          }
-        ]
-      },
-      {
-        "name": "닛토 덴코 (Nitto Denko)",
-        "code": "6988.T",
-        "marketCap": "¥1.8조엔",
-        "revenue": "¥0.9조엔",
-        "operatingProfit": "¥0.131조엔",
-        "opMargin": 14.5,
-        "eps": 155,
-        "per": 17,
-        "pbr": 1.8,
-        "roe": 11,
-        "debtRatio": 10,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 2.4,
-        "payoutRatio": 41,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥3,294 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 정밀 화학 & 그린 첨단소재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥0.9조엔, 영업이익 ¥0.131조엔 (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11%, 배당수익률 2.4%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "닛토 덴코 (Nitto Denko)(티커: 6988.T)은 일본 정밀 화학 & 그린 첨단소재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "¥0.765조엔",
-            "opProfit": "¥0.096조엔",
-            "netProfit": "¥0.077조엔",
-            "opMargin": "12.5%",
-            "eps": 131.75,
-            "roe": "10%",
-            "debtRatio": "16%"
-          },
-          {
-            "year": "2022",
-            "revenue": "¥0.828조엔",
-            "opProfit": "¥0.112조엔",
-            "netProfit": "¥0.089조엔",
-            "opMargin": "13.5%",
-            "eps": 142.6,
-            "roe": "10.5%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2023",
-            "revenue": "¥0.873조엔",
-            "opProfit": "¥0.127조엔",
-            "netProfit": "¥0.101조엔",
-            "opMargin": "14.5%",
-            "eps": 150.35,
-            "roe": "11%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2024",
-            "revenue": "¥0.972조엔",
-            "opProfit": "¥0.151조엔",
-            "netProfit": "¥0.121조엔",
-            "opMargin": "15.5%",
-            "eps": 167.4,
-            "roe": "11.5%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "¥1.08조엔",
-            "opProfit": "¥0.178조엔",
-            "netProfit": "¥0.143조엔",
-            "opMargin": "16.5%",
-            "eps": 186,
-            "roe": "12%",
-            "debtRatio": "15%"
+            "debtRatio": "59%"
           }
         ]
       }
     ]
   },
   {
-    "id": "jp-steel",
+    "id": "jp-heavy-steel",
     "country": "일본",
-    "sector": "철강 & 인프라 엔지니어링",
+    "sector": "특수강 & 발전 중공업/방산",
     "chapterTitle": "일본 ➔ 철강·중공업",
     "cluster": "철강·중공업",
     "stockCount": 3,
-    "changeRate": "0.24",
+    "changeRate": "-0.35",
     "correlationLogic": {
-      "formula": "특수 고장력 강판 ASP - 철광석/원료탄 원가 = 톤당 스프레드 마진",
+      "formula": "방위성 방산 계약 예산 + 발전용 대형 가스터빈 수주 = 사상 최대 수주 잔고",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 철강 & 인프라 엔지니어링 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 특수강 & 발전 중공업/방산 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "일본제철의 US스틸 인수 추진과 고부가 전자기술강판 중심 포트폴리오 개편",
+      "currentStatus": "미쓰비시중공업의 일본 자위대 미사일/전투기 수주 4배 폭증 및 고수익 가스터빈 공급",
       "outlookSignal": {
-        "level": "NEUTRAL",
-        "badgeText": "⚖️ US스틸 인수",
-        "summary": "일본제철의 US스틸 인수 추진과 고부가 전자기술강판 중심 포트폴리오 개편"
+        "level": "BULLISH",
+        "badgeText": "🟢 방위비 2배 증액",
+        "summary": "미쓰비시중공업의 일본 자위대 미사일/전투기 수주 4배 폭증 및 고수익 가스터빈 공급"
       }
     },
     "demandAnalysis": {
-      "status": "MODERATE",
-      "statusBadge": "⚖️ US스틸 인수",
-      "keyDriver": "일본 철강 & 인프라 엔지니어링 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "철광석 선물 가격 & 열연강판 스프레드",
+      "status": "STRONG",
+      "statusBadge": "🟢 방위비 2배 증액",
+      "keyDriver": "일본 특수강 & 발전 중공업/방산 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "일본 방위성 조달 예산 및 공작기계 통계",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "북미 인프라 투자 수혜 및 무방향성 전자강판(EV 구동모터용) 독점",
-      "bearFactor": "미국 대선 전후 US스틸 인수 정치적 승인 지연 리스크"
+      "bullFactor": "일본 방위 예산 GDP 2% 조기 상향 및 코마츠 굴삭기 글로벌 광산 수주 지속",
+      "bearFactor": "철광석 원자재 비용 급등 시 조강 마진 압박"
     },
     "indicators": [
       {
-        "name": "철광석 선물 가격 & 열연강판 스프레드",
+        "name": "일본 방위성 조달 예산 및 공작기계 통계",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "철강 & 인프라 엔지니어링 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "특수강 & 발전 중공업/방산 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -221945,214 +224388,214 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "일본제철 (Nippon Steel)",
-        "code": "5401.T",
-        "marketCap": "¥3.2조엔",
-        "revenue": "¥8.8조엔",
-        "operatingProfit": "¥0.748조엔",
-        "opMargin": 8.5,
-        "eps": 480,
-        "per": 6.8,
-        "pbr": 0.6,
-        "roe": 11,
+        "name": "미쓰비시중공업 (Mitsubishi Heavy 7011)",
+        "code": "7011.T",
+        "marketCap": "¥7.2조엔",
+        "revenue": "¥4.7조엔",
+        "operatingProfit": "¥0.353조엔",
+        "opMargin": 7.5,
+        "eps": 68,
+        "per": 32,
+        "pbr": 3.8,
+        "roe": 13.5,
         "debtRatio": 65,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 5.1,
-        "payoutRatio": 35,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥4,080 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 철강 & 인프라 엔지니어링 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥8.8조엔, 영업이익 ¥0.748조엔 (OPM 8.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11%, 배당수익률 5.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "일본제철 (Nippon Steel)(티커: 5401.T)은 일본 철강 & 인프라 엔지니어링 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 1.2,
+        "payoutRatio": 38,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥2,720 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 특수강 & 발전 중공업/방산 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥4.7조엔, 영업이익 ¥0.353조엔 (OPM 7.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13.5%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "미쓰비시중공업 (Mitsubishi Heavy 7011)(티커: 7011.T)은 일본 특수강 & 발전 중공업/방산 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "¥7.48조엔",
-            "opProfit": "¥0.486조엔",
-            "netProfit": "¥0.389조엔",
-            "opMargin": "6.5%",
-            "eps": 408,
-            "roe": "10%",
+            "revenue": "¥3.995조엔",
+            "opProfit": "¥0.22조엔",
+            "netProfit": "¥0.176조엔",
+            "opMargin": "5.5%",
+            "eps": 57.8,
+            "roe": "12.5%",
             "debtRatio": "71%"
           },
           {
             "year": "2022",
-            "revenue": "¥8.096조엔",
-            "opProfit": "¥0.607조엔",
-            "netProfit": "¥0.486조엔",
-            "opMargin": "7.5%",
-            "eps": 441.6,
-            "roe": "10.5%",
+            "revenue": "¥4.324조엔",
+            "opProfit": "¥0.281조엔",
+            "netProfit": "¥0.225조엔",
+            "opMargin": "6.5%",
+            "eps": 62.56,
+            "roe": "13%",
             "debtRatio": "68%"
           },
           {
             "year": "2023",
-            "revenue": "¥8.536조엔",
-            "opProfit": "¥0.726조엔",
-            "netProfit": "¥0.58조엔",
-            "opMargin": "8.5%",
-            "eps": 465.6,
-            "roe": "11%",
+            "revenue": "¥4.559조엔",
+            "opProfit": "¥0.342조엔",
+            "netProfit": "¥0.274조엔",
+            "opMargin": "7.5%",
+            "eps": 65.96,
+            "roe": "13.5%",
             "debtRatio": "65%"
           },
           {
             "year": "2024",
-            "revenue": "¥9.504조엔",
-            "opProfit": "¥0.903조엔",
-            "netProfit": "¥0.722조엔",
-            "opMargin": "9.5%",
-            "eps": 518.4,
-            "roe": "11.5%",
+            "revenue": "¥5.076조엔",
+            "opProfit": "¥0.431조엔",
+            "netProfit": "¥0.345조엔",
+            "opMargin": "8.5%",
+            "eps": 73.44,
+            "roe": "14%",
             "debtRatio": "62%"
           },
           {
             "year": "2025(E)",
-            "revenue": "¥10.56조엔",
-            "opProfit": "¥1.109조엔",
-            "netProfit": "¥0.887조엔",
-            "opMargin": "10.5%",
-            "eps": 576,
-            "roe": "12%",
+            "revenue": "¥5.64조엔",
+            "opProfit": "¥0.536조엔",
+            "netProfit": "¥0.429조엔",
+            "opMargin": "9.5%",
+            "eps": 81.6,
+            "roe": "14.5%",
             "debtRatio": "59%"
           }
         ]
       },
       {
-        "name": "JFE 홀딩스 (JFE Holdings)",
-        "code": "5411.T",
-        "marketCap": "¥1.4조엔",
-        "revenue": "¥5.2조엔",
-        "operatingProfit": "¥0.312조엔",
-        "opMargin": 6,
-        "eps": 290,
-        "per": 7.5,
-        "pbr": 0.5,
-        "roe": 8.5,
-        "debtRatio": 85,
+        "name": "일본제철 (Nippon Steel 5401)",
+        "code": "5401.T",
+        "marketCap": "¥3.1조엔",
+        "revenue": "¥8.8조엔",
+        "operatingProfit": "¥0.81조엔",
+        "opMargin": 9.2,
+        "eps": 460,
+        "per": 6.8,
+        "pbr": 0.7,
+        "roe": 11,
+        "debtRatio": 55,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 4.8,
-        "payoutRatio": 36,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥2,719 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 철강 & 인프라 엔지니어링 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥5.2조엔, 영업이익 ¥0.312조엔 (OPM 6%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.5%, 배당수익률 4.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "JFE 홀딩스 (JFE Holdings)(티커: 5411.T)은 일본 철강 & 인프라 엔지니어링 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 5.1,
+        "payoutRatio": 35,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥3,910 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 특수강 & 발전 중공업/방산 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥8.8조엔, 영업이익 ¥0.81조엔 (OPM 9.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11%, 배당수익률 5.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "일본제철 (Nippon Steel 5401)(티커: 5401.T)은 일본 특수강 & 발전 중공업/방산 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "¥4.42조엔",
-            "opProfit": "¥0.177조엔",
-            "netProfit": "¥0.141조엔",
-            "opMargin": "4%",
-            "eps": 246.5,
-            "roe": "7.5%",
-            "debtRatio": "91%"
+            "revenue": "¥7.48조엔",
+            "opProfit": "¥0.539조엔",
+            "netProfit": "¥0.431조엔",
+            "opMargin": "7.2%",
+            "eps": 391,
+            "roe": "10%",
+            "debtRatio": "61%"
           },
           {
             "year": "2022",
-            "revenue": "¥4.784조엔",
-            "opProfit": "¥0.239조엔",
-            "netProfit": "¥0.191조엔",
-            "opMargin": "5%",
-            "eps": 266.8,
-            "roe": "8%",
-            "debtRatio": "88%"
+            "revenue": "¥8.096조엔",
+            "opProfit": "¥0.664조엔",
+            "netProfit": "¥0.531조엔",
+            "opMargin": "8.2%",
+            "eps": 423.2,
+            "roe": "10.5%",
+            "debtRatio": "58%"
           },
           {
             "year": "2023",
-            "revenue": "¥5.044조엔",
-            "opProfit": "¥0.303조엔",
-            "netProfit": "¥0.242조엔",
-            "opMargin": "6%",
-            "eps": 281.3,
-            "roe": "8.5%",
-            "debtRatio": "85%"
+            "revenue": "¥8.536조엔",
+            "opProfit": "¥0.785조엔",
+            "netProfit": "¥0.628조엔",
+            "opMargin": "9.2%",
+            "eps": 446.2,
+            "roe": "11%",
+            "debtRatio": "55%"
           },
           {
             "year": "2024",
-            "revenue": "¥5.616조엔",
-            "opProfit": "¥0.393조엔",
-            "netProfit": "¥0.314조엔",
-            "opMargin": "7%",
-            "eps": 313.2,
-            "roe": "9%",
-            "debtRatio": "82%"
+            "revenue": "¥9.504조엔",
+            "opProfit": "¥0.969조엔",
+            "netProfit": "¥0.776조엔",
+            "opMargin": "10.2%",
+            "eps": 496.8,
+            "roe": "11.5%",
+            "debtRatio": "52%"
           },
           {
             "year": "2025(E)",
-            "revenue": "¥6.24조엔",
-            "opProfit": "¥0.499조엔",
-            "netProfit": "¥0.399조엔",
-            "opMargin": "8%",
-            "eps": 348,
-            "roe": "9.5%",
-            "debtRatio": "79%"
+            "revenue": "¥10.56조엔",
+            "opProfit": "¥1.183조엔",
+            "netProfit": "¥0.946조엔",
+            "opMargin": "11.2%",
+            "eps": 552,
+            "roe": "12%",
+            "debtRatio": "49%"
           }
         ]
       },
       {
-        "name": "오바야시구미 (Obayashi)",
-        "code": "1802.T",
-        "marketCap": "¥1.2조엔",
-        "revenue": "¥2.3조엔",
-        "operatingProfit": "¥0.104조엔",
-        "opMargin": 4.5,
-        "eps": 155,
+        "name": "코마츠 (Komatsu 건설기계 6301)",
+        "code": "6301.T",
+        "marketCap": "¥4.1조엔",
+        "revenue": "¥3.9조엔",
+        "operatingProfit": "¥0.605조엔",
+        "opMargin": 15.5,
+        "eps": 360,
         "per": 11.5,
-        "pbr": 1.1,
-        "roe": 9.8,
+        "pbr": 1.4,
+        "roe": 13.5,
         "debtRatio": 45,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 4.2,
-        "payoutRatio": 48,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥2,228 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 철강 & 인프라 엔지니어링 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥2.3조엔, 영업이익 ¥0.104조엔 (OPM 4.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 9.8%, 배당수익률 4.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "오바야시구미 (Obayashi)(티커: 1802.T)은 일본 철강 & 인프라 엔지니어링 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "dividendYield": 3.8,
+        "payoutRatio": 44,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: ¥5,175 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 특수강 & 발전 중공업/방산 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 ¥3.9조엔, 영업이익 ¥0.605조엔 (OPM 15.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13.5%, 배당수익률 3.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "코마츠 (Komatsu 건설기계 6301)(티커: 6301.T)은 일본 특수강 & 발전 중공업/방산 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "¥1.955조엔",
-            "opProfit": "¥0.049조엔",
-            "netProfit": "¥0.039조엔",
-            "opMargin": "2.5%",
-            "eps": 131.75,
-            "roe": "8.8%",
+            "revenue": "¥3.315조엔",
+            "opProfit": "¥0.448조엔",
+            "netProfit": "¥0.358조엔",
+            "opMargin": "13.5%",
+            "eps": 306,
+            "roe": "12.5%",
             "debtRatio": "51%"
           },
           {
             "year": "2022",
-            "revenue": "¥2.116조엔",
-            "opProfit": "¥0.074조엔",
-            "netProfit": "¥0.059조엔",
-            "opMargin": "3.5%",
-            "eps": 142.6,
-            "roe": "9.3%",
+            "revenue": "¥3.588조엔",
+            "opProfit": "¥0.52조엔",
+            "netProfit": "¥0.416조엔",
+            "opMargin": "14.5%",
+            "eps": 331.2,
+            "roe": "13%",
             "debtRatio": "48%"
           },
           {
             "year": "2023",
-            "revenue": "¥2.231조엔",
-            "opProfit": "¥0.1조엔",
-            "netProfit": "¥0.08조엔",
-            "opMargin": "4.5%",
-            "eps": 150.35,
-            "roe": "9.8%",
+            "revenue": "¥3.783조엔",
+            "opProfit": "¥0.586조엔",
+            "netProfit": "¥0.469조엔",
+            "opMargin": "15.5%",
+            "eps": 349.2,
+            "roe": "13.5%",
             "debtRatio": "45%"
           },
           {
             "year": "2024",
-            "revenue": "¥2.484조엔",
-            "opProfit": "¥0.137조엔",
-            "netProfit": "¥0.109조엔",
-            "opMargin": "5.5%",
-            "eps": 167.4,
-            "roe": "10.3%",
+            "revenue": "¥4.212조엔",
+            "opProfit": "¥0.695조엔",
+            "netProfit": "¥0.556조엔",
+            "opMargin": "16.5%",
+            "eps": 388.8,
+            "roe": "14%",
             "debtRatio": "42%"
           },
           {
             "year": "2025(E)",
-            "revenue": "¥2.76조엔",
-            "opProfit": "¥0.179조엔",
-            "netProfit": "¥0.144조엔",
-            "opMargin": "6.5%",
-            "eps": 186,
-            "roe": "10.8%",
+            "revenue": "¥4.68조엔",
+            "opProfit": "¥0.819조엔",
+            "netProfit": "¥0.655조엔",
+            "opMargin": "17.5%",
+            "eps": 432,
+            "roe": "14.5%",
             "debtRatio": "39%"
           }
         ]
@@ -222162,46 +224605,46 @@ window.REGIONAL_INDUSTRY_DATA = {
 ],
     '중국': [
   {
-    "id": "cn-tech",
+    "id": "cn-bigtech-ai",
     "country": "중국",
-    "sector": "플랫폼 빅테크 & 생성형 AI",
+    "sector": "플랫폼 빅테크 & 클라우드/소셜",
     "chapterTitle": "중국 ➔ 빅테크·AI",
     "cluster": "빅테크·AI",
-    "stockCount": 6,
-    "changeRate": "0.17",
+    "stockCount": 4,
+    "changeRate": "1.02",
     "correlationLogic": {
-      "formula": "클라우드/게임 MAU × 광고 추천 정밀도 - 마케팅비 = 영업이익률 30%대",
+      "formula": "위챗/클라우드 수익화 + 게임 해외 매출 - AI 인프라 CAPEX = 압도적 잉여현금흐름",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 플랫폼 빅테크 & 생성형 AI 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 플랫폼 빅테크 & 클라우드/소셜 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "정부 빅테크 친화 기조 전환 및 오픈소스 AI 모델(Hunyuan/Qwen) 생태계 확장",
+      "currentStatus": "텐센트와 알리바바의 OPM 30%대 호실적과 매년 수백억 달러 규모 자사주 매입·소각",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 규제완화 & AI",
-        "summary": "정부 빅테크 친화 기조 전환 및 오픈소스 AI 모델(Hunyuan/Qwen) 생태계 확장"
+        "badgeText": "🟢 강력한 주주환원",
+        "summary": "텐센트와 알리바바의 OPM 30%대 호실적과 매년 수백억 달러 규모 자사주 매입·소각"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 규제완화 & AI",
-      "keyDriver": "중국 플랫폼 빅테크 & 생성형 AI 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "항셍 테크 지수 (Hang Seng Tech Index)",
+      "statusBadge": "🟢 강력한 주주환원",
+      "keyDriver": "중국 플랫폼 빅테크 & 클라우드/소셜 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "항셍 테크 지수 (Hang Seng TECH Index)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "중국 대규모 경기부양책(재정+통화) 수혜 및 자사주 매입 역대 최대",
-      "bearFactor": "미국의 첨단 AI 칩 반입 금지에 따른 데이터센터 연산 파워 제약"
+      "bullFactor": "자체 거대언어모델(Hunyuan/Qwen)의 엔터프라이즈 탑재 가속 및 주주환원율 6% 상회",
+      "bearFactor": "중국 정부의 빅테크 데이터 규제 및 미 상무부 첨단 GPU 수입 제한"
     },
     "indicators": [
       {
-        "name": "항셍 테크 지수 (Hang Seng Tech Index)",
+        "name": "항셍 테크 지수 (Hang Seng TECH Index)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "플랫폼 빅테크 & 생성형 AI 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "플랫폼 빅테크 & 클라우드/소셜 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -222216,94 +224659,94 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "텐센트 (Tencent 腾讯)",
+        "name": "텐센트 (Tencent 腾讯 0700)",
         "code": "0700.HK",
         "marketCap": "39,500억위안",
         "revenue": "6,100억위안",
-        "operatingProfit": "1,982.5억위안",
-        "opMargin": 32.5,
+        "operatingProfit": "2,318억위안",
+        "opMargin": 38,
         "eps": 21.5,
-        "per": 21,
+        "per": 18.5,
         "pbr": 3.8,
-        "roe": 20,
-        "debtRatio": 25,
+        "roe": 21,
+        "debtRatio": 28,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 0.9,
-        "payoutRatio": 19,
+        "payoutRatio": 17,
         "comment": "[모건스탠리 & CICC 최신 분석 보고서 종합]\n• 목표주가: HK$500.00 (투자의견: 강력매수 / 중국 테크 Top Pick)\n• 2025~2026 실적 전망: 모바일 게임 '던전앤파이터 모바일' 대흥행과 위챗(WeChat) 비디오 계정 광고 매출이 30% 이상 성장하며 OPM 38%대의 뛰어난 이익 레버리지를 증명하고 있습니다. 자체 파운데이션 모델 'Hunyuan' 기반 AI 도구들이 기업용 SaaS에 빠르게 침투 중입니다.\n• 핵심 모멘텀: 연간 1,000억 홍콩달러 이상의 공격적인 자사주 매입·소각 프로그램 진행, 텐센트 클라우드 흑자 기조 안착.\n• 리스크 요인: 중국 내 게임 판호 발급 정책 규제 및 청소년 게임 시간 제한.",
         "businessSummary": "텐센트(HKEX: 0700)는 13억 명이 사용하는 위챗(WeChat), 글로벌 최대 게임 퍼블리싱 사업(리그오브레전드, 배틀그라운드 등), 모바일 결제(Tenpay), 텐센트 클라우드를 운영하는 중국 대표 플랫폼 빅테크입니다.",
         "financials5Y": [
           {
             "year": "2021",
             "revenue": "5,185억위안",
-            "opProfit": "1,581.425억위안",
-            "netProfit": "1,265.14억위안",
-            "opMargin": "30.5%",
+            "opProfit": "1,866.6억위안",
+            "netProfit": "1,493.28억위안",
+            "opMargin": "36%",
             "eps": 18.27,
-            "roe": "19%",
-            "debtRatio": "31%"
+            "roe": "20%",
+            "debtRatio": "34%"
           },
           {
             "year": "2022",
             "revenue": "5,612억위안",
-            "opProfit": "1,767.78억위안",
-            "netProfit": "1,414.224억위안",
-            "opMargin": "31.5%",
+            "opProfit": "2,076.44억위안",
+            "netProfit": "1,661.152억위안",
+            "opMargin": "37%",
             "eps": 19.78,
-            "roe": "19.5%",
-            "debtRatio": "28%"
+            "roe": "20.5%",
+            "debtRatio": "31%"
           },
           {
             "year": "2023",
             "revenue": "5,917억위안",
-            "opProfit": "1,923.025억위안",
-            "netProfit": "1,538.42억위안",
-            "opMargin": "32.5%",
+            "opProfit": "2,248.46억위안",
+            "netProfit": "1,798.768억위안",
+            "opMargin": "38%",
             "eps": 20.86,
-            "roe": "20%",
-            "debtRatio": "25%"
+            "roe": "21%",
+            "debtRatio": "28%"
           },
           {
             "year": "2024",
             "revenue": "6,588억위안",
-            "opProfit": "2,206.98억위안",
-            "netProfit": "1,765.584억위안",
-            "opMargin": "33.5%",
+            "opProfit": "2,569.32억위안",
+            "netProfit": "2,055.456억위안",
+            "opMargin": "39%",
             "eps": 23.22,
-            "roe": "20.5%",
-            "debtRatio": "22%"
+            "roe": "21.5%",
+            "debtRatio": "25%"
           },
           {
             "year": "2025(E)",
             "revenue": "7,320억위안",
-            "opProfit": "2,525.4억위안",
-            "netProfit": "2,020.32억위안",
-            "opMargin": "34.5%",
+            "opProfit": "2,928억위안",
+            "netProfit": "2,342.4억위안",
+            "opMargin": "40%",
             "eps": 25.8,
-            "roe": "21%",
-            "debtRatio": "19%"
+            "roe": "22%",
+            "debtRatio": "22%"
           }
         ]
       },
       {
-        "name": "알리바바 (Alibaba 阿里巴巴)",
+        "name": "알리바바 (Alibaba 阿里巴巴 9988)",
         "code": "9988.HK",
         "marketCap": "19,500억위안",
         "revenue": "9,400억위안",
         "operatingProfit": "1,363억위안",
         "opMargin": 14.5,
-        "eps": 7.8,
+        "eps": 8.5,
         "per": 11.5,
-        "pbr": 1.4,
-        "roe": 12.5,
-        "debtRatio": 28,
+        "pbr": 1.2,
+        "roe": 12,
+        "debtRatio": 22,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 2.1,
         "payoutRatio": 24,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 112.1위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 플랫폼 빅테크 & 생성형 AI 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 9,400억위안, 영업이익 1,363억위안 (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12.5%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "알리바바 (Alibaba 阿里巴巴)(티커: 9988.HK)은 중국 플랫폼 빅테크 & 생성형 AI 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 122.2위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 플랫폼 빅테크 & 클라우드/소셜 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 9,400억위안, 영업이익 1,363억위안 (OPM 14.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "알리바바 (Alibaba 阿里巴巴 9988)(티커: 9988.HK)은 중국 플랫폼 빅테크 & 클라우드/소셜 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -222311,9 +224754,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "998.75억위안",
             "netProfit": "799억위안",
             "opMargin": "12.5%",
-            "eps": 6.63,
-            "roe": "11.5%",
-            "debtRatio": "34%"
+            "eps": 7.23,
+            "roe": "11%",
+            "debtRatio": "28%"
           },
           {
             "year": "2022",
@@ -222321,9 +224764,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "1,167.48억위안",
             "netProfit": "933.984억위안",
             "opMargin": "13.5%",
-            "eps": 7.18,
-            "roe": "12%",
-            "debtRatio": "31%"
+            "eps": 7.82,
+            "roe": "11.5%",
+            "debtRatio": "25%"
           },
           {
             "year": "2023",
@@ -222331,9 +224774,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "1,322.11억위안",
             "netProfit": "1,057.688억위안",
             "opMargin": "14.5%",
-            "eps": 7.57,
-            "roe": "12.5%",
-            "debtRatio": "28%"
+            "eps": 8.24,
+            "roe": "12%",
+            "debtRatio": "22%"
           },
           {
             "year": "2024",
@@ -222341,9 +224784,9 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "1,573.56억위안",
             "netProfit": "1,258.848억위안",
             "opMargin": "15.5%",
-            "eps": 8.42,
-            "roe": "13%",
-            "debtRatio": "25%"
+            "eps": 9.18,
+            "roe": "12.5%",
+            "debtRatio": "19%"
           },
           {
             "year": "2025(E)",
@@ -222351,339 +224794,197 @@ window.REGIONAL_INDUSTRY_DATA = {
             "opProfit": "1,861.2억위안",
             "netProfit": "1,488.96억위안",
             "opMargin": "16.5%",
-            "eps": 9.36,
-            "roe": "13.5%",
-            "debtRatio": "22%"
-          }
-        ]
-      },
-      {
-        "name": "메이투안 (Meituan 美团)",
-        "code": "3690.HK",
-        "marketCap": "11,500억위안",
-        "revenue": "2,750억위안",
-        "operatingProfit": "330억위안",
-        "opMargin": 12,
-        "eps": 6.5,
-        "per": 24,
-        "pbr": 5.5,
-        "roe": 22,
-        "debtRatio": 35,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 0,
-        "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 195.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 플랫폼 빅테크 & 생성형 AI 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 2,750억위안, 영업이익 330억위안 (OPM 12%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 22%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "메이투안 (Meituan 美团)(티커: 3690.HK)은 중국 플랫폼 빅테크 & 생성형 AI 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "2,337.5억위안",
-            "opProfit": "233.75억위안",
-            "netProfit": "187억위안",
-            "opMargin": "10%",
-            "eps": 5.53,
-            "roe": "21%",
-            "debtRatio": "41%"
-          },
-          {
-            "year": "2022",
-            "revenue": "2,530억위안",
-            "opProfit": "278.3억위안",
-            "netProfit": "222.64억위안",
-            "opMargin": "11%",
-            "eps": 5.98,
-            "roe": "21.5%",
-            "debtRatio": "38%"
-          },
-          {
-            "year": "2023",
-            "revenue": "2,667.5억위안",
-            "opProfit": "320.1억위안",
-            "netProfit": "256.08억위안",
-            "opMargin": "12%",
-            "eps": 6.31,
-            "roe": "22%",
-            "debtRatio": "35%"
-          },
-          {
-            "year": "2024",
-            "revenue": "2,970억위안",
-            "opProfit": "386.1억위안",
-            "netProfit": "308.88억위안",
-            "opMargin": "13%",
-            "eps": 7.02,
-            "roe": "22.5%",
-            "debtRatio": "32%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "3,300억위안",
-            "opProfit": "462억위안",
-            "netProfit": "369.6억위안",
-            "opMargin": "14%",
-            "eps": 7.8,
-            "roe": "23%",
-            "debtRatio": "29%"
-          }
-        ]
-      },
-      {
-        "name": "넷이즈 (NetEase 网易)",
-        "code": "9999.HK",
-        "marketCap": "4,800억위안",
-        "revenue": "1,050억위안",
-        "operatingProfit": "304.5억위안",
-        "opMargin": 29,
-        "eps": 9.8,
-        "per": 14,
-        "pbr": 3.8,
-        "roe": 28,
-        "debtRatio": 15,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 3.1,
-        "payoutRatio": 43,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 171.5위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 플랫폼 빅테크 & 생성형 AI 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,050억위안, 영업이익 304.5억위안 (OPM 29%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 28%, 배당수익률 3.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "넷이즈 (NetEase 网易)(티커: 9999.HK)은 중국 플랫폼 빅테크 & 생성형 AI 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "892.5억위안",
-            "opProfit": "240.975억위안",
-            "netProfit": "192.78억위안",
-            "opMargin": "27%",
-            "eps": 8.33,
-            "roe": "27%",
-            "debtRatio": "21%"
-          },
-          {
-            "year": "2022",
-            "revenue": "966억위안",
-            "opProfit": "270.48억위안",
-            "netProfit": "216.384억위안",
-            "opMargin": "28%",
-            "eps": 9.02,
-            "roe": "27.5%",
-            "debtRatio": "18%"
-          },
-          {
-            "year": "2023",
-            "revenue": "1,018.5억위안",
-            "opProfit": "295.365억위안",
-            "netProfit": "236.292억위안",
-            "opMargin": "29%",
-            "eps": 9.51,
-            "roe": "28%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2024",
-            "revenue": "1,134억위안",
-            "opProfit": "340.2억위안",
-            "netProfit": "272.16억위안",
-            "opMargin": "30%",
-            "eps": 10.58,
-            "roe": "28.5%",
-            "debtRatio": "15%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "1,260억위안",
-            "opProfit": "390.6억위안",
-            "netProfit": "312.48억위안",
-            "opMargin": "31%",
-            "eps": 11.76,
-            "roe": "29%",
-            "debtRatio": "15%"
-          }
-        ]
-      },
-      {
-        "name": "바이두 (Baidu 百度)",
-        "code": "9888.HK",
-        "marketCap": "2,400억위안",
-        "revenue": "1,350억위안",
-        "operatingProfit": "243억위안",
-        "opMargin": 18,
-        "eps": 8.2,
-        "per": 10.5,
-        "pbr": 0.9,
-        "roe": 8.5,
-        "debtRatio": 22,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 0,
-        "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 107.6위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 플랫폼 빅테크 & 생성형 AI 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,350억위안, 영업이익 243억위안 (OPM 18%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 8.5%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "바이두 (Baidu 百度)(티커: 9888.HK)은 중국 플랫폼 빅테크 & 생성형 AI 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "1,147.5억위안",
-            "opProfit": "183.6억위안",
-            "netProfit": "146.88억위안",
-            "opMargin": "16%",
-            "eps": 6.97,
-            "roe": "7.5%",
-            "debtRatio": "28%"
-          },
-          {
-            "year": "2022",
-            "revenue": "1,242억위안",
-            "opProfit": "211.14억위안",
-            "netProfit": "168.912억위안",
-            "opMargin": "17%",
-            "eps": 7.54,
-            "roe": "8%",
-            "debtRatio": "25%"
-          },
-          {
-            "year": "2023",
-            "revenue": "1,309.5억위안",
-            "opProfit": "235.71억위안",
-            "netProfit": "188.568억위안",
-            "opMargin": "18%",
-            "eps": 7.95,
-            "roe": "8.5%",
-            "debtRatio": "22%"
-          },
-          {
-            "year": "2024",
-            "revenue": "1,458억위안",
-            "opProfit": "277.02억위안",
-            "netProfit": "221.616억위안",
-            "opMargin": "19%",
-            "eps": 8.86,
-            "roe": "9%",
-            "debtRatio": "19%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "1,620억위안",
-            "opProfit": "324억위안",
-            "netProfit": "259.2억위안",
-            "opMargin": "20%",
-            "eps": 9.84,
-            "roe": "9.5%",
+            "eps": 10.2,
+            "roe": "13%",
             "debtRatio": "16%"
           }
         ]
       },
       {
-        "name": "샤오미 (Xiaomi 小米)",
-        "code": "1810.HK",
-        "marketCap": "6,200억위안",
-        "revenue": "2,700억위안",
-        "operatingProfit": "229.5억위안",
-        "opMargin": 8.5,
-        "eps": 1,
-        "per": 26,
-        "pbr": 3.4,
-        "roe": 14,
-        "debtRatio": 45,
+        "name": "바이두 (Baidu 百度 9888)",
+        "code": "9888.HK",
+        "marketCap": "2,450억위안",
+        "revenue": "1,350억위안",
+        "operatingProfit": "263.25억위안",
+        "opMargin": 19.5,
+        "eps": 9.8,
+        "per": 10.5,
+        "pbr": 0.9,
+        "roe": 9.5,
+        "debtRatio": 35,
         "currentRatio": 140,
         "riskStatus": "SAFE",
         "dividendYield": 0,
         "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 32.5위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 플랫폼 빅테크 & 생성형 AI 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 2,700억위안, 영업이익 229.5억위안 (OPM 8.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "샤오미 (Xiaomi 小米)(티커: 1810.HK)은 중국 플랫폼 빅테크 & 생성형 AI 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 128.6위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 플랫폼 빅테크 & 클라우드/소셜 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,350억위안, 영업이익 263.25억위안 (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 9.5%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "바이두 (Baidu 百度 9888)(티커: 9888.HK)은 중국 플랫폼 빅테크 & 클라우드/소셜 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "2,295억위안",
-            "opProfit": "149.175억위안",
-            "netProfit": "119.34억위안",
-            "opMargin": "6.5%",
-            "eps": 0.85,
-            "roe": "13%",
-            "debtRatio": "51%"
+            "revenue": "1,147.5억위안",
+            "opProfit": "200.813억위안",
+            "netProfit": "160.65억위안",
+            "opMargin": "17.5%",
+            "eps": 8.33,
+            "roe": "8.5%",
+            "debtRatio": "41%"
           },
           {
             "year": "2022",
-            "revenue": "2,484억위안",
-            "opProfit": "186.3억위안",
-            "netProfit": "149.04억위안",
-            "opMargin": "7.5%",
-            "eps": 0.92,
-            "roe": "13.5%",
-            "debtRatio": "48%"
+            "revenue": "1,242억위안",
+            "opProfit": "229.77억위안",
+            "netProfit": "183.816억위안",
+            "opMargin": "18.5%",
+            "eps": 9.02,
+            "roe": "9%",
+            "debtRatio": "38%"
           },
           {
             "year": "2023",
-            "revenue": "2,619억위안",
-            "opProfit": "222.615억위안",
-            "netProfit": "178.092억위안",
-            "opMargin": "8.5%",
-            "eps": 0.97,
-            "roe": "14%",
-            "debtRatio": "45%"
+            "revenue": "1,309.5억위안",
+            "opProfit": "255.353억위안",
+            "netProfit": "204.282억위안",
+            "opMargin": "19.5%",
+            "eps": 9.51,
+            "roe": "9.5%",
+            "debtRatio": "35%"
           },
           {
             "year": "2024",
-            "revenue": "2,916억위안",
-            "opProfit": "277.02억위안",
-            "netProfit": "221.616억위안",
-            "opMargin": "9.5%",
-            "eps": 1.08,
-            "roe": "14.5%",
-            "debtRatio": "42%"
+            "revenue": "1,458억위안",
+            "opProfit": "298.89억위안",
+            "netProfit": "239.112억위안",
+            "opMargin": "20.5%",
+            "eps": 10.58,
+            "roe": "10%",
+            "debtRatio": "32%"
           },
           {
             "year": "2025(E)",
-            "revenue": "3,240억위안",
-            "opProfit": "340.2억위안",
-            "netProfit": "272.16억위안",
-            "opMargin": "10.5%",
-            "eps": 1.2,
-            "roe": "15%",
-            "debtRatio": "39%"
+            "revenue": "1,620억위안",
+            "opProfit": "348.3억위안",
+            "netProfit": "278.64억위안",
+            "opMargin": "21.5%",
+            "eps": 11.76,
+            "roe": "10.5%",
+            "debtRatio": "29%"
+          }
+        ]
+      },
+      {
+        "name": "넷이즈 (NetEase 网易 9999)",
+        "code": "9999.HK",
+        "marketCap": "3,950억위안",
+        "revenue": "1,050억위안",
+        "operatingProfit": "309.75억위안",
+        "opMargin": 29.5,
+        "eps": 9.2,
+        "per": 14,
+        "pbr": 3.5,
+        "roe": 26,
+        "debtRatio": 8,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 3.2,
+        "payoutRatio": 45,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 161.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 플랫폼 빅테크 & 클라우드/소셜 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,050억위안, 영업이익 309.75억위안 (OPM 29.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 26%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "넷이즈 (NetEase 网易 9999)(티커: 9999.HK)은 중국 플랫폼 빅테크 & 클라우드/소셜 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "892.5억위안",
+            "opProfit": "245.438억위안",
+            "netProfit": "196.35억위안",
+            "opMargin": "27.5%",
+            "eps": 7.82,
+            "roe": "25%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2022",
+            "revenue": "966억위안",
+            "opProfit": "275.31억위안",
+            "netProfit": "220.248억위안",
+            "opMargin": "28.5%",
+            "eps": 8.46,
+            "roe": "25.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2023",
+            "revenue": "1,018.5억위안",
+            "opProfit": "300.458억위안",
+            "netProfit": "240.366억위안",
+            "opMargin": "29.5%",
+            "eps": 8.92,
+            "roe": "26%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2024",
+            "revenue": "1,134억위안",
+            "opProfit": "345.87억위안",
+            "netProfit": "276.696억위안",
+            "opMargin": "30.5%",
+            "eps": 9.94,
+            "roe": "26.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "1,260억위안",
+            "opProfit": "396.9억위안",
+            "netProfit": "317.52억위안",
+            "opMargin": "31.5%",
+            "eps": 11.04,
+            "roe": "27%",
+            "debtRatio": "15%"
           }
         ]
       }
     ]
   },
   {
-    "id": "cn-ev-battery",
+    "id": "cn-ecommerce-delivery",
     "country": "중국",
-    "sector": "2차전지 & 글로벌 전기차 EV",
-    "chapterTitle": "중국 ➔ 전기차·배터리",
-    "cluster": "전기차·배터리",
-    "stockCount": 4,
-    "changeRate": "0.88",
+    "sector": "글로벌 이커머스 & 온디맨드 딜리버리",
+    "chapterTitle": "중국 ➔ 빅테크·AI",
+    "cluster": "빅테크·AI",
+    "stockCount": 3,
+    "changeRate": "0.06",
     "correlationLogic": {
-      "formula": "LFP 배터리 출하량(GWh) × 원가 우위 - 원자재 리튬 가격 = 높은 영업이익률",
+      "formula": "Temu 글로벌 거래액(GMV) × 테이크레이트 - 해외 마케팅비 = 순이익 100% 급증",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 2차전지 & 글로벌 전기차 EV 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 글로벌 이커머스 & 온디맨드 딜리버리 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "CATL 세계 배터리 점유율 37% 압도적 1위 및 BYD 글로벌 EV 판매 돌풍",
+      "currentStatus": "핀둬둬(Temu)의 글로벌 폭발적 성장과 메이투안의 중국 음식배달/로컬서비스 독점",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 글로벌 1위 독점",
-        "summary": "CATL 세계 배터리 점유율 37% 압도적 1위 및 BYD 글로벌 EV 판매 돌풍"
+        "badgeText": "🟢 해외 확장 가속",
+        "summary": "핀둬둬(Temu)의 글로벌 폭발적 성장과 메이투안의 중국 음식배달/로컬서비스 독점"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 글로벌 1위 독점",
-      "keyDriver": "중국 2차전지 & 글로벌 전기차 EV 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "중국 신에너지차(NEV) 판매 통계 & 탄산리튬 가격",
+      "statusBadge": "🟢 해외 확장 가속",
+      "keyDriver": "중국 글로벌 이커머스 & 온디맨드 딜리버리 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "중국 온라인 소매판매 총액 및 배달 주문량 통계",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "신소재 4C 초급속 충전 선신 배터리 상용화 및 유럽/동남아 현지 공장 가동",
-      "bearFactor": "미국 IRA 규제 및 유럽연합 중국산 EV 상계관세 부과"
+      "bullFactor": "글로벌 저가 소비 트렌드 선점 및 온디맨드 퀵커머스 마진율 개선",
+      "bearFactor": "미국/유럽의 소액 면세(de minimis) 혜택 축소 법안 리스크"
     },
     "indicators": [
       {
-        "name": "중국 신에너지차(NEV) 판매 통계 & 탄산리튬 가격",
+        "name": "중국 온라인 소매판매 총액 및 배달 주문량 통계",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "2차전지 & 글로벌 전기차 EV 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "글로벌 이커머스 & 온디맨드 딜리버리 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -222698,78 +224999,276 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "CATL (닝더스다이 宁德时代)",
-        "code": "300750.SZ",
-        "marketCap": "11,000억위안",
-        "revenue": "4,000억위안",
-        "operatingProfit": "580억위안",
-        "opMargin": 14.5,
-        "eps": 11.2,
-        "per": 22,
+        "name": "PDD 홀딩스 (핀둬둬/Temu PDD)",
+        "code": "PDD",
+        "marketCap": "17,500억위안",
+        "revenue": "2,500억위안",
+        "operatingProfit": "712.5억위안",
+        "opMargin": 28.5,
+        "eps": 11.5,
+        "per": 13,
         "pbr": 4.8,
-        "roe": 24.5,
-        "debtRatio": 55,
+        "roe": 38,
+        "debtRatio": 15,
         "currentRatio": 140,
         "riskStatus": "SAFE",
-        "dividendYield": 1.8,
-        "payoutRatio": 40,
-        "comment": "[씨티그룹 최신 분석 보고서 종합]\n• 목표주가: 310.00위안 (투자의견: 매수 / 글로벌 배터리 절대 1위)\n• 2025~2026 실적 전망: 글로벌 전기차 배터리 점유율 37%로 압도적 1위를 유지하는 가운데, 차세대 Shenxing(신싱) 초고속 충전 LFP 배터리와 Qilin(치린) 배터리 채택이 급증하고 있습니다. 글로벌 에너지저장장치(ESS) 시장에서도 40% 이상의 점유율을 기록 중입니다.\n• 핵심 모멘텀: 미국 포드, 테슬라향 기술 라이선스(LRS) 방식 제휴 및 독보적인 단위당 원가 경쟁력.\n• 리스크 요인: 미국의 인플레이션감축법(IRA) 해외우려기관(FEOC) 제재 규제.",
-        "businessSummary": "CATL(닝더스다이, SZSE: 300750)은 글로벌 전기차 배터리 및 ESS 배터리 시장 점유율 1위 기업으로, 혁신적인 셀투팩(CTP) 기술과 원가 경쟁력을 바탕으로 전 세계 유수의 완성차 업체에 배터리를 공급합니다.",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 186.9위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 이커머스 & 온디맨드 딜리버리 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 2,500억위안, 영업이익 712.5억위안 (OPM 28.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 38%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "PDD 홀딩스 (핀둬둬/Temu PDD)(티커: PDD)은 중국 글로벌 이커머스 & 온디맨드 딜리버리 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
-            "revenue": "3,400억위안",
-            "opProfit": "425억위안",
-            "netProfit": "340억위안",
-            "opMargin": "12.5%",
-            "eps": 9.52,
-            "roe": "23.5%",
-            "debtRatio": "61%"
+            "revenue": "2,125억위안",
+            "opProfit": "563.125억위안",
+            "netProfit": "450.5억위안",
+            "opMargin": "26.5%",
+            "eps": 9.78,
+            "roe": "37%",
+            "debtRatio": "21%"
           },
           {
             "year": "2022",
-            "revenue": "3,680억위안",
-            "opProfit": "496.8억위안",
-            "netProfit": "397.44억위안",
-            "opMargin": "13.5%",
-            "eps": 10.3,
-            "roe": "24%",
-            "debtRatio": "58%"
+            "revenue": "2,300억위안",
+            "opProfit": "632.5억위안",
+            "netProfit": "506억위안",
+            "opMargin": "27.5%",
+            "eps": 10.58,
+            "roe": "37.5%",
+            "debtRatio": "18%"
           },
           {
             "year": "2023",
-            "revenue": "3,880억위안",
-            "opProfit": "562.6억위안",
-            "netProfit": "450.08억위안",
-            "opMargin": "14.5%",
-            "eps": 10.86,
-            "roe": "24.5%",
-            "debtRatio": "55%"
+            "revenue": "2,425억위안",
+            "opProfit": "691.125억위안",
+            "netProfit": "552.9억위안",
+            "opMargin": "28.5%",
+            "eps": 11.16,
+            "roe": "38%",
+            "debtRatio": "15%"
           },
           {
             "year": "2024",
-            "revenue": "4,320억위안",
-            "opProfit": "669.6억위안",
-            "netProfit": "535.68억위안",
-            "opMargin": "15.5%",
-            "eps": 12.1,
-            "roe": "25%",
-            "debtRatio": "52%"
+            "revenue": "2,700억위안",
+            "opProfit": "796.5억위안",
+            "netProfit": "637.2억위안",
+            "opMargin": "29.5%",
+            "eps": 12.42,
+            "roe": "38.5%",
+            "debtRatio": "15%"
           },
           {
             "year": "2025(E)",
-            "revenue": "4,800억위안",
-            "opProfit": "792억위안",
-            "netProfit": "633.6억위안",
-            "opMargin": "16.5%",
-            "eps": 13.44,
-            "roe": "25.5%",
-            "debtRatio": "49%"
+            "revenue": "3,000억위안",
+            "opProfit": "915억위안",
+            "netProfit": "732억위안",
+            "opMargin": "30.5%",
+            "eps": 13.8,
+            "roe": "39%",
+            "debtRatio": "15%"
           }
         ]
       },
       {
-        "name": "BYD (비야디 比亚迪)",
+        "name": "메이투안 (Meituan 美团 3690)",
+        "code": "3690.HK",
+        "marketCap": "9,800억위안",
+        "revenue": "2,750억위안",
+        "operatingProfit": "316.25억위안",
+        "opMargin": 11.5,
+        "eps": 5.5,
+        "per": 24,
+        "pbr": 4.2,
+        "roe": 18,
+        "debtRatio": 25,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 165.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 이커머스 & 온디맨드 딜리버리 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 2,750억위안, 영업이익 316.25억위안 (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 18%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "메이투안 (Meituan 美团 3690)(티커: 3690.HK)은 중국 글로벌 이커머스 & 온디맨드 딜리버리 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "2,337.5억위안",
+            "opProfit": "222.063억위안",
+            "netProfit": "177.65억위안",
+            "opMargin": "9.5%",
+            "eps": 4.68,
+            "roe": "17%",
+            "debtRatio": "31%"
+          },
+          {
+            "year": "2022",
+            "revenue": "2,530억위안",
+            "opProfit": "265.65억위안",
+            "netProfit": "212.52억위안",
+            "opMargin": "10.5%",
+            "eps": 5.06,
+            "roe": "17.5%",
+            "debtRatio": "28%"
+          },
+          {
+            "year": "2023",
+            "revenue": "2,667.5억위안",
+            "opProfit": "306.763억위안",
+            "netProfit": "245.41억위안",
+            "opMargin": "11.5%",
+            "eps": 5.34,
+            "roe": "18%",
+            "debtRatio": "25%"
+          },
+          {
+            "year": "2024",
+            "revenue": "2,970억위안",
+            "opProfit": "371.25억위안",
+            "netProfit": "297억위안",
+            "opMargin": "12.5%",
+            "eps": 5.94,
+            "roe": "18.5%",
+            "debtRatio": "22%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "3,300억위안",
+            "opProfit": "445.5억위안",
+            "netProfit": "356.4억위안",
+            "opMargin": "13.5%",
+            "eps": 6.6,
+            "roe": "19%",
+            "debtRatio": "19%"
+          }
+        ]
+      },
+      {
+        "name": "징동닷컴 (JD.com 京东 9618)",
+        "code": "9618.HK",
+        "marketCap": "4,500억위안",
+        "revenue": "10,800억위안",
+        "operatingProfit": "345.6억위안",
+        "opMargin": 3.2,
+        "eps": 3.8,
+        "per": 10.5,
+        "pbr": 1.1,
+        "roe": 11,
+        "debtRatio": 35,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.8,
+        "payoutRatio": 29,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 49.9위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 이커머스 & 온디맨드 딜리버리 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 10,800억위안, 영업이익 345.6억위안 (OPM 3.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "징동닷컴 (JD.com 京东 9618)(티커: 9618.HK)은 중국 글로벌 이커머스 & 온디맨드 딜리버리 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "9,180억위안",
+            "opProfit": "110.16억위안",
+            "netProfit": "88.128억위안",
+            "opMargin": "1.2%",
+            "eps": 3.23,
+            "roe": "10%",
+            "debtRatio": "41%"
+          },
+          {
+            "year": "2022",
+            "revenue": "9,936억위안",
+            "opProfit": "218.592억위안",
+            "netProfit": "174.874억위안",
+            "opMargin": "2.2%",
+            "eps": 3.5,
+            "roe": "10.5%",
+            "debtRatio": "38%"
+          },
+          {
+            "year": "2023",
+            "revenue": "10,476억위안",
+            "opProfit": "335.232억위안",
+            "netProfit": "268.186억위안",
+            "opMargin": "3.2%",
+            "eps": 3.69,
+            "roe": "11%",
+            "debtRatio": "35%"
+          },
+          {
+            "year": "2024",
+            "revenue": "11,664억위안",
+            "opProfit": "489.888억위안",
+            "netProfit": "391.91억위안",
+            "opMargin": "4.2%",
+            "eps": 4.1,
+            "roe": "11.5%",
+            "debtRatio": "32%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "12,960억위안",
+            "opProfit": "673.92억위안",
+            "netProfit": "539.136억위안",
+            "opMargin": "5.2%",
+            "eps": 4.56,
+            "roe": "12%",
+            "debtRatio": "29%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cn-ev-mobility",
+    "country": "중국",
+    "sector": "글로벌 1위 전기차 & 스마트 모빌리티",
+    "chapterTitle": "중국 ➔ 전기차·배터리",
+    "cluster": "전기차·배터리",
+    "stockCount": 4,
+    "changeRate": "0.89",
+    "correlationLogic": {
+      "formula": "전기차/PHEV 판매량 × 수직계열화 원가 절감 = OPM 8% 및 글로벌 수출 1위",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 글로벌 1위 전기차 & 스마트 모빌리티 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "BYD의 연간 400만 대 판매 돌파 및 5세대 DM-i 하이브리드의 경이적인 연비 경쟁력",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 글로벌 1위 판매",
+        "summary": "BYD의 연간 400만 대 판매 돌파 및 5세대 DM-i 하이브리드의 경이적인 연비 경쟁력"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 글로벌 1위 판매",
+      "keyDriver": "중국 글로벌 1위 전기차 & 스마트 모빌리티 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "중국 승용차 시장정보연석회(CPCA) 신에너지차 판매 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "동남아, 중남미, 유럽 신흥국 친환경차 판매 점유율 독점적 확대",
+      "bearFactor": "EU 및 미국의 중국산 전기차 추가 관세 부과 리스크"
+    },
+    "indicators": [
+      {
+        "name": "중국 승용차 시장정보연석회(CPCA) 신에너지차 판매 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 1위 전기차 & 스마트 모빌리티 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "BYD (비야디 比亚迪 002594)",
         "code": "002594.SZ",
         "marketCap": "8,500억위안",
         "revenue": "6,000억위안",
@@ -222840,7 +225339,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "리오토 (Li Auto 理想汽车)",
+        "name": "리오토 (Li Auto 理想汽车 2015)",
         "code": "2015.HK",
         "marketCap": "2,200억위안",
         "revenue": "1,240억위안",
@@ -222855,8 +225354,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 0,
         "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 123.8위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 2차전지 & 글로벌 전기차 EV 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,240억위안, 영업이익 80.6억위안 (OPM 6.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 19%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "리오토 (Li Auto 理想汽车)(티커: 2015.HK)은 중국 2차전지 & 글로벌 전기차 EV 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 123.8위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 1위 전기차 & 스마트 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,240억위안, 영업이익 80.6억위안 (OPM 6.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 19%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "리오토 (Li Auto 理想汽车 2015)(티커: 2015.HK)은 중국 글로벌 1위 전기차 & 스마트 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -222911,7 +225410,276 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "이브에너지 (Eve Energy 亿纬锂能)",
+        "name": "니오 (NIO 蔚来 9866)",
+        "code": "9866.HK",
+        "marketCap": "1,100억위안",
+        "revenue": "550억위안",
+        "operatingProfit": "-209억위안",
+        "opMargin": -38,
+        "eps": -8.5,
+        "per": -1,
+        "pbr": 3.5,
+        "roe": -45,
+        "debtRatio": 85,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 10.6위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 1위 전기차 & 스마트 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 550억위안, 영업이익 -209억위안 (OPM -38%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE -45%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "니오 (NIO 蔚来 9866)(티커: 9866.HK)은 중국 글로벌 1위 전기차 & 스마트 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "467.5억위안",
+            "opProfit": "-187억위안",
+            "netProfit": "-149.6억위안",
+            "opMargin": "-40%",
+            "eps": -7.22,
+            "roe": "-46%",
+            "debtRatio": "91%"
+          },
+          {
+            "year": "2022",
+            "revenue": "506억위안",
+            "opProfit": "-197.34억위안",
+            "netProfit": "-157.872억위안",
+            "opMargin": "-39%",
+            "eps": -7.82,
+            "roe": "-45.5%",
+            "debtRatio": "88%"
+          },
+          {
+            "year": "2023",
+            "revenue": "533.5억위안",
+            "opProfit": "-202.73억위안",
+            "netProfit": "-162.184억위안",
+            "opMargin": "-38%",
+            "eps": -8.24,
+            "roe": "-45%",
+            "debtRatio": "85%"
+          },
+          {
+            "year": "2024",
+            "revenue": "594억위안",
+            "opProfit": "-219.78억위안",
+            "netProfit": "-175.824억위안",
+            "opMargin": "-37%",
+            "eps": -9.18,
+            "roe": "-44.5%",
+            "debtRatio": "82%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "660억위안",
+            "opProfit": "-237.6억위안",
+            "netProfit": "-190.08억위안",
+            "opMargin": "-36%",
+            "eps": -10.2,
+            "roe": "-44%",
+            "debtRatio": "79%"
+          }
+        ]
+      },
+      {
+        "name": "샤오펑 (XPeng 小鹏汽车 9868)",
+        "code": "9868.HK",
+        "marketCap": "980억위안",
+        "revenue": "310억위안",
+        "operatingProfit": "-99.2억위안",
+        "opMargin": -32,
+        "eps": -5.2,
+        "per": -1,
+        "pbr": 2.8,
+        "roe": -28,
+        "debtRatio": 65,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 0,
+        "payoutRatio": 0,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 6.5위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 1위 전기차 & 스마트 모빌리티 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 310억위안, 영업이익 -99.2억위안 (OPM -32%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE -28%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "샤오펑 (XPeng 小鹏汽车 9868)(티커: 9868.HK)은 중국 글로벌 1위 전기차 & 스마트 모빌리티 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "263.5억위안",
+            "opProfit": "-89.59억위안",
+            "netProfit": "-71.672억위안",
+            "opMargin": "-34%",
+            "eps": -4.42,
+            "roe": "-29%",
+            "debtRatio": "71%"
+          },
+          {
+            "year": "2022",
+            "revenue": "285.2억위안",
+            "opProfit": "-94.116억위안",
+            "netProfit": "-75.293억위안",
+            "opMargin": "-33%",
+            "eps": -4.78,
+            "roe": "-28.5%",
+            "debtRatio": "68%"
+          },
+          {
+            "year": "2023",
+            "revenue": "300.7억위안",
+            "opProfit": "-96.224억위안",
+            "netProfit": "-76.979억위안",
+            "opMargin": "-32%",
+            "eps": -5.04,
+            "roe": "-28%",
+            "debtRatio": "65%"
+          },
+          {
+            "year": "2024",
+            "revenue": "334.8억위안",
+            "opProfit": "-103.788억위안",
+            "netProfit": "-83.03억위안",
+            "opMargin": "-31%",
+            "eps": -5.62,
+            "roe": "-27.5%",
+            "debtRatio": "62%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "372억위안",
+            "opProfit": "-111.6억위안",
+            "netProfit": "-89.28억위안",
+            "opMargin": "-30%",
+            "eps": -6.24,
+            "roe": "-27%",
+            "debtRatio": "59%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cn-battery-storage",
+    "country": "중국",
+    "sector": "글로벌 1위 2차전지 & 핵심 리튬 소재",
+    "chapterTitle": "중국 ➔ 전기차·배터리",
+    "cluster": "전기차·배터리",
+    "stockCount": 3,
+    "changeRate": "0.60",
+    "correlationLogic": {
+      "formula": "글로벌 배터리 출하량(GWh) × 팩당 마진 + ESS 매출 = 순이익 500억 위안",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 글로벌 1위 2차전지 & 핵심 리튬 소재 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "CATL의 압도적 기술력(Shenxing 배터리)과 에너지저장장치(ESS) 시장 1위 독주",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 글로벌 점유율 37%",
+        "summary": "CATL의 압도적 기술력(Shenxing 배터리)과 에너지저장장치(ESS) 시장 1위 독주"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 글로벌 점유율 37%",
+      "keyDriver": "중국 글로벌 1위 2차전지 & 핵심 리튬 소재 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "SNE리서치 글로벌 전기차 배터리 적재량 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "LFP(리튬인산철) 배터리의 글로벌 대세화 및 테슬라, 폭스바겐 등 글로벌 공급 독점",
+      "bearFactor": "미국 인플레이션 감축법(IRA)에 따른 미국 본토 합작사 설립 난항"
+    },
+    "indicators": [
+      {
+        "name": "SNE리서치 글로벌 전기차 배터리 적재량 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 1위 2차전지 & 핵심 리튬 소재 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "CATL (닝더스다이 宁德时代 300750)",
+        "code": "300750.SZ",
+        "marketCap": "11,000억위안",
+        "revenue": "4,000억위안",
+        "operatingProfit": "580억위안",
+        "opMargin": 14.5,
+        "eps": 11.2,
+        "per": 22,
+        "pbr": 4.8,
+        "roe": 24.5,
+        "debtRatio": 55,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.8,
+        "payoutRatio": 40,
+        "comment": "[씨티그룹 최신 분석 보고서 종합]\n• 목표주가: 310.00위안 (투자의견: 매수 / 글로벌 배터리 절대 1위)\n• 2025~2026 실적 전망: 글로벌 전기차 배터리 점유율 37%로 압도적 1위를 유지하는 가운데, 차세대 Shenxing(신싱) 초고속 충전 LFP 배터리와 Qilin(치린) 배터리 채택이 급증하고 있습니다. 글로벌 에너지저장장치(ESS) 시장에서도 40% 이상의 점유율을 기록 중입니다.\n• 핵심 모멘텀: 미국 포드, 테슬라향 기술 라이선스(LRS) 방식 제휴 및 독보적인 단위당 원가 경쟁력.\n• 리스크 요인: 미국의 인플레이션감축법(IRA) 해외우려기관(FEOC) 제재 규제.",
+        "businessSummary": "CATL(닝더스다이, SZSE: 300750)은 글로벌 전기차 배터리 및 ESS 배터리 시장 점유율 1위 기업으로, 혁신적인 셀투팩(CTP) 기술과 원가 경쟁력을 바탕으로 전 세계 유수의 완성차 업체에 배터리를 공급합니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "3,400억위안",
+            "opProfit": "425억위안",
+            "netProfit": "340억위안",
+            "opMargin": "12.5%",
+            "eps": 9.52,
+            "roe": "23.5%",
+            "debtRatio": "61%"
+          },
+          {
+            "year": "2022",
+            "revenue": "3,680억위안",
+            "opProfit": "496.8억위안",
+            "netProfit": "397.44억위안",
+            "opMargin": "13.5%",
+            "eps": 10.3,
+            "roe": "24%",
+            "debtRatio": "58%"
+          },
+          {
+            "year": "2023",
+            "revenue": "3,880억위안",
+            "opProfit": "562.6억위안",
+            "netProfit": "450.08억위안",
+            "opMargin": "14.5%",
+            "eps": 10.86,
+            "roe": "24.5%",
+            "debtRatio": "55%"
+          },
+          {
+            "year": "2024",
+            "revenue": "4,320억위안",
+            "opProfit": "669.6억위안",
+            "netProfit": "535.68억위안",
+            "opMargin": "15.5%",
+            "eps": 12.1,
+            "roe": "25%",
+            "debtRatio": "52%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "4,800억위안",
+            "opProfit": "792억위안",
+            "netProfit": "633.6억위안",
+            "opMargin": "16.5%",
+            "eps": 13.44,
+            "roe": "25.5%",
+            "debtRatio": "49%"
+          }
+        ]
+      },
+      {
+        "name": "이브에너지 (Eve Energy 亿纬锂能 300014)",
         "code": "300014.SZ",
         "marketCap": "1,050억위안",
         "revenue": "480억위안",
@@ -222926,8 +225694,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 0.8,
         "payoutRatio": 19,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 63.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 2차전지 & 글로벌 전기차 EV 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 480억위안, 영업이익 50.4억위안 (OPM 10.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12.5%, 배당수익률 0.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "이브에너지 (Eve Energy 亿纬锂能)(티커: 300014.SZ)은 중국 2차전지 & 글로벌 전기차 EV 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 63.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 1위 2차전지 & 핵심 리튬 소재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 480억위안, 영업이익 50.4억위안 (OPM 10.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12.5%, 배당수익률 0.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "이브에너지 (Eve Energy 亿纬锂能 300014)(티커: 300014.SZ)은 중국 글로벌 1위 2차전지 & 핵심 리튬 소재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -222980,50 +225748,121 @@ window.REGIONAL_INDUSTRY_DATA = {
             "debtRatio": "56%"
           }
         ]
+      },
+      {
+        "name": "간펑리튬 (Ganfeng Lithium 002460)",
+        "code": "002460.SZ",
+        "marketCap": "820억위안",
+        "revenue": "330억위안",
+        "operatingProfit": "28.05억위안",
+        "opMargin": 8.5,
+        "eps": 1.8,
+        "per": 28,
+        "pbr": 1.8,
+        "roe": 7.5,
+        "debtRatio": 45,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.5,
+        "payoutRatio": 42,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 63.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 1위 2차전지 & 핵심 리튬 소재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 330억위안, 영업이익 28.05억위안 (OPM 8.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 7.5%, 배당수익률 1.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "간펑리튬 (Ganfeng Lithium 002460)(티커: 002460.SZ)은 중국 글로벌 1위 2차전지 & 핵심 리튬 소재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "280.5억위안",
+            "opProfit": "18.233억위안",
+            "netProfit": "14.586억위안",
+            "opMargin": "6.5%",
+            "eps": 1.53,
+            "roe": "6.5%",
+            "debtRatio": "51%"
+          },
+          {
+            "year": "2022",
+            "revenue": "303.6억위안",
+            "opProfit": "22.77억위안",
+            "netProfit": "18.216억위안",
+            "opMargin": "7.5%",
+            "eps": 1.66,
+            "roe": "7%",
+            "debtRatio": "48%"
+          },
+          {
+            "year": "2023",
+            "revenue": "320.1억위안",
+            "opProfit": "27.209억위안",
+            "netProfit": "21.767억위안",
+            "opMargin": "8.5%",
+            "eps": 1.75,
+            "roe": "7.5%",
+            "debtRatio": "45%"
+          },
+          {
+            "year": "2024",
+            "revenue": "356.4억위안",
+            "opProfit": "33.858억위안",
+            "netProfit": "27.086억위안",
+            "opMargin": "9.5%",
+            "eps": 1.94,
+            "roe": "8%",
+            "debtRatio": "42%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "396억위안",
+            "opProfit": "41.58억위안",
+            "netProfit": "33.264억위안",
+            "opMargin": "10.5%",
+            "eps": 2.16,
+            "roe": "8.5%",
+            "debtRatio": "39%"
+          }
+        ]
       }
     ]
   },
   {
-    "id": "cn-cleantech",
+    "id": "cn-solar-wind",
     "country": "중국",
-    "sector": "글로벌 클린에너지 & 태양광",
+    "sector": "태양광 밸류체인 & 풍력 발전 터빈",
     "chapterTitle": "중국 ➔ 태양광·친환경",
     "cluster": "태양광·친환경",
     "stockCount": 3,
-    "changeRate": "-0.67",
+    "changeRate": "-0.36",
     "correlationLogic": {
-      "formula": "태양광 모듈 글로벌 출하량 × 단가 스프레드 - 폴리실리콘 원가 = 마진 방어",
+      "formula": "태양광 인버터 수출량 × 해외 마진 프리미엄 - 웨이퍼 적자 = 마진 방어",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 글로벌 클린에너지 & 태양광 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 태양광 밸류체인 & 풍력 발전 터빈 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "태양광 웨이퍼/모듈 공급과잉 속 상위 기업 중심 통폐합 및 N타입 TOPCon 전환",
+      "currentStatus": "태양광 웨이퍼/모듈 공급과잉 속 상위 기업 중심의 N타입 TOPCon 전환 및 인버터 호황",
       "outlookSignal": {
         "level": "NEUTRAL",
-        "badgeText": "⚖️ 구조조정",
-        "summary": "태양광 웨이퍼/모듈 공급과잉 속 상위 기업 중심 통폐합 및 N타입 TOPCon 전환"
+        "badgeText": "⚖️ 구조조정 진행",
+        "summary": "태양광 웨이퍼/모듈 공급과잉 속 상위 기업 중심의 N타입 TOPCon 전환 및 인버터 호황"
       }
     },
     "demandAnalysis": {
       "status": "MODERATE",
-      "statusBadge": "⚖️ 구조조정",
-      "keyDriver": "중국 글로벌 클린에너지 & 태양광 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "PVInfoLink 태양광 모듈 현물 가격",
+      "statusBadge": "⚖️ 구조조정 진행",
+      "keyDriver": "중국 태양광 밸류체인 & 풍력 발전 터빈 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "PVInfoLink 글로벌 태양광 공급망 현물 가격",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "글로벌 유틸리티급 대형 프로젝트 수요 견조 및 인버터 수출 급증",
-      "bearFactor": "글로벌 무역 장벽 및 덤핑 판정 리스크"
+      "bullFactor": "양광전원의 글로벌 태양광/ESS 인버터 수출 1위 및 고마진 시현",
+      "bearFactor": "웨이퍼/셀 가격 하락에 따른 재고 평가손실 지속"
     },
     "indicators": [
       {
-        "name": "PVInfoLink 태양광 모듈 현물 가격",
+        "name": "PVInfoLink 글로벌 태양광 공급망 현물 가격",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "글로벌 클린에너지 & 태양광 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "태양광 밸류체인 & 풍력 발전 터빈 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -223038,78 +225877,7 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "융기실리콘자재 (Longi Green Energy)",
-        "code": "601012.SS",
-        "marketCap": "1,450억위안",
-        "revenue": "1,290억위안",
-        "operatingProfit": "109.65억위안",
-        "opMargin": 8.5,
-        "eps": 1.4,
-        "per": 14,
-        "pbr": 1.8,
-        "roe": 13,
-        "debtRatio": 55,
-        "currentRatio": 140,
-        "riskStatus": "SAFE",
-        "dividendYield": 1.5,
-        "payoutRatio": 21,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 24.5위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 클린에너지 & 태양광 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,290억위안, 영업이익 109.65억위안 (OPM 8.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13%, 배당수익률 1.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "융기실리콘자재 (Longi Green Energy)(티커: 601012.SS)은 중국 글로벌 클린에너지 & 태양광 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
-        "financials5Y": [
-          {
-            "year": "2021",
-            "revenue": "1,096.5억위안",
-            "opProfit": "71.273억위안",
-            "netProfit": "57.018억위안",
-            "opMargin": "6.5%",
-            "eps": 1.19,
-            "roe": "12%",
-            "debtRatio": "61%"
-          },
-          {
-            "year": "2022",
-            "revenue": "1,186.8억위안",
-            "opProfit": "89.01억위안",
-            "netProfit": "71.208억위안",
-            "opMargin": "7.5%",
-            "eps": 1.29,
-            "roe": "12.5%",
-            "debtRatio": "58%"
-          },
-          {
-            "year": "2023",
-            "revenue": "1,251.3억위안",
-            "opProfit": "106.361억위안",
-            "netProfit": "85.088억위안",
-            "opMargin": "8.5%",
-            "eps": 1.36,
-            "roe": "13%",
-            "debtRatio": "55%"
-          },
-          {
-            "year": "2024",
-            "revenue": "1,393.2억위안",
-            "opProfit": "132.354억위안",
-            "netProfit": "105.883억위안",
-            "opMargin": "9.5%",
-            "eps": 1.51,
-            "roe": "13.5%",
-            "debtRatio": "52%"
-          },
-          {
-            "year": "2025(E)",
-            "revenue": "1,548억위안",
-            "opProfit": "162.54억위안",
-            "netProfit": "130.032억위안",
-            "opMargin": "10.5%",
-            "eps": 1.68,
-            "roe": "14%",
-            "debtRatio": "49%"
-          }
-        ]
-      },
-      {
-        "name": "양광전원 (Sungrow Power)",
+        "name": "양광전원 (Sungrow Power 인버터 300274)",
         "code": "300274.SZ",
         "marketCap": "1,850억위안",
         "revenue": "720억위안",
@@ -223124,8 +225892,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 1.2,
         "payoutRatio": 23,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 147.3위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 클린에너지 & 태양광 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 720억위안, 영업이익 118.8억위안 (OPM 16.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 28%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "양광전원 (Sungrow Power)(티커: 300274.SZ)은 중국 글로벌 클린에너지 & 태양광 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 147.3위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 태양광 밸류체인 & 풍력 발전 터빈 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 720억위안, 영업이익 118.8억위안 (OPM 16.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 28%, 배당수익률 1.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "양광전원 (Sungrow Power 인버터 300274)(티커: 300274.SZ)은 중국 태양광 밸류체인 & 풍력 발전 터빈 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -223180,7 +225948,78 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "통위 (Tongwei)",
+        "name": "융기실리콘자재 (Longi Green Energy 601012)",
+        "code": "601012.SS",
+        "marketCap": "1,450억위안",
+        "revenue": "1,290억위안",
+        "operatingProfit": "109.65억위안",
+        "opMargin": 8.5,
+        "eps": 1.4,
+        "per": 14,
+        "pbr": 1.8,
+        "roe": 13,
+        "debtRatio": 55,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 1.5,
+        "payoutRatio": 21,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 24.5위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 태양광 밸류체인 & 풍력 발전 터빈 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,290억위안, 영업이익 109.65억위안 (OPM 8.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 13%, 배당수익률 1.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "융기실리콘자재 (Longi Green Energy 601012)(티커: 601012.SS)은 중국 태양광 밸류체인 & 풍력 발전 터빈 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "1,096.5억위안",
+            "opProfit": "71.273억위안",
+            "netProfit": "57.018억위안",
+            "opMargin": "6.5%",
+            "eps": 1.19,
+            "roe": "12%",
+            "debtRatio": "61%"
+          },
+          {
+            "year": "2022",
+            "revenue": "1,186.8억위안",
+            "opProfit": "89.01억위안",
+            "netProfit": "71.208억위안",
+            "opMargin": "7.5%",
+            "eps": 1.29,
+            "roe": "12.5%",
+            "debtRatio": "58%"
+          },
+          {
+            "year": "2023",
+            "revenue": "1,251.3억위안",
+            "opProfit": "106.361억위안",
+            "netProfit": "85.088억위안",
+            "opMargin": "8.5%",
+            "eps": 1.36,
+            "roe": "13%",
+            "debtRatio": "55%"
+          },
+          {
+            "year": "2024",
+            "revenue": "1,393.2억위안",
+            "opProfit": "132.354억위안",
+            "netProfit": "105.883억위안",
+            "opMargin": "9.5%",
+            "eps": 1.51,
+            "roe": "13.5%",
+            "debtRatio": "52%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "1,548억위안",
+            "opProfit": "162.54억위안",
+            "netProfit": "130.032억위안",
+            "opMargin": "10.5%",
+            "eps": 1.68,
+            "roe": "14%",
+            "debtRatio": "49%"
+          }
+        ]
+      },
+      {
+        "name": "통위 (Tongwei 폴리실리콘 600438)",
         "code": "600438.SS",
         "marketCap": "1,100억위안",
         "revenue": "1,390억위안",
@@ -223195,8 +226034,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 3.5,
         "payoutRatio": 33,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 33.3위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 클린에너지 & 태양광 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,390억위안, 영업이익 152.9억위안 (OPM 11%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16%, 배당수익률 3.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "통위 (Tongwei)(티커: 600438.SS)은 중국 글로벌 클린에너지 & 태양광 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 33.3위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 태양광 밸류체인 & 풍력 발전 터빈 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,390억위안, 영업이익 152.9억위안 (OPM 11%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16%, 배당수익률 3.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "통위 (Tongwei 폴리실리콘 600438)(티커: 600438.SS)은 중국 태양광 밸류체인 & 풍력 발전 터빈 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -223253,33 +226092,33 @@ window.REGIONAL_INDUSTRY_DATA = {
     ]
   },
   {
-    "id": "cn-hardware",
+    "id": "cn-semicon-fab",
     "country": "중국",
-    "sector": "반도체 국산화 & 첨단 하드웨어",
+    "sector": "레거시 파운드리 & 국산화 반도체 장비",
     "chapterTitle": "중국 ➔ 반도체·IT",
     "cluster": "반도체·IT",
     "stockCount": 4,
-    "changeRate": "-0.50",
+    "changeRate": "-0.57",
     "correlationLogic": {
       "formula": "국산화 파운드리/장비 발주액 × 정부 보조금 = 고속 매출 성장",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 반도체 국산화 & 첨단 하드웨어 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 레거시 파운드리 & 국산화 반도체 장비 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "중국 반도체 국산화율 50% 달성을 위한 정부 대기금 3기 3,440억 위안 투입 수혜",
+      "currentStatus": "중국 정부 반도체 대기금 3기 3,440억 위안 투입 및 28나노 이상 성숙 공정 국산화 독점",
       "outlookSignal": {
         "level": "BULLISH",
         "badgeText": "🟢 국가 대기금 지원",
-        "summary": "중국 반도체 국산화율 50% 달성을 위한 정부 대기금 3기 3,440억 위안 투입 수혜"
+        "summary": "중국 정부 반도체 대기금 3기 3,440억 위안 투입 및 28나노 이상 성숙 공정 국산화 독점"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
       "statusBadge": "🟢 국가 대기금 지원",
-      "keyDriver": "중국 반도체 국산화 & 첨단 하드웨어 글로벌 수요 및 수주 모멘텀",
+      "keyDriver": "중국 레거시 파운드리 & 국산화 반도체 장비 글로벌 수요 및 수주 모멘텀",
       "demandIndicator": "중국 반도체 지수 (CSI Semiconductor)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
@@ -223292,7 +226131,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "중국 반도체 지수 (CSI Semiconductor)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "반도체 국산화 & 첨단 하드웨어 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "레거시 파운드리 & 국산화 반도체 장비 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -223307,7 +226146,7 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "SMIC (중신국제 中芯国际)",
+        "name": "SMIC (중신국제 中芯国际 688981)",
         "code": "688981.SS",
         "marketCap": "7,200억위안",
         "revenue": "450억위안",
@@ -223322,8 +226161,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 0,
         "payoutRatio": 0,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 76.5위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 국산화 & 첨단 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 450억위안, 영업이익 51.75억위안 (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 5.5%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "SMIC (중신국제 中芯国际)(티커: 688981.SS)은 중국 반도체 국산화 & 첨단 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 76.5위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 레거시 파운드리 & 국산화 반도체 장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 450억위안, 영업이익 51.75억위안 (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 5.5%, 배당수익률 0%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "SMIC (중신국제 中芯国际 688981)(티커: 688981.SS)은 중국 레거시 파운드리 & 국산화 반도체 장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -223378,7 +226217,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "북방화창 (NAURA Technology)",
+        "name": "북방화창 (NAURA 식각장비 002371)",
         "code": "002371.SZ",
         "marketCap": "2,150억위안",
         "revenue": "220억위안",
@@ -223393,8 +226232,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 0.5,
         "payoutRatio": 21,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 393.8위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 국산화 & 첨단 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 220억위안, 영업이익 46.2억위안 (OPM 21%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 22%, 배당수익률 0.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "북방화창 (NAURA Technology)(티커: 002371.SZ)은 중국 반도체 국산화 & 첨단 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 393.8위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 레거시 파운드리 & 국산화 반도체 장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 220억위안, 영업이익 46.2억위안 (OPM 21%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 22%, 배당수익률 0.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "북방화창 (NAURA 식각장비 002371)(티커: 002371.SZ)은 중국 레거시 파운드리 & 국산화 반도체 장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -223449,7 +226288,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "폭스콘 공업인터넷 (Foxconn Industrial)",
+        "name": "폭스콘 공업인터넷 (Foxconn Industrial 601138)",
         "code": "601138.SS",
         "marketCap": "4,800억위안",
         "revenue": "4,760억위안",
@@ -223464,8 +226303,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 2.8,
         "payoutRatio": 62,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 30.3위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 국산화 & 첨단 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 4,760억위안, 영업이익 247.52억위안 (OPM 5.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16.5%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "폭스콘 공업인터넷 (Foxconn Industrial)(티커: 601138.SS)은 중국 반도체 국산화 & 첨단 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 30.3위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 레거시 파운드리 & 국산화 반도체 장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 4,760억위안, 영업이익 247.52억위안 (OPM 5.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 16.5%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "폭스콘 공업인터넷 (Foxconn Industrial 601138)(티커: 601138.SS)은 중국 레거시 파운드리 & 국산화 반도체 장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -223520,7 +226359,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "하이크비전 (Hikvision 海康威视)",
+        "name": "하이크비전 (Hikvision AI비전 002415)",
         "code": "002415.SZ",
         "marketCap": "2,900억위안",
         "revenue": "890억위안",
@@ -223535,8 +226374,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 2.8,
         "payoutRatio": 56,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 37.5위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 반도체 국산화 & 첨단 하드웨어 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 890억위안, 영업이익 173.55억위안 (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 19%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "하이크비전 (Hikvision 海康威视)(티커: 002415.SZ)은 중국 반도체 국산화 & 첨단 하드웨어 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 37.5위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 레거시 파운드리 & 국산화 반도체 장비 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 890억위안, 영업이익 173.55억위안 (OPM 19.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 19%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "하이크비전 (Hikvision AI비전 002415)(티커: 002415.SZ)은 중국 레거시 파운드리 & 국산화 반도체 장비 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -223593,33 +226432,33 @@ window.REGIONAL_INDUSTRY_DATA = {
     ]
   },
   {
-    "id": "cn-finance",
+    "id": "cn-state-banks",
     "country": "중국",
-    "sector": "국유 4대 은행 & 메가 금융지주",
+    "sector": "국유 4대 상업은행 & 메가 종합금융",
     "chapterTitle": "중국 ➔ 은행·금융",
     "cluster": "은행·금융",
     "stockCount": 4,
-    "changeRate": "1.22",
+    "changeRate": "1.31",
     "correlationLogic": {
       "formula": "대출 자산 성장률 × 안정적 예대마진 + 특별 국채 자본확충 = 안정적 이익",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 국유 4대 은행 & 메가 금융지주 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 국유 4대 상업은행 & 메가 종합금융 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "중앙정부 경기부양 국채 발행 인수 및 6%대 안정적 고배당 매력",
+      "currentStatus": "중앙정부 경기부양 특별국채 인수 및 6%대 안정적 고배당 매력",
       "outlookSignal": {
         "level": "BULLISH",
         "badgeText": "🟢 고배당 국유기업",
-        "summary": "중앙정부 경기부양 국채 발행 인수 및 6%대 안정적 고배당 매력"
+        "summary": "중앙정부 경기부양 특별국채 인수 및 6%대 안정적 고배당 매력"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
       "statusBadge": "🟢 고배당 국유기업",
-      "keyDriver": "중국 국유 4대 은행 & 메가 금융지주 글로벌 수요 및 수주 모멘텀",
+      "keyDriver": "중국 국유 4대 상업은행 & 메가 종합금융 글로벌 수요 및 수주 모멘텀",
       "demandIndicator": "중국 10년물 국채 금리 및 인민은행 LPR",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
@@ -223632,7 +226471,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "중국 10년물 국채 금리 및 인민은행 LPR",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "국유 4대 은행 & 메가 금융지주 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "국유 4대 상업은행 & 메가 종합금융 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -223647,7 +226486,7 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "중국공상은행 (ICBC 工商银行)",
+        "name": "중국공상은행 (ICBC 工商银行 601398)",
         "code": "601398.SS",
         "marketCap": "21,500억위안",
         "revenue": "8,400억위안",
@@ -223662,8 +226501,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "WARNING",
         "dividendYield": 5.8,
         "payoutRatio": 34,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 7.3위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국유 4대 은행 & 메가 금융지주 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 8,400억위안, 영업이익 4,032억위안 (OPM 48%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10.2%, 배당수익률 5.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "중국공상은행 (ICBC 工商银行)(티커: 601398.SS)은 중국 국유 4대 은행 & 메가 금융지주 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 7.3위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국유 4대 상업은행 & 메가 종합금융 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 8,400억위안, 영업이익 4,032억위안 (OPM 48%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10.2%, 배당수익률 5.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "중국공상은행 (ICBC 工商银行 601398)(티커: 601398.SS)은 중국 국유 4대 상업은행 & 메가 종합금융 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -223718,7 +226557,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "중국건설은행 (CCB 建设银行)",
+        "name": "중국건설은행 (CCB 建设银行 601939)",
         "code": "601939.SS",
         "marketCap": "18,500억위안",
         "revenue": "7,400억위안",
@@ -223733,8 +226572,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "WARNING",
         "dividendYield": 6,
         "payoutRatio": 33,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 8.9위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국유 4대 은행 & 메가 금융지주 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 7,400억위안, 영업이익 3,478억위안 (OPM 47%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10.8%, 배당수익률 6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "중국건설은행 (CCB 建设银行)(티커: 601939.SS)은 중국 국유 4대 은행 & 메가 금융지주 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 8.9위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국유 4대 상업은행 & 메가 종합금융 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 7,400억위안, 영업이익 3,478억위안 (OPM 47%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10.8%, 배당수익률 6%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "중국건설은행 (CCB 建设银行 601939)(티커: 601939.SS)은 중국 국유 4대 상업은행 & 메가 종합금융 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -223789,7 +226628,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "중국농업은행 (ABC 农业银行)",
+        "name": "중국농업은행 (ABC 农业银行 601288)",
         "code": "601288.SS",
         "marketCap": "16,800억위안",
         "revenue": "6,900억위안",
@@ -223804,8 +226643,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "WARNING",
         "dividendYield": 5.9,
         "payoutRatio": 35,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 5.9위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국유 4대 은행 & 메가 금융지주 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 6,900억위안, 영업이익 3,174억위안 (OPM 46%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10.5%, 배당수익률 5.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "중국농업은행 (ABC 农业银行)(티커: 601288.SS)은 중국 국유 4대 은행 & 메가 금융지주 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 5.9위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국유 4대 상업은행 & 메가 종합금융 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 6,900억위안, 영업이익 3,174억위안 (OPM 46%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 10.5%, 배당수익률 5.9%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "중국농업은행 (ABC 农业银行 601288)(티커: 601288.SS)은 중국 국유 4대 상업은행 & 메가 종합금융 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -223860,7 +226699,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "핑안보험 (Ping An 平安保险)",
+        "name": "핑안보험 (Ping An 平安保险 601318)",
         "code": "601318.SS",
         "marketCap": "9,800억위안",
         "revenue": "9,100억위안",
@@ -223875,8 +226714,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "WARNING",
         "dividendYield": 4.8,
         "payoutRatio": 41,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 58.4위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국유 4대 은행 & 메가 금융지주 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 9,100억위안, 영업이익 1,137.5억위안 (OPM 12.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 4.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "핑안보험 (Ping An 平安保险)(티커: 601318.SS)은 중국 국유 4대 은행 & 메가 금융지주 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 58.4위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국유 4대 상업은행 & 메가 종합금융 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 9,100억위안, 영업이익 1,137.5억위안 (OPM 12.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 12%, 배당수익률 4.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "핑안보험 (Ping An 平安保险 601318)(티커: 601318.SS)은 중국 국유 4대 상업은행 & 메가 종합금융 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -223933,46 +226772,46 @@ window.REGIONAL_INDUSTRY_DATA = {
     ]
   },
   {
-    "id": "cn-consumer",
+    "id": "cn-baijiu-liquor",
     "country": "중국",
-    "sector": "프리미엄 백주 & 가전 & 글로벌 소비재",
+    "sector": "프리미엄 명품 백주(고량주) & 음료",
     "chapterTitle": "중국 ➔ 소비재·가전",
     "cluster": "소비재·가전",
-    "stockCount": 5,
-    "changeRate": "0.69",
+    "stockCount": 3,
+    "changeRate": "0.85",
     "correlationLogic": {
       "formula": "비천모태 출고가 × 유통 판매량 = 영업이익률 65%의 현금창출",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 프리미엄 백주 & 가전 & 글로벌 소비재 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 프리미엄 명품 백주(고량주) & 음료 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "귀주모태 등 프리미엄 백주의 OPM 65% 경이적 마진 및 가전 교체(이구환신) 수혜",
+      "currentStatus": "귀주모태 등 프리미엄 백주의 OPM 65% 경이적 마진과 대체 불가능한 중국 명품 문화",
       "outlookSignal": {
         "level": "BULLISH",
-        "badgeText": "🟢 독보적 OPM",
-        "summary": "귀주모태 등 프리미엄 백주의 OPM 65% 경이적 마진 및 가전 교체(이구환신) 수혜"
+        "badgeText": "🟢 독보적 OPM 65%",
+        "summary": "귀주모태 등 프리미엄 백주의 OPM 65% 경이적 마진과 대체 불가능한 중국 명품 문화"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
-      "statusBadge": "🟢 독보적 OPM",
-      "keyDriver": "중국 프리미엄 백주 & 가전 & 글로벌 소비재 글로벌 수요 및 수주 모멘텀",
-      "demandIndicator": "중국 백주 도매 가격 지수 & 소매판매 지수",
+      "statusBadge": "🟢 독보적 OPM 65%",
+      "keyDriver": "중국 프리미엄 명품 백주(고량주) & 음료 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "중국 백주 도매 가격 지수",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
     "riskDrivers": {
-      "bullFactor": "정부 소비 진작 보조금 및 신흥국 가전/소비재 수출 급증",
-      "bearFactor": "청년 실업률 및 중국 가계 소비 심리 회복 속도"
+      "bullFactor": "정부 소비 진작 보조금 및 VIP 선물용 수요 견고",
+      "bearFactor": "중국 청년층 주류 소비 성향 변화"
     },
     "indicators": [
       {
-        "name": "중국 백주 도매 가격 지수 & 소매판매 지수",
+        "name": "중국 백주 도매 가격 지수",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "프리미엄 백주 & 가전 & 글로벌 소비재 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "프리미엄 명품 백주(고량주) & 음료 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -223987,7 +226826,7 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "귀주모태 (Kweichow Moutai 贵州茅台)",
+        "name": "귀주모태 (Kweichow Moutai 贵州茅台 600519)",
         "code": "600519.SS",
         "marketCap": "19,800억위안",
         "revenue": "1,475억위안",
@@ -224002,8 +226841,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 3.1,
         "payoutRatio": 74,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 1950.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 백주 & 가전 & 글로벌 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,475억위안, 영업이익 966.125억위안 (OPM 65.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 36%, 배당수익률 3.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "귀주모태 (Kweichow Moutai 贵州茅台)(티커: 600519.SS)은 중국 프리미엄 백주 & 가전 & 글로벌 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 1950.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 명품 백주(고량주) & 음료 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 1,475억위안, 영업이익 966.125억위안 (OPM 65.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 36%, 배당수익률 3.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "귀주모태 (Kweichow Moutai 贵州茅台 600519)(티커: 600519.SS)은 중국 프리미엄 명품 백주(고량주) & 음료 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -224058,7 +226897,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "오량액 (Wuliangye 五粮液)",
+        "name": "오량액 (Wuliangye 五粮液 000858)",
         "code": "000858.SZ",
         "marketCap": "5,800억위안",
         "revenue": "830억위안",
@@ -224073,8 +226912,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 3.2,
         "payoutRatio": 58,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 184.5위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 백주 & 가전 & 글로벌 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 830억위안, 영업이익 398.4억위안 (OPM 48%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 25%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "오량액 (Wuliangye 五粮液)(티커: 000858.SZ)은 중국 프리미엄 백주 & 가전 & 글로벌 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 184.5위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 명품 백주(고량주) & 음료 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 830억위안, 영업이익 398.4억위안 (OPM 48%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 25%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "오량액 (Wuliangye 五粮液 000858)(티커: 000858.SZ)은 중국 프리미엄 명품 백주(고량주) & 음료 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -224129,7 +226968,134 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "메이디그룹 (Midea 美的集团)",
+        "name": "농부산천 (Nongfu Spring 생수/음료 9633)",
+        "code": "9633.HK",
+        "marketCap": "4,500억위안",
+        "revenue": "425억위안",
+        "operatingProfit": "142.375억위안",
+        "opMargin": 33.5,
+        "eps": 1.1,
+        "per": 32,
+        "pbr": 14,
+        "roe": 45,
+        "debtRatio": 18,
+        "currentRatio": 140,
+        "riskStatus": "SAFE",
+        "dividendYield": 2.2,
+        "payoutRatio": 70,
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 44.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 명품 백주(고량주) & 음료 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 425억위안, 영업이익 142.375억위안 (OPM 33.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 45%, 배당수익률 2.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "농부산천 (Nongfu Spring 생수/음료 9633)(티커: 9633.HK)은 중국 프리미엄 명품 백주(고량주) & 음료 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "financials5Y": [
+          {
+            "year": "2021",
+            "revenue": "361.25억위안",
+            "opProfit": "113.794억위안",
+            "netProfit": "91.035억위안",
+            "opMargin": "31.5%",
+            "eps": 0.94,
+            "roe": "44%",
+            "debtRatio": "24%"
+          },
+          {
+            "year": "2022",
+            "revenue": "391억위안",
+            "opProfit": "127.075억위안",
+            "netProfit": "101.66억위안",
+            "opMargin": "32.5%",
+            "eps": 1.01,
+            "roe": "44.5%",
+            "debtRatio": "21%"
+          },
+          {
+            "year": "2023",
+            "revenue": "412.25억위안",
+            "opProfit": "138.104억위안",
+            "netProfit": "110.483억위안",
+            "opMargin": "33.5%",
+            "eps": 1.07,
+            "roe": "45%",
+            "debtRatio": "18%"
+          },
+          {
+            "year": "2024",
+            "revenue": "459억위안",
+            "opProfit": "158.355억위안",
+            "netProfit": "126.684억위안",
+            "opMargin": "34.5%",
+            "eps": 1.19,
+            "roe": "45.5%",
+            "debtRatio": "15%"
+          },
+          {
+            "year": "2025(E)",
+            "revenue": "510억위안",
+            "opProfit": "181.05억위안",
+            "netProfit": "144.84억위안",
+            "opMargin": "35.5%",
+            "eps": 1.32,
+            "roe": "46%",
+            "debtRatio": "15%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cn-smart-appliances",
+    "country": "중국",
+    "sector": "글로벌 스마트 가전 & 생활 소비재",
+    "chapterTitle": "중국 ➔ 소비재·가전",
+    "cluster": "소비재·가전",
+    "stockCount": 3,
+    "changeRate": "-0.35",
+    "correlationLogic": {
+      "formula": "정부 보조금 수혜율 × 스마트 프리미엄 가전 판가 = 영업이익 15% 성장",
+      "details": [
+        "1단계: 글로벌 매크로 환경 및 글로벌 스마트 가전 & 생활 소비재 핵심 기술 수요 변동",
+        "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
+        "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
+        "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
+      ],
+      "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
+      "currentStatus": "메이디그룹, 하이얼의 중국 정부 가전 보조금 수혜 및 유럽/신흥국 수출 고성장",
+      "outlookSignal": {
+        "level": "BULLISH",
+        "badgeText": "🟢 가전 교체(이구환신)",
+        "summary": "메이디그룹, 하이얼의 중국 정부 가전 보조금 수혜 및 유럽/신흥국 수출 고성장"
+      }
+    },
+    "demandAnalysis": {
+      "status": "STRONG",
+      "statusBadge": "🟢 가전 교체(이구환신)",
+      "keyDriver": "중국 글로벌 스마트 가전 & 생활 소비재 글로벌 수요 및 수주 모멘텀",
+      "demandIndicator": "중국 가전제품 소매판매액 통계",
+      "demandIndicatorVal": "지속적인 우상향 확장세"
+    },
+    "riskDrivers": {
+      "bullFactor": "글로벌 백색가전 시장 점유율 1위 및 스마트 에어컨 판매 호조",
+      "bearFactor": "해외 관세 장벽 및 물류비 상승"
+    },
+    "indicators": [
+      {
+        "name": "중국 가전제품 소매판매액 통계",
+        "sourceName": "글로벌 공식 금융 데이터 포털",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 스마트 가전 & 생활 소비재 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
+        "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
+      },
+      {
+        "name": "미국 10년물 국채금리 및 글로벌 통화 환율",
+        "sourceName": "FRED & Investing.com",
+        "sourceUrl": "https://kr.investing.com/",
+        "role": "글로벌 유동성 및 해외 매출 환산 가치 평가",
+        "impact": "금리 안정화 시 고성장 테크 및 밸류에이션 리레이팅 가속",
+        "benchmark": "중립 금리 3.5%~4.2% 범위 안착"
+      }
+    ],
+    "companies": [
+      {
+        "name": "메이디그룹 (Midea 美的集团 000333)",
         "code": "000333.SZ",
         "marketCap": "5,400억위안",
         "revenue": "3,720억위안",
@@ -224144,8 +227110,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 4.5,
         "payoutRatio": 65,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 94.3위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 백주 & 가전 & 글로벌 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 3,720억위안, 영업이익 379.44억위안 (OPM 10.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 22%, 배당수익률 4.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "메이디그룹 (Midea 美的集团)(티커: 000333.SZ)은 중국 프리미엄 백주 & 가전 & 글로벌 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 94.3위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 스마트 가전 & 생활 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 3,720억위안, 영업이익 379.44억위안 (OPM 10.2%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 22%, 배당수익률 4.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "메이디그룹 (Midea 美的集团 000333)(티커: 000333.SZ)은 중국 글로벌 스마트 가전 & 생활 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -224200,7 +227166,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "하이얼 스마트홈 (Haier 海尔智家)",
+        "name": "하이얼 스마트홈 (Haier 海尔智家 600690)",
         "code": "600690.SS",
         "marketCap": "2,800억위안",
         "revenue": "2,610억위안",
@@ -224215,8 +227181,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 3.2,
         "payoutRatio": 48,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 33.8위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 백주 & 가전 & 글로벌 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 2,610억위안, 영업이익 203.58억위안 (OPM 7.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 17.5%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "하이얼 스마트홈 (Haier 海尔智家)(티커: 600690.SS)은 중국 프리미엄 백주 & 가전 & 글로벌 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 33.8위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 스마트 가전 & 생활 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 2,610억위안, 영업이익 203.58억위안 (OPM 7.8%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 17.5%, 배당수익률 3.2%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "하이얼 스마트홈 (Haier 海尔智家 600690)(티커: 600690.SS)은 중국 글로벌 스마트 가전 & 생활 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -224271,7 +227237,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "안타스포츠 (Anta Sports 安踏体育)",
+        "name": "안타스포츠 (Anta Sports 安踏体育 2020)",
         "code": "2020.HK",
         "marketCap": "2,500억위안",
         "revenue": "620억위안",
@@ -224286,8 +227252,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 2.8,
         "payoutRatio": 56,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 105.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 프리미엄 백주 & 가전 & 글로벌 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 620억위안, 영업이익 151.9억위안 (OPM 24.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 26%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "안타스포츠 (Anta Sports 安踏体育)(티커: 2020.HK)은 중국 프리미엄 백주 & 가전 & 글로벌 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 105.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 글로벌 스마트 가전 & 생활 소비재 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 620억위안, 영업이익 151.9억위안 (OPM 24.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 26%, 배당수익률 2.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "안타스포츠 (Anta Sports 安踏体育 2020)(티커: 2020.HK)은 중국 글로벌 스마트 가전 & 생활 소비재 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -224344,33 +227310,33 @@ window.REGIONAL_INDUSTRY_DATA = {
     ]
   },
   {
-    "id": "cn-energy",
+    "id": "cn-oil-mining",
     "country": "중국",
-    "sector": "국가기간 에너지 & 자원 & 화학",
+    "sector": "국영 석유에너지 & 핵심 희토류/자원",
     "chapterTitle": "중국 ➔ 에너지·자원",
     "cluster": "에너지·자원",
     "stockCount": 3,
-    "changeRate": "0.97",
+    "changeRate": "-0.57",
     "correlationLogic": {
       "formula": "천연가스/석탄 생산량 × 국가 고시 가격 + 정제마진 = 안정적 현금 창출",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 국가기간 에너지 & 자원 & 화학 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 국영 석유에너지 & 핵심 희토류/자원 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "페트로차이나 및 신화에너지의 막대한 현금흐름과 주주환원 배당수익률 6~7%",
+      "currentStatus": "페트로차이나, 중국신화에너지의 막대한 현금흐름과 주주환원 배당수익률 6~7%",
       "outlookSignal": {
         "level": "BULLISH",
         "badgeText": "🟢 국유 자산 가치",
-        "summary": "페트로차이나 및 신화에너지의 막대한 현금흐름과 주주환원 배당수익률 6~7%"
+        "summary": "페트로차이나, 중국신화에너지의 막대한 현금흐름과 주주환원 배당수익률 6~7%"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
       "statusBadge": "🟢 국유 자산 가치",
-      "keyDriver": "중국 국가기간 에너지 & 자원 & 화학 글로벌 수요 및 수주 모멘텀",
+      "keyDriver": "중국 국영 석유에너지 & 핵심 희토류/자원 글로벌 수요 및 수주 모멘텀",
       "demandIndicator": "중국 석탄 가격 지수 & 브렌트유",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
@@ -224383,7 +227349,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "중국 석탄 가격 지수 & 브렌트유",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "국가기간 에너지 & 자원 & 화학 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "국영 석유에너지 & 핵심 희토류/자원 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -224398,7 +227364,7 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "페트로차이나 (PetroChina 中国石油)",
+        "name": "페트로차이나 (PetroChina 中国石油 601857)",
         "code": "601857.SS",
         "marketCap": "15,800억위안",
         "revenue": "30,100억위안",
@@ -224413,8 +227379,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 5.8,
         "payoutRatio": 49,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 9.6위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국가기간 에너지 & 자원 & 화학 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 30,100억위안, 영업이익 2,257.5억위안 (OPM 7.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11.5%, 배당수익률 5.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "페트로차이나 (PetroChina 中国石油)(티커: 601857.SS)은 중국 국가기간 에너지 & 자원 & 화학 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 9.6위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국영 석유에너지 & 핵심 희토류/자원 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 30,100억위안, 영업이익 2,257.5억위안 (OPM 7.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 11.5%, 배당수익률 5.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "페트로차이나 (PetroChina 中国石油 601857)(티커: 601857.SS)은 중국 국영 석유에너지 & 핵심 희토류/자원 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -224469,7 +227435,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "중국신화에너지 (China Shenhua)",
+        "name": "중국신화에너지 (China Shenhua 601088)",
         "code": "601088.SS",
         "marketCap": "8,100억위안",
         "revenue": "3,430억위안",
@@ -224484,8 +227450,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 6.8,
         "payoutRatio": 78,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 44.6위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국가기간 에너지 & 자원 & 화학 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 3,430억위안, 영업이익 823.2억위안 (OPM 24%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15%, 배당수익률 6.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "중국신화에너지 (China Shenhua)(티커: 601088.SS)은 중국 국가기간 에너지 & 자원 & 화학 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 44.6위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국영 석유에너지 & 핵심 희토류/자원 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 3,430억위안, 영업이익 823.2억위안 (OPM 24%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 15%, 배당수익률 6.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "중국신화에너지 (China Shenhua 601088)(티커: 601088.SS)은 중국 국영 석유에너지 & 핵심 희토류/자원 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -224540,7 +227506,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "자진광업 (Zijin Mining 紫金矿业)",
+        "name": "자진광업 (Zijin Mining 구리/금 601899)",
         "code": "601899.SS",
         "marketCap": "4,600억위안",
         "revenue": "2,930억위안",
@@ -224555,8 +227521,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 2.1,
         "payoutRatio": 36,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 23.4위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국가기간 에너지 & 자원 & 화학 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 2,930억위안, 영업이익 336.95억위안 (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 21%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "자진광업 (Zijin Mining 紫金矿业)(티커: 601899.SS)은 중국 국가기간 에너지 & 자원 & 화학 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 23.4위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 국영 석유에너지 & 핵심 희토류/자원 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 2,930억위안, 영업이익 336.95억위안 (OPM 11.5%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 21%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "자진광업 (Zijin Mining 구리/금 601899)(티커: 601899.SS)은 중국 국영 석유에너지 & 핵심 희토류/자원 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -224613,33 +227579,33 @@ window.REGIONAL_INDUSTRY_DATA = {
     ]
   },
   {
-    "id": "cn-biopharma",
+    "id": "cn-biopharma-cdmo",
     "country": "중국",
-    "sector": "혁신 바이오 & 의료 인프라",
+    "sector": "바이오의약품 CDMO & 혁신 의료기기",
     "chapterTitle": "중국 ➔ 바이오·의료",
     "cluster": "바이오·의료",
     "stockCount": 3,
-    "changeRate": "-0.62",
+    "changeRate": "-0.06",
     "correlationLogic": {
       "formula": "해외 빅파마 기술수출 마일스톤 + 의료기기 국산화 점유율 = 흑자 전환",
       "details": [
-        "1단계: 글로벌 매크로 환경 및 혁신 바이오 & 의료 인프라 핵심 기술 수요 변동",
+        "1단계: 글로벌 매크로 환경 및 바이오의약품 CDMO & 혁신 의료기기 핵심 기술 수요 변동",
         "2단계: 선도 기업의 CAPEX 투자 사이클 및 제품 단가(ASP) 경쟁력 강화",
         "3단계: 영업 레버리지 극대화 및 글로벌 시장 점유율(M/S) 확대",
         "4단계: 잉여현금흐름(FCF) 급증 기반 자사주 매입·소각 및 배당 확대"
       ],
       "sensitivity": "핵심 전방 지표 10% 변동 시 업종 전체 영업이익 약 18~25% 민감 연동",
-      "currentStatus": "중국 혁신 ADC 및 면역항암제의 글로벌 빅파마향 수십억 달러 라이선스아웃 급증",
+      "currentStatus": "중국 혁신 ADC 및 면역항암제의 글로벌 빅파마향 수십억 달러 라이선스아웃(L/O) 급증",
       "outlookSignal": {
         "level": "BULLISH",
         "badgeText": "🟢 글로벌 L/O 호황",
-        "summary": "중국 혁신 ADC 및 면역항암제의 글로벌 빅파마향 수십억 달러 라이선스아웃 급증"
+        "summary": "중국 혁신 ADC 및 면역항암제의 글로벌 빅파마향 수십억 달러 라이선스아웃(L/O) 급증"
       }
     },
     "demandAnalysis": {
       "status": "STRONG",
       "statusBadge": "🟢 글로벌 L/O 호황",
-      "keyDriver": "중국 혁신 바이오 & 의료 인프라 글로벌 수요 및 수주 모멘텀",
+      "keyDriver": "중국 바이오의약품 CDMO & 혁신 의료기기 글로벌 수요 및 수주 모멘텀",
       "demandIndicator": "중국 혁신약 지수 (CSIC Innovation Drug)",
       "demandIndicatorVal": "지속적인 우상향 확장세"
     },
@@ -224652,7 +227618,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         "name": "중국 혁신약 지수 (CSIC Innovation Drug)",
         "sourceName": "글로벌 공식 금융 데이터 포털",
         "sourceUrl": "https://kr.investing.com/",
-        "role": "혁신 바이오 & 의료 인프라 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
+        "role": "바이오의약품 CDMO & 혁신 의료기기 업황 및 실적 추이를 선행하는 글로벌 벤치마크 지표",
         "impact": "지표 상승 시 차기 분기 컨센서스 상향 및 밸류에이션 리레이팅",
         "benchmark": "과거 5개년 평균 대비 상단 유지 시 비중 확대"
       },
@@ -224667,7 +227633,7 @@ window.REGIONAL_INDUSTRY_DATA = {
     ],
     "companies": [
       {
-        "name": "우시앱텍 (WuXi AppTec 药明康德)",
+        "name": "우시앱텍 (WuXi AppTec 药明康德 603259)",
         "code": "603259.SS",
         "marketCap": "1,450억위안",
         "revenue": "400억위안",
@@ -224682,8 +227648,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 2.5,
         "payoutRatio": 38,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 61.9위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 혁신 바이오 & 의료 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 400억위안, 영업이익 108억위안 (OPM 27%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 19.5%, 배당수익률 2.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "우시앱텍 (WuXi AppTec 药明康德)(티커: 603259.SS)은 중국 혁신 바이오 & 의료 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 61.9위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 바이오의약품 CDMO & 혁신 의료기기 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 400억위안, 영업이익 108억위안 (OPM 27%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 19.5%, 배당수익률 2.5%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "우시앱텍 (WuXi AppTec 药明康德 603259)(티커: 603259.SS)은 중국 바이오의약품 CDMO & 혁신 의료기기 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -224738,7 +227704,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "항서제약 (Hengrui Medicine 恒瑞医药)",
+        "name": "항서제약 (Hengrui Medicine 恒瑞医药 600276)",
         "code": "600276.SS",
         "marketCap": "3,100억위안",
         "revenue": "230억위안",
@@ -224753,8 +227719,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 0.8,
         "payoutRatio": 38,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 60.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 혁신 바이오 & 의료 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 230억위안, 영업이익 50.6억위안 (OPM 22%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 0.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "항서제약 (Hengrui Medicine 恒瑞医药)(티커: 600276.SS)은 중국 혁신 바이오 & 의료 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 60.0위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 바이오의약품 CDMO & 혁신 의료기기 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 230억위안, 영업이익 50.6억위안 (OPM 22%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 14%, 배당수익률 0.8%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "항서제약 (Hengrui Medicine 恒瑞医药 600276)(티커: 600276.SS)은 중국 바이오의약품 CDMO & 혁신 의료기기 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
@@ -224809,7 +227775,7 @@ window.REGIONAL_INDUSTRY_DATA = {
         ]
       },
       {
-        "name": "마인드레이 (Mindray Bio-Medical 迈瑞医疗)",
+        "name": "마인드레이 (Mindray Bio-Medical 300760)",
         "code": "300760.SZ",
         "marketCap": "3,200억위안",
         "revenue": "350억위안",
@@ -224824,8 +227790,8 @@ window.REGIONAL_INDUSTRY_DATA = {
         "riskStatus": "SAFE",
         "dividendYield": 2.1,
         "payoutRatio": 55,
-        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 308.8위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 혁신 바이오 & 의료 인프라 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 350억위안, 영업이익 122.5억위안 (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 31%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
-        "businessSummary": "마인드레이 (Mindray Bio-Medical 迈瑞医疗)(티커: 300760.SZ)은 중국 혁신 바이오 & 의료 인프라 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
+        "comment": "[글로벌 IB 및 리서치센터 최신 투자 분석 보고서]\n• 목표주가: 308.8위안 (투자의견: 매수 / 비중확대)\n• 2025~2026 실적 전망: 바이오의약품 CDMO & 혁신 의료기기 글로벌 수요 회복과 제품 포트폴리오 다각화에 힘입어 연간 매출 350억위안, 영업이익 122.5억위안 (OPM 35%) 달성이 예상됩니다. 견고한 가격 결정력과 고부가 라인업 믹스 개선이 호실적을 견인하고 있습니다.\n• 핵심 모멘텀: 글로벌 시장 선도적 시장 점유율, 탄탄한 현금창출력(FCF), 강력한 주주환원 정책(ROE 31%, 배당수익률 2.1%).\n• 리스크 요인: 글로벌 거시경제 변동성, 환율 영향 및 원자재 공급망 이슈 모니터링 필요.",
+        "businessSummary": "마인드레이 (Mindray Bio-Medical 300760)(티커: 300760.SZ)은 중국 바이오의약품 CDMO & 혁신 의료기기 산업을 선도하는 대표 기업으로, 강력한 기술적 진입장벽과 글로벌 공급망 네트워크를 바탕으로 안정적인 시장 지배력을 확보하고 있습니다. 차세대 성장 동력 확보를 위한 지속적인 R&D 투자와 수익성 개선을 적극 추진 중입니다.",
         "financials5Y": [
           {
             "year": "2021",
