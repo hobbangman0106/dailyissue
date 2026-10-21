@@ -74,7 +74,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 4px;
+    gap: 8px;
     max-width: 960px;
     margin: 0 auto;
     padding: 0 10px 10px 10px;
@@ -91,25 +91,25 @@ body {
 .tab-btn {
     background: transparent;
     border: none;
-    padding: 9px 32px;
-    font-size: 1.05rem;
+    padding: 8px 22px;
+    font-size: 1.0rem;
     font-weight: 600;
-    color: #777;
+    color: #64748b;
     border-radius: 20px;
     cursor: pointer;
     white-space: nowrap;
     transition: all 0.2s ease;
-    letter-spacing: -0.4px;
+    letter-spacing: -0.3px;
     flex-shrink: 0;
 }
 
 .tab-btn:hover {
-    color: #111;
-    background: rgba(0, 0, 0, 0.04);
+    color: #0f172a;
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .tab-btn.active {
-    background: #111;
+    background: #0f172a;
     color: #fff;
     font-weight: 700;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -222,19 +222,19 @@ body {
     /* Centered top categories */
     .category-tabs {
         flex-wrap: nowrap;
-        justify-content: center;
-        overflow-x: hidden;
-        gap: 16px;
-        padding: 0 15px 10px 15px;
-        margin-top: 5px;
+        justify-content: flex-start;
+        overflow-x: auto;
+        gap: 6px;
+        padding: 0 12px 8px 12px;
+        margin-top: 4px;
     }
 
     .tab-btn {
-        font-size: 1.05rem;
+        font-size: 0.92rem;
         font-weight: 700;
         white-space: nowrap;
-        padding: 9px 32px;
-        border-radius: 22px;
+        padding: 7px 16px;
+        border-radius: 18px;
     }
 
     /* Compact List Items for Mobile (10-15 per screen) */
@@ -2594,6 +2594,87 @@ body {
 
 .highlighted-peer-row .comp-name {
     color: #4338ca !important;
+}
+
+/* Hub & Table Search Inputs */
+.hub-search-container {
+    margin: 12px 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hub-search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+}
+
+.hub-search-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    color: #64748b;
+    pointer-events: none;
+}
+
+.hub-search-input {
+    width: 100%;
+    padding: 10px 16px 10px 42px;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    font-size: 0.92rem;
+    outline: none;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: all 0.2s ease;
+}
+
+.hub-search-input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
+}
+
+.comp-table-search-box {
+    margin: 12px 0 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comp-search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+}
+
+.comp-search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    color: #94a3b8;
+    pointer-events: none;
+}
+
+.comp-search-input {
+    width: 100%;
+    padding: 8px 14px 8px 36px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.88rem;
+    outline: none;
+    background: #ffffff;
+    transition: all 0.2s ease;
+}
+
+.comp-search-input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
 }
 
 @media (max-width: 768px) {
