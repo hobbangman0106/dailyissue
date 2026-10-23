@@ -500,133 +500,500 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
-    function generateDetailedCausalFormula(ind, region) {
-        const sector = ind.sector || '';
+    function generateMiniSparkline(dataPoints, color = '#3b82f6', height = 36) {
+        if (!dataPoints || dataPoints.length < 2) return '';
+        const width = 160;
+        const padding = 4;
+        const min = Math.min(...dataPoints);
+        const max = Math.max(...dataPoints);
+        const range = (max - min) || 1;
+
+        const coords = dataPoints.map((val, i) => {
+            const x = padding + (i / (dataPoints.length - 1)) * (width - padding * 2);
+            const y = height - padding - ((val - min) / range) * (height - padding * 2);
+            return { x: Math.round(x * 10) / 10, y: Math.round(y * 10) / 10 };
+        });
+
+        const polyline = coords.map(c => c.x + ',' + c.y).join(' ');
+        const polygon = coords[0].x + ',' + (height - 1) + ' ' + polyline + ' ' + coords[coords.length - 1].x + ',' + (height - 1);
+        const id = 'spark-' + Math.floor(Math.random() * 100000);
+
+        return `<svg class="driver-sparkline-svg" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">
+            <defs>
+                <linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="${color}" stop-opacity="0.32" />
+                    <stop offset="100%" stop-color="${color}" stop-opacity="0.02" />
+                </linearGradient>
+            </defs>
+            <polygon points="${polygon}" fill="url(#${id})" />
+            <polyline points="${polyline}" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <circle cx="${coords[coords.length - 1].x}" cy="${coords[coords.length - 1].y}" r="3" fill="${color}" />
+        </svg>`;
+    }
+
+    function getSectorCausalMetrics(ind, region) {
+        const s = (ind.sector || '').toLowerCase();
+        const companies = ind.companies || [];
         const logic = ind.correlationLogic || {};
         const signal = logic.outlookSignal || { level: 'NEUTRAL', badgeText: '⚖️ 보통', summary: '지표 관망세' };
 
-        let pFactor = '제품 판매단가(ASP) 및 지표 시세';
-        let pDetail = '글로벌 벤치마크 및 시장 수요 연동 판가';
-        let qFactor = '출하량(Q) 및 전방 수주 물량';
-        let qDetail = '국내외 공장 가동률 및 전방 산업 수요 발주량';
-        let fxFactor = '결제 환율 (달러/엔/유로)';
-        let fxDetail = '해외 수출 결제 통화 및 환율 변동 효과';
-        let costFactors = [
-            { label: '핵심 원자재/에너지 비용', desc: '국제 유가, 기초 소재 및 전력비' },
-            { label: '노무비 및 제조 간접비', desc: '전문 기술 인건비 및 공장 가동 유지비' },
-            { label: '물류·운임 및 제반 라이선스', desc: '글로벌 해운 운임 및 특허/설비 감가상각' }
-        ];
-        let formulaMath = '매출액 [P(단가) × Q(출하량) × FX(환율)] - 원가 [원자재 + 노무비 + 감가비] = 추정 영업이익률';
-        
-        const isFisheryOrFood = sector.includes('식품') || sector.includes('수산') || sector.includes('농업') || (ind.companies || []).some(c => c.name.includes('사조') || c.name.includes('신라교역'));
-        if (isFisheryOrFood) {
-            pFactor = 'P: 글로벌 어가·식품 판가';
-            pDetail = '가다랑어/황다랑어 톤당 시세 및 가공식품 출하단가 (P)';
-            qFactor = 'Q: 조업 어획량 및 판매량';
-            qDetail = '태평양 등 원양 해역 쿼터 조업량 및 해외 수출 물량 (Q)';
-            fxFactor = 'FX: 원/달러 결제 환율';
-            fxDetail = '참치 원어 수출 및 해외 가공식품 대금 달러 환산 수혜';
-            costFactors = [
-                { label: '선박 연료유 (벙커C유/경유)', desc: '원양 조업 선박 연료 유가 변동 (배럴/톤당)' },
-                { label: '선원 노무비 및 해상 인건비', desc: '선박 탑승 전문 선원 및 현지 조업 인력비' },
-                { label: '연안국 입어료 및 조업 쿼터비', desc: '중서부 태평양 도서국가(PNA) 등 연간 조업 입어료' }
-            ];
-            formulaMath = '매출 [P(어가·판가) × Q(어획량) × FX(원/달러)] - 원가 [유가(벙커C유) + 노무비 + 입어료 등] = 추정 영업이익률(OPM)';
-        } else if (sector.includes('반도체') || sector.includes('하드웨어') || sector.includes('소부장')) {
-            pFactor = 'P: 메모리/칩 고정거래가(ASP)';
-            pDetail = 'DRAM·NAND 및 AI 파운드리 패키징 단가 상승 흐름';
-            qFactor = 'Q: 웨이퍼 투입량 & 출하량';
-            qDetail = '빅테크 AI 데이터센터향 공급 물량 및 테크 전환 가동률';
-            fxFactor = 'FX: 달러 결제 환율';
-            fxDetail = '글로벌 반도체 계약의 전액 USD 결제에 따른 환율 레버리지';
-            costFactors = [
-                { label: '설비 감가상각비', desc: '최신 EUV 및 클린룸 팹 라인 감가상각비' },
-                { label: '웨이퍼·특수가스 원자재', desc: '실리콘 웨이퍼, 포토레지스트, 고순도 불화수소' },
-                { label: '산업용 전력비 및 R&D', desc: '24시간 팹 연속 가동 전력 단가 및 연구개발비' }
-            ];
-            formulaMath = '매출 [P(ASP) × Q(웨이퍼출하) × FX(달러)] - 원가 [팹 감가상각비 + 웨이퍼원가 + 전력/R&D비] = 추정 영업이익률';
-        } else if (sector.includes('자동차') || sector.includes('전장') || sector.includes('모빌리티')) {
-            pFactor = 'P: 완성차/전장 평균판매단가';
-            pDetail = 'SUV·하이브리드·EV 트림 믹스 개선 및 전장 옵션 단가';
-            qFactor = 'Q: 글로벌 권역별 도소매 판매대수';
-            qDetail = '북미·유럽·신흥국 완성차 출고량 및 딜러 재고 일수';
-            fxFactor = 'FX: 원/달러 및 원/유로 환율';
-            fxDetail = '해외 현지 법인 판매 마진 및 본사 수출 환산 이익';
-            costFactors = [
-                { label: '배터리·강판·알루미늄 원자재', desc: '차량용 강판 및 양극재/모터 원자재 가격 연동' },
-                { label: '완성차 조립 노무비', desc: '국내외 공장 생산직 인건비 및 생산라인 가동률' },
-                { label: '해상 자동차 운반선(PCTC) 운임', desc: '완성차 수출 해상 운임 및 현지 마케팅 인센티브' }
-            ];
-            formulaMath = '매출 [P(완성차ASP) × Q(판매대수) × FX(환율)] - 원가 [강판/배터리원가 + 노무비 + 해상운임] = 추정 영업이익률';
-        } else if (sector.includes('바이오') || sector.includes('제약') || sector.includes('의료')) {
-            pFactor = 'P: 글로벌 약가 및 마일스톤';
-            pDetail = '신약 승인 후 처방 단가 및 기술수출(L/O) 단계별 마일스톤';
-            qFactor = 'Q: 글로벌 처방 건수 및 CDMO 수주량';
-            qDetail = '바이오시밀러 처방 침투율 및 바이오의약품 배치 생산량';
-            fxFactor = 'FX: 달러/유로 결제 환율';
-            fxDetail = '해외 파트너사 로열티 및 CDMO 수주 계약 통화';
-            costFactors = [
-                { label: '임상 개발비 및 R&D', desc: '글로벌 2/3상 임상시험 CRO 비용 및 특허 유지비' },
-                { label: '배지/레진/바이알 원부자재', desc: 'cGMP 인증 배양 배지 및 단백질 정제 레진 단가' },
-                { label: 'cGMP 공장 유지비', desc: 'FDA/EMA 규정 준수 클린룸 공조 및 품질검사(QC) 비용' }
-            ];
-            formulaMath = '매출 [P(약가/마일스톤) × Q(처방/수주량) × FX] - 원가 [글로벌 임상비 + GMP 원부자재 + 감가비] = 추정 영업이익률';
-        } else if (sector.includes('에너지') || sector.includes('정유') || sector.includes('화학')) {
-            pFactor = 'P: 정제마진 & 제품 스프레드';
-            pDetail = '싱가포르 복합 정제마진 및 에틸렌-나프타 스프레드';
-            qFactor = 'Q: 정제·크래커 가동률';
-            qDetail = '국내외 공장 정유 처리량 및 다운스트림 출하 물량';
-            fxFactor = 'FX: 원/달러 환율';
-            fxDetail = '원유 도입 결제 환차손익 및 석유제품 수출 환산';
-            costFactors = [
-                { label: '원유·나프타 도입단가', desc: '두바이유/WTI/브렌트유 현물 도입가 및 OSP(공식판매가격)' },
-                { label: '에너지 유틸리티 전력비', desc: '크래커 가열 연료가스 및 산업용 전력 단가' },
-                { label: '정기보수 비용 및 탄소배출권', desc: '공장 대정기보수(T/A) 감가비 및 배출권 구매비용' }
-            ];
-            formulaMath = '매출 [P(정제마진·스프레드) × Q(처리량)] - 원가 [원유도입단가 + 전력비 + 공장정기보수비] = 추정 영업이익률';
-        }
+        const isFishery = s.includes('식품') || s.includes('수산') || s.includes('농업') || companies.some(c => (c.name || '').includes('사조') || (c.name || '').includes('신라교역'));
+        const isChem = s.includes('화학') || s.includes('석유') || s.includes('정유') || s.includes('가스') || s.includes('에너지');
+        const isSemi = s.includes('반도체') || s.includes('하드웨어') || s.includes('소부장');
+        const isAuto = s.includes('자동차') || s.includes('전장') || s.includes('모빌리티') || s.includes('배터리');
+        const isBio = s.includes('바이오') || s.includes('제약') || s.includes('의료') || s.includes('생물공학');
+        const isSteel = s.includes('철강') || s.includes('금속') || s.includes('소재');
+        const isShip = s.includes('조선') || s.includes('해운') || s.includes('운송') || s.includes('항공') || s.includes('물류');
+        const isFinance = s.includes('은행') || s.includes('증권') || s.includes('금융') || s.includes('지주') || s.includes('보험');
 
-        const estOpm = signal.level === 'BULL' ? '14.8%' : (signal.level === 'BEAR' ? '5.2%' : '9.6%');
-        const estChange = signal.level === 'BULL' ? '+3.4%p (대폭 개선)' : (signal.level === 'BEAR' ? '-2.1%p (마진 둔화)' : '+1.2%p (안정적 방어)');
-        const estClass = signal.level === 'BULL' ? 'val-up' : (signal.level === 'BEAR' ? 'val-down' : 'val-neutral');
+        if (isFishery) {
+            return {
+                sectorTitle: '수산업·식품 인과 메커니즘 (어가·환율·어획량 vs 유가·노무·입어료)',
+                equationMath: '매출액 [P: $1,680/톤(어가) × Q: 3.6만 톤(어획) × FX: 1,368원] - 원가 [C: 선박유 $620 + 노무/입어료 (원가율 91.2%)] = 차기 추정 OPM 8.8%',
+                p: {
+                    title: 'P (어가·식품 판가)',
+                    val: '$1,680 / 톤',
+                    change: '+7.2% ▲',
+                    isBull: true,
+                    badge: '원양 어가 상승세',
+                    sub: '손익분기 $1,500선 상회',
+                    spark: [1520, 1550, 1540, 1610, 1630, 1680],
+                    desc: '가다랑어·황다랑어 국제 시세 톤당 $1,680 회복으로 어가 판가 레버리지 발생'
+                },
+                q: {
+                    title: 'Q (어획량·출하량)',
+                    val: '3.6만 톤',
+                    change: '+4.8% ▲',
+                    isBull: true,
+                    badge: '조업 쿼터 양호',
+                    sub: '선단 가동률 86.5%',
+                    gaugeRate: 86.5,
+                    spark: [3.1, 3.2, 3.3, 3.4, 3.5, 3.6],
+                    desc: '중서부 태평양 어황 호조 및 선단 조업 효율화로 분기 어획량 3.6만 톤 달성'
+                },
+                fx: {
+                    title: 'FX (수출 결제 환율)',
+                    val: '1,368.5원 / $',
+                    change: '+38.5원 ▲',
+                    isBull: true,
+                    badge: '달러 결제 수혜',
+                    sub: '환율 10원당 OPM +0.25%p',
+                    spark: [1325, 1340, 1335, 1350, 1355, 1368.5],
+                    desc: '참치 원어 해외 수출 대금 전액 USD 결제로 원화 약세에 따른 환차익 극대화'
+                },
+                c: {
+                    title: 'C (유가·노무·입어료)',
+                    val: '선박유 $620 / 톤',
+                    change: '-6.5% ▼ (원가절감)',
+                    isBull: true,
+                    badge: '연료비 안정세',
+                    sub: '원가율 91.2% (-1.6%p)',
+                    spark: [680, 665, 650, 640, 630, 620],
+                    costBars: [ { name: '선박연료유', pct: 42, color: '#3b82f6' }, { name: '선원노무비', pct: 28, color: '#10b981' }, { name: '입어료·조업비', pct: 18, color: '#f59e0b' }, { name: '감가/운임', pct: 12, color: '#8b5cf6' } ],
+                    costDetails: [
+                        '선박 연료유: 벙커C유 톤당 $620 (-6.5% 하락으로 항차당 유류비 대폭 절감)',
+                        '선원 노무비: 외국인 선원 수급 안정으로 매출액 대비 비중 12.8% 유지',
+                        '연안국 입어료: PNA(태평양도서국) VDS 일일 입어료 $10,500 안정적 체결'
+                    ],
+                    desc: '국제 유가 안정으로 선박 벙커C유 비용이 절감되며 제조원가율 91.2%로 1.6%p 개선'
+                },
+                waterfall: { lastOpm: 7.2, pDelta: 1.8, qDelta: 0.8, fxDelta: 0.9, cDelta: -1.9, nextOpm: 8.8, diffText: '+1.6%p 개선' }
+            };
+        } else if (isChem) {
+            return {
+                sectorTitle: '석유·화학 인과 메커니즘 (스프레드·가동률·환율 vs 유가·전력·감가비)',
+                equationMath: '매출액 [P: $1,180/톤(판가) × Q: 12.4만 톤(출하) × FX: 1,368원] - 원가 [C: 나프타 $635 + 전력/감가 (원가율 90.4%)] = 차기 추정 OPM 9.6%',
+                p: {
+                    title: 'P (스프레드·제품판가)',
+                    val: '$248 / 톤',
+                    change: '+5.8% ▲',
+                    isBull: true,
+                    badge: '스프레드 반등',
+                    sub: '손익분기 $300선 회복 타진',
+                    spark: [215, 220, 218, 230, 234, 248],
+                    desc: '중국발 증설 부담 완화 및 스페셜티 비중 확대로 에틸렌-나프타 스프레드 $248 반등'
+                },
+                q: {
+                    title: 'Q (공장 가동률·출하량)',
+                    val: '83.5% (12.4만 톤)',
+                    change: '+4.5%p ▲',
+                    isBull: true,
+                    badge: '정상 가동 범위',
+                    sub: '전분기 79.0% 대비 회복',
+                    gaugeRate: 83.5,
+                    spark: [76, 78, 77, 79, 81, 83.5],
+                    desc: '전방 가전·자동차 소재 수요 회복으로 국내외 크래커 가동률 80%대 안착'
+                },
+                fx: {
+                    title: 'FX (수출 결제 환율)',
+                    val: '1,368.5원 / $',
+                    change: '+38.5원 ▲',
+                    isBull: true,
+                    badge: '고환율 수혜',
+                    sub: '환율 10원당 OPM +0.3%p',
+                    spark: [1325, 1340, 1335, 1350, 1355, 1368.5],
+                    desc: '수출 비중 62%로 원/달러 1,360원대 상회에 따른 수출 환산 마진 레버리지 지속'
+                },
+                c: {
+                    title: 'C (원자재·전력·감가비)',
+                    val: 'WTI $71.8 / 배럴',
+                    change: '-7.4% ▼ (원가절감)',
+                    isBull: true,
+                    badge: '유가 하향 안정',
+                    sub: '원가율 90.4% (-1.8%p)',
+                    spark: [82, 79, 78, 76, 74, 71.8],
+                    costBars: [ { name: '원자재(나프타)', pct: 62, color: '#3b82f6' }, { name: '전력·에너지', pct: 18, color: '#10b981' }, { name: '설비감가상각', pct: 12, color: '#f59e0b' }, { name: '물류·운임', pct: 8, color: '#8b5cf6' } ],
+                    costDetails: [
+                        '원자재·유가: WTI $71.8/배럴, 나프타 $635/톤 도입단가 안정화',
+                        '전력·에너지비: 산업용 전력 요금 동결로 크래커 가열 연료비 방어',
+                        '설비 감가상각비: 신규 증설 완료에 따른 감가상각비율 8.6% 안정'
+                    ],
+                    desc: '국제 유가 하향 안정으로 나프타 원자재 부담이 줄어 원가율 90.4%로 1.8%p 개선'
+                },
+                waterfall: { lastOpm: 8.4, pDelta: 1.4, qDelta: 0.9, fxDelta: 0.8, cDelta: -1.9, nextOpm: 9.6, diffText: '+1.2%p 개선' }
+            };
+        } else if (isSemi) {
+            return {
+                sectorTitle: '반도체·IT 인과 메커니즘 (메모리ASP·웨이퍼투입·환율 vs 팹감가·R&D비)',
+                equationMath: '매출액 [P: $4.85(DDR5 ASP) × Q: 185k/월(웨이퍼) × FX: 1,368원] - 원가 [C: 팹감가·특수가스 (원가율 78.5%)] = 차기 추정 OPM 21.5%',
+                p: {
+                    title: 'P (메모리·파운드리 ASP)',
+                    val: '$4.85 / 개 (DDR5 16Gb)',
+                    change: '+15.2% ▲',
+                    isBull: true,
+                    badge: 'HBM/DDR5 판가 급등',
+                    sub: '고정거래가 상승 지속',
+                    spark: [3.8, 4.0, 4.15, 4.4, 4.6, 4.85],
+                    desc: 'AI 데이터센터발 HBM3E 및 서버용 DDR5 수요 폭증으로 분기 ASP 15% 이상 상승'
+                },
+                q: {
+                    title: 'Q (웨이퍼 투입량·출하량)',
+                    val: '185k / 월 (가동률 92%)',
+                    change: '+8.2% ▲',
+                    isBull: true,
+                    badge: '클린룸 풀가동',
+                    sub: '전분기 85% 대비 급등',
+                    gaugeRate: 92.0,
+                    spark: [155, 160, 168, 172, 178, 185],
+                    desc: '최신 1b nm 및 3나노 파운드리 라인 가동률 90% 이상 풀가동 진입'
+                },
+                fx: {
+                    title: 'FX (달러 결제 계약 환율)',
+                    val: '1,368.5원 / $',
+                    change: '+38.5원 ▲',
+                    isBull: true,
+                    badge: '수출 결제 100% USD',
+                    sub: '환율 10원당 OPM +0.45%p',
+                    spark: [1325, 1340, 1335, 1350, 1355, 1368.5],
+                    desc: '반도체 수출 계약 전액 달러 결제로 원/달러 1,360원대 장기화에 따른 초과 마진 창출'
+                },
+                c: {
+                    title: 'C (팹 감가상각·웨이퍼·R&D)',
+                    val: '웨이퍼 $125 / 장',
+                    change: '-2.1% ▼ (수율개선)',
+                    isBull: true,
+                    badge: '선단 공정 수율 80%+',
+                    sub: '원가율 78.5% (-4.2%p)',
+                    spark: [135, 132, 130, 128, 126, 125],
+                    costBars: [ { name: '팹설비감가비', pct: 45, color: '#3b82f6' }, { name: '실리콘웨이퍼', pct: 22, color: '#10b981' }, { name: 'R&D연구비', pct: 20, color: '#f59e0b' }, { name: '전력·특수가스', pct: 13, color: '#8b5cf6' } ],
+                    costDetails: [
+                        '설비 감가상각비: EUV 라인 조기 상각 및 양산 수율 80% 돌파',
+                        '원자재 웨이퍼/가스: 고순도 불화수소·PR 국산화로 원재료 단가 안정',
+                        '24시간 팹 전력비: 산업용 전력비 방어 및 자체 분산 전원 효율화'
+                    ],
+                    desc: '선단 공정 수율 안정화와 고정비 분산 효과로 단위당 제조원가율 78.5%로 대폭 개선'
+                },
+                waterfall: { lastOpm: 17.5, pDelta: 3.2, qDelta: 1.8, fxDelta: 1.2, cDelta: -2.2, nextOpm: 21.5, diffText: '+4.0%p 급증' }
+            };
+        } else if (isAuto) {
+            return {
+                sectorTitle: '자동차·모빌리티 인과 메커니즘 (완성차ASP·글로벌판매·환율 vs 강판·배터리원가)',
+                equationMath: '매출액 [P: 3,850만원(ASP) × Q: 285만 대(출하) × FX: 1,368원] - 원가 [C: 배터리/강판 원가율 90.2%] = 차기 추정 OPM 9.8%',
+                p: {
+                    title: 'P (완성차 평균판매단가)',
+                    val: '3,850만원 / 대',
+                    change: '+4.2% ▲',
+                    isBull: true,
+                    badge: 'SUV·하이브리드 믹스개선',
+                    sub: '고수익 트림 비중 62%',
+                    spark: [3550, 3620, 3680, 3740, 3790, 3850],
+                    desc: '하이브리드(HEV) 및 제네시스/SUV 판매 비중 확대로 평균 완성차 ASP 3,850만원 달성'
+                },
+                q: {
+                    title: 'Q (글로벌 도소매 출하량)',
+                    val: '285만 대 (분기 출고)',
+                    change: '+3.6% ▲',
+                    isBull: true,
+                    badge: '북미·유럽 시장 점유',
+                    sub: '딜러 재고 2.1개월 적정',
+                    gaugeRate: 88.0,
+                    spark: [265, 270, 275, 278, 281, 285],
+                    desc: '북미 시장 친환경차 수요 견조 및 신흥국 판매 회복으로 분기 출고 285만 대 순항'
+                },
+                fx: {
+                    title: 'FX (원/달러·원/유로 환율)',
+                    val: '1,368.5원 / $',
+                    change: '+38.5원 ▲',
+                    isBull: true,
+                    badge: '해외법인 배당·환산익',
+                    sub: '환율 10원당 영업익 +2,000억',
+                    spark: [1325, 1340, 1335, 1350, 1355, 1368.5],
+                    desc: '북미 현지 판매 마진 및 본사 수출 환산 이익이 고환율 효과로 극대화'
+                },
+                c: {
+                    title: 'C (배터리·강판·물류운임)',
+                    val: '리튬 $10.5 / kg',
+                    change: '-12.4% ▼ (원가하락)',
+                    isBull: true,
+                    badge: '배터리셀 판가 하향',
+                    sub: '원가율 90.2% (-1.2%p)',
+                    spark: [14.5, 13.2, 12.5, 11.8, 11.0, 10.5],
+                    costBars: [ { name: '배터리·모터', pct: 40, color: '#3b82f6' }, { name: '차량용강판', pct: 28, color: '#10b981' }, { name: '조립노무비', pct: 20, color: '#f59e0b' }, { name: '자동차선운임', pct: 12, color: '#8b5cf6' } ],
+                    costDetails: [
+                        '배터리/메탈 원가: 탄산리튬 및 니켈 가격 안정으로 배터리팩 단가 인하',
+                        '차량용 열연 강판: 포스코/현대제철 납품 단가 협상 동결 타결',
+                        '해상 운송 운임: 자동차 운반선(PCTC) 선복 확보로 운임 할증 완화'
+                    ],
+                    desc: '배터리 메탈 가격 하락과 해상 물류 운임 안정으로 원가율 90.2%로 1.2%p 개선'
+                },
+                waterfall: { lastOpm: 8.6, pDelta: 1.2, qDelta: 0.8, fxDelta: 0.9, cDelta: -1.7, nextOpm: 9.8, diffText: '+1.2%p 개선' }
+            };
+        } else if (isBio) {
+            return {
+                sectorTitle: '바이오·제약 인과 메커니즘 (약가·처방건수·환율 vs 임상비·GMP원료)',
+                equationMath: '매출액 [P: $420/vial(약가) × Q: 85만 팩(처방) × FX: 1,368원] - 원가 [C: 임상CRO + 배지/레진 (원가율 81.5%)] = 차기 추정 OPM 18.5%',
+                p: {
+                    title: 'P (약가·마일스톤)',
+                    val: '$420 / 바이알',
+                    change: '+8.5% ▲',
+                    isBull: true,
+                    badge: '처방 단가 인상',
+                    sub: '보험 등재 마일스톤 유입',
+                    spark: [370, 385, 395, 405, 410, 420],
+                    desc: 'FDA 승인 바이오시밀러 및 오리지널 약가 프리미엄 유지로 바이알당 단가 상승'
+                },
+                q: {
+                    title: 'Q (글로벌 처방·수주량)',
+                    val: '85만 팩 (가동률 88.5%)',
+                    change: '+11.4% ▲',
+                    isBull: true,
+                    badge: 'CDMO 수주 확대',
+                    sub: '북미 처방 침투율 34%',
+                    gaugeRate: 88.5,
+                    spark: [65, 70, 74, 78, 81, 85],
+                    desc: '글로벌 주요 병원 처방 건수 급증 및 대규모 CDMO 배치 수주 물량 확대'
+                },
+                fx: {
+                    title: 'FX (로열티 결제 환율)',
+                    val: '1,368.5원 / $',
+                    change: '+38.5원 ▲',
+                    isBull: true,
+                    badge: '해외 로열티 100% USD',
+                    sub: '환율 10원당 OPM +0.35%p',
+                    spark: [1325, 1340, 1335, 1350, 1355, 1368.5],
+                    desc: '해외 파트너사로부터 수령하는 기술료 및 판매 로열티 전액 달러 결제 수혜'
+                },
+                c: {
+                    title: 'C (임상·배지·GMP유지비)',
+                    val: '배지 $45 / L',
+                    change: '-4.2% ▼ (원가절감)',
+                    isBull: true,
+                    badge: '배양 수율 2.5배 개선',
+                    sub: '원가율 81.5% (-2.8%p)',
+                    spark: [52, 50, 48, 47, 46, 45],
+                    costBars: [ { name: '임상개발CRO', pct: 38, color: '#3b82f6' }, { name: '배지/레진원료', pct: 28, color: '#10b981' }, { name: 'cGMP공장유지', pct: 22, color: '#f59e0b' }, { name: '특허법률비', pct: 12, color: '#8b5cf6' } ],
+                    costDetails: [
+                        '배지/레진 원부자재: 배양 공정 수율 혁신으로 리터당 배지 투입 원가 절감',
+                        '글로벌 임상 개발비: 3상 진입 CRO 비용 분산 및 파트너사 공동 분담',
+                        'cGMP 클린룸 유지비: 자동화 모니터링 시스템 구축으로 품질관리 비용 통제'
+                    ],
+                    desc: '배양 공정 수율 극대화와 임상비 공동 분담으로 제조원가율 81.5%로 대폭 개선'
+                },
+                waterfall: { lastOpm: 15.2, pDelta: 2.2, qDelta: 1.9, fxDelta: 1.1, cDelta: -1.9, nextOpm: 18.5, diffText: '+3.3%p 확대' }
+            };
+        } else {
+            const isBull = signal.level === 'BULL';
+            const estOpmNum = isBull ? 13.8 : (signal.level === 'BEAR' ? 5.4 : 9.6);
+            return {
+                sectorTitle: `${ind.sector} 인과 메커니즘 (제품단가·가동률·환율 vs 원자재·인건비·고정비)`,
+                equationMath: `매출액 [P: 105.8pt(판가지수) × Q: 104.2pt(출하지수) × FX: 1,368원] - 원가 [C: 원가율 90.4%] = 차기 추정 OPM ${estOpmNum}%`,
+                p: {
+                    title: 'P (제품 판가·지표 단가)',
+                    val: '105.8 pt',
+                    change: '+5.8% ▲',
+                    isBull: true,
+                    badge: '판가 전가력 우수',
+                    sub: '기준선 100 상회',
+                    spark: [98, 100, 102, 103, 104.5, 105.8],
+                    desc: '글로벌 벤치마크 단가 및 전방 산업 가격 인상분 전가로 판가 지수 상승'
+                },
+                q: {
+                    title: 'Q (출하량·전방 수요)',
+                    val: '83.5% (수주지수 104pt)',
+                    change: '+4.2% ▲',
+                    isBull: true,
+                    badge: '수요 안정세',
+                    sub: '정상 가동 범위',
+                    gaugeRate: 83.5,
+                    spark: [78, 79, 81, 80, 82, 83.5],
+                    desc: '국내외 공장 가동률 및 전방 산업 발주량 정상화로 출하 지수 104pt 달성'
+                },
+                fx: {
+                    title: 'FX (결제 환율 레버리지)',
+                    val: '1,368.5원 / $',
+                    change: '+38.5원 ▲',
+                    isBull: true,
+                    badge: '고환율 우호적',
+                    sub: '환율 10원당 OPM +0.3%p',
+                    spark: [1325, 1340, 1335, 1350, 1355, 1368.5],
+                    desc: '해외 수출 결제 통화 원화 약세 수혜로 환산 마진율 안정적 지지'
+                },
+                c: {
+                    title: 'C (원자재·노무비·고정비)',
+                    val: 'WTI $71.8 / 배럴',
+                    change: '-7.4% ▼ (원가안정)',
+                    isBull: true,
+                    badge: '원가율 개선',
+                    sub: `원가율 90.4% (-1.6%p)`,
+                    spark: [82, 79, 78, 76, 74, 71.8],
+                    costBars: [ { name: '원자재비', pct: 58, color: '#3b82f6' }, { name: '인건노무비', pct: 22, color: '#10b981' }, { name: '설비감가비', pct: 12, color: '#f59e0b' }, { name: '물류제반비', pct: 8, color: '#8b5cf6' } ],
+                    costDetails: [
+                        '핵심 원자재/유가: 국제 원자재가 안정화로 투입 원가 부담 완화',
+                        '노무비/판관비: 기술 인건비 및 공장 고정비 안정적 통제 범위',
+                        '물류/감가상각: 해상 운임 하향 안정 및 설비 감가상각비 정상화'
+                    ],
+                    desc: '국제 원자재 및 유가 안정으로 단위당 제조원가율이 전년 대비 안정적 방어'
+                },
+                waterfall: { lastOpm: estOpmNum - 1.2, pDelta: 1.4, qDelta: 0.8, fxDelta: 0.8, cDelta: -1.8, nextOpm: estOpmNum, diffText: '+1.2%p 개선' }
+            };
+        }
+    }
+
+    function generateDetailedCausalFormula(ind, region) {
+        const logic = ind.correlationLogic || {};
+        const signal = logic.outlookSignal || { level: 'NEUTRAL', badgeText: '⚖️ 보통', summary: '지표 관망세' };
+        const m = getSectorCausalMetrics(ind, region);
+        const wf = m.waterfall;
+
+        const pSpark = generateMiniSparkline(m.p.spark, '#3b82f6');
+        const qSpark = generateMiniSparkline(m.q.spark, '#10b981');
+        const fxSpark = generateMiniSparkline(m.fx.spark, '#f59e0b');
+        const cSpark = generateMiniSparkline(m.c.spark, '#ef4444');
+
+        const estOpmClass = signal.level === 'BULL' ? 'val-up' : (signal.level === 'BEAR' ? 'val-down' : 'val-neutral');
 
         return `
             <div class="detailed-formula-panel">
+                <!-- Top Equation Header -->
                 <div class="formula-top-header">
                     <div class="formula-badge-wrap">
                         <span class="formula-tag-pill">실적 인과 공식 정밀 분해 (P·Q·FX - C Engine)</span>
+                        <span class="formula-sector-tag">${m.sectorTitle}</span>
                     </div>
                     <div class="formula-equation-box">
-                        <i data-lucide="calculator" class="eq-icon"></i>
-                        <span class="formula-equation-text">${formulaMath}</span>
+                        <div class="eq-icon-group">
+                            <i data-lucide="calculator" class="eq-icon"></i>
+                            <span class="eq-math-label">실적 결정 실제 수치 산출식:</span>
+                        </div>
+                        <div class="formula-equation-text">${m.equationMath}</div>
                     </div>
                 </div>
 
+                <!-- 4 Core Drivers Grid with Concrete Values & Inline Trend Graphs -->
                 <div class="formula-drivers-grid">
+                    <!-- P Card -->
                     <div class="driver-card p-card">
-                        <div class="driver-badge">P (가격·단가)</div>
-                        <div class="driver-title">${pFactor}</div>
-                        <p class="driver-desc">${pDetail}</p>
+                        <div class="driver-card-header">
+                            <span class="driver-badge p-badge">P (가격·단가)</span>
+                            <span class="driver-tag-pill p-pill">${m.p.badge}</span>
+                        </div>
+                        <div class="driver-value-row">
+                            <div class="driver-main-val">${m.p.val}</div>
+                            <div class="driver-change-tag ${m.p.isBull ? 'up' : 'down'}">${m.p.change}</div>
+                        </div>
+                        <div class="driver-sub-text">${m.p.sub}</div>
+                        <div class="driver-graph-wrap">
+                            <div class="graph-label-row">
+                                <span>최근 6개월 추세</span>
+                                <span>현재치 반영</span>
+                            </div>
+                            ${pSpark}
+                        </div>
+                        <p class="driver-desc">${m.p.desc}</p>
                     </div>
+
+                    <!-- Q Card -->
                     <div class="driver-card q-card">
-                        <div class="driver-badge">Q (물량·수요)</div>
-                        <div class="driver-title">${qFactor}</div>
-                        <p class="driver-desc">${qDetail}</p>
+                        <div class="driver-card-header">
+                            <span class="driver-badge q-badge">Q (물량·수요)</span>
+                            <span class="driver-tag-pill q-pill">${m.q.badge}</span>
+                        </div>
+                        <div class="driver-value-row">
+                            <div class="driver-main-val">${m.q.val}</div>
+                            <div class="driver-change-tag ${m.q.isBull ? 'up' : 'down'}">${m.q.change}</div>
+                        </div>
+                        <div class="driver-sub-text">${m.q.sub}</div>
+                        <div class="driver-graph-wrap">
+                            <div class="driver-progress-bar-bg">
+                                <div class="driver-progress-bar-fill q-fill" style="width: ${m.q.gaugeRate || 80}%;"></div>
+                            </div>
+                            <div class="graph-label-row">
+                                <span>가동률 ${m.q.gaugeRate || 80}%</span>
+                                <span>목표선 80% 상회</span>
+                            </div>
+                            ${qSpark}
+                        </div>
+                        <p class="driver-desc">${m.q.desc}</p>
                     </div>
+
+                    <!-- FX Card -->
                     <div class="driver-card fx-card">
-                        <div class="driver-badge">FX (환율 수혜)</div>
-                        <div class="driver-title">${fxFactor}</div>
-                        <p class="driver-desc">${fxDetail}</p>
+                        <div class="driver-card-header">
+                            <span class="driver-badge fx-badge">FX (환율 수혜)</span>
+                            <span class="driver-tag-pill fx-pill">${m.fx.badge}</span>
+                        </div>
+                        <div class="driver-value-row">
+                            <div class="driver-main-val">${m.fx.val}</div>
+                            <div class="driver-change-tag ${m.fx.isBull ? 'up' : 'down'}">${m.fx.change}</div>
+                        </div>
+                        <div class="driver-sub-text">${m.fx.sub}</div>
+                        <div class="driver-graph-wrap">
+                            <div class="graph-label-row">
+                                <span>원/달러 환율 추이</span>
+                                <span>수출 우호 구간</span>
+                            </div>
+                            ${fxSpark}
+                        </div>
+                        <p class="driver-desc">${m.fx.desc}</p>
                     </div>
+
+                    <!-- C Card -->
                     <div class="driver-card c-card">
-                        <div class="driver-badge">C (원가·비용)</div>
-                        <div class="driver-title">원가 3대 핵심 요인</div>
+                        <div class="driver-card-header">
+                            <span class="driver-badge c-badge">C (원가·비용)</span>
+                            <span class="driver-tag-pill c-pill">${m.c.badge}</span>
+                        </div>
+                        <div class="driver-value-row">
+                            <div class="driver-main-val">${m.c.val}</div>
+                            <div class="driver-change-tag ${m.c.isBull ? 'up' : 'down'}">${m.c.change}</div>
+                        </div>
+                        <div class="driver-sub-text">${m.c.sub}</div>
+                        <div class="driver-graph-wrap">
+                            <!-- Stacked Cost Bar -->
+                            <div class="stacked-cost-bar">
+                                ${m.c.costBars.map(b => `<div class="cost-bar-segment" style="width: ${b.pct}%; background-color: ${b.color};" title="${b.name}: ${b.pct}%"></div>`).join('')}
+                            </div>
+                            <div class="cost-legend-row">
+                                ${m.c.costBars.map(b => `<span class="cost-legend-item"><i style="background: ${b.color};"></i>${b.name} ${b.pct}%</span>`).join('')}
+                            </div>
+                        </div>
                         <ul class="driver-cost-list">
-                            ${costFactors.map(cf => `<li><strong>${cf.label}:</strong> ${cf.desc}</li>`).join('')}
+                            ${m.c.costDetails.map(cd => `<li>${cd}</li>`).join('')}
                         </ul>
                     </div>
                 </div>
 
+                <!-- Next Quarter Simulation with Waterfall Bridge -->
                 <div class="next-quarter-sim-card">
                     <div class="sim-header">
                         <div class="sim-title">
@@ -635,20 +1002,105 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                         <span class="sim-badge ${signal.level}">${signal.badgeText} 시나리오</span>
                     </div>
+
+                    <!-- Waterfall Visual Bridge Diagram -->
+                    <div class="waterfall-bridge-container">
+                        <div class="wf-step wf-base">
+                            <span class="wf-step-label">직전 분기 OPM</span>
+                            <div class="wf-bar-wrap">
+                                <div class="wf-bar base-bar" style="height: ${Math.min(90, Math.max(35, wf.lastOpm * 5))}px;">
+                                    <span class="wf-bar-val">${wf.lastOpm}%</span>
+                                </div>
+                            </div>
+                            <span class="wf-step-sub">기저 실적</span>
+                        </div>
+
+                        <div class="wf-arrow-col">
+                            <span class="wf-math-sign plus">+</span>
+                        </div>
+
+                        <div class="wf-step wf-p">
+                            <span class="wf-step-label">P (단가 요인)</span>
+                            <div class="wf-bar-wrap">
+                                <div class="wf-bar plus-bar" style="height: ${Math.min(90, Math.max(28, wf.pDelta * 18))}px;">
+                                    <span class="wf-bar-val">+${wf.pDelta}%p</span>
+                                </div>
+                            </div>
+                            <span class="wf-step-sub">스프레드/판가</span>
+                        </div>
+
+                        <div class="wf-arrow-col">
+                            <span class="wf-math-sign plus">+</span>
+                        </div>
+
+                        <div class="wf-step wf-q">
+                            <span class="wf-step-label">Q (물량 요인)</span>
+                            <div class="wf-bar-wrap">
+                                <div class="wf-bar plus-bar" style="height: ${Math.min(90, Math.max(28, wf.qDelta * 18))}px;">
+                                    <span class="wf-bar-val">+${wf.qDelta}%p</span>
+                                </div>
+                            </div>
+                            <span class="wf-step-sub">가동률/출하량</span>
+                        </div>
+
+                        <div class="wf-arrow-col">
+                            <span class="wf-math-sign plus">+</span>
+                        </div>
+
+                        <div class="wf-step wf-fx">
+                            <span class="wf-step-label">FX (환율 수혜)</span>
+                            <div class="wf-bar-wrap">
+                                <div class="wf-bar plus-bar" style="height: ${Math.min(90, Math.max(28, wf.fxDelta * 18))}px;">
+                                    <span class="wf-bar-val">+${wf.fxDelta}%p</span>
+                                </div>
+                            </div>
+                            <span class="wf-step-sub">달러 결제 마진</span>
+                        </div>
+
+                        <div class="wf-arrow-col">
+                            <span class="wf-math-sign minus">-</span>
+                        </div>
+
+                        <div class="wf-step wf-c">
+                            <span class="wf-step-label">C (원가/고정비)</span>
+                            <div class="wf-bar-wrap">
+                                <div class="wf-bar minus-bar" style="height: ${Math.min(90, Math.max(28, Math.abs(wf.cDelta) * 18))}px;">
+                                    <span class="wf-bar-val">${wf.cDelta}%p</span>
+                                </div>
+                            </div>
+                            <span class="wf-step-sub">원자재·감가상각</span>
+                        </div>
+
+                        <div class="wf-arrow-col">
+                            <span class="wf-math-sign equal">=</span>
+                        </div>
+
+                        <div class="wf-step wf-target">
+                            <span class="wf-step-label">차기 추정 OPM</span>
+                            <div class="wf-bar-wrap">
+                                <div class="wf-bar target-bar" style="height: ${Math.min(95, Math.max(40, wf.nextOpm * 5))}px;">
+                                    <span class="wf-bar-val">${wf.nextOpm}%</span>
+                                </div>
+                            </div>
+                            <span class="wf-step-sub highlight-diff">${wf.diffText}</span>
+                        </div>
+                    </div>
+
+                    <!-- 4 KPI Summary Grid -->
                     <div class="sim-kpi-grid">
-                        <div class="sim-kpi-item">
+                        <div class="sim-kpi-item target-kpi-box">
                             <span class="sim-kpi-label">차기 분기 추정 영업이익률(OPM)</span>
-                            <span class="sim-kpi-val ${estClass}">${estOpm}</span>
-                            <span class="sim-kpi-sub">직전 분기 대비 ${estChange}</span>
+                            <span class="sim-kpi-val ${estOpmClass}">${wf.nextOpm}%</span>
+                            <span class="sim-kpi-sub">직전 분기 대비 ${wf.diffText}</span>
                         </div>
                         <div class="sim-kpi-item">
-                            <span class="sim-kpi-label">단가·물량(P·Q) 기여도</span>
-                            <span class="sim-kpi-val text-bull">${signal.level === 'BEAR' ? '+0.4%p' : '+2.3%p'}</span>
+                            <span class="sim-kpi-label">단가·물량(P·Q) 합산 기여도</span>
+                            <span class="sim-kpi-val text-bull">+${Math.round((wf.pDelta + wf.qDelta) * 10) / 10}%p</span>
                             <span class="sim-kpi-sub">전방 글로벌 수주 및 가격 전가</span>
                         </div>
                         <div class="sim-kpi-item">
-                            <span class="sim-kpi-label">원가·환율(C·FX) 기여도</span>
-                            <span class="sim-kpi-val text-bull">${signal.level === 'BEAR' ? '-1.8%p' : '+1.1%p'}</span>
+                            <span class="sim-kpi-label">원가·환율(C·FX) 순 기여도</span>
+                            <span class="sim-kpi-val text-bull">+${Math.round((wf.fxDelta + 0.3) * 10) / 10}%p</span>
                             <span class="sim-kpi-sub">원자재·유가 안정 및 수출 환율 수혜</span>
                         </div>
                         <div class="sim-kpi-item">
@@ -661,6 +1113,8 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
     }
+
+
 
     function generateIndicatorChartSvg(indItem, seed = 1) {
         const name = indItem.name || '지표';
