@@ -2474,8 +2474,8 @@ body {
 
 .company-modal-container {
     background: #ffffff;
-    width: 100%;
-    max-width: 960px;
+    width: 94%;
+    max-width: 1200px;
     max-height: 90vh;
     border-radius: 16px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
@@ -4375,5 +4375,152 @@ body {
     .td-comment-clamp {
         font-size: 0.74rem;
         line-height: 1.35;
+    }
+}
+
+
+/* ========================================================
+ * Company Modal Wide Layout & Tab Anti-Clipping Fix
+ * ======================================================== */
+.company-modal-container {
+    width: 94% !important;
+    max-width: 1200px !important;
+}
+
+.company-modal-header {
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    gap: 16px !important;
+    padding: 20px 28px !important;
+    flex-wrap: nowrap !important;
+    border-bottom: 1px solid #e2e8f0;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.company-modal-title-box {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+}
+
+.company-modal-title-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+
+.modal-comp-name {
+    font-size: 1.6rem !important;
+    font-weight: 800 !important;
+    color: #0f172a;
+    letter-spacing: -0.5px;
+    line-height: 1.25;
+}
+
+.modal-comp-code {
+    font-size: 0.88rem !important;
+    color: #475569 !important;
+    font-weight: 700 !important;
+    background: #e2e8f0 !important;
+    padding: 3px 10px !important;
+    border-radius: 6px !important;
+    font-family: 'Inter', monospace;
+}
+
+.company-modal-meta-row {
+    display: flex !important;
+    gap: 10px !important;
+    flex-wrap: wrap !important;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.modal-meta-pill {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 4px 12px !important;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.84rem !important;
+    color: #334155;
+    white-space: nowrap;
+}
+
+.company-modal-nav-tabs {
+    display: flex !important;
+    gap: 8px !important;
+    padding: 10px 28px 0 28px !important;
+    border-bottom: 2px solid #e2e8f0 !important;
+    background: #f8fafc;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
+}
+
+.company-modal-nav-tabs::-webkit-scrollbar {
+    height: 4px;
+    display: block;
+}
+
+.company-modal-nav-tabs::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+.modal-tab-btn {
+    border: none;
+    background: transparent;
+    padding: 12px 20px !important;
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+    color: #64748b !important;
+    cursor: pointer;
+    border-bottom: 3px solid transparent !important;
+    white-space: nowrap !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    transition: all 0.2s ease;
+    border-radius: 8px 8px 0 0;
+}
+
+.modal-tab-btn:hover {
+    color: #1e293b !important;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.modal-tab-btn.active {
+    color: #2563eb !important;
+    border-bottom-color: #2563eb !important;
+    background: #ffffff !important;
+    font-weight: 800 !important;
+}
+
+@media (max-width: 768px) {
+    .company-modal-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 100% !important;
+        max-height: 100vh !important;
+        border-radius: 0 !important;
+    }
+
+    .company-modal-header {
+        padding: 14px 16px !important;
+    }
+
+    .company-modal-nav-tabs {
+        padding: 6px 14px 0 14px !important;
+        gap: 4px !important;
+    }
+
+    .modal-tab-btn {
+        padding: 10px 12px !important;
+        font-size: 0.85rem !important;
     }
 }
