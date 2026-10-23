@@ -4262,3 +4262,118 @@ body {
         display: flex;
     }
 }
+
+
+/* ========================================================
+ * Desktop Full-Width Optimization (No Horizontal Scroll on PC)
+ * ======================================================== */
+.col-tab-hide {
+    display: none !important;
+}
+
+.th-sub-label {
+    display: block;
+    font-size: 0.68rem;
+    color: #64748b;
+    font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+    .app-container {
+        max-width: 1560px;
+        width: 96%;
+    }
+
+    .header-content {
+        max-width: 1520px;
+    }
+
+    .category-tabs,
+    .subcategory-tabs {
+        max-width: 1520px;
+    }
+
+    .content-area {
+        max-width: 1520px !important;
+        padding: 24px 10px 60px 10px;
+    }
+
+    .ind-detail-container {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 10px 0 60px 0;
+    }
+
+    .ind-companies-section {
+        padding: 22px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .ranking-page-container {
+        max-width: 100% !important;
+    }
+
+    /* Keep post feed readable when in news tab */
+    .posts-list-container > .post-list-item {
+        max-width: 860px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .comp-table-wrapper {
+        width: 100% !important;
+        overflow-x: hidden !important; /* PC 화면에서 가로 스크롤바 완전 제거 */
+        max-height: 620px;
+    }
+
+    .comp-table {
+        width: 100% !important;
+        min-width: 0 !important; /* 950px 강제 제한 해제하여 100% 피팅 */
+        table-layout: auto;
+        font-size: 0.81rem;
+    }
+
+    .comp-table th, .comp-table td {
+        padding: 8px 6px;
+    }
+
+    .comp-name-box {
+        min-width: 95px;
+    }
+
+    .comp-name {
+        font-size: 0.88rem;
+    }
+
+    .comp-click-hint-pill {
+        font-size: 0.64rem;
+        padding: 1px 4px;
+        margin-left: 4px;
+    }
+
+    .th-fair-col {
+        white-space: normal;
+        line-height: 1.25;
+    }
+
+    .fair-price-val {
+        font-size: 0.85rem;
+    }
+
+    .fair-upside-badge {
+        font-size: 0.7rem;
+        padding: 1px 5px;
+    }
+
+    .th-comment, .td-comment {
+        min-width: 120px;
+        max-width: 240px;
+    }
+
+    .td-comment-clamp {
+        font-size: 0.74rem;
+        line-height: 1.35;
+    }
+}
