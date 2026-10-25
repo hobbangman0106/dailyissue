@@ -1,16 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     if (window.lucide) window.lucide.createIcons();
 
-    // 1. Top Navigation Categories (국내 / 미국 / 유럽 / 일본 / 중국 / 추천랭킹 / 뉴스)
-    const CATEGORIES = ['국내', '미국', '유럽', '일본', '중국', '추천랭킹', '뉴스'];
+    // 1. Top Navigation Categories (뉴스를 제일 전면으로 배치, 추천랭킹 제외)
+    const CATEGORIES = ['뉴스', '국내', '미국', '유럽', '일본', '중국'];
     const SUB_CATEGORIES = {
+        '뉴스': ['전체', '경제', '사회', '정치', 'IT/과학', '세계', '생활/건강', '연예', '스포츠', '칼럼', '유튜브'],
         '국내': ['전체', 'IT·반도체', '바이오·제약', '자동차·배터리', '중공업·방산·건설', '정유·화학·에너지', '금융·지주', '소비재·유통·엔터'],
         '미국': ['전체', '빅테크·AI', '반도체·하드웨어', '바이오·제약', '금융·결제', '전기차·모빌리티', '소비재·유통', '에너지·원자재', '미디어·엔터'],
         '유럽': ['전체', '명품·소비재', '반도체·SW', '바이오·제약', '자동차·모빌리티', '에너지·친환경', '금융·보험', '방산·항공', '화학·소재'],
         '일본': ['전체', '자동차·전장', '반도체·소부장', '상사·금융', '로봇·자동화', '바이오·제약', '소비재·게임', '화학·소재', '철강·중공업'],
-        '중국': ['전체', '빅테크·AI', '전기차·배터리', '태양광·친환경', '반도체·IT', '은행·금융', '소비재·가전', '에너지·자원', '바이오·의료'],
-        '추천랭킹': ['전체 종합 TOP 50', '저평가 가치형(저PER·PBR)', '고배당 주주환원형', '고성장 모멘텀형', '바닥권 낙폭과대형'],
-        '뉴스': ['전체', '경제', '사회', '정치', 'IT/과학', '세계', '생활/건강', '연예', '스포츠', '칼럼', '유튜브']
+        '중국': ['전체', '빅테크·AI', '전기차·배터리', '태양광·친환경', '반도체·IT', '은행·금융', '소비재·가전', '에너지·자원', '바이오·의료']
     };
 
     function isRegionalCategory(cat) {
@@ -20,10 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("=== App v5.5.0 Loaded (Global & Domestic Markets) ===");
 
     // Persistent category state across refreshes
-    let currentCategory = sessionStorage.getItem('active_category') || '국내';
+    let currentCategory = sessionStorage.getItem('active_category') || '뉴스';
     if (!CATEGORIES.includes(currentCategory)) {
-        if (currentCategory === '기업' || currentCategory === '지표') currentCategory = '국내';
-        else currentCategory = '국내';
+        currentCategory = '뉴스';
     }
 
     let currentSubCategory = sessionStorage.getItem('active_subcategory');
@@ -96,11 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 tabBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 currentCategory = btn.dataset.category;
-                if (currentCategory === '추천랭킹') {
-                    currentSubCategory = '전체 종합 TOP 50';
-                } else {
-                    currentSubCategory = '전체';
-                }
+                currentSubCategory = '전체';
 
                 if (window.location.hash.startsWith('#industry-')) {
                     history.replaceState(null, null, window.location.pathname);
@@ -1296,358 +1290,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return newsHtml;
     }
 
-    function getGrowthRate(c) {
-        const fin = c.financials5Y || [];
-        if (fin.length < 2) return 15;
-        const revFirst = parseFloat(String(fin[0].revenue).replace(/[^0-9.]/g, '')) || 100;
-        const revLast = parseFloat(String(fin[fin.length - 1].revenue).replace(/[^0-9.]/g, '')) || 150;
-        if (revFirst <= 0) return 15;
-        return Math.round(((revLast - revFirst) / revFirst) * 100);
-    }
-
-    function computeQuantScore(c) {
-        let valueScore = 50;
-        if (c.per > 0) {
-            if (c.per <= 10) valueScore = 100 - (c.per * 3);
-            else if (c.per <= 25) valueScore = 70 - (c.per - 10) * 2;
-            else valueScore = Math.max(10, 40 - (c.per - 25));
-        }
-        const pbrNum = c.pbr > 0 ? c.pbr : 1.5;
-        if (pbrNum <= 0.7) valueScore += 20;
-        else if (pbrNum <= 1.2) valueScore += 10;
-        valueScore = Math.min(100, Math.max(15, Math.round(valueScore)));
-
-        const divScore = Math.min(100, Math.max(10, Math.round((c.dividendYield || 0) * 18 + ((c.payoutRatio || 0) > 25 ? 10 : 0))));
-        const growth = getGrowthRate(c);
-        const growthScore = Math.min(100, Math.max(10, Math.round(Math.min(70, growth * 0.8) + Math.min(30, (c.opMargin || 10) * 1.5))));
-        const drawdown = Math.min(65, Math.max(15, Math.round(25 + ((c.per || 15) % 25))));
-        const reboundScore = Math.min(100, Math.round(drawdown * 1.6));
-
-        const totalScore = Math.round((valueScore * 0.3) + (divScore * 0.25) + (growthScore * 0.25) + (reboundScore * 0.2));
-        return { totalScore, valueScore, divScore, growthScore, reboundScore, growth, drawdown };
-    }
-
-    window.currentRankingRegionFilter = '전체';
-    window.currentRankingSearchQuery = '';
-
-    window.setRankingRegion = function(reg) {
-        window.currentRankingRegionFilter = reg;
-        renderRankingPage();
-    };
-
-    window.filterRankingList = function(q) {
-        window.currentRankingSearchQuery = (q || '').trim();
-        renderRankingPage();
-    };
-
-    function renderRankingPage() {
-        if (!postsList) return;
-
-        const allStocks = [];
-        const reg = window.REGIONAL_INDUSTRY_DATA || {};
-        for (const [region, indList] of Object.entries(reg)) {
-            (indList || []).forEach(ind => {
-                (ind.companies || []).forEach(c => {
-                    allStocks.push({
-                        ...c,
-                        region,
-                        sector: ind.sector,
-                        industryId: ind.id
-                    });
-                });
-            });
-        }
-
-        const scoredList = allStocks.map(c => {
-            const qScore = computeQuantScore(c);
-            const peers = (reg[c.region] || []).flatMap(i => i.companies || []).filter(comp => comp.industryId === c.industryId || comp.sector === c.sector);
-            const fairPriceInfo = calculatePeerFairPrice(c, peers, c.region);
-            return {
-                comp: c,
-                ...qScore,
-                fairPriceInfo
-            };
-        });
-
-        let strategyTitle = '전체 3,066개 종목 4대 퀀트 종합 랭킹 TOP 50';
-        let strategyDesc = '저평가(PER·PBR) + 고배당 + 5개년 매출성장률 & 영업이익 + 고점대비 낙폭 회복력을 종합 가중 평가한 최우수 종목';
-
-        if (currentSubCategory === '저평가 가치형(저PER·PBR)') {
-            strategyTitle = '저평가 가치형 TOP 50 (저PER · 저PBR · 청산가치 매력)';
-            strategyDesc = '시가총액 대비 극심한 저평가 상태(PER 10배 이하, PBR 0.8배 이하)로 강력한 밸류에이션 안전마진을 확보한 종목';
-            scoredList.forEach(s => {
-                s.rankScore = Math.round((s.valueScore * 0.6) + (s.growthScore * 0.2) + (s.divScore * 0.1) + (s.reboundScore * 0.1));
-            });
-        } else if (currentSubCategory === '고배당 주주환원형') {
-            strategyTitle = '고배당 주주환원형 TOP 50 (배당수익률 · 배당성향 우수)';
-            strategyDesc = '안정적인 현금흐름을 바탕으로 높은 시가배당률(3%~8%+)과 적극적인 주주환원 정책을 지속하는 배당 우수 종목';
-            scoredList.forEach(s => {
-                s.rankScore = Math.round((s.divScore * 0.6) + (s.valueScore * 0.2) + (s.reboundScore * 0.1) + (s.growthScore * 0.1));
-            });
-        } else if (currentSubCategory === '고성장 모멘텀형') {
-            strategyTitle = '고성장 모멘텀형 TOP 50 (5개년 매출성장률 & 높은 OPM)';
-            strategyDesc = '최근 5년간 폭발적인 매출 CAGR 성장률과 두 자릿수 이상의 영업이익률(OPM)을 기록하는 시장 주도 성장주';
-            scoredList.forEach(s => {
-                s.rankScore = Math.round((s.growthScore * 0.6) + (s.valueScore * 0.2) + (s.reboundScore * 0.1) + (s.divScore * 0.1));
-            });
-        } else if (currentSubCategory === '바닥권 낙폭과대형') {
-            strategyTitle = '바닥권 낙폭과대형 TOP 50 (최고가 대비 과도한 하락 · 반등 잠재력)';
-            strategyDesc = '견조한 펀더멘털에도 불구하고 시장 충격으로 52주/역대 최고가 대비 큰 폭으로 하락(-35%~-60%)하여 바닥 탈출 반등 잠재력이 높은 종목';
-            scoredList.forEach(s => {
-                s.rankScore = Math.round((s.reboundScore * 0.6) + (s.valueScore * 0.25) + (s.growthScore * 0.15));
-            });
-        } else {
-            scoredList.forEach(s => {
-                s.rankScore = s.totalScore;
-            });
-        }
-
-        scoredList.sort((a, b) => b.rankScore - a.rankScore);
-
-        let filteredList = scoredList;
-        if (window.currentRankingRegionFilter && window.currentRankingRegionFilter !== '전체') {
-            filteredList = filteredList.filter(s => s.comp.region === window.currentRankingRegionFilter);
-        }
-
-        if (window.currentRankingSearchQuery) {
-            const q = window.currentRankingSearchQuery.toLowerCase().replace(/\s+/g, '');
-            filteredList = filteredList.filter(s => {
-                const name = (s.comp.name || '').toLowerCase().replace(/\s+/g, '');
-                const code = (s.comp.code || '').toLowerCase();
-                const sector = (s.comp.sector || '').toLowerCase();
-                return name.includes(q) || code.includes(q) || sector.includes(q);
-            });
-        }
-
-        const displayList = window.currentRankingSearchQuery ? filteredList.slice(0, 100) : filteredList.slice(0, 50);
-
-        let html = `
-            <div class="ranking-page-container">
-                <div class="ranking-header-card">
-                    <div class="ranking-header-top">
-                        <div class="ranking-title-group">
-                            <span class="ranking-badge-pill">4대 팩터 퀀트 스코어링 시스템</span>
-                            <h1 class="ranking-main-title">${strategyTitle}</h1>
-                            <p class="ranking-subtitle">${strategyDesc}</p>
-                        </div>
-                        <div class="ranking-stat-box">
-                            <span class="stat-number">3,066</span>
-                            <span class="stat-label">글로벌 전수 분석 종목</span>
-                        </div>
-                    </div>
-
-                    <div class="quant-methodology-grid">
-                        <div class="method-card">
-                            <div class="method-icon-wrap val"><i data-lucide="scale"></i></div>
-                            <div class="method-info">
-                                <span class="method-name">① 저평가 가치 (Value)</span>
-                                <span class="method-desc">저PER · 저PBR · 청산가치 매력</span>
-                            </div>
-                        </div>
-                        <div class="method-card">
-                            <div class="method-icon-wrap div"><i data-lucide="coins"></i></div>
-                            <div class="method-info">
-                                <span class="method-name">② 주주환원 배당 (Dividend)</span>
-                                <span class="method-desc">배당수익률 3%~8%+ & 배당성향</span>
-                            </div>
-                        </div>
-                        <div class="method-card">
-                            <div class="method-icon-wrap growth"><i data-lucide="trending-up"></i></div>
-                            <div class="method-info">
-                                <span class="method-name">③ 실적 성장 (Growth)</span>
-                                <span class="method-desc">5개년 매출 CAGR & 높은 OPM</span>
-                            </div>
-                        </div>
-                        <div class="method-card">
-                            <div class="method-icon-wrap rebound"><i data-lucide="zap"></i></div>
-                            <div class="method-info">
-                                <span class="method-name">④ 낙폭 반등 (Rebound)</span>
-                                <span class="method-desc">최고가 대비 낙폭 & 바닥 회복력</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="ranking-controls-bar">
-                        <div class="ranking-region-pills">
-                            <button class="rank-reg-pill ${window.currentRankingRegionFilter === '전체' ? 'active' : ''}" onclick="window.setRankingRegion('전체')">전체 (3,066)</button>
-                            <button class="rank-reg-pill ${window.currentRankingRegionFilter === '국내' ? 'active' : ''}" onclick="window.setRankingRegion('국내')">국내</button>
-                            <button class="rank-reg-pill ${window.currentRankingRegionFilter === '미국' ? 'active' : ''}" onclick="window.setRankingRegion('미국')">미국</button>
-                            <button class="rank-reg-pill ${window.currentRankingRegionFilter === '유럽' ? 'active' : ''}" onclick="window.setRankingRegion('유럽')">유럽</button>
-                            <button class="rank-reg-pill ${window.currentRankingRegionFilter === '일본' ? 'active' : ''}" onclick="window.setRankingRegion('일본')">일본</button>
-                            <button class="rank-reg-pill ${window.currentRankingRegionFilter === '중국' ? 'active' : ''}" onclick="window.setRankingRegion('중국')">중국</button>
-                        </div>
-                        <div class="ranking-search-wrap">
-                            <i data-lucide="search" class="rank-search-icon"></i>
-                            <input type="text" class="rank-search-input" placeholder="종목명, 코드, 업종 검색..." value="${window.currentRankingSearchQuery || ''}" oninput="window.filterRankingList(this.value)">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="ranking-table-wrapper">
-                    <table class="ranking-table">
-                        <thead>
-                            <tr>
-                                <th class="th-rank">순위</th>
-                                <th class="th-sticky">기업명 (국가/업종)</th>
-                                <th class="th-score">종합 퀀트 점수</th>
-                                <th class="th-num">시가총액</th>
-                                <th class="th-num th-fair-col">동종 적정주가 (괴리율)</th>
-                                <th class="th-num">PER / PBR</th>
-                                <th class="th-num">배당수익률</th>
-                                <th class="th-num">5년 매출성장 (OPM)</th>
-                                <th class="th-num">최고가 대비 낙폭</th>
-                                <th class="th-action">심층 분석</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-        `;
-
-        let mobileCardsHtml = '';
-
-        displayList.forEach((s, idx) => {
-            const rank = idx + 1;
-            const rankMedal = rank === 1 ? '<span class="rank-medal gold">🥇 1위</span>'
-                : rank === 2 ? '<span class="rank-medal silver">🥈 2위</span>'
-                : rank === 3 ? '<span class="rank-medal bronze">🥉 3위</span>'
-                : (rank <= 10 ? `<span class="rank-medal top10">${rank}위</span>` : `<span class="rank-medal normal">${rank}위</span>`);
-
-            const comp = s.comp;
-            const fair = s.fairPriceInfo;
-            const opmNum = parseFloat(comp.opMargin) || 0;
-            const opmClass = opmNum >= 10 ? 'val-high-opm' : opmNum < 0 ? 'val-down' : '';
-            const divYieldNum = parseFloat(comp.dividendYield) || 0;
-            const divClass = divYieldNum >= 3.0 ? 'val-high-div' : '';
-
-            html += `
-                <tr class="ranking-row-clickable" onclick="window.openCompanyModal('${comp.code}', '${comp.industryId}')" title="클릭하여 ${comp.name} 5개년 재무제표 및 최신 뉴스 보기">
-                    <td class="td-rank">${rankMedal}</td>
-                    <td class="td-sticky">
-                        <div class="rank-comp-box">
-                            <div class="rank-comp-name-row">
-                                <span class="rank-comp-name">${comp.name}</span>
-                                <span class="rank-reg-tag">${comp.region}</span>
-                            </div>
-                            <span class="rank-comp-sub">${comp.code} · ${comp.sector}</span>
-                        </div>
-                    </td>
-                    <td class="td-score">
-                        <div class="score-display-box">
-                            <div class="score-num-row">
-                                <span class="score-num">${s.rankScore}점</span>
-                                <span class="score-denom">/ 100</span>
-                            </div>
-                            <div class="score-bar-bg">
-                                <div class="score-bar-fill" style="width: ${s.rankScore}%;"></div>
-                            </div>
-                            <div class="factor-mini-chips">
-                                <span class="f-chip">가치 ${s.valueScore}</span>
-                                <span class="f-chip">배당 ${s.divScore}</span>
-                                <span class="f-chip">성장 ${s.growthScore}</span>
-                                <span class="f-chip">낙폭 ${s.reboundScore}</span>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="td-num font-medium">${comp.marketCap}</td>
-                    <td class="td-num">
-                        <div class="fair-price-cell">
-                            <span class="fair-price-val">${fair.fairPriceFmt}</span>
-                            <span class="fair-upside-badge ${fair.cssClass}">${fair.badgeText}</span>
-                        </div>
-                    </td>
-                    <td class="td-num">
-                        <div class="multiples-cell">
-                            <span>${comp.per > 0 ? comp.per + '배' : '적자'}</span>
-                            <span class="text-sub">PBR ${comp.pbr}배</span>
-                        </div>
-                    </td>
-                    <td class="td-num bold ${divClass}">${comp.dividendYield}% <span class="text-sub">(${comp.payoutRatio}%)</span></td>
-                    <td class="td-num">
-                        <div class="growth-cell">
-                            <span class="text-growth">+${s.growth}%</span>
-                            <span class="bold ${opmClass}">OPM ${comp.opMargin}%</span>
-                        </div>
-                    </td>
-                    <td class="td-num">
-                        <div class="drawdown-cell">
-                            <span class="text-drawdown">-${s.drawdown}%</span>
-                            <span class="rebound-tag">반등매력 ${s.reboundScore}점</span>
-                        </div>
-                    </td>
-                    <td class="td-action">
-                        <button class="rank-modal-btn">심층분석 ➔</button>
-                    </td>
-                </tr>
-            `;
-
-            mobileCardsHtml += `
-                <div class="ranking-mobile-card" onclick="window.openCompanyModal('${comp.code}', '${comp.industryId}')">
-                    <div class="r-m-card-header">
-                        <div class="r-m-rank-group">
-                            ${rankMedal}
-                            <span class="r-m-reg-pill">${comp.region}</span>
-                        </div>
-                        <div class="r-m-score-badge">
-                            <span class="r-score-num">${s.rankScore}점</span>
-                        </div>
-                    </div>
-                    <div class="r-m-name-group">
-                        <span class="r-m-name">${comp.name}</span>
-                        <span class="r-m-code">${comp.code} · ${comp.sector}</span>
-                    </div>
-                    <div class="r-m-factors-row">
-                        <span class="r-f-chip val">가치 ${s.valueScore}</span>
-                        <span class="r-f-chip div">배당 ${s.divScore}</span>
-                        <span class="r-f-chip gro">성장 ${s.growthScore}</span>
-                        <span class="r-f-chip reb">낙폭 ${s.reboundScore}</span>
-                    </div>
-                    <div class="r-m-grid">
-                        <div class="r-m-item">
-                            <span class="r-label">시가총액</span>
-                            <span class="r-val">${comp.marketCap}</span>
-                        </div>
-                        <div class="r-m-item highlight-box">
-                            <span class="r-label">동종 적정주가</span>
-                            <span class="r-val">${fair.fairPriceFmt} <span class="fair-upside-badge ${fair.cssClass}">${fair.badgeText}</span></span>
-                        </div>
-                        <div class="r-m-item">
-                            <span class="r-label">PER / PBR</span>
-                            <span class="r-val">${comp.per > 0 ? comp.per + '배' : '적자'} / ${comp.pbr}배</span>
-                        </div>
-                        <div class="r-m-item">
-                            <span class="r-label">배당수익률</span>
-                            <span class="r-val bold ${divClass}">${comp.dividendYield}% (${comp.payoutRatio}%)</span>
-                        </div>
-                        <div class="r-m-item">
-                            <span class="r-label">5개년 매출성장</span>
-                            <span class="r-val text-growth">+${s.growth}% (OPM ${comp.opMargin}%)</span>
-                        </div>
-                        <div class="r-m-item">
-                            <span class="r-label">고점 대비 낙폭</span>
-                            <span class="r-val text-drawdown">-${s.drawdown}% (반등매력)</span>
-                        </div>
-                    </div>
-                    <div class="r-m-footer">
-                        <span>5개년 재무제표 & 최신 뉴스 10건 보기 ➔</span>
-                    </div>
-                </div>
-            `;
-        });
-
-        html += `
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="ranking-mobile-cards-list">
-                    ${mobileCardsHtml}
-                </div>
-            </div>
-        `;
-
-        postsList.innerHTML = html;
-        if (window.lucide) window.lucide.createIcons();
-    }
-
     function renderIndustryDetailView(industryId, shouldScroll = false) {
         if (!postsList) return;
         const { ind, region } = getIndustryById(industryId);
@@ -2380,9 +2022,7 @@ document.addEventListener('DOMContentLoaded', () => {
             renderIndustryDetailView(id, false);
         } else if (isRegionalCategory(currentCategory)) {
             renderIndustryHub();
-        } else if (currentCategory === '추천랭킹') {
-            renderRankingPage();
-        } else if (currentCategory === '뉴스') {
+        } else {
             renderPosts();
         }
     });
@@ -2406,10 +2046,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        if (currentCategory === '추천랭킹') {
-            renderRankingPage();
-            return;
-        }
+
 
         // News Tab
         let html = '';
