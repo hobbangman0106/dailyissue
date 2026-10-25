@@ -451,23 +451,53 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function calculatePeerFairPrice(c, peers, region = '국내') {
-        const validPeers = (peers || []).filter(p => p.per && p.per > 0 && p.per < 80);
-        let peerMedianPer = 14.0;
-        if (validPeers.length > 0) {
-            const sorted = [...validPeers].map(p => p.per).sort((a, b) => a - b);
-            const mid = Math.floor(sorted.length / 2);
-            peerMedianPer = sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
-        }
-        peerMedianPer = Math.min(32.0, Math.max(8.0, peerMedianPer));
-        
         let epsNum = typeof c.eps === 'number' ? c.eps : parseFloat(String(c.eps || '').replace(/[^0-9.]/g, '')) || 0;
         if (epsNum <= 0) {
             epsNum = c.per > 0 ? Math.round(parseMcapValue(c.marketCap) / (c.per * 100)) : 1200;
         }
-        const curPer = c.per > 0 ? c.per : (peerMedianPer * 0.85);
-        
+        const curPer = c.per > 0 ? c.per : 12;
         const currentPrice = Math.round(epsNum * curPer);
-        const fairPrice = Math.round(epsNum * peerMedianPer);
+
+        // 1. Check if analyst target price is specified in analyst report/comment
+        let parsedTargetPrice = null;
+        if (c.comment) {
+            const m = c.comment.match(/목표주가:\s*([0-9,]+)/);
+            if (m && m[1]) {
+                const val = parseInt(m[1].replace(/,/g, ''), 10);
+                if (!isNaN(val) && val > 0) {
+                    parsedTargetPrice = val;
+                }
+            }
+        }
+
+        // Special handling for preferred shares (우선주: 보통주 목표가의 약 82% 벤치마크)
+        const isPrefShare = (c.name || '').endsWith('우') || (c.name || '').includes('우(') || (c.name || '').includes('우B');
+        if (isPrefShare) {
+            const baseName = (c.name || '').replace(/우.*$/, '').trim();
+            const commonComp = (peers || []).find(p => p.name === baseName);
+            if (commonComp) {
+                const commonRes = calculatePeerFairPrice(commonComp, peers, region);
+                parsedTargetPrice = Math.round(commonRes.fairPrice * 0.82);
+            }
+        }
+
+        let fairPrice = 0;
+        // Prioritize analyst consensus if it falls within reasonable bounds (0.4x ~ 2.8x of current price)
+        if (parsedTargetPrice && currentPrice > 0 && parsedTargetPrice >= currentPrice * 0.4 && parsedTargetPrice <= currentPrice * 2.8) {
+            fairPrice = parsedTargetPrice;
+        } else {
+            const validPeers = (peers || []).filter(p => p.per && p.per > 0 && p.per < 60);
+            let peerMedianPer = 14.0;
+            if (validPeers.length > 0) {
+                const sorted = [...validPeers].map(p => p.per).sort((a, b) => a - b);
+                const mid = Math.floor(sorted.length / 2);
+                peerMedianPer = sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+            }
+            // Mega-cap discount & cyclical cap (소부장 고PER 왜곡 방지):
+            peerMedianPer = Math.min(18.0, Math.max(8.0, peerMedianPer));
+            fairPrice = Math.round(epsNum * peerMedianPer);
+        }
+
         let upside = currentPrice > 0 ? Math.round(((fairPrice - currentPrice) / currentPrice) * 100) : 0;
         if (upside > 150) upside = 150;
         if (upside < -75) upside = -75;
@@ -494,7 +524,6 @@ document.addEventListener('DOMContentLoaded', () => {
             currentPriceFmt: fmt(currentPrice),
             fairPriceFmt: fmt(fairPrice),
             upside,
-            peerMedianPer: Math.round(peerMedianPer * 10) / 10,
             badgeText,
             cssClass
         };
