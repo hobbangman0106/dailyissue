@@ -412,117 +412,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return idx >= 0 ? (idx + 1) : '-';
     }
 
-    function calculateValuationScore(c) {
-        const opm = parseFloat(c.opMargin) || 0;
-        const per = parseFloat(c.per) || 0;
-        const pbr = parseFloat(c.pbr) || 0;
-        const roe = parseFloat(c.roe) || 0;
-
-        if (per <= 0 || opm <= -5) return 0.01;
-        const profitScore = Math.max(opm, 0.5) * Math.max(roe, 1.0);
-        const valFactor = Math.max(per, 2.5) * Math.max(pbr, 0.25);
-        return profitScore / valFactor;
-    }
-
-    function getValuationBadge(rank, total) {
-        if (total <= 1) return { badgeText: '⚖️ 적정 밸류', cssClass: 'fair', label: '적정' };
-        const pct = rank / total;
-        if (pct <= 0.35) {
-            return { badgeText: '🟢 저평가 매력', cssClass: 'undervalued', label: '저평가 매력' };
-        } else if (pct <= 0.70) {
-            return { badgeText: '🟡 적정 밸류', cssClass: 'fair', label: '적정 밸류' };
-        } else {
-            return { badgeText: '🔴 고평가·프리미엄', cssClass: 'overvalued', label: '고평가 프리미엄' };
-        }
-    }
-
-    function getRegionCurrency(region) {
-        if (region === '미국') return '$';
-        if (region === '유럽') return '€';
-        if (region === '일본') return '¥';
-        if (region === '중국') return '위안';
-        return '원';
-    }
-
-    function calculatePeerFairPrice(c, peers, region = '국내') {
-        let epsNum = typeof c.eps === 'number' ? c.eps : parseFloat(String(c.eps || '').replace(/[^0-9.]/g, '')) || 0;
-        if (epsNum <= 0) {
-            epsNum = c.per > 0 ? Math.round(parseMcapValue(c.marketCap) / (c.per * 100)) : 1200;
-        }
-        const curPer = c.per > 0 ? c.per : 12;
-        const currentPrice = Math.round(epsNum * curPer);
-
-        // 1. Check if analyst target price is specified in analyst report/comment
-        let parsedTargetPrice = null;
-        if (c.comment) {
-            const m = c.comment.match(/목표주가:\s*([0-9,]+)/);
-            if (m && m[1]) {
-                const val = parseInt(m[1].replace(/,/g, ''), 10);
-                if (!isNaN(val) && val > 0) {
-                    parsedTargetPrice = val;
-                }
-            }
-        }
-
-        // Special handling for preferred shares (우선주: 보통주 목표가의 약 82% 벤치마크)
-        const isPrefShare = (c.name || '').endsWith('우') || (c.name || '').includes('우(') || (c.name || '').includes('우B');
-        if (isPrefShare) {
-            const baseName = (c.name || '').replace(/우.*$/, '').trim();
-            const commonComp = (peers || []).find(p => p.name === baseName);
-            if (commonComp) {
-                const commonRes = calculatePeerFairPrice(commonComp, peers, region);
-                parsedTargetPrice = Math.round(commonRes.fairPrice * 0.82);
-            }
-        }
-
-        let fairPrice = 0;
-        // Prioritize analyst consensus if it falls within reasonable bounds (0.4x ~ 2.8x of current price)
-        if (parsedTargetPrice && currentPrice > 0 && parsedTargetPrice >= currentPrice * 0.4 && parsedTargetPrice <= currentPrice * 2.8) {
-            fairPrice = parsedTargetPrice;
-        } else {
-            const validPeers = (peers || []).filter(p => p.per && p.per > 0 && p.per < 60);
-            let peerMedianPer = 14.0;
-            if (validPeers.length > 0) {
-                const sorted = [...validPeers].map(p => p.per).sort((a, b) => a - b);
-                const mid = Math.floor(sorted.length / 2);
-                peerMedianPer = sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
-            }
-            // Mega-cap discount & cyclical cap (소부장 고PER 왜곡 방지):
-            peerMedianPer = Math.min(18.0, Math.max(8.0, peerMedianPer));
-            fairPrice = Math.round(epsNum * peerMedianPer);
-        }
-
-        let upside = currentPrice > 0 ? Math.round(((fairPrice - currentPrice) / currentPrice) * 100) : 0;
-        if (upside > 150) upside = 150;
-        if (upside < -75) upside = -75;
-
-        const curr = getRegionCurrency(region);
-        const fmt = (num) => {
-            if (curr === '$') return '$' + num.toLocaleString();
-            if (curr === '€') return '€' + num.toLocaleString();
-            if (curr === '¥') return '¥' + num.toLocaleString();
-            if (curr === '위안') return num.toLocaleString() + '위안';
-            return num.toLocaleString() + '원';
-        };
-
-        const isUndervalued = upside >= 10;
-        const isOvervalued = upside <= -10;
-        const badgeText = isUndervalued 
-            ? `+${upside}% 저평가` 
-            : (isOvervalued ? `${upside}% 고평가` : `${upside >= 0 ? '+' : ''}${upside}% 적정`);
-        const cssClass = isUndervalued ? 'undervalued' : (isOvervalued ? 'overvalued' : 'fair');
-
-        return {
-            currentPrice,
-            fairPrice,
-            currentPriceFmt: fmt(currentPrice),
-            fairPriceFmt: fmt(fairPrice),
-            upside,
-            badgeText,
-            cssClass
-        };
-    }
-
     function generateMiniSparkline(dataPoints, color = '#3b82f6', height = 36) {
         if (!dataPoints || dataPoints.length < 2) return '';
         const width = 160;
@@ -1468,7 +1357,6 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <tr>
                                     <th class="th-sticky">기업명</th>
                                     <th class="th-num">시가총액</th>
-                                    <th class="th-num th-fair-col">적정 주가<span class="th-sub-label">(동종 비교)</span></th>
                                     <th class="th-num">매출액</th>
                                     <th class="th-num">영업이익</th>
                                     <th class="th-num">영업이익률</th>
@@ -1509,9 +1397,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const divYieldNum = parseFloat(c.dividendYield) || 0;
             const divClass = divYieldNum >= 3.0 ? 'val-high-div' : '';
 
-            const peerValRank = calculatePeerRank(allCompanies, c.code, compItem => calculateValuationScore(compItem), true);
-            const peerValBadge = getValuationBadge(peerValRank, totalCompaniesInInd);
-            const fairPriceInfo = calculatePeerFairPrice(c, allCompanies, region);
+
             const shortComment = getShortAnalystPoint(c.comment);
             const cleanCommentAttr = (c.comment || '').replace(/"/g, '&quot;');
 
@@ -1527,24 +1413,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </td>
                     <td class="td-num comp-mcap">${c.marketCap}</td>
-                    <td class="td-num">
-                        <div class="fair-price-cell">
-                            <span class="fair-price-val">${fairPriceInfo.fairPriceFmt}</span>
-                            <span class="fair-upside-badge ${fairPriceInfo.cssClass}">${fairPriceInfo.badgeText}</span>
-                        </div>
-                    </td>
                     <td class="td-num">${c.revenue}</td>
                     <td class="td-num bold">${c.operatingProfit}</td>
                     <td class="td-num bold ${opmClass}">${c.opMargin}%</td>
                     <td class="td-num">
-                        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:3px;">
-                            <div>
-                                <span class="per-badge">${c.per > 0 ? c.per + '배' : '적자'}</span>
-                                <span class="pbr-badge">PBR ${c.pbr}배</span>
-                            </div>
-                            <div>
-                                <span class="val-badge ${peerValBadge.cssClass}" title="동종업계 저평가 순위: ${peerValRank}위 / ${totalCompaniesInInd}개사">${peerValBadge.badgeText} (${peerValRank}위)</span>
-                            </div>
+                        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:2px;">
+                            <span class="per-badge">${c.per > 0 ? c.per + '배' : '적자'}</span>
+                            <span class="pbr-badge">PBR ${c.pbr}배</span>
                         </div>
                     </td>
                     <td class="td-num">${c.debtRatio}%</td>
@@ -1564,7 +1439,6 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="m-card-code">${c.code} ${c.exchange ? '· ' + c.exchange : ''}</span>
                         </div>
                         <div class="m-card-badges">
-                            <span class="val-badge ${peerValBadge.cssClass}">${peerValBadge.badgeText} (${peerValRank}위)</span>
                             ${riskBadge}
                         </div>
                     </div>
@@ -1572,10 +1446,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="m-card-item">
                             <span class="m-item-label">시가총액</span>
                             <span class="m-item-val comp-mcap">${c.marketCap}</span>
-                        </div>
-                        <div class="m-card-item m-card-item-highlight">
-                            <span class="m-item-label">동종 적정주가</span>
-                            <span class="m-item-val font-bold">${fairPriceInfo.fairPriceFmt} <span class="fair-upside-badge ${fairPriceInfo.cssClass}">${fairPriceInfo.badgeText}</span></span>
                         </div>
                         <div class="m-card-item">
                             <span class="m-item-label">연간 매출액</span>
@@ -1753,9 +1623,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (window.activeModalTab === 'overview') {
             const peers = ind.companies || [];
             const totalPeers = peers.length;
-            const valScoreRank = calculatePeerRank(peers, comp.code, c => calculateValuationScore(c), true);
-            const valBadge = getValuationBadge(valScoreRank, totalPeers);
-            const modalFair = calculatePeerFairPrice(comp, peers, reg);
+
 
             html += `
                 <div class="modal-summary-box">
@@ -1768,7 +1636,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 <div class="modal-section-title">
                     <i data-lucide="activity"></i>
-                    <span>주요 재무 및 밸류에이션 지표 요약</span>
+                    <span>주요 재무 및 손익 지표 요약</span>
                 </div>
                 <div class="modal-kpi-grid">
                     <div class="modal-kpi-card">
@@ -1811,16 +1679,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="kpi-val ${comp.dividendYield >= 3.0 ? 'val-high-div' : ''}">${comp.dividendYield}%</div>
                         <div class="kpi-sub">배당성향 ${comp.payoutRatio}%</div>
                     </div>
-                    <div class="modal-kpi-card" style="background:#eff6ff; border-color:#93c5fd;">
-                        <div class="kpi-label" style="color:#1d4ed8;">동종 비교 적정 주가 (중간 PER ${modalFair.peerMedianPer}배)</div>
-                        <div class="kpi-val" style="color:#1e40af; font-size:1.15rem;">${modalFair.fairPriceFmt}</div>
-                        <div class="kpi-sub" style="font-weight:700;"><span class="fair-upside-badge ${modalFair.cssClass}">${modalFair.badgeText}</span></div>
-                    </div>
-                    <div class="modal-kpi-card" style="background:#f0fdf4; border-color:#86efac;">
-                        <div class="kpi-label" style="color:#166534;">동종 밸류에이션 진단</div>
-                        <div class="kpi-val"><span class="val-badge ${valBadge.cssClass}">${valBadge.badgeText}</span></div>
-                        <div class="kpi-sub" style="color:#15803d; font-weight:600;">동종 저평가 ${valScoreRank}위 / 총 ${totalPeers}개사</div>
-                    </div>
+
                 </div>
 
                 <div class="modal-section-title">
@@ -1887,15 +1746,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const mcapRank = calculatePeerRank(peers, comp.code, c => parseMcapValue(c.marketCap), true);
             const opmRank = calculatePeerRank(peers, comp.code, c => parseFloat(c.opMargin) || 0, true);
-            const valScoreRank = calculatePeerRank(peers, comp.code, c => calculateValuationScore(c), true);
-            const valBadge = getValuationBadge(valScoreRank, totalPeers);
+
             const divRank = calculatePeerRank(peers, comp.code, c => parseFloat(c.dividendYield) || 0, true);
             const debtRank = calculatePeerRank(peers, comp.code, c => parseFloat(c.debtRatio) || 9999, false);
 
             html += `
                 <div class="modal-section-title">
                     <i data-lucide="award"></i>
-                    <span>${ind.sector} 내 ${comp.name} 5대 핵심 포지션 & 저평가 랭킹 (${totalPeers}개사 기준)</span>
+                    <span>${ind.sector} 내 ${comp.name} 4대 핵심 포지션 (${totalPeers}개사 기준)</span>
                 </div>
 
                 <div class="peer-ranking-grid">
@@ -1908,11 +1766,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="rank-title">영업이익률 (OPM)</div>
                         <div class="rank-val">${opmRank}위</div>
                         <div class="rank-total">/ 총 ${totalPeers}개사</div>
-                    </div>
-                    <div class="peer-rank-card val-highlight">
-                        <div class="rank-title">저평가 순위 (밸류 매력)</div>
-                        <div class="rank-val">${valScoreRank}위</div>
-                        <div class="rank-total"><span class="val-badge ${valBadge.cssClass}">${valBadge.badgeText}</span></div>
                     </div>
                     <div class="peer-rank-card">
                         <div class="rank-title">배당수익률 랭킹</div>
@@ -1928,7 +1781,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 <div class="modal-section-title">
                     <i data-lucide="layers"></i>
-                    <span>${ind.sector} 동종 기업 다차원 벤치마크 (저평가 랭킹 비교 · 종목 클릭 시 전환)</span>
+                    <span>${ind.sector} 동종 기업 다차원 재무 벤치마크 (종목 클릭 시 전환)</span>
                 </div>
 
                 <div class="modal-table-wrapper" style="max-height: 380px; overflow-y: auto;">
@@ -1936,9 +1789,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         <thead>
                             <tr>
                                 <th class="th-left">기업명</th>
-                                <th>저평가 순위</th>
-                                <th>밸류에이션</th>
-                                <th>동종 적정주가</th>
                                 <th>시가총액</th>
                                 <th>영업이익률</th>
                                 <th>PER</th>
@@ -1961,9 +1811,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ? '<span class="risk-pill normal">🟡 보통</span>'
                     : '<span class="risk-pill warning">🔴 주의</span>';
 
-                const peerValRank = calculatePeerRank(peers, peer.code, c => calculateValuationScore(c), true);
-                const peerValBadge = getValuationBadge(peerValRank, totalPeers);
-                const peerFair = calculatePeerFairPrice(peer, peers, reg);
+
 
                 html += `
                     <tr class="${isCurrent ? 'highlighted-peer-row' : 'comp-row-clickable'}" 
@@ -1974,9 +1822,6 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="comp-name">${peer.name}</span>
                             ${isCurrent ? '<span style="font-size:0.75rem; color:#4f46e5; margin-left:4px;">(선택됨)</span>' : ''}
                         </td>
-                        <td class="bold val-rank-cell">${peerValRank}위</td>
-                        <td><span class="val-badge ${peerValBadge.cssClass}">${peerValBadge.badgeText}</span></td>
-                        <td><span class="fair-upside-badge ${peerFair.cssClass}">${peerFair.badgeText}</span></td>
                         <td>${peer.marketCap}</td>
                         <td class="bold ${peer.opMargin >= 10 ? 'val-high-opm' : peer.opMargin < 0 ? 'val-down' : ''}">${peer.opMargin}%</td>
                         <td>${peer.per > 0 ? peer.per + '배' : '적자'}</td>
