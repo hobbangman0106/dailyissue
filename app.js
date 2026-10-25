@@ -1779,34 +1779,16 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="company-count-tag">${(ind.companies || []).length}개 종목 전수 분석</span>
                     </div>
 
-                    <!-- Filter Tabs & Sort Direction Toggle -->
-                    <div class="comp-filter-tabs-wrapper">
-                        <div class="comp-filter-tabs">
-                            <button class="comp-tab ${window.currentCompanyFilter === 'all' ? 'active' : ''}" onclick="window.setCompanyFilter('all')">
-                                전체 종합 뷰 ${window.currentCompanyFilter === 'all' ? (window.compSortAsc ? '(시총 ▲)' : '(시총 ▼)') : ''}
-                            </button>
-                            <button class="comp-tab ${window.currentCompanyFilter === 'profit' ? 'active' : ''}" onclick="window.setCompanyFilter('profit')">
-                                손익 & OPM ${window.currentCompanyFilter === 'profit' ? (window.compSortAsc ? '(OPM ▲)' : '(OPM ▼)') : ''}
-                            </button>
-                            <button class="comp-tab ${window.currentCompanyFilter === 'risk' ? 'active' : ''}" onclick="window.setCompanyFilter('risk')">
-                                대차대조표 ${window.currentCompanyFilter === 'risk' ? (window.compSortAsc ? '(저부채 ▲)' : '(고부채 ▼)') : ''}
-                            </button>
-                            <button class="comp-tab ${window.currentCompanyFilter === 'dividend' ? 'active' : ''}" onclick="window.setCompanyFilter('dividend')">
-                                배당 성향 & 환원 ${window.currentCompanyFilter === 'dividend' ? (window.compSortAsc ? '(배당률 ▲)' : '(배당률 ▼)') : ''}
-                            </button>
-                        </div>
-                        <button class="comp-sort-toggle-btn" onclick="window.toggleCompSortDirection()" title="오름차순 / 내림차순 정렬 방향 전환">
-                            <i data-lucide="arrow-up-down"></i>
-                            <span>${window.compSortAsc ? '오름차순 (▲)' : '내림차순 (▼)'}</span>
-                        </button>
-                    </div>
-
-                    <!-- Search Input within Industry Table -->
+                    <!-- Search Input & Sort within Industry Table -->
                     <div class="comp-table-search-box">
                         <div class="comp-search-wrapper">
                             <i data-lucide="search" class="comp-search-icon"></i>
                             <input type="text" id="comp-table-search-input" class="comp-search-input" placeholder="${ind.sector} 내 종목명 또는 코드 검색 (총 ${(ind.companies || []).length}개)..." oninput="window.filterCompanyTableRows(this.value)">
                         </div>
+                        <button class="comp-sort-toggle-btn" onclick="window.toggleCompSortDirection()" title="시가총액 정렬 방향 전환">
+                            <i data-lucide="arrow-up-down"></i>
+                            <span>${window.compSortAsc ? '시총 오름차순 (▲)' : '시총 내림차순 (▼)'}</span>
+                        </button>
                     </div>
 
                     <div class="comp-table-wrapper">
@@ -1816,15 +1798,15 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <th class="th-sticky">기업명</th>
                                     <th class="th-num">시가총액</th>
                                     <th class="th-num th-fair-col">적정 주가<span class="th-sub-label">(동종 비교)</span></th>
-                                    <th class="th-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">매출액</th>
-                                    <th class="th-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">영업이익</th>
-                                    <th class="th-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">영업이익률</th>
-                                    <th class="th-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">PER / PBR</th>
-                                    <th class="th-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">부채비율</th>
-                                    <th class="th-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">유동비율</th>
-                                    <th class="th-center ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">재무 건전성</th>
-                                    <th class="th-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'risk' ? 'col-tab-hide' : ''}">배당수익률</th>
-                                    <th class="th-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'risk' ? 'col-tab-hide' : ''}">배당성향</th>
+                                    <th class="th-num">매출액</th>
+                                    <th class="th-num">영업이익</th>
+                                    <th class="th-num">영업이익률</th>
+                                    <th class="th-num">PER / PBR</th>
+                                    <th class="th-num">부채비율</th>
+                                    <th class="th-num">유동비율</th>
+                                    <th class="th-center">재무 건전성</th>
+                                    <th class="th-num">배당수익률</th>
+                                    <th class="th-num">배당성향</th>
                                     <th class="th-comment">애널리스트 핵심 투자 포인트</th>
                                 </tr>
                             </thead>
@@ -1836,31 +1818,11 @@ document.addEventListener('DOMContentLoaded', () => {
         let sortedCompanies = [...allCompanies];
         const isAsc = !!window.compSortAsc;
 
-        if (window.currentCompanyFilter === 'profit') {
-            sortedCompanies.sort((a, b) => {
-                const valA = parseFloat(a.opMargin) || 0;
-                const valB = parseFloat(b.opMargin) || 0;
-                return isAsc ? (valA - valB) : (valB - valA);
-            });
-        } else if (window.currentCompanyFilter === 'risk') {
-            sortedCompanies.sort((a, b) => {
-                const valA = parseFloat(a.debtRatio) || 9999;
-                const valB = parseFloat(b.debtRatio) || 9999;
-                return isAsc ? (valB - valA) : (valA - valB);
-            });
-        } else if (window.currentCompanyFilter === 'dividend') {
-            sortedCompanies.sort((a, b) => {
-                const valA = parseFloat(a.dividendYield) || 0;
-                const valB = parseFloat(b.dividendYield) || 0;
-                return isAsc ? (valA - valB) : (valB - valA);
-            });
-        } else {
-            sortedCompanies.sort((a, b) => {
-                const valA = parseMcapValue(a.marketCap);
-                const valB = parseMcapValue(b.marketCap);
-                return isAsc ? (valA - valB) : (valB - valA);
-            });
-        }
+        sortedCompanies.sort((a, b) => {
+            const valA = parseMcapValue(a.marketCap);
+            const valB = parseMcapValue(b.marketCap);
+            return isAsc ? (valA - valB) : (valB - valA);
+        });
 
         let mobileCardsHtml = '';
 
@@ -1900,10 +1862,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="fair-upside-badge ${fairPriceInfo.cssClass}">${fairPriceInfo.badgeText}</span>
                         </div>
                     </td>
-                    <td class="td-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">${c.revenue}</td>
-                    <td class="td-num bold ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">${c.operatingProfit}</td>
-                    <td class="td-num bold ${opmClass} ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">${c.opMargin}%</td>
-                    <td class="td-num ${window.currentCompanyFilter === 'risk' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">
+                    <td class="td-num">${c.revenue}</td>
+                    <td class="td-num bold">${c.operatingProfit}</td>
+                    <td class="td-num bold ${opmClass}">${c.opMargin}%</td>
+                    <td class="td-num">
                         <div style="display:flex; flex-direction:column; align-items:flex-end; gap:3px;">
                             <div>
                                 <span class="per-badge">${c.per > 0 ? c.per + '배' : '적자'}</span>
@@ -1914,11 +1876,11 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </div>
                     </td>
-                    <td class="td-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">${c.debtRatio}%</td>
-                    <td class="td-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">${c.currentRatio}%</td>
-                    <td class="td-center ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'dividend' ? 'col-tab-hide' : ''}">${riskBadge}</td>
-                    <td class="td-num bold ${divClass} ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'risk' ? 'col-tab-hide' : ''}">${c.dividendYield}%</td>
-                    <td class="td-num ${window.currentCompanyFilter === 'profit' || window.currentCompanyFilter === 'risk' ? 'col-tab-hide' : ''}">${c.payoutRatio}%</td>
+                    <td class="td-num">${c.debtRatio}%</td>
+                    <td class="td-num">${c.currentRatio}%</td>
+                    <td class="td-center">${riskBadge}</td>
+                    <td class="td-num bold ${divClass}">${c.dividendYield}%</td>
+                    <td class="td-num">${c.payoutRatio}%</td>
                     <td class="td-comment"><div class="td-comment-clamp" title="${cleanCommentAttr}">${shortComment}</div></td>
                 </tr>
             `;
